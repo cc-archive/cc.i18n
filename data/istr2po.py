@@ -7,10 +7,32 @@ import sys
 import os
 import re
 
+ERR_COUNT = 0
+WARN_COUNT = 0
+
+def verifySubstitutions(source, target):
+    """Ensure that substitution variables are carried over from the source
+    to the translated version."""
+
+    source_substs = re.findall(r'@(\S+?)@', source)
+    target_substs = re.findall(r'@(\S+?)@', target)
+
+    missing = [n for n in source_substs
+               if n not in target_substs]
+
+    if len(missing) > 0:
+        raise KeyError("The substitution strings %s were not properly translated." % ", ".join(missing))
+
+    
+    return True
+
 def loadFiles(dirPath):
     """Read all .html files from the specified [dirPath] and return a
     dictionary mapping file names (sans .html) to contents."""
 
+    global ERR_COUNT
+    global WARN_COUNT
+    
     # initialize the string buffer
     buffer = {}
     
@@ -23,6 +45,29 @@ def loadFiles(dirPath):
 
         f = file(os.path.join(dirPath, fname))
         s = f.read()
+
+        try:
+            source = file(os.path.join(os.path.sep.join(
+                dirPath.split(os.path.sep)[:-1]), 'en', fname)).read()
+
+            verifySubstitutions(source, s)
+        except KeyError, e:
+            print
+            print "*" * 40
+            print "The file %s raised the following exception:" % \
+                  os.path.join(dirPath, fname)
+            print str(e)
+
+            WARN_COUNT = WARN_COUNT + 1
+            
+        except IOError, e:
+            print
+            print "/" * 40
+            print "Unable to validate string %s for locale %s." % (
+                fname, dirPath)
+
+            ERR_COUNT = ERR_COUNT + 1
+            
         s = re.sub(r'"',r'\\"',s) # escapes " character
         s = re.sub(r'\r\n',r'\n',s) # removes line feeds
         s = re.sub(r'\s+$',r'',s) # removes space at the end of the line
@@ -82,3 +127,6 @@ if __name__ == '__main__':
         pofile = file('icommons-'+dir+'.po','w+')
         pofile.write(buf)
 
+    print "Errors: ", ERR_COUNT
+    print "Warnings: ", WARN_COUNT
+    
