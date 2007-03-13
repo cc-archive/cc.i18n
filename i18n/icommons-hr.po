@@ -88,6 +88,9 @@ msgstr "Ako prerađujete kopiju ili kopije programa ili bilo kojeg njegovog dije
 msgid "country.ie"
 msgstr "Irska"
 
+msgid "license.License_Your_Work"
+msgstr "Licencirajte Vaše djelo"
+
 msgid "licenses.pretty_by-nc"
 msgstr "Imenovanje-Nekomercijalno"
 
@@ -123,6 +126,9 @@ msgstr "Sempliranje"
 
 msgid "lang.en_GB"
 msgstr "engleski (Velika Britanija)"
+
+msgid "deed.moralrights-remix.us"
+msgstr "Osim prava remiksiranja danih ovom licencom, ništa u ovoj licenci ne narušava ili ograničava autorova moralna prava."
 
 msgid "lang.pl"
 msgstr "poljski"
@@ -220,8 +226,8 @@ msgstr "Ovo je prijedlog licence objavljen radi javne rasprave. Ne upotrebljavaj
 msgid "deed.free_copy_distribute.jp"
 msgstr "umnožavati, distribuirati, izlagati, izvoditi, predstavljati, javno emitirati i recitirati djelo"
 
-msgid "license.pd_choice"
-msgstr "<p>Vaš izbor sugerira da želite Vaše djelo prenijeti na javnu domenu, Javna domena je područje dobara - takozvanih commons - gdje nema vlasništva nad dobrom i sve je dopušteno.</p>\n\n<p>Prenošenje na javnu domenu nije licenca. Koristeći ga ne stvarate samo iznimke od Vaših prava predviđenih Zakonom o autorskom pravu, već bez uvjeta prepuštate sva Vaša autorska prava javnosti. To prepuštanje je trajno i nepovratno.</p>"
+msgid "char.nd_description"
+msgstr "Davatelj licence dopušta umnožavanje, distribuiranje i priopćavanje javnosti samo neizmijenjenih kopija djela - ali ne i prerada zasnovanih na djelu."
 
 msgid "util.Audio"
 msgstr "Audio"
@@ -307,6 +313,9 @@ msgstr "Ovo je svima čitljiv sažetak <a href=\"legalcode\" class=\"fulltext\">
 msgid "util.proceed"
 msgstr "dalje"
 
+msgid "licenses.pretty_by"
+msgstr "Imenovanje"
+
 msgid "license.LGPL_name_full"
 msgstr "GNU Manja opća javna licenca"
 
@@ -321,9 +330,6 @@ msgstr "engleski"
 
 msgid "util.Yes"
 msgstr "Da"
-
-msgid "blog.byline"
-msgstr "Objavio ${author} dana ${date}"
 
 msgid "license.jurisdiction_help"
 msgstr "Ako želite licencu koja je usklađena sa zakonom o autorskom pravu nekog drugog nacionalnog pravnog sustava, molimo Vas da izaberete pravni sustav."
@@ -370,8 +376,8 @@ msgstr "Vaša licenca za sempliranje"
 msgid "deed.gpl_title"
 msgstr "${license_name_full}, <a href=\"http://www.gnu.org/\">Fondacija za slobodni softver</a>."
 
-msgid "util.Developing_Nations"
-msgstr "Zemlje u razvoju"
+msgid "license.devnations_licensed"
+msgstr "Ovo djelo je licencirano pod <a href=\"${license_url}\">Creative Commons licencom za zemlje u razvoju</a>."
 
 msgid "license.what"
 msgstr "S Creative Commons licencom <strong>zadržavate Vaša autorska prava</strong>, ali omogućujete drugima da <a href=\"/learn/licenses/fullrights\">umnožavaju i distribuiraju Vaše djelo</a> pod uvjetom da Vam <a href=\"/characteristic/by?lang=hr\" onclick=\"window.open('/characteristic/by?lang=hr', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">imenovanjem daju priznanje</a> - i pod uvjetima koje ćete ovdje specificirati. Ako želite ponuditi svoje djelo bez uvjeta, izaberite <a href=\"publicdomain-2?lang=hr\">javnu domenu</a>."
@@ -381,9 +387,6 @@ msgstr "Morate priznati i označiti izvornog autora i izvođača."
 
 msgid "license.learn_host"
 msgstr "Saznajte o drugim mjestima na kojima možete hostati Vaše licencirane datoteke. Te stranice funkcioniraju s Vašom Creative Commons licencom."
-
-msgid "license.publicize_directions"
-msgstr "<h1>Promovirajte i dijelite Vaše djelo</h1>\n\n<p>Ako ste ispravno označili Vaš sadržaj, onda će pretraživači moći pomoći drugima da ga pronađu. Također, razvio se čitav niz velikih arhiva koji su specifično namijenjeni Creative Commons sadržajima. Između ostalih:</p>\n\n<h2>Registri i hosting prostori</h2>\n\n<table border=\"0\" cellpadding=\"4\" style=\"margin:8px;\">\n<tr valign=\"top\">\n        <td align=\"right\"><a href=\"http://commoncontent.org/\"><img src=\"/images/license/commoncontent.gif\" hspace=\"4\" vspace=\"6\"  border=\"0\" alt=\"Common Content logo\" /></a></td>\n        <td><a href=\"http://commoncontent.org/\">Common Content</a> je indeks i registar sadržaja koji su zaštićeni Creative Commons licencama.\n\n</td>\n</tr>\n<tr valign=\"top\">\n        <td align=\"right\"><a href=\"http://archive.org/audio/collection.php?collection=opensource_audio\"><img src=\"/images/license/ia.jpg\" hspace=\"4\" vspace=\"8\" border=\"0\" alt=\"Internet Archvie logo\" /></a></td>\n        <td>Archive.org sa svojim <a href=\"http://archive.org/audio/collection.php?collection=opensource_audio\">open source audiom</a> i <a href=\"http://archive.org/movies/opensource_movies.php\">open source filmovima</a> nudi registar i besplatan hosting za zvučne i filmske sadržaje koji su zaštićeni Creative Commons licencama.</td>\n</tr>\n</table>\n\n<h2>Sistemi plaćananja i donacija</h2>\n\n<table border=\"0\" cellpadding=\"4\" style=\"margin:8px;\">\n<tr valign=\"top\">\n        <td align=\"right\" width=\"160\"><a href=\"http://www.bitpass.com/\"><img src=\"/images/license/bitpass.gif\" hspace=\"4\" vspace=\"8\" border=\"0\" alt=\"Bitpass logo\" /></a></td>\n        <td><a href=\"http://www.bitpass.com/\">BitPass</a> nudi sustav micro-paymenta koji Vam omogućuje primanje donacija ili plaćanja za Vaše djelo.</td>\n</tr>\n</table>"
 
 msgid "license.get_html_email"
 msgstr "Prekopirajte HTML ili pošaljite si ga e-mailom"
@@ -530,16 +533,13 @@ msgid "license.enter_information"
 msgstr "unesite podatke"
 
 msgid "char.by_brief"
-msgstr "Morate priznati i označiti autorstvo djela na način kako je specificirao autor ili davatelj licence."
+msgstr "Morate priznati i označiti autorstvo djela na način kako je specificirao autor ili davatelj licence (ali ne način koji bi sugerirao da Vi ili Vaše korištenje njihova djela ima njihovu izravnu podršku)."
 
 msgid "license.hide_optional_fields"
 msgstr "Sakrij otvorena polja (sva polja su opcionalna)"
 
 msgid "deed.gpl_notice"
 msgstr "Na svakoj distribuiranoj kopiji morate vidljivo i primjereno istaknuti odgovarajuće upozorenje o autorskom pravu i obavijest o odsustvu jamstava i ostaviti netaknuta sva upozorenja koja se odnose na ovu Licencu i na odsustvo jamstava, a svakom drugom primatelju Programa dati kopiju licence ${license_name_full} zajedno s Programom. Svakom prijevodu licence ${license_name_full} mora biti priložena licenca ${license_name_full}."
-
-msgid "license.devnations_licensed"
-msgstr "Ovo djelo je licencirano pod <a href=\"${license_url}\">Creative Commons licencom za zemlje u razvoju</a>."
 
 msgid "license.GPL_name_full"
 msgstr "GNU Opća javna licenca"
@@ -552,6 +552,9 @@ msgstr "afrikans"
 
 msgid "char.nc_brief"
 msgstr "Ovo djelo ne smijete koristiti u komercijalne svrhe."
+
+msgid "deed.moralrights"
+msgstr "Ništa u ovoj licenci ne narušava ili ograničava autorova moralna prava."
 
 msgid "lang.fr_CA"
 msgstr "francuski (Kanada)"
@@ -751,6 +754,9 @@ msgstr "Ili se možete <a href=\"./?lang=hr\">vratiti na pitanja</a>."
 msgid "util.confirm"
 msgstr "potvrdite"
 
+msgid "char.sa_bysa30_brief"
+msgstr "Ako ovo djelo izmijenite, preoblikujete ili stvarate koristeći ga, novonastalo djelo možete distribuirati pod istom, sličnom ili kompatibilnom licencom."
+
 msgid "licenses.pretty_sa"
 msgstr "Dijeli pod istim uvjetima"
 
@@ -787,8 +793,8 @@ msgstr "djelo"
 msgid "deed.gpl_freedoms"
 msgstr "The ${license_name_full} je licenca za <a href=\"http://www.gnu.org/philosophy/free-sw.hr.html\">slobodni softver</a>. Kao i svaka druga licenca za slobodni softver, ona Vam pruža sljedeće četiri slobode:"
 
-msgid "char.nd_description"
-msgstr "Davatelj licence dopušta umnožavanje, distribuiranje i priopćavanje javnosti samo neizmijenjenih kopija djela - ali ne i prerada zasnovanih na djelu."
+msgid "license.pd_choice"
+msgstr "<p>Vaš izbor sugerira da želite Vaše djelo prenijeti na javnu domenu, Javna domena je područje dobara - takozvanih commons - gdje nema vlasništva nad dobrom i sve je dopušteno.</p>\n\n<p>Prenošenje na javnu domenu nije licenca. Koristeći ga ne stvarate samo iznimke od Vaših prava predviđenih Zakonom o autorskom pravu, već bez uvjeta prepuštate sva Vaša autorska prava javnosti. To prepuštanje je trajno i nepovratno.</p>"
 
 msgid "licenses.pretty_sampling"
 msgstr "Sempliranje"
@@ -811,8 +817,8 @@ msgstr "Koristiti djelo za stvaranje semplova, mash-upova ili drugih prerada u n
 msgid "licenses.pretty_nc-sampling+"
 msgstr "Nekompercijalno sempliranje plus"
 
-msgid "licenses.pretty_by"
-msgstr "Imenovanje"
+msgid "util.Developing_Nations"
+msgstr "Zemlje u razvoju"
 
 msgid "char.no_brief"
 msgstr "Ne smijete izvoditi, izlagati ili distribuirati kopije cjeline ovog djela ni u koju svrhu."
