@@ -59,7 +59,7 @@ msgid "country.in"
 msgstr "印度"
 
 msgid "license.how_it_works"
-msgstr "這裡將說明這到底是怎麼一回事：當使用者按下創用 CC 的圖像時，就能獲得您的\n「<a href=\"${license_url}\">授權標章</a>」──授權條款讓一般人易於了解的版本。從那裡她能連結到「<a href=\"${license_url}legalcode\">法律條款</a>」──在這底下將提供您實際上的授權條款內容。而隱藏在這個標籤下的是「<a href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open('work-html-popup?${url_vars}', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">機器可辨讀的數位標籤</a>」──後設資料 (metadata) ──這將能使他人得以找到您的著作內容。您也可以在我們的漫畫裡找到<a href=\"/learn/licenses/how1\">這整個過程的圖解</a>。"
+msgstr "在此將說明這到底是怎麼一回事：當使用者按下創用 CC 的圖像時，就能獲得您的\n「<a href=\"${license_url}\">授權標章</a>」──也就是一般人較易於理解的授權條款；從授權標章可連結到「<a href=\"${license_url}legalcode\">法律條款</a>」──也就是您著作實際使用的授權條款內容；此外還有隱藏在標籤裡、機器可辨讀的「<a href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open('work-html-popup?${url_vars}', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">數位標籤</a>」──後設資料 (metadata) ──這使他人得以找到您的著作。您也可以在我們的漫畫裡找到<a href=\"/learn/licenses/how1\">整個過程的圖解</a>。"
 
 msgid "country.it"
 msgstr "義大利"
@@ -97,8 +97,11 @@ msgstr "告訴我們您的著作格式:"
 msgid "country.cl"
 msgstr "智利"
 
+msgid "lang.nso"
+msgstr "北索托語"
+
 msgid "deed.disclaimer.jp"
-msgstr "<p>\n授權標章 (Commons Deed) 並非授權條款，僅是讓一般人易於理解法律條款 (Legal Code，即完整的授權條款) 的參考文件──它是讓一般人易於了解的某些關鍵字的表達。您可把授權標章想成是法律條款之下、對使用者友善的一種介面。授權標章本身不具任何法律價值，且其內容亦不會出現在實際的授權條款中。<a href=\"legalcode\" class=\"fulltext\">請按此處察看完整的授權條款</a>。\n</p>\n\n<p>\nCreative Commons 及日本 Creative Commons 不是法律事務所；散布、展示或連結到授權標章不構成法律意見的要約或任何其他法律服務。 Creative Commons 及日本 Creative Commons 不是授權標章底下的授權條款的一方當事人，並免責於因任何使用授權標章及其底下授權條款所產生的損害。\n</p>\n\n<p>\n依據創用 CC 授權條款所授權的產品係由適用於此授權條款之人所提供； Creative Commons 及日本 Creative Commons 並不擔保授權人有合法之權利。關於授權條款之適用，以及使用依據創用 CC 授權條款所授權之產品的資訊，請閱讀<a href=\"http://creativecommons.jp/faq/\">此處</a>。\n</p>"
+msgstr "<p>\n授權標章 (Commons Deed) 並非授權條款，僅是讓一般人容易了解法律條款 (Legal Code，即完整的授權條款) 的參考文件、以易於理解的方式表達條款中某些關鍵字。授權標章本身不具法律價值，其內容亦不會出現在實際的授權條款中。<a href=\"legalcode\" class=\"fulltext\">請按此處察看完整的授權條款</a>。\n</p>\n\n<p>\nCreative Commons 及日本 Creative Commons 不是法律事務所；散布、展示或連結到授權標章不構成法律意見的要約或任何其他法律服務。 Creative Commons 及日本 Creative Commons 不是授權標章底下的授權條款的一方當事人，並免責於因任何使用授權標章及其底下授權條款所產生的損害。\n</p>\n\n<p>\n依據創用 CC 授權條款所授權的產品係由適用於此授權條款之人所提供； Creative Commons 及日本 Creative Commons 並不擔保授權人有合法之權利。關於授權條款之適用，以及使用依據創用 CC 授權條款所授權之產品的資訊，請閱讀<a href=\"http://creativecommons.jp/faq/\">此處</a>。\n</p>"
 
 msgid "license.publish_audio_ia"
 msgstr "在 Internet Archive 上發表您所授權的音樂"
@@ -184,9 +187,6 @@ msgstr "英語"
 msgid "lang.eo"
 msgstr "世界語"
 
-msgid "blog.byline"
-msgstr "由${author}在${date}发布"
-
 msgid "license.jurisdiction_help"
 msgstr "如果您想要受到某個特定司法管轄領域著作權法所約束的授權條款，請選擇此一適當的司法管轄領域。"
 
@@ -224,7 +224,7 @@ msgid "license.what"
 msgstr "透過創用 CC 授權條款，<strong>您不但可以保留您的著作權</strong>，同時允許人們<a href=\"/learn/licenses/fullrights\">得以重製及散布您的著作</a>，惟需<a href=\"/characteristic/by?lang=${lang}\" onclick=\"window.open('/characteristic/by?lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">保留您的姓名標示</a>──並遵循您在此所具體指明之條件；如果您對於創用 CC 授權條款還不熟悉，我們也備妥了<a href=\"/about/think\">一份您該考慮的事項清單</a>。若您希望將您的著作毫無條件地釋出，請選用<a href=\"publicdomain-2\">公共領域 (public domain)</a> 。"
 
 msgid "char.by_brief.jp"
-msgstr "您必須保留原作者及表演人的姓名標示。"
+msgstr "您必須表彰原作者及表演人之姓名。"
 
 msgid "license.learn_host"
 msgstr "認識其他能夠存放這些被您所授權的檔案的處所。這些網站都能跟您所選擇的創用 CC 授權條款合作愉快。"
@@ -232,8 +232,8 @@ msgstr "認識其他能夠存放這些被您所授權的檔案的處所。這些
 msgid "license.get_html_email"
 msgstr "取得 HTML 原始碼並透過電子郵件將它寄給您自己"
 
-msgid "util.Interactive"
-msgstr "互動式媒體"
+msgid "util.Try_again"
+msgstr "請再試一次！"
 
 msgid "util.Next_step"
 msgstr "下一步："
@@ -246,6 +246,9 @@ msgstr "送出"
 
 msgid "jargon.source_work_description"
 msgstr "衍生著作所依據的來源著作。"
+
+msgid "lang.zu"
+msgstr "祖魯語"
 
 msgid "license.pd_confirmation_email"
 msgstr "您在我們的網站上，選擇要將您的著作「${title}」貢獻至公共領域 (public domain) 。我們寄送這封電子郵件是要確認您確實有意要這麼做。如果您並無此打算的話，可以選擇單純地忽略這封電子郵件，或將其轉寄至 pd@creativecommons.org ，讓我們知道有人正在濫用我們的系統。若您確實要將著作貢獻至公共領域的話，請點選下列的鏈結；當您點選該鏈結後，將會看到一份摘要頁面和最後的機會，讓您確認是否要將著作貢獻到公共領域： ${clickthrough_url} 如果您有任何疑問，也歡迎寄電子郵件至 pd@creativecommons.org 以讓我們知道。感謝您使用創用 CC!"
@@ -394,8 +397,8 @@ msgstr "相同方式分享"
 msgid "license.have_your_own_website"
 msgstr "您有自己的網站嗎？"
 
-msgid "util.Try_again"
-msgstr "請再試一次！"
+msgid "util.Interactive"
+msgstr "互動式媒體"
 
 msgid "licenses.pretty_nc-sa"
 msgstr "非商業性-相同方式分享"
@@ -518,7 +521,7 @@ msgid "api.derivatives"
 msgstr "是否允許他人改作您的著作?"
 
 msgid "license.fsf_how_it_works"
-msgstr "這裡將說明創用 CC-GNU ${license_code} 到底是怎麼一回事：當使用者按下創用 CC 的圖像時，就能獲得獲得創用 CC-GNU ${license_code} 的「<a href=\"/licenses/${license_code}/${version_title}/\">授權標章</a>」──授權條款讓一般人易於了解的版本。從那裡她能連結到「<a href=\"http://www.gnu.org/copyleft/${license_name_lower}.html\">法律條款</a>」──英語及<a href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">葡萄牙語</a>版的完整 GNU GPL 條文內容。而隱藏在這個標籤下的是「機器可辨讀的數位標籤」──後設資料 (metadata) ──這將能使他人得以找到您的軟體。"
+msgstr "在此將說明創用 CC-GNU ${license_code} 到底是怎麼一回事：當使用者按下創用 CC 的圖像時，就能獲得獲得創用 CC-GNU ${license_code} 的「<a href=\"/licenses/${license_code}/${version_title}/\">授權標章</a>」──也就是一般人較易於理解的授權條款。從授權標章可連結到「<a href=\"http://www.gnu.org/copyleft/${license_name_lower}.html\">法律條款</a>」──英語及<a href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">葡萄牙語</a>版的完整 GNU GPL 條文內容。此外還有隱藏在標籤裡、機器可辨讀的「數位標籤」──後設資料 (metadata) ──這使他人得以找到您的軟體。"
 
 msgid "util.copyright_holders_name"
 msgstr "<a href=\"/jargon/copyright\" class=\"jargon\" onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;\">著作權</a>人姓名"
@@ -539,7 +542,7 @@ msgid "deed.permission.jp"
 msgstr "如果您取得本著作著作權人之許可，這些條件中任一項都能被免除。"
 
 msgid "license.sampling_explain"
-msgstr "<div style=\"float:right;width:175px;border:1px solid #ccc;padding:8px;margin:0px 14px 10px 14px;background:#eee;\">想要<a href=\"/about/sampling\">知道更多關於取樣授權條款的資訊</a>，以及 Negativland 如何幫助我們寫出這些資訊嗎？想瞧瞧<a href=\"/about/licenses/sampling\">用漫畫表示</a>的取樣授權條款說明嗎？</div>\n\n<p>取樣授權條款讓您可以邀請其他人來利用您著作的某一部分，並賦予它嶄新的面貌。</p>\n\n<p>例如：</p>\n\n<ul>\n<li>從您的歌曲中取樣，並放入他們自己所創作的歌曲中。</li>\n<li>使用您影片中的一段剪輯。</li>\n<li>從您的攝影作品中擷取一部份，並將其放入美術拼貼作品中。</li>\n</ul>\n\n<p>把取樣授權想成獎勵他人改作您的著作，並使其以嶄新面貌呈現的一種方式。</p>\n\n<p>在這些情況下，取樣授權條款正是您所需要的。一共有三種「取樣授權」的方式，請選擇一種能反映您創作風格的來使用：</p>"
+msgstr "<div style=\"float:right;width:175px;border:1px solid #ccc;padding:8px;margin:0px 14px 10px 14px;background:#eee;\">想要<a href=\"/about/sampling\">知道更多關於取樣授權條款的資訊</a>，以及 Negativland 如何幫助我們寫出這些資訊嗎？想瞧瞧<a href=\"/about/licenses/sampling\">用漫畫表示</a>的取樣授權條款說明嗎？</div>\n\n<p>取樣授權條款讓您可以邀請其他人來利用您著作的某一部分，並賦予它嶄新的面貌。</p>\n\n<p>例如：</p>\n\n<ul>\n<li>從您的歌曲中取樣，並放入他們自己所創作的歌曲中。</li>\n<li>使用您影片中的一段剪輯。</li>\n<li>從您的攝影作品中擷取一部份，並將其放入美術拼貼作品中。</li>\n</ul>\n\n<p>把取樣授權想成獎勵他人改作您的著作，並使其以嶄新面貌呈現的一種方式。</p>\n\n<p>在這些情況下，取樣授權條款正是您所需要的。一共有兩種「取樣授權」的方式，請選擇一種能反映您創作風格的來使用：</p>"
 
 msgid "lang.bg"
 msgstr "保加利亞語"
@@ -555,6 +558,9 @@ msgstr "取樣，混合，或為商業或非商業目的以其他方式有創造
 
 msgid "country.pt"
 msgstr "葡萄牙"
+
+msgid "lang.mk"
+msgstr "馬其頓語"
 
 msgid "country.pl"
 msgstr "波蘭"
@@ -596,7 +602,7 @@ msgid "license.view_explanation"
 msgstr "檢視我們所有授權條款的詳細解釋。"
 
 msgid "jargon.copyright_description"
-msgstr "著作權。政府為鼓勵創作而給予的一套有限的獨佔權利。所謂的著作權包含了重製、散布、公開展示、公開演出、公開上映、公開播送、公開傳輸、公開口述、發行及改作的權利；同時亦包含了排除或防止著作權侵害的權利，以及讓與或授權他人行使這些權利的權利。著作權並不適用於事實或概念，而是適用於這些事實或概念的原始表達。"
+msgstr "著作權是政府為鼓勵創作而給予的一套有限的獨佔權利。所謂的著作權包含了重製、散布、公開展示、公開演出、公開上映、公開播送、公開傳輸、公開口述、發行及改作的權利；同時亦包含了排除或防止著作權侵害的權利，以及讓與或授權他人行使這些權利的權利。著作權並不適用於事實或概念，而是適用於這些事實或概念的原始表達。"
 
 msgid "deed.lgpl_under_conditions"
 msgstr "只要您遵守此授權條款明示的條件，您即得運用此處具體指明的自由。 LGPL 是為了軟體函式庫，而非可執行的程式所設計。主要的條件為："
@@ -703,9 +709,6 @@ msgstr "${license_name_full}, <a href=\"http://www.gnu.org/\">自由軟體基金
 msgid "license.devnations_licensed"
 msgstr "本著作係採用<a href=\"${license_url}\">創用 CC 開發中國家授權條款</a>授權。"
 
-msgid "license.publicize_directions"
-msgstr "<h1>发表并共享您的作品</h1>\n\n<p>如果您正确地标注了您的作品，搜索引擎就可以帮助他人查找到它。另外，有些做得非常出色的互联网档案馆已经特别标出了采用知识共享许可协议的内容。这些网站包括：</p>\n\n<h2>登记与存放空间</h2>\n\n<table border=\"0\" cellpadding=\"4\" style=\"margin:8px;\">\n<tr valign=\"top\">\n        <td align=\"right\"><a href=\"http://commoncontent.org/\"><img src=\"/images/license/commoncontent.gif\" hspace=\"4\" vspace=\"6\"  border=\"0\" alt=\"Common Content logo\" /></a></td>\n        <td><a href=\"http://commoncontent.org/\">Common Content</a>Common Content是采用知识共享许可协议的作品的登记处和目录。</td>\n</tr>\n<tr valign=\"top\">\n        <td align=\"right\"><a href=\"http://archive.org/audio/collection.php?collection=opensource_audio\"><img src=\"/images/license/ia.jpg\" hspace=\"4\" vspace=\"8\" border=\"0\" alt=\"Internet Archvie logo\" /></a></td>\n        <td>Archive网站的<a href=\"http://archive.org/audio/collection.php?collection=opensource_audio\">开源音频</a>和<a href=\"http://archive.org/movies/opensource_movies.php\">开源电影</a>为采用知识共享许可协议的音频作品和视频作品提供登记处和免费存放空间。</td>\n</tr>\n</table>\n\n<h2>支付与捐助系统</h2>\n\n<table border=\"0\" cellpadding=\"4\" style=\"margin:8px;\">\n<tr valign=\"top\">\n        <td align=\"right\" width=\"160\"><a href=\"http://www.bitpass.com/\"><img src=\"/images/license/bitpass.gif\" hspace=\"4\" vspace=\"8\" border=\"0\" alt=\"Bitpass logo\" /></a></td>\n        <td><a href=\"http://www.bitpass.com/\">BitPass</a> 提供一个小额支付系统，使您可以就您的作品接受捐助或者支付。</td>\n</tr>\n</table>"
-
 msgid "lang.es_CL"
 msgstr "西班牙語 (智利)"
 
@@ -782,7 +785,7 @@ msgid "api.commercial"
 msgstr "是否允許您的著作被使用於商業目的?"
 
 msgid "char.by_brief"
-msgstr "您必須按照作者或授權人所指定的方式，保留其姓名標示；但不得誤導使用者或讀者，使其誤以為作者或授權人為您或您對其著作之使用背書。"
+msgstr "您必須按照作者或授權人所指定的方式，表彰其姓名；但不得以任何方式暗示其為您（或您使用該著作的方式）背書。"
 
 msgid "license.hide_optional_fields"
 msgstr "隱藏這些欄位（所有這些欄位都是可選擇性填寫的）"
@@ -819,6 +822,9 @@ msgstr "德國"
 
 msgid "country.dk"
 msgstr "丹麥"
+
+msgid "deed.retired"
+msgstr "此授權條款已經<a href=\"/retiredlicenses\">棄用</a>，請不要為新作品選用此方式授權。"
 
 msgid "country.ca"
 msgstr "加拿大"
@@ -886,6 +892,9 @@ msgstr "美國建國者著作權 (Founder's Copyright)"
 msgid "license.select_text"
 msgstr "選擇並複製上面框框中的內容，或將該內容<a href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open('work-html-popup?${url_vars}', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">以電子郵件寄給您自己</a>。"
 
+msgid "license.after_support_cc"
+msgstr "發表授權條款後，也請考慮<a href=\"http://creativecommons.org/support/\">支持 Creative Commons</a>。"
+
 msgid "char.by_description"
 msgstr "授權人允許他人重製、散布、展示、演出本著作。相對的，被授權人必須按照作者或授權人所指定的方式，保留原作者的姓名標示。"
 
@@ -908,7 +917,10 @@ msgid "license.or_return"
 msgstr "或者，您能<a href=\"./\">回到問題部分</a>。"
 
 msgid "char.sa_bysa30_brief"
-msgstr "若您改變、轉變或改作本著作，僅在遵守與本著作相同、相似或相容的授權條款下，您始得散布由本著作而生的衍生著作。"
+msgstr "若您改變、轉變或改作本著作，僅在採用與本著作相同、相似或相容的授權條款下，您始得散布由本著作而生的衍生著作。"
+
+msgid "country.mk"
+msgstr "馬其頓"
 
 msgid "license.publish_blog"
 msgstr "在您的部落格 (Blogger, Movable Type 以及 Typepad) 中加入創用 CC 授權條款"
@@ -956,10 +968,10 @@ msgid "deed.You_are_free"
 msgstr "您可自由："
 
 msgid "char.sa_brief"
-msgstr "若您改變、轉變或改作本著作，僅在遵守與本著作相同或相似的授權條款下，您始得散布由本著作而生的衍生著作。"
+msgstr "若您改變、轉變或改作本著作，當散布該衍生著作時，您需採用與本著作相同或類似的授權條款。"
 
 msgid "deed.notice"
-msgstr "為再使用或散布本著作，您必須向他人清楚說明本著作所適用的授權條款。"
+msgstr "為再使用或散布本著作，您必須向他人清楚說明本著作所適用的授權條款。（提供本網頁連結便是最好的方式。）"
 
 msgid "license.lawyer-readable_legal_code"
 msgstr "供律師閱讀的<br />法律條款"
