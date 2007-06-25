@@ -55,8 +55,8 @@ msgstr "back to <a href=\"/\">Creative Commons</a>"
 msgid "license.fsf_how_it_works"
 msgstr "Here's how the CC-GNU ${license_code} works: A user clicking on the Creative Commons icon gets the CC-GNU ${license_code} \"<a href=\"/licenses/${license_code}/${version_title}/\">Commons Deed</a>\" — a human readable version of the license. From that she can link to \"<a href=\"http://www.gnu.org/copyleft/${license_name_lower}.html\">Legal Code</a>\" — the full text of the GNU ${license_code}, in English and <a href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">Portuguese</a>. And hidden in the tag is \"Machine-Readable Code\" — metadata — that will enable others to find your software."
 
-msgid "util.copyright_holders_name"
-msgstr "<a href=\"/jargon/copyright\" class=\"jargon\" onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;\">copyright</a> holder's name"
+msgid "deed.bsd_notice"
+msgstr "You must retain the license terms and copyright notice in any source code distribution and reproduce them in documentation for binary distributions."
 
 msgid "licenses.pretty_nd"
 msgstr "NoDerivs"
@@ -74,7 +74,7 @@ msgid "license.work_type_licensed"
 msgstr "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>."
 
 msgid "license.rdfa_licensed_no_title"
-msgstr "This ${work_type} by ${work_author} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+msgstr "This ${work_type} by ${work_author} is licensed under a <a rel=\\"license\\" href=\\"${license_url}\\">Creative Commons ${license_name} License</a>."
 
 msgid "license.human-readable_commons_deed"
 msgstr "Human-Readable<br />\nCommons Deed"
@@ -187,8 +187,8 @@ msgstr "Under the following conditions:"
 msgid "license.machine-readable_digital_code"
 msgstr "Machine-Readable<br />\nDigital Code"
 
-msgid "license.selected"
-msgstr "You have selected the Creative Commons ${license_pretty_name} License${country_name}. <a href=\"${license_url}\">See how the license will look</a> to your site's visitors."
+msgid "util.copyright_holders_name"
+msgstr "<a href=\"/jargon/copyright\" class=\"jargon\" onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;\">copyright</a> holder's name"
 
 msgid "license.view_explanation"
 msgstr "View an explanation of all our licenses."
@@ -424,11 +424,14 @@ msgstr "confirm choice"
 msgid "license.sampling_a_nc-sampling+"
 msgstr "<strong>Noncommercial Sampling Plus</strong>: People can take and transform <strong>pieces</strong> of your work for <strong>noncommercial</strong> purposes only. <strong>Noncommercial</strong> copying and distribution (like file-sharing) of the <strong>entire work</strong> are also allowed."
 
+msgid "license.selected"
+msgstr "You have selected the Creative Commons ${license_pretty_name} License${country_name}. <a href=\"${license_url}\">See how the license will look</a> to your site's visitors."
+
 msgid "util.Video"
 msgstr "Video"
 
 msgid "license.rdfa_licensed_no_attrib"
-msgstr "${work_title} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+msgstr "${work_title} is licensed under a <a rel=\\"license\\" href=\\"${license_url}\\">Creative Commons ${license_name} License</a>."
 
 msgid "country.hu"
 msgstr "Hungary"
@@ -457,14 +460,8 @@ msgstr "You must give the original author and the performer credit."
 msgid "license.learn_host"
 msgstr "Learn about other places you can host your licensed files. These sites work with your Creative Commons license."
 
-msgid "lang.es_CO"
-msgstr "Spanish (CO)"
-
 msgid "license.get_html_email"
 msgstr "Get HTML and email it to yourself"
-
-msgid "country.gr"
-msgstr "Greece"
 
 msgid "util.Interactive"
 msgstr "Interactive"
@@ -634,6 +631,9 @@ msgstr "The freedom to study how the program works and adapt it to your needs."
 msgid "lang.af"
 msgstr "Afrikaans"
 
+msgid "deed.mit_notice"
+msgstr "The copyright notice and license shall be included in all copies or\nsubstantial portions of the software."
+
 msgid "char.nc_brief"
 msgstr "You may not use this work for commercial purposes."
 
@@ -719,7 +719,7 @@ msgid "country.cz"
 msgstr "Czech Republic"
 
 msgid "license.rdfa_licensed"
-msgstr "${work_title} by ${work_author} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+msgstr "${work_title} by ${work_author} is licensed under a <a rel=\\"license\\" href=\\"${license_url}\\">Creative Commons ${license_name} License</a>."
 
 msgid "licenses.pretty_by-nc-sa"
 msgstr "Attribution-NonCommercial-ShareAlike"
@@ -759,6 +759,9 @@ msgstr "copyright"
 
 msgid "license.non_web_statement"
 msgstr "This work is licensed under the Creative Commons ${license_name} License. To view a copy of this license, visit ${license_url} or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA."
+
+msgid "deed.no_endorsement"
+msgstr "<strong>No Endorsement</strong>. The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission."
 
 msgid "util.Music_Sharing"
 msgstr "Music Sharing"
