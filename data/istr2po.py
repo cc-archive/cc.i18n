@@ -126,7 +126,19 @@ if __name__ == '__main__':
             
         pofile = file('icommons-'+dir+'.po','w+')
         pofile.write(buf)
+        pofile.close()
+
+    for dir in dirnames:
+
+        # compile the po file
+        path = 'locales/%s/LC_MESSAGES'
+        if not os.path.exists(path % dir):
+            os.makedirs(path % dir, mode=0755)
+        outfile = os.path.join(path % dir, 'icommons.mo')
+        import subprocess
+        assert subprocess.call(['msgfmt', '-o', outfile, 'icommons-%s.po' % dir]) == 0
+        
 
     print "Errors: ", ERR_COUNT
     print "Warnings: ", WARN_COUNT
-    
+
