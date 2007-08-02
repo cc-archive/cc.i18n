@@ -43,8 +43,8 @@ msgstr "tillbaka till <a href=\"/\">Creative Commons</a>"
 msgid "license.fsf_how_it_works"
 msgstr "Så här fungerar CC-GNU ${license_code}: Genom att klicka på Creative Commons ikonen ser användaren CC-GNU ${license_code} \"<a href=\"/licenses/${license_code}/${version_title}/\">Commons Deed</a>\" — en lättläst version av licensen. Från den kan hon länka till \"<a href=\"http://www.gnu.org/licenses/old-licenses/${license_name_lower}.html\">Licensen</a>\" — GNU ${license_code} i fulltext, på engelska och <a href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">Portugisiska</a>. Gömd tillsammans med detta är \"Maskinläsbar kod\" — metadata — som hjälper andra hitta din programvara."
 
-msgid "util.copyright_holders_name"
-msgstr "<a href=\"/jargon/copyright\" class=\"jargon\" onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;\">upphovsrättsinnehavarens</a> namn"
+msgid "deed.bsd_notice"
+msgstr "Du måste bevara licensvillkoren och meddelandet om upphovsrätt vid distribution av källkod och reproducera dem i dokumentationen vid distribution av exekverbara filer."
 
 msgid "licenses.pretty_nd"
 msgstr "IngaBearbetningar"
@@ -85,6 +85,9 @@ msgstr "Om du modifierar din kopia eller kopior av programmet eller någon del a
 msgid "country.ie"
 msgstr "Irland"
 
+msgid "license.License_Your_Work"
+msgstr "Licensiera ditt verk"
+
 msgid "licenses.pretty_by-nc"
 msgstr "Erkännande-IckeKommersiell"
 
@@ -118,11 +121,17 @@ msgstr "Filippinerna"
 msgid "char.na_brief"
 msgstr "Du får inte använda verket vid annonsering eller marknadsföring av något annat än verk som du skapat av verket."
 
+msgid "country.pe"
+msgstr "Peru"
+
 msgid "util.Sampling"
 msgstr "Sampling"
 
 msgid "lang.en_GB"
 msgstr "engelska (GB)"
+
+msgid "deed.moralrights-remix.us"
+msgstr "Förutom remix-rättigheterna som följer av denna licens skall inget i denna licens begränsa upphovsmannens ideella rätt."
 
 msgid "lang.pl"
 msgstr "polska"
@@ -151,8 +160,8 @@ msgstr "På följande villkor:"
 msgid "license.machine-readable_digital_code"
 msgstr "Maskinläsbar<br />\nDigital Kod"
 
-msgid "license.selected"
-msgstr "Du har valt Creative Commons ${license_pretty_name} License${country_name}. <a href=\"${license_url}\">Se hur licensen kommer att se ut</a> för besökare till dina websidor."
+msgid "util.copyright_holders_name"
+msgstr "<a href=\"/jargon/copyright\" class=\"jargon\" onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;\">upphovsrättsinnehavarens</a> namn"
 
 msgid "license.view_explanation"
 msgstr "Se en förklaring till alla våra licenser."
@@ -169,8 +178,8 @@ msgstr "Luxemburg"
 msgid "license.tell_format"
 msgstr "Verkets format:"
 
-msgid "country.cl"
-msgstr "Chile"
+msgid "licenses.pretty_GPL"
+msgstr "GPL"
 
 msgid "deed.disclaimer.jp"
 msgstr "<p>\nCommons Deed är inte en licens. Det är endast en enkel sammanfattning för att förstå licenstexten. Det är en lättläst version av några av de viktigaste villkoren. Se det som ett användarvänligt gränssnitt till licenstexten. Commons Deed har ingen juridisk relevans och dess innehåll återfinns inte i licenstexten. Licensvillkoren regleras i licenstexten. <a href=\"legalcode\" class=\"fulltext\">Klicka här för att läsa licenstexten</a>.\n</p>\n\n<p>\nCreative Commons och Creative Commons Japan är inte advokatbyråer eller juridiska byråer. Distribution eller visning av eller länkning till Commons Deed innebär inte ett erbjudande om juridiska tjänster. Creative Commons och Creative Commons Japan är inte parter till licensen som hör till detta Commons Deed och friskriver sig från allt ansvar för skador som kan uppkomma på grund av användning av Commons Deed och tillhörande licens.\n</p>\n\n<p>\nProdukten som licensieras under Creative Commons-licensen tillhandahålls av personen som applicerade licensen. Creative Commons och Creative Commons Japan ger inga garantier eller utfästelser angående licensgivarens status. <a href=\"http://creativecommons.jp/faq/\">Här</a>  finns mer information om applicerande av licensen samt exploatering av produkten som licensierats under Creative Commons-licensen.\n</p>"
@@ -181,6 +190,9 @@ msgstr "Att publicera din licensierade musik i Internet Archive"
 msgid "license.no_web_site"
 msgstr "Ingen websida?"
 
+msgid "country.rs"
+msgstr "Serbien"
+
 msgid "country.kr"
 msgstr "Korea"
 
@@ -190,8 +202,8 @@ msgstr "Ja, så länge andra delar på lika villkor (<a href=\"/characteristic/s
 msgid "lang.ko"
 msgstr "koreanska"
 
-msgid "country.jp"
-msgstr "Japan"
+msgid "deed.gpl_disclaimer"
+msgstr "<div align=\"center\"><a href=\"/licenses/disclaimer-popup\" onclick=\"window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">Friskrivning</a> <a href=\"/licenses/disclaimer-popup\" onclick=\"window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"disclaimer\" border=\"0\"></a></div>"
 
 msgid "license.no_license"
 msgstr "Beklagar, ingen licens passar dina kriterier."
@@ -293,7 +305,7 @@ msgid "license.mark_nonweb"
 msgstr "Märk ett dokument som inte är på webben, <a href=\"non-web-popup?${url_vars}\" onclick=\"window.open('non-web-popup?${url_vars}', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">lägg till denna text</a> till ditt verk."
 
 msgid "char.nc_description"
-msgstr "Licensgivaren tillåter andra att kopiera, distribuera, visa och framföra verket. I gengäld får licenstagarna inte använda verket för kommersiella ändamål -- om de inte får licensgivarens tillstånd."
+msgstr "Licensgivaren tillåter andra att kopiera, distribuera och sända verket. I gengäld får licenstagarna inte använda verket för kommersiella ändamål -- om de inte får licensgivarens tillstånd."
 
 msgid "util.publish"
 msgstr "publicera"
@@ -304,17 +316,29 @@ msgstr "Detta är en lättläst sammanfattning av <a href=\"legalcode\" class=\"
 msgid "util.proceed"
 msgstr "fortsätt"
 
+msgid "licenses.pretty_by"
+msgstr "Erkännande"
+
 msgid "license.LGPL_name_full"
 msgstr "GNU Lesser General Public License"
 
 msgid "util.more"
 msgstr "mer"
 
+msgid "license.more_perms_available"
+msgstr "Tillstånd utöver denna licens kan vara tillgängligt från ${more_perms_link}."
+
+msgid "lang.en_US"
+msgstr "engelska (amerikansk)"
+
 msgid "lang.it"
 msgstr "italienska"
 
 msgid "lang.en"
 msgstr "engelska"
+
+msgid "lang.eo"
+msgstr "esperanto"
 
 msgid "util.Yes"
 msgstr "Ja"
@@ -355,6 +379,9 @@ msgstr "bekräfta val"
 msgid "license.sampling_a_nc-sampling+"
 msgstr "<strong>Icke-kommersiell Sampling Plus</strong>: Människor kan ta och bearbeta <strong>delar</strong> av ditt verk enbart för <strong>icke-kommersiell</strong> användning. <strong>Icke-kommersiell</strong> kopiering och distribution  (som fildelning) av <strong>hela verket</strong> är också tillåtet."
 
+msgid "license.selected"
+msgstr "Du har valt Creative Commons ${license_pretty_name} License${country_name}. <a href=\"${license_url}\">Se hur licensen kommer att se ut</a> för besökare till dina websidor."
+
 msgid "util.Video"
 msgstr "Video"
 
@@ -373,8 +400,8 @@ msgstr "Hämta din Samplingslicens"
 msgid "deed.gpl_title"
 msgstr "${license_name_full}, <a href=\"http://www.gnu.org/\">Free Software Foundation</a>"
 
-msgid "util.Developing_Nations"
-msgstr "Utvecklingsländer"
+msgid "license.devnations_licensed"
+msgstr "Detta verk är licensierat under en <a href=\"${license_url}\">Creative Commons Utvecklingsländer-licens</a>."
 
 msgid "license.what"
 msgstr "Med en Creative Commons-licens, <strong>behåller du din upphovsrätt</strong> men tillåter andra människor att <a href=\"/learn/licenses/fullrights\">kopiera och distribuera ditt verk</a> under förutsättning att de <a href=\"/characteristic/by?lang=${lang}\" onclick=\"window.open('/characteristic/by?lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">erkänner dig som upphovsman</a> -- samt bara under de övriga förutstättningar du specificerar här. För er som inte redan känner till Creative Commons licenser har vi förberett  <a href=\"/about/think\">en lista med saker att tänka på</a>. Om du vill erbjuda ditt verk utan villkor, välj <a href=\"publicdomain-2\">public domain</a>."
@@ -466,8 +493,8 @@ msgstr "japanska"
 msgid "license.sampling_title"
 msgstr "Välj din Samplingslicens villkor"
 
-msgid "deed.gpl_disclaimer"
-msgstr "<div align=\"center\"><a href=\"/licenses/disclaimer-popup\" onclick=\"window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">Friskrivning</a> <a href=\"/licenses/disclaimer-popup\" onclick=\"window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"disclaimer\" border=\"0\"></a></div>"
+msgid "country.jp"
+msgstr "Japan"
 
 msgid "deed.free_commercial"
 msgstr "använda verket för kommersiella ändamål"
@@ -527,16 +554,13 @@ msgid "license.enter_information"
 msgstr "mata in information"
 
 msgid "char.by_brief"
-msgstr "Du måste ange upphovsmannen och/eller licensgivaren på det sätt de anger."
+msgstr "Du måste ange upphovsmannen och/eller licensgivaren på det sätt de anger (men inte på ett sätt som antyder att de godkänt eller rekommenderar din använding av verket)."
 
 msgid "license.hide_optional_fields"
 msgstr "Göm dessa fält (Alla fält är frivilliga)"
 
 msgid "deed.gpl_notice"
 msgstr "Du måste synligt och lämpligen publicera på varje distribuerad kopia en upphovsrättsnotis och friskrivning samt bevara alla notiser som hänvisar till denna Licens och till frånvaron av garantier; och ge andra mottagare av Programmet en kopia av  ${license_name_full} tillsammans med Programmet. Översättningar av ${license_name_full} måste åtföljas av ${license_name_full}."
-
-msgid "license.devnations_licensed"
-msgstr "Detta verk är licensierat under en <a href=\"${license_url}\">Creative Commons Utvecklingsländer-licens</a>."
 
 msgid "license.GPL_name_full"
 msgstr "GNU General Public License"
@@ -547,8 +571,14 @@ msgstr "Friheten att studera hur programmet fungerar och att anpassa det för si
 msgid "lang.af"
 msgstr "afrikaans"
 
+msgid "deed.mit_notice"
+msgstr "Meddelandet om upphovsrätt och licensen skall inkluderas i alla exemplar eller betydande delar av programvaran."
+
 msgid "char.nc_brief"
 msgstr "Du får inte använda verket för kommersiella ändamål."
+
+msgid "deed.moralrights"
+msgstr "Ingenting i denna licens begränsar upphovsmannens ideella rätt."
 
 msgid "lang.fr_CA"
 msgstr "franska (CA)"
@@ -595,6 +625,9 @@ msgstr "UK: Skottland"
 msgid "country.nl"
 msgstr "Nederländerna"
 
+msgid "deed.retired"
+msgstr "Denna licens har <a href=\"/retiredlicenses\">pensionerats</a>. Använd den inte för nya verk."
+
 msgid "country.ca"
 msgstr "Kanada"
 
@@ -604,8 +637,8 @@ msgstr "Columbia"
 msgid "country.cn"
 msgstr "Kina"
 
-msgid "licenses.pretty_GPL"
-msgstr "GPL"
+msgid "country.cl"
+msgstr "Chile"
 
 msgid "license.sampling_a_sampling"
 msgstr "<strong>Sampling</strong>: Människor kan ta och bearbeta <strong>delar</strong> av ditt verk för alla syften utom marknadsföring, som är förbjudet. Kopiering och Distribution  av <strong>hela verket</strong> är också förbjudet."
@@ -637,6 +670,9 @@ msgstr "skaparens namn"
 msgid "country.za"
 msgstr "Sydafrika"
 
+msgid "lang.sr"
+msgstr "serbiska"
+
 msgid "lang.st"
 msgstr "Sotho"
 
@@ -647,7 +683,7 @@ msgid "lang.sv"
 msgstr "svenska"
 
 msgid "deed.free_copy_distribute"
-msgstr "kopiera, distribuera, visa och framföra verket"
+msgstr "<strong>att Dela</strong> — att kopiera, distribuera och sända verket"
 
 msgid "char.nd_title"
 msgstr "Inga bearbetningar"
@@ -694,6 +730,9 @@ msgstr "IckeKommersiell-DelaLika"
 msgid "country.fr"
 msgstr "Frankrike"
 
+msgid "license.after_support_cc"
+msgstr "När du publicerat din licens, <a href=\"http://creativecommons.org/support/\">stöd gärna Creative Commons</a>."
+
 msgid "char.by_description"
 msgstr "Du måste ange upphovsmannen och/eller licensgivaren på det sätt de anger."
 
@@ -739,6 +778,12 @@ msgstr "franska"
 msgid "license.or_return"
 msgstr "Eller så kan du <a href=\"./\">återvända till frågorna</a>."
 
+msgid "char.sa_bysa30_brief"
+msgstr "Om du ändrar, bearbetar eller bygger vidare på verket får du endast distribuera resultatet under samma licens, en liknande licens eller en licens som är kompatibel med denna licens."
+
+msgid "country.mk"
+msgstr "Makedonien"
+
 msgid "licenses.pretty_sa"
 msgstr "DelaLika"
 
@@ -749,7 +794,7 @@ msgid "util.Do_you_want_to"
 msgstr "Vill du:"
 
 msgid "deed.permission"
-msgstr "Undantag från dessa villkor kan meddelas av upphovsrättsinnehavaren."
+msgstr "Undantag från villkoren ovan kan meddelas av upphovsrättsinnehavaren."
 
 msgid "country.my"
 msgstr "Malaysia"
@@ -779,7 +824,7 @@ msgid "deed.gpl_freedoms"
 msgstr "${license_name_full} är en <a href=\"http://www.gnu.org/philosophy/free-sw.html\">Fri Programvaru</a>-licens. Som alla Fri Programvarulicenser ger den dig följande fyra friheter:"
 
 msgid "char.nd_description"
-msgstr "Licensgivaren tillåter andra att kopiera, distribuera, visa och framföra verket endast i oförändrad form -- inte i bearbetad form."
+msgstr "Licensgivaren tillåter andra att kopiera, distribuera och sända verket endast i oförändrad form — inte i bearbetad form."
 
 msgid "licenses.pretty_sampling"
 msgstr "Sampling"
@@ -802,11 +847,14 @@ msgstr "Att sampla, blanda (mash-up), eller annars kreativt transformera detta v
 msgid "licenses.pretty_nc-sampling+"
 msgstr "IckeKommersiell Sampling Plus"
 
-msgid "licenses.pretty_by"
-msgstr "Erkännande"
+msgid "util.Developing_Nations"
+msgstr "Utvecklingsländer"
 
 msgid "char.no_brief"
 msgstr "Du får inte framföra, visa eller sprida kopior av verket för några ändamål."
+
+msgid "lang.da"
+msgstr "danska"
 
 msgid "lang.de"
 msgstr "tyska"
@@ -818,7 +866,7 @@ msgid "deed.You_are_free"
 msgstr "Du får:"
 
 msgid "char.sa_brief"
-msgstr "Om du ändrar, bearbetar eller bygger vidare på verket får du endast distribuera resultatet under en licens som är identisk med denna licens."
+msgstr "Om du ändrar, bearbetar eller bygger vidare på verket får du endast distribuera resultatet under samma licens eller en liknande licens som denna."
 
 msgid "licenses.pretty_nd-nc"
 msgstr "IngaBearbetningar-IckeKommersiell"
@@ -827,13 +875,13 @@ msgid "licenses.pretty_LGPL"
 msgstr "LGPL"
 
 msgid "deed.notice"
-msgstr "Vid all återanvändning och distribution måste du informera om licensvillkoren som gäller för verket."
+msgstr "Vid all återanvändning och distribution måste du informera om licensvillkoren som gäller för verket. Det bästa sättet att göra detta är genom en länk till den här webbsidan."
 
 msgid "license.lawyer-readable_legal_code"
 msgstr "Juridisk<br/>\nLicens"
 
 msgid "deed.free_derivative"
-msgstr "utföra bearbetningar"
+msgstr "<strong>att Remixa</strong> — att skapa bearbetningar"
 
 msgid "nav.find_title"
 msgstr "Hitta musik, bilder och mer"
