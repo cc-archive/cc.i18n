@@ -19,8 +19,8 @@ def add_comments(english_po_filename, non_english_po_filename):
     babel.messages.pofile.write_po(open(non_english_po_filename, 'w'), target_po)
 
 def add_comments_to_all():
-    english_filename = 'icommons-en.po'
-    for pofile in glob.glob('icommons*.po'):
+    english_filename = 'i18n/en/cc_org.po'
+    for pofile in glob.glob('i18n/*/cc_org.po'):
         if pofile == english_filename:
             continue # Get me a non-English one
         add_comments(english_filename, pofile)
