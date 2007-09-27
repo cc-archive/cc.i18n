@@ -6,7 +6,7 @@ import os
 ## This code is laugable and terrible.
 ## It also works.
 
-extra = '"Language-code: %s\\n"\n"Language-name: %s\\n"\n"Domain: icommons\\n"\n'
+extra = '"Language-code: %s\\n"\n"Language-name: %s\\n"\n"Domain: cc_org\\n"\n'
 before = '"Generated-By: Babel 0.9.1\\n"\n'
 
 if len(sys.argv) < 2:
