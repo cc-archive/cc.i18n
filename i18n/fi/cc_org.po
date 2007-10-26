@@ -7,7 +7,7 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.0.1\n"
 "Generated-By: Babel 0.9.1\n"
@@ -15,9 +15,50 @@ msgstr ""
 "Language-name: fi\n"
 "Domain: cc_org\n"
 
-#. Belgium
-msgid "country.be"
-msgstr "Belgia"
+#. New Zealand
+msgid "country.nz"
+msgstr "New Zealand"
+
+#. Greece
+msgid "country.gr"
+msgstr "Greece"
+
+msgid "Allow Derivative Works"
+msgstr ""
+
+#: s/index.pt:107
+msgid ""
+"The licensor permits others to copy, distribute, display and perform the "
+"work, as well as make derivative works based on it."
+msgstr ""
+
+#: s/index.pt:56
+msgid "Commercial Use"
+msgstr ""
+
+#: s/index.pt:59
+msgid ""
+"The licensor permits others to copy, distribute, display, and perform the "
+"work, including for commercial purposes."
+msgstr ""
+
+#: s/index.pt:70
+msgid ""
+"The licensor permits others to copy, distribute, display, and perform the "
+"work for non-commercial purposes only."
+msgstr ""
+
+#: s/index.pt:88
+msgid "Yes, as long as others share alike"
+msgstr ""
+
+#. To perform, display, and distribute copies of this whole work for
+#. noncommercial purposes (e.g., file-sharing or noncommercial webcasting).
+msgid "deed.free_copy_distribute_noncommercial"
+msgstr ""
+"Esittää, näyttää ja levittää kappaleita tästä teoksesta epäkaupallisissa "
+"tarkoituksissa (esimerkiksi vertaisverkoissa tai ei-kaupallisessa webcasting-"
+"lähetyksessä)"
 
 #. <h1>Public Domain Dedication - Email Confirmation</h1>
 #. <p>
@@ -55,20 +96,20 @@ msgstr ""
 "<h1>Public domain ilmoitus - Sähköposti varmistus</h1>\n"
 "\n"
 "<p>\n"
-"Sinulle on lähetetty sähköposti osoitteseen  <b>${email}</b>. Sen pitäisi"
-" saapua muutamassa minuutissa.</p>\n"
+"Sinulle on lähetetty sähköposti osoitteseen  <b>${email}</b>. Sen pitäisi "
+"saapua muutamassa minuutissa.</p>\n"
 "\n"
 "<p>\n"
 "Sähköposti sisältää vahvistuksen siitä että olet luovuttamassa teoksesi "
-"public domainiin eli luopumassa sen tekijänoikeudesta. Sen tulisi "
-"sisältää teoksesi nimi(\"<b>${title}</b>\") ja tekijänoikeuden haltijan "
-"nimi(\"<b>${copyright_holder}</b>\").\n"
+"public domainiin eli luopumassa sen tekijänoikeudesta. Sen tulisi sisältää "
+"teoksesi nimi(\"<b>${title}</b>\") ja tekijänoikeuden haltijan nimi(\"<b>"
+"${copyright_holder}</b>\").\n"
 "</p>\n"
 "\n"
-"<p>Sähköposti sisältää myös linkin, johon on liitetty varmistuskoodi. "
-"Tämän koodin avulla voimme varmistua siitä, että sinulla on oikeus "
-"käyttää sähköpostiosoitetta <b>${email}</b>. Klikkaamalla tätä linkkiä "
-"luovut teoksesi tekijänoikeuksista ja teos päätyy public domainiin.\n"
+"<p>Sähköposti sisältää myös linkin, johon on liitetty varmistuskoodi. Tämän "
+"koodin avulla voimme varmistua siitä, että sinulla on oikeus käyttää "
+"sähköpostiosoitetta <b>${email}</b>. Klikkaamalla tätä linkkiä luovut "
+"teoksesi tekijänoikeuksista ja teos päätyy public domainiin.\n"
 "</p>\n"
 "\n"
 "<p>\n"
@@ -78,13 +119,12 @@ msgstr ""
 "\n"
 "<p>\n"
 "Jos jostain syystä et ole saanut sähköpostia seuraavan 30-45 minuutin "
-"aikana, ilmoita siitä <a "
-"href=\"mailto:pd@creativecommons.org\">meille</a>\n"
+"aikana, ilmoita siitä <a href=\"mailto:pd@creativecommons.org\">meille</a>\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"Klikattuasi varmistuslinkkiä kerromme sinulle, miten voit merkitä "
-"aineistosi public domain -tunnuksin ja julkaista ne.\n"
+"Klikattuasi varmistuslinkkiä kerromme sinulle, miten voit merkitä aineistosi "
+"public domain -tunnuksin ja julkaista ne.\n"
 "</p>"
 
 #. Bulgaria
@@ -97,12 +137,12 @@ msgstr "Bulgaria"
 msgid "license.mark_web"
 msgstr ""
 "Merkitse sisältösi verkkosivuille, HTML jolla saat napin näkymään on "
-"seuraava. Varmista että seuraat <a href=\"/technology/web\">tässä "
-"annettuja ohjeita</a>."
+"seuraava. Varmista että seuraat <a href=\"/technology/web\">tässä annettuja "
+"ohjeita</a>."
 
-#. learn how to mark your content
-msgid "license.learn_mark"
-msgstr "Opi kuinka voit merkata sisältösi"
+#. copyright date
+msgid "util.copyright_date"
+msgstr "tekijänoikeuden päivämäärä"
 
 #. Jurisdiction
 msgid "util.Jurisdiction"
@@ -127,29 +167,28 @@ msgstr ""
 "Voit käyttää vapauksia jotka lisenssissä annettaan lisenssin mukaisesti. "
 "Lisenssin pääehdot ovat:"
 
-#. To perform, display, and distribute copies of this whole work for
-#. noncommercial purposes (e.g., file-sharing or noncommercial webcasting).
-msgid "deed.free_copy_distribute_noncommercial"
+#. Belgium
+msgid "country.be"
+msgstr "Belgia"
+
+#. This ${work_type} is dedicated to the <a rel="license"
+#. href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.
+msgid "license.work_type_dedicated"
 msgstr ""
-"Esittää, näyttää ja levittää kappaleita tästä teoksesta epäkaupallisissa "
-"tarkoituksissa (esimerkiksi vertaisverkoissa tai ei-kaupallisessa "
-"webcasting-lähetyksessä)"
-
-#. Singapore
-msgid "country.sg"
-msgstr "Singapore"
-
-#. Close window
-msgid "util.Close_window"
-msgstr "Sulje ikkuna"
+"Tämä ${work_type} kuuluu\n"
+"<a rel=\"license\" href=\"http://creativecommons.org/licenses/publicdomain/"
+"\">Public Domainiin</a>."
 
 #. Allow modifications of your work?
 msgid "api.derivatives"
 msgstr "Salli teoksen muokkaaminen?"
 
-#. Zulu
-msgid "lang.zu"
-msgstr "Zulu"
+#. Your rights to exploit the work based on the limitations to copyright
+#. clauses and other rights are in no way affected by the above.
+msgid "deed.fair_use.jp"
+msgstr ""
+"Yllä oleva ei vaikuta oikeuteen käyttää teosta tekijänoikeuden rajoitusten "
+"tai muiden lakien myöntämällä tavalla."
 
 #. back to <a href="/">Creative Commons</a>
 msgid "deed.back_to_cc"
@@ -167,58 +206,40 @@ msgstr "takaisin <a href=\"/\">Creative Commons sivulle</a>"
 #. enable others to find your software.
 msgid "license.fsf_how_it_works"
 msgstr ""
-"Näin CC-GNU ${license_code} toimii: Käyttäjä joka painaa Creative Commons"
-" ikonia näkee CC-GNU ${license_code} \"<a "
-"href=\"/licenses/${license_code}/${version_title}/\">tiivistelmän</a>\" —"
-" helposti luettavan version lisenssistä. Sieltä löytyy linkki \"<a "
-"href=\"http://www.gnu.org/licenses/old-"
-"licenses/${license_name_lower}.html\">Legal Code</a>\" — täydelliseen "
-"englannin ja <a "
-"href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">portugalin</a>"
-" kieliseen GNU GPL lisenssitekstiin. Piilotettuna koodiin on "
-"\"konekielinen versio lisenssistä\" — pala metadataa — joka auttaa muita "
+"Näin CC-GNU ${license_code} toimii: Käyttäjä joka painaa Creative Commons "
+"ikonia näkee CC-GNU ${license_code} \"<a href=\"/licenses/${license_code}/"
+"${version_title}/\">tiivistelmän</a>\" — helposti luettavan version "
+"lisenssistä. Sieltä löytyy linkki \"<a href=\"http://www.gnu.org/licenses/"
+"old-licenses/${license_name_lower}.html\">Legal Code</a>\" — täydelliseen "
+"englannin ja <a href=\"/licenses/${license_code}/${version_title}/legalcode."
+"pt\">portugalin</a> kieliseen GNU GPL lisenssitekstiin. Piilotettuna koodiin "
+"on \"konekielinen versio lisenssistä\" — pala metadataa — joka auttaa muita "
 "löytämään ohjelmasi."
 
-#. <a href="/jargon/copyright" class="jargon"
-#. onClick="window.open('/jargon/copyright', 'jargon_term_lookup',
-#. 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');
-#. return false;">copyright</a> holder's name
-msgid "util.copyright_holders_name"
+#. You must retain the license terms and copyright notice in any source code
+#. distribution and reproduce them in documentation for binary distributions.
+msgid "deed.bsd_notice"
 msgstr ""
-"<a href=\"/jargon/copyright\" class=\"jargon\" "
-"onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', "
-"'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
-" return false;\">tekijänoikeuden</a> haltijan nimi"
+"You must retain the license terms and copyright notice in any source code "
+"distribution and reproduce them in documentation for binary distributions."
 
 #. NoDerivs
 msgid "licenses.pretty_nd"
 msgstr "Ei muutoksia"
 
+#. We have updated the version of your license to the most recent one
+#. available.
+msgid "jswidget.Updated_license_version_generic"
+msgstr ""
+"We have updated the version of your license to the most recent one available."
+
 #. NonCommercial
 msgid "licenses.pretty_nc"
 msgstr "Epäkaupallinen"
 
-#. <h1>Creative Commons GNU ${license_code}</h1>
-#. <p>The CC-GNU ${license_code} adds the Creative Commons' metadata and
-#. Commons Deed to the Free Software Foundation's ${license_name_full}. The
-#. license is the official FSF ${license_code}, and includes a Portuguese
-#. translation.</p>
-#. <p>To signal to others that you are using a Creative Commons license, you
-#. can use a Creative Commons logo, which links to the CC-GNU ${license_code}.
-#. The result will look like this:</p>
-msgid "license.fsf_explain"
-msgstr ""
-"<h1>Creative Commons GNU ${license_code}</h1>\n"
-"\n"
-"<p> CC-GNU ${license_code} käyttää Creative Commonsin metadata merkkausta"
-" ja lisenssitiivistelmää Free Software säätiön "
-"${license_name_full}lisenssiin. Lisenssi on virallinen FSF "
-"${license_code}lisenssi, ja sisältää myös portugalin kielisen "
-"käännöksen.</p>\n"
-"\n"
-"<p>Kertoaksesi muille, että käytät Creative Commons lisenssiä, voit "
-"käyttää Creative Commons logoa jostä on linkki CC-GNU "
-"${license_code}lisenssiin. Lopputulos näyttää tältä:</p>"
+#. Catalan
+msgid "lang.ca"
+msgstr "Katalaani"
 
 #. <h1>Mark Software</h1>
 #. <p>Display the icon on any site you offer your software for download using
@@ -234,15 +255,15 @@ msgstr ""
 #. href="${license_url}">Creative Commons ${license_name} License</a>.
 msgid "license.work_type_licensed"
 msgstr ""
-"Tämän ${work_type}teoksen käyttöoikeutta koskee <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name}-lisenssi</a>."
+"Tämän ${work_type}teoksen käyttöoikeutta koskee <a rel=\"license\" href="
+"\"${license_url}\">Creative Commons ${license_name}-lisenssi</a>."
 
 #. This ${work_type} by ${work_author} is licensed under a <a rel="license"
 #. href="${license_url}">Creative Commons ${license_name} License</a>.
 msgid "license.rdfa_licensed_no_title"
 msgstr ""
-"Tämä ${work_type} jonka tekijä on ${work_author} on lisensoitu <a "
-"rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
+"Tämä ${work_type} jonka tekijä on ${work_author} on lisensoitu <a rel="
+"\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
 "lisenssillä</a>."
 
 #. Human-Readable<br />
@@ -252,12 +273,9 @@ msgstr ""
 "Ihmisten luettavissa oleva<br />\n"
 "Lisenssitiivistelmä"
 
-#. Any of the above conditions can be waived if you get permission from the
-#. rights holders to this work.
-msgid "deed.permission.jp"
-msgstr ""
-"Nämä ehdot voidaan sivuuttaa jos tekijänoikeuden haltija antaa siihen "
-"luvan."
+#. confirm choice
+msgid "license.confirm_choice"
+msgstr "vahvista valintasi"
 
 #. <div style="float:right;width:175px;border:1px solid
 #. #ccc;padding:8px;margin:0px 14px 10px 14px;background:#eee;">Want to <a
@@ -278,15 +296,14 @@ msgstr ""
 #. license. Pick the one that reflects your creative style:</p>
 msgid "license.sampling_explain"
 msgstr ""
-"<div style=\"float:right;width:175px;border:1px solid "
-"#ccc;padding:8px;margin:0px 14px 10px 14px;background:#eee;\">Tahdotko <a"
-" href=\"/about/sampling\">oppia lisää sämpläys lisensseistä</a> ja kuinka"
-" Negativland auttoi meitä luomaan ne? Katso myös  <a "
-"href=\"/about/licenses/sampling\">Sämpläys lisenssejä esittelevä "
-"sarjakuvamme</a>.</div>\n"
+"<div style=\"float:right;width:175px;border:1px solid #ccc;padding:8px;"
+"margin:0px 14px 10px 14px;background:#eee;\">Tahdotko <a href=\"/about/"
+"sampling\">oppia lisää sämpläys lisensseistä</a> ja kuinka Negativland "
+"auttoi meitä luomaan ne? Katso myös  <a href=\"/about/licenses/sampling"
+"\">Sämpläys lisenssejä esittelevä sarjakuvamme</a>.</div>\n"
 "\n"
-"<p>Sämpläys lisenssit kutsuvat muita käyttämään teostasi osana uusia "
-"teoksia uudella tavalla.</p>\n"
+"<p>Sämpläys lisenssit kutsuvat muita käyttämään teostasi osana uusia teoksia "
+"uudella tavalla.</p>\n"
 "\n"
 "<p>Esimerkiksi:</p>\n"
 "\n"
@@ -297,12 +314,50 @@ msgstr ""
 "<li>Ottamaan palan valokuvastasi kollaasin tekemiseen.</li>\n"
 "</ul>\n"
 "\n"
-"<p>Ajattele sitä tapana palkita ihmisiä jotka voivat käyttää teostasi "
-"uuden aikaisemmin olemattoman teoksen luomiseen.</p>\n"
+"<p>Ajattele sitä tapana palkita ihmisiä jotka voivat käyttää teostasi uuden "
+"aikaisemmin olemattoman teoksen luomiseen.</p>\n"
 "\n"
 "<p>Voit valita ehdot millä ihmiset saavat muokata teostasi. "
-"Sämpläyslisenssejä on kolmenlaisia. Valitse lisenssi joka kuvastaa "
-"tyyliäsi:</p>"
+"Sämpläyslisenssejä on kolmenlaisia. Valitse lisenssi joka kuvastaa tyyliäsi:"
+"</p>"
+
+#. This is a record of a Public Domain Dedication.
+#. On ${sysdate}, ${copyright_holder} dedicated to the public domain the
+#. work "${title}." Before making the dedication, ${copyright_holder}
+#. represented that ${copyright_holder} owned all copyrights in the
+#. work. By making the dedication, ${copyright_holder} made an overt act
+#. of relinquishment in perpetuity of all present and future rights under
+#. copyright law, whether vested or contingent, in "${title}."
+#. ${copyright_holder} understands that such relinquishment of all rights
+#. includes the relinquishment of all rights to enforce (by lawsuit or
+#. otherwise) those copyrights in the Work.
+#. ${copyright_holder} recognizes that, once placed in the public domain,
+#. "${title}" may be freely reproduced, distributed, transmitted, used,
+#. modified, built upon, or otherwise exploited by anyone for any
+#. purpose, commercial or non-commercial, and in any way, including by
+#. methods that have not yet been invented or conceived.
+#. For more information, please see
+#. <http://creativecommons.org/licenses/publicdomain/>.
+msgid "license.pd_dedication_email"
+msgstr ""
+"Tallenne public domain luovutuksesta.\n"
+"\n"
+"${sysdate}, ${copyright_holder} luovutti public domainiin teoksen \"${title}."
+"\" Ennen luovutusta, ${copyright_holder}\n"
+"vakuutti että ${copyright_holder} omistaa kaikki tekijänoikeudet teokseen. "
+"Luovutuksella, ${copyright_holder} luopui pysyvästi nykyisistä ja tulevista "
+"tekijänoikeuksistaan \"${title}\" teokseen.\n"
+"\n"
+"${copyright_holder} ymmärtää että luopuminen koskee myös oikeudesta valvoa "
+"(oikeusteitse tai muuten) teoksen tekijänoikeuksia.\n"
+"${copyright_holder} tunnustaa, että kun teos on public domainissa,\n"
+"\"${title}\" teoksesta kuka tahansa voi vapaasti valmistaa kappaleita, "
+"levittää, välittää, muunnella, yhdistää tai käyttää kaupalliseen tai ei-"
+"kaupalliseen tarkoitukseen tai millä tahansa tunnetulla tai tulevaisuudessa "
+"kehitettävällä tavalla. \n"
+"\n"
+"Lisätietoja löydät osoitteesta\n"
+"<http://creativecommons.org/licenses/publicdomain/>."
 
 #. Bulgarian
 msgid "lang.bg"
@@ -318,10 +373,6 @@ msgstr ""
 #. title of work
 msgid "util.title_of_work"
 msgstr "teoksen nimi"
-
-#. copyright date
-msgid "util.copyright_date"
-msgstr "tekijänoikeuden päivämäärä"
 
 #. If you modify your copy or copies of the program or any portion of it, or
 #. develop a program based upon it, you may distribute the resulting work
@@ -358,16 +409,17 @@ msgstr "Espanian kielinen (PE)"
 #. commercial or noncommercial purposes.
 msgid "deed.free_sample"
 msgstr ""
-"Sämplätä, sekoittaa tai muuten luovasti muokata tätä teosta kaupalliseen "
-"tai epäaupalliseen tarkoitukseen."
+"Sämplätä, sekoittaa tai muuten luovasti muokata tätä teosta kaupalliseen tai "
+"epäaupalliseen tarkoitukseen."
 
 #. Israel
 msgid "country.il"
 msgstr "Israel"
 
-#. Portugal
-msgid "country.pt"
-msgstr "Portugali"
+#. Permissions beyond the scope of this license may be available at
+#. ${more_perms_link}.
+msgid "license.more_perms_available"
+msgstr "Voit myös hankkia muita oikeuksia teokseen ${more_perms_link}."
 
 #. India
 msgid "country.in"
@@ -392,17 +444,17 @@ msgstr "Makedonialainen"
 #. can be found in our comics.
 msgid "license.how_it_works"
 msgstr ""
-"Näin se toimii: Käyttäjä, joka klikkaa Creative Commons ikonia, näkee "
-"\"<a href=\"${license_url}\">Commons deedin</a>\" - helppolukuisen "
-"tiivistelmän lisenssistä. Sieltä käyttäjä voi tutustua <a "
-"href=\"${license_url}legalcode\">juridiseen lisenssiin</a> - lisenssiin, "
-"jolla tarjoat teoksesi levitykseen. Koodin piilotettuna on <a "
-"href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open"
-"('work-html-popup?${url_vars}', 'html_help', "
-"'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">tietokoneen luettavissa oleva lisenssi</a> - metadata - tämä "
-"mahdollistaa muille sisältösi löytämisen. Prosessi on kuvattu <a "
-"href=\"/learn/licenses/how1\">sarjakuvassamme</a>."
+"Näin se toimii: Käyttäjä, joka klikkaa Creative Commons ikonia, näkee \"<a "
+"href=\"${license_url}\">Commons deedin</a>\" - helppolukuisen tiivistelmän "
+"lisenssistä. Sieltä käyttäjä voi tutustua <a href=\"${license_url}legalcode"
+"\">juridiseen lisenssiin</a> - lisenssiin, jolla tarjoat teoksesi "
+"levitykseen. Koodin piilotettuna on <a href=\"/license/work-html-popup?"
+"${url_vars}\" onclick=\"window.open('work-html-popup?${url_vars}', "
+"'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,"
+"directories=no,location=yes,menubar=no,status=yes');return false;"
+"\">tietokoneen luettavissa oleva lisenssi</a> - metadata - tämä mahdollistaa "
+"muille sisältösi löytämisen. Prosessi on kuvattu <a href=\"/learn/licenses/"
+"how1\">sarjakuvassamme</a>."
 
 #. Italy
 msgid "country.it"
@@ -431,9 +483,19 @@ msgstr ""
 msgid "country.pe"
 msgstr "Peru"
 
+#. Any of the above conditions can be waived if you get permission from the
+#. rights holders to this work.
+msgid "deed.permission.jp"
+msgstr ""
+"Nämä ehdot voidaan sivuuttaa jos tekijänoikeuden haltija antaa siihen luvan."
+
 #. Sampling
 msgid "util.Sampling"
 msgstr "Sämpläys"
+
+#. This page is available in the following languages:
+msgid "util.page_other_languages"
+msgstr "Tämä sivu on saatavilla seuraavilla kielillä:"
 
 #. English (GB)
 msgid "lang.en_GB"
@@ -450,16 +512,13 @@ msgstr ""
 msgid "lang.pl"
 msgstr "Puolalainen"
 
-#. You may now <a href="publicdomain-2?${url_vars}">proceed and enrich the
-#. public domain with your work</a>.
-msgid "license.proceed_pd"
-msgstr ""
-"Voit siirtyä eteenpäin ja <a href=\"publicdomain-2?${url_vars}\">rikastaa"
-" public domainia teoksellasi</a>."
+#. confirm
+msgid "util.confirm"
+msgstr "vahvista"
 
-#. Portugese
-msgid "lang.pt"
-msgstr "Portugaliksi"
+#. Do you want to:
+msgid "util.Do_you_want_to"
+msgstr "Tahdotko:"
 
 #. <a href="/jargon/copyright_date" class="jargon"
 #. onClick="window.open('/jargon/copyright_date', 'jargon_term_lookup',
@@ -467,10 +526,10 @@ msgstr "Portugaliksi"
 #. return false;">year of copyright</a>
 msgid "util.year_of_copyright"
 msgstr ""
-"<a href=\"/jargon/copyright_date\" class=\"jargon\" "
-"onClick=\"window.open('/jargon/copyright_date', 'jargon_term_lookup', "
-"'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
-" return false;\">teoksen luomisvuosi</a>"
+"<a href=\"/jargon/copyright_date\" class=\"jargon\" onClick=\"window.open('/"
+"jargon/copyright_date', 'jargon_term_lookup', 'width=300,height=400,"
+"scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,"
+"menubar=no,status=yes'); return false;\">teoksen luomisvuosi</a>"
 
 #. choose license
 msgid "license.Choose_License"
@@ -483,8 +542,8 @@ msgstr "Vapaus jakaa kopioita jotta voit auttaa naapuriasi."
 #. Mark an mp3, <a href="/technology/mp3">follow these guidelines</a>.
 msgid "license.mark_mp3"
 msgstr ""
-"Merkitäksesi mp3 tiedoston, <a href=\"/technology/mp3\">seuraa näitä "
-"ohjeita.</a>."
+"Merkitäksesi mp3 tiedoston, <a href=\"/technology/mp3\">seuraa näitä ohjeita."
+"</a>."
 
 #. Under the following conditions:
 msgid "deed.under_conditions"
@@ -497,14 +556,20 @@ msgstr ""
 "Konekielinen<br />\n"
 "Digitaalinen lisenssi"
 
-#. You have selected the Creative Commons ${license_pretty_name}
-#. License${country_name}. <a href="${license_url}">See how the license will
-#. look</a> to your site's visitors.
-msgid "license.selected"
+#. <a href="/jargon/copyright" class="jargon"
+#. onClick="window.open('/jargon/copyright', 'jargon_term_lookup',
+#. 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');
+#. return false;">copyright</a> holder's name
+msgid "util.copyright_holders_name"
 msgstr ""
-"Olet valinnut Creative Commons ${license_pretty_name} lisenssin "
-"${country_name}. <a href=\"${license_url}\">Katso miltä lisenssi "
-"näyttää</a> sivujesi vierailijoille."
+"<a href=\"/jargon/copyright\" class=\"jargon\" onClick=\"window.open('/"
+"jargon/copyright', 'jargon_term_lookup', 'width=300,height=400,"
+"scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,"
+"menubar=no,status=yes'); return false;\">tekijänoikeuden</a> haltijan nimi"
+
+#. attribute to url
+msgid "util.attribute_to_url"
+msgstr "attribute to url"
 
 #. View an explanation of all our licenses.
 msgid "license.view_explanation"
@@ -522,18 +587,18 @@ msgstr ""
 "Tekijänoikeus. Joukko rajoitettuja yksinoikeuksia jotka valtio myöntää "
 "luovan työn tekijöille. Tekijänoikeus pitää sisällään oikeuden valmistaa "
 "kappaleita muutettuna ja muuttamattomana ja  levittää teoksia yleisön "
-"saataville. Oikeuden omistajalla on oikeus valvoa oikeuksia ja antaa "
-"muille lupia oikeuksien käyttöön. Tekijänoikeus ei suojaa ideoita tai "
-"faktoja, vaan omaperäisiä ilmaisuja näistä."
+"saataville. Oikeuden omistajalla on oikeus valvoa oikeuksia ja antaa muille "
+"lupia oikeuksien käyttöön. Tekijänoikeus ei suojaa ideoita tai faktoja, vaan "
+"omaperäisiä ilmaisuja näistä."
 
 #. You may exercise the freedoms specified here provided that you comply with
 #. the express conditions of this license. The LGPL is intended for software
 #. libraries, rather than executable programs. The principal conditions are:
 msgid "deed.lgpl_under_conditions"
 msgstr ""
-"Saat käyttää lisenssissä yksilöityjä vapauksia lisenssiehtojen "
-"mukaisesti. LGPL on tarkoitettu ohjelmakirjastoille, eikä suoritettaville"
-" ohjelmistoille. Lisenssin pääehdot ovat:"
+"Saat käyttää lisenssissä yksilöityjä vapauksia lisenssiehtojen mukaisesti. "
+"LGPL on tarkoitettu ohjelmakirjastoille, eikä suoritettaville "
+"ohjelmistoille. Lisenssin pääehdot ovat:"
 
 #. Now that you've chosen a Creative Commons license, you must mark your work
 #. in the appropriate way.
@@ -550,9 +615,9 @@ msgstr "Luxemburg"
 msgid "license.tell_format"
 msgstr "Mitä esitystapaa käytät teoksessasi:"
 
-#. GPL
-msgid "licenses.pretty_GPL"
-msgstr "GPL"
+#. Chile
+msgid "country.cl"
+msgstr "Chile"
 
 #. Northern Sotho
 msgid "lang.nso"
@@ -562,61 +627,15 @@ msgstr "Pohjois-Sotho"
 msgid "util.CC_GNU_LGPL"
 msgstr "CC-GNU LGPL"
 
-#. <p>
-#. The Commons Deed is not a license. It is simply a handy reference for
-#. understanding the Legal Code (the full License) — it is a human-readable
-#. expression of some of its key terms. This Deed itself has no legal value,
-#. and its contents do not appear in the actual License.  The actual terms of
-#. the license is set forth by the Legal Code.  <a href="legalcode"
-#. class="fulltext">Please click here to see the full License</a>.
-#. </p>
-#. <p>
-#. Creative Commons and Creative Commons Japan are not law firms, and
-#. distributing of or displaying of, or linking to the Commons Deed does not
-#. constitute an offer of legal advice or any other legal services. Creative
-#. Commons and Creative Commons Japan are not a party to the License underlying
-#. this Commons Deed, and disclaim liablity for damages resulting from any use
-#. of the Commons Deed and the underlying License.
-#. </p>
-#. <p>
-#. The Product licensed under Creative Commons License is provided by the
-#. person who applied the License.  Creative Commons and Creative Commons Japan
-#. make no warranties regarding the title of the licensor.  Please read <a
-#. href="http://creativecommons.jp/faq/">here</a> for information regarding the
-#. application of licenses and exploitation of the Product licensed under
-#. Creative Commons licenses.
-#. </p>
-msgid "deed.disclaimer.jp"
+#. <strong>Sampling</strong>: People can take and transform
+#. <strong>pieces</strong> of your work for any purpose other than advertising,
+#. which is prohibited. Copying and distribution of the <strong>entire
+#. work</strong> is also prohibited.
+msgid "license.sampling_a_sampling"
 msgstr ""
-"<p>\n"
-"The Commons Deed ei ole lisenssi. Se on ainoastaan yksinkertainen ja "
-"kätevä lyhennelmä juridisen lisenssin ymmärtämiseksi. Deed on tehty "
-"helposti ymmärrettäväksi paketiksi kuvaamaan joitakin juridisen lisenssin"
-" avainehtoja. Voit ajatella sitä käyttäjäystävällisenä käyttöliittymänä "
-"juridiseen lisenssisopimukseen. Deedillä ei itsessään ole oikeudellista "
-"arvoa, ja sen sisältö ei sellaisenaan esiinny varsinaisessa lisenssissä. "
-"Lisenssiehdot on määritelty lisenssissä. <a href=\"legalcode\" "
-"class=\"fulltext\">Täydelliseen lisenssiin pääset klikkaamalla tätä "
-"linkkiä</a>.  \n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Creative Commons tai Creative Commons Suomi eivät ole "
-"lakiasiaintoimistoja eivätkä tarjoa juridisia palveluita. Tämän tai "
-"muunkaan näillä sivuilla olevan dokumentin käyttäminen, näyttäminen, "
-"levittäminen tai linkittäminen ei luo mitään suhdetta Creative Commonssin"
-" kanssa.Creative Commons tai Creative Commons Suomi eivät ole lisenssin "
-"osapuolia eivätkä vastaa vahingoista joita Commons Deedien tai Creative "
-"Commons lisenssien käyttämisestä voi aiheutua.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Creative Commons lisensoidut teoksia jakavat henkilöt jotka ovat "
-"liittäneet lisenssin teoksiin. Creative Commons tai Creative Commons "
-"Suomi eivät takaa teoksien oikeellisuutta. Lisätietoa teosten ja "
-"lisenssien käyttämisestä löydät <a "
-"href=\"http://creativecommons.jp/faq/\">täältä</a>.\n"
-"</p>"
+"<strong>Sämpläys</strong>: Muut voivat ottaa ja muunnella <strong>paloja</"
+"strong> teoksestasi <strong>vain ei-kaupalliseen</strong> tarkoitukseen. "
+"<strong>Koko teoksen</strong> kopiointi ja levitys on kielletty."
 
 #. Publishing your licensed music to the Internet Archive
 msgid "license.publish_audio_ia"
@@ -648,45 +667,48 @@ msgstr "Korea"
 msgid "license.a6"
 msgstr ""
 "Kyllä, niin kauan kuin he, jotka tekevät siihen muutoksia, jakavat sen "
-"johdosta syntyneet teokset tällä samalla lisenssillä (<a "
-"href=\"/characteristic/sa?lang=${lang}\" "
+"johdosta syntyneet teokset tällä samalla lisenssillä (<a href=\"/"
+"characteristic/sa?lang=${lang}\" onclick=\"window.open('/characteristic/sa?"
+"lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,"
+"resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
+"return false;\">lisätietoa</a> <a href=\"/characteristic/sa?lang=${lang}\" "
 "onclick=\"window.open('/characteristic/sa?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">lisätietoa</a> <a href=\"/characteristic/sa?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/sa?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+"'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,"
+"toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"
+"\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more "
+"information\" border=\"0\" /></a>)"
 
 #. Korean
 msgid "lang.ko"
 msgstr "Korealainen"
 
-#. Japan
-msgid "country.jp"
-msgstr "Japani"
+#. <div align="center"><a href="/licenses/disclaimer-popup"
+#. onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help',
+#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+#. false;">Disclaimer</a> <a href="/licenses/disclaimer-popup"
+#. onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help',
+#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+#. false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer"
+#. border="0"></a></div>
+msgid "deed.gpl_disclaimer"
+msgstr ""
+"<div align=\"center\"><a href=\"/licenses/disclaimer-popup\" onclick="
+"\"window.open('/licenses/disclaimer-popup', 'characteristic_help', "
+"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,"
+"location=yes,menubar=no,status=yes');return false;\">Vastuuvapauslauseke</a> "
+"<a href=\"/licenses/disclaimer-popup\" onclick=\"window.open('/licenses/"
+"disclaimer-popup', 'characteristic_help', 'width=375,height=300,"
+"scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,"
+"menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width="
+"\"15\" height=\"13\" alt=\"disclaimer\" border=\"0\"></a></div>"
 
 #. Sorry, no license matches your criteria.
 msgid "license.no_license"
 msgstr "Olen pahoillani, yksikään lisenssi ei vastannut toiveitasi."
 
-#. The Sampling Flavor determines how much freedom licensees have. Sampling
-#. only allows pieces to be used and prohibits sharing of the entire work.
-#. Sampling Plus allows licensees to take and transform pieces of the work, as
-#. well as share the entire work for non-commercial purposes.  Noncommercial
-#. Sampling Plus further restricts the Sampling Plus license by only
-#. authorizing non-commercial derivatives to be created from the pieces of your
-#. work.
-msgid "api.sampling_flavor_help"
-msgstr ""
-"Sämpläys lisenssi määrittelee teoksen miksaajille annettavat oikeudet. "
-"Pelkkä sämpläyslisenssi sallii pienten teoksesta otettujen palojen käytön"
-" mutta ei salli koko teoksen jakamista. Sämpläys Plus sallii "
-"lisenssinsaajan myös jakaa koko teoksen sellaisenaan ei kaupallisessa "
-"tarkoituksessa. Epäkaupallinen-Sämpläys-Plus lisenssi sallii vain "
-"epäkaupallisen sämpläyksen."
+#. Italian
+msgid "lang.it"
+msgstr "Italialainen"
 
 #. Romania
 msgid "country.ro"
@@ -696,9 +718,12 @@ msgstr "Romania"
 msgid "license.what_you"
 msgstr "Mitä voit tehdä täällä"
 
-#. confirm choice
-msgid "license.Confirm_Choice"
-msgstr "vahvista valintasi"
+#. If you have not officially registered for a copyright on your work the
+#. default date is the date you created the work, or completed it.
+msgid "jargon.copyright_date_description"
+msgstr ""
+"Jos teostasi ei ole rekisteröity, teoksesi on tehty sinä päivänä kun se on "
+"saatu valmiiksi."
 
 #. Attribution-NoDerivs-NonCommercial
 msgid "licenses.pretty_by-nd-nc"
@@ -708,30 +733,47 @@ msgstr "Nimeä-Ei muutoksia-Epäkaupallinen"
 msgid "lang.gl"
 msgstr "Galician"
 
+#. This page is available in the following languages:
+msgid "deed.view_in"
+msgstr "Tämä sivu on saatavissa myös seuraavilla kielillä:"
+
+#. You may now <a href="publicdomain-2?${url_vars}">proceed and enrich the
+#. public domain with your work</a>.
+msgid "license.proceed_pd"
+msgstr ""
+"Voit siirtyä eteenpäin ja <a href=\"publicdomain-2?${url_vars}\">rikastaa "
+"public domainia teoksellasi</a>."
+
 #. your email
 msgid "util.your_email"
 msgstr "sähköpostisi"
 
-#. This is a draft license published for public review. Do not use this license
-#. until this notice has been removed. Direct comments on this draft license to
-#. christiane@creativecommons.org.
-msgid "licenses.draft_notice"
-msgstr ""
-"Tämä on lisenssivedos joka on valmisteltu julkiseen tarkisteluun. Älä "
-"käytä tätä lisenssiä ennen kuin tämä ilmoitus on poistettu siitä. Voit "
-"lähettää lisenssiä koskevia kommentteja christiane@creativecommons.org."
+#. Yes
+msgid "util.Yes"
+msgstr "Kyllä"
 
 #. to copy, distribute, display, perform, present, publicly transmit, and
 #. recite the work
 msgid "deed.free_copy_distribute.jp"
-msgstr "kopioida, levittää, näyttää, esittää, julkisesti lähettää ja lausua teosta"
-
-#. The licensor permits others to copy, distribute and transmit only unaltered
-#. copies of the work — not derivative works based on it.
-msgid "char.nd_description"
 msgstr ""
-"Lisenssin antaja sallii teoksen kopioinnin, jakamisen, näyttämisen ja "
-"esittämisen ainoastaan muuttamattomana - ei muutetussa muodossa."
+"kopioida, levittää, näyttää, esittää, julkisesti lähettää ja lausua teosta"
+
+#. <p>Your choice suggests you want to dedicate your work to the public domain,
+#. the commons of information and expression where nothing is owned and all is
+#. permitted.</p>
+#. <p>The Public Domain Dedication is not a license. By using it, you
+#. do not simply carve out exceptions to your copyright; you grant your entire
+#. copyright to the public without condition. This grant is permanent and
+#. irreversible.</p>
+msgid "license.pd_choice"
+msgstr ""
+"<p>Olet valinnut tekijänoikeuksista luopumisen ja teoksen luovuttamisen "
+"public domainiin. Public domainissa olevan teoksen tekijänoikeuksia ei "
+"omista kukaan ja kaikki sen käyttötavat ovat sallittuja.</p>\n"
+"\n"
+"<p>Public domainiin luovuttamiseen et tarvitse lisenssiä. Luovut kaikista "
+"teokseen kuuluvista tekijänoikeuksista ja annat teoksen tekijänoikeudet "
+"kaikkien käyttöön rajoituksetta. Luovutus on pysyvä ja peruuttamaton.</p>"
 
 #. Audio
 msgid "util.Audio"
@@ -740,12 +782,12 @@ msgstr "Audio"
 #. Your fair dealing and other rights are in no way affected by the above.
 msgid "deed.fair_use"
 msgstr ""
-"Tämä lisenssi ei vaikuta tekijänoikeuslain rajoituksiin tai muiden lakien"
-" myöntämiin oikeuksiin."
+"Tämä lisenssi ei vaikuta tekijänoikeuslain rajoituksiin tai muiden lakien "
+"myöntämiin oikeuksiin."
 
-#. Ukraine
-msgid "country.ua"
-msgstr "Ukraina"
+#. Netherlands
+msgid "country.nl"
+msgstr "Hollanti"
 
 #. In order to:
 msgid "license.in_order_to"
@@ -773,38 +815,50 @@ msgstr "Englanti ja Wales"
 msgid "country.ng"
 msgstr "Nigeria"
 
+#. Licensor permits others to make derivative works
+msgid "jswidget.Licensor_permits_others_to_make_derivative_works"
+msgstr "Licensor permits others to make derivative works"
+
 #. United States
 msgid "country.us"
 msgstr "Yhdysvallat"
 
-#. <h1>Confirm Your Public Domain Dedication</h1>
-#. <p>
-#. You have successfully confirmed your email address (<b>${email}</b>) for
-#. dedicating <b>${title}</b>, a work copyrighted by
-#. <b>${copyright_holder}</b>, to the public domain. To finalize this process,
-#. please click the button below.
-#. </p>
-#. <div class="licensebox">
-#. ${pd_deed_text}
-#. </div>
-msgid "license.pd_confirm"
+#. Select the contents of the box above and copy it. Or, have it <a
+#. href="/license/work-html-popup?${url_vars}" onclick="window.open('work-html-
+#. popup?${url_vars}', 'html_help',
+#. 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+#. false;">emailed to yourself.</a>
+msgid "license.select_text"
 msgstr ""
-"<h1>Vahvista public domain luovutus</h1>\n"
-"\n"
-"<p>\n"
-"Olet menestyksekkäästi vahvistanut sähköpostiosoitteesi(<b>${email}</b>) "
-"lahjoittaaksesi <b>${title}</b>, teoksen jonka tekijänoikeus kuuluu "
-"<b>${copyright_holder}</b>, public domainiin. Saattaaksesi loppuun "
-"prosessin, klikkaa alla olevaa painiketta.\n"
-"</p>\n"
-"\n"
-"        <div class=\"licensebox\">\n"
-"${pd_deed_text}\n"
-"        </div>"
+"Valitse yllä olevan laatikon sisältö ja kopioi se. Tai lähetä se <a href=\"/"
+"license/work-html-popup?${url_vars}\" onclick=\"window.open('work-html-popup?"
+"${url_vars}', 'html_help', 'width=400,height=350,scrollbars=yes,"
+"resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
+"return false;\">sähköpostilla itsellesi.</a>"
 
-#. Select a jurisdiction
-msgid "nav.select_a_jurisdiction"
-msgstr "Valitse maa"
+#. <strong>Require attribution?</strong> (<a
+#. href="/characteristic/by?lang=${lang}"
+#. onclick="window.open('/characteristic/by?lang=${lang}',
+#. 'characteristic_help',
+#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+#. false;">more info</a> <a href="/characteristic/by?lang=${lang}"
+#. onclick="window.open('/characteristic/by?lang=${lang}',
+#. 'characteristic_help',
+#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+#. false;"><img src="/images/popup.gif" width="15" height="13" alt="more
+#. information" border="0" /></a>)
+msgid "license.q1"
+msgstr ""
+"<strong>Haluatko tekijän nimettäväksi?</strong> (<a href=\"/characteristic/"
+"by?lang=${lang}\" onclick=\"window.open('/characteristic/by?lang=${lang}', "
+"'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,"
+"toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"
+"\">lisätietoja</a> <a href=\"/characteristic/by?lang=${lang}\" onclick="
+"\"window.open('/characteristic/by?lang=${lang}', 'characteristic_help', "
+"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,"
+"location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/"
+"popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0"
+"\" /></a>)"
 
 #. <strong>Allow commercial uses of your work?</strong> (<a
 #. href="/characteristic/nc?lang=${lang}"
@@ -819,17 +873,16 @@ msgstr "Valitse maa"
 #. information" border="0" /></a>)
 msgid "license.q2"
 msgstr ""
-"<strong>Sallia teoksesi kaupallisen käytön?</strong> (<a "
-"href=\"/characteristic/nc?lang=${lang}\" "
+"<strong>Sallia teoksesi kaupallisen käytön?</strong> (<a href=\"/"
+"characteristic/nc?lang=${lang}\" onclick=\"window.open('/characteristic/nc?"
+"lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,"
+"resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
+"return false;\">lisätietoja</a> <a href=\"/characteristic/nc?lang=${lang}\" "
 "onclick=\"window.open('/characteristic/nc?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">lisätietoja</a> <a href=\"/characteristic/nc?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nc?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+"'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,"
+"toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"
+"\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more "
+"information\" border=\"0\" /></a>)"
 
 #. <strong>Allow modifications of your work?</strong> (<a
 #. href="/characteristic/nd?lang=${lang}"
@@ -844,17 +897,16 @@ msgstr ""
 #. information" border="0" /></a>)
 msgid "license.q3"
 msgstr ""
-"<strong>Sallia teoksesi muuntelun?</strong> (<a "
-"href=\"/characteristic/nd?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nd?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">lisätietoja</a> <a href=\"/characteristic/nd?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nd?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+"<strong>Sallia teoksesi muuntelun?</strong> (<a href=\"/characteristic/nd?"
+"lang=${lang}\" onclick=\"window.open('/characteristic/nd?lang=${lang}', "
+"'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,"
+"toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"
+"\">lisätietoja</a> <a href=\"/characteristic/nd?lang=${lang}\" onclick="
+"\"window.open('/characteristic/nd?lang=${lang}', 'characteristic_help', "
+"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,"
+"location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/"
+"popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0"
+"\" /></a>)"
 
 #. Simply copy the text, then paste it into your web documents containing
 #. information about your works. <a href="/learn/technology/usingmarkup"
@@ -863,12 +915,19 @@ msgstr ""
 msgid "license.html_directions"
 msgstr ""
 "Yksinkertaisesti kopioi teksti ja liitä se verkkodokumenttiisi, jossa on "
-"tietoa teoksestasi. Lisätietoa HTML:n lisäämisestä dokumentteihisi löydät"
-" <a href=\"/learn/technology/usingmarkup\" target=\"_blank\">täältä</a>."
+"tietoa teoksestasi. Lisätietoa HTML:n lisäämisestä dokumentteihisi löydät <a "
+"href=\"/learn/technology/usingmarkup\" target=\"_blank\">täältä</a>."
 
 #. Select a License
 msgid "license.Select_a_License"
 msgstr "Valitse lisenssi"
+
+#. ${work_title} by ${work_author} is licensed under a <a rel="license"
+#. href="${license_url}">Creative Commons ${license_name} License</a>.
+msgid "license.rdfa_licensed"
+msgstr ""
+"${work_title} jonka tekijä on ${work_author} on lisensoitu <a rel=\"license"
+"\" href=\"${license_url}\">Creative Commons ${license_name} lisenssillä</a>."
 
 #. description
 msgid "util.description"
@@ -884,17 +943,15 @@ msgstr "Julkaise lisensoimasi videot Internet Archive-palvelussa"
 #. <b><tt>${license_url}</tt></b>.
 msgid "license.partner_selected"
 msgstr ""
-"Olet valinnut <a target=\"cc_other\" "
-"href=\"${license_deed_url}\"><b>${license_pretty_name} "
-"lisenssin</b></a>.<br>\n"
+"Olet valinnut <a target=\"cc_other\" href=\"${license_deed_url}\"><b>"
+"${license_pretty_name} lisenssin</b></a>.<br>\n"
 "Lisenssi sijaitsee pysyvästi osoitteessa<br>\n"
 "<b><tt>${license_url}</tt></b>."
 
 #. For any reuse, you must make clear to others the license terms of this work.
 msgid "deed.notice_withoutdistribution"
 msgstr ""
-"Nämä lisenssiehdot tulee selvittää muille uudelleenkäyttäessäsi tätä "
-"teosta."
+"Nämä lisenssiehdot tulee selvittää muille uudelleenkäyttäessäsi tätä teosta."
 
 #. Dutch
 msgid "lang.nl"
@@ -918,11 +975,11 @@ msgstr "Espanja"
 #. false;">add this text</a> to your work.
 msgid "license.mark_nonweb"
 msgstr ""
-"Merkitäksesi dokumentin joka ei ole verkossa, <a href=\"non-web-"
-"popup?${url_vars}\" onclick=\"window.open('non-web-popup?${url_vars}', "
-"'html_help', "
-"'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">lisää tämä teksti </a>teokseesi."
+"Merkitäksesi dokumentin joka ei ole verkossa, <a href=\"non-web-popup?"
+"${url_vars}\" onclick=\"window.open('non-web-popup?${url_vars}', "
+"'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,"
+"directories=no,location=yes,menubar=no,status=yes');return false;\">lisää "
+"tämä teksti </a>teokseesi."
 
 #. The licensor permits others to copy, distribute and transmit the work. In
 #. return, licensees may not use the work for commercial purposes — unless they
@@ -945,16 +1002,12 @@ msgstr "julkaise"
 #. class="fulltext">Legal Code (the full license)</a>.
 msgid "deed.human_summary"
 msgstr ""
-"Tämä on tiivistelmä <a href=\"legalcode\" "
-"class=\"fulltext\">(täydellisestä)juridisesta lisenssistä</a>."
+"Tämä on tiivistelmä <a href=\"legalcode\" class=\"fulltext\">(täydellisestä)"
+"juridisesta lisenssistä</a>."
 
 #. proceed
 msgid "util.proceed"
 msgstr "etene"
-
-#. Attribution
-msgid "licenses.pretty_by"
-msgstr "Nimeä"
 
 #. GNU Lesser General Public License
 msgid "license.LGPL_name_full"
@@ -964,18 +1017,28 @@ msgstr "GNU Lesser General Public License"
 msgid "util.more"
 msgstr "lisää"
 
-#. Permissions beyond the scope of this license may be available at
-#. ${more_perms_link}.
-msgid "license.more_perms_available"
-msgstr "Voit myös hankkia muita oikeuksia teokseen ${more_perms_link}."
-
 #. English (US)
 msgid "lang.en_US"
 msgstr "Englannin kielinen (USA)"
 
-#. Italian
-msgid "lang.it"
-msgstr "Italialainen"
+#. attribute to name
+msgid "util.attribute_to_name"
+msgstr "attribute to name"
+
+#. The Sampling Flavor determines how much freedom licensees have. Sampling
+#. only allows pieces to be used and prohibits sharing of the entire work.
+#. Sampling Plus allows licensees to take and transform pieces of the work, as
+#. well as share the entire work for non-commercial purposes.  Noncommercial
+#. Sampling Plus further restricts the Sampling Plus license by only
+#. authorizing non-commercial derivatives to be created from the pieces of your
+#. work.
+msgid "api.sampling_flavor_help"
+msgstr ""
+"Sämpläys lisenssi määrittelee teoksen miksaajille annettavat oikeudet. "
+"Pelkkä sämpläyslisenssi sallii pienten teoksesta otettujen palojen käytön "
+"mutta ei salli koko teoksen jakamista. Sämpläys Plus sallii lisenssinsaajan "
+"myös jakaa koko teoksen sellaisenaan ei kaupallisessa tarkoituksessa. "
+"Epäkaupallinen-Sämpläys-Plus lisenssi sallii vain epäkaupallisen sämpläyksen."
 
 #. English
 msgid "lang.en"
@@ -985,16 +1048,21 @@ msgstr "Englanniksi"
 msgid "lang.eo"
 msgstr "Esperanto"
 
-#. Yes
-msgid "util.Yes"
-msgstr "Kyllä"
+#. This is a draft license published for public review. Do not use this license
+#. until this notice has been removed. Direct comments on this draft license to
+#. christiane@creativecommons.org.
+msgid "licenses.draft_notice"
+msgstr ""
+"Tämä on lisenssivedos joka on valmisteltu julkiseen tarkisteluun. Älä käytä "
+"tätä lisenssiä ennen kuin tämä ilmoitus on poistettu siitä. Voit lähettää "
+"lisenssiä koskevia kommentteja christiane@creativecommons.org."
 
 #. If you desire a license governed by the Copyright Law of a specific
 #. jurisdiction, please select the appropriate jurisdiction.
 msgid "license.jurisdiction_help"
 msgstr ""
-"Mikäli haluat suojata teostasi Suomen tekijänoikeuslain mukaisesti, käytä"
-" suomalaista versiota lisenssistä."
+"Mikäli haluat suojata teostasi Suomen tekijänoikeuslain mukaisesti, käytä "
+"suomalaista versiota lisenssistä."
 
 #. The freedom to run the program for any purpose.
 msgid "deed.gpl_free_run"
@@ -1018,14 +1086,14 @@ msgid "license.sampling_alternatives"
 msgstr ""
 "<p>Jos <strong>haluat</strong> kutsua muita käyttämään teostasi "
 "<strong>kaupallisesti hyväksi</strong>  &mdash; muokkaamaalla sitä tai "
-"muuten &mdash; sinun tulisi harkita <a href=\"/license/results-"
-"one?license%5fcode=by%2dsa\">Nimi-mainittava - Jaa samoin</a>lisenssin "
-"tai <a href=\"/license/results-one?license%5fcode=by\">Nimi-"
-"mainittava</a> lisenssin käyttöä.</p>"
+"muuten &mdash; sinun tulisi harkita <a href=\"/license/results-one?license%"
+"5fcode=by%2dsa\">Nimi-mainittava - Jaa samoin</a>lisenssin tai <a href=\"/"
+"license/results-one?license%5fcode=by\">Nimi-mainittava</a> lisenssin "
+"käyttöä.</p>"
 
-#. Final step:
-msgid "license.Final_step"
-msgstr "Viimeinen vaihe"
+#. Swedish
+msgid "lang.sv"
+msgstr "Ruotsalainen"
 
 #. The HTML to display your button is as follows:
 msgid "license.html_display"
@@ -1043,9 +1111,9 @@ msgstr "Englanti (Kalifornia)"
 msgid "lang.es"
 msgstr "Espaniaksi"
 
-#. confirm choice
-msgid "license.confirm_choice"
-msgstr "vahvista valintasi"
+#. Attribution
+msgid "char.by_title"
+msgstr "Nimeä"
 
 #. <strong>Noncommercial Sampling Plus</strong>: People can take and transform
 #. <strong>pieces</strong> of your work for <strong>noncommercial</strong>
@@ -1054,9 +1122,18 @@ msgstr "vahvista valintasi"
 msgid "license.sampling_a_nc-sampling+"
 msgstr ""
 "<strong>Ei-kaupallinen Sämpläys Plus</strong>: Muut voivat ottaa ja "
-"muunnella <strong>paloja</strong> teoksestasi <strong>vain ei-"
-"kaupalliseen</strong> tarkoitukseen. <strong>Koko teoksen Ei-"
-"kaupallinen</strong> kopiointi ja levitys on myös sallittua."
+"muunnella <strong>paloja</strong> teoksestasi <strong>vain ei-kaupalliseen</"
+"strong> tarkoitukseen. <strong>Koko teoksen Ei-kaupallinen</strong> "
+"kopiointi ja levitys on myös sallittua."
+
+#. You have selected the Creative Commons ${license_pretty_name}
+#. License${country_name}. <a href="${license_url}">See how the license will
+#. look</a> to your site's visitors.
+msgid "license.selected"
+msgstr ""
+"Olet valinnut Creative Commons ${license_pretty_name} lisenssin "
+"${country_name}. <a href=\"${license_url}\">Katso miltä lisenssi näyttää</a> "
+"sivujesi vierailijoille."
 
 #. Video
 msgid "util.Video"
@@ -1066,8 +1143,8 @@ msgstr "Video"
 #. href="${license_url}">Creative Commons ${license_name} License</a>.
 msgid "license.rdfa_licensed_no_attrib"
 msgstr ""
-"${work_title} on lisensoitu <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} lisenssillä</a>."
+"${work_title} on lisensoitu <a rel=\"license\" href=\"${license_url}"
+"\">Creative Commons ${license_name} lisenssillä</a>."
 
 #. Hungary
 msgid "country.hu"
@@ -1081,8 +1158,8 @@ msgstr "Kroatia"
 #. href="http://www.fsf.org">web page</a>.
 msgid "license.fsf_more_info"
 msgstr ""
-"Lisätietoja Free Software Foundationista löytyy FSF:n <a "
-"href=\"http://www.fsf.org\">verkkosivuilta</a>."
+"Lisätietoja Free Software Foundationista löytyy FSF:n <a href=\"http://www."
+"fsf.org\">verkkosivuilta</a>."
 
 #. Get your Sampling License
 msgid "license.sampling_get"
@@ -1115,17 +1192,16 @@ msgstr ""
 #. href="publicdomain-2">public domain</a>.
 msgid "license.what"
 msgstr ""
-"Käyttämällä Creative Commons lisenssiä <strong>säilytät "
-"tekijänoikeuden</strong>. Lisenssi sallii muiden <a "
-"href=\"/learn/licenses/fullrights\">kopioida ja levittää teostasi,</a> "
-"kunhan he <a href=\"/characteristic/by?lang=en\" "
-"onclick=\"window.open('/characteristic/by?lang=en', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">antavat kunnian sen tekijälle</a> -- ja noudattavan muita "
-"ehtoja, jotka voi määritellä näillä sivuilla. Jos haluat antaa teoksesi "
-"käyttöön ilman mitään ehtoja, voit lahjoittaa sen <a "
-"href=\"publicdomain-2\">public domainiin</a>."
+"Käyttämällä Creative Commons lisenssiä <strong>säilytät tekijänoikeuden</"
+"strong>. Lisenssi sallii muiden <a href=\"/learn/licenses/fullrights"
+"\">kopioida ja levittää teostasi,</a> kunhan he <a href=\"/characteristic/by?"
+"lang=en\" onclick=\"window.open('/characteristic/by?lang=en', "
+"'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,"
+"toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"
+"\">antavat kunnian sen tekijälle</a> -- ja noudattavan muita ehtoja, jotka "
+"voi määritellä näillä sivuilla. Jos haluat antaa teoksesi käyttöön ilman "
+"mitään ehtoja, voit lahjoittaa sen <a href=\"publicdomain-2\">public "
+"domainiin</a>."
 
 #. You must give the original author and the performer credit.
 msgid "char.by_brief.jp"
@@ -1137,6 +1213,10 @@ msgid "license.learn_host"
 msgstr ""
 "Opi sivuista jotka voivat auttaa jakamaan lisensoimiasi tiedostoja. Nämä "
 "verkkosivut toimivat Creative Commons lisenssiesi kanssa."
+
+#. Spanish (CO)
+msgid "lang.es_CO"
+msgstr "Spanish (CO)"
 
 #. Get HTML and email it to yourself
 msgid "license.get_html_email"
@@ -1158,10 +1238,6 @@ msgstr "Seuraava askel:"
 msgid "license.or_choose"
 msgstr "Tai valitse:"
 
-#. Attribution
-msgid "char.by_title"
-msgstr "Nimeä"
-
 #. Attribution-NonCommercial-NoDerivs
 msgid "licenses.pretty_by-nc-nd"
 msgstr "Nimeä-Ei muutoksia-Epäkaupallinen"
@@ -1181,20 +1257,19 @@ msgstr "Nimeä-Ei muutoksia-Epäkaupallinen"
 msgid "deed.disclaimer"
 msgstr ""
 "<p>\n"
-"The Commons Deed ei ole lisenssi. Se on ainoastaan yksinkertainen ja "
-"kätevä lyhennelmä juridisen lisenssin ymmärtämiseksi. Deed on tehty "
-"helposti ymmärrettäväksi paketiksi kuvaamaan joitakin juridisen lisenssin"
-" avainehtoja. Voit ajatella sitä käyttäjäystävällisenä käyttöliittymänä "
+"The Commons Deed ei ole lisenssi. Se on ainoastaan yksinkertainen ja kätevä "
+"lyhennelmä juridisen lisenssin ymmärtämiseksi. Deed on tehty helposti "
+"ymmärrettäväksi paketiksi kuvaamaan joitakin juridisen lisenssin "
+"avainehtoja. Voit ajatella sitä käyttäjäystävällisenä käyttöliittymänä "
 "juridiseen lisenssisopimukseen. Deedillä ei itsessään ole oikeudellista "
-"arvoa, ja sen sisältö ei sellaisenaan esiinny varsinaisessa lisenssissä."
-"\n"
+"arvoa, ja sen sisältö ei sellaisenaan esiinny varsinaisessa lisenssissä.\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"Creative Commons ei ole lakiasiaintoimisto eikä tarjoa juridisia "
-"palveluita. Tämän tai muunkaan näillä sivuilla olevan dokumentin "
-"käyttäminen, näyttäminen, levittäminen tai linkittäminen ei luo mitään "
-"suhdetta Creative Commonssin kanssa.\n"
+"Creative Commons ei ole lakiasiaintoimisto eikä tarjoa juridisia palveluita. "
+"Tämän tai muunkaan näillä sivuilla olevan dokumentin käyttäminen, "
+"näyttäminen, levittäminen tai linkittäminen ei luo mitään suhdetta Creative "
+"Commonssin kanssa.\n"
 "</p>"
 
 #. Here is the license you've chosen
@@ -1213,8 +1288,7 @@ msgstr "Lähetä"
 #. public, so that the whole community benefits.
 msgid "deed.gpl_free_improve"
 msgstr ""
-"Vapaus kehittää ohjelmaa ja julkaista parannukset, jotta koko yhteisö "
-"hyötyy."
+"Vapaus kehittää ohjelmaa ja julkaista parannukset, jotta koko yhteisö hyötyy."
 
 #. Chinese (Taiwan)
 msgid "lang.zh_TW"
@@ -1224,12 +1298,9 @@ msgstr "Kiinaksi (Taiwan)"
 msgid "jargon.source_work_description"
 msgstr "Teos jota on muutettu."
 
-#. Your rights to exploit the work based on the limitations to copyright
-#. clauses and other rights are in no way affected by the above.
-msgid "deed.fair_use.jp"
-msgstr ""
-"Yllä oleva ei vaikuta oikeuteen käyttää teosta tekijänoikeuden "
-"rajoitusten tai muiden lakien myöntämällä tavalla."
+#. Zulu
+msgid "lang.zu"
+msgstr "Zulu"
 
 #. On our site <http://creativecommons.org>, you chose to dedicate your
 #. work, "${title}", to the public domain. We're sending you this email to
@@ -1244,17 +1315,17 @@ msgstr ""
 #. Thank you for using Creative Commons!
 msgid "license.pd_confirmation_email"
 msgstr ""
-"Sivuillamme <http://creativecommons.org>, olet valinnut luovuttaa "
-"teoksesi, \"${title}\", public domainiin. Lähetämme sinulle tämän "
-"sähköpostin varmistaaksemme että todella aiot tehdä näin. \n"
+"Sivuillamme <http://creativecommons.org>, olet valinnut luovuttaa teoksesi, "
+"\"${title}\", public domainiin. Lähetämme sinulle tämän sähköpostin "
+"varmistaaksemme että todella aiot tehdä näin. \n"
 "\n"
 "Mikäli näin ei ole voit jättää tämän viestin huomiotta tai lähettää sen "
 "edelleen osoitteeseen pd@creativecommons.org jotta tiedämme että joku "
 "väärinkäyttää järjestelmää.\n"
 "\n"
-"Mikäli tarkoituksenasi oli luovuttaa teoksesi public domainiin, klikkaa "
-"alla olevaa linkkiä. Tämän jälkeen näytämme yhteenvedon valinnoistasi ja "
-"voit vahvistaa luovutuksen.\n"
+"Mikäli tarkoituksenasi oli luovuttaa teoksesi public domainiin, klikkaa alla "
+"olevaa linkkiä. Tämän jälkeen näytämme yhteenvedon valinnoistasi ja voit "
+"vahvistaa luovutuksen.\n"
 "\n"
 "${clickthrough_url}\n"
 "\n"
@@ -1263,9 +1334,26 @@ msgstr ""
 "\n"
 "Kiiton Creative Commonssin käyttämisestä."
 
-#. Catalan
-msgid "lang.ca"
-msgstr "Katalaani"
+#. <h1>Creative Commons GNU ${license_code}</h1>
+#. <p>The CC-GNU ${license_code} adds the Creative Commons' metadata and
+#. Commons Deed to the Free Software Foundation's ${license_name_full}. The
+#. license is the official FSF ${license_code}, and includes a Portuguese
+#. translation.</p>
+#. <p>To signal to others that you are using a Creative Commons license, you
+#. can use a Creative Commons logo, which links to the CC-GNU ${license_code}.
+#. The result will look like this:</p>
+msgid "license.fsf_explain"
+msgstr ""
+"<h1>Creative Commons GNU ${license_code}</h1>\n"
+"\n"
+"<p> CC-GNU ${license_code} käyttää Creative Commonsin metadata merkkausta ja "
+"lisenssitiivistelmää Free Software säätiön ${license_name_full}lisenssiin. "
+"Lisenssi on virallinen FSF ${license_code}lisenssi, ja sisältää myös "
+"portugalin kielisen käännöksen.</p>\n"
+"\n"
+"<p>Kertoaksesi muille, että käytät Creative Commons lisenssiä, voit käyttää "
+"Creative Commons logoa jostä on linkki CC-GNU ${license_code}lisenssiin. "
+"Lopputulos näyttää tältä:</p>"
 
 #. The licensor permits others to distribute derivative works only under a
 #. license identical to the one that governs the licensor's work.
@@ -1298,20 +1386,9 @@ msgstr "Public Domain"
 msgid "lang.zh"
 msgstr "Kiinaksi"
 
-#. If you modify your copy or copies of the library or any portion of it, you
-#. may distribute the resulting library provided you do so under the GNU Lesser
-#. General Public License.  However, programs that  link to the library may be
-#. licensed under terms of your choice, so long as the library itself can be
-#. changed.  Any translation of the GNU Lesser General Public License must be
-#. accompanied by the GNU Lesser General Public License.
-msgid "deed.lgpl_sharealike"
-msgstr ""
-"Jos muokkaat ohjelmaa tai ohjelmakirjastoa tai sen osaa, saat levittää "
-"syntynyttä kirjastoa GNU Lesser General Public lisenssillä. Tästä "
-"huolimatta ohjelmat jotka linkittävät ohjelmakirjastoon voidaan "
-"lisensoida haluamallasi lisenssillä mikäli kirjasto itsessään on "
-"muutettavissa. Kaikkiin GNU Lesser General Public lisenssin käännöksiin "
-"on liitettävä alkuperäinen GNU Lesser General Public License."
+#. Have your own website?
+msgid "license.have_your_own_website"
+msgstr "Onko sinulla oma verkkosivu?"
 
 #. <h1>Review Choice</h1>
 #. <p>Congratulations, you have selected the Creative Commons <a
@@ -1323,19 +1400,15 @@ msgid "license.review_choice_directions"
 msgstr ""
 "<h1>Tarkastele valintojasi</h1>\n"
 "\n"
-"<p>Onneksi olkoon! Olet valinnut Creative Commons <a "
-"href=\"${license_url}\">${license_pretty_name} "
-"lisenssin${country_name}</a>. </p>\n"
+"<p>Onneksi olkoon! Olet valinnut Creative Commons <a href=\"${license_url}\">"
+"${license_pretty_name} lisenssin${country_name}</a>. </p>\n"
 "\n"
 "<p>Ilmoittaaksesi muille että käytät Creative Commons lisenssiä, voit "
 "käyttää Creative Commons logoa, joka näyttää tältä:</p>"
 
-#. If you have not officially registered for a copyright on your work the
-#. default date is the date you created the work, or completed it.
-msgid "jargon.copyright_date_description"
-msgstr ""
-"Jos teostasi ei ole rekisteröity, teoksesi on tehty sinä päivänä kun se "
-"on saatu valmiiksi."
+#. confirm choice
+msgid "license.Confirm_Choice"
+msgstr "vahvista valintasi"
 
 #. Japanese
 msgid "lang.ja"
@@ -1345,26 +1418,9 @@ msgstr "Japaniksi"
 msgid "license.sampling_title"
 msgstr "Valitse sämpäys lisenssin vaihtoehdot"
 
-#. <div align="center"><a href="/licenses/disclaimer-popup"
-#. onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help',
-#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
-#. false;">Disclaimer</a> <a href="/licenses/disclaimer-popup"
-#. onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help',
-#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
-#. false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer"
-#. border="0"></a></div>
-msgid "deed.gpl_disclaimer"
-msgstr ""
-"<div align=\"center\"><a href=\"/licenses/disclaimer-popup\" "
-"onclick=\"window.open('/licenses/disclaimer-popup', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">Vastuuvapauslauseke</a> <a href=\"/licenses/disclaimer-popup\" "
-"onclick=\"window.open('/licenses/disclaimer-popup', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"disclaimer\" border=\"0\"></a></div>"
+#. Japan
+msgid "country.jp"
+msgstr "Japani"
 
 #. to make commercial use of the work
 msgid "deed.free_commercial"
@@ -1374,43 +1430,9 @@ msgstr "käyttää teosta kaupallisiin tarkoituksiin"
 msgid "util.more_info"
 msgstr "lisätietoja"
 
-#. This is a record of a Public Domain Dedication.
-#. On ${sysdate}, ${copyright_holder} dedicated to the public domain the
-#. work "${title}." Before making the dedication, ${copyright_holder}
-#. represented that ${copyright_holder} owned all copyrights in the
-#. work. By making the dedication, ${copyright_holder} made an overt act
-#. of relinquishment in perpetuity of all present and future rights under
-#. copyright law, whether vested or contingent, in "${title}."
-#. ${copyright_holder} understands that such relinquishment of all rights
-#. includes the relinquishment of all rights to enforce (by lawsuit or
-#. otherwise) those copyrights in the Work.
-#. ${copyright_holder} recognizes that, once placed in the public domain,
-#. "${title}" may be freely reproduced, distributed, transmitted, used,
-#. modified, built upon, or otherwise exploited by anyone for any
-#. purpose, commercial or non-commercial, and in any way, including by
-#. methods that have not yet been invented or conceived.
-#. For more information, please see
-#. <http://creativecommons.org/licenses/publicdomain/>.
-msgid "license.pd_dedication_email"
-msgstr ""
-"Tallenne public domain luovutuksesta.\n"
-"\n"
-"${sysdate}, ${copyright_holder} luovutti public domainiin teoksen "
-"\"${title}.\" Ennen luovutusta, ${copyright_holder}\n"
-"vakuutti että ${copyright_holder} omistaa kaikki tekijänoikeudet "
-"teokseen. Luovutuksella, ${copyright_holder} luopui pysyvästi nykyisistä "
-"ja tulevista tekijänoikeuksistaan \"${title}\" teokseen.\n"
-"\n"
-"${copyright_holder} ymmärtää että luopuminen koskee myös oikeudesta "
-"valvoa (oikeusteitse tai muuten) teoksen tekijänoikeuksia.\n"
-"${copyright_holder} tunnustaa, että kun teos on public domainissa,\n"
-"\"${title}\" teoksesta kuka tahansa voi vapaasti valmistaa kappaleita, "
-"levittää, välittää, muunnella, yhdistää tai käyttää kaupalliseen tai ei-"
-"kaupalliseen tarkoitukseen tai millä tahansa tunnetulla tai "
-"tulevaisuudessa kehitettävällä tavalla. \n"
-"\n"
-"Lisätietoja löydät osoitteesta\n"
-"<http://creativecommons.org/licenses/publicdomain/>."
+#. Select a jurisdiction
+msgid "nav.select_a_jurisdiction"
+msgstr "Valitse maa"
 
 #. <strong>Sampling Plus</strong>: People can take and transform
 #. <strong>pieces</strong> of your work for any purpose other than advertising,
@@ -1420,16 +1442,16 @@ msgstr ""
 msgid "license.sampling_a_sampling+"
 msgstr ""
 "<strong>Sämpläys Plus</strong>: Muut voivat ottaa ja muunnella "
-"<strong>paloja</strong> teoksestasi muuhun kuin mainostarkoitukseen joka "
-"on kielletty. <strong>Koko teoksen Ei-kaupallinen</strong> kopiointi ja "
-"levitys on myös sallittua."
+"<strong>paloja</strong> teoksestasi muuhun kuin mainostarkoitukseen joka on "
+"kielletty. <strong>Koko teoksen Ei-kaupallinen</strong> kopiointi ja levitys "
+"on myös sallittua."
 
 #. This is a human-readable summary of the Legal Code (the full license)
 #. available in the following languages:
 msgid "deed.human_summary_multilanguage"
 msgstr ""
-"Tämä on ihmisten-luettavissa oleva tiivistelmä juridisesta lisenssistä. "
-"Se on saatavilla seuraavilla kielillä:"
+"Tämä on ihmisten-luettavissa oleva tiivistelmä juridisesta lisenssistä. Se "
+"on saatavilla seuraavilla kielillä:"
 
 #. Jordan
 msgid "country.jo"
@@ -1463,8 +1485,8 @@ msgstr "lähdeteos"
 #. of copyrighted work: images, film, etc.
 msgid "license.sampling_note"
 msgstr ""
-"Huomio: Sämpläys lisenssi toimii myös muille teostyypeille kuin "
-"musiikille: kuville, filmeille jne."
+"Huomio: Sämpläys lisenssi toimii myös muille teostyypeille kuin musiikille: "
+"kuville, filmeille jne."
 
 #. Australia
 msgid "country.au"
@@ -1482,18 +1504,25 @@ msgstr "Itävalta"
 msgid "license.non_web_pd"
 msgstr ""
 "Tämä teos täten päästetään public domainiin. Voit tutustua public domain "
-"omistukseen osoitteessa: "
-"http://creativecommons.org/licenses/publicdomain/ tai lähettämällä "
-"kirjeen osoitteeseen Creative Commons, 171 Second Street, Suite 300, San "
-"Francisco, California, 94105, USA."
+"omistukseen osoitteessa: http://creativecommons.org/licenses/publicdomain/ "
+"tai lähettämällä kirjeen osoitteeseen Creative Commons, 171 Second Street, "
+"Suite 300, San Francisco, California, 94105, USA."
 
 #. Argentina
 msgid "country.ar"
 msgstr "Argentiina"
 
-#. Sampling
-msgid "licenses.pretty_sampling "
-msgstr "Sämpläys plussa"
+#. A <a href="${current_version_url}">new version</a> of this license is
+#. available. You should use it for new works, and you may want to relicense
+#. existing works under it. No works are <em>automatically</em> put under the
+#. new license, however.
+msgid "deed.superseded"
+msgstr ""
+"Tämän lisenssin on syrjäyttänyt uusi <a href=\"${current_version_url}"
+"\">lisenssiversio</a>. Tätä lisenssiä suositellaan käytettäväksi uusien "
+"teosten lisensoimiseksi sekä jo lisensoitujen teosten uudelleen "
+"lisensoimiseen. Teokset eivät <em>automaattisesti</em> siirry uuden "
+"lisenssin alle."
 
 #. Sampling Plus
 msgid "licenses.pretty_sampling+"
@@ -1507,33 +1536,17 @@ msgstr "Sallitko teoksen kaupallisen käytön?"
 msgid "license.enter_information"
 msgstr "syötä informaatio"
 
-#. You must attribute the work in the manner specified by the author or
-#. licensor (but not in any way that suggests that they endorse you or your use
-#. of the work).
-msgid "char.by_brief"
-msgstr ""
-"Teoksen tekijä on ilmoitettava siten kuin tekijä tai teoksen lisensoija "
-"on sen määrännyt (mutta ei siten että ilmoitus viittaisi lisenssinantajan"
-" tukevan lisenssinsaajaa tai Teoksen käyttötapaa)."
+#. Allow Remixing
+msgid "jswidget.Allow_Remixing"
+msgstr "Allow Remixing"
 
 #. Hide these fields (All fields are optional)
 msgid "license.hide_optional_fields"
 msgstr "Piilota nämä kentät (Kaikki kentät ovat vapaaehtoisia)"
 
-#. You must conspicuously and appropriately publish on each copy distributed an
-#. appropriate copyright notice and disclaimer of warranty and keep intact all
-#. the notices that refer to this License and to the absence of any warranty;
-#. and give any other recipients of the Program a copy of the
-#. ${license_name_full} along with the Program. Any translation of the
-#. ${license_name_full} must be accompanied by the ${license_name_full}.
-msgid "deed.gpl_notice"
-msgstr ""
-"Sinun tulee huomiota herättävästi ja tarkoituksenmukaisesti julkaista "
-"jokaisessa levittämässäsi teoskappaleessa tekijänoikeusilmoitus ja "
-"vastuuvapauslauseke ja säilyttää kaikki viitteet tähän lisenssiin ja "
-"takuun puutteeseen ja antaa kaikille teoksen vastaanottajille kopio tästä"
-" ${license_name_full}lisenssistä teoskappaleen mukana. Kaikkien  "
-"${license_name_full}käännösten mukana tulee olla ${license_name_full}."
+#. Portugal
+msgid "country.pt"
+msgstr "Portugali"
 
 #. GNU General Public License
 msgid "license.GPL_name_full"
@@ -1542,8 +1555,7 @@ msgstr "GNU General Public License"
 #. The freedom to study how the program works and adapt it to your needs.
 msgid "deed.gpl_free_study"
 msgstr ""
-"Vapaus tutkia kuinka ohjelma toimii ja tehdä siihen tarvitsemiasi "
-"muutoksia."
+"Vapaus tutkia kuinka ohjelma toimii ja tehdä siihen tarvitsemiasi muutoksia."
 
 #. Afrikaans
 msgid "lang.af"
@@ -1553,61 +1565,47 @@ msgstr "Afrikaans"
 #. substantial portions of the software.
 msgid "deed.mit_notice"
 msgstr ""
-"Tekijänoikeustiedot ja lisenssi tulee sisältää tämän ohjelman "
-"kappaleisiin tai ohjelmiin jossa on käytetty merkittäviä osia tästä "
-"ohjelmasta."
+"Tekijänoikeustiedot ja lisenssi tulee sisältää tämän ohjelman kappaleisiin "
+"tai ohjelmiin jossa on käytetty merkittäviä osia tästä ohjelmasta."
+
+#. Remix
+msgid "jswidget.Remix"
+msgstr "Remix"
 
 #. You may not use this work for commercial purposes.
 msgid "char.nc_brief"
 msgstr "Teosta ei saa käyttää kaupallisiin tarkoituksiin."
 
+#. more permissions URL
+msgid "util.more_permissions_url"
+msgstr "more permissions URL"
+
 #. Nothing in this license impairs or restricts the author's moral rights.
 msgid "deed.moralrights"
 msgstr "Lisenssi ei rajoita tekijän moraalisia oikeuksia."
 
-#. A <a href="${current_version_url}">new version</a> of this license is
-#. available. You should use it for new works, and you may want to relicense
-#. existing works under it. No works are <em>automatically</em> put under the
-#. new license, however.
-msgid "deed.superseded"
-msgstr ""
-"Tämän lisenssin on syrjäyttänyt uusi <a "
-"href=\"${current_version_url}\">lisenssiversio</a>. Tätä lisenssiä "
-"suositellaan käytettäväksi uusien teosten lisensoimiseksi sekä jo "
-"lisensoitujen teosten uudelleen lisensoimiseen. Teokset eivät "
-"<em>automaattisesti</em> siirry uuden lisenssin alle."
-
-#. French (CA)
-msgid "lang.fr_CA"
-msgstr "Ranska (CA)"
+#. Slovak Republic
+msgid "country.sk"
+msgstr "Slovakia"
 
 #. Copy the text below to your Web site to let your visitors know what license
 #. applies to your works.
 msgid "license.copy_text"
 msgstr ""
-"Kopioi alla oleva teksti verkkosivuillesi, jotta siellä vierailevat "
-"kävijät tietävät teostasi koskevan lisenssin."
+"Kopioi alla oleva teksti verkkosivuillesi, jotta siellä vierailevat kävijät "
+"tietävät teostasi koskevan lisenssin."
 
 #. Hebrew
 msgid "lang.he"
 msgstr "Heprea"
 
-#. choose license
-msgid "license.choose_license"
-msgstr "valitse lisenssi"
+#. learn how to mark your content
+msgid "license.learn_mark"
+msgstr "Opi kuinka voit merkata sisältösi"
 
-#. This page is available in the following languages:
-msgid "util.page_other_languages"
-msgstr "Tämä sivu on saatavilla seuraavilla kielillä:"
-
-#. This ${work_type} is dedicated to the <a rel="license"
-#. href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.
-msgid "license.work_type_dedicated"
-msgstr ""
-"Tämä ${work_type} kuuluu\n"
-"<a rel=\"license\" "
-"href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
-"Domainiin</a>."
+#. Singapore
+msgid "country.sg"
+msgstr "Singapore"
 
 #. Sweden
 msgid "country.se"
@@ -1625,9 +1623,9 @@ msgstr "Unkarilainen"
 msgid "country.dk"
 msgstr "Tanska"
 
-#. Slovak Republic
-msgid "country.sk"
-msgstr "Slovakia"
+#. Close window
+msgid "util.Close_window"
+msgstr "Sulje ikkuna"
 
 #. Slovenia
 msgid "country.si"
@@ -1641,16 +1639,16 @@ msgstr "Kroatia"
 msgid "country.scotland"
 msgstr "Isobritania: Scotland"
 
-#. Netherlands
-msgid "country.nl"
-msgstr "Hollanti"
+#. Ukraine
+msgid "country.ua"
+msgstr "Ukraina"
 
 #. This license is <a href="/retiredlicenses">retired</a>. Do not use for new
 #. works.
 msgid "deed.retired"
 msgstr ""
-"Tämä lisenssin valinta on <a href=\"/retiredlicenses\">lakkautettu</a>. "
-"Älä käytä sitä uusien teosten lisensoimiseen."
+"Tämä lisenssin valinta on <a href=\"/retiredlicenses\">lakkautettu</a>. Älä "
+"käytä sitä uusien teosten lisensoimiseen."
 
 #. Canada
 msgid "country.ca"
@@ -1664,20 +1662,64 @@ msgstr "Kolumbia"
 msgid "country.cn"
 msgstr "Kiina"
 
-#. Chile
-msgid "country.cl"
-msgstr "Chile"
+#. GPL
+msgid "licenses.pretty_GPL"
+msgstr "GPL"
 
-#. <strong>Sampling</strong>: People can take and transform
-#. <strong>pieces</strong> of your work for any purpose other than advertising,
-#. which is prohibited. Copying and distribution of the <strong>entire
-#. work</strong> is also prohibited.
-msgid "license.sampling_a_sampling"
+#. <p>
+#. The Commons Deed is not a license. It is simply a handy reference for
+#. understanding the Legal Code (the full License) — it is a human-readable
+#. expression of some of its key terms. This Deed itself has no legal value,
+#. and its contents do not appear in the actual License.  The actual terms of
+#. the license is set forth by the Legal Code.  <a href="legalcode"
+#. class="fulltext">Please click here to see the full License</a>.
+#. </p>
+#. <p>
+#. Creative Commons and Creative Commons Japan are not law firms, and
+#. distributing of or displaying of, or linking to the Commons Deed does not
+#. constitute an offer of legal advice or any other legal services. Creative
+#. Commons and Creative Commons Japan are not a party to the License underlying
+#. this Commons Deed, and disclaim liablity for damages resulting from any use
+#. of the Commons Deed and the underlying License.
+#. </p>
+#. <p>
+#. The Product licensed under Creative Commons License is provided by the
+#. person who applied the License.  Creative Commons and Creative Commons Japan
+#. make no warranties regarding the title of the licensor.  Please read <a
+#. href="http://creativecommons.jp/faq/">here</a> for information regarding the
+#. application of licenses and exploitation of the Product licensed under
+#. Creative Commons licenses.
+#. </p>
+msgid "deed.disclaimer.jp"
 msgstr ""
-"<strong>Sämpläys</strong>: Muut voivat ottaa ja muunnella "
-"<strong>paloja</strong> teoksestasi <strong>vain ei-kaupalliseen</strong>"
-" tarkoitukseen. <strong>Koko teoksen</strong> kopiointi ja levitys on "
-"kielletty."
+"<p>\n"
+"The Commons Deed ei ole lisenssi. Se on ainoastaan yksinkertainen ja kätevä "
+"lyhennelmä juridisen lisenssin ymmärtämiseksi. Deed on tehty helposti "
+"ymmärrettäväksi paketiksi kuvaamaan joitakin juridisen lisenssin "
+"avainehtoja. Voit ajatella sitä käyttäjäystävällisenä käyttöliittymänä "
+"juridiseen lisenssisopimukseen. Deedillä ei itsessään ole oikeudellista "
+"arvoa, ja sen sisältö ei sellaisenaan esiinny varsinaisessa lisenssissä. "
+"Lisenssiehdot on määritelty lisenssissä. <a href=\"legalcode\" class="
+"\"fulltext\">Täydelliseen lisenssiin pääset klikkaamalla tätä linkkiä</"
+"a>.  \n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Creative Commons tai Creative Commons Suomi eivät ole lakiasiaintoimistoja "
+"eivätkä tarjoa juridisia palveluita. Tämän tai muunkaan näillä sivuilla "
+"olevan dokumentin käyttäminen, näyttäminen, levittäminen tai linkittäminen "
+"ei luo mitään suhdetta Creative Commonssin kanssa.Creative Commons tai "
+"Creative Commons Suomi eivät ole lisenssin osapuolia eivätkä vastaa "
+"vahingoista joita Commons Deedien tai Creative Commons lisenssien "
+"käyttämisestä voi aiheutua.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Creative Commons lisensoidut teoksia jakavat henkilöt jotka ovat liittäneet "
+"lisenssin teoksiin. Creative Commons tai Creative Commons Suomi eivät takaa "
+"teoksien oikeellisuutta. Lisätietoa teosten ja lisenssien käyttämisestä "
+"löydät <a href=\"http://creativecommons.jp/faq/\">täältä</a>.\n"
+"</p>"
 
 #. Switzerland
 msgid "country.ch"
@@ -1691,21 +1733,20 @@ msgstr "Lähetä lisensoimasi kuvat Flickr-palveluun"
 msgid "license.Mark_Content"
 msgstr "merkitse sisältö"
 
-#. This page is available in the following languages:
-msgid "deed.view_in"
-msgstr "Tämä sivu on saatavissa myös seuraavilla kielillä:"
+#. We have updated the version of your license to the most recent one available
+#. in your jurisdiction.
+msgid "jswidget.Updated_license_jurisdiction"
+msgstr ""
+"We have updated the version of your license to the most recent one available "
+"in your jurisdiction."
 
 #. Czech Republic
 msgid "country.cz"
 msgstr "Tsekki"
 
-#. ${work_title} by ${work_author} is licensed under a <a rel="license"
-#. href="${license_url}">Creative Commons ${license_name} License</a>.
-msgid "license.rdfa_licensed"
-msgstr ""
-"${work_title} jonka tekijä on ${work_author} on lisensoitu <a "
-"rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
-"lisenssillä</a>."
+#. NoDerivs-NonCommercial
+msgid "licenses.pretty_nd-nc"
+msgstr "Ei muutoksia-Epäkaupallinen"
 
 #. Attribution-NonCommercial-ShareAlike
 msgid "licenses.pretty_by-nc-sa"
@@ -1737,14 +1778,29 @@ msgstr "Sotho"
 #. return false;">source work</a> URL
 msgid "util.source_work_url"
 msgstr ""
-"<a href=\"/jargon/source_work\" class=\"jargon\" "
-"onClick=\"window.open('/jargon/source_work', 'jargon_term_lookup', "
-"'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
-" return false;\">lähdeteoksen</a> URL"
+"<a href=\"/jargon/source_work\" class=\"jargon\" onClick=\"window.open('/"
+"jargon/source_work', 'jargon_term_lookup', 'width=300,height=400,"
+"scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,"
+"menubar=no,status=yes'); return false;\">lähdeteoksen</a> URL"
 
-#. Swedish
-msgid "lang.sv"
-msgstr "Ruotsalainen"
+#. Final step:
+msgid "license.Final_step"
+msgstr "Viimeinen vaihe"
+
+#. You must conspicuously and appropriately publish on each copy distributed an
+#. appropriate copyright notice and disclaimer of warranty and keep intact all
+#. the notices that refer to this License and to the absence of any warranty;
+#. and give any other recipients of the Program a copy of the
+#. ${license_name_full} along with the Program. Any translation of the
+#. ${license_name_full} must be accompanied by the ${license_name_full}.
+msgid "deed.gpl_notice"
+msgstr ""
+"Sinun tulee huomiota herättävästi ja tarkoituksenmukaisesti julkaista "
+"jokaisessa levittämässäsi teoskappaleessa tekijänoikeusilmoitus ja "
+"vastuuvapauslauseke ja säilyttää kaikki viitteet tähän lisenssiin ja takuun "
+"puutteeseen ja antaa kaikille teoksen vastaanottajille kopio tästä "
+"${license_name_full}lisenssistä teoskappaleen mukana. Kaikkien  "
+"${license_name_full}käännösten mukana tulee olla ${license_name_full}."
 
 #. <strong>to Share</strong> — to copy, distribute and transmit the work
 msgid "deed.free_copy_distribute"
@@ -1753,6 +1809,14 @@ msgstr "<strong>Jakaa</strong> — kopioida, levittää, näyttää ja esittää
 #. No Derivative Works
 msgid "char.nd_title"
 msgstr "Ei muutettuja teoksia"
+
+#. For any reuse or distribution, you must make clear to others the license
+#. terms of this work. The best way to do this is with a link to this web page.
+msgid "deed.notice"
+msgstr ""
+"Uudelleenkäyttäessäsi tai levittäessäsi tätä teosta, sinun tulee tehdä "
+"selväksi muille tämän teoksen käyttäjille nämä lisenssiehdot. Voit tehdä sen "
+"esimerkiksi linkillä tähän sivuun."
 
 #. Slovenian
 msgid "lang.sl"
@@ -1770,8 +1834,8 @@ msgid "license.non_web_statement"
 msgstr ""
 "Tämä teos on lisensoitu Creative Commons ${license_name} lisenssillä. "
 "Nähdäksesi lisenssin vieraile ${license_url} sivulla tai lähetä kirje "
-"Creative Commons, 171 Second Street, Suite 300, San Francisco, "
-"California, 94105, USA."
+"Creative Commons, 171 Second Street, Suite 300, San Francisco, California, "
+"94105, USA."
 
 #. <strong>No Endorsement</strong>. The name of the author may not be used to
 #. endorse or promote products derived from this software without specific
@@ -1779,26 +1843,13 @@ msgstr ""
 msgid "deed.no_endorsement"
 msgstr ""
 "<strong>Ei tukemistarkoitukseen</strong>. Teoksen tekijän nimeä ei saa "
-"käyttää siten että tekijä näyttäisi tukevan tuotteita ja teoksia jotka on"
-" luotu teoksesta muuntelemalla ellei tekijä ole antanut kirjallista lupaa"
-" etukäteen."
+"käyttää siten että tekijä näyttäisi tukevan tuotteita ja teoksia jotka on "
+"luotu teoksesta muuntelemalla ellei tekijä ole antanut kirjallista lupaa "
+"etukäteen."
 
-#. Music Sharing
-msgid "util.Music_Sharing"
-msgstr "Musiikin jakaminen"
-
-#. Creative Commons helps you publish your work online while letting others
-#. know exactly what they can and can't do with your work. When you choose a
-#. license, we provide you with tools and tutorials that let you add license
-#. information to your own site, or to one of several free hosting services
-#. that have incorporated Creative Commons.
-msgid "license.explain"
-msgstr ""
-"Creative Commons auttaa sinua julkaisemaan teoksesi verkossa siten että "
-"muut tietävät mitä niillä saa tehdä. Kun valitset lisenssin, me "
-"toimitamme sinulle työkalut ja ohjeet joilla voit lisätä lisenssit omille"
-" sivuillesi, tai johonkin lukuisista sivuista joilla voit jakaa Creative "
-"Commons sisältöä."
+#. Prohibit Commercial Use
+msgid "jswidget.Prohibit_Commercial_Use"
+msgstr "Prohibit Commercial Use"
 
 #. What to do next
 msgid "license.what_to_do_next"
@@ -1810,11 +1861,9 @@ msgstr "Mitä seuraavaksi"
 #. 2.0 module</a>.
 msgid "license.mark_rss"
 msgstr ""
-"Lisää lisenssi tiedot RSS syöttöön, käytä RSS <a "
-"href=\"http://web.resource.org/rss/1.0/modules/cc/\">1.0</a> modulia, tai"
-" RSS <a "
-"href=\"http://backend.userland.com/creativeCommonsRssModule\">2.0</a> "
-"modulia."
+"Lisää lisenssi tiedot RSS syöttöön, käytä RSS <a href=\"http://web.resource."
+"org/rss/1.0/modules/cc/\">1.0</a> modulia, tai RSS <a href=\"http://backend."
+"userland.com/creativeCommonsRssModule\">2.0</a> modulia."
 
 #. Spanish (CL)
 msgid "lang.es_CL"
@@ -1824,6 +1873,21 @@ msgstr "Espanian kielinen (CL)"
 msgid "license.review_choice"
 msgstr "tarkistele valintoja"
 
+#. If you modify your copy or copies of the library or any portion of it, you
+#. may distribute the resulting library provided you do so under the GNU Lesser
+#. General Public License.  However, programs that  link to the library may be
+#. licensed under terms of your choice, so long as the library itself can be
+#. changed.  Any translation of the GNU Lesser General Public License must be
+#. accompanied by the GNU Lesser General Public License.
+msgid "deed.lgpl_sharealike"
+msgstr ""
+"Jos muokkaat ohjelmaa tai ohjelmakirjastoa tai sen osaa, saat levittää "
+"syntynyttä kirjastoa GNU Lesser General Public lisenssillä. Tästä huolimatta "
+"ohjelmat jotka linkittävät ohjelmakirjastoon voidaan lisensoida haluamallasi "
+"lisenssillä mikäli kirjasto itsessään on muutettavissa. Kaikkiin GNU Lesser "
+"General Public lisenssin käännöksiin on liitettävä alkuperäinen GNU Lesser "
+"General Public License."
+
 #. Share Music
 msgid "util.Share_Music"
 msgstr "Jaa musiikkia"
@@ -1832,13 +1896,28 @@ msgstr "Jaa musiikkia"
 msgid "char.sa_title"
 msgstr "Tarttuva"
 
-#. Text
-msgid "util.Text"
-msgstr "Teksti"
+#. Creative Commons helps you publish your work online while letting others
+#. know exactly what they can and can't do with your work. When you choose a
+#. license, we provide you with tools and tutorials that let you add license
+#. information to your own site, or to one of several free hosting services
+#. that have incorporated Creative Commons.
+msgid "license.explain"
+msgstr ""
+"Creative Commons auttaa sinua julkaisemaan teoksesi verkossa siten että muut "
+"tietävät mitä niillä saa tehdä. Kun valitset lisenssin, me toimitamme "
+"sinulle työkalut ja ohjeet joilla voit lisätä lisenssit omille sivuillesi, "
+"tai johonkin lukuisista sivuista joilla voit jakaa Creative Commons sisältöä."
 
-#. Have your own website?
-msgid "license.have_your_own_website"
-msgstr "Onko sinulla oma verkkosivu?"
+#. Now that you've chosen the public domain dedication, you must mark your work
+#. in the appropriate way.
+msgid "license.mark_pd"
+msgstr ""
+"Valittuasi teoksesi päästämisen public domainiin, sinun tulee merkata "
+"teoksesi sopivalla tavalla."
+
+#. choose license
+msgid "license.choose_license"
+msgstr "valitse lisenssi"
 
 #. Try again!
 msgid "util.Try_again"
@@ -1852,18 +1931,30 @@ msgstr "Historiallinen tekijänoikeus"
 msgid "licenses.pretty_nc-sa"
 msgstr "Epäkaupallinen-Tarttuva"
 
-#. Select the contents of the box above and copy it. Or, have it <a
-#. href="/license/work-html-popup?${url_vars}" onclick="window.open('work-html-
-#. popup?${url_vars}', 'html_help',
-#. 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
-#. false;">emailed to yourself.</a>
-msgid "license.select_text"
+#. <h1>Confirm Your Public Domain Dedication</h1>
+#. <p>
+#. You have successfully confirmed your email address (<b>${email}</b>) for
+#. dedicating <b>${title}</b>, a work copyrighted by
+#. <b>${copyright_holder}</b>, to the public domain. To finalize this process,
+#. please click the button below.
+#. </p>
+#. <div class="licensebox">
+#. ${pd_deed_text}
+#. </div>
+msgid "license.pd_confirm"
 msgstr ""
-"Valitse yllä olevan laatikon sisältö ja kopioi se. Tai lähetä se <a "
-"href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open"
-"('work-html-popup?${url_vars}', 'html_help', "
-"'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">sähköpostilla itsellesi.</a>"
+"<h1>Vahvista public domain luovutus</h1>\n"
+"\n"
+"<p>\n"
+"Olet menestyksekkäästi vahvistanut sähköpostiosoitteesi(<b>${email}</b>) "
+"lahjoittaaksesi <b>${title}</b>, teoksen jonka tekijänoikeus kuuluu <b>"
+"${copyright_holder}</b>, public domainiin. Saattaaksesi loppuun prosessin, "
+"klikkaa alla olevaa painiketta.\n"
+"</p>\n"
+"\n"
+"        <div class=\"licensebox\">\n"
+"${pd_deed_text}\n"
+"        </div>"
 
 #. After publishing your license, please consider <a
 #. href="http://creativecommons.org/support/">supporting Creative Commons</a>.
@@ -1892,14 +1983,14 @@ msgstr ""
 "<h1>Public Domain osoitus - Epäkelpo vahvistus</h1>\n"
 "\n"
 "<p>\n"
-"Näyttää siltä että yrität vahvistaa public domain osoitustasi "
-"virheellisellä vahvistuskoodilla.</p>\n"
+"Näyttää siltä että yrität vahvistaa public domain osoitustasi virheellisellä "
+"vahvistuskoodilla.</p>\n"
 "\n"
 "<p>\n"
 "Tämä johtuu todennäköisesti siitä että ettet pystynyt klikkaamaan URL-"
 "osoitetta jonka sait sähköpostitse, tai että kopiot URL-osoitteen "
-"virheellisesti selaimeesi. Varmista että osoitteessa on <b>kaikki "
-"kirjaimet</b> jotka sähköpostissa saamassa osoitteessa on.\n"
+"virheellisesti selaimeesi. Varmista että osoitteessa on <b>kaikki kirjaimet</"
+"b> jotka sähköpostissa saamassa osoitteessa on.\n"
 "</p>\n"
 "\n"
 "<p>\n"
@@ -1912,15 +2003,21 @@ msgstr ""
 #. work in the manner specified by the author or licensor.
 msgid "char.by_description"
 msgstr ""
-"Lisenssin antaja sallii teoksen kopioinnin, näyttämisen ja esittämisen "
-"sillä ehdolla että lisenssin saaja ilmoittaa alkuperäisen tekijän nimen."
+"Lisenssin antaja sallii teoksen kopioinnin, näyttämisen ja esittämisen sillä "
+"ehdolla että lisenssin saaja ilmoittaa alkuperäisen tekijän nimen."
 
-#. Now that you've chosen the public domain dedication, you must mark your work
-#. in the appropriate way.
-msgid "license.mark_pd"
+#. Text
+msgid "util.Text"
+msgstr "Teksti"
+
+#. You must attribute the work in the manner specified by the author or
+#. licensor (but not in any way that suggests that they endorse you or your use
+#. of the work).
+msgid "char.by_brief"
 msgstr ""
-"Valittuasi teoksesi päästämisen public domainiin, sinun tulee merkata "
-"teoksesi sopivalla tavalla."
+"Teoksen tekijä on ilmoitettava siten kuin tekijä tai teoksen lisensoija on "
+"sen määrännyt (mutta ei siten että ilmoitus viittaisi lisenssinantajan "
+"tukevan lisenssinsaajaa tai Teoksen käyttötapaa)."
 
 #. Publishing your licensed music to the Morpheus P2P network
 msgid "license.publish_morpheus"
@@ -1948,8 +2045,7 @@ msgstr "Public Domain"
 #. Need more help? <a href="/education/publish-website">Read our tutorial</a>.
 msgid "license.read_tutorial"
 msgstr ""
-"Tarvitsetko lisää apua? <a href=\"/education/publish-website\">Lue "
-"ohjee</a>."
+"Tarvitsetko lisää apua? <a href=\"/education/publish-website\">Lue ohjee</a>."
 
 #. Finland
 msgid "country.fi"
@@ -1969,23 +2065,20 @@ msgstr "Suomi"
 #. domain</a>.</p>
 msgid "license.partner_what"
 msgstr ""
-"<p>Olet luonut teoksesi jo olet siitä syystäkin ylpeä. Nyt on hetki "
-"jolloin sinun tulee päättää kuinka haluat jakaa sitä suurelle "
-"yleisölle.</p>\n"
+"<p>Olet luonut teoksesi jo olet siitä syystäkin ylpeä. Nyt on hetki jolloin "
+"sinun tulee päättää kuinka haluat jakaa sitä suurelle yleisölle.</p>\n"
 "\n"
 "<p>Creative Commons lisenssit auttavat sinua jakamaan teoksesi. Samalla "
-"kuitenkin säilytät tekijänoikeuden teokseen. Muut ihmiset voivat "
-"kopioida, jakaa teostasi mikäli he antavat sinulle <a "
-"href=\"/characteristic/by?lang=en\" "
-"onclick=\"window.open('/characteristic/by?lang=en', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">tekijälle kuuluvan tunnustuksen</a> -- ja vain niillä ehdoilla "
-"jotka voit määritellä itse näillä sivulla. Tämä sivusto auttaa sinua "
-"valitsemaan juuri ne ehdot joita haluat käyttää. Jos haluat tarjota "
-"teoksesi muille ilman mitään ehtoja voit valita tekijänoikeuksista "
-"luopumisen ja teoksen päästämisen <a href=\"${results_pd_url}\">public "
-"domainiin</a>.</p>"
+"kuitenkin säilytät tekijänoikeuden teokseen. Muut ihmiset voivat kopioida, "
+"jakaa teostasi mikäli he antavat sinulle <a href=\"/characteristic/by?lang=en"
+"\" onclick=\"window.open('/characteristic/by?lang=en', "
+"'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,"
+"toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;"
+"\">tekijälle kuuluvan tunnustuksen</a> -- ja vain niillä ehdoilla jotka voit "
+"määritellä itse näillä sivulla. Tämä sivusto auttaa sinua valitsemaan juuri "
+"ne ehdot joita haluat käyttää. Jos haluat tarjota teoksesi muille ilman "
+"mitään ehtoja voit valita tekijänoikeuksista luopumisen ja teoksen "
+"päästämisen <a href=\"${results_pd_url}\">public domainiin</a>.</p>"
 
 #. No
 msgid "util.No"
@@ -1999,13 +2092,26 @@ msgstr "etsi"
 msgid "api.sampling_flavor"
 msgstr "Mikä Sämpläys lisenssi?"
 
-#. Based on a work at ${source_link}.
-msgid "license.work_based_on"
-msgstr "Teos on muunnelma teoksesta ${source_link}."
+#. No license chosen
+msgid "jswidget.no_license_chosen"
+msgstr "No license chosen"
 
 #. Finnish
 msgid "lang.fi"
 msgstr "Suomeksi"
+
+#. With a Creative Commons license, you keep your copyright but allow people to
+#. copy and distribute your work provided they give you credit — and only on
+#. the conditions you specify here.', 'If you desire a license governed by the
+#. Copyright Law of a specific jurisdiction, please select the appropriate
+#. jurisdiction.
+msgid "jswidget.short"
+msgstr ""
+"With a Creative Commons license, you keep your copyright but allow people to "
+"copy and distribute your work provided they give you credit — and only on "
+"the conditions you specify here.', 'If you desire a license governed by the "
+"Copyright Law of a specific jurisdiction, please select the appropriate "
+"jurisdiction."
 
 #. Click to include more information about your work.
 msgid "license.include_more"
@@ -2019,8 +2125,8 @@ msgstr "Klikkaa lisätäksesi lisätietoa teoksestasi."
 #. intend to license.  </p>
 msgid "license.link_emailed"
 msgstr ""
-"<p>Valintojasi koskeva informaatio on lähetetty sähköpostiisi "
-"<strong>${email}</strong>.\n"
+"<p>Valintojasi koskeva informaatio on lähetetty sähköpostiisi <strong>"
+"${email}</strong>.\n"
 "</p>\n"
 "\n"
 "<p>Sijoita likki tai HTML verkkosivuillesi heti lisensoimasi teoksen "
@@ -2030,31 +2136,6 @@ msgstr ""
 msgid "lang.fr"
 msgstr "Ranskaksi"
 
-#. <strong>Require attribution?</strong> (<a
-#. href="/characteristic/by?lang=${lang}"
-#. onclick="window.open('/characteristic/by?lang=${lang}',
-#. 'characteristic_help',
-#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
-#. false;">more info</a> <a href="/characteristic/by?lang=${lang}"
-#. onclick="window.open('/characteristic/by?lang=${lang}',
-#. 'characteristic_help',
-#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
-#. false;"><img src="/images/popup.gif" width="15" height="13" alt="more
-#. information" border="0" /></a>)
-msgid "license.q1"
-msgstr ""
-"<strong>Haluatko tekijän nimettäväksi?</strong> (<a "
-"href=\"/characteristic/by?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/by?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">lisätietoja</a> <a href=\"/characteristic/by?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/by?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
-
 #. CC-GNU GPL
 msgid "util.CC_GNU_GPL"
 msgstr "CC-GNU GPL"
@@ -2062,10 +2143,6 @@ msgstr "CC-GNU GPL"
 #. Or, you can <a href="./">return to the questions</a>.
 msgid "license.or_return"
 msgstr "Tai voit <a href=\"./\">palata kysymyksiin</a>."
-
-#. confirm
-msgid "util.confirm"
-msgstr "vahvista"
 
 #. If you alter, transform, or build upon this work, you may distribute the
 #. resulting work only under the same, similar or a compatible license.
@@ -2086,12 +2163,11 @@ msgstr "Tarttuva"
 #. Typepad)
 msgid "license.publish_blog"
 msgstr ""
-"Lisää Creative Commons lisenssi blogiisi (Blogger, Movable Type, ja "
-"Typepad)"
+"Lisää Creative Commons lisenssi blogiisi (Blogger, Movable Type, ja Typepad)"
 
-#. Do you want to:
-msgid "util.Do_you_want_to"
-msgstr "Tahdotko:"
+#. Portugese
+msgid "lang.pt"
+msgstr "Portugaliksi"
 
 #. Any of the above conditions can be waived if you get permission from the
 #. copyright holder.
@@ -2137,26 +2213,16 @@ msgstr "teos"
 #. grants to you the four following freedoms:
 msgid "deed.gpl_freedoms"
 msgstr ""
-"${license_name_full} on <a href=\"http://www.gnu.org/philosophy/free-"
-"sw.html\">Free Software</a> lisenssi. Niinkuin kaikki Free Software "
-"lisenssit, se takaa sinulle seuraavat vapaudet:"
+"${license_name_full} on <a href=\"http://www.gnu.org/philosophy/free-sw.html"
+"\">Free Software</a> lisenssi. Niinkuin kaikki Free Software lisenssit, se "
+"takaa sinulle seuraavat vapaudet:"
 
-#. <p>Your choice suggests you want to dedicate your work to the public domain,
-#. the commons of information and expression where nothing is owned and all is
-#. permitted.</p>
-#. <p>The Public Domain Dedication is not a license. By using it, you
-#. do not simply carve out exceptions to your copyright; you grant your entire
-#. copyright to the public without condition. This grant is permanent and
-#. irreversible.</p>
-msgid "license.pd_choice"
+#. The licensor permits others to copy, distribute and transmit only unaltered
+#. copies of the work — not derivative works based on it.
+msgid "char.nd_description"
 msgstr ""
-"<p>Olet valinnut tekijänoikeuksista luopumisen ja teoksen luovuttamisen "
-"public domainiin. Public domainissa olevan teoksen tekijänoikeuksia ei "
-"omista kukaan ja kaikki sen käyttötavat ovat sallittuja.</p>\n"
-"\n"
-"<p>Public domainiin luovuttamiseen et tarvitse lisenssiä. Luovut kaikista"
-" teokseen kuuluvista tekijänoikeuksista ja annat teoksen tekijänoikeudet "
-"kaikkien käyttöön rajoituksetta. Luovutus on pysyvä ja peruuttamaton.</p>"
+"Lisenssin antaja sallii teoksen kopioinnin, jakamisen, näyttämisen ja "
+"esittämisen ainoastaan muuttamattomana - ei muutetussa muodossa."
 
 #. Sampling
 msgid "licenses.pretty_sampling"
@@ -2172,9 +2238,9 @@ msgstr "Opi kuinka voit  julkaista ja jakaa teostasi"
 #. translation</a> is also available.
 msgid "deed.lgpl_human_summary"
 msgstr ""
-"Tämä on yksinkertainen tiivistelmä lisenssistä (täysi <a "
-"href=\"http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html\">GNU "
-"Lesser General Public License</a>)."
+"Tämä on yksinkertainen tiivistelmä lisenssistä (täysi <a href=\"http://www."
+"gnu.org/licenses/old-licenses/lgpl-2.1.html\">GNU Lesser General Public "
+"License</a>)."
 
 #. This is a human-readable summary of the Legal Code (the full <a
 #. href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General
@@ -2183,8 +2249,8 @@ msgstr ""
 msgid "deed.gpl_human_summary"
 msgstr ""
 "Tämä on tiivistelmä täydestä <a href=\"http://www.gnu.org/licenses/old-"
-"licenses/gpl-2.0.html\">GNU General Public Lisenssistä</a>. <a "
-"href=\"legalcode.pt\">Portugalin kielinen käännös</a> on myös saatavilla."
+"licenses/gpl-2.0.html\">GNU General Public Lisenssistä</a>. <a href="
+"\"legalcode.pt\">Portugalin kielinen käännös</a> on myös saatavilla."
 
 #. <p>
 #. <em>Note:</em> To license a work, you must be its copyright holder or have
@@ -2196,36 +2262,42 @@ msgstr ""
 msgid "license.partner_note"
 msgstr ""
 "<p>\n"
-"<em>Huomio:</em> Lisensoidaksesi teoksen, sinun pitää olla "
-"tekijänoikeuden omistaja tai sinulla pitää olla tekijänoikeuden omistajan"
-" nimenomainen suostumus siihen.</p>\n"
+"<em>Huomio:</em> Lisensoidaksesi teoksen, sinun pitää olla tekijänoikeuden "
+"omistaja tai sinulla pitää olla tekijänoikeuden omistajan nimenomainen "
+"suostumus siihen.</p>\n"
 "\n"
 "<p>\n"
 "Creative Commons ei tarjoa oikeudellisia palveluita. Me tarjoamme "
 "oikeudelliset dokumentit käyttöösi; loppu onkin itsestäsi kiinni.\n"
 "</p>"
 
-#. To sample, mash-up, or otherwise creatively transform this work for
-#. noncommercial purposes.
-msgid "deed.free_sample_nc"
+#. Developing Nations
+msgid "util.Developing_Nations"
+msgstr "Kehitysmaa"
+
+#. To mark a PDF or other XMP-supported file, <a href="xmp?${url_vars}">save
+#. this template</a> following these <a href="/technology/xmp-
+#. help">instructions</a>.
+msgid "license.mark_xmp"
 msgstr ""
-"Sämplätä, sekoittaa tai muuten luovasti muokata tätä teosta "
-"epäkaupalliseen tarkoitukseen."
+"Merkitäkseis PDF-tiedoston tai muun XML-tuetun tiedoston, <a href=\"xmp?"
+"${url_vars}\">tallenna tämä pohja</a> näiden <a href=\"/technology/xmp-help"
+"\">ohjeiden</a> mukaisesti."
 
 #. NonCommercial Sampling Plus
 msgid "licenses.pretty_nc-sampling+"
 msgstr "Epäkaupallinen sämpläys plus"
 
-#. Developing Nations
-msgid "util.Developing_Nations"
-msgstr "Kehitysmaa"
+#. Attribution
+msgid "licenses.pretty_by"
+msgstr "Nimeä"
 
 #. You may not perform, display, or distribute copies of this whole work for
 #. any purpose.
 msgid "char.no_brief"
 msgstr ""
-"Kokonaisen teoksen esittäminen, näyttäminen tai levittäminen sellaisenaan"
-" on kielletty."
+"Kokonaisen teoksen esittäminen, näyttäminen tai levittäminen sellaisenaan on "
+"kielletty."
 
 #. Wiki
 msgid "util.Wiki"
@@ -2234,6 +2306,14 @@ msgstr "Wiki"
 #. Danish
 msgid "lang.da"
 msgstr "Tanskalainen"
+
+#. Unported
+msgid "util.Unported"
+msgstr "Unported"
+
+#. Based on a work at ${source_link}.
+msgid "license.work_based_on"
+msgstr "Teos on muunnelma teoksesta ${source_link}."
 
 #. German
 msgid "lang.de"
@@ -2251,25 +2331,21 @@ msgstr "Sinulla on vapaus:"
 #. resulting work only under the same or similar license to this one.
 msgid "char.sa_brief"
 msgstr ""
-"Jos teet muutoksia tai käytät teosta oman teoksesi pohjana, tulee "
-"syntynyt teos jakaa lisenssillä joka on identtinen alkuperäisen teoksen "
-"lisenssin kanssa."
+"Jos teet muutoksia tai käytät teosta oman teoksesi pohjana, tulee syntynyt "
+"teos jakaa lisenssillä joka on identtinen alkuperäisen teoksen lisenssin "
+"kanssa."
 
-#. NoDerivs-NonCommercial
-msgid "licenses.pretty_nd-nc"
-msgstr "Ei muutoksia-Epäkaupallinen"
+#. Music Sharing
+msgid "util.Music_Sharing"
+msgstr "Musiikin jakaminen"
 
 #. LGPL
 msgid "licenses.pretty_LGPL"
 msgstr "LGPL"
 
-#. For any reuse or distribution, you must make clear to others the license
-#. terms of this work. The best way to do this is with a link to this web page.
-msgid "deed.notice"
-msgstr ""
-"Uudelleenkäyttäessäsi tai levittäessäsi tätä teosta, sinun tulee tehdä "
-"selväksi muille tämän teoksen käyttäjille nämä lisenssiehdot. Voit tehdä "
-"sen esimerkiksi linkillä tähän sivuun."
+#. French (CA)
+msgid "lang.fr_CA"
+msgstr "Ranska (CA)"
 
 #. Lawyer-Readable<br/>
 #. Legal Code
@@ -2277,6 +2353,10 @@ msgid "license.lawyer-readable_legal_code"
 msgstr ""
 "Lakimiesten<br/>\n"
 "Juridinen lisenssi"
+
+#. Require Share-Alike
+msgid "jswidget.Require_Share-Alike"
+msgstr "Require Share-Alike"
 
 #. <strong>to Remix</strong> — to adapt the work
 msgid "deed.free_derivative"
@@ -2324,37 +2404,35 @@ msgid "deed.pd"
 msgstr ""
 "<p align=\"center\"><em>Tekijänoikeudesta luopuminen </em></p>\n"
 "\n"
-"<p>Henkilö tai henkilöt (myöhemmin luovuttaja), jotka ovat liittäneet "
-"tämän dokumentin teokseensa vakuuttavat täten että (a)sikäli kuin he ovat"
-" kaikkea huolellisuutta noudattaen kyenneet selvittämään, tämän teoksen "
-"tekijänoikeus on rauennut siinä maassa, jossa se on julkaistu, tai (b) "
-"täten luopuvat kaikista tekijänoikeuksistaan teokseen niin että sen "
-"tekijänoikeus on rauennut. Lisäksi luovuttaja nimenomaisesti ilmoittautuu"
-" pysyvästi pidättäytymästä kaikkia sellaisia oikeuksia, joita hänellä "
-"voisi lain mukaan olla luovutettavaan teokseen.</p>\n"
+"<p>Henkilö tai henkilöt (myöhemmin luovuttaja), jotka ovat liittäneet tämän "
+"dokumentin teokseensa vakuuttavat täten että (a)sikäli kuin he ovat kaikkea "
+"huolellisuutta noudattaen kyenneet selvittämään, tämän teoksen tekijänoikeus "
+"on rauennut siinä maassa, jossa se on julkaistu, tai (b) täten luopuvat "
+"kaikista tekijänoikeuksistaan teokseen niin että sen tekijänoikeus on "
+"rauennut. Lisäksi luovuttaja nimenomaisesti ilmoittautuu pysyvästi "
+"pidättäytymästä kaikkia sellaisia oikeuksia, joita hänellä voisi lain mukaan "
+"olla luovutettavaan teokseen.</p>\n"
 "\n"
 "<p>\n"
 "Luovuttaja on varmistunut kaikeka huolelisuutta noudattaen teoksen "
-"tekijänoikeudesta. Luovuttaja ilmoittaa käsittävänsä, ettei "
-"perusteltukaan vilpitön mieli poista vastuuta, mikäli teokseen kuitenkin "
-"olisi tekijänoikeus\n"
+"tekijänoikeudesta. Luovuttaja ilmoittaa käsittävänsä, ettei perusteltukaan "
+"vilpitön mieli poista vastuuta, mikäli teokseen kuitenkin olisi "
+"tekijänoikeus\n"
 "</p>\n"
 "\n"
 "<p>\n"
 "Luovuttaja toimii tässä asiassa suuren yleisön hyväksi, syrjäyttäen "
 "oikeudenomistajiensa edun. Luovuttaja on tarkoittanut luopumistoimensa "
-"pysyväksi ja koskemaan kaikkia nykyisiä ja tulevia tekijänoikeuden "
-"suojaamia oikeuksiaan teokseen. Luovuttaja käsittää, ettei hän voi enää "
-"esittää tekijänoikeuteensa vedoten vaatimuksia yksityisesti eikä "
-"viranomaisissa.\n"
+"pysyväksi ja koskemaan kaikkia nykyisiä ja tulevia tekijänoikeuden suojaamia "
+"oikeuksiaan teokseen. Luovuttaja käsittää, ettei hän voi enää esittää "
+"tekijänoikeuteensa vedoten vaatimuksia yksityisesti eikä viranomaisissa.\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"Luovuttaja käsittää, että tekijänoikeuden rauettua kuka tahansa voi "
-"vapaasti valmistaa kappaleita teoksesta, levittää, välittää, muunnella, "
-"yhdistää tai käyttää sitä kaupallisiin ja muihin kuin kaupallisiin "
-"tarkoituksiin kaikilla nyt tunnetulla tai tulevaisuudessa kehitettävillä "
-"tavoilla.\n"
+"Luovuttaja käsittää, että tekijänoikeuden rauettua kuka tahansa voi vapaasti "
+"valmistaa kappaleita teoksesta, levittää, välittää, muunnella, yhdistää tai "
+"käyttää sitä kaupallisiin ja muihin kuin kaupallisiin tarkoituksiin kaikilla "
+"nyt tunnetulla tai tulevaisuudessa kehitettävillä tavoilla.\n"
 "</p>"
 
 #. <h1>Enter Information</h1>
@@ -2376,25 +2454,23 @@ msgstr ""
 "Domainiin luovuttamisen</a>.</p>\n"
 "\n"
 "<p>\n"
-"Täytä alla olevat kentät luovuttaaksesi teoksesi. Creative Commons "
-"käyttää tietoja lähettääkseen sähköposti kuitin luovutuksesta sinulle ja "
-"itselleen.</p>\n"
+"Täytä alla olevat kentät luovuttaaksesi teoksesi. Creative Commons käyttää "
+"tietoja lähettääkseen sähköposti kuitin luovutuksesta sinulle ja itselleen.</"
+"p>\n"
 "\n"
-"<p>Kun olet täyttänyt tarvittavat tiedot, sinulla on mahdollisuus harkita"
-" vielä päätöstäsi.</p>\n"
+"<p>Kun olet täyttänyt tarvittavat tiedot, sinulla on mahdollisuus harkita "
+"vielä päätöstäsi.</p>\n"
 "\n"
 "<p><strong>Teoksen tiedot</strong></p>\n"
 "\n"
 "        <p>kaikki kentät ovat pakollisia</p>"
 
-#. To mark a PDF or other XMP-supported file, <a href="xmp?${url_vars}">save
-#. this template</a> following these <a href="/technology/xmp-
-#. help">instructions</a>.
-msgid "license.mark_xmp"
+#. To sample, mash-up, or otherwise creatively transform this work for
+#. noncommercial purposes.
+msgid "deed.free_sample_nc"
 msgstr ""
-"Merkitäkseis PDF-tiedoston tai muun XML-tuetun tiedoston, <a "
-"href=\"xmp?${url_vars}\">tallenna tämä pohja</a> näiden <a "
-"href=\"/technology/xmp-help\">ohjeiden</a> mukaisesti."
+"Sämplätä, sekoittaa tai muuten luovasti muokata tätä teosta epäkaupalliseen "
+"tarkoitukseen."
 
 #. Before you apply the Sampling License to your work, make sure you have the
 #. authority to license all the rights involved. Musical works, for example,
@@ -2402,8 +2478,8 @@ msgstr ""
 msgid "license.sampling_before"
 msgstr ""
 "Ennen kuin liität lisenssiä teokseesi varmista että sinulla on oikeus "
-"lisenssoida kaikki teokseen liittyvät oikeudet. Musiikkiin liittyy usein "
-"eri tahoille kuuluvia tekijänoikeuksia (sävellys, esitys, sanat)."
+"lisenssoida kaikki teokseen liittyvät oikeudet. Musiikkiin liittyy usein eri "
+"tahoille kuuluvia tekijänoikeuksia (sävellys, esitys, sanat)."
 
 #. Jurisdiction of your license:
 msgid "api.jurisdiction"
@@ -2418,111 +2494,7 @@ msgstr "koti"
 msgid "license.proceed_email_note"
 msgstr ""
 "<b>HUOMIO:</b> Klikkaamalla \"etene\" lähetät varmistusviestin antamaasi "
-"sähköpostiosoitteeseen. Varmista että sähköpostiosoite on oikein "
-"kirjoitettu."
+"sähköpostiosoitteeseen. Varmista että sähköpostiosoite on oikein kirjoitettu."
 
-#. Greece
-msgid "country.gr"
-msgstr "Greece"
-
-#: s/index.pt:107
-msgid "The licensor permits others to copy, distribute, display and perform the work, as well as make derivative works based on it."
-msgstr ""
-
-#: s/index.pt:56
-msgid "Commercial Use"
-msgstr ""
-
-#: s/index.pt:59
-msgid "The licensor permits others to copy, distribute, display, and perform the work, including for commercial purposes."
-msgstr ""
-
-#: s/index.pt:70
-msgid "The licensor permits others to copy, distribute, display, and perform the work for non-commercial purposes only."
-msgstr ""
-
-#: s/index.pt:88
-msgid "Yes, as long as others share alike"
-msgstr ""
-
-#. You must retain the license terms and copyright notice in any source code
-#. distribution and reproduce them in documentation for binary distributions.
-msgid "deed.bsd_notice"
-msgstr ""
-"You must retain the license terms and copyright notice in any source code"
-" distribution and reproduce them in documentation for binary "
-"distributions."
-
-#. We have updated the version of your license to the most recent one
-#. available.
-msgid "jswidget.Updated_license_version_generic"
-msgstr ""
-"We have updated the version of your license to the most recent one "
-"available."
-
-#. attribute to url
-msgid "util.attribute_to_url"
-msgstr "attribute to url"
-
-#. Licensor permits others to make derivative works
-msgid "jswidget.Licensor_permits_others_to_make_derivative_works"
-msgstr "Licensor permits others to make derivative works"
-
-#. attribute to name
-msgid "util.attribute_to_name"
-msgstr "attribute to name"
-
-#. Spanish (CO)
-msgid "lang.es_CO"
-msgstr "Spanish (CO)"
-
-#. Allow Remixing
-msgid "jswidget.Allow_Remixing"
-msgstr "Allow Remixing"
-
-#. Remix
-msgid "jswidget.Remix"
-msgstr "Remix"
-
-#. more permissions URL
-msgid "util.more_permissions_url"
-msgstr "more permissions URL"
-
-#. We have updated the version of your license to the most recent one available
-#. in your jurisdiction.
-msgid "jswidget.Updated_license_jurisdiction"
-msgstr ""
-"We have updated the version of your license to the most recent one "
-"available in your jurisdiction."
-
-#. Prohibit Commercial Use
-msgid "jswidget.Prohibit_Commercial_Use"
-msgstr "Prohibit Commercial Use"
-
-#. No license chosen
-msgid "jswidget.no_license_chosen"
-msgstr "No license chosen"
-
-#. With a Creative Commons license, you keep your copyright but allow people to
-#. copy and distribute your work provided they give you credit — and only on
-#. the conditions you specify here.', 'If you desire a license governed by the
-#. Copyright Law of a specific jurisdiction, please select the appropriate
-#. jurisdiction.
-msgid "jswidget.short"
-msgstr ""
-"With a Creative Commons license, you keep your copyright but allow people"
-" to copy and distribute your work provided they give you credit — and "
-"only on the conditions you specify here.', 'If you desire a license "
-"governed by the Copyright Law of a specific jurisdiction, please select "
-"the appropriate jurisdiction."
-
-#. Unported
-msgid "util.Unported"
-msgstr "Unported"
-
-#. Require Share-Alike
-msgid "jswidget.Require_Share-Alike"
-msgstr "Require Share-Alike"
-
-msgid "Allow Derivative Works"
-msgstr ""
+#~ msgid "licenses.pretty_sampling "
+#~ msgstr "Sämpläys plussa"
