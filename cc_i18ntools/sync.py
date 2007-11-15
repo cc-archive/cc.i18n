@@ -5,26 +5,15 @@ from logging import getLogger
 from babel.messages.pofile import read_po, write_po
 
 import convert
-import support
+from support import parse_args
 
 LOGGER_NAME = "sync"
-
-def make_option_parser():
-    """Return an optparse.OptionParser configured for the sync
-    command line script."""
-
-    parser = support.make_option_parser()
-    parser.set_defaults(input_dir = 'i18n',
-                        output_dir = 'i18n')
-
-    return parser
-
 
 def cli():
     """Command line interface for sync script."""
 
     # parse the command line
-    (options, args) = make_option_parser().parse_args()
+    (options, args) = parse_args(input_dir='po', output_dir='po')
 
     # set up the logging infrastructure
     getLogger(LOGGER_NAME).addHandler(logging.StreamHandler())
