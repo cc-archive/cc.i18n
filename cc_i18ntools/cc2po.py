@@ -10,8 +10,8 @@ import support
 LOGGER_NAME = "cc2po"
 
 def make_option_parser():
-    """Return an optparse.OptionParser configured for the cc2po
-    command line script."""
+    """Return an optparse.OptionParser configured for the cc2po command line
+    script."""
 
     parser = support.make_option_parser()
     parser.set_defaults(input_dir = 'i18n/en',
@@ -20,15 +20,16 @@ def make_option_parser():
     return parser
 
 def cli():
-    """Command line interface for make_cc_files script."""
-
-    # set up the logging infrastructure
-    getLogger(LOGGER_NAME).addHandler(logging.StreamHandler())
-    getLogger(LOGGER_NAME).setLevel(logging.INFO)
+    """Command line interface for cc2po script."""
 
     # parse the command line
     (options, input_files) = make_option_parser().parse_args()
 
+    # set up the logging infrastructure
+    getLogger(LOGGER_NAME).addHandler(logging.StreamHandler())
+    getLogger(LOGGER_NAME).setLevel(options.verbosity)
+
+    # make everything absolute paths
     options.input_dir = os.path.abspath(options.input_dir)
     options.output_dir = os.path.abspath(options.output_dir)
     options.english_po = os.path.abspath(options.english_po)

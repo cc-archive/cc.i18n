@@ -22,13 +22,14 @@ def make_option_parser():
 def cli():
     """Command line interface for po2cc script."""
 
-    # set up the logging infrastructure
-    getLogger(LOGGER_NAME).addHandler(logging.StreamHandler())
-    getLogger(LOGGER_NAME).setLevel(logging.INFO)
-
     # parse the command line
     (options, input_files) = make_option_parser().parse_args()
 
+    # set up the logging infrastructure
+    getLogger(LOGGER_NAME).addHandler(logging.StreamHandler())
+    getLogger(LOGGER_NAME).setLevel(options.verbosity)
+
+    # make everything absolute paths
     options.input_dir = os.path.abspath(options.input_dir)
     options.output_dir = os.path.abspath(options.output_dir)
     options.english_po = os.path.abspath(options.english_po)

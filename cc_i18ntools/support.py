@@ -1,3 +1,4 @@
+import logging
 import optparse
 
 def make_option_parser():
@@ -5,11 +6,18 @@ def make_option_parser():
     command line script."""
 
     parser = optparse.OptionParser()
+    parser.set_defaults(verbosity=logging.WARNING)
 
     # settings
-    parser.add_option('-e', '--english', dest='english_po',
+    parser.add_option('-m', '--master', dest='english_po',
                       default='master/cc_org.po',
-                      help='English .po file, used to map keys.')
+                      help='Master .po file, used to map keys.')
+    parser.add_option('-q', '--quiet', dest='verbosity',
+                      action='store_const', const=logging.ERROR)
+    parser.add_option('-v', dest='verbosity', 
+                      action='store_const', const=logging.INFO)
+    parser.add_option('--noisy', dest='verbosity', 
+                      action='store_const', const=logging.DEBUG)
 
     # input options
     parser.add_option('-i', '--input-dir', dest='input_dir',
