@@ -8,7 +8,7 @@ def make_option_parser():
 
     # settings
     parser.add_option('-e', '--english', dest='english_po',
-                      default='i18n/en/cc_org.po',
+                      default='master/cc_org.po',
                       help='English .po file, used to map keys.')
 
     # input options

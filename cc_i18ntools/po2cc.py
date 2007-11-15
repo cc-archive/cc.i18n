@@ -37,11 +37,9 @@ def cli():
         
         for fn in filenames:
 
-            # only process non-English .po files
+            # only process .po files
             if fn[-3:] != '.po': continue
             input_fn = os.path.join(root, fn)
-            if input_fn == options.english_po:
-                continue
 
             getLogger(LOGGER_NAME).info("Processing %s." % input_fn)
 
