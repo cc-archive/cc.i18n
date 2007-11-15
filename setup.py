@@ -34,7 +34,6 @@ setup(
     entry_points = {'console_scripts' : 
                     ['po2cc = cc_i18ntools.po2cc:cli',
                      'cc2po = cc_i18ntools.cc2po:cli',
-                     'create = cc_i18ntools.create:cli',
                      'sync = cc_i18ntools.sync:cli',
                      ],
                     },
