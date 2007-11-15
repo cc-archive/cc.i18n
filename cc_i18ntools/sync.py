@@ -53,7 +53,9 @@ def cli():
 
             # convert the file
             source = read_po(file(input_fn, 'r'))
-            source.update(master)
+            source.update(master, no_fuzzy_matching=False)
+
+            convert.defuzz(source)
 
             write_po(file(output_fn, 'w'), source)
             getLogger(LOGGER_NAME).debug("Write %s." % output_fn)

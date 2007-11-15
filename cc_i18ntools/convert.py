@@ -7,20 +7,32 @@ from logging import getLogger
 from babel.messages.pofile import read_po, write_po
 from babel.messages.catalog import Catalog, Message
 
+def defuzz(catalog):
+    """Scan a catalog and de-fuzz-ify messages that have no translation."""
+
+    for message in catalog:
+        if message.fuzzy and message.string == '':
+            # not fuzzy, damn it!
+            message.flags.remove('fuzzy')
+
+            
 def reverse_english(message, english):
     """Look for the key of [message] (an instance of Message) as the string
     of a message in [english] (an instance of Catalog).  If found, return
     a new message whose key is the same as the English key.  If not found,
     return the original message."""
 
+    result = copy.deepcopy(message)
+
     for en_msg in english:
         if en_msg.string == message.id:
             # found it!
             result = copy.deepcopy(message)
             result.id = en_msg.id
-            return result
 
-    return copy.deepcopy(message)
+            break
+
+    return result
 
 def po_to_cc(source, english):
     """Create a Catalog based on [source] (a Catalog instance).  Each Message
@@ -35,6 +47,10 @@ def po_to_cc(source, english):
 
     # iterate over all the strings in the target PO
     for message in source:
+
+        # skip messages w/an empty id
+        if not(message.id): continue
+
         new_message = reverse_english(message, english)
         
         # fall-back to English if untranslated

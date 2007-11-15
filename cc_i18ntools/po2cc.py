@@ -48,6 +48,8 @@ def cli():
             result = convert.po_to_cc(read_po(file(input_fn, 'r')),
                              read_po(file(options.english_po, 'r')))
 
+            convert.defuzz(result)
+
             write_po(file(output_fn, 'w'), result)
             getLogger(LOGGER_NAME).debug("Write %s." % output_fn)
 
