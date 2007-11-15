@@ -61,6 +61,11 @@ def cc_to_po(source, english):
         else:
             new_message = copy.deepcopy(message)
 
+        # if the string matches the key (ie, untranslated)
+        if new_message.id == new_message.string:
+            # clear the string
+            new_message.string = ''
+
         target[new_message.id] = new_message
 
     return target
