@@ -28,3 +28,27 @@ def make_option_parser():
                       help='Output directory for CC-style .po files.')
 
     return parser
+
+def parse_args(**defaults):
+    """Parse the optoins and arguments from the command-line and make sure
+    required values are present.  [defaults] is a dict containing the default
+    values to pass to the parser.
+
+    Returns a two tuple: (options, args).
+    """
+
+    parser = make_option_parser()
+    parser.set_defaults(**defaults)
+
+
+    options, args = parser.parse_args()
+
+    # make sure an input and output directory were specified
+    if not(options.input_dir):
+        parser.error("An input directory must be supplied.")
+    
+    if not(options.output_dir):
+        parser.error("An output directory must be supplied.")
+
+
+    return options, args

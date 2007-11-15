@@ -5,25 +5,16 @@ from logging import getLogger
 from babel.messages.pofile import read_po, write_po
 
 import convert
-import support
+from support import parse_args
 
 LOGGER_NAME = "po2cc"
-
-def make_option_parser():
-    """Return an optparse.OptionParser configured for the po2cc command line 
-    script."""
-
-    parser = support.make_option_parser()
-    parser.set_defaults(input_dir = 'i18n',
-                        output_dir = 'cc_i18n')
-
-    return parser
 
 def cli():
     """Command line interface for po2cc script."""
 
     # parse the command line
-    (options, input_files) = make_option_parser().parse_args()
+    (options, input_files) = parse_args(input_dir = 'po',
+                                        output_dir = 'i18n')
 
     # set up the logging infrastructure
     getLogger(LOGGER_NAME).addHandler(logging.StreamHandler())
