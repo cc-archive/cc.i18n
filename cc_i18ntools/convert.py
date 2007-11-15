@@ -36,6 +36,10 @@ def po_to_cc(source, english):
     # iterate over all the strings in the target PO
     for message in source:
         new_message = reverse_english(message, english)
+        
+        # fall-back to English if untranslated
+        if not(new_message.string.strip()):
+            new_message.string = english[new_message.id].string
 
         target[new_message.id] = new_message
 
