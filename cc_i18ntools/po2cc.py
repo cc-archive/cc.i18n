@@ -10,8 +10,8 @@ import support
 LOGGER_NAME = "po2cc"
 
 def make_option_parser():
-    """Return an optparse.OptionParser configured for the make_cc_files 
-    command line script."""
+    """Return an optparse.OptionParser configured for the po2cc command line 
+    script."""
 
     parser = support.make_option_parser()
     parser.set_defaults(input_dir = 'i18n',
@@ -20,7 +20,7 @@ def make_option_parser():
     return parser
 
 def cli():
-    """Command line interface for make_cc_files script."""
+    """Command line interface for po2cc script."""
 
     # set up the logging infrastructure
     getLogger(LOGGER_NAME).addHandler(logging.StreamHandler())

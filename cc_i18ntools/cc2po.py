@@ -10,7 +10,7 @@ import support
 LOGGER_NAME = "cc2po"
 
 def make_option_parser():
-    """Return an optparse.OptionParser configured for the make_cc_files 
+    """Return an optparse.OptionParser configured for the cc2po
     command line script."""
 
     parser = support.make_option_parser()
