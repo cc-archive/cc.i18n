@@ -59,11 +59,13 @@ def cc_to_po(source, english):
 
     # iterate over all the strings in the target PO
     for message in source:
-        if message.id in english:
-            new_message = copy.deepcopy(message)
+        
+        # make a copy of the original
+        new_message = copy.deepcopy(message)
+
+        if message.id in english and english[message.id].string:
+            # only use the english text as a key if the text exists
             new_message.id = english[message.id].string
-        else:
-            new_message = copy.deepcopy(message)
 
         # if the string matches the key (ie, untranslated)
         if new_message.id == new_message.string:
