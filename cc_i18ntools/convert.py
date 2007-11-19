@@ -57,11 +57,12 @@ def po_to_cc(source, english):
         if not(new_message.string.strip()):
             new_message.string = english[new_message.id].string
 
+
         target[new_message.id] = new_message
 
     return target
 
-def cc_to_po(source, english):
+def cc_to_po(source, english, previous=None):
     """Create a Catalog based on [source] (a Catalog instance).  Each Message
     key in [source] is checked against Messages in [english].  If a Message
     with the same ID is found in [english], the ID is replaced with the 
@@ -86,7 +87,14 @@ def cc_to_po(source, english):
         # if the string matches the key (ie, untranslated)
         if new_message.id == new_message.string:
             # clear the string
-            new_message.string = ''
+            # new_message.string = ''
+            pass
+
+        if previous is not None:
+            # see if this should be marked as "fuzzy"
+            if message.id in previous and message.id in english:
+                if previous[message.id].string != english[message.id].string:
+                    new_message.flags.add('fuzzy')
 
         target[new_message.id] = new_message
 
