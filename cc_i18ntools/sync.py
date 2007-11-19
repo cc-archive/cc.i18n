@@ -1,4 +1,5 @@
 import os
+import copy
 import logging
 from logging import getLogger
 
@@ -24,13 +25,19 @@ def cli():
     options.output_dir = os.path.abspath(options.output_dir)
     options.english_po = os.path.abspath(options.english_po)
 
+    # load the master domain file
+    master = read_po(file(options.english_po, 'r'))
+    previous_master = read_po(file(options.english_po + '.bak', 'r'))
+
     # translate the master file using itself 
     # (ie, so the strings and keys are the same)
-    master = read_po(file(options.english_po, 'r'))
-    master = convert.cc_to_po(master, master)
+    #master = read_po(file(options.english_po, 'r'))
+    #master = convert.cc_to_po(master, master)
 
+    # walk the input directory...
     for root, dirnames, filenames in os.walk(options.input_dir):
         
+        # ...looking for .po files
         for fn in filenames:
 
             # only process .po files
@@ -48,17 +55,24 @@ def cli():
             if not(os.path.exists(os.path.dirname(output_fn))):
                 os.makedirs(os.path.dirname(output_fn))
 
-            # merge it with the translated master 
-            # (babel handles the fuzzy matching)
-
-            # convert the file
+            # load the source file
             source = read_po(file(input_fn, 'r'))
-            source.update(master, no_fuzzy_matching=False)
 
-            convert.defuzz(source)
+            # convert the source back to cc-style 
+            # (so we can match symbolic names)
+            source = convert.po_to_cc(source, previous_master)
+
+            # add any new string from the master
+            for message in master:
+                if message.id not in source:
+                    source[message.id] = copy.deepcopy(message)
+
+            # convert back to .po style, thereby updating the English source
+            source = convert.cc_to_po(source, master, previous_master)
 
             write_po(file(output_fn, 'w'), source)
             getLogger(LOGGER_NAME).debug("Write %s." % output_fn)
 
-
-
+    # copy master to previous_master
+    shutil.copyfile(options.english_po, '%s.bak' % options.english_po)
+    
