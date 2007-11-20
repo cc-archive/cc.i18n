@@ -87,8 +87,7 @@ def cc_to_po(source, english, previous=None):
         # if the string matches the key (ie, untranslated)
         if new_message.id == new_message.string:
             # clear the string
-            # new_message.string = ''
-            pass
+            new_message.string = ''
 
         if previous is not None:
             # see if this should be marked as "fuzzy"
