@@ -35,6 +35,7 @@ setup(
                     ['po2cc = cc_i18ntools.po2cc:cli',
                      'cc2po = cc_i18ntools.cc2po:cli',
                      'sync = cc_i18ntools.sync:cli',
+                     'report = cc_i18ntools.report:cli',
                      ],
                     },
 
