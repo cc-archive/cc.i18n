@@ -1,6 +1,7 @@
 import os
 import copy
 import logging
+import shutil
 from logging import getLogger
 
 from babel.messages.pofile import read_po, write_po
