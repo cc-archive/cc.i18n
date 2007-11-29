@@ -1,9 +1,10 @@
 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2007-10-11 10:55+0700\n"
+"POT-Creation-Date: 2007-11-29 11:25+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,45 +13,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.1\n"
 
-#. New Zealand
 msgid "New Zealand"
 msgstr ""
 
-#. Greece
 msgid "Greece"
 msgstr ""
 
+#: c/engine/chooser_pages/index.pt:104
 msgid "Allow Derivative Works"
 msgstr ""
 
-#: s/index.pt:107
+#: c/engine/chooser_pages/index.pt:107
 msgid ""
 "The licensor permits others to copy, distribute, display and perform the "
 "work, as well as make derivative works based on it."
 msgstr ""
 
-#: s/index.pt:56
+#: c/engine/chooser_pages/index.pt:56
 msgid "Commercial Use"
 msgstr ""
 
-#: s/index.pt:59
+#: c/engine/chooser_pages/index.pt:59
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the"
 " work, including for commercial purposes."
 msgstr ""
 
-#: s/index.pt:70
+#: c/engine/chooser_pages/index.pt:70
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the"
 " work for non-commercial purposes only."
 msgstr ""
 
-#: s/index.pt:88
+#: c/engine/chooser_pages/index.pt:88
 msgid "Yes, as long as others share alike"
 msgstr ""
 
-#. To perform, display, and distribute copies of this whole work for
-#. noncommercial purposes (e.g., file-sharing or noncommercial webcasting).
+#: c/engine/licenses/sampling_templates/deed.pt:31
 msgid ""
 "To perform, display, and distribute copies of this whole work for "
 "noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
@@ -59,27 +58,7 @@ msgstr ""
 "keseluruhan karya tersebut untuk penggunaan bukan komersial (e.g., "
 "perkongsian file ataupun webcasting bukan komersial)"
 
-#. <h1>Public Domain Dedication - Email Confirmation</h1>
-#. <p>
-#. An email has been sent to you at <b>${email}</b>. You should receive it
-#. within a few minutes.
-#. </p>
-#. This email includes a confirmation of your public domain
-#. dedication. It should include the title of your work
-#. ("<b>${title}</b>"), and the copyright holder of the work
-#. ("<b>${copyright_holder}</b>").
-#. The email will also include a link with an embedded confirmation
-#. code. This confirmation code enables us to verify that you are indeed
-#. the person eligible to receive email at <b>${email}</b>. Clicking
-#. through on this confirmation link will constitute an "overt act of
-#. relinquishment" by which you will actually be placing your work in the
-#. public domain.
-#. <b>Until you click the confirmation link, your work will not be
-#. dedicated to the public domain.</b>
-#. If for some reason you haven't received this email within 30-45 minutes,
-#. please <a href="mailto:pd@creativecommons.org">let us know</a>.
-#. After clicking on the confirmation link, you'll find out how to mark your
-#. content with a public domain dedication and publicize your work.
+#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
 msgid ""
 "<h1>Public Domain Dedication - Email Confirmation</h1>\n"
 "\n"
@@ -156,13 +135,10 @@ msgstr ""
 " publisiti kepada karya anda.\n"
 "</p>"
 
-#. Bulgaria
 msgid "Bulgaria"
 msgstr ""
 
-#. Mark your content on a web page, the HTML to display your button is as
-#. follows and be sure to <a href="/technology/web">follow the guidelines
-#. here</a>:
+#: c/engine/pd/templates/publicdomain-4.pt:32
 msgid ""
 "Mark your content on a web page, the HTML to display your button is as "
 "follows and be sure to <a href=\"/technology/web\">follow the guidelines "
@@ -172,28 +148,30 @@ msgstr ""
 "anda adalah seperti berikut dan pasti untuk <a "
 "href=\"/technology/web\">ikut garis panduan di sini</a>:"
 
-#. copyright date
 msgid "copyright date"
 msgstr "tarikh hakcipta"
 
-#. Jurisdiction
+#: c/engine/chooser_pages/index.pt:168
+#: c/engine/chooser_pages/sampling.pt:104
 msgid "Jurisdiction"
 msgstr "Bidangkuasa"
 
-#. Brazil
+#: c/engine/chooser_pages/sampling.pt:80
+#: c/engine/chooser_pages/sampling.pt:92
 msgid "Brazil"
 msgstr "Brasil"
 
-#. Creative Commons License
 msgid "Creative Commons License"
 msgstr "Lesen Creative Commons"
 
-#. mark content
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
 msgid "mark content"
 msgstr "Tandakan Karya"
 
-#. You may exercise the freedoms specified here provided that you comply with
-#. the express conditions of this license. The principal conditions are:
+#: c/engine/licenses/fsf_templates/deed.pt:48
 msgid ""
 "You may exercise the freedoms specified here provided that you comply "
 "with the express conditions of this license. The principal conditions "
@@ -203,12 +181,9 @@ msgstr ""
 "anda menurut syarat-syarat yang dinyata di dalam lesen ini. Syarat-syarat"
 " utama adalah:"
 
-#. Belgium
 msgid "Belgium"
 msgstr ""
 
-#. This ${work_type} is dedicated to the <a rel="license"
-#. href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.
 msgid ""
 "This ${work_type} is dedicated to the <a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
@@ -219,12 +194,10 @@ msgstr ""
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Domain "
 "Awam</a>."
 
-#. Allow modifications of your work?
+#: c/engine/chooser_pages/index.pt:77
 msgid "Allow modifications of your work?"
 msgstr "Membenarkan pengubahsuaian karya anda?"
 
-#. Your rights to exploit the work based on the limitations to copyright
-#. clauses and other rights are in no way affected by the above.
 msgid ""
 "Your rights to exploit the work based on the limitations to copyright "
 "clauses and other rights are in no way affected by the above."
@@ -233,20 +206,11 @@ msgstr ""
 "kepada fasal-fasal hakcipta dan hak-hak yang lain tidak dalam apa cara "
 "pun dipengaruhi oleh yang di atas."
 
-#. back to <a href="/">Creative Commons</a>
 msgid "back to <a href=\"/\">Creative Commons</a>"
 msgstr "Kembali kepada <a href=\"/\">Creative Commons</a>"
 
-#. Here's how the CC-GNU ${license_code} works: A user clicking on the Creative
-#. Commons icon gets the CC-GNU ${license_code} "<a
-#. href="/licenses/${license_code}/${version_title}/">Commons Deed</a>" — a
-#. human readable version of the license. From that she can link to "<a
-#. href="http://www.gnu.org/licenses/old-
-#. licenses/${license_name_lower}.html">Legal Code</a>" — the full text of the
-#. GNU ${license_code}, in English and <a
-#. href="/licenses/${license_code}/${version_title}/legalcode.pt">Portuguese</a>.
-#. And hidden in the tag is "Machine-Readable Code" — metadata — that will
-#. enable others to find your software.
+#: c/engine/chooser_pages/gpl.pt:63
+#: c/engine/chooser_pages/lgpl.pt:66
 msgid ""
 "Here's how the CC-GNU ${license_code} works: A user clicking on the "
 "Creative Commons icon gets the CC-GNU ${license_code} \"<a "
@@ -271,36 +235,31 @@ msgstr ""
 " — metadata — yang akan membolehkan orang-orang lain mancari perisian "
 "anda."
 
-#. You must retain the license terms and copyright notice in any source code
-#. distribution and reproduce them in documentation for binary distributions.
+#: c/engine/licenses/mitbsd_templates/deed.pt:46
 msgid ""
 "You must retain the license terms and copyright notice in any source code"
 " distribution and reproduce them in documentation for binary "
 "distributions."
 msgstr ""
 
-#. NoDerivs
 msgid "NoDerivs"
 msgstr "TiadaTerbitan"
 
-#. We have updated the version of your license to the most recent one
-#. available.
 msgid ""
 "We have updated the version of your license to the most recent one "
 "available."
 msgstr ""
 
-#. NonCommercial
+#: c/engine/chooser_pages/index.pt:67
 msgid "NonCommercial"
 msgstr "BukanKomersial"
 
-#. Catalan
+#: c/engine/macros_templates/deed.pt:103
 msgid "Catalan"
 msgstr "Katalan"
 
-#. <h1>Mark Software</h1>
-#. <p>Display the icon on any site you offer your software for download using
-#. the following markup:</p>
+#: c/engine/chooser_pages/gpl.pt:66
+#: c/engine/chooser_pages/lgpl.pt:69
 msgid ""
 "<h1>Mark Software</h1>\n"
 "\n"
@@ -312,8 +271,6 @@ msgstr ""
 "<p>Pamerkan ikon tersebut pada mana-mana laman yang anda menawarkan "
 "perisian anda untuk muat turun dengan menggunakan penunjuk berikut:</p>"
 
-#. This ${work_type} is licensed under a <a rel="license"
-#. href="${license_url}">Creative Commons ${license_name} License</a>.
 msgid ""
 "This ${work_type} is licensed under a <a rel=\"license\" "
 "href=\"${license_url}\">Creative Commons ${license_name} License</a>."
@@ -321,16 +278,14 @@ msgstr ""
 "${work_type} ini dilesen dibawah satu <a rel=\"license\" "
 "href=\"${license_url}\">Lesen ${license_name} Creative Commons</a>."
 
-#. This ${work_type} by ${work_author} is licensed under a <a rel="license"
-#. href="${license_url}">Creative Commons ${license_name} License</a>.
 msgid ""
 "This ${work_type} by ${work_author} is licensed under a <a "
 "rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
 "License</a>."
 msgstr ""
 
-#. Human-Readable<br />
-#. Commons Deed
+#: c/engine/chooser_pages/gpl.pt:46
+#: c/engine/chooser_pages/lgpl.pt:47
 msgid ""
 "Human-Readable<br />\n"
 "Commons Deed"
@@ -338,27 +293,12 @@ msgstr ""
 "Surat Ikatan<br />\n"
 "Yang Mudah DiBaca"
 
-#. confirm choice
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
 msgid "confirm choice"
 msgstr "mengesahkan pilihan"
 
-#. <div style="float:right;width:175px;border:1px solid
-#. #ccc;padding:8px;margin:0px 14px 10px 14px;background:#eee;">Want to <a
-#. href="/about/sampling">learn more about the sampling licenses</a> and how
-#. Negativland helped us write them? Or check out an explanation <a
-#. href="/about/licenses/sampling">in comic-book format</a>?</div>
-#. <p>The Sampling licenses let you invite other people to use a part of your
-#. work and make it new.</p>
-#. <p>For example:</p>
-#. <ul>
-#. <li>To take a sample from your song and include it in their own.</li>
-#. <li>To use a clip from your film.</li>
-#. <li>To take a piece of your photograph and put it into a collage.</li>
-#. </ul>
-#. <p>Think of it as a way to reward people for transforming your work into
-#. something it wasn't before.</p>
-#. <p>On certain conditions, that is. There are two flavors of the Sampling
-#. license. Pick the one that reflects your creative style:</p>
+#: c/engine/chooser_pages/sampling.pt:54
 msgid ""
 "<div style=\"float:right;width:175px;border:1px solid "
 "#ccc;padding:8px;margin:0px 14px 10px 14px;background:#eee;\">Want to <a "
@@ -410,23 +350,6 @@ msgstr ""
 "<p>Ini adalah pada syarat-syarat tertentu, iaitu. Ada tiga perasa lesen "
 "mengambil cuba. Pilih yang menggambarkan gaya kreatif anda:</p>"
 
-#. This is a record of a Public Domain Dedication.
-#. On ${sysdate}, ${copyright_holder} dedicated to the public domain the
-#. work "${title}." Before making the dedication, ${copyright_holder}
-#. represented that ${copyright_holder} owned all copyrights in the
-#. work. By making the dedication, ${copyright_holder} made an overt act
-#. of relinquishment in perpetuity of all present and future rights under
-#. copyright law, whether vested or contingent, in "${title}."
-#. ${copyright_holder} understands that such relinquishment of all rights
-#. includes the relinquishment of all rights to enforce (by lawsuit or
-#. otherwise) those copyrights in the Work.
-#. ${copyright_holder} recognizes that, once placed in the public domain,
-#. "${title}" may be freely reproduced, distributed, transmitted, used,
-#. modified, built upon, or otherwise exploited by anyone for any
-#. purpose, commercial or non-commercial, and in any way, including by
-#. methods that have not yet been invented or conceived.
-#. For more information, please see
-#. <http://creativecommons.org/licenses/publicdomain/>.
 msgid ""
 "This is a record of a Public Domain Dedication.\n"
 "\n"
@@ -475,12 +398,13 @@ msgstr ""
 "Untuk maklumat selanjutnya, sila lihat \n"
 "<http://creativecommons.org/licenses/publicdomain/>."
 
-#. Bulgarian
 msgid "Bulgarian"
 msgstr ""
 
-#. This software is licensed under the <a href="${license_url}">CC-GNU
-#. ${license_code}</a>.
+#: c/engine/chooser_pages/gpl.pt:37
+#: c/engine/chooser_pages/gpl.pt:79
+#: c/engine/chooser_pages/lgpl.pt:38
+#: c/engine/chooser_pages/lgpl.pt:82
 msgid ""
 "This software is licensed under the <a href=\"${license_url}\">CC-GNU "
 "${license_code}</a>."
@@ -488,14 +412,12 @@ msgstr ""
 "Perisian ini dilesen di bawah <a href=\"${license_url}\">CC-GNU "
 "${kod_lesen}</a>."
 
-#. title of work
+#: c/engine/pd/templates/publicdomain-2.pt:34
+#: c/engine/macros_templates/metadata.pt:46
 msgid "title of work"
 msgstr "Tajuk kerja"
 
-#. If you modify your copy or copies of the program or any portion of it, or
-#. develop a program based upon it, you may distribute the resulting work
-#. provided you do so under the ${license_name_full}. Any translation of the
-#. ${license_name_full} must be accompanied by the ${license_name_full}.
+#: c/engine/licenses/fsf_templates/deed.pt:61
 msgid ""
 "If you modify your copy or copies of the program or any portion of it, or"
 " develop a program based upon it, you may distribute the resulting work "
@@ -508,28 +430,23 @@ msgstr ""
 "dibawah ${lesen_nama_penuh}. Sebarang penterjemahan ${lesen_nama_penuh} "
 "mesti disertai dengan ${lesen_nama_penuh}."
 
-#. Ireland
 msgid "Ireland"
 msgstr ""
 
-#. License Your Work
+#: c/engine/macros_templates/engine.pt:111
 msgid "License Your Work"
 msgstr "Lesenkan karya anda"
 
-#. Attribution-NonCommercial
 msgid "Attribution-NonCommercial"
 msgstr "Pengiktirafan-BukanKomersial"
 
-#. Attribution-NoDerivs
 msgid "Attribution-NoDerivs"
 msgstr "Pengiktirafan-TiadaTerbitan"
 
-#. Spanish (PE)
 msgid "Spanish (PE)"
 msgstr ""
 
-#. To sample, mash-up, or otherwise creatively transform this work for
-#. commercial or noncommercial purposes.
+#: c/engine/licenses/sampling_templates/deed.pt:29
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "commercial or noncommercial purposes."
@@ -538,38 +455,20 @@ msgstr ""
 "dengan cara yang kreatif untuk pengunaan komersial ataupun bukan "
 "komersial."
 
-#. Israel
 msgid "Israel"
 msgstr "Isreal"
 
-#. Permissions beyond the scope of this license may be available at
-#. ${more_perms_link}.
 msgid ""
 "Permissions beyond the scope of this license may be available at "
 "${more_perms_link}."
 msgstr ""
 
-#. India
 msgid "India"
 msgstr ""
 
-#. Macedonian
 msgid "Macedonian"
 msgstr ""
 
-#. Here's how it works: A user clicking on the Creative Commons icon gets your
-#. "<a href="${license_url}">Commons Deed</a>" &mdash; a human readable version
-#. of the
-#. license. From that she can link to "<a href="${license_url}legalcode">Legal
-#. Code</a>" &mdash;  the
-#. actual license you have offered your content under.
-#. And hidden in the tag is "<a href="/license/work-html-popup?${url_vars}"
-#. onclick="window.open('work-html-popup?${url_vars}', 'html_help',
-#. 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
-#. false;">Machine-Readable Code</a>" &mdash; metadata &mdash; that will enable
-#. others to find your
-#. content. <a href="/learn/licenses/how1">An illustration of the process</a>
-#. can be found in our comics.
 msgid ""
 "Here's how it works: A user clicking on the Creative Commons icon gets "
 "your\n"
@@ -601,24 +500,19 @@ msgstr ""
 "href=\"/learn/licenses/how1\">Satu penjelasan process ini </a> terdapat "
 "di dalam komik-komik kami."
 
-#. Italy
 msgid "Italy"
 msgstr "Itali"
 
-#. Poland
 msgid "Poland"
 msgstr ""
 
-#. Malay
 msgid "Malay"
 msgstr "Melayu"
 
-#. Philippines
 msgid "Philippines"
 msgstr "Filipina"
 
-#. You may not use this work to advertise for or promote anything but the work
-#. you create from it.
+#: c/engine/licenses/sampling_templates/deed.pt:42
 msgid ""
 "You may not use this work to advertise for or promote anything but the "
 "work you create from it."
@@ -627,12 +521,9 @@ msgstr ""
 "memperkenalkan apa juga selain daripada karya yang anda hasilkan "
 "daripadanya."
 
-#. Peru
 msgid "Peru"
 msgstr ""
 
-#. Any of the above conditions can be waived if you get permission from the
-#. rights holders to this work.
 msgid ""
 "Any of the above conditions can be waived if you get permission from the "
 "rights holders to this work."
@@ -640,20 +531,16 @@ msgstr ""
 "Sebarang syarat-syarat ini boleh diketepikan jika anda mendapat kebenaran"
 " daripada pemegang-pemegang hak-hak kepada karya tersebut."
 
-#. Sampling
 msgid "Sampling"
 msgstr "Mengambil Contoh"
 
-#. This page is available in the following languages:
 msgid "This page is available in the following languages:"
 msgstr "Mukasurat ini boleh didapati dalam bahasa-bahasa berikut:"
 
-#. English (GB)
 msgid "English (GB)"
 msgstr "Inggeris (GB)"
 
-#. Apart from the remix rights granted under this license, nothing in this
-#. license impairs or restricts the author's moral rights.
+#: c/engine/licenses/standard_templates/deed.pt:69
 msgid ""
 "Apart from the remix rights granted under this license, nothing in this "
 "license impairs or restricts the author's moral rights."
@@ -662,22 +549,16 @@ msgstr ""
 "apa didalam lesen ini yang merosakkan atau mengehadkan hak-hak moral "
 "pencipta karya"
 
-#. Polish
 msgid "Polish"
 msgstr ""
 
-#. confirm
+#: c/engine/pd/templates/publicdomain-3.pt:87
 msgid "confirm"
 msgstr "mengesahkan"
 
-#. Do you want to:
 msgid "Do you want to:"
 msgstr "Adakah anda mahu:"
 
-#. <a href="/jargon/copyright_date" class="jargon"
-#. onClick="window.open('/jargon/copyright_date', 'jargon_term_lookup',
-#. 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');
-#. return false;">year of copyright</a>
 msgid ""
 "<a href=\"/jargon/copyright_date\" class=\"jargon\" "
 "onClick=\"window.open('/jargon/copyright_date', 'jargon_term_lookup', "
@@ -689,28 +570,31 @@ msgstr ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">tahun hakcipta</a"
 
-#. choose license
+#: c/engine/chooser_pages/index.pt:29
 msgid "choose license"
 msgstr "pilih lesen"
 
-#. The freedom to redistribute copies so you can help your neighbor.
+#: c/engine/licenses/fsf_templates/deed.pt:38
 msgid "The freedom to redistribute copies so you can help your neighbor."
 msgstr ""
 "Kebebasan untuk mengedar semula salinan-salinan supaya anda boleh "
 "menolong jiran anda."
 
-#. Mark an mp3, <a href="/technology/mp3">follow these guidelines</a>.
+#: c/engine/pd/templates/publicdomain-4.pt:47
 msgid "Mark an mp3, <a href=\"/technology/mp3\">follow these guidelines</a>."
 msgstr ""
 "Tandakan sebuah mp3, <a href=\"/technology/mp3\">ikut garis panduan "
 "berikut</a>."
 
-#. Under the following conditions:
+#: c/engine/licenses/devnations_templates/deed.pt:40
+#: c/engine/licenses/mitbsd_templates/deed.pt:33
+#: c/engine/licenses/sampling_templates/deed.pt:39
+#: c/engine/licenses/standard_templates/deed.pt:45
 msgid "Under the following conditions:"
 msgstr "Di bawah syarat-syarat berikut:"
 
-#. Machine-Readable<br />
-#. Digital Code
+#: c/engine/chooser_pages/gpl.pt:48
+#: c/engine/chooser_pages/lgpl.pt:49
 msgid ""
 "Machine-Readable<br />\n"
 "Digital Code"
@@ -718,10 +602,6 @@ msgstr ""
 "Kod Berdigit<br />\n"
 "Yang Boleh dibaca oleh Mesin"
 
-#. <a href="/jargon/copyright" class="jargon"
-#. onClick="window.open('/jargon/copyright', 'jargon_term_lookup',
-#. 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');
-#. return false;">copyright</a> holder's name
 msgid ""
 "<a href=\"/jargon/copyright\" class=\"jargon\" "
 "onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', "
@@ -733,21 +613,14 @@ msgstr ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">hakcipta</a>"
 
-#. attribute to url
+#: c/engine/macros_templates/metadata.pt:58
 msgid "attribute to url"
 msgstr ""
 
-#. View an explanation of all our licenses.
+#: c/engine/chooser_pages/index.pt:195
 msgid "View an explanation of all our licenses."
 msgstr "Lihat penerangan tentang lesen lesen kami."
 
-#. Copyright. A set of limited monopoly rights that governments grant to
-#. encourage the production of creative works. A copyright includes the rights
-#. to copy, distribute, transmit (including broadcast), market, and make
-#. derivative works out of a creative work. It also includes the right to sue
-#. to enforce these rights, and to authorize others to exercise them. Copyright
-#. does not apply to facts or ideas, but to the original expression of those
-#. facts or ideas.
 msgid ""
 "Copyright. A set of limited monopoly rights that governments grant to "
 "encourage the production of creative works. A copyright includes the "
@@ -767,9 +640,7 @@ msgstr ""
 "tidak digunakan untuk fakta-fakta atau gagasan-gagasan tetapi kepada "
 "penyataan asli fakta-fakta atau gagasan-gagasan tersebut."
 
-#. You may exercise the freedoms specified here provided that you comply with
-#. the express conditions of this license. The LGPL is intended for software
-#. libraries, rather than executable programs. The principal conditions are:
+#: c/engine/licenses/fsf_templates/deed.pt:50
 msgid ""
 "You may exercise the freedoms specified here provided that you comply "
 "with the express conditions of this license. The LGPL is intended for "
@@ -781,8 +652,6 @@ msgstr ""
 "yang Lebih Kecil adalah untuk perpustakaan perisian dan bukannya program-"
 "program perlaksanaan. Syarat-syarat utama adalah:"
 
-#. Now that you've chosen a Creative Commons license, you must mark your work
-#. in the appropriate way.
 msgid ""
 "Now that you've chosen a Creative Commons license, you must mark your "
 "work in the appropriate way."
@@ -790,30 +659,23 @@ msgstr ""
 "Sekarang yang anda telah pilih satu lesen Creative Commons, anda mesti "
 "menanda karya anda dalam cara yang berpatutan."
 
-#. Luxembourg
 msgid "Luxembourg"
 msgstr ""
 
-#. Tell us the format of your work:
+#: c/engine/macros_templates/metadata.pt:23
 msgid "Tell us the format of your work:"
 msgstr "Beritahu kami format karya anda:"
 
-#. Chile
 msgid "Chile"
 msgstr ""
 
-#. Northern Sotho
 msgid "Northern Sotho"
 msgstr ""
 
-#. CC-GNU LGPL
+#: c/engine/chooser_pages/index.pt:222
 msgid "CC-GNU LGPL"
 msgstr ""
 
-#. <strong>Sampling</strong>: People can take and transform
-#. <strong>pieces</strong> of your work for any purpose other than advertising,
-#. which is prohibited. Copying and distribution of the <strong>entire
-#. work</strong> is also prohibited.
 msgid ""
 "<strong>Sampling</strong>: People can take and transform "
 "<strong>pieces</strong> of your work for any purpose other than "
@@ -825,30 +687,21 @@ msgstr ""
 "apa tujuan selain daripada pengiklanan, yang dilarangkan. Membuat salinan"
 " dan mengedarkan <strong>karya keseluruhan</strong> juga dilarangkan."
 
-#. Publishing your licensed music to the Internet Archive
+#: c/engine/chooser_pages/results.pt:98
 msgid "Publishing your licensed music to the Internet Archive"
 msgstr "Menerbitkan lesen muzik anda kepada Arkib Internet"
 
-#. No web site?
+#: c/engine/chooser_pages/results.pt:92
 msgid "No web site?"
 msgstr "Tiada laman web?"
 
-#. Serbia
 msgid "Serbia"
 msgstr ""
 
-#. Korea
 msgid "Korea"
 msgstr ""
 
-#. Yes, as long as others share alike (<a
-#. href="/characteristic/sa?lang=${lang}"
-#. onclick="window.open('/characteristic/sa?lang=${lang}',
-#. 'characteristic_help',
-#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
-#. false;">more info</a> <a href="/characteristic/sa?lang=${lang}"
-#. false;"><img src="/images/popup.gif" width="15" height="13" alt="more
-#. information" border="0" /></a>)
+#: c/engine/chooser_pages/partner/index.pt:69
 msgid ""
 "Yes, as long as others share alike (<a "
 "href=\"/characteristic/sa?lang=${lang}\" "
@@ -875,16 +728,9 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
-#. Korean
 msgid "Korean"
 msgstr ""
 
-#. <div align="center"><a href="/licenses/disclaimer-popup"
-#. onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help',
-#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
-#. false;">Disclaimer</a> <a href="/licenses/disclaimer-popup"
-#. false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer"
-#. border="0"></a></div>
 msgid ""
 "<div align=\"center\"><a href=\"/licenses/disclaimer-popup\" "
 "onclick=\"window.open('/licenses/disclaimer-popup', "
@@ -908,24 +754,19 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"disclaimer\" border=\"0\"></a></div>"
 
-#. Sorry, no license matches your criteria.
 msgid "Sorry, no license matches your criteria."
 msgstr "Maaf, tiada lesen yang sepadan dengan kriteria anda."
 
-#. Italian
 msgid "Italian"
 msgstr ""
 
-#. Romania
 msgid "Romania"
 msgstr ""
 
-#. What You Can Do Here
+#: c/engine/chooser_pages/index.pt:191
 msgid "What You Can Do Here"
 msgstr "Apa Yang Anda Boleh Lakukan Di Sini"
 
-#. If you have not officially registered for a copyright on your work the
-#. default date is the date you created the work, or completed it.
 msgid ""
 "If you have not officially registered for a copyright on your work the "
 "default date is the date you created the work, or completed it."
@@ -934,16 +775,13 @@ msgstr ""
 "karya anda, tarikh kemungkiran adalah tarikh anda mencipta karya "
 "tersebut, atau melengkapinya."
 
-#. Attribution-NoDerivs-NonCommercial
 msgid "Attribution-NoDerivs-NonCommercial"
 msgstr "Pengiktirafan-TiadaTerbitan-BukanKomersial"
 
-#. Galician
+#: c/engine/macros_templates/deed.pt:110
 msgid "Galician"
 msgstr ""
 
-#. You may now <a href="publicdomain-2?${url_vars}">proceed and enrich the
-#. public domain with your work</a>.
 msgid ""
 "You may now <a href=\"publicdomain-2?${url_vars}\">proceed and enrich the"
 " public domain with your work</a>."
@@ -951,16 +789,17 @@ msgstr ""
 "Anda boleh sekarang <a href=\"publicdomain-2?${url_vars}\">terus ke "
 "hadapan dan memperkayakan domain awam dengan karya anda</a>."
 
-#. your email
+#: c/engine/pd/templates/publicdomain-2.pt:29
 msgid "your email"
 msgstr "email anda"
 
-#. Yes
+#: c/engine/chooser_pages/index.pt:46
+#: c/engine/chooser_pages/index.pt:81
+#: c/engine/chooser_pages/partner/index.pt:54
+#: c/engine/chooser_pages/partner/index.pt:65
 msgid "Yes"
 msgstr "Ya"
 
-#. to copy, distribute, display, perform, present, publicly transmit, and
-#. recite the work
 msgid ""
 "to copy, distribute, display, perform, present, publicly transmit, and "
 "recite the work"
@@ -968,13 +807,7 @@ msgstr ""
 "untuk membuat salinan, mengedar, mempamer, mempersembahkan, penyampaian, "
 "penyiaran awam, dan mengaji karya tersebut"
 
-#. <p>Your choice suggests you want to dedicate your work to the public domain,
-#. the commons of information and expression where nothing is owned and all is
-#. permitted.</p>
-#. <p>The Public Domain Dedication is not a license. By using it, you
-#. do not simply carve out exceptions to your copyright; you grant your entire
-#. copyright to the public without condition. This grant is permanent and
-#. irreversible.</p>
+#: c/engine/pd/templates/publicdomain-partner.pt:24
 msgid ""
 "<p>Your choice suggests you want to dedicate your work to the public "
 "domain, the commons of information and expression where nothing is owned "
@@ -994,28 +827,24 @@ msgstr ""
 "anda; anda memberi hakcipta anda dalam keseluruhannya kepada orang ramai "
 "tanpa syarat. Pemberian ini adalah tetap dan tidak boleh dibalikkan.</p>"
 
-#. Audio
+#: c/engine/macros_templates/metadata.pt:30
 msgid "Audio"
 msgstr ""
 
-#. Your fair dealing and other rights are in no way affected by the above.
+#: c/engine/macros_templates/deed.pt:92
 msgid "Your fair dealing and other rights are in no way affected by the above."
 msgstr ""
 "Pengunaan yang wajar dan hak-hak anda yang lain tidak dalam apacara pun "
 "dipengaruhi oleh yang di atas."
 
-#. Netherlands
 msgid "Netherlands"
 msgstr ""
 
-#. In order to:
+#: c/engine/pd/templates/publicdomain-4.pt:29
 msgid "In order to:"
 msgstr "Untuk:"
 
-#. If you copy or distribute the program, you must accompany it with the
-#. complete corresponding machine-readable source code or with a written offer,
-#. valid for at least three years, to furnish the complete corresponding
-#. machine-readable source code.
+#: c/engine/licenses/fsf_templates/deed.pt:67
 msgid ""
 "If you copy or distribute the program, you must accompany it with the "
 "complete corresponding machine-readable source code or with a written "
@@ -1028,31 +857,23 @@ msgstr ""
 "kurangnya tiga tahun, untuk memperlengkapkan kod sumber berhubungan yang "
 "boleh dibaca oleh mesin yang lengkap."
 
-#. Creative Commons
+#: c/engine/macros_templates/partner.pt:29
 msgid "Creative Commons"
 msgstr ""
 
-#. UK: England & Wales
 msgid "UK: England & Wales"
 msgstr ""
 
-#. Nigeria
 msgid "Nigeria"
 msgstr ""
 
-#. Licensor permits others to make derivative works
 msgid "Licensor permits others to make derivative works"
 msgstr ""
 
-#. United States
 msgid "United States"
 msgstr "Amerika Syarikat"
 
-#. Select the contents of the box above and copy it. Or, have it <a
-#. href="/license/work-html-popup?${url_vars}" onclick="window.open('work-html-
-#. popup?${url_vars}', 'html_help',
-#. 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
-#. false;">emailed to yourself.</a>
+#: c/engine/chooser_pages/results.pt:70
 msgid ""
 "Select the contents of the box above and copy it. Or, have it <a "
 "href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open"
@@ -1066,14 +887,6 @@ msgstr ""
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">emel kepada diri anda.</a>"
 
-#. <strong>Require attribution?</strong> (<a
-#. href="/characteristic/by?lang=${lang}"
-#. onclick="window.open('/characteristic/by?lang=${lang}',
-#. 'characteristic_help',
-#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
-#. false;">more info</a> <a href="/characteristic/by?lang=${lang}"
-#. false;"><img src="/images/popup.gif" width="15" height="13" alt="more
-#. information" border="0" /></a>)
 msgid ""
 "<strong>Require attribution?</strong> (<a "
 "href=\"/characteristic/by?lang=${lang}\" "
@@ -1100,14 +913,7 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
-#. <strong>Allow commercial uses of your work?</strong> (<a
-#. href="/characteristic/nc?lang=${lang}"
-#. onclick="window.open('/characteristic/nc?lang=${lang}',
-#. 'characteristic_help',
-#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
-#. false;">more info</a> <a href="/characteristic/nc?lang=${lang}"
-#. false;"><img src="/images/popup.gif" width="15" height="13" alt="more
-#. information" border="0" /></a>)
+#: c/engine/chooser_pages/partner/index.pt:50
 msgid ""
 "<strong>Allow commercial uses of your work?</strong> (<a "
 "href=\"/characteristic/nc?lang=${lang}\" "
@@ -1134,14 +940,7 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"maklumat selanjutnya\" border=\"0\" /></a>)"
 
-#. <strong>Allow modifications of your work?</strong> (<a
-#. href="/characteristic/nd?lang=${lang}"
-#. onclick="window.open('/characteristic/nd?lang=${lang}',
-#. 'characteristic_help',
-#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
-#. false;">more info</a> <a href="/characteristic/nd?lang=${lang}"
-#. false;"><img src="/images/popup.gif" width="15" height="13" alt="more
-#. information" border="0" /></a>)
+#: c/engine/chooser_pages/partner/index.pt:61
 msgid ""
 "<strong>Allow modifications of your work?</strong> (<a "
 "href=\"/characteristic/nd?lang=${lang}\" "
@@ -1168,10 +967,7 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
-#. Simply copy the text, then paste it into your web documents containing
-#. information about your works. <a href="/learn/technology/usingmarkup"
-#. target="_blank">More information about adding HTML to your documents
-#. here</a>.
+#: c/engine/chooser_pages/htmlpopup.pt:24
 msgid ""
 "Simply copy the text, then paste it into your web documents containing "
 "information about your works. <a href=\"/learn/technology/usingmarkup\" "
@@ -1184,29 +980,24 @@ msgstr ""
 "target=\"_blank\">Maklumat yang selanjutnya tentang menambah HTML kepada "
 "dokumen-dokumen anda di sini.</a>."
 
-#. Select a License
+#: c/engine/chooser_pages/index.pt:178
+#: c/engine/chooser_pages/partner/index.pt:114
 msgid "Select a License"
 msgstr "Pilih satu Lesen"
 
-#. ${work_title} by ${work_author} is licensed under a <a rel="license"
-#. href="${license_url}">Creative Commons ${license_name} License</a>.
 msgid ""
 "${work_title} by ${work_author} is licensed under a <a rel=\"license\" "
 "href=\"${license_url}\">Creative Commons ${license_name} License</a>."
 msgstr ""
 
-#. description
 msgid "description"
 msgstr "Penerangan"
 
-#. Publishing your licensed video at the Internet Archive
+#: c/engine/chooser_pages/results.pt:114
 msgid "Publishing your licensed video at the Internet Archive"
 msgstr "Menerbitkan video berlesen anda ke Arkib Internet"
 
-#. You have selected the <a target="cc_other"
-#. href="${license_deed_url}"><b>${license_pretty_name} License</b></a>.<br>
-#. This license is permanently located at<br>
-#. <b><tt>${license_url}</tt></b>.
+#: c/engine/chooser_pages/partner/results.pt:29
 msgid ""
 "You have selected the <a target=\"cc_other\" "
 "href=\"${license_deed_url}\"><b>${license_pretty_name} "
@@ -1220,7 +1011,7 @@ msgstr ""
 "Lesen ini sentiasa terletak di <br>\n"
 "<b><tt>${license_url}</tt></b>."
 
-#. For any reuse, you must make clear to others the license terms of this work.
+#: c/engine/licenses/sampling_templates/deed.pt:45
 msgid ""
 "For any reuse, you must make clear to others the license terms of this "
 "work."
@@ -1228,26 +1019,22 @@ msgstr ""
 "Untuk pengunaan sekali lagi, anda mesti menjelaskan kepada orang-orang "
 "lain terma-terma karya ini."
 
-#. Dutch
+#: c/engine/macros_templates/deed.pt:124
 msgid "Dutch"
 msgstr "Belanda"
 
-#. Publishing your licensed music to Soundclick
+#: c/engine/chooser_pages/results.pt:101
 msgid "Publishing your licensed music to Soundclick"
 msgstr "Menerbitkan muzik berlesen anda ke Soundclick"
 
-#. weblog
 msgid "weblog"
 msgstr "halaman blog"
 
-#. Spain
 msgid "Spain"
 msgstr "Sepanyol"
 
-#. Mark a document not on the web, <a href="non-web-popup?${url_vars}"
-#. onclick="window.open('non-web-popup?${url_vars}', 'html_help',
-#. 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
-#. false;">add this text</a> to your work.
+#: c/engine/pd/templates/publicdomain-4.pt:49
+#: c/engine/chooser_pages/results.pt:127
 msgid ""
 "Mark a document not on the web, <a href=\"non-web-popup?${url_vars}\" "
 "onclick=\"window.open('non-web-popup?${url_vars}', 'html_help', "
@@ -1260,9 +1047,6 @@ msgstr ""
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">tambah teks ini</a> kepada karya anda."
 
-#. The licensor permits others to copy, distribute and transmit the work. In
-#. return, licensees may not use the work for commercial purposes — unless they
-#. get the licensor's permission.
 msgid ""
 "The licensor permits others to copy, distribute and transmit the work. In"
 " return, licensees may not use the work for commercial purposes — unless "
@@ -1273,16 +1057,13 @@ msgstr ""
 " lesen tidak dbenarkan menggunakan karya tersebut untuk tujuan komersial "
 "- kecuali mereka mendapat kebenaran pemberi lesen."
 
-#. Spanish (MX)
 msgid "Spanish (MX)"
 msgstr ""
 
-#. publish
 msgid "publish"
 msgstr "terbit"
 
-#. This is a human-readable summary of the <a href="legalcode"
-#. class="fulltext">Legal Code (the full license)</a>.
+#: c/engine/macros_templates/deed.pt:153
 msgid ""
 "This is a human-readable summary of the <a href=\"legalcode\" "
 "class=\"fulltext\">Legal Code (the full license)</a>."
@@ -1290,33 +1071,23 @@ msgstr ""
 "Ini adalah satu mudah-dibaca ringkasan <a href=\"legalcode\" "
 "class=\"fulltext\"> Kod Undang-undang (lesen sepenuhnya)</a>."
 
-#. proceed
+#: c/engine/pd/templates/publicdomain-2.pt:46
 msgid "proceed"
 msgstr "teruskan"
 
-#. GNU Lesser General Public License
 msgid "GNU Lesser General Public License"
 msgstr "GNU Lesen Awam Am yang Lebih Kecil"
 
-#. more
 msgid "more"
 msgstr "tambahan"
 
-#. English (US)
 msgid "English (US)"
 msgstr ""
 
-#. attribute to name
+#: c/engine/macros_templates/metadata.pt:52
 msgid "attribute to name"
 msgstr ""
 
-#. The Sampling Flavor determines how much freedom licensees have. Sampling
-#. only allows pieces to be used and prohibits sharing of the entire work.
-#. Sampling Plus allows licensees to take and transform pieces of the work, as
-#. well as share the entire work for non-commercial purposes.  Noncommercial
-#. Sampling Plus further restricts the Sampling Plus license by only
-#. authorizing non-commercial derivatives to be created from the pieces of your
-#. work.
 msgid ""
 "The Sampling Flavor determines how much freedom licensees have. Sampling "
 "only allows pieces to be used and prohibits sharing of the entire work.  "
@@ -1336,17 +1107,13 @@ msgstr ""
 "hanya membenarkan terbitan bukan-komersial untuk dicipta daripada "
 "potongan-potongan karya anda."
 
-#. English
+#: c/engine/macros_templates/deed.pt:117
 msgid "English"
 msgstr "Inggeris"
 
-#. Esperanto
 msgid "Esperanto"
 msgstr ""
 
-#. This is a draft license published for public review. Do not use this license
-#. until this notice has been removed. Direct comments on this draft license to
-#. christiane@creativecommons.org.
 msgid ""
 "This is a draft license published for public review. Do not use this "
 "license until this notice has been removed. Direct comments on this draft"
@@ -1357,8 +1124,8 @@ msgstr ""
 "Tujukan komen-komen pada draft lesen ini kepada "
 "christiane@creativecommons.org."
 
-#. If you desire a license governed by the Copyright Law of a specific
-#. jurisdiction, please select the appropriate jurisdiction.
+#: c/engine/chooser_pages/index.pt:170
+#: c/engine/chooser_pages/sampling.pt:106
 msgid ""
 "If you desire a license governed by the Copyright Law of a specific "
 "jurisdiction, please select the appropriate jurisdiction."
@@ -1367,24 +1134,21 @@ msgstr ""
 "hakcipta bidang kuasa yang tertentu, sila memilih bidang kuasa yang "
 "berpatutan."
 
-#. The freedom to run the program for any purpose.
+#: c/engine/licenses/fsf_templates/deed.pt:34
 msgid "The freedom to run the program for any purpose."
 msgstr "Kebebasan untuk menjalankan program untuk apa juga tujuan."
 
-#. Jurisdiction of your license
+#: c/engine/chooser_pages/index.pt:128
+#: c/engine/chooser_pages/sampling.pt:72
+#: c/engine/chooser_pages/partner/index.pt:79
 msgid "Jurisdiction of your license"
 msgstr "Bidang kuasa lesen anda"
 
-#. copyright holder
+#: c/engine/pd/templates/publicdomain-2.pt:39
 msgid "copyright holder"
 msgstr "pemegang hakcipta"
 
-#. <p>If you <strong>want</strong> to invite people to make
-#. <strong>any</strong> commercial re-use of your work &mdash; transformative
-#. or not &mdash; you should consider either the <a href="/license/results-
-#. one?license%5fcode=by%2dsa">Attribution-ShareAlike</a> license or simply the
-#. <a href="/license/results-one?license%5fcode=by">Attribution</a>
-#. license.</p>
+#: c/engine/chooser_pages/sampling.pt:118
 msgid ""
 "<p>If you <strong>want</strong> to invite people to make "
 "<strong>any</strong> commercial re-use of your work &mdash; "
@@ -1400,34 +1164,31 @@ msgstr ""
 "\">Pengiktirafan-PengkongsianSerupa</a> ataupun hanya lesen <a "
 "href=\"/license/results-one?license%5fcode=by\">Pengiktirafan</a>.</p>"
 
-#. Swedish
 msgid "Swedish"
 msgstr ""
 
-#. The HTML to display your button is as follows:
+#: c/engine/chooser_pages/htmlpopup.pt:15
 msgid "The HTML to display your button is as follows:"
 msgstr "HTML untuk mempamerkan butang anda adalah seperti berikut:"
 
-#. Basque
+#: c/engine/macros_templates/deed.pt:109
 msgid "Basque"
 msgstr ""
 
-#. English (CA)
 msgid "English (CA)"
 msgstr "Inggeris (CA)"
 
-#. Spanish
+#: c/engine/macros_templates/deed.pt:104
 msgid "Spanish"
 msgstr "Sepanyol"
 
-#. Attribution
+#: c/engine/templates/by.pt:8
+#: c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
 msgid "Attribution"
 msgstr "Pengiktirafan"
 
-#. <strong>Noncommercial Sampling Plus</strong>: People can take and transform
-#. <strong>pieces</strong> of your work for <strong>noncommercial</strong>
-#. purposes only. <strong>Noncommercial</strong> copying and distribution (like
-#. file-sharing) of the <strong>entire work</strong> are also allowed.
+#: c/engine/chooser_pages/sampling.pt:65
 msgid ""
 "<strong>Noncommercial Sampling Plus</strong>: People can take and "
 "transform <strong>pieces</strong> of your work for "
@@ -1442,9 +1203,7 @@ msgstr ""
 "komersial</strong> atas <strong>karya keseluruhannya</strong> juga "
 "dibenarkan."
 
-#. You have selected the Creative Commons ${license_pretty_name}
-#. License${country_name}. <a href="${license_url}">See how the license will
-#. look</a> to your site's visitors.
+#: c/engine/chooser_pages/results.pt:21
 msgid ""
 "You have selected the Creative Commons ${license_pretty_name} "
 "License${country_name}. <a href=\"${license_url}\">See how the license "
@@ -1454,27 +1213,23 @@ msgstr ""
 "License${country_name}. <a href=\"${license_url}\">Lihat bagaimana lesen "
 "itu akan kelihatan </a> pada pelawat laman web anda."
 
-#. Video
+#: c/engine/macros_templates/metadata.pt:32
 msgid "Video"
 msgstr ""
 
-#. ${work_title} is licensed under a <a rel="license"
-#. href="${license_url}">Creative Commons ${license_name} License</a>.
 msgid ""
 "${work_title} is licensed under a <a rel=\"license\" "
 "href=\"${license_url}\">Creative Commons ${license_name} License</a>."
 msgstr ""
 
-#. Hungary
 msgid "Hungary"
 msgstr ""
 
-#. Croatia
 msgid "Croatia"
 msgstr "Kroatia"
 
-#. For more information about the Free Software Foundation, visit their <a
-#. href="http://www.fsf.org">web page</a>.
+#: c/engine/chooser_pages/gpl.pt:118
+#: c/engine/chooser_pages/lgpl.pt:121
 msgid ""
 "For more information about the Free Software Foundation, visit their <a "
 "href=\"http://www.fsf.org\">web page</a>."
@@ -1482,12 +1237,11 @@ msgstr ""
 "Untuk maklumat yang selanjutnya tentang Yayasan Perisian Percuma, kunjung"
 " <a href=\"http://www.fsf.org\">laman web</a> mereka."
 
-#. Get your Sampling License
+#: c/engine/chooser_pages/sampling.pt:111
 msgid "Get your Sampling License"
 msgstr "Dapatkan Lesen Mengambil Contoh anda"
 
-#. ${license_name_full}, <a href="http://www.gnu.org/">Free Software
-#. Foundation</a>
+#: c/engine/licenses/fsf_templates/deed.pt:16
 msgid ""
 "${license_name_full}, <a href=\"http://www.gnu.org/\">Free Software "
 "Foundation</a>"
@@ -1495,8 +1249,6 @@ msgstr ""
 "${lesen_nama_penuh}, <a href=\"http://www.gnu.org/\">Yayasan Perisian "
 "Percuma</a>"
 
-#. This work is licensed under a <a href="${license_url}">Creative Commons
-#. Developing Nations license</a>.
 msgid ""
 "This work is licensed under a <a href=\"${license_url}\">Creative Commons"
 " Developing Nations license</a>."
@@ -1504,17 +1256,7 @@ msgstr ""
 "Karya ini dilesen di bawah satu <a href=\"${license_url}\">Lesen Creative"
 " Commons Negara-negara Membangun</a>."
 
-#. With a Creative Commons license, <strong>you keep your copyright</strong>
-#. but allow people to <a href="/learn/licenses/fullrights">copy and distribute
-#. your work</a> provided they <a href="/characteristic/by?lang=${lang}"
-#. onclick="window.open('/characteristic/by?lang=${lang}',
-#. 'characteristic_help',
-#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
-#. false;">give you credit</a> — and only on the conditions you specify here.
-#. For those new to Creative Commons licensing, we've prepared <a
-#. href="/about/think">a list of things to think about</a>. If you want to
-#. offer your work with no conditions, choose the <a
-#. href="publicdomain-2">public domain</a>.
+#: c/engine/chooser_pages/index.pt:32
 msgid ""
 "With a Creative Commons license, <strong>you keep your copyright</strong>"
 " but allow people to <a href=\"/learn/licenses/fullrights\">copy and "
@@ -1543,12 +1285,10 @@ msgstr ""
 "untuk menawarkan karya anda tanpa syarat, sila pilih <a "
 "href=\"publicdomain-2\">domain awam</a>."
 
-#. You must give the original author and the performer credit.
 msgid "You must give the original author and the performer credit."
 msgstr "Anda mesti memberi kredit kepada pencipta asal dan pelakon"
 
-#. Learn about other places you can host your licensed files. These sites work
-#. with your Creative Commons license.
+#: c/engine/chooser_pages/results.pt:94
 msgid ""
 "Learn about other places you can host your licensed files. These sites "
 "work with your Creative Commons license."
@@ -1557,44 +1297,34 @@ msgstr ""
 " dilesen oleh anda. Tempat-tempat tersebut berusaha dengan lesen Creative"
 " Commons anda."
 
-#. Spanish (CO)
 msgid "Spanish (CO)"
 msgstr ""
 
-#. Get HTML and email it to yourself
+#: c/engine/pd/templates/publicdomain-4.pt:42
+#: c/engine/chooser_pages/gpl.pt:110
+#: c/engine/chooser_pages/lgpl.pt:113
 msgid "Get HTML and email it to yourself"
 msgstr "Mendapat HTML dan e-melnya kepada diri anda"
 
-#. Interactive
+#: c/engine/macros_templates/metadata.pt:38
 msgid "Interactive"
 msgstr "Interaktif"
 
-#. Enter your email address to get the HTML by email:
+#: c/engine/chooser_pages/htmlpopup.pt:27
 msgid "Enter your email address to get the HTML by email:"
 msgstr "Masukkan alamat e-mel anda untuk mendapat HTML tersebut melalui e-mel:"
 
-#. Next step:
 msgid "Next step:"
 msgstr "Langkah seterusnya:"
 
-#. Or Choose:
+#: c/engine/chooser_pages/index.pt:198
 msgid "Or Choose:"
 msgstr "Atau Pilih:"
 
-#. Attribution-NonCommercial-NoDerivs
 msgid "Attribution-NonCommercial-NoDerivs"
 msgstr "Pengiktirafan-BukanKomersial-TiadaTerbitan"
 
-#. <p>
-#. The Commons Deed is not a license. It is simply a handy reference for
-#. understanding the Legal Code (the full license) &mdash; it is a human-
-#. readable expression of some of its key terms. Think of it as the user-
-#. friendly interface to the Legal Code beneath. This Deed itself has no legal
-#. value, and its contents do not appear in the actual license.
-#. </p>
-#. Creative Commons is not a law firm and does not provide legal services.
-#. Distributing of, displaying of, or linking to this Commons Deed does not
-#. create an attorney-client relationship.
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:19
 msgid ""
 "<p>\n"
 "The Commons Deed is not a license. It is simply a handy reference for "
@@ -1622,20 +1352,19 @@ msgstr ""
 "undang-undang. Pengedaran, pameran atau hubungan kepada Surat Ikatan "
 "Commons ini tidak mewujudkan hubungan peguamcara dan anakguam."
 
-#. Here is the license you've chosen
+#: c/engine/chooser_pages/results.pt:15
 msgid "Here is the license you've chosen"
 msgstr "Ini adalah lesen yang anda telah pilih"
 
-#. Learn how to distribute your work using this license
+#: c/engine/macros_templates/deed.pt:161
 msgid "Learn how to distribute your work using this license"
 msgstr "Belajar bagaimana mengedar karya anda menggunakan lesen ini"
 
-#. Send
+#: c/engine/chooser_pages/htmlpopup.pt:41
 msgid "Send"
 msgstr "Hantar"
 
-#. The freedom to improve the program and release your improvements to the
-#. public, so that the whole community benefits.
+#: c/engine/licenses/fsf_templates/deed.pt:40
 msgid ""
 "The freedom to improve the program and release your improvements to the "
 "public, so that the whole community benefits."
@@ -1643,29 +1372,16 @@ msgstr ""
 "Kebebasan untuk menaiktaraf program tersebut dan berkongsi dengan "
 "masyarakat awam untuk faedah masyarakat secara keseluruhan."
 
-#. Chinese (Taiwan)
 msgid "Chinese (Taiwan)"
 msgstr "Cina (Taiwan)"
 
-#. A work another is derived from.
+#: c/engine/macros_templates/metadata.pt:84
 msgid "A work another is derived from."
 msgstr "Satu karya yang satu karya yang lain diterbitkan daripadanya."
 
-#. Zulu
 msgid "Zulu"
 msgstr ""
 
-#. On our site <http://creativecommons.org>, you chose to dedicate your
-#. work, "${title}", to the public domain. We're sending you this email to
-#. make sure that you intended to do this.
-#. If not, you may choose to simply ignore this email or forward it to
-#. pd@creativecommons.org to let us know that someone is abusing our system.
-#. If you did intend this public domain dedication, please click through
-#. on the link below. When you do, you will be given a summary screen and
-#. a final chance to confirm your public domain dedication:
-#. ${clickthrough_url}
-#. If you have any issues, let us know by emailing pd@creativecommons.org.
-#. Thank you for using Creative Commons!
 msgid ""
 "On our site <http://creativecommons.org>, you chose to dedicate your\n"
 "work, \"${title}\", to the public domain. We're sending you this email to"
@@ -1712,14 +1428,8 @@ msgstr ""
 "\n"
 "Terima Kasih kerana menggunakan Creative Commons!"
 
-#. <h1>Creative Commons GNU ${license_code}</h1>
-#. <p>The CC-GNU ${license_code} adds the Creative Commons' metadata and
-#. Commons Deed to the Free Software Foundation's ${license_name_full}. The
-#. license is the official FSF ${license_code}, and includes a Portuguese
-#. translation.</p>
-#. <p>To signal to others that you are using a Creative Commons license, you
-#. can use a Creative Commons logo, which links to the CC-GNU ${license_code}.
-#. The result will look like this:</p>
+#: c/engine/chooser_pages/gpl.pt:25
+#: c/engine/chooser_pages/lgpl.pt:26
 msgid ""
 "<h1>Creative Commons GNU ${license_code}</h1>\n"
 "\n"
@@ -1744,8 +1454,7 @@ msgstr ""
 "Commons, yang berhubung kepada CC-GNU ${kod_lesen}. Hasilnya akan "
 "kelihatan seperti ini:</p>"
 
-#. The licensor permits others to distribute derivative works only under a
-#. license identical to the one that governs the licensor's work.
+#: c/engine/chooser_pages/index.pt:124
 msgid ""
 "The licensor permits others to distribute derivative works only under the"
 " same license or one compatible with the one that governs the licensor's "
@@ -1755,40 +1464,33 @@ msgstr ""
 "hanya dibawah lesen yang sama kepada lesen yang menguasai karya pemberi "
 "lesen."
 
-#. Image
+#: c/engine/macros_templates/metadata.pt:34
 msgid "Image"
 msgstr "Imej"
 
-#. Other
+#: c/engine/macros_templates/metadata.pt:28
 msgid "Other"
 msgstr "Lain-lain"
 
-#. You may now <a href="${processed_exit_url}">proceed</a>
+#: c/engine/pd/templates/publicdomain-partner.pt:31
+#: c/engine/chooser_pages/partner/results.pt:35
 msgid "You may now <a href=\"${processed_exit_url}\">proceed</a>"
 msgstr "Anda boleh sekarang <a href=\"${processed_exit_url}\">terus kehadapan</a>"
 
-#. Noncommercial
 msgid "Noncommercial"
 msgstr "Bukan komersial"
 
-#. Public Domain
+#: c/engine/chooser_pages/index.pt:204
 msgid "Public Domain"
 msgstr "Domain awam"
 
-#. Chinese
 msgid "Chinese"
 msgstr "Cina"
 
-#. Have your own website?
+#: c/engine/chooser_pages/results.pt:59
 msgid "Have your own website?"
 msgstr "Adakah anda laman web sendiri?"
 
-#. <h1>Review Choice</h1>
-#. <p>Congratulations, you have selected the Creative Commons <a
-#. href="${license_url}">${license_pretty_name} License${country_name}</a>.
-#. </p>
-#. <p>To signal to others that you are using a Creative Commons license, you
-#. can use a Creative Commons logo. The result will look like this:</p>
 msgid ""
 "<h1>Review Choice</h1>\n"
 "\n"
@@ -1809,35 +1511,33 @@ msgstr ""
 "satu lesen Creative Commons, anda boleh menggunakan logo Creative "
 "Commons.Hasilnya akan kelihatan seperti ini:</p>"
 
-#. Japanese
 msgid "Japanese"
 msgstr "Jepun"
 
-#. Choose Your Sampling License Options
+#: c/engine/chooser_pages/sampling.pt:53
 msgid "Choose Your Sampling License Options"
 msgstr "Pilih Pilihan-Pilihan Lesen Mengambil Cuba Anda"
 
-#. Japan
 msgid "Japan"
 msgstr "Jepun"
 
-#. to make commercial use of the work
 msgid "to make commercial use of the work"
 msgstr "untuk membuat penggunaan komersial karya tersebut"
 
-#. more info
+#: c/engine/chooser_pages/index.pt:47
+#: c/engine/chooser_pages/index.pt:50
+#: c/engine/chooser_pages/index.pt:82
+#: c/engine/chooser_pages/index.pt:89
+#: c/engine/chooser_pages/index.pt:97
+#: c/engine/chooser_pages/index.pt:130
+#: c/engine/chooser_pages/sampling.pt:74
 msgid "more info"
 msgstr "Maklumat tambahan"
 
-#. Select a jurisdiction
 msgid "Select a jurisdiction"
 msgstr "Pilih bidangkuasa undang-undang"
 
-#. <strong>Sampling Plus</strong>: People can take and transform
-#. <strong>pieces</strong> of your work for any purpose other than advertising,
-#. which is prohibited. <strong>Noncommercial</strong> copying and distribution
-#. (like file-sharing) of the <strong>entire work</strong> are also allowed.
-#. Hence, "<strong>plus</strong>".
+#: c/engine/chooser_pages/sampling.pt:61
 msgid ""
 "<strong>Sampling Plus</strong>: People can take and transform "
 "<strong>pieces</strong> of your work for any purpose other than "
@@ -1852,8 +1552,7 @@ msgstr ""
 "<strong>karya keseluruhannya</strong> juga dibenarkan Oleh itu, "
 "\"<strong>tambah</strong>\"."
 
-#. This is a human-readable summary of the Legal Code (the full license)
-#. available in the following languages:
+#: c/engine/macros_templates/deed.pt:98
 msgid ""
 "This is a human-readable summary of the Legal Code (the full license) "
 "available in the following languages:"
@@ -1861,38 +1560,41 @@ msgstr ""
 "Ini adalah satu mudah dibaca ringkasan Kod Undang-undang (lesen "
 "sepenuhnya) yang tersedia didalam bahasa-bahasa yang berikut:"
 
-#. Jordan
 msgid "Jordan"
 msgstr ""
 
-#. Catalonia
 msgid "Catalonia"
 msgstr "Katalonia"
 
-#. Highlight Text to Copy
+#: c/engine/pd/templates/publicdomain-4.pt:41
+#: c/engine/chooser_pages/gpl.pt:107
+#: c/engine/chooser_pages/lgpl.pt:110
+#: c/engine/chooser_pages/nonweb_popup.pt:31
+#: c/engine/chooser_pages/htmlpopup.pt:20
 msgid "Highlight Text to Copy"
 msgstr "Pilih teks untuk disalin"
 
-#. You may not alter, transform, or build upon this work.
 msgid "You may not alter, transform, or build upon this work."
 msgstr ""
 "Anda tidak dibenarkan menganti, mengubah bentuk ataupun membina atas "
 "karya tersebut."
 
-#. Generic
+#: c/engine/chooser_pages/sampling.pt:78
+#: c/engine/chooser_pages/sampling.pt:90
+#: c/engine/chooser_pages/partner/index.pt:83
+#: c/engine/chooser_pages/partner/index.pt:86
 msgid "Generic"
 msgstr "Umum"
 
-#. Spanish (AR)
 msgid "Spanish (AR)"
 msgstr "Sepanyol (AR)"
 
-#. source work
+#: c/engine/macros_templates/metadata.pt:66
+#: c/engine/macros_templates/metadata.pt:82
 msgid "source work"
 msgstr "bahan asal"
 
-#. Note: The sampling license isn't just for music. It can apply to all types
-#. of copyrighted work: images, film, etc.
+#: c/engine/chooser_pages/sampling.pt:115
 msgid ""
 "Note: The sampling license isn't just for music. It can apply to all "
 "types of copyrighted work: images, film, etc."
@@ -1900,19 +1602,13 @@ msgstr ""
 "Nota:Lesen mengambil contoh bukan sekadar untuk muzik sahaja.Ia juga "
 "boleh digunakan kepada semua jenis hakcipta:imej,filem dan sebagainya."
 
-#. Australia
 msgid "Australia"
 msgstr ""
 
-#. Austria
 msgid "Austria"
 msgstr ""
 
-#. This work is hereby released into the Public Domain. To view a copy of the
-#. public domain dedication, visit
-#. http://creativecommons.org/licenses/publicdomain/ or send a letter to
-#. Creative Commons, 171 Second Street, Suite 300, San Francisco, California,
-#. 94105, USA.
+#: c/engine/chooser_pages/nonweb_popup.pt:19
 msgid ""
 "This work is hereby released into the Public Domain. To view a copy of "
 "the public domain dedication, visit "
@@ -1926,14 +1622,10 @@ msgstr ""
 " surat kepada Creative Commons, 171 Second Street, Suite 300, San "
 "Francisco, California, 94105, USA."
 
-#. Argentina
 msgid "Argentina"
 msgstr ""
 
-#. A <a href="${current_version_url}">new version</a> of this license is
-#. available. You should use it for new works, and you may want to relicense
-#. existing works under it. No works are <em>automatically</em> put under the
-#. new license, however.
+#: c/engine/licenses/standard_templates/deed.pt:77
 msgid ""
 "A <a href=\"${current_version_url}\">new version</a> of this license is "
 "available. You should use it for new works, and you may want to relicense"
@@ -1946,75 +1638,67 @@ msgstr ""
 "Walaubagaimanapun, tidak ada karya yang secara <em>automatik</em> akan "
 "diletakkan di bawah lesen baru tersebut."
 
-#. Sampling Plus
+#: c/engine/chooser_pages/index.pt:209
 msgid "Sampling Plus"
 msgstr "Mengambil contoh tambah"
 
-#. Allow commercial uses of your work?
+#: c/engine/chooser_pages/index.pt:42
 msgid "Allow commercial uses of your work?"
 msgstr "Membenarkan pengunaan komersial karya anda?"
 
-#. enter information
+#: c/engine/macros_templates/support.pt:103
+#: c/engine/macros_templates/support.pt:107
 msgid "enter information"
 msgstr "masukkan maklumat"
 
-#. Allow Remixing
 msgid "Allow Remixing"
 msgstr ""
 
-#. Hide these fields (All fields are optional)
+#: c/engine/macros_templates/metadata.pt:16
 msgid "Hide these fields (All fields are optional)"
 msgstr "Sembunyikan medan-medan tersebut (Semua medan adalah tidak wajib)"
 
-#. Portugal
 msgid "Portugal"
 msgstr ""
 
-#. GNU General Public License
 msgid "GNU General Public License"
 msgstr "GNU Lesen Awam Am"
 
-#. The freedom to study how the program works and adapt it to your needs.
+#: c/engine/licenses/fsf_templates/deed.pt:36
 msgid "The freedom to study how the program works and adapt it to your needs."
 msgstr ""
 "Kebebasan untuk belajar bagaimana program tersebut berjalan dan "
 "menyesuaikannya kepada keperluan anda."
 
-#. Afrikaans
 msgid "Afrikaans"
 msgstr ""
 
-#. The copyright notice and license shall be included in all copies or
-#. substantial portions of the software.
+#: c/engine/licenses/mitbsd_templates/deed.pt:54
 msgid ""
 "The copyright notice and license shall be included in all copies or\n"
 "substantial portions of the software."
 msgstr ""
 
-#. Remix
 msgid "Remix"
 msgstr ""
 
-#. You may not use this work for commercial purposes.
 msgid "You may not use this work for commercial purposes."
 msgstr "Anda tidak dibenarkan mengunakan karya tersebut untuk tujuan komersial."
 
-#. more permissions URL
+#: c/engine/macros_templates/metadata.pt:72
 msgid "more permissions URL"
 msgstr ""
 
-#. Nothing in this license impairs or restricts the author's moral rights.
+#: c/engine/licenses/standard_templates/deed.pt:64
 msgid "Nothing in this license impairs or restricts the author's moral rights."
 msgstr ""
 "tiada apa-apa didalam lesen ini yang merosakkan atau mengehadkan hak-hak "
 "pencipta karya"
 
-#. Slovak Republic
 msgid "Slovak Republic"
 msgstr "Slovak Republik"
 
-#. Copy the text below to your Web site to let your visitors know what license
-#. applies to your works.
+#: c/engine/chooser_pages/results.pt:61
 msgid ""
 "Copy the text below to your Web site to let your visitors know what "
 "license applies to your works."
@@ -2022,97 +1706,71 @@ msgstr ""
 "Salinkan teks dibawah kepada laman web anda untuk memberitahu pelawat-"
 "pelawat anda jenis lesen yang berkaitan dengan karya anda."
 
-#. Hebrew
 msgid "Hebrew"
 msgstr ""
 
-#. learn how to mark your content
 msgid "learn how to mark your content"
 msgstr "belajar bagaimana menanda karya anda"
 
-#. Singapore
 msgid "Singapore"
 msgstr "Singapura"
 
-#. Sweden
 msgid "Sweden"
 msgstr ""
 
-#. Germany
+#: c/engine/chooser_pages/sampling.pt:82
+#: c/engine/chooser_pages/sampling.pt:94
 msgid "Germany"
 msgstr "Negara Jerman"
 
-#. Hungarian
 msgid "Hungarian"
 msgstr ""
 
-#. Denmark
 msgid "Denmark"
 msgstr ""
 
-#. Close window
+#: c/engine/chooser_pages/nonweb_popup.pt:37
+#: c/engine/chooser_pages/htmlpopup.pt:46
+#: c/engine/chooser_templates/emailhtml.pt:19
+#: c/engine/templates/by.pt:31
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:21
 msgid "Close window"
 msgstr "Tutup tetingkap"
 
-#. Slovenia
 msgid "Slovenia"
 msgstr ""
 
-#. Croatian
 msgid "Croatian"
 msgstr "Krotia"
 
-#. UK: Scotland
 msgid "UK: Scotland"
 msgstr ""
 
-#. Ukraine
 msgid "Ukraine"
 msgstr ""
 
-#. This license is <a href="/retiredlicenses">retired</a>. Do not use for new
-#. works.
+#: c/engine/licenses/fsf_templates/deed.pt:24
+#: c/engine/licenses/devnations_templates/deed.pt:25
+#: c/engine/licenses/sampling_templates/deed.pt:23
+#: c/engine/licenses/standard_templates/deed.pt:31
 msgid ""
 "This license is <a href=\"/retiredlicenses\">retired</a>. Do not use for "
 "new works."
 msgstr ""
 
-#. Canada
 msgid "Canada"
 msgstr "Kanada"
 
-#. Colombia
 msgid "Colombia"
 msgstr ""
 
-#. China Mainland
 msgid "China Mainland"
 msgstr "Tanah Besar Cina"
 
-#. GPL
 msgid "GPL"
 msgstr "GPL (Lesen Awam Am)"
 
-#. <p>
-#. The Commons Deed is not a license. It is simply a handy reference for
-#. understanding the Legal Code (the full License) — it is a human-readable
-#. expression of some of its key terms. This Deed itself has no legal value,
-#. and its contents do not appear in the actual License.  The actual terms of
-#. the license is set forth by the Legal Code.  <a href="legalcode"
-#. class="fulltext">Please click here to see the full License</a>.
-#. </p>
-#. Creative Commons and Creative Commons Japan are not law firms, and
-#. distributing of or displaying of, or linking to the Commons Deed does not
-#. constitute an offer of legal advice or any other legal services. Creative
-#. Commons and Creative Commons Japan are not a party to the License underlying
-#. this Commons Deed, and disclaim liablity for damages resulting from any use
-#. of the Commons Deed and the underlying License.
-#. The Product licensed under Creative Commons License is provided by the
-#. person who applied the License.  Creative Commons and Creative Commons Japan
-#. make no warranties regarding the title of the licensor.  Please read <a
-#. href="http://creativecommons.jp/faq/">here</a> for information regarding the
-#. application of licenses and exploitation of the Product licensed under
-#. Creative Commons licenses.
+#: c/engine/macros_templates/deed.pt:76
 msgid ""
 "<p>\n"
 "The Commons Deed is not a license. It is simply a handy reference for "
@@ -2165,57 +1823,42 @@ msgstr ""
 "tentang applikasi lesen-lesen dan pengunaan Keluaran yang dilesen dibawah"
 " lesen-lesen Creative Commons."
 
-#. Switzerland
 msgid "Switzerland"
 msgstr ""
 
-#. Posting your licensed images at Flickr
+#: c/engine/chooser_pages/results.pt:105
 msgid "Posting your licensed images at Flickr"
 msgstr "Menghantar imej berlesen anda ke Flickr"
 
-#. We have updated the version of your license to the most recent one available
-#. in your jurisdiction.
 msgid ""
 "We have updated the version of your license to the most recent one "
 "available in your jurisdiction."
 msgstr ""
 
-#. Czech Republic
 msgid "Czech Republic"
 msgstr "Republik Czeck"
 
-#. NoDerivs-NonCommercial
 msgid "NoDerivs-NonCommercial"
 msgstr "TiadaTerbitan-BukanKomersial"
 
-#. Attribution-NonCommercial-ShareAlike
 msgid "Attribution-NonCommercial-ShareAlike"
 msgstr "Pengiktirafan-BukanKomersial-PerkongsianSerupa"
 
-#. France
 msgid "France"
 msgstr "Perancis"
 
-#. creator's name
 msgid "creator's name"
 msgstr "Nama pencipta"
 
-#. South Africa
 msgid "South Africa"
 msgstr "Afrika Selatan"
 
-#. Serbian
 msgid "Serbian"
 msgstr ""
 
-#. Sotho
 msgid "Sotho"
 msgstr ""
 
-#. <a href="/jargon/source_work" class="jargon"
-#. onClick="window.open('/jargon/source_work', 'jargon_term_lookup',
-#. 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');
-#. return false;">source work</a> URL
 msgid ""
 "<a href=\"/jargon/source_work\" class=\"jargon\" "
 "onClick=\"window.open('/jargon/source_work', 'jargon_term_lookup', "
@@ -2228,16 +1871,10 @@ msgstr ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">karya asal</a>"
 
-#. Final step:
 msgid "Final step:"
 msgstr "Langkah terakhir:"
 
-#. You must conspicuously and appropriately publish on each copy distributed an
-#. appropriate copyright notice and disclaimer of warranty and keep intact all
-#. the notices that refer to this License and to the absence of any warranty;
-#. and give any other recipients of the Program a copy of the
-#. ${license_name_full} along with the Program. Any translation of the
-#. ${license_name_full} must be accompanied by the ${license_name_full}.
+#: c/engine/licenses/fsf_templates/deed.pt:55
 msgid ""
 "You must conspicuously and appropriately publish on each copy distributed"
 " an appropriate copyright notice and disclaimer of warranty and keep "
@@ -2254,18 +1891,21 @@ msgstr ""
 "dengan program tersebut. Sebarang penterjemahan ${lesen_nama_penuh} mest "
 "disertai dengan ${lesen_nama_penuh}."
 
-#. <strong>to Share</strong> — to copy, distribute and transmit the work
+#: c/engine/licenses/devnations_templates/deed.pt:30
+#: c/engine/licenses/mitbsd_templates/deed.pt:25
+#: c/engine/licenses/standard_templates/deed.pt:38
 msgid "<strong>to Share</strong> — to copy, distribute and transmit the work"
 msgstr ""
 "untuk membuat salinan, mengedar, mempamer, atau mempersembahkan karya "
 "tersebut"
 
-#. No Derivative Works
+#: c/engine/chooser_pages/index.pt:115
 msgid "No Derivative Works"
 msgstr "Bukan Karya Terbitan"
 
-#. For any reuse or distribution, you must make clear to others the license
-#. terms of this work. The best way to do this is with a link to this web page.
+#: c/engine/licenses/devnations_templates/deed.pt:50
+#: c/engine/licenses/sampling_templates/deed.pt:43
+#: c/engine/licenses/standard_templates/deed.pt:56
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web "
@@ -2274,18 +1914,13 @@ msgstr ""
 "Untuk sebarang pengulangan penggunaan ataupun pengedaran, anda mesti "
 "menjelaskan kepada orang-orang lain terma-terma lesen karya ini."
 
-#. Slovenian
 msgid "Slovenian"
 msgstr ""
 
-#. copyright
 msgid "copyright"
 msgstr "hakcipta"
 
-#. This work is licensed under the Creative Commons ${license_name} License. To
-#. view a copy of this license, visit ${license_url} or send a letter to
-#. Creative Commons, 171 Second Street, Suite 300, San Francisco, California,
-#. 94105, USA.
+#: c/engine/chooser_pages/nonweb_popup.pt:27
 msgid ""
 "This work is licensed under the Creative Commons ${license_name} License."
 " To view a copy of this license, visit ${license_url} or send a letter to"
@@ -2297,27 +1932,21 @@ msgstr ""
 "surat kepada Creative Commons, 171 Second Street, Suite 300, San "
 "Francisco, California, 94105, USA."
 
-#. <strong>No Endorsement</strong>. The name of the author may not be used to
-#. endorse or promote products derived from this software without specific
-#. prior written permission.
+#: c/engine/licenses/mitbsd_templates/deed.pt:40
 msgid ""
 "<strong>No Endorsement</strong>. The name of the author may not be used "
 "to endorse or promote products derived from this software without "
 "specific prior written permission."
 msgstr ""
 
-#. Prohibit Commercial Use
 msgid "Prohibit Commercial Use"
 msgstr ""
 
-#. What to do next
+#: c/engine/chooser_pages/results.pt:56
 msgid "What to do next"
 msgstr "Apa hendak dibuat seterusnya"
 
-#. Add your license information to a RSS feed, use <a
-#. href="http://web.resource.org/rss/1.0/modules/cc/">the RSS 1.0 module</a>,
-#. or <a href="http://backend.userland.com/creativeCommonsRssModule">the RSS
-#. 2.0 module</a>.
+#: c/engine/pd/templates/publicdomain-4.pt:52
 msgid ""
 "Add your license information to a RSS feed, use <a "
 "href=\"http://web.resource.org/rss/1.0/modules/cc/\">the RSS 1.0 "
@@ -2331,20 +1960,16 @@ msgstr ""
 "href=\"http://backend.userland.com/creativeCommonsRssModule\">the RSS 2.0"
 " module</a>."
 
-#. Spanish (CL)
 msgid "Spanish (CL)"
 msgstr "Sepanyol (CL)"
 
-#. review choice
+#: c/engine/chooser_pages/sampling.pt:36
+#: c/engine/macros_templates/support.pt:127
+#: c/engine/macros_templates/support.pt:134
+#: c/engine/macros_templates/support.pt:136
 msgid "review choice"
 msgstr "periksa semula pilihan"
 
-#. If you modify your copy or copies of the library or any portion of it, you
-#. may distribute the resulting library provided you do so under the GNU Lesser
-#. General Public License.  However, programs that  link to the library may be
-#. licensed under terms of your choice, so long as the library itself can be
-#. changed.  Any translation of the GNU Lesser General Public License must be
-#. accompanied by the GNU Lesser General Public License.
 msgid ""
 "If you modify your copy or copies of the library or any portion of it, "
 "you may distribute the resulting library provided you do so under the GNU"
@@ -2363,19 +1988,14 @@ msgstr ""
 "Lesen Awam Am yang Lebih Kecil mesti diiringi oleh GNU Lesen Awam Am yang"
 " Lebih Kecil."
 
-#. Share Music
 msgid "Share Music"
 msgstr "Mengkongsi muzik"
 
-#. Share Alike
+#: c/engine/chooser_pages/index.pt:122
 msgid "Share Alike"
 msgstr "Perkongsian Serupa"
 
-#. Creative Commons helps you publish your work online while letting others
-#. know exactly what they can and can't do with your work. When you choose a
-#. license, we provide you with tools and tutorials that let you add license
-#. information to your own site, or to one of several free hosting services
-#. that have incorporated Creative Commons.
+#: c/engine/chooser_pages/index.pt:193
 msgid ""
 "Creative Commons helps you publish your work online while letting others "
 "know exactly what they can and can't do with your work. When you choose a"
@@ -2391,8 +2011,7 @@ msgstr ""
 " satu daripada beberapa servis \"hosting\" percuma yang telah memasuki "
 "Creative Commons."
 
-#. Now that you've chosen the public domain dedication, you must mark your work
-#. in the appropriate way.
+#: c/engine/pd/templates/publicdomain-4.pt:27
 msgid ""
 "Now that you've chosen the public domain dedication, you must mark your "
 "work in the appropriate way."
@@ -2400,28 +2019,17 @@ msgstr ""
 "Sekarang, yang anda telah memilih dedikasi domain am, anda mesti menanda "
 "karya anda dengan cara yang berpatutan."
 
-#. Try again!
 msgid "Try again!"
 msgstr "Cuba lagi!"
 
-#. Founder's Copyright
+#: c/engine/chooser_pages/index.pt:214
 msgid "Founder's Copyright"
 msgstr "Hakcipta pengasas"
 
-#. NonCommercial-ShareAlike
 msgid "NonCommercial-ShareAlike"
 msgstr "BukanKomersial-PerkongsianSerupa"
 
-#. <h1>Confirm Your Public Domain Dedication</h1>
-#. <p>
-#. You have successfully confirmed your email address (<b>${email}</b>) for
-#. dedicating <b>${title}</b>, a work copyrighted by
-#. <b>${copyright_holder}</b>, to the public domain. To finalize this process,
-#. please click the button below.
-#. </p>
-#. <div class="licensebox">
-#. ${pd_deed_text}
-#. </div>
+#: c/engine/pd/templates/publicdomain-3.pt:40
 msgid ""
 "<h1>Confirm Your Public Domain Dedication</h1>\n"
 "\n"
@@ -2449,26 +2057,15 @@ msgstr ""
 "${pd_deed_text}\n"
 "        </div>"
 
-#. After publishing your license, please consider <a
-#. href="http://creativecommons.org/support/">supporting Creative Commons</a>.
+#: c/engine/chooser_pages/results.pt:78
 msgid ""
 "After publishing your license, please consider <a "
 "href=\"http://creativecommons.org/support/\">supporting Creative "
 "Commons</a>."
 msgstr ""
 
-#. <h1>Public Domain Dedication - Bad Confirmation</h1>
-#. <p>
-#. It seems you are trying to confirm your public domain dedication with
-#. an incorrect confirmation code.</p>
-#. This probably happened because you were not able to click through on
-#. the URL sent in your email, and you copy and pasted the URL
-#. incorrectly into your browser. Make sure to include <b>all
-#. characters</b> from the URL sent to you.
-#. </p>
-#. If this is not what happened, or if you continue to have trouble
-#. confirming your public domain dedication in any way, please <a
-#. href="mailto:pd@creativecommons.org">let us know</a>.
+#: c/engine/pd/templates/publicdomain-3.pt:93
+#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:59
 msgid ""
 "<h1>Public Domain Dedication - Bad Confirmation</h1>\n"
 "\n"
@@ -2509,8 +2106,7 @@ msgstr ""
 "href=\"mailto:pd@creativecommons.org\">memberitahu kami</a>.\n"
 "</p>"
 
-#. You must attribute the
-#. work in the manner specified by the author or licensor.
+#: c/engine/templates/by.pt:25
 msgid ""
 "You must attribute the\n"
 "work in the manner specified by the author or licensor."
@@ -2518,13 +2114,12 @@ msgstr ""
 "Anda mesti mengiktirafkan karya tersebut dalam cara yang ditetapkan oleh "
 "pencipta atau pemberi lesen."
 
-#. Text
+#: c/engine/macros_templates/metadata.pt:36
 msgid "Text"
 msgstr "Teks"
 
-#. You must attribute the work in the manner specified by the author or
-#. licensor (but not in any way that suggests that they endorse you or your use
-#. of the work).
+#: c/engine/licenses/devnations_templates/deed.pt:48
+#: c/engine/licenses/sampling_templates/deed.pt:41
 msgid ""
 "You must attribute the work in the manner specified by the author or "
 "licensor (but not in any way that suggests that they endorse you or your "
@@ -2535,19 +2130,14 @@ msgstr ""
 "mencadang yang mereka telah memberi sokongan kepada anda dan pengunaan "
 "anda karya tersebut)."
 
-#. Publishing your licensed music to the Morpheus P2P network
+#: c/engine/chooser_pages/results.pt:117
 msgid "Publishing your licensed music to the Morpheus P2P network"
 msgstr ""
 
-#. Posting your licensed images at Buzznet
+#: c/engine/chooser_pages/results.pt:108
 msgid "Posting your licensed images at Buzznet"
 msgstr "Menghantar imej berlesen anda ke Buzznet"
 
-#. If you copy or distribute the library, you must accompany it with the
-#. complete corresponding machine-readable source code or with a written offer,
-#. valid for at least three years, to furnish the complete corresponding
-#. machine-readable source code.  You need not provide source code to programs
-#. which link to the library.
 msgid ""
 "If you copy or distribute the library, you must accompany it with the "
 "complete corresponding machine-readable source code or with a written "
@@ -2562,7 +2152,7 @@ msgstr ""
 "mesin-mudahbaca yang lengkap. Anda tidak perlu memberi kod sumber untuk "
 "program-program yang berhubung dengan perpustakaan."
 
-#. Need more help? <a href="/education/publish-website">Read our tutorial</a>.
+#: c/engine/chooser_pages/results.pt:76
 msgid ""
 "Need more help? <a href=\"/education/publish-website\">Read our "
 "tutorial</a>."
@@ -2570,22 +2160,10 @@ msgstr ""
 "Memerlukan pertolongan lebih? <a href=\"/education/publish-website\">Baca"
 " tutorial kami</a>."
 
-#. Finland
 msgid "Finland"
 msgstr ""
 
-#. <p>You've made a work you're proud of. Now it's time to get creative with
-#. how you make it available.</p>
-#. <p>Creative Commons licenses help you share your work while keeping
-#. your copyright. Other people can copy and distribute your work provided they
-#. <a href="/characteristic/by?lang=${lang}"
-#. onclick="window.open('/characteristic/by?lang=${lang}',
-#. 'characteristic_help',
-#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
-#. false;">give you credit</a> — and only on the conditions you specify here.
-#. This page helps you choose those conditions. If you want to offer your work
-#. with no conditions, choose the <a href="${results_pd_url}">public
-#. domain</a>.</p>
+#: c/engine/chooser_pages/partner/index.pt:25
 msgid ""
 "<p>You've made a work you're proud of. Now it's time to get creative with"
 " how you make it available.</p>\n"
@@ -2617,31 +2195,25 @@ msgstr ""
 "syarat ini. Kalau anda ingin menawarkan karya anda tanpa syarat-syarat, "
 "pilih <a href=\"${results_pd_url}\">domain awam</a>.</p>"
 
-#. No
+#: c/engine/chooser_pages/index.pt:49
+#: c/engine/chooser_pages/index.pt:96
+#: c/engine/chooser_pages/partner/index.pt:56
+#: c/engine/chooser_pages/partner/index.pt:73
 msgid "No"
 msgstr "Tidak"
 
-#. find
 msgid "find"
 msgstr "cari"
 
-#. What flavor of Sampling license?
 msgid "What flavor of Sampling license?"
 msgstr "Jenis Perasa Lesen Mengambil Contoh?"
 
-#. No license chosen
 msgid "No license chosen"
 msgstr ""
 
-#. Finnish
 msgid "Finnish"
 msgstr ""
 
-#. With a Creative Commons license, you keep your copyright but allow people to
-#. copy and distribute your work provided they give you credit — and only on
-#. the conditions you specify here.', 'If you desire a license governed by the
-#. Copyright Law of a specific jurisdiction, please select the appropriate
-#. jurisdiction.
 msgid ""
 "With a Creative Commons license, you keep your copyright but allow people"
 " to copy and distribute your work provided they give you credit — and "
@@ -2650,16 +2222,11 @@ msgid ""
 "the appropriate jurisdiction."
 msgstr ""
 
-#. Click to include more information about your work.
+#: c/engine/macros_templates/metadata.pt:15
 msgid "Click to include more information about your work."
 msgstr "Tekan untuk memasukkan maklumat yang selanjutnya tentang karya anda."
 
-#. <p>
-#. The information concerning your choice has been emailed to you at
-#. <strong>${email}</strong>.
-#. </p>
-#. <p>Place the link or the HTML on your website, right next to the work you
-#. intend to license.  </p>
+#: c/engine/chooser_templates/emailhtml.pt:16
 msgid ""
 "<p>\n"
 "The information concerning your choice has been emailed to you at "
@@ -2677,20 +2244,18 @@ msgstr ""
 "<p>Meletak hubungan atau HTML tersebut pada laman web anda, sebelah lesen"
 " yang anda ingin melesenkan.  </p>"
 
-#. French
+#: c/engine/macros_templates/deed.pt:118
+#: c/engine/macros_templates/deed.pt:123
 msgid "French"
 msgstr "Perancis"
 
-#. CC-GNU GPL
+#: c/engine/chooser_pages/index.pt:218
 msgid "CC-GNU GPL"
 msgstr ""
 
-#. Or, you can <a href="./">return to the questions</a>.
 msgid "Or, you can <a href=\"./\">return to the questions</a>."
 msgstr "Or, anda boleh <a href=\"./\">kembali ke soalan-soalan</a>."
 
-#. If you alter, transform, or build upon this work, you may distribute the
-#. resulting work only under the same, similar or a compatible license.
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
@@ -2699,16 +2264,13 @@ msgstr ""
 "mengedar hasilan karya itu hanya dibawah lesen yang sama, serupa atau "
 "sepadan"
 
-#. Macedonia
 msgid "Macedonia"
 msgstr ""
 
-#. ShareAlike
 msgid "ShareAlike"
 msgstr "Perkongsian serupa"
 
-#. Adding a Creative Commons license to your blog (Blogger, Movable Type, and
-#. Typepad)
+#: c/engine/chooser_pages/results.pt:111
 msgid ""
 "Adding a Creative Commons license to your blog (Blogger, Movable Type, "
 "and Typepad)"
@@ -2716,12 +2278,13 @@ msgstr ""
 "Menambah satu lesen Creative Commons ke blog anda (Blogger, Movable Type "
 "dan Typepad)"
 
-#. Portugese
 msgid "Portugese"
 msgstr ""
 
-#. Any of the above conditions can be waived if you get permission from the
-#. copyright holder.
+#: c/engine/licenses/fsf_templates/deed.pt:75
+#: c/engine/licenses/devnations_templates/deed.pt:51
+#: c/engine/licenses/mitbsd_templates/deed.pt:60
+#: c/engine/licenses/standard_templates/deed.pt:60
 msgid ""
 "Any of the above conditions can be waived if you get permission from the "
 "copyright holder."
@@ -2729,41 +2292,35 @@ msgstr ""
 "Sebarang daripada syarat-syarat ini boleh diketepikan kalau anda mendapat"
 " kebenaran daripada pemegang hakcipta."
 
-#. Malaysia
 msgid "Malaysia"
 msgstr ""
 
-#. Mexico
 msgid "Mexico"
 msgstr ""
 
-#. Taiwan
+#: c/engine/chooser_pages/sampling.pt:84
+#: c/engine/chooser_pages/sampling.pt:96
 msgid "Taiwan"
 msgstr ""
 
-#. Disclaimer
+#: c/engine/macros_templates/deed.pt:81
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:15
 msgid "Disclaimer"
 msgstr "Penolakan Liabiliti"
 
-#. Attribution-ShareAlike
 msgid "Attribution-ShareAlike"
 msgstr "Pengiktirafan-PerkongsianSerupa"
 
-#. back to licenses
 msgid "back to licenses"
 msgstr "kembali kepada lesen-lesen"
 
-#. Malta
 msgid "Malta"
 msgstr ""
 
-#. work
 msgid "work"
 msgstr "karya"
 
-#. The ${license_name_full} is a <a href="http://www.gnu.org/philosophy/free-
-#. sw.html">Free Software</a> license. Like any Free Software license, it
-#. grants to you the four following freedoms:
+#: c/engine/licenses/fsf_templates/deed.pt:29
 msgid ""
 "The ${license_name_full} is a <a href=\"http://www.gnu.org/philosophy"
 "/free-sw.html\">Free Software</a> license. Like any Free Software "
@@ -2774,8 +2331,7 @@ msgstr ""
 "Percuma</a>. Seperti Lesen Perisian Percuma yang lain, ia memberi anda "
 "empat kebebasan yang berikut:"
 
-#. The licensor permits others to copy, distribute and transmit only unaltered
-#. copies of the work — not derivative works based on it.
+#: c/engine/chooser_pages/index.pt:117
 msgid ""
 "The licensor permits others to copy, distribute and transmit only "
 "unaltered copies of the work — not derivative works based on it."
@@ -2784,14 +2340,10 @@ msgstr ""
 "mempamerkan dan membuat pertunjukkan hanya dengan karya-karya yang tidak "
 "diubah - bukan karya terbitan bedasarkan atasnya."
 
-#. Learn how to publicize and share your work
 msgid "Learn how to publicize and share your work"
 msgstr "Belajar bagaimana membuat publisiti dan berkongsi karya anda"
 
-#. This is a human-readable summary of the Legal Code (the full <a
-#. href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser
-#. General Public License</a>). A <a href="legalcode.pt">Portuguese
-#. translation</a> is also available.
+#: c/engine/macros_templates/deed.pt:135
 msgid ""
 "This is a human-readable summary of the Legal Code (the full <a "
 "href=\"http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html\">GNU "
@@ -2804,10 +2356,7 @@ msgstr ""
 "href=\"legalcode.pt\"> penterjemahan Bahasa Portuguese </a> juga tersedia"
 " disini."
 
-#. This is a human-readable summary of the Legal Code (the full <a
-#. href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General
-#. Public License</a>). A <a href="legalcode.pt">Portuguese translation</a> is
-#. also available.
+#: c/engine/macros_templates/deed.pt:145
 msgid ""
 "This is a human-readable summary of the Legal Code (the full <a "
 "href=\"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU "
@@ -2819,12 +2368,7 @@ msgstr ""
 "Awam Am</a> yang sepenuhnya). Satu <a href=\"legalcode.pt\">penterjemahan"
 " dalam Bahasa Portuguese</a> juga disediakan."
 
-#. <p>
-#. <em>Note:</em> To license a work, you must be its copyright holder or have
-#. express authorization from its copyright holder to do so.</p>
-#. Creative Commons does not provide legal advice or services. We provide form
-#. legal documents; the rest is up to you.
-#. </p>
+#: c/engine/chooser_pages/partner/index.pt:117
 msgid ""
 "<p>\n"
 "<em>Note:</em> To license a work, you must be its copyright holder or "
@@ -2846,13 +2390,11 @@ msgstr ""
 "lain terpulang kepada anda.\n"
 "</p>"
 
-#. Developing Nations
 msgid "Developing Nations"
 msgstr "Negara-Negara Membangun"
 
-#. To mark a PDF or other XMP-supported file, <a href="xmp?${url_vars}">save
-#. this template</a> following these <a href="/technology/xmp-
-#. help">instructions</a>.
+#: c/engine/pd/templates/publicdomain-4.pt:54
+#: c/engine/chooser_pages/results.pt:122
 msgid ""
 "To mark a PDF or other XMP-supported file, <a "
 "href=\"xmp?${url_vars}\">save this template</a> following these <a "
@@ -2862,12 +2404,10 @@ msgstr ""
 "href=\"xmp?${url_vars}\">simpan templet ini</a> dengan mengikuti <a "
 "href=\"/technology/xmp-help\">arahan</a> tersebut."
 
-#. NonCommercial Sampling Plus
 msgid "NonCommercial Sampling Plus"
 msgstr "BukanKomersial Mengambil Cuba Tambah"
 
-#. You may not perform, display, or distribute copies of this whole work for
-#. any purpose.
+#: c/engine/licenses/sampling_templates/deed.pt:47
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for"
 " any purpose."
@@ -2875,36 +2415,51 @@ msgstr ""
 "Anda tidak dibenarkan menunjukkan, mempamerkan atau mengedarkan karya-"
 "karya tersebut dalam keseluruhannya untuk apa-apa tujuan"
 
-#. Wiki
+#: c/engine/chooser_pages/index.pt:232
 msgid "Wiki"
 msgstr ""
 
-#. Danish
 msgid "Danish"
 msgstr ""
 
-#. Unported
 msgid "Unported"
 msgstr ""
 
-#. Based on a work at ${source_link}.
 msgid "Based on a work at ${source_link}."
 msgstr ""
 
-#. German
+#: c/engine/macros_templates/deed.pt:129
 msgid "German"
 msgstr "Jerman"
 
-#. step
+#: c/engine/chooser_pages/sampling.pt:31
+#: c/engine/chooser_pages/sampling.pt:35
+#: c/engine/chooser_pages/sampling.pt:40
+#: c/engine/chooser_pages/sampling.pt:45
+#: c/engine/macros_templates/support.pt:81
+#: c/engine/macros_templates/support.pt:85
+#: c/engine/macros_templates/support.pt:92
+#: c/engine/macros_templates/support.pt:96
+#: c/engine/macros_templates/support.pt:102
+#: c/engine/macros_templates/support.pt:106
+#: c/engine/macros_templates/support.pt:112
+#: c/engine/macros_templates/support.pt:116
+#: c/engine/macros_templates/support.pt:126
+#: c/engine/macros_templates/support.pt:130
+#: c/engine/macros_templates/support.pt:144
+#: c/engine/macros_templates/support.pt:148
+#: c/engine/macros_templates/support.pt:160
+#: c/engine/macros_templates/support.pt:164
 msgid "step"
 msgstr "langkah"
 
-#. You are free:
+#: c/engine/licenses/devnations_templates/deed.pt:27
+#: c/engine/licenses/mitbsd_templates/deed.pt:23
+#: c/engine/licenses/sampling_templates/deed.pt:25
+#: c/engine/licenses/standard_templates/deed.pt:34
 msgid "You are free:"
 msgstr "Anda adalah bebas:"
 
-#. If you alter, transform, or build upon this work, you may distribute the
-#. resulting work only under the same or similar license to this one.
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same or similar license to this one."
@@ -2913,20 +2468,18 @@ msgstr ""
 "tersebut, anda mesti mengedar hasil karya tersebut hanya di bawah satu "
 "lesen yang sama seperti yang ini."
 
-#. Music Sharing
+#: c/engine/chooser_pages/index.pt:236
 msgid "Music Sharing"
 msgstr ""
 
-#. LGPL
 msgid "LGPL"
 msgstr "LGPL (Lesen Awam Am Yang Lebih Kecil)"
 
-#. French (CA)
 msgid "French (CA)"
 msgstr "Perancis (CA)"
 
-#. Lawyer-Readable<br/>
-#. Legal Code
+#: c/engine/chooser_pages/gpl.pt:47
+#: c/engine/chooser_pages/lgpl.pt:48
 msgid ""
 "Lawyer-Readable<br/>\n"
 "Legal Code"
@@ -2934,52 +2487,29 @@ msgstr ""
 "Kod Undang-undang<br/>\n"
 "Yang Boleh Dibaca oleh Peguam"
 
-#. Require Share-Alike
 msgid "Require Share-Alike"
 msgstr ""
 
-#. <strong>to Remix</strong> — to adapt the work
+#: c/engine/licenses/devnations_templates/deed.pt:34
+#: c/engine/licenses/mitbsd_templates/deed.pt:26
+#: c/engine/licenses/standard_templates/deed.pt:39
 msgid "<strong>to Remix</strong> — to adapt the work"
 msgstr "untuk membuat karya terbitan"
 
-#. Find music, photos and more
 msgid "Find music, photos and more"
 msgstr "Cari muzik, foto dan lain-lain"
 
-#. Venezuela
 msgid "Venezuela"
 msgstr ""
 
-#. publicize
+#: c/engine/chooser_pages/sampling.pt:46
+#: c/engine/macros_templates/support.pt:161
+#: c/engine/macros_templates/support.pt:165
 msgid "publicize"
 msgstr "membuat publisiti"
 
-#. <p align="center"><em>Copyright-Only Dedication (based on United States law)
-#. or Public Domain Certification</em></p>
-#. <p>The person or persons who have associated work with this document
-#. (the "Dedicator" or "Certifier") hereby either (a) certifies that, to the
-#. best of his knowledge, the work of authorship identified is in the public
-#. domain of the country from which the work is published, or (b) hereby
-#. dedicates whatever copyright the dedicators holds in the work of authorship
-#. identified below (the "Work") to the public domain. A certifier, moreover,
-#. dedicates any copyright interest he may have in the associated work, and for
-#. these purposes, is described as a "dedicator" below.</p>
-#. <p>A certifier has taken reasonable steps to verify the copyright
-#. status of this work. Certifier recognizes that his good faith efforts may
-#. not shield him from liability if in fact the work certified is not in the
-#. public domain.</p>
-#. <p>Dedicator makes this dedication for the benefit of the public at
-#. large and to the detriment of the Dedicator's heirs and successors.
-#. Dedicator intends this dedication to be an overt act of relinquishment in
-#. perpetuity of all present and future rights under copyright law, whether
-#. vested or contingent, in the Work. Dedicator understands that such
-#. relinquishment of all rights includes the relinquishment of all rights to
-#. enforce (by lawsuit or otherwise) those copyrights in the Work.</p>
-#. <p>Dedicator recognizes that, once placed in the public domain, the
-#. Work may be freely reproduced, distributed, transmitted, used, modified,
-#. built upon, or otherwise exploited by anyone for any purpose, commercial or
-#. non-commercial, and in any way, including by methods that have not yet been
-#. invented or conceived.</p>
+#: c/engine/pd/templates/publicdomain-3.pt:41
+#: c/engine/licenses/publicdomain_templates/deed.pt:19
 msgid ""
 "<p align=\"center\"><em>Copyright-Only Dedication (based on United States"
 " law) or Public Domain Certification</em></p>\n"
@@ -3050,17 +2580,7 @@ msgstr ""
 "penggunaan, sama ada komersial atau bukan komersial, dan dalam apa cara, "
 "termasuk dengan cara yang belum dicipta atau difikirkan.</p>"
 
-#. <h1>Enter Information</h1>
-#. <p>You have selected the <a href="/licenses/publicdomain/">Public
-#. Domain Dedication</a>.  Please note  that the Public Domain Dedication may
-#. not be valid outside of the United States.</p>
-#. <p>Please fill out the information below to dedicate your work.
-#. Creative Commons will use the information to email you and ourselves a
-#. public domain receipt for this Dedication.</p>
-#. <p>Once you're done filling this out, you'll still have a chance to
-#. think it over before the dedication happens.</p>
-#. <p><strong>About your work</strong></p>
-#. <p>all fields are required</p>
+#: c/engine/pd/templates/publicdomain-2.pt:24
 msgid ""
 "<h1>Enter Information</h1>\n"
 "\n"
@@ -3098,8 +2618,7 @@ msgstr ""
 "\n"
 "        <p>semua medan dikehendaki</p>"
 
-#. To sample, mash-up, or otherwise creatively transform this work for
-#. noncommercial purposes.
+#: c/engine/licenses/sampling_templates/deed.pt:27
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "noncommercial purposes."
@@ -3107,9 +2626,7 @@ msgstr ""
 "Untuk mengambil contoh, menggabungkan atau secara lain mengubah bentuk "
 "dengan cara yang kreatif untuk penggunaan bukan komersial"
 
-#. Before you apply the Sampling License to your work, make sure you have the
-#. authority to license all the rights involved. Musical works, for example,
-#. often consist of multiple copyrights (composition, recording, lyrics).
+#: c/engine/chooser_pages/sampling.pt:116
 msgid ""
 "Before you apply the Sampling License to your work, make sure you have "
 "the authority to license all the rights involved. Musical works, for "
@@ -3121,16 +2638,13 @@ msgstr ""
 "berkaitan. Karya-karya muzik, sebagai contoh, selalu terdiri dari "
 "bermacam-manam hakcipta (punyusunan, rakaman, lirik)"
 
-#. Jurisdiction of your license:
 msgid "Jurisdiction of your license:"
 msgstr "Bidangkuasa lesen anda:"
 
-#. home
 msgid "home"
 msgstr "halaman utama"
 
-#. <b>NOTE:</b> clicking on "proceed" will send a confirmation request to the
-#. email address you entered. Make sure the address is correct!
+#: c/engine/pd/templates/publicdomain-2.pt:53
 msgid ""
 "<b>NOTE:</b> clicking on \"proceed\" will send a confirmation request to "
 "the email address you entered. Make sure the address is correct!"
