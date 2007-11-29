@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2007-11-29 11:25+0800\n"
-"PO-Revision-Date: 2007-11-29 11:32-0800\n"
+"PO-Revision-Date: 2007-11-29 14:00-0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fi <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -20,41 +20,44 @@ msgstr "New Zealand"
 msgid "country.gr"
 msgstr "Greece"
 
+#: c/engine/chooser_pages/index.pt:104
 msgid "Allow Derivative Works"
 msgstr ""
 
-#: s/index.pt:107
+#: c/engine/chooser_pages/index.pt:107
 msgid ""
 "The licensor permits others to copy, distribute, display and perform the "
 "work, as well as make derivative works based on it."
 msgstr ""
 
-#: s/index.pt:56
+#: c/engine/chooser_pages/index.pt:56
 msgid "Commercial Use"
 msgstr ""
 
-#: s/index.pt:59
+#: c/engine/chooser_pages/index.pt:59
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the"
 " work, including for commercial purposes."
 msgstr ""
 
-#: s/index.pt:70
+#: c/engine/chooser_pages/index.pt:70
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the"
 " work for non-commercial purposes only."
 msgstr ""
 
-#: s/index.pt:88
+#: c/engine/chooser_pages/index.pt:88
 msgid "Yes, as long as others share alike"
 msgstr ""
 
+#: c/engine/licenses/sampling_templates/deed.pt:31
 msgid "deed.free_copy_distribute_noncommercial"
 msgstr ""
 "Esittää, näyttää ja levittää kappaleita tästä teoksesta epäkaupallisissa "
 "tarkoituksissa (esimerkiksi vertaisverkoissa tai ei-kaupallisessa "
 "webcasting-lähetyksessä)"
 
+#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
 msgid "license.pd_awaiting_confirmation"
 msgstr ""
 "<h1>Public domain ilmoitus - Sähköposti varmistus</h1>\n"
@@ -95,6 +98,7 @@ msgstr ""
 msgid "country.bg"
 msgstr "Bulgaria"
 
+#: c/engine/pd/templates/publicdomain-4.pt:32
 msgid "license.mark_web"
 msgstr ""
 "Merkitse sisältösi verkkosivuille, HTML jolla saat napin näkymään on "
@@ -104,18 +108,27 @@ msgstr ""
 msgid "util.copyright_date"
 msgstr "tekijänoikeuden päivämäärä"
 
+#: c/engine/chooser_pages/index.pt:168
+#: c/engine/chooser_pages/sampling.pt:104
 msgid "util.Jurisdiction"
 msgstr "Oikeusjärjestelmä"
 
+#: c/engine/chooser_pages/sampling.pt:80
+#: c/engine/chooser_pages/sampling.pt:92
 msgid "country.br"
 msgstr "Brasilia"
 
 msgid "util.Creative_Commons_License"
 msgstr "Creative Commons Lisenssi"
 
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
 msgid "license.mark_content"
 msgstr "merkitse sisältö"
 
+#: c/engine/licenses/fsf_templates/deed.pt:48
 msgid "deed.gpl_under_conditions"
 msgstr ""
 "Voit käyttää vapauksia jotka lisenssissä annettaan lisenssin mukaisesti. "
@@ -131,6 +144,7 @@ msgstr ""
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
 "Domainiin</a>."
 
+#: c/engine/chooser_pages/index.pt:77
 msgid "api.derivatives"
 msgstr "Salli teoksen muokkaaminen?"
 
@@ -142,6 +156,8 @@ msgstr ""
 msgid "deed.back_to_cc"
 msgstr "takaisin <a href=\"/\">Creative Commons sivulle</a>"
 
+#: c/engine/chooser_pages/gpl.pt:63
+#: c/engine/chooser_pages/lgpl.pt:66
 msgid "license.fsf_how_it_works"
 msgstr ""
 "Näin CC-GNU ${license_code} toimii: Käyttäjä joka painaa Creative Commons"
@@ -156,6 +172,7 @@ msgstr ""
 "\"konekielinen versio lisenssistä\" — pala metadataa — joka auttaa muita "
 "löytämään ohjelmasi."
 
+#: c/engine/licenses/mitbsd_templates/deed.pt:46
 msgid "deed.bsd_notice"
 msgstr ""
 "You must retain the license terms and copyright notice in any source code"
@@ -170,12 +187,16 @@ msgstr ""
 "We have updated the version of your license to the most recent one "
 "available."
 
+#: c/engine/chooser_pages/index.pt:67
 msgid "licenses.pretty_nc"
 msgstr "Epäkaupallinen"
 
+#: c/engine/macros_templates/deed.pt:103
 msgid "lang.ca"
 msgstr "Katalaani"
 
+#: c/engine/chooser_pages/gpl.pt:66
+#: c/engine/chooser_pages/lgpl.pt:69
 msgid "license.fsf_mark_software"
 msgstr ""
 "<h1>Merkitse tietokoneohjelma</h1>\n"
@@ -194,14 +215,19 @@ msgstr ""
 "rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
 "lisenssillä</a>."
 
+#: c/engine/chooser_pages/gpl.pt:46
+#: c/engine/chooser_pages/lgpl.pt:47
 msgid "license.human-readable_commons_deed"
 msgstr ""
 "Ihmisten luettavissa oleva<br />\n"
 "Lisenssitiivistelmä"
 
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
 msgid "license.confirm_choice"
 msgstr "vahvista valintasi"
 
+#: c/engine/chooser_pages/sampling.pt:54
 msgid "license.sampling_explain"
 msgstr ""
 "<div style=\"float:right;width:175px;border:1px solid "
@@ -254,14 +280,21 @@ msgstr ""
 msgid "lang.bg"
 msgstr "Bulgaria"
 
+#: c/engine/chooser_pages/gpl.pt:37
+#: c/engine/chooser_pages/gpl.pt:79
+#: c/engine/chooser_pages/lgpl.pt:38
+#: c/engine/chooser_pages/lgpl.pt:82
 msgid "license.fsf_software_licensed"
 msgstr ""
 "Tietokoneohjelma on lisensoitu <a href=\"${license_url}\">CC-GNU "
 "${license_code}</a>."
 
+#: c/engine/pd/templates/publicdomain-2.pt:34
+#: c/engine/macros_templates/metadata.pt:46
 msgid "util.title_of_work"
 msgstr "teoksen nimi"
 
+#: c/engine/licenses/fsf_templates/deed.pt:61
 msgid "deed.gpl_sharealike"
 msgstr ""
 "Jos muokkaat teoksen kopioita tai kehität ohjelman sen pohjelta, saat "
@@ -272,6 +305,7 @@ msgstr ""
 msgid "country.ie"
 msgstr "Irlanti"
 
+#: c/engine/macros_templates/engine.pt:111
 msgid "license.License_Your_Work"
 msgstr "Lisensoi teoksesi"
 
@@ -284,6 +318,7 @@ msgstr "Nimeä-Ei muutoksia"
 msgid "lang.es_PE"
 msgstr "Espanian kielinen (PE)"
 
+#: c/engine/licenses/sampling_templates/deed.pt:29
 msgid "deed.free_sample"
 msgstr ""
 "Sämplätä, sekoittaa tai muuten luovasti muokata tätä teosta kaupalliseen "
@@ -327,6 +362,7 @@ msgstr "Malaji"
 msgid "country.ph"
 msgstr "Filippiinit"
 
+#: c/engine/licenses/sampling_templates/deed.pt:42
 msgid "char.na_brief"
 msgstr ""
 "Tätä teosta ei saa käyttää mainostamaan muuta kuin muutettua teosta joka "
@@ -349,6 +385,7 @@ msgstr "Tämä sivu on saatavilla seuraavilla kielillä:"
 msgid "lang.en_GB"
 msgstr "Englanti (GB)"
 
+#: c/engine/licenses/standard_templates/deed.pt:69
 msgid "deed.moralrights-remix.us"
 msgstr ""
 "Remix-oikeuksia lukuunottamatta lisenssi ei rajoita tekijän moraalisia "
@@ -357,6 +394,7 @@ msgstr ""
 msgid "lang.pl"
 msgstr "Puolalainen"
 
+#: c/engine/pd/templates/publicdomain-3.pt:87
 msgid "util.confirm"
 msgstr "vahvista"
 
@@ -370,20 +408,29 @@ msgstr ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">teoksen luomisvuosi</a>"
 
+#: c/engine/chooser_pages/index.pt:29
 msgid "license.Choose_License"
 msgstr "valitse lisenssi"
 
+#: c/engine/licenses/fsf_templates/deed.pt:38
 msgid "deed.gpl_free_redistribute"
 msgstr "Vapaus jakaa kopioita jotta voit auttaa naapuriasi."
 
+#: c/engine/pd/templates/publicdomain-4.pt:47
 msgid "license.mark_mp3"
 msgstr ""
 "Merkitäksesi mp3 tiedoston, <a href=\"/technology/mp3\">seuraa näitä "
 "ohjeita.</a>."
 
+#: c/engine/licenses/devnations_templates/deed.pt:40
+#: c/engine/licenses/mitbsd_templates/deed.pt:33
+#: c/engine/licenses/sampling_templates/deed.pt:39
+#: c/engine/licenses/standard_templates/deed.pt:45
 msgid "deed.under_conditions"
 msgstr "Seuraavilla ehdoilla"
 
+#: c/engine/chooser_pages/gpl.pt:48
+#: c/engine/chooser_pages/lgpl.pt:49
 msgid "license.machine-readable_digital_code"
 msgstr ""
 "Konekielinen<br />\n"
@@ -396,9 +443,11 @@ msgstr ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">tekijänoikeuden</a> haltijan nimi"
 
+#: c/engine/macros_templates/metadata.pt:58
 msgid "util.attribute_to_url"
 msgstr "attribute to url"
 
+#: c/engine/chooser_pages/index.pt:195
 msgid "license.view_explanation"
 msgstr "Katso lisätietoa lisensseistämme."
 
@@ -411,6 +460,7 @@ msgstr ""
 "muille lupia oikeuksien käyttöön. Tekijänoikeus ei suojaa ideoita tai "
 "faktoja, vaan omaperäisiä ilmaisuja näistä."
 
+#: c/engine/licenses/fsf_templates/deed.pt:50
 msgid "deed.lgpl_under_conditions"
 msgstr ""
 "Saat käyttää lisenssissä yksilöityjä vapauksia lisenssiehtojen "
@@ -425,6 +475,7 @@ msgstr ""
 msgid "country.lu"
 msgstr "Luxemburg"
 
+#: c/engine/macros_templates/metadata.pt:23
 msgid "license.tell_format"
 msgstr "Mitä esitystapaa käytät teoksessasi:"
 
@@ -434,6 +485,7 @@ msgstr "Chile"
 msgid "lang.nso"
 msgstr "Pohjois-Sotho"
 
+#: c/engine/chooser_pages/index.pt:222
 msgid "util.CC_GNU_LGPL"
 msgstr "CC-GNU LGPL"
 
@@ -444,9 +496,11 @@ msgstr ""
 " tarkoitukseen. <strong>Koko teoksen</strong> kopiointi ja levitys on "
 "kielletty."
 
+#: c/engine/chooser_pages/results.pt:98
 msgid "license.publish_audio_ia"
 msgstr "Julkaisee lisensoimaasi musiikkia Internet Archive sivuille"
 
+#: c/engine/chooser_pages/results.pt:92
 msgid "license.no_web_site"
 msgstr "Ei verkkosivuja?"
 
@@ -456,6 +510,7 @@ msgstr "Serbia"
 msgid "country.kr"
 msgstr "Korea"
 
+#: c/engine/chooser_pages/partner/index.pt:69
 msgid "license.a6"
 msgstr ""
 "Kyllä, niin kauan kuin he, jotka tekevät siihen muutoksia, jakavat sen "
@@ -496,6 +551,7 @@ msgstr "Italialainen"
 msgid "country.ro"
 msgstr "Romania"
 
+#: c/engine/chooser_pages/index.pt:191
 msgid "license.what_you"
 msgstr "Mitä voit tehdä täällä"
 
@@ -507,6 +563,7 @@ msgstr ""
 msgid "licenses.pretty_by-nd-nc"
 msgstr "Nimeä-Ei muutoksia-Epäkaupallinen"
 
+#: c/engine/macros_templates/deed.pt:110
 msgid "lang.gl"
 msgstr "Galician"
 
@@ -515,15 +572,21 @@ msgstr ""
 "Voit siirtyä eteenpäin ja <a href=\"publicdomain-2?${url_vars}\">rikastaa"
 " public domainia teoksellasi</a>."
 
+#: c/engine/pd/templates/publicdomain-2.pt:29
 msgid "util.your_email"
 msgstr "sähköpostisi"
 
+#: c/engine/chooser_pages/index.pt:46
+#: c/engine/chooser_pages/index.pt:81
+#: c/engine/chooser_pages/partner/index.pt:54
+#: c/engine/chooser_pages/partner/index.pt:65
 msgid "util.Yes"
 msgstr "Kyllä"
 
 msgid "deed.free_copy_distribute.jp"
 msgstr "kopioida, levittää, näyttää, esittää, julkisesti lähettää ja lausua teosta"
 
+#: c/engine/pd/templates/publicdomain-partner.pt:24
 msgid "license.pd_choice"
 msgstr ""
 "<p>Olet valinnut tekijänoikeuksista luopumisen ja teoksen luovuttamisen "
@@ -534,9 +597,11 @@ msgstr ""
 " teokseen kuuluvista tekijänoikeuksista ja annat teoksen tekijänoikeudet "
 "kaikkien käyttöön rajoituksetta. Luovutus on pysyvä ja peruuttamaton.</p>"
 
+#: c/engine/macros_templates/metadata.pt:30
 msgid "util.Audio"
 msgstr "Audio"
 
+#: c/engine/macros_templates/deed.pt:92
 msgid "deed.fair_use"
 msgstr ""
 "Tämä lisenssi ei vaikuta tekijänoikeuslain rajoituksiin tai muiden lakien"
@@ -545,15 +610,18 @@ msgstr ""
 msgid "country.nl"
 msgstr "Hollanti"
 
+#: c/engine/pd/templates/publicdomain-4.pt:29
 msgid "license.in_order_to"
 msgstr "Jotta:"
 
+#: c/engine/licenses/fsf_templates/deed.pt:67
 msgid "deed.gpl_source"
 msgstr ""
 "Jos kopioit tai levität ohjelmaa, sinun tulee liittää siihen mukaan "
 "tietokoneella luettavissa oleva lähdekoodi  kokonaisuudessan tai liittää "
 "tarjous joka on voimassa ainakin kolme vuotta tuon koodin toimittamiseen."
 
+#: c/engine/macros_templates/partner.pt:29
 msgid "util.Creative_Commons"
 msgstr "Creative Commons"
 
@@ -569,6 +637,7 @@ msgstr "Licensor permits others to make derivative works"
 msgid "country.us"
 msgstr "Yhdysvallat"
 
+#: c/engine/chooser_pages/results.pt:70
 msgid "license.select_text"
 msgstr ""
 "Valitse yllä olevan laatikon sisältö ja kopioi se. Tai lähetä se <a "
@@ -591,6 +660,7 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
+#: c/engine/chooser_pages/partner/index.pt:50
 msgid "license.q2"
 msgstr ""
 "<strong>Sallia teoksesi kaupallisen käytön?</strong> (<a "
@@ -605,6 +675,7 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
+#: c/engine/chooser_pages/partner/index.pt:61
 msgid "license.q3"
 msgstr ""
 "<strong>Sallia teoksesi muuntelun?</strong> (<a "
@@ -619,12 +690,15 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
+#: c/engine/chooser_pages/htmlpopup.pt:24
 msgid "license.html_directions"
 msgstr ""
 "Yksinkertaisesti kopioi teksti ja liitä se verkkodokumenttiisi, jossa on "
 "tietoa teoksestasi. Lisätietoa HTML:n lisäämisestä dokumentteihisi löydät"
 " <a href=\"/learn/technology/usingmarkup\" target=\"_blank\">täältä</a>."
 
+#: c/engine/chooser_pages/index.pt:178
+#: c/engine/chooser_pages/partner/index.pt:114
 msgid "license.Select_a_License"
 msgstr "Valitse lisenssi"
 
@@ -637,9 +711,11 @@ msgstr ""
 msgid "util.description"
 msgstr "kuvaus"
 
+#: c/engine/chooser_pages/results.pt:114
 msgid "license.publish_video_ia"
 msgstr "Julkaise lisensoimasi videot Internet Archive-palvelussa"
 
+#: c/engine/chooser_pages/partner/results.pt:29
 msgid "license.partner_selected"
 msgstr ""
 "Olet valinnut <a target=\"cc_other\" "
@@ -648,14 +724,17 @@ msgstr ""
 "Lisenssi sijaitsee pysyvästi osoitteessa<br>\n"
 "<b><tt>${license_url}</tt></b>."
 
+#: c/engine/licenses/sampling_templates/deed.pt:45
 msgid "deed.notice_withoutdistribution"
 msgstr ""
 "Nämä lisenssiehdot tulee selvittää muille uudelleenkäyttäessäsi tätä "
 "teosta."
 
+#: c/engine/macros_templates/deed.pt:124
 msgid "lang.nl"
 msgstr "Hollanniksi"
 
+#: c/engine/chooser_pages/results.pt:101
 msgid "license.publish_soundclick"
 msgstr "Julkaise lisensoimasi musiikki Soundclick-palvelussa"
 
@@ -665,6 +744,8 @@ msgstr "blogi"
 msgid "country.es"
 msgstr "Espanja"
 
+#: c/engine/pd/templates/publicdomain-4.pt:49
+#: c/engine/chooser_pages/results.pt:127
 msgid "license.mark_nonweb"
 msgstr ""
 "Merkitäksesi dokumentin joka ei ole verkossa, <a href=\"non-web-"
@@ -685,11 +766,13 @@ msgstr "Espanian kielinen (MX)"
 msgid "util.publish"
 msgstr "julkaise"
 
+#: c/engine/macros_templates/deed.pt:153
 msgid "deed.human_summary"
 msgstr ""
 "Tämä on tiivistelmä <a href=\"legalcode\" "
 "class=\"fulltext\">(täydellisestä)juridisesta lisenssistä</a>."
 
+#: c/engine/pd/templates/publicdomain-2.pt:46
 msgid "util.proceed"
 msgstr "etene"
 
@@ -702,6 +785,7 @@ msgstr "lisää"
 msgid "lang.en_US"
 msgstr "Englannin kielinen (USA)"
 
+#: c/engine/macros_templates/metadata.pt:52
 msgid "util.attribute_to_name"
 msgstr "attribute to name"
 
@@ -714,6 +798,7 @@ msgstr ""
 "tarkoituksessa. Epäkaupallinen-Sämpläys-Plus lisenssi sallii vain "
 "epäkaupallisen sämpläyksen."
 
+#: c/engine/macros_templates/deed.pt:117
 msgid "lang.en"
 msgstr "Englanniksi"
 
@@ -726,20 +811,28 @@ msgstr ""
 "käytä tätä lisenssiä ennen kuin tämä ilmoitus on poistettu siitä. Voit "
 "lähettää lisenssiä koskevia kommentteja christiane@creativecommons.org."
 
+#: c/engine/chooser_pages/index.pt:170
+#: c/engine/chooser_pages/sampling.pt:106
 msgid "license.jurisdiction_help"
 msgstr ""
 "Mikäli haluat suojata teostasi Suomen tekijänoikeuslain mukaisesti, käytä"
 " suomalaista versiota lisenssistä."
 
+#: c/engine/licenses/fsf_templates/deed.pt:34
 msgid "deed.gpl_free_run"
 msgstr "Vapaus ajaa ohjelma mihin tahansa tarkoitukseen."
 
+#: c/engine/chooser_pages/index.pt:128
+#: c/engine/chooser_pages/sampling.pt:72
+#: c/engine/chooser_pages/partner/index.pt:79
 msgid "license.jurisdiction_question"
 msgstr "Lisenssisi oikeusjärjestelmä"
 
+#: c/engine/pd/templates/publicdomain-2.pt:39
 msgid "util.copyright_holder"
 msgstr "tekijänoikeuden haltija"
 
+#: c/engine/chooser_pages/sampling.pt:118
 msgid "license.sampling_alternatives"
 msgstr ""
 "<p>Jos <strong>haluat</strong> kutsua muita käyttämään teostasi "
@@ -752,21 +845,28 @@ msgstr ""
 msgid "lang.sv"
 msgstr "Ruotsalainen"
 
+#: c/engine/chooser_pages/htmlpopup.pt:15
 msgid "license.html_display"
 msgstr "HTML koodi jonka tarvitset napin näyttämiseen on:"
 
+#: c/engine/macros_templates/deed.pt:109
 msgid "lang.eu"
 msgstr "Baski"
 
 msgid "lang.en_CA"
 msgstr "Englanti (Kalifornia)"
 
+#: c/engine/macros_templates/deed.pt:104
 msgid "lang.es"
 msgstr "Espaniaksi"
 
+#: c/engine/templates/by.pt:8
+#: c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
 msgid "char.by_title"
 msgstr "Nimeä"
 
+#: c/engine/chooser_pages/sampling.pt:65
 msgid "license.sampling_a_nc-sampling+"
 msgstr ""
 "<strong>Ei-kaupallinen Sämpläys Plus</strong>: Muut voivat ottaa ja "
@@ -774,12 +874,14 @@ msgstr ""
 "kaupalliseen</strong> tarkoitukseen. <strong>Koko teoksen Ei-"
 "kaupallinen</strong> kopiointi ja levitys on myös sallittua."
 
+#: c/engine/chooser_pages/results.pt:21
 msgid "license.selected"
 msgstr ""
 "Olet valinnut Creative Commons ${license_pretty_name} lisenssin "
 "${country_name}. <a href=\"${license_url}\">Katso miltä lisenssi "
 "näyttää</a> sivujesi vierailijoille."
 
+#: c/engine/macros_templates/metadata.pt:32
 msgid "util.Video"
 msgstr "Video"
 
@@ -794,14 +896,18 @@ msgstr "Unkari"
 msgid "country.hr"
 msgstr "Kroatia"
 
+#: c/engine/chooser_pages/gpl.pt:118
+#: c/engine/chooser_pages/lgpl.pt:121
 msgid "license.fsf_more_info"
 msgstr ""
 "Lisätietoja Free Software Foundationista löytyy FSF:n <a "
 "href=\"http://www.fsf.org\">verkkosivuilta</a>."
 
+#: c/engine/chooser_pages/sampling.pt:111
 msgid "license.sampling_get"
 msgstr "Hanki sämpläyslisenssisi"
 
+#: c/engine/licenses/fsf_templates/deed.pt:16
 msgid "deed.gpl_title"
 msgstr ""
 "${license_name_full}, <a href=\"http://www.gnu.org/\">Free Software "
@@ -812,6 +918,7 @@ msgstr ""
 "Tämä teos on lisensoitu <a href=\"${license_url}\">Creative Commons "
 "kehitysmaa lisenssillä</a>."
 
+#: c/engine/chooser_pages/index.pt:32
 msgid "license.what"
 msgstr ""
 "Käyttämällä Creative Commons lisenssiä <strong>säilytät "
@@ -829,6 +936,7 @@ msgstr ""
 msgid "char.by_brief.jp"
 msgstr "Alkuperäisen tekijän ja esittäjän nimi on ilmoitettava."
 
+#: c/engine/chooser_pages/results.pt:94
 msgid "license.learn_host"
 msgstr ""
 "Opi sivuista jotka voivat auttaa jakamaan lisensoimiasi tiedostoja. Nämä "
@@ -837,24 +945,31 @@ msgstr ""
 msgid "lang.es_CO"
 msgstr "Spanish (CO)"
 
+#: c/engine/pd/templates/publicdomain-4.pt:42
+#: c/engine/chooser_pages/gpl.pt:110
+#: c/engine/chooser_pages/lgpl.pt:113
 msgid "license.get_html_email"
 msgstr "Hanki HTML ja lähetä se sähköpostilla itsellesi"
 
+#: c/engine/macros_templates/metadata.pt:38
 msgid "util.Interactive"
 msgstr "Interaktiivinen"
 
+#: c/engine/chooser_pages/htmlpopup.pt:27
 msgid "license.html_email"
 msgstr "Syötä sähköpostiosoitteesi saadaksesi HTML:n sähköpostiisi:"
 
 msgid "util.Next_step"
 msgstr "Seuraava askel:"
 
+#: c/engine/chooser_pages/index.pt:198
 msgid "license.or_choose"
 msgstr "Tai valitse:"
 
 msgid "licenses.pretty_by-nc-nd"
 msgstr "Nimeä-Ei muutoksia-Epäkaupallinen"
 
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:19
 msgid "deed.disclaimer"
 msgstr ""
 "<p>\n"
@@ -874,15 +989,19 @@ msgstr ""
 "suhdetta Creative Commonssin kanssa.\n"
 "</p>"
 
+#: c/engine/chooser_pages/results.pt:15
 msgid "license.here_chosen"
 msgstr "Tässä lisenssi jonka valitsit"
 
+#: c/engine/macros_templates/deed.pt:161
 msgid "deed.learn"
 msgstr "Opi kuinka voi levittää teoksiasi käyttämällä tätä lisenssiä"
 
+#: c/engine/chooser_pages/htmlpopup.pt:41
 msgid "util.Send"
 msgstr "Lähetä"
 
+#: c/engine/licenses/fsf_templates/deed.pt:40
 msgid "deed.gpl_free_improve"
 msgstr ""
 "Vapaus kehittää ohjelmaa ja julkaista parannukset, jotta koko yhteisö "
@@ -891,6 +1010,7 @@ msgstr ""
 msgid "lang.zh_TW"
 msgstr "Kiinaksi (Taiwan)"
 
+#: c/engine/macros_templates/metadata.pt:84
 msgid "jargon.source_work_description"
 msgstr "Teos jota on muutettu."
 
@@ -918,6 +1038,8 @@ msgstr ""
 "\n"
 "Kiiton Creative Commonssin käyttämisestä."
 
+#: c/engine/chooser_pages/gpl.pt:25
+#: c/engine/chooser_pages/lgpl.pt:26
 msgid "license.fsf_explain"
 msgstr ""
 "<h1>Creative Commons GNU ${license_code}</h1>\n"
@@ -932,29 +1054,36 @@ msgstr ""
 "käyttää Creative Commons logoa jostä on linkki CC-GNU "
 "${license_code}lisenssiin. Lopputulos näyttää tältä:</p>"
 
+#: c/engine/chooser_pages/index.pt:124
 msgid "char.sa_description"
 msgstr ""
 "Lisenssin antaja sallii muutettujen teosten levittämisen ainoastaan "
 "samanlaisella lisenssillä kuin alkuperäinen Teos on lisenssoitu."
 
+#: c/engine/macros_templates/metadata.pt:34
 msgid "util.Image"
 msgstr "Kuva"
 
+#: c/engine/macros_templates/metadata.pt:28
 msgid "util.Other"
 msgstr "Muu"
 
+#: c/engine/pd/templates/publicdomain-partner.pt:31
+#: c/engine/chooser_pages/partner/results.pt:35
 msgid "license.you_may_proceed"
 msgstr "Voit siirtyä <a href=\"${processed_exit_url}\">eteenpäin</a>"
 
 msgid "char.nc_title"
 msgstr "Epäkaupallinen"
 
+#: c/engine/chooser_pages/index.pt:204
 msgid "licenses.pretty_publicdomain"
 msgstr "Public Domain"
 
 msgid "lang.zh"
 msgstr "Kiinaksi"
 
+#: c/engine/chooser_pages/results.pt:59
 msgid "license.have_your_own_website"
 msgstr "Onko sinulla oma verkkosivu?"
 
@@ -972,6 +1101,7 @@ msgstr ""
 msgid "lang.ja"
 msgstr "Japaniksi"
 
+#: c/engine/chooser_pages/sampling.pt:53
 msgid "license.sampling_title"
 msgstr "Valitse sämpäys lisenssin vaihtoehdot"
 
@@ -981,12 +1111,20 @@ msgstr "Japani"
 msgid "deed.free_commercial"
 msgstr "käyttää teosta kaupallisiin tarkoituksiin"
 
+#: c/engine/chooser_pages/index.pt:47
+#: c/engine/chooser_pages/index.pt:50
+#: c/engine/chooser_pages/index.pt:82
+#: c/engine/chooser_pages/index.pt:89
+#: c/engine/chooser_pages/index.pt:97
+#: c/engine/chooser_pages/index.pt:130
+#: c/engine/chooser_pages/sampling.pt:74
 msgid "util.more_info"
 msgstr "lisätietoja"
 
 msgid "nav.select_a_jurisdiction"
 msgstr "Valitse maa"
 
+#: c/engine/chooser_pages/sampling.pt:61
 msgid "license.sampling_a_sampling+"
 msgstr ""
 "<strong>Sämpläys Plus</strong>: Muut voivat ottaa ja muunnella "
@@ -994,6 +1132,7 @@ msgstr ""
 "on kielletty. <strong>Koko teoksen Ei-kaupallinen</strong> kopiointi ja "
 "levitys on myös sallittua."
 
+#: c/engine/macros_templates/deed.pt:98
 msgid "deed.human_summary_multilanguage"
 msgstr ""
 "Tämä on ihmisten-luettavissa oleva tiivistelmä juridisesta lisenssistä. "
@@ -1005,21 +1144,33 @@ msgstr "Jordania"
 msgid "country.es-ca"
 msgstr "Katalonia"
 
+#: c/engine/pd/templates/publicdomain-4.pt:41
+#: c/engine/chooser_pages/gpl.pt:107
+#: c/engine/chooser_pages/lgpl.pt:110
+#: c/engine/chooser_pages/nonweb_popup.pt:31
+#: c/engine/chooser_pages/htmlpopup.pt:20
 msgid "util.Highlight_Text"
 msgstr "Korosta teksti kopioidaksesi"
 
 msgid "char.nd_brief"
 msgstr "Teosta ei saa muuttaa, muunnella tai käyttää toisen teoksen pohjana."
 
+#: c/engine/chooser_pages/sampling.pt:78
+#: c/engine/chooser_pages/sampling.pt:90
+#: c/engine/chooser_pages/partner/index.pt:83
+#: c/engine/chooser_pages/partner/index.pt:86
 msgid "util.Generic"
 msgstr "Raakaversio"
 
 msgid "lang.es_AR"
 msgstr "Espanian kielinen (AR)"
 
+#: c/engine/macros_templates/metadata.pt:66
+#: c/engine/macros_templates/metadata.pt:82
 msgid "util.source_work"
 msgstr "lähdeteos"
 
+#: c/engine/chooser_pages/sampling.pt:115
 msgid "license.sampling_note"
 msgstr ""
 "Huomio: Sämpläys lisenssi toimii myös muille teostyypeille kuin "
@@ -1031,6 +1182,7 @@ msgstr "Australia"
 msgid "country.at"
 msgstr "Itävalta"
 
+#: c/engine/chooser_pages/nonweb_popup.pt:19
 msgid "license.non_web_pd"
 msgstr ""
 "Tämä teos täten päästetään public domainiin. Voit tutustua public domain "
@@ -1042,6 +1194,7 @@ msgstr ""
 msgid "country.ar"
 msgstr "Argentiina"
 
+#: c/engine/licenses/standard_templates/deed.pt:77
 msgid "deed.superseded"
 msgstr ""
 "Tämän lisenssin on syrjäyttänyt uusi <a "
@@ -1050,18 +1203,23 @@ msgstr ""
 "lisensoitujen teosten uudelleen lisensoimiseen. Teokset eivät "
 "<em>automaattisesti</em> siirry uuden lisenssin alle."
 
+#: c/engine/chooser_pages/index.pt:209
 msgid "licenses.pretty_sampling+"
 msgstr "Sämpläys plus"
 
+#: c/engine/chooser_pages/index.pt:42
 msgid "api.commercial"
 msgstr "Sallitko teoksen kaupallisen käytön?"
 
+#: c/engine/macros_templates/support.pt:103
+#: c/engine/macros_templates/support.pt:107
 msgid "license.enter_information"
 msgstr "syötä informaatio"
 
 msgid "jswidget.Allow_Remixing"
 msgstr "Allow Remixing"
 
+#: c/engine/macros_templates/metadata.pt:16
 msgid "license.hide_optional_fields"
 msgstr "Piilota nämä kentät (Kaikki kentät ovat vapaaehtoisia)"
 
@@ -1071,6 +1229,7 @@ msgstr "Portugali"
 msgid "license.GPL_name_full"
 msgstr "GNU General Public License"
 
+#: c/engine/licenses/fsf_templates/deed.pt:36
 msgid "deed.gpl_free_study"
 msgstr ""
 "Vapaus tutkia kuinka ohjelma toimii ja tehdä siihen tarvitsemiasi "
@@ -1079,6 +1238,7 @@ msgstr ""
 msgid "lang.af"
 msgstr "Afrikaans"
 
+#: c/engine/licenses/mitbsd_templates/deed.pt:54
 msgid "deed.mit_notice"
 msgstr ""
 "Tekijänoikeustiedot ja lisenssi tulee sisältää tämän ohjelman "
@@ -1091,15 +1251,18 @@ msgstr "Remix"
 msgid "char.nc_brief"
 msgstr "Teosta ei saa käyttää kaupallisiin tarkoituksiin."
 
+#: c/engine/macros_templates/metadata.pt:72
 msgid "util.more_permissions_url"
 msgstr "more permissions URL"
 
+#: c/engine/licenses/standard_templates/deed.pt:64
 msgid "deed.moralrights"
 msgstr "Lisenssi ei rajoita tekijän moraalisia oikeuksia."
 
 msgid "country.sk"
 msgstr "Slovakia"
 
+#: c/engine/chooser_pages/results.pt:61
 msgid "license.copy_text"
 msgstr ""
 "Kopioi alla oleva teksti verkkosivuillesi, jotta siellä vierailevat "
@@ -1117,6 +1280,8 @@ msgstr "Singapore"
 msgid "country.se"
 msgstr "Ruotsi"
 
+#: c/engine/chooser_pages/sampling.pt:82
+#: c/engine/chooser_pages/sampling.pt:94
 msgid "country.de"
 msgstr "Saksa"
 
@@ -1126,6 +1291,11 @@ msgstr "Unkarilainen"
 msgid "country.dk"
 msgstr "Tanska"
 
+#: c/engine/chooser_pages/nonweb_popup.pt:37
+#: c/engine/chooser_pages/htmlpopup.pt:46
+#: c/engine/chooser_templates/emailhtml.pt:19
+#: c/engine/templates/by.pt:31
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:21
 msgid "util.Close_window"
 msgstr "Sulje ikkuna"
 
@@ -1141,6 +1311,10 @@ msgstr "Isobritania: Scotland"
 msgid "country.ua"
 msgstr "Ukraina"
 
+#: c/engine/licenses/fsf_templates/deed.pt:24
+#: c/engine/licenses/devnations_templates/deed.pt:25
+#: c/engine/licenses/sampling_templates/deed.pt:23
+#: c/engine/licenses/standard_templates/deed.pt:31
 msgid "deed.retired"
 msgstr ""
 "Tämä lisenssin valinta on <a href=\"/retiredlicenses\">lakkautettu</a>. "
@@ -1158,6 +1332,7 @@ msgstr "Kiina"
 msgid "licenses.pretty_GPL"
 msgstr "GPL"
 
+#: c/engine/macros_templates/deed.pt:76
 msgid "deed.disclaimer.jp"
 msgstr ""
 "<p>\n"
@@ -1193,6 +1368,7 @@ msgstr ""
 msgid "country.ch"
 msgstr "Sveitsi"
 
+#: c/engine/chooser_pages/results.pt:105
 msgid "license.publish_flickr"
 msgstr "Lähetä lisensoimasi kuvat Flickr-palveluun"
 
@@ -1235,6 +1411,7 @@ msgstr ""
 msgid "license.Final_step"
 msgstr "Viimeinen vaihe"
 
+#: c/engine/licenses/fsf_templates/deed.pt:55
 msgid "deed.gpl_notice"
 msgstr ""
 "Sinun tulee huomiota herättävästi ja tarkoituksenmukaisesti julkaista "
@@ -1244,12 +1421,19 @@ msgstr ""
 " ${license_name_full}lisenssistä teoskappaleen mukana. Kaikkien  "
 "${license_name_full}käännösten mukana tulee olla ${license_name_full}."
 
+#: c/engine/licenses/devnations_templates/deed.pt:30
+#: c/engine/licenses/mitbsd_templates/deed.pt:25
+#: c/engine/licenses/standard_templates/deed.pt:38
 msgid "deed.free_copy_distribute"
 msgstr "<strong>Jakaa</strong> — kopioida, levittää, näyttää ja esittää teosta"
 
+#: c/engine/chooser_pages/index.pt:115
 msgid "char.nd_title"
 msgstr "Ei muutettuja teoksia"
 
+#: c/engine/licenses/devnations_templates/deed.pt:50
+#: c/engine/licenses/sampling_templates/deed.pt:43
+#: c/engine/licenses/standard_templates/deed.pt:56
 msgid "deed.notice"
 msgstr ""
 "Uudelleenkäyttäessäsi tai levittäessäsi tätä teosta, sinun tulee tehdä "
@@ -1262,6 +1446,7 @@ msgstr "Slovenialainen"
 msgid "util.copyright"
 msgstr "tekijänoikeus"
 
+#: c/engine/chooser_pages/nonweb_popup.pt:27
 msgid "license.non_web_statement"
 msgstr ""
 "Tämä teos on lisensoitu Creative Commons ${license_name} lisenssillä. "
@@ -1269,6 +1454,7 @@ msgstr ""
 "Creative Commons, 171 Second Street, Suite 300, San Francisco, "
 "California, 94105, USA."
 
+#: c/engine/licenses/mitbsd_templates/deed.pt:40
 msgid "deed.no_endorsement"
 msgstr ""
 "<strong>Ei tukemistarkoitukseen</strong>. Teoksen tekijän nimeä ei saa "
@@ -1279,9 +1465,11 @@ msgstr ""
 msgid "jswidget.Prohibit_Commercial_Use"
 msgstr "Prohibit Commercial Use"
 
+#: c/engine/chooser_pages/results.pt:56
 msgid "license.what_to_do_next"
 msgstr "Mitä seuraavaksi"
 
+#: c/engine/pd/templates/publicdomain-4.pt:52
 msgid "license.mark_rss"
 msgstr ""
 "Lisää lisenssi tiedot RSS syöttöön, käytä RSS <a "
@@ -1293,6 +1481,10 @@ msgstr ""
 msgid "lang.es_CL"
 msgstr "Espanian kielinen (CL)"
 
+#: c/engine/chooser_pages/sampling.pt:36
+#: c/engine/macros_templates/support.pt:127
+#: c/engine/macros_templates/support.pt:134
+#: c/engine/macros_templates/support.pt:136
 msgid "license.review_choice"
 msgstr "tarkistele valintoja"
 
@@ -1308,9 +1500,11 @@ msgstr ""
 msgid "util.Share_Music"
 msgstr "Jaa musiikkia"
 
+#: c/engine/chooser_pages/index.pt:122
 msgid "char.sa_title"
 msgstr "Tarttuva"
 
+#: c/engine/chooser_pages/index.pt:193
 msgid "license.explain"
 msgstr ""
 "Creative Commons auttaa sinua julkaisemaan teoksesi verkossa siten että "
@@ -1319,6 +1513,7 @@ msgstr ""
 " sivuillesi, tai johonkin lukuisista sivuista joilla voit jakaa Creative "
 "Commons sisältöä."
 
+#: c/engine/pd/templates/publicdomain-4.pt:27
 msgid "license.mark_pd"
 msgstr ""
 "Valittuasi teoksesi päästämisen public domainiin, sinun tulee merkata "
@@ -1327,12 +1522,14 @@ msgstr ""
 msgid "util.Try_again"
 msgstr "Yritä uudelleen!"
 
+#: c/engine/chooser_pages/index.pt:214
 msgid "util.Founders_Copyright"
 msgstr "Historiallinen tekijänoikeus"
 
 msgid "licenses.pretty_nc-sa"
 msgstr "Epäkaupallinen-Tarttuva"
 
+#: c/engine/pd/templates/publicdomain-3.pt:40
 msgid "license.pd_confirm"
 msgstr ""
 "<h1>Vahvista public domain luovutus</h1>\n"
@@ -1348,11 +1545,14 @@ msgstr ""
 "${pd_deed_text}\n"
 "        </div>"
 
+#: c/engine/chooser_pages/results.pt:78
 msgid "license.after_support_cc"
 msgstr ""
 "Voit tukea <a href=\"http://creativecommons.org/support/\"> Creative "
 "Commonsin työtä</a>."
 
+#: c/engine/pd/templates/publicdomain-3.pt:93
+#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:59
 msgid "license.pd_bad_confirmation"
 msgstr ""
 "<h1>Public Domain osoitus - Epäkelpo vahvistus</h1>\n"
@@ -1374,23 +1574,29 @@ msgstr ""
 "href=\"mailto:pd@creativecommons.org\">meihin</a>.\n"
 "</p>"
 
+#: c/engine/templates/by.pt:25
 msgid "char.by_description"
 msgstr ""
 "Lisenssin antaja sallii teoksen kopioinnin, näyttämisen ja esittämisen "
 "sillä ehdolla että lisenssin saaja ilmoittaa alkuperäisen tekijän nimen."
 
+#: c/engine/macros_templates/metadata.pt:36
 msgid "util.Text"
 msgstr "Teksti"
 
+#: c/engine/licenses/devnations_templates/deed.pt:48
+#: c/engine/licenses/sampling_templates/deed.pt:41
 msgid "char.by_brief"
 msgstr ""
 "Teoksen tekijä on ilmoitettava siten kuin tekijä tai teoksen lisensoija "
 "on sen määrännyt (mutta ei siten että ilmoitus viittaisi lisenssinantajan"
 " tukevan lisenssinsaajaa tai Teoksen käyttötapaa)."
 
+#: c/engine/chooser_pages/results.pt:117
 msgid "license.publish_morpheus"
 msgstr "Musiikin julkaiseminen Morpheuksen p2p verkossa."
 
+#: c/engine/chooser_pages/results.pt:108
 msgid "license.publish_buzznet"
 msgstr "Lähetä lisensoimasi kuvat Buzznet palveluun"
 
@@ -1400,6 +1606,7 @@ msgstr ""
 "tietokoneella luettavissa oleva lähdekoodi  kokonaisuudessan tai liittää "
 "tarjous joka on voimassa ainakin kolme vuotta tuon koodin toimittamiseen."
 
+#: c/engine/chooser_pages/results.pt:76
 msgid "license.read_tutorial"
 msgstr ""
 "Tarvitsetko lisää apua? <a href=\"/education/publish-website\">Lue "
@@ -1408,6 +1615,7 @@ msgstr ""
 msgid "country.fi"
 msgstr "Suomi"
 
+#: c/engine/chooser_pages/partner/index.pt:25
 msgid "license.partner_what"
 msgstr ""
 "<p>Olet luonut teoksesi jo olet siitä syystäkin ylpeä. Nyt on hetki "
@@ -1428,6 +1636,10 @@ msgstr ""
 "luopumisen ja teoksen päästämisen <a href=\"${results_pd_url}\">public "
 "domainiin</a>.</p>"
 
+#: c/engine/chooser_pages/index.pt:49
+#: c/engine/chooser_pages/index.pt:96
+#: c/engine/chooser_pages/partner/index.pt:56
+#: c/engine/chooser_pages/partner/index.pt:73
 msgid "util.No"
 msgstr "Ei"
 
@@ -1451,9 +1663,11 @@ msgstr ""
 "governed by the Copyright Law of a specific jurisdiction, please select "
 "the appropriate jurisdiction."
 
+#: c/engine/macros_templates/metadata.pt:15
 msgid "license.include_more"
 msgstr "Klikkaa lisätäksesi lisätietoa teoksestasi."
 
+#: c/engine/chooser_templates/emailhtml.pt:16
 msgid "license.link_emailed"
 msgstr ""
 "<p>Valintojasi koskeva informaatio on lähetetty sähköpostiisi "
@@ -1463,9 +1677,12 @@ msgstr ""
 "<p>Sijoita likki tai HTML verkkosivuillesi heti lisensoimasi teoksen "
 "viereen.  </p>"
 
+#: c/engine/macros_templates/deed.pt:118
+#: c/engine/macros_templates/deed.pt:123
 msgid "lang.fr"
 msgstr "Ranskaksi"
 
+#: c/engine/chooser_pages/index.pt:218
 msgid "util.CC_GNU_GPL"
 msgstr "CC-GNU GPL"
 
@@ -1483,6 +1700,7 @@ msgstr "Makedonia"
 msgid "licenses.pretty_sa"
 msgstr "Tarttuva"
 
+#: c/engine/chooser_pages/results.pt:111
 msgid "license.publish_blog"
 msgstr ""
 "Lisää Creative Commons lisenssi blogiisi (Blogger, Movable Type, ja "
@@ -1491,6 +1709,10 @@ msgstr ""
 msgid "lang.pt"
 msgstr "Portugaliksi"
 
+#: c/engine/licenses/fsf_templates/deed.pt:75
+#: c/engine/licenses/devnations_templates/deed.pt:51
+#: c/engine/licenses/mitbsd_templates/deed.pt:60
+#: c/engine/licenses/standard_templates/deed.pt:60
 msgid "deed.permission"
 msgstr ""
 "Tämän lisenssin rajoituksista voidaan luopua tekijänoikeuden omistajan "
@@ -1502,9 +1724,13 @@ msgstr "Malesia"
 msgid "country.mx"
 msgstr "Meksiko"
 
+#: c/engine/chooser_pages/sampling.pt:84
+#: c/engine/chooser_pages/sampling.pt:96
 msgid "country.tw"
 msgstr "Taiwan"
 
+#: c/engine/macros_templates/deed.pt:81
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:15
 msgid "util.Disclaimer"
 msgstr "Vastuuvapauslauseke"
 
@@ -1520,12 +1746,14 @@ msgstr "Malta"
 msgid "util.work"
 msgstr "teos"
 
+#: c/engine/licenses/fsf_templates/deed.pt:29
 msgid "deed.gpl_freedoms"
 msgstr ""
 "${license_name_full} on <a href=\"http://www.gnu.org/philosophy/free-"
 "sw.html\">Free Software</a> lisenssi. Niinkuin kaikki Free Software "
 "lisenssit, se takaa sinulle seuraavat vapaudet:"
 
+#: c/engine/chooser_pages/index.pt:117
 msgid "char.nd_description"
 msgstr ""
 "Lisenssin antaja sallii teoksen kopioinnin, jakamisen, näyttämisen ja "
@@ -1534,18 +1762,21 @@ msgstr ""
 msgid "license.learn_publicize"
 msgstr "Opi kuinka voit  julkaista ja jakaa teostasi"
 
+#: c/engine/macros_templates/deed.pt:135
 msgid "deed.lgpl_human_summary"
 msgstr ""
 "Tämä on yksinkertainen tiivistelmä lisenssistä (täysi <a "
 "href=\"http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html\">GNU "
 "Lesser General Public License</a>)."
 
+#: c/engine/macros_templates/deed.pt:145
 msgid "deed.gpl_human_summary"
 msgstr ""
 "Tämä on tiivistelmä täydestä <a href=\"http://www.gnu.org/licenses/old-"
 "licenses/gpl-2.0.html\">GNU General Public Lisenssistä</a>. <a "
 "href=\"legalcode.pt\">Portugalin kielinen käännös</a> on myös saatavilla."
 
+#: c/engine/chooser_pages/partner/index.pt:117
 msgid "license.partner_note"
 msgstr ""
 "<p>\n"
@@ -1561,6 +1792,8 @@ msgstr ""
 msgid "util.Developing_Nations"
 msgstr "Kehitysmaa"
 
+#: c/engine/pd/templates/publicdomain-4.pt:54
+#: c/engine/chooser_pages/results.pt:122
 msgid "license.mark_xmp"
 msgstr ""
 "Merkitäkseis PDF-tiedoston tai muun XML-tuetun tiedoston, <a "
@@ -1570,11 +1803,13 @@ msgstr ""
 msgid "licenses.pretty_nc-sampling+"
 msgstr "Epäkaupallinen sämpläys plus"
 
+#: c/engine/licenses/sampling_templates/deed.pt:47
 msgid "char.no_brief"
 msgstr ""
 "Kokonaisen teoksen esittäminen, näyttäminen tai levittäminen sellaisenaan"
 " on kielletty."
 
+#: c/engine/chooser_pages/index.pt:232
 msgid "util.Wiki"
 msgstr "Wiki"
 
@@ -1587,12 +1822,35 @@ msgstr "Unported"
 msgid "license.work_based_on"
 msgstr "Teos on muunnelma teoksesta ${source_link}."
 
+#: c/engine/macros_templates/deed.pt:129
 msgid "lang.de"
 msgstr "Saksaksi"
 
+#: c/engine/chooser_pages/sampling.pt:31
+#: c/engine/chooser_pages/sampling.pt:35
+#: c/engine/chooser_pages/sampling.pt:40
+#: c/engine/chooser_pages/sampling.pt:45
+#: c/engine/macros_templates/support.pt:81
+#: c/engine/macros_templates/support.pt:85
+#: c/engine/macros_templates/support.pt:92
+#: c/engine/macros_templates/support.pt:96
+#: c/engine/macros_templates/support.pt:102
+#: c/engine/macros_templates/support.pt:106
+#: c/engine/macros_templates/support.pt:112
+#: c/engine/macros_templates/support.pt:116
+#: c/engine/macros_templates/support.pt:126
+#: c/engine/macros_templates/support.pt:130
+#: c/engine/macros_templates/support.pt:144
+#: c/engine/macros_templates/support.pt:148
+#: c/engine/macros_templates/support.pt:160
+#: c/engine/macros_templates/support.pt:164
 msgid "util.step"
 msgstr "askel"
 
+#: c/engine/licenses/devnations_templates/deed.pt:27
+#: c/engine/licenses/mitbsd_templates/deed.pt:23
+#: c/engine/licenses/sampling_templates/deed.pt:25
+#: c/engine/licenses/standard_templates/deed.pt:34
 msgid "deed.You_are_free"
 msgstr "Sinulla on vapaus:"
 
@@ -1602,6 +1860,7 @@ msgstr ""
 "syntynyt teos jakaa lisenssillä joka on identtinen alkuperäisen teoksen "
 "lisenssin kanssa."
 
+#: c/engine/chooser_pages/index.pt:236
 msgid "util.Music_Sharing"
 msgstr "Musiikin jakaminen"
 
@@ -1611,6 +1870,8 @@ msgstr "LGPL"
 msgid "lang.fr_CA"
 msgstr "Ranska (CA)"
 
+#: c/engine/chooser_pages/gpl.pt:47
+#: c/engine/chooser_pages/lgpl.pt:48
 msgid "license.lawyer-readable_legal_code"
 msgstr ""
 "Lakimiesten<br/>\n"
@@ -1619,6 +1880,9 @@ msgstr ""
 msgid "jswidget.Require_Share-Alike"
 msgstr "Require Share-Alike"
 
+#: c/engine/licenses/devnations_templates/deed.pt:34
+#: c/engine/licenses/mitbsd_templates/deed.pt:26
+#: c/engine/licenses/standard_templates/deed.pt:39
 msgid "deed.free_derivative"
 msgstr "<strong>Remixata</strong> — valmistaa muutettuja teoksia"
 
@@ -1628,9 +1892,14 @@ msgstr "Etsi musiikkia, valokuvia ja muuta sisältöä"
 msgid "country.ve"
 msgstr "Venezuela"
 
+#: c/engine/chooser_pages/sampling.pt:46
+#: c/engine/macros_templates/support.pt:161
+#: c/engine/macros_templates/support.pt:165
 msgid "license.publicize"
 msgstr "julkaise"
 
+#: c/engine/pd/templates/publicdomain-3.pt:41
+#: c/engine/licenses/publicdomain_templates/deed.pt:19
 msgid "deed.pd"
 msgstr ""
 "<p align=\"center\"><em>Tekijänoikeudesta luopuminen </em></p>\n"
@@ -1668,6 +1937,7 @@ msgstr ""
 "tavoilla.\n"
 "</p>"
 
+#: c/engine/pd/templates/publicdomain-2.pt:24
 msgid "license.pd_enter_info"
 msgstr ""
 "<h1>Syötä Informaatio</h1>\n"
@@ -1687,11 +1957,13 @@ msgstr ""
 "\n"
 "        <p>kaikki kentät ovat pakollisia</p>"
 
+#: c/engine/licenses/sampling_templates/deed.pt:27
 msgid "deed.free_sample_nc"
 msgstr ""
 "Sämplätä, sekoittaa tai muuten luovasti muokata tätä teosta "
 "epäkaupalliseen tarkoitukseen."
 
+#: c/engine/chooser_pages/sampling.pt:116
 msgid "license.sampling_before"
 msgstr ""
 "Ennen kuin liität lisenssiä teokseesi varmista että sinulla on oikeus "
@@ -1704,6 +1976,7 @@ msgstr "Teokseen sovellettava oikeusjärjestelmä:"
 msgid "util.home"
 msgstr "koti"
 
+#: c/engine/pd/templates/publicdomain-2.pt:53
 msgid "license.proceed_email_note"
 msgstr ""
 "<b>HUOMIO:</b> Klikkaamalla \"etene\" lähetät varmistusviestin antamaasi "

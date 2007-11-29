@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2007-11-29 11:25+0800\n"
-"PO-Revision-Date: 2007-11-29 11:32-0800\n"
+"PO-Revision-Date: 2007-11-29 14:00-0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh <LL@li.org>\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
@@ -20,38 +20,41 @@ msgstr "New Zealand"
 msgid "country.gr"
 msgstr "Greece"
 
+#: c/engine/chooser_pages/index.pt:104
 msgid "Allow Derivative Works"
 msgstr ""
 
-#: s/index.pt:107
+#: c/engine/chooser_pages/index.pt:107
 msgid ""
 "The licensor permits others to copy, distribute, display and perform the "
 "work, as well as make derivative works based on it."
 msgstr ""
 
-#: s/index.pt:56
+#: c/engine/chooser_pages/index.pt:56
 msgid "Commercial Use"
 msgstr ""
 
-#: s/index.pt:59
+#: c/engine/chooser_pages/index.pt:59
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the"
 " work, including for commercial purposes."
 msgstr ""
 
-#: s/index.pt:70
+#: c/engine/chooser_pages/index.pt:70
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the"
 " work for non-commercial purposes only."
 msgstr ""
 
-#: s/index.pt:88
+#: c/engine/chooser_pages/index.pt:88
 msgid "Yes, as long as others share alike"
 msgstr ""
 
+#: c/engine/licenses/sampling_templates/deed.pt:31
 msgid "deed.free_copy_distribute_noncommercial"
 msgstr "出于非商业目的（例如，文件共享或者非商业网络广播）表演、放映、广播、通过信息网络传播、展览、发行该整部作品的复制件。"
 
+#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
 msgid "license.pd_awaiting_confirmation"
 msgstr ""
 "<h1>公共领域捐献——电子邮件确认</h1>\n"
@@ -86,6 +89,7 @@ msgstr ""
 msgid "country.bg"
 msgstr "保加利亚"
 
+#: c/engine/pd/templates/publicdomain-4.pt:32
 msgid "license.mark_web"
 msgstr ""
 "在网页上标注您的作品，显示您的按钮的HTML代码如下，请确认您<a "
@@ -94,18 +98,27 @@ msgstr ""
 msgid "util.copyright_date"
 msgstr "获得著作权的日期"
 
+#: c/engine/chooser_pages/index.pt:168
+#: c/engine/chooser_pages/sampling.pt:104
 msgid "util.Jurisdiction"
 msgstr "司法管辖区域"
 
+#: c/engine/chooser_pages/sampling.pt:80
+#: c/engine/chooser_pages/sampling.pt:92
 msgid "country.br"
 msgstr "巴西"
 
 msgid "util.Creative_Commons_License"
 msgstr "知识共享许可协议"
 
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
 msgid "license.mark_content"
 msgstr "标注内容"
 
+#: c/engine/licenses/fsf_templates/deed.pt:48
 msgid "deed.gpl_under_conditions"
 msgstr "如果遵守本许可协议，您可以行使此处所规定的自由。主要的条款如下："
 
@@ -117,6 +130,7 @@ msgstr ""
 "本${work_type}捐献给<a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">公共领域</a>。"
 
+#: c/engine/chooser_pages/index.pt:77
 msgid "api.derivatives"
 msgstr "允许对您的作品进行修改吗？"
 
@@ -126,6 +140,8 @@ msgstr "您所享有的根据著作权法的限制性规定对本作品的利用
 msgid "deed.back_to_cc"
 msgstr "返回<a href=\"http://cn.creativecommons.org\">知识共享组织</a>"
 
+#: c/engine/chooser_pages/gpl.pt:63
+#: c/engine/chooser_pages/lgpl.pt:66
 msgid "license.fsf_how_it_works"
 msgstr ""
 "这里说明CC-GNU ${license_code}如何使用:当使用者点击知识共享的图标时，就能获得CC-"
@@ -136,6 +152,7 @@ msgstr ""
 "href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">及葡萄牙语</a>版的完整GNU"
 " ${license_code}。而隐藏在这个标签下的是机读代码——元数据（metadata）——这将能使他人找到您的软件。"
 
+#: c/engine/licenses/mitbsd_templates/deed.pt:46
 msgid "deed.bsd_notice"
 msgstr ""
 "You must retain the license terms and copyright notice in any source code"
@@ -150,12 +167,16 @@ msgstr ""
 "We have updated the version of your license to the most recent one "
 "available."
 
+#: c/engine/chooser_pages/index.pt:67
 msgid "licenses.pretty_nc"
 msgstr "非商业性使用"
 
+#: c/engine/macros_templates/deed.pt:103
 msgid "lang.ca"
 msgstr "加泰罗尼亚语"
 
+#: c/engine/chooser_pages/gpl.pt:66
+#: c/engine/chooser_pages/lgpl.pt:69
 msgid "license.fsf_mark_software"
 msgstr ""
 "<h1>标注软件</h1>\n"
@@ -173,14 +194,19 @@ msgstr ""
 "rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
 "License</a>."
 
+#: c/engine/chooser_pages/gpl.pt:46
+#: c/engine/chooser_pages/lgpl.pt:47
 msgid "license.human-readable_commons_deed"
 msgstr ""
 "普通人可以理解的<br />\n"
 "普通文本"
 
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
 msgid "license.confirm_choice"
 msgstr "确认选择"
 
+#: c/engine/chooser_pages/sampling.pt:54
 msgid "license.sampling_explain"
 msgstr ""
 "<div style=\"float:right;width:175px;border:1px solid "
@@ -231,18 +257,26 @@ msgstr ""
 msgid "lang.bg"
 msgstr "保加利亚语"
 
+#: c/engine/chooser_pages/gpl.pt:37
+#: c/engine/chooser_pages/gpl.pt:79
+#: c/engine/chooser_pages/lgpl.pt:38
+#: c/engine/chooser_pages/lgpl.pt:82
 msgid "license.fsf_software_licensed"
 msgstr "本软件采用<a href=\"${license_url}\">CC-GNU${license_code}</a>。"
 
+#: c/engine/pd/templates/publicdomain-2.pt:34
+#: c/engine/macros_templates/metadata.pt:46
 msgid "util.title_of_work"
 msgstr "作品名称"
 
+#: c/engine/licenses/fsf_templates/deed.pt:61
 msgid "deed.gpl_sharealike"
 msgstr "如果您修改程序的一份或者多份复制件或者程序的任何一部分，或者以此为基础开发新的程序，只要您遵守${license_name_full}就可以发布最终作品。任何${license_name_full}的译本都必须附上一份${license_name_full}。"
 
 msgid "country.ie"
 msgstr "爱尔兰"
 
+#: c/engine/macros_templates/engine.pt:111
 msgid "license.License_Your_Work"
 msgstr "对作品使用许可协议"
 
@@ -255,6 +289,7 @@ msgstr "署名-禁止演绎"
 msgid "lang.es_PE"
 msgstr "西班牙语（秘鲁）"
 
+#: c/engine/licenses/sampling_templates/deed.pt:29
 msgid "deed.free_sample"
 msgstr "出于商业或者非商业目的，取样使用、mash-up或者以其他创造性方式转换本作品。"
 
@@ -296,6 +331,7 @@ msgstr "马来语"
 msgid "country.ph"
 msgstr "菲律宾"
 
+#: c/engine/licenses/sampling_templates/deed.pt:42
 msgid "char.na_brief"
 msgstr "除了您基于本作品创作的作品之外，您不得将本作品用于广告或宣传任何其他事物。"
 
@@ -314,6 +350,7 @@ msgstr "本网页有下述几种语言版本："
 msgid "lang.en_GB"
 msgstr "英语（大不列颠）"
 
+#: c/engine/licenses/standard_templates/deed.pt:69
 msgid "deed.moralrights-remix.us"
 msgstr ""
 "Apart from the remix rights granted under this license, nothing in this "
@@ -322,6 +359,7 @@ msgstr ""
 msgid "lang.pl"
 msgstr "波兰语"
 
+#: c/engine/pd/templates/publicdomain-3.pt:87
 msgid "util.confirm"
 msgstr "确认"
 
@@ -335,20 +373,29 @@ msgstr ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">获得著作权的年份</a>"
 
+#: c/engine/chooser_pages/index.pt:29
 msgid "license.Choose_License"
 msgstr "选择许可协议"
 
+#: c/engine/licenses/fsf_templates/deed.pt:38
 msgid "deed.gpl_free_redistribute"
 msgstr "为了使周围的人群获益，再次发行复制件的自由。"
 
+#: c/engine/pd/templates/publicdomain-4.pt:47
 msgid "license.mark_mp3"
 msgstr ""
 "<a "
 "href=\"http://cn.creativecommons.org/technology/mp3.php\">按照如下指引</a>，标注MP3。"
 
+#: c/engine/licenses/devnations_templates/deed.pt:40
+#: c/engine/licenses/mitbsd_templates/deed.pt:33
+#: c/engine/licenses/sampling_templates/deed.pt:39
+#: c/engine/licenses/standard_templates/deed.pt:45
 msgid "deed.under_conditions"
 msgstr "惟须遵守下列条件："
 
+#: c/engine/chooser_pages/gpl.pt:48
+#: c/engine/chooser_pages/lgpl.pt:49
 msgid "license.machine-readable_digital_code"
 msgstr ""
 "机读的<br />\n"
@@ -361,15 +408,18 @@ msgstr ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">著作权</a>人的姓名"
 
+#: c/engine/macros_templates/metadata.pt:58
 msgid "util.attribute_to_url"
 msgstr "作者网址"
 
+#: c/engine/chooser_pages/index.pt:195
 msgid "license.view_explanation"
 msgstr "查看我们对所有许可协议所做的说明。"
 
 msgid "jargon.copyright_description"
 msgstr "著作权是政府为鼓励创造性作品的创作而授予的一系列有限制的垄断性权利。著作权具体来说包括复制权、发行权、展览权、表演（包括广播等）权、销售权以及基于原作品进行演绎创作的权利。除此之外还包括要求实施这些权利的诉讼权，以及允许他人实施这些权利的许可权。著作权不适用于事实或者思想，而适用于这些事实或者思想的表达。"
 
+#: c/engine/licenses/fsf_templates/deed.pt:50
 msgid "deed.lgpl_under_conditions"
 msgstr "如果您遵守本许可协议的明示条款，就可以行使此处规定的自由。LGPL适用于软件函数库，而不适用于可执行程序。主要的条款如下："
 
@@ -379,6 +429,7 @@ msgstr "既然您已经选择了知识共享许可协议，您就必须以恰当
 msgid "country.lu"
 msgstr "卢森堡"
 
+#: c/engine/macros_templates/metadata.pt:23
 msgid "license.tell_format"
 msgstr "您作品的格式："
 
@@ -388,15 +439,18 @@ msgstr "智利"
 msgid "lang.nso"
 msgstr "北梭托语"
 
+#: c/engine/chooser_pages/index.pt:222
 msgid "util.CC_GNU_LGPL"
 msgstr "CC-GNU LGPL"
 
 msgid "license.sampling_a_sampling"
 msgstr "<strong>取样使用</strong>:除了禁止用于广告以外，人们可以出于任何其他目的获取和转换您的作品的<strong>片断</strong>。对<strong>整部作品</strong>的非商业性复制、发行也是被禁止的。"
 
+#: c/engine/chooser_pages/results.pt:98
 msgid "license.publish_audio_ia"
 msgstr "向互联网档案馆发布您所许可的音乐作品"
 
+#: c/engine/chooser_pages/results.pt:92
 msgid "license.no_web_site"
 msgstr "没有网站吗？"
 
@@ -406,6 +460,7 @@ msgstr "塞尔维亚"
 msgid "country.kr"
 msgstr "韩国"
 
+#: c/engine/chooser_pages/partner/index.pt:69
 msgid "license.a6"
 msgstr ""
 "是的，只要其他人采用相同方式共享其作品(<a href=\"/characteristic/sa?lang=${lang}\" "
@@ -444,6 +499,7 @@ msgstr "意大利语"
 msgid "country.ro"
 msgstr "罗马尼亚"
 
+#: c/engine/chooser_pages/index.pt:191
 msgid "license.what_you"
 msgstr "您可以在此做什么"
 
@@ -453,21 +509,28 @@ msgstr "如果您没有为您的作品办理正式的版权登记，那么默认
 msgid "licenses.pretty_by-nd-nc"
 msgstr "署名-禁止演绎-非商业性使用"
 
+#: c/engine/macros_templates/deed.pt:110
 msgid "lang.gl"
 msgstr "加利西亚语"
 
 msgid "license.proceed_pd"
 msgstr "您现在可以 <a href=\"publicdomain-2?${url_vars}\">进行下一步</a>，用您的作品丰富公共领域。"
 
+#: c/engine/pd/templates/publicdomain-2.pt:29
 msgid "util.your_email"
 msgstr "您的电子邮件"
 
+#: c/engine/chooser_pages/index.pt:46
+#: c/engine/chooser_pages/index.pt:81
+#: c/engine/chooser_pages/partner/index.pt:54
+#: c/engine/chooser_pages/partner/index.pt:65
 msgid "util.Yes"
 msgstr "是的"
 
 msgid "deed.free_copy_distribute.jp"
 msgstr "复制、发行、展览、表演、放映、广播、通过信息网络传播、展示、公开传播以及朗诵本作品"
 
+#: c/engine/pd/templates/publicdomain-partner.pt:24
 msgid "license.pd_choice"
 msgstr ""
 "<p>您的选择意味着您要将您的作品捐献到公共领域，一个信息和表达的共享空间，在那里您将放弃任何权利，对您的作品的所有使用都是被允许的。</p>\n"
@@ -475,21 +538,26 @@ msgstr ""
 "        "
 "<p>公共领域捐献不是一个许可协议。采用公共领域捐献，您不是简单地对您的著作权做了例外规定；而是无条件地将您的整个著作权授予公众。这种授权是永久和不可撤销的。</p>"
 
+#: c/engine/macros_templates/metadata.pt:30
 msgid "util.Audio"
 msgstr "音频作品"
 
+#: c/engine/macros_templates/deed.pt:92
 msgid "deed.fair_use"
 msgstr "您的合理使用以及其他权利不受上述规定的影响。"
 
 msgid "country.nl"
 msgstr "荷兰"
 
+#: c/engine/pd/templates/publicdomain-4.pt:29
 msgid "license.in_order_to"
 msgstr "为了："
 
+#: c/engine/licenses/fsf_templates/deed.pt:67
 msgid "deed.gpl_source"
 msgstr "如果您复制或者发行本程序，您必须附上完整的相应机读源代码或者附上一份有效期至少3年的书面要约，承诺提供完整的相应机读源代码。"
 
+#: c/engine/macros_templates/partner.pt:29
 msgid "util.Creative_Commons"
 msgstr "知识共享组织"
 
@@ -505,6 +573,7 @@ msgstr "Licensor permits others to make derivative works"
 msgid "country.us"
 msgstr "美国"
 
+#: c/engine/chooser_pages/results.pt:70
 msgid "license.select_text"
 msgstr ""
 "选择以上文本框中的内容并复制该内容。或者，您也可以<a href=\"/license/work-html-popup?${url_vars}\""
@@ -525,6 +594,7 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
+#: c/engine/chooser_pages/partner/index.pt:50
 msgid "license.q2"
 msgstr ""
 "<strong>允许对您的作品进行商业性使用吗？</strong> (<a "
@@ -539,6 +609,7 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
+#: c/engine/chooser_pages/partner/index.pt:61
 msgid "license.q3"
 msgstr ""
 "<strong>允许对您的作品进行修改吗？</strong> (<a "
@@ -553,12 +624,15 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
+#: c/engine/chooser_pages/htmlpopup.pt:24
 msgid "license.html_directions"
 msgstr ""
 "复制这段文本，粘贴到含有您的作品信息的网页文档中。点击此处获取<a "
 "href=\"http://cn.creativecommons.org/technology/usingmarkup.php\" "
 "target=\"_blank\">更多有关添加HTML代码到您的文档中的信息</a>。"
 
+#: c/engine/chooser_pages/index.pt:178
+#: c/engine/chooser_pages/partner/index.pt:114
 msgid "license.Select_a_License"
 msgstr "选择一项许可协议"
 
@@ -570,9 +644,11 @@ msgstr ""
 msgid "util.description"
 msgstr "描述"
 
+#: c/engine/chooser_pages/results.pt:114
 msgid "license.publish_video_ia"
 msgstr "在互联网档案馆发布您所许可的视频作品"
 
+#: c/engine/chooser_pages/partner/results.pt:29
 msgid "license.partner_selected"
 msgstr ""
 "您选择了<a target=\"cc_other\" "
@@ -580,12 +656,15 @@ msgstr ""
 "\n"
 "<b><tt>${license_url}</tt></b>。"
 
+#: c/engine/licenses/sampling_templates/deed.pt:45
 msgid "deed.notice_withoutdistribution"
 msgstr "对于任何再使用，您都必须向他人清楚地展示本作品使用的许可协议条款。"
 
+#: c/engine/macros_templates/deed.pt:124
 msgid "lang.nl"
 msgstr "荷兰语"
 
+#: c/engine/chooser_pages/results.pt:101
 msgid "license.publish_soundclick"
 msgstr "在Soundclick上发布您所许可的音乐作品"
 
@@ -595,6 +674,8 @@ msgstr "网络日志"
 msgid "country.es"
 msgstr "西班牙"
 
+#: c/engine/pd/templates/publicdomain-4.pt:49
+#: c/engine/chooser_pages/results.pt:127
 msgid "license.mark_nonweb"
 msgstr ""
 "标注不在网络上的文档，<a href=\"non-web-popup?${url_vars}\" onclick=\"window.open"
@@ -611,9 +692,11 @@ msgstr "西班牙语（墨西哥）"
 msgid "util.publish"
 msgstr "发布"
 
+#: c/engine/macros_templates/deed.pt:153
 msgid "deed.human_summary"
 msgstr "这是一份普通人可以理解的<a href=\"legalcode\" class=\"fulltext\">法律文本（许可协议全文）</a>的概要。"
 
+#: c/engine/pd/templates/publicdomain-2.pt:46
 msgid "util.proceed"
 msgstr "继续"
 
@@ -626,12 +709,14 @@ msgstr "更多"
 msgid "lang.en_US"
 msgstr "英语（美国）"
 
+#: c/engine/macros_templates/metadata.pt:52
 msgid "util.attribute_to_name"
 msgstr "作者姓名"
 
 msgid "api.sampling_flavor_help"
 msgstr "取样使用许可协议的特点决定了被许可人享有何种程度的自由。取样使用许可协议仅仅允许使用作品的片断，禁止共享整部作品。取样使用加强版许可协议允许被许可人获取和转换作品的片断，也允许基于非商业目的共享整部作品。非商业性取样使用加强版许可协议通过只允许对您的作品取样进行非商业性的演绎创作，进一步增加了取样使用加强版许可协议的限制。"
 
+#: c/engine/macros_templates/deed.pt:117
 msgid "lang.en"
 msgstr "英语"
 
@@ -641,18 +726,26 @@ msgstr "世界语"
 msgid "licenses.draft_notice"
 msgstr "此处发布的是供公众讨论的许可协议草案。在该标记被去除之前，请勿使用该许可协议。对该草案文本的直接评论可以发送到christiane@creativecommons.org。"
 
+#: c/engine/chooser_pages/index.pt:170
+#: c/engine/chooser_pages/sampling.pt:106
 msgid "license.jurisdiction_help"
 msgstr "如果您想获取适用特定司法管辖区域著作权法的许可协议，请选择恰当的司法管辖区域。"
 
+#: c/engine/licenses/fsf_templates/deed.pt:34
 msgid "deed.gpl_free_run"
 msgstr "基于任何目的运行程序的自由。"
 
+#: c/engine/chooser_pages/index.pt:128
+#: c/engine/chooser_pages/sampling.pt:72
+#: c/engine/chooser_pages/partner/index.pt:79
 msgid "license.jurisdiction_question"
 msgstr "您的许可协议的司法管辖区域"
 
+#: c/engine/pd/templates/publicdomain-2.pt:39
 msgid "util.copyright_holder"
 msgstr "著作权人"
 
+#: c/engine/chooser_pages/sampling.pt:118
 msgid "license.sampling_alternatives"
 msgstr ""
 "<p>如果您<strong>欢迎</strong>大家对您的作品进行<strong>任何</strong>商业性再使用&mdash;无论非否经过转换&mdash;您应该考虑使用<a"
@@ -663,32 +756,41 @@ msgstr ""
 msgid "lang.sv"
 msgstr "瑞典语"
 
+#: c/engine/chooser_pages/htmlpopup.pt:15
 msgid "license.html_display"
 msgstr "显示您的按钮的HTML如下："
 
+#: c/engine/macros_templates/deed.pt:109
 msgid "lang.eu"
 msgstr "巴斯克语"
 
 msgid "lang.en_CA"
 msgstr "英语（加拿大）"
 
+#: c/engine/macros_templates/deed.pt:104
 msgid "lang.es"
 msgstr "西班牙语"
 
+#: c/engine/templates/by.pt:8
+#: c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
 msgid "char.by_title"
 msgstr "署名"
 
+#: c/engine/chooser_pages/sampling.pt:65
 msgid "license.sampling_a_nc-sampling+"
 msgstr ""
 "<strong>非商业性取样使用加强版</strong>:只有出于<strong>非商业性使用的</strong>目的，人们才可以获取或者转换您的作品的<strong>片断</strong>。"
 " \n"
 "<strong>整部作品</strong>的<strong>非商业性</strong>复制和发行（比如文件共享）也是允许的。"
 
+#: c/engine/chooser_pages/results.pt:21
 msgid "license.selected"
 msgstr ""
 "您已经选择了知识共享${license_pretty_name} License${country_name}。<a "
 "href=\"${license_url}\">查看您网站的访问者看到的许可协议的样子</a>。"
 
+#: c/engine/macros_templates/metadata.pt:32
 msgid "util.Video"
 msgstr "视频作品"
 
@@ -703,18 +805,23 @@ msgstr "匈牙利"
 msgid "country.hr"
 msgstr "克罗地亚"
 
+#: c/engine/chooser_pages/gpl.pt:118
+#: c/engine/chooser_pages/lgpl.pt:121
 msgid "license.fsf_more_info"
 msgstr "要想更多地了解自由软件基金会，请访问他们的<a href=\"http://www.fsf.org\">网页</a>。"
 
+#: c/engine/chooser_pages/sampling.pt:111
 msgid "license.sampling_get"
 msgstr "获取取样使用许可协议"
 
+#: c/engine/licenses/fsf_templates/deed.pt:16
 msgid "deed.gpl_title"
 msgstr "${license_name_full}，<a href=\"http://www.gnu.org/\">自由软件基金会</a>"
 
 msgid "license.devnations_licensed"
 msgstr "本作品适用<a href=\"${license_url}\">知识共享组织发展中国家许可协议</a>。"
 
+#: c/engine/chooser_pages/index.pt:32
 msgid "license.what"
 msgstr ""
 "采用知识共享许可协议，<strong>您保留您的版权</strong>，但是允许人们在<a "
@@ -731,30 +838,38 @@ msgstr ""
 msgid "char.by_brief.jp"
 msgstr "您必须给出原始作者和表演者的名称。"
 
+#: c/engine/chooser_pages/results.pt:94
 msgid "license.learn_host"
 msgstr "了解更多可以存放您的被许可作品的空间。这些网站可以存放使用知识共享许可协议授权的作品。"
 
 msgid "lang.es_CO"
 msgstr "西班牙语（哥伦比亚）"
 
+#: c/engine/pd/templates/publicdomain-4.pt:42
+#: c/engine/chooser_pages/gpl.pt:110
+#: c/engine/chooser_pages/lgpl.pt:113
 msgid "license.get_html_email"
 msgstr "取得HTML并通过电子邮件发给您自己。"
 
+#: c/engine/macros_templates/metadata.pt:38
 msgid "util.Interactive"
 msgstr "互动"
 
+#: c/engine/chooser_pages/htmlpopup.pt:27
 msgid "license.html_email"
 msgstr "请输入您的电子邮箱地址，以通过电子邮件获得HTML："
 
 msgid "util.Next_step"
 msgstr "下一步："
 
+#: c/engine/chooser_pages/index.pt:198
 msgid "license.or_choose"
 msgstr "或者选择："
 
 msgid "licenses.pretty_by-nc-nd"
 msgstr "署名-非商业性使用-禁止演绎"
 
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:19
 msgid "deed.disclaimer"
 msgstr ""
 "<p>\n"
@@ -766,21 +881,26 @@ msgstr ""
 "知识共享组织不是一家律师事务所也不对外提供法律服务。发布、展示或者链接本普通文本并不导致“律师-当事人”关系的建立。\n"
 "</p>"
 
+#: c/engine/chooser_pages/results.pt:15
 msgid "license.here_chosen"
 msgstr "此处是您已经选择的许可协议。"
 
+#: c/engine/macros_templates/deed.pt:161
 msgid "deed.learn"
 msgstr "学习如何使用本许可协议发布您的作品"
 
+#: c/engine/chooser_pages/htmlpopup.pt:41
 msgid "util.Send"
 msgstr "发送"
 
+#: c/engine/licenses/fsf_templates/deed.pt:40
 msgid "deed.gpl_free_improve"
 msgstr "为了使全社会获益，改进程序并发布给公众的自由。"
 
 msgid "lang.zh_TW"
 msgstr "繁体中文"
 
+#: c/engine/macros_templates/metadata.pt:84
 msgid "jargon.source_work_description"
 msgstr "据以创作演绎作品的作品。"
 
@@ -804,6 +924,8 @@ msgstr ""
 "\n"
 "感谢使用知识共享许可协议！"
 
+#: c/engine/chooser_pages/gpl.pt:25
+#: c/engine/chooser_pages/lgpl.pt:26
 msgid "license.fsf_explain"
 msgstr ""
 "<h1>知识共享GNU${license_code}</h1>\n"
@@ -815,27 +937,34 @@ msgstr ""
 "<p>为了让其他人知道您正在使用知识共享许可协议，您可以使用知识共享组织的标识，并链接到CC-GNU "
 "${license_code}。它看起来将会像这样：The result will look like this:</p>"
 
+#: c/engine/chooser_pages/index.pt:124
 msgid "char.sa_description"
 msgstr "许可人只允许他人采用与自己的作品所使用的协议相同的许可协议，来发行演绎作品。"
 
+#: c/engine/macros_templates/metadata.pt:34
 msgid "util.Image"
 msgstr "图片作品"
 
+#: c/engine/macros_templates/metadata.pt:28
 msgid "util.Other"
 msgstr "其他"
 
+#: c/engine/pd/templates/publicdomain-partner.pt:31
+#: c/engine/chooser_pages/partner/results.pt:35
 msgid "license.you_may_proceed"
 msgstr "现在您可以<a href=\"${processed_exit_url}\">继续</a>"
 
 msgid "char.nc_title"
 msgstr "非商业性使用"
 
+#: c/engine/chooser_pages/index.pt:204
 msgid "licenses.pretty_publicdomain"
 msgstr "公共领域"
 
 msgid "lang.zh"
 msgstr "简体中文"
 
+#: c/engine/chooser_pages/results.pt:59
 msgid "license.have_your_own_website"
 msgstr "您拥有自己的网站吗？"
 
@@ -851,6 +980,7 @@ msgstr ""
 msgid "lang.ja"
 msgstr "日语"
 
+#: c/engine/chooser_pages/sampling.pt:53
 msgid "license.sampling_title"
 msgstr "选择取样使用许可协议"
 
@@ -860,15 +990,24 @@ msgstr "日本"
 msgid "deed.free_commercial"
 msgstr "对本作品进行商业性使用"
 
+#: c/engine/chooser_pages/index.pt:47
+#: c/engine/chooser_pages/index.pt:50
+#: c/engine/chooser_pages/index.pt:82
+#: c/engine/chooser_pages/index.pt:89
+#: c/engine/chooser_pages/index.pt:97
+#: c/engine/chooser_pages/index.pt:130
+#: c/engine/chooser_pages/sampling.pt:74
 msgid "util.more_info"
 msgstr "更多信息"
 
 msgid "nav.select_a_jurisdiction"
 msgstr "选择司法管辖区域"
 
+#: c/engine/chooser_pages/sampling.pt:61
 msgid "license.sampling_a_sampling+"
 msgstr "<strong>取样使用加强版</strong>:除了禁止用于广告以外，人们可以出于任何其他目的获取和转换您的作品的<strong>片断</strong>。<strong>整部作品</strong>的<strong>非商业性</strong>复制、发行（比如文件共享）也是允许的。因此，称之为“<strong>加强版</strong>”。"
 
+#: c/engine/macros_templates/deed.pt:98
 msgid "deed.human_summary_multilanguage"
 msgstr "这是一份普通人可以理解的法律文本（许可协议全文）的概要，该概要有下述几种语言版本："
 
@@ -878,21 +1017,33 @@ msgstr "约旦"
 msgid "country.es-ca"
 msgstr "加泰罗尼亚"
 
+#: c/engine/pd/templates/publicdomain-4.pt:41
+#: c/engine/chooser_pages/gpl.pt:107
+#: c/engine/chooser_pages/lgpl.pt:110
+#: c/engine/chooser_pages/nonweb_popup.pt:31
+#: c/engine/chooser_pages/htmlpopup.pt:20
 msgid "util.Highlight_Text"
 msgstr "选定内容以便复制"
 
 msgid "char.nd_brief"
 msgstr "您不得修改、转换或者以本作品为基础进行创作。"
 
+#: c/engine/chooser_pages/sampling.pt:78
+#: c/engine/chooser_pages/sampling.pt:90
+#: c/engine/chooser_pages/partner/index.pt:83
+#: c/engine/chooser_pages/partner/index.pt:86
 msgid "util.Generic"
 msgstr "未本地化版本"
 
 msgid "lang.es_AR"
 msgstr "西班牙语（阿根廷）"
 
+#: c/engine/macros_templates/metadata.pt:66
+#: c/engine/macros_templates/metadata.pt:82
 msgid "util.source_work"
 msgstr "源作品"
 
+#: c/engine/chooser_pages/sampling.pt:115
 msgid "license.sampling_note"
 msgstr "注意：取样使用许可协议并不仅仅适用于音乐，它能够应用于各种类型的享有著作权的作品：图片作品、电影作品等等。"
 
@@ -902,29 +1053,36 @@ msgstr "澳大利亚"
 msgid "country.at"
 msgstr "奥地利"
 
+#: c/engine/chooser_pages/nonweb_popup.pt:19
 msgid "license.non_web_pd"
 msgstr "本作品特此发布在公共领域。要想查看公共领域捐献协议，请访问http://creativecommons.org/licenses/publicdomain/，或者给知识共享组织发送信件，霍华德大街543号，5楼，旧金山，加州，邮编94105，美国。"
 
 msgid "country.ar"
 msgstr "阿根廷"
 
+#: c/engine/licenses/standard_templates/deed.pt:77
 msgid "deed.superseded"
 msgstr ""
 "您可以获得本许可协议<a href=\"${current_version_url}\">新版本</a> "
 "。您应该将其用于新的作品，您也可以根据本许可协议对现有作品进行再授权。然而，任何一部作品都不会<em>自动</em>适用新许可协议。"
 
+#: c/engine/chooser_pages/index.pt:209
 msgid "licenses.pretty_sampling+"
 msgstr "取样使用加强版"
 
+#: c/engine/chooser_pages/index.pt:42
 msgid "api.commercial"
 msgstr "允许对您的作品进行商业性使用吗？"
 
+#: c/engine/macros_templates/support.pt:103
+#: c/engine/macros_templates/support.pt:107
 msgid "license.enter_information"
 msgstr "输入信息"
 
 msgid "jswidget.Allow_Remixing"
 msgstr "Allow Remixing"
 
+#: c/engine/macros_templates/metadata.pt:16
 msgid "license.hide_optional_fields"
 msgstr "隐藏这些字段（所有字段都是可以选择的）。"
 
@@ -934,12 +1092,14 @@ msgstr "葡萄牙"
 msgid "license.GPL_name_full"
 msgstr "GNU GPL"
 
+#: c/engine/licenses/fsf_templates/deed.pt:36
 msgid "deed.gpl_free_study"
 msgstr "学习程序如何运作以及修改程序满足您的需要的自由。"
 
 msgid "lang.af"
 msgstr "南非荷兰语"
 
+#: c/engine/licenses/mitbsd_templates/deed.pt:54
 msgid "deed.mit_notice"
 msgstr ""
 "The copyright notice and license shall be included in all copies or\n"
@@ -951,15 +1111,18 @@ msgstr "Remix"
 msgid "char.nc_brief"
 msgstr "您不得将本作品用于商业目的。"
 
+#: c/engine/macros_templates/metadata.pt:72
 msgid "util.more_permissions_url"
 msgstr "更多许可请访问"
 
+#: c/engine/licenses/standard_templates/deed.pt:64
 msgid "deed.moralrights"
 msgstr "Nothing in this license impairs or restricts the author's moral rights."
 
 msgid "country.sk"
 msgstr "斯洛伐克共和国"
 
+#: c/engine/chooser_pages/results.pt:61
 msgid "license.copy_text"
 msgstr "将以下文本复制在您的网站上，使访问者知道您的作品适用何种许可协议。"
 
@@ -975,6 +1138,8 @@ msgstr "新加坡"
 msgid "country.se"
 msgstr "瑞典"
 
+#: c/engine/chooser_pages/sampling.pt:82
+#: c/engine/chooser_pages/sampling.pt:94
 msgid "country.de"
 msgstr "德国"
 
@@ -984,6 +1149,11 @@ msgstr "匈牙利语"
 msgid "country.dk"
 msgstr "丹麦"
 
+#: c/engine/chooser_pages/nonweb_popup.pt:37
+#: c/engine/chooser_pages/htmlpopup.pt:46
+#: c/engine/chooser_templates/emailhtml.pt:19
+#: c/engine/templates/by.pt:31
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:21
 msgid "util.Close_window"
 msgstr "关闭窗口"
 
@@ -999,6 +1169,10 @@ msgstr "英国：苏格兰"
 msgid "country.ua"
 msgstr "乌克兰"
 
+#: c/engine/licenses/fsf_templates/deed.pt:24
+#: c/engine/licenses/devnations_templates/deed.pt:25
+#: c/engine/licenses/sampling_templates/deed.pt:23
+#: c/engine/licenses/standard_templates/deed.pt:31
 msgid "deed.retired"
 msgstr "本许可协议已经<a href=\"/retiredlicenses\">过时</a>。请不要采用本协议授权新作品。"
 
@@ -1014,6 +1188,7 @@ msgstr "中国大陆"
 msgid "licenses.pretty_GPL"
 msgstr "GPL"
 
+#: c/engine/macros_templates/deed.pt:76
 msgid "deed.disclaimer.jp"
 msgstr ""
 "<p>\n"
@@ -1035,6 +1210,7 @@ msgstr ""
 msgid "country.ch"
 msgstr "瑞士"
 
+#: c/engine/chooser_pages/results.pt:105
 msgid "license.publish_flickr"
 msgstr "在Flickr上粘贴您所许可的图片作品"
 
@@ -1077,15 +1253,23 @@ msgstr ""
 msgid "license.Final_step"
 msgstr "最后一步："
 
+#: c/engine/licenses/fsf_templates/deed.pt:55
 msgid "deed.gpl_notice"
 msgstr "您必须明显并且适当地在每一份发行的复制件上标注恰当的著作权标记和免责声明，完整保留所有涉及本许可协议以及免于任何保证的声明；同时随本程序给任何其他的程序接受者一份${license_name_full}的复制件。任何${license_name_full}的译本都必须附上一份${license_name_full}。"
 
+#: c/engine/licenses/devnations_templates/deed.pt:30
+#: c/engine/licenses/mitbsd_templates/deed.pt:25
+#: c/engine/licenses/standard_templates/deed.pt:38
 msgid "deed.free_copy_distribute"
 msgstr "复制、发行、展览、表演、放映、广播或通过信息网络传播本作品"
 
+#: c/engine/chooser_pages/index.pt:115
 msgid "char.nd_title"
 msgstr "禁止演绎"
 
+#: c/engine/licenses/devnations_templates/deed.pt:50
+#: c/engine/licenses/sampling_templates/deed.pt:43
+#: c/engine/licenses/standard_templates/deed.pt:56
 msgid "deed.notice"
 msgstr "对任何再使用或者发行，您都必须向他人清楚地展示本作品使用的许可协议条款。"
 
@@ -1095,11 +1279,13 @@ msgstr "斯洛文尼亚语"
 msgid "util.copyright"
 msgstr "著作权"
 
+#: c/engine/chooser_pages/nonweb_popup.pt:27
 msgid "license.non_web_statement"
 msgstr ""
 "本作品采用知识共享组织${license_name}许可协议进行授权。查看本许可协议的复制件，请访问${license_url}或写信到美国加利福尼亚州三藩市霍华德街543号5层知识共享组织（邮编"
 " 94105）索取。"
 
+#: c/engine/licenses/mitbsd_templates/deed.pt:40
 msgid "deed.no_endorsement"
 msgstr ""
 "<strong>No Endorsement</strong>. The name of the author may not be used "
@@ -1109,9 +1295,11 @@ msgstr ""
 msgid "jswidget.Prohibit_Commercial_Use"
 msgstr "Prohibit Commercial Use"
 
+#: c/engine/chooser_pages/results.pt:56
 msgid "license.what_to_do_next"
 msgstr "下一步该做的事情"
 
+#: c/engine/pd/templates/publicdomain-4.pt:52
 msgid "license.mark_rss"
 msgstr ""
 "添加您的许可协议信息到一个RSS，使用<a "
@@ -1122,6 +1310,10 @@ msgstr ""
 msgid "lang.es_CL"
 msgstr "西班牙语（智利）"
 
+#: c/engine/chooser_pages/sampling.pt:36
+#: c/engine/macros_templates/support.pt:127
+#: c/engine/macros_templates/support.pt:134
+#: c/engine/macros_templates/support.pt:136
 msgid "license.review_choice"
 msgstr "检查您的选择"
 
@@ -1134,24 +1326,29 @@ msgstr ""
 msgid "util.Share_Music"
 msgstr "共享音乐"
 
+#: c/engine/chooser_pages/index.pt:122
 msgid "char.sa_title"
 msgstr "相同方式共享"
 
+#: c/engine/chooser_pages/index.pt:193
 msgid "license.explain"
 msgstr "知识共享组织帮助您在线发表作品，同时让他人确知他们对您的作品可以做什么，不可以做什么。当您选择了一份许可协议，我们就会提供给您一系列的工具及说明资料，使得您可以在您自己的网站上，或者某一个集成了知识共享协议的免费存放空间上添加有关许可的信息。"
 
+#: c/engine/pd/templates/publicdomain-4.pt:27
 msgid "license.mark_pd"
 msgstr "既然您已经选择了公共领域捐献协议，您就必须以适当方式在您的作品上加以标注。"
 
 msgid "util.Try_again"
 msgstr "再试一次！"
 
+#: c/engine/chooser_pages/index.pt:214
 msgid "util.Founders_Copyright"
 msgstr "美国建国者著作权"
 
 msgid "licenses.pretty_nc-sa"
 msgstr "非商业性使用-相同方式共享"
 
+#: c/engine/pd/templates/publicdomain-3.pt:40
 msgid "license.pd_confirm"
 msgstr ""
 "<h1>确认您的公共领域捐献</h1>\n"
@@ -1165,9 +1362,12 @@ msgstr ""
 "${pd_deed_text}\n"
 "        </div>"
 
+#: c/engine/chooser_pages/results.pt:78
 msgid "license.after_support_cc"
 msgstr "发布了您的作品后，请考虑 <a href=\"http://creativecommons.org/support/\">支持知识共享组织</a>。"
 
+#: c/engine/pd/templates/publicdomain-3.pt:93
+#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:59
 msgid "license.pd_bad_confirmation"
 msgstr ""
 "<h1>公共领域捐献——确认失败</h1>\n"
@@ -1185,24 +1385,31 @@ msgstr ""
 "href=\"mailto:pd@creativecommons.org\">与我们联系</a>。\n"
 "</p>"
 
+#: c/engine/templates/by.pt:25
 msgid "char.by_description"
 msgstr "您必须按照作者或者许可人指定的方式对本作品进行署名。"
 
+#: c/engine/macros_templates/metadata.pt:36
 msgid "util.Text"
 msgstr "文字作品"
 
+#: c/engine/licenses/devnations_templates/deed.pt:48
+#: c/engine/licenses/sampling_templates/deed.pt:41
 msgid "char.by_brief"
 msgstr "您必须按照作者或者许可人指定的方式对作品进行署名。"
 
+#: c/engine/chooser_pages/results.pt:117
 msgid "license.publish_morpheus"
 msgstr "发布采用知识共享许可协议的作品到Morpheus P2P网络"
 
+#: c/engine/chooser_pages/results.pt:108
 msgid "license.publish_buzznet"
 msgstr "在Buzznet上粘贴您所许可的图片作品"
 
 msgid "deed.lgpl_source"
 msgstr "如果您复制或者发行函数库，您必须附上一份完整的相应机读源代码或者一份有效期至少为三年的书面要约，承诺提供完整的相应机读源代码。您无须提供链接至本函数库的程序的源代码。"
 
+#: c/engine/chooser_pages/results.pt:76
 msgid "license.read_tutorial"
 msgstr ""
 "需要更多帮助吗？请<a href=\"cn.creativecommons.org/education/publish-"
@@ -1211,6 +1418,7 @@ msgstr ""
 msgid "country.fi"
 msgstr "芬兰"
 
+#: c/engine/chooser_pages/partner/index.pt:25
 msgid "license.partner_what"
 msgstr ""
 "<p>您已经创作了一件让您引以为荣的作品。现在是考虑一下如果使您的作品得到更好的利用的时候了。</p>\n"
@@ -1224,6 +1432,10 @@ msgstr ""
 "false;\">保留您的署名</a>并且遵守您在这里指定的条件，他们就可以复制和发行您的作品。本页帮助您选择这些条件。如果要无条件的提供您的作品，请选择<a"
 " href=\"${results_pd_url}\">公共领域</a>。</p>"
 
+#: c/engine/chooser_pages/index.pt:49
+#: c/engine/chooser_pages/index.pt:96
+#: c/engine/chooser_pages/partner/index.pt:56
+#: c/engine/chooser_pages/partner/index.pt:73
 msgid "util.No"
 msgstr "不"
 
@@ -1247,9 +1459,11 @@ msgstr ""
 "governed by the Copyright Law of a specific jurisdiction, please select "
 "the appropriate jurisdiction."
 
+#: c/engine/macros_templates/metadata.pt:15
 msgid "license.include_more"
 msgstr "点击以添加更多关于您的作品的信息。"
 
+#: c/engine/chooser_templates/emailhtml.pt:16
 msgid "license.link_emailed"
 msgstr ""
 "<p>\n"
@@ -1258,9 +1472,12 @@ msgstr ""
 "\n"
 "<p>将链接或者HTML代码放在您的网站上您打算进行许可的作品的旁边。</p>"
 
+#: c/engine/macros_templates/deed.pt:118
+#: c/engine/macros_templates/deed.pt:123
 msgid "lang.fr"
 msgstr "法语"
 
+#: c/engine/chooser_pages/index.pt:218
 msgid "util.CC_GNU_GPL"
 msgstr "CC-GNU GPL"
 
@@ -1278,12 +1495,17 @@ msgstr "马其顿"
 msgid "licenses.pretty_sa"
 msgstr "相同方式共享"
 
+#: c/engine/chooser_pages/results.pt:111
 msgid "license.publish_blog"
 msgstr "在您的网络日志（博客）上添加知识共享许可协议"
 
 msgid "lang.pt"
 msgstr "葡萄牙语"
 
+#: c/engine/licenses/fsf_templates/deed.pt:75
+#: c/engine/licenses/devnations_templates/deed.pt:51
+#: c/engine/licenses/mitbsd_templates/deed.pt:60
+#: c/engine/licenses/standard_templates/deed.pt:60
 msgid "deed.permission"
 msgstr "如果得到著作权人的许可，您可以不受任何这些条件的限制。"
 
@@ -1293,9 +1515,13 @@ msgstr "马来西亚"
 msgid "country.mx"
 msgstr "墨西哥"
 
+#: c/engine/chooser_pages/sampling.pt:84
+#: c/engine/chooser_pages/sampling.pt:96
 msgid "country.tw"
 msgstr "台湾"
 
+#: c/engine/macros_templates/deed.pt:81
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:15
 msgid "util.Disclaimer"
 msgstr "免责声明"
 
@@ -1311,29 +1537,34 @@ msgstr "马耳他"
 msgid "util.work"
 msgstr "作品"
 
+#: c/engine/licenses/fsf_templates/deed.pt:29
 msgid "deed.gpl_freedoms"
 msgstr ""
 "${license_name_full}是一种<a href=\"http://www.gnu.org/philosophy/free-"
 "sw.html\">自由软件</a>许可协议。像任何自由软件许可协议一样，它赋予您以下四类自由："
 
+#: c/engine/chooser_pages/index.pt:117
 msgid "char.nd_description"
 msgstr "许可人仅仅允许他人复制、发行、展览、表演、放映、广播或者通过信息网络传播对本作品未作改动的复制件——而不是本作品的演绎作品。"
 
 msgid "license.learn_publicize"
 msgstr "学习如何出版、共享您的作品"
 
+#: c/engine/macros_templates/deed.pt:135
 msgid "deed.lgpl_human_summary"
 msgstr ""
 "这是一份普通人可以理解的法律文本（即<a href=\"http://www.gnu.org/licenses/old-"
 "licenses/lgpl-2.1.html\">GNU LGPL</a>全文）。您还可以看到<a "
 "href=\"legalcode.pt\">葡萄牙语的译文</a>。"
 
+#: c/engine/macros_templates/deed.pt:145
 msgid "deed.gpl_human_summary"
 msgstr ""
 "这是一项普通人可以读懂的法律文本（即<a href=\"http://www.gnu.org/licenses/old-"
 "licenses/gpl-2.0.html\">GNU GPL</a>全文）的概述。您也可以看到<a "
 "href=\"legalcode.pt\">葡萄牙语的译文</a>。"
 
+#: c/engine/chooser_pages/partner/index.pt:117
 msgid "license.partner_note"
 msgstr ""
 "<p>\n"
@@ -1346,6 +1577,8 @@ msgstr ""
 msgid "util.Developing_Nations"
 msgstr "发展中国家"
 
+#: c/engine/pd/templates/publicdomain-4.pt:54
+#: c/engine/chooser_pages/results.pt:122
 msgid "license.mark_xmp"
 msgstr ""
 "标注PDF文档或者其他支持XMP的文件，</a>遵照如下<a "
@@ -1355,9 +1588,11 @@ msgstr ""
 msgid "licenses.pretty_nc-sampling+"
 msgstr "非商业性取样使用加强版"
 
+#: c/engine/licenses/sampling_templates/deed.pt:47
 msgid "char.no_brief"
 msgstr "您不得出于任何目的表演、放映、广播、通过信息网络传播、展览或者发行该整部作品的复制件。"
 
+#: c/engine/chooser_pages/index.pt:232
 msgid "util.Wiki"
 msgstr "Wiki"
 
@@ -1370,18 +1605,42 @@ msgstr "Unported"
 msgid "license.work_based_on"
 msgstr "基于${source_link}上的作品创作。"
 
+#: c/engine/macros_templates/deed.pt:129
 msgid "lang.de"
 msgstr "德语"
 
+#: c/engine/chooser_pages/sampling.pt:31
+#: c/engine/chooser_pages/sampling.pt:35
+#: c/engine/chooser_pages/sampling.pt:40
+#: c/engine/chooser_pages/sampling.pt:45
+#: c/engine/macros_templates/support.pt:81
+#: c/engine/macros_templates/support.pt:85
+#: c/engine/macros_templates/support.pt:92
+#: c/engine/macros_templates/support.pt:96
+#: c/engine/macros_templates/support.pt:102
+#: c/engine/macros_templates/support.pt:106
+#: c/engine/macros_templates/support.pt:112
+#: c/engine/macros_templates/support.pt:116
+#: c/engine/macros_templates/support.pt:126
+#: c/engine/macros_templates/support.pt:130
+#: c/engine/macros_templates/support.pt:144
+#: c/engine/macros_templates/support.pt:148
+#: c/engine/macros_templates/support.pt:160
+#: c/engine/macros_templates/support.pt:164
 msgid "util.step"
 msgstr "步骤"
 
+#: c/engine/licenses/devnations_templates/deed.pt:27
+#: c/engine/licenses/mitbsd_templates/deed.pt:23
+#: c/engine/licenses/sampling_templates/deed.pt:25
+#: c/engine/licenses/standard_templates/deed.pt:34
 msgid "deed.You_are_free"
 msgstr "您可以自由："
 
 msgid "char.sa_brief"
 msgstr "如果您改变、转换本作品或者以本作品为基础进行创作，您只能采用与本协议相同的许可协议发布基于本作品的演绎作品。"
 
+#: c/engine/chooser_pages/index.pt:236
 msgid "util.Music_Sharing"
 msgstr "音乐分享"
 
@@ -1391,6 +1650,8 @@ msgstr "LGPL"
 msgid "lang.fr_CA"
 msgstr "法语（加拿大）"
 
+#: c/engine/chooser_pages/gpl.pt:47
+#: c/engine/chooser_pages/lgpl.pt:48
 msgid "license.lawyer-readable_legal_code"
 msgstr ""
 "律师可以理解的<br/>\n"
@@ -1399,6 +1660,9 @@ msgstr ""
 msgid "jswidget.Require_Share-Alike"
 msgstr "Require Share-Alike"
 
+#: c/engine/licenses/devnations_templates/deed.pt:34
+#: c/engine/licenses/mitbsd_templates/deed.pt:26
+#: c/engine/licenses/standard_templates/deed.pt:39
 msgid "deed.free_derivative"
 msgstr "创作演绎作品"
 
@@ -1408,9 +1672,14 @@ msgstr "查询音乐、照片以及更多作品"
 msgid "country.ve"
 msgstr "委内瑞拉"
 
+#: c/engine/chooser_pages/sampling.pt:46
+#: c/engine/macros_templates/support.pt:161
+#: c/engine/macros_templates/support.pt:165
 msgid "license.publicize"
 msgstr "发布"
 
+#: c/engine/pd/templates/publicdomain-3.pt:41
+#: c/engine/licenses/publicdomain_templates/deed.pt:19
 msgid "deed.pd"
 msgstr ""
 "<p align=\"center\"><em>Copyright-Only Dedication (based on United States"
@@ -1445,6 +1714,7 @@ msgstr ""
 "commercial or non-commercial, and in any way, including by methods that "
 "have not yet been invented or conceived.</p>"
 
+#: c/engine/pd/templates/publicdomain-2.pt:24
 msgid "license.pd_enter_info"
 msgstr ""
 "<h1>输入信息</h1>\n"
@@ -1461,9 +1731,11 @@ msgstr ""
 "\n"
 "        <p>所有内容都必须填写</p>"
 
+#: c/engine/licenses/sampling_templates/deed.pt:27
 msgid "deed.free_sample_nc"
 msgstr "出于非商业目的，取样、mash-up或者以其他创造性方式转换本作品。"
 
+#: c/engine/chooser_pages/sampling.pt:116
 msgid "license.sampling_before"
 msgstr "在您的作品使用取样使用许可协议之前，您应该确保您拥有授权的权利。例如，音乐作品中通常包含多重权利（作曲、录制、作词）。"
 
@@ -1473,6 +1745,7 @@ msgstr "您想使用的许可协议所在的司法管辖区域"
 msgid "util.home"
 msgstr "主页"
 
+#: c/engine/pd/templates/publicdomain-2.pt:53
 msgid "license.proceed_email_note"
 msgstr "<b>注意:</b>点击“继续”将会向您输入的电子邮件地址发送确认请求。请确保您输入的地址是正确的！"
 
