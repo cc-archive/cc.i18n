@@ -4,14 +4,17 @@ import copy
 import logging
 from logging import getLogger
 
-from babel.messages.pofile import read_po, write_po
+from babel.messages.pofile import read_po
 from babel.messages.catalog import Catalog, Message
+
+from support import write_po
 
 def defuzz(catalog):
     """Scan a catalog and de-fuzz-ify messages that have no translation."""
 
     for message in catalog:
-        if message.fuzzy and message.string == '':
+        if message.fuzzy and (message.string.strip() == u'' or 
+                              message.id.strip() == u''):
             # not fuzzy, damn it!
             message.flags.remove('fuzzy')
 
@@ -43,7 +46,9 @@ def po_to_cc(source, english):
     Returns a Catalog instance."""
 
     # create the new target Catalog
-    target = Catalog()
+    target = Catalog(header_comment="", 
+                     locale=source.locale, 
+                     domain=source.domain)
 
     # iterate over all the strings in the target PO
     for message in source:

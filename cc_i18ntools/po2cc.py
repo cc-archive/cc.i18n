@@ -2,7 +2,11 @@ import os
 import logging
 from logging import getLogger
 
-from babel.messages.pofile import read_po, write_po
+from babel.messages.pofile import read_po
+from babel import localedata
+from babel import core
+
+from support import write_po
 
 import convert
 from support import parse_args
@@ -44,8 +48,17 @@ def cli():
             if not(os.path.exists(os.path.dirname(output_fn))):
                 os.makedirs(os.path.dirname(output_fn))
 
+            # grab the locale from the path
+            locale_code = root.split(os.sep)[-1]
+            if localedata.exists(locale_code):
+                locale = core.Locale.parse(locale_code)
+            else:
+                locale = None
+
             # convert the file
-            result = convert.po_to_cc(read_po(file(input_fn, 'r')),
+            result = convert.po_to_cc(read_po(file(input_fn, 'r'),
+                                              locale, 
+                                              'cc_org'),
                              read_po(file(options.english_po, 'r')))
 
             convert.defuzz(result)

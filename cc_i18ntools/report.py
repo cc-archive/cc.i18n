@@ -3,7 +3,9 @@ import copy
 import shutil
 from logging import getLogger
 
-from babel.messages.pofile import read_po, write_po
+from babel.messages.pofile import read_po
+
+from support import write_po
 
 import convert
 from support import parse_args
