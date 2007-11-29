@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2007-11-29 11:25+0800\n"
-"PO-Revision-Date: 2007-11-29 11:32-0800\n"
+"PO-Revision-Date: 2007-11-29 11:34-0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: sl <LL@li.org>\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 "
@@ -21,41 +21,44 @@ msgstr "New Zealand"
 msgid "country.gr"
 msgstr "Greece"
 
+#: c/engine/chooser_pages/index.pt:104
 msgid "Allow Derivative Works"
 msgstr ""
 
-#: s/index.pt:107
+#: c/engine/chooser_pages/index.pt:107
 msgid ""
 "The licensor permits others to copy, distribute, display and perform the "
 "work, as well as make derivative works based on it."
 msgstr ""
 
-#: s/index.pt:56
+#: c/engine/chooser_pages/index.pt:56
 msgid "Commercial Use"
 msgstr ""
 
-#: s/index.pt:59
+#: c/engine/chooser_pages/index.pt:59
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the"
 " work, including for commercial purposes."
 msgstr ""
 
-#: s/index.pt:70
+#: c/engine/chooser_pages/index.pt:70
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the"
 " work for non-commercial purposes only."
 msgstr ""
 
-#: s/index.pt:88
+#: c/engine/chooser_pages/index.pt:88
 msgid "Yes, as long as others share alike"
 msgstr ""
 
+#: c/engine/licenses/sampling_templates/deed.pt:31
 msgid "deed.free_copy_distribute_noncommercial"
 msgstr ""
 "priobčevati javnosti, distribuirati ali dajati v najem kopije tega dela v"
 " celoti za nekomercialne namene (npr. deljenje datotek ali nekomercialno "
 "spletno predvajanje)"
 
+#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
 msgid "license.pd_awaiting_confirmation"
 msgstr ""
 "<h1>Predaja v javno domeno - Potrdilo po elektronski pošti</h1>\n"
@@ -95,6 +98,7 @@ msgstr ""
 msgid "country.bg"
 msgstr "Bolgarija"
 
+#: c/engine/pd/templates/publicdomain-4.pt:32
 msgid "license.mark_web"
 msgstr ""
 "Označite svoje delo na spletni strani.HTML koda za prikaz gumba je "
@@ -103,18 +107,25 @@ msgstr ""
 msgid "util.copyright_date"
 msgstr "datum avtorske pravice"
 
+#: c/engine/chooser_pages/index.pt:168 c/engine/chooser_pages/sampling.pt:104
 msgid "util.Jurisdiction"
 msgstr "Jurisdikcija"
 
+#: c/engine/chooser_pages/sampling.pt:80 c/engine/chooser_pages/sampling.pt:92
 msgid "country.br"
 msgstr "Brazilija"
 
 msgid "util.Creative_Commons_License"
 msgstr "Creative Commons licenca"
 
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
 msgid "license.mark_content"
 msgstr "označi vsebino"
 
+#: c/engine/licenses/fsf_templates/deed.pt:48
 msgid "deed.gpl_under_conditions"
 msgstr ""
 "Tukaj navedene pravice lahko uporabljate, če upoštevate izrecne pogoje te"
@@ -130,6 +141,7 @@ msgstr ""
 "href=\"http://creativecommons.org/licenses/publicdomain/\">javni "
 "domeni</a>."
 
+#: c/engine/chooser_pages/index.pt:77
 msgid "api.derivatives"
 msgstr "Ali dovolite predelavo vašega dela?"
 
@@ -141,6 +153,7 @@ msgstr ""
 msgid "deed.back_to_cc"
 msgstr "nazaj na <a href=\"/\">Creative Commons</a>"
 
+#: c/engine/chooser_pages/gpl.pt:63 c/engine/chooser_pages/lgpl.pt:66
 msgid "license.fsf_how_it_works"
 msgstr ""
 "Licenca CC-GNU ${license_code} deluje tako: Uporabnik, ki klikne na ikono"
@@ -155,6 +168,7 @@ msgstr ""
 " V oznaki je skrita \"Strojno berljiva koda\" — metapodatki — ki "
 "uporabnikom omogočajo, da vaš program najdejo."
 
+#: c/engine/licenses/mitbsd_templates/deed.pt:46
 msgid "deed.bsd_notice"
 msgstr ""
 "You must retain the license terms and copyright notice in any source code"
@@ -169,12 +183,15 @@ msgstr ""
 "We have updated the version of your license to the most recent one "
 "available."
 
+#: c/engine/chooser_pages/index.pt:67
 msgid "licenses.pretty_nc"
 msgstr "Nekomercialno"
 
+#: c/engine/macros_templates/deed.pt:103
 msgid "lang.ca"
 msgstr "katalonski jezik"
 
+#: c/engine/chooser_pages/gpl.pt:66 c/engine/chooser_pages/lgpl.pt:69
 msgid "license.fsf_mark_software"
 msgstr ""
 "<h1>Označevanje programja</h1>\n"
@@ -193,14 +210,18 @@ msgstr ""
 "rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
 "License</a>."
 
+#: c/engine/chooser_pages/gpl.pt:46 c/engine/chooser_pages/lgpl.pt:47
 msgid "license.human-readable_commons_deed"
 msgstr ""
 "Berljivo za uporabnike<br />\n"
 "Povzetek licence"
 
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
 msgid "license.confirm_choice"
 msgstr "potrdi izbiro"
 
+#: c/engine/chooser_pages/sampling.pt:54
 msgid "license.sampling_explain"
 msgstr ""
 "<div style=\"float:right;width:175px;border:1px solid "
@@ -255,14 +276,19 @@ msgstr ""
 msgid "lang.bg"
 msgstr "bolgarski jezik"
 
+#: c/engine/chooser_pages/gpl.pt:37 c/engine/chooser_pages/gpl.pt:79
+#: c/engine/chooser_pages/lgpl.pt:38 c/engine/chooser_pages/lgpl.pt:82
 msgid "license.fsf_software_licensed"
 msgstr ""
 "Ta program je objavljen pod licenco <a href=\"${license_url}\">CC-GNU "
 "${license_code}</a>."
 
+#: c/engine/pd/templates/publicdomain-2.pt:34
+#: c/engine/macros_templates/metadata.pt:46
 msgid "util.title_of_work"
 msgstr "naslov dela"
 
+#: c/engine/licenses/fsf_templates/deed.pt:61
 msgid "deed.gpl_sharealike"
 msgstr ""
 "Če predelate svoj izvod ali izvode programa ali kateri koli del programa,"
@@ -273,6 +299,7 @@ msgstr ""
 msgid "country.ie"
 msgstr "Irska"
 
+#: c/engine/macros_templates/engine.pt:111
 msgid "license.License_Your_Work"
 msgstr "License Your Work"
 
@@ -285,6 +312,7 @@ msgstr "Priznanje avtorstva-Brez predelav"
 msgid "lang.es_PE"
 msgstr "španski jezik (PE)"
 
+#: c/engine/licenses/sampling_templates/deed.pt:29
 msgid "deed.free_sample"
 msgstr ""
 "Vzorčiti, kombinirati ali drugače ustvarjalno preoblikovati to delo za "
@@ -325,6 +353,7 @@ msgstr "malajski jezik"
 msgid "country.ph"
 msgstr "Filipini"
 
+#: c/engine/licenses/sampling_templates/deed.pt:42
 msgid "char.na_brief"
 msgstr ""
 "Tega dela ne smete uporabiti za oglaševanje ali promocijo česarkoli, "
@@ -348,6 +377,7 @@ msgstr "Ta stran je dosegljiva v naslednjih jezikih:"
 msgid "lang.en_GB"
 msgstr "angleški jezik (VB)"
 
+#: c/engine/licenses/standard_templates/deed.pt:69
 msgid "deed.moralrights-remix.us"
 msgstr ""
 "Apart from the remix rights granted under this license, nothing in this "
@@ -356,6 +386,7 @@ msgstr ""
 msgid "lang.pl"
 msgstr "poljski jezik"
 
+#: c/engine/pd/templates/publicdomain-3.pt:87
 msgid "util.confirm"
 msgstr "potrdi"
 
@@ -369,18 +400,26 @@ msgstr ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">leto avtorske pravice</a>"
 
+#: c/engine/chooser_pages/index.pt:29
 msgid "license.Choose_License"
 msgstr "izberi licenco"
 
+#: c/engine/licenses/fsf_templates/deed.pt:38
 msgid "deed.gpl_free_redistribute"
 msgstr "Pravico redistribuirati kopije, da lahko pomagate bližnjemu."
 
+#: c/engine/pd/templates/publicdomain-4.pt:47
 msgid "license.mark_mp3"
 msgstr "Označite mp3, <a href=\"/technology/mp3\">sledite tem navodilom</a>."
 
+#: c/engine/licenses/devnations_templates/deed.pt:40
+#: c/engine/licenses/mitbsd_templates/deed.pt:33
+#: c/engine/licenses/sampling_templates/deed.pt:39
+#: c/engine/licenses/standard_templates/deed.pt:45
 msgid "deed.under_conditions"
 msgstr "Pod naslednjimi pogoji:"
 
+#: c/engine/chooser_pages/gpl.pt:48 c/engine/chooser_pages/lgpl.pt:49
 msgid "license.machine-readable_digital_code"
 msgstr ""
 "Strojno berljiva<br />\n"
@@ -393,9 +432,11 @@ msgstr ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">avtorske pravice</a>"
 
+#: c/engine/macros_templates/metadata.pt:58
 msgid "util.attribute_to_url"
 msgstr "attribute to url"
 
+#: c/engine/chooser_pages/index.pt:195
 msgid "license.view_explanation"
 msgstr "Poglejte si razlago vseh naših licenc."
 
@@ -409,6 +450,7 @@ msgstr ""
 "da jih uveljavlja. Dejstva in ideje niso zavarovane z avtorsko pravico, "
 "pač pa so z njo varovani izrazi teh dejstev in idej."
 
+#: c/engine/licenses/fsf_templates/deed.pt:50
 msgid "deed.lgpl_under_conditions"
 msgstr ""
 "Tukaj navedene pravice lahko uporabljate, če upoštevate izrecne pogoje te"
@@ -423,6 +465,7 @@ msgstr ""
 msgid "country.lu"
 msgstr "Luksemburg"
 
+#: c/engine/macros_templates/metadata.pt:23
 msgid "license.tell_format"
 msgstr "Izberite format vašega dela:"
 
@@ -432,6 +475,7 @@ msgstr "Čile"
 msgid "lang.nso"
 msgstr "Northern Sotho"
 
+#: c/engine/chooser_pages/index.pt:222
 msgid "util.CC_GNU_LGPL"
 msgstr "CC-GNU LGPL"
 
@@ -443,9 +487,11 @@ msgstr ""
 "dajanje v najem in distribucija (npr. z izmenjavo datotek) "
 "<strong>celotnega dela</strong> je prepovedano."
 
+#: c/engine/chooser_pages/results.pt:98
 msgid "license.publish_audio_ia"
 msgstr "Objava licencirane glasbe v Spletnem arhivu (Internet Archive)"
 
+#: c/engine/chooser_pages/results.pt:92
 msgid "license.no_web_site"
 msgstr "Nimate spletne strani?"
 
@@ -455,6 +501,7 @@ msgstr "Serbia"
 msgid "country.kr"
 msgstr "Koreja"
 
+#: c/engine/chooser_pages/partner/index.pt:69
 msgid "license.a6"
 msgstr ""
 "Da, če ga drugi delijo pod enakimi pogoji (<a "
@@ -494,6 +541,7 @@ msgstr "italijanski jezik"
 msgid "country.ro"
 msgstr "Romunija"
 
+#: c/engine/chooser_pages/index.pt:191
 msgid "license.what_you"
 msgstr "Kaj lahko storite tukaj"
 
@@ -505,6 +553,7 @@ msgstr ""
 msgid "licenses.pretty_by-nd-nc"
 msgstr "Priznanje avtorstva-Brez predelav-Nekomercialno"
 
+#: c/engine/macros_templates/deed.pt:110
 msgid "lang.gl"
 msgstr "galicijski jezik"
 
@@ -513,9 +562,13 @@ msgstr ""
 "Zdaj lahko <a href=\"publicdomain-2?${url_vars}\">nadaljujete in "
 "obogatite javno domeno s svojim delom</a>."
 
+#: c/engine/pd/templates/publicdomain-2.pt:29
 msgid "util.your_email"
 msgstr "vaš elektronski naslov"
 
+#: c/engine/chooser_pages/index.pt:46 c/engine/chooser_pages/index.pt:81
+#: c/engine/chooser_pages/partner/index.pt:54
+#: c/engine/chooser_pages/partner/index.pt:65
 msgid "util.Yes"
 msgstr "Da"
 
@@ -524,6 +577,7 @@ msgstr ""
 "reproduciranje, distribuiranje, dajanje v najem ali priobčevatnje dela "
 "javnosti"
 
+#: c/engine/pd/templates/publicdomain-partner.pt:24
 msgid "license.pd_choice"
 msgstr ""
 "<p>Pravite, da želite svoje delo predati v javno domeno, javno zalogo "
@@ -534,9 +588,11 @@ msgstr ""
 "imate, prepuščate javnosti. Ta prepustitev je časovno neomejena in "
 "nepovratna.</p>"
 
+#: c/engine/macros_templates/metadata.pt:30
 msgid "util.Audio"
 msgstr "Avdio"
 
+#: c/engine/macros_templates/deed.pt:92
 msgid "deed.fair_use"
 msgstr ""
 "Vaše pravice do poštene rabe in druge pravice niso omejene z zgoraj "
@@ -545,15 +601,18 @@ msgstr ""
 msgid "country.nl"
 msgstr "Nizozemska"
 
+#: c/engine/pd/templates/publicdomain-4.pt:29
 msgid "license.in_order_to"
 msgstr "Če želite:"
 
+#: c/engine/licenses/fsf_templates/deed.pt:67
 msgid "deed.gpl_source"
 msgstr ""
 "Če program distribuirate, mu morate priložiti celotno strojno berljivo "
 "izvorno kodo ali pa pisno ponudbo, veljavno najmanj tri leta, da boste "
 "zagotovili strojno berljivo izvorno kodo."
 
+#: c/engine/macros_templates/partner.pt:29
 msgid "util.Creative_Commons"
 msgstr "Creative Commons"
 
@@ -569,6 +628,7 @@ msgstr "Licensor permits others to make derivative works"
 msgid "country.us"
 msgstr "Združene države"
 
+#: c/engine/chooser_pages/results.pt:70
 msgid "license.select_text"
 msgstr ""
 "Označiite vsebino v zgornjem okvirčku in jo skopirajte. Lahko pa vam jo "
@@ -591,6 +651,7 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"več podatkov\" border=\"0\" /></a>)"
 
+#: c/engine/chooser_pages/partner/index.pt:50
 msgid "license.q2"
 msgstr ""
 "<strong>Dovolite komercialno uporabo avtorskega dela?</strong> (<a "
@@ -605,6 +666,7 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"več podatkov\" border=\"0\" /></a>)"
 
+#: c/engine/chooser_pages/partner/index.pt:61
 msgid "license.q3"
 msgstr ""
 "<strong>Dovolite predelave avtorskega dela?</strong> (<a "
@@ -619,6 +681,7 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"več podatkov\" border=\"0\" /></a>)"
 
+#: c/engine/chooser_pages/htmlpopup.pt:24
 msgid "license.html_directions"
 msgstr ""
 "Preprosto prekopirajte kodo in jo prilepite v spletne strani s podatki o "
@@ -626,6 +689,8 @@ msgstr ""
 "target=\"_blank\">Več podatkov o vstavljanju HTML kode v dokumente dobite"
 " tukaj</a>."
 
+#: c/engine/chooser_pages/index.pt:178
+#: c/engine/chooser_pages/partner/index.pt:114
 msgid "license.Select_a_License"
 msgstr "Izberite licenco"
 
@@ -637,9 +702,11 @@ msgstr ""
 msgid "util.description"
 msgstr "opis"
 
+#: c/engine/chooser_pages/results.pt:114
 msgid "license.publish_video_ia"
 msgstr "Objava licenciranih videov v Spletnem arhivu (Internet Archive)"
 
+#: c/engine/chooser_pages/partner/results.pt:29
 msgid "license.partner_selected"
 msgstr ""
 "Izbrali ste licenco <a target=\"cc_other\" "
@@ -647,14 +714,17 @@ msgstr ""
 "Ta licenca je na voljo na stalnem naslovu<br>\n"
 "<b><tt>${license_url}</tt></b>."
 
+#: c/engine/licenses/sampling_templates/deed.pt:45
 msgid "deed.notice_withoutdistribution"
 msgstr ""
 "Pri vsaki uporabi morate uporabnike seznaniti s pogoji licence za to "
 "avtorsko delo."
 
+#: c/engine/macros_templates/deed.pt:124
 msgid "lang.nl"
 msgstr "nizozemski jezik"
 
+#: c/engine/chooser_pages/results.pt:101
 msgid "license.publish_soundclick"
 msgstr "Objava licencirane glasbe na Soundclicku"
 
@@ -664,6 +734,8 @@ msgstr "weblog"
 msgid "country.es"
 msgstr "Španija"
 
+#: c/engine/pd/templates/publicdomain-4.pt:49
+#: c/engine/chooser_pages/results.pt:127
 msgid "license.mark_nonweb"
 msgstr ""
 "Označite dokument na spletu, <a href=\"non-web-popup?${url_vars}\" "
@@ -684,11 +756,13 @@ msgstr "španski jezik (MX)"
 msgid "util.publish"
 msgstr "objavi"
 
+#: c/engine/macros_templates/deed.pt:153
 msgid "deed.human_summary"
 msgstr ""
 "To je uporabniku berljiv povzetek <a href=\"legalcode\" "
 "class=\"fulltext\">celotnega pravnega besedila (celotne licence)</a>."
 
+#: c/engine/pd/templates/publicdomain-2.pt:46
 msgid "util.proceed"
 msgstr "nadaljuj"
 
@@ -701,6 +775,7 @@ msgstr "več"
 msgid "lang.en_US"
 msgstr "English (US)"
 
+#: c/engine/macros_templates/metadata.pt:52
 msgid "util.attribute_to_name"
 msgstr "attribute to name"
 
@@ -714,6 +789,7 @@ msgstr ""
 "\"Sampling Plus\" tako, da dovoli le nekomercialne predelave delčkov "
 "vašega dela."
 
+#: c/engine/macros_templates/deed.pt:117
 msgid "lang.en"
 msgstr "angleški jezik"
 
@@ -727,20 +803,26 @@ msgstr ""
 "umakne. Komentarje na osnutek licence pošiljajte na "
 "maja@intellectualpropertyinstitute.si"
 
+#: c/engine/chooser_pages/index.pt:170 c/engine/chooser_pages/sampling.pt:106
 msgid "license.jurisdiction_help"
 msgstr ""
 "Če želite licenco v skladu z avtorskim pravom specifične jurisdikcije, "
 "izberite ustrezno jurisdikcijo."
 
+#: c/engine/licenses/fsf_templates/deed.pt:34
 msgid "deed.gpl_free_run"
 msgstr "Pravico do poganjanja programa za kateri koli namen."
 
+#: c/engine/chooser_pages/index.pt:128 c/engine/chooser_pages/sampling.pt:72
+#: c/engine/chooser_pages/partner/index.pt:79
 msgid "license.jurisdiction_question"
 msgstr "Jurisdikcija vaše licence"
 
+#: c/engine/pd/templates/publicdomain-2.pt:39
 msgid "util.copyright_holder"
 msgstr "imetnik avtorske pravice"
 
+#: c/engine/chooser_pages/sampling.pt:118
 msgid "license.sampling_alternatives"
 msgstr ""
 "<p>Če <strong>želite</strong> omogočiti uporabnikom "
@@ -754,21 +836,27 @@ msgstr ""
 msgid "lang.sv"
 msgstr "švedski jezik"
 
+#: c/engine/chooser_pages/htmlpopup.pt:15
 msgid "license.html_display"
 msgstr "HTML koda za prikaz gumba je naslednja:"
 
+#: c/engine/macros_templates/deed.pt:109
 msgid "lang.eu"
 msgstr "baskovski jezik"
 
 msgid "lang.en_CA"
 msgstr "angleški jezik (CA)"
 
+#: c/engine/macros_templates/deed.pt:104
 msgid "lang.es"
 msgstr "španski jezik"
 
+#: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
 msgid "char.by_title"
 msgstr "Priznanje avtorstva"
 
+#: c/engine/chooser_pages/sampling.pt:65
 msgid "license.sampling_a_nc-sampling+"
 msgstr ""
 "<strong>Noncommercial Sampling Plus</strong>: Uporabniki lahko vzamejo in"
@@ -778,12 +866,14 @@ msgstr ""
 "dajanje v najem in distribucija (npr. z izmenjavo datotek) "
 "<strong>celotnega dela</strong>."
 
+#: c/engine/chooser_pages/results.pt:21
 msgid "license.selected"
 msgstr ""
 "Izbrali ste Creative Commons ${license_pretty_name} licenco "
 "${country_name}. <a href=\"${license_url}\">Poglejte si, kako se bo "
 "licenca prikazala</a> za obiskovalce vaše strani."
 
+#: c/engine/macros_templates/metadata.pt:32
 msgid "util.Video"
 msgstr "Video"
 
@@ -798,14 +888,17 @@ msgstr "Madžarska"
 msgid "country.hr"
 msgstr "Hrvaška"
 
+#: c/engine/chooser_pages/gpl.pt:118 c/engine/chooser_pages/lgpl.pt:121
 msgid "license.fsf_more_info"
 msgstr ""
 "Ze več podatkov o Free Software Foundation, obiščite njihovo <a "
 "href=\"http://www.fsf.org\">spletno mesto</a>."
 
+#: c/engine/chooser_pages/sampling.pt:111
 msgid "license.sampling_get"
 msgstr "Naročite licenco Sampling"
 
+#: c/engine/licenses/fsf_templates/deed.pt:16
 msgid "deed.gpl_title"
 msgstr ""
 "${license_name_full}, <a href=\"http://www.gnu.org/\">Free Software "
@@ -816,6 +909,7 @@ msgstr ""
 "To delo je objavljeno pod licenco <a href=\"${license_url}\">Creative "
 "Commons za države v razvoju</a>."
 
+#: c/engine/chooser_pages/index.pt:32
 msgid "license.what"
 msgstr ""
 "S Creative Commons licenco, <strong>obdržite svoje avtorske "
@@ -835,6 +929,7 @@ msgstr ""
 msgid "char.by_brief.jp"
 msgstr "Pri uporabi dela morate navesti izvirnega avtorja in izvajalca."
 
+#: c/engine/chooser_pages/results.pt:94
 msgid "license.learn_host"
 msgstr ""
 "Podatki o drugih mestih, kjer lahko objavite svoje delo. Ta spletna mesta"
@@ -843,24 +938,30 @@ msgstr ""
 msgid "lang.es_CO"
 msgstr "Spanish (CO)"
 
+#: c/engine/pd/templates/publicdomain-4.pt:42 c/engine/chooser_pages/gpl.pt:110
+#: c/engine/chooser_pages/lgpl.pt:113
 msgid "license.get_html_email"
 msgstr "Naročite HTML kodo po elektronski pošti"
 
+#: c/engine/macros_templates/metadata.pt:38
 msgid "util.Interactive"
 msgstr "Interaktivno"
 
+#: c/engine/chooser_pages/htmlpopup.pt:27
 msgid "license.html_email"
 msgstr "Vnesite naslov za prejem HTML kode po elektronski pošti:"
 
 msgid "util.Next_step"
 msgstr "Naslednji korak:"
 
+#: c/engine/chooser_pages/index.pt:198
 msgid "license.or_choose"
 msgstr "Ali izberite:"
 
 msgid "licenses.pretty_by-nc-nd"
 msgstr "Priznanje avtorstva-Nekomercialno-Brez predelav"
 
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:19
 msgid "deed.disclaimer"
 msgstr ""
 "<p>\n"
@@ -878,15 +979,19 @@ msgstr ""
 "ustvarja razmerja odvetnik-stranka.\n"
 "</p>"
 
+#: c/engine/chooser_pages/results.pt:15
 msgid "license.here_chosen"
 msgstr "Tukaj je licenca, ki ste jo izbrali"
 
+#: c/engine/macros_templates/deed.pt:161
 msgid "deed.learn"
 msgstr "Poglejte si, kako distribuirati svoje delo z uporabo te licence"
 
+#: c/engine/chooser_pages/htmlpopup.pt:41
 msgid "util.Send"
 msgstr "Pošlji"
 
+#: c/engine/licenses/fsf_templates/deed.pt:40
 msgid "deed.gpl_free_improve"
 msgstr ""
 "Pravico izboljšati program in izboljšavo objaviti, da bo koristila vsej "
@@ -895,6 +1000,7 @@ msgstr ""
 msgid "lang.zh_TW"
 msgstr "kitajski jezik (Tajvan)"
 
+#: c/engine/macros_templates/metadata.pt:84
 msgid "jargon.source_work_description"
 msgstr "Delo, iz katerega izvira drugo delo."
 
@@ -924,6 +1030,7 @@ msgstr ""
 "\n"
 "Hvala, da uporabljate Creative Commons!"
 
+#: c/engine/chooser_pages/gpl.pt:25 c/engine/chooser_pages/lgpl.pt:26
 msgid "license.fsf_explain"
 msgstr ""
 "<h1>Creative Commons GNU ${license_code}</h1>\n"
@@ -937,30 +1044,37 @@ msgstr ""
 "lahko uporabite logotip Creative Commons, ki vodi do licence CC-GNU "
 "${license_code}. Rezultat bo videti takole:</p>"
 
+#: c/engine/chooser_pages/index.pt:124
 msgid "char.sa_description"
 msgstr ""
 "Dajalec licence dovoli uporabnikom, da distribuirajo predelave del le pod"
 " pogoji licence, ki je enaka tisti, pod katero je licencirano delo "
 "dajalca licence."
 
+#: c/engine/macros_templates/metadata.pt:34
 msgid "util.Image"
 msgstr "Slika"
 
+#: c/engine/macros_templates/metadata.pt:28
 msgid "util.Other"
 msgstr "Ostalo"
 
+#: c/engine/pd/templates/publicdomain-partner.pt:31
+#: c/engine/chooser_pages/partner/results.pt:35
 msgid "license.you_may_proceed"
 msgstr "Lahko <a href=\"${processed_exit_url}\">nadaljujete</a>"
 
 msgid "char.nc_title"
 msgstr "Nekomercialno"
 
+#: c/engine/chooser_pages/index.pt:204
 msgid "licenses.pretty_publicdomain"
 msgstr "Javna domena"
 
 msgid "lang.zh"
 msgstr "kitajski jezik"
 
+#: c/engine/chooser_pages/results.pt:59
 msgid "license.have_your_own_website"
 msgstr "Imate svojo spletno stran?"
 
@@ -978,6 +1092,7 @@ msgstr ""
 msgid "lang.ja"
 msgstr "japonski jezik"
 
+#: c/engine/chooser_pages/sampling.pt:53
 msgid "license.sampling_title"
 msgstr "Izberite želene možnosti licence Sampling"
 
@@ -987,12 +1102,17 @@ msgstr "Japonska"
 msgid "deed.free_commercial"
 msgstr "uporabiti delo v komercialne namene"
 
+#: c/engine/chooser_pages/index.pt:47 c/engine/chooser_pages/index.pt:50
+#: c/engine/chooser_pages/index.pt:82 c/engine/chooser_pages/index.pt:89
+#: c/engine/chooser_pages/index.pt:97 c/engine/chooser_pages/index.pt:130
+#: c/engine/chooser_pages/sampling.pt:74
 msgid "util.more_info"
 msgstr "več informacij"
 
 msgid "nav.select_a_jurisdiction"
 msgstr "Izberi jurisdikcijo"
 
+#: c/engine/chooser_pages/sampling.pt:61
 msgid "license.sampling_a_sampling+"
 msgstr ""
 "<strong>Sampling Plus</strong>: Uporabniki lahko vzamejo in preoblikujejo"
@@ -1002,6 +1122,7 @@ msgstr ""
 "dajanje v najem in distribucija (npr. z izmenjavo datotek) "
 "<strong>celotnega dela</strong>. Zato \"plus\"."
 
+#: c/engine/macros_templates/deed.pt:98
 msgid "deed.human_summary_multilanguage"
 msgstr ""
 "To je uporabniku berljiv povzetek celotnega pravnega besedila (celotne "
@@ -1013,21 +1134,30 @@ msgstr "Jordan"
 msgid "country.es-ca"
 msgstr "Katalonija"
 
+#: c/engine/pd/templates/publicdomain-4.pt:41 c/engine/chooser_pages/gpl.pt:107
+#: c/engine/chooser_pages/lgpl.pt:110 c/engine/chooser_pages/nonweb_popup.pt:31
+#: c/engine/chooser_pages/htmlpopup.pt:20
 msgid "util.Highlight_Text"
 msgstr "Označite besedilo za kopiranje"
 
 msgid "char.nd_brief"
 msgstr "Dela ne smete spreminjati, preoblikovati ali ga uporabiti v svojem delu."
 
+#: c/engine/chooser_pages/sampling.pt:78 c/engine/chooser_pages/sampling.pt:90
+#: c/engine/chooser_pages/partner/index.pt:83
+#: c/engine/chooser_pages/partner/index.pt:86
 msgid "util.Generic"
 msgstr "Generično"
 
 msgid "lang.es_AR"
 msgstr "španski jezik (AR)"
 
+#: c/engine/macros_templates/metadata.pt:66
+#: c/engine/macros_templates/metadata.pt:82
 msgid "util.source_work"
 msgstr "izvirno delo"
 
+#: c/engine/chooser_pages/sampling.pt:115
 msgid "license.sampling_note"
 msgstr ""
 "Opomba: Licenca sampling ni namenjena samo glasbi. Uporabite jo lahko za "
@@ -1039,6 +1169,7 @@ msgstr "Avstralija"
 msgid "country.at"
 msgstr "Avstrija"
 
+#: c/engine/chooser_pages/nonweb_popup.pt:19
 msgid "license.non_web_pd"
 msgstr ""
 "To delo je predano v javno domeno. Izvod predaje v javno domeno je na "
@@ -1050,6 +1181,7 @@ msgstr ""
 msgid "country.ar"
 msgstr "Argentina"
 
+#: c/engine/licenses/standard_templates/deed.pt:77
 msgid "deed.superseded"
 msgstr ""
 "Na voljo je <a href=\"${current_version_url}\">nova različica te "
@@ -1057,18 +1189,23 @@ msgstr ""
 "tudi o prelicenciranju obstoječih del z novo različico. Za nobeno delo pa"
 " nova licenca ne začne veljati <em>samodejno</em>."
 
+#: c/engine/chooser_pages/index.pt:209
 msgid "licenses.pretty_sampling+"
 msgstr "Sampling Plus"
 
+#: c/engine/chooser_pages/index.pt:42
 msgid "api.commercial"
 msgstr "Ali dovolite komercialno uporabo dela?"
 
+#: c/engine/macros_templates/support.pt:103
+#: c/engine/macros_templates/support.pt:107
 msgid "license.enter_information"
 msgstr "vstavi podatke"
 
 msgid "jswidget.Allow_Remixing"
 msgstr "Allow Remixing"
 
+#: c/engine/macros_templates/metadata.pt:16
 msgid "license.hide_optional_fields"
 msgstr "Skrij ta polja (Vsa polja so neobvezna)"
 
@@ -1078,12 +1215,14 @@ msgstr "Portugalska"
 msgid "license.GPL_name_full"
 msgstr "GNU General Public License"
 
+#: c/engine/licenses/fsf_templates/deed.pt:36
 msgid "deed.gpl_free_study"
 msgstr "Pravico preučiti, kako program deluje, in ga prilagoditi svojim potrebam."
 
 msgid "lang.af"
 msgstr "afriški jezik"
 
+#: c/engine/licenses/mitbsd_templates/deed.pt:54
 msgid "deed.mit_notice"
 msgstr ""
 "The copyright notice and license shall be included in all copies or\n"
@@ -1095,15 +1234,18 @@ msgstr "Remix"
 msgid "char.nc_brief"
 msgstr "Tega dela ne smete uporabiti v komercialne namene."
 
+#: c/engine/macros_templates/metadata.pt:72
 msgid "util.more_permissions_url"
 msgstr "more permissions URL"
 
+#: c/engine/licenses/standard_templates/deed.pt:64
 msgid "deed.moralrights"
 msgstr "Nothing in this license impairs or restricts the author's moral rights."
 
 msgid "country.sk"
 msgstr "Republika Slovaška"
 
+#: c/engine/chooser_pages/results.pt:61
 msgid "license.copy_text"
 msgstr ""
 "Prekopirajte spodnje besedilo na svoje spletno mesto in pokažite "
@@ -1121,6 +1263,7 @@ msgstr "Singapur"
 msgid "country.se"
 msgstr "Švedska"
 
+#: c/engine/chooser_pages/sampling.pt:82 c/engine/chooser_pages/sampling.pt:94
 msgid "country.de"
 msgstr "Nemčija"
 
@@ -1130,6 +1273,10 @@ msgstr "madžarski jezik"
 msgid "country.dk"
 msgstr "Danska"
 
+#: c/engine/chooser_pages/nonweb_popup.pt:37
+#: c/engine/chooser_pages/htmlpopup.pt:46
+#: c/engine/chooser_templates/emailhtml.pt:19 c/engine/templates/by.pt:31
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:21
 msgid "util.Close_window"
 msgstr "Zapri okno"
 
@@ -1145,6 +1292,10 @@ msgstr "Združeno kraljestvo: Škotska"
 msgid "country.ua"
 msgstr "Ukrajina"
 
+#: c/engine/licenses/fsf_templates/deed.pt:24
+#: c/engine/licenses/devnations_templates/deed.pt:25
+#: c/engine/licenses/sampling_templates/deed.pt:23
+#: c/engine/licenses/standard_templates/deed.pt:31
 msgid "deed.retired"
 msgstr ""
 "This license is <a href=\"/retiredlicenses\">retired</a>. Do not use for "
@@ -1162,6 +1313,7 @@ msgstr "Kitajska"
 msgid "licenses.pretty_GPL"
 msgstr "GPL"
 
+#: c/engine/macros_templates/deed.pt:76
 msgid "deed.disclaimer.jp"
 msgstr ""
 "<p>\n"
@@ -1197,6 +1349,7 @@ msgstr ""
 msgid "country.ch"
 msgstr "Švica"
 
+#: c/engine/chooser_pages/results.pt:105
 msgid "license.publish_flickr"
 msgstr "Objava vaših licenciranih slik na Flickru"
 
@@ -1239,6 +1392,7 @@ msgstr ""
 msgid "license.Final_step"
 msgstr "Zadnji korak:"
 
+#: c/engine/licenses/fsf_templates/deed.pt:55
 msgid "deed.gpl_notice"
 msgstr ""
 "Na vsakem izvodu morate očitno in na ustrezen način objaviti ustrezno "
@@ -1248,14 +1402,21 @@ msgstr ""
 "${license_name_full}. Morebitnemu prevodu ${license_name_full} mora biti "
 "priloženo izvirno besedilo ${license_name_full}."
 
+#: c/engine/licenses/devnations_templates/deed.pt:30
+#: c/engine/licenses/mitbsd_templates/deed.pt:25
+#: c/engine/licenses/standard_templates/deed.pt:38
 msgid "deed.free_copy_distribute"
 msgstr ""
 "reproduciranje, distribuiranje, dajanje v najem in priobčevanje dela "
 "javnosti"
 
+#: c/engine/chooser_pages/index.pt:115
 msgid "char.nd_title"
 msgstr "Brez predelav"
 
+#: c/engine/licenses/devnations_templates/deed.pt:50
+#: c/engine/licenses/sampling_templates/deed.pt:43
+#: c/engine/licenses/standard_templates/deed.pt:56
 msgid "deed.notice"
 msgstr ""
 "Pri vsaki uporabi ali distribuiranju morate uporabnike seznaniti s pogoji"
@@ -1267,6 +1428,7 @@ msgstr "slovenski jezik"
 msgid "util.copyright"
 msgstr "avtorska pravica"
 
+#: c/engine/chooser_pages/nonweb_popup.pt:27
 msgid "license.non_web_statement"
 msgstr ""
 "To delo je objavljeno pod licenco Creative Commons ${license_name}. Izvod"
@@ -1274,6 +1436,7 @@ msgstr ""
 "na naslovu Creative Commons, 171 Second Street, Suite 300, San Francisco,"
 " California, 94105, USA."
 
+#: c/engine/licenses/mitbsd_templates/deed.pt:40
 msgid "deed.no_endorsement"
 msgstr ""
 "<strong>No Endorsement</strong>. The name of the author may not be used "
@@ -1283,9 +1446,11 @@ msgstr ""
 msgid "jswidget.Prohibit_Commercial_Use"
 msgstr "Prohibit Commercial Use"
 
+#: c/engine/chooser_pages/results.pt:56
 msgid "license.what_to_do_next"
 msgstr "Kaj naprej"
 
+#: c/engine/pd/templates/publicdomain-4.pt:52
 msgid "license.mark_rss"
 msgstr ""
 "Dodati podatke o svoji licenci v RSS kanal, uporabite <a "
@@ -1297,6 +1462,10 @@ msgstr ""
 msgid "lang.es_CL"
 msgstr "španski jezik (CL)"
 
+#: c/engine/chooser_pages/sampling.pt:36
+#: c/engine/macros_templates/support.pt:127
+#: c/engine/macros_templates/support.pt:134
+#: c/engine/macros_templates/support.pt:136
 msgid "license.review_choice"
 msgstr "pregled izbranih možnosti"
 
@@ -1313,9 +1482,11 @@ msgstr ""
 msgid "util.Share_Music"
 msgstr "Deli glasbo"
 
+#: c/engine/chooser_pages/index.pt:122
 msgid "char.sa_title"
 msgstr "Deljenje pod enakimi pogoji"
 
+#: c/engine/chooser_pages/index.pt:193
 msgid "license.explain"
 msgstr ""
 "Creative Commons vam pomaga objaviti vaše delo na internetu in "
@@ -1325,6 +1496,7 @@ msgstr ""
 "brezplačnih storitev gostovanja, ki imajo integrirane licence Creative "
 "Commons."
 
+#: c/engine/pd/templates/publicdomain-4.pt:27
 msgid "license.mark_pd"
 msgstr ""
 "Ko ste se enkrat odločili za predajo v javno domeno, morate svoje "
@@ -1333,12 +1505,14 @@ msgstr ""
 msgid "util.Try_again"
 msgstr "Poskusi znova!"
 
+#: c/engine/chooser_pages/index.pt:214
 msgid "util.Founders_Copyright"
 msgstr "Ustanoviteljska avtorska pravica"
 
 msgid "licenses.pretty_nc-sa"
 msgstr "Nekomercialno-Deljenje pod enakimi pogoji"
 
+#: c/engine/pd/templates/publicdomain-3.pt:40
 msgid "license.pd_confirm"
 msgstr ""
 "<h1>Potrditev predaje v javno domeno</h1>\n"
@@ -1354,12 +1528,15 @@ msgstr ""
 "${pd_deed_text}\n"
 "        </div>"
 
+#: c/engine/chooser_pages/results.pt:78
 msgid "license.after_support_cc"
 msgstr ""
 "After publishing your license, please consider <a "
 "href=\"http://creativecommons.org/support/\">supporting Creative "
 "Commons</a>."
 
+#: c/engine/pd/templates/publicdomain-3.pt:93 c/engine/pd/templates
+#: /publicdomain-waiting-email-verification.pt:59
 msgid "license.pd_bad_confirmation"
 msgstr ""
 "<h1>Predaja v javno domeno - Napaka pri potrditvi</h1>\n"
@@ -1381,22 +1558,28 @@ msgstr ""
 "href=\"mailto:pd@creativecommons.org\">sporočite</a>.\n"
 "</p>"
 
+#: c/engine/templates/by.pt:25
 msgid "char.by_description"
 msgstr ""
 "Pri uporabi dela morate navesti izvirnega avtorja na način, ki ga določi "
 "izvirni avtor oziroma dajalec licence."
 
+#: c/engine/macros_templates/metadata.pt:36
 msgid "util.Text"
 msgstr "Besedilo"
 
+#: c/engine/licenses/devnations_templates/deed.pt:48
+#: c/engine/licenses/sampling_templates/deed.pt:41
 msgid "char.by_brief"
 msgstr ""
 "Pri uporabi dela morate navesti izvirnega avtorja na način, ki ga določi "
 "izvirni avtor oziroma dajalec licence."
 
+#: c/engine/chooser_pages/results.pt:117
 msgid "license.publish_morpheus"
 msgstr "Objava vaše licencirane glasbe na mreži Morpheus P2P"
 
+#: c/engine/chooser_pages/results.pt:108
 msgid "license.publish_buzznet"
 msgstr "Objava vaših licenciranih slik na Buzznetu"
 
@@ -1407,6 +1590,7 @@ msgstr ""
 "da boste zagotovili strojno berljivo izvorno kodo. Za programe, ki "
 "uporabljajo knjižnico, vam ni potrebno prilagati izvorne kode."
 
+#: c/engine/chooser_pages/results.pt:76
 msgid "license.read_tutorial"
 msgstr ""
 "Potrebujete pomoč? <a href=\"/education/publish-website\">Preberite "
@@ -1415,6 +1599,7 @@ msgstr ""
 msgid "country.fi"
 msgstr "Finska"
 
+#: c/engine/chooser_pages/partner/index.pt:25
 msgid "license.partner_what"
 msgstr ""
 "<p>Ustvarili ste avtorsko delo, na katerega ste ponosni. Zdaj je čas, da "
@@ -1431,6 +1616,9 @@ msgstr ""
 "delo ponuditi v brezpogojno uporabo, izberite <a "
 "href=\"${results_pd_url}\">javno domeno</a>.</p>"
 
+#: c/engine/chooser_pages/index.pt:49 c/engine/chooser_pages/index.pt:96
+#: c/engine/chooser_pages/partner/index.pt:56
+#: c/engine/chooser_pages/partner/index.pt:73
 msgid "util.No"
 msgstr "Ne"
 
@@ -1454,9 +1642,11 @@ msgstr ""
 "governed by the Copyright Law of a specific jurisdiction, please select "
 "the appropriate jurisdiction."
 
+#: c/engine/macros_templates/metadata.pt:15
 msgid "license.include_more"
 msgstr "Kliknite, če želite vključiti več podatkov o avtorskem delu."
 
+#: c/engine/chooser_templates/emailhtml.pt:16
 msgid "license.link_emailed"
 msgstr ""
 "<p>\n"
@@ -1466,9 +1656,11 @@ msgstr ""
 "<p>Postavite povezavo ali HTML na vašo spletno stran čisto zraven dela, "
 "ki ga nameravate licencirati.  </p>"
 
+#: c/engine/macros_templates/deed.pt:118 c/engine/macros_templates/deed.pt:123
 msgid "lang.fr"
 msgstr "francoski jezik"
 
+#: c/engine/chooser_pages/index.pt:218
 msgid "util.CC_GNU_GPL"
 msgstr "CC-GNU GPL"
 
@@ -1486,6 +1678,7 @@ msgstr "Macedonia"
 msgid "licenses.pretty_sa"
 msgstr "Deljenje pod enakimi pogoji"
 
+#: c/engine/chooser_pages/results.pt:111
 msgid "license.publish_blog"
 msgstr ""
 "Uporaba licence Creative Commons v vašem blogu (Blogger, Movable Type in "
@@ -1494,6 +1687,10 @@ msgstr ""
 msgid "lang.pt"
 msgstr "portugalski jezik"
 
+#: c/engine/licenses/fsf_templates/deed.pt:75
+#: c/engine/licenses/devnations_templates/deed.pt:51
+#: c/engine/licenses/mitbsd_templates/deed.pt:60
+#: c/engine/licenses/standard_templates/deed.pt:60
 msgid "deed.permission"
 msgstr ""
 "Kateri koli od teh pogojev se lahko razveljavi, če za to dobite "
@@ -1505,9 +1702,12 @@ msgstr "Malezija"
 msgid "country.mx"
 msgstr "Mehika"
 
+#: c/engine/chooser_pages/sampling.pt:84 c/engine/chooser_pages/sampling.pt:96
 msgid "country.tw"
 msgstr "Tajvan"
 
+#: c/engine/macros_templates/deed.pt:81 c/engine/licenses/catalog_pages
+#: /disclaimer-popup.pt:15
 msgid "util.Disclaimer"
 msgstr "Izjava"
 
@@ -1523,12 +1723,14 @@ msgstr "Malta"
 msgid "util.work"
 msgstr "delo"
 
+#: c/engine/licenses/fsf_templates/deed.pt:29
 msgid "deed.gpl_freedoms"
 msgstr ""
 "Licenca ${license_name_full} je licenca <a "
 "href=\"http://www.gnu.org/philosophy/free-sw.html\">Free Software</a>. "
 "Kot vse licence Free Software vam daje naslednje štiri pravice:"
 
+#: c/engine/chooser_pages/index.pt:117
 msgid "char.nd_description"
 msgstr ""
 "Dajalec licence dovoli uporabnikom, da reproducirajo, distribuirajo, "
@@ -1538,6 +1740,7 @@ msgstr ""
 msgid "license.learn_publicize"
 msgstr "Naučite se, kako objaviti in deliti svoje delo"
 
+#: c/engine/macros_templates/deed.pt:135
 msgid "deed.lgpl_human_summary"
 msgstr ""
 "To je uporabniku berljiv povzetek celotnega pravnega besedila (celotne <a"
@@ -1545,6 +1748,7 @@ msgstr ""
 "Lesser General Public License</a>). Na voljo je tudi <a "
 "href=\"legalcode.pt\">portugalski prevod</a>."
 
+#: c/engine/macros_templates/deed.pt:145
 msgid "deed.gpl_human_summary"
 msgstr ""
 "To je uporabniku berljiv pozetek Celotnega pravnega besedila (celotnega "
@@ -1552,6 +1756,7 @@ msgstr ""
 "licenses/gpl-2.0.html\">GNU General Public License</a>). Na voljo je tudi"
 " <a href=\"legalcode.pt\">portugalski prevod</a>."
 
+#: c/engine/chooser_pages/partner/index.pt:117
 msgid "license.partner_note"
 msgstr ""
 "<p>\n"
@@ -1567,6 +1772,8 @@ msgstr ""
 msgid "util.Developing_Nations"
 msgstr "Narodi v razvoju"
 
+#: c/engine/pd/templates/publicdomain-4.pt:54
+#: c/engine/chooser_pages/results.pt:122
 msgid "license.mark_xmp"
 msgstr ""
 "Da bi označili PDF ali drugo datoteko, ki jo podpira XMP, <a "
@@ -1576,11 +1783,13 @@ msgstr ""
 msgid "licenses.pretty_nc-sampling+"
 msgstr "Nekomercialno Sampling Plus"
 
+#: c/engine/licenses/sampling_templates/deed.pt:47
 msgid "char.no_brief"
 msgstr ""
 "Ne smete priobčevati javnosti, distribuirati ali dajati v najem primerkov"
 " tega celotnega dela v kakršnekoli namene."
 
+#: c/engine/chooser_pages/index.pt:232
 msgid "util.Wiki"
 msgstr "Wiki"
 
@@ -1593,12 +1802,33 @@ msgstr "Unported"
 msgid "license.work_based_on"
 msgstr "Based on a work at ${source_link}."
 
+#: c/engine/macros_templates/deed.pt:129
 msgid "lang.de"
 msgstr "nemški jezik"
 
+#: c/engine/chooser_pages/sampling.pt:31 c/engine/chooser_pages/sampling.pt:35
+#: c/engine/chooser_pages/sampling.pt:40 c/engine/chooser_pages/sampling.pt:45
+#: c/engine/macros_templates/support.pt:81
+#: c/engine/macros_templates/support.pt:85
+#: c/engine/macros_templates/support.pt:92
+#: c/engine/macros_templates/support.pt:96
+#: c/engine/macros_templates/support.pt:102
+#: c/engine/macros_templates/support.pt:106
+#: c/engine/macros_templates/support.pt:112
+#: c/engine/macros_templates/support.pt:116
+#: c/engine/macros_templates/support.pt:126
+#: c/engine/macros_templates/support.pt:130
+#: c/engine/macros_templates/support.pt:144
+#: c/engine/macros_templates/support.pt:148
+#: c/engine/macros_templates/support.pt:160
+#: c/engine/macros_templates/support.pt:164
 msgid "util.step"
 msgstr "korak"
 
+#: c/engine/licenses/devnations_templates/deed.pt:27
+#: c/engine/licenses/mitbsd_templates/deed.pt:23
+#: c/engine/licenses/sampling_templates/deed.pt:25
+#: c/engine/licenses/standard_templates/deed.pt:34
 msgid "deed.You_are_free"
 msgstr "Dovoljeno vam je:"
 
@@ -1607,6 +1837,7 @@ msgstr ""
 "Če spremenite, preoblikujete ali uporabite to delo v svojem delu, lahko "
 "distribuirate predelavo dela le pod licenco, ki je enaka tej."
 
+#: c/engine/chooser_pages/index.pt:236
 msgid "util.Music_Sharing"
 msgstr "Music Sharing"
 
@@ -1616,6 +1847,7 @@ msgstr "LGPL"
 msgid "lang.fr_CA"
 msgstr "francoski jezik (CA)"
 
+#: c/engine/chooser_pages/gpl.pt:47 c/engine/chooser_pages/lgpl.pt:48
 msgid "license.lawyer-readable_legal_code"
 msgstr ""
 "Berljivo za pravnike<br/>\n"
@@ -1624,6 +1856,9 @@ msgstr ""
 msgid "jswidget.Require_Share-Alike"
 msgstr "Require Share-Alike"
 
+#: c/engine/licenses/devnations_templates/deed.pt:34
+#: c/engine/licenses/mitbsd_templates/deed.pt:26
+#: c/engine/licenses/standard_templates/deed.pt:39
 msgid "deed.free_derivative"
 msgstr "predelati delo"
 
@@ -1633,9 +1868,14 @@ msgstr "Najdi glasbo, slike in več"
 msgid "country.ve"
 msgstr "Venezuela"
 
+#: c/engine/chooser_pages/sampling.pt:46
+#: c/engine/macros_templates/support.pt:161
+#: c/engine/macros_templates/support.pt:165
 msgid "license.publicize"
 msgstr "objava"
 
+#: c/engine/pd/templates/publicdomain-3.pt:41
+#: c/engine/licenses/publicdomain_templates/deed.pt:19
 msgid "deed.pd"
 msgstr ""
 "<p align=\"center\"><em>Copyright-Only Dedication (based on United States"
@@ -1670,6 +1910,7 @@ msgstr ""
 "commercial or non-commercial, and in any way, including by methods that "
 "have not yet been invented or conceived.</p>"
 
+#: c/engine/pd/templates/publicdomain-2.pt:24
 msgid "license.pd_enter_info"
 msgstr ""
 "<h1>Vnos podatkov</h1>\n"
@@ -1689,11 +1930,13 @@ msgstr ""
 "\n"
 "        <p>vsa polja so obvezna</p>"
 
+#: c/engine/licenses/sampling_templates/deed.pt:27
 msgid "deed.free_sample_nc"
 msgstr ""
 "Vzorčiti, kombinirati ali drugače ustvarjalno preoblikovati to delo za "
 "nekomercialne namene"
 
+#: c/engine/chooser_pages/sampling.pt:116
 msgid "license.sampling_before"
 msgstr ""
 "Preden svoje avtorsko delo objavite pod licenco Sampling, se prepričajte,"
@@ -1707,6 +1950,7 @@ msgstr "Jurisdikcija vaše licence:"
 msgid "util.home"
 msgstr "domov"
 
+#: c/engine/pd/templates/publicdomain-2.pt:53
 msgid "license.proceed_email_note"
 msgstr ""
 "<b>OPOMBA:</b> Ko kliknete na \"nadaljuj\", bo na naslov, ki ste ga "

@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2007-11-29 11:25+0800\n"
-"PO-Revision-Date: 2007-11-29 11:32-0800\n"
+"PO-Revision-Date: 2007-11-29 11:34-0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nso <LL@li.org>\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
@@ -20,41 +20,44 @@ msgstr "New Zealand"
 msgid "country.gr"
 msgstr "Greece"
 
+#: c/engine/chooser_pages/index.pt:104
 msgid "Allow Derivative Works"
 msgstr ""
 
-#: s/index.pt:107
+#: c/engine/chooser_pages/index.pt:107
 msgid ""
 "The licensor permits others to copy, distribute, display and perform the "
 "work, as well as make derivative works based on it."
 msgstr ""
 
-#: s/index.pt:56
+#: c/engine/chooser_pages/index.pt:56
 msgid "Commercial Use"
 msgstr ""
 
-#: s/index.pt:59
+#: c/engine/chooser_pages/index.pt:59
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the"
 " work, including for commercial purposes."
 msgstr ""
 
-#: s/index.pt:70
+#: c/engine/chooser_pages/index.pt:70
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the"
 " work for non-commercial purposes only."
 msgstr ""
 
-#: s/index.pt:88
+#: c/engine/chooser_pages/index.pt:88
 msgid "Yes, as long as others share alike"
 msgstr ""
 
+#: c/engine/licenses/sampling_templates/deed.pt:31
 msgid "deed.free_copy_distribute_noncommercial"
 msgstr ""
 "Go diragatša, bonagatša, le go aba dikopi tša mošomo wo bakeng sa merero "
 "yeo e sego ya kgwebo (ka mohlala, go dira phatlalatšo ya wepe ya go "
 "abelana difaele goba tšeo e sego tša kgwebo)."
 
+#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
 msgid "license.pd_awaiting_confirmation"
 msgstr ""
 "<h1>Moneelo wo o Bulegetšego Setšhaba - Tiišetšo ya Emeile</h1>\n"
@@ -100,6 +103,7 @@ msgstr ""
 msgid "country.bg"
 msgstr "Bulgaria"
 
+#: c/engine/pd/templates/publicdomain-4.pt:32
 msgid "license.mark_web"
 msgstr ""
 "Swaya dikagare tša gago letlakaleng la wepe, HTML ya go bontšha konope ya"
@@ -109,18 +113,25 @@ msgstr ""
 msgid "util.copyright_date"
 msgstr "letšatšikgwedi la tokelo ya ngwalollo"
 
+#: c/engine/chooser_pages/index.pt:168 c/engine/chooser_pages/sampling.pt:104
 msgid "util.Jurisdiction"
 msgstr "Matla a boahlodi"
 
+#: c/engine/chooser_pages/sampling.pt:80 c/engine/chooser_pages/sampling.pt:92
 msgid "country.br"
 msgstr "Brazil"
 
 msgid "util.Creative_Commons_License"
 msgstr "Laesense ya Creative Commons"
 
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
 msgid "license.mark_content"
 msgstr "swaya dikagare"
 
+#: c/engine/licenses/fsf_templates/deed.pt:48
 msgid "deed.gpl_under_conditions"
 msgstr ""
 "O ka diriša ditokologo tšeo di boletšwego mo ge feela o dira ka "
@@ -136,6 +147,7 @@ msgstr ""
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Bulegetše "
 "Setšhaba</a>."
 
+#: c/engine/chooser_pages/index.pt:77
 msgid "api.derivatives"
 msgstr "Dumelela ditokišo tša mošomo wa gago?"
 
@@ -148,6 +160,7 @@ msgstr ""
 msgid "deed.back_to_cc"
 msgstr "morago go <a href=\"/\">Creative Commons</a>"
 
+#: c/engine/chooser_pages/gpl.pt:63 c/engine/chooser_pages/lgpl.pt:66
 msgid "license.fsf_how_it_works"
 msgstr ""
 "Ye ke tsela yeo CC-GNU ${license_code} e šomago ka yona: Modiriši yo a "
@@ -161,6 +174,7 @@ msgstr ""
 " Gomme tšeo di fihlegilego e tla ba \"Khoutu e Balegago Motšheneng\" — "
 "methadatha — yeo e tla kgontšhago ba bangwe go hwetša sofetewere ya gago."
 
+#: c/engine/licenses/mitbsd_templates/deed.pt:46
 msgid "deed.bsd_notice"
 msgstr ""
 "You must retain the license terms and copyright notice in any source code"
@@ -175,12 +189,15 @@ msgstr ""
 "We have updated the version of your license to the most recent one "
 "available."
 
+#: c/engine/chooser_pages/index.pt:67
 msgid "licenses.pretty_nc"
 msgstr "E sego ya Kgwebo"
 
+#: c/engine/macros_templates/deed.pt:103
 msgid "lang.ca"
 msgstr "se-Catalane"
 
+#: c/engine/chooser_pages/gpl.pt:66 c/engine/chooser_pages/lgpl.pt:69
 msgid "license.fsf_mark_software"
 msgstr ""
 "<h1>Swaya Sofetewere</h1>\n"
@@ -200,14 +217,18 @@ msgstr ""
 "rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
 "License</a>."
 
+#: c/engine/chooser_pages/gpl.pt:46 c/engine/chooser_pages/lgpl.pt:47
 msgid "license.human-readable_commons_deed"
 msgstr ""
 "Tumelelano e Tlwaelegilego<br />\n"
 "e Balegago Gabonolo"
 
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
 msgid "license.confirm_choice"
 msgstr "tiišetša kgetho"
 
+#: c/engine/chooser_pages/sampling.pt:54
 msgid "license.sampling_explain"
 msgstr ""
 "<div style=\"float:right;width:175px;border:1px solid "
@@ -273,14 +294,19 @@ msgstr ""
 msgid "lang.bg"
 msgstr "se-Bulgaria"
 
+#: c/engine/chooser_pages/gpl.pt:37 c/engine/chooser_pages/gpl.pt:79
+#: c/engine/chooser_pages/lgpl.pt:38 c/engine/chooser_pages/lgpl.pt:82
 msgid "license.fsf_software_licensed"
 msgstr ""
 "Sofetewere ye e tsentšwe laesense ka tlase ga <a href=\"${license_url"
 "}\">CC-GNU ${license_code}</a>."
 
+#: c/engine/pd/templates/publicdomain-2.pt:34
+#: c/engine/macros_templates/metadata.pt:46
 msgid "util.title_of_work"
 msgstr "thaetlele ya mošomo"
 
+#: c/engine/licenses/fsf_templates/deed.pt:61
 msgid "deed.gpl_sharealike"
 msgstr ""
 "Ge eba o lokiša kopi ya gago goba dikopi tša lenaneo goba karolo le ge "
@@ -292,6 +318,7 @@ msgstr ""
 msgid "country.ie"
 msgstr "Ireland"
 
+#: c/engine/macros_templates/engine.pt:111
 msgid "license.License_Your_Work"
 msgstr "License Your Work"
 
@@ -304,6 +331,7 @@ msgstr "Tsebagatšo - Tše sa Fetolwego"
 msgid "lang.es_PE"
 msgstr "Spanish (PE)"
 
+#: c/engine/licenses/sampling_templates/deed.pt:29
 msgid "deed.free_sample"
 msgstr ""
 "Go dira sampole, go tswaka gape, goba ka tsela e itšego o fetoša ka tsela"
@@ -354,6 +382,7 @@ msgstr "se-Malay"
 msgid "country.ph"
 msgstr "Philippines"
 
+#: c/engine/licenses/sampling_templates/deed.pt:42
 msgid "char.na_brief"
 msgstr ""
 "O ka se diriše mošomo wo go bapatša goba go godiša selo se itšego eupša "
@@ -376,6 +405,7 @@ msgstr "Letlakala le le hwetšagala ka maleme a latelago:"
 msgid "lang.en_GB"
 msgstr "Seisemane (GB)"
 
+#: c/engine/licenses/standard_templates/deed.pt:69
 msgid "deed.moralrights-remix.us"
 msgstr ""
 "Apart from the remix rights granted under this license, nothing in this "
@@ -384,6 +414,7 @@ msgstr ""
 msgid "lang.pl"
 msgstr "Sepholiši"
 
+#: c/engine/pd/templates/publicdomain-3.pt:87
 msgid "util.confirm"
 msgstr "tiišetša"
 
@@ -397,18 +428,26 @@ msgstr ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">ngwaga wa tokelo ya ngwalollo</a>"
 
+#: c/engine/chooser_pages/index.pt:29
 msgid "license.Choose_License"
 msgstr "kgetha laesense"
 
+#: c/engine/licenses/fsf_templates/deed.pt:38
 msgid "deed.gpl_free_redistribute"
 msgstr "Tokologo ya go aba ka leswa dikopi gore o thuše moagišani wa gago."
 
+#: c/engine/pd/templates/publicdomain-4.pt:47
 msgid "license.mark_mp3"
 msgstr "Swaya mp3, <a href=\"/technology/mp3\">latela ditlhahlo tše</a>."
 
+#: c/engine/licenses/devnations_templates/deed.pt:40
+#: c/engine/licenses/mitbsd_templates/deed.pt:33
+#: c/engine/licenses/sampling_templates/deed.pt:39
+#: c/engine/licenses/standard_templates/deed.pt:45
 msgid "deed.under_conditions"
 msgstr "Ka tlase ga maemo a latelago:"
 
+#: c/engine/chooser_pages/gpl.pt:48 c/engine/chooser_pages/lgpl.pt:49
 msgid "license.machine-readable_digital_code"
 msgstr ""
 "Balegago Motšheneng<br />\n"
@@ -421,9 +460,11 @@ msgstr ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">tokelo ya ngwalollo</a> leina la moswari"
 
+#: c/engine/macros_templates/metadata.pt:58
 msgid "util.attribute_to_url"
 msgstr "attribute to url"
 
+#: c/engine/chooser_pages/index.pt:195
 msgid "license.view_explanation"
 msgstr "Lebelela tlhaloso ya dilaesense tša rena ka moka."
 
@@ -438,6 +479,7 @@ msgstr ""
 " ngwalollo ga e šome go ditaba goba dikgopolo, eupša go tlhagišo ya "
 "kgonthe ya ditaba goba dikgopolo tšeo."
 
+#: c/engine/licenses/fsf_templates/deed.pt:50
 msgid "deed.lgpl_under_conditions"
 msgstr ""
 "O ka diriša ditokologo tšeo di boletšwego mo ge feela o dira ka "
@@ -453,6 +495,7 @@ msgstr ""
 msgid "country.lu"
 msgstr "Luxembourg"
 
+#: c/engine/macros_templates/metadata.pt:23
 msgid "license.tell_format"
 msgstr "Re botše ka fomate ya mošomo wa gago:"
 
@@ -462,6 +505,7 @@ msgstr "Chile"
 msgid "lang.nso"
 msgstr "Sesotho sa Leboa"
 
+#: c/engine/chooser_pages/index.pt:222
 msgid "util.CC_GNU_LGPL"
 msgstr "CC-GNU LGPL"
 
@@ -472,9 +516,11 @@ msgstr ""
 "ele ofe ka ntle le go bapatša, mo go ileditšwego. Go kopiša le go abiwa "
 "ga <strong>mošomo ka moka</strong> le gona go ileditšwe."
 
+#: c/engine/chooser_pages/results.pt:98
 msgid "license.publish_audio_ia"
 msgstr "Phatlalatša mmino wa gago wo o nago le laesense Polokelong ya Inthanete"
 
+#: c/engine/chooser_pages/results.pt:92
 msgid "license.no_web_site"
 msgstr "Ga go na wepesaete?"
 
@@ -484,6 +530,7 @@ msgstr "Serbia"
 msgid "country.kr"
 msgstr "Korea"
 
+#: c/engine/chooser_pages/partner/index.pt:69
 msgid "license.a6"
 msgstr ""
 "Ee, ge feela ba bangwe ba e hlakanela (<a "
@@ -524,6 +571,7 @@ msgstr "Setaliana"
 msgid "country.ro"
 msgstr "Romaniya"
 
+#: c/engine/chooser_pages/index.pt:191
 msgid "license.what_you"
 msgstr "Seo o Ka Se Dirago Mo"
 
@@ -536,6 +584,7 @@ msgstr ""
 msgid "licenses.pretty_by-nd-nc"
 msgstr "Tsebagatšo-Tše sa fetolwego-E sego ya Kgwebo"
 
+#: c/engine/macros_templates/deed.pt:110
 msgid "lang.gl"
 msgstr "se-Galicia"
 
@@ -544,9 +593,13 @@ msgstr ""
 "Bjale o ka <a href=\"publicdomain-2?${url_vars}\">tšwela pele le go "
 "humiša setšhaba ka mošomo wa gago</a>."
 
+#: c/engine/pd/templates/publicdomain-2.pt:29
 msgid "util.your_email"
 msgstr "emeile ya gago"
 
+#: c/engine/chooser_pages/index.pt:46 c/engine/chooser_pages/index.pt:81
+#: c/engine/chooser_pages/partner/index.pt:54
+#: c/engine/chooser_pages/partner/index.pt:65
 msgid "util.Yes"
 msgstr "Ee"
 
@@ -555,6 +608,7 @@ msgstr ""
 "go kopiša, aba, bontšha, diragatša, hlagiša, fetišetša phatlalatša, le go"
 " dira piletšo ya mošomo"
 
+#: c/engine/pd/templates/publicdomain-partner.pt:24
 msgid "license.pd_choice"
 msgstr ""
 "<p>Kgetho ya gago e šišinya gore o nyaka go neela mošomo wa gago gore o "
@@ -566,9 +620,11 @@ msgstr ""
 "ya ngwalollo ka moka go setšhaba yeo e sa laolwego ke maemo. Tumelelo ye "
 "ke ya go ya go ile e bile e ka se bušetšwe morago.</p>"
 
+#: c/engine/macros_templates/metadata.pt:30
 msgid "util.Audio"
 msgstr "Odiyo"
 
+#: c/engine/macros_templates/deed.pt:92
 msgid "deed.fair_use"
 msgstr ""
 "Go šoma ga gago ka tsela ya toka le ditokelo tše dingwe ga di angwe ke "
@@ -577,9 +633,11 @@ msgstr ""
 msgid "country.nl"
 msgstr "Netherlands"
 
+#: c/engine/pd/templates/publicdomain-4.pt:29
 msgid "license.in_order_to"
 msgstr "Gore o:"
 
+#: c/engine/licenses/fsf_templates/deed.pt:67
 msgid "deed.gpl_source"
 msgstr ""
 "Ge eba o kopiša goba o aba lenaneo, o swanetše go le felegetša le khoutu "
@@ -588,6 +646,7 @@ msgstr ""
 "meraro, gore o feleletše khoutu ya mothopo yeo e balegago motšheneng yeo "
 "e swanelegago yeo e feletšego."
 
+#: c/engine/macros_templates/partner.pt:29
 msgid "util.Creative_Commons"
 msgstr "Creative Commons"
 
@@ -603,6 +662,7 @@ msgstr "Licensor permits others to make derivative works"
 msgid "country.us"
 msgstr "United States"
 
+#: c/engine/chooser_pages/results.pt:70
 msgid "license.select_text"
 msgstr ""
 "Kgetha dikagare tša lepokisi leo le lego ka mo godimo gomme o di kopiše. "
@@ -626,6 +686,7 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
+#: c/engine/chooser_pages/partner/index.pt:50
 msgid "license.q2"
 msgstr ""
 "<strong>Dumelela tirišo ya kgwebo ya mošomo wa gago?</strong> (<a "
@@ -641,6 +702,7 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
+#: c/engine/chooser_pages/partner/index.pt:61
 msgid "license.q3"
 msgstr ""
 "<strong>Dumelela ditokišo tša mošomo wa gago?</strong> (<a "
@@ -656,6 +718,7 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
+#: c/engine/chooser_pages/htmlpopup.pt:24
 msgid "license.html_directions"
 msgstr ""
 "O ka fo kopiša mongwalo, wa o kgomaretša ditokumenteng tša gago tša wepe "
@@ -663,6 +726,8 @@ msgstr ""
 "href=\"/learn/technology/usingmarkup\" target=\"_blank\">Tshedimošo e "
 "oketšegilego mabapi le go tsenya HTML ditokumenteng tša gago mo</a>."
 
+#: c/engine/chooser_pages/index.pt:178
+#: c/engine/chooser_pages/partner/index.pt:114
 msgid "license.Select_a_License"
 msgstr "Kgetha Laesense"
 
@@ -674,9 +739,11 @@ msgstr ""
 msgid "util.description"
 msgstr "tlhaloso"
 
+#: c/engine/chooser_pages/results.pt:114
 msgid "license.publish_video_ia"
 msgstr "Phatlalatša bidio ya gago yeo e nago le laesense Polokelong ya Inthanete"
 
+#: c/engine/chooser_pages/partner/results.pt:29
 msgid "license.partner_selected"
 msgstr ""
 "O kgethile Laesense ya <a target=\"cc_other\" "
@@ -684,14 +751,17 @@ msgstr ""
 "Laesense ye e beilwe go ya go ile go<br>\n"
 "<b><tt>${license_url}</tt></b>."
 
+#: c/engine/licenses/sampling_templates/deed.pt:45
 msgid "deed.notice_withoutdistribution"
 msgstr ""
 "Bakeng sa tirišo gape le ge ele efe, o swanetše go hlakišetša ba bangwe "
 "dipeelo tša laesense tša mošomo wo."
 
+#: c/engine/macros_templates/deed.pt:124
 msgid "lang.nl"
 msgstr "se-Dutch"
 
+#: c/engine/chooser_pages/results.pt:101
 msgid "license.publish_soundclick"
 msgstr "Phatlalatša mmino wa gago wo o nago le laesense go Soundclick"
 
@@ -701,6 +771,8 @@ msgstr "phatlalatšo ya wepeng"
 msgid "country.es"
 msgstr "Sepania"
 
+#: c/engine/pd/templates/publicdomain-4.pt:49
+#: c/engine/chooser_pages/results.pt:127
 msgid "license.mark_nonweb"
 msgstr ""
 "Swaya tokumente yeo e sego wepeng, <a href=\"non-web-popup?${url_vars}\" "
@@ -721,11 +793,13 @@ msgstr "Sepaniši (MX)"
 msgid "util.publish"
 msgstr "phatlalatša"
 
+#: c/engine/macros_templates/deed.pt:153
 msgid "deed.human_summary"
 msgstr ""
 "Ye ke kakaretšo yeo e balegago gabonolo ya <a href=\"legalcode\" "
 "class=\"fulltext\">Khoutu ya Semolao (laesense e feletšego)</a>."
 
+#: c/engine/pd/templates/publicdomain-2.pt:46
 msgid "util.proceed"
 msgstr "tšwela pele"
 
@@ -738,6 +812,7 @@ msgstr "oketšegilego"
 msgid "lang.en_US"
 msgstr "Seisemane (US)"
 
+#: c/engine/macros_templates/metadata.pt:52
 msgid "util.attribute_to_name"
 msgstr "attribute to name"
 
@@ -753,6 +828,7 @@ msgstr ""
 " sego tša kgwebo gore di hlangwe go tšwa dikarolwaneng tša mošomo wa "
 "gago."
 
+#: c/engine/macros_templates/deed.pt:117
 msgid "lang.en"
 msgstr "Seisemane"
 
@@ -766,20 +842,26 @@ msgstr ""
 "Lebiša ditlhaloso tša laesense ya mohlala go "
 "christiane@creativecommons.org."
 
+#: c/engine/chooser_pages/index.pt:170 c/engine/chooser_pages/sampling.pt:106
 msgid "license.jurisdiction_help"
 msgstr ""
 "Ge eba o kganyoga laesense yeo e bušwago ke Molao wa Tokelo ya ngwalollo "
 "wa matla a boahlodi a itšego, hle kgetha matla a boahlodi a swanetšego."
 
+#: c/engine/licenses/fsf_templates/deed.pt:34
 msgid "deed.gpl_free_run"
 msgstr "Tokologo ya go diriša lenaneo bakeng sa morero le ge ele ofe."
 
+#: c/engine/chooser_pages/index.pt:128 c/engine/chooser_pages/sampling.pt:72
+#: c/engine/chooser_pages/partner/index.pt:79
 msgid "license.jurisdiction_question"
 msgstr "Matla a boahlodi a laesense ya gago"
 
+#: c/engine/pd/templates/publicdomain-2.pt:39
 msgid "util.copyright_holder"
 msgstr "mong wa tokelo ya ngwalollo"
 
+#: c/engine/chooser_pages/sampling.pt:118
 msgid "license.sampling_alternatives"
 msgstr ""
 "<p>Ge eba o <strong>nyaka</strong> go laletša batho gore ba dire "
@@ -793,21 +875,27 @@ msgstr ""
 msgid "lang.sv"
 msgstr "se-Swediši"
 
+#: c/engine/chooser_pages/htmlpopup.pt:15
 msgid "license.html_display"
 msgstr "HTML yeo e tla bonagatšago konope ya gago e ka tsela e latelago:"
 
+#: c/engine/macros_templates/deed.pt:109
 msgid "lang.eu"
 msgstr "se-Basque"
 
 msgid "lang.en_CA"
 msgstr "Seisemane (CA)"
 
+#: c/engine/macros_templates/deed.pt:104
 msgid "lang.es"
 msgstr "Sepaniši"
 
+#: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
 msgid "char.by_title"
 msgstr "Tsebagatšo"
 
+#: c/engine/chooser_pages/sampling.pt:65
 msgid "license.sampling_a_nc-sampling+"
 msgstr ""
 "<strong>Sampole e Sego ya Kgwebo le Tlaleletšo</strong>: Batho ba ka tšea"
@@ -816,6 +904,7 @@ msgstr ""
 "Kgwebo</strong> go kopiša le go aba (go swana le kabelano ya faele) ga "
 "<strong>mošomo ka moka</strong> le gona go a dumelelwa."
 
+#: c/engine/chooser_pages/results.pt:21
 msgid "license.selected"
 msgstr ""
 "O kgethile Laesense ya Creative Commons "
@@ -823,6 +912,7 @@ msgstr ""
 "href=\"${license_url}\">Bona kamoo laesense e tla bonagalago ka gona</a> "
 "go bao ba etelago saete ya gago."
 
+#: c/engine/macros_templates/metadata.pt:32
 msgid "util.Video"
 msgstr "Bidio"
 
@@ -837,14 +927,17 @@ msgstr "Hungary"
 msgid "country.hr"
 msgstr "Croatia"
 
+#: c/engine/chooser_pages/gpl.pt:118 c/engine/chooser_pages/lgpl.pt:121
 msgid "license.fsf_more_info"
 msgstr ""
 "Bakeng sa tshedimošo e oketšegilego ka ga Free Software Foundation, etela"
 " <a href=\"http://www.fsf.org\"> letlakala la bona la wepe</a>."
 
+#: c/engine/chooser_pages/sampling.pt:111
 msgid "license.sampling_get"
 msgstr "Hwetša Laesense ya gago ya Sampole"
 
+#: c/engine/licenses/fsf_templates/deed.pt:16
 msgid "deed.gpl_title"
 msgstr ""
 "${license_name_full}, <a href=\"http://www.gnu.org/\">Mokgatlo wa "
@@ -855,6 +948,7 @@ msgstr ""
 "Mošomo wo o tsentšhitšwe laesense ka tlase ga laesense ya <a "
 "href=\"${license_url}\">Dinaga tše Hlabologago tša Creative Commons</a>."
 
+#: c/engine/chooser_pages/index.pt:32
 msgid "license.what"
 msgstr ""
 "Ka laesense ya Creative Commons, <strong>o boloka tokelo ya gago ya "
@@ -873,6 +967,7 @@ msgstr ""
 msgid "char.by_brief.jp"
 msgstr "O swanetše go nea mongwadi wa mathomo le modiragatši theto."
 
+#: c/engine/chooser_pages/results.pt:94
 msgid "license.learn_host"
 msgstr ""
 "Ithute ka mafelo a mangwe ao o ka swarago difaele tša gago tšeo di nago "
@@ -881,24 +976,30 @@ msgstr ""
 msgid "lang.es_CO"
 msgstr "Spanish (CO)"
 
+#: c/engine/pd/templates/publicdomain-4.pt:42 c/engine/chooser_pages/gpl.pt:110
+#: c/engine/chooser_pages/lgpl.pt:113
 msgid "license.get_html_email"
 msgstr "Hwetša HTML gomme o ithomelele yona ka emeile"
 
+#: c/engine/macros_templates/metadata.pt:38
 msgid "util.Interactive"
 msgstr "Tsenelelano"
 
+#: c/engine/chooser_pages/htmlpopup.pt:27
 msgid "license.html_email"
 msgstr "Tsenya aterese ya emeile gore o hwetše HTML ka emeile:"
 
 msgid "util.Next_step"
 msgstr "Mogato o latelago:"
 
+#: c/engine/chooser_pages/index.pt:198
 msgid "license.or_choose"
 msgstr "Goba Kgetha:"
 
 msgid "licenses.pretty_by-nc-nd"
 msgstr "Tsebagatšo-E sego ya Kgwebo-Tše sa fetolwego"
 
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:19
 msgid "deed.disclaimer"
 msgstr ""
 "<p>\n"
@@ -916,15 +1017,19 @@ msgstr ""
 "Tlwaelegilego ga go age tswalano ya ramolao le modirelwa.\n"
 "</p>"
 
+#: c/engine/chooser_pages/results.pt:15
 msgid "license.here_chosen"
 msgstr "Laesense yeo o e kgethilego ke ye"
 
+#: c/engine/macros_templates/deed.pt:161
 msgid "deed.learn"
 msgstr "Ithute kamoo o ka abago mošomo wa gago o diriša laesense ye"
 
+#: c/engine/chooser_pages/htmlpopup.pt:41
 msgid "util.Send"
 msgstr "Romela"
 
+#: c/engine/licenses/fsf_templates/deed.pt:40
 msgid "deed.gpl_free_improve"
 msgstr ""
 "Tokologo ya go kaonafatša lenaneo le go lokolla dikaonafatšo setšhabeng, "
@@ -933,6 +1038,7 @@ msgstr ""
 msgid "lang.zh_TW"
 msgstr "Setšhaena (sa Taiwan)"
 
+#: c/engine/macros_templates/metadata.pt:84
 msgid "jargon.source_work_description"
 msgstr "Mošomo wo o mongwe o ntšhitšwego go ona."
 
@@ -965,6 +1071,7 @@ msgstr ""
 "\n"
 "Re lebogela gore o šomišitše Creative Commons!"
 
+#: c/engine/chooser_pages/gpl.pt:25 c/engine/chooser_pages/lgpl.pt:26
 msgid "license.fsf_explain"
 msgstr ""
 "<h1>Creative Commons GNU ${license_code}</h1>\n"
@@ -980,30 +1087,37 @@ msgstr ""
 "ka šomiša leswao la Creative Commons, yeo e lomaganyago le CC-GNU "
 "${license_code}. Dipoelo di tla bonagala ka tsela ye:</p>"
 
+#: c/engine/chooser_pages/index.pt:124
 msgid "char.sa_description"
 msgstr ""
 "Yo a tsentšhitšego laesense o dumelela ba bangwe go aba mešomo e "
 "ntšhitšwego feela ka tlase ga laesense e swanago le yeo e bušago mošomo "
 "wa yo a tsentšhitšego laesense."
 
+#: c/engine/macros_templates/metadata.pt:34
 msgid "util.Image"
 msgstr "Seswantšho"
 
+#: c/engine/macros_templates/metadata.pt:28
 msgid "util.Other"
 msgstr "Tše dingwe"
 
+#: c/engine/pd/templates/publicdomain-partner.pt:31
+#: c/engine/chooser_pages/partner/results.pt:35
 msgid "license.you_may_proceed"
 msgstr "Bjale o ka<a href=\"${processed_exit_url}\">tšwela pele</a>"
 
 msgid "char.nc_title"
 msgstr "E sego ya kgwebo"
 
+#: c/engine/chooser_pages/index.pt:204
 msgid "licenses.pretty_publicdomain"
 msgstr "Bulegetše Setšhaba"
 
 msgid "lang.zh"
 msgstr "Setšhaena"
 
+#: c/engine/chooser_pages/results.pt:59
 msgid "license.have_your_own_website"
 msgstr "O nale wepesaete ya gago?"
 
@@ -1024,6 +1138,7 @@ msgstr ""
 msgid "lang.ja"
 msgstr "Sejapane"
 
+#: c/engine/chooser_pages/sampling.pt:53
 msgid "license.sampling_title"
 msgstr "Kgetha Dikgetho tša Gago tša Laesense ya Sampole"
 
@@ -1033,12 +1148,17 @@ msgstr "Japane"
 msgid "deed.free_commercial"
 msgstr "go dira tirišo ya kgwebo ya mošomo"
 
+#: c/engine/chooser_pages/index.pt:47 c/engine/chooser_pages/index.pt:50
+#: c/engine/chooser_pages/index.pt:82 c/engine/chooser_pages/index.pt:89
+#: c/engine/chooser_pages/index.pt:97 c/engine/chooser_pages/index.pt:130
+#: c/engine/chooser_pages/sampling.pt:74
 msgid "util.more_info"
 msgstr "tshedimošo e oketšegilego"
 
 msgid "nav.select_a_jurisdiction"
 msgstr "Kgetha matla a boahlodi"
 
+#: c/engine/chooser_pages/sampling.pt:61
 msgid "license.sampling_a_sampling+"
 msgstr ""
 "<strong>Sampole le Tlaleletšo</strong>: Batho ba ka tšea le go fetoša "
@@ -1048,6 +1168,7 @@ msgstr ""
 "<strong>mošomo ka moka</strong> le gona go dumeletšwe. Ke ka baka leo, "
 "\"<strong>tlaleletšo</strong>\"."
 
+#: c/engine/macros_templates/deed.pt:98
 msgid "deed.human_summary_multilanguage"
 msgstr ""
 "Ye ke kakaretšo yeo e balegago gabonolo ya Khoutu ya Semolao (laesense e "
@@ -1059,21 +1180,30 @@ msgstr "Jordane"
 msgid "country.es-ca"
 msgstr "Catalonia"
 
+#: c/engine/pd/templates/publicdomain-4.pt:41 c/engine/chooser_pages/gpl.pt:107
+#: c/engine/chooser_pages/lgpl.pt:110 c/engine/chooser_pages/nonweb_popup.pt:31
+#: c/engine/chooser_pages/htmlpopup.pt:20
 msgid "util.Highlight_Text"
 msgstr "Kgethagatša Sengwalwa go Kopi"
 
 msgid "char.nd_brief"
 msgstr "O ka seke wa lokiša, fetoša goba go aga godimo ga mošomo wo."
 
+#: c/engine/chooser_pages/sampling.pt:78 c/engine/chooser_pages/sampling.pt:90
+#: c/engine/chooser_pages/partner/index.pt:83
+#: c/engine/chooser_pages/partner/index.pt:86
 msgid "util.Generic"
 msgstr "E sa fetišwago"
 
 msgid "lang.es_AR"
 msgstr "Sepaniši (AR)"
 
+#: c/engine/macros_templates/metadata.pt:66
+#: c/engine/macros_templates/metadata.pt:82
 msgid "util.source_work"
 msgstr "mošomo wa mothopo"
 
+#: c/engine/chooser_pages/sampling.pt:115
 msgid "license.sampling_note"
 msgstr ""
 "Lemoga: Laesense ya sampole ga se ya mmino feela. E ka šoma go mehuta ka "
@@ -1086,6 +1216,7 @@ msgstr "Australia"
 msgid "country.at"
 msgstr "Austria"
 
+#: c/engine/chooser_pages/nonweb_popup.pt:19
 msgid "license.non_web_pd"
 msgstr ""
 "Mošomo wo o lokollelwa go Bulegela Setšhaba. Gore o lebelele kopi ya "
@@ -1097,6 +1228,7 @@ msgstr ""
 msgid "country.ar"
 msgstr "Argentina"
 
+#: c/engine/licenses/standard_templates/deed.pt:77
 msgid "deed.superseded"
 msgstr ""
 "Tokollo <a href=\"${current_version_url}\">e mpsha</a> ya laesense ye e a"
@@ -1105,18 +1237,23 @@ msgstr ""
 "yona. Lega go le bjalo, ga go na mešomo yeo  <em>ka mo go "
 "itiragalelago</em> e tsenywago ka tlase ga laesense e mpsha."
 
+#: c/engine/chooser_pages/index.pt:209
 msgid "licenses.pretty_sampling+"
 msgstr "Sampole ya Tlaleletšo"
 
+#: c/engine/chooser_pages/index.pt:42
 msgid "api.commercial"
 msgstr "Dumelela ditirišo tša kgwebo tša mošomo wa gago?"
 
+#: c/engine/macros_templates/support.pt:103
+#: c/engine/macros_templates/support.pt:107
 msgid "license.enter_information"
 msgstr "tsenya tshedimošo"
 
 msgid "jswidget.Allow_Remixing"
 msgstr "Allow Remixing"
 
+#: c/engine/macros_templates/metadata.pt:16
 msgid "license.hide_optional_fields"
 msgstr "Fihla mapatlelo a (Mapatlelo ka moka ke a boikgethelo)"
 
@@ -1126,6 +1263,7 @@ msgstr "Portugal"
 msgid "license.GPL_name_full"
 msgstr "GNU Laesense ya Bohle ya Kakaretšo"
 
+#: c/engine/licenses/fsf_templates/deed.pt:36
 msgid "deed.gpl_free_study"
 msgstr ""
 "Tokologo ya go ithuta kamoo lenaneo le šomago ka gona le go itlwaelanya "
@@ -1134,6 +1272,7 @@ msgstr ""
 msgid "lang.af"
 msgstr "se-Afrikaans"
 
+#: c/engine/licenses/mitbsd_templates/deed.pt:54
 msgid "deed.mit_notice"
 msgstr ""
 "The copyright notice and license shall be included in all copies or\n"
@@ -1145,15 +1284,18 @@ msgstr "Remix"
 msgid "char.nc_brief"
 msgstr "O ka se diriše mošomo wo bakeng sa merero ya kgwebo."
 
+#: c/engine/macros_templates/metadata.pt:72
 msgid "util.more_permissions_url"
 msgstr "more permissions URL"
 
+#: c/engine/licenses/standard_templates/deed.pt:64
 msgid "deed.moralrights"
 msgstr "Nothing in this license impairs or restricts the author's moral rights."
 
 msgid "country.sk"
 msgstr "Slovak Repabliki"
 
+#: c/engine/chooser_pages/results.pt:61
 msgid "license.copy_text"
 msgstr ""
 "Kopiša mongwalo wo o lego ka mo tlase Wepesaeteng ya gago gore o tsebiše "
@@ -1171,6 +1313,7 @@ msgstr "Singapore"
 msgid "country.se"
 msgstr "Sweden"
 
+#: c/engine/chooser_pages/sampling.pt:82 c/engine/chooser_pages/sampling.pt:94
 msgid "country.de"
 msgstr "Jeremane"
 
@@ -1180,6 +1323,10 @@ msgstr "se-Hungariya"
 msgid "country.dk"
 msgstr "Denmark"
 
+#: c/engine/chooser_pages/nonweb_popup.pt:37
+#: c/engine/chooser_pages/htmlpopup.pt:46
+#: c/engine/chooser_templates/emailhtml.pt:19 c/engine/templates/by.pt:31
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:21
 msgid "util.Close_window"
 msgstr "Tswalela lefesetere"
 
@@ -1195,6 +1342,10 @@ msgstr "UK: Scotland"
 msgid "country.ua"
 msgstr "Ukraine"
 
+#: c/engine/licenses/fsf_templates/deed.pt:24
+#: c/engine/licenses/devnations_templates/deed.pt:25
+#: c/engine/licenses/sampling_templates/deed.pt:23
+#: c/engine/licenses/standard_templates/deed.pt:31
 msgid "deed.retired"
 msgstr ""
 "This license is <a href=\"/retiredlicenses\">retired</a>. Do not use for "
@@ -1212,6 +1363,7 @@ msgstr "China Naga-bogareng"
 msgid "licenses.pretty_GPL"
 msgstr "GPL"
 
+#: c/engine/macros_templates/deed.pt:76
 msgid "deed.disclaimer.jp"
 msgstr ""
 "<p>\n"
@@ -1250,6 +1402,7 @@ msgstr ""
 msgid "country.ch"
 msgstr "Switzerland"
 
+#: c/engine/chooser_pages/results.pt:105
 msgid "license.publish_flickr"
 msgstr "Romela diswantšho tša gago tšeo di nago le laesense go Flickr"
 
@@ -1292,6 +1445,7 @@ msgstr ""
 msgid "license.Final_step"
 msgstr "Mogato wa mafelelo:"
 
+#: c/engine/licenses/fsf_templates/deed.pt:55
 msgid "deed.gpl_notice"
 msgstr ""
 "O swanetše gore o phatlalatše ka tshwanelo le ka tsela e sa solegego kopi"
@@ -1302,12 +1456,19 @@ msgstr ""
 "${license_name_full} gotee le Lenaneo. Diphetolelo le ge ele dife tša "
 "${license_name_full} di swanetše go felegetšwa ke ${license_name_full}."
 
+#: c/engine/licenses/devnations_templates/deed.pt:30
+#: c/engine/licenses/mitbsd_templates/deed.pt:25
+#: c/engine/licenses/standard_templates/deed.pt:38
 msgid "deed.free_copy_distribute"
 msgstr "<strong>go Abelana</strong> — go kopiša, aba, le go fetišetša mošomo"
 
+#: c/engine/chooser_pages/index.pt:115
 msgid "char.nd_title"
 msgstr "Ga go na Mešomo e Ntšhitšwego"
 
+#: c/engine/licenses/devnations_templates/deed.pt:50
+#: c/engine/licenses/sampling_templates/deed.pt:43
+#: c/engine/licenses/standard_templates/deed.pt:56
 msgid "deed.notice"
 msgstr ""
 "Bakeng sa tirišo gape goba go aba le ge ele gofe, o swanetše go "
@@ -1320,6 +1481,7 @@ msgstr "se-Sloveniya"
 msgid "util.copyright"
 msgstr "tokelo ya ngwalollo"
 
+#: c/engine/chooser_pages/nonweb_popup.pt:27
 msgid "license.non_web_statement"
 msgstr ""
 "Mošomo wo o tsentšhitšwe laesense ka tlase ga Laesense ya Creative "
@@ -1327,6 +1489,7 @@ msgstr ""
 "${license_url} goba o romele lengwalo go Creative Commons, 171 Second "
 "Street, Suite 300, San Francisco, California, 94105, USA."
 
+#: c/engine/licenses/mitbsd_templates/deed.pt:40
 msgid "deed.no_endorsement"
 msgstr ""
 "<strong>No Endorsement</strong>. The name of the author may not be used "
@@ -1336,9 +1499,11 @@ msgstr ""
 msgid "jswidget.Prohibit_Commercial_Use"
 msgstr "Prohibit Commercial Use"
 
+#: c/engine/chooser_pages/results.pt:56
 msgid "license.what_to_do_next"
 msgstr "Se latelago seo se swanetšego go dirwa"
 
+#: c/engine/pd/templates/publicdomain-4.pt:52
 msgid "license.mark_rss"
 msgstr ""
 "Tsenya tshedimošo ya gago ya laesense go koketšo ya RSS, diriša <a "
@@ -1350,6 +1515,10 @@ msgstr ""
 msgid "lang.es_CL"
 msgstr "Sepaniši (CL)"
 
+#: c/engine/chooser_pages/sampling.pt:36
+#: c/engine/macros_templates/support.pt:127
+#: c/engine/macros_templates/support.pt:134
+#: c/engine/macros_templates/support.pt:136
 msgid "license.review_choice"
 msgstr "boeletša kgetho"
 
@@ -1367,9 +1536,11 @@ msgstr ""
 msgid "util.Share_Music"
 msgstr "Abelana Mmino"
 
+#: c/engine/chooser_pages/index.pt:122
 msgid "char.sa_title"
 msgstr "Mohlakanelwa"
 
+#: c/engine/chooser_pages/index.pt:193
 msgid "license.explain"
 msgstr ""
 "Creative Commons e go thuša go phatlalatša mošomo wa gago mo inthaneteng "
@@ -1379,6 +1550,7 @@ msgstr ""
 "ya gago, goba go e tee ya ditirelo tša gago tše mmalwa tšeo di sa "
 "lefelelwego tšeo di akareditšego Creative Commons."
 
+#: c/engine/pd/templates/publicdomain-4.pt:27
 msgid "license.mark_pd"
 msgstr ""
 "Ka ge bjale o kgethile moneelo wo o bulegetšego setšhaba, o swanetše go "
@@ -1387,12 +1559,14 @@ msgstr ""
 msgid "util.Try_again"
 msgstr "Leka gape!"
 
+#: c/engine/chooser_pages/index.pt:214
 msgid "util.Founders_Copyright"
 msgstr "Tokelo ya ngwalollo ya Mothei"
 
 msgid "licenses.pretty_nc-sa"
 msgstr "E sego ya Kgwebo-Mohlakanelwa"
 
+#: c/engine/pd/templates/publicdomain-3.pt:40
 msgid "license.pd_confirm"
 msgstr ""
 "<h1>Tiišetša Moneelo wa Gago o Bulegetšego Setšhaba</h1>\n"
@@ -1411,12 +1585,15 @@ msgstr ""
 "${pd_deed_text}\n"
 "        </div>"
 
+#: c/engine/chooser_pages/results.pt:78
 msgid "license.after_support_cc"
 msgstr ""
 "After publishing your license, please consider <a "
 "href=\"http://creativecommons.org/support/\">supporting Creative "
 "Commons</a>."
 
+#: c/engine/pd/templates/publicdomain-3.pt:93 c/engine/pd/templates
+#: /publicdomain-waiting-email-verification.pt:59
 msgid "license.pd_bad_confirmation"
 msgstr ""
 "<h1>Moneelo wo o Bulegetšego Setšhaba - Tiišetšo e Mpe</h1>\n"
@@ -1440,25 +1617,31 @@ msgstr ""
 "href=\"mailto:pd@creativecommons.org\">re tsebiše</a>.\n"
 "</p>"
 
+#: c/engine/templates/by.pt:25
 msgid "char.by_description"
 msgstr ""
 "O swanetše go tsebagatša mošomo\n"
 "ka tsela yeo e boletšwego ke mongwadi goba yo a tsentšhitšego laesense."
 
+#: c/engine/macros_templates/metadata.pt:36
 msgid "util.Text"
 msgstr "Sengwalwa"
 
+#: c/engine/licenses/devnations_templates/deed.pt:48
+#: c/engine/licenses/sampling_templates/deed.pt:41
 msgid "char.by_brief"
 msgstr ""
 "O swanetše go tsebagatša mošomo ka mokgwa wo o bontšhitšwego ke mongwadi "
 "goba mong wa laesense (eupša e sego ka tsela le ge ele efe yeo e "
 "šišinyago gore ba dumelela wena goba tirišo ya gago ya mošomo)."
 
+#: c/engine/chooser_pages/results.pt:117
 msgid "license.publish_morpheus"
 msgstr ""
 "Phatlalatša mmino wa gago wo o nago le laesense netewekeng ya Morpheus "
 "P2P."
 
+#: c/engine/chooser_pages/results.pt:108
 msgid "license.publish_buzznet"
 msgstr "Go romela diswantšho tšeo di nago le laesense go Buzznet"
 
@@ -1471,6 +1654,7 @@ msgstr ""
 "feletšego. Ga go hlokege gore o fane ka khoutu ya mothopo go mananeo ao a"
 " lomaganyago go bokgobapuku."
 
+#: c/engine/chooser_pages/results.pt:76
 msgid "license.read_tutorial"
 msgstr ""
 "Na o nyaka thušo e oketšegilego? <a href=\"/education/publish-"
@@ -1479,6 +1663,7 @@ msgstr ""
 msgid "country.fi"
 msgstr "Finland"
 
+#: c/engine/chooser_pages/partner/index.pt:25
 msgid "license.partner_what"
 msgstr ""
 "<p>O dirile mošomo wo o ikgantšhago ka wona. Bjale ke nako ya go dira ka "
@@ -1497,6 +1682,9 @@ msgstr ""
 "ka mošomo wa gago ka ntle le maemo, kgetha <a "
 "href=\"${results_pd_url}\">bulegetšego setšhaba</a>.</p>"
 
+#: c/engine/chooser_pages/index.pt:49 c/engine/chooser_pages/index.pt:96
+#: c/engine/chooser_pages/partner/index.pt:56
+#: c/engine/chooser_pages/partner/index.pt:73
 msgid "util.No"
 msgstr "Aowa"
 
@@ -1520,9 +1708,11 @@ msgstr ""
 "governed by the Copyright Law of a specific jurisdiction, please select "
 "the appropriate jurisdiction."
 
+#: c/engine/macros_templates/metadata.pt:15
 msgid "license.include_more"
 msgstr "Kgotla gore o tsenye tshedimošo e oketšegilego mabapi le mošomo wa gago."
 
+#: c/engine/chooser_templates/emailhtml.pt:16
 msgid "license.link_emailed"
 msgstr ""
 "<p>\n"
@@ -1533,9 +1723,11 @@ msgstr ""
 "<p>Bea lomaganyo goba HTML wepesaeteng ya gago, kgauswi le mošomo wo o "
 "nyakago go o tsenya laesense.  </p>"
 
+#: c/engine/macros_templates/deed.pt:118 c/engine/macros_templates/deed.pt:123
 msgid "lang.fr"
 msgstr "Sefora"
 
+#: c/engine/chooser_pages/index.pt:218
 msgid "util.CC_GNU_GPL"
 msgstr "CC-GNU GPL"
 
@@ -1553,6 +1745,7 @@ msgstr "Macedonia"
 msgid "licenses.pretty_sa"
 msgstr "Mohlakanelwa"
 
+#: c/engine/chooser_pages/results.pt:111
 msgid "license.publish_blog"
 msgstr ""
 "Tsenya laesense ya Creative Commons phatlalatšong ya gago ya wepe "
@@ -1561,6 +1754,10 @@ msgstr ""
 msgid "lang.pt"
 msgstr "Sepotokisi"
 
+#: c/engine/licenses/fsf_templates/deed.pt:75
+#: c/engine/licenses/devnations_templates/deed.pt:51
+#: c/engine/licenses/mitbsd_templates/deed.pt:60
+#: c/engine/licenses/standard_templates/deed.pt:60
 msgid "deed.permission"
 msgstr ""
 "Maemo lege ele afe ao a lego ka mo godimo a ka tlogelwa ge eba o hwetša "
@@ -1572,9 +1769,12 @@ msgstr "Malaysia"
 msgid "country.mx"
 msgstr "Mexico"
 
+#: c/engine/chooser_pages/sampling.pt:84 c/engine/chooser_pages/sampling.pt:96
 msgid "country.tw"
 msgstr "Taiwan"
 
+#: c/engine/macros_templates/deed.pt:81 c/engine/licenses/catalog_pages
+#: /disclaimer-popup.pt:15
 msgid "util.Disclaimer"
 msgstr "Moganetši"
 
@@ -1590,6 +1790,7 @@ msgstr "Malta"
 msgid "util.work"
 msgstr "mošomo"
 
+#: c/engine/licenses/fsf_templates/deed.pt:29
 msgid "deed.gpl_freedoms"
 msgstr ""
 "Laesense ya ${license_name_full} ke <a "
@@ -1597,6 +1798,7 @@ msgstr ""
 "Bolokologi</a>. Go fo swana le laesense le ge e le efe ya Sofetewere ya "
 "Bolokologi, e go nea ditokologo tše latelago:"
 
+#: c/engine/chooser_pages/index.pt:117
 msgid "char.nd_description"
 msgstr ""
 "Mong wa laesense o dumelela ba bangwe go kopiša, aba le go fetišetša "
@@ -1606,6 +1808,7 @@ msgstr ""
 msgid "license.learn_publicize"
 msgstr "Ithute kamoo o ka phatlalatšago le go abelana mošomo wa gago"
 
+#: c/engine/macros_templates/deed.pt:135
 msgid "deed.lgpl_human_summary"
 msgstr ""
 "Ye ke kakaretšo yeo e balegago gabonolo ya Khoutu ya Semolao (Laesense <a"
@@ -1613,6 +1816,7 @@ msgstr ""
 "feletšego ya Kakaretšo e Nyenyane ya Setšhaba ya GNU</a>).  <a "
 "href=\"legalcode.pt\">Phetolelo ya sepotokisi</a> le yona e a hwetšagala."
 
+#: c/engine/macros_templates/deed.pt:145
 msgid "deed.gpl_human_summary"
 msgstr ""
 "Ye ke kakaretšo ya Khoutu ya Semolao yeo e balegago gabonolo (laesense e "
@@ -1620,6 +1824,7 @@ msgstr ""
 "licenses/gpl-2.0.html\">GNU ya Setšhaba ya Kakaretšo</a>). <a "
 "href=\"legalcode.pt\">Phetolelo ya sepotokisi</a> le yona e a hwetšagala."
 
+#: c/engine/chooser_pages/partner/index.pt:117
 msgid "license.partner_note"
 msgstr ""
 "<p>\n"
@@ -1635,6 +1840,8 @@ msgstr ""
 msgid "util.Developing_Nations"
 msgstr "Dinaga tše Hlabologago"
 
+#: c/engine/pd/templates/publicdomain-4.pt:54
+#: c/engine/chooser_pages/results.pt:122
 msgid "license.mark_xmp"
 msgstr ""
 "Gore o swaye PDF goba faele yeo e thekgwago ke XMP-, <a "
@@ -1644,11 +1851,13 @@ msgstr ""
 msgid "licenses.pretty_nc-sampling+"
 msgstr "Sampole ya Tlaleletšo e Sego ya Kgwebo"
 
+#: c/engine/licenses/sampling_templates/deed.pt:47
 msgid "char.no_brief"
 msgstr ""
 "O ka seke wa diragatša, bonagatša, goba go aba dikopi tša mošomo wo ka "
 "moka bakeng sa morero le ge ele ofe."
 
+#: c/engine/chooser_pages/index.pt:232
 msgid "util.Wiki"
 msgstr "Wiki"
 
@@ -1661,12 +1870,33 @@ msgstr "Unported"
 msgid "license.work_based_on"
 msgstr "Based on a work at ${source_link}."
 
+#: c/engine/macros_templates/deed.pt:129
 msgid "lang.de"
 msgstr "Sejeremane"
 
+#: c/engine/chooser_pages/sampling.pt:31 c/engine/chooser_pages/sampling.pt:35
+#: c/engine/chooser_pages/sampling.pt:40 c/engine/chooser_pages/sampling.pt:45
+#: c/engine/macros_templates/support.pt:81
+#: c/engine/macros_templates/support.pt:85
+#: c/engine/macros_templates/support.pt:92
+#: c/engine/macros_templates/support.pt:96
+#: c/engine/macros_templates/support.pt:102
+#: c/engine/macros_templates/support.pt:106
+#: c/engine/macros_templates/support.pt:112
+#: c/engine/macros_templates/support.pt:116
+#: c/engine/macros_templates/support.pt:126
+#: c/engine/macros_templates/support.pt:130
+#: c/engine/macros_templates/support.pt:144
+#: c/engine/macros_templates/support.pt:148
+#: c/engine/macros_templates/support.pt:160
+#: c/engine/macros_templates/support.pt:164
 msgid "util.step"
 msgstr "mogato"
 
+#: c/engine/licenses/devnations_templates/deed.pt:27
+#: c/engine/licenses/mitbsd_templates/deed.pt:23
+#: c/engine/licenses/sampling_templates/deed.pt:25
+#: c/engine/licenses/standard_templates/deed.pt:34
 msgid "deed.You_are_free"
 msgstr "O lokologile:"
 
@@ -1675,6 +1905,7 @@ msgstr ""
 "Ge eba o lokiša, fetoša, goba go aga godimo ga mošomo wo, o ka aba mošomo"
 " wo o tla bego o dirilwe ka tlase ga laesense e swanago le yona ye."
 
+#: c/engine/chooser_pages/index.pt:236
 msgid "util.Music_Sharing"
 msgstr "Go Abelana Mmino"
 
@@ -1684,6 +1915,7 @@ msgstr "LGPL"
 msgid "lang.fr_CA"
 msgstr "Sefora (CA)"
 
+#: c/engine/chooser_pages/gpl.pt:47 c/engine/chooser_pages/lgpl.pt:48
 msgid "license.lawyer-readable_legal_code"
 msgstr ""
 "Balegago go Boramolao<br/>\n"
@@ -1692,6 +1924,9 @@ msgstr ""
 msgid "jswidget.Require_Share-Alike"
 msgstr "Require Share-Alike"
 
+#: c/engine/licenses/devnations_templates/deed.pt:34
+#: c/engine/licenses/mitbsd_templates/deed.pt:26
+#: c/engine/licenses/standard_templates/deed.pt:39
 msgid "deed.free_derivative"
 msgstr "<strong>go Tswaka leswa</strong> — go dumelelana le mošomo"
 
@@ -1701,9 +1936,14 @@ msgstr "Hwetša mmino, dinepe le tše dingwe tše oketšegilego"
 msgid "country.ve"
 msgstr "Venezuela"
 
+#: c/engine/chooser_pages/sampling.pt:46
+#: c/engine/macros_templates/support.pt:161
+#: c/engine/macros_templates/support.pt:165
 msgid "license.publicize"
 msgstr "phatlalatša"
 
+#: c/engine/pd/templates/publicdomain-3.pt:41
+#: c/engine/licenses/publicdomain_templates/deed.pt:19
 msgid "deed.pd"
 msgstr ""
 "<p align=\"center\"><em>Moneelo wa Tokelo ya Ngwalollo Feela (e theilwego"
@@ -1748,6 +1988,7 @@ msgstr ""
 "kgwebo, ka tsela le ge ele efe, go akaretšwa mekgwa yeo e sešogo ya "
 "tsebjwa goba go tšweletšwa.</p>"
 
+#: c/engine/pd/templates/publicdomain-2.pt:24
 msgid "license.pd_enter_info"
 msgstr ""
 "<h1>Tsenya Tshedimošo</h1>\n"
@@ -1773,11 +2014,13 @@ msgstr ""
 "\n"
 "        <p>mapatlelo ka moka a a nyakega</p>"
 
+#: c/engine/licenses/sampling_templates/deed.pt:27
 msgid "deed.free_sample_nc"
 msgstr ""
 "Go dira sampole, go tswaka gape, goba ka tsela e itšego o fetoša ka tsela"
 " ya bokgoni mošomo wo bakeng sa merero yeo e sego ya kgwebo."
 
+#: c/engine/chooser_pages/sampling.pt:116
 msgid "license.sampling_before"
 msgstr ""
 "Pele o diriša Laesense ya Sampole mošomong wa gago, kgonthišetša gore o "
@@ -1791,6 +2034,7 @@ msgstr "Matla a boahlodi a laesense ya gago:"
 msgid "util.home"
 msgstr "gae"
 
+#: c/engine/pd/templates/publicdomain-2.pt:53
 msgid "license.proceed_email_note"
 msgstr ""
 "<b>LEMOGA:</b> go kgotla go \"tšwela pele\" go tla romela kgopelo ya "

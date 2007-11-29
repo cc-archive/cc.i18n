@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2007-11-29 11:25+0800\n"
-"PO-Revision-Date: 2007-11-29 11:32-0800\n"
+"PO-Revision-Date: 2007-11-29 11:34-0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: pl <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
@@ -21,40 +21,43 @@ msgstr "New Zealand"
 msgid "country.gr"
 msgstr "Greece"
 
+#: c/engine/chooser_pages/index.pt:104
 msgid "Allow Derivative Works"
 msgstr ""
 
-#: s/index.pt:107
+#: c/engine/chooser_pages/index.pt:107
 msgid ""
 "The licensor permits others to copy, distribute, display and perform the "
 "work, as well as make derivative works based on it."
 msgstr ""
 
-#: s/index.pt:56
+#: c/engine/chooser_pages/index.pt:56
 msgid "Commercial Use"
 msgstr ""
 
-#: s/index.pt:59
+#: c/engine/chooser_pages/index.pt:59
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the"
 " work, including for commercial purposes."
 msgstr ""
 
-#: s/index.pt:70
+#: c/engine/chooser_pages/index.pt:70
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the"
 " work for non-commercial purposes only."
 msgstr ""
 
-#: s/index.pt:88
+#: c/engine/chooser_pages/index.pt:88
 msgid "Yes, as long as others share alike"
 msgstr ""
 
+#: c/engine/licenses/sampling_templates/deed.pt:31
 msgid "deed.free_copy_distribute_noncommercial"
 msgstr ""
 "Wykonywać, odtwarzać i rozpowszechniać kopie całości tego utworu w celach"
 " niekomercyjnych (np. w sieciach P2P lub transmitować przez internet)."
 
+#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
 msgid "license.pd_awaiting_confirmation"
 msgstr ""
 "<h1>Public Domain Dedication - Email Confirmation</h1>\n"
@@ -98,6 +101,7 @@ msgstr ""
 msgid "country.bg"
 msgstr "Bułgaria"
 
+#: c/engine/pd/templates/publicdomain-4.pt:32
 msgid "license.mark_web"
 msgstr ""
 "Aby oznaczyć zawartość swojej strony WWW, kod HTML konieczny do "
@@ -108,18 +112,25 @@ msgstr ""
 msgid "util.copyright_date"
 msgstr "copyright date"
 
+#: c/engine/chooser_pages/index.pt:168 c/engine/chooser_pages/sampling.pt:104
 msgid "util.Jurisdiction"
 msgstr "System prawny"
 
+#: c/engine/chooser_pages/sampling.pt:80 c/engine/chooser_pages/sampling.pt:92
 msgid "country.br"
 msgstr "Brazylia"
 
 msgid "util.Creative_Commons_License"
 msgstr "Licencja Creative Commons"
 
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
 msgid "license.mark_content"
 msgstr "oznacz zawartość"
 
+#: c/engine/licenses/fsf_templates/deed.pt:48
 msgid "deed.gpl_under_conditions"
 msgstr ""
 "Z gwarantowanych tu swobód można korzystać tylko i wyłącznie gdy "
@@ -135,6 +146,7 @@ msgstr ""
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
 "Domain</a>."
 
+#: c/engine/chooser_pages/index.pt:77
 msgid "api.derivatives"
 msgstr "Czy zezwalasz na modyfikacje swojego utworu?"
 
@@ -147,6 +159,7 @@ msgstr ""
 msgid "deed.back_to_cc"
 msgstr "wróć do <a href=\"/\">Creative Commons</a>"
 
+#: c/engine/chooser_pages/gpl.pt:63 c/engine/chooser_pages/lgpl.pt:66
 msgid "license.fsf_how_it_works"
 msgstr ""
 "Oto jak działa licencja CC-GNU ${license_code}: Klikając na ikonę "
@@ -160,6 +173,7 @@ msgstr ""
 " W tagu ukryty jest kod - metadane - który pozwoli na odszukanie "
 "oprogramowania."
 
+#: c/engine/licenses/mitbsd_templates/deed.pt:46
 msgid "deed.bsd_notice"
 msgstr ""
 "You must retain the license terms and copyright notice in any source code"
@@ -174,12 +188,15 @@ msgstr ""
 "We have updated the version of your license to the most recent one "
 "available."
 
+#: c/engine/chooser_pages/index.pt:67
 msgid "licenses.pretty_nc"
 msgstr "Użycie niekomercyjne"
 
+#: c/engine/macros_templates/deed.pt:103
 msgid "lang.ca"
 msgstr "kataloński"
 
+#: c/engine/chooser_pages/gpl.pt:66 c/engine/chooser_pages/lgpl.pt:69
 msgid "license.fsf_mark_software"
 msgstr ""
 "<h1>Oznacz Program</h1>\n"
@@ -198,14 +215,18 @@ msgstr ""
 "rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
 "License</a>."
 
+#: c/engine/chooser_pages/gpl.pt:46 c/engine/chooser_pages/lgpl.pt:47
 msgid "license.human-readable_commons_deed"
 msgstr ""
 "Przystępne Podsumowanie <br/>\n"
 "Commons Deed"
 
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
 msgid "license.confirm_choice"
 msgstr "potwierdź wybór"
 
+#: c/engine/chooser_pages/sampling.pt:54
 msgid "license.sampling_explain"
 msgstr ""
 "<div style=\"float:right;width:175px;border:1px solid "
@@ -260,14 +281,19 @@ msgstr ""
 msgid "lang.bg"
 msgstr "bułgarski"
 
+#: c/engine/chooser_pages/gpl.pt:37 c/engine/chooser_pages/gpl.pt:79
+#: c/engine/chooser_pages/lgpl.pt:38 c/engine/chooser_pages/lgpl.pt:82
 msgid "license.fsf_software_licensed"
 msgstr ""
 "Ten program objęty jest licencją <a href=\"${license_url}\">CC-GNU "
 "${license_code}</a>."
 
+#: c/engine/pd/templates/publicdomain-2.pt:34
+#: c/engine/macros_templates/metadata.pt:46
 msgid "util.title_of_work"
 msgstr "tytuł utworu"
 
+#: c/engine/licenses/fsf_templates/deed.pt:61
 msgid "deed.gpl_sharealike"
 msgstr ""
 "W przypadku dokonania zmian w egzemplarzu lub egzemplarzach programu lub "
@@ -280,6 +306,7 @@ msgstr ""
 msgid "country.ie"
 msgstr "Irlandia"
 
+#: c/engine/macros_templates/engine.pt:111
 msgid "license.License_Your_Work"
 msgstr "Wybierz licencję dla swojej twórczości"
 
@@ -292,6 +319,7 @@ msgstr "Uznanie autorstwa-Bez utworów zależnych"
 msgid "lang.es_PE"
 msgstr "Spanish (PE)"
 
+#: c/engine/licenses/sampling_templates/deed.pt:29
 msgid "deed.free_sample"
 msgstr ""
 "Samplować, miksować lub w jakikolwiek inny kreatywny sposób zmieniać ten "
@@ -335,6 +363,7 @@ msgstr "malajski"
 msgid "country.ph"
 msgstr "Filipiny"
 
+#: c/engine/licenses/sampling_templates/deed.pt:42
 msgid "char.na_brief"
 msgstr ""
 "Nie wolno używać tego utworu do reklamy lub promocji, z wyjątkiem reklamy"
@@ -357,6 +386,7 @@ msgstr "Strona jest dostępna w następujących językach:"
 msgid "lang.en_GB"
 msgstr "angielski (W. Brytania)"
 
+#: c/engine/licenses/standard_templates/deed.pt:69
 msgid "deed.moralrights-remix.us"
 msgstr ""
 "Apart from the remix rights granted under this license, nothing in this "
@@ -365,6 +395,7 @@ msgstr ""
 msgid "lang.pl"
 msgstr "polski"
 
+#: c/engine/pd/templates/publicdomain-3.pt:87
 msgid "util.confirm"
 msgstr "potwierdź"
 
@@ -378,20 +409,28 @@ msgstr ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">rok zastrzeżenia praw</a>"
 
+#: c/engine/chooser_pages/index.pt:29
 msgid "license.Choose_License"
 msgstr "wybierz licencję"
 
+#: c/engine/licenses/fsf_templates/deed.pt:38
 msgid "deed.gpl_free_redistribute"
 msgstr "Swoboda redystrybucji kopii, aby pomóc innym (np. sąsiadom)."
 
+#: c/engine/pd/templates/publicdomain-4.pt:47
 msgid "license.mark_mp3"
 msgstr ""
 "Aby oznaczyć plik mp3 należy postępować według <a "
 "href=\"/technology/mp3\">następujących wskazówek</a>."
 
+#: c/engine/licenses/devnations_templates/deed.pt:40
+#: c/engine/licenses/mitbsd_templates/deed.pt:33
+#: c/engine/licenses/sampling_templates/deed.pt:39
+#: c/engine/licenses/standard_templates/deed.pt:45
 msgid "deed.under_conditions"
 msgstr "Na następujących warunkach:"
 
+#: c/engine/chooser_pages/gpl.pt:48 c/engine/chooser_pages/lgpl.pt:49
 msgid "license.machine-readable_digital_code"
 msgstr ""
 "Zapis możliwy do odczytania przez urządzenia cyfrowe<br />\n"
@@ -404,9 +443,11 @@ msgstr ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">praw autorskich</a>"
 
+#: c/engine/macros_templates/metadata.pt:58
 msgid "util.attribute_to_url"
 msgstr "attribute to url"
 
+#: c/engine/chooser_pages/index.pt:195
 msgid "license.view_explanation"
 msgstr "Przeczytaj wyjaśnienie wszystkich naszych licencji."
 
@@ -420,6 +461,7 @@ msgstr ""
 " Copyright does not apply to facts or ideas, but to the original "
 "expression of those facts or ideas."
 
+#: c/engine/licenses/fsf_templates/deed.pt:50
 msgid "deed.lgpl_under_conditions"
 msgstr ""
 "Z gwarantowanych tu swobód można korzystać tylko i wyłącznie gdy "
@@ -435,6 +477,7 @@ msgstr ""
 msgid "country.lu"
 msgstr "Luksemburg"
 
+#: c/engine/macros_templates/metadata.pt:23
 msgid "license.tell_format"
 msgstr "W jakim formacie jest utwór:"
 
@@ -444,6 +487,7 @@ msgstr "Chile"
 msgid "lang.nso"
 msgstr "Northern Sotho"
 
+#: c/engine/chooser_pages/index.pt:222
 msgid "util.CC_GNU_LGPL"
 msgstr "CC-GNU LGPL"
 
@@ -454,9 +498,11 @@ msgstr ""
 "celów reklamowych są zabronione). Kopiowanie i dystrybucja <strong>całego"
 " utworu</strong> są także zabronione."
 
+#: c/engine/chooser_pages/results.pt:98
 msgid "license.publish_audio_ia"
 msgstr "Publikowanie licencjonowanej muzyki w Internet Archive"
 
+#: c/engine/chooser_pages/results.pt:92
 msgid "license.no_web_site"
 msgstr "Nie masz strony WWW?"
 
@@ -466,6 +512,7 @@ msgstr "Serbia"
 msgid "country.kr"
 msgstr "Korea"
 
+#: c/engine/chooser_pages/partner/index.pt:69
 msgid "license.a6"
 msgstr ""
 "Tak, o ile inni stosują taką samą licencję (<a "
@@ -506,6 +553,7 @@ msgstr "włoski"
 msgid "country.ro"
 msgstr "Rumunia"
 
+#: c/engine/chooser_pages/index.pt:191
 msgid "license.what_you"
 msgstr "Czemu to służy?"
 
@@ -517,6 +565,7 @@ msgstr ""
 msgid "licenses.pretty_by-nd-nc"
 msgstr "Uznanie autorstwa-Bez utworów zależnych- Użycie Niekomercyjne"
 
+#: c/engine/macros_templates/deed.pt:110
 msgid "lang.gl"
 msgstr "galicyjski"
 
@@ -525,9 +574,13 @@ msgstr ""
 "You may now <a href=\"publicdomain-2?${url_vars}\">proceed and enrich the"
 " public domain with your work</a>."
 
+#: c/engine/pd/templates/publicdomain-2.pt:29
 msgid "util.your_email"
 msgstr "adres email"
 
+#: c/engine/chooser_pages/index.pt:46 c/engine/chooser_pages/index.pt:81
+#: c/engine/chooser_pages/partner/index.pt:54
+#: c/engine/chooser_pages/partner/index.pt:65
 msgid "util.Yes"
 msgstr "Tak"
 
@@ -536,6 +589,7 @@ msgstr ""
 "kopiować, rozpowszechniać, odtwarzać, wykonywać, przedstawiać, publicznie"
 " transmitować i recytować utwór"
 
+#: c/engine/pd/templates/publicdomain-partner.pt:24
 msgid "license.pd_choice"
 msgstr ""
 "<p>Your choice suggests you want to dedicate your work to the public "
@@ -547,9 +601,11 @@ msgstr ""
 "entire copyright to the public without condition. This grant is permanent"
 " and irreversible.</p>"
 
+#: c/engine/macros_templates/metadata.pt:30
 msgid "util.Audio"
 msgstr "Audio"
 
+#: c/engine/macros_templates/deed.pt:92
 msgid "deed.fair_use"
 msgstr ""
 "Powyższe postanowienia w żaden sposób nie naruszają uprawnień "
@@ -558,9 +614,11 @@ msgstr ""
 msgid "country.nl"
 msgstr "Holandia"
 
+#: c/engine/pd/templates/publicdomain-4.pt:29
 msgid "license.in_order_to"
 msgstr "Aby:"
 
+#: c/engine/licenses/fsf_templates/deed.pt:67
 msgid "deed.gpl_source"
 msgstr ""
 "W przypadku powielania lub rozpowszechnia programu, należy dołączyć do "
@@ -569,6 +627,7 @@ msgstr ""
 "dostarczenia odpowiedniego kompletnego i możliwego do odczytania przez "
 "urządzenie cyfrowe kodu źródłowego."
 
+#: c/engine/macros_templates/partner.pt:29
 msgid "util.Creative_Commons"
 msgstr "Creative Commons"
 
@@ -584,6 +643,7 @@ msgstr "Licensor permits others to make derivative works"
 msgid "country.us"
 msgstr "Stany Zjednoczone"
 
+#: c/engine/chooser_pages/results.pt:70
 msgid "license.select_text"
 msgstr ""
 "Zaznacz zawartość powyższego boksu i skopiuj ją lub <a href=\"/license"
@@ -607,6 +667,7 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
+#: c/engine/chooser_pages/partner/index.pt:50
 msgid "license.q2"
 msgstr ""
 "<strong>Czy zezwalasz na komercyjne wykorzystywanie swojego "
@@ -622,6 +683,7 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
+#: c/engine/chooser_pages/partner/index.pt:61
 msgid "license.q3"
 msgstr ""
 "<strong>Czy zezwalasz na modyfikacje swojego utworu?</strong> (<a "
@@ -637,6 +699,7 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
+#: c/engine/chooser_pages/htmlpopup.pt:24
 msgid "license.html_directions"
 msgstr ""
 "Należy skopiować tekst i wkleić go do odpowiednich dokumentów na swojej "
@@ -645,6 +708,8 @@ msgstr ""
 "informacji o dodawaniu kodu HTML do twoich dokumentów znajduje się "
 "tutaj</a>."
 
+#: c/engine/chooser_pages/index.pt:178
+#: c/engine/chooser_pages/partner/index.pt:114
 msgid "license.Select_a_License"
 msgstr "Wybierz Licencję"
 
@@ -656,9 +721,11 @@ msgstr ""
 msgid "util.description"
 msgstr "opis"
 
+#: c/engine/chooser_pages/results.pt:114
 msgid "license.publish_video_ia"
 msgstr "Publikowanie licencjonowanych filmów i klipów wideo w Internet Archive"
 
+#: c/engine/chooser_pages/partner/results.pt:29
 msgid "license.partner_selected"
 msgstr ""
 "Wybrano <a target=\"cc_other\" href=\"${license_deed_url}\"><b>licencję "
@@ -666,14 +733,17 @@ msgstr ""
 "Ta licencja znajduje się na stałe tutaj:<br>\n"
 "<b><tt>${license_url}</tt></b>."
 
+#: c/engine/licenses/sampling_templates/deed.pt:45
 msgid "deed.notice_withoutdistribution"
 msgstr ""
 "W celu ponownego użycia utworu należy wyjaśnić innym warunki licencji, na"
 " której udostępnia się utwór."
 
+#: c/engine/macros_templates/deed.pt:124
 msgid "lang.nl"
 msgstr "niderlandzki"
 
+#: c/engine/chooser_pages/results.pt:101
 msgid "license.publish_soundclick"
 msgstr "Publikowanie licencjonowanej muzyki w serwisie Soundclick"
 
@@ -683,6 +753,8 @@ msgstr "blog"
 msgid "country.es"
 msgstr "Hiszpania"
 
+#: c/engine/pd/templates/publicdomain-4.pt:49
+#: c/engine/chooser_pages/results.pt:127
 msgid "license.mark_nonweb"
 msgstr ""
 "Aby oznaczyć dokument, który nie jest udostępniony na stronie WWW, <a "
@@ -704,11 +776,13 @@ msgstr "Spanish (MX)"
 msgid "util.publish"
 msgstr "publikuj"
 
+#: c/engine/macros_templates/deed.pt:153
 msgid "deed.human_summary"
 msgstr ""
 "Ten tekst to przystępne podsumowanie <a href=\"legalcode\" "
 "class=\"fulltext\">Tekstu prawnego (pełna licencja)</a>."
 
+#: c/engine/pd/templates/publicdomain-2.pt:46
 msgid "util.proceed"
 msgstr "dalej"
 
@@ -721,6 +795,7 @@ msgstr "więcej"
 msgid "lang.en_US"
 msgstr "angielski (USA)"
 
+#: c/engine/macros_templates/metadata.pt:52
 msgid "util.attribute_to_name"
 msgstr "attribute to name"
 
@@ -734,6 +809,7 @@ msgstr ""
 "ogranicza licencję Sampling Plus, zezwalając jedynie na tworzenie "
 "niekomercyjnych utworów zależnych z wykorzystaniem fragmentów utworu."
 
+#: c/engine/macros_templates/deed.pt:117
 msgid "lang.en"
 msgstr "angielski"
 
@@ -748,20 +824,26 @@ msgstr ""
 "Komentarze odnośnie tego projektu można wysyłać na adres: "
 "christiane@creativecommons.org."
 
+#: c/engine/chooser_pages/index.pt:170 c/engine/chooser_pages/sampling.pt:106
 msgid "license.jurisdiction_help"
 msgstr ""
 "Aby użyć licencji zaadaptowanej do określonego systemu prawnego, wybierz "
 "odpowiedni kraj."
 
+#: c/engine/licenses/fsf_templates/deed.pt:34
 msgid "deed.gpl_free_run"
 msgstr "Swoboda uruchamiania programu w dowolnym celu."
 
+#: c/engine/chooser_pages/index.pt:128 c/engine/chooser_pages/sampling.pt:72
+#: c/engine/chooser_pages/partner/index.pt:79
 msgid "license.jurisdiction_question"
 msgstr "System prawny dla licencji"
 
+#: c/engine/pd/templates/publicdomain-2.pt:39
 msgid "util.copyright_holder"
 msgstr "właściciel praw autorskich"
 
+#: c/engine/chooser_pages/sampling.pt:118
 msgid "license.sampling_alternatives"
 msgstr ""
 "<p><strong>W przypadku chęci</strong> umożliwienia innym, aby w "
@@ -774,21 +856,27 @@ msgstr ""
 msgid "lang.sv"
 msgstr "szwedzki"
 
+#: c/engine/chooser_pages/htmlpopup.pt:15
 msgid "license.html_display"
 msgstr "Oto kod HTML do wyświetlenia przycisku informacyjnego:"
 
+#: c/engine/macros_templates/deed.pt:109
 msgid "lang.eu"
 msgstr "baskijski"
 
 msgid "lang.en_CA"
 msgstr "angielski (Kanada)"
 
+#: c/engine/macros_templates/deed.pt:104
 msgid "lang.es"
 msgstr "hiszpański"
 
+#: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
 msgid "char.by_title"
 msgstr "Uznanie autorstwa"
 
+#: c/engine/chooser_pages/sampling.pt:65
 msgid "license.sampling_a_nc-sampling+"
 msgstr ""
 "<strong>Noncommercial Sampling Plus</strong>: inni mogą użyć "
@@ -797,12 +885,14 @@ msgstr ""
 "kopiowanie i dystrybucja (także tzw. file-sharing) <strong>całego "
 "utworu</strong> są także dozwolone."
 
+#: c/engine/chooser_pages/results.pt:21
 msgid "license.selected"
 msgstr ""
 "Wybrano licencję Creative Commons: ${license_pretty_name} "
 "${country_name}. Odwiedzający Twoja stronę zobaczą <a "
 "href=\"${license_url}\">licencję o następującej treści</a>."
 
+#: c/engine/macros_templates/metadata.pt:32
 msgid "util.Video"
 msgstr "Wideo"
 
@@ -817,14 +907,17 @@ msgstr "Węgry"
 msgid "country.hr"
 msgstr "Chorwacja"
 
+#: c/engine/chooser_pages/gpl.pt:118 c/engine/chooser_pages/lgpl.pt:121
 msgid "license.fsf_more_info"
 msgstr ""
 "Więcej informacji o Free Software Foundation można znaleźć na ich <a "
 "href=\"http://www.fsf.org\">stronie</a>."
 
+#: c/engine/chooser_pages/sampling.pt:111
 msgid "license.sampling_get"
 msgstr "Wybierz licencję na samplowanie"
 
+#: c/engine/licenses/fsf_templates/deed.pt:16
 msgid "deed.gpl_title"
 msgstr ""
 "${license_name_full}, <a href=\"http://www.gnu.org/\">Free Software "
@@ -835,6 +928,7 @@ msgstr ""
 "Ten utwór objęty jest licencją <a href=\"${license_url}\">Creative "
 "Commons Developing Nations</a>."
 
+#: c/engine/chooser_pages/index.pt:32
 msgid "license.what"
 msgstr ""
 "Używając licencji Creative Commons <strong>zachowujesz prawa "
@@ -850,6 +944,7 @@ msgstr ""
 msgid "char.by_brief.jp"
 msgstr "Należy zamieścić informację o autorze i wykonawcy utworu."
 
+#: c/engine/chooser_pages/results.pt:94
 msgid "license.learn_host"
 msgstr ""
 "Gdzie można udostępnić swoje licencjonowane pliki? Oto lista możliwości "
@@ -858,24 +953,30 @@ msgstr ""
 msgid "lang.es_CO"
 msgstr "Spanish (CO)"
 
+#: c/engine/pd/templates/publicdomain-4.pt:42 c/engine/chooser_pages/gpl.pt:110
+#: c/engine/chooser_pages/lgpl.pt:113
 msgid "license.get_html_email"
 msgstr "Wersja HTML, którą można wysłać do siebie"
 
+#: c/engine/macros_templates/metadata.pt:38
 msgid "util.Interactive"
 msgstr "Interaktywny"
 
+#: c/engine/chooser_pages/htmlpopup.pt:27
 msgid "license.html_email"
 msgstr "Wpisz swój adres email, aby otrzymać kod HTML pocztą:"
 
 msgid "util.Next_step"
 msgstr "Kolejny krok:"
 
+#: c/engine/chooser_pages/index.pt:198
 msgid "license.or_choose"
 msgstr "Lub wybierz:"
 
 msgid "licenses.pretty_by-nc-nd"
 msgstr "Uznanie autorstwa-Użycie niekomercyjne-Bez utworów zależnych"
 
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:19
 msgid "deed.disclaimer"
 msgstr ""
 "<p>Commons Deed nie jest licencją. To jedynie przystępne podsumowanie "
@@ -890,17 +991,21 @@ msgstr ""
 "niniejszego Commons Deed nie tworzy stosunku prawnego „adwokat-klient”. "
 "</p>"
 
+#: c/engine/chooser_pages/results.pt:15
 msgid "license.here_chosen"
 msgstr "Oto wybrana licencja"
 
+#: c/engine/macros_templates/deed.pt:161
 msgid "deed.learn"
 msgstr ""
 "Informacje, jak rozpowszechniać utwór używając tej licencji znajdują się "
 "tutaj"
 
+#: c/engine/chooser_pages/htmlpopup.pt:41
 msgid "util.Send"
 msgstr "Wyślij"
 
+#: c/engine/licenses/fsf_templates/deed.pt:40
 msgid "deed.gpl_free_improve"
 msgstr ""
 "Swoboda udoskonalania programu i publikowania własnych poprawek dla dobra"
@@ -909,6 +1014,7 @@ msgstr ""
 msgid "lang.zh_TW"
 msgstr "chiński (Tajwan)"
 
+#: c/engine/macros_templates/metadata.pt:84
 msgid "jargon.source_work_description"
 msgstr "A work another is derived from."
 
@@ -938,6 +1044,7 @@ msgstr ""
 "\n"
 "Thank you for using Creative Commons!"
 
+#: c/engine/chooser_pages/gpl.pt:25 c/engine/chooser_pages/lgpl.pt:26
 msgid "license.fsf_explain"
 msgstr ""
 "<h1>Creative Commons GNU ${license_code}</h1>\n"
@@ -950,30 +1057,37 @@ msgstr ""
 "Creative Commons, które jest odnośnikiem do  CC-GNU. Rezultat będzie "
 "wyglądał następująco:"
 
+#: c/engine/chooser_pages/index.pt:124
 msgid "char.sa_description"
 msgstr ""
 "Licencjodawca zezwala na rozpowszechnianie utworów zależnych tylko na "
 "podstawie takiej samej licencji, jakiej udzielił udostępniając swój "
 "utwór."
 
+#: c/engine/macros_templates/metadata.pt:34
 msgid "util.Image"
 msgstr "Zdjęcie/obraz"
 
+#: c/engine/macros_templates/metadata.pt:28
 msgid "util.Other"
 msgstr "Inny"
 
+#: c/engine/pd/templates/publicdomain-partner.pt:31
+#: c/engine/chooser_pages/partner/results.pt:35
 msgid "license.you_may_proceed"
 msgstr "Możesz teraz <a href=\"${processed_exit_url}\">kontynuować</a>"
 
 msgid "char.nc_title"
 msgstr "Użycie niekomercyjne"
 
+#: c/engine/chooser_pages/index.pt:204
 msgid "licenses.pretty_publicdomain"
 msgstr "Public Domain"
 
 msgid "lang.zh"
 msgstr "chiński"
 
+#: c/engine/chooser_pages/results.pt:59
 msgid "license.have_your_own_website"
 msgstr "Masz własną stronę WWW?"
 
@@ -991,6 +1105,7 @@ msgstr ""
 msgid "lang.ja"
 msgstr "japoński"
 
+#: c/engine/chooser_pages/sampling.pt:53
 msgid "license.sampling_title"
 msgstr "Wybierz Opcje Licencji Sampling"
 
@@ -1000,12 +1115,17 @@ msgstr "Japonia"
 msgid "deed.free_commercial"
 msgstr "użytkować utwór w sposób komercyjny"
 
+#: c/engine/chooser_pages/index.pt:47 c/engine/chooser_pages/index.pt:50
+#: c/engine/chooser_pages/index.pt:82 c/engine/chooser_pages/index.pt:89
+#: c/engine/chooser_pages/index.pt:97 c/engine/chooser_pages/index.pt:130
+#: c/engine/chooser_pages/sampling.pt:74
 msgid "util.more_info"
 msgstr "więcej informacji"
 
 msgid "nav.select_a_jurisdiction"
 msgstr "Wybierz kraj"
 
+#: c/engine/chooser_pages/sampling.pt:61
 msgid "license.sampling_a_sampling+"
 msgstr ""
 "<strong>Sampling Plus</strong>: inni mogą użyć "
@@ -1015,6 +1135,7 @@ msgstr ""
 "sharing) <strong>całego utworu</strong> są także dozwolone. Dlatego: "
 "<strong>\"plus\"</strong>."
 
+#: c/engine/macros_templates/deed.pt:98
 msgid "deed.human_summary_multilanguage"
 msgstr ""
 "Ten tekst to przystępne podsumowanie Tekstu prawnego (pełna licencja) "
@@ -1026,6 +1147,9 @@ msgstr "Jordania"
 msgid "country.es-ca"
 msgstr "Katalonia"
 
+#: c/engine/pd/templates/publicdomain-4.pt:41 c/engine/chooser_pages/gpl.pt:107
+#: c/engine/chooser_pages/lgpl.pt:110 c/engine/chooser_pages/nonweb_popup.pt:31
+#: c/engine/chooser_pages/htmlpopup.pt:20
 msgid "util.Highlight_Text"
 msgstr "Zaznacz tekst do skopiowania"
 
@@ -1034,15 +1158,21 @@ msgstr ""
 "Nie wolno zmieniać, przekształcać ani tworzyć nowych dzieł na podstawie "
 "tego utworu."
 
+#: c/engine/chooser_pages/sampling.pt:78 c/engine/chooser_pages/sampling.pt:90
+#: c/engine/chooser_pages/partner/index.pt:83
+#: c/engine/chooser_pages/partner/index.pt:86
 msgid "util.Generic"
 msgstr "Ogólny"
 
 msgid "lang.es_AR"
 msgstr "Spanish (AR)"
 
+#: c/engine/macros_templates/metadata.pt:66
+#: c/engine/macros_templates/metadata.pt:82
 msgid "util.source_work"
 msgstr "source work"
 
+#: c/engine/chooser_pages/sampling.pt:115
 msgid "license.sampling_note"
 msgstr ""
 "Uwaga: licencja na samplowanie nie dotyczy tylko muzyki. Może być "
@@ -1055,6 +1185,7 @@ msgstr "Australia"
 msgid "country.at"
 msgstr "Austria"
 
+#: c/engine/chooser_pages/nonweb_popup.pt:19
 msgid "license.non_web_pd"
 msgstr ""
 "This work is hereby released into the Public Domain. To view a copy of "
@@ -1066,6 +1197,7 @@ msgstr ""
 msgid "country.ar"
 msgstr "Argentyna"
 
+#: c/engine/licenses/standard_templates/deed.pt:77
 msgid "deed.superseded"
 msgstr ""
 "<a href=\"${current_version_url}\">Nowa wersja</a> tej licencji jest już "
@@ -1073,18 +1205,23 @@ msgstr ""
 "starej licencji na nową w utworach już udostępnionych. Żadne utwory nie "
 "są jednak <em>automatycznie</em> obejmowane nową licencją."
 
+#: c/engine/chooser_pages/index.pt:209
 msgid "licenses.pretty_sampling+"
 msgstr "Sampling Plus"
 
+#: c/engine/chooser_pages/index.pt:42
 msgid "api.commercial"
 msgstr "Czy zezwalasz na komercyjne wykorzystywanie swojego utworu?"
 
+#: c/engine/macros_templates/support.pt:103
+#: c/engine/macros_templates/support.pt:107
 msgid "license.enter_information"
 msgstr "wprowadź informacje"
 
 msgid "jswidget.Allow_Remixing"
 msgstr "Allow Remixing"
 
+#: c/engine/macros_templates/metadata.pt:16
 msgid "license.hide_optional_fields"
 msgstr "Ukryj te pola (wszystkie pola są opcjonalne)"
 
@@ -1094,6 +1231,7 @@ msgstr "Portugalia"
 msgid "license.GPL_name_full"
 msgstr "Powszechna Licencja Publiczna GNU"
 
+#: c/engine/licenses/fsf_templates/deed.pt:36
 msgid "deed.gpl_free_study"
 msgstr ""
 "Swoboda studiowania zasady działania programu, aby zaadaptować go do "
@@ -1102,6 +1240,7 @@ msgstr ""
 msgid "lang.af"
 msgstr "afrykanerski"
 
+#: c/engine/licenses/mitbsd_templates/deed.pt:54
 msgid "deed.mit_notice"
 msgstr ""
 "The copyright notice and license shall be included in all copies or\n"
@@ -1113,15 +1252,18 @@ msgstr "Remix"
 msgid "char.nc_brief"
 msgstr "Nie wolno używać tego utworu do celów komercyjnych."
 
+#: c/engine/macros_templates/metadata.pt:72
 msgid "util.more_permissions_url"
 msgstr "more permissions URL"
 
+#: c/engine/licenses/standard_templates/deed.pt:64
 msgid "deed.moralrights"
 msgstr "Nothing in this license impairs or restricts the author's moral rights."
 
 msgid "country.sk"
 msgstr "Słowacja"
 
+#: c/engine/chooser_pages/results.pt:61
 msgid "license.copy_text"
 msgstr ""
 "Skopiuj poniższy tekst i zamieść go w kodzie strony, aby inni użytkownicy"
@@ -1139,6 +1281,7 @@ msgstr "Singapur"
 msgid "country.se"
 msgstr "Szwecja"
 
+#: c/engine/chooser_pages/sampling.pt:82 c/engine/chooser_pages/sampling.pt:94
 msgid "country.de"
 msgstr "Niemcy"
 
@@ -1148,6 +1291,10 @@ msgstr "węgierski"
 msgid "country.dk"
 msgstr "Dania"
 
+#: c/engine/chooser_pages/nonweb_popup.pt:37
+#: c/engine/chooser_pages/htmlpopup.pt:46
+#: c/engine/chooser_templates/emailhtml.pt:19 c/engine/templates/by.pt:31
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:21
 msgid "util.Close_window"
 msgstr "Zamknij okno"
 
@@ -1163,6 +1310,10 @@ msgstr "Szkocja"
 msgid "country.ua"
 msgstr "Ukraina"
 
+#: c/engine/licenses/fsf_templates/deed.pt:24
+#: c/engine/licenses/devnations_templates/deed.pt:25
+#: c/engine/licenses/sampling_templates/deed.pt:23
+#: c/engine/licenses/standard_templates/deed.pt:31
 msgid "deed.retired"
 msgstr ""
 "This license is <a href=\"/retiredlicenses\">retired</a>. Do not use for "
@@ -1180,6 +1331,7 @@ msgstr "Chiny"
 msgid "licenses.pretty_GPL"
 msgstr "GPL"
 
+#: c/engine/macros_templates/deed.pt:76
 msgid "deed.disclaimer.jp"
 msgstr ""
 "<p>Commons Deed nie jest licencją. To jedynie przystępne podsumowanie "
@@ -1215,6 +1367,7 @@ msgstr ""
 msgid "country.ch"
 msgstr "Szwajcaria"
 
+#: c/engine/chooser_pages/results.pt:105
 msgid "license.publish_flickr"
 msgstr "Umieszczanie licencjonowanych zdjęć w serwisie Flickr"
 
@@ -1257,6 +1410,7 @@ msgstr ""
 msgid "license.Final_step"
 msgstr "Ostatni krok:"
 
+#: c/engine/licenses/fsf_templates/deed.pt:55
 msgid "deed.gpl_notice"
 msgstr ""
 "Na każdej rozpowszechnianej kopii należy w odpowiedni i zwracający uwagę "
@@ -1268,12 +1422,19 @@ msgstr ""
 "tłumaczenia licencji ${license_name_full} należy dołączyć licencję "
 "${license_name_full}."
 
+#: c/engine/licenses/devnations_templates/deed.pt:30
+#: c/engine/licenses/mitbsd_templates/deed.pt:25
+#: c/engine/licenses/standard_templates/deed.pt:38
 msgid "deed.free_copy_distribute"
 msgstr "kopiować, rozpowszechniać, odtwarzać i wykonywać utwór"
 
+#: c/engine/chooser_pages/index.pt:115
 msgid "char.nd_title"
 msgstr "Bez utworów zależnych"
 
+#: c/engine/licenses/devnations_templates/deed.pt:50
+#: c/engine/licenses/sampling_templates/deed.pt:43
+#: c/engine/licenses/standard_templates/deed.pt:56
 msgid "deed.notice"
 msgstr ""
 "W celu ponownego użycia utworu lub rozpowszechniania utworu należy "
@@ -1285,6 +1446,7 @@ msgstr "słoweński"
 msgid "util.copyright"
 msgstr "copyright"
 
+#: c/engine/chooser_pages/nonweb_popup.pt:27
 msgid "license.non_web_statement"
 msgstr ""
 "Ten utwór objęty jest licencją Creative Commons ${license_name}. Aby "
@@ -1292,6 +1454,7 @@ msgstr ""
 "napisz do Creative Commons, 171 Second Street, Suite 300, San Francisco, "
 "California 94105, USA."
 
+#: c/engine/licenses/mitbsd_templates/deed.pt:40
 msgid "deed.no_endorsement"
 msgstr ""
 "<strong>No Endorsement</strong>. The name of the author may not be used "
@@ -1301,9 +1464,11 @@ msgstr ""
 msgid "jswidget.Prohibit_Commercial_Use"
 msgstr "Prohibit Commercial Use"
 
+#: c/engine/chooser_pages/results.pt:56
 msgid "license.what_to_do_next"
 msgstr "Co dalej?"
 
+#: c/engine/pd/templates/publicdomain-4.pt:52
 msgid "license.mark_rss"
 msgstr ""
 "Dodaj informację o licencji jako kod RSS, użyj <a "
@@ -1314,6 +1479,10 @@ msgstr ""
 msgid "lang.es_CL"
 msgstr "Spanish (CL)"
 
+#: c/engine/chooser_pages/sampling.pt:36
+#: c/engine/macros_templates/support.pt:127
+#: c/engine/macros_templates/support.pt:134
+#: c/engine/macros_templates/support.pt:136
 msgid "license.review_choice"
 msgstr "sprawdź wybór"
 
@@ -1331,9 +1500,11 @@ msgstr ""
 msgid "util.Share_Music"
 msgstr "Dziel się muzyką"
 
+#: c/engine/chooser_pages/index.pt:122
 msgid "char.sa_title"
 msgstr "Na tych samych warunkach"
 
+#: c/engine/chooser_pages/index.pt:193
 msgid "license.explain"
 msgstr ""
 "Dzięki Creative Commons możesz publikować swoje prace w internecie tak, "
@@ -1342,6 +1513,7 @@ msgstr ""
 " treści umieszczonych na Twojej stronie lub w jednym z darmowych "
 "serwisów, które współpracują z Creative Commons."
 
+#: c/engine/pd/templates/publicdomain-4.pt:27
 msgid "license.mark_pd"
 msgstr ""
 "Now that you've chosen the public domain dedication, you must mark your "
@@ -1350,12 +1522,14 @@ msgstr ""
 msgid "util.Try_again"
 msgstr "Spróbuj ponownie!"
 
+#: c/engine/chooser_pages/index.pt:214
 msgid "util.Founders_Copyright"
 msgstr "Founder's Copyright"
 
 msgid "licenses.pretty_nc-sa"
 msgstr "Użycie niekomercyjne-Na tych samych warunkach"
 
+#: c/engine/pd/templates/publicdomain-3.pt:40
 msgid "license.pd_confirm"
 msgstr ""
 "<h1>Confirm Your Public Domain Dedication</h1>\n"
@@ -1371,12 +1545,15 @@ msgstr ""
 "${pd_deed_text}\n"
 "        </div>"
 
+#: c/engine/chooser_pages/results.pt:78
 msgid "license.after_support_cc"
 msgstr ""
 "After publishing your license, please consider <a "
 "href=\"http://creativecommons.org/support/\">supporting Creative "
 "Commons</a>."
 
+#: c/engine/pd/templates/publicdomain-3.pt:93 c/engine/pd/templates
+#: /publicdomain-waiting-email-verification.pt:59
 msgid "license.pd_bad_confirmation"
 msgstr ""
 "<h1>Public Domain Dedication - Bad Confirmation</h1>\n"
@@ -1398,22 +1575,28 @@ msgstr ""
 "href=\"mailto:pd@creativecommons.org\">let us know</a>.\n"
 "</p>"
 
+#: c/engine/templates/by.pt:25
 msgid "char.by_description"
 msgstr ""
 "Utwór należy oznaczyć w sposób określony przez Twórcę lub\n"
 "Licencjodawcę."
 
+#: c/engine/macros_templates/metadata.pt:36
 msgid "util.Text"
 msgstr "Tekst"
 
+#: c/engine/licenses/devnations_templates/deed.pt:48
+#: c/engine/licenses/sampling_templates/deed.pt:41
 msgid "char.by_brief"
 msgstr ""
 "Utwór należy oznaczyć w sposób określony przez Twórcę lub\n"
 "Licencjodawcę"
 
+#: c/engine/chooser_pages/results.pt:117
 msgid "license.publish_morpheus"
 msgstr "Publikowanie licencjonowanej muzyki w sieci P2P Morpheus"
 
+#: c/engine/chooser_pages/results.pt:108
 msgid "license.publish_buzznet"
 msgstr "Umieszczanie licencjonowanych zdjęć w serwisie Buzznet"
 
@@ -1426,6 +1609,7 @@ msgstr ""
 "urządzenie cyfrowe kodu źródłowego. Nie jest konieczne dostarczanie kodu "
 "źródłowego do programów, które wykorzystują bibliotekę."
 
+#: c/engine/chooser_pages/results.pt:76
 msgid "license.read_tutorial"
 msgstr ""
 "Potrzebujesz pomocy? <a href=\"/education/publish-website\">Przeczytaj "
@@ -1434,6 +1618,7 @@ msgstr ""
 msgid "country.fi"
 msgstr "Finlandia"
 
+#: c/engine/chooser_pages/partner/index.pt:25
 msgid "license.partner_what"
 msgstr ""
 "<p>Stworzenie utworu to powód do dumy. Czas teraz dowiedzieć się, jak "
@@ -1449,6 +1634,9 @@ msgstr ""
 " false;\">o autorze</a> -- i tylko na warunkach, które zostaną tu "
 "określone. Ta strona pomoże wybrać te warunki. </p>"
 
+#: c/engine/chooser_pages/index.pt:49 c/engine/chooser_pages/index.pt:96
+#: c/engine/chooser_pages/partner/index.pt:56
+#: c/engine/chooser_pages/partner/index.pt:73
 msgid "util.No"
 msgstr "Nie"
 
@@ -1472,9 +1660,11 @@ msgstr ""
 "governed by the Copyright Law of a specific jurisdiction, please select "
 "the appropriate jurisdiction."
 
+#: c/engine/macros_templates/metadata.pt:15
 msgid "license.include_more"
 msgstr "Kliknij, aby podać więcej informacji o utworze."
 
+#: c/engine/chooser_templates/emailhtml.pt:16
 msgid "license.link_emailed"
 msgstr ""
 "<p>\n"
@@ -1484,9 +1674,11 @@ msgstr ""
 "<p>Należy umieścić link lub kod HTML na swojej stronie, tuż obok utworu "
 "objętego licencją.  </p>"
 
+#: c/engine/macros_templates/deed.pt:118 c/engine/macros_templates/deed.pt:123
 msgid "lang.fr"
 msgstr "francuski"
 
+#: c/engine/chooser_pages/index.pt:218
 msgid "util.CC_GNU_GPL"
 msgstr "CC-GNU GPL"
 
@@ -1504,6 +1696,7 @@ msgstr "Macedonia"
 msgid "licenses.pretty_sa"
 msgstr "Na tych samych warunkach"
 
+#: c/engine/chooser_pages/results.pt:111
 msgid "license.publish_blog"
 msgstr ""
 "Dodawanie licencji Creative Commons do bloga (Blogger, Movable Type, "
@@ -1512,6 +1705,10 @@ msgstr ""
 msgid "lang.pt"
 msgstr "portugalski"
 
+#: c/engine/licenses/fsf_templates/deed.pt:75
+#: c/engine/licenses/devnations_templates/deed.pt:51
+#: c/engine/licenses/mitbsd_templates/deed.pt:60
+#: c/engine/licenses/standard_templates/deed.pt:60
 msgid "deed.permission"
 msgstr ""
 "Każdy z tych warunków może zostać uchylony, jeśli uzyska się zezwolenie "
@@ -1523,9 +1720,12 @@ msgstr "Malezja"
 msgid "country.mx"
 msgstr "Meksyk"
 
+#: c/engine/chooser_pages/sampling.pt:84 c/engine/chooser_pages/sampling.pt:96
 msgid "country.tw"
 msgstr "Tajwan"
 
+#: c/engine/macros_templates/deed.pt:81 c/engine/licenses/catalog_pages
+#: /disclaimer-popup.pt:15
 msgid "util.Disclaimer"
 msgstr "Klauzula ograniczenia odpowiedzialności"
 
@@ -1541,12 +1741,14 @@ msgstr "Malta"
 msgid "util.work"
 msgstr "utwór"
 
+#: c/engine/licenses/fsf_templates/deed.pt:29
 msgid "deed.gpl_freedoms"
 msgstr ""
 "${license_name_full} to tzw. licencja <a "
 "href=\"http://www.gnu.org/philosophy/free-sw.html\">Free Software</a>. "
 "Jak każda licencja Free Software zapewnia następujące swobody:"
 
+#: c/engine/chooser_pages/index.pt:117
 msgid "char.nd_description"
 msgstr ""
 "Licencjodawca zezwala innym na kopiowanie, rozpowszechnianie, odtwarzanie"
@@ -1556,6 +1758,7 @@ msgstr ""
 msgid "license.learn_publicize"
 msgstr "Wskazówki jak publikować i udostępniać utwory"
 
+#: c/engine/macros_templates/deed.pt:135
 msgid "deed.lgpl_human_summary"
 msgstr ""
 "Ten tekst to przystępne podsumowanie Tekstu prawnego (pełna licencja <a "
@@ -1563,6 +1766,7 @@ msgstr ""
 "Lesser General Public License</a>). Dostępne jest również <a "
 "href=\"legalcode.pt\">tłumaczenie portugalskie</a>."
 
+#: c/engine/macros_templates/deed.pt:145
 msgid "deed.gpl_human_summary"
 msgstr ""
 "Ten tekst to przystępne podsumowanie Tekstu prawnego (całość <a "
@@ -1570,6 +1774,7 @@ msgstr ""
 "General Public License</a>). <a href=\"legalcode.pt\">Portugalskie  "
 "tłumaczenie</a> jest także dostępne."
 
+#: c/engine/chooser_pages/partner/index.pt:117
 msgid "license.partner_note"
 msgstr ""
 "<p>\n"
@@ -1585,6 +1790,8 @@ msgstr ""
 msgid "util.Developing_Nations"
 msgstr "Państwa rozwijające się"
 
+#: c/engine/pd/templates/publicdomain-4.pt:54
+#: c/engine/chooser_pages/results.pt:122
 msgid "license.mark_xmp"
 msgstr ""
 "Aby oznaczyć dokument PDF lub inny plik obsługujący XMP, <a "
@@ -1594,11 +1801,13 @@ msgstr ""
 msgid "licenses.pretty_nc-sampling+"
 msgstr "Użycie niekomercyne-Sampling Plus"
 
+#: c/engine/licenses/sampling_templates/deed.pt:47
 msgid "char.no_brief"
 msgstr ""
 "Nie wolno wykonywać, odtwarzać ani rozpowszechniać tego utworu w całości "
 "w jakimkolwiek celu."
 
+#: c/engine/chooser_pages/index.pt:232
 msgid "util.Wiki"
 msgstr "Wiki"
 
@@ -1611,12 +1820,33 @@ msgstr "Unported"
 msgid "license.work_based_on"
 msgstr "Based on a work at ${source_link}."
 
+#: c/engine/macros_templates/deed.pt:129
 msgid "lang.de"
 msgstr "niemiecki"
 
+#: c/engine/chooser_pages/sampling.pt:31 c/engine/chooser_pages/sampling.pt:35
+#: c/engine/chooser_pages/sampling.pt:40 c/engine/chooser_pages/sampling.pt:45
+#: c/engine/macros_templates/support.pt:81
+#: c/engine/macros_templates/support.pt:85
+#: c/engine/macros_templates/support.pt:92
+#: c/engine/macros_templates/support.pt:96
+#: c/engine/macros_templates/support.pt:102
+#: c/engine/macros_templates/support.pt:106
+#: c/engine/macros_templates/support.pt:112
+#: c/engine/macros_templates/support.pt:116
+#: c/engine/macros_templates/support.pt:126
+#: c/engine/macros_templates/support.pt:130
+#: c/engine/macros_templates/support.pt:144
+#: c/engine/macros_templates/support.pt:148
+#: c/engine/macros_templates/support.pt:160
+#: c/engine/macros_templates/support.pt:164
 msgid "util.step"
 msgstr "krok"
 
+#: c/engine/licenses/devnations_templates/deed.pt:27
+#: c/engine/licenses/mitbsd_templates/deed.pt:23
+#: c/engine/licenses/sampling_templates/deed.pt:25
+#: c/engine/licenses/standard_templates/deed.pt:34
 msgid "deed.You_are_free"
 msgstr "Wolno:"
 
@@ -1626,6 +1856,7 @@ msgstr ""
 "jego podstawie, można rozpowszechniać powstały w ten sposób nowy utwór "
 "tylko na podstawie takiej samej licencji."
 
+#: c/engine/chooser_pages/index.pt:236
 msgid "util.Music_Sharing"
 msgstr "Music Sharing"
 
@@ -1635,6 +1866,7 @@ msgstr "LGPL"
 msgid "lang.fr_CA"
 msgstr "francuski (Kanada)"
 
+#: c/engine/chooser_pages/gpl.pt:47 c/engine/chooser_pages/lgpl.pt:48
 msgid "license.lawyer-readable_legal_code"
 msgstr ""
 "Wersja dla prawników:<br/>\n"
@@ -1643,6 +1875,9 @@ msgstr ""
 msgid "jswidget.Require_Share-Alike"
 msgstr "Require Share-Alike"
 
+#: c/engine/licenses/devnations_templates/deed.pt:34
+#: c/engine/licenses/mitbsd_templates/deed.pt:26
+#: c/engine/licenses/standard_templates/deed.pt:39
 msgid "deed.free_derivative"
 msgstr "tworzyć utwory zależne"
 
@@ -1652,9 +1887,14 @@ msgstr "Znajdź zdjęcia, muzykę i nie tylko"
 msgid "country.ve"
 msgstr "Wenezuela"
 
+#: c/engine/chooser_pages/sampling.pt:46
+#: c/engine/macros_templates/support.pt:161
+#: c/engine/macros_templates/support.pt:165
 msgid "license.publicize"
 msgstr "publikuj"
 
+#: c/engine/pd/templates/publicdomain-3.pt:41
+#: c/engine/licenses/publicdomain_templates/deed.pt:19
 msgid "deed.pd"
 msgstr ""
 "<p align=\"center\"><em>Copyright-Only Dedication (based on United States"
@@ -1689,6 +1929,7 @@ msgstr ""
 "commercial or non-commercial, and in any way, including by methods that "
 "have not yet been invented or conceived.</p>"
 
+#: c/engine/pd/templates/publicdomain-2.pt:24
 msgid "license.pd_enter_info"
 msgstr ""
 "<h1>Enter Information</h1>\n"
@@ -1709,11 +1950,13 @@ msgstr ""
 "\n"
 "        <p>all fields are required</p>"
 
+#: c/engine/licenses/sampling_templates/deed.pt:27
 msgid "deed.free_sample_nc"
 msgstr ""
 "Samplować, miksować lub w jakikolwiek inny kreatywny sposób zmieniać ten "
 "utwór w celach niekomercyjnych."
 
+#: c/engine/chooser_pages/sampling.pt:116
 msgid "license.sampling_before"
 msgstr ""
 "Zanim utwór zostanie udostępniony  na Licencji Sampling, należy się "
@@ -1727,6 +1970,7 @@ msgstr "System prawny dla licencji"
 msgid "util.home"
 msgstr "Strona domowa"
 
+#: c/engine/pd/templates/publicdomain-2.pt:53
 msgid "license.proceed_email_note"
 msgstr ""
 "<b>UWAGA:</b> po kliknięciu \"kontynuuj\" zostanie wysłane żądanie "
