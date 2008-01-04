@@ -1,10 +1,9 @@
 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2007-11-29 11:25+0800\n"
+"POT-Creation-Date: 2007-10-11 10:55+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -190,6 +189,7 @@ msgstr "Licença Creative Commons"
 #: c/engine/macros_templates/support.pt:145
 #: c/engine/macros_templates/support.pt:152
 #: c/engine/macros_templates/support.pt:154
+#: c/engine/pd/templates/publicdomain-4.pt:25
 msgid "mark content"
 msgstr "Marque o conteúdo"
 
@@ -334,6 +334,7 @@ msgstr "Licença para Leigos"
 
 #: c/engine/macros_templates/support.pt:93
 #: c/engine/macros_templates/support.pt:97
+#: c/engine/pd/templates/publicdomain-partner.pt:22
 msgid "confirm choice"
 msgstr "confirme sua escolha"
 
@@ -591,6 +592,8 @@ msgstr ""
 msgid "Sampling"
 msgstr "Recombinação"
 
+#: c/engine/macros_templates/support.pt:30
+#: c/engine/macros_templates/support.pt:56
 msgid "This page is available in the following languages:"
 msgstr "Esta página também esta disponível nos seguintes idiomas:"
 
@@ -625,6 +628,9 @@ msgstr ""
 " return false;\">ano do direito autoral</a>"
 
 #: c/engine/chooser_pages/index.pt:29
+#: c/engine/chooser_pages/sampling.pt:32
+#: c/engine/macros_templates/support.pt:82
+#: c/engine/macros_templates/support.pt:86
 msgid "choose license"
 msgstr "Escolha uma licença"
 
@@ -1228,6 +1234,7 @@ msgid "copyright holder"
 msgstr "titular do direito autoral"
 
 #: c/engine/chooser_pages/sampling.pt:118
+#, python-format
 msgid ""
 "<p>If you <strong>want</strong> to invite people to make "
 "<strong>any</strong> commercial re-use of your work &mdash; "

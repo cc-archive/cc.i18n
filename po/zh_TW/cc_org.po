@@ -1,10 +1,9 @@
 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2007-11-29 11:25+0800\n"
+"POT-Creation-Date: 2007-10-11 10:55+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -155,6 +154,7 @@ msgstr "創用 CC 授權條款"
 #: c/engine/macros_templates/support.pt:145
 #: c/engine/macros_templates/support.pt:152
 #: c/engine/macros_templates/support.pt:154
+#: c/engine/pd/templates/publicdomain-4.pt:25
 msgid "mark content"
 msgstr "替內容加上標示"
 
@@ -271,6 +271,7 @@ msgstr "供一般人閱讀的<br />授權標章"
 
 #: c/engine/macros_templates/support.pt:93
 #: c/engine/macros_templates/support.pt:97
+#: c/engine/pd/templates/publicdomain-partner.pt:22
 msgid "confirm choice"
 msgstr "確認選擇"
 
@@ -476,6 +477,8 @@ msgstr "如果您取得本著作著作權人之許可，這些條件中任一項
 msgid "Sampling"
 msgstr "取樣"
 
+#: c/engine/macros_templates/support.pt:30
+#: c/engine/macros_templates/support.pt:56
 msgid "This page is available in the following languages:"
 msgstr "本頁面也有下列各語言的版本："
 
@@ -510,6 +513,9 @@ msgstr ""
 " return false;\">著作權保護起始年份</a>"
 
 #: c/engine/chooser_pages/index.pt:29
+#: c/engine/chooser_pages/sampling.pt:32
+#: c/engine/macros_templates/support.pt:82
+#: c/engine/macros_templates/support.pt:86
 msgid "choose license"
 msgstr "選擇授權條款"
 
@@ -1021,6 +1027,7 @@ msgid "copyright holder"
 msgstr "著作權人"
 
 #: c/engine/chooser_pages/sampling.pt:118
+#, python-format
 msgid ""
 "<p>If you <strong>want</strong> to invite people to make "
 "<strong>any</strong> commercial re-use of your work &mdash; "

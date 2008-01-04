@@ -1,10 +1,9 @@
 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2007-11-29 11:25+0800\n"
+"POT-Creation-Date: 2007-10-11 10:55+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -171,6 +170,7 @@ msgstr "Laesense ya Creative Commons"
 #: c/engine/macros_templates/support.pt:145
 #: c/engine/macros_templates/support.pt:152
 #: c/engine/macros_templates/support.pt:154
+#: c/engine/pd/templates/publicdomain-4.pt:25
 msgid "mark content"
 msgstr "swaya dikagare"
 
@@ -297,6 +297,7 @@ msgstr ""
 
 #: c/engine/macros_templates/support.pt:93
 #: c/engine/macros_templates/support.pt:97
+#: c/engine/pd/templates/publicdomain-partner.pt:22
 msgid "confirm choice"
 msgstr "tiišetša kgetho"
 
@@ -543,6 +544,8 @@ msgstr ""
 msgid "Sampling"
 msgstr "Sampole"
 
+#: c/engine/macros_templates/support.pt:30
+#: c/engine/macros_templates/support.pt:56
 msgid "This page is available in the following languages:"
 msgstr "Letlakala le le hwetšagala ka maleme a latelago:"
 
@@ -577,6 +580,9 @@ msgstr ""
 " return false;\">ngwaga wa tokelo ya ngwalollo</a>"
 
 #: c/engine/chooser_pages/index.pt:29
+#: c/engine/chooser_pages/sampling.pt:32
+#: c/engine/macros_templates/support.pt:82
+#: c/engine/macros_templates/support.pt:86
 msgid "choose license"
 msgstr "kgetha laesense"
 
@@ -1136,6 +1142,7 @@ msgid "copyright holder"
 msgstr "mong wa tokelo ya ngwalollo"
 
 #: c/engine/chooser_pages/sampling.pt:118
+#, python-format
 msgid ""
 "<p>If you <strong>want</strong> to invite people to make "
 "<strong>any</strong> commercial re-use of your work &mdash; "
