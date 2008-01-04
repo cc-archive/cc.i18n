@@ -78,6 +78,7 @@ from textwrap import wrap
 
 from babel import __version__ as VERSION
 from babel.messages.catalog import Catalog, Message
+from babel.messages.pofile import normalize
 from babel.util import LOCALTZ
 
 def write_po(fileobj, catalog, width=76, no_location=False, omit_header=False,
