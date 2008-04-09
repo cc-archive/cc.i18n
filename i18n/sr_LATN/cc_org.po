@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2008-03-27 09:53-0700\n"
+"POT-Creation-Date: 2008-04-09 15:02-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,6 +131,14 @@ msgstr "Creative Commons licenca"
 msgid "license.mark_content"
 msgstr "označi delo"
 
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
+#: c/engine/pd/templates/publicdomain-4.pt:25
+msgid "license.Mark_Content"
+msgstr "označi delo"
+
 #: c/engine/licenses/fsf_templates/deed.pt:48
 msgid "deed.gpl_under_conditions"
 msgstr ""
@@ -227,6 +235,12 @@ msgstr ""
 #: c/engine/macros_templates/support.pt:97
 #: c/engine/pd/templates/publicdomain-partner.pt:22
 msgid "license.confirm_choice"
+msgstr "potvrdite izbor"
+
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
+#: c/engine/pd/templates/publicdomain-partner.pt:22
+msgid "license.Confirm_Choice"
 msgstr "potvrdite izbor"
 
 #: c/engine/chooser_pages/sampling.pt:54
@@ -388,9 +402,17 @@ msgstr ""
 msgid "util.Sampling"
 msgstr "Stvaranje dela na osnovu uzorka (sampling)"
 
+msgid "licenses.pretty_sampling"
+msgstr "Stvaranje dela na osnovu uzorka (sampling)"
+
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
 msgid "util.page_other_languages"
+msgstr "Ova strana je dostupna na sledećim jezicima:"
+
+#: c/engine/macros_templates/support.pt:30
+#: c/engine/macros_templates/support.pt:56
+msgid "deed.view_in"
 msgstr "Ova strana je dostupna na sledećim jezicima:"
 
 msgid "lang.en_GB"
@@ -422,6 +444,13 @@ msgstr ""
 #: c/engine/macros_templates/support.pt:82
 #: c/engine/macros_templates/support.pt:86
 msgid "license.Choose_License"
+msgstr "izaberite licencu"
+
+#: c/engine/chooser_pages/index.pt:29
+#: c/engine/chooser_pages/sampling.pt:32
+#: c/engine/macros_templates/support.pt:82
+#: c/engine/macros_templates/support.pt:86
+msgid "license.choose_license"
 msgstr "izaberite licencu"
 
 #: c/engine/licenses/fsf_templates/deed.pt:38
@@ -871,6 +900,12 @@ msgstr "španski"
 msgid "char.by_title"
 msgstr "Autorstvo"
 
+#: c/engine/templates/by.pt:8
+#: c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
+msgid "licenses.pretty_by"
+msgstr "Autorstvo"
+
 #: c/engine/chooser_pages/sampling.pt:65
 msgid "license.sampling_a_nc-sampling+"
 msgstr ""
@@ -1086,7 +1121,14 @@ msgstr "Nekomercijalno"
 msgid "licenses.pretty_publicdomain"
 msgstr "Javni domen"
 
+#: c/engine/chooser_pages/index.pt:204
+msgid "util.Public_Domain"
+msgstr "Javni domen"
+
 msgid "lang.zh"
+msgstr "kineski"
+
+msgid "lang.zh_CN"
 msgstr "kineski"
 
 #: c/engine/chooser_pages/results.pt:59
@@ -1204,7 +1246,7 @@ msgstr "Argentina"
 #: c/engine/licenses/standard_templates/deed.pt:77
 msgid "deed.superseded"
 msgstr ""
-"A <Ponudjena je=\"${current_version_url}\">nova verzija</a> ove licence. "
+"Ponudjena je=\"${current_version_url}\">nova verzija</a> ove licence. "
 "Možete da je upotrebite za nova dela ili da biste prelicencirali "
 "postojeće delo. Dela se ne mogu<em>automatski</em> licencirati novom "
 "licencom."
@@ -1720,6 +1762,9 @@ msgstr ""
 msgid "lang.pt"
 msgstr "portugalski"
 
+msgid "lang.pt_BR"
+msgstr "portugalski"
+
 #: c/engine/licenses/fsf_templates/deed.pt:75
 #: c/engine/licenses/devnations_templates/deed.pt:51
 #: c/engine/licenses/mitbsd_templates/deed.pt:60
@@ -2000,8 +2045,8 @@ msgid "country.pr"
 msgstr "Portoriko"
 
 msgid "lang.el"
-msgstr "Greek"
+msgstr "grčki"
 
 msgid "lang.ro"
-msgstr "Romanian"
+msgstr "rumunski"
 

@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2008-03-27 09:53-0700\n"
-"PO-Revision-Date: 2008-03-27 09:53-0700\n"
+"POT-Creation-Date: 2008-04-09 15:03-0700\n"
+"PO-Revision-Date: 2008-04-09 15:03-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: sr <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -133,6 +133,14 @@ msgstr "Creative Commons лиценца"
 msgid "license.mark_content"
 msgstr "означи дело"
 
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
+#: c/engine/pd/templates/publicdomain-4.pt:25
+msgid "license.Mark_Content"
+msgstr "означи дело"
+
 #: c/engine/licenses/fsf_templates/deed.pt:48
 msgid "deed.gpl_under_conditions"
 msgstr ""
@@ -229,6 +237,12 @@ msgstr ""
 #: c/engine/macros_templates/support.pt:97
 #: c/engine/pd/templates/publicdomain-partner.pt:22
 msgid "license.confirm_choice"
+msgstr "потврдите избор"
+
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
+#: c/engine/pd/templates/publicdomain-partner.pt:22
+msgid "license.Confirm_Choice"
 msgstr "потврдите избор"
 
 #: c/engine/chooser_pages/sampling.pt:54
@@ -389,9 +403,17 @@ msgstr ""
 msgid "util.Sampling"
 msgstr "Стварање дела на основу узорка (sampling)"
 
+msgid "licenses.pretty_sampling"
+msgstr "Стварање дела на основу узорка (sampling)"
+
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
 msgid "util.page_other_languages"
+msgstr "Ова страна је доступна на следећим језицима: "
+
+#: c/engine/macros_templates/support.pt:30
+#: c/engine/macros_templates/support.pt:56
+msgid "deed.view_in"
 msgstr "Ова страна је доступна на следећим језицима: "
 
 msgid "lang.en_GB"
@@ -423,6 +445,13 @@ msgstr ""
 #: c/engine/macros_templates/support.pt:82
 #: c/engine/macros_templates/support.pt:86
 msgid "license.Choose_License"
+msgstr "изаберите лиценцу"
+
+#: c/engine/chooser_pages/index.pt:29
+#: c/engine/chooser_pages/sampling.pt:32
+#: c/engine/macros_templates/support.pt:82
+#: c/engine/macros_templates/support.pt:86
+msgid "license.choose_license"
 msgstr "изаберите лиценцу"
 
 #: c/engine/licenses/fsf_templates/deed.pt:38
@@ -874,6 +903,12 @@ msgstr "шпански"
 msgid "char.by_title"
 msgstr "Ауторство"
 
+#: c/engine/templates/by.pt:8
+#: c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
+msgid "licenses.pretty_by"
+msgstr "Ауторство"
+
 #: c/engine/chooser_pages/sampling.pt:65
 msgid "license.sampling_a_nc-sampling+"
 msgstr ""
@@ -992,7 +1027,7 @@ msgstr ""
 "</p>\n"
 "\n"
 "<p>\n"
-"Creative Commons није адвокатска канеларије и не пружа правне услуге. "
+"Creative Commons није адвокатска канцеларија и не пружа правне услуге. "
 "Дистрибуцијом, приказивањем или линком на овај опис не успоставља се "
 "правни однос с Creative Commons.\n"
 "</p>"
@@ -1089,7 +1124,14 @@ msgstr "Некомерцијално"
 msgid "licenses.pretty_publicdomain"
 msgstr "Јавни домен"
 
+#: c/engine/chooser_pages/index.pt:204
+msgid "util.Public_Domain"
+msgstr "Јавни домен"
+
 msgid "lang.zh"
+msgstr "кинески"
+
+msgid "lang.zh_CN"
 msgstr "кинески"
 
 #: c/engine/chooser_pages/results.pt:59
@@ -1207,7 +1249,7 @@ msgstr "Аргентина"
 #: c/engine/licenses/standard_templates/deed.pt:77
 msgid "deed.superseded"
 msgstr ""
-"A <Понуђена је=\"${current_version_url}\">нова верзија</a> ове лиценце. "
+"Понуђена је=\"${current_version_url}\">нова верзија</a> ове лиценце. "
 "Можете да је употребите за нова дела или да бисте прелиценцирали "
 "постојеће дело. Дела се не могу<em>аутоматски</em> лиценцирати новом "
 "лиценцом."
@@ -1721,6 +1763,9 @@ msgstr ""
 msgid "lang.pt"
 msgstr "португалски"
 
+msgid "lang.pt_BR"
+msgstr "португалски"
+
 #: c/engine/licenses/fsf_templates/deed.pt:75
 #: c/engine/licenses/devnations_templates/deed.pt:51
 #: c/engine/licenses/mitbsd_templates/deed.pt:60
@@ -2001,8 +2046,8 @@ msgid "country.pr"
 msgstr "Порторико"
 
 msgid "lang.el"
-msgstr "Greek"
+msgstr "грчки"
 
 msgid "lang.ro"
-msgstr "Romanian"
+msgstr "румунски"
 

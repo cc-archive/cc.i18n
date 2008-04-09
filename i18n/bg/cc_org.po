@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2008-03-27 09:53-0700\n"
-"PO-Revision-Date: 2008-03-27 09:53-0700\n"
+"POT-Creation-Date: 2008-04-09 15:03-0700\n"
+"PO-Revision-Date: 2008-04-09 15:03-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: bg <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -15,46 +15,55 @@ msgstr ""
 "Generated-By: Babel 0.9.2\n"
 
 msgid "country.nz"
-msgstr "New Zealand"
+msgstr "Нова Зеландия"
 
 msgid "country.gr"
-msgstr "Greece"
+msgstr "Гърция"
 
 #: c/engine/chooser_pages/index.pt:104
 msgid "Allow Derivative Works"
-msgstr ""
+msgstr "Позволява производни произведения"
 
 #: c/engine/chooser_pages/index.pt:107
 msgid ""
 "The licensor permits others to copy, distribute, display and perform the "
 "work, as well as make derivative works based on it."
 msgstr ""
+"Носителят на правата позволява копиране, разпространяване, публично "
+"изпълнение и представяне на произведението, както и създаване на "
+"производни произведения."
 
 #: c/engine/chooser_pages/index.pt:56
 msgid "Commercial Use"
-msgstr ""
+msgstr "Комерсиално използване"
 
 #: c/engine/chooser_pages/index.pt:59
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the"
 " work, including for commercial purposes."
 msgstr ""
+"Носителят на правата позволява копиране, разпространяване, публично "
+"изпълнение и представяне на произведението, включително и с комерсиални "
+"цели."
 
 #: c/engine/chooser_pages/index.pt:70
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the"
 " work for non-commercial purposes only."
 msgstr ""
+"Носителят на правата позволява копиране, разпространяване, публично "
+"изпълнение и представяне на произведението само с некомерсиални цели."
 
 #: c/engine/chooser_pages/index.pt:88
 msgid "Yes, as long as others share alike"
-msgstr ""
+msgstr "Да, до колкото и останалите споделят"
 
 #: c/engine/licenses/sampling_templates/deed.pt:31
 msgid "deed.free_copy_distribute_noncommercial"
 msgstr ""
 "Да изпълнявате, представяте и разпространявате копия на произведението в "
-"неговата цялост за некомерсиални цели (например споделяне или излъчване)."
+"неговата цялост за некомерсиални цели (например споделяне или "
+"некомерсиално излъчване)."
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
 msgid "license.pd_awaiting_confirmation"
@@ -134,6 +143,14 @@ msgstr "Криейтив Комънс договор"
 msgid "license.mark_content"
 msgstr "Маркирайте съдържание"
 
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
+#: c/engine/pd/templates/publicdomain-4.pt:25
+msgid "license.Mark_Content"
+msgstr "Маркирайте съдържание"
+
 #: c/engine/licenses/fsf_templates/deed.pt:48
 msgid "deed.gpl_under_conditions"
 msgstr ""
@@ -190,8 +207,8 @@ msgstr "Без производни"
 
 msgid "jswidget.Updated_license_version_generic"
 msgstr ""
-"We have updated the version of your license to the most recent one "
-"available."
+"Актуализирахме версията на лиценза, който ползвате до последната "
+"официално достъпна."
 
 #: c/engine/chooser_pages/index.pt:67
 msgid "licenses.pretty_nc"
@@ -232,6 +249,12 @@ msgstr ""
 #: c/engine/macros_templates/support.pt:97
 #: c/engine/pd/templates/publicdomain-partner.pt:22
 msgid "license.confirm_choice"
+msgstr "потвърдете избора си"
+
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
+#: c/engine/pd/templates/publicdomain-partner.pt:22
+msgid "license.Confirm_Choice"
 msgstr "потвърдете избора си"
 
 #: c/engine/chooser_pages/sampling.pt:54
@@ -393,9 +416,17 @@ msgstr ""
 msgid "util.Sampling"
 msgstr "Семплиране"
 
+msgid "licenses.pretty_sampling"
+msgstr "Семплиране"
+
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
 msgid "util.page_other_languages"
+msgstr "Тази страница е достъпна на следните езици:"
+
+#: c/engine/macros_templates/support.pt:30
+#: c/engine/macros_templates/support.pt:56
+msgid "deed.view_in"
 msgstr "Тази страница е достъпна на следните езици:"
 
 msgid "lang.en_GB"
@@ -439,6 +470,13 @@ msgstr ""
 msgid "license.Choose_License"
 msgstr "изберете договор"
 
+#: c/engine/chooser_pages/index.pt:29
+#: c/engine/chooser_pages/sampling.pt:32
+#: c/engine/macros_templates/support.pt:82
+#: c/engine/macros_templates/support.pt:86
+msgid "license.choose_license"
+msgstr "изберете договор"
+
 #: c/engine/licenses/fsf_templates/deed.pt:38
 msgid "deed.gpl_free_redistribute"
 msgstr ""
@@ -472,7 +510,7 @@ msgstr ""
 
 #: c/engine/macros_templates/metadata.pt:58
 msgid "util.attribute_to_url"
-msgstr "attribute to url"
+msgstr "Отдаване на признание към интернет страница"
 
 #: c/engine/chooser_pages/index.pt:195
 msgid "license.view_explanation"
@@ -671,7 +709,7 @@ msgid "country.ng"
 msgstr "Нигерия"
 
 msgid "jswidget.Licensor_permits_others_to_make_derivative_works"
-msgstr "Licensor permits others to make derivative works"
+msgstr "Носителят на правата позволява създаването на производни произведения"
 
 msgid "country.us"
 msgstr "САЩ"
@@ -831,7 +869,7 @@ msgstr "американски английски"
 
 #: c/engine/macros_templates/metadata.pt:52
 msgid "util.attribute_to_name"
-msgstr "attribute to name"
+msgstr "Кредит към името"
 
 msgid "api.sampling_flavor_help"
 msgstr ""
@@ -912,6 +950,12 @@ msgstr "испански"
 #: c/engine/templates/by.pt:23
 #: c/engine/licenses/devnations_templates/deed.pt:47
 msgid "char.by_title"
+msgstr "Признание"
+
+#: c/engine/templates/by.pt:8
+#: c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
+msgid "licenses.pretty_by"
 msgstr "Признание"
 
 #: c/engine/chooser_pages/sampling.pt:65
@@ -1137,7 +1181,14 @@ msgstr "Некомерсиално"
 msgid "licenses.pretty_publicdomain"
 msgstr "Обществена Собственост"
 
+#: c/engine/chooser_pages/index.pt:204
+msgid "util.Public_Domain"
+msgstr "Обществена Собственост"
+
 msgid "lang.zh"
+msgstr "китайски"
+
+msgid "lang.zh_CN"
 msgstr "китайски"
 
 #: c/engine/chooser_pages/results.pt:59
@@ -1274,7 +1325,7 @@ msgid "license.enter_information"
 msgstr "въведете информация"
 
 msgid "jswidget.Allow_Remixing"
-msgstr "Allow Remixing"
+msgstr "Позволява ремиксиране"
 
 #: c/engine/macros_templates/metadata.pt:16
 msgid "license.hide_optional_fields"
@@ -1302,14 +1353,14 @@ msgstr ""
 "всички копия и/или значителни части от софтуера"
 
 msgid "jswidget.Remix"
-msgstr "Remix"
+msgstr "Ремикс"
 
 msgid "char.nc_brief"
 msgstr "Произведението не може да бъде използвано за комерсиални цели."
 
 #: c/engine/macros_templates/metadata.pt:72
 msgid "util.more_permissions_url"
-msgstr "more permissions URL"
+msgstr "уеб адрес за повече разрешения"
 
 #: c/engine/licenses/standard_templates/deed.pt:64
 msgid "deed.moralrights"
@@ -1431,8 +1482,8 @@ msgstr "Публикуване вашите лицензирани изобра�
 
 msgid "jswidget.Updated_license_jurisdiction"
 msgstr ""
-"We have updated the version of your license to the most recent one "
-"available in your jurisdiction."
+"Вашият лиценз е актуализиран до последната официално публикувана версия "
+"за вашата юрисдикция"
 
 msgid "country.cz"
 msgstr "Чехия"
@@ -1519,12 +1570,12 @@ msgstr ""
 #: c/engine/licenses/mitbsd_templates/deed.pt:40
 msgid "deed.no_endorsement"
 msgstr ""
-"<strong>No Endorsement</strong>. The name of the author may not be used "
-"to endorse or promote products derived from this software without "
-"specific prior written permission."
+"<strong>Забрана за реклама</strong>. Името на автора не може да бъде "
+"използвано за популяризиране или реклама на продукти, създадени на базата"
+" на този софтуер, без предварителното изрично писмено разрешение за това."
 
 msgid "jswidget.Prohibit_Commercial_Use"
-msgstr "Prohibit Commercial Use"
+msgstr "Забранява използването за комерсиални цели"
 
 #: c/engine/chooser_pages/results.pt:56
 msgid "license.what_to_do_next"
@@ -1716,18 +1767,19 @@ msgid "api.sampling_flavor"
 msgstr "Кой вариант на договора Семплиране?"
 
 msgid "jswidget.no_license_chosen"
-msgstr "No license chosen"
+msgstr "Не сте избрали никакъв лиценз"
 
 msgid "lang.fi"
 msgstr "финландски"
 
 msgid "jswidget.short"
 msgstr ""
-"With a Creative Commons license, you keep your copyright but allow people"
-" to copy and distribute your work provided they give you credit — and "
-"only on the conditions you specify here.', 'If you desire a license "
-"governed by the Copyright Law of a specific jurisdiction, please select "
-"the appropriate jurisdiction."
+"Когато използвате Криейтив Комънс лицензи, вие запазвате правата си на "
+"автор, като същевременно давате възможност на другите да копират и "
+"разпространяват вашето лицензирано произведение, давайки ви кредит за "
+"вашето авторство и само съгласно поставените от вас условия. ', ' Ако "
+"искате да ползвате лиценз, който е под закона за авторските права на "
+"специична юрисдикция, моля изберете съответно.."
 
 #: c/engine/macros_templates/metadata.pt:15
 msgid "license.include_more"
@@ -1778,6 +1830,9 @@ msgstr ""
 "Type, и Typepad)"
 
 msgid "lang.pt"
+msgstr "португалски"
+
+msgid "lang.pt_BR"
 msgstr "португалски"
 
 #: c/engine/licenses/fsf_templates/deed.pt:75
@@ -1894,7 +1949,7 @@ msgid "lang.da"
 msgstr "датски"
 
 msgid "util.Unported"
-msgstr "Unported"
+msgstr "Нелокализиран"
 
 msgid "license.work_based_on"
 msgstr "Базирано на следната творба:${source_link}."
@@ -1956,7 +2011,7 @@ msgstr ""
 "за юристи"
 
 msgid "jswidget.Require_Share-Alike"
-msgstr "Require Share-Alike"
+msgstr "Изисква Споделяне на споделеното"
 
 #: c/engine/licenses/devnations_templates/deed.pt:34
 #: c/engine/licenses/mitbsd_templates/deed.pt:26
@@ -2058,14 +2113,14 @@ msgstr ""
 "е правилният адрес!"
 
 msgid "lang.sr_LATN"
-msgstr "Serbian (Latin)"
+msgstr "Сръбски (латиница)"
 
 msgid "country.pr"
-msgstr "Puerto Rico"
+msgstr "Пуерто Рико"
 
 msgid "lang.el"
-msgstr "Greek"
+msgstr "гръцки"
 
 msgid "lang.ro"
-msgstr "Romanian"
+msgstr "румънски"
 

@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2008-03-27 09:53-0700\n"
-"PO-Revision-Date: 2008-03-27 09:53-0700\n"
+"POT-Creation-Date: 2008-04-09 15:03-0700\n"
+"PO-Revision-Date: 2008-04-09 15:03-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh <LL@li.org>\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
@@ -119,6 +119,14 @@ msgstr "知识共享许可协议"
 msgid "license.mark_content"
 msgstr "标注内容"
 
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
+#: c/engine/pd/templates/publicdomain-4.pt:25
+msgid "license.Mark_Content"
+msgstr "标注内容"
+
 #: c/engine/licenses/fsf_templates/deed.pt:48
 msgid "deed.gpl_under_conditions"
 msgstr "如果遵守本许可协议，您可以行使此处所规定的自由。主要的条款如下："
@@ -206,6 +214,12 @@ msgstr ""
 #: c/engine/macros_templates/support.pt:97
 #: c/engine/pd/templates/publicdomain-partner.pt:22
 msgid "license.confirm_choice"
+msgstr "确认选择"
+
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
+#: c/engine/pd/templates/publicdomain-partner.pt:22
+msgid "license.Confirm_Choice"
 msgstr "确认选择"
 
 #: c/engine/chooser_pages/sampling.pt:54
@@ -346,9 +360,17 @@ msgstr "如果得到本作品权利人的许可，您可以不受任何这些条
 msgid "util.Sampling"
 msgstr "取样使用"
 
+msgid "licenses.pretty_sampling"
+msgstr "取样使用"
+
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
 msgid "util.page_other_languages"
+msgstr "本网页有下述几种语言版本："
+
+#: c/engine/macros_templates/support.pt:30
+#: c/engine/macros_templates/support.pt:56
+msgid "deed.view_in"
 msgstr "本网页有下述几种语言版本："
 
 msgid "lang.en_GB"
@@ -382,6 +404,13 @@ msgstr ""
 #: c/engine/macros_templates/support.pt:82
 #: c/engine/macros_templates/support.pt:86
 msgid "license.Choose_License"
+msgstr "选择许可协议"
+
+#: c/engine/chooser_pages/index.pt:29
+#: c/engine/chooser_pages/sampling.pt:32
+#: c/engine/macros_templates/support.pt:82
+#: c/engine/macros_templates/support.pt:86
+msgid "license.choose_license"
 msgstr "选择许可协议"
 
 #: c/engine/licenses/fsf_templates/deed.pt:38
@@ -785,6 +814,12 @@ msgstr "西班牙语"
 msgid "char.by_title"
 msgstr "署名"
 
+#: c/engine/templates/by.pt:8
+#: c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
+msgid "licenses.pretty_by"
+msgstr "署名"
+
 #: c/engine/chooser_pages/sampling.pt:65
 msgid "license.sampling_a_nc-sampling+"
 msgstr ""
@@ -969,7 +1004,14 @@ msgstr "非商业性使用"
 msgid "licenses.pretty_publicdomain"
 msgstr "公共领域"
 
+#: c/engine/chooser_pages/index.pt:204
+msgid "util.Public_Domain"
+msgstr "公共领域"
+
 msgid "lang.zh"
+msgstr "简体中文"
+
+msgid "lang.zh_CN"
 msgstr "简体中文"
 
 #: c/engine/chooser_pages/results.pt:59
@@ -1508,6 +1550,9 @@ msgid "license.publish_blog"
 msgstr "在您的网络日志（博客）上添加知识共享许可协议"
 
 msgid "lang.pt"
+msgstr "葡萄牙语"
+
+msgid "lang.pt_BR"
 msgstr "葡萄牙语"
 
 #: c/engine/licenses/fsf_templates/deed.pt:75

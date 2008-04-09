@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2008-03-27 09:52-0700\n"
-"PO-Revision-Date: 2008-03-27 09:52-0700\n"
+"POT-Creation-Date: 2008-04-09 15:02-0700\n"
+"PO-Revision-Date: 2008-04-09 15:02-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: th <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -137,6 +137,14 @@ msgstr "สัญญาอนุญาตของครีเอทีฟคอ
 msgid "license.mark_content"
 msgstr "ทำเครื่องหมายที่เนื้อหา"
 
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
+#: c/engine/pd/templates/publicdomain-4.pt:25
+msgid "license.Mark_Content"
+msgstr "ทำเครื่องหมายที่เนื้อหา"
+
 #: c/engine/licenses/fsf_templates/deed.pt:48
 msgid "deed.gpl_under_conditions"
 msgstr ""
@@ -171,16 +179,16 @@ msgstr "กลับไปที่ <a href=\"/\">ครีเอทีฟคอ
 #: c/engine/chooser_pages/lgpl.pt:66
 msgid "license.fsf_how_it_works"
 msgstr ""
-"Here's how the CC-GNU ${license_code} works: A user clicking on the "
-"Creative Commons icon gets the CC-GNU ${license_code} \"<a "
-"href=\"/licenses/${license_code}/${version_title}/\">Commons Deed</a>\" —"
-" a human readable version of the license. From that she can link to \"<a "
+"นี่จะแสดงว่า CC-GNU ${license_code} ทำงานอย่างไร: "
+"ผู้ใช้ที่คลิกบนไอคอนครีเอทีฟคอมมอนส์จะเจอกับ CC-GNU ${license_code} \"<a "
+"href=\"/licenses/${license_code}/${version_title}/\">สัญญาฉบับภาษาธรรมดา</a>\""
+" — สัญญาอนุญาตฉบับสำหรับคนทั่วไปอ่าน. จากที่นั่นเธอสามารถลิงก์ไป \"<a "
 "href=\"http://www.gnu.org/licenses/old-"
-"licenses/${license_name_lower}.html\">Legal Code</a>\" — the full text of"
-" the GNU ${license_code}, in English and <a "
-"href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">Portuguese</a>."
-" And hidden in the tag is \"Machine-Readable Code\" — metadata — that "
-"will enable others to find your software."
+"licenses/${license_name_lower}.html\">สัญญาฉบับภาษากฎหมาย</a>\" — GNU "
+"${license_code} ฉบับเต็ม ในภาษาอังกฤษและ<a "
+"href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">ภาษาโปรตุเกส</a>."
+" และซ่อนอยู่ในแท็กนั้นคือ \"สัญญาฉบับภาษาคอมพิวเตอร์\" — เมตาดาต้า — "
+"ซึ่งจะทำให้ผู้อื่นสามารถค้นพบซอฟต์แวร์ของคุณได้."
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:46
 msgid "deed.bsd_notice"
@@ -188,7 +196,7 @@ msgstr "คุณต้องรักษาข้อตกลงทั้งห
 
 # เงื่อนไขสัญญาอนุญาต
 msgid "licenses.pretty_nd"
-msgstr "ไม่แก้ไขดัดแปลง"
+msgstr "ไม่แก้ไขต้นฉบับ"
 
 msgid "jswidget.Updated_license_version_generic"
 msgstr "เราได้ปรับรุ่นสัญญาอนุญาตของคุณเป็นรุ่นล่าสุดแล้ว"
@@ -212,17 +220,26 @@ msgid "license.work_type_licensed"
 msgstr "งานนี้ ใช้สัญญาอนุญาตของครีเอทีฟคอมมอนส์แบบ"
 
 msgid "license.rdfa_licensed_no_title"
-msgstr "งานนี้ โดย... ใช้สัญญาอนุญาตของครีเอทีฟคอมมอนส์แบบ.."
+msgstr ""
+"งาน${work_type}นี้ โดย {$work_author} ใช้<a rel=\"license\" "
+"href=\"${license_url}\">สัญญาอนุญาตของครีเอทีฟคอมมอนส์แบบ "
+"${license_name}</a>."
 
 #: c/engine/chooser_pages/gpl.pt:46
 #: c/engine/chooser_pages/lgpl.pt:47
 msgid "license.human-readable_commons_deed"
-msgstr "เอกสารคอมมอนส์สำหรับคนทั่วไปอ่าน"
+msgstr "สัญญาอนุญาตฉบับภาษาธรรมดา<br />สำหรับคนทั่วไปอ่าน"
 
 #: c/engine/macros_templates/support.pt:93
 #: c/engine/macros_templates/support.pt:97
 #: c/engine/pd/templates/publicdomain-partner.pt:22
 msgid "license.confirm_choice"
+msgstr "ยืนยันตัวเลือก"
+
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
+#: c/engine/pd/templates/publicdomain-partner.pt:22
+msgid "license.Confirm_Choice"
 msgstr "ยืนยันตัวเลือก"
 
 #: c/engine/chooser_pages/sampling.pt:54
@@ -309,15 +326,15 @@ msgstr "ใช้สัญญาอนุญาตกับงานของค
 
 # ประเภทสัญญาอนุญาต
 msgid "licenses.pretty_by-nc"
-msgstr "ยอมรับสิทธิ-ไม่ใช้เพื่อการค้า"
+msgstr "แสดงที่มา-ไม่ใช้เพื่อการค้า"
 
 # ประเภทสัญญาอนุญาต
 msgid "licenses.pretty_by-nd"
-msgstr "ยอมรับสิทธิ-ไม่แก้ไขดัดแปลง"
+msgstr "แสดงที่มา-ไม่แก้ไขต้นฉบับ"
 
 # ไม่แน่ใจว่า (PE) ควรตัดทิ้งหรือไม่ - ใช้ "ภาษา(ชื่อดินแดน)" แทน
 msgid "lang.es_PE"
-msgstr "ภาษาสเปน "
+msgstr "ภาษาสเปน"
 
 #: c/engine/licenses/sampling_templates/deed.pt:29
 msgid "deed.free_sample"
@@ -371,23 +388,31 @@ msgstr "ฟิลิปปินส์"
 #: c/engine/licenses/sampling_templates/deed.pt:42
 msgid "char.na_brief"
 msgstr ""
-"คุณไม่อาจใช้งานนี้เพื่อโฆษณาหรือส่งเสริมการขายเรื่องใดๆ "
-"เว้นแต่งานที่คุณได้สร้างสรรค์จากงานนี้"
+"คุณไม่อาจใช้งานนี้เพื่อโฆษณาหรือส่งเสริมการขายใด ๆ "
+"เว้นแต่งานที่คุณได้สร้างสรรค์จากมัน."
 
 msgid "country.pe"
 msgstr "เปรู"
 
 msgid "deed.permission.jp"
 msgstr ""
-"เงื่อนไขใดๆข้างต้น "
-"สามารถยกเลิกได้ถ้าคุณได้รับอนุญาตจากผู้ถือสิทธิของงานนี้"
+"เงื่อนไขใด ๆ ข้างต้น "
+"สามารถยกเลิกได้ถ้าคุณได้รับอนุญาตจากผู้ถือสิทธิของงานนี้."
 
 msgid "util.Sampling"
-msgstr "ตัวอย่าง"
+msgstr "การสุ่มตัวอย่าง"
+
+msgid "licenses.pretty_sampling"
+msgstr "การสุ่มตัวอย่าง"
 
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
 msgid "util.page_other_languages"
+msgstr "เอกสารหน้านี้ในภาษาอื่น: "
+
+#: c/engine/macros_templates/support.pt:30
+#: c/engine/macros_templates/support.pt:56
+msgid "deed.view_in"
 msgstr "เอกสารหน้านี้ในภาษาอื่น: "
 
 msgid "lang.en_GB"
@@ -409,7 +434,7 @@ msgid "util.confirm"
 msgstr "ยืนยัน"
 
 msgid "util.Do_you_want_to"
-msgstr "ท่านต้องการที่จะ"
+msgstr "ท่านต้องการที่จะ:"
 
 msgid "util.year_of_copyright"
 msgstr ""
@@ -425,13 +450,22 @@ msgstr ""
 msgid "license.Choose_License"
 msgstr "เลือกใช้สัญญาอนุญาต"
 
+#: c/engine/chooser_pages/index.pt:29
+#: c/engine/chooser_pages/sampling.pt:32
+#: c/engine/macros_templates/support.pt:82
+#: c/engine/macros_templates/support.pt:86
+msgid "license.choose_license"
+msgstr "เลือกใช้สัญญาอนุญาต"
+
 #: c/engine/licenses/fsf_templates/deed.pt:38
 msgid "deed.gpl_free_redistribute"
-msgstr "The freedom to redistribute copies so you can help your neighbor."
+msgstr "เสรีภาพที่จะแจกจ่ายสำเนา ดังนั้นคุณจึงสามารถช่วยเหลือเพื่อนบ้านคุณได้."
 
 #: c/engine/pd/templates/publicdomain-4.pt:47
 msgid "license.mark_mp3"
-msgstr "ทำเครื่องหมายที่แฟ้มข้อมูลเอ็มพี๓ ให้ปฏิบัติตามคำแนะนำดังนี้"
+msgstr ""
+"การทำเครื่องหมายที่แฟ้มข้อมูล mp3 ให้<a "
+"href=\"/technology/mp3\">ปฏิบัติตามคำแนะนำนี้</a>."
 
 #: c/engine/licenses/devnations_templates/deed.pt:40
 #: c/engine/licenses/mitbsd_templates/deed.pt:33
@@ -443,44 +477,46 @@ msgstr "ภายใต้เงื่อนไขดังต่อไปนี
 #: c/engine/chooser_pages/gpl.pt:48
 #: c/engine/chooser_pages/lgpl.pt:49
 msgid "license.machine-readable_digital_code"
-msgstr "เอกสารที่ระบบคอมพิวเตอรือ่านได้ ภาษาดิจิตอล"
+msgstr "สัญญาอนุญาตฉบับภาษาดิจิทัล<br />สำหรับคอมพิวเตอร์อ่าน"
 
 msgid "util.copyright_holders_name"
 msgstr ""
-"<a href=\"/jargon/copyright\" class=\"jargon\" "
+"ชื่อผู้ครอง<a href=\"/jargon/copyright\" class=\"jargon\" "
 "onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', "
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
-" return false;\">copyright</a> holder's name"
+" return false;\">ลิขสิทธิ์</a>"
 
 #: c/engine/macros_templates/metadata.pt:58
 msgid "util.attribute_to_url"
-msgstr "การยอมรับสิทธิโดยอ้างอิงถึงที่อยุ่อินเทอร์เน็ต"
+msgstr "แสดงที่มาถึงที่อยู่อินเทอร์เน็ต (url)"
 
 #: c/engine/chooser_pages/index.pt:195
 msgid "license.view_explanation"
-msgstr "ดูคำอธิบายสัญญาอนุญาตแบบต่างๆของเรา"
+msgstr "ดูคำอธิบายสัญญาอนุญาตทั้งหมดของเรา"
 
 msgid "jargon.copyright_description"
 msgstr ""
-"ลิขสิทธิ์ สิทธิแต่ผู้เดียวที่จะทำการใด ๆ "
-"ตามที่รัฐบาลมอบให้เพื่อส่งเสริมการผลิตงานสร้างสรรค์ ลิขสิทธิ์ "
-"รวมถึงสิทธิในการทำซ้ำ แจกจ่าย ถ่ายทอด(รวมทั้งการแพร่เสียง แพร่ภาพ) ทำตลาด"
-" และทำงานดัดแปลงจากงานสร้างสรรค์เดิม "
-"รวมทั้งสิทธิในการฟ้องศาลเพื่อบังคับตามสิทธิดังกล่าวและการมอบให้ผู้อิ่นใช้สิทธิดังกล่าวด้วย"
+"ลิขสิทธิ์. สิทธิแต่ผู้เดียวที่จะทำการใด ๆ "
+"ตามที่รัฐบาลมอบให้เพื่อส่งเสริมการผลิตงานสร้างสรรค์. ลิขสิทธิ์ "
+"รวมถึงสิทธิในการทำซ้ำ แจกจ่าย ถ่ายทอด (รวมทั้งการแพร่เสียง แพร่ภาพ) "
+"ทำตลาด และทำงานดัดแปลงจากงานสร้างสรรค์เดิม. "
+"รวมทั้งสิทธิในการฟ้องศาลเพื่อบังคับตามสิทธิดังกล่าวและการมอบให้ผู้อื่นใช้สิทธิดังกล่าวด้วย."
 " ลิขสิทธิ์ เป็นการคุ้มครองการแสดงออกของความคิดและข้อเท็จจริง "
-"แต่ไม่รวมถึงข้อเท็จจริงและความคิดเหล่านั้น"
+"แต่ไม่รวมถึงข้อเท็จจริงและความคิดเหล่านั้น."
 
 #: c/engine/licenses/fsf_templates/deed.pt:50
 msgid "deed.lgpl_under_conditions"
 msgstr ""
-"คุณอาจใช้สิทธิตามที่ได้ระบุไว้โดยต้องปฏิบัติตามเงื่อนไขต่างๆที่ได้ระบุไว้ในสัญญาอนุญาตนี้ด้วยสัญญาอนุญาตแบบแอลจีพีแอล"
-" มุ่งหมายให้ใช้กับโปรแกรมคอมพิวเตอร์แบบชุดคำสั่งที่รวบรวมไว้เพื่อใช้บ่อยๆ"
-" มากกว่าการใช้กับโปรแกรมคอมพิวเตอร์แบบที่ทำงานในเครื่องคอมพิวเตอร์"
+"คุณอาจใช้สิทธิตามที่ได้ระบุไว้โดยต้องปฏิบัติตามเงื่อนไขต่าง ๆ "
+"ที่ได้ระบุไว้ในสัญญาอนุญาตนี้. "
+"สัญญาอนุญาตแบบแอลจีพีแอลมุ่งหมายให้ใช้กับซอฟต์แวร์ไลบรารี "
+"(กลุ่มชุดคำสั่งคอมพิวเตอร์ที่รวบรวมไว้เพื่อใช้บ่อย ๆ) "
+"มากกว่าการใช้กับโปรแกรมคอมพิวเตอร์. หลักใหญ่ของเงื่อนไขต่าง ๆ คือ:"
 
 msgid "license.mark_license"
 msgstr ""
 "บัดนี้ คุณได้เลือกที่จะใช้สัญญาอนุญาตของครีเอทีฟคอมมอนส์ "
-"คุณจึงต้องทำเครื่องหมายระบุในงานของคุณด้วยวิธีการที่เหมาะสม"
+"คุณจึงต้องทำเครื่องหมายระบุในงานของคุณด้วยวิธีการที่เหมาะสม."
 
 msgid "country.lu"
 msgstr "ลักเซมเบิร์ก"
@@ -500,19 +536,24 @@ msgstr "ซอโตเหนือ"
 msgid "util.CC_GNU_LGPL"
 msgstr "ซีซี-กนู แอลจีพีแอล"
 
+# sampling = การสุ่มตัวอย่าง เช่นบางส่วนของเพลง บางตอนของหนัง
 msgid "license.sampling_a_sampling"
 msgstr ""
-"ตัวอย่าง "
-"ประชาชนสามารถนำงานของคุณไปใช้หรือดัดแปลงงานของคุณเพื่อวัตถุประสงค์ใดๆนอกจากการโฆษณาซึ่งถูกห้ามไว้"
-" การทำสำเนาหรือแจกจ่ายงานทั้งหมด ก็ถูกห้ามไว้เช่นเดียวกัน"
+"<strong>การสุ่มตัวอย่าง</strong>: ผู้คนสามารถนำ<strong>ส่วนต่าง "
+"ๆ</strong> ของงานคุณไปใช้หรือดัดแปลงเพื่อวัตถุประสงค์ใด ๆ "
+"นอกจากการโฆษณา-ซึ่งถูกห้ามไว้. "
+"การทำสำเนาหรือแจกจ่ายงาน<strong>ทั้งชิ้น</strong> "
+"ก็ถูกห้ามไว้เช่นเดียวกัน."
 
 #: c/engine/chooser_pages/results.pt:98
 msgid "license.publish_audio_ia"
-msgstr "นำงานดนตรีที่ใช้สัญญาอนุญาตของคุณไปเก็บไว้ในที่เก็บในอินเทอร์เน็ต"
+msgstr ""
+"นำงานดนตรีที่ใช้สัญญาอนุญาตของคุณไปเก็บไว้ที่ Internet Archive "
+"(องค์กรที่เก็บข้อมูลต่าง ๆ บนอินเทอร์เน็ต)"
 
 #: c/engine/chooser_pages/results.pt:92
 msgid "license.no_web_site"
-msgstr "ไม่มีเว็บไซ้ต์?"
+msgstr "ไม่มีเว็บไซต์?"
 
 msgid "country.rs"
 msgstr "เซอร์เบีย"
@@ -523,63 +564,66 @@ msgstr "เกาหลี"
 #: c/engine/chooser_pages/partner/index.pt:69
 msgid "license.a6"
 msgstr ""
-"Yes, as long as others share alike (<a "
+"ใช่ ตราบเท่าที่คนอื่นก็อนุญาตแบบเดียวกัน (<a "
 "href=\"/characteristic/sa?lang=${lang}\" "
 "onclick=\"window.open('/characteristic/sa?lang=${lang}', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">more info</a> <a href=\"/characteristic/sa?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/sa?lang=${lang}', "
+" false;\">ข้อมูลเพิ่มเติม</a> <a href=\"/characteristic/sa?lang=${lang}\""
+" onclick=\"window.open('/characteristic/sa?lang=${lang}', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+"alt=\"ข้อมูลเพิ่มเติม\" border=\"0\" /></a>)"
 
 msgid "lang.ko"
 msgstr "เกาหลี"
 
+# ข้อความปฏิเสธความรับผิดชอบ
 msgid "deed.gpl_disclaimer"
 msgstr ""
 "<div align=\"center\"><a href=\"/licenses/disclaimer-popup\" "
 "onclick=\"window.open('/licenses/disclaimer-popup', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">Disclaimer</a> <a href=\"/licenses/disclaimer-popup\" "
-"onclick=\"window.open('/licenses/disclaimer-popup', "
+" false;\">ข้อความปฏิเสธความรับผิดชอบ</a> <a href=\"/licenses/disclaimer-"
+"popup\" onclick=\"window.open('/licenses/disclaimer-popup', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"disclaimer\" border=\"0\"></a></div>"
 
 msgid "license.no_license"
-msgstr "Sorry, no license matches your criteria."
+msgstr "ขออภัย ไม่มีสัญญาอนุญาตที่ตรงกับเกณฑ์ที่คุณระบุ."
 
 msgid "lang.it"
-msgstr "อิตาเลียน"
+msgstr "ภาษาอิตาลี"
 
 msgid "country.ro"
 msgstr "โรมาเนีย"
 
 #: c/engine/chooser_pages/index.pt:191
 msgid "license.what_you"
-msgstr "คุณสามารถทำอะไร ณ ที่นี่ได้"
+msgstr "อะไรที่คุณสามารถทำที่นี่ได้"
 
 msgid "jargon.copyright_date_description"
 msgstr ""
-"ถ้าคุณไม่ได้ลงทะเบียนลิขสิทธิ์สำหรับงานของคุณอย่างเป็นทางการ "
-"วันที่ถือว่าได้ลิขสิทธิ์ คือวันที่คุณได้สร้างสรรค์หรือทำงานนั้นเสร็จ"
+"ถ้าคุณไม่ได้ลงทะเบียนลิขสิทธิ์สำหรับงานของคุณอย่างเป็นทางการ, "
+"วันที่ถือว่าได้ลิขสิทธิ์ คือวันที่คุณได้สร้างสรรค์หรือทำงานนั้นเสร็จ."
 
+# ลำดับต้องเป็นแบบไหน ? by-nd-nc หรือ by-nc-nd ?
 msgid "licenses.pretty_by-nd-nc"
-msgstr "ยอมรับสิทธิ-ไม่แก้ไขดัดแปลง-ไม่ใช้เพื่อการค้า"
+msgstr "แสดงที่มา-ไม่แก้ไขต้นฉบับ-ไม่ใช้เพื่อการค้า"
 
+# ภาษา Galician พูดใน Galicia ในสเปน
 #: c/engine/macros_templates/deed.pt:110
 msgid "lang.gl"
-msgstr "แกลิเชียน"
+msgstr "ภาษากาลิเชีย"
 
 msgid "license.proceed_pd"
 msgstr ""
-"You may now <a href=\"publicdomain-2?${url_vars}\">proceed and enrich the"
-" public domain with your work</a>."
+"ตอนนี้ คุณอาจ<a "
+"href=\"publicdomain-2?${url_vars}\">ลงมือทำให้สาธารณสมบัติเพิ่มพูนขึ้นด้วยงานของคุณ</a>."
 
 #: c/engine/pd/templates/publicdomain-2.pt:29
 msgid "util.your_email"
@@ -613,7 +657,9 @@ msgstr "เสียง"
 
 #: c/engine/macros_templates/deed.pt:92
 msgid "deed.fair_use"
-msgstr "สิทธิการใช้งานตามสมควรและสิทธิอื่นๆ ไม่ได้รับผลกระทบใดๆจากข้อตกลงข้างต้น"
+msgstr ""
+"สิทธิการใช้งานตามสมควรและสิทธิอื่น ๆ ไม่ได้รับผลกระทบใด ๆ "
+"จากข้อตกลงข้างต้น"
 
 msgid "country.nl"
 msgstr "เนเธอร์แลนด์"
@@ -632,7 +678,7 @@ msgstr ""
 
 #: c/engine/macros_templates/partner.pt:29
 msgid "util.Creative_Commons"
-msgstr "ครีเอทีฟคอมอนส์"
+msgstr "ครีเอทีฟคอมมอนส์"
 
 # อังกฤษ: อังกฤษและเวลส์
 msgid "country.uk"
@@ -645,7 +691,7 @@ msgid "jswidget.Licensor_permits_others_to_make_derivative_works"
 msgstr "ผู้อนุญาตยินยอมให้ผู้อื่นทำงานดีดแปลงได้"
 
 msgid "country.us"
-msgstr "สหรัฐ อเมริกา"
+msgstr "สหรัฐอเมริกา"
 
 #: c/engine/chooser_pages/results.pt:70
 msgid "license.select_text"
@@ -768,7 +814,7 @@ msgstr ""
 "เว้นแต่จะได้รับอนุญาตจากผู้อนุญาตแล้ว"
 
 msgid "lang.es_MX"
-msgstr "สแปนนิช "
+msgstr "สเปน (MX) "
 
 msgid "util.publish"
 msgstr "เผยแพร่"
@@ -790,9 +836,10 @@ msgstr ""
 msgid "util.more"
 msgstr "ยังมีต่อ"
 
-# อังกฤษ (อเมริกา)
+# อังกฤษ (อเมริกา), ตามที่ปรากฏใน guideline ของ google ข้อความในวงเล็บ
+# หมายถึงประเทศ จึงคิดว่าน่าจะคงไว้
 msgid "lang.en_US"
-msgstr "ภาษาอังกฤษแบบสหรัฐอเมริกา"
+msgstr "อังกฤษ (US)"
 
 #: c/engine/macros_templates/metadata.pt:52
 msgid "util.attribute_to_name"
@@ -879,6 +926,12 @@ msgstr "สแปนิช"
 msgid "char.by_title"
 msgstr "ยอมรับสิทธิ"
 
+#: c/engine/templates/by.pt:8
+#: c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
+msgid "licenses.pretty_by"
+msgstr "ยอมรับสิทธิ"
+
 #: c/engine/chooser_pages/sampling.pt:65
 msgid "license.sampling_a_nc-sampling+"
 msgstr ""
@@ -951,13 +1004,13 @@ msgstr ""
 "เว็บไซ้ท์เหล่านี้ สามารถใช้สัญญาอนุญาตของครีเอทีฟคอมมอนส์ได้"
 
 msgid "lang.es_CO"
-msgstr "สแปนิช (CO)"
+msgstr "สเปน (CO)"
 
 #: c/engine/pd/templates/publicdomain-4.pt:42
 #: c/engine/chooser_pages/gpl.pt:110
 #: c/engine/chooser_pages/lgpl.pt:113
 msgid "license.get_html_email"
-msgstr "เลือกเอกสารเอชทีเอ็มแอลและส่งอีเมลกลับมาที่คุณ"
+msgstr "เลือกเอกสารเอชทีเอ็มแอลและส่งอีเมลล์กลับมาที่คุณ"
 
 #: c/engine/macros_templates/metadata.pt:38
 msgid "util.Interactive"
@@ -1075,7 +1128,14 @@ msgstr "ไม่ใช้เพื่อการค้า"
 msgid "licenses.pretty_publicdomain"
 msgstr "Public Domain"
 
+#: c/engine/chooser_pages/index.pt:204
+msgid "util.Public_Domain"
+msgstr "Public Domain"
+
 msgid "lang.zh"
+msgstr "จีน"
+
+msgid "lang.zh_CN"
 msgstr "จีน"
 
 #: c/engine/chooser_pages/results.pt:59
@@ -1244,7 +1304,7 @@ msgstr "คุณไม่อาจใช้งานนี้เพื่อว
 
 #: c/engine/macros_templates/metadata.pt:72
 msgid "util.more_permissions_url"
-msgstr "more permissions URL"
+msgstr "URL รับอนุญาตมากขึ้น"
 
 #: c/engine/licenses/standard_templates/deed.pt:64
 msgid "deed.moralrights"
@@ -1263,7 +1323,7 @@ msgid "lang.he"
 msgstr "ฮิบรู"
 
 msgid "license.learn_mark"
-msgstr "learn how to mark your content"
+msgstr "เรียนรู้วิธีระบุเนื้อหาของคุณ"
 
 msgid "country.sg"
 msgstr "สิงค์โปร์"
@@ -1339,7 +1399,7 @@ msgstr "สวิสเซอร์แลนด์"
 
 #: c/engine/chooser_pages/results.pt:105
 msgid "license.publish_flickr"
-msgstr "Posting your licensed images at Flickr"
+msgstr "การโพสต์รูปสัญญาของคุณที่ Flickr"
 
 msgid "jswidget.Updated_license_jurisdiction"
 msgstr "เราได้ปรับปรุงแก้ไขสัญญาอนุญาตของคุณเป็นฉบับล่าสุดสำหรับเขตอำนาจศาลของคุณ"
@@ -1445,7 +1505,7 @@ msgstr ""
 " module</a>."
 
 msgid "lang.es_CL"
-msgstr "สแปนิช (CL)"
+msgstr "สเปน (CL)"
 
 #: c/engine/chooser_pages/sampling.pt:36
 #: c/engine/macros_templates/support.pt:127
@@ -1516,9 +1576,8 @@ msgstr ""
 #: c/engine/chooser_pages/results.pt:78
 msgid "license.after_support_cc"
 msgstr ""
-"After publishing your license, please consider <a "
-"href=\"http://creativecommons.org/support/\">supporting Creative "
-"Commons</a>."
+"หลังจากประกาศสัญญาของคุณแล้ว กรุณาสนับสนุน<a "
+"href=\"http://creativecommons.org/support/\">ครีเอทีฟ คอมมอนส์</a>"
 
 #: c/engine/pd/templates/publicdomain-3.pt:93
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:59
@@ -1551,7 +1610,7 @@ msgstr ""
 
 #: c/engine/macros_templates/metadata.pt:36
 msgid "util.Text"
-msgstr "Text"
+msgstr "ข้อความ"
 
 #: c/engine/licenses/devnations_templates/deed.pt:48
 #: c/engine/licenses/sampling_templates/deed.pt:41
@@ -1567,7 +1626,7 @@ msgstr "Publishing your licensed music to the Morpheus P2P network"
 
 #: c/engine/chooser_pages/results.pt:108
 msgid "license.publish_buzznet"
-msgstr "Posting your licensed images at Buzznet"
+msgstr "การโพสต์รูปสัญญาของคุณที่ Buzznet"
 
 msgid "deed.lgpl_source"
 msgstr ""
@@ -1630,7 +1689,7 @@ msgstr "ข้อมูลเกี่ยวกับการเลือกข
 #: c/engine/macros_templates/deed.pt:118
 #: c/engine/macros_templates/deed.pt:123
 msgid "lang.fr"
-msgstr "French"
+msgstr "ฝรั่งเศส"
 
 # GNU = กนู
 #: c/engine/chooser_pages/index.pt:218
@@ -1659,6 +1718,9 @@ msgstr ""
 "แบบเคลื่อนไหวและแบบปุ่มกด)"
 
 msgid "lang.pt"
+msgstr "ภาษาโปรตุเกส"
+
+msgid "lang.pt_BR"
 msgstr "ภาษาโปรตุเกส"
 
 #: c/engine/licenses/fsf_templates/deed.pt:75
@@ -1907,8 +1969,8 @@ msgstr ""
 #: c/engine/licenses/sampling_templates/deed.pt:27
 msgid "deed.free_sample_nc"
 msgstr ""
-"To sample, mash-up, or otherwise creatively transform this work for "
-"noncommercial purposes."
+"การตัดตัวอย่างไปใช้ นำไปผสมรวม หรือการดัดแปลงงานนี้ในทางอื่น ๆ "
+"เพื่อจุดประสงค์ที่ไม่ใช่เพื่อการค้า"
 
 #: c/engine/chooser_pages/sampling.pt:116
 msgid "license.sampling_before"
@@ -1928,18 +1990,19 @@ msgstr "หน้าแรก"
 #: c/engine/pd/templates/publicdomain-2.pt:53
 msgid "license.proceed_email_note"
 msgstr ""
-"กดปุ่ม\"ทำต่อไป\" จะส่งคำขอยืนยันไปที่อีเมลซึ่งคุณได้ให้ไว้. "
-"ดูให้แน่ใจว่าที่อยู่ที่ให้ไว้ถูกต้อง"
+"<b>หมายเหตุ:</b> การกดปุ่ม \"ทำต่อไป\" "
+"จะส่งคำขอยืนยันไปยังอีเมลซึ่งคุณได้ให้ไว้. "
+"ให้แน่ใจว่าที่อยู่ที่ให้ไว้นั้นถูกต้อง."
 
 msgid "lang.sr_LATN"
-msgstr "Serbian (Latin)"
+msgstr "ภาษาเซอร์เบีย (อักษรละติน)"
 
 msgid "country.pr"
-msgstr "Puerto Rico"
+msgstr "เปอร์โตริโก"
 
 msgid "lang.el"
-msgstr "Greek"
+msgstr "กรีก"
 
 msgid "lang.ro"
-msgstr "Romanian"
+msgstr "โรมาเนีย"
 

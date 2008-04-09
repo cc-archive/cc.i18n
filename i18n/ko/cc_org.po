@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2008-03-27 09:53-0700\n"
-"PO-Revision-Date: 2008-03-27 09:53-0700\n"
+"POT-Creation-Date: 2008-04-09 15:02-0700\n"
+"PO-Revision-Date: 2008-04-09 15:02-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ko <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -122,6 +122,14 @@ msgstr "크리에이티브 커먼즈 라이센스"
 msgid "license.mark_content"
 msgstr "컨텐츠에 표시하기"
 
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
+#: c/engine/pd/templates/publicdomain-4.pt:25
+msgid "license.Mark_Content"
+msgstr "컨텐츠에 표시하기"
+
 #: c/engine/licenses/fsf_templates/deed.pt:48
 msgid "deed.gpl_under_conditions"
 msgstr ""
@@ -217,6 +225,12 @@ msgstr ""
 #: c/engine/macros_templates/support.pt:97
 #: c/engine/pd/templates/publicdomain-partner.pt:22
 msgid "license.confirm_choice"
+msgstr "선택 확인"
+
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
+#: c/engine/pd/templates/publicdomain-partner.pt:22
+msgid "license.Confirm_Choice"
 msgstr "선택 확인"
 
 #: c/engine/chooser_pages/sampling.pt:54
@@ -359,9 +373,17 @@ msgstr "이 저작물의 권리자로부터 별도의 허가를 받으면 이러
 msgid "util.Sampling"
 msgstr "Sampling"
 
+msgid "licenses.pretty_sampling"
+msgstr "Sampling"
+
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
 msgid "util.page_other_languages"
+msgstr "이 페이지는 다음과 같은 언어로 이용할 수 있습니다."
+
+#: c/engine/macros_templates/support.pt:30
+#: c/engine/macros_templates/support.pt:56
+msgid "deed.view_in"
 msgstr "이 페이지는 다음과 같은 언어로 이용할 수 있습니다."
 
 msgid "lang.en_GB"
@@ -395,6 +417,13 @@ msgstr ""
 #: c/engine/macros_templates/support.pt:82
 #: c/engine/macros_templates/support.pt:86
 msgid "license.Choose_License"
+msgstr "라이센스 선택"
+
+#: c/engine/chooser_pages/index.pt:29
+#: c/engine/chooser_pages/sampling.pt:32
+#: c/engine/macros_templates/support.pt:82
+#: c/engine/macros_templates/support.pt:86
+msgid "license.choose_license"
 msgstr "라이센스 선택"
 
 #: c/engine/licenses/fsf_templates/deed.pt:38
@@ -837,6 +866,12 @@ msgstr "Spanish"
 msgid "char.by_title"
 msgstr "저작자표시"
 
+#: c/engine/templates/by.pt:8
+#: c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
+msgid "licenses.pretty_by"
+msgstr "저작자표시"
+
 #: c/engine/chooser_pages/sampling.pt:65
 msgid "license.sampling_a_nc-sampling+"
 msgstr ""
@@ -1026,7 +1061,14 @@ msgstr "비영리"
 msgid "licenses.pretty_publicdomain"
 msgstr "Public Domain"
 
+#: c/engine/chooser_pages/index.pt:204
+msgid "util.Public_Domain"
+msgstr "Public Domain"
+
 msgid "lang.zh"
+msgstr "Chinese"
+
+msgid "lang.zh_CN"
 msgstr "Chinese"
 
 #: c/engine/chooser_pages/results.pt:59
@@ -1605,6 +1647,9 @@ msgid "license.publish_blog"
 msgstr "귀하의 블로그에 크리에이티브 커먼즈 라이센스 달기(Blogger, Movable Type, Typepad)"
 
 msgid "lang.pt"
+msgstr "Portugese"
+
+msgid "lang.pt_BR"
 msgstr "Portugese"
 
 #: c/engine/licenses/fsf_templates/deed.pt:75

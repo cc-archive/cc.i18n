@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2008-03-27 09:53-0700\n"
-"PO-Revision-Date: 2008-03-27 09:53-0700\n"
+"POT-Creation-Date: 2008-04-09 15:03-0700\n"
+"PO-Revision-Date: 2008-04-09 15:03-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ja <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -122,6 +122,14 @@ msgstr "クリエイティブ・コモンズ・ライセンス"
 msgid "license.mark_content"
 msgstr "コンテンツにマークを付ける"
 
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
+#: c/engine/pd/templates/publicdomain-4.pt:25
+msgid "license.Mark_Content"
+msgstr "コンテンツにマークを付ける"
+
 #: c/engine/licenses/fsf_templates/deed.pt:48
 msgid "deed.gpl_under_conditions"
 msgstr "あなたはこのライセンスが定める次の条件を遵守することによって，ここに規定された自由を行使することができます．基本的な条件は次の通りです："
@@ -212,6 +220,12 @@ msgstr ""
 #: c/engine/macros_templates/support.pt:97
 #: c/engine/pd/templates/publicdomain-partner.pt:22
 msgid "license.confirm_choice"
+msgstr "ライセンス選択の確認"
+
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
+#: c/engine/pd/templates/publicdomain-partner.pt:22
+msgid "license.Confirm_Choice"
 msgstr "ライセンス選択の確認"
 
 #: c/engine/chooser_pages/sampling.pt:54
@@ -345,9 +359,17 @@ msgstr "この作品の権利者から許可を得ると、これらの条件は
 msgid "util.Sampling"
 msgstr "サンプリング"
 
+msgid "licenses.pretty_sampling"
+msgstr "サンプリング"
+
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
 msgid "util.page_other_languages"
+msgstr "このページは以下の言語でもご覧になれます。"
+
+#: c/engine/macros_templates/support.pt:30
+#: c/engine/macros_templates/support.pt:56
+msgid "deed.view_in"
 msgstr "このページは以下の言語でもご覧になれます。"
 
 msgid "lang.en_GB"
@@ -381,6 +403,13 @@ msgstr ""
 #: c/engine/macros_templates/support.pt:82
 #: c/engine/macros_templates/support.pt:86
 msgid "license.Choose_License"
+msgstr "ライセンスの選択"
+
+#: c/engine/chooser_pages/index.pt:29
+#: c/engine/chooser_pages/sampling.pt:32
+#: c/engine/macros_templates/support.pt:82
+#: c/engine/macros_templates/support.pt:86
+msgid "license.choose_license"
 msgstr "ライセンスの選択"
 
 #: c/engine/licenses/fsf_templates/deed.pt:38
@@ -790,6 +819,12 @@ msgstr "スペイン語"
 msgid "char.by_title"
 msgstr "表示"
 
+#: c/engine/templates/by.pt:8
+#: c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
+msgid "licenses.pretty_by"
+msgstr "表示"
+
 #: c/engine/chooser_pages/sampling.pt:65
 msgid "license.sampling_a_nc-sampling+"
 msgstr "<strong>非営利サンプリング・プラス</strong>：このライセンスを選択すると，<strong>非営利目的に限り</strong>，他の人があなたの作品を、<strong>部分的に</strong>切り取ったり変換したりすることが可能になります．また、非営利目的に限り、<strong>作品全体</strong>の複製や頒布（ファイル共有など）も認められます．"
@@ -971,7 +1006,14 @@ msgstr "非営利"
 msgid "licenses.pretty_publicdomain"
 msgstr "パブリック・ドメイン"
 
+#: c/engine/chooser_pages/index.pt:204
+msgid "util.Public_Domain"
+msgstr "パブリック・ドメイン"
+
 msgid "lang.zh"
+msgstr "中国語"
+
+msgid "lang.zh_CN"
 msgstr "中国語"
 
 #: c/engine/chooser_pages/results.pt:59
@@ -1521,6 +1563,9 @@ msgid "license.publish_blog"
 msgstr "あなたのブログ（Blogger, Movable Type, Typepad）にクリエイティブ・コモンズ・ライセンスを付与する"
 
 msgid "lang.pt"
+msgstr "ポルトガル語"
+
+msgid "lang.pt_BR"
 msgstr "ポルトガル語"
 
 #: c/engine/licenses/fsf_templates/deed.pt:75
