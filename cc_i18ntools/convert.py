@@ -26,6 +26,7 @@ def reverse_english(message, english):
     return the original message."""
 
     result = copy.deepcopy(message)
+    hasYielded = False
 
     for en_msg in english:
         if en_msg.string == message.id:
@@ -33,14 +34,17 @@ def reverse_english(message, english):
             result = copy.deepcopy(message)
             result.id = en_msg.id
 
-            break
+            hasYielded = True
+            yield result
 
-    return result
+    if not hasYielded:
+        yield result
 
 def po_to_cc(source, english):
     """Create a Catalog based on [source] (a Catalog instance).  Each Message
     key in [source] is checked against Message strings in [english]; if a 
     match is found, the key is replaced with the key from the [english] match.
+    If more than one match is found, multiple strings are created.
     The result is a Catalog whose keys are symbolic rather than English text.
 
     Returns a Catalog instance."""
@@ -56,14 +60,13 @@ def po_to_cc(source, english):
         # skip messages w/an empty id
         if not(message.id): continue
 
-        new_message = reverse_english(message, english)
+        for new_message in reverse_english(message, english):
         
-        # fall-back to English if untranslated
-        if not(new_message.string.strip()):
-            new_message.string = english[new_message.id].string
+            # fall-back to English if untranslated
+            if not(new_message.string.strip()):
+                new_message.string = english[new_message.id].string
 
-
-        target[new_message.id] = new_message
+            target[new_message.id] = new_message
 
     return target
 
