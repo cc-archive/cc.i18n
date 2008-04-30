@@ -98,8 +98,19 @@ def cc_to_po(source, english, previous=None):
             new_message.string = ''
 
         if previous is not None:
+
+            # see if this was untranslated previously (in which case
+            # we really just want to fall back to the new English instead
+            # of the old)
+            if message.id in previous:
+                if new_message.string == previous[message.id].string:
+                    # the string is the same as the old English text...
+                    # remove the string since it's not really translated
+                    new_message.string = ''
+
             # see if this should be marked as "fuzzy"
-            if message.id in previous and message.id in english:
+            if new_message.string and \
+                    message.id in previous and message.id in english:
                 if previous[message.id].string != english[message.id].string:
                     new_message.flags.add('fuzzy')
 
