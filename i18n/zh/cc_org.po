@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2008-04-17 16:08-0700\n"
-"PO-Revision-Date: 2008-04-17 16:08-0700\n"
+"POT-Creation-Date: 2008-05-01 10:34-0700\n"
+"PO-Revision-Date: 2008-05-01 10:34-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh <LL@li.org>\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
@@ -282,6 +282,7 @@ msgstr "本软件采用<a href=\"${license_url}\">CC-GNU${license_code}</a>。"
 
 #: c/engine/pd/templates/publicdomain-2.pt:34
 #: c/engine/macros_templates/metadata.pt:46
+#, fuzzy
 msgid "util.title_of_work"
 msgstr "作品名称"
 
@@ -445,6 +446,7 @@ msgstr ""
 " return false;\">著作权</a>人的姓名"
 
 #: c/engine/macros_templates/metadata.pt:58
+#, fuzzy
 msgid "util.attribute_to_url"
 msgstr "作者网址"
 
@@ -746,6 +748,7 @@ msgid "lang.en_US"
 msgstr "英语（美国）"
 
 #: c/engine/macros_templates/metadata.pt:52
+#, fuzzy
 msgid "util.attribute_to_name"
 msgstr "作者姓名"
 
@@ -1090,6 +1093,7 @@ msgstr "西班牙语（阿根廷）"
 
 #: c/engine/macros_templates/metadata.pt:66
 #: c/engine/macros_templates/metadata.pt:82
+#, fuzzy
 msgid "util.source_work"
 msgstr "源作品"
 
@@ -1162,6 +1166,7 @@ msgid "char.nc_brief"
 msgstr "您不得将本作品用于商业目的。"
 
 #: c/engine/macros_templates/metadata.pt:72
+#, fuzzy
 msgid "util.more_permissions_url"
 msgstr "更多许可请访问"
 
@@ -1816,4 +1821,59 @@ msgstr "Romanian"
 
 msgid "lang.es_EC"
 msgstr "Spanish (Ecuador)"
+
+#: e/macros_templates/metadata.pt:107
+msgid "Embedded Metadata"
+msgstr ""
+
+#. Default: ""
+#. "<p>\n"
+#. "\t  The information is embedded in a software readable format.\n"
+#. "\t  This allows search engines to index additional information\n"
+#. "\t  about your work and allows people coming to the license deed\n"
+#. "\t  from your page to see information on the deed about how to\n"
+#. "\t  attribute your work.  \n"
+#. "\t</p>\n"
+#. "\t<p>\n"
+#. "\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
+#. "\t    information</a> on Creative Commons metadata is available if\n"
+#. "\t  you want to find out more.\n"
+#. "\t</p>"
+#: e/macros_templates/metadata.pt:108
+msgid "license.metadata_help"
+msgstr ""
+"<p>\n"
+"\t  The information is embedded in a software readable format.\n"
+"\t  This allows search engines to index additional information\n"
+"\t  about your work and allows people coming to the license deed\n"
+"\t  from your page to see information on the deed about how to\n"
+"\t  attribute your work.  \n"
+"\t</p>\n"
+"\t<p>\n"
+"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
+"\t    information</a> on Creative Commons metadata is available if\n"
+"\t  you want to find out more.\n"
+"\t</p>"
+
+#: e/macros_templates/metadata.pt:140
+msgid "The title of the work you are licensing."
+msgstr ""
+
+#: e/macros_templates/metadata.pt:152
+msgid ""
+"The name users of the work should give attribution to. For example, the "
+"name of the work's author."
+msgstr ""
+
+#: e/macros_templates/metadata.pt:165
+msgid ""
+"The URL users of the work should link to. For example, the work's page on"
+" the author's site."
+msgstr ""
+
+#: e/macros_templates/metadata.pt:178
+msgid ""
+"A URL where a user can obtain information about clearing rights that are "
+"not pre-cleared by your CC license."
+msgstr ""
 

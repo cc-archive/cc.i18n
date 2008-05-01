@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2008-04-17 16:07-0700\n"
-"PO-Revision-Date: 2008-04-17 16:07-0700\n"
+"POT-Creation-Date: 2008-05-01 10:33-0700\n"
+"PO-Revision-Date: 2008-05-01 10:33-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: th <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -316,6 +316,7 @@ msgstr "โปรแกรมคอมพิวเตอร์นี้ อน�
 
 #: c/engine/pd/templates/publicdomain-2.pt:34
 #: c/engine/macros_templates/metadata.pt:46
+#, fuzzy
 msgid "util.title_of_work"
 msgstr "ชื่อผลงาน"
 
@@ -499,6 +500,7 @@ msgstr ""
 " return false;\">ลิขสิทธิ์</a>"
 
 #: c/engine/macros_templates/metadata.pt:58
+#, fuzzy
 msgid "util.attribute_to_url"
 msgstr "แสดงที่มาถึงที่อยู่อินเทอร์เน็ต (url)"
 
@@ -861,6 +863,7 @@ msgid "lang.en_US"
 msgstr "อังกฤษ (สหรัฐอเมริกา)"
 
 #: c/engine/macros_templates/metadata.pt:52
+#, fuzzy
 msgid "util.attribute_to_name"
 msgstr "แสดงชื่อที่มา"
 
@@ -1253,7 +1256,7 @@ msgstr "สแปนิช (AR)"
 #: c/engine/macros_templates/metadata.pt:66
 #: c/engine/macros_templates/metadata.pt:82
 msgid "util.source_work"
-msgstr "source work"
+msgstr "Source work URL"
 
 #: c/engine/chooser_pages/sampling.pt:115
 msgid "license.sampling_note"
@@ -1332,6 +1335,7 @@ msgid "char.nc_brief"
 msgstr "คุณไม่อาจใช้งานนี้เพื่อวัตถุประสงค์ทางการค้า"
 
 #: c/engine/macros_templates/metadata.pt:72
+#, fuzzy
 msgid "util.more_permissions_url"
 msgstr "URL รับอนุญาตมากขึ้น"
 
@@ -2041,4 +2045,59 @@ msgstr "โรมาเนีย"
 
 msgid "lang.es_EC"
 msgstr "Spanish (Ecuador)"
+
+#: e/macros_templates/metadata.pt:107
+msgid "Embedded Metadata"
+msgstr ""
+
+#. Default: ""
+#. "<p>\n"
+#. "\t  The information is embedded in a software readable format.\n"
+#. "\t  This allows search engines to index additional information\n"
+#. "\t  about your work and allows people coming to the license deed\n"
+#. "\t  from your page to see information on the deed about how to\n"
+#. "\t  attribute your work.  \n"
+#. "\t</p>\n"
+#. "\t<p>\n"
+#. "\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
+#. "\t    information</a> on Creative Commons metadata is available if\n"
+#. "\t  you want to find out more.\n"
+#. "\t</p>"
+#: e/macros_templates/metadata.pt:108
+msgid "license.metadata_help"
+msgstr ""
+"<p>\n"
+"\t  The information is embedded in a software readable format.\n"
+"\t  This allows search engines to index additional information\n"
+"\t  about your work and allows people coming to the license deed\n"
+"\t  from your page to see information on the deed about how to\n"
+"\t  attribute your work.  \n"
+"\t</p>\n"
+"\t<p>\n"
+"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
+"\t    information</a> on Creative Commons metadata is available if\n"
+"\t  you want to find out more.\n"
+"\t</p>"
+
+#: e/macros_templates/metadata.pt:140
+msgid "The title of the work you are licensing."
+msgstr ""
+
+#: e/macros_templates/metadata.pt:152
+msgid ""
+"The name users of the work should give attribution to. For example, the "
+"name of the work's author."
+msgstr ""
+
+#: e/macros_templates/metadata.pt:165
+msgid ""
+"The URL users of the work should link to. For example, the work's page on"
+" the author's site."
+msgstr ""
+
+#: e/macros_templates/metadata.pt:178
+msgid ""
+"A URL where a user can obtain information about clearing rights that are "
+"not pre-cleared by your CC license."
+msgstr ""
 
