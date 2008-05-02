@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2008-05-01 12:11-0700\n"
-"PO-Revision-Date: 2008-05-01 12:11-0700\n"
+"POT-Creation-Date: 2008-05-02 11:50-0500\n"
+"PO-Revision-Date: 2008-05-02 11:50-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: hr <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -13,7 +13,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 0.9.2\n"
+"Generated-By: Babel 0.9.1\n"
 
 msgid "country.nz"
 msgstr "Novi Zeland"
@@ -310,7 +310,6 @@ msgstr ""
 
 #: c/engine/pd/templates/publicdomain-2.pt:34
 #: c/engine/macros_templates/metadata.pt:46
-#, fuzzy
 msgid "util.title_of_work"
 msgstr "naslov djela"
 
@@ -488,9 +487,8 @@ msgstr ""
 " return false;\">autorskog prava</a>"
 
 #: c/engine/macros_templates/metadata.pt:58
-#, fuzzy
 msgid "util.attribute_to_url"
-msgstr "imenujte kao autora url"
+msgstr "Označite autorstvo URL-om"
 
 #: c/engine/chooser_pages/index.pt:195
 msgid "license.view_explanation"
@@ -788,7 +786,7 @@ msgid "license.publish_soundclick"
 msgstr "Objavite Vašu licenciranu glazbu na Soundclicku"
 
 msgid "util.weblog"
-msgstr "weblog"
+msgstr "blog"
 
 msgid "country.es"
 msgstr "Španjolska"
@@ -835,9 +833,8 @@ msgid "lang.en_US"
 msgstr "engleski (SAD)"
 
 #: c/engine/macros_templates/metadata.pt:52
-#, fuzzy
 msgid "util.attribute_to_name"
-msgstr "imenujte kao autora"
+msgstr "Označite autorstvo imenom"
 
 msgid "api.sampling_flavor_help"
 msgstr ""
@@ -1233,9 +1230,8 @@ msgstr "španjolski (AR)"
 
 #: c/engine/macros_templates/metadata.pt:66
 #: c/engine/macros_templates/metadata.pt:82
-#, fuzzy
 msgid "util.source_work"
-msgstr "izvorno djelo"
+msgstr "URL izvornog djela"
 
 #: c/engine/chooser_pages/sampling.pt:115
 msgid "license.sampling_note"
@@ -1317,9 +1313,8 @@ msgid "char.nc_brief"
 msgstr "Ovo djelo ne smijete koristiti u komercijalne svrhe."
 
 #: c/engine/macros_templates/metadata.pt:72
-#, fuzzy
 msgid "util.more_permissions_url"
-msgstr "više dopuštenja URL"
+msgstr "URL za daljnja prava"
 
 #: c/engine/licenses/standard_templates/deed.pt:64
 msgid "deed.moralrights"
@@ -2053,23 +2048,24 @@ msgstr ""
 "adresa ispravna!"
 
 msgid "lang.sr_LATN"
-msgstr "Serbian (Latin)"
+msgstr "srpski (latinica)"
 
 msgid "country.pr"
 msgstr "Puerto Rico"
 
 msgid "lang.el"
-msgstr "Greek"
+msgstr "grčki"
 
 msgid "lang.ro"
-msgstr "Romanian"
+msgstr "rumunjski"
 
 msgid "lang.es_EC"
-msgstr "Spanish (Ecuador)"
+msgstr "španjolski (Ekvador)"
 
 #: e/macros_templates/metadata.pt:107
+#, fuzzy
 msgid "Embedded Metadata"
-msgstr ""
+msgstr "ugrađeni metapodaci"
 
 #. Default: ""
 #. "<p>\n"
@@ -2088,43 +2084,50 @@ msgstr ""
 msgid "license.metadata_help"
 msgstr ""
 "<p>\n"
-"\t  The information is embedded in a software readable format.\n"
-"\t  This allows search engines to index additional information\n"
-"\t  about your work and allows people coming to the license deed\n"
-"\t  from your page to see information on the deed about how to\n"
-"\t  attribute your work.  \n"
+"\t Informacije su ugrađene u kod u softverski čitljivom formatu.\n"
+"\t To omogućuje pretraživačima da indeksiraju dodatne informacije\n"
+"\t o Vašem djelu i omogućuje ljudima koji dolaze na sažetak licence\n"
+"\t s Vaše stranice da na sažetku vide informacije kako\n"
+"\t navesti autorstvo Vašeg djela. \n"
 "\t</p>\n"
 "\t<p>\n"
-"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
-"\t    information</a> on Creative Commons metadata is available if\n"
-"\t  you want to find out more.\n"
+"\t <a href=\"http://wiki.creativecommons.org/Metadata\">Više\n"
+"\t informacija</a> o Creative Commons metapodacima, ako\n"
+"\t se želite podrobnije uputiti.\n"
 "\t</p>"
 
 #: e/macros_templates/metadata.pt:140
 msgid "The title of the work you are licensing."
-msgstr ""
+msgstr "Naslov djela kojeg licencirate."
 
 #: e/macros_templates/metadata.pt:152
 msgid ""
 "The name users of the work should give attribution to. For example, the "
 "name of the work's author."
 msgstr ""
+"Ime koje bi korisnici djela trebali navesti prilikom označavanja "
+"autorstva. Primjerice, ime autora djela. "
 
 #: e/macros_templates/metadata.pt:165
 msgid ""
 "The URL users of the work should link to. For example, the work's page on"
 " the author's site."
 msgstr ""
+"URL na koji bi korisnici djela trebali postaviti link. Primjerice, "
+"stranica djela na mrežnim stranicama autora."
 
 #: e/macros_templates/metadata.pt:178
 msgid ""
 "A URL where a user can obtain information about clearing rights that are "
 "not pre-cleared by your CC license."
 msgstr ""
+"URL na kojem korisnik može dobiti informacije o stjecanju prava "
+"korištenja djela koja nisu unaprijed dopuštena Vašom CC licencom."
 
 #: e/licenses/standard_templates/deed.pt:126
+#, fuzzy
 msgid "What does \"Attribute this work\" mean?"
-msgstr ""
+msgstr "Što znači \"Označavanje autorstva\"?"
 
 #: e/licenses/standard_templates/deed.pt:129
 msgid ""
@@ -2133,4 +2136,9 @@ msgid ""
 "here to cite the work. Doing so will also include metadata on your page "
 "so that others can find the original work as well."
 msgstr ""
+"Stranica s koje ste došli sadrži u kod ugrađene metapodatke o licenci, "
+"između ostalih i kako prilikom daljnjeg korištenja autor djela želi biti "
+"navođen. Možete upotrijebiti ovaj HTML kod za citiranje djela. "
+"Upotrijebite li ga on će ugraditi metapodatke u Vašu stranicu ne bi li i "
+"drugi korisnici mogli pronaći izvorno djelo."
 

@@ -4,15 +4,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2008-05-01 12:12-0700\n"
-"PO-Revision-Date: 2008-05-01 12:12-0700\n"
+"POT-Creation-Date: 2008-05-02 11:50-0500\n"
+"PO-Revision-Date: 2008-05-02 11:50-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh_TW <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 0.9.2\n"
+"Generated-By: Babel 0.9.1\n"
 
 msgid "country.nz"
 msgstr "紐西蘭"
@@ -268,7 +268,6 @@ msgstr "本軟體係採用<a href=\"${license_url}\">創用 CC-GNU ${license_cod
 
 #: c/engine/pd/templates/publicdomain-2.pt:34
 #: c/engine/macros_templates/metadata.pt:46
-#, fuzzy
 msgid "util.title_of_work"
 msgstr "著作名稱"
 
@@ -427,7 +426,6 @@ msgstr ""
 " return false;\">著作權</a>人姓名"
 
 #: c/engine/macros_templates/metadata.pt:58
-#, fuzzy
 msgid "util.attribute_to_url"
 msgstr "標示作者網址"
 
@@ -730,7 +728,6 @@ msgid "lang.en_US"
 msgstr "英語 (美國)"
 
 #: c/engine/macros_templates/metadata.pt:52
-#, fuzzy
 msgid "util.attribute_to_name"
 msgstr "標示作者姓名"
 
@@ -1073,7 +1070,6 @@ msgstr "西班牙語 (阿根廷)"
 
 #: c/engine/macros_templates/metadata.pt:66
 #: c/engine/macros_templates/metadata.pt:82
-#, fuzzy
 msgid "util.source_work"
 msgstr "原始著作"
 
@@ -1147,9 +1143,8 @@ msgid "char.nc_brief"
 msgstr "您不得為商業目的而使用本著作。"
 
 #: c/engine/macros_templates/metadata.pt:72
-#, fuzzy
 msgid "util.more_permissions_url"
-msgstr "其他授權"
+msgstr "其他授權方式網址"
 
 #: c/engine/licenses/standard_templates/deed.pt:64
 msgid "deed.moralrights"
@@ -1775,11 +1770,11 @@ msgid "lang.ro"
 msgstr "羅馬尼亞語"
 
 msgid "lang.es_EC"
-msgstr "Spanish (Ecuador)"
+msgstr "西班牙語 (厄瓜多爾)"
 
 #: e/macros_templates/metadata.pt:107
 msgid "Embedded Metadata"
-msgstr ""
+msgstr "已嵌入之後設資料"
 
 #. Default: ""
 #. "<p>\n"
@@ -1798,43 +1793,42 @@ msgstr ""
 msgid "license.metadata_help"
 msgstr ""
 "<p>\n"
-"\t  The information is embedded in a software readable format.\n"
-"\t  This allows search engines to index additional information\n"
-"\t  about your work and allows people coming to the license deed\n"
-"\t  from your page to see information on the deed about how to\n"
-"\t  attribute your work.  \n"
+"\t  這些資訊以軟體可辨識的格式嵌入。\n"
+"\t  這麼一來，搜尋引擎可以藉此獲取與你作品相關的\n"
+"\t  額外授權資訊，並引導使用者前往授權標章網頁、\n"
+"\t  查看標示你姓名的方法。\n"
 "\t</p>\n"
 "\t<p>\n"
-"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
-"\t    information</a> on Creative Commons metadata is available if\n"
-"\t  you want to find out more.\n"
+"\t  如果您想查閱其他與創用 CC 後設資料相關的訊息\n"
+"\t  ，請上<a href=\"http://wiki.creativecommons.org/Metadata\">後設資訊專題網頁</a>"
+" \n"
 "\t</p>"
 
 #: e/macros_templates/metadata.pt:140
 msgid "The title of the work you are licensing."
-msgstr ""
+msgstr "欲授權之作品名稱"
 
 #: e/macros_templates/metadata.pt:152
 msgid ""
 "The name users of the work should give attribution to. For example, the "
 "name of the work's author."
-msgstr ""
+msgstr "利用人使用此作品時，需標示的作者名稱或單位。這通常就是作品著作人的名字。"
 
 #: e/macros_templates/metadata.pt:165
 msgid ""
 "The URL users of the work should link to. For example, the work's page on"
 " the author's site."
-msgstr ""
+msgstr "利用人使用此作品時，需提供的連結網址，例如作品專題網頁、作者網頁等。"
 
 #: e/macros_templates/metadata.pt:178
 msgid ""
 "A URL where a user can obtain information about clearing rights that are "
 "not pre-cleared by your CC license."
-msgstr ""
+msgstr "利用人可以取得額外授權說明的網址，可以用這個網頁來補充創用 CC 授權中沒有預先定義的部份。"
 
 #: e/licenses/standard_templates/deed.pt:126
 msgid "What does \"Attribute this work\" mean?"
-msgstr ""
+msgstr "所謂的「姓名標示」是什麼意思？"
 
 #: e/licenses/standard_templates/deed.pt:129
 msgid ""
@@ -1843,4 +1837,6 @@ msgid ""
 "here to cite the work. Doing so will also include metadata on your page "
 "so that others can find the original work as well."
 msgstr ""
+"引領你前來此處的網頁中嵌入了含授權資訊的後設資料，包括原作者想以什麼方式為人表彰等。你可以使用此處提供的 HTML "
+"來引用此作品、並表彰出處。使用後，你的網頁上也會有授權後設資料，方便他人尋得原始作品。"
 
