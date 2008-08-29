@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2008-08-14 10:41-0700\n"
-"PO-Revision-Date: 2008-08-14 10:41-0700\n"
+"POT-Creation-Date: 2008-08-29 13:59-0700\n"
+"PO-Revision-Date: 2008-08-29 13:59-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ro <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100"
@@ -331,8 +331,9 @@ msgstr "Bulgara"
 #: c/engine/chooser_pages/gpl.pt:79
 #: c/engine/chooser_pages/lgpl.pt:38
 #: c/engine/chooser_pages/lgpl.pt:82
-#, fuzzy
-msgid "license.fsf_software_licensed"
+msgid ""
+"This software is licensed under the <a href=\"${license_url}\">CC-GNU "
+"${license_code}</a>."
 msgstr ""
 "Acest program este licenţiat sub o licenţă <a href=\"${license_url}\">CC-"
 "GNU ${license_code}</a>."
@@ -2236,4 +2237,13 @@ msgid "license.display_software_icon"
 msgstr ""
 "You can display the icon on any site you offer your software for download"
 " using the following markup:"
+
+#: c/engine/chooser_pages/gpl.pt:37
+#: c/engine/chooser_pages/gpl.pt:79
+#: c/engine/chooser_pages/lgpl.pt:38
+#: c/engine/chooser_pages/lgpl.pt:82
+msgid "license.fsf_software_licensed"
+msgstr ""
+"This software is licensed under the <a href=\"${license_url}\">CC-GNU "
+"${license_code}</a> version ${license_version} or later."
 
