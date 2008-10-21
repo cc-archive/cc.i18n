@@ -93,9 +93,9 @@ def cc_to_po(source, english, previous=None):
             new_message.id = english[message.id].string
 
         # if the string matches the key (ie, untranslated)
-        if new_message.id == new_message.string:
-            # clear the string
-            new_message.string = ''
+        #if new_message.id == new_message.string:
+        #    # clear the string
+        #    new_message.string = ''
 
         if previous is not None:
 
@@ -106,7 +106,8 @@ def cc_to_po(source, english, previous=None):
                 if new_message.string == previous[message.id].string:
                     # the string is the same as the old English text...
                     # remove the string since it's not really translated
-                    new_message.string = ''
+                    pass
+                    #new_message.string = ''
 
             # see if this should be marked as "fuzzy"
             if new_message.string and \
