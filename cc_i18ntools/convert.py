@@ -7,7 +7,7 @@ from logging import getLogger
 from babel.messages.pofile import read_po
 from babel.messages.catalog import Catalog, Message
 
-from support import write_po
+from babel.messages.pofile import write_po
 
 def defuzz(catalog):
     """Scan a catalog and de-fuzz-ify messages that have no translation."""

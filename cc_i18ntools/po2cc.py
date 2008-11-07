@@ -6,7 +6,7 @@ from babel.messages.pofile import read_po
 from babel import localedata
 from babel import core
 
-from support import write_po
+from babel.messages.pofile import write_po
 
 import convert
 from support import parse_args
