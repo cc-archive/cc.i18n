@@ -118,7 +118,8 @@ def cc_to_po(source, english, previous=None):
                 if previous[message.id].string != english[message.id].string:
                     new_message.flags.add('fuzzy')
 
-        new_message.context = message.id
+        if new_message.id != message.id:
+            new_message.context = message.id
         target[new_message.id] = new_message
 
     return target
