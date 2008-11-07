@@ -4,19 +4,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2008-10-31 12:50+0400\n"
+"POT-Creation-Date: 2008-10-31 13:07+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 0.9.2\n"
+"Generated-By: Babel 1.0dev\n"
 
 msgid "New Zealand"
+msgctxt "country.nz"
 msgstr "New Zealand"
 
 msgid "Greece"
+msgctxt "country.gr"
 msgstr "Greece"
 
 #: c/engine/chooser_pages/index.pt:104
@@ -53,6 +55,7 @@ msgstr "예, 단 동일한 라이선스 적용 "
 msgid ""
 "To perform, display, and distribute copies of this whole work for "
 "noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
+msgctxt "deed.free_copy_distribute_noncommercial"
 msgstr "이 저작물을 비영리목적(예, 파일 공유, 비영리 웹캐스팅)으로 배포, 전시, 공연, 공중송신할 수 있습니다."
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
@@ -94,6 +97,7 @@ msgid ""
 "After clicking on the confirmation link, you'll find out how to mark your"
 " content with a public domain dedication and publicize your work.\n"
 "</p>"
+msgctxt "license.pd_awaiting_confirmation"
 msgstr ""
 "<h1>public domain에 기증 - Email로 확인</h1>\r\n"
 "\r\n"
@@ -129,6 +133,7 @@ msgstr ""
 "</p>"
 
 msgid "Bulgaria"
+msgctxt "country.bg"
 msgstr "Bulgaria"
 
 #: c/engine/pd/templates/publicdomain-4.pt:32
@@ -136,24 +141,27 @@ msgid ""
 "Mark your content on a web page, the HTML to display your button is as "
 "follows and be sure to <a href=\"/technology/web\">follow the guidelines "
 "here</a>:"
+msgctxt "license.mark_web"
 msgstr ""
 "웹 페이지에 있는 컨텐츠에 표시를 해주세요. 버튼을 표시하는 HTML은 다음과 같습니다. 반드시 <a "
 "href=\"/technology/web\">이 안내문에 따라주세요</a>:"
 
 msgid "copyright date"
+msgctxt "util.copyright_date"
 msgstr "저작권 발생일자"
 
-#: c/engine/chooser_pages/index.pt:168
-#: c/engine/chooser_pages/sampling.pt:104
+#: c/engine/chooser_pages/index.pt:168 c/engine/chooser_pages/sampling.pt:104
 msgid "Jurisdiction"
+msgctxt "util.Jurisdiction"
 msgstr "관할"
 
-#: c/engine/chooser_pages/sampling.pt:80
-#: c/engine/chooser_pages/sampling.pt:92
+#: c/engine/chooser_pages/sampling.pt:80 c/engine/chooser_pages/sampling.pt:92
 msgid "Brazil"
+msgctxt "country.br"
 msgstr "Brazil"
 
 msgid "Creative Commons License"
+msgctxt "util.Creative_Commons_License"
 msgstr "크리에이티브 커먼즈 라이선스"
 
 #: c/engine/chooser_pages/sampling.pt:41
@@ -162,6 +170,16 @@ msgstr "크리에이티브 커먼즈 라이선스"
 #: c/engine/macros_templates/support.pt:154
 #: c/engine/pd/templates/publicdomain-4.pt:25
 msgid "mark content"
+msgctxt "license.mark_content"
+msgstr "컨텐츠에 표시하기"
+
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
+#: c/engine/pd/templates/publicdomain-4.pt:25
+msgid "mark content"
+msgctxt "license.Mark_Content"
 msgstr "컨텐츠에 표시하기"
 
 #: c/engine/licenses/fsf_templates/deed.pt:48
@@ -169,15 +187,18 @@ msgid ""
 "You may exercise the freedoms specified here provided that you comply "
 "with the express conditions of this license. The principal conditions "
 "are:"
+msgctxt "deed.gpl_under_conditions"
 msgstr "명시된 조건들을 준수하는 한 자유롭게 저작물을 이용할 수 있습니다. 주요 조건들은 아래와 같습니다:"
 
 msgid "Belgium"
+msgctxt "country.be"
 msgstr "Belgium"
 
 msgid ""
 "This ${work_type} is dedicated to the <a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
 "Domain</a>."
+msgctxt "license.work_type_dedicated"
 msgstr ""
 "이 ${work_type}은 <a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
@@ -185,18 +206,20 @@ msgstr ""
 
 #: c/engine/chooser_pages/index.pt:77
 msgid "Allow modifications of your work?"
+msgctxt "api.derivatives"
 msgstr "저작물의 변경을 허락하시겠습니까?"
 
 msgid ""
 "Your rights to exploit the work based on the limitations to copyright "
 "clauses and other rights are in no way affected by the above."
+msgctxt "deed.fair_use.jp"
 msgstr "저작권법에 규정된 저작권 제한 조항에 근거한 이용은 위의 내용에 의하여 영향을 받지 않습니다."
 
 msgid "back to <a href=\"/\">Creative Commons</a>"
+msgctxt "deed.back_to_cc"
 msgstr "<a href=\"/\">크리에이티브 커먼즈</a>에 돌아가기"
 
-#: c/engine/chooser_pages/gpl.pt:63
-#: c/engine/chooser_pages/lgpl.pt:66
+#: c/engine/chooser_pages/gpl.pt:63 c/engine/chooser_pages/lgpl.pt:66
 msgid ""
 "Here's how the CC-GNU ${license_code} works: A user clicking on the "
 "Creative Commons icon gets the CC-GNU ${license_code} \"<a "
@@ -208,6 +231,7 @@ msgid ""
 "href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">Portuguese</a>."
 " And hidden in the tag is \"Machine-Readable Code\" — metadata — that "
 "will enable others to find your software."
+msgctxt "license.fsf_how_it_works"
 msgstr ""
 "CC-GNU ${license_code}는 다음과 같이 작동합니다 : 크리에이티브 커먼즈 아이콘을 클릭하면 CC-GNU "
 "${license_code} \"<a "
@@ -224,33 +248,38 @@ msgid ""
 "You must retain the license terms and copyright notice in any source code"
 " distribution and reproduce them in documentation for binary "
 "distributions."
+msgctxt "deed.bsd_notice"
 msgstr ""
 "당신은 이 소스 코드를 배포할 시 반드시 라이선스 조건들과 저작권 표시사항을 첨부해야 합니다. 그리고 바이너리로 배포할 경우 반드시"
 " 위의 내용을 문서화 하여 코드와 함께 제공해야 합니다. "
 
 msgid "NoDerivs"
+msgctxt "licenses.pretty_nd"
 msgstr "변경금지"
 
 msgid ""
 "We have updated the version of your license to the most recent one "
 "available."
+msgctxt "jswidget.Updated_license_version_generic"
 msgstr "당신의 라이선스 버젼을 최신의 것으로 업데이트 했습니다. "
 
 #: c/engine/chooser_pages/index.pt:67
 msgid "NonCommercial"
+msgctxt "licenses.pretty_nc"
 msgstr "비영리"
 
 #: c/engine/macros_templates/deed.pt:103
 msgid "Catalan"
+msgctxt "lang.ca"
 msgstr "Catalan"
 
-#: c/engine/chooser_pages/gpl.pt:66
-#: c/engine/chooser_pages/lgpl.pt:69
+#: c/engine/chooser_pages/gpl.pt:66 c/engine/chooser_pages/lgpl.pt:69
 msgid ""
 "<h1>Mark Software</h1>\n"
 "\n"
 "<p>Display the icon on any site you offer your software for download "
 "using the following markup:</p>"
+msgctxt "license.fsf_mark_software"
 msgstr ""
 "<h1>소프트웨어에 표시하기</h1>\r\n"
 "\r\n"
@@ -259,6 +288,7 @@ msgstr ""
 msgid ""
 "This ${work_type} is licensed under a <a rel=\"license\" "
 "href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+msgctxt "license.work_type_licensed"
 msgstr ""
 "이 ${work_type}은 <a rel=\"license\" href=\"${license_url}\">크리에이티브 커먼즈 "
 "${license_name} 라이선스</a>에 따라 이용할 수 있습니다."
@@ -267,16 +297,17 @@ msgid ""
 "This ${work_type} by ${work_author} is licensed under a <a "
 "rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
 "License</a>."
+msgctxt "license.rdfa_licensed_no_title"
 msgstr ""
 "${work_author}의 저작물인 이 ${work_type}은 <a rel=\"license\" "
 "href=\"${license_url}\">크리에이티브 커먼즈 ${license_name} 라이선스</a>에 따라 이용할 수 "
 "있습니다."
 
-#: c/engine/chooser_pages/gpl.pt:46
-#: c/engine/chooser_pages/lgpl.pt:47
+#: c/engine/chooser_pages/gpl.pt:46 c/engine/chooser_pages/lgpl.pt:47
 msgid ""
 "Human-Readable<br />\n"
 "Commons Deed"
+msgctxt "license.human-readable_commons_deed"
 msgstr ""
 "쉬운 이해를 위한<br />\n"
 "커먼즈 증서(Commons Deed)"
@@ -285,6 +316,14 @@ msgstr ""
 #: c/engine/macros_templates/support.pt:97
 #: c/engine/pd/templates/publicdomain-partner.pt:22
 msgid "confirm choice"
+msgctxt "license.confirm_choice"
+msgstr "선택 확인"
+
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
+#: c/engine/pd/templates/publicdomain-partner.pt:22
+msgid "confirm choice"
+msgctxt "license.Confirm_Choice"
 msgstr "선택 확인"
 
 #: c/engine/chooser_pages/sampling.pt:54
@@ -305,6 +344,7 @@ msgid ""
 "\n"
 "<p>On certain conditions, that is. There are two flavors of the Sampling "
 "license. Pick the one that reflects your creative style:</p>"
+msgctxt "license.sampling_explain"
 msgstr ""
 "<p>샘플링 라이선스는 다른 사람들이 당신의 창작물의 일부를 이용하여 새로운 창작물을 만들수 있게 허용합니다.</p>\r\n"
 "\r\n"
@@ -344,6 +384,7 @@ msgid ""
 "\n"
 "For more information, please see\n"
 "<http://creativecommons.org/licenses/publicdomain/>."
+msgctxt "license.pd_dedication_email"
 msgstr ""
 "이것은 Public Domain Dedication의 기록입니다. ${copyright_holder}는, ${sysdate} 저작물"
 " \"${title}\"를 public domain에 기증하였습니다. ${copyright_holder}는, 기증 전에는 그 "
@@ -356,15 +397,15 @@ msgstr ""
 "<http://creativecommons.org/licenses/publicdomain/>."
 
 msgid "Bulgarian"
+msgctxt "lang.bg"
 msgstr "Bulgarian"
 
-#: c/engine/chooser_pages/gpl.pt:37
-#: c/engine/chooser_pages/gpl.pt:79
-#: c/engine/chooser_pages/lgpl.pt:38
-#: c/engine/chooser_pages/lgpl.pt:82
+#: c/engine/chooser_pages/gpl.pt:37 c/engine/chooser_pages/gpl.pt:79
+#: c/engine/chooser_pages/lgpl.pt:38 c/engine/chooser_pages/lgpl.pt:82
 msgid ""
 "This software is licensed under the <a href=\"${license_url}\">CC-GNU "
 "${license_code}</a> version ${license_version} or later."
+msgctxt "license.fsf_software_licensed"
 msgstr ""
 "이 소프트웨어는 <a href=\"${license_url}\">CC-GNU ${license_code}</a> 버젼 "
 "${license_version} 이후의 라이선스에 의해 보호받습니다."
@@ -372,6 +413,7 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-2.pt:34
 #: c/engine/macros_templates/metadata.pt:46
 msgid "Title of work"
+msgctxt "util.title_of_work"
 msgstr "저작물의 제목"
 
 #: c/engine/licenses/fsf_templates/deed.pt:61
@@ -380,45 +422,56 @@ msgid ""
 " develop a program based upon it, you may distribute the resulting work "
 "provided you do so under the ${license_name_full}. Any translation of the"
 " ${license_name_full} must be accompanied by the ${license_name_full}."
+msgctxt "deed.gpl_sharealike"
 msgstr ""
 "만일 당신이 이 프로그램의 사본 또는 그 일부를 변형하려고 할 때, 또는 이 프로그램을 기반으로 다른 프로그램을 개발하려 할때에는 "
 "당신은${license_name_full} 의 조건을 준수한다는 전제하에 당신의 결과물을 배포할 수 있습니다. "
 "${license_name_full}의 번역본은 반드시 ${license_name_full}과 함께 제시되어야 합니다."
 
 msgid "Ireland"
+msgctxt "country.ie"
 msgstr "Ireland"
 
 #: c/engine/macros_templates/engine.pt:111
 msgid "License Your Work"
+msgctxt "license.License_Your_Work"
 msgstr "라이선스 적용하기"
 
 msgid "Attribution-NonCommercial"
+msgctxt "licenses.pretty_by-nc"
 msgstr "저작자표시-비영리"
 
 msgid "Attribution-NoDerivs"
+msgctxt "licenses.pretty_by-nd"
 msgstr "저작자표시-변경금지"
 
 msgid "Spanish (PE)"
+msgctxt "lang.es_PE"
 msgstr "Spanish (PE)"
 
 #: c/engine/licenses/sampling_templates/deed.pt:29
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "commercial or noncommercial purposes."
+msgctxt "deed.free_sample"
 msgstr "영리목적이든 비영리목적이든 이 작품을 샘플링하고, 매쉬업하고, 창의적으로 변형시킬 수 있도록 합니다. "
 
 msgid "Israel"
+msgctxt "country.il"
 msgstr "Israel"
 
 msgid ""
 "Permissions beyond the scope of this license may be available at "
 "${more_perms_link}."
+msgctxt "license.more_perms_available"
 msgstr "이 라이선스의 범위를 넘는 이용허락은 ${more_perms_link}에서 받을 수 있습니다."
 
 msgid "India"
+msgctxt "country.in"
 msgstr "India"
 
 msgid "Macedonian"
+msgctxt "lang.mk"
 msgstr "Macedonian"
 
 msgid ""
@@ -437,6 +490,7 @@ msgid ""
 "enable others to find your\n"
 "content. <a href=\"/learn/licenses/how1\">An illustration of the "
 "process</a> can be found in our comics."
+msgctxt "license.how_it_works"
 msgstr ""
 "크리에이티브 커먼즈 라이선스의 구조는 다음과 같습니다 : 이용자가 크리에이티브 커먼즈 아이콘을 클릭하면, 귀하의 \"<a "
 "href=\"${license_url}\">커먼즈 증서(Commons Deed)</a>\" &mdash-이용허락조건을 간단하게 "
@@ -450,56 +504,80 @@ msgstr ""
 "보여주는 <a href=\"/learn/licenses/how1\">삽화</a>가 있으니 참고하세요."
 
 msgid "Italy"
+msgctxt "country.it"
 msgstr "Italy"
 
 msgid "Poland"
+msgctxt "country.pl"
 msgstr "Poland"
 
 msgid "Malay"
+msgctxt "lang.ms"
 msgstr "Malay"
 
 msgid "Philippines"
+msgctxt "country.ph"
 msgstr "Philippines"
 
 #: c/engine/licenses/sampling_templates/deed.pt:42
 msgid ""
 "You may not use this work to advertise for or promote anything but the "
 "work you create from it."
+msgctxt "char.na_brief"
 msgstr "당신은 2차적 창작물을 위한 경우 외에는 이 저작물을 홍보와 광고 목적으로 이용할 수 없습니다. "
 
 msgid "Peru"
+msgctxt "country.pe"
 msgstr "Peru"
 
 msgid ""
 "Any of the above conditions can be waived if you get permission from the "
 "rights holders to this work."
+msgctxt "deed.permission.jp"
 msgstr "이 저작물의 권리자로부터 별도의 허가를 받으면 이러한 조건들은 적용되지 않습니다."
 
 msgid "Sampling"
+msgctxt "util.Sampling"
+msgstr "샘플링"
+
+msgid "Sampling"
+msgctxt "licenses.pretty_sampling"
 msgstr "샘플링"
 
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
 msgid "This page is available in the following languages:"
+msgctxt "util.page_other_languages"
+msgstr "이 페이지는 다음과 같은 언어로 이용할 수 있습니다."
+
+#: c/engine/macros_templates/support.pt:30
+#: c/engine/macros_templates/support.pt:56
+msgid "This page is available in the following languages:"
+msgctxt "deed.view_in"
 msgstr "이 페이지는 다음과 같은 언어로 이용할 수 있습니다."
 
 msgid "English (GB)"
+msgctxt "lang.en_GB"
 msgstr "English (GB)"
 
 #: c/engine/licenses/standard_templates/deed.pt:69
 msgid ""
 "Apart from the remix rights granted under this license, nothing in this "
 "license impairs or restricts the author's moral rights."
+msgctxt "deed.moralrights-remix.us"
 msgstr "이 라이선스가 허용하는 리믹스 외에는 이 라이선스의 어떤 내용도 저작자의 저작인격권을 침해하거나 제한하지 않습니다.  "
 
 msgid "Polish"
+msgctxt "lang.pl"
 msgstr "Polish"
 
 #: c/engine/pd/templates/publicdomain-3.pt:87
 msgid "confirm"
+msgctxt "util.confirm"
 msgstr "확인"
 
 msgid "Do you want to:"
+msgctxt "util.Do_you_want_to"
 msgstr "다음과 같은 내용을 원하십니까 :"
 
 msgid ""
@@ -507,25 +585,35 @@ msgid ""
 "onClick=\"window.open('/jargon/copyright_date', 'jargon_term_lookup', "
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">year of copyright</a>"
+msgctxt "util.year_of_copyright"
 msgstr ""
 "<a href=\"/jargon/copyright_date\" class=\"jargon\" "
 "onClick=\"window.open('/jargon/copyright_date', 'jargon_term_lookup', "
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">저작권 발생 연도</a>"
 
-#: c/engine/chooser_pages/index.pt:29
-#: c/engine/chooser_pages/sampling.pt:32
+#: c/engine/chooser_pages/index.pt:29 c/engine/chooser_pages/sampling.pt:32
 #: c/engine/macros_templates/support.pt:82
 #: c/engine/macros_templates/support.pt:86
 msgid "choose license"
+msgctxt "license.Choose_License"
+msgstr "라이선스 선택"
+
+#: c/engine/chooser_pages/index.pt:29 c/engine/chooser_pages/sampling.pt:32
+#: c/engine/macros_templates/support.pt:82
+#: c/engine/macros_templates/support.pt:86
+msgid "choose license"
+msgctxt "license.choose_license"
 msgstr "라이선스 선택"
 
 #: c/engine/licenses/fsf_templates/deed.pt:38
 msgid "The freedom to redistribute copies so you can help your neighbor."
+msgctxt "deed.gpl_free_redistribute"
 msgstr "복제물을 재배포할 수 있는 자유"
 
 #: c/engine/pd/templates/publicdomain-4.pt:47
 msgid "Mark an mp3, <a href=\"/technology/mp3\">follow these guidelines</a>."
+msgctxt "license.mark_mp3"
 msgstr "<a href=\"/technology/mp3\">이 안내문</a>에 따라 mp3 파일에 라이선스를 부착하세요."
 
 #: c/engine/licenses/devnations_templates/deed.pt:40
@@ -533,13 +621,14 @@ msgstr "<a href=\"/technology/mp3\">이 안내문</a>에 따라 mp3 파일에 �
 #: c/engine/licenses/sampling_templates/deed.pt:39
 #: c/engine/licenses/standard_templates/deed.pt:45
 msgid "Under the following conditions:"
+msgctxt "deed.under_conditions"
 msgstr "다음과 같은 조건을 따라야 합니다:"
 
-#: c/engine/chooser_pages/gpl.pt:48
-#: c/engine/chooser_pages/lgpl.pt:49
+#: c/engine/chooser_pages/gpl.pt:48 c/engine/chooser_pages/lgpl.pt:49
 msgid ""
 "Machine-Readable<br />\n"
 "Digital Code"
+msgctxt "license.machine-readable_digital_code"
 msgstr ""
 "컴퓨터를 위한<br />\n"
 "디지털 코드"
@@ -549,6 +638,7 @@ msgid ""
 "onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', "
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">copyright</a> holder's name"
+msgctxt "util.copyright_holders_name"
 msgstr ""
 "<a href=\"/jargon/copyright\" class=\"jargon\" "
 "onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', "
@@ -557,10 +647,12 @@ msgstr ""
 
 #: c/engine/macros_templates/metadata.pt:58
 msgid "Attribute work to URL"
+msgctxt "util.attribute_to_url"
 msgstr "저작물의 URL"
 
 #: c/engine/chooser_pages/index.pt:195
 msgid "View an explanation of all our licenses."
+msgctxt "license.view_explanation"
 msgstr "CC의 각종 라이선스에 대한 설명 보기 "
 
 msgid ""
@@ -571,6 +663,7 @@ msgid ""
 "to sue to enforce these rights, and to authorize others to exercise them."
 " Copyright does not apply to facts or ideas, but to the original "
 "expression of those facts or ideas."
+msgctxt "jargon.copyright_description"
 msgstr ""
 "저작권. 정부가 창작활동을 장려하기 위해 창작자에게 보장하여 주는 일단의 독점적인 권리. 저작권은 창작물을 복제, 배포, 전시, "
 "공연, 공중송신하거나 이차적저작물을 만들수 있는 권리를 포함합니다. 또한 저작권자는 권리 침해에 대한 민,형사상 법적 구제절차를 "
@@ -583,6 +676,7 @@ msgid ""
 "with the express conditions of this license. The LGPL is intended for "
 "software libraries, rather than executable programs. The principal "
 "conditions are:"
+msgctxt "deed.lgpl_under_conditions"
 msgstr ""
 "이 라이선스에 명시된 조건들을 지킨다는 전제하에 당신은 이곳에 명시된 자유를 누릴 수 있습니다. LGPL은 원래 소프트웨어 "
 "라이브러리를 위해 설계된 라이선스이고 개별 프로그램을 위해 만들어진 것은 아닙니다. 중요한 조건들은 아래와 같습니다: "
@@ -590,23 +684,29 @@ msgstr ""
 msgid ""
 "Now that you've chosen a Creative Commons license, you must mark your "
 "work in the appropriate way."
+msgctxt "license.mark_license"
 msgstr "라이선스를 선택한 다음에는 저작물에 적당한 방법으로 이를 표시하여야 합니다."
 
 msgid "Luxembourg"
+msgctxt "country.lu"
 msgstr "Luxembourg"
 
 #: c/engine/macros_templates/metadata.pt:23
 msgid "Tell us the format of your work:"
+msgctxt "license.tell_format"
 msgstr "저작물의 종류 :"
 
 msgid "Chile"
+msgctxt "country.cl"
 msgstr "Chile"
 
 msgid "Northern Sotho"
+msgctxt "lang.nso"
 msgstr "Northern Sotho"
 
 #: c/engine/chooser_pages/index.pt:222
 msgid "CC-GNU LGPL"
+msgctxt "util.CC_GNU_LGPL"
 msgstr "CC-GNU LGPL"
 
 msgid ""
@@ -614,22 +714,27 @@ msgid ""
 "<strong>pieces</strong> of your work for any purpose other than "
 "advertising, which is prohibited. Copying and distribution of the "
 "<strong>entire work</strong> is also prohibited."
+msgctxt "license.sampling_a_sampling"
 msgstr ""
 "<strong>샘플링</strong>: 당신 작품의 <strong>일부분</strong>을 발췌하여 변형하는 것을 허락합니다. 단 "
 "광고에의 이용과 <strong>전체 작품</strong>을 복사, 배포하는 행위는 제외됩니다. "
 
 #: c/engine/chooser_pages/results.pt:98
 msgid "Publishing your licensed music to the Internet Archive"
+msgctxt "license.publish_audio_ia"
 msgstr "Internet Archive에 라이선스된 음악 저장하기"
 
 #: c/engine/chooser_pages/results.pt:92
 msgid "No web site?"
+msgctxt "license.no_web_site"
 msgstr "웹사이트가 없으세요?"
 
 msgid "Serbia"
+msgctxt "country.rs"
 msgstr "Serbia"
 
 msgid "Korea"
+msgctxt "country.kr"
 msgstr "대한민국"
 
 #: c/engine/chooser_pages/partner/index.pt:69
@@ -645,6 +750,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
+msgctxt "license.a6"
 msgstr ""
 "네. 단 동일한 라이선스 적용(<a href=\"/characteristic/sa?lang=${lang}\" "
 "onclick=\"window.open('/characteristic/sa?lang=${lang}', "
@@ -658,6 +764,7 @@ msgstr ""
 "alt=\"more information\" border=\"0\" /></a>)"
 
 msgid "Korean"
+msgctxt "lang.ko"
 msgstr "한국어"
 
 msgid ""
@@ -671,6 +778,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"disclaimer\" border=\"0\"></a></div>"
+msgctxt "deed.gpl_disclaimer"
 msgstr ""
 "<div style=\"text-align:center\"><a href=\"/licenses/disclaimer-popup\" "
 "onclick=\"window.open('/licenses/disclaimer-popup', "
@@ -684,35 +792,43 @@ msgstr ""
 "alt=\"disclaimer\" border=\"0\"></a></div>"
 
 msgid "Sorry, no license matches your criteria."
+msgctxt "license.no_license"
 msgstr "죄송합니다, 원하는 라이선스가 없습니다."
 
 msgid "Italian"
+msgctxt "lang.it"
 msgstr "Italian"
 
 msgid "Romania"
+msgctxt "country.ro"
 msgstr "Romania"
 
 #: c/engine/chooser_pages/index.pt:191
 msgid "What You Can Do Here"
+msgctxt "license.what_you"
 msgstr "여기서 할수 있는 것"
 
 msgid ""
 "If you have not officially registered for a copyright on your work the "
 "default date is the date you created the work, or completed it."
+msgctxt "jargon.copyright_date_description"
 msgstr ""
 "저작권은 저작물을 창작한 때로부터 발생하며 어떠한 절차나 형식이 필요하지 않습니다. 다만 저작권을 등록한 경우에는 등록된 "
 "창작연원일에 창작된 것으로 추정되는 효력이 있습니다. "
 
 msgid "Attribution-NoDerivs-NonCommercial"
+msgctxt "licenses.pretty_by-nd-nc"
 msgstr "저작자표시-변경금지-비영리"
 
 #: c/engine/macros_templates/deed.pt:110
 msgid "Galician"
+msgctxt "lang.gl"
 msgstr "Galician"
 
 msgid ""
 "You may now <a href=\"publicdomain-2?${url_vars}\">proceed and enrich the"
 " public domain with your work</a>."
+msgctxt "license.proceed_pd"
 msgstr ""
 "그러면 <a href=\"publicdomain-2?${url_vars}\"><a "
 "href=\"publicdomain-2?${url_vars}\">귀하의 저작물을 public domain에 기증하도록 "
@@ -720,18 +836,20 @@ msgstr ""
 
 #: c/engine/pd/templates/publicdomain-2.pt:29
 msgid "your email"
+msgctxt "util.your_email"
 msgstr "귀하의 email"
 
-#: c/engine/chooser_pages/index.pt:46
-#: c/engine/chooser_pages/index.pt:81
+#: c/engine/chooser_pages/index.pt:46 c/engine/chooser_pages/index.pt:81
 #: c/engine/chooser_pages/partner/index.pt:54
 #: c/engine/chooser_pages/partner/index.pt:65
 msgid "Yes"
+msgctxt "util.Yes"
 msgstr "예"
 
 msgid ""
 "to copy, distribute, display, perform, present, publicly transmit, and "
 "recite the work"
+msgctxt "deed.free_copy_distribute.jp"
 msgstr "이 저작물을 복제, 배포, 전시, 공연 및 공중송신할 수 있습니다"
 
 #: c/engine/pd/templates/publicdomain-partner.pt:24
@@ -744,6 +862,7 @@ msgid ""
 "you do not simply carve out exceptions to your copyright; you grant your "
 "entire copyright to the public without condition. This grant is permanent"
 " and irreversible.</p>"
+msgctxt "license.pd_choice"
 msgstr ""
 "<p>귀하의 선택은, 누구도 소유하지 않고 모든 것이 허용되는 정보와 표현의 공유지인 public domain에 귀하의 저작물을 "
 "기증하는 것을 의미합니다.</p>\n"
@@ -753,17 +872,21 @@ msgstr ""
 
 #: c/engine/macros_templates/metadata.pt:30
 msgid "Audio"
+msgctxt "util.Audio"
 msgstr "오디오"
 
 #: c/engine/macros_templates/deed.pt:92
 msgid "Your fair dealing and other rights are in no way affected by the above."
+msgctxt "deed.fair_use"
 msgstr "저작권법에 따른 이용자의 권리는 위의 내용에 의하여 영향을 받지 않습니다."
 
 msgid "Netherlands"
+msgctxt "country.nl"
 msgstr "Netherlands"
 
 #: c/engine/pd/templates/publicdomain-4.pt:29
 msgid "In order to:"
+msgctxt "license.in_order_to"
 msgstr "다음을 위해서:"
 
 #: c/engine/licenses/fsf_templates/deed.pt:67
@@ -772,24 +895,30 @@ msgid ""
 "complete corresponding machine-readable source code or with a written "
 "offer, valid for at least three years, to furnish the complete "
 "corresponding machine-readable source code."
+msgctxt "deed.gpl_source"
 msgstr ""
 "프로그램을 복제하거나 배포할때에 당신은 반드시 소스 코드를 첨부하거나 해당 소스코드를 제공할 것을 약속하는 문서(최소 삼년간 "
 "유효한)를 첨부해야 합니다.  "
 
 #: c/engine/macros_templates/partner.pt:29
 msgid "Creative Commons"
+msgctxt "util.Creative_Commons"
 msgstr "크리에이티브 커먼즈"
 
 msgid "UK: England & Wales"
+msgctxt "country.uk"
 msgstr "UK: England & Wales"
 
 msgid "Nigeria"
+msgctxt "country.ng"
 msgstr "Nigeria"
 
 msgid "Licensor permits others to make derivative works"
+msgctxt "jswidget.Licensor_permits_others_to_make_derivative_works"
 msgstr "저작권자는 이차적저작물의 작성을 허락합니다. "
 
 msgid "United States"
+msgctxt "country.us"
 msgstr "United States"
 
 #: c/engine/chooser_pages/results.pt:70
@@ -799,6 +928,7 @@ msgid ""
 "('work-html-popup?${url_vars}', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">emailed to yourself.</a>"
+msgctxt "license.select_text"
 msgstr ""
 "위 박스안에 있는 내용을 카피하시거나, <a href=\"/license/work-html-popup?${url_vars}\" "
 "onclick=\"window.open('work-html-popup?${url_vars}', 'html_help', "
@@ -817,6 +947,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
+msgctxt "license.q1"
 msgstr ""
 "<strong>저작자표시를 원합니까?</strong> (<a "
 "href=\"/characteristic/by?lang=${lang}\" "
@@ -843,6 +974,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
+msgctxt "license.q2"
 msgstr ""
 "<strong>저작물의 영리목적 이용을 허락합니까?</strong> (<a "
 "href=\"/characteristic/nc?lang=${lang}\" "
@@ -869,6 +1001,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
+msgctxt "license.q3"
 msgstr ""
 "<strong>저작물의 변경을 허락합니까?</strong> (<a "
 "href=\"/characteristic/nd?lang=${lang}\" "
@@ -888,6 +1021,7 @@ msgid ""
 "information about your works. <a href=\"/learn/technology/usingmarkup\" "
 "target=\"_blank\">More information about adding HTML to your documents "
 "here</a>."
+msgctxt "license.html_directions"
 msgstr ""
 "이 텍스트를 그대로 카피해서 저작물의 정보를 기재한 웹 문서에 붙여 주세요. <a "
 "href=\"/learn/technology/usingmarkup\" target=\"_blank\">문서에 HTML을 부착시키는 "
@@ -896,21 +1030,25 @@ msgstr ""
 #: c/engine/chooser_pages/index.pt:178
 #: c/engine/chooser_pages/partner/index.pt:114
 msgid "Select a License"
+msgctxt "license.Select_a_License"
 msgstr "라이선스 선택"
 
 msgid ""
 "${work_title} by ${work_author} is licensed under a <a rel=\"license\" "
 "href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+msgctxt "license.rdfa_licensed"
 msgstr ""
 "${work_author}에 의해 창작된 ${work_title} 은(는) <a rel=\"license\" "
 "href=\"${license_url}\">크리에이티브 커먼즈 ${license_name} 라이선스</a>에 따라 이용할 수 "
 "있습니다."
 
 msgid "description"
+msgctxt "util.description"
 msgstr "설명"
 
 #: c/engine/chooser_pages/results.pt:114
 msgid "Publishing your licensed video at the Internet Archive"
+msgctxt "license.publish_video_ia"
 msgstr "Internet Archive에 라이선스된 비디오 업로드하기"
 
 #: c/engine/chooser_pages/partner/results.pt:29
@@ -920,6 +1058,7 @@ msgid ""
 "License</b></a>.<br>\n"
 "This license is permanently located at<br>\n"
 "<b><tt>${license_url}</tt></b>."
+msgctxt "license.partner_selected"
 msgstr ""
 "귀하는 <a target=\"cc_other\" "
 "href=\"${license_deed_url}\"><b>${license_pretty_name} 라이선스</b></a><br>를 "
@@ -930,20 +1069,25 @@ msgstr ""
 msgid ""
 "For any reuse, you must make clear to others the license terms of this "
 "work."
+msgctxt "deed.notice_withoutdistribution"
 msgstr "이 저작물을 이용할 경우 라이선스 조건을 명확하게 밝혀야 합니다."
 
 #: c/engine/macros_templates/deed.pt:124
 msgid "Dutch"
+msgctxt "lang.nl"
 msgstr "Dutch"
 
 #: c/engine/chooser_pages/results.pt:101
 msgid "Publishing your licensed music to Soundclick"
+msgctxt "license.publish_soundclick"
 msgstr "Soundclick에 라이선스된 음악 업로드하기"
 
 msgid "weblog"
+msgctxt "util.weblog"
 msgstr "웹로그"
 
 msgid "Spain"
+msgctxt "country.es"
 msgstr "Spain"
 
 #: c/engine/pd/templates/publicdomain-4.pt:49
@@ -953,6 +1097,7 @@ msgid ""
 "onclick=\"window.open('non-web-popup?${url_vars}', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">add this text</a> to your work."
+msgctxt "license.mark_nonweb"
 msgstr ""
 "웹에 있지 않은 저작물에는 <a href=\"non-web-popup?${url_vars}\" "
 "onclick=\"window.open('non-web-popup?${url_vars}', 'html_help', "
@@ -963,39 +1108,48 @@ msgid ""
 "The licensor permits others to copy, distribute and transmit the work. In"
 " return, licensees may not use the work for commercial purposes — unless "
 "they get the licensor's permission."
+msgctxt "char.nc_description"
 msgstr ""
 "이 저작물을 복제, 배포, 전시, 공연 및 공중송신하는 것을 허락합니다. 단 이용허락자로부터 별도의 승낙을 받지 않는 한 이 "
 "저작물을 영리 목적으로 이용할 수 없습니다."
 
 msgid "Spanish (MX)"
+msgctxt "lang.es_MX"
 msgstr "Spanish (MX)"
 
 msgid "publish"
+msgctxt "util.publish"
 msgstr "공표"
 
 #: c/engine/macros_templates/deed.pt:153
 msgid ""
 "This is a human-readable summary of the <a href=\"legalcode\" "
 "class=\"fulltext\">Legal Code (the full license)</a>."
+msgctxt "deed.human_summary"
 msgstr ""
 "이것은 <a href=\"legalcode\" class=\"fulltext\">이용허락규약(Legal Code)</a>을 이해하기"
 " 쉽게 요약한 것입니다."
 
 #: c/engine/pd/templates/publicdomain-2.pt:46
 msgid "proceed"
+msgctxt "util.proceed"
 msgstr "진행"
 
 msgid "GNU Lesser General Public License"
+msgctxt "license.LGPL_name_full"
 msgstr "GNU Lesser General Public License"
 
 msgid "more"
+msgctxt "util.more"
 msgstr "더 알기를 원하신다면"
 
 msgid "English (US)"
+msgctxt "lang.en_US"
 msgstr "English (US)"
 
 #: c/engine/macros_templates/metadata.pt:52
 msgid "Attribute work to name"
+msgctxt "util.attribute_to_name"
 msgstr "저작자 이름"
 
 msgid ""
@@ -1006,6 +1160,7 @@ msgid ""
 "Noncommercial Sampling Plus further restricts the Sampling Plus license "
 "by only authorizing non-commercial derivatives to be created from the "
 "pieces of your work."
+msgctxt "api.sampling_flavor_help"
 msgstr ""
 "샘플링의 각 유형마다 이용자의 권한이 달라집니다. \"샘플링\"은 오직 일부분의 사용만 허락하고 전체 작품의 사용은 금지합니다. "
 "\"샘플링 플러스\"는 저작물의 일부분을 발췌, 변형하거나 전체작품을 비영리 목적으로 공유하는 것을 허락합니다. \"비영리 샘플링 "
@@ -1013,42 +1168,46 @@ msgstr ""
 
 #: c/engine/macros_templates/deed.pt:117
 msgid "English"
+msgctxt "lang.en"
 msgstr "English"
 
 msgid "Esperanto"
+msgctxt "lang.eo"
 msgstr "Esperanto"
 
 msgid ""
 "This is a draft license published for public review. Do not use this "
 "license until this notice has been removed. Direct comments on this draft"
 " license to licenses@creativecommons.org."
+msgctxt "licenses.draft_notice"
 msgstr ""
 "이것은 리뷰를 위한 라이선스 초안입니다. 별도의 통지가 없는 한 이를 사용하지 마세요. 이 라이선스 초안에 대한 코멘트는 "
 "licenses@creativecommons.org로 보내주시기 바랍니다."
 
-#: c/engine/chooser_pages/index.pt:170
-#: c/engine/chooser_pages/sampling.pt:106
+#: c/engine/chooser_pages/index.pt:170 c/engine/chooser_pages/sampling.pt:106
 msgid ""
 "If you desire a license governed by the Copyright Law of a specific "
 "jurisdiction, please select the appropriate jurisdiction."
+msgctxt "license.jurisdiction_help"
 msgstr "이용허락관계의 해석 및 법적용을 특정 국가의 저작권법에 따르도록 하고 싶으면, 해당되는 국가를 선택하세요."
 
 #: c/engine/licenses/fsf_templates/deed.pt:34
 msgid "The freedom to run the program for any purpose."
+msgctxt "deed.gpl_free_run"
 msgstr "프로그램을 어떤 용도로든 사용할 수 있는 자유. "
 
-#: c/engine/chooser_pages/index.pt:128
-#: c/engine/chooser_pages/sampling.pt:72
+#: c/engine/chooser_pages/index.pt:128 c/engine/chooser_pages/sampling.pt:72
 #: c/engine/chooser_pages/partner/index.pt:79
 msgid "Jurisdiction of your license"
+msgctxt "license.jurisdiction_question"
 msgstr "라이선스의 재판관할"
 
 #: c/engine/pd/templates/publicdomain-2.pt:39
 msgid "copyright holder"
+msgctxt "util.copyright_holder"
 msgstr "저작권자"
 
 #: c/engine/chooser_pages/sampling.pt:118
-#, python-format
 msgid ""
 "<p>If you <strong>want</strong> to invite people to make "
 "<strong>any</strong> commercial re-use of your work &mdash; "
@@ -1056,6 +1215,7 @@ msgid ""
 "href=\"/license/results-one?license%5fcode=by%2dsa\">Attribution-"
 "ShareAlike</a> license or simply the <a href=\"/license/results-"
 "one?license%5fcode=by\">Attribution</a> license.</p>"
+msgctxt "license.sampling_alternatives"
 msgstr ""
 "<p>만약 귀하의 저작물에 대하여 변경 및 <strong>어떠한</strong> 상업적 이용도 <strong>허락하고자 "
 "한다면</strong> &mdash; <a href=\"/license/results-"
@@ -1063,27 +1223,38 @@ msgstr ""
 "/results-one?license%5fcode=by\">저작자표시</a> 라이선스를 선택하여야 합니다.</p>"
 
 msgid "Swedish"
+msgctxt "lang.sv"
 msgstr "Swedish"
 
 #: c/engine/chooser_pages/htmlpopup.pt:15
 msgid "The HTML to display your button is as follows:"
+msgctxt "license.html_display"
 msgstr "버튼을 표시하기 위한 HTML은 다음과 같습니다 :"
 
 #: c/engine/macros_templates/deed.pt:109
 msgid "Basque"
+msgctxt "lang.eu"
 msgstr "Basque"
 
 msgid "English (CA)"
+msgctxt "lang.en_CA"
 msgstr "English (CA)"
 
 #: c/engine/macros_templates/deed.pt:104
 msgid "Spanish"
+msgctxt "lang.es"
 msgstr "Spanish"
 
-#: c/engine/templates/by.pt:8
-#: c/engine/templates/by.pt:23
+#: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
 #: c/engine/licenses/devnations_templates/deed.pt:47
 msgid "Attribution"
+msgctxt "char.by_title"
+msgstr "저작자표시"
+
+#: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
+msgid "Attribution"
+msgctxt "licenses.pretty_by"
 msgstr "저작자표시"
 
 #: c/engine/chooser_pages/sampling.pt:65
@@ -1093,6 +1264,7 @@ msgid ""
 "<strong>noncommercial</strong> purposes only. "
 "<strong>Noncommercial</strong> copying and distribution (like file-"
 "sharing) of the <strong>entire work</strong> are also allowed."
+msgctxt "license.sampling_a_nc-sampling+"
 msgstr ""
 "<strong>비영리 샘플링 플러스</strong>: <strong>비영리</strong> 목적으로만 저작물의 "
 "<strong>일부</strong>를 발췌하여 변경할 수 있습니다. <strong>전체 작품</strong>의 "
@@ -1103,44 +1275,51 @@ msgid ""
 "You have selected the Creative Commons ${license_pretty_name} "
 "License${country_name}. <a href=\"${license_url}\">See how the license "
 "will look</a> to your site's visitors."
+msgctxt "license.selected"
 msgstr ""
 "귀하는 크리에이티브 커먼즈 ${license_pretty_name} 라이선스${country_name}을 선택하였습니다. 사이트의 "
 "방문자에게 <a href=\"${license_url}\">라이선스가 어떻게 보이는지</a> 살펴보세요."
 
 #: c/engine/macros_templates/metadata.pt:32
 msgid "Video"
+msgctxt "util.Video"
 msgstr "비디오"
 
 msgid ""
 "${work_title} is licensed under a <a rel=\"license\" "
 "href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+msgctxt "license.rdfa_licensed_no_attrib"
 msgstr ""
 "${work_title}은(는) <a rel=\"license\" href=\"${license_url}\">크리에이티브 커먼즈 "
 "${license_name} 라이선스</a>에 따라 이용할 수 있습니다."
 
 msgid "Hungary"
+msgctxt "country.hu"
 msgstr "Hungary"
 
 msgid "Croatia"
+msgctxt "country.hr"
 msgstr "Croatia"
 
-#: c/engine/chooser_pages/gpl.pt:118
-#: c/engine/chooser_pages/lgpl.pt:121
+#: c/engine/chooser_pages/gpl.pt:118 c/engine/chooser_pages/lgpl.pt:121
 msgid ""
 "For more information about the Free Software Foundation, visit their <a "
 "href=\"http://www.fsf.org\">web page</a>."
+msgctxt "license.fsf_more_info"
 msgstr ""
 "Free Software Foundation에 대한 자세한 정보는 그 <a "
 "href=\"http://www.fsf.org\">홈페이지</a>를 참조하세요."
 
 #: c/engine/chooser_pages/sampling.pt:111
 msgid "Get your Sampling License"
+msgctxt "license.sampling_get"
 msgstr "샘플링 라이선스 얻기"
 
 #: c/engine/licenses/fsf_templates/deed.pt:16
 msgid ""
 "${license_name_full}, <a href=\"http://www.gnu.org/\">Free Software "
 "Foundation</a>"
+msgctxt "deed.gpl_title"
 msgstr ""
 "${license_name_full}, <a href=\"http://www.gnu.org/\">Free Software "
 "Foundation</a>"
@@ -1148,6 +1327,7 @@ msgstr ""
 msgid ""
 "This work is licensed under a <a href=\"${license_url}\">Creative Commons"
 " Developing Nations license</a>."
+msgctxt "license.devnations_licensed"
 msgstr ""
 "이 저작물은 <a href=\"${license_url}\">Creative Commons Developing Nations "
 "license</a>에 따라 이용할 수 있습니다."
@@ -1166,6 +1346,7 @@ msgid ""
 "href=\"/about/think\">a list of things to think about</a>. If you want to"
 " offer your work with no conditions, choose the <a "
 "href=\"publicdomain-2\">public domain</a>."
+msgctxt "license.what"
 msgstr ""
 "귀하는 크리에이티브 커먼즈 라이선스에 의하여 <strong>저작권을 그대로 보유하면서,</strong> 다른 사람들로 하여금 <a "
 "href=\"/characteristic/by?lang=${lang}\" "
@@ -1179,39 +1360,47 @@ msgstr ""
 "domain</a>을 선택하세요."
 
 msgid "You must give the original author and the performer credit."
+msgctxt "char.by_brief.jp"
 msgstr "원저작자와 실연자를 표시하여야 합니다."
 
 #: c/engine/chooser_pages/results.pt:94
 msgid ""
 "Learn about other places you can host your licensed files. These sites "
 "work with your Creative Commons license."
+msgctxt "license.learn_host"
 msgstr "라이선스된 파일을 호스팅할 수 있는 곳입니다. 이 사이트들은 귀하의 크리에이티브 커먼즈 라이선스와 함께 운영됩니다."
 
 msgid "Spanish (CO)"
+msgctxt "lang.es_CO"
 msgstr "Spanish (CO)"
 
-#: c/engine/pd/templates/publicdomain-4.pt:42
-#: c/engine/chooser_pages/gpl.pt:110
+#: c/engine/pd/templates/publicdomain-4.pt:42 c/engine/chooser_pages/gpl.pt:110
 #: c/engine/chooser_pages/lgpl.pt:113
 msgid "Get HTML and email it to yourself"
+msgctxt "license.get_html_email"
 msgstr "HTML을 귀하의 email로 전송하기"
 
 #: c/engine/macros_templates/metadata.pt:38
 msgid "Interactive"
+msgctxt "util.Interactive"
 msgstr "인터렉티브"
 
 #: c/engine/chooser_pages/htmlpopup.pt:27
 msgid "Enter your email address to get the HTML by email:"
+msgctxt "license.html_email"
 msgstr "HTML을 email로 받으시려면, 귀하의 email 주소를 입력해 주세요："
 
 msgid "Next step:"
+msgctxt "util.Next_step"
 msgstr "다음 단계:"
 
 #: c/engine/chooser_pages/index.pt:198
 msgid "Or Choose:"
+msgctxt "license.or_choose"
 msgstr "또는:"
 
 msgid "Attribution-NonCommercial-NoDerivs"
+msgctxt "licenses.pretty_by-nc-nd"
 msgstr "저작자표시-비영리-변경금지"
 
 #: c/engine/licenses/catalog_pages/disclaimer-popup.pt:19
@@ -1229,6 +1418,7 @@ msgid ""
 "Distributing of, displaying of, or linking to this Commons Deed does not "
 "create an attorney-client relationship.\n"
 "</p>"
+msgctxt "deed.disclaimer"
 msgstr ""
 "<P>\n"
 "커먼즈 증서(Commons Deed)는 그 자체로 이용허락서는 아닙니다. 이용허락규약(Legal Code)의 내용을 쉽게 이해할 수"
@@ -1243,30 +1433,37 @@ msgstr ""
 
 #: c/engine/chooser_pages/results.pt:15
 msgid "Here is the license you've chosen"
+msgctxt "license.here_chosen"
 msgstr "귀하가 선택한 라이센스입니다."
 
 #: c/engine/macros_templates/deed.pt:161
 msgid "Learn how to distribute your work using this license"
+msgctxt "deed.learn"
 msgstr "이 라이센스를 이용해 저작물을 어떻게 배포할 수 있는지 살펴 봅니다."
 
 #: c/engine/chooser_pages/htmlpopup.pt:41
 msgid "Send"
+msgctxt "util.Send"
 msgstr "보내기"
 
 #: c/engine/licenses/fsf_templates/deed.pt:40
 msgid ""
 "The freedom to improve the program and release your improvements to the "
 "public, so that the whole community benefits."
+msgctxt "deed.gpl_free_improve"
 msgstr "커뮤니티가 혜택을 받을 수 있도록 프로그램을 개선하고 이를 공중에게 제공하는 자유"
 
 msgid "Chinese (Taiwan)"
+msgctxt "lang.zh_TW"
 msgstr "Chinese (Taiwan)"
 
 #: c/engine/macros_templates/metadata.pt:84
 msgid "A work another is derived from."
+msgctxt "jargon.source_work_description"
 msgstr "다른 저작물을 이용하여 창작한 경우 그 원 저작물"
 
 msgid "Zulu"
+msgctxt "lang.zu"
 msgstr "Zulu"
 
 msgid ""
@@ -1290,6 +1487,7 @@ msgid ""
 "\n"
 "\n"
 "Thank you for using Creative Commons!"
+msgctxt "license.pd_confirmation_email"
 msgstr ""
 "귀하는 귀하의 작품 \"${title}\"를 public domain에 기증하였습니다. 귀하의 의사를 다시 한번 확인하기 위하여 이"
 " email을 보냅니다. 만약, 귀하의 의사와 다르다면 이 email을 무시하던지, 이를 pd@creativecommons.org로"
@@ -1298,8 +1496,7 @@ msgstr ""
 "domain에 기증의 의미를 확인하게 됩니다: ${clickthrough_url} 의문사항이 있으면 "
 "pd@creativecommons.org로 문의하세요. 크리에이티브 커먼즈를 이용해 주셔서 감사합니다!"
 
-#: c/engine/chooser_pages/gpl.pt:25
-#: c/engine/chooser_pages/lgpl.pt:26
+#: c/engine/chooser_pages/gpl.pt:25 c/engine/chooser_pages/lgpl.pt:26
 msgid ""
 "<h1>Creative Commons GNU ${license_code}</h1>\n"
 "\n"
@@ -1311,6 +1508,7 @@ msgid ""
 "<p>To signal to others that you are using a Creative Commons license, you"
 " can use a Creative Commons logo, which links to the CC-GNU "
 "${license_code}. The result will look like this:</p>"
+msgctxt "license.fsf_explain"
 msgstr ""
 "<h1>크리에이티브 커먼즈 GNU ${license_code}</h1>\n"
 "\n"
@@ -1326,33 +1524,50 @@ msgid ""
 "The licensor permits others to distribute derivative works only under the"
 " same license or one compatible with the one that governs the licensor's "
 "work."
+msgctxt "char.sa_description"
 msgstr "이 저작물과 동일한 또는 호환되는 라이선스를 적용해야만 이차적 저작물을 배포할 수 있습니다."
 
 #: c/engine/macros_templates/metadata.pt:34
 msgid "Image"
+msgctxt "util.Image"
 msgstr "이미지"
 
 #: c/engine/macros_templates/metadata.pt:28
 msgid "Other"
+msgctxt "util.Other"
 msgstr "기타"
 
 #: c/engine/pd/templates/publicdomain-partner.pt:31
 #: c/engine/chooser_pages/partner/results.pt:35
 msgid "You may now <a href=\"${processed_exit_url}\">proceed</a>"
+msgctxt "license.you_may_proceed"
 msgstr "<a href=\"${processed_exit_url}\">계속 진행하세요</a>"
 
 msgid "Noncommercial"
+msgctxt "char.nc_title"
 msgstr "비영리"
 
 #: c/engine/chooser_pages/index.pt:204
 msgid "Public Domain"
+msgctxt "licenses.pretty_publicdomain"
+msgstr "Public Domain"
+
+#: c/engine/chooser_pages/index.pt:204
+msgid "Public Domain"
+msgctxt "util.Public_Domain"
 msgstr "Public Domain"
 
 msgid "Chinese"
+msgctxt "lang.zh"
+msgstr "Chinese"
+
+msgid "Chinese"
+msgctxt "lang.zh_CN"
 msgstr "Chinese"
 
 #: c/engine/chooser_pages/results.pt:59
 msgid "Have your own website?"
+msgctxt "license.have_your_own_website"
 msgstr "웹사이트가 있습니까?"
 
 msgid ""
@@ -1364,6 +1579,7 @@ msgid ""
 "\n"
 "<p>To signal to others that you are using a Creative Commons license, you"
 " can use a Creative Commons logo. The result will look like this:</p>"
+msgctxt "license.review_choice_directions"
 msgstr ""
 "<h1>라이선스 선택의 확인</h1>\n"
 "\n"
@@ -1374,29 +1590,32 @@ msgstr ""
 "이와 같이 표시됩니다:</p>"
 
 msgid "Japanese"
+msgctxt "lang.ja"
 msgstr "Japanese"
 
 #: c/engine/chooser_pages/sampling.pt:53
 msgid "Choose Your Sampling License Options"
+msgctxt "license.sampling_title"
 msgstr "샘플링 라이선스의 조건 선택하기"
 
 msgid "Japan"
+msgctxt "country.jp"
 msgstr "Japan"
 
 msgid "to make commercial use of the work"
+msgctxt "deed.free_commercial"
 msgstr "이 저작물을 영리 목적으로 이용할 수 있습니다."
 
-#: c/engine/chooser_pages/index.pt:47
-#: c/engine/chooser_pages/index.pt:50
-#: c/engine/chooser_pages/index.pt:82
-#: c/engine/chooser_pages/index.pt:89
-#: c/engine/chooser_pages/index.pt:97
-#: c/engine/chooser_pages/index.pt:130
+#: c/engine/chooser_pages/index.pt:47 c/engine/chooser_pages/index.pt:50
+#: c/engine/chooser_pages/index.pt:82 c/engine/chooser_pages/index.pt:89
+#: c/engine/chooser_pages/index.pt:97 c/engine/chooser_pages/index.pt:130
 #: c/engine/chooser_pages/sampling.pt:74
 msgid "more info"
+msgctxt "util.more_info"
 msgstr "상세정보"
 
 msgid "Select a jurisdiction"
+msgctxt "nav.select_a_jurisdiction"
 msgstr "국가 선택"
 
 #: c/engine/chooser_pages/sampling.pt:61
@@ -1406,6 +1625,7 @@ msgid ""
 "advertising, which is prohibited. <strong>Noncommercial</strong> copying "
 "and distribution (like file-sharing) of the <strong>entire work</strong> "
 "are also allowed. Hence, \"<strong>plus</strong>\"."
+msgctxt "license.sampling_a_sampling+"
 msgstr ""
 "<strong>샘플링 플러스</strong>: 어는 목적으로든 저작물의 <strong>일부</strong>를 발췌하여 변경할 수 "
 "있습니다. 단 광고를 위한 경우는 제외합니다. <strong>전체 작품</strong>의 <strong>비영리</strong> "
@@ -1415,52 +1635,60 @@ msgstr ""
 msgid ""
 "This is a human-readable summary of the Legal Code (the full license) "
 "available in the following languages:"
+msgctxt "deed.human_summary_multilanguage"
 msgstr "이것은 다음과 같은 언어로 볼 수 있는 이용허락규약(Legal Code)의 요약문입니다."
 
 msgid "Jordan"
+msgctxt "country.jo"
 msgstr "Jordan"
 
 msgid "Catalonia"
+msgctxt "country.es-ca"
 msgstr "Catalonia"
 
-#: c/engine/pd/templates/publicdomain-4.pt:41
-#: c/engine/chooser_pages/gpl.pt:107
-#: c/engine/chooser_pages/lgpl.pt:110
-#: c/engine/chooser_pages/nonweb_popup.pt:31
+#: c/engine/pd/templates/publicdomain-4.pt:41 c/engine/chooser_pages/gpl.pt:107
+#: c/engine/chooser_pages/lgpl.pt:110 c/engine/chooser_pages/nonweb_popup.pt:31
 #: c/engine/chooser_pages/htmlpopup.pt:20
 msgid "Highlight Text to Copy"
+msgctxt "util.Highlight_Text"
 msgstr "카피할 텍스트를 선택하세요"
 
 msgid "You may not alter, transform, or build upon this work."
+msgctxt "char.nd_brief"
 msgstr "이 저작물을 개작, 변형 또는 가공할 수 없습니다."
 
-#: c/engine/chooser_pages/sampling.pt:78
-#: c/engine/chooser_pages/sampling.pt:90
+#: c/engine/chooser_pages/sampling.pt:78 c/engine/chooser_pages/sampling.pt:90
 #: c/engine/chooser_pages/partner/index.pt:83
 #: c/engine/chooser_pages/partner/index.pt:86
 msgid "Generic"
+msgctxt "util.Generic"
 msgstr "일반"
 
 msgid "Spanish (AR)"
+msgctxt "lang.es_AR"
 msgstr "Spanish (AR)"
 
 #: c/engine/macros_templates/metadata.pt:66
 #: c/engine/macros_templates/metadata.pt:82
 msgid "Source work URL"
+msgctxt "util.source_work"
 msgstr "원 저작물의 URL"
 
 #: c/engine/chooser_pages/sampling.pt:115
 msgid ""
 "Note: The sampling license isn't just for music. It can apply to all "
 "types of copyrighted work: images, film, etc."
+msgctxt "license.sampling_note"
 msgstr ""
 "주의: 이 샘플링 라이선스는 비단 음악을 위한 것만이 아닙니다. 이것은 사진, 영화 등 다른 여러가지 유형의 창작물에도 적용될 수 "
 "있습니다. "
 
 msgid "Australia"
+msgctxt "country.au"
 msgstr "Australia"
 
 msgid "Austria"
+msgctxt "country.at"
 msgstr "Austria"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:19
@@ -1470,9 +1698,11 @@ msgid ""
 "http://creativecommons.org/licenses/publicdomain/ or send a letter to "
 "Creative Commons, 171 Second Street, Suite 300, San Francisco, "
 "California, 94105, USA."
+msgctxt "license.non_web_pd"
 msgstr "이 저작물은 이제 모든 사람들의 공유가 되었습니다."
 
 msgid "Argentina"
+msgctxt "country.ar"
 msgstr "Argentina"
 
 #: c/engine/licenses/standard_templates/deed.pt:77
@@ -1481,6 +1711,7 @@ msgid ""
 "available. You should use it for new works, and you may want to relicense"
 " existing works under it. No works are <em>automatically</em> put under "
 "the new license, however."
+msgctxt "deed.superseded"
 msgstr ""
 "이 라이선스의 <a href=\"${current_version_url}\">개정판</a>이 있습니다. 새 저작물에 대한 이용허락은"
 " 개정판을 적용하세요. 기존의 저작물도 개정판에 의하여 다시 이용허락할 수 있으나 <em>자동적으로</em> 개정판이 적용되는 것은"
@@ -1488,109 +1719,135 @@ msgstr ""
 
 #: c/engine/chooser_pages/index.pt:209
 msgid "Sampling Plus"
+msgctxt "licenses.pretty_sampling+"
 msgstr "샘플링 플러스"
 
 #: c/engine/chooser_pages/index.pt:42
 msgid "Allow commercial uses of your work?"
+msgctxt "api.commercial"
 msgstr "영리목적 이용을 허락합니까?"
 
 #: c/engine/macros_templates/support.pt:103
 #: c/engine/macros_templates/support.pt:107
 msgid "enter information"
+msgctxt "license.enter_information"
 msgstr "정보를 입력하세요"
 
 msgid "Allow Remixing"
+msgctxt "jswidget.Allow_Remixing"
 msgstr "리믹싱 허용"
 
 #: c/engine/macros_templates/metadata.pt:16
 msgid "Hide these fields (All fields are optional)"
+msgctxt "license.hide_optional_fields"
 msgstr "아래 입력란 숨기기(모든 입력란은 선택사항입니다)"
 
 msgid "Portugal"
+msgctxt "country.pt"
 msgstr "Portugal"
 
 msgid "GNU General Public License"
+msgctxt "license.GPL_name_full"
 msgstr "GNU General Public License"
 
 #: c/engine/licenses/fsf_templates/deed.pt:36
 msgid "The freedom to study how the program works and adapt it to your needs."
+msgctxt "deed.gpl_free_study"
 msgstr "프로그램이 어떻게 작동하고 어떻게 개선할 수 있는지 연구할 수 있는 자유"
 
 msgid "Afrikaans"
+msgctxt "lang.af"
 msgstr "Afrikaans"
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:54
 msgid ""
 "The copyright notice and license shall be included in all copies or\n"
 "substantial portions of the software."
+msgctxt "deed.mit_notice"
 msgstr ""
 "저작권 표시와 라이선스내용은 소프트웨어의 모든 카피나\n"
 " 중요한 일부분에 포함되어야 합니다. "
 
 msgid "Remix"
+msgctxt "jswidget.Remix"
 msgstr "리믹스"
 
 msgid "You may not use this work for commercial purposes."
+msgctxt "char.nc_brief"
 msgstr "이 저작물을 영리 목적으로 이용할 수 없습니다."
 
 #: c/engine/macros_templates/metadata.pt:72
 msgid "More permissions URL"
+msgctxt "util.more_permissions_url"
 msgstr "추가 라이선스의 URL"
 
 #: c/engine/licenses/standard_templates/deed.pt:64
 msgid "Nothing in this license impairs or restricts the author's moral rights."
+msgctxt "deed.moralrights"
 msgstr "이 라이선스는 저작자의 인격권을 침해하거나 제한하지 않습니다."
 
 msgid "Slovak Republic"
+msgctxt "country.sk"
 msgstr "Slovak Republic"
 
 #: c/engine/chooser_pages/results.pt:61
 msgid ""
 "Copy the text below to your Web site to let your visitors know what "
 "license applies to your works."
+msgctxt "license.copy_text"
 msgstr "어떠한 라이선스가 적용되었는지 방문자가 알 수 있도록 아래 문장을 웹사이트에 복사하세요."
 
 msgid "Hebrew"
+msgctxt "lang.he"
 msgstr "Hebrew"
 
 msgid "learn how to mark your content"
+msgctxt "license.learn_mark"
 msgstr "컨텐츠에 표시를 하는 방법 배우기"
 
 msgid "Singapore"
+msgctxt "country.sg"
 msgstr "Singapore"
 
 msgid "Sweden"
+msgctxt "country.se"
 msgstr "Sweden"
 
-#: c/engine/chooser_pages/sampling.pt:82
-#: c/engine/chooser_pages/sampling.pt:94
+#: c/engine/chooser_pages/sampling.pt:82 c/engine/chooser_pages/sampling.pt:94
 msgid "Germany"
+msgctxt "country.de"
 msgstr "Germany"
 
 msgid "Hungarian"
+msgctxt "lang.hu"
 msgstr "Hungarian"
 
 msgid "Denmark"
+msgctxt "country.dk"
 msgstr "Denmark"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:37
 #: c/engine/chooser_pages/htmlpopup.pt:46
-#: c/engine/chooser_templates/emailhtml.pt:19
-#: c/engine/templates/by.pt:31
+#: c/engine/chooser_templates/emailhtml.pt:19 c/engine/templates/by.pt:31
 #: c/engine/licenses/catalog_pages/disclaimer-popup.pt:21
 msgid "Close window"
+msgctxt "util.Close_window"
 msgstr "창닫기"
 
 msgid "Slovenia"
+msgctxt "country.si"
 msgstr "Slovenia"
 
 msgid "Croatian"
+msgctxt "lang.hr"
 msgstr "Croatian"
 
 msgid "UK: Scotland"
+msgctxt "country.scotland"
 msgstr "UK: Scotland"
 
 msgid "Ukraine"
+msgctxt "country.ua"
 msgstr "Ukraine"
 
 #: c/engine/licenses/fsf_templates/deed.pt:24
@@ -1600,18 +1857,23 @@ msgstr "Ukraine"
 msgid ""
 "This license is <a href=\"/retiredlicenses\">retired</a>. Do not use for "
 "new works."
+msgctxt "deed.retired"
 msgstr "이 라이선스는 <a href=\"/retiredlicenses\">퇴출되었습니다</a>. 더 이상 사용하지 마세요."
 
 msgid "Canada"
+msgctxt "country.ca"
 msgstr "Canada"
 
 msgid "Colombia"
+msgctxt "country.co"
 msgstr "Colombia"
 
 msgid "China Mainland"
+msgctxt "country.cn"
 msgstr "China Mainland"
 
 msgid "GPL"
+msgctxt "licenses.pretty_GPL"
 msgstr "GPL"
 
 #: c/engine/macros_templates/deed.pt:76
@@ -1642,6 +1904,7 @@ msgid ""
 "regarding the application of licenses and exploitation of the Product "
 "licensed under Creative Commons licenses.\n"
 "</p>"
+msgctxt "deed.disclaimer.jp"
 msgstr ""
 "<p>\n"
 "커먼즈 증서(Commons Deed)는 그 자체로 이용허락서는 아닙니다. 이용허락규약(Legal Code)의 내용을 쉽게 이해할 수"
@@ -1666,39 +1929,50 @@ msgstr ""
 "</p>"
 
 msgid "Switzerland"
+msgctxt "country.ch"
 msgstr "Switzerland"
 
 #: c/engine/chooser_pages/results.pt:105
 msgid "Posting your licensed images at Flickr"
+msgctxt "license.publish_flickr"
 msgstr "Flickr에 라이센스된 이미지 올리기"
 
 msgid ""
 "We have updated the version of your license to the most recent one "
 "available in your jurisdiction."
+msgctxt "jswidget.Updated_license_jurisdiction"
 msgstr "귀하의 라이선스 버전은 해당 국가의 가장 최선 버전으로 업데이트 되었습니다."
 
 msgid "Czech Republic"
+msgctxt "country.cz"
 msgstr "Czech Republic"
 
 msgid "NoDerivs-NonCommercial"
+msgctxt "licenses.pretty_nd-nc"
 msgstr "변경금지-비영리"
 
 msgid "Attribution-NonCommercial-ShareAlike"
+msgctxt "licenses.pretty_by-nc-sa"
 msgstr "저작자표시-비영리-동일조건변경허락"
 
 msgid "France"
+msgctxt "country.fr"
 msgstr "France"
 
 msgid "creator's name"
+msgctxt "util.creators_name"
 msgstr "저작자의 이름"
 
 msgid "South Africa"
+msgctxt "country.za"
 msgstr "South Africa"
 
 msgid "Serbian"
+msgctxt "lang.sr"
 msgstr "Serbian"
 
 msgid "Sotho"
+msgctxt "lang.st"
 msgstr "Sotho"
 
 msgid ""
@@ -1706,6 +1980,7 @@ msgid ""
 "onClick=\"window.open('/jargon/source_work', 'jargon_term_lookup', "
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">source work</a> URL"
+msgctxt "util.source_work_url"
 msgstr ""
 "<a href=\"/jargon/source_work\" class=\"jargon\" "
 "onClick=\"window.open('/jargon/source_work', 'jargon_term_lookup', "
@@ -1713,6 +1988,7 @@ msgstr ""
 " return false;\">원 저작물</a> URL"
 
 msgid "Final step:"
+msgctxt "license.Final_step"
 msgstr "마지막 단계:"
 
 #: c/engine/licenses/fsf_templates/deed.pt:55
@@ -1723,6 +1999,7 @@ msgid ""
 "any warranty; and give any other recipients of the Program a copy of the "
 "${license_name_full} along with the Program. Any translation of the "
 "${license_name_full} must be accompanied by the ${license_name_full}."
+msgctxt "deed.gpl_notice"
 msgstr ""
 "모든 복사본에는 명확하고 적절한 방법으로 저작권 표시와 보증부인조항을 포함시켜야 합니다. 그리고 프로그램을 제공할 때에는 항상 "
 "${license_name_full} 사본을 같이 제공하여야 합니다. ${license_name_full}의 번역문은 반드시 원문과"
@@ -1732,10 +2009,12 @@ msgstr ""
 #: c/engine/licenses/mitbsd_templates/deed.pt:25
 #: c/engine/licenses/standard_templates/deed.pt:38
 msgid "<strong>to Share</strong> — to copy, distribute and transmit the work"
+msgctxt "deed.free_copy_distribute"
 msgstr "이 저작물을 복제, 배포, 전송, 전시, 공연 및 방송할 수 있습니다."
 
 #: c/engine/chooser_pages/index.pt:115
 msgid "No Derivative Works"
+msgctxt "char.nd_title"
 msgstr "변경금지"
 
 #: c/engine/licenses/devnations_templates/deed.pt:50
@@ -1745,14 +2024,17 @@ msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web "
 "page."
+msgctxt "deed.notice"
 msgstr ""
 "이 저작물을 재이용하거나 배포하는 경우에는 이 저작물에 적용된 이용허락조건을 명확하게 나타내어야 합니다. 가장 좋은 방법은 이 "
 "페이지로 링크시키는 것입니다."
 
 msgid "Slovenian"
+msgctxt "lang.sl"
 msgstr "Slovenian"
 
 msgid "copyright"
+msgctxt "util.copyright"
 msgstr "저작권"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:27
@@ -1761,6 +2043,7 @@ msgid ""
 " To view a copy of this license, visit ${license_url} or send a letter to"
 " Creative Commons, 171 Second Street, Suite 300, San Francisco, "
 "California, 94105, USA."
+msgctxt "license.non_web_statement"
 msgstr ""
 "이 저작물은 크리에이티브 커먼즈 ${license_name} 라이선스에 따라 이용할 수 있습니다. 이용허락조건을 보려면, "
 "${license_url}을 클릭하거나, 크리에이티브 커먼즈 코리아에 문의하세요."
@@ -1770,15 +2053,18 @@ msgid ""
 "<strong>No Endorsement</strong>. The name of the author may not be used "
 "to endorse or promote products derived from this software without "
 "specific prior written permission."
+msgctxt "deed.no_endorsement"
 msgstr ""
 "<strong>No Endorsement</strong>. 사전허락 없이는 이 소프트웨어로부터 만들어진 제품을 추천하거나 홍보하는 "
 "목적으로 원저작자의 이름을 사용해서는 안됩니다."
 
 msgid "Prohibit Commercial Use"
+msgctxt "jswidget.Prohibit_Commercial_Use"
 msgstr "영리적 이용의 금지"
 
 #: c/engine/chooser_pages/results.pt:56
 msgid "What to do next"
+msgctxt "license.what_to_do_next"
 msgstr "다음으로 할 것"
 
 #: c/engine/pd/templates/publicdomain-4.pt:52
@@ -1788,6 +2074,7 @@ msgid ""
 "module</a>, or <a "
 "href=\"http://backend.userland.com/creativeCommonsRssModule\">the RSS 2.0"
 " module</a>."
+msgctxt "license.mark_rss"
 msgstr ""
 "RSS 피드에 귀하의 라이선스 정보를 추가하려면 , <a "
 "href=\"http://web.resource.org/rss/1.0/modules/cc/\">RSS 1.0 모듈</a> 또는 <a"
@@ -1795,6 +2082,7 @@ msgstr ""
 "모듈</a>을 사용하세요."
 
 msgid "Spanish (CL)"
+msgctxt "lang.es_CL"
 msgstr "Spanish (CL)"
 
 #: c/engine/chooser_pages/sampling.pt:36
@@ -1802,6 +2090,7 @@ msgstr "Spanish (CL)"
 #: c/engine/macros_templates/support.pt:134
 #: c/engine/macros_templates/support.pt:136
 msgid "review choice"
+msgctxt "license.review_choice"
 msgstr "라이선스 선택의 확인"
 
 msgid ""
@@ -1812,16 +2101,19 @@ msgid ""
 "library itself can be changed.  Any translation of the GNU Lesser General"
 " Public License must be accompanied by the GNU Lesser General Public "
 "License."
+msgctxt "deed.lgpl_sharealike"
 msgstr ""
 "라이브러리나 그 일부를 수정할 경우 그 수정물은 GNU Lesser General Public License에 의하여서만 배포가 "
 "가능합니다. 그러나 라이브러리 자체가 변경될 수 있는 한 그 라이브러리에 링크된 프로그램은 선택에 따라 자유롭게 라이선스를 적용할 "
 "수 있습니다. GNU Lesser General Public License의 번역문은 항상 원문과 함께 배포되어야 합니다."
 
 msgid "Share Music"
+msgctxt "util.Share_Music"
 msgstr "음악의 공유"
 
 #: c/engine/chooser_pages/index.pt:122
 msgid "Share Alike"
+msgctxt "char.sa_title"
 msgstr "동일조건변경허락"
 
 #: c/engine/chooser_pages/index.pt:193
@@ -1831,6 +2123,7 @@ msgid ""
 " license, we provide you with tools and tutorials that let you add "
 "license information to your own site, or to one of several free hosting "
 "services that have incorporated Creative Commons."
+msgctxt "license.explain"
 msgstr ""
 "크리에이티브 커먼즈는 금지된 이용과 그렇지 않은 것을 명확히 알리면서 저작물을 온라인상에 공표할 수 있도록 도와 줍니다. 라이선스를"
 " 선택하면 우리 사이트나 크리에이티브 커먼즈와 협력하는 무료 호스팅 서비스 사이트나 귀하의 사이트에 라이선스 정보를 부착하는 방법을"
@@ -1840,16 +2133,20 @@ msgstr ""
 msgid ""
 "Now that you've chosen the public domain dedication, you must mark your "
 "work in the appropriate way."
+msgctxt "license.mark_pd"
 msgstr "귀하의 저작물을 모든 사람들과 공유하기로 선택하였으므로, 이를 적절한 방법으로 표시를 해야 합니다."
 
 msgid "Try again!"
+msgctxt "util.Try_again"
 msgstr "재시도!"
 
 #: c/engine/chooser_pages/index.pt:214
 msgid "Founder's Copyright"
+msgctxt "util.Founders_Copyright"
 msgstr "Founder's Copyright"
 
 msgid "NonCommercial-ShareAlike"
+msgctxt "licenses.pretty_nc-sa"
 msgstr "비영리-동일조건변경허락"
 
 #: c/engine/pd/templates/publicdomain-3.pt:40
@@ -1866,6 +2163,7 @@ msgid ""
 "        <div class=\"licensebox\">\n"
 "${pd_deed_text}\n"
 "        </div>"
+msgctxt "license.pd_confirm"
 msgstr ""
 "<h1>Public Domain에의 기증을 확인해 주세요</h1>\n"
 "\n"
@@ -1884,6 +2182,7 @@ msgid ""
 "After publishing your license, please consider <a "
 "href=\"http://creativecommons.org/support/\">supporting Creative "
 "Commons</a>."
+msgctxt "license.after_support_cc"
 msgstr ""
 "라이선스를 발행한 후에는 <a href=\"http://creativecommons.org/support/\">supporting "
 "Creative Commons</a>를 둘러보세요."
@@ -1909,6 +2208,7 @@ msgid ""
 "confirming your public domain dedication in any way, please <a\n"
 "href=\"mailto:pd@creativecommons.org\">let us know</a>.\n"
 "</p>"
+msgctxt "license.pd_bad_confirmation"
 msgstr ""
 "<h1>Public Domain에 기증 - 확인 실패</h1>\n"
 "\n"
@@ -1929,10 +2229,12 @@ msgstr ""
 msgid ""
 "You must attribute the\n"
 "work in the manner specified by the author or licensor."
+msgctxt "char.by_description"
 msgstr "저작자나 이용허락자가 정한 방법으로 저작물의 원저작자를 표시하여야 합니다."
 
 #: c/engine/macros_templates/metadata.pt:36
 msgid "Text"
+msgctxt "util.Text"
 msgstr "텍스트"
 
 #: c/engine/licenses/devnations_templates/deed.pt:48
@@ -1941,16 +2243,19 @@ msgid ""
 "You must attribute the work in the manner specified by the author or "
 "licensor (but not in any way that suggests that they endorse you or your "
 "use of the work)."
+msgctxt "char.by_brief"
 msgstr ""
 "저작자나 이용허락자가 정한 방법으로 저작물의 원저작자를 표시하여야 합니다(그러나 귀하나 귀하의 저작물을 추천하는 의미로 표시되어서는"
 " 안됩니다)."
 
 #: c/engine/chooser_pages/results.pt:117
 msgid "Publishing your licensed music to the Morpheus P2P network"
+msgctxt "license.publish_morpheus"
 msgstr "Morpheus P2P network에 라이선스 된 음악을 발행하기"
 
 #: c/engine/chooser_pages/results.pt:108
 msgid "Posting your licensed images at Buzznet"
+msgctxt "license.publish_buzznet"
 msgstr "Buzznet에 라이센스된 이미지 올리기"
 
 msgid ""
@@ -1959,6 +2264,7 @@ msgid ""
 "offer, valid for at least three years, to furnish the complete "
 "corresponding machine-readable source code.  You need not provide source "
 "code to programs which link to the library."
+msgctxt "deed.lgpl_source"
 msgstr ""
 "라이브러리를 복제하거나 배포할 경우에는 소스코드와 함께 하거나 최소한 3년간 이를 제곧하겠다는 서면제의를 해야 합니다. 그러나 "
 "라이브러리에 링크된 프로그램의 소스코드는 제공할 필요가 없습니다."
@@ -1967,9 +2273,11 @@ msgstr ""
 msgid ""
 "Need more help? <a href=\"/education/publish-website\">Read our "
 "tutorial</a>."
+msgctxt "license.read_tutorial"
 msgstr "도움이 필요하세요? <a href=\"/education/publish-website\">지침서를 참조하세요</a>."
 
 msgid "Finland"
+msgctxt "country.fi"
 msgstr "Finland"
 
 #: c/engine/chooser_pages/partner/index.pt:25
@@ -1987,6 +2295,7 @@ msgid ""
 "here. This page helps you choose those conditions. If you want to offer "
 "your work with no conditions, choose the <a "
 "href=\"${results_pd_url}\">public domain</a>.</p>"
+msgctxt "license.partner_what"
 msgstr ""
 "<p>귀하는 귀하의 소중한 저작물을 창작하였습니다. 이제는 이를 어떻게 이용할 수 있는지 생각해야겠지요.</p>\n"
 "\n"
@@ -1999,23 +2308,27 @@ msgstr ""
 " 수 있습니다. 이 페이지는 그러한 조건들을 부가할 수 있도록 도와줍니다. 만약 아무런 조건도 원하지 않으시면 <a "
 "href=\"${results_pd_url}\">public domain</a>을 선택하세요.</p>"
 
-#: c/engine/chooser_pages/index.pt:49
-#: c/engine/chooser_pages/index.pt:96
+#: c/engine/chooser_pages/index.pt:49 c/engine/chooser_pages/index.pt:96
 #: c/engine/chooser_pages/partner/index.pt:56
 #: c/engine/chooser_pages/partner/index.pt:73
 msgid "No"
+msgctxt "util.No"
 msgstr "아니오"
 
 msgid "find"
+msgctxt "util.find"
 msgstr "찾기"
 
 msgid "What flavor of Sampling license?"
+msgctxt "api.sampling_flavor"
 msgstr "어떤 종류의 샘플링 라이선스인가요?"
 
 msgid "No license chosen"
+msgctxt "jswidget.no_license_chosen"
 msgstr "라이선스가 선택되지 않았습니다."
 
 msgid "Finnish"
+msgctxt "lang.fi"
 msgstr "Finnish"
 
 msgid ""
@@ -2024,6 +2337,7 @@ msgid ""
 "only on the conditions you specify here.', 'If you desire a license "
 "governed by the Copyright Law of a specific jurisdiction, please select "
 "the appropriate jurisdiction."
+msgctxt "jswidget.short"
 msgstr ""
 "크리에이티브 커먼즈 라이선스는 저작권을 그대로 보유하면서 귀하가 원저작자임을 표시하고 부가된 나머지 조건들을 따르는 것을 전제로 "
 "다른 이들의 자유로운 복제와 배포 등을 허락하는 것입니다. 만약 특정한 국가의 저작권법을 적용하기를 원한다면 원하시는 국가를 "
@@ -2031,6 +2345,7 @@ msgstr ""
 
 #: c/engine/macros_templates/metadata.pt:15
 msgid "Click to include more information about your work."
+msgctxt "license.include_more"
 msgstr "저작물에 관한 추가 정보를 입력하려면 여기를 클릭하세요."
 
 #: c/engine/chooser_templates/emailhtml.pt:16
@@ -2042,6 +2357,7 @@ msgid ""
 "\n"
 "<p>Place the link or the HTML on your website, right next to the work you"
 " intend to license.  </p>"
+msgctxt "license.link_emailed"
 msgstr ""
 "<p>\n"
 "귀하의 라이선스 선택에 관한 정보는 <strong>${email}</strong>로 전송되었습니다.\n"
@@ -2049,21 +2365,24 @@ msgstr ""
 "\n"
 "<p>이용을 허락하려는 저작물의 부근에 링크나 HTML을 붙여 주세요. <P>"
 
-#: c/engine/macros_templates/deed.pt:118
-#: c/engine/macros_templates/deed.pt:123
+#: c/engine/macros_templates/deed.pt:118 c/engine/macros_templates/deed.pt:123
 msgid "French"
+msgctxt "lang.fr"
 msgstr "French"
 
 #: c/engine/chooser_pages/index.pt:218
 msgid "CC-GNU GPL"
+msgctxt "util.CC_GNU_GPL"
 msgstr "CC-GNU GPL"
 
 msgid "Or, you can <a href=\"./\">return to the questions</a>."
+msgctxt "license.or_return"
 msgstr "또는,<a href=\"./\">라이센스 선택의 질문란으로 돌아갈 수 있습니다</a>."
 
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
+msgctxt "char.sa_bysa30_brief"
 msgstr ""
 "이 저작물의 개작, 변형물이나 가공물은 이 라이선스와 같거나 유사한 또는 호환가능한 라이선스 하에서만 배포할 수 있습니다.\"\n"
 "\"If you alter, transform, or build upon this work, you may distribute "
@@ -2071,18 +2390,26 @@ msgstr ""
 "\"resulting work only under the same, similar or a compatible license."
 
 msgid "Macedonia"
+msgctxt "country.mk"
 msgstr "Macedonia"
 
 msgid "ShareAlike"
+msgctxt "licenses.pretty_sa"
 msgstr "동일조건변경허락"
 
 #: c/engine/chooser_pages/results.pt:111
 msgid ""
 "Adding a Creative Commons license to your blog (Blogger, Movable Type, "
 "and Typepad)"
+msgctxt "license.publish_blog"
 msgstr "귀하의 블로그에 크리에이티브 커먼즈 라이센스 달기(Blogger, Movable Type, Typepad)"
 
 msgid "Portugese"
+msgctxt "lang.pt"
+msgstr "Portugese"
+
+msgid "Portugese"
+msgctxt "lang.pt_BR"
 msgstr "Portugese"
 
 #: c/engine/licenses/fsf_templates/deed.pt:75
@@ -2092,34 +2419,42 @@ msgstr "Portugese"
 msgid ""
 "Any of the above conditions can be waived if you get permission from the "
 "copyright holder."
+msgctxt "deed.permission"
 msgstr "저작권자로부터 별도의 허가를 받으면 이러한 조건들은 적용되지 않습니다."
 
 msgid "Malaysia"
+msgctxt "country.my"
 msgstr "Malaysia"
 
 msgid "Mexico"
+msgctxt "country.mx"
 msgstr "Mexico"
 
-#: c/engine/chooser_pages/sampling.pt:84
-#: c/engine/chooser_pages/sampling.pt:96
+#: c/engine/chooser_pages/sampling.pt:84 c/engine/chooser_pages/sampling.pt:96
 msgid "Taiwan"
+msgctxt "country.tw"
 msgstr "Taiwan"
 
 #: c/engine/macros_templates/deed.pt:81
 #: c/engine/licenses/catalog_pages/disclaimer-popup.pt:15
 msgid "Disclaimer"
+msgctxt "util.Disclaimer"
 msgstr "면책조항"
 
 msgid "Attribution-ShareAlike"
+msgctxt "licenses.pretty_by-sa"
 msgstr "저작자표시-동일조건변경허락"
 
 msgid "back to licenses"
+msgctxt "license.back_to_licenses"
 msgstr "라이센스 선택으로 돌아가기"
 
 msgid "Malta"
+msgctxt "country.mt"
 msgstr "Malta"
 
 msgid "work"
+msgctxt "util.work"
 msgstr "저작물"
 
 #: c/engine/licenses/fsf_templates/deed.pt:29
@@ -2127,6 +2462,7 @@ msgid ""
 "The ${license_name_full} is a <a href=\"http://www.gnu.org/philosophy"
 "/free-sw.html\">Free Software</a> license. Like any Free Software "
 "license, it grants to you the four following freedoms:"
+msgctxt "deed.gpl_freedoms"
 msgstr ""
 "${license_name_full}는 <a href=\"http://www.gnu.org/philosophy/free-"
 "sw.html\">자유소프트웨어</a> 라이선스입니다. 다른 자유소프트웨어 라이선스와 같이 다음과 같은 자유를 허락합니다."
@@ -2135,11 +2471,13 @@ msgstr ""
 msgid ""
 "The licensor permits others to copy, distribute and transmit only "
 "unaltered copies of the work — not derivative works based on it."
+msgctxt "char.nd_description"
 msgstr ""
 "개작 또는 변경하지 않는 것을 조건으로 저작물의 복제, 배포, 전시, 공연 및 공중송신을 허락합니다. 이 저작물에 기한 이차적 "
 "저작물의 작성과 복제, 배포, 전시, 공연 및 공중송신은 금지됩니다."
 
 msgid "Learn how to publicize and share your work"
+msgctxt "license.learn_publicize"
 msgstr "저작물을 공표해 공유하려면"
 
 #: c/engine/macros_templates/deed.pt:135
@@ -2148,6 +2486,7 @@ msgid ""
 "href=\"http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html\">GNU "
 "Lesser General Public License</a>). A <a href=\"legalcode.pt\">Portuguese"
 " translation</a> is also available."
+msgctxt "deed.lgpl_human_summary"
 msgstr ""
 "이 것은 이용허락규약 (the full <a href=\"http://www.gnu.org/licenses/old-"
 "licenses/lgpl-2.1.html\">GNU Lesser General Public License</a>)의 요약문입니다. "
@@ -2159,6 +2498,7 @@ msgid ""
 "href=\"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU "
 "General Public License</a>). A <a href=\"legalcode.pt\">Portuguese "
 "translation</a> is also available."
+msgctxt "deed.gpl_human_summary"
 msgstr ""
 "이 것은 이용허락규약 (the full <a href=\"http://www.gnu.org/licenses/old-"
 "licenses/gpl-2.0.html\">GNU General Public License</a>)의 의 요약문입니다. A <a "
@@ -2174,6 +2514,7 @@ msgid ""
 "Creative Commons does not provide legal advice or services. We provide "
 "form legal documents; the rest is up to you.\n"
 "</p>"
+msgctxt "license.partner_note"
 msgstr ""
 "<P>\n"
 "<em>주의:</em> 저작물을 이용허락하려면, 저작권자이거나 또는 저작권자로부터 명시적인 권한위임을 받은 자이어야 합니다.</p>"
@@ -2184,6 +2525,7 @@ msgstr ""
 "귀하의 판단에 맡겨집니다."
 
 msgid "Developing Nations"
+msgctxt "util.Developing_Nations"
 msgstr "개발도상국"
 
 #: c/engine/pd/templates/publicdomain-4.pt:54
@@ -2192,40 +2534,46 @@ msgid ""
 "To mark a PDF or other XMP-supported file, <a "
 "href=\"xmp?${url_vars}\">save this template</a> following these <a "
 "href=\"/technology/xmp-help\">instructions</a>."
+msgctxt "license.mark_xmp"
 msgstr ""
 "PDF나 다른 XMP 형식의 파일에 표시를 하려면, 이 <a href=\"/technology/xmp-help\">안내문</a>에 "
 "따라 <a href=\"xmp?${url_vars}\">이 템플릿을 저장하세요</a>"
 
 msgid "NonCommercial Sampling Plus"
+msgctxt "licenses.pretty_nc-sampling+"
 msgstr "비영리 Sampling Plus"
 
 #: c/engine/licenses/sampling_templates/deed.pt:47
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for"
 " any purpose."
+msgctxt "char.no_brief"
 msgstr "귀하는 어떤 목적이라도 이 저작물 전체를 배포, 전시, 공연 및 공중송신할 수 없습니다."
 
 #: c/engine/chooser_pages/index.pt:232
 msgid "Wiki"
+msgctxt "util.Wiki"
 msgstr "Wiki"
 
 msgid "Danish"
+msgctxt "lang.da"
 msgstr "Danish"
 
 msgid "Unported"
+msgctxt "util.Unported"
 msgstr "Unported"
 
 msgid "Based on a work at ${source_link}."
+msgctxt "license.work_based_on"
 msgstr "${source_link}의 저작물에 기초"
 
 #: c/engine/macros_templates/deed.pt:129
 msgid "German"
+msgctxt "lang.de"
 msgstr "German"
 
-#: c/engine/chooser_pages/sampling.pt:31
-#: c/engine/chooser_pages/sampling.pt:35
-#: c/engine/chooser_pages/sampling.pt:40
-#: c/engine/chooser_pages/sampling.pt:45
+#: c/engine/chooser_pages/sampling.pt:31 c/engine/chooser_pages/sampling.pt:35
+#: c/engine/chooser_pages/sampling.pt:40 c/engine/chooser_pages/sampling.pt:45
 #: c/engine/macros_templates/support.pt:81
 #: c/engine/macros_templates/support.pt:85
 #: c/engine/macros_templates/support.pt:92
@@ -2241,6 +2589,7 @@ msgstr "German"
 #: c/engine/macros_templates/support.pt:160
 #: c/engine/macros_templates/support.pt:164
 msgid "step"
+msgctxt "util.step"
 msgstr "단계"
 
 #: c/engine/licenses/devnations_templates/deed.pt:27
@@ -2248,51 +2597,61 @@ msgstr "단계"
 #: c/engine/licenses/sampling_templates/deed.pt:25
 #: c/engine/licenses/standard_templates/deed.pt:34
 msgid "You are free:"
+msgctxt "deed.You_are_free"
 msgstr "이용자는 아래의 조건을 따르는 경우에 한하여 자유롭게"
 
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same or similar license to this one."
+msgctxt "char.sa_brief"
 msgstr "이 저작물의 개작, 변형물이나 가공물은 이 라이선스와 같거나 유사한 라이선스 하에서만 배포할 수 있습니다."
 
 #: c/engine/chooser_pages/index.pt:236
 msgid "Music Sharing"
+msgctxt "util.Music_Sharing"
 msgstr "음악의 공유"
 
 msgid "LGPL"
+msgctxt "licenses.pretty_LGPL"
 msgstr "LGPL"
 
 msgid "French (CA)"
+msgctxt "lang.fr_CA"
 msgstr "French (CA)"
 
-#: c/engine/chooser_pages/gpl.pt:47
-#: c/engine/chooser_pages/lgpl.pt:48
+#: c/engine/chooser_pages/gpl.pt:47 c/engine/chooser_pages/lgpl.pt:48
 msgid ""
 "Lawyer-Readable<br/>\n"
 "Legal Code"
+msgctxt "license.lawyer-readable_legal_code"
 msgstr ""
 "법적 해석을 위한<br/>\n"
 "이용허락규약"
 
 msgid "Require Share-Alike"
+msgctxt "jswidget.Require_Share-Alike"
 msgstr "동일조건변경허락의 요구"
 
 #: c/engine/licenses/devnations_templates/deed.pt:34
 #: c/engine/licenses/mitbsd_templates/deed.pt:26
 #: c/engine/licenses/standard_templates/deed.pt:39
 msgid "<strong>to Remix</strong> — to adapt the work"
+msgctxt "deed.free_derivative"
 msgstr "<strong>리믹스</strong> — 저작물의 개작"
 
 msgid "Find music, photos and more"
+msgctxt "nav.find_title"
 msgstr "음악, 사진 등 찾기"
 
 msgid "Venezuela"
+msgctxt "country.ve"
 msgstr "Venezuela"
 
 #: c/engine/chooser_pages/sampling.pt:46
 #: c/engine/macros_templates/support.pt:161
 #: c/engine/macros_templates/support.pt:165
 msgid "publicize"
+msgctxt "license.publicize"
 msgstr "공표"
 
 #: c/engine/pd/templates/publicdomain-3.pt:41
@@ -2329,6 +2688,7 @@ msgid ""
 "modified, built upon, or otherwise exploited by anyone for any purpose, "
 "commercial or non-commercial, and in any way, including by methods that "
 "have not yet been invented or conceived.</p>"
+msgctxt "deed.pd"
 msgstr ""
 "<p style=\"text-align:center\"><em>(미국법에 근거한)Copyright-Only Dedication 또는"
 " Public Domain Certification</em></p>\n"
@@ -2368,6 +2728,7 @@ msgid ""
 "        <p><strong>About your work</strong></p>\n"
 "\n"
 "        <p>all fields are required</p>"
+msgctxt "license.pd_enter_info"
 msgstr ""
 "<h1>상세 정보의 입력</h1>\n"
 "\n"
@@ -2387,6 +2748,7 @@ msgstr ""
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "noncommercial purposes."
+msgctxt "deed.free_sample_nc"
 msgstr ""
 "비영리 목적을 위한 이 저작물의 샘플링, 매쉬업 또는 기타 창조적인 변형\"\n"
 "\"To sample, mash-up, or otherwise creatively transform this work for \"\n"
@@ -2398,37 +2760,46 @@ msgid ""
 "the authority to license all the rights involved. Musical works, for "
 "example, often consist of multiple copyrights (composition, recording, "
 "lyrics)."
+msgctxt "license.sampling_before"
 msgstr ""
 "샘플링라이선스를 적용하기 전에 이를 라이선스를 할 수 있는 모든 권한이 있는 것인지 확인바랍니다. 예를 들어 음원은 복수의 저작권과"
 " 저작인접권(작곡, 작사, 음반)의 대상입니다."
 
 msgid "Jurisdiction of your license:"
+msgctxt "api.jurisdiction"
 msgstr "라이선스의 관할"
 
 msgid "home"
+msgctxt "util.home"
 msgstr "home"
 
 #: c/engine/pd/templates/publicdomain-2.pt:53
 msgid ""
 "<b>NOTE:</b> clicking on \"proceed\" will send a confirmation request to "
 "the email address you entered. Make sure the address is correct!"
+msgctxt "license.proceed_email_note"
 msgstr ""
 "<b>주의:</b> \"계속\" 버튼을 클릭하면, 귀하가 입력한 email 주소로 확인요청을 보냅니다. 주소가 정확한지 한번 더 "
 "체크해 주세요."
 
 msgid "Serbian (Latin)"
+msgctxt "lang.sr_LATN"
 msgstr "Serbian (Latin)"
 
 msgid "Puerto Rico"
+msgctxt "country.pr"
 msgstr "Puerto Rico"
 
 msgid "Greek"
+msgctxt "lang.el"
 msgstr "Greek"
 
 msgid "Romanian"
+msgctxt "lang.ro"
 msgstr "Romanian"
 
 msgid "Spanish (Ecuador)"
+msgctxt "lang.es_EC"
 msgstr "Spanish (Ecuador)"
 
 #: e/macros_templates/metadata.pt:107
@@ -2462,6 +2833,7 @@ msgid ""
 "\t    information</a> on Creative Commons metadata is available if\n"
 "\t  you want to find out more.\n"
 "\t</p>"
+msgctxt "license.metadata_help"
 msgstr ""
 "<p>\n"
 "\t 정보는 소프트웨어가 읽을 수 있게 임베딩 되어 있습니다.\n"
@@ -2513,10 +2885,12 @@ msgstr ""
 "메타데이터가 웹페이지에 삽입되어 다른 이들이 원저작물을 쉽게 찾을 수 있습니다. "
 
 msgid "Ecuador"
+msgctxt "country.ec"
 msgstr "Ecuador"
 
 #: e/macros_templates/metadata.pt:13
 msgid "Additional Information"
+msgctxt "license.additional_info"
 msgstr "추가 정보"
 
 #: e/macros_templates/metadata.pt:16
@@ -2525,23 +2899,28 @@ msgid ""
 " in the HTML generated for your license. This allows users of your work "
 "to determine how to attribute it or where to go for more information "
 "about the work."
+msgctxt "license.additional_fields_optional"
 msgstr ""
 "아래 기재란은 <strong>선택사항</strong>입니다. 그러나 기재된 정보들은 라이선스 표시를 생성하는 HTML에 임베디드 "
 "되어, 이용자들로 하여금 어떻게 저작자를 표시하고 어디서 자세한 정보를 얻을 수 있는지 등을 알 수 있게 해주므로 되도록 기재를 "
 "해주세요."
 
 msgid "Norway"
+msgctxt "country.no"
 msgstr "Norway"
 
 msgid "Norwegian"
+msgctxt "lang.no"
 msgstr "Norwegian"
 
 msgid "Mark Software"
+msgctxt "license.mark_software"
 msgstr "소프트웨어에 표시하기"
 
 msgid ""
 "Read the <a href=\"http://www.gnu.org/licenses/gpl-howto.html\">FSF's "
 "instructions for including the license with your software</a>."
+msgctxt "license.fsf_instructions"
 msgstr ""
 "소프트웨어에 라이선스를 포함하는 것에 대한 <a href=\"http://www.gnu.org/licenses/gpl-"
 "howto.html\">FSF의 지침</a>을 읽어보세요."
@@ -2549,6 +2928,7 @@ msgstr ""
 msgid ""
 "You can display the icon on any site you offer your software for download"
 " using the following markup:"
+msgctxt "license.display_software_icon"
 msgstr ""
 "다음과 같은 마크업을 이용해서 소프트웨어를 내려받을 수 있는 사이트에 아이콘을 표시하세요.\"\n"
 "\"You can display the icon on any site you offer your software for "
@@ -2557,20 +2937,26 @@ msgstr ""
 
 #: c/engine/macros_templates/deed.pt:206
 msgid "Use this license for your own work."
+msgctxt "deed.use_this_license"
 msgstr "귀하의 저작물에 이 라이선스를 적용하세요."
 
 msgid "Hong Kong"
+msgctxt "country.hk"
 msgstr "Hong Kong"
 
 msgid "English (Hong Kong)"
+msgctxt "lang.en_HK"
 msgstr "English (Hong Kong)"
 
 msgid "Chinese (Hong Kong)"
+msgctxt "lang.zh_HK"
 msgstr "Chinese (Hong Kong)"
 
 msgid "Guatemala"
+msgctxt "country.gt"
 msgstr "Guatemala"
 
 msgid "Spanish (Guatemala)"
+msgctxt "lang.es_GT"
 msgstr "Spanish (Guatemala)"
 
