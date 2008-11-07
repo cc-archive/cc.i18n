@@ -77,6 +77,9 @@ def cc_to_po(source, english, previous=None):
     English text.  The result is a Catalog whose keys contain English text
     rather than symbolic strings.
 
+    Furthermore, each message in the new Catalog has as its .context
+    the sybolic key value.
+
     Returns a Catalog instance."""
 
     # create the new target Catalog
@@ -115,6 +118,7 @@ def cc_to_po(source, english, previous=None):
                 if previous[message.id].string != english[message.id].string:
                     new_message.flags.add('fuzzy')
 
+        new_message.context = message.id
         target[new_message.id] = new_message
 
     return target
