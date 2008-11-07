@@ -27,7 +27,7 @@ setup(
     
     # scripts and dependencies
     install_requires = ['setuptools',
-                        'Babel',
+                        'Babel>0.9.4',
                         ],
 
 
@@ -45,5 +45,10 @@ setup(
     description = '',
     license = 'MIT',
     url = 'http://translate.creativecommons.org',
+
+    # Dependency links
+    dependency_links = [
+        'http://labs.creativecommons.org/~paulproteus/eggs/Babel-1.0dev-py2.5.egg',
+    ],
 
     )
