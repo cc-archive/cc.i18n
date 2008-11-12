@@ -10,10 +10,11 @@ from babel.messages.pofile import write_po
 
 import convert
 from support import parse_args
+import sha
 
 LOGGER_NAME = "po2cc"
 
-def cli():
+def cli(enable_caching = True):
     """Command line interface for po2cc script."""
 
     # parse the command line
@@ -55,6 +56,21 @@ def cli():
             else:
                 locale = None
 
+            # optional: if caching enabled, and we have processed our files before, don't do anything
+            if enable_caching:
+                cache_dir = os.path.join(os.getenv('HOME'), '.cc2po-cache')
+                if not os.path.exists(cache_dir):
+                    os.mkdir(cache_dir, 0700)
+                input_sha1 = sha.sha(open(input_fn).read()).hexdigest()
+                input_sha_file = os.path.join(cache_dir, input_sha1)
+                if os.path.exists(input_sha_file):
+                    # if it exists, check the file's contents.
+                    output_sha1 = sha.sha(open(output_fn).read()).hexdigest()
+                    contents = open(input_sha_file).read().strip()
+                    if contents == output_sha1:
+                        getLogger(LOGGER_NAME).info('Due to caching, we have skipped this file.')
+                        continue # we have previously recorded that this is the right output
+
             # convert the file
             result = convert.po_to_cc(read_po(file(input_fn, 'r'),
                                               locale, 
@@ -65,4 +81,13 @@ def cli():
 
             write_po(file(output_fn, 'w'), result)
             getLogger(LOGGER_NAME).debug("Write %s." % output_fn)
+
+            # if caching is enabled, store a note that the result is good
+            if enable_caching:
+                assert input_sha1 == sha.sha(open(input_fn).read()).hexdigest()
+                input_sha_file = os.path.join(cache_dir, input_sha1)
+                output_sha1 = sha.sha(open(output_fn).read()).hexdigest()
+                fd = open(input_sha_file, 'w')
+                fd.write(output_sha1)
+                fd.close()
 
