@@ -4,16 +4,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2008-10-31 13:07-0400\n"
-"PO-Revision-Date: 2008-10-31 13:07-0400\n"
+"POT-Creation-Date: 2008-11-12 19:17+0000\n"
+"PO-Revision-Date: 2008-11-12 19:17+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: af <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 0.9.2\n"
+"Generated-By: Babel 1.0dev\n"
 
+msgctxt "country.gr"
 msgid "country.nz"
 msgstr "New Zealand"
 
@@ -51,6 +52,7 @@ msgid "Yes, as long as others share alike"
 msgstr ""
 
 #: c/engine/licenses/sampling_templates/deed.pt:31
+msgctxt "deed.free_copy_distribute_noncommercial"
 msgid "deed.free_copy_distribute_noncommercial"
 msgstr ""
 "Om hierdie hele werk uit te voer, te vertoon, en kopieë daarvan te "
@@ -58,6 +60,9 @@ msgstr ""
 " niekommersiële webuitsending)."
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
+msgctxt ""
+"license.pd_awaiting_confirmation\"\n"
+"\"country.bg"
 msgid "license.pd_awaiting_confirmation"
 msgstr ""
 "<h1>Skenking aan die Openbare Domein – e-posbevestiging</h1>\n"
@@ -104,6 +109,9 @@ msgid "country.bg"
 msgstr "Bulgarye"
 
 #: c/engine/pd/templates/publicdomain-4.pt:32
+msgctxt ""
+"license.mark_web\"\n"
+"\"util.copyright_date"
 msgid "license.mark_web"
 msgstr ""
 "Merk u inhoud op 'n webtuiste; die HTML wat gebruik moet word om u "
@@ -113,13 +121,15 @@ msgstr ""
 msgid "util.copyright_date"
 msgstr "kopieregdatum"
 
-#: c/engine/chooser_pages/index.pt:168
-#: c/engine/chooser_pages/sampling.pt:104
+#: c/engine/chooser_pages/index.pt:168 c/engine/chooser_pages/sampling.pt:104
+msgctxt "util.Jurisdiction"
 msgid "util.Jurisdiction"
 msgstr "Jurisdiksie"
 
-#: c/engine/chooser_pages/sampling.pt:80
-#: c/engine/chooser_pages/sampling.pt:92
+#: c/engine/chooser_pages/sampling.pt:80 c/engine/chooser_pages/sampling.pt:92
+msgctxt ""
+"country.br\"\n"
+"\"util.Creative_Commons_License"
 msgid "country.br"
 msgstr "Brasilië"
 
@@ -131,6 +141,7 @@ msgstr "Creative Commons-lisensie"
 #: c/engine/macros_templates/support.pt:152
 #: c/engine/macros_templates/support.pt:154
 #: c/engine/pd/templates/publicdomain-4.pt:25
+msgctxt "license.mark_content"
 msgid "license.mark_content"
 msgstr "merk inhoud"
 
@@ -139,15 +150,38 @@ msgstr "merk inhoud"
 #: c/engine/macros_templates/support.pt:152
 #: c/engine/macros_templates/support.pt:154
 #: c/engine/pd/templates/publicdomain-4.pt:25
+msgctxt "license.mark_content"
+msgid "license.Mark_Content"
+msgstr "merk inhoud"
+
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
+#: c/engine/pd/templates/publicdomain-4.pt:25
+msgctxt "license.Mark_Content"
+msgid "license.mark_content"
+msgstr "merk inhoud"
+
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
+#: c/engine/pd/templates/publicdomain-4.pt:25
+msgctxt "license.Mark_Content"
 msgid "license.Mark_Content"
 msgstr "merk inhoud"
 
 #: c/engine/licenses/fsf_templates/deed.pt:48
+msgctxt ""
+"deed.gpl_under_conditions\"\n"
+"\"country.be"
 msgid "deed.gpl_under_conditions"
 msgstr ""
 "U mag die vryhede wat hier genoem word, benut, mits u voldoen aan die "
 "uitdruklike voorwaardes van die lisensie.  Die vernaamste voorwaardes is:"
 
+msgctxt "license.work_type_dedicated"
 msgid "country.be"
 msgstr "België"
 
@@ -159,9 +193,13 @@ msgstr ""
 "Domein</a>."
 
 #: c/engine/chooser_pages/index.pt:77
+msgctxt ""
+"api.derivatives\"\n"
+"\"deed.fair_use.jp"
 msgid "api.derivatives"
 msgstr "Sal u veranderings aan u werk toelaat?"
 
+msgctxt "deed.back_to_cc"
 msgid "deed.fair_use.jp"
 msgstr ""
 "U reg om gebruik te maak van die werk, gebaseer op die beperkings van "
@@ -171,8 +209,8 @@ msgstr ""
 msgid "deed.back_to_cc"
 msgstr "terug na <a href=\"/\">Creative Commons</a>"
 
-#: c/engine/chooser_pages/gpl.pt:63
-#: c/engine/chooser_pages/lgpl.pt:66
+#: c/engine/chooser_pages/gpl.pt:63 c/engine/chooser_pages/lgpl.pt:66
+msgctxt "license.fsf_how_it_works"
 msgid "license.fsf_how_it_works"
 msgstr ""
 "Só werk die CC-GNU ${license_code}: 'n Gebruiker wat klik op die Creative"
@@ -187,12 +225,16 @@ msgstr ""
 "ander in staat sal stel om u sagteware te vind."
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:46
+msgctxt ""
+"deed.bsd_notice\"\n"
+"\"licenses.pretty_nd"
 msgid "deed.bsd_notice"
 msgstr ""
 "You must retain the license terms and copyright notice in any source code"
 " distribution and reproduce them in documentation for binary "
 "distributions."
 
+msgctxt "jswidget.Updated_license_version_generic"
 msgid "licenses.pretty_nd"
 msgstr "GeenAfleidings"
 
@@ -202,15 +244,19 @@ msgstr ""
 "available."
 
 #: c/engine/chooser_pages/index.pt:67
+msgctxt "licenses.pretty_nc"
 msgid "licenses.pretty_nc"
 msgstr "NieKommersieel"
 
 #: c/engine/macros_templates/deed.pt:103
+msgctxt "lang.ca"
 msgid "lang.ca"
 msgstr "Katalaans"
 
-#: c/engine/chooser_pages/gpl.pt:66
-#: c/engine/chooser_pages/lgpl.pt:69
+#: c/engine/chooser_pages/gpl.pt:66 c/engine/chooser_pages/lgpl.pt:69
+msgctxt ""
+"license.fsf_mark_software\"\n"
+"\"license.work_type_licensed"
 msgid "license.fsf_mark_software"
 msgstr ""
 "<h1>Merksagteware</h1>\n"
@@ -218,6 +264,7 @@ msgstr ""
 "<p>Vertoon die ikoon op enige werf waar u u sagteware aanbied sodat dit "
 "afgelaai kan word deur die volgende uitleginstruksie te gebruik:</p>"
 
+msgctxt "license.rdfa_licensed_no_title"
 msgid "license.work_type_licensed"
 msgstr ""
 "Hierdie ${work_type} is gelisensieer ingevolge 'n <a rel=\"license\" "
@@ -229,8 +276,8 @@ msgstr ""
 "rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
 "License</a>."
 
-#: c/engine/chooser_pages/gpl.pt:46
-#: c/engine/chooser_pages/lgpl.pt:47
+#: c/engine/chooser_pages/gpl.pt:46 c/engine/chooser_pages/lgpl.pt:47
+msgctxt "license.human-readable_commons_deed"
 msgid "license.human-readable_commons_deed"
 msgstr ""
 "Maklik Verstaanbare<br />\n"
@@ -239,17 +286,36 @@ msgstr ""
 #: c/engine/macros_templates/support.pt:93
 #: c/engine/macros_templates/support.pt:97
 #: c/engine/pd/templates/publicdomain-partner.pt:22
+msgctxt "license.confirm_choice"
 msgid "license.confirm_choice"
 msgstr "bevestig keuse"
 
 #: c/engine/macros_templates/support.pt:93
 #: c/engine/macros_templates/support.pt:97
 #: c/engine/pd/templates/publicdomain-partner.pt:22
+msgctxt "license.confirm_choice"
+msgid "license.Confirm_Choice"
+msgstr "bevestig keuse"
+
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
+#: c/engine/pd/templates/publicdomain-partner.pt:22
+msgctxt "license.Confirm_Choice"
+msgid "license.confirm_choice"
+msgstr "bevestig keuse"
+
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
+#: c/engine/pd/templates/publicdomain-partner.pt:22
+msgctxt "license.Confirm_Choice"
 msgid "license.Confirm_Choice"
 msgstr "bevestig keuse"
 
 #: c/engine/chooser_pages/sampling.pt:54
 #, fuzzy
+msgctxt ""
+"license.sampling_explain\"\n"
+"\"license.pd_dedication_email"
 msgid "license.sampling_explain"
 msgstr ""
 "<div style=\"float:right;width:175px;border:1px solid "
@@ -277,6 +343,7 @@ msgstr ""
 "<p>Dit wil sê, op sekere voorwaardes. Daar is drie geure van die "
 "voorsmaaklisensie. Kies die een wat u kreatiewe styl pas:</p>"
 
+msgctxt "lang.bg"
 msgid "license.pd_dedication_email"
 msgstr ""
 "Dit is 'n rekord hierdie van 'n Skenking aan die Openbare Domein.\n"
@@ -308,11 +375,10 @@ msgstr ""
 msgid "lang.bg"
 msgstr "Bulgaars"
 
-#: c/engine/chooser_pages/gpl.pt:37
-#: c/engine/chooser_pages/gpl.pt:79
-#: c/engine/chooser_pages/lgpl.pt:38
-#: c/engine/chooser_pages/lgpl.pt:82
+#: c/engine/chooser_pages/gpl.pt:37 c/engine/chooser_pages/gpl.pt:79
+#: c/engine/chooser_pages/lgpl.pt:38 c/engine/chooser_pages/lgpl.pt:82
 #, fuzzy
+msgctxt "license.fsf_software_licensed"
 msgid "license.fsf_software_licensed"
 msgstr ""
 "Hierdie sagteware is gelisensieer ingevolge die <a href=\"${license_url"
@@ -321,10 +387,14 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-2.pt:34
 #: c/engine/macros_templates/metadata.pt:46
 #, fuzzy
+msgctxt "util.title_of_work"
 msgid "util.title_of_work"
 msgstr "titel van werk"
 
 #: c/engine/licenses/fsf_templates/deed.pt:61
+msgctxt ""
+"deed.gpl_sharealike\"\n"
+"\"country.ie"
 msgid "deed.gpl_sharealike"
 msgstr ""
 "As u u kopie of kopieë van die program, of gedeelte daarvan, modifiseer, "
@@ -337,12 +407,17 @@ msgid "country.ie"
 msgstr "Ierland"
 
 #: c/engine/macros_templates/engine.pt:111
+msgctxt ""
+"license.License_Your_Work\"\n"
+"\"licenses.pretty_by-nc"
 msgid "license.License_Your_Work"
 msgstr "License Your Work"
 
+msgctxt "licenses.pretty_by-nd"
 msgid "licenses.pretty_by-nc"
 msgstr "Erkenning-NieKommersieel"
 
+msgctxt "lang.es_PE"
 msgid "licenses.pretty_by-nd"
 msgstr "Erkenning-GeenAfleidings"
 
@@ -350,25 +425,33 @@ msgid "lang.es_PE"
 msgstr "Spanish (PE)"
 
 #: c/engine/licenses/sampling_templates/deed.pt:29
+msgctxt ""
+"deed.free_sample\"\n"
+"\"country.il"
 msgid "deed.free_sample"
 msgstr ""
 "Om monsters van hierdie werk te neem, dit te vermeng, of dit andersins "
 "vernuwend te herskep vir kommersiële of niekommersiële doeleindes."
 
+msgctxt "license.more_perms_available"
 msgid "country.il"
 msgstr "Israel"
 
+msgctxt "country.in"
 msgid "license.more_perms_available"
 msgstr ""
 "Permissions beyond the scope of this license may be available at "
 "${more_perms_link}."
 
+msgctxt "lang.mk"
 msgid "country.in"
 msgstr "Indië"
 
+msgctxt "license.how_it_works"
 msgid "lang.mk"
 msgstr "Macedonian"
 
+msgctxt "country.it"
 msgid "license.how_it_works"
 msgstr ""
 "Só werk dit: 'n Gebruiker wat klik op die Creative Commons-ikoon kry u \n"
@@ -386,12 +469,15 @@ msgstr ""
 "href=\"/learn/licenses/how1\">Lees ons tekenprente vir 'n illustrasie van"
 " die proses</a>."
 
+msgctxt "country.pl"
 msgid "country.it"
 msgstr "Italië"
 
+msgctxt "lang.ms"
 msgid "country.pl"
 msgstr "Pole"
 
+msgctxt "country.ph"
 msgid "lang.ms"
 msgstr "Maleisies"
 
@@ -399,18 +485,31 @@ msgid "country.ph"
 msgstr "Filippyne"
 
 #: c/engine/licenses/sampling_templates/deed.pt:42
+msgctxt ""
+"char.na_brief\"\n"
+"\"country.pe"
 msgid "char.na_brief"
 msgstr ""
 "U mag nie die werk gebruik om enigiets te adverteer of te bevorder "
 "behalwe die werk wat u daaruit geskep het nie."
 
+msgctxt "deed.permission.jp"
 msgid "country.pe"
 msgstr "Peru"
 
+msgctxt "util.Sampling"
 msgid "deed.permission.jp"
 msgstr ""
 "Enigeen van hierdie voorwaardes kan ter syde gesel word met die "
 "toestemming van die houers van die regte op die werk."
+
+msgctxt "licenses.pretty_sampling"
+msgid "util.Sampling"
+msgstr "Voorsmaak"
+
+msgctxt "licenses.pretty_sampling"
+msgid "licenses.pretty_sampling"
+msgstr "Voorsmaak"
 
 msgid "util.Sampling"
 msgstr "Voorsmaak"
@@ -420,11 +519,29 @@ msgstr "Voorsmaak"
 
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
+msgctxt "util.page_other_languages"
 msgid "util.page_other_languages"
 msgstr "Hierdie bladsy is beskikbaar in die volgende tale:"
 
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
+msgctxt "util.page_other_languages"
+msgid "deed.view_in"
+msgstr "Hierdie bladsy is beskikbaar in die volgende tale:"
+
+#: c/engine/macros_templates/support.pt:30
+#: c/engine/macros_templates/support.pt:56
+msgctxt ""
+"deed.view_in\"\n"
+"\"lang.en_GB"
+msgid "util.page_other_languages"
+msgstr "Hierdie bladsy is beskikbaar in die volgende tale:"
+
+#: c/engine/macros_templates/support.pt:30
+#: c/engine/macros_templates/support.pt:56
+msgctxt ""
+"deed.view_in\"\n"
+"\"lang.en_GB"
 msgid "deed.view_in"
 msgstr "Hierdie bladsy is beskikbaar in die volgende tale:"
 
@@ -432,6 +549,9 @@ msgid "lang.en_GB"
 msgstr "Engels (GB)"
 
 #: c/engine/licenses/standard_templates/deed.pt:69
+msgctxt ""
+"deed.moralrights-remix.us\"\n"
+"\"lang.pl"
 msgid "deed.moralrights-remix.us"
 msgstr ""
 "Apart from the remix rights granted under this license, nothing in this "
@@ -441,9 +561,13 @@ msgid "lang.pl"
 msgstr "Pools"
 
 #: c/engine/pd/templates/publicdomain-3.pt:87
+msgctxt ""
+"util.confirm\"\n"
+"\"util.Do_you_want_to"
 msgid "util.confirm"
 msgstr "bevestig"
 
+msgctxt "util.year_of_copyright"
 msgid "util.Do_you_want_to"
 msgstr "Wil u -"
 
@@ -454,25 +578,41 @@ msgstr ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">jaartal van kopiereg</a>"
 
-#: c/engine/chooser_pages/index.pt:29
-#: c/engine/chooser_pages/sampling.pt:32
+#: c/engine/chooser_pages/index.pt:29 c/engine/chooser_pages/sampling.pt:32
 #: c/engine/macros_templates/support.pt:82
 #: c/engine/macros_templates/support.pt:86
+msgctxt "license.Choose_License"
 msgid "license.Choose_License"
 msgstr "kies lisensie"
 
-#: c/engine/chooser_pages/index.pt:29
-#: c/engine/chooser_pages/sampling.pt:32
+#: c/engine/chooser_pages/index.pt:29 c/engine/chooser_pages/sampling.pt:32
 #: c/engine/macros_templates/support.pt:82
 #: c/engine/macros_templates/support.pt:86
+msgctxt "license.Choose_License"
+msgid "license.choose_license"
+msgstr "kies lisensie"
+
+#: c/engine/chooser_pages/index.pt:29 c/engine/chooser_pages/sampling.pt:32
+#: c/engine/macros_templates/support.pt:82
+#: c/engine/macros_templates/support.pt:86
+msgctxt "license.choose_license"
+msgid "license.Choose_License"
+msgstr "kies lisensie"
+
+#: c/engine/chooser_pages/index.pt:29 c/engine/chooser_pages/sampling.pt:32
+#: c/engine/macros_templates/support.pt:82
+#: c/engine/macros_templates/support.pt:86
+msgctxt "license.choose_license"
 msgid "license.choose_license"
 msgstr "kies lisensie"
 
 #: c/engine/licenses/fsf_templates/deed.pt:38
+msgctxt "deed.gpl_free_redistribute"
 msgid "deed.gpl_free_redistribute"
 msgstr "Die vryheid om kopieë verder te versprei sodat u u medemens kan help."
 
 #: c/engine/pd/templates/publicdomain-4.pt:47
+msgctxt "license.mark_mp3"
 msgid "license.mark_mp3"
 msgstr "Merk 'n mp3: <a href=\"/technology/mp3\">volg hierdie riglyne</a>."
 
@@ -480,11 +620,14 @@ msgstr "Merk 'n mp3: <a href=\"/technology/mp3\">volg hierdie riglyne</a>."
 #: c/engine/licenses/mitbsd_templates/deed.pt:33
 #: c/engine/licenses/sampling_templates/deed.pt:39
 #: c/engine/licenses/standard_templates/deed.pt:45
+msgctxt "deed.under_conditions"
 msgid "deed.under_conditions"
 msgstr "Ingevolge die volgende bepalings:"
 
-#: c/engine/chooser_pages/gpl.pt:48
-#: c/engine/chooser_pages/lgpl.pt:49
+#: c/engine/chooser_pages/gpl.pt:48 c/engine/chooser_pages/lgpl.pt:49
+msgctxt ""
+"license.machine-readable_digital_code\"\n"
+"\"util.copyright_holders_name"
 msgid "license.machine-readable_digital_code"
 msgstr ""
 "Masjienleesbare<br />\n"
@@ -498,10 +641,14 @@ msgstr ""
 " return false;\">copyright</a> naam van houer"
 
 #: c/engine/macros_templates/metadata.pt:58
+msgctxt "util.attribute_to_url"
 msgid "util.attribute_to_url"
 msgstr "Attribute work to URL"
 
 #: c/engine/chooser_pages/index.pt:195
+msgctxt ""
+"license.view_explanation\"\n"
+"\"jargon.copyright_description"
 msgid "license.view_explanation"
 msgstr "Kyk na 'n verduideliking van al ons lisensies."
 
@@ -517,6 +664,9 @@ msgstr ""
 "of idees."
 
 #: c/engine/licenses/fsf_templates/deed.pt:50
+msgctxt ""
+"deed.lgpl_under_conditions\"\n"
+"\"license.mark_license"
 msgid "deed.lgpl_under_conditions"
 msgstr ""
 "U kan die vryhede wat hierin genoem word, benut, mits u voldoen aan die "
@@ -524,6 +674,7 @@ msgstr ""
 "sagtewarebiblioteke, eerder as vir uitvoerbare programme.  Die vernaamste"
 " voorwaardes is:"
 
+msgctxt "country.lu"
 msgid "license.mark_license"
 msgstr ""
 "Noudat u 'n Creative Commons-lisensie gekies het, moet u u werk behoorlik"
@@ -533,9 +684,13 @@ msgid "country.lu"
 msgstr "Luxemburg"
 
 #: c/engine/macros_templates/metadata.pt:23
+msgctxt ""
+"license.tell_format\"\n"
+"\"country.cl"
 msgid "license.tell_format"
 msgstr "Sê wat die formaat van u werk is:"
 
+msgctxt "lang.nso"
 msgid "country.cl"
 msgstr "Chili"
 
@@ -543,6 +698,9 @@ msgid "lang.nso"
 msgstr "Northern Sotho"
 
 #: c/engine/chooser_pages/index.pt:222
+msgctxt ""
+"util.CC_GNU_LGPL\"\n"
+"\"license.sampling_a_sampling"
 msgid "util.CC_GNU_LGPL"
 msgstr "CC-GNU LGPL"
 
@@ -554,13 +712,18 @@ msgstr ""
 "verbode."
 
 #: c/engine/chooser_pages/results.pt:98
+msgctxt "license.publish_audio_ia"
 msgid "license.publish_audio_ia"
 msgstr "Publiseer u gelisensieerde musiek op die Internet-argief"
 
 #: c/engine/chooser_pages/results.pt:92
+msgctxt ""
+"license.no_web_site\"\n"
+"\"country.rs"
 msgid "license.no_web_site"
 msgstr "Geen webtuiste?"
 
+msgctxt "country.kr"
 msgid "country.rs"
 msgstr "Serbia"
 
@@ -568,6 +731,9 @@ msgid "country.kr"
 msgstr "Korea"
 
 #: c/engine/chooser_pages/partner/index.pt:69
+msgctxt ""
+"license.a6\"\n"
+"\"lang.ko"
 msgid "license.a6"
 msgstr ""
 "Ja, solank ander insgelyks deel (<a "
@@ -582,9 +748,11 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"meer inligting\" border=\"0\" /></a>)"
 
+msgctxt "deed.gpl_disclaimer"
 msgid "lang.ko"
 msgstr "Koreaans"
 
+msgctxt "license.no_license"
 msgid "deed.gpl_disclaimer"
 msgstr ""
 "<div style=\"text-align:center\"><a href=\"/licenses/disclaimer-popup\" "
@@ -598,9 +766,11 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"disclaimer\" border=\"0\"></a></div>"
 
+msgctxt "lang.it"
 msgid "license.no_license"
 msgstr "Jammer, daar is nie 'n lisensie wat voldoen aan u kriteria nie."
 
+msgctxt "country.ro"
 msgid "lang.it"
 msgstr "Italiaans"
 
@@ -608,9 +778,13 @@ msgid "country.ro"
 msgstr "Roemenië"
 
 #: c/engine/chooser_pages/index.pt:191
+msgctxt ""
+"license.what_you\"\n"
+"\"jargon.copyright_date_description"
 msgid "license.what_you"
 msgstr "Wat U Hier Kan Doen"
 
+msgctxt "licenses.pretty_by-nd-nc"
 msgid "jargon.copyright_date_description"
 msgstr ""
 "Indien u nie amptelik geregistreer het vir kopiereg op u werk nie; die "
@@ -621,6 +795,9 @@ msgid "licenses.pretty_by-nd-nc"
 msgstr "Erkenning-GeenAfleidings-NieKommersieel"
 
 #: c/engine/macros_templates/deed.pt:110
+msgctxt ""
+"lang.gl\"\n"
+"\"license.proceed_pd"
 msgid "lang.gl"
 msgstr "Galisies"
 
@@ -630,13 +807,16 @@ msgstr ""
 "openbare domein verryk met u werk</a>."
 
 #: c/engine/pd/templates/publicdomain-2.pt:29
+msgctxt "util.your_email"
 msgid "util.your_email"
 msgstr "u e-pos"
 
-#: c/engine/chooser_pages/index.pt:46
-#: c/engine/chooser_pages/index.pt:81
+#: c/engine/chooser_pages/index.pt:46 c/engine/chooser_pages/index.pt:81
 #: c/engine/chooser_pages/partner/index.pt:54
 #: c/engine/chooser_pages/partner/index.pt:65
+msgctxt ""
+"util.Yes\"\n"
+"\"deed.free_copy_distribute.jp"
 msgid "util.Yes"
 msgstr "Ja"
 
@@ -646,6 +826,7 @@ msgstr ""
 "openbaar uit te saai, en voor te dra"
 
 #: c/engine/pd/templates/publicdomain-partner.pt:24
+msgctxt "license.pd_choice"
 msgid "license.pd_choice"
 msgstr ""
 "<p>U keuse laat blyk dat u u werk wil skenk aan die openbare domein, die "
@@ -658,10 +839,14 @@ msgstr ""
 "skenking is permanent en onherroeplik.</p>"
 
 #: c/engine/macros_templates/metadata.pt:30
+msgctxt "util.Audio"
 msgid "util.Audio"
 msgstr "Oudio"
 
 #: c/engine/macros_templates/deed.pt:92
+msgctxt ""
+"deed.fair_use\"\n"
+"\"country.nl"
 msgid "deed.fair_use"
 msgstr "U billikheidsreg en ander regte word geensins deur bogenoemde geraak nie."
 
@@ -669,25 +854,33 @@ msgid "country.nl"
 msgstr "Nederland"
 
 #: c/engine/pd/templates/publicdomain-4.pt:29
+msgctxt "license.in_order_to"
 msgid "license.in_order_to"
 msgstr "Ten einde:"
 
 #: c/engine/licenses/fsf_templates/deed.pt:67
+msgctxt "deed.gpl_source"
 msgid "deed.gpl_source"
 msgstr ""
 "Indien u die program kopieer of versprei, moet dit gepaard gaan met die "
 "volledige bypassende masjienleesbare bronkode."
 
 #: c/engine/macros_templates/partner.pt:29
+msgctxt ""
+"util.Creative_Commons\"\n"
+"\"country.uk"
 msgid "util.Creative_Commons"
 msgstr "Creative Commons"
 
+msgctxt "country.ng"
 msgid "country.uk"
 msgstr "VK: Engeland en Wallis"
 
+msgctxt "jswidget.Licensor_permits_others_to_make_derivative_works"
 msgid "country.ng"
 msgstr "Nigerië"
 
+msgctxt "country.us"
 msgid "jswidget.Licensor_permits_others_to_make_derivative_works"
 msgstr "Licensor permits others to make derivative works"
 
@@ -695,6 +888,9 @@ msgid "country.us"
 msgstr "Verenigde State"
 
 #: c/engine/chooser_pages/results.pt:70
+msgctxt ""
+"license.select_text\"\n"
+"\"license.q1"
 msgid "license.select_text"
 msgstr ""
 "Selekteer die inhoud van die blok hierbo en kopieer dit, of laat dit <a "
@@ -718,6 +914,7 @@ msgstr ""
 "alt=\"meer inligting\" border=\"0\" /></a>)"
 
 #: c/engine/chooser_pages/partner/index.pt:50
+msgctxt "license.q2"
 msgid "license.q2"
 msgstr ""
 "<strong>Sal u kommersiële gebruike van u werk toelaat?</strong> (<a "
@@ -733,6 +930,7 @@ msgstr ""
 "alt=\"meer inligting\" border=\"0\" /></a>)"
 
 #: c/engine/chooser_pages/partner/index.pt:61
+msgctxt "license.q3"
 msgid "license.q3"
 msgstr ""
 "<strong>Sal u modifikasies van u werk toelaat?</strong> (<a "
@@ -748,6 +946,7 @@ msgstr ""
 "alt=\"meer inligting\" border=\"0\" /></a>)"
 
 #: c/engine/chooser_pages/htmlpopup.pt:24
+msgctxt "license.html_directions"
 msgid "license.html_directions"
 msgstr ""
 "Kopieer eenvoudig die teks, plak dit dan in u webdokumente wat inligting "
@@ -757,9 +956,13 @@ msgstr ""
 
 #: c/engine/chooser_pages/index.pt:178
 #: c/engine/chooser_pages/partner/index.pt:114
+msgctxt ""
+"license.Select_a_License\"\n"
+"\"license.rdfa_licensed"
 msgid "license.Select_a_License"
 msgstr "Kies 'n lisensie"
 
+msgctxt "util.description"
 msgid "license.rdfa_licensed"
 msgstr ""
 "${work_title} by ${work_author} is licensed under a <a rel=\"license\" "
@@ -769,10 +972,12 @@ msgid "util.description"
 msgstr "beskrywing"
 
 #: c/engine/chooser_pages/results.pt:114
+msgctxt "license.publish_video_ia"
 msgid "license.publish_video_ia"
 msgstr "Publiseer u gelisensieerde video by Internet-argief"
 
 #: c/engine/chooser_pages/partner/results.pt:29
+msgctxt "license.partner_selected"
 msgid "license.partner_selected"
 msgstr ""
 "U het die <a target=\"cc_other\" "
@@ -782,19 +987,25 @@ msgstr ""
 "<b><tt>${license_url}</tt></b>."
 
 #: c/engine/licenses/sampling_templates/deed.pt:45
+msgctxt "deed.notice_withoutdistribution"
 msgid "deed.notice_withoutdistribution"
 msgstr ""
 "Vir enige hergebruik moet u die bepalings van hierdie werk aan ander "
 "duidelik stel."
 
 #: c/engine/macros_templates/deed.pt:124
+msgctxt "lang.nl"
 msgid "lang.nl"
 msgstr "Nederlands"
 
 #: c/engine/chooser_pages/results.pt:101
+msgctxt ""
+"license.publish_soundclick\"\n"
+"\"util.weblog"
 msgid "license.publish_soundclick"
 msgstr "Publiseer u gelisensieerde musiek op Soundclick"
 
+msgctxt "country.es"
 msgid "util.weblog"
 msgstr "webjoernaal"
 
@@ -803,6 +1014,9 @@ msgstr "Spanje"
 
 #: c/engine/pd/templates/publicdomain-4.pt:49
 #: c/engine/chooser_pages/results.pt:127
+msgctxt ""
+"license.mark_nonweb\"\n"
+"\"char.nc_description"
 msgid "license.mark_nonweb"
 msgstr ""
 "Merk 'n dokument wat nie op die web is nie; <a href=\"non-web-"
@@ -811,6 +1025,7 @@ msgstr ""
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">voeg hierdie teks</a> by u werk."
 
+msgctxt "lang.es_MX"
 msgid "char.nc_description"
 msgstr ""
 "Die lisensiegewer laat ander toe om die werk te kopieer, te versprei en "
@@ -818,6 +1033,7 @@ msgstr ""
 "vir kommersiële doeleindes te gebruik nie -- tensy hulle die "
 "lisensiegewer se toestemming verkry."
 
+msgctxt "util.publish"
 msgid "lang.es_MX"
 msgstr "Spaans (MX)"
 
@@ -825,18 +1041,24 @@ msgid "util.publish"
 msgstr "publiseer"
 
 #: c/engine/macros_templates/deed.pt:153
+msgctxt "deed.human_summary"
 msgid "deed.human_summary"
 msgstr ""
 "Dit is 'n maklik leesbare opsomming hierdie van die <a href=\"legalcode\""
 " class=\"fulltext\">Regskode (die volledige lisensie)</a>."
 
 #: c/engine/pd/templates/publicdomain-2.pt:46
+msgctxt ""
+"util.proceed\"\n"
+"\"license.LGPL_name_full"
 msgid "util.proceed"
 msgstr "gaan voort"
 
+msgctxt "util.more"
 msgid "license.LGPL_name_full"
 msgstr "GNU Lesser General Public License"
 
+msgctxt "lang.en_US"
 msgid "util.more"
 msgstr "meer"
 
@@ -844,6 +1066,9 @@ msgid "lang.en_US"
 msgstr "Engels (US)"
 
 #: c/engine/macros_templates/metadata.pt:52
+msgctxt ""
+"util.attribute_to_name\"\n"
+"\"api.sampling_flavor_help"
 msgid "util.attribute_to_name"
 msgstr "Attribute work to name"
 
@@ -858,9 +1083,13 @@ msgstr ""
 "word uit die dele van u werk."
 
 #: c/engine/macros_templates/deed.pt:117
+msgctxt ""
+"lang.en\"\n"
+"\"lang.eo"
 msgid "lang.en"
 msgstr "Engels"
 
+msgctxt "licenses.draft_notice"
 msgid "lang.eo"
 msgstr "Esperanto"
 
@@ -871,29 +1100,34 @@ msgstr ""
 "verwyder is nie. Rig kommentaar op hierdie lisensie aan "
 "licenses@creativecommons.org."
 
-#: c/engine/chooser_pages/index.pt:170
-#: c/engine/chooser_pages/sampling.pt:106
+#: c/engine/chooser_pages/index.pt:170 c/engine/chooser_pages/sampling.pt:106
+msgctxt "license.jurisdiction_help"
 msgid "license.jurisdiction_help"
 msgstr ""
 "As u 'n lisensie wil hê wat beheers word deur die Kopiereg van 'n "
 "bepaalde jurisdiksie, kies asseblief die toepaslike jurisdiksie."
 
 #: c/engine/licenses/fsf_templates/deed.pt:34
+msgctxt "deed.gpl_free_run"
 msgid "deed.gpl_free_run"
 msgstr "Die vryheid om die program vir enige doel te laat loop."
 
-#: c/engine/chooser_pages/index.pt:128
-#: c/engine/chooser_pages/sampling.pt:72
+#: c/engine/chooser_pages/index.pt:128 c/engine/chooser_pages/sampling.pt:72
 #: c/engine/chooser_pages/partner/index.pt:79
+msgctxt "license.jurisdiction_question"
 msgid "license.jurisdiction_question"
 msgstr "Jurisdiksie van u lisensie"
 
 #: c/engine/pd/templates/publicdomain-2.pt:39
+msgctxt "util.copyright_holder"
 msgid "util.copyright_holder"
 msgstr "kopiereghouer"
 
 #: c/engine/chooser_pages/sampling.pt:118
 #, python-format
+msgctxt ""
+"license.sampling_alternatives\"\n"
+"\"lang.sv"
 msgid "license.sampling_alternatives"
 msgstr ""
 "<p>Indien u mense <strong>wil</strong> nooi om u werk <strong>op enige "
@@ -907,10 +1141,14 @@ msgid "lang.sv"
 msgstr "Sweeds"
 
 #: c/engine/chooser_pages/htmlpopup.pt:15
+msgctxt "license.html_display"
 msgid "license.html_display"
 msgstr "Die HTML om u knoppie te vertoon, is soos volg:"
 
 #: c/engine/macros_templates/deed.pt:109
+msgctxt ""
+"lang.eu\"\n"
+"\"lang.en_CA"
 msgid "lang.eu"
 msgstr "Baskies"
 
@@ -918,22 +1156,36 @@ msgid "lang.en_CA"
 msgstr "Engels (CA)"
 
 #: c/engine/macros_templates/deed.pt:104
+msgctxt "lang.es"
 msgid "lang.es"
 msgstr "Spaans"
 
-#: c/engine/templates/by.pt:8
-#: c/engine/templates/by.pt:23
+#: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
 #: c/engine/licenses/devnations_templates/deed.pt:47
+msgctxt "char.by_title"
 msgid "char.by_title"
 msgstr "Erkenning"
 
-#: c/engine/templates/by.pt:8
-#: c/engine/templates/by.pt:23
+#: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
 #: c/engine/licenses/devnations_templates/deed.pt:47
+msgctxt "char.by_title"
+msgid "licenses.pretty_by"
+msgstr "Erkenning"
+
+#: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
+msgctxt "licenses.pretty_by"
+msgid "char.by_title"
+msgstr "Erkenning"
+
+#: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
+msgctxt "licenses.pretty_by"
 msgid "licenses.pretty_by"
 msgstr "Erkenning"
 
 #: c/engine/chooser_pages/sampling.pt:65
+msgctxt "license.sampling_a_nc-sampling+"
 msgid "license.sampling_a_nc-sampling+"
 msgstr ""
 "<strong>Niekommersiële Voorsmaak Plus</strong>: Mense kan "
@@ -944,6 +1196,7 @@ msgstr ""
 "toegelaat."
 
 #: c/engine/chooser_pages/results.pt:21
+msgctxt "license.selected"
 msgid "license.selected"
 msgstr ""
 "U het die volgende Creative Commons-lisensie gekies:\n"
@@ -951,32 +1204,41 @@ msgstr ""
 "hoe die lisensie sal lyk</a> vir besoekers aan u webtuiste."
 
 #: c/engine/macros_templates/metadata.pt:32
+msgctxt ""
+"util.Video\"\n"
+"\"license.rdfa_licensed_no_attrib"
 msgid "util.Video"
 msgstr "Video"
 
+msgctxt "country.hu"
 msgid "license.rdfa_licensed_no_attrib"
 msgstr ""
 "${work_title} is licensed under a <a rel=\"license\" "
 "href=\"${license_url}\">Creative Commons ${license_name} License</a>."
 
+msgctxt "country.hr"
 msgid "country.hu"
 msgstr "Hongarye"
 
 msgid "country.hr"
 msgstr "Kroasië"
 
-#: c/engine/chooser_pages/gpl.pt:118
-#: c/engine/chooser_pages/lgpl.pt:121
+#: c/engine/chooser_pages/gpl.pt:118 c/engine/chooser_pages/lgpl.pt:121
+msgctxt "license.fsf_more_info"
 msgid "license.fsf_more_info"
 msgstr ""
 "Vir meer inligting omtrent die Stigting vir Vrye Sagteware, besoek die <a"
 " href=\"http://www.fsf.org\">-webwerf</a>."
 
 #: c/engine/chooser_pages/sampling.pt:111
+msgctxt "license.sampling_get"
 msgid "license.sampling_get"
 msgstr "Kry u Voorsmaaklisensie"
 
 #: c/engine/licenses/fsf_templates/deed.pt:16
+msgctxt ""
+"deed.gpl_title\"\n"
+"\"license.devnations_licensed"
 msgid "deed.gpl_title"
 msgstr ""
 "${license_name_full}, <a href=\"http://www.gnu.org/\">Stigting vir Vrye "
@@ -989,6 +1251,9 @@ msgstr ""
 "Nasies</a>."
 
 #: c/engine/chooser_pages/index.pt:32
+msgctxt ""
+"license.what\"\n"
+"\"char.by_brief.jp"
 msgid "license.what"
 msgstr ""
 "Met 'n Creative Commons-lisensie <strong>behou u u kopiereg</strong> maar"
@@ -1008,6 +1273,9 @@ msgid "char.by_brief.jp"
 msgstr "U moet erkenning gee aan die oorspronklike outeur en uitvoerder."
 
 #: c/engine/chooser_pages/results.pt:94
+msgctxt ""
+"license.learn_host\"\n"
+"\"lang.es_CO"
 msgid "license.learn_host"
 msgstr ""
 "Leer omtrent ander plekke wat gasheer sal wees vir u gelisensieerde "
@@ -1016,17 +1284,21 @@ msgstr ""
 msgid "lang.es_CO"
 msgstr "Spanish (CO)"
 
-#: c/engine/pd/templates/publicdomain-4.pt:42
-#: c/engine/chooser_pages/gpl.pt:110
+#: c/engine/pd/templates/publicdomain-4.pt:42 c/engine/chooser_pages/gpl.pt:110
 #: c/engine/chooser_pages/lgpl.pt:113
+msgctxt "license.get_html_email"
 msgid "license.get_html_email"
 msgstr "Kry HTML en e-pos dit aan uself"
 
 #: c/engine/macros_templates/metadata.pt:38
+msgctxt "util.Interactive"
 msgid "util.Interactive"
 msgstr "Interaktief"
 
 #: c/engine/chooser_pages/htmlpopup.pt:27
+msgctxt ""
+"license.html_email\"\n"
+"\"util.Next_step"
 msgid "license.html_email"
 msgstr "Tik u e-posadres in om die HTML per e-pos te ontvang:"
 
@@ -1034,6 +1306,9 @@ msgid "util.Next_step"
 msgstr "Volgende stap:"
 
 #: c/engine/chooser_pages/index.pt:198
+msgctxt ""
+"license.or_choose\"\n"
+"\"licenses.pretty_by-nc-nd"
 msgid "license.or_choose"
 msgstr "Of kies:"
 
@@ -1041,6 +1316,7 @@ msgid "licenses.pretty_by-nc-nd"
 msgstr "Erkenning-NieKommersieel-GeenAfleidings"
 
 #: c/engine/licenses/catalog_pages/disclaimer-popup.pt:19
+msgctxt "deed.disclaimer"
 msgid "deed.disclaimer"
 msgstr ""
 "<p>\n"
@@ -1060,18 +1336,24 @@ msgstr ""
 "</p>"
 
 #: c/engine/chooser_pages/results.pt:15
+msgctxt "license.here_chosen"
 msgid "license.here_chosen"
 msgstr "Hier is die lisensie wat u gekies het"
 
 #: c/engine/macros_templates/deed.pt:161
+msgctxt "deed.learn"
 msgid "deed.learn"
 msgstr "Leer hoe om u werk te versprei deur van hierdie lisensie gebruik te maak"
 
 #: c/engine/chooser_pages/htmlpopup.pt:41
+msgctxt "util.Send"
 msgid "util.Send"
 msgstr "Stuur"
 
 #: c/engine/licenses/fsf_templates/deed.pt:40
+msgctxt ""
+"deed.gpl_free_improve\"\n"
+"\"lang.zh_TW"
 msgid "deed.gpl_free_improve"
 msgstr ""
 "Die vryheid om die program te verbeter en om u verbeteringe aan die "
@@ -1081,9 +1363,13 @@ msgid "lang.zh_TW"
 msgstr "Sjinees (Taiwan)"
 
 #: c/engine/macros_templates/metadata.pt:84
+msgctxt ""
+"jargon.source_work_description\"\n"
+"\"lang.zu"
 msgid "jargon.source_work_description"
 msgstr "'n Werk waaruit 'n ander werk ontstaan het."
 
+msgctxt "license.pd_confirmation_email"
 msgid "lang.zu"
 msgstr "Zulu"
 
@@ -1113,8 +1399,8 @@ msgstr ""
 "\n"
 "Dankie dat u Creative Commons gebruik het!"
 
-#: c/engine/chooser_pages/gpl.pt:25
-#: c/engine/chooser_pages/lgpl.pt:26
+#: c/engine/chooser_pages/gpl.pt:25 c/engine/chooser_pages/lgpl.pt:26
+msgctxt "license.fsf_explain"
 msgid "license.fsf_explain"
 msgstr ""
 "<h1>Creative Commons GNU ${license_code}</h1>\n"
@@ -1129,6 +1415,7 @@ msgstr ""
 "die CC-GNU ${license_code}.  Die resultaat sal só lyk:</p>"
 
 #: c/engine/chooser_pages/index.pt:124
+msgctxt "char.sa_description"
 msgid "char.sa_description"
 msgstr ""
 "Die lisensiegewer laat ander toe om afgeleide werke te versprei, maar net"
@@ -1136,15 +1423,20 @@ msgstr ""
 "se werk beheers."
 
 #: c/engine/macros_templates/metadata.pt:34
+msgctxt "util.Image"
 msgid "util.Image"
 msgstr "Beeld"
 
 #: c/engine/macros_templates/metadata.pt:28
+msgctxt "util.Other"
 msgid "util.Other"
 msgstr "Ander"
 
 #: c/engine/pd/templates/publicdomain-partner.pt:31
 #: c/engine/chooser_pages/partner/results.pt:35
+msgctxt ""
+"license.you_may_proceed\"\n"
+"\"char.nc_title"
 msgid "license.you_may_proceed"
 msgstr "U kan nou <a href=\"${processed_exit_url}\">voortgaan</a>"
 
@@ -1152,12 +1444,36 @@ msgid "char.nc_title"
 msgstr "Niekommersieel"
 
 #: c/engine/chooser_pages/index.pt:204
+msgctxt "licenses.pretty_publicdomain"
 msgid "licenses.pretty_publicdomain"
 msgstr "Openbare Domein"
 
 #: c/engine/chooser_pages/index.pt:204
+msgctxt "licenses.pretty_publicdomain"
 msgid "util.Public_Domain"
 msgstr "Openbare Domein"
+
+#: c/engine/chooser_pages/index.pt:204
+msgctxt ""
+"util.Public_Domain\"\n"
+"\"lang.zh"
+msgid "licenses.pretty_publicdomain"
+msgstr "Openbare Domein"
+
+#: c/engine/chooser_pages/index.pt:204
+msgctxt ""
+"util.Public_Domain\"\n"
+"\"lang.zh"
+msgid "util.Public_Domain"
+msgstr "Openbare Domein"
+
+msgctxt "lang.zh_CN"
+msgid "lang.zh"
+msgstr "Sjinees"
+
+msgctxt "lang.zh_CN"
+msgid "lang.zh_CN"
+msgstr "Sjinees"
 
 msgid "lang.zh"
 msgstr "Sjinees"
@@ -1166,9 +1482,13 @@ msgid "lang.zh_CN"
 msgstr "Sjinees"
 
 #: c/engine/chooser_pages/results.pt:59
+msgctxt ""
+"license.have_your_own_website\"\n"
+"\"license.review_choice_directions"
 msgid "license.have_your_own_website"
 msgstr "Het u u eie webwerf?"
 
+msgctxt "lang.ja"
 msgid "license.review_choice_directions"
 msgstr ""
 "<h1>Hersien Keuse</h1>\n"
@@ -1184,22 +1504,26 @@ msgid "lang.ja"
 msgstr "Japannees"
 
 #: c/engine/chooser_pages/sampling.pt:53
+msgctxt ""
+"license.sampling_title\"\n"
+"\"country.jp"
 msgid "license.sampling_title"
 msgstr "Kies u Voorsmaaklisensie-moontlikhede"
 
+msgctxt "deed.free_commercial"
 msgid "country.jp"
 msgstr "Japan"
 
 msgid "deed.free_commercial"
 msgstr "om 'n werk kommersieel te gebruik"
 
-#: c/engine/chooser_pages/index.pt:47
-#: c/engine/chooser_pages/index.pt:50
-#: c/engine/chooser_pages/index.pt:82
-#: c/engine/chooser_pages/index.pt:89
-#: c/engine/chooser_pages/index.pt:97
-#: c/engine/chooser_pages/index.pt:130
+#: c/engine/chooser_pages/index.pt:47 c/engine/chooser_pages/index.pt:50
+#: c/engine/chooser_pages/index.pt:82 c/engine/chooser_pages/index.pt:89
+#: c/engine/chooser_pages/index.pt:97 c/engine/chooser_pages/index.pt:130
 #: c/engine/chooser_pages/sampling.pt:74
+msgctxt ""
+"util.more_info\"\n"
+"\"nav.select_a_jurisdiction"
 msgid "util.more_info"
 msgstr "meer inligting"
 
@@ -1207,6 +1531,7 @@ msgid "nav.select_a_jurisdiction"
 msgstr "Kies 'n jurisdiksie"
 
 #: c/engine/chooser_pages/sampling.pt:61
+msgctxt "license.sampling_a_sampling+"
 msgid "license.sampling_a_sampling+"
 msgstr ""
 "<strong>Voorsmaak Plus</strong>: Mense kan <strong>dele</strong>van u "
@@ -1216,32 +1541,39 @@ msgstr ""
 "ook toegelaat. Vandaar, \"<strong>plus</strong>\"."
 
 #: c/engine/macros_templates/deed.pt:98
+msgctxt ""
+"deed.human_summary_multilanguage\"\n"
+"\"country.jo"
 msgid "deed.human_summary_multilanguage"
 msgstr ""
 "Dit is 'n maklik verstaanbare samevatting van die Regskode (die volledige"
 " lisensie) wat in die volgende tale beskikbaar is:"
 
+msgctxt "country.es-ca"
 msgid "country.jo"
 msgstr "Jordanië"
 
 msgid "country.es-ca"
 msgstr "Katalonië"
 
-#: c/engine/pd/templates/publicdomain-4.pt:41
-#: c/engine/chooser_pages/gpl.pt:107
-#: c/engine/chooser_pages/lgpl.pt:110
-#: c/engine/chooser_pages/nonweb_popup.pt:31
+#: c/engine/pd/templates/publicdomain-4.pt:41 c/engine/chooser_pages/gpl.pt:107
+#: c/engine/chooser_pages/lgpl.pt:110 c/engine/chooser_pages/nonweb_popup.pt:31
 #: c/engine/chooser_pages/htmlpopup.pt:20
+msgctxt ""
+"util.Highlight_Text\"\n"
+"\"char.nd_brief"
 msgid "util.Highlight_Text"
 msgstr "Verhelder Teks op Kopie"
 
 msgid "char.nd_brief"
 msgstr "U mag nie hierdie werk wysig, herskep of daarop voortbou nie."
 
-#: c/engine/chooser_pages/sampling.pt:78
-#: c/engine/chooser_pages/sampling.pt:90
+#: c/engine/chooser_pages/sampling.pt:78 c/engine/chooser_pages/sampling.pt:90
 #: c/engine/chooser_pages/partner/index.pt:83
 #: c/engine/chooser_pages/partner/index.pt:86
+msgctxt ""
+"util.Generic\"\n"
+"\"lang.es_AR"
 msgid "util.Generic"
 msgstr "Generies"
 
@@ -1251,16 +1583,21 @@ msgstr "Spaans (AR)"
 #: c/engine/macros_templates/metadata.pt:66
 #: c/engine/macros_templates/metadata.pt:82
 #, fuzzy
+msgctxt "util.source_work"
 msgid "util.source_work"
 msgstr "bronwerk"
 
 #: c/engine/chooser_pages/sampling.pt:115
+msgctxt ""
+"license.sampling_note\"\n"
+"\"country.au"
 msgid "license.sampling_note"
 msgstr ""
 "Let wel: Die voorsmaaklisensie geld nie net vir musiek nie.  Dit geld vir"
 " alle soorte werk waarop kopiereg gehou word: uitbeeldings, rolprente, "
 "ens."
 
+msgctxt "country.at"
 msgid "country.au"
 msgstr "Australië"
 
@@ -1268,6 +1605,9 @@ msgid "country.at"
 msgstr "Oostenryk"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:19
+msgctxt ""
+"license.non_web_pd\"\n"
+"\"country.ar"
 msgid "license.non_web_pd"
 msgstr ""
 "Hierdie werk word hiermee beskikbaar gestel in die Openbare Domein.  Om "
@@ -1280,6 +1620,7 @@ msgid "country.ar"
 msgstr "Argentinië"
 
 #: c/engine/licenses/standard_templates/deed.pt:77
+msgctxt "deed.superseded"
 msgid "deed.superseded"
 msgstr ""
 "'n <a href=\"${current_version_url}\">Nuwe weergawe</a> van hierdie "
@@ -1288,15 +1629,20 @@ msgstr ""
 "<em>outomaties</em> ingevolge die nuwe lisensie gelisensieer wees nie."
 
 #: c/engine/chooser_pages/index.pt:209
+msgctxt "licenses.pretty_sampling+"
 msgid "licenses.pretty_sampling+"
 msgstr "Voorsmaak Plus"
 
 #: c/engine/chooser_pages/index.pt:42
+msgctxt "api.commercial"
 msgid "api.commercial"
 msgstr "Sal u kommersiële gebruike van u werk toelaat?"
 
 #: c/engine/macros_templates/support.pt:103
 #: c/engine/macros_templates/support.pt:107
+msgctxt ""
+"license.enter_information\"\n"
+"\"jswidget.Allow_Remixing"
 msgid "license.enter_information"
 msgstr "tik inligting in"
 
@@ -1304,9 +1650,13 @@ msgid "jswidget.Allow_Remixing"
 msgstr "Allow Remixing"
 
 #: c/engine/macros_templates/metadata.pt:16
+msgctxt ""
+"license.hide_optional_fields\"\n"
+"\"country.pt"
 msgid "license.hide_optional_fields"
 msgstr "Verberg hierdie velde (Alle velde is opsioneel)"
 
+msgctxt "license.GPL_name_full"
 msgid "country.pt"
 msgstr "Portugal"
 
@@ -1314,6 +1664,9 @@ msgid "license.GPL_name_full"
 msgstr "GNU Algemene Publieke Lisensie"
 
 #: c/engine/licenses/fsf_templates/deed.pt:36
+msgctxt ""
+"deed.gpl_free_study\"\n"
+"\"lang.af"
 msgid "deed.gpl_free_study"
 msgstr ""
 "Die vryheid om vas te stel hoe die program werk en dit by u behoeftes aan"
@@ -1323,11 +1676,15 @@ msgid "lang.af"
 msgstr "Afrikaans"
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:54
+msgctxt ""
+"deed.mit_notice\"\n"
+"\"jswidget.Remix"
 msgid "deed.mit_notice"
 msgstr ""
 "The copyright notice and license shall be included in all copies or\n"
 "substantial portions of the software."
 
+msgctxt "char.nc_brief"
 msgid "jswidget.Remix"
 msgstr "Remix"
 
@@ -1335,10 +1692,14 @@ msgid "char.nc_brief"
 msgstr "U mag hierdie werk nie vir kommersiële doeleindes gebruik nie."
 
 #: c/engine/macros_templates/metadata.pt:72
+msgctxt "util.more_permissions_url"
 msgid "util.more_permissions_url"
 msgstr "More permissions URL"
 
 #: c/engine/licenses/standard_templates/deed.pt:64
+msgctxt ""
+"deed.moralrights\"\n"
+"\"country.sk"
 msgid "deed.moralrights"
 msgstr "Nothing in this license impairs or restricts the author's moral rights."
 
@@ -1346,28 +1707,37 @@ msgid "country.sk"
 msgstr "Slowaakse Republiek"
 
 #: c/engine/chooser_pages/results.pt:61
+msgctxt ""
+"license.copy_text\"\n"
+"\"lang.he"
 msgid "license.copy_text"
 msgstr ""
 "Kopieer die teks hieronder na u webtuiste sodat besoekers sal weet watter"
 " lisensie op u werk van toepassing is."
 
+msgctxt "license.learn_mark"
 msgid "lang.he"
 msgstr "Hebreeus"
 
+msgctxt "country.sg"
 msgid "license.learn_mark"
 msgstr "leer om u inhoud te merk"
 
+msgctxt "country.se"
 msgid "country.sg"
 msgstr "Singapoer"
 
 msgid "country.se"
 msgstr "Swede"
 
-#: c/engine/chooser_pages/sampling.pt:82
-#: c/engine/chooser_pages/sampling.pt:94
+#: c/engine/chooser_pages/sampling.pt:82 c/engine/chooser_pages/sampling.pt:94
+msgctxt ""
+"country.de\"\n"
+"\"lang.hu"
 msgid "country.de"
 msgstr "Duitsland"
 
+msgctxt "country.dk"
 msgid "lang.hu"
 msgstr "Hongaars"
 
@@ -1376,18 +1746,23 @@ msgstr "Denemarke"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:37
 #: c/engine/chooser_pages/htmlpopup.pt:46
-#: c/engine/chooser_templates/emailhtml.pt:19
-#: c/engine/templates/by.pt:31
+#: c/engine/chooser_templates/emailhtml.pt:19 c/engine/templates/by.pt:31
 #: c/engine/licenses/catalog_pages/disclaimer-popup.pt:21
+msgctxt ""
+"util.Close_window\"\n"
+"\"country.si"
 msgid "util.Close_window"
 msgstr "Sluit venster"
 
+msgctxt "lang.hr"
 msgid "country.si"
 msgstr "Slowenië"
 
+msgctxt "country.scotland"
 msgid "lang.hr"
 msgstr "Kroasies"
 
+msgctxt "country.ua"
 msgid "country.scotland"
 msgstr "VK: Skotland"
 
@@ -1398,17 +1773,23 @@ msgstr "Oekraïne"
 #: c/engine/licenses/devnations_templates/deed.pt:25
 #: c/engine/licenses/sampling_templates/deed.pt:23
 #: c/engine/licenses/standard_templates/deed.pt:31
+msgctxt ""
+"deed.retired\"\n"
+"\"country.ca"
 msgid "deed.retired"
 msgstr ""
 "This license is <a href=\"/retiredlicenses\">retired</a>. Do not use for "
 "new works."
 
+msgctxt "country.co"
 msgid "country.ca"
 msgstr "Kanada"
 
+msgctxt "country.cn"
 msgid "country.co"
 msgstr "Colombia"
 
+msgctxt "licenses.pretty_GPL"
 msgid "country.cn"
 msgstr "Sjinese Vasteland"
 
@@ -1416,6 +1797,9 @@ msgid "licenses.pretty_GPL"
 msgstr "APL"
 
 #: c/engine/macros_templates/deed.pt:76
+msgctxt ""
+"deed.disclaimer.jp\"\n"
+"\"country.ch"
 msgid "deed.disclaimer.jp"
 msgstr ""
 "<p>\n"
@@ -1453,38 +1837,51 @@ msgid "country.ch"
 msgstr "Switserland"
 
 #: c/engine/chooser_pages/results.pt:105
+msgctxt ""
+"license.publish_flickr\"\n"
+"\"jswidget.Updated_license_jurisdiction"
 msgid "license.publish_flickr"
 msgstr "Vertoon u gelisensieerde beelde by Flickr"
 
+msgctxt "country.cz"
 msgid "jswidget.Updated_license_jurisdiction"
 msgstr ""
 "We have updated the version of your license to the most recent one "
 "available in your jurisdiction."
 
+msgctxt "licenses.pretty_nd-nc"
 msgid "country.cz"
 msgstr "Tsjeggiese Republiek"
 
+msgctxt "licenses.pretty_by-nc-sa"
 msgid "licenses.pretty_nd-nc"
 msgstr "GeenAfleidings-NieKommersieel"
 
+msgctxt "country.fr"
 msgid "licenses.pretty_by-nc-sa"
 msgstr "Erkenning-Niekommersieel-InsgelyksDeel"
 
+msgctxt "util.creators_name"
 msgid "country.fr"
 msgstr "Frankryk"
 
+msgctxt "country.za"
 msgid "util.creators_name"
 msgstr "naam van skepper"
 
+msgctxt "lang.sr"
 msgid "country.za"
 msgstr "Suid-Afrika"
 
+msgctxt "lang.st"
 msgid "lang.sr"
 msgstr "Serbian"
 
+msgctxt "util.source_work_url"
 msgid "lang.st"
 msgstr "Sotho"
 
+msgctxt "license.Final_step"
 msgid "util.source_work_url"
 msgstr ""
 "<a href=\"/jargon/source_work\" class=\"jargon\" "
@@ -1496,6 +1893,7 @@ msgid "license.Final_step"
 msgstr "Laaste stap:"
 
 #: c/engine/licenses/fsf_templates/deed.pt:55
+msgctxt "deed.gpl_notice"
 msgid "deed.gpl_notice"
 msgstr ""
 "U moet op elke kopie wat versprei word, opsigtelik en gepas, 'n geskikte "
@@ -1509,23 +1907,29 @@ msgstr ""
 #: c/engine/licenses/devnations_templates/deed.pt:30
 #: c/engine/licenses/mitbsd_templates/deed.pt:25
 #: c/engine/licenses/standard_templates/deed.pt:38
+msgctxt "deed.free_copy_distribute"
 msgid "deed.free_copy_distribute"
 msgstr ""
 "<strong>om te Deel</strong> -- om die werk te kopieer, te versprei en te "
 "versend"
 
 #: c/engine/chooser_pages/index.pt:115
+msgctxt "char.nd_title"
 msgid "char.nd_title"
 msgstr "Onveranderd"
 
 #: c/engine/licenses/devnations_templates/deed.pt:50
 #: c/engine/licenses/sampling_templates/deed.pt:43
 #: c/engine/licenses/standard_templates/deed.pt:56
+msgctxt ""
+"deed.notice\"\n"
+"\"lang.sl"
 msgid "deed.notice"
 msgstr ""
 "Vir enige hergebruik of verspreiding moet u dit aan ander duidelik maak "
 "wat die lisensiebepalings van die werk is."
 
+msgctxt "util.copyright"
 msgid "lang.sl"
 msgstr "Sloweens"
 
@@ -1533,6 +1937,7 @@ msgid "util.copyright"
 msgstr "kopiereg"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:27
+msgctxt "license.non_web_statement"
 msgid "license.non_web_statement"
 msgstr ""
 "Hierdie werk is gelisensieer ingevolge die Creative Commons-lisensie "
@@ -1541,6 +1946,9 @@ msgstr ""
 "Francisco, California, 94105, USA."
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:40
+msgctxt ""
+"deed.no_endorsement\"\n"
+"\"jswidget.Prohibit_Commercial_Use"
 msgid "deed.no_endorsement"
 msgstr ""
 "<strong>No Endorsement</strong>. The name of the author may not be used "
@@ -1551,10 +1959,14 @@ msgid "jswidget.Prohibit_Commercial_Use"
 msgstr "Prohibit Commercial Use"
 
 #: c/engine/chooser_pages/results.pt:56
+msgctxt "license.what_to_do_next"
 msgid "license.what_to_do_next"
 msgstr "Wat om volgende te doen"
 
 #: c/engine/pd/templates/publicdomain-4.pt:52
+msgctxt ""
+"license.mark_rss\"\n"
+"\"lang.es_CL"
 msgid "license.mark_rss"
 msgstr ""
 "Voeg u lisensie-inligting by 'n RSS-toevoer; gebruik <a "
@@ -1570,9 +1982,13 @@ msgstr "Spaans (CL)"
 #: c/engine/macros_templates/support.pt:127
 #: c/engine/macros_templates/support.pt:134
 #: c/engine/macros_templates/support.pt:136
+msgctxt ""
+"license.review_choice\"\n"
+"\"deed.lgpl_sharealike"
 msgid "license.review_choice"
 msgstr "hersien keuse"
 
+msgctxt "util.Share_Music"
 msgid "deed.lgpl_sharealike"
 msgstr ""
 "Indien u u kopie of kopieë van die biblioteek of 'n gedeelte daarvan "
@@ -1587,10 +2003,12 @@ msgid "util.Share_Music"
 msgstr "Deel Musiek"
 
 #: c/engine/chooser_pages/index.pt:122
+msgctxt "char.sa_title"
 msgid "char.sa_title"
 msgstr "Insgelyks Deel"
 
 #: c/engine/chooser_pages/index.pt:193
+msgctxt "license.explain"
 msgid "license.explain"
 msgstr ""
 "Creative Commons help u om u werk aanlyn te publiseer terwyl ander "
@@ -1601,6 +2019,9 @@ msgstr ""
 "Commons ingesluit het."
 
 #: c/engine/pd/templates/publicdomain-4.pt:27
+msgctxt ""
+"license.mark_pd\"\n"
+"\"util.Try_again"
 msgid "license.mark_pd"
 msgstr ""
 "Noudat u die skenking aan die openbare domein gekies het, moet u u werk "
@@ -1610,6 +2031,9 @@ msgid "util.Try_again"
 msgstr "Probeer weer!"
 
 #: c/engine/chooser_pages/index.pt:214
+msgctxt ""
+"util.Founders_Copyright\"\n"
+"\"licenses.pretty_nc-sa"
 msgid "util.Founders_Copyright"
 msgstr "Stigter se Kopiereg"
 
@@ -1617,6 +2041,7 @@ msgid "licenses.pretty_nc-sa"
 msgstr "NieKommersieel-InsgelyksDeel"
 
 #: c/engine/pd/templates/publicdomain-3.pt:40
+msgctxt "license.pd_confirm"
 msgid "license.pd_confirm"
 msgstr ""
 "<h1>Bevestig u Skenking aan die Openbare Domein</h1>\n"
@@ -1633,6 +2058,7 @@ msgstr ""
 "</div>"
 
 #: c/engine/chooser_pages/results.pt:78
+msgctxt "license.after_support_cc"
 msgid "license.after_support_cc"
 msgstr ""
 "After publishing your license, please consider <a "
@@ -1641,6 +2067,7 @@ msgstr ""
 
 #: c/engine/pd/templates/publicdomain-3.pt:93
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:59
+msgctxt "license.pd_bad_confirmation"
 msgid "license.pd_bad_confirmation"
 msgstr ""
 "<h1>Skenking aan die Openbare Domein - Mislukte Bevestiging</h1>\n"
@@ -1664,27 +2091,34 @@ msgstr ""
 "</p>"
 
 #: c/engine/templates/by.pt:25
+msgctxt "char.by_description"
 msgid "char.by_description"
 msgstr ""
 "U moet die erkenning verleen vir die werk op die manier wat deur die "
 "outeur of lisensiegewer gespesifiseer word."
 
 #: c/engine/macros_templates/metadata.pt:36
+msgctxt "util.Text"
 msgid "util.Text"
 msgstr "Teks"
 
 #: c/engine/licenses/devnations_templates/deed.pt:48
 #: c/engine/licenses/sampling_templates/deed.pt:41
+msgctxt "char.by_brief"
 msgid "char.by_brief"
 msgstr ""
 "U moet erkenning verleen vir die werk op die manier wat deur die outeur "
 "of lisensiegewer gespesifiseer word."
 
 #: c/engine/chooser_pages/results.pt:117
+msgctxt "license.publish_morpheus"
 msgid "license.publish_morpheus"
 msgstr "Publiseer u gelisensieerde musiek op die Morpheus P2P netwerk"
 
 #: c/engine/chooser_pages/results.pt:108
+msgctxt ""
+"license.publish_buzznet\"\n"
+"\"deed.lgpl_source"
 msgid "license.publish_buzznet"
 msgstr "Vertoon u gelisensieerde beelde by Buzznet"
 
@@ -1697,6 +2131,9 @@ msgstr ""
 "bronkode te verskaf vir programme wat na die biblioteek toe koppel nie."
 
 #: c/engine/chooser_pages/results.pt:76
+msgctxt ""
+"license.read_tutorial\"\n"
+"\"country.fi"
 msgid "license.read_tutorial"
 msgstr ""
 "Het u meer hulp nodig? <a href=\"/education/publish-website\">Lees ons "
@@ -1706,6 +2143,7 @@ msgid "country.fi"
 msgstr "Finland"
 
 #: c/engine/chooser_pages/partner/index.pt:25
+msgctxt "license.partner_what"
 msgid "license.partner_what"
 msgstr ""
 "<p>U het 'n werk geskep waarop u trots is.  Nou moet u dit op vindingryke"
@@ -1723,22 +2161,28 @@ msgstr ""
 "werk onvoorwaardelik wil aanbied, kies die <a "
 "href=\"${results_pd_url}\">openbare domein</a>.</p>"
 
-#: c/engine/chooser_pages/index.pt:49
-#: c/engine/chooser_pages/index.pt:96
+#: c/engine/chooser_pages/index.pt:49 c/engine/chooser_pages/index.pt:96
 #: c/engine/chooser_pages/partner/index.pt:56
 #: c/engine/chooser_pages/partner/index.pt:73
+msgctxt ""
+"util.No\"\n"
+"\"util.find"
 msgid "util.No"
 msgstr "Nee"
 
+msgctxt "api.sampling_flavor"
 msgid "util.find"
 msgstr "soek"
 
+msgctxt "jswidget.no_license_chosen"
 msgid "api.sampling_flavor"
 msgstr "Watter geur Voorsmaak-lisensie?"
 
+msgctxt "lang.fi"
 msgid "jswidget.no_license_chosen"
 msgstr "No license chosen"
 
+msgctxt "jswidget.short"
 msgid "lang.fi"
 msgstr "Fins"
 
@@ -1751,10 +2195,12 @@ msgstr ""
 "the appropriate jurisdiction."
 
 #: c/engine/macros_templates/metadata.pt:15
+msgctxt "license.include_more"
 msgid "license.include_more"
 msgstr "Klik om meer inligting oor u werk in te sluit."
 
 #: c/engine/chooser_templates/emailhtml.pt:16
+msgctxt "license.link_emailed"
 msgid "license.link_emailed"
 msgstr ""
 "<p>\n"
@@ -1765,23 +2211,29 @@ msgstr ""
 "<p>Plaas die skakel of die HTML op u webtuiste, reg langs die werk wat u "
 "voornemens is om te lisensieer. </p>"
 
-#: c/engine/macros_templates/deed.pt:118
-#: c/engine/macros_templates/deed.pt:123
+#: c/engine/macros_templates/deed.pt:118 c/engine/macros_templates/deed.pt:123
+msgctxt "lang.fr"
 msgid "lang.fr"
 msgstr "Frans"
 
 #: c/engine/chooser_pages/index.pt:218
+msgctxt ""
+"util.CC_GNU_GPL\"\n"
+"\"license.or_return"
 msgid "util.CC_GNU_GPL"
 msgstr "CC-GNU APL"
 
+msgctxt "char.sa_bysa30_brief"
 msgid "license.or_return"
 msgstr "Of u kan <a href=\"./\">terugkeer na die vrae</a>."
 
+msgctxt "country.mk"
 msgid "char.sa_bysa30_brief"
 msgstr ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
 
+msgctxt "licenses.pretty_sa"
 msgid "country.mk"
 msgstr "Macedonia"
 
@@ -1789,10 +2241,21 @@ msgid "licenses.pretty_sa"
 msgstr "InsgelyksDeel"
 
 #: c/engine/chooser_pages/results.pt:111
+msgctxt ""
+"license.publish_blog\"\n"
+"\"lang.pt"
 msgid "license.publish_blog"
 msgstr ""
 "Voeg 'n Creative Commons-lisensie by u webjoernaal (Blogger, Movable "
 "Type, Typepad)"
+
+msgctxt "lang.pt_BR"
+msgid "lang.pt"
+msgstr "Portugees"
+
+msgctxt "lang.pt_BR"
+msgid "lang.pt_BR"
+msgstr "Portugees"
 
 msgid "lang.pt"
 msgstr "Portugees"
@@ -1804,33 +2267,43 @@ msgstr "Portugees"
 #: c/engine/licenses/devnations_templates/deed.pt:51
 #: c/engine/licenses/mitbsd_templates/deed.pt:60
 #: c/engine/licenses/standard_templates/deed.pt:60
+msgctxt ""
+"deed.permission\"\n"
+"\"country.my"
 msgid "deed.permission"
 msgstr ""
 "Enigeen van hierdie voorwaardes kan tersyde gestel word met die "
 "toestemming van die kopiereghouer."
 
+msgctxt "country.mx"
 msgid "country.my"
 msgstr "Maleisië"
 
 msgid "country.mx"
 msgstr "Mexiko"
 
-#: c/engine/chooser_pages/sampling.pt:84
-#: c/engine/chooser_pages/sampling.pt:96
+#: c/engine/chooser_pages/sampling.pt:84 c/engine/chooser_pages/sampling.pt:96
+msgctxt "country.tw"
 msgid "country.tw"
 msgstr "Taiwan"
 
 #: c/engine/macros_templates/deed.pt:81
 #: c/engine/licenses/catalog_pages/disclaimer-popup.pt:15
+msgctxt ""
+"util.Disclaimer\"\n"
+"\"licenses.pretty_by-sa"
 msgid "util.Disclaimer"
 msgstr "Vrywaring"
 
+msgctxt "license.back_to_licenses"
 msgid "licenses.pretty_by-sa"
 msgstr "Erkenning-InsgelyksDeel"
 
+msgctxt "country.mt"
 msgid "license.back_to_licenses"
 msgstr "terug na lisensies"
 
+msgctxt "util.work"
 msgid "country.mt"
 msgstr "Malta"
 
@@ -1838,6 +2311,7 @@ msgid "util.work"
 msgstr "werk"
 
 #: c/engine/licenses/fsf_templates/deed.pt:29
+msgctxt "deed.gpl_freedoms"
 msgid "deed.gpl_freedoms"
 msgstr ""
 "Die ${license_name_full} is 'n <a href=\"http://www.gnu.org/philosophy"
@@ -1845,6 +2319,9 @@ msgstr ""
 "Sagteware-lisensie gee dit u die volgende vryhede:"
 
 #: c/engine/chooser_pages/index.pt:117
+msgctxt ""
+"char.nd_description\"\n"
+"\"license.learn_publicize"
 msgid "char.nd_description"
 msgstr ""
 "Die lisensiegewer laat ander net toe om onverwerkte kopieë van die werk "
@@ -1855,6 +2332,7 @@ msgid "license.learn_publicize"
 msgstr "Leer hoe om u werk te publiseer en met ander te deel"
 
 #: c/engine/macros_templates/deed.pt:135
+msgctxt "deed.lgpl_human_summary"
 msgid "deed.lgpl_human_summary"
 msgstr ""
 "Dit is 'n maklik verstaanbare samevatting van die Regskode hierdie (die "
@@ -1863,6 +2341,7 @@ msgstr ""
 "href=\"legalcode.pt\">Portugese vertaling</a> is ook beskikbaar."
 
 #: c/engine/macros_templates/deed.pt:145
+msgctxt "deed.gpl_human_summary"
 msgid "deed.gpl_human_summary"
 msgstr ""
 "Dit is 'n maklik verstaanbare opsomming hierdie van die Regskode (die "
@@ -1871,6 +2350,9 @@ msgstr ""
 "href=\"legalcode.pt\">Portugese vertaling</a> is ook beskikbaar."
 
 #: c/engine/chooser_pages/partner/index.pt:117
+msgctxt ""
+"license.partner_note\"\n"
+"\"util.Developing_Nations"
 msgid "license.partner_note"
 msgstr ""
 "<p>\n"
@@ -1888,6 +2370,9 @@ msgstr "Ontwikkelende Nasies"
 
 #: c/engine/pd/templates/publicdomain-4.pt:54
 #: c/engine/chooser_pages/results.pt:122
+msgctxt ""
+"license.mark_xmp\"\n"
+"\"licenses.pretty_nc-sampling+"
 msgid "license.mark_xmp"
 msgstr ""
 "Om 'n PDF of ander XMP-gesteunde lêer te merk, <a "
@@ -1898,18 +2383,24 @@ msgid "licenses.pretty_nc-sampling+"
 msgstr "NieKommersiële Voorsmaak Plus"
 
 #: c/engine/licenses/sampling_templates/deed.pt:47
+msgctxt "char.no_brief"
 msgid "char.no_brief"
 msgstr ""
 "U mag hierdie hele werk nie vir enige doel uitvoer of vertoon, of kopieë "
 "daarvan versprei nie."
 
 #: c/engine/chooser_pages/index.pt:232
+msgctxt ""
+"util.Wiki\"\n"
+"\"lang.da"
 msgid "util.Wiki"
 msgstr "Wiki"
 
+msgctxt "util.Unported"
 msgid "lang.da"
 msgstr "Deens"
 
+msgctxt "license.work_based_on"
 msgid "util.Unported"
 msgstr "Unported"
 
@@ -1917,13 +2408,12 @@ msgid "license.work_based_on"
 msgstr "Based on a work at ${source_link}."
 
 #: c/engine/macros_templates/deed.pt:129
+msgctxt "lang.de"
 msgid "lang.de"
 msgstr "Duits"
 
-#: c/engine/chooser_pages/sampling.pt:31
-#: c/engine/chooser_pages/sampling.pt:35
-#: c/engine/chooser_pages/sampling.pt:40
-#: c/engine/chooser_pages/sampling.pt:45
+#: c/engine/chooser_pages/sampling.pt:31 c/engine/chooser_pages/sampling.pt:35
+#: c/engine/chooser_pages/sampling.pt:40 c/engine/chooser_pages/sampling.pt:45
 #: c/engine/macros_templates/support.pt:81
 #: c/engine/macros_templates/support.pt:85
 #: c/engine/macros_templates/support.pt:92
@@ -1938,6 +2428,7 @@ msgstr "Duits"
 #: c/engine/macros_templates/support.pt:148
 #: c/engine/macros_templates/support.pt:160
 #: c/engine/macros_templates/support.pt:164
+msgctxt "util.step"
 msgid "util.step"
 msgstr "stap"
 
@@ -1945,6 +2436,9 @@ msgstr "stap"
 #: c/engine/licenses/mitbsd_templates/deed.pt:23
 #: c/engine/licenses/sampling_templates/deed.pt:25
 #: c/engine/licenses/standard_templates/deed.pt:34
+msgctxt ""
+"deed.You_are_free\"\n"
+"\"char.sa_brief"
 msgid "deed.You_are_free"
 msgstr "U is vry:"
 
@@ -1955,17 +2449,23 @@ msgstr ""
 "hierdie een."
 
 #: c/engine/chooser_pages/index.pt:236
+msgctxt ""
+"util.Music_Sharing\"\n"
+"\"licenses.pretty_LGPL"
 msgid "util.Music_Sharing"
 msgstr "Musiek Deel"
 
+msgctxt "lang.fr_CA"
 msgid "licenses.pretty_LGPL"
 msgstr "LGPL"
 
 msgid "lang.fr_CA"
 msgstr "Frans (CA)"
 
-#: c/engine/chooser_pages/gpl.pt:47
-#: c/engine/chooser_pages/lgpl.pt:48
+#: c/engine/chooser_pages/gpl.pt:47 c/engine/chooser_pages/lgpl.pt:48
+msgctxt ""
+"license.lawyer-readable_legal_code\"\n"
+"\"jswidget.Require_Share-Alike"
 msgid "license.lawyer-readable_legal_code"
 msgstr ""
 "Regstegniese<br/>\n"
@@ -1977,9 +2477,13 @@ msgstr "Require Share-Alike"
 #: c/engine/licenses/devnations_templates/deed.pt:34
 #: c/engine/licenses/mitbsd_templates/deed.pt:26
 #: c/engine/licenses/standard_templates/deed.pt:39
+msgctxt ""
+"deed.free_derivative\"\n"
+"\"nav.find_title"
 msgid "deed.free_derivative"
 msgstr "<strong>om te Hervermeng</strong> -- om die werk aan te pas"
 
+msgctxt "country.ve"
 msgid "nav.find_title"
 msgstr "Soek musiek, foto's en meer"
 
@@ -1989,11 +2493,13 @@ msgstr "Venezuela"
 #: c/engine/chooser_pages/sampling.pt:46
 #: c/engine/macros_templates/support.pt:161
 #: c/engine/macros_templates/support.pt:165
+msgctxt "license.publicize"
 msgid "license.publicize"
 msgstr "bekendstel"
 
 #: c/engine/pd/templates/publicdomain-3.pt:41
 #: c/engine/licenses/publicdomain_templates/deed.pt:19
+msgctxt "deed.pd"
 msgid "deed.pd"
 msgstr ""
 "<p style=\"text-align:center\"><em>Erkenning slegs vir Kopiereg (gebaseer"
@@ -2031,6 +2537,7 @@ msgstr ""
 "metodes wat nog nie uitgevind of bedink is nie.</p>"
 
 #: c/engine/pd/templates/publicdomain-2.pt:24
+msgctxt "license.pd_enter_info"
 msgid "license.pd_enter_info"
 msgstr ""
 "<h1>Tik Inligting in</h1>\n"
@@ -2052,12 +2559,16 @@ msgstr ""
 "<p>alle velde is nodig</p>"
 
 #: c/engine/licenses/sampling_templates/deed.pt:27
+msgctxt "deed.free_sample_nc"
 msgid "deed.free_sample_nc"
 msgstr ""
 "Om hierdie werk te bemonster, te vermeng, of kreatief te herskep vir "
 "niekommersiële doeleindes."
 
 #: c/engine/chooser_pages/sampling.pt:116
+msgctxt ""
+"license.sampling_before\"\n"
+"\"api.jurisdiction"
 msgid "license.sampling_before"
 msgstr ""
 "Voordat u die Voorsmaaklisensie op u werk van toepassing maak, maak seker"
@@ -2065,6 +2576,7 @@ msgstr ""
 "Musiekwerke, byvoorbeeld, bestaan dikwels uit veelvuldige kopieregte "
 "(komposisie, opname, lirieke)."
 
+msgctxt "util.home"
 msgid "api.jurisdiction"
 msgstr "Jurisdiksie van u lisensie:"
 
@@ -2072,21 +2584,28 @@ msgid "util.home"
 msgstr "tuiste"
 
 #: c/engine/pd/templates/publicdomain-2.pt:53
+msgctxt ""
+"license.proceed_email_note\"\n"
+"\"lang.sr_LATN"
 msgid "license.proceed_email_note"
 msgstr ""
 "<b>LET WEL:</b> Deur te klik op \"gaan voort\" stuur u 'n "
 "bevestigingsversoek na die e-posadres wat u ingetik het. Maak seker dat "
 "die adres korrek is!"
 
+msgctxt "country.pr"
 msgid "lang.sr_LATN"
 msgstr "Serbian (Latin)"
 
+msgctxt "lang.el"
 msgid "country.pr"
 msgstr "Puerto Rico"
 
+msgctxt "lang.ro"
 msgid "lang.el"
 msgstr "Greek"
 
+msgctxt "lang.es_EC"
 msgid "lang.ro"
 msgstr "Romanian"
 
@@ -2111,6 +2630,7 @@ msgstr ""
 #. "\t  you want to find out more.\n"
 #. "\t</p>"
 #: e/macros_templates/metadata.pt:108
+msgctxt "license.metadata_help"
 msgid "license.metadata_help"
 msgstr ""
 "<p>\n"
@@ -2153,6 +2673,7 @@ msgid "What does \"Attribute this work\" mean?"
 msgstr ""
 
 #: e/licenses/standard_templates/deed.pt:129
+msgctxt "country.ec"
 msgid ""
 "The page you came from contained embedded licensing metadata, including "
 "how the creator wishes to be attributed for re-use. You can use the HTML "
@@ -2164,10 +2685,14 @@ msgid "country.ec"
 msgstr "Ecuador"
 
 #: e/macros_templates/metadata.pt:13
+msgctxt "license.additional_info"
 msgid "license.additional_info"
 msgstr "Additional Information"
 
 #: e/macros_templates/metadata.pt:16
+msgctxt ""
+"license.additional_fields_optional\"\n"
+"\"country.no"
 msgid "license.additional_fields_optional"
 msgstr ""
 "The additional fields are <strong>optional</strong>, but will be embedded"
@@ -2175,15 +2700,19 @@ msgstr ""
 "to determine how to attribute it or where to go for more information "
 "about the work."
 
+msgctxt "lang.no"
 msgid "country.no"
 msgstr "Norway"
 
+msgctxt "license.mark_software"
 msgid "lang.no"
 msgstr "Norwegian"
 
+msgctxt "license.fsf_instructions"
 msgid "license.mark_software"
 msgstr "Mark Software"
 
+msgctxt "license.display_software_icon"
 msgid "license.fsf_instructions"
 msgstr ""
 "Read the <a href=\"http://www.gnu.org/licenses/gpl-howto.html\">FSF's "
@@ -2195,18 +2724,25 @@ msgstr ""
 " using the following markup:"
 
 #: c/engine/macros_templates/deed.pt:206
+msgctxt ""
+"deed.use_this_license\"\n"
+"\"country.hk"
 msgid "deed.use_this_license"
 msgstr "Use this license for your own work."
 
+msgctxt "lang.en_HK"
 msgid "country.hk"
 msgstr "Hong Kong"
 
+msgctxt "lang.zh_HK"
 msgid "lang.en_HK"
 msgstr "English (Hong Kong)"
 
+msgctxt "country.gt"
 msgid "lang.zh_HK"
 msgstr "Chinese (Hong Kong)"
 
+msgctxt "lang.es_GT"
 msgid "country.gt"
 msgstr "Guatemala"
 
