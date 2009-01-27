@@ -33,6 +33,9 @@ def reverse_english(message, english):
             # found it!
             result = copy.deepcopy(message)
             result.id = en_msg.id
+            result.context = '' # NOTE: Removing context from copied message
+            # When we did not clear context, we got stray unrelated context stored in "result"
+            # Context is irrelevant for these anyway, since they're PO-style
 
             hasYielded = True
             yield result
