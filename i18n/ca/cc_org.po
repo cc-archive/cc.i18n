@@ -4,15 +4,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2008-11-17 16:55-0500\n"
-"PO-Revision-Date: 2008-11-17 16:55-0500\n"
+"POT-Creation-Date: 2009-01-29 01:47+0000\n"
+"PO-Revision-Date: 2009-01-29 01:47+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ca <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 0.9.2\n"
+"Generated-By: Babel 1.0dev\n"
 
 msgid "country.nz"
 msgstr "Nova Zelanda"
@@ -248,16 +248,8 @@ msgid "license.Confirm_Choice"
 msgstr "confirmeu-ne l'elecció"
 
 #: c/engine/chooser_pages/sampling.pt:54
-#, fuzzy
 msgid "license.sampling_explain"
 msgstr ""
-"<div style=\"float:right;width:175px;border:1px solid "
-"#ccc;padding:8px;margin:0px 14px 10px 14px;background:#eee;\">Voleu <a "
-"href=\"/projects/sampling\">saber-ne més sobre les llicències de "
-"sampling</a> i com Negativland ens ha ajudat a escriure-les? O voleu "
-"accedir a una explicació <a href=\"/learn/licenses/sampling\">en un "
-"format de còmic</a>?</div>\n"
-"\n"
 "<p>Les llicències de sampling us permeten convidar a altres persones a "
 "utilitzar una part de la vostra obra i fer-ne de nova.</p>\n"
 "\n"
@@ -273,7 +265,7 @@ msgstr ""
 "<p>Penseu-hi com una manera de recompensar a la gent que transforma la "
 "vostra obra en alguna cosa que no era abans.</p>\n"
 "\n"
-"<p>En algunes condicions, és així. Hi ha tres tipus de llicència de "
+"<p>En algunes condicions, és així. Hi ha dos tipus de llicència de "
 "Sampling. Escolliu la que millor reflecteixi el vostre estil creatiu:</p>"
 
 msgid "license.pd_dedication_email"
@@ -305,11 +297,10 @@ msgstr "Búlgar"
 
 #: c/engine/chooser_pages/gpl.pt:37 c/engine/chooser_pages/gpl.pt:79
 #: c/engine/chooser_pages/lgpl.pt:38 c/engine/chooser_pages/lgpl.pt:82
-#, fuzzy
 msgid "license.fsf_software_licensed"
 msgstr ""
 "Aquest programari està subjecte a la <a href=\"${license_url}\">CC-GNU "
-"${license_code}</a>."
+"${license_code}</a> o  posterior."
 
 #: c/engine/pd/templates/publicdomain-2.pt:34
 #: c/engine/macros_templates/metadata.pt:46
@@ -1553,7 +1544,7 @@ msgstr "Compartir Música"
 
 #: c/engine/chooser_pages/index.pt:122
 msgid "char.sa_title"
-msgstr "Compartir amb la mateixa llicència"
+msgstr "Compartir Igual"
 
 #: c/engine/chooser_pages/index.pt:193
 msgid "license.explain"
@@ -2131,54 +2122,68 @@ msgstr "Equador"
 
 #: e/macros_templates/metadata.pt:13
 msgid "license.additional_info"
-msgstr "Additional Information"
+msgstr "Informació adicional"
 
 #: e/macros_templates/metadata.pt:16
 msgid "license.additional_fields_optional"
 msgstr ""
-"The additional fields are <strong>optional</strong>, but will be embedded"
-" in the HTML generated for your license. This allows users of your work "
-"to determine how to attribute it or where to go for more information "
-"about the work."
+"Els camps adicionals són <strong>opcionals</strong>, però s'incrustaran "
+"en el codi HTML generat per a la vostra llicència. Això permet als "
+"usuaris de la vostra obra determinar com reconèixer-vos o on trobar més "
+"informació de l'obra."
 
 msgid "country.no"
-msgstr "Norway"
+msgstr "Noruega"
 
 msgid "lang.no"
-msgstr "Norwegian"
+msgstr "Noruec"
 
 msgid "license.mark_software"
-msgstr "Mark Software"
+msgstr "Marca programari"
 
 msgid "license.fsf_instructions"
 msgstr ""
-"Read the <a href=\"http://www.gnu.org/licenses/gpl-howto.html\">FSF's "
-"instructions for including the license with your software</a>."
+"Llegiu les <a href=\"http://www.gnu.org/licenses/gpl-"
+"howto.html\">instruccions de la FSF per incloure la llicència en el "
+"vostre programari</a>."
 
 msgid "license.display_software_icon"
 msgstr ""
-"You can display the icon on any site you offer your software for download"
-" using the following markup:"
+"Podeu mostrar la icona en qualsevol lloc des d'on oferiu la descàrrega "
+"del vostre programari utilitzant la indicació següent:"
 
 #: c/engine/macros_templates/deed.pt:206
 msgid "deed.use_this_license"
-msgstr "Use this license for your own work."
+msgstr "Utilitzeu aquesta llicència per a la vostra pròpia obra."
 
 msgid "country.hk"
 msgstr "Hong Kong"
 
 msgid "lang.en_HK"
-msgstr "English (Hong Kong)"
+msgstr "Anglès (Hong Kong)"
 
 msgid "lang.zh_HK"
-msgstr "Chinese (Hong Kong)"
+msgstr "Xinès (Hong Kong)"
 
 msgid "country.gt"
 msgstr "Guatemala"
 
 msgid "lang.es_GT"
-msgstr "Spanish (Guatemala)"
+msgstr "Castellà (Guatemala)"
 
 msgid "lang.en_SG"
-msgstr "English (Singapore)"
+msgstr "Anglès (Singapur)"
+
+#: e/licenses/standard_templates/deed.pt:129
+msgid ""
+"The page you came from contained embedded licensing metadata, including "
+"how the creator wishes to be attributed for re-use. You can use the HTML "
+"here to cite the work. Doing so will also include metadata on your page "
+"so that others can find the original work as well."
+msgstr ""
+"La pàgina d'on veniu conté metadades incrustades  sobre la llicència, "
+"incloent-hi com l'autor vol ser reconegut en qualsevol reutilització. "
+"Aquí podeu utilitzar el codi HTML per citar l'obra. Si ho feu així. les "
+"metadades també s'inclouran en la vostra pàgina permetent també l'accés a"
+" l'obra original."
 
