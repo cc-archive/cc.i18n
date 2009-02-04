@@ -4,10 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-01-29 01:47+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2009-02-04 04:34+0000\n"
+"PO-Revision-Date: 2009-02-04 04:34+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: th <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -114,8 +115,9 @@ msgstr "บัลแกเรีย"
 #: c/engine/pd/templates/publicdomain-4.pt:32
 msgid "license.mark_web"
 msgstr ""
-"ทำเครื่องหมายเนื้อหาบนหน้าเว็บ "
-"เอกสารเอชทีเอ็มแอลเพื่อแสดงปุ่มของคุณเช่นปุ่มข้างล่างนี้และดูให้แน่ใจว่าได้ทำตามคำแนะนำนี้"
+"ทำเครื่องหมายเนื้อหาบนหน้าเว็บ ภาษาเอชทีเอ็มแอลที่จะแสดงปุ่มของคุณ "
+"คือข้อความข้างล่างนี้ และขอให้ <a href=\"/technology/web\"> "
+"ทำตามคำแนะนำเหล่านี้อย่างครบถ้วน</a>:"
 
 msgid "util.copyright_date"
 msgstr "วันที่มีลิขสิทธิ์"
@@ -139,6 +141,14 @@ msgstr "สัญญาอนุญาตของครีเอทีฟคอ
 #: c/engine/macros_templates/support.pt:154
 #: c/engine/pd/templates/publicdomain-4.pt:25
 msgid "license.mark_content"
+msgstr "ทำเครื่องหมายที่เนื้อหา"
+
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
+#: c/engine/pd/templates/publicdomain-4.pt:25
+msgid "license.Mark_Content"
 msgstr "ทำเครื่องหมายที่เนื้อหา"
 
 #: c/engine/licenses/fsf_templates/deed.pt:48
@@ -175,17 +185,18 @@ msgstr "กลับไปที่ <a href=\"/\">ครีเอทีฟคอ
 #: c/engine/chooser_pages/gpl.pt:63 c/engine/chooser_pages/lgpl.pt:66
 msgid "license.fsf_how_it_works"
 msgstr ""
-"นี่จะแสดงว่าซีซี-กนู ${license_code} ทำงานอย่างไร : "
-"ผู้ใช้ที่คลิกบนไอคอนครีเอทีฟคอมมอนส์ จะพบกับซีซี-กนู ${license_code} \"<a"
-" "
+"นี่คือการแสดงว่า สัญญาอนุญาตของซีซี-กนู ${license_code} ทำงานอย่างไร : "
+"เมื่อผู้ใช้คลิกบนไอคอนครีเอทีฟ คอมมอนส์ จะพบกับสัญญาอนุญาตของซีซี-กนู "
+"${license_code} \"<a "
 "href=\"/licenses/${license_code}/${version_title}/\">สัญญาฉบับภาษาอ่านง่าย</a>\""
-" — สัญญาอนุญาตฉบับสำหรับคนทั่วไปอ่าน. จากที่นั่นเธอสามารถลิงก์ไป \"<a "
-"href=\"http://www.gnu.org/licenses/old-"
-"licenses/${license_name_lower}.html\">สัญญาฉบับภาษากฎหมาย</a>\" — กนู "
-"${license_code} ฉบับเต็ม ในภาษาอังกฤษและ<a "
+" — ซึ่งเป็นสัญญาอนุญาตฉบับสำหรับคนทั่วไปอ่าน "
+"จากที่นั่นเธอสามารถลิงก์ไปที่ \"<a href=\"http://www.gnu.org/licenses"
+"/old-licenses/${license_name_lower}.html\">สัญญาฉบับภาษากฎหมาย</a>\" — "
+"ข้อความสัญญาสัญญาอนุญาตกนู ${license_code} ฉบับสมบูรณ์ ในภาษาอังกฤษและ<a "
 "href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">ภาษาโปรตุเกส</a>."
-" และซ่อนอยู่ในแท็กนั้นคือ \"สัญญาฉบับภาษาคอมพิวเตอร์\" — ข้อมูลเมตาดาต้า "
-"— ซึ่งจะทำให้ผู้อื่นสามารถค้นพบซอฟต์แวร์ของคุณได้."
+" และที่ซ่อนอยู่ในแท็กนั้นคือ \"สัญญาฉบับภาษาคอมพิวเตอร์\" — "
+"ข้อมูลที่ระบุถึงตัวสัญญา — "
+"ซึ่งจะทำให้ผู้อื่นสามารถค้นหาซอฟต์แวร์ของคุณได้"
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:46
 msgid "deed.bsd_notice"
@@ -238,6 +249,12 @@ msgstr ""
 #: c/engine/macros_templates/support.pt:97
 #: c/engine/pd/templates/publicdomain-partner.pt:22
 msgid "license.confirm_choice"
+msgstr "ยืนยันตัวเลือก"
+
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
+#: c/engine/pd/templates/publicdomain-partner.pt:22
+msgid "license.Confirm_Choice"
 msgstr "ยืนยันตัวเลือก"
 
 #: c/engine/chooser_pages/sampling.pt:54
@@ -445,6 +462,12 @@ msgstr ""
 #: c/engine/chooser_pages/index.pt:29 c/engine/chooser_pages/sampling.pt:32
 #: c/engine/macros_templates/support.pt:82
 #: c/engine/macros_templates/support.pt:86
+msgid "license.Choose_License"
+msgstr "เลือกใช้สัญญาอนุญาต"
+
+#: c/engine/chooser_pages/index.pt:29 c/engine/chooser_pages/sampling.pt:32
+#: c/engine/macros_templates/support.pt:82
+#: c/engine/macros_templates/support.pt:86
 msgid "license.choose_license"
 msgstr "เลือกใช้สัญญาอนุญาต"
 
@@ -480,7 +503,7 @@ msgstr ""
 
 #: c/engine/macros_templates/metadata.pt:58
 msgid "util.attribute_to_url"
-msgstr "ที่อยู่อินเทอร์เน็ต (url) ที่จะให้ระบุที่มาถึง"
+msgstr "ที่อยู่อินเทอร์เน็ต (url) ที่จะให้ระบุที่มาของงาน"
 
 #: c/engine/chooser_pages/index.pt:195
 msgid "license.view_explanation"
@@ -499,7 +522,7 @@ msgstr ""
 #: c/engine/licenses/fsf_templates/deed.pt:50
 msgid "deed.lgpl_under_conditions"
 msgstr ""
-"คุณอาจใช้สิทธิตามที่ได้ระบุไว้โดยต้องปฏิบัติตามเงื่อนไขต่าง ๆ "
+"คุณอาจใช้สิทธิต่างๆตามที่ได้ระบุไว้โดยต้องปฏิบัติตามเงื่อนไขต่าง ๆ "
 "ที่ได้ระบุไว้ในสัญญาอนุญาตนี้. "
 "สัญญาอนุญาตแบบแอลจีพีแอลมุ่งหมายให้ใช้กับซอฟต์แวร์ไลบรารี "
 "(กลุ่มชุดคำสั่งคอมพิวเตอร์ที่รวบรวมไว้เพื่อใช้บ่อย ๆ) "
@@ -835,8 +858,9 @@ msgstr "ทำต่อ"
 # GNU = กนู
 msgid "license.LGPL_name_full"
 msgstr ""
-"สัญญาอนุญาตแบบสาธารณะทั่วไปของกนูที่ใช้สำหรับโปรแกรมคอมพิวเตอร์แบบชุดคำสั่งที่รวบรวมไว้เพื่อใช้บ่อย"
-" ๆ"
+"สัญญาอนุญาตแบบสาธารณะทั่วไป "
+"ของกนูที่ใช้สำหรับโปรแกรมคอมพิวเตอร์แบบชุดคำสั่งที่รวบรวมไว้เพื่อใช้บ่อย "
+"ๆ"
 
 msgid "util.more"
 msgstr "ยังมีต่อ"
@@ -897,6 +921,7 @@ msgid "util.copyright_holder"
 msgstr "ผู้ถือครองลิขสิทธิ์"
 
 #: c/engine/chooser_pages/sampling.pt:118
+#, python-format
 msgid "license.sampling_alternatives"
 msgstr ""
 "<p>ถ้าคุณ<strong>ต้องการ</strong>จะเชื้อเชิญผู้คนให้นำงานของคุณไปใช้เพื่อการพาณิชย์<strong>ใด"
@@ -911,7 +936,7 @@ msgstr "สวีเดน"
 
 #: c/engine/chooser_pages/htmlpopup.pt:15
 msgid "license.html_display"
-msgstr "เอกสารเอชทีเอ็มแอลที่ใช้แสดงปุ่ม มีดังนี้ :"
+msgstr "ภาษาเอชทีเอ็มแอลที่ใช้แสดงปุ่มของท่าน มีดังนี้ :"
 
 # แคว้นในสเปน
 #: c/engine/macros_templates/deed.pt:109
@@ -1020,7 +1045,7 @@ msgstr "สเปน (โคลอมเบีย)"
 #: c/engine/pd/templates/publicdomain-4.pt:42 c/engine/chooser_pages/gpl.pt:110
 #: c/engine/chooser_pages/lgpl.pt:113
 msgid "license.get_html_email"
-msgstr "เลือกเอกสารเอชทีเอ็มแอลและส่งมันมาที่คุณทางอีเมล"
+msgstr "เลือกภาษาเอชทีเอ็มแอลและส่งทางอีเมลถึงคุณ"
 
 #: c/engine/macros_templates/metadata.pt:38
 msgid "util.Interactive"
@@ -1028,7 +1053,7 @@ msgstr "ปฏิสัมพันธ์"
 
 #: c/engine/chooser_pages/htmlpopup.pt:27
 msgid "license.html_email"
-msgstr "ใส่อีเมลของคุณเพื่อรับเอกสารเอชทีเอ็มแอลทางอีเมล:"
+msgstr "ใส่อีเมลของคุณเพื่อขอรับข้อความเอชทีเอ็มแอลทางอีเมล :"
 
 msgid "util.Next_step"
 msgstr "ขั้นตอนต่อไป :"
@@ -1109,12 +1134,12 @@ msgstr ""
 "<h1>ครีเอทีฟคอมมอนส์กนู ${license_code}</h1>\n"
 "\n"
 "<p>ซีซี-กนู ${license_code} "
-"เพิ่มเมตาดาตาของครีเอทีฟคอมมอนส์และเอกสารคอมมอนส์เข้ากับ "
+"เพิ่มข้อมูลบ่งชี้และสัญญาอนุญาตของครีเอทีฟคอมมอนส์เข้ากับ "
 "${license_name_full} ของมูลนิธิซอฟต์แวร์เสรี. สัญญาอนุญาตดังกล่าวเป็น "
-"${license_code} อย่างเป็นทางการของมูลนิธิซอฟต์แวร์เสรี, "
-"และมีฉบับแปลภาษาโปรตุเกส.</p>\n"
+"${license_code} อย่างเป็นทางการของมูลนิธิซอฟต์แวร์เสรี "
+"และมีฉบับแปลภาษาโปรตุเกส</p>\n"
 "\n"
-"<p>เพื่อบอกให้คนอื่นรู้ว่าคุณใช้สัญญาอนุญาตครีเอทีฟคอมมอส์, "
+"<p>เพื่อบอกให้คนอื่นรู้ว่า คุณใช้สัญญาอนุญาตครีเอทีฟคอมมอนส์, "
 "คุณสามารถใช้สัญลักษณ์ครีเอทีฟคอมมอนส์, ซึ่งจะลิงก์ไปยังซีซี-กนู "
 "${license_code}. ซึ่งจะมีหน้าตาแบบนี้ :</p>"
 
@@ -1235,7 +1260,7 @@ msgstr "สเปน (อาร์เจนตินา)"
 #: c/engine/macros_templates/metadata.pt:66
 #: c/engine/macros_templates/metadata.pt:82
 msgid "util.source_work"
-msgstr "ที่อยู่อินเทอร์เน็ต (url) ของต้นฉบับงาน"
+msgstr "ที่อยู่อินเทอร์เน็ตของงานต้นฉบับ"
 
 #: c/engine/chooser_pages/sampling.pt:115
 msgid "license.sampling_note"
@@ -1295,7 +1320,7 @@ msgstr "โปรตุเกส"
 
 # GNU = กนู
 msgid "license.GPL_name_full"
-msgstr "สัญญาอนุญาตแบบสาธารณะของกนู (กนู-จีพีแอล)"
+msgstr "สัญญาอนุญาตสาธารณะทั่วไปของกนู "
 
 #: c/engine/licenses/fsf_templates/deed.pt:36
 msgid "deed.gpl_free_study"
@@ -1316,7 +1341,7 @@ msgstr "คุณไม่อาจใช้งานนี้เพื่อว
 
 #: c/engine/macros_templates/metadata.pt:72
 msgid "util.more_permissions_url"
-msgstr "ที่อยู่อินเทอร์เน็ต (url) สำหรับข้อมูลการอนุญาตที่มากขึ้น"
+msgstr "ที่อยู่อินเทอร์เน็ต สำหรับการอนุญาตที่มากขึ้น"
 
 #: c/engine/licenses/standard_templates/deed.pt:64
 msgid "deed.moralrights"
@@ -2114,6 +2139,7 @@ msgid "What does \"Attribute this work\" mean?"
 msgstr "\"แสดงที่มาของผลงานนี้\" หมายความว่าอะไร ?"
 
 #: e/licenses/standard_templates/deed.pt:129
+msgctxt "country.ec"
 msgid ""
 "The page you came from contained embedded licensing metadata, including "
 "how the creator wishes to be attributed for re-use. You can use the HTML "
@@ -2182,4 +2208,18 @@ msgstr "สเปน (กัวเตมาลา)"
 
 msgid "lang.en_SG"
 msgstr "English (Singapore)"
+
+#: e/licenses/standard_templates/deed.pt:129
+msgid ""
+"The page you came from contained embedded licensing metadata, including "
+"how the creator wishes to be attributed for re-use. You can use the HTML "
+"here to cite the work. Doing so will also include metadata on your page "
+"so that others can find the original work as well."
+msgstr ""
+"ท่านได้มาจากหน้าเว็บซึ่งมีข้อมูลที่ระบุแบบของ สัญญาอนุญาต "
+"รวมทั้งความประสงค์ของผู้สร้างสรรค์ว่า "
+"ให้แสดงที่มาของงานอย่างไรเพื่อนำงานไปใช้ท่านสามารถใช้ภาษาเอชทีเอ็มแอลในที่นี้"
+" เพื่ออ้างอิงงานสร้างสรรค์ดังกล่าว การทำดังว่า "
+"จะเป็นการบรรจุข้อมูลดังกล่าวข้างต้น ในหน้าเว็บของท่าน "
+"ทำให้ผู้อื่นสามารถหางานต้นฉบับได้ด้วย"
 
