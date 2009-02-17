@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2008-11-18 14:18+0800\n"
+"POT-Creation-Date: 2009-02-17 13:55+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -216,13 +216,8 @@ msgstr "Creative Commons License"
 #: c/engine/macros_templates/support.pt:145
 #: c/engine/macros_templates/support.pt:152
 #: c/engine/macros_templates/support.pt:154
-msgctxt "license.mark_content"
-msgid "mark content"
-msgstr "mark content"
-
-#. mark content
 #: c/engine/pd/templates/publicdomain-4.pt:25
-msgctxt "license.Mark_Content"
+msgctxt "license.mark_content"
 msgid "mark content"
 msgstr "mark content"
 
@@ -404,13 +399,8 @@ msgstr ""
 #. confirm choice
 #: c/engine/macros_templates/support.pt:93
 #: c/engine/macros_templates/support.pt:97
-msgctxt "license.confirm_choice"
-msgid "confirm choice"
-msgstr "confirm choice"
-
-#. confirm choice
 #: c/engine/pd/templates/publicdomain-partner.pt:22
-msgctxt "license.Confirm_Choice"
+msgctxt "license.confirm_choice"
 msgid "confirm choice"
 msgstr "confirm choice"
 
@@ -744,6 +734,8 @@ msgid "Sampling"
 msgstr "Sampling"
 
 #. This page is available in the following languages:
+#: c/engine/macros_templates/support.pt:30
+#: c/engine/macros_templates/support.pt:56
 msgctxt "util.page_other_languages"
 msgid "This page is available in the following languages:"
 msgstr "This page is available in the following languages:"
@@ -804,13 +796,7 @@ msgstr ""
 " return false;\">year of copyright</a>"
 
 #. choose license
-#: c/engine/chooser_pages/index.pt:29
-msgctxt "license.Choose_License"
-msgid "choose license"
-msgstr "choose license"
-
-#. choose license
-#: c/engine/chooser_pages/sampling.pt:32
+#: c/engine/chooser_pages/index.pt:29 c/engine/chooser_pages/sampling.pt:32
 #: c/engine/macros_templates/support.pt:82
 #: c/engine/macros_templates/support.pt:86
 msgctxt "license.choose_license"
@@ -1671,6 +1657,8 @@ msgid "Attribution"
 msgstr "Attribution"
 
 #. Attribution
+#: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
 msgctxt "licenses.pretty_by"
 msgid "Attribution"
 msgstr "Attribution"
@@ -2086,6 +2074,7 @@ msgid "Public Domain"
 msgstr "Public Domain"
 
 #. Public Domain
+#: c/engine/chooser_pages/index.pt:204
 msgctxt "util.Public_Domain"
 msgid "Public Domain"
 msgstr "Public Domain"
