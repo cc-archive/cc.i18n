@@ -27,7 +27,7 @@ setup(
     
     # scripts and dependencies
     install_requires = ['setuptools',
-                        'Babel>0.9.4',
+                        'Babel>0.99',
                         ],
 
 
