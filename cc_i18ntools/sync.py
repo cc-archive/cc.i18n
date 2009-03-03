@@ -67,8 +67,17 @@ def cli():
 
             # add any new string from the master
             for message in master:
+                
+                # don't add strings that don't have an ID
+                if not message.id:
+                    continue
+
                 if message.id not in source:
+                    # copy the Message object
                     source[message.id] = copy.deepcopy(message)
+
+                    # new strings aren't translated by default
+                    source.get(message.id, message.context).string = ""
 
             # convert back to .po style, thereby updating the English source
             source = convert.cc_to_po(source, master, previous_master)
