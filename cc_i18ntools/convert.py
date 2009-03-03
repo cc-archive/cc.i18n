@@ -94,9 +94,14 @@ def cc_to_po(source, english, previous=None):
         # make a copy of the original
         new_message = copy.deepcopy(message)
 
-        if message.id in english and english[message.id].string:
-            # only use the english text as a key if the text exists
-            new_message.id = english[message.id].string
+        if message.id in english:
+            if english[message.id].string:
+                # only use the english text as a key if the text exists
+                new_message.id = english[message.id].string
+        else:
+            # if the key doesn't exist in the master file, 
+            # it's dead to us.
+            continue
 
         # if the string matches the key (ie, untranslated)
         #if new_message.id == new_message.string:
