@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-02-18 08:57-0800\n"
-"PO-Revision-Date: 2009-02-18 08:57-0800\n"
+"POT-Creation-Date: 2009-03-03 15:19-0800\n"
+"PO-Revision-Date: 2009-03-03 15:19-0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ro <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100"
@@ -308,15 +308,6 @@ msgstr ""
 msgid "lang.bg"
 msgstr "Bulgara"
 
-#: c/engine/chooser_pages/gpl.pt:37 c/engine/chooser_pages/gpl.pt:79
-#: c/engine/chooser_pages/lgpl.pt:38 c/engine/chooser_pages/lgpl.pt:82
-msgid ""
-"This software is licensed under the <a href=\"${license_url}\">CC-GNU "
-"${license_code}</a>."
-msgstr ""
-"Acest program este licenţiat sub o licenţă <a href=\"${license_url}\">CC-"
-"GNU ${license_code}</a>."
-
 #: c/engine/pd/templates/publicdomain-2.pt:34
 #: c/engine/macros_templates/metadata.pt:46
 msgid "util.title_of_work"
@@ -551,10 +542,6 @@ msgstr ""
 "publicitate care este interzisă. Copierea şi distribuirea "
 "<strong>întregii opere </strong> este de asemenea înterzisă."
 
-#: c/engine/chooser_pages/results.pt:98
-msgid "license.publish_audio_ia"
-msgstr "Publică muzica ta licenţiata pe Internet Archive"
-
 #: c/engine/chooser_pages/results.pt:92
 msgid "license.no_web_site"
 msgstr "Nu ai un site web ?"
@@ -775,10 +762,6 @@ msgstr ""
 msgid "util.description"
 msgstr "descriere"
 
-#: c/engine/chooser_pages/results.pt:114
-msgid "license.publish_video_ia"
-msgstr "Publicarea video-ului tău licenţiat la Internet Archive"
-
 #: c/engine/chooser_pages/partner/results.pt:29
 msgid "license.partner_selected"
 msgstr ""
@@ -797,10 +780,6 @@ msgstr ""
 #: c/engine/macros_templates/deed.pt:124
 msgid "lang.nl"
 msgstr "Olandeză"
-
-#: c/engine/chooser_pages/results.pt:101
-msgid "license.publish_soundclick"
-msgstr "Publică muzica ta licenţiată la Soundclick"
 
 msgid "util.weblog"
 msgstr "blog"
@@ -1447,6 +1426,7 @@ msgid "country.ch"
 msgstr "Elveţia"
 
 #: c/engine/chooser_pages/results.pt:105
+#, fuzzy
 msgid "license.publish_flickr"
 msgstr "Publică imaginile tale licenţiate la Flickr"
 
@@ -1682,14 +1662,6 @@ msgstr ""
 "(dar sub nici o formă care ar sugera faptul că aceştia te-ar susţine sau "
 "ar aproba folosirea de către tine a operei)"
 
-#: c/engine/chooser_pages/results.pt:117
-msgid "license.publish_morpheus"
-msgstr "Publică muzica ta licenţiată în reţeaua P2P Morpheus"
-
-#: c/engine/chooser_pages/results.pt:108
-msgid "license.publish_buzznet"
-msgstr "Publică imaginile tale licenţiate la Buzznet"
-
 #, fuzzy
 msgid "deed.lgpl_source"
 msgstr ""
@@ -1700,6 +1672,7 @@ msgstr ""
 "code to programs which link to the library."
 
 #: c/engine/chooser_pages/results.pt:76
+#, fuzzy
 msgid "license.read_tutorial"
 msgstr ""
 "Ai nevoie de ajutor? <a href=\"/education/publish-website\">Citeşte "
@@ -1791,6 +1764,7 @@ msgid "licenses.pretty_sa"
 msgstr "Distribuie-în-condiţii-identice"
 
 #: c/engine/chooser_pages/results.pt:111
+#, fuzzy
 msgid "license.publish_blog"
 msgstr ""
 "Adaugă o licenţă Creative Commons la blogul tău (Blogger, Movable Type, "
@@ -2222,4 +2196,12 @@ msgid "deed.publicity_rights"
 msgstr ""
 "Rights other persons may have either in the work itself or in how the "
 "work is used, such as publicity or privacy rights."
+
+#: src/cc/engine/chooser_pages/results.pt:144
+msgid "license.register_with_cc_network"
+msgstr "Register your work with the CC Network"
+
+#: src/cc/engine/chooser_pages/results.pt:151
+msgid "license.track_with_fairshare"
+msgstr "Track use of your work with FairShare"
 

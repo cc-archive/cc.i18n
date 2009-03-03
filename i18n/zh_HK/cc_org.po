@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-02-18 08:57-0800\n"
-"PO-Revision-Date: 2009-02-18 08:57-0800\n"
+"POT-Creation-Date: 2009-03-03 15:19-0800\n"
+"PO-Revision-Date: 2009-03-03 15:19-0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh_HK <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -423,10 +423,6 @@ msgstr ""
 "<strong>取樣 (Sampling)</strong> "
 "：他人可為任何目的取用並改編您作品的<strong>部分</strong>，但不得用於廣告用途。複製與分發<strong>完整作品</strong>亦被禁止。"
 
-#: c/engine/chooser_pages/results.pt:98
-msgid "license.publish_audio_ia"
-msgstr "在 Internet Archive 上發表您所授權的音樂"
-
 #: c/engine/chooser_pages/results.pt:92
 msgid "license.no_web_site"
 msgstr "沒有網站嗎？"
@@ -620,10 +616,6 @@ msgstr ""
 msgid "util.description"
 msgstr "描述"
 
-#: c/engine/chooser_pages/results.pt:114
-msgid "license.publish_video_ia"
-msgstr "在 Internet Archive 上發表您所授權的影片"
-
 #: c/engine/chooser_pages/partner/results.pt:29
 msgid "license.partner_selected"
 msgstr ""
@@ -639,10 +631,6 @@ msgstr "為再使用本作品，您必須向他人清楚說明本作品所適用
 #: c/engine/macros_templates/deed.pt:124
 msgid "lang.nl"
 msgstr "荷蘭語"
-
-#: c/engine/chooser_pages/results.pt:101
-msgid "license.publish_soundclick"
-msgstr "在 Soundclick 上發表您所授權的音樂"
 
 msgid "util.weblog"
 msgstr "網誌（部落格）"
@@ -1188,6 +1176,7 @@ msgid "country.ch"
 msgstr "瑞士"
 
 #: c/engine/chooser_pages/results.pt:105
+#, fuzzy
 msgid "license.publish_flickr"
 msgstr "在 Flickr 上發表您所授權的圖像"
 
@@ -1375,18 +1364,11 @@ msgstr "語文"
 msgid "char.by_brief"
 msgstr "您必須按照作者或授權人指定的方式對作品進行署名。"
 
-#: c/engine/chooser_pages/results.pt:117
-msgid "license.publish_morpheus"
-msgstr "在 Morpheus P2P 網路上發表您所授權的音樂"
-
-#: c/engine/chooser_pages/results.pt:108
-msgid "license.publish_buzznet"
-msgstr "在 Buzznet 上發表您所授權的圖像"
-
 msgid "deed.lgpl_source"
 msgstr "若您複製或分發函式庫，您必須附上完整且一致、可讓機器辨讀的源碼；或附上一份書面且有效期限至少三年的要約，以提供此完整且一致、可讓機器辨讀的源碼。您並不需要提供連結到該函式庫的程式源碼。"
 
 #: c/engine/chooser_pages/results.pt:76
+#, fuzzy
 msgid "license.read_tutorial"
 msgstr "需要更多的協助嗎？<a href=\"/education/publish-website\">請閱讀我們的教學指南</a>。"
 
@@ -1461,6 +1443,7 @@ msgid "licenses.pretty_sa"
 msgstr "相同方式共享"
 
 #: c/engine/chooser_pages/results.pt:111
+#, fuzzy
 msgid "license.publish_blog"
 msgstr "在您的部落格 (Blogger, Movable Type 以及 Typepad) 中加入共享創意授權條款"
 
@@ -1840,4 +1823,12 @@ msgid "deed.publicity_rights"
 msgstr ""
 "Rights other persons may have either in the work itself or in how the "
 "work is used, such as publicity or privacy rights."
+
+#: src/cc/engine/chooser_pages/results.pt:144
+msgid "license.register_with_cc_network"
+msgstr "Register your work with the CC Network"
+
+#: src/cc/engine/chooser_pages/results.pt:151
+msgid "license.track_with_fairshare"
+msgstr "Track use of your work with FairShare"
 

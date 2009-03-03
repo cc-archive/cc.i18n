@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-02-18 08:57-0800\n"
-"PO-Revision-Date: 2009-02-18 08:57-0800\n"
+"POT-Creation-Date: 2009-03-03 15:18-0800\n"
+"PO-Revision-Date: 2009-03-03 15:18-0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ja <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -452,10 +452,6 @@ msgstr "CC-GNU LGPL"
 msgid "license.sampling_a_sampling"
 msgstr "<strong>サンプリング</strong>：このライセンスを選択すると，他の人があなたの作品を，<strong>部分的に</strong>切り取ったり変換したりすることが可能になります．<strong>広告目的の利用は禁じられます．</strong>また，<strong>作品全体</strong>のいかなる目的での複製や頒布（ファイル共有など）も禁じられます．"
 
-#: c/engine/chooser_pages/results.pt:98
-msgid "license.publish_audio_ia"
-msgstr "あなたのライセンス付き楽曲をインターネット・アーカイブで公開する"
-
 #: c/engine/chooser_pages/results.pt:92
 msgid "license.no_web_site"
 msgstr "ウェブ・サイトを持っていない場合："
@@ -654,10 +650,6 @@ msgstr ""
 msgid "util.description"
 msgstr "作品の説明"
 
-#: c/engine/chooser_pages/results.pt:114
-msgid "license.publish_video_ia"
-msgstr "あなたのライセンス付きビデオをインターネット・アーカイブで公開する"
-
 #: c/engine/chooser_pages/partner/results.pt:29
 msgid "license.partner_selected"
 msgstr ""
@@ -675,10 +667,6 @@ msgstr "いかなる再利用においても，あなたはこの作品のライ
 #: c/engine/macros_templates/deed.pt:124
 msgid "lang.nl"
 msgstr "オランダ語"
-
-#: c/engine/chooser_pages/results.pt:101
-msgid "license.publish_soundclick"
-msgstr "あなたのライセンス付き楽曲をSoundClickで公開する"
 
 msgid "util.weblog"
 msgstr "ウェブログ"
@@ -1222,6 +1210,7 @@ msgid "country.ch"
 msgstr "スイス"
 
 #: c/engine/chooser_pages/results.pt:105
+#, fuzzy
 msgid "license.publish_flickr"
 msgstr "あなたのライセンス付き画像をFlickrで公開する"
 
@@ -1428,18 +1417,11 @@ msgstr "テキスト"
 msgid "char.by_brief"
 msgstr "あなたは原著作者のクレジットを表示しなければなりません。"
 
-#: c/engine/chooser_pages/results.pt:117
-msgid "license.publish_morpheus"
-msgstr "あなたのライセンス付き楽曲をMorpheusのP2Pネットワークで公開する"
-
-#: c/engine/chooser_pages/results.pt:108
-msgid "license.publish_buzznet"
-msgstr "あなたのライセンス付き画像をBuzznetで公開する"
-
 msgid "deed.lgpl_source"
 msgstr "ライブラリをコピーまたは配布する場合、そのソースコードを漏れなく付け加えるか、または最低でも3年間は有効な申し出として、そのソースコードを漏れなく提供する旨を文書として付け加える必要があります。ただし，あなたがこのライブラリにリンクするプログラムのソースコードを提供する必要はありません。"
 
 #: c/engine/chooser_pages/results.pt:76
+#, fuzzy
 msgid "license.read_tutorial"
 msgstr ""
 "さらに詳しく知りたい場合：\n"
@@ -1517,6 +1499,7 @@ msgid "licenses.pretty_sa"
 msgstr "継承"
 
 #: c/engine/chooser_pages/results.pt:111
+#, fuzzy
 msgid "license.publish_blog"
 msgstr "あなたのブログ（Blogger, Movable Type, Typepad）にクリエイティブ・コモンズ・ライセンスを付与する"
 
@@ -1905,4 +1888,12 @@ msgid "deed.publicity_rights"
 msgstr ""
 "Rights other persons may have either in the work itself or in how the "
 "work is used, such as publicity or privacy rights."
+
+#: src/cc/engine/chooser_pages/results.pt:144
+msgid "license.register_with_cc_network"
+msgstr "Register your work with the CC Network"
+
+#: src/cc/engine/chooser_pages/results.pt:151
+msgid "license.track_with_fairshare"
+msgstr "Track use of your work with FairShare"
 

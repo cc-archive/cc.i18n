@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-02-18 08:57-0800\n"
-"PO-Revision-Date: 2009-02-18 08:57-0800\n"
+"POT-Creation-Date: 2009-03-03 15:19-0800\n"
+"PO-Revision-Date: 2009-03-03 15:19-0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ar <LL@li.org>\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n>=3 "
@@ -379,7 +379,6 @@ msgid "lang.en_GB"
 msgstr "الانجليزية (جيجابايت)"
 
 #: c/engine/licenses/standard_templates/deed.pt:69
-#, fuzzy
 msgid "deed.moralrights-remix.us"
 msgstr ""
 "وبصرف النظر عن ريميكس الحقوق الممنوحة بموجب هذا الترخيص ، لا شيء في هذا "
@@ -487,10 +486,6 @@ msgstr ""
 "قوي> من عملك لأي غرض آخر غير الإعلان ، التي هي محظورة. النسخ والتوزيع "
 "<strong>كامل من العمل </ قوي> محظور أيضا."
 
-#: c/engine/chooser_pages/results.pt:98
-msgid "license.publish_audio_ia"
-msgstr "نشر الموسيقى الخاصة بك المرخص لها لأرشيف الإنترنت"
-
 #: c/engine/chooser_pages/results.pt:92
 msgid "license.no_web_site"
 msgstr "لايوج موقع الكتروني؟"
@@ -590,7 +585,6 @@ msgid "util.Audio"
 msgstr "أغنية"
 
 #: c/engine/macros_templates/deed.pt:92
-#, fuzzy
 msgid "deed.fair_use"
 msgstr "عادل التعامل الخاص بك وغيرها من الحقوق لا تتأثر أعلاه."
 
@@ -696,10 +690,6 @@ msgstr ""
 msgid "util.description"
 msgstr "وصف"
 
-#: c/engine/chooser_pages/results.pt:114
-msgid "license.publish_video_ia"
-msgstr "نشر الفيديو الخاص بك المرخص لها في أرشيف الإنترنت"
-
 #: c/engine/chooser_pages/partner/results.pt:29
 msgid "license.partner_selected"
 msgstr ""
@@ -714,10 +704,6 @@ msgstr "أي لإعادة استخدامها ، يجب أن نوضح للآخر�
 #: c/engine/macros_templates/deed.pt:124
 msgid "lang.nl"
 msgstr "الهولندية"
-
-#: c/engine/chooser_pages/results.pt:101
-msgid "license.publish_soundclick"
-msgstr "نشر الموسيقى الخاصة بك المرخص لها لSoundclick"
 
 msgid "util.weblog"
 msgstr "weblog"
@@ -1205,7 +1191,6 @@ msgid "util.more_permissions_url"
 msgstr "أكثر موافقات عنوان"
 
 #: c/engine/licenses/standard_templates/deed.pt:64
-#, fuzzy
 msgid "deed.moralrights"
 msgstr "  ليس في هذا الترخيص يعوق أو يحد من حقوق المؤلف المعنوية."
 
@@ -1314,6 +1299,7 @@ msgid "country.ch"
 msgstr "Switzerland"
 
 #: c/engine/chooser_pages/results.pt:105
+#, fuzzy
 msgid "license.publish_flickr"
 msgstr " نشر الصور المرخصة بك في فليكر"
 
@@ -1537,14 +1523,6 @@ msgstr ""
 "يجب عليك أن تنسب العمل بالطريقة التي تحددها المؤلف  أو المرخص (ولكن ليس "
 "بأي حال من الأحوال أن توحي وتقترح بتحول أو استخدامك للعمل)."
 
-#: c/engine/chooser_pages/results.pt:117
-msgid "license.publish_morpheus"
-msgstr "نشر ترخيصك  الموسيقي إلى شبكة Morpheus P2P"
-
-#: c/engine/chooser_pages/results.pt:108
-msgid "license.publish_buzznet"
-msgstr "نشر ترخيصك للصور في Buzznet"
-
 msgid "deed.lgpl_source"
 msgstr ""
 "If you copy or distribute the library, you must accompany it with the "
@@ -1554,6 +1532,7 @@ msgstr ""
 "code to programs which link to the library."
 
 #: c/engine/chooser_pages/results.pt:76
+#, fuzzy
 msgid "license.read_tutorial"
 msgstr ""
 " الحاجة إلى مزيد من المساعدة؟ <ahref=\"/education/publish-website\"> اقرأ"
@@ -1641,6 +1620,7 @@ msgid "licenses.pretty_sa"
 msgstr "ShareAlike"
 
 #: c/engine/chooser_pages/results.pt:111
+#, fuzzy
 msgid "license.publish_blog"
 msgstr ""
 "Adding a Creative Commons license to your blog (Blogger, Movable Type, "
@@ -2073,10 +2053,18 @@ msgid ""
 "how the creator wishes to be attributed for re-use. You can use the HTML "
 "here to cite the work. Doing so will also include metadata on your page "
 "so that others can find the original work as well."
-msgstr ""
+msgstr "Me and you"
 
 msgid "deed.publicity_rights"
 msgstr ""
 "Rights other persons may have either in the work itself or in how the "
 "work is used, such as publicity or privacy rights."
+
+#: src/cc/engine/chooser_pages/results.pt:144
+msgid "license.register_with_cc_network"
+msgstr "Register your work with the CC Network"
+
+#: src/cc/engine/chooser_pages/results.pt:151
+msgid "license.track_with_fairshare"
+msgstr "Track use of your work with FairShare"
 

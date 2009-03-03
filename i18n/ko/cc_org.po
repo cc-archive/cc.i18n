@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-02-18 08:57-0800\n"
-"PO-Revision-Date: 2009-02-18 08:57-0800\n"
+"POT-Creation-Date: 2009-03-03 15:18-0800\n"
+"PO-Revision-Date: 2009-03-03 15:18-0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ko <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -448,10 +448,6 @@ msgstr ""
 "<strong>샘플링</strong>: 당신 작품의 <strong>일부분</strong>을 발췌하여 변형하는 것을 허락합니다. 단 "
 "광고에의 이용과 <strong>전체 작품</strong>을 복사, 배포하는 행위는 제외됩니다. "
 
-#: c/engine/chooser_pages/results.pt:98
-msgid "license.publish_audio_ia"
-msgstr "Internet Archive에 라이선스된 음악 저장하기"
-
 #: c/engine/chooser_pages/results.pt:92
 msgid "license.no_web_site"
 msgstr "웹사이트가 없으세요?"
@@ -656,10 +652,6 @@ msgstr ""
 msgid "util.description"
 msgstr "설명"
 
-#: c/engine/chooser_pages/results.pt:114
-msgid "license.publish_video_ia"
-msgstr "Internet Archive에 라이선스된 비디오 업로드하기"
-
 #: c/engine/chooser_pages/partner/results.pt:29
 msgid "license.partner_selected"
 msgstr ""
@@ -675,10 +667,6 @@ msgstr "이 저작물을 이용할 경우 라이선스 조건을 명확하게 �
 #: c/engine/macros_templates/deed.pt:124
 msgid "lang.nl"
 msgstr "Dutch"
-
-#: c/engine/chooser_pages/results.pt:101
-msgid "license.publish_soundclick"
-msgstr "Soundclick에 라이선스된 음악 업로드하기"
 
 msgid "util.weblog"
 msgstr "웹로그"
@@ -1245,6 +1233,7 @@ msgid "country.ch"
 msgstr "Switzerland"
 
 #: c/engine/chooser_pages/results.pt:105
+#, fuzzy
 msgid "license.publish_flickr"
 msgstr "Flickr에 라이센스된 이미지 올리기"
 
@@ -1442,20 +1431,13 @@ msgstr ""
 "저작자나 이용허락자가 정한 방법으로 저작물의 원저작자를 표시하여야 합니다(그러나 귀하나 귀하의 저작물을 추천하는 의미로 표시되어서는"
 " 안됩니다)."
 
-#: c/engine/chooser_pages/results.pt:117
-msgid "license.publish_morpheus"
-msgstr "Morpheus P2P network에 라이선스 된 음악을 발행하기"
-
-#: c/engine/chooser_pages/results.pt:108
-msgid "license.publish_buzznet"
-msgstr "Buzznet에 라이센스된 이미지 올리기"
-
 msgid "deed.lgpl_source"
 msgstr ""
 "라이브러리를 복제하거나 배포할 경우에는 소스코드와 함께 하거나 최소한 3년간 이를 제곧하겠다는 서면제의를 해야 합니다. 그러나 "
 "라이브러리에 링크된 프로그램의 소스코드는 제공할 필요가 없습니다."
 
 #: c/engine/chooser_pages/results.pt:76
+#, fuzzy
 msgid "license.read_tutorial"
 msgstr "도움이 필요하세요? <a href=\"/education/publish-website\">지침서를 참조하세요</a>."
 
@@ -1538,6 +1520,7 @@ msgid "licenses.pretty_sa"
 msgstr "동일조건변경허락"
 
 #: c/engine/chooser_pages/results.pt:111
+#, fuzzy
 msgid "license.publish_blog"
 msgstr "귀하의 블로그에 크리에이티브 커먼즈 라이센스 달기(Blogger, Movable Type, Typepad)"
 
@@ -1943,4 +1926,12 @@ msgid "deed.publicity_rights"
 msgstr ""
 "Rights other persons may have either in the work itself or in how the "
 "work is used, such as publicity or privacy rights."
+
+#: src/cc/engine/chooser_pages/results.pt:144
+msgid "license.register_with_cc_network"
+msgstr "Register your work with the CC Network"
+
+#: src/cc/engine/chooser_pages/results.pt:151
+msgid "license.track_with_fairshare"
+msgstr "Track use of your work with FairShare"
 
