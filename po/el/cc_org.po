@@ -1,10 +1,14 @@
-
+# Translations template for PROJECT.
+# Copyright (C) 2009 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-02-18 08:52+0800\n"
+"POT-Creation-Date: 2009-03-03 15:07-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1129,13 +1133,6 @@ msgstr ""
 "από διαφημιστικούς σκοπούς που απαγορεύονται. Απαγορεύεται επίσης η "
 "αναπαραγωγή και διανομή <strong>ολόκληρου του έργου</strong>."
 
-# Publishing your licensed music to the Internet Archive
-#. Publishing your licensed music to the Internet Archive
-#: c/engine/chooser_pages/results.pt:98
-msgctxt "license.publish_audio_ia"
-msgid "Publishing your licensed music to the Internet Archive"
-msgstr "Να δημοσιεύετε την εκχωρηθείσα μουσική σας στο Internet Archive"
-
 # No web site?
 #. No web site?
 #: c/engine/chooser_pages/results.pt:92
@@ -1662,13 +1659,6 @@ msgctxt "util.description"
 msgid "description"
 msgstr "περιγραφή"
 
-# Publishing your licensed video at the Internet Archive
-#. Publishing your licensed video at the Internet Archive
-#: c/engine/chooser_pages/results.pt:114
-msgctxt "license.publish_video_ia"
-msgid "Publishing your licensed video at the Internet Archive"
-msgstr "Δημοσιεύστε το βίντεο που παραχωρήσατε στο Internet Archive"
-
 # You have selected the <a target="cc_other"
 # href="${license_deed_url}"><b>${license_pretty_name} License</b></a>.<br>
 # This license is permanently located at<br>
@@ -1709,13 +1699,6 @@ msgstr ""
 msgctxt "lang.nl"
 msgid "Dutch"
 msgstr "Ολλανδικά"
-
-# Publishing your licensed music to Soundclick
-#. Publishing your licensed music to Soundclick
-#: c/engine/chooser_pages/results.pt:101
-msgctxt "license.publish_soundclick"
-msgid "Publishing your licensed music to Soundclick"
-msgstr "Δημοσιεύστε τη μουσική που έχετε εκχωρήσει Soundclick"
 
 # weblog
 #. weblog
@@ -3131,8 +3114,9 @@ msgstr "Ελβετία"
 # Posting your licensed images at Flickr
 #. Posting your licensed images at Flickr
 #: c/engine/chooser_pages/results.pt:105
+#, fuzzy
 msgctxt "license.publish_flickr"
-msgid "Posting your licensed images at Flickr"
+msgid "Post your licensed images at Flickr"
 msgstr "Στείλτε τις εικόνες σας που διέπονται από τις άδειες στο Flickr"
 
 # We have updated the version of your license to the most recent one available
@@ -3666,20 +3650,6 @@ msgstr ""
 "εννοείται με οποιονδήποτε τρόπο ότι εγκρίνουν εσάς ή τη χρήση του έργου "
 "από εσάς)."
 
-# Publishing your licensed music to the Morpheus P2P network
-#. Publishing your licensed music to the Morpheus P2P network
-#: c/engine/chooser_pages/results.pt:117
-msgctxt "license.publish_morpheus"
-msgid "Publishing your licensed music to the Morpheus P2P network"
-msgstr "Δημοσίευση της μουσικής σας που διέπεται από άδεια στο δίκτυο Morpheus P2P"
-
-# Posting your licensed images at Buzznet
-#. Posting your licensed images at Buzznet
-#: c/engine/chooser_pages/results.pt:108
-msgctxt "license.publish_buzznet"
-msgid "Posting your licensed images at Buzznet"
-msgstr "Αποστολή των εικόνων σας που διέπονται από άδεια στο Buzznet"
-
 # If you copy or distribute the library, you must accompany it with the
 # complete corresponding machine-readable source code or with a written offer,
 # valid for at least three years, to furnish the complete corresponding
@@ -3707,9 +3677,11 @@ msgstr ""
 # Need more help? <a href="/education/publish-website">Read our tutorial</a>.
 #. Need more help? <a href="/education/publish-website">Read our tutorial</a>.
 #: c/engine/chooser_pages/results.pt:76
+#, fuzzy
 msgctxt "license.read_tutorial"
 msgid ""
-"Need more help? <a href=\"/education/publish-website\">Read our "
+"Need more help? <a "
+"href=\"http://wiki.creativecommons.org/Website/Publish\">Read our "
 "tutorial</a>."
 msgstr ""
 "Χρειάζεστε βοήθεια? <a href=\"/education/publish-website\">Διαβάστε το "
@@ -3927,10 +3899,9 @@ msgstr "Παρόμοια Διανομή"
 #. Adding a Creative Commons license to your blog (Blogger, Movable Type, and
 #. Typepad)
 #: c/engine/chooser_pages/results.pt:111
+#, fuzzy
 msgctxt "license.publish_blog"
-msgid ""
-"Adding a Creative Commons license to your blog (Blogger, Movable Type, "
-"and Typepad)"
+msgid "Add a Creative Commons license to your blog"
 msgstr ""
 "Προσθέστε μία άδεια Creative Commons στο ιστολόγιό σας (Blogger, Movable "
 "Type, ή Typepad)"
@@ -4802,4 +4773,14 @@ msgid ""
 msgstr ""
 "Rights other persons may have either in the work itself or in how the "
 "work is used, such as publicity or privacy rights."
+
+#: src/cc/engine/chooser_pages/results.pt:144
+msgctxt "license.register_with_cc_network"
+msgid "Register your work with the CC Network"
+msgstr ""
+
+#: src/cc/engine/chooser_pages/results.pt:151
+msgctxt "license.track_with_fairshare"
+msgid "Track use of your work with FairShare"
+msgstr ""
 

@@ -1,10 +1,14 @@
-
+# Translations template for PROJECT.
+# Copyright (C) 2009 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-02-18 08:52+0800\n"
+"POT-Creation-Date: 2009-03-03 15:07-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -700,11 +704,6 @@ msgid ""
 "<strong>entire work</strong> is also prohibited."
 msgstr "<strong>取样使用</strong>:除了禁止用于广告以外，人们可以出于任何其他目的获取和转换您的作品的<strong>片断</strong>。对<strong>整部作品</strong>的非商业性复制、发行也是被禁止的。"
 
-#: c/engine/chooser_pages/results.pt:98
-msgctxt "license.publish_audio_ia"
-msgid "Publishing your licensed music to the Internet Archive"
-msgstr "向互联网档案馆发布您所许可的音乐作品"
-
 #: c/engine/chooser_pages/results.pt:92
 msgctxt "license.no_web_site"
 msgid "No web site?"
@@ -1018,11 +1017,6 @@ msgctxt "util.description"
 msgid "description"
 msgstr "描述"
 
-#: c/engine/chooser_pages/results.pt:114
-msgctxt "license.publish_video_ia"
-msgid "Publishing your licensed video at the Internet Archive"
-msgstr "在互联网档案馆发布您所许可的视频作品"
-
 #: c/engine/chooser_pages/partner/results.pt:29
 msgctxt "license.partner_selected"
 msgid ""
@@ -1048,11 +1042,6 @@ msgstr "对于任何再使用，您都必须向他人清楚地展示本作品使
 msgctxt "lang.nl"
 msgid "Dutch"
 msgstr "荷兰语"
-
-#: c/engine/chooser_pages/results.pt:101
-msgctxt "license.publish_soundclick"
-msgid "Publishing your licensed music to Soundclick"
-msgstr "在Soundclick上发布您所许可的音乐作品"
 
 msgctxt "util.weblog"
 msgid "weblog"
@@ -1888,8 +1877,9 @@ msgid "Switzerland"
 msgstr "瑞士"
 
 #: c/engine/chooser_pages/results.pt:105
+#, fuzzy
 msgctxt "license.publish_flickr"
-msgid "Posting your licensed images at Flickr"
+msgid "Post your licensed images at Flickr"
 msgstr "在Flickr上粘贴您所许可的图片作品"
 
 msgctxt "jswidget.Updated_license_jurisdiction"
@@ -2193,16 +2183,6 @@ msgid ""
 "use of the work)."
 msgstr "您必须按照作者或者许可人指定的方式对作品进行署名。"
 
-#: c/engine/chooser_pages/results.pt:117
-msgctxt "license.publish_morpheus"
-msgid "Publishing your licensed music to the Morpheus P2P network"
-msgstr "发布采用知识共享许可协议的作品到Morpheus P2P网络"
-
-#: c/engine/chooser_pages/results.pt:108
-msgctxt "license.publish_buzznet"
-msgid "Posting your licensed images at Buzznet"
-msgstr "在Buzznet上粘贴您所许可的图片作品"
-
 msgctxt "deed.lgpl_source"
 msgid ""
 "If you copy or distribute the library, you must accompany it with the "
@@ -2213,9 +2193,11 @@ msgid ""
 msgstr "如果您复制或者发行函数库，您必须附上一份完整的相应机读源代码或者一份有效期至少为三年的书面要约，承诺提供完整的相应机读源代码。您无须提供链接至本函数库的程序的源代码。"
 
 #: c/engine/chooser_pages/results.pt:76
+#, fuzzy
 msgctxt "license.read_tutorial"
 msgid ""
-"Need more help? <a href=\"/education/publish-website\">Read our "
+"Need more help? <a "
+"href=\"http://wiki.creativecommons.org/Website/Publish\">Read our "
 "tutorial</a>."
 msgstr ""
 "需要更多帮助吗？请<a href=\"cn.creativecommons.org/education/publish-"
@@ -2343,10 +2325,9 @@ msgid "ShareAlike"
 msgstr "相同方式共享"
 
 #: c/engine/chooser_pages/results.pt:111
+#, fuzzy
 msgctxt "license.publish_blog"
-msgid ""
-"Adding a Creative Commons license to your blog (Blogger, Movable Type, "
-"and Typepad)"
+msgid "Add a Creative Commons license to your blog"
 msgstr "在您的网络日志（博客）上添加知识共享许可协议"
 
 msgctxt "lang.pt"
@@ -2926,4 +2907,14 @@ msgid ""
 msgstr ""
 "Rights other persons may have either in the work itself or in how the "
 "work is used, such as publicity or privacy rights."
+
+#: src/cc/engine/chooser_pages/results.pt:144
+msgctxt "license.register_with_cc_network"
+msgid "Register your work with the CC Network"
+msgstr ""
+
+#: src/cc/engine/chooser_pages/results.pt:151
+msgctxt "license.track_with_fairshare"
+msgid "Track use of your work with FairShare"
+msgstr ""
 

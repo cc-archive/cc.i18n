@@ -1,10 +1,14 @@
-
+# Translations template for PROJECT.
+# Copyright (C) 2009 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-02-18 08:52+0800\n"
+"POT-Creation-Date: 2009-03-03 15:07-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -701,11 +705,6 @@ msgid ""
 "<strong>entire work</strong> is also prohibited."
 msgstr "<strong>サンプリング</strong>：このライセンスを選択すると，他の人があなたの作品を，<strong>部分的に</strong>切り取ったり変換したりすることが可能になります．<strong>広告目的の利用は禁じられます．</strong>また，<strong>作品全体</strong>のいかなる目的での複製や頒布（ファイル共有など）も禁じられます．"
 
-#: c/engine/chooser_pages/results.pt:98
-msgctxt "license.publish_audio_ia"
-msgid "Publishing your licensed music to the Internet Archive"
-msgstr "あなたのライセンス付き楽曲をインターネット・アーカイブで公開する"
-
 #: c/engine/chooser_pages/results.pt:92
 msgctxt "license.no_web_site"
 msgid "No web site?"
@@ -1023,11 +1022,6 @@ msgctxt "util.description"
 msgid "description"
 msgstr "作品の説明"
 
-#: c/engine/chooser_pages/results.pt:114
-msgctxt "license.publish_video_ia"
-msgid "Publishing your licensed video at the Internet Archive"
-msgstr "あなたのライセンス付きビデオをインターネット・アーカイブで公開する"
-
 #: c/engine/chooser_pages/partner/results.pt:29
 msgctxt "license.partner_selected"
 msgid ""
@@ -1055,11 +1049,6 @@ msgstr "いかなる再利用においても，あなたはこの作品のライ
 msgctxt "lang.nl"
 msgid "Dutch"
 msgstr "オランダ語"
-
-#: c/engine/chooser_pages/results.pt:101
-msgctxt "license.publish_soundclick"
-msgid "Publishing your licensed music to Soundclick"
-msgstr "あなたのライセンス付き楽曲をSoundClickで公開する"
 
 msgctxt "util.weblog"
 msgid "weblog"
@@ -1891,8 +1880,9 @@ msgid "Switzerland"
 msgstr "スイス"
 
 #: c/engine/chooser_pages/results.pt:105
+#, fuzzy
 msgctxt "license.publish_flickr"
-msgid "Posting your licensed images at Flickr"
+msgid "Post your licensed images at Flickr"
 msgstr "あなたのライセンス付き画像をFlickrで公開する"
 
 #, fuzzy
@@ -2215,16 +2205,6 @@ msgid ""
 "use of the work)."
 msgstr "あなたは原著作者のクレジットを表示しなければなりません。"
 
-#: c/engine/chooser_pages/results.pt:117
-msgctxt "license.publish_morpheus"
-msgid "Publishing your licensed music to the Morpheus P2P network"
-msgstr "あなたのライセンス付き楽曲をMorpheusのP2Pネットワークで公開する"
-
-#: c/engine/chooser_pages/results.pt:108
-msgctxt "license.publish_buzznet"
-msgid "Posting your licensed images at Buzznet"
-msgstr "あなたのライセンス付き画像をBuzznetで公開する"
-
 msgctxt "deed.lgpl_source"
 msgid ""
 "If you copy or distribute the library, you must accompany it with the "
@@ -2235,9 +2215,11 @@ msgid ""
 msgstr "ライブラリをコピーまたは配布する場合、そのソースコードを漏れなく付け加えるか、または最低でも3年間は有効な申し出として、そのソースコードを漏れなく提供する旨を文書として付け加える必要があります。ただし，あなたがこのライブラリにリンクするプログラムのソースコードを提供する必要はありません。"
 
 #: c/engine/chooser_pages/results.pt:76
+#, fuzzy
 msgctxt "license.read_tutorial"
 msgid ""
-"Need more help? <a href=\"/education/publish-website\">Read our "
+"Need more help? <a "
+"href=\"http://wiki.creativecommons.org/Website/Publish\">Read our "
 "tutorial</a>."
 msgstr ""
 "さらに詳しく知りたい場合：\n"
@@ -2358,10 +2340,9 @@ msgid "ShareAlike"
 msgstr "継承"
 
 #: c/engine/chooser_pages/results.pt:111
+#, fuzzy
 msgctxt "license.publish_blog"
-msgid ""
-"Adding a Creative Commons license to your blog (Blogger, Movable Type, "
-"and Typepad)"
+msgid "Add a Creative Commons license to your blog"
 msgstr "あなたのブログ（Blogger, Movable Type, Typepad）にクリエイティブ・コモンズ・ライセンスを付与する"
 
 msgctxt "lang.pt"
@@ -2926,4 +2907,14 @@ msgid ""
 msgstr ""
 "Rights other persons may have either in the work itself or in how the "
 "work is used, such as publicity or privacy rights."
+
+#: src/cc/engine/chooser_pages/results.pt:144
+msgctxt "license.register_with_cc_network"
+msgid "Register your work with the CC Network"
+msgstr ""
+
+#: src/cc/engine/chooser_pages/results.pt:151
+msgctxt "license.track_with_fairshare"
+msgid "Track use of your work with FairShare"
+msgstr ""
 
