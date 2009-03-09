@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-03-03 15:07-0800\n"
+"POT-Creation-Date: 2009-03-09 15:46-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -618,8 +618,9 @@ msgstr "English (GB)"
 #, fuzzy
 msgctxt "deed.moralrights-remix.us"
 msgid ""
-"Apart from the remix rights granted under this license, the author's "
-"moral rights;"
+"Apart from the remix rights granted under this license, the author's <a "
+"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
+" id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
 msgstr ""
 "Apart from the remix rights granted under this license, nothing in this "
 "license impairs or restricts the author's moral rights."
@@ -946,7 +947,10 @@ msgstr "Audio"
 #: c/engine/macros_templates/deed.pt:92
 #, fuzzy
 msgctxt "deed.fair_use"
-msgid "Your fair dealing or fair use rights;"
+msgid ""
+"Your fair dealing or <a "
+"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
+" id=\"fair_use\" class=\"helpLink\">fair use</a> rights;"
 msgstr ""
 "Le utilizzazioni consentite dalla legge sul diritto d'autore \n"
 "e gli altri diritti non sono in alcun modo limitati da quanto sopra."
@@ -1438,6 +1442,7 @@ msgstr ""
 "href=\"${license_url}\">licenza Creative Commons Developing Nations</a>."
 
 #: c/engine/chooser_pages/index.pt:32
+#, fuzzy
 msgctxt "license.what"
 msgid ""
 "With a Creative Commons license, <strong>you keep your copyright</strong>"
@@ -1450,8 +1455,9 @@ msgid ""
 " false;\">give you credit</a> — and only on the conditions you specify "
 "here. For those new to Creative Commons licensing, we've prepared <a "
 "href=\"/about/think\">a list of things to think about</a>. If you want to"
-" offer your work with no conditions, choose the <a "
-"href=\"publicdomain-2\">public domain</a>."
+" offer your work with no conditions or you want to certify a work as "
+"public domain, choose one of our <a href=\"/publicdomain/\">public domain"
+" tools</a>."
 msgstr ""
 "Scegliendo una licenza <span lang=en\">Creative Commons</span> "
 "<strong>mantieni i tuoi diritti d'autore</strong> ma permetti agli altri "
@@ -1586,20 +1592,20 @@ msgctxt "lang.zu"
 msgid "Zulu"
 msgstr "Zulu"
 
+#, fuzzy
 msgctxt "license.pd_confirmation_email"
 msgid ""
-"On our site <http://creativecommons.org>, you chose to dedicate your\n"
-"work, \"${title}\", to the public domain. We're sending you this email to"
-"\n"
-"make sure that you intended to do this.\n"
+"On our site <http://creativecommons.org>, you chose to certify the work, "
+"\"${title}\", as being in the public domain. We're sending you \n"
+"this email to make sure that you intended to do this.\n"
 "\n"
 "If not, you may choose to simply ignore this email or forward it to\n"
 "pd@creativecommons.org to let us know that someone is abusing our system."
 "\n"
 "\n"
-"If you did intend this public domain dedication, please click through\n"
+"If you did intend to certify a work, please click through\n"
 "on the link below. When you do, you will be given a summary screen and\n"
-"a final chance to confirm your public domain dedication:\n"
+"a final chance to confirm your public domain certification:\n"
 "\n"
 "${clickthrough_url}\n"
 "\n"
@@ -1950,7 +1956,10 @@ msgstr "More permissions URL"
 #: c/engine/licenses/standard_templates/deed.pt:64
 #, fuzzy
 msgctxt "deed.moralrights"
-msgid "The author's moral rights;"
+msgid ""
+"The author's <a "
+"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
+" id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
 msgstr "Questa licenza lascia impregiudicati i diritti morali."
 
 msgctxt "country.sk"
@@ -2643,10 +2652,12 @@ msgstr "Portoghese"
 #: c/engine/licenses/devnations_templates/deed.pt:51
 #: c/engine/licenses/mitbsd_templates/deed.pt:60
 #: c/engine/licenses/standard_templates/deed.pt:60
+#, fuzzy
 msgctxt "deed.permission"
 msgid ""
-"Any of the above conditions can be waived if you get permission from the "
-"copyright holder."
+"Any of the above conditions can be <a href=\"#\" id=\"waived\" "
+"class=\"helpLink\">waived</a> if you get permission from the copyright "
+"holder."
 msgstr ""
 "In ogni caso, puoi concordare col titolare dei diritti utilizzi di "
 "quest'opera non consentiti da questa licenza."
@@ -2902,11 +2913,9 @@ msgstr "pubblicizza"
 
 #: c/engine/pd/templates/publicdomain-3.pt:41
 #: c/engine/licenses/publicdomain_templates/deed.pt:19
+#, fuzzy
 msgctxt "deed.pd"
 msgid ""
-"<p style=\"text-align:center\"><em>Copyright-Only Dedication (based on "
-"United States law) or Public Domain Certification</em></p>\n"
-"\n"
 "        <p>The person or persons who have associated work with this "
 "document (the \"Dedicator\" or \"Certifier\") hereby either (a) certifies"
 " that, to the best of his knowledge, the work of authorship identified is"
@@ -2967,40 +2976,6 @@ msgstr ""
 "modified, built upon, or otherwise exploited by anyone for any purpose, "
 "commercial or non-commercial, and in any way, including by methods that "
 "have not yet been invented or conceived.</p>"
-
-#: c/engine/pd/templates/publicdomain-2.pt:24
-msgctxt "license.pd_enter_info"
-msgid ""
-"<h1>Enter Information</h1>\n"
-"\n"
-"        <p>You have selected the <a "
-"href=\"/licenses/publicdomain/\">Public Domain Dedication</a>.  Please "
-"note  that the Public Domain Dedication may not be valid outside of the "
-"United States.</p>\n"
-"\n"
-"        <p>Please fill out the information below to dedicate your work. "
-"Creative Commons will use the information to email you and ourselves a "
-"public domain receipt for this Dedication.</p>\n"
-"\n"
-"        <p>Once you're done filling this out, you'll still have a chance "
-"to think it over before the dedication happens.</p>\n"
-"\n"
-"        <p><strong>About your work</strong></p>\n"
-"\n"
-"        <p>all fields are required</p>"
-msgstr ""
-"<h1>Donazione al Pubblico dominio</h1>\n"
-"<p>Hai scelto la <a href=\"/licenses/publicdomain/\">Donazione al "
-"Pubblico dominio</a>.</p>\n"
-"<p>Per donare la tua opera, inserisci nel modulo seguente le informazioni"
-" richieste. <br />\n"
-"<span lang=\"en\">Creative Commons Corp.</span> utilizzerà i dati immessi"
-" <em>esclusivamente</em> per inviare a te e a se stessa per email la "
-"ricevuta di questa Donazione al Pubblico dominio.</p>\n"
-"<p>Una volta compilato il modulo, avrai ancora un'opportunità per pensare"
-" alla tua scelta ed eventualmente per revocarla.</p>\n"
-"<p><strong>Informazioni sulla tua opera</strong></p>\n"
-"<p>Tutti i campi sono obbligatori.</p>"
 
 #: c/engine/licenses/sampling_templates/deed.pt:27
 msgctxt "deed.free_sample_nc"
@@ -3232,10 +3207,21 @@ msgid ""
 "so that others can find the original work as well."
 msgstr ""
 
+#. "Rights other\n"
+#. "\t      persons may have either in the work itself or in how the\n"
+#. "\t      work is used, such\n"
+#. "\t      as <a
+#. href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\"
+#. class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy\n"
+#. "\t      rights."
+#, fuzzy
 msgctxt "deed.publicity_rights"
 msgid ""
 "Rights other persons may have either in the work itself or in how the "
-"work is used, such as publicity or privacy rights."
+"work is used, such as <a "
+"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
+" class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy "
+"rights."
 msgstr ""
 "Rights other persons may have either in the work itself or in how the "
 "work is used, such as publicity or privacy rights."
@@ -3248,5 +3234,638 @@ msgstr ""
 #: src/cc/engine/chooser_pages/results.pt:151
 msgctxt "license.track_with_fairshare"
 msgid "Track use of your work with FairShare"
+msgstr ""
+
+#. Default: ""
+#. "<p>The Commons Deed is not a legal instrument. It is simply a\n"
+#. "\t\thandy reference for understanding the CC0 Legal Code,\n"
+#. "\t\ta human-readable expression of some of its key\n"
+#. "\t\tterms. Think of it as the user-friendly interface to\n"
+#. "\t\tthe CC0 Legal Code beneath. This Deed itself has no\n"
+#. "\t\tlegal value, and its contents do not appear in\n"
+#. "\t\tCC0.</p>\n"
+#. "\n"
+#. "\t\t<p>Creative Commons is not a law firm and does not\n"
+#. "\t\t  provide legal services. Distributing, displaying, \n"
+#. "\t\t  or linking to this Commons Deed does not create an\n"
+#. "\t\t  attorney-client relationship.</p>"
+#: c/engine/licenses/zero_templates/deed.pt:114
+msgctxt "deed.zero.disclaimer"
+msgid ""
+"<p>The Commons Deed is not a legal instrument. It is simply a\n"
+"\t\thandy reference for understanding the CC0 Legal Code,\n"
+"\t\ta human-readable expression of some of its key\n"
+"\t\tterms. Think of it as the user-friendly interface to\n"
+"\t\tthe CC0 Legal Code beneath. This Deed itself has no\n"
+"\t\tlegal value, and its contents do not appear in\n"
+"\t\tCC0.</p>\n"
+"\n"
+"\t\t<p>Creative Commons is not a law firm and does not\n"
+"\t\t  provide legal services. Distributing, displaying, \n"
+"\t\t  or linking to this Commons Deed does not create an\n"
+"\t\t  attorney-client relationship.</p>"
+msgstr ""
+
+#. Default: ""
+#. "This is a human-readable summary of\n"
+#. "\t  the <a href=\"./legalcode\">Legal Code (read the full\n"
+#. "\t  text)</a>."
+#: c/engine/licenses/zero_templates/deed.pt:131
+msgctxt "deed.zero.human_summary"
+msgid ""
+"This is a human-readable summary of the <a href=\"./legalcode\">Legal "
+"Code (read the full text)</a>."
+msgstr ""
+
+#. Default: "No Copyright"
+#: c/engine/licenses/zero_templates/deed.pt:30
+msgctxt "deed.zero.no_copyright"
+msgid "No Copyright"
+msgstr ""
+
+#. Default: ""
+#. "The person who associated a work with this document\n"
+#. "            has dedicated this work to the Commons by waiving all\n"
+#. "            of his or her rights to the work under copyright law\n"
+#. "            and all related or neighboring legal rights he or she\n"
+#. "            had in the work, to the extent allowable by law."
+#: c/engine/licenses/zero_templates/deed.pt:33
+msgctxt "deed.zero.nocopyright-text"
+msgid ""
+"The person who associated a work with this document has dedicated this "
+"work to the Commons by waiving all of his or her rights to the work under"
+" copyright law and all related or neighboring legal rights he or she had "
+"in the work, to the extent allowable by law."
+msgstr ""
+
+#. Default: "Attribute this work:"
+#: c/engine/licenses/zero_templates/deed.pt:42
+msgctxt "deed.attribute_this_work"
+msgid "Attribute this work:"
+msgstr ""
+
+#. Default: ""
+#. "In no way are any of the following rights affected by\n"
+#. "\t  the above:"
+#: c/engine/licenses/zero_templates/deed.pt:65
+msgctxt "deed.following_unaffected"
+msgid "In no way are any of the following rights affected by the above:"
+msgstr ""
+
+#. Default: "Patent or trademark rights held by the person who associated this
+#. document with a work."
+#: c/engine/licenses/zero_templates/deed.pt:69
+msgctxt "deed.zero.patent"
+msgid ""
+"Patent or trademark rights held by the person who associated this "
+"document with a work."
+msgstr ""
+
+#. Default: "What are \"Publicity Rights\"?"
+#: c/engine/licenses/zero_templates/deed.pt:83
+msgctxt "deed.publicity_rights.help.title"
+msgid "What are \"Publicity Rights\"?"
+msgstr ""
+
+#. Default: ""
+#. "Publicity\n"
+#. "          rights allow individuals to control how their voice, image\n"
+#. "          or likeness is used for commercial purposes in public.  If a\n"
+#. "          work under CC0 includes the voice or image of anyone other\n"
+#. "          than the affirmer, a user of the work may need to get\n"
+#. "          permission from those individuals before using the work for\n"
+#. "          commercial purposes."
+#: c/engine/licenses/zero_templates/deed.pt:87
+msgctxt "deed.zero.publicity_rights.help"
+msgid ""
+"Publicity rights allow individuals to control how their voice, image or "
+"likeness is used for commercial purposes in public.  If a work under CC0 "
+"includes the voice or image of anyone other than the affirmer, a user of "
+"the work may need to get permission from those individuals before using "
+"the work for commercial purposes."
+msgstr ""
+
+#. Default: "Learn more"
+#: c/engine/licenses/zero_templates/deed.pt:95
+#: c/engine/zero/templates/index.pt:89
+msgctxt "util.learn_more"
+msgid "Learn more"
+msgstr ""
+
+#. Default: "Confirm Waiver"
+#: c/engine/zero/templates/confirm.pt:30
+msgctxt "license.zero.confirm_title"
+msgid "Confirm Waiver"
+msgstr ""
+
+#. Default: ""
+#. "Are you certain you wish to waive all rights to your\n"
+#. "\t    work?  Once these rights are waived, you cannot reclaim\n"
+#. "\t    them."
+#: c/engine/zero/templates/confirm.pt:48
+msgctxt "license.zero.confirm_waiver_1"
+msgid ""
+"Are you certain you wish to waive all rights to your work? Once these "
+"rights are waived, you cannot reclaim them."
+msgstr ""
+
+#. Default: ""
+#. "In particular, if you are an artist or author who\n"
+#. "\t    depends upon copyright for your income, Creative Commons\n"
+#. "\t    <strong>does not recommend</strong> that you use this\n"
+#. "\t    tool."
+#: c/engine/zero/templates/confirm.pt:54
+msgctxt "license.zero.confirm_waiver_2"
+msgid ""
+"In particular, if you are an artist or author who depends upon copyright "
+"for your income, Creative Commons <strong>does not recommend</strong> "
+"that you use this tool."
+msgstr ""
+
+#. Default: ""
+#. "If you don't own the rights to this work, then do not\n"
+#. "\t    use CC0.  If you believe that nobody owns rights to the\n"
+#. "\t    work, then the <a href=\"/license/publicdomain-2\">Public\n"
+#. "\t      Domain Certification</a> may be what you're looking for."
+#: c/engine/zero/templates/confirm.pt:61
+msgctxt "license.zero.confirm_waiver_3"
+msgid ""
+"If you don't own the rights to this work, then do not use CC0.  If you "
+"believe that nobody owns rights to the work, then the <a "
+"href=\"/license/publicdomain-2\">Public Domain Certification</a> may be "
+"what you're looking for."
+msgstr ""
+
+#. Default: "No, I Do Not Waive"
+#: c/engine/zero/templates/confirm.pt:71
+msgctxt "license.zero.confirm_waiver_no"
+msgid "No, I Do Not Waive"
+msgstr ""
+
+#. Default: "Yes, I Waive"
+#: c/engine/zero/templates/confirm.pt:82
+msgctxt "license.zero.confirm_waiver_yes"
+msgid "Yes, I Waive"
+msgstr ""
+
+#. Default: ""
+#. "Please note that this is <strong>not a registration\n"
+#. "\t    process</strong> and Creative Commons does not store or\n"
+#. "\t  save any of the information you enter.  This tool\n"
+#. "\t  guides you through the process of generating HTML with\n"
+#. "\t  embedded metadata for marking your work as being available\n"
+#. "\t  under CC0.  Your work will not be associated with CC0 or made\n"
+#. "\t  available under CC0 until you publish it marked as being so."
+#: c/engine/zero/templates/index.pt:76
+msgctxt "license.zero.intro_3"
+msgid ""
+"Please note that this is <strong>not a registration process</strong> and "
+"Creative Commons does not store or save any of the information you enter."
+"  This tool guides you through the process of generating HTML with "
+"embedded metadata for marking your work as being available under CC0.  "
+"Your work will not be associated with CC0 or made available under CC0 "
+"until you publish it marked as being so."
+msgstr ""
+
+#. Default: "begin"
+#: c/engine/zero/templates/index.pt:98
+msgctxt "util.begin"
+msgid "begin"
+msgstr ""
+
+#. Default: ""
+#. "Copy the text below to your Web site to let your visitors\n"
+#. "\tknow that you've waived the rights to your work.  Creative\n"
+#. "\tCommons does not retain a record of your selection; as the\n"
+#. "\tpublisher it's up to you to let people know how they may use your\n"
+#. "\twork."
+#: c/engine/zero/templates/results.pt:108
+msgctxt "license.zero.copy_text"
+msgid ""
+"Copy the text below to your Web site to let your visitors know that "
+"you've waived the rights to your work.  Creative Commons does not retain "
+"a record of your selection; as the publisher it's up to you to let people"
+" know how they may use your work."
+msgstr ""
+
+#. Default: "Send Email"
+#: c/engine/zero/templates/results.pt:122
+msgctxt "license.zero.send_email"
+msgid "Send Email"
+msgstr ""
+
+#. Default: ""
+#. "An error occurred when we tried to send the email message;\n"
+#. "\t  you can try clicking the Back button and double checking your \n"
+#. "\t  email address.  If the address you used (\n"
+#. "\t  ${email_addr}) was correct you can \n"
+#. "\t  <a href=\"/about/contact\">contact us</a>."
+#: c/engine/zero/templates/results.pt:134
+msgctxt "license.zero.email_error"
+msgid ""
+"An error occurred when we tried to send the email message; you can try "
+"clicking the Back button and double checking your email address.  If the "
+"address you used (${email_addr}) was correct you can <a "
+"href=\"/about/contact\">contact us</a>."
+msgstr ""
+
+#. Default: "The suggested HTML has been sent to ${email_addr}."
+#: c/engine/zero/templates/results.pt:143
+msgctxt "license.zero.email_sent"
+msgid "The suggested HTML has been sent to ${email_addr}."
+msgstr ""
+
+#. Default: ""
+#. "You have asked to be notified of updates to CC0.  A subscription\n"
+#. "\t    request has been sent on your behalf; you must click the link in\n"
+#. "\t    the confirmation email to complete the sign-up process."
+#: c/engine/zero/templates/results.pt:148
+msgctxt "license.zero.subscribed_to_updates"
+msgid ""
+"You have asked to be notified of updates to CC0.  A subscription request "
+"has been sent on your behalf; you must click the link in the confirmation"
+" email to complete the sign-up process."
+msgstr ""
+
+#. Default: ""
+#. "If you'd like to get the HTML with embedded metadata via\n"
+#. "\t  email and optionally receive updates about CC0, fill in your\n"
+#. "\t  email address below."
+#: c/engine/zero/templates/results.pt:161
+msgctxt "license.zero.send_email_updates"
+msgid ""
+"If you'd like to get the HTML with embedded metadata via email and "
+"optionally receive updates about CC0, fill in your email address below."
+msgstr ""
+
+#. Default: "Send me updates about CC0"
+#: c/engine/zero/templates/results.pt:181
+msgctxt "license.zero.update_opt_in"
+msgid "Send me updates about CC0"
+msgstr ""
+
+#. Default: ""
+#. "You did not affirm your decision to waive the rights\n"
+#. "\tassociated with your work. If you'd like to continue you can\n"
+#. "\tclick the Back button to review your choice."
+#: c/engine/zero/templates/results.pt:55
+msgctxt "license.zero.declined"
+msgid ""
+"You did not affirm your decision to waive the rights associated with your"
+" work. If you'd like to continue you can click the Back button to review "
+"your choice."
+msgstr ""
+
+#. Default: "About CC0"
+#: c/engine/zero/templates/results.pt:61
+msgctxt "license.zero.about"
+msgid "About CC0"
+msgstr ""
+
+#. Default: "Frequently Asked Questions"
+#: c/engine/zero/templates/results.pt:63
+msgctxt "util.FAQ"
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#. Default: "Choose which style of button you'd like on your webpage:"
+#: c/engine/zero/templates/results.pt:72
+msgctxt "license.choose_button"
+msgid "Choose which style of button you'd like on your webpage:"
+msgstr ""
+
+#. Default: "Here's a preview of how your waiver will appear on your site:"
+#: c/engine/zero/templates/results.pt:98
+msgctxt "license.zero.preview_waiver"
+msgid "Here's a preview of how your waiver will appear on your site:"
+msgstr ""
+
+#. Default: "Your name"
+#: c/engine/zero/templates/waiver.pt:103
+msgctxt "util.your_name"
+msgid "Your name"
+msgstr ""
+
+#. Default: "Your URL"
+#: c/engine/zero/templates/waiver.pt:111 c/engine/zero/templates/waiver.pt:125
+msgctxt "util.your_url"
+msgid "Your URL"
+msgstr ""
+
+#. Default: ""
+#. "The URL where people can find more information about \n"
+#. "\tthe creator or rights holder."
+#: c/engine/zero/templates/waiver.pt:126
+msgctxt "license.zero.your_url_help"
+msgid ""
+"The URL where people can find more information about the creator or "
+"rights holder."
+msgstr ""
+
+#. Default: "Country"
+#: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
+msgctxt "util.country"
+msgid "Country"
+msgstr ""
+
+#. Default: ""
+#. "Jurisdiction where the work is being \n"
+#. "\toffered from under CC0."
+#: c/engine/zero/templates/waiver.pt:166
+msgctxt "license.zero.country_help"
+msgid "Jurisdiction where the work is being offer from under CC0."
+msgstr ""
+
+#. Default: ""
+#. "I hereby waive all copyright and related or neighboring\n"
+#. "\t    rights together with all associated claims and causes of\n"
+#. "\t    action with respect to this work to the extent possible\n"
+#. "\t    under the law."
+#: c/engine/zero/templates/waiver.pt:180
+msgctxt "license.zero.confirm_waiver"
+msgid ""
+"I hereby waive all copyright and related or neighboring rights together "
+"with all associated claims and causes of action with respect to this work"
+" to the extent possible under the law."
+msgstr ""
+
+#. Default: ""
+#. "I have read and understand the terms and intended legal\n"
+#. "\t    effect of CC0, and hereby voluntarily elect to apply it to\n"
+#. "\t    this work."
+#: c/engine/zero/templates/waiver.pt:205
+msgctxt "license.zero.confirm_reading"
+msgid ""
+"I have read and understand the terms and intended legal effect of CC0, "
+"and hereby voluntarily elect to apply it to this work."
+msgstr ""
+
+#. Default: "continue"
+#: c/engine/zero/templates/waiver.pt:217
+msgctxt "util.continue"
+msgid "continue"
+msgstr ""
+
+#. Default: ""
+#. "These fields are optional, but will be embedded in the HTML\n"
+#. "      generated for your work. This allows users of your work to\n"
+#. "      determine how to contact you or where to go for more information\n"
+#. "      about the work."
+#: c/engine/zero/templates/waiver.pt:65
+msgctxt "license.zero.additional_metadata"
+msgid ""
+"These fields are optional, but will be embedded in the HTML generated for"
+" your work. This allows users of your work to determine how to contact "
+"you or where to go for more information about the work."
+msgstr ""
+
+#: c/engine/chooser_pages/index.pt:165 c/engine/chooser_pages/index.pt:170
+msgid "None of the above"
+msgstr ""
+
+#: c/engine/chooser_pages/index.pt:310
+msgid "Software"
+msgstr ""
+
+#: c/engine/chooser_pages/results.pt:103
+msgctxt "license.publish_ia"
+msgid ""
+"Publish your licensed music or video to\n"
+"\t       the Internet Archive"
+msgstr ""
+
+#: c/engine/chooser_pages/results.pt:119
+msgctxt "license.offline_work"
+msgid "Offline Work?"
+msgstr ""
+
+#: c/engine/chooser_pages/results.pt:129
+msgctxt "license.option_next_steps"
+msgid "Optional next steps"
+msgstr ""
+
+#: c/engine/licenses/publicdomain_templates/deed.pt:14
+#: c/engine/pd/templates/publicdomain-3.pt:38
+msgctxt "deed.pd.title"
+msgid ""
+"Copyright-Only Dedication<a href=\"#\" class=\"helpLink\" "
+"id=\"use_zero\">*</a>\n"
+"  (based on United States law)<br />\n"
+"  or Public Domain Certification"
+msgstr ""
+
+#: c/engine/licenses/publicdomain_templates/deed.pt:25
+#: c/engine/licenses/standard_templates/deed.pt:22
+#: c/engine/publicdomain/zero_templates/deed.pt:25
+msgid "This license is acceptable for Free Cultural Works."
+msgstr ""
+
+#: c/engine/licenses/publicdomain_templates/deed.pt:47
+#: c/engine/publicdomain/zero_templates/deed.pt:141
+msgctxt "deed.use_this_tool"
+msgid "Use this tool for your own work."
+msgstr ""
+
+#: c/engine/licenses/standard_templates/deed.pt:110
+msgctxt "deed.with_the_understanding"
+msgid "With the understanding that:"
+msgstr ""
+
+#: c/engine/licenses/standard_templates/deed.pt:116
+msgctxt "util.waiver"
+msgid "Waiver"
+msgstr ""
+
+#: c/engine/licenses/standard_templates/deed.pt:125
+msgctxt "util.other_rights"
+msgid "Other Rights"
+msgstr ""
+
+#: c/engine/licenses/standard_templates/deed.pt:128
+msgctxt "deed.other_rights"
+msgid "In no way are any of the following rights affected by the license:"
+msgstr ""
+
+#: c/engine/licenses/standard_templates/deed.pt:178
+msgctxt "deed.permission.help.title"
+msgid "What does \"conditions can be waived\" mean?"
+msgstr ""
+
+#: c/engine/licenses/standard_templates/deed.pt:182
+msgctxt "deed.permission.help"
+msgid ""
+"CC licenses anticipate that a licensor may want to\n"
+"\t\twaive compliance with a specific condition, such as\n"
+"\t\tattribution."
+msgstr ""
+
+#: c/engine/licenses/standard_templates/deed.pt:192
+msgctxt "deed.fair_use.help.title"
+msgid "What does \"Fair use\" mean?"
+msgstr ""
+
+#: c/engine/licenses/standard_templates/deed.pt:196
+msgctxt "deed.fair_use.help"
+msgid ""
+"All jurisdictions\n"
+"              allow some limited uses of copyrighted material without\n"
+"              permission.  CC licenses do not affect the rights of\n"
+"              users under those copyright limitations and exceptions,\n"
+"              such as fair use and fair dealing where applicable."
+msgstr ""
+
+#: c/engine/licenses/standard_templates/deed.pt:208
+msgctxt "deed.moralrights.help.title"
+msgid "What are \"Moral Rights\"?"
+msgstr ""
+
+#: c/engine/licenses/standard_templates/deed.pt:212
+msgctxt "deed.moralrights.help"
+msgid ""
+"In addition to the right of licensors to request removal of their name "
+"from the work when used in a derivative or collective they don't like, "
+"copyright laws in most jurisdictions around the world (with the notable "
+"exception of the US except in very limited circumstances) grant creators "
+"\"moral rights\" which may provide some redress if a derivative work "
+"represents a \"derogatory treatment\" of the licensor's work."
+msgstr ""
+
+#: c/engine/licenses/standard_templates/deed.pt:233
+msgctxt "deed.publicity_rights.help"
+msgid ""
+"Publicity\n"
+"              rights allow individuals to control how their voice,\n"
+"              image or likeness is used for commercial purposes in\n"
+"              public.  If a CC-licensed work includes the voice or\n"
+"              image of anyone other than the licensor, a user of the\n"
+"              work may need to get permission from those individuals\n"
+"              before using the work for commercial purposes."
+msgstr ""
+
+#: c/engine/macros_templates/metadata.pt:24
+#: c/engine/macros_templates/metadata.pt:59
+#: c/engine/macros_templates/metadata.pt:72
+#: c/engine/macros_templates/metadata.pt:86
+#: c/engine/macros_templates/metadata.pt:98
+#: c/engine/macros_templates/metadata.pt:111
+#: c/engine/licenses/standard_templates/deed.pt:74
+#: c/engine/publicdomain/zero_templates/deed.pt:55
+#: c/engine/zero/templates/waiver.pt:73 c/engine/zero/templates/waiver.pt:116
+#: c/engine/zero/templates/waiver.pt:156 c/engine/chooser_pages/index.pt:65
+#: c/engine/chooser_pages/index.pt:78 c/engine/chooser_pages/index.pt:99
+#: c/engine/chooser_pages/index.pt:112 c/engine/chooser_pages/index.pt:125
+#: c/engine/chooser_pages/index.pt:138
+msgid "Information"
+msgstr ""
+
+#: c/engine/pd/templates/publicdomain-2.pt:20
+msgctxt "license.pd.intro_1"
+msgid ""
+"You have selected the Public Domain Dedication.  The Public Domain\n"
+"    Dedication should only be used to certify a work that is already\n"
+"    in the public domain.  Creative Commons does not recommend you use\n"
+"    the Public Domain Dedication for dedicating a work still protected\n"
+"    by copyright to the public domain.  To dedicate a work to the\n"
+"    public domain, use <a href=\"/license/zero/\">CC0</a>.  Please note\n"
+"    that the Public Domain Dedication may not be valid outside of the\n"
+"    United States."
+msgstr ""
+
+#: c/engine/pd/templates/publicdomain-2.pt:31
+msgctxt "license.pd.intro_2"
+msgid ""
+"Please fill out the information to certify that a work is in the\n"
+"    public domain.  Creative Commons will use the information to email\n"
+"    you and oureslves a public domain receipt for the certification."
+msgstr ""
+
+#: c/engine/pd/templates/publicdomain-2.pt:37
+msgctxt "license.pd.intro_3"
+msgid ""
+"Once you're done filling this out, you will still have the\n"
+"    opportunity to confirm your choice before the certification\n"
+"    happens."
+msgstr ""
+
+#: c/engine/pd/templates/publicdomain-2.pt:43
+msgctxt "license.pd.about_the_work"
+msgid "About the work you are certifying"
+msgstr ""
+
+#: c/engine/pd/templates/publicdomain-2.pt:47
+msgctxt "util.fields_required"
+msgid "(all fields are required)"
+msgstr ""
+
+#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:16
+#: c/engine/pd/templates/publicdomain-4.pt:17
+#: c/engine/pd/templates/publicdomain-3.pt:18
+#: c/engine/pd/templates/publicdomain-2.pt:16
+msgctxt "license.pd.identify_a_pd_work"
+msgid "Identify a Public Domain Work"
+msgstr ""
+
+#: c/engine/publicdomain/templates/index.pt:14
+msgctxt "license.pdtools.title"
+msgid "Our Public Domain Tools"
+msgstr ""
+
+#: c/engine/publicdomain/templates/index.pt:16
+msgctxt "license.pdtools.intro"
+msgid ""
+"Our licenses help authors\n"
+"  keep and manage their copyright on terms they choose.  Our public\n"
+"  domain tools, on the other hand, facilitate the discovery of works\n"
+"  already in the public domain and enable authors and copyright owners\n"
+"  who want to dedicate their works to the public domain to do so."
+msgstr ""
+
+#: c/engine/publicdomain/templates/index.pt:24
+msgctxt "license.pdtools.zero"
+msgid ""
+"Use this universal tool if\n"
+"    you are a holder of copyright or database rights, and you wish to\n"
+"    waive all your interests in your work."
+msgstr ""
+
+#: c/engine/publicdomain/templates/index.pt:33
+#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:8
+#: c/engine/pd/templates/publicdomain-4.pt:8
+#: c/engine/pd/templates/publicdomain-3.pt:8
+#: c/engine/pd/templates/publicdomain-2.pt:8
+msgctxt "util.public_domain_certification"
+msgid "Public Domain Certification"
+msgstr ""
+
+#: c/engine/publicdomain/templates/index.pt:35
+msgctxt "license.pdtools.pdc"
+msgid ""
+"Use this tool if you have\n"
+"    identified and want to certify other works that are already in the\n"
+"    public domain.  You will also be relinquishing any rights in the\n"
+"    work you may have under copyright.  Creative Commons does not\n"
+"    recommend this tool for use with works - consider using CC0\n"
+"    instead."
+msgstr ""
+
+#: c/engine/zero/templates/index.pt:59
+msgctxt "license.zero.intro_1"
+msgid ""
+"Using CC0, you can waive all copyrights and related or\n"
+"\t  neighboring rights that you have over your work, such as\n"
+"\t  your moral rights (to the extent waivable), your publicity\n"
+"\t  or privacy rights, rights you have protecting against unfair\n"
+"\t  competition, and database rights and rights protecting the\n"
+"\t  extraction, dissemination and reuse of data."
+msgstr ""
+
+#: c/engine/zero/templates/index.pt:68
+msgctxt "license.zero.intro_2"
+msgid ""
+"Keep in mind that you cannot waive rights to a work that you\n"
+"\t  do not own unless you have permission from the owner.  To\n"
+"\t  avoid infringing third party rights, you should consult with\n"
+"\t  your legal advisor if you are unsure whether you have all\n"
+"\t  the rights you need to distribute the work."
 msgstr ""
 
