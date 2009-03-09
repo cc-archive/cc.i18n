@@ -43,7 +43,7 @@ def reverse_english(message, english):
     if not hasYielded:
         yield result
 
-def po_to_cc(source, english):
+def po_to_cc(source, english, fallback=True):
     """Create a Catalog based on [source] (a Catalog instance).  Each Message
     key in [source] is checked against Message strings in [english]; if a 
     match is found, the key is replaced with the key from the [english] match.
@@ -66,7 +66,7 @@ def po_to_cc(source, english):
         for new_message in reverse_english(message, english):
         
             # fall-back to English if untranslated
-            if not(new_message.string.strip()):
+            if fallback and not(new_message.string.strip()):
                 new_message.string = english[new_message.id].string
 
             target[new_message.id] = new_message

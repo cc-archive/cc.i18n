@@ -63,7 +63,8 @@ def cli():
 
             # convert the source back to cc-style 
             # (so we can match symbolic names)
-            source = convert.po_to_cc(source, previous_master)
+            source = convert.po_to_cc(source, previous_master,
+                                      fallback=False)
 
             # add any new string from the master
             for message in master:
