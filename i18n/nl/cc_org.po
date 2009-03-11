@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-03-09 22:39-0700\n"
-"PO-Revision-Date: 2009-03-09 22:39-0700\n"
+"POT-Creation-Date: 2009-03-10 21:37-0700\n"
+"PO-Revision-Date: 2009-03-10 21:37-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -98,6 +98,7 @@ msgid "country.bg"
 msgstr "Bulgarije"
 
 #: c/engine/pd/templates/publicdomain-4.pt:32
+#, fuzzy
 msgid "license.mark_web"
 msgstr ""
 "Markeer uw content op een webpagina, de HTML om uw button te tonen luidt "
@@ -135,6 +136,7 @@ msgstr ""
 msgid "country.be"
 msgstr "België"
 
+#, fuzzy
 msgid "license.work_type_dedicated"
 msgstr ""
 "Er is een <a rel=\"license\" "
@@ -1031,23 +1033,6 @@ msgstr "URL van het werk waarvan dit werk afgeleid is. "
 msgid "lang.zu"
 msgstr "Zulu"
 
-#, fuzzy
-msgid "license.pd_confirmation_email"
-msgstr ""
-"Op onze site <http://creativecommons.org> heeft u ervoor gekozen om aan "
-"derden toestemming te verlenen om uw werk, \"${title}\" naar believen te "
-"gebruiken. We sturen u deze e-mail om deze keuze te bevestigen. U hoeft "
-"geen antwoord te geven op deze e-mail. U kunt hem ook doorsturen naar "
-"pd@creativecommons.org om ons te laten dat iemand ons systeem misbruikt. "
-"Klik door naar de hieronder vermelde link als u aan derden toestemming "
-"wilt verlenen om uw werk naar believen te gebruiken. U krijgt dan een "
-"korte samenvatting te zien en u krijgt nog één keer de kans om uw "
-"Verklaring publiek domein te bevestigen:\n"
-"${clickthrough_url}\n"
-"Voor vragen of opmerkingen kunt een e-mail sturen naar "
-"pd@creativecommons.org.\n"
-"Thank you for using Creative Commons!"
-
 #: c/engine/chooser_pages/gpl.pt:25 c/engine/chooser_pages/lgpl.pt:26
 msgid "license.fsf_explain"
 msgstr ""
@@ -1198,6 +1183,7 @@ msgid "country.at"
 msgstr "Oostenrijk"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:19
+#, fuzzy
 msgid "license.non_web_pd"
 msgstr ""
 "De Verklaring publiek domein is nu van toepassing op uw werk. Ga naar "
@@ -1524,6 +1510,7 @@ msgstr ""
 "Commons opgenomen heeft."
 
 #: c/engine/pd/templates/publicdomain-4.pt:27
+#, fuzzy
 msgid "license.mark_pd"
 msgstr ""
 "Nu u ervoor gekozen heeft om de 'Verklaring publiek domein' op uw werk "
@@ -1540,45 +1527,11 @@ msgstr "Founder's Copyright"
 msgid "licenses.pretty_nc-sa"
 msgstr "NietCommercieel-GelijkDelen"
 
-#: c/engine/pd/templates/publicdomain-3.pt:40
-msgid "license.pd_confirm"
-msgstr ""
-"<h1>Bevestigen van uw Verklaring publiek domein</h1>\n"
-"\n"
-"U heeft uw e-mailadres (<b>${email}</b>) bevestigd om aan derden "
-"toestemming te verlenen om <b>${title}</b> naar believen te gebruiken. De"
-" auteursrechten, naburige rechten en/of databankrechten op dit werk komen"
-" toe aan <b>${copyright_holder}</b>. Klik de button hieronder aan om dit "
-"proces te voltooien.\n"
-"\n"
-"<div class=\"licensebox\">\n"
-"${pd_deed_text}\n"
-"        </div>"
-
 #: c/engine/chooser_pages/results.pt:78
 msgid "license.after_support_cc"
 msgstr ""
 "Heeft u de licentie in gebruik genomen? \n"
 "Dan zou u Creative Commons kunnen steunen."
-
-#: c/engine/pd/templates/publicdomain-3.pt:93
-#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:59
-msgid "license.pd_bad_confirmation"
-msgstr ""
-"<h1>Verklaring publiek domein - gebrekkige bevestiging</h1>\n"
-"\n"
-"Het lijkt erop dat u uw verklaring publiek domein probeert te bevestigen "
-"met een onjuiste bevestigingscode.\n"
-"\n"
-"Dit is waarschijnlijk het geval omdat u niet kon doorklikken op de naar "
-"uw e-mailadres verstuurde URL en u de URL op onjuiste wijze in uw browser"
-" heeft geplakt. Zorg ervoor dat u <b>alle tekens</b> van de u "
-"toegestuurde URL heeft gekopieerd.\n"
-"\n"
-"<a\n"
-"href=\"mailto:pd@creativecommons.org\">Neem contact met ons op </a> als "
-"dit niet de reden is of als u problemen blijft hebben met het bevestigen "
-"van uw verklaring publiek domein."
 
 #: c/engine/templates/by.pt:25
 msgid "char.by_description"
@@ -2427,11 +2380,11 @@ msgstr "Your URL"
 #. Default: ""
 #. "The URL where people can find more information about \n"
 #. "\tthe creator or rights holder."
-#: c/engine/zero/templates/waiver.pt:126
+#: c/engine/zero/templates/waiver.pt:126 c/engine/zero/templates/waiver.pt:124
 msgid "license.zero.your_url_help"
 msgstr ""
-"The URL where people can find more information about the creator or "
-"rights holder."
+"The URL where people can find more information about \n"
+"the work or the person using CC0."
 
 #. Default: "Country"
 #: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
@@ -2441,9 +2394,9 @@ msgstr "Country"
 #. Default: ""
 #. "Jurisdiction where the work is being \n"
 #. "\toffered from under CC0."
-#: c/engine/zero/templates/waiver.pt:166
+#: c/engine/zero/templates/waiver.pt:166 c/engine/zero/templates/waiver.pt:164
 msgid "license.zero.country_help"
-msgstr "Jurisdiction where the work is being offer from under CC0."
+msgstr "Jurisdiction from which the work is being offered under CC0."
 
 #. Default: ""
 #. "I hereby waive all copyright and related or neighboring\n"
@@ -2610,23 +2563,18 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-2.pt:20
 msgid "license.pd.intro_1"
 msgstr ""
-"You have selected the Public Domain Dedication.  The Public Domain\n"
-"    Dedication should only be used to certify a work that is already\n"
-"    in the public domain.  Creative Commons does not recommend you use\n"
-"    the Public Domain Dedication for dedicating a work still protected\n"
-"    by copyright to the public domain.  To dedicate a work to the\n"
-"    public domain, use <a href=\"/license/zero/\">CC0</a>.  Please note\n"
-"    that the Public Domain Dedication may not be valid outside of the\n"
-"    United States."
-
-#: c/engine/pd/templates/publicdomain-2.pt:31
-msgid "license.pd.intro_2"
-msgstr ""
-"Please fill out the information to certify that a work is in the\n"
-"    public domain.  Creative Commons will use the information to email\n"
-"    you and oureslves a public domain receipt for the certification."
+"You have selected the Public Domain Certification.  The Public\n"
+"    Domain Certification should only be used to certify a work that is\n"
+"    already in the public domain.  Creative Commons does not recommend\n"
+"    you use the Public Domain Certification for dedicating a work\n"
+"    still protected by copyright to the public domain.  To dedicate a\n"
+"    work to the public domain, consider\n"
+"    using <a href=\"/license/zero/\">CC0</a>.  Please note that if you\n"
+"    use the Public Domain Certification to dedicate a work to the\n"
+"    public domain, it may not be valid outside of the United States."
 
 #: c/engine/pd/templates/publicdomain-2.pt:37
+#: c/engine/pd/templates/publicdomain-2.pt:32
 msgid "license.pd.intro_3"
 msgstr ""
 "Once you're done filling this out, you will still have the\n"
@@ -2683,8 +2631,8 @@ msgstr ""
 "    identified and want to certify other works that are already in the\n"
 "    public domain.  You will also be relinquishing any rights in the\n"
 "    work you may have under copyright.  Creative Commons does not\n"
-"    recommend this tool for use with works - consider using CC0\n"
-"    instead."
+"    recommend this tool for use with works under copyright - \n"
+" consider using CC0 instead."
 
 #: c/engine/zero/templates/index.pt:59
 msgid "license.zero.intro_1"
@@ -2704,4 +2652,48 @@ msgstr ""
 "\t  avoid infringing third party rights, you should consult with\n"
 "\t  your legal advisor if you are unsure whether you have all\n"
 "\t  the rights you need to distribute the work."
+
+#: c/engine/zero/templates/waiver.pt:83
+msgid "license.zero.metadata_help"
+msgstr ""
+"<p>\n"
+"\t  The information is embedded in a software readable format.\n"
+"\t  This allows search engines to index additional information\n"
+"\t  about your work.\n"
+"\t</p>\n"
+"\t<p>\n"
+"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
+"\t    information</a> on Creative Commons metadata is available if\n"
+"\t  you want to find out more.\n"
+"\t</p>"
+
+#: c/engine/pd/templates/publicdomain-3.pt:65
+msgid "deed.pd.title_plain"
+msgstr ""
+"Copyright-Only Dedication (based on United States law) \n"
+"or Public Domain Certification"
+
+#: c/engine/pd/templates/publicdomain-2.pt:58
+msgid "util.author"
+msgstr "Author"
+
+#: c/engine/pd/templates/publicdomain-3.pt:118
+msgid "license.pdc.confirm_reading"
+msgstr ""
+"I have read and understand the terms and intended legal\n"
+"\t    effect of this tool, and hereby voluntarily elect to apply it to\n"
+"\t    this work."
+
+#: c/engine/pd/templates/publicdomain-3.pt:56
+msgid "license.pd.confirm_title"
+msgstr "Confirm Your Public Domain Certification"
+
+#: c/engine/publicdomain/templates/index.pt:34
+#: c/engine/publicdomain/templates/index.pt:51
+msgid "util.use_this_tool"
+msgstr "Use this tool"
+
+#: c/engine/publicdomain/zero_templates/deed.pt:67
+msgid "deed.zero.other_rights"
+msgstr "In no way are any of the following rights affected by CC0:"
 

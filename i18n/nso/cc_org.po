@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-03-09 22:39-0700\n"
-"PO-Revision-Date: 2009-03-09 22:39-0700\n"
+"POT-Creation-Date: 2009-03-10 21:37-0700\n"
+"PO-Revision-Date: 2009-03-10 21:37-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nso <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -104,6 +104,7 @@ msgid "country.bg"
 msgstr "Bulgaria"
 
 #: c/engine/pd/templates/publicdomain-4.pt:32
+#, fuzzy
 msgid "license.mark_web"
 msgstr ""
 "Swaya dikagare tša gago letlakaleng la wepe, HTML ya go bontšha konope ya"
@@ -141,6 +142,7 @@ msgstr ""
 msgid "country.be"
 msgstr "Belgium"
 
+#, fuzzy
 msgid "license.work_type_dedicated"
 msgstr ""
 "Ye ${work_type} e neelwa\n"
@@ -1059,33 +1061,6 @@ msgstr "Mošomo wo o mongwe o ntšhitšwego go ona."
 msgid "lang.zu"
 msgstr "Zulu"
 
-#, fuzzy
-msgid "license.pd_confirmation_email"
-msgstr ""
-"Saeteng ya rena <http://creativecommons.org>, o kgethile go neela mošomo\n"
-"wa gago, \"${title}\", gore o bulegele setšhaba. Re go romela emeile ye "
-"go kgonthišetša\n"
-"gore o be o ikemišeditše go dira bjalo.\n"
-"\n"
-"Ge eba go se bjalo, o ka kgetha feela go hlokomologa molaetša wo goba o o"
-" fetišetše go\n"
-"pd@creativecommons.org go re tsebiša gore motho yo mongwe o tlaiša "
-"tshepedišo ya rena.\n"
-"\n"
-"Ge eba o be o ikemišeditše go dira moneelo wo o bulegetšego setšhaba, hle"
-" kgotla lomaganyong yeo e lego ka mo tlase. Ge o dira bjalo, o tla newa "
-"sekirini seo se nago le kakaretšo le sebaka sa mafelelo sa go tiišetša "
-"moneelo wa gago wo o bulegetšego setšhaba:\n"
-"\n"
-"${clickthrough_url}\n"
-"\n"
-"\n"
-"Ge eba o nale mathata le ge ele afe, re tsebiše ka go romela emeile go "
-"pd@creativecommons.org.\n"
-"\n"
-"\n"
-"Re lebogela gore o šomišitše Creative Commons!"
-
 #: c/engine/chooser_pages/gpl.pt:25 c/engine/chooser_pages/lgpl.pt:26
 msgid "license.fsf_explain"
 msgstr ""
@@ -1240,6 +1215,7 @@ msgid "country.at"
 msgstr "Austria"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:19
+#, fuzzy
 msgid "license.non_web_pd"
 msgstr ""
 "Mošomo wo o lokollelwa go Bulegela Setšhaba. Gore o lebelele kopi ya "
@@ -1576,6 +1552,7 @@ msgstr ""
 "lefelelwego tšeo di akareditšego Creative Commons."
 
 #: c/engine/pd/templates/publicdomain-4.pt:27
+#, fuzzy
 msgid "license.mark_pd"
 msgstr ""
 "Ka ge bjale o kgethile moneelo wo o bulegetšego setšhaba, o swanetše go "
@@ -1591,56 +1568,12 @@ msgstr "Tokelo ya ngwalollo ya Mothei"
 msgid "licenses.pretty_nc-sa"
 msgstr "E sego ya Kgwebo-Mohlakanelwa"
 
-#: c/engine/pd/templates/publicdomain-3.pt:40
-msgid "license.pd_confirm"
-msgstr ""
-"<h1>Tiišetša Moneelo wa Gago o Bulegetšego Setšhaba</h1>\n"
-"\n"
-"\n"
-"        <p>\n"
-"O tiišeditše ka katlego aterese ya gago ya emeile (<b>${email}</b>) "
-"bakeng sa go dira moneelo wa <b>${title}</b>, mošomo wo o tsentšwego "
-"tokelo ya ngwalollo ke <b>${copyright_holder}</b>, wo o bulegetšego "
-"setšhaba. Bakeng sa go feleletša mosepelo wo, hle kgotla konope yeo e "
-"lego ka mo tlase.\n"
-"</p>\n"
-"\n"
-"\n"
-"        <div class=\"licensebox\">\n"
-"${pd_deed_text}\n"
-"        </div>"
-
 #: c/engine/chooser_pages/results.pt:78
 msgid "license.after_support_cc"
 msgstr ""
 "After publishing your license, please consider <a "
 "href=\"http://creativecommons.org/support/\">supporting Creative "
 "Commons</a>."
-
-#: c/engine/pd/templates/publicdomain-3.pt:93
-#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:59
-msgid "license.pd_bad_confirmation"
-msgstr ""
-"<h1>Moneelo wo o Bulegetšego Setšhaba - Tiišetšo e Mpe</h1>\n"
-"\n"
-"<p>\n"
-"Go bonagala o leka go tiišetša moneelo wa gago wo o bulegetšego setšhaba "
-"ka khoutu ya tiišetšo yeo e fošagetšego.</p>\n"
-"\n"
-"<p>\n"
-"Se mohlomongwe se diragetše ka gobane o be o sa kgone go kgotla go URL "
-"yeo e rometšwego emeileng ya gago, gape o kopišitše le go kgomaretša URL "
-"ka tsela e fošagetšego sefetleking sa gago. Kgonthišetša go akaretša \n"
-" <b>ditlhaka ka moka</b> go tšwa go URL yeo o rometšwego yona.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Ge eba se e se seo se diragetšego, goba o tšwela pele o ba le mathata a "
-"go tiišetša moneelo wa gago wo o bulegetšego setšhaba ka tsela le ge ele "
-"efe\n"
-", hle <a\n"
-"href=\"mailto:pd@creativecommons.org\">re tsebiše</a>.\n"
-"</p>"
 
 #: c/engine/templates/by.pt:25
 msgid "char.by_description"
@@ -2483,11 +2416,11 @@ msgstr "Your URL"
 #. Default: ""
 #. "The URL where people can find more information about \n"
 #. "\tthe creator or rights holder."
-#: c/engine/zero/templates/waiver.pt:126
+#: c/engine/zero/templates/waiver.pt:126 c/engine/zero/templates/waiver.pt:124
 msgid "license.zero.your_url_help"
 msgstr ""
-"The URL where people can find more information about the creator or "
-"rights holder."
+"The URL where people can find more information about \n"
+"the work or the person using CC0."
 
 #. Default: "Country"
 #: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
@@ -2497,9 +2430,9 @@ msgstr "Country"
 #. Default: ""
 #. "Jurisdiction where the work is being \n"
 #. "\toffered from under CC0."
-#: c/engine/zero/templates/waiver.pt:166
+#: c/engine/zero/templates/waiver.pt:166 c/engine/zero/templates/waiver.pt:164
 msgid "license.zero.country_help"
-msgstr "Jurisdiction where the work is being offer from under CC0."
+msgstr "Jurisdiction from which the work is being offered under CC0."
 
 #. Default: ""
 #. "I hereby waive all copyright and related or neighboring\n"
@@ -2666,23 +2599,18 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-2.pt:20
 msgid "license.pd.intro_1"
 msgstr ""
-"You have selected the Public Domain Dedication.  The Public Domain\n"
-"    Dedication should only be used to certify a work that is already\n"
-"    in the public domain.  Creative Commons does not recommend you use\n"
-"    the Public Domain Dedication for dedicating a work still protected\n"
-"    by copyright to the public domain.  To dedicate a work to the\n"
-"    public domain, use <a href=\"/license/zero/\">CC0</a>.  Please note\n"
-"    that the Public Domain Dedication may not be valid outside of the\n"
-"    United States."
-
-#: c/engine/pd/templates/publicdomain-2.pt:31
-msgid "license.pd.intro_2"
-msgstr ""
-"Please fill out the information to certify that a work is in the\n"
-"    public domain.  Creative Commons will use the information to email\n"
-"    you and oureslves a public domain receipt for the certification."
+"You have selected the Public Domain Certification.  The Public\n"
+"    Domain Certification should only be used to certify a work that is\n"
+"    already in the public domain.  Creative Commons does not recommend\n"
+"    you use the Public Domain Certification for dedicating a work\n"
+"    still protected by copyright to the public domain.  To dedicate a\n"
+"    work to the public domain, consider\n"
+"    using <a href=\"/license/zero/\">CC0</a>.  Please note that if you\n"
+"    use the Public Domain Certification to dedicate a work to the\n"
+"    public domain, it may not be valid outside of the United States."
 
 #: c/engine/pd/templates/publicdomain-2.pt:37
+#: c/engine/pd/templates/publicdomain-2.pt:32
 msgid "license.pd.intro_3"
 msgstr ""
 "Once you're done filling this out, you will still have the\n"
@@ -2739,8 +2667,8 @@ msgstr ""
 "    identified and want to certify other works that are already in the\n"
 "    public domain.  You will also be relinquishing any rights in the\n"
 "    work you may have under copyright.  Creative Commons does not\n"
-"    recommend this tool for use with works - consider using CC0\n"
-"    instead."
+"    recommend this tool for use with works under copyright - \n"
+" consider using CC0 instead."
 
 #: c/engine/zero/templates/index.pt:59
 msgid "license.zero.intro_1"
@@ -2760,4 +2688,48 @@ msgstr ""
 "\t  avoid infringing third party rights, you should consult with\n"
 "\t  your legal advisor if you are unsure whether you have all\n"
 "\t  the rights you need to distribute the work."
+
+#: c/engine/zero/templates/waiver.pt:83
+msgid "license.zero.metadata_help"
+msgstr ""
+"<p>\n"
+"\t  The information is embedded in a software readable format.\n"
+"\t  This allows search engines to index additional information\n"
+"\t  about your work.\n"
+"\t</p>\n"
+"\t<p>\n"
+"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
+"\t    information</a> on Creative Commons metadata is available if\n"
+"\t  you want to find out more.\n"
+"\t</p>"
+
+#: c/engine/pd/templates/publicdomain-3.pt:65
+msgid "deed.pd.title_plain"
+msgstr ""
+"Copyright-Only Dedication (based on United States law) \n"
+"or Public Domain Certification"
+
+#: c/engine/pd/templates/publicdomain-2.pt:58
+msgid "util.author"
+msgstr "Author"
+
+#: c/engine/pd/templates/publicdomain-3.pt:118
+msgid "license.pdc.confirm_reading"
+msgstr ""
+"I have read and understand the terms and intended legal\n"
+"\t    effect of this tool, and hereby voluntarily elect to apply it to\n"
+"\t    this work."
+
+#: c/engine/pd/templates/publicdomain-3.pt:56
+msgid "license.pd.confirm_title"
+msgstr "Confirm Your Public Domain Certification"
+
+#: c/engine/publicdomain/templates/index.pt:34
+#: c/engine/publicdomain/templates/index.pt:51
+msgid "util.use_this_tool"
+msgstr "Use this tool"
+
+#: c/engine/publicdomain/zero_templates/deed.pt:67
+msgid "deed.zero.other_rights"
+msgstr "In no way are any of the following rights affected by CC0:"
 

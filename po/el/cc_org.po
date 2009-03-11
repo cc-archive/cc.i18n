@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-03-09 15:47-0700\n"
+"POT-Creation-Date: 2009-03-10 21:35-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -171,10 +171,11 @@ msgstr "Βουλγαρία"
 #. follows and be sure to <a href="/technology/web">follow the guidelines
 #. here</a>:
 #: c/engine/pd/templates/publicdomain-4.pt:32
+#, fuzzy
 msgctxt "license.mark_web"
 msgid ""
-"Mark your content on a web page, the HTML to display your button is as "
-"follows and be sure to <a href=\"/technology/web\">follow the guidelines "
+"Mark content on a web page, the HTML to display the button is as follows "
+"and be sure to <a href=\"/technology/web\">follow the guidelines "
 "here</a>:"
 msgstr ""
 "Μάρκαρετε το περιεχόμενό σας σε μία ιστοσελίδα, το HTML για να εμφανίσετε"
@@ -243,9 +244,10 @@ msgstr "Βέλγιο"
 # href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.
 #. This ${work_type} is dedicated to the <a rel="license"
 #. href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.
+#, fuzzy
 msgctxt "license.work_type_dedicated"
 msgid ""
-"This ${work_type} is dedicated to the <a rel=\"license\" "
+"This ${work_type} is in the <a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
 "Domain</a>."
 msgstr ""
@@ -1926,6 +1928,7 @@ msgstr "Δικαιούχος"
 #. <a href="/license/results-one?license%5fcode=by">Attribution</a>
 #. license.</p>
 #: c/engine/chooser_pages/sampling.pt:118
+#, python-format
 msgctxt "license.sampling_alternatives"
 msgid ""
 "<p>If you <strong>want</strong> to invite people to make "
@@ -2337,76 +2340,6 @@ msgctxt "lang.zu"
 msgid "Zulu"
 msgstr "Ζουλού"
 
-# On our site <http://creativecommons.org>, you chose to dedicate your
-# work, "${title}", to the public domain. We're sending you this email to
-# make sure that you intended to do this.
-# If not, you may choose to simply ignore this email or forward it to
-# pd@creativecommons.org to let us know that someone is abusing our system.
-# If you did intend this public domain dedication, please click through
-# on the link below. When you do, you will be given a summary screen and
-# a final chance to confirm your public domain dedication:
-# ${clickthrough_url}
-# If you have any issues, let us know by emailing pd@creativecommons.org.
-# Thank you for using Creative Commons!
-#. On our site <http://creativecommons.org>, you chose to dedicate your
-#. work, "${title}", to the public domain. We're sending you this email to
-#. make sure that you intended to do this.
-#. If not, you may choose to simply ignore this email or forward it to
-#. pd@creativecommons.org to let us know that someone is abusing our system.
-#. If you did intend this public domain dedication, please click through
-#. on the link below. When you do, you will be given a summary screen and
-#. a final chance to confirm your public domain dedication:
-#. ${clickthrough_url}
-#. If you have any issues, let us know by emailing pd@creativecommons.org.
-#. Thank you for using Creative Commons!
-#, fuzzy
-msgctxt "license.pd_confirmation_email"
-msgid ""
-"On our site <http://creativecommons.org>, you chose to certify the work, "
-"\"${title}\", as being in the public domain. We're sending you \n"
-"this email to make sure that you intended to do this.\n"
-"\n"
-"If not, you may choose to simply ignore this email or forward it to\n"
-"pd@creativecommons.org to let us know that someone is abusing our system."
-"\n"
-"\n"
-"If you did intend to certify a work, please click through\n"
-"on the link below. When you do, you will be given a summary screen and\n"
-"a final chance to confirm your public domain certification:\n"
-"\n"
-"${clickthrough_url}\n"
-"\n"
-"\n"
-"If you have any issues, let us know by emailing pd@creativecommons.org.\n"
-"\n"
-"\n"
-"Thank you for using Creative Commons!"
-msgstr ""
-"Στην ιστοσελίδα μας <http://creativecommons.org>, επιλέγετε να "
-"παραχωρήσετε το \n"
-"έργο σας, \"${title}\", στο κοινό. Σας αποστέλλουμε αυτό το  email "
-"προκειμένου\n"
-"να επιβεβαιώσουμε ότι προσβλέπατε να πράξετε αυτό.\n"
-"\n"
-"Εάν όχι, μπορείτε να επιλέξετε απλά να αγνοήσετε αυτό το email ή να το "
-"προωθήσετε στο\n"
-"pd@creativecommons.org προκειμένου να μας ενημερώσετε ότι κάποιος "
-"κακομεταχειρίζεται το σύστημά μας.\n"
-"\n"
-"Εάν πράγματι σκοπεύατε σε αυτή τη δημόσια παραχώρηση παρακαλώ πατήστε \n"
-"στο παρακάτω link. Όταν το πράξετε θα σας εμφανιστεί μία περιληπτική "
-"οθόνη και\n"
-"μία τελευταία ευκαιρία να επιιβεβαιώσετε την παραχώρησή σας στα κοινά :\n"
-"\n"
-"${clickthrough_url}\n"
-"\n"
-"\n"
-"Εάν προκύψει το οποιοδήποτε θέμα, ενημερώστε μας στέλνοντας email "
-"pd@creativecommons.org.\n"
-"\n"
-"\n"
-"Ευχαριστούμε που χρησιμοποιήσατε τα Creative Commons!"
-
 # <h1>Creative Commons GNU ${license_code}</h1>
 # <p>The CC-GNU ${license_code} adds the Creative Commons' metadata and
 # Commons Deed to the Free Software Foundation's ${license_name_full}. The
@@ -2726,13 +2659,13 @@ msgstr "Αυστρία"
 #. Creative Commons, 171 Second Street, Suite 300, San Francisco, California,
 #. 94105, USA.
 #: c/engine/chooser_pages/nonweb_popup.pt:19
+#, fuzzy
 msgctxt "license.non_web_pd"
 msgid ""
-"This work is hereby released into the Public Domain. To view a copy of "
-"the public domain dedication, visit "
-"http://creativecommons.org/licenses/publicdomain/ or send a letter to "
-"Creative Commons, 171 Second Street, Suite 300, San Francisco, "
-"California, 94105, USA."
+"This work is in the Public Domain. To view a copy of the public domain "
+"certification, visit http://creativecommons.org/licenses/publicdomain/ or"
+" send a letter to Creative Commons, 171 Second Street, Suite 300, San "
+"Francisco, California, 94105, USA."
 msgstr ""
 "Δια του παρόντος το έργο αυτό είναι ελεύθερα προσιτό στο κοινό. "
 "Προκειμένου να δείτε ένα αντίγραφο της προσφοράς του έργου στα κοινά "
@@ -3460,10 +3393,11 @@ msgstr ""
 #. Now that you've chosen the public domain dedication, you must mark your work
 #. in the appropriate way.
 #: c/engine/pd/templates/publicdomain-4.pt:27
+#, fuzzy
 msgctxt "license.mark_pd"
 msgid ""
-"Now that you've chosen the public domain dedication, you must mark your "
-"work in the appropriate way."
+"Now that you've chosen the Public Domain Certification, you should mark "
+"the work in the appropriate way."
 msgstr ""
 "Τώρα που επιλέξατε την προσφορά στα κοινά, θα πρέπει να μαρκάρετε το έργο"
 " σας αναλόγως."
@@ -3487,56 +3421,6 @@ msgctxt "licenses.pretty_nc-sa"
 msgid "NonCommercial-ShareAlike"
 msgstr "Μη Εμπορική Χρήση - Παρόμοια Διανομή"
 
-# <h1>Confirm Your Public Domain Dedication</h1>
-# <p>
-# You have successfully confirmed your email address (<b>${email}</b>) for
-# dedicating <b>${title}</b>, a work copyrighted by
-# <b>${copyright_holder}</b>, to the public domain. To finalize this process,
-# please click the button below.
-# </p>
-# <div class="licensebox">
-# ${pd_deed_text}
-# </div>
-#. <h1>Confirm Your Public Domain Dedication</h1>
-#. <p>
-#. You have successfully confirmed your email address (<b>${email}</b>) for
-#. dedicating <b>${title}</b>, a work copyrighted by
-#. <b>${copyright_holder}</b>, to the public domain. To finalize this process,
-#. please click the button below.
-#. </p>
-#. <div class="licensebox">
-#. ${pd_deed_text}
-#. </div>
-#: c/engine/pd/templates/publicdomain-3.pt:40
-msgctxt "license.pd_confirm"
-msgid ""
-"<h1>Confirm Your Public Domain Dedication</h1>\n"
-"\n"
-"        <p>\n"
-"You have successfully confirmed your email address (<b>${email}</b>) for "
-"dedicating <b>${title}</b>, a work copyrighted by "
-"<b>${copyright_holder}</b>, to the public domain. To finalize this "
-"process, please click the button below.\n"
-"</p>\n"
-"\n"
-"        <div class=\"licensebox\">\n"
-"${pd_deed_text}\n"
-"        </div>"
-msgstr ""
-"<h1>Επιβεβαιώστε την προσφορά σας στα κοινά</h1>\n"
-"\n"
-"        <p>\n"
-"Έχετε επιβεβαιώσει επιτυχώς το email σας (<b>${email}</b>) για την "
-"προσφορά σας <b>${title}</b>, έργο προστατευόμενο από το νόμο περί "
-"πνευματικής ιδιοκτησίας <b>${copyright_holder}</b>, στα κοινά. "
-"Προκειμένου να ολοκληρώσετε τη διαδικασία αυτή παρακαλώ πατήστε το κουμπί"
-" παρακάτω .\n"
-"</p>\n"
-"\n"
-"        <div class=\"licensebox\">\n"
-"${pd_deed_text}\n"
-"        </div>"
-
 # After publishing your license, please consider <a
 # href="http://creativecommons.org/support/">supporting Creative Commons</a>.
 #. After publishing your license, please consider <a
@@ -3551,73 +3435,6 @@ msgstr ""
 "Μετά τη δημοσίευση της άδειάς σας παρακαλώ σκεφτείτε <a "
 "href=\"http://creativecommons.org/support/\">να υποστηρίξετε τα Creative "
 "Commons</a>."
-
-# <h1>Public Domain Dedication - Bad Confirmation</h1>
-# <p>
-# It seems you are trying to confirm your public domain dedication with
-# an incorrect confirmation code.</p>
-# This probably happened because you were not able to click through on
-# the URL sent in your email, and you copy and pasted the URL
-# incorrectly into your browser. Make sure to include <b>all
-# characters</b> from the URL sent to you.
-# </p>
-# If this is not what happened, or if you continue to have trouble
-# confirming your public domain dedication in any way, please <a
-# href="mailto:pd@creativecommons.org">let us know</a>.
-#. <h1>Public Domain Dedication - Bad Confirmation</h1>
-#. <p>
-#. It seems you are trying to confirm your public domain dedication with
-#. an incorrect confirmation code.</p>
-#. This probably happened because you were not able to click through on
-#. the URL sent in your email, and you copy and pasted the URL
-#. incorrectly into your browser. Make sure to include <b>all
-#. characters</b> from the URL sent to you.
-#. </p>
-#. If this is not what happened, or if you continue to have trouble
-#. confirming your public domain dedication in any way, please <a
-#. href="mailto:pd@creativecommons.org">let us know</a>.
-#: c/engine/pd/templates/publicdomain-3.pt:93
-#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:59
-msgctxt "license.pd_bad_confirmation"
-msgid ""
-"<h1>Public Domain Dedication - Bad Confirmation</h1>\n"
-"\n"
-"<p>\n"
-"It seems you are trying to confirm your public domain dedication with\n"
-"an incorrect confirmation code.</p>\n"
-"\n"
-"<p>\n"
-"This probably happened because you were not able to click through on\n"
-"the URL sent in your email, and you copy and pasted the URL\n"
-"incorrectly into your browser. Make sure to include <b>all\n"
-"characters</b> from the URL sent to you.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"If this is not what happened, or if you continue to have trouble\n"
-"confirming your public domain dedication in any way, please <a\n"
-"href=\"mailto:pd@creativecommons.org\">let us know</a>.\n"
-"</p>"
-msgstr ""
-"<h1>Προσφορά στα Κοινά - Αποτυχημένη Επιβεβαίωση</h1>\n"
-"\n"
-"<p>\n"
-"Φαίνεται ότι προσπαθείτε να επιβεβαιώσετε την προσφορά σας στα κοινά με\n"
-"λάθος κωδικό επιβεβαίωσης.</p>\n"
-"\n"
-"<p>\n"
-"Αυτό πιθανώς συνέβη επειδή δε μπορούσατε να κλικάρετε στο T\n"
-" URL που εστάλη στο email σας, και αντιγράψατε και επικολλήσατε το URL\n"
-"λανθασμένα στο   browser σας. Σιγουρευτείτε ότι συμπεριλάβατε <b>all\n"
-"τους χαρακτήρες</b> από το URL που σας εστάλη.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Εάν δε συνέβη αυτό ή εάν συνεχίζετε να αντιμετωπίζετε πρόβλημα \n"
-"που να αφορά την επιβεβαίωση της προσφοράς σας στα κοινά με οποιονδήποτε "
-"τρόπο, παρακαλώ <a\n"
-"href=\"mailto:pd@creativecommons.org\">ενημερώστε μας</a>.\n"
-"</p>"
 
 # You must attribute the
 # work in the manner specified by the author or licensor.
@@ -4704,6 +4521,13 @@ msgstr "English (Singapore)"
 msgid "Allow Derivative Works"
 msgstr "Επιτρέπονται παράγωγα έργα"
 
+#. "Rights other\n"
+#. "\t      persons may have either in the work itself or in how the\n"
+#. "\t      work is used, such\n"
+#. "\t      as <a
+#. href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\"
+#. class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy\n"
+#. "\t      rights."
 #, fuzzy
 msgctxt "deed.publicity_rights"
 msgid ""
@@ -5045,11 +4869,11 @@ msgstr ""
 #. Default: ""
 #. "The URL where people can find more information about \n"
 #. "\tthe creator or rights holder."
-#: c/engine/zero/templates/waiver.pt:126
+#: c/engine/zero/templates/waiver.pt:126 c/engine/zero/templates/waiver.pt:124
 msgctxt "license.zero.your_url_help"
 msgid ""
-"The URL where people can find more information about the creator or "
-"rights holder."
+"The URL where people can find more information about \n"
+"the work or the person using CC0."
 msgstr ""
 
 #. Default: "Country"
@@ -5061,9 +4885,9 @@ msgstr ""
 #. Default: ""
 #. "Jurisdiction where the work is being \n"
 #. "\toffered from under CC0."
-#: c/engine/zero/templates/waiver.pt:166
+#: c/engine/zero/templates/waiver.pt:166 c/engine/zero/templates/waiver.pt:164
 msgctxt "license.zero.country_help"
-msgid "Jurisdiction where the work is being offer from under CC0."
+msgid "Jurisdiction from which the work is being offered under CC0."
 msgstr ""
 
 #. Default: ""
@@ -5251,25 +5075,19 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-2.pt:20
 msgctxt "license.pd.intro_1"
 msgid ""
-"You have selected the Public Domain Dedication.  The Public Domain\n"
-"    Dedication should only be used to certify a work that is already\n"
-"    in the public domain.  Creative Commons does not recommend you use\n"
-"    the Public Domain Dedication for dedicating a work still protected\n"
-"    by copyright to the public domain.  To dedicate a work to the\n"
-"    public domain, use <a href=\"/license/zero/\">CC0</a>.  Please note\n"
-"    that the Public Domain Dedication may not be valid outside of the\n"
-"    United States."
-msgstr ""
-
-#: c/engine/pd/templates/publicdomain-2.pt:31
-msgctxt "license.pd.intro_2"
-msgid ""
-"Please fill out the information to certify that a work is in the\n"
-"    public domain.  Creative Commons will use the information to email\n"
-"    you and oureslves a public domain receipt for the certification."
+"You have selected the Public Domain Certification.  The Public\n"
+"    Domain Certification should only be used to certify a work that is\n"
+"    already in the public domain.  Creative Commons does not recommend\n"
+"    you use the Public Domain Certification for dedicating a work\n"
+"    still protected by copyright to the public domain.  To dedicate a\n"
+"    work to the public domain, consider\n"
+"    using <a href=\"/license/zero/\">CC0</a>.  Please note that if you\n"
+"    use the Public Domain Certification to dedicate a work to the\n"
+"    public domain, it may not be valid outside of the United States."
 msgstr ""
 
 #: c/engine/pd/templates/publicdomain-2.pt:37
+#: c/engine/pd/templates/publicdomain-2.pt:32
 msgctxt "license.pd.intro_3"
 msgid ""
 "Once you're done filling this out, you will still have the\n"
@@ -5334,8 +5152,8 @@ msgid ""
 "    identified and want to certify other works that are already in the\n"
 "    public domain.  You will also be relinquishing any rights in the\n"
 "    work you may have under copyright.  Creative Commons does not\n"
-"    recommend this tool for use with works - consider using CC0\n"
-"    instead."
+"    recommend this tool for use with works under copyright - \n"
+" consider using CC0 instead."
 msgstr ""
 
 #: c/engine/zero/templates/index.pt:59
@@ -5357,5 +5175,56 @@ msgid ""
 "\t  avoid infringing third party rights, you should consult with\n"
 "\t  your legal advisor if you are unsure whether you have all\n"
 "\t  the rights you need to distribute the work."
+msgstr ""
+
+#: c/engine/zero/templates/waiver.pt:83
+msgctxt "license.zero.metadata_help"
+msgid ""
+"<p>\n"
+"\t  The information is embedded in a software readable format.\n"
+"\t  This allows search engines to index additional information\n"
+"\t  about your work.\n"
+"\t</p>\n"
+"\t<p>\n"
+"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
+"\t    information</a> on Creative Commons metadata is available if\n"
+"\t  you want to find out more.\n"
+"\t</p>"
+msgstr ""
+
+#: c/engine/pd/templates/publicdomain-3.pt:65
+msgctxt "deed.pd.title_plain"
+msgid ""
+"Copyright-Only Dedication (based on United States law) \n"
+"or Public Domain Certification"
+msgstr ""
+
+#: c/engine/pd/templates/publicdomain-2.pt:58
+msgctxt "util.author"
+msgid "Author"
+msgstr ""
+
+#: c/engine/pd/templates/publicdomain-3.pt:118
+msgctxt "license.pdc.confirm_reading"
+msgid ""
+"I have read and understand the terms and intended legal\n"
+"\t    effect of this tool, and hereby voluntarily elect to apply it to\n"
+"\t    this work."
+msgstr ""
+
+#: c/engine/pd/templates/publicdomain-3.pt:56
+msgctxt "license.pd.confirm_title"
+msgid "Confirm Your Public Domain Certification"
+msgstr ""
+
+#: c/engine/publicdomain/templates/index.pt:34
+#: c/engine/publicdomain/templates/index.pt:51
+msgctxt "util.use_this_tool"
+msgid "Use this tool"
+msgstr ""
+
+#: c/engine/publicdomain/zero_templates/deed.pt:67
+msgctxt "deed.zero.other_rights"
+msgid "In no way are any of the following rights affected by CC0:"
 msgstr ""
 
