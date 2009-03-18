@@ -23,13 +23,12 @@ from setuptools import setup, find_packages
 setup(
     name = "cc_i18ntools",
     version = "0.1",
-    packages = find_packages('.'),
-    
+    packages = find_packages('.'),    
+
     # scripts and dependencies
     install_requires = ['setuptools',
                         'Babel>0.99',
                         ],
-
 
     entry_points = {'console_scripts' : 
                     ['po2cc = cc_i18ntools.po2cc:cli',
@@ -46,10 +45,5 @@ setup(
     description = '',
     license = 'MIT',
     url = 'http://translate.creativecommons.org',
-
-    # Dependency links
-    dependency_links = [
-        'http://labs.creativecommons.org/~paulproteus/eggs/Babel-1.0dev-py2.5.egg',
-    ],
 
     )
