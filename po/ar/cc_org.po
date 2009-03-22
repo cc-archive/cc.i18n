@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2009-03-10 21:34-0700\n"
-"PO-Revision-Date: 2009-03-21 15:16+0000\n"
+"PO-Revision-Date: 2009-03-22 07:17+0000\n"
 "Last-Translator: ziad maraqa <zmaraqa@tagi.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -248,17 +248,15 @@ msgid ""
 " And hidden in the tag is \"Machine-Readable Code\" — metadata — that "
 "will enable others to find your software."
 msgstr ""
-" وإليك كيفية CC- جنو $ () يعمل license_code : يقوم المستخدم بالتغط على "
-"المشاع الإبداعي تحصل على - جنو license_code $ () "
-"\"<ahref=\"/licenses/${license_code}/${version_title}/\"> العموم سند </a>"
-" \"-- وهي حقوق للقراءة نسخة من الترخيص. من يستطيع ان ربط "
-"ل\"<ahref=\"http://www.gnu.org/licenses/old-"
-"licenses/${license_name_lower}.html\"> القانونية قانون </ أ>\" -- النص "
-"الكامل للحكومة الوحدة الوطنية $ () license_code ، في الانجليزية "
-"والبرتغالية "
-"<ahref=\"/licenses/${license_code}/${version_title}/legalcode.pt\"> </a> "
-"وكانت مخبأة في البطاقة هو \"المقروءة آليا قانون\" -- الفوقية -- التي تمكن"
-" الآخرين للوصول إلى برامجك."
+"هنا كيفية CC-GNU ${license_code} : يستخدم يقوم المستخدم بالتغط على المشاع "
+"الإبداعي لتحصل على CC-GNU ${license_code} \"<a "
+"href=\"/licenses/${license_code}/${version_title}/\">Commons Deed</a>\" — a "
+"human readable version of the license. From that she can link to \"<a "
+"href=\"http://www.gnu.org/licenses/old-"
+"licenses/${license_name_lower}.html\">Legal Code</a>\" — the full text of the "
+"GNU ${license_code}, in English and <a href=\"/licenses/${license_code}/${ver"
+"sion_title}/legalcode.pt\">Portuguese</a>. And hidden in the tag is \"Machine-"
+"Readable Code\" — metadata — that will enable others to find your software."
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:46
 msgctxt "deed.bsd_notice"
@@ -298,18 +296,17 @@ msgid ""
 "<p>Display the icon on any site you offer your software for download "
 "using the following markup:</p>"
 msgstr ""
-"<h1>Mark Software</h1>\n"
-"\n"
-"<p>Display the icon on any site you offer your software for download "
-"using the following markup:</p>"
+"<h1>الاشارة الى البرنامج</h1>\r\n"
+"\r\n"
+"<p>ظهور المؤشر على اي موقع تعرض برنامجك للتنزيل الاشارة التالية</p>"
 
 msgctxt "license.work_type_licensed"
 msgid ""
 "This ${work_type} is licensed under a <a rel=\"license\" "
 "href=\"${license_url}\">Creative Commons ${license_name} License</a>."
 msgstr ""
-"This ${work_type} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+"This ${work_type} مرخص على <a rel=\"license\" href=\"${license_url}\">المشاع "
+"الابداعي ${license_name} License</a>."
 
 msgctxt "license.rdfa_licensed_no_title"
 msgid ""
@@ -317,16 +314,15 @@ msgid ""
 "rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
 "License</a>."
 msgstr ""
-"This ${work_type} by ${work_author} is licensed under a <a "
-"rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
-"License</a>."
+"This ${work_type} by ${work_author} is licensed under a <a rel=\"license\" "
+"href=\"${license_url}\">المشاع الابداعي${license_name} License</a>."
 
 #: c/engine/chooser_pages/gpl.pt:46 c/engine/chooser_pages/lgpl.pt:47
 msgctxt "license.human-readable_commons_deed"
 msgid ""
 "Human-Readable<br />\n"
 "Commons Deed"
-msgstr " الانسان العادي"
+msgstr " الانسان العادي<br />\r\n"
 
 #: c/engine/macros_templates/support.pt:93
 #: c/engine/macros_templates/support.pt:97
@@ -355,15 +351,17 @@ msgid ""
 "<p>On certain conditions, that is. There are two flavors of the Sampling "
 "license. Pick the one that reflects your creative style:</p>"
 msgstr ""
-"<ع> أخذ العينات تراخيص تسمح لك دعوة أشخاص آخرين لاستخدام جزء من عملكم "
-"وجعلها جديدة. </ ع> \\ ن \\ ن <p>على سبيل المثال : </ ع> \\ ن \\ ن <ul>\\"
-" ن <li>اتخاذ عينة من اغنياتك وإدراجه في حد ذاتها. </ لى> \\ ن "
-"<li>لاستخدام لقطات من الفيلم الخاص بك. </ لى> \\ ن <li>اتخاذ قطعة من "
-"الصورة الخاصة بك ووضعها في مجمعة. </ لى> \\ ن </ خدام> \\ ن \\ ن "
-"<p>التفكير في الأمر كوسيلة لمكافأة الناس لتحويل عملك إلى شيء لم يكن من "
-"قبل. </ ع> \\ ن \\ ن <p>وفي ظروف معينة ، هو أن. وهناك اثنين من النكهات من"
-" أخذ العينات ترخيص. اختيار واحد أن يعبر عن النمط الخاص بك الإبداعية : </ "
-"ع>"
+"<p>أخذ العينات تراخيص تسمح لك دعوة أشخاص آخرين لاستخدام جزء من عملكم وجعلها "
+"جديدة. </p>\r\n"
+"\r\n"
+"<p>على سبيل المثال : </p>\r\n"
+"\r\n"
+"< li>خاذ عينة من اغنياتك وإدراجه في حد ذاتها. </ لى> \\ ن <li>لاستخدام لقطات "
+"من الفيلم الخاص بك. </ لى> \\ ن <li>اتخاذ قطعة من الصورة الخاصة بك ووضعها في "
+"مجمعة. </ لى> \\ ن </ خدام> \\ ن \\ ن <p>التفكير في الأمر كوسيلة لمكافأة الناس "
+"لتحويل عملك إلى شيء لم يكن من قبل. </ ع> \\ ن \\ ن <p>وفي ظروف معينة ، هو أن. "
+"وهناك اثنين من النكهات من أخذ العينات ترخيص. اختيار واحد أن يعبر عن النمط "
+"الخاص بك الإبداعية : </ ع>"
 
 msgctxt "license.pd_dedication_email"
 msgid ""
@@ -389,21 +387,23 @@ msgid ""
 "For more information, please see\n"
 "<http://creativecommons.org/licenses/publicdomain/>."
 msgstr ""
-"هذا هو سجل من الملك العام تفان. \\ ن \\ ن على $ (sysdate) ، "
-"(copyright_holder) دولار مخصصة لالمشاع \\ ن العمل \"$ (عنوان)\". قبل "
-"اتخاذ هذا التفاني ، copyright_holder $ () \\ ن أن تمثل $ () "
-"copyright_holder حقوق التأليف والنشر المملوكة للجميع في \\ ن عمل. من خلال"
-" جعل تفاني ، $ () copyright_holder قدم الفعل العلني \\ ن من التخلي إلى "
-"الأبد من جميع الحقوق والحاضر والمستقبل تحت \\ ن قانون حق المؤلف ، أو ما "
-"إذا كان على عاتق قادة الوحدات ، في \"$ (عنوان)\". \\ ن \\ ن $ () "
-"copyright_holder تفهم أن هذه التخلي عن جميع الحقوق \\ ن ويشمل التخلي عن "
-"جميع الحقوق لإنفاذ (عن طريق الدعوى أو \\ ن على خلاف ذلك) هذه حقوق التأليف"
-" والنشر في العمل. \\ ن \\ ن $ () copyright_holder أن يعترف ، مرة واحدة "
-"وضعت في المجال العام ، \\ ن \"$ (عنوان)\" قد يكون بحرية مستنسخة ، وزعت ، "
-"المحالة ، وتستخدم ، \\ ن تعديل ، والبناء عليها ، أو استغلالها من قبل أي "
-"شخص لأية \\ ن الغرض ، تجارية أو غير تجارية ، وبأي شكل من الأشكال ، بما في"
-" ذلك عن طريق \\ ن الأساليب التي لم يتم اختراعها أو تصور. \\ ن \\ ن لمزيد "
-"من المعلومات ، يرجى الرجوع إلى \\ ن "
+"هذا هو سجل من الملك العام تفان. \r\n"
+"\r\n"
+" على $ (sysdate) ، (copyright_holder) دولار مخصصة لالمشاع \\ ن العمل \"$ "
+"(عنوان)\". قبل اتخاذ هذا التفاني ، copyright_holder $ () /n أن تمثل $ () "
+"copyright_holder حقوق التأليف والنشر المملوكة للجميع في \\ ن عمل. من خلال جعل "
+"تفاني ، $ () copyright_holder قدم الفعل العلني \\ ن من التخلي إلى الأبد من "
+"جميع الحقوق والحاضر والمستقبل تحت \\ ن قانون حق المؤلف ، أو ما إذا كان على "
+"عاتق قادة الوحدات ، في \"$ (عنوان)\".\r\n"
+"\r\n"
+" $ () copyright_holder تفهم أن هذه التخلي عن جميع الحقوق \\ ن ويشمل التخلي عن "
+"جميع الحقوق لإنفاذ (عن طريق الدعوى أو \\ ن على خلاف ذلك) هذه حقوق التأليف "
+"والنشر في العمل. \\ ن \\ ن $ () copyright_holder أن يعترف ، مرة واحدة وضعت في "
+"المجال العام ، \\\r\n"
+" \"$ (عنوان)\" قد يكون بحرية مستنسخة ، وزعت ، المحالة ، وتستخدم ، \\ ن تعديل ، "
+"والبناء عليها ، أو استغلالها من قبل أي شخص لأية /n الغرض ، تجارية أو غير "
+"تجارية ، وبأي شكل من الأشكال ، بما في ذلك عن طريق \\ ن الأساليب التي لم يتم "
+"اختراعها أو تصور. \\ ن \\ ن لمزيد من المعلومات ، يرجى الرجوع إلى /n "
 "<http://creativecommons.org/licenses/publicdomain/>."
 
 msgctxt "lang.bg"
@@ -630,7 +630,7 @@ msgstr "حرية إعادة توزيع نسخ حتى تتمكن من مساعد�
 #: c/engine/pd/templates/publicdomain-4.pt:47
 msgctxt "license.mark_mp3"
 msgid "Mark an mp3, <a href=\"/technology/mp3\">follow these guidelines</a>."
-msgstr "الرقم mp3 ، <ahref=\"/technology/mp3\"> اتباع هذه المبادئ التوجيهية </ أ>."
+msgstr "الرقم mp3 ، <ahref=\"/technology/mp3\"> اتباع هذه المبادئ التوجيهية </a>."
 
 #: c/engine/licenses/devnations_templates/deed.pt:40
 #: c/engine/licenses/mitbsd_templates/deed.pt:33
@@ -645,7 +645,9 @@ msgctxt "license.machine-readable_digital_code"
 msgid ""
 "Machine-Readable<br />\n"
 "Digital Code"
-msgstr "المقروءة آليا <br/> \\ ن قانون الرقمي"
+msgstr ""
+"المقروءة آليا <br />\r\n"
+" قانون الرقمي"
 
 msgctxt "util.copyright_holders_name"
 msgid ""
@@ -655,9 +657,9 @@ msgid ""
 " return false;\">copyright</a> holder's name"
 msgstr ""
 "<a href=\"/jargon/copyright\" class=\"jargon\" "
-"onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', "
-"'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
-" return false;\">copyright</a> holder's name"
+"onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', 'width=300,h"
+"eight=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=ye"
+"s,menubar=no,status=yes'); return false;\">حق المؤلف</a> اسم ملك الحق"
 
 #: c/engine/macros_templates/metadata.pt:58
 msgctxt "util.attribute_to_url"
@@ -879,12 +881,12 @@ msgid ""
 "entire copyright to the public without condition. This grant is permanent"
 " and irreversible.</p>"
 msgstr ""
-"<p>الاختيار الخاص بك وتقترح تريد أن تكرس لعملك الميدان العام ، مجلس "
-"العموم من المعلومات والتعبير حيث لا شيء والمملوكة للجميع هو مسموح به. </ "
-"ع> \\ ن \\ ن <p>العامة في النطاق الإخلاص ليست رخصة. باستخدام أنها ، "
-"ببساطة كنت لا اقامة الاستثناءات لحقوق التأليف والنشر الخاصة بك ؛ لكم منحة"
-" الخاص بك كامل حقوق التأليف والنشر إلى الجمهور دون قيد أو شرط. هذه المنحة"
-" هي ودائمة لا رجعة فيها. </ ع>"
+"<p>الاختيار الخاص بك وتقترح تريد أن تكرس لعملك الميدان العام ، مجلس العموم "
+"من المعلومات والتعبير حيث لا شيء والمملوكة للجميع هو مسموح به.</p>\r\n"
+"\r\n"
+"<p>النطاق العام ليس رخصة استخداما ، ببساطة كنت لا اقامة الاستثناءات لحقوق "
+"التأليف والنشر الخاصة بك ؛ لكم منحة الخاص بك كامل حقوق التأليف والنشر إلى "
+"الجمهور دون قيد أو شرط. هذه المنحة هي ودائمة لا رجعة فيها. </p>"
 
 #: c/engine/macros_templates/metadata.pt:30
 msgctxt "util.Audio"
@@ -1060,7 +1062,7 @@ msgid ""
 "href=\"${license_url}\">Creative Commons ${license_name} License</a>."
 msgstr ""
 "${ بمبلغ)) (work_author هو المرخص لها بموجب <arel=\"license\" "
-"href=\"${license_url}\"> الإبداعي $ () license_name الترخيص </ أ>."
+"href=\"${license_url}\"> المشاع الإبداعي $ () license_name الترخيص </a>."
 
 msgctxt "util.description"
 msgid "description"
@@ -1108,12 +1110,10 @@ msgid ""
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">add this text</a> to your work."
 msgstr ""
-"مارك وثيقة من وثائق ليس لها موقع على الشبكة ، <أ href = \"غير قافزة على "
-"شبكة الإنترنت؟ url_vars $ ()\" onclick = \"window.open (' غير قافزة على "
-"شبكة الإنترنت؟ url_vars $ () '،' html_help '،' عرض = 400 ، الطول = 350 ، "
-"scrollbars = نعم ، كبير ثانية = نعم ، شريط الأدوات = لا ، لا أدلة = ، "
-"موقع = نعم ، menubar = لا ، نعم حالة = ') ؛ عودة كاذبة ؛\"> إضافة هذا "
-"النص </ أ> الى عملكم."
+"توضع الاشارة على الوثيقة و ليس الموقع ، <a href=\"non-web-popup?${url_vars}\" "
+"onclick=\"window.open('non-web-popup?${url_vars}', 'html_help', 'width=400,he"
+"ight=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes"
+",menubar=no,status=yes');return false;\"> إضافة هذا النص </a> الى عملكم."
 
 msgctxt "char.nc_description"
 msgid ""
@@ -1121,8 +1121,8 @@ msgid ""
 " return, licensees may not use the work for commercial purposes — unless "
 "they get the licensor's permission."
 msgstr ""
-"المرخص تصاريح لنسخة أخرى ، وتوزيع ويحيل العمل. وفي المقابل ، لا يجوز "
-"استخدام المرخص لهم العمل لأغراض تجارية -- ما لم تحصل على إذن من المرخص."
+"المرخص يصرح  لنسخة أخرى ، وتوزيع ويحيل العمل. وفي المقابل ، لا يجوز استخدام "
+"المرخص لهم العمل لأغراض تجارية -- ما لم تحصل على إذن من المرخص."
 
 msgctxt "lang.es_MX"
 msgid "Spanish (MX)"
@@ -1234,11 +1234,11 @@ msgid ""
 "ShareAlike</a> license or simply the <a href=\"/license/results-"
 "one?license%5fcode=by\">Attribution</a> license.</p>"
 msgstr ""
-"<p>إذا كنت تريد <strong></ قوي> دعوة الناس إلى جعل أي <strong></ قوي> "
-"إعادة استخدام التجاري من عملكم -- تحويلية أو لا -- هل ينبغي أن تنظر إما "
-"<أ href = \" / ترخيص / النتائج واحدة؟ ترخيص 5fcode ٪ = ٪ من جانب 2dsa \">"
-" تحميل - ShareAlike </ أ> ترخيص أو مجرد <ahref=\"/license/results-"
-"one؟license٪5fcode=by\"> تحميل </ أ > ترخيص. </ ع>"
+"<p>إذا كنت تريد <strong></ قوي> دعوة الناس إلى جعل أي <strong></ قوي> إعادة "
+"استخدام التجاري من عملكم -- تحويلية أو لا -- هل ينبغي أن تنظر إما <أ href = "
+"\" / ترخيص / النتائج واحدة؟ ترخيص 5fcode ٪ = ٪ من جانب 2dsa \"> تحميل - "
+"ShareAlike </ أ> ترخيص أو مجرد <ahref=\"/license/results-"
+"one؟license٪5fcode=by\"> تحميل </a> ترخيص. .</p>"
 
 msgctxt "lang.sv"
 msgid "Swedish"
@@ -1340,8 +1340,8 @@ msgid ""
 "${license_name_full}, <a href=\"http://www.gnu.org/\">Free Software "
 "Foundation</a>"
 msgstr ""
-"$ () license_name_full ، <ahref=\"http://www.gnu.org/\"> مؤسسة البرمجيات "
-"الحرة </ أ>"
+"$ () license_name_full ، <ahref=\"http://www.gnu.org/\"> مؤسسة البرمجيات الحرة "
+"</a>"
 
 msgctxt "license.devnations_licensed"
 msgid ""
@@ -1713,9 +1713,9 @@ msgid ""
 " existing works under it. No works are <em>automatically</em> put under "
 "the new license, however."
 msgstr ""
-"<ahref=\"${current_version_url}\">  النسخة الجديدة</a> من هذا الترخيص "
-"المتاحة. يجب عليك استخدام لأنها أعمال جديدة ، وكنت قد ترغب لتعمل تحت رخصة"
-" القائمة. هي لا تعمل تلقائيا <em></ طب الطوارئ> تحت رخصة جديدة ، ولكن."
+"<a href=\"${current_version_url}\">  النسخة الجديدة</a> من هذا الترخيص "
+"المتاحة. يجب عليك استخدام  لأعمال جديدة ، وكنت قد ترغب باعادة ترخيص لتعمل "
+"تحت رخصة القائمة. هي لا تعمل  <em>تلقائيا</ </em> تحت رخصة جديدة ، ولكن."
 
 #: c/engine/chooser_pages/index.pt:209
 msgctxt "licenses.pretty_sampling+"
@@ -1955,20 +1955,20 @@ msgid ""
 "We have updated the version of your license to the most recent one "
 "available in your jurisdiction."
 msgstr ""
-"We have updated the version of your license to the most recent one "
-"available in your jurisdiction."
+"لقد تم تحديث هذة النسخة على رخصتك بناء على اخر التعديلات على تشريعكم "
+"القانوني"
 
 msgctxt "country.cz"
 msgid "Czech Republic"
-msgstr "Czech Republic"
+msgstr "جمهورية التشيك"
 
 msgctxt "licenses.pretty_nd-nc"
 msgid "NoDerivs-NonCommercial"
-msgstr "NoDerivs-NonCommercial"
+msgstr "لا اشتقاق- غير تجاري"
 
 msgctxt "licenses.pretty_by-nc-sa"
 msgid "Attribution-NonCommercial-ShareAlike"
-msgstr "Attribution-NonCommercial-ShareAlike"
+msgstr "المشاركة على قدم المساواة-غير تجاري-نسب العمل"
 
 msgctxt "country.fr"
 msgid "France"
@@ -2049,7 +2049,7 @@ msgstr ""
 
 msgctxt "lang.sl"
 msgid "Slovenian"
-msgstr "Slovenian"
+msgstr "سلوفينيا"
 
 msgctxt "util.copyright"
 msgid "copyright"
@@ -2081,7 +2081,7 @@ msgstr ""
 
 msgctxt "jswidget.Prohibit_Commercial_Use"
 msgid "Prohibit Commercial Use"
-msgstr "Prohibit Commercial Use"
+msgstr "يحظر الاستخدام التجاري"
 
 #: c/engine/chooser_pages/results.pt:56
 msgctxt "license.what_to_do_next"
