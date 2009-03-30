@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-03-10 21:36-0700\n"
-"PO-Revision-Date: 2009-03-10 21:36-0700\n"
+"POT-Creation-Date: 2009-03-30 16:49-0400\n"
+"PO-Revision-Date: 2009-03-30 16:49-0400\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: cs <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -13,7 +13,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 1.0dev\n"
+"Generated-By: Babel 1.0b-cc-2009-03-17\n"
 
 msgid "country.nz"
 msgstr "Nový Zéland"
@@ -158,7 +158,7 @@ msgstr ""
 
 #: c/engine/chooser_pages/index.pt:77
 msgid "api.derivatives"
-msgstr "Allow modifications of your work?"
+msgstr "Povolit vytváření odvozených děl?"
 
 msgid "deed.fair_use.jp"
 msgstr ""
@@ -189,8 +189,9 @@ msgstr ""
 " distribution and reproduce them in documentation for binary "
 "distributions."
 
+# Nezasahujte do díla
 msgid "licenses.pretty_nd"
-msgstr "NoDerivs"
+msgstr "Nezasahujte do díla"
 
 msgid "jswidget.Updated_license_version_generic"
 msgstr ""
@@ -308,7 +309,7 @@ msgstr "Ireland"
 
 #: c/engine/macros_templates/engine.pt:111
 msgid "license.License_Your_Work"
-msgstr "License Your Work"
+msgstr "Licence pro vaše dílo"
 
 # Uveďte autora-Neužívejte komerčně
 msgid "licenses.pretty_by-nc"
@@ -405,11 +406,10 @@ msgid "lang.en_GB"
 msgstr "English (GB)"
 
 #: c/engine/licenses/standard_templates/deed.pt:69
-#, fuzzy
 msgid "deed.moralrights-remix.us"
 msgstr ""
-"Apart from the remix rights granted under this license, nothing in this "
-"license impairs or restricts the author's moral rights."
+"Bez ohledu na možnost upravovat toto dílo, osobnostní práva autora nejsou"
+" touto licencí dotčena."
 
 msgid "lang.pl"
 msgstr "Polish"
@@ -569,7 +569,7 @@ msgstr "Romania"
 
 #: c/engine/chooser_pages/index.pt:191
 msgid "license.what_you"
-msgstr "What You Can Do Here"
+msgstr "Jak to funguje"
 
 msgid "jargon.copyright_date_description"
 msgstr ""
@@ -683,17 +683,17 @@ msgstr ""
 #: c/engine/chooser_pages/partner/index.pt:50
 msgid "license.q2"
 msgstr ""
-"<strong>Allow commercial uses of your work?</strong> (<a "
+"<strong>Povolit komerční využití?</strong> (<a "
 "href=\"/characteristic/nc?lang=${lang}\" "
 "onclick=\"window.open('/characteristic/nc?lang=${lang}', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">more info</a> <a href=\"/characteristic/nc?lang=${lang}\" "
+" false;\">více informací</a> <a href=\"/characteristic/nc?lang=${lang}\" "
 "onclick=\"window.open('/characteristic/nc?lang=${lang}', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+"alt=\"více informací\" border=\"0\" /></a>)"
 
 #: c/engine/chooser_pages/partner/index.pt:61
 msgid "license.q3"
@@ -721,7 +721,7 @@ msgstr ""
 #: c/engine/chooser_pages/index.pt:178
 #: c/engine/chooser_pages/partner/index.pt:114
 msgid "license.Select_a_License"
-msgstr "Select a License"
+msgstr "Zvolte licenci"
 
 msgid "license.rdfa_licensed"
 msgstr ""
@@ -935,21 +935,20 @@ msgstr ""
 " Developing Nations license</a>."
 
 #: c/engine/chooser_pages/index.pt:32
-#, fuzzy
 msgid "license.what"
 msgstr ""
-"With a Creative Commons license, <strong>you keep your copyright</strong>"
-" but allow people to <a href=\"/learn/licenses/fullrights\">copy and "
-"distribute your work</a> provided they <a "
-"href=\"/characteristic/by?lang=${lang}\" "
+"Prostřednictvím Creative Commons licence <strong>si ponecháte autorská "
+"práva ke svému dílu</strong> ale umožníte ostatním <a "
+"href=\"/learn/licenses/fullrights\">šířit a kopírovat toto dílo</a>, "
+"pokud <a href=\"/characteristic/by?lang=${lang}\" "
 "onclick=\"window.open('/characteristic/by?lang=${lang}', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">give you credit</a> — and only on the conditions you specify "
-"here. For those new to Creative Commons licensing, we've prepared <a "
-"href=\"/about/think\">a list of things to think about</a>. If you want to"
-" offer your work with no conditions, choose the <a "
-"href=\"publicdomain-2\">public domain</a>."
+" false;\">uvedou autora</a> a  budou akceptovat  zde určené podmínky "
+"přístupu k autorským dílům. Pro nové uživatele Creative Commons licence "
+"jsme připravili <a href=\"/about/think\">seznam podmínek</a>, za jakých "
+"můžete šířit své dílo dále. Jestliže chcete poskytnout vaše dílo zcela "
+"volně, zvolte jednu z <a href=\"publicdomain-2\">public domain</a>."
 
 msgid "char.by_brief.jp"
 msgstr "You must give the original author and the performer credit."
@@ -1066,7 +1065,7 @@ msgid "license.you_may_proceed"
 msgstr "You may now <a href=\"${processed_exit_url}\">proceed</a>"
 
 msgid "char.nc_title"
-msgstr "Noncommercial"
+msgstr "Neužívejte dílo komerčně"
 
 #: c/engine/chooser_pages/index.pt:204
 msgid "licenses.pretty_publicdomain"
@@ -1240,7 +1239,7 @@ msgid "jswidget.Remix"
 msgstr "Remix"
 
 msgid "char.nc_brief"
-msgstr "You may not use this work for commercial purposes."
+msgstr "Toto dílo nesmíte využít pro komerční účely."
 
 #: c/engine/macros_templates/metadata.pt:72
 msgid "util.more_permissions_url"
@@ -1489,16 +1488,17 @@ msgstr "Share Music"
 
 #: c/engine/chooser_pages/index.pt:122
 msgid "char.sa_title"
-msgstr "Share Alike"
+msgstr "Zachovejte licenci"
 
 #: c/engine/chooser_pages/index.pt:193
 msgid "license.explain"
 msgstr ""
-"Creative Commons helps you publish your work online while letting others "
-"know exactly what they can and can't do with your work. When you choose a"
-" license, we provide you with tools and tutorials that let you add "
-"license information to your own site, or to one of several free hosting "
-"services that have incorporated Creative Commons."
+"Creative Commons (CC) licence umožňují držitelům autorských práv "
+"publikovat svoje dílo na internetu a zároveň specifikovat podmínky pro "
+"další šíření či úpravu vydaného díla. Po zvolení typu CC licence, zde "
+"najdete nástroje a návody, jak si přidat CC licenci do vašich stránek, "
+"případně jaké další volně dostupné internetové služby mají v sobě "
+"zabudovanou CC licenci."
 
 #: c/engine/pd/templates/publicdomain-4.pt:27
 #, fuzzy
@@ -1538,9 +1538,9 @@ msgstr "Text"
 #: c/engine/licenses/sampling_templates/deed.pt:41
 msgid "char.by_brief"
 msgstr ""
-"máte povinnost uvést údaje o autorovi a tomto díle způsobem, který "
+"Máte povinnost uvést údaje o autorovi a tomto díle způsobem, který "
 "stanovil autor nebo poskytovatel licence (ne však tak, aby vznikl dojem, "
-"že podporují Vás nebo způsob, jakým dílo užíváte)"
+"že podporují Vás nebo způsob, jakým dílo užíváte)."
 
 msgid "deed.lgpl_source"
 msgstr ""
@@ -1657,11 +1657,11 @@ msgstr "Portugese"
 #: c/engine/licenses/devnations_templates/deed.pt:51
 #: c/engine/licenses/mitbsd_templates/deed.pt:60
 #: c/engine/licenses/standard_templates/deed.pt:60
-#, fuzzy
 msgid "deed.permission"
 msgstr ""
-"Všechna výše uvedená omezení mohou být zrušena, pokud k tomu získáte "
-"souhlas nositele autorských práv."
+"Všechna výše uvedené podmínky mohou být <a href=\"#\" id=\"waived\" "
+"class=\"helpLink\">zrušeny</a>, pokud k tomu získáte souhlas nositele "
+"autorských práv."
 
 msgid "country.my"
 msgstr "Malaysia"
@@ -1799,8 +1799,8 @@ msgstr "Dílo smíte:"
 
 msgid "char.sa_brief"
 msgstr ""
-"If you alter, transform, or build upon this work, you may distribute the "
-"resulting work only under the same or similar license to this one."
+"Pokud toto dílo jakkoliv  upravíte nebo použijete ve svém díle, máte "
+"povinnost výsledek své práce šířit pod stejnou nebo slučitelnou licencí."
 
 #: c/engine/chooser_pages/index.pt:236
 msgid "util.Music_Sharing"
@@ -2131,7 +2131,7 @@ msgstr "Attribute this work:"
 #. "\t  the above:"
 #: c/engine/licenses/zero_templates/deed.pt:65
 msgid "deed.following_unaffected"
-msgstr "In no way are any of the following rights affected by the above:"
+msgstr "Touto licencí nejsou dotčena následující práva a omezení:"
 
 #. Default: "Patent or trademark rights held by the person who associated this
 #. document with a work."
@@ -2181,8 +2181,8 @@ msgstr "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:48
 msgid "license.zero.confirm_waiver_1"
 msgstr ""
-"Are you certain you wish to waive all rights to your work? Once these "
-"rights are waived, you cannot reclaim them."
+"Jste si jistí, že se chcete vzdát veškerých práv k vašemu dílu? Jakmile "
+"se práv jednou vzdáte, již je nemůžete znovu nárokovat. "
 
 #. Default: ""
 #. "In particular, if you are an artist or author who\n"
@@ -2451,23 +2451,23 @@ msgstr "Use this tool for your own work."
 
 #: c/engine/licenses/standard_templates/deed.pt:110
 msgid "deed.with_the_understanding"
-msgstr "With the understanding that:"
+msgstr "Dále berete na vědomí, že:"
 
 #: c/engine/licenses/standard_templates/deed.pt:116
 msgid "util.waiver"
-msgstr "Waiver"
+msgstr "Zrušení podmínek"
 
 #: c/engine/licenses/standard_templates/deed.pt:125
 msgid "util.other_rights"
-msgstr "Other Rights"
+msgstr "Ostatní práva"
 
 #: c/engine/licenses/standard_templates/deed.pt:128
 msgid "deed.other_rights"
-msgstr "In no way are any of the following rights affected by the license:"
+msgstr "Touto licencí nejsou dotčena následující práva a omezení:"
 
 #: c/engine/licenses/standard_templates/deed.pt:178
 msgid "deed.permission.help.title"
-msgstr "What does \"conditions can be waived\" mean?"
+msgstr "Co znamená, že \"podmínky mohou být zrušeny\"? "
 
 #: c/engine/licenses/standard_templates/deed.pt:182
 msgid "deed.permission.help"
@@ -2666,4 +2666,10 @@ msgstr "Use this tool"
 #: c/engine/publicdomain/zero_templates/deed.pt:67
 msgid "deed.zero.other_rights"
 msgstr "In no way are any of the following rights affected by CC0:"
+
+msgid "country.th"
+msgstr "Thailand"
+
+msgid "lang.th"
+msgstr "Thai"
 

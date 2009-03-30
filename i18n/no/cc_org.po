@@ -4,15 +4,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-03-10 21:37-0700\n"
-"PO-Revision-Date: 2009-03-10 21:37-0700\n"
+"POT-Creation-Date: 2009-03-30 16:49-0400\n"
+"PO-Revision-Date: 2009-03-30 16:49-0400\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: no <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 1.0dev\n"
+"Generated-By: Babel 1.0b-cc-2009-03-17\n"
 
 msgid "country.nz"
 msgstr "New Zealand"
@@ -111,11 +111,10 @@ msgid "country.bg"
 msgstr "Bulgaria"
 
 #: c/engine/pd/templates/publicdomain-4.pt:32
-#, fuzzy
 msgid "license.mark_web"
 msgstr ""
-"Marker ditt innhold på en webside. HTML-koden du skal bruke for å "
-"viseikonet er som følger.Husk <a href=\"/technology/web\">følgende "
+"Marker innholdet på en webside. HTML-koden du skal bruke for å "
+"viseknappen er som følger.  Husk <a href=\"/technology/web\">følgende "
 "retningslinjer</a>:"
 
 msgid "util.copyright_date"
@@ -149,7 +148,6 @@ msgstr ""
 msgid "country.be"
 msgstr "Belgia"
 
-#, fuzzy
 msgid "license.work_type_dedicated"
 msgstr ""
 "Følgende ${work_type} er frigitt til <a rel=\"license\" "
@@ -947,7 +945,6 @@ msgstr ""
 "Commons Developing Nations lisens</a>."
 
 #: c/engine/chooser_pages/index.pt:32
-#, fuzzy
 msgid "license.what"
 msgstr ""
 "Med en Creative Commons-lisens, <strong>bevarer du din "
@@ -961,9 +958,9 @@ msgstr ""
 "er angitt her. For dem som ikke tidligere har  benyttet Creative Commons "
 "lisenser, har vi utarbeidet <a href=\"/about/think\">en liste over "
 "forhold som du bør kjenne til</a>. Dersom du ønsker å tilby ditt verk til"
-" andre helt uten betingelser finnes <a href=\"publicdomain-2\">public "
-"domain</a>. Det er imidlertid tvilsomt om en public domain-lisens vil "
-"være gyldig i Norge."
+" andre helt uten betingelser eller du ønsker å frigi et verk til "
+"fullstendig fri bruk, benytt en av våre <a href=\"/publicdomain/\">Public"
+" Domain verktøy</a>."
 
 msgid "char.by_brief.jp"
 msgstr "Du må kreditere den originære opphavspersonen og den utøvende kunstneren."
@@ -1146,7 +1143,7 @@ msgstr ""
 #: c/engine/macros_templates/deed.pt:98
 msgid "deed.human_summary_multilanguage"
 msgstr ""
-"Dette er et sammendrag av den juridiske lisensteksten (den fuldstendige "
+"Dette er et sammendrag av den juridiske lisensteksten (den fullstendige "
 "lisensen), som er tilgjengelig på følgende språk:"
 
 msgid "country.jo"
@@ -1191,13 +1188,11 @@ msgid "country.at"
 msgstr "Østerrike"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:19
-#, fuzzy
 msgid "license.non_web_pd"
 msgstr ""
-"Dette verket er med dette frigitt til Public Domain. For å se public "
-"domain erklæringen, besøk "
-"http://creativecommons.org/licenses/publicdomain/ eller send et brev til "
-"Creative Commons, 171 Second Street, Suite 300, San Francisco, "
+"Dette verket er i Public Domain. For å se public domain-erklæringen, "
+"besøk http://creativecommons.org/licenses/publicdomain/ eller send et "
+"brev til Creative Commons, 171 Second Street, Suite 300, San Francisco, "
 "California, 94105, USA."
 
 msgid "country.ar"
@@ -1516,10 +1511,9 @@ msgstr ""
 "Commons."
 
 #: c/engine/pd/templates/publicdomain-4.pt:27
-#, fuzzy
 msgid "license.mark_pd"
 msgstr ""
-"Nå som du har valgt å erklære ditt verk public domain, må du merke verket"
+"Nå som du har valgt å erklære ditt verk Public Domain, må du merke verket"
 " på en passende måte."
 
 msgid "util.Try_again"
@@ -1670,10 +1664,10 @@ msgstr "Portugisisk"
 #: c/engine/licenses/devnations_templates/deed.pt:51
 #: c/engine/licenses/mitbsd_templates/deed.pt:60
 #: c/engine/licenses/standard_templates/deed.pt:60
-#, fuzzy
 msgid "deed.permission"
 msgstr ""
-"Alle disse vilkårene kan frafalles, dersom du får tillatelse fra "
+"Alle disse vilkårene kan <a href=\"#\" id=\"waived\" "
+"class=\"helpLink\">frafalles</a>, dersom du får tillatelse fra "
 "rettighetshaveren."
 
 msgid "country.my"
@@ -1854,12 +1848,8 @@ msgstr "publiser"
 
 #: c/engine/pd/templates/publicdomain-3.pt:41
 #: c/engine/licenses/publicdomain_templates/deed.pt:19
-#, fuzzy
 msgid "deed.pd"
 msgstr ""
-"<p style=\"text-align:center\"><em> Opphavsrettsoppgivelse (basert på US-"
-"amerikansk rett) eller Public Domain-erklæring</em></p>\n"
-"\n"
 "<p>Den person eller de personer som har knyttet dette dokumentet til et "
 "verk (\"erklæringsgiver\") erklærer herved at enten (a) er det "
 "angjeldende verk, så vidt han/hun vet, en del av public domain eller (b) "
@@ -1997,19 +1987,12 @@ msgid "What does \"Attribute this work\" mean?"
 msgstr "Hva betyr \"Krediter dette verk\"?"
 
 #: e/licenses/standard_templates/deed.pt:129
-#, fuzzy
 msgid ""
 "The page you came from contained embedded licensing metadata, including "
 "how the creator wishes to be attributed for re-use. You can use the HTML "
 "here to cite the work. Doing so will also include metadata on your page "
 "so that others can find the original work as well."
 msgstr ""
-"Siden du kom fra innholdt innbakte metadata vedrørende lisensiering, som "
-"blant annet angir hvordan opphavspersonen ønsker å navngis for gjenbruk. "
-"Du kan bruke HTML-koden her for å vise til verket. Dersom du gjør det vil"
-" også bake inn metadata på din webside slik at andre også kan finne det "
-"originale verket.\n"
-"#-#-#-#-#\n"
 "Siden du kom fra inneholdt metadata vedrørende lisensen, inklusive "
 "hvordan opphavspersonen ønsker å bli navngitt ved gjenbruk.  Du kan bruke"
 " HTML-markeringene vist her for å kreditere originalen.  Dersom du gjør "
@@ -2080,7 +2063,6 @@ msgstr "Engelsk (Singapore)"
 #. href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\"
 #. class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy\n"
 #. "\t      rights."
-#, fuzzy
 msgid "deed.publicity_rights"
 msgstr ""
 "Rettigheter som andre personer måtte ha, enten i forhold til verket selv "
@@ -2111,18 +2093,18 @@ msgstr "Spor bruk av ditt verk med Fairshare"
 #: c/engine/licenses/zero_templates/deed.pt:114
 msgid "deed.zero.disclaimer"
 msgstr ""
-"<p>The Commons Deed is not a legal instrument. It is simply a\n"
-"\t\thandy reference for understanding the CC0 Legal Code,\n"
-"\t\ta human-readable expression of some of its key\n"
-"\t\tterms. Think of it as the user-friendly interface to\n"
-"\t\tthe CC0 Legal Code beneath. This Deed itself has no\n"
-"\t\tlegal value, and its contents do not appear in\n"
-"\t\tCC0.</p>\n"
+"<p>Commons Deed er ikke en juridisk dokument. Det er kun et\n"
+"\t\tenkelt sammendrag som gir en kortfattet forklaring av den\n"
+"\t\tjuridiske CC0 lisensteksten &mdash; den er en opplisting\n"
+"\t\tav noen av de viktigste vilkårene. Tenk på den som et\n"
+"\t\tbrukervennlig grensesnitt mot det underliggende juridiske\n"
+"\t\tCC0 lisensteksten. Commons Deed alene har ikke juridisk\n"
+"\t\trelevans.</p>\n"
 "\n"
-"\t\t<p>Creative Commons is not a law firm and does not\n"
-"\t\t  provide legal services. Distributing, displaying, \n"
-"\t\t  or linking to this Commons Deed does not create an\n"
-"\t\t  attorney-client relationship.</p>"
+"<p>Creative Commons er ikke et advokatfirma og tilbyr ikke\n"
+"\t\t juridiske tjenester. Å distribuere, vise, eller lenke til\n"
+"\t\t denne oppsummeringen (Commons Deed) skaper ikke et\n"
+"\t\t advokat-klientforhold.</p>"
 
 #. Default: ""
 #. "This is a human-readable summary of\n"
@@ -2131,13 +2113,14 @@ msgstr ""
 #: c/engine/licenses/zero_templates/deed.pt:131
 msgid "deed.zero.human_summary"
 msgstr ""
-"This is a human-readable summary of the <a href=\"./legalcode\">Legal "
-"Code (read the full text)</a>."
+"Dette er en oversikt over innholdet i den <a "
+"href=\"./legalcode\">juridiske erklæringen (les den fullstendige "
+"teksten)</a>."
 
 #. Default: "No Copyright"
 #: c/engine/licenses/zero_templates/deed.pt:30
 msgid "deed.zero.no_copyright"
-msgstr "No Copyright"
+msgstr "Ingen opphavsrett"
 
 #. Default: ""
 #. "The person who associated a work with this document\n"
@@ -2148,35 +2131,35 @@ msgstr "No Copyright"
 #: c/engine/licenses/zero_templates/deed.pt:33
 msgid "deed.zero.nocopyright-text"
 msgstr ""
-"The person who associated a work with this document has dedicated this "
-"work to the Commons by waiving all of his or her rights to the work under"
-" copyright law and all related or neighboring legal rights he or she had "
-"in the work, to the extent allowable by law."
+"Den person som har knyttet et verk til dette dokumentet har, i den "
+"utstrekning loven tillater, overgitt dette verket til fri bruk ved å si "
+"fra seg alle de opphavsrettigheter og nærstående rettigheter som "
+"vedkommende hadde til verket."
 
 #. Default: "Attribute this work:"
 #: c/engine/licenses/zero_templates/deed.pt:42
 msgid "deed.attribute_this_work"
-msgstr "Attribute this work:"
+msgstr "Navngi som opphavsperson for dette verk:"
 
 #. Default: ""
 #. "In no way are any of the following rights affected by\n"
 #. "\t  the above:"
 #: c/engine/licenses/zero_templates/deed.pt:65
 msgid "deed.following_unaffected"
-msgstr "In no way are any of the following rights affected by the above:"
+msgstr "På ingen måte påvirkes følgende rettigheter av ovennevnte:"
 
 #. Default: "Patent or trademark rights held by the person who associated this
 #. document with a work."
 #: c/engine/licenses/zero_templates/deed.pt:69
 msgid "deed.zero.patent"
 msgstr ""
-"Patent or trademark rights held by the person who associated this "
-"document with a work."
+"Patenter og varemerker som eies av den personen som knyttet dette "
+"dokumentet til et verk."
 
 #. Default: "What are \"Publicity Rights\"?"
 #: c/engine/licenses/zero_templates/deed.pt:83
 msgid "deed.publicity_rights.help.title"
-msgstr "What are \"Publicity Rights\"?"
+msgstr "Hva er \"retten til egen person\" (personlighetsrettigheter)?"
 
 #. Default: ""
 #. "Publicity\n"
@@ -2189,22 +2172,25 @@ msgstr "What are \"Publicity Rights\"?"
 #: c/engine/licenses/zero_templates/deed.pt:87
 msgid "deed.zero.publicity_rights.help"
 msgstr ""
-"Publicity rights allow individuals to control how their voice, image or "
-"likeness is used for commercial purposes in public.  If a work under CC0 "
-"includes the voice or image of anyone other than the affirmer, a user of "
-"the work may need to get permission from those individuals before using "
-"the work for commercial purposes."
+"Retten til egen person (personlighetsrettigheter) er den retten et "
+"individ har til å kontrollere hvordan og i hvilken kontekst deres stemme "
+"fremføres eller bilde vises offentlig. Dette gjelder særlig i samband med"
+" bruk av verk til markedsføring, men kan også omfatte andre sammenhenger."
+" Dersom et verk som er frigitt under CC0 inneholder stemmen til, eller et"
+" bilde av, andre enn den som har avgitt CC0-erklæringen, kan det være "
+"nødvendig å få tillatelse fra disse personene før verket vises eller "
+"fremføres offentlig."
 
 #. Default: "Learn more"
 #: c/engine/licenses/zero_templates/deed.pt:95
 #: c/engine/zero/templates/index.pt:89
 msgid "util.learn_more"
-msgstr "Learn more"
+msgstr "Les mer"
 
 #. Default: "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:30
 msgid "license.zero.confirm_title"
-msgstr "Confirm Waiver"
+msgstr "Bekreft at du fraskriver deg disse rettighetene"
 
 #. Default: ""
 #. "Are you certain you wish to waive all rights to your\n"
@@ -2213,8 +2199,9 @@ msgstr "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:48
 msgid "license.zero.confirm_waiver_1"
 msgstr ""
-"Are you certain you wish to waive all rights to your work? Once these "
-"rights are waived, you cannot reclaim them."
+"Er du sikker på at du ønsker å fraskrive deg alle rettigheter til ditt "
+"verk?  Når du har fraskrevet deg disse rettighetene, kan du ikke ta dem "
+"tilbake."
 
 #. Default: ""
 #. "In particular, if you are an artist or author who\n"
@@ -2224,9 +2211,9 @@ msgstr ""
 #: c/engine/zero/templates/confirm.pt:54
 msgid "license.zero.confirm_waiver_2"
 msgstr ""
-"In particular, if you are an artist or author who depends upon copyright "
-"for your income, Creative Commons <strong>does not recommend</strong> "
-"that you use this tool."
+"I særdeleshet, dersom du er en kunstner som baserer din virksomhet på "
+"opphavsrettsinntekter, så vil Creative Commons <strong>ikke "
+"anbefale</strong> at du benytter dette verktøyet."
 
 #. Default: ""
 #. "If you don't own the rights to this work, then do not\n"
@@ -2236,20 +2223,20 @@ msgstr ""
 #: c/engine/zero/templates/confirm.pt:61
 msgid "license.zero.confirm_waiver_3"
 msgstr ""
-"If you don't own the rights to this work, then do not use CC0.  If you "
-"believe that nobody owns rights to the work, then the <a "
-"href=\"/license/publicdomain-2\">Public Domain Certification</a> may be "
-"what you're looking for."
+"Dersom det ikke er du som eier rettighetene til dette verket, kan du ikke"
+" benytte CC0.  Dersom du er sikker på at ingen eier rettighetene til "
+"verket, kan de være at du kan benytte verktøyet <a "
+"href=\"/license/publicdomain-2\">Public Domain Sertifisering</a>."
 
 #. Default: "No, I Do Not Waive"
 #: c/engine/zero/templates/confirm.pt:71
 msgid "license.zero.confirm_waiver_no"
-msgstr "No, I Do Not Waive"
+msgstr "Nei, jeg ønsker ikke å frigi rettighetene"
 
 #. Default: "Yes, I Waive"
 #: c/engine/zero/templates/confirm.pt:82
 msgid "license.zero.confirm_waiver_yes"
-msgstr "Yes, I Waive"
+msgstr "Ja, jeg ønsker å frigi rettighetene"
 
 #. Default: ""
 #. "Please note that this is <strong>not a registration\n"
@@ -2262,17 +2249,18 @@ msgstr "Yes, I Waive"
 #: c/engine/zero/templates/index.pt:76
 msgid "license.zero.intro_3"
 msgstr ""
-"Please note that this is <strong>not a registration process</strong> and "
-"Creative Commons does not store or save any of the information you enter."
-"  This tool guides you through the process of generating HTML with "
-"embedded metadata for marking your work as being available under CC0.  "
-"Your work will not be associated with CC0 or made available under CC0 "
-"until you publish it marked as being so."
+"Dette er <strong>ikke en registreringsprosess</strong> og Creative "
+"Commons lagrer ikke noe av den informasjonen du oppgir.  Dette verktøyet "
+"er kun en veiviser som hjelper deg md å generere HTML med innbakte "
+"metadata som du kan bruke for å markere at du frigir ditt verk og gjør "
+"det tilgjengelig under CC0.  Ditt verk vil ikke bli knyttet til CC0 eller"
+" gjort tilgjengelig under CC0 inntil du selv publiserer det med de "
+"genererte HTML-markeringene."
 
 #. Default: "begin"
 #: c/engine/zero/templates/index.pt:98
 msgid "util.begin"
-msgstr "begin"
+msgstr "begynn"
 
 #. Default: ""
 #. "Copy the text below to your Web site to let your visitors\n"
@@ -2283,15 +2271,15 @@ msgstr "begin"
 #: c/engine/zero/templates/results.pt:108
 msgid "license.zero.copy_text"
 msgstr ""
-"Copy the text below to your Web site to let your visitors know that "
-"you've waived the rights to your work.  Creative Commons does not retain "
-"a record of your selection; as the publisher it's up to you to let people"
-" know how they may use your work."
+"Kopier teksten under til ditt nettsted for å informere besøkende om at du"
+" har frigitt rettighetene til ditt verk.  Creative Commons har ikke "
+"lagret noe av den informasjonen du oppga; som utgiver er det opp til deg "
+"å informere andre om hvordan de kan bruke ditt verk."
 
 #. Default: "Send Email"
 #: c/engine/zero/templates/results.pt:122
 msgid "license.zero.send_email"
-msgstr "Send Email"
+msgstr "Send Epost"
 
 #. Default: ""
 #. "An error occurred when we tried to send the email message;\n"
@@ -2495,7 +2483,7 @@ msgstr "Other Rights"
 
 #: c/engine/licenses/standard_templates/deed.pt:128
 msgid "deed.other_rights"
-msgstr "In no way are any of the following rights affected by the license:"
+msgstr "På ingen måte påvirkes følgende rettigheter av lisensen:"
 
 #: c/engine/licenses/standard_templates/deed.pt:178
 msgid "deed.permission.help.title"
@@ -2697,5 +2685,11 @@ msgstr "Use this tool"
 
 #: c/engine/publicdomain/zero_templates/deed.pt:67
 msgid "deed.zero.other_rights"
-msgstr "In no way are any of the following rights affected by CC0:"
+msgstr "Følgende rettigheter er på ingen måte påvirket av CC0:"
+
+msgid "country.th"
+msgstr "Thailand"
+
+msgid "lang.th"
+msgstr "Thai"
 

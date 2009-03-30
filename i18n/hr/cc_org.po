@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-03-10 21:37-0700\n"
-"PO-Revision-Date: 2009-03-10 21:37-0700\n"
+"POT-Creation-Date: 2009-03-30 16:49-0400\n"
+"PO-Revision-Date: 2009-03-30 16:49-0400\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: hr <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -13,7 +13,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 1.0dev\n"
+"Generated-By: Babel 1.0b-cc-2009-03-17\n"
 
 msgid "country.nz"
 msgstr "Novi Zeland"
@@ -66,7 +66,7 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
 msgid "license.pd_awaiting_confirmation"
 msgstr ""
-"<h1>Prenošenje na javnu domenu - e-mail potvrda</h1>\n"
+"<h1>Prenošenje u javno dobro - e-mail potvrda</h1>\n"
 "\n"
 "<p>\n"
 "Poslan Vam je e-mail na <b>${email}</b>. Trebali biste ga primiti za "
@@ -74,7 +74,7 @@ msgstr ""
 "</p>\n"
 "\n"
 "<p>\n"
-"U tom e-mailu je potvrda Vašeg prenošenja na javnu domenu. U njemu bi se "
+"U tom e-mailu je potvrda Vašeg prenošenja u javno dobro. U njemu bi se "
 "trebao nalaziti naslov Vašeg djela (\"<b>${title}</b>\") i nositelj "
 "autorskog prava na djelo (\"<b>${copyright_holder}</b>\").\n"
 "</p>\n"
@@ -83,13 +83,13 @@ msgstr ""
 "U e-mailu bi također trebao biti link koji uključuje potvrdni kod. Taj "
 "potvrdni kod nam omogućuje da provjerimo jeste li Vi uistinu osoba koja "
 "može primiti e-mail na <b>${email}</b>. Klikanje na taj potvrdni kod je "
-"\"otvoreni čin odricanja\" kojim Vaše djelo zapravo predajete u javnu "
-"domenu.\n"
+"\"otvoreni čin odricanja\" kojim Vaše djelo zapravo prenosite u javno "
+"dobro.\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"<b>Dokle god ne kliknete na potvrdni link Vaše djelo nije preneseno na "
-"javnu domenu.</b>\n"
+"<b>Dokle god ne kliknete na potvrdni link Vaše djelo nije preneseno u "
+"javno dobro.</b>\n"
 "</p>\n"
 "\n"
 "<p>\n"
@@ -100,20 +100,18 @@ msgstr ""
 "\n"
 "<p>\n"
 "Nakon što ste kliknuli na potvrdni link, saznat ćete kako označiti Vaš "
-"sadržaj kao sadržaj prenesen na javnu domenu i kako objaviti Vaše djelo."
-"\n"
+"sadržaj kao sadržaj prenesen u javno dobro i kako objaviti Vaše djelo.\n"
 "</p>"
 
 msgid "country.bg"
 msgstr "Bugarska"
 
 #: c/engine/pd/templates/publicdomain-4.pt:32
-#, fuzzy
 msgid "license.mark_web"
 msgstr ""
 "Da biste Vaš sadržaj na internetskoj stranici označili Creative Commons "
-"ikonom, HTML za prikaz Vašeg gumba glasi (svakako <a "
-"href=\"/technology/web\">slijedite ova uputstva</a>):"
+"ikonom, HTML za prikaz gumba glasi (pritom svakako <a "
+"href=\"/technology/web\">konzultirajte ova uputstva</a>):"
 
 msgid "util.copyright_date"
 msgstr "datum atuorskog prava"
@@ -146,12 +144,11 @@ msgstr ""
 msgid "country.be"
 msgstr "Belgija"
 
-#, fuzzy
 msgid "license.work_type_dedicated"
 msgstr ""
-"Ovo ${work_type} preneseno je na <a rel=\"license\" "
-"href=\"http://creativecommons.org/licenses/publicdomain/\">javnu "
-"domenu</a>."
+"Ovo ${work_type} preneseno je u <a rel=\"license\" "
+"href=\"http://creativecommons.org/licenses/publicdomain/\">javno "
+"dobro</a>."
 
 #: c/engine/chooser_pages/index.pt:77
 msgid "api.derivatives"
@@ -251,25 +248,28 @@ msgstr ""
 
 msgid "license.pd_dedication_email"
 msgstr ""
-"Ovo je certifikat o Prenosenju na javnu domenu. \n"
+"Ovo je potvrda o Prenošenju u javno dobro. \n"
 "\n"
-"Datuma ${sysdate} ${copyright_holder} je prenio na javnu domenu djelo "
-"\"${titlde}\". Prije prenosenja ${copyright_holder} je zajamcio da je "
-"${copyright_holder} vlasnik svih autorskih prava na djelo. Tim "
-"prenosenjem ${copyright_holder} se odlucio na otvoreni cin trajnog "
-"odricanja od svih sadasnjih i buducih autorskih prava na \"${title}\". \n"
+"Datuma ${sysdate} nositelj autorskog prava ${copyright_holder} je prenio "
+"u javno dobro djelo \"${titlde}\". Prije prenošenja nositelj prava "
+"${copyright_holder} zajamčio je da je ${copyright_holder} nositelj svih "
+"autorskih i srodnih prava na djelo. Tim prenošenjem nositelj prava "
+"${copyright_holder} odlučio se na otvoreni čin trajnog ustupanja svih "
+"sadašnjih i budćcih autorskih i sordnih prava na djelo \"${title}\". \n"
 "\n"
-"${copyright_holder} prihvaca da takvo odricanje od svih prava uključuje "
-"odricanje od svih prava na mjere ostvarivanja (pravnom parnicom ili na "
-"neki drugi način) tih autorskih prava na djelo. \n"
+"Nositelj prava ${copyright_holder} prihvaća da takvo ustupanje svih prava"
+" uključuje odricanja od svih prava na mjere ostvarivanja (pravnom "
+"parnicom ili na neki drugi način) tih autorskih i srodnih prava na djelo."
+" \n"
 "\n"
-"${copyright_holder} je svjestan da, jednom kada je predano u javnu "
-"domenu, djelo \"${title}\" svatko moze reproducirati, distribuirati, "
-"emitirati, koristiti, preradivati ili drugacije iskoristavati u bilo koju"
-" svrhu, komercijalnu ili nekomercijalnu, na bilo koji nacin, ukljucujuci "
-"i metodama koje koje jos nisu izumljene ili zamisljene. \n"
+"Nositelj prava ${copyright_holder} svjestan je da, jednom kada je predano"
+" u javno dobro, djelo \"${title}\" svatko moze reproducirati, "
+"distribuirati, emitirati, koristiti, prerađivati ili drugačije "
+"iskorištavati u bilo koju svrhu, komercijalnu ili nekomercijalnu, na bilo"
+" koji način, ukljućujući i metodama koje koje još nisu izumljene ili "
+"zamišljene. \n"
 "\n"
-"Za podrobnije informacije molimo Vas da vidite "
+"Za podrobnije informacije molimo Vas da posjetite "
 "<http://creativecommons.org/licenses/publicdomain/>."
 
 msgid "lang.bg"
@@ -393,11 +393,11 @@ msgid "lang.en_GB"
 msgstr "engleski (Velika Britanija)"
 
 #: c/engine/licenses/standard_templates/deed.pt:69
-#, fuzzy
 msgid "deed.moralrights-remix.us"
 msgstr ""
-"Osim prava remiksiranja danih ovom licencom, ništa u ovoj licenci ne "
-"narušava ili ograničava autorova moralna prava."
+"Osim prava remiksiranja danih ovom licencom, autorova <a "
+"href=\"http://wiki.creativecommons.org/Hr:FAQ#Ne_svi.C4.91a_mi_se_kako_je_netko_upotrijebio_moje_djelo_u_preradi_ili_kako_ga_je_uvrstio_u_zbirku._.C5.A0to_mogu_poduzeti.3F\""
+" id=\"moral_rights\" class=\"helpLink\">moralna</a> prava;"
 
 msgid "lang.pl"
 msgstr "poljski"
@@ -575,7 +575,7 @@ msgstr "galicijski"
 msgid "license.proceed_pd"
 msgstr ""
 "Sada možete <a href=\"publicdomain-2?${url_vars}\">krenuti dalje i "
-"obogatiti javnu domenu Vašim djelom</a>."
+"obogatiti javna dobra Vašim djelom</a>."
 
 #: c/engine/pd/templates/publicdomain-2.pt:29
 msgid "util.your_email"
@@ -595,25 +595,26 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-partner.pt:24
 msgid "license.pd_choice"
 msgstr ""
-"<p>Vaš izbor sugerira da želite Vaše djelo prenijeti na javnu domenu, "
-"Javna domena je područje dobara - takozvanih commons - gdje nema "
+"<p>Vaš izbor sugerira da želite Vaše djelo prenijeti u javno dobro, Javna"
+" dobra su područje dobara - takozvanih zajedničkih dobara - gdje nema "
 "vlasništva nad dobrom i sve je dopušteno.</p>\n"
 "\n"
-"<p>Prenošenje na javnu domenu nije licenca. Koristeći ga ne stvarate samo"
-" iznimke od Vaših prava predviđenih Zakonom o autorskom pravu, već bez "
-"uvjeta prepuštate sva Vaša autorska prava javnosti. To prepuštanje je "
-"trajno i nepovratno.</p>"
+"<p>Prenošenje u javno dobro nije licenca. Koristeći ga ne stvarate samo "
+"iznimke od Vaših prava predviđenih Zakonom o autorskom pravu, već bez "
+"uvjeta ustupate sva Vaša autorska prava javnosti. To ustupanje je trajno "
+"i nepovratno.</p>"
 
 #: c/engine/macros_templates/metadata.pt:30
 msgid "util.Audio"
 msgstr "audio djelo"
 
 #: c/engine/macros_templates/deed.pt:92
-#, fuzzy
 msgid "deed.fair_use"
 msgstr ""
-"Prethodno ni na koji način ne utječe na zakonska ograničenja autorskog "
-"prava i Vaša druga prava."
+"Vaša prava koja proizlaze iz <a "
+"href=\"http://wiki.creativecommons.org/Hr:FAQ#Utje.C4.8Du_li_Creative_Commons_licence_na_ograni.C4.8Denja_autorskog_prava_predvi.C4.91ena_zakonom_o_autorskom_pravu_i_srodnim_pravima.3F\""
+" id=\"fair_use\" class=\"helpLink\">ograničenja autorskog prava  "
+"rights</a>;"
 
 msgid "country.nl"
 msgstr "Nizozemska"
@@ -924,7 +925,6 @@ msgstr ""
 "licencom za zemlje u razvoju</a>."
 
 #: c/engine/chooser_pages/index.pt:32
-#, fuzzy
 msgid "license.what"
 msgstr ""
 "Koristeći Creative Commons licencu <strong>zadržavate Vaša autorska "
@@ -940,7 +940,7 @@ msgstr ""
 "licencama novina pripremili smo <a "
 "href=\"http://wiki.creativecommons.org/Hr:Prije_licenciranja\">popis "
 "stvari koje valja imati na umu</a>. Ako želite ponuditi svoje djelo bez "
-"uvjeta, izaberite <a href=\"publicdomain-2?lang=hr\">javnu domenu</a>."
+"uvjeta, izaberite <a href=\"publicdomain-2?lang=hr\">javno dobro</a>."
 
 msgid "char.by_brief.jp"
 msgstr "Morate priznati i označiti izvornog autora i izvođača."
@@ -1060,11 +1060,11 @@ msgstr "Nekomercijalno"
 
 #: c/engine/chooser_pages/index.pt:204
 msgid "licenses.pretty_publicdomain"
-msgstr "Javna domena"
+msgstr "Javno dobro"
 
 #: c/engine/chooser_pages/index.pt:204
 msgid "util.Public_Domain"
-msgstr "Javna domena"
+msgstr "Javno dobro"
 
 msgid "lang.zh"
 msgstr "kineski"
@@ -1168,14 +1168,12 @@ msgid "country.at"
 msgstr "Austrija"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:19
-#, fuzzy
 msgid "license.non_web_pd"
 msgstr ""
-"Ovo djelo je ovim pušteno u javnu domenu. Da biste vidjeli kopiju potvrde"
-" o prenosu na javnu domenu, posjetite "
-"http://creativecommon.org/licenses/publicdomain/ ili pošaljite pismo na "
-"Creative Commons, 171 Second Street, Suite 300, San Francisco, California"
-" 94105, SAD."
+"Ovo djelo je javno dobro. Da biste vidjeli kopiju potvrde o prenošenju u "
+"javno dobro, posjetite http://creativecommon.org/licenses/publicdomain/ "
+"ili pošaljite pismo na Creative Commons, 171 Second Street, Suite 300, "
+"San Francisco, California 94105, SAD."
 
 msgid "country.ar"
 msgstr "Argentina"
@@ -1240,9 +1238,11 @@ msgid "util.more_permissions_url"
 msgstr "URL za daljnja prava"
 
 #: c/engine/licenses/standard_templates/deed.pt:64
-#, fuzzy
 msgid "deed.moralrights"
-msgstr "Ništa u ovoj licenci ne narušava ili ograničava autorova moralna prava."
+msgstr ""
+"Autorova moralna prava.The author's <a "
+"href=\"http://wiki.creativecommons.org/Hr:FAQ#Ne_svi.C4.91a_mi_se_kako_je_netko_upotrijebio_moje_djelo_u_preradi_ili_kako_ga_je_uvrstio_u_zbirku._.C5.A0to_mogu_poduzeti.3F\""
+" id=\"moral_rights\" class=\"helpLink\">moralna</a> prava;"
 
 msgid "country.sk"
 msgstr "Slovačka"
@@ -1499,10 +1499,9 @@ msgstr ""
 "integriran Creative Commons sustav."
 
 #: c/engine/pd/templates/publicdomain-4.pt:27
-#, fuzzy
 msgid "license.mark_pd"
 msgstr ""
-"Nakon što ste odabrali prenošenje na javnu domenu morate Vaše djelo "
+"Nakon što ste odabrali Prenošenje u javno dobro morate Vaše djelo "
 "označiti Creative Commons ikonom na odgovarajući način."
 
 msgid "util.Try_again"
@@ -1574,7 +1573,7 @@ msgstr ""
 "specificirate. Ova stranica će Vam pomoći da izaberete te uvjete. Ako "
 "želite ponuditi svoje djelo bez uvjeta, a uz odricanje od svih prava koja"
 " postoje prema hrvatskom pravu, onda izaberite <a "
-"href=\"${results_pd_url}\">javnu domenu</a>.</p>"
+"href=\"${results_pd_url}\">javno  dobro</a>.</p>"
 
 #: c/engine/chooser_pages/index.pt:49 c/engine/chooser_pages/index.pt:96
 #: c/engine/chooser_pages/partner/index.pt:56
@@ -1654,11 +1653,11 @@ msgstr "portugalski"
 #: c/engine/licenses/devnations_templates/deed.pt:51
 #: c/engine/licenses/mitbsd_templates/deed.pt:60
 #: c/engine/licenses/standard_templates/deed.pt:60
-#, fuzzy
 msgid "deed.permission"
 msgstr ""
-"Od svakog od gornjih uvjeta moguće je odstupiti, ako dobijete dopuštenje "
-"nositelja autorskog prava."
+"Svaki od gornjih uvjeta moguće je <a href=\"#\" id=\"waived\" "
+"class=\"helpLink\">ustupiti</a>, ako dobijete dopuštenje nositelja "
+"autorskog prava."
 
 msgid "country.my"
 msgstr "Malezija"
@@ -1842,22 +1841,16 @@ msgstr "objavi"
 
 #: c/engine/pd/templates/publicdomain-3.pt:41
 #: c/engine/licenses/publicdomain_templates/deed.pt:19
-#, fuzzy
 msgid "deed.pd"
 msgstr ""
-"<p style=\"text-align:center\"><em>Copyright-Only Dedication ili Public "
-"Domain Certification (temeljeno na zakonu Sjedinjenih Američkih "
-"Država)</em></p>\n"
-"\n"
 "<p>Osoba ili osobe koje su svoje djelo vezale uz ovaj dokument "
 "(“Prenositelj” ili \"Potvrditelj\") ovime ili a) potvrđuje da je, prema "
-"njenom najboljem saznanju, ovdje identificirano autorsko djelo u javnoj "
-"domeni one zemlje gdje je izvorno objavljeno ili b) prenosi autorsko "
+"njenom najboljem saznanju, ovdje naznačeno autorsko djelo prešlo u javna "
+"dobra one zemlje gdje je izvorno objavljeno ili b) prenosi autorsko "
 "pravo, koje prenositelj ima na autorsko djelo kako je niže određeno "
-"(\"Djelo\"), na javnu domenu. Nadalje, potvrditelj prenosi na javnu "
-"domenu sve interese koje bi mogao polagati na autorsko pravo nad djelom "
-"i, za svrhe ove licence, on se u daljnjem tekstu uzima kao "
-"\"Prenositelj\".</p>\n"
+"(\"Djelo\"), u javno dobro. Nadalje, potvrditelj prenosi u javno dobro "
+"sve interese koje bi mogao polagati na autorsko pravo u djelu i, za svrhe"
+" ove licence, on se u daljnjem tekstu uzima kao \"Prenositelj\".</p>\n"
 "\n"
 "<p>Potvrditelj je poduzeo razumni napor da potvrdi status autorskog prava"
 " nad ovim djelom. Potvrditelj prihvaća da ga taj napor, poduzet u dobroj "
@@ -1866,14 +1859,13 @@ msgstr ""
 "\n"
 "<p>Prenositelj pristupa ovoj predaji u korist javnosti, a na uštrb "
 "Prenositeljevih nasljednika i pravnih sljednika. Prenositeljeva je "
-"namjera da ova predaja bude otvoren čin trajnog odricanja od svih "
-"sadašnjih i budućih prava na Djelo. Prenositelj prima na znanje da takvo "
-"odricanje od svih prava uključuje odricanje od svih prava na mjere "
-"provedbe (pravnom parnicom ili na neki drugi način) tih autorskih prava "
-"na djelo.</p>\n"
+"namjera da ova predaja bude otvoren čin trajnog ustupanja svih sadašnjih "
+"i budućih prava na Djelo. Prenositelj prima na znanje da takvo ustupanje "
+"svih prava uključuje odricanje od svih prava na mjere provedbe (pravnom "
+"parnicom ili na neki drugi način) tih autorskih prava na djelo.</p>\n"
 "\n"
-"<p>Prenositelj prihvaća da djelo, jednom kada se ono nađe u javnoj "
-"domeni, svatko može slobodno reproducirati, distrubirati, emitirati, "
+"<p>Prenositelj prihvaća da djelo, jednom kada se ono nađe u javnim "
+"dobrima, svatko može slobodno reproducirati, distrubirati, emitirati, "
 "koristiti, mijenjati, razvijati ili drugačije iskoristiti u bilo koju "
 "svrhu, komercijalnu ili nekomercijalnu, i na bilo koji način, uključujući"
 " i metodama koje još nisu izumljene ili zamišljene.</p>"
@@ -1971,7 +1963,7 @@ msgid ""
 " the author's site."
 msgstr ""
 "URL na koji bi korisnici djela trebali postaviti link. Primjerice, "
-"stranica djela na mrežnim stranicama autora."
+"stranica djela na internetskim stranicama autora."
 
 #: e/macros_templates/metadata.pt:178
 msgid ""
@@ -1986,18 +1978,17 @@ msgid "What does \"Attribute this work\" mean?"
 msgstr "Što znači \"Označavanje autorstva\"?"
 
 #: e/licenses/standard_templates/deed.pt:129
-#, fuzzy
 msgid ""
 "The page you came from contained embedded licensing metadata, including "
 "how the creator wishes to be attributed for re-use. You can use the HTML "
 "here to cite the work. Doing so will also include metadata on your page "
 "so that others can find the original work as well."
 msgstr ""
-"Stranica s koje ste došli sadrži u kod umetnute metapodatke o licenci, "
-"između ostalih i kako prilikom daljnjeg korištenja autor djela želi biti "
-"navođen. Možete upotrijebiti ovaj HTML kod za citiranje djela. "
-"Upotrijebite li ga on će ugraditi metapodatke u Vašu stranicu ne bi li i "
-"drugi korisnici mogli pronaći izvorno djelo.\n"
+"Stranica s koje ste došli sadržavala je umetnute licencne metapodatke, "
+"između ostalog i kako autor želi biti imenovan u daljnjem korištenju "
+"djela. Ovdje možete preuzeti HTML kod koji navodi izvorno djelo. Time "
+"ćete uklopiti metapodatke u vašu stranicu i omogućiti drugima da pronađu "
+"izvorno djelo.\n"
 "#-#-#-#-#\n"
 "Stranica s koje ste došli sadržavala je umetnute licencne metapodatke, "
 "između ostalog i kako autor želi biti imenovan u daljnjem korištenju "
@@ -2068,11 +2059,12 @@ msgstr "English (Singapore)"
 #. href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\"
 #. class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy\n"
 #. "\t      rights."
-#, fuzzy
 msgid "deed.publicity_rights"
 msgstr ""
-"Rights other persons may have either in the work itself or in how the "
-"work is used, such as publicity or privacy rights."
+"Prava nad djelom ili nad njegovim korištenjima kojima možda raspolažu "
+"druge osobe kao što su <a "
+"href=\"http://wiki.creativecommons.org/Hr:FAQ#Kada_je_pravo_nad_objavljivanjem_osobne_fotografije_relevantno.3F\">pravo"
+" nad objavljivanjem osobne fotografije</a> ili pravo privatnosti."
 
 #: src/cc/engine/chooser_pages/results.pt:144
 msgid "license.register_with_cc_network"
@@ -2098,18 +2090,14 @@ msgstr "Pratite korištenje Vašeg djela pomoću servisa FairShare"
 #: c/engine/licenses/zero_templates/deed.pt:114
 msgid "deed.zero.disclaimer"
 msgstr ""
-"<p>The Commons Deed is not a legal instrument. It is simply a\n"
-"\t\thandy reference for understanding the CC0 Legal Code,\n"
-"\t\ta human-readable expression of some of its key\n"
-"\t\tterms. Think of it as the user-friendly interface to\n"
-"\t\tthe CC0 Legal Code beneath. This Deed itself has no\n"
-"\t\tlegal value, and its contents do not appear in\n"
-"\t\tCC0.</p>\n"
-"\n"
-"\t\t<p>Creative Commons is not a law firm and does not\n"
-"\t\t  provide legal services. Distributing, displaying, \n"
-"\t\t  or linking to this Commons Deed does not create an\n"
-"\t\t  attorney-client relationship.</p>"
+"<p>Commons Deed nije pravni alat. To je praktična referenca za "
+"razumijevanje Pravnog teksta CC0, svima čitljiv iskaz njenih ključnih "
+"uvjeta. Gledajte na nju kao na lako razumljivo objašnjenje Pravnog teksta"
+" koji se nalazi u pozadini. Sam Commons Deed nema pravno važenje i njegov"
+" se sadržaj ne pojavljuje u CC0.</p><p>Creative Commons nije odvjetnički "
+"ured i ne pruža pravne usluge. Distribuiranje Commons Deeda, njegovo, "
+"prikazivanje ili postavljanje linka na njega ne konstituira odnos pravnog"
+" zastupanja.<7p>"
 
 #. Default: ""
 #. "This is a human-readable summary of\n"
@@ -2118,13 +2106,13 @@ msgstr ""
 #: c/engine/licenses/zero_templates/deed.pt:131
 msgid "deed.zero.human_summary"
 msgstr ""
-"This is a human-readable summary of the <a href=\"./legalcode\">Legal "
-"Code (read the full text)</a>."
+"Ovo je svima čitljiv sažetak <a href=\"./legalcode\"> Pravnog teksta "
+"(pročitajte ga u cijelosti)</a>"
 
 #. Default: "No Copyright"
 #: c/engine/licenses/zero_templates/deed.pt:30
 msgid "deed.zero.no_copyright"
-msgstr "No Copyright"
+msgstr "Nema autorskih i srodnih prava"
 
 #. Default: ""
 #. "The person who associated a work with this document\n"
@@ -2135,35 +2123,32 @@ msgstr "No Copyright"
 #: c/engine/licenses/zero_templates/deed.pt:33
 msgid "deed.zero.nocopyright-text"
 msgstr ""
-"The person who associated a work with this document has dedicated this "
-"work to the Commons by waiving all of his or her rights to the work under"
-" copyright law and all related or neighboring legal rights he or she had "
-"in the work, to the extent allowable by law."
+"Osoba koja je djelo vezala uz ovaj dokument prenijela je to djelo u javno"
+" dobro ustupanjem svih prava u djelu koja joj pripadaju temeljem Zakona o"
+" autorskom i srodnim pravima, u mjeri u kojoj je to zakonski dopušteno."
 
 #. Default: "Attribute this work:"
 #: c/engine/licenses/zero_templates/deed.pt:42
 msgid "deed.attribute_this_work"
-msgstr "Attribute this work:"
+msgstr "Kao autora ovog djela navodite:"
 
 #. Default: ""
 #. "In no way are any of the following rights affected by\n"
 #. "\t  the above:"
 #: c/engine/licenses/zero_templates/deed.pt:65
 msgid "deed.following_unaffected"
-msgstr "In no way are any of the following rights affected by the above:"
+msgstr "Prethodno ni na koji način ne utječe na:"
 
 #. Default: "Patent or trademark rights held by the person who associated this
 #. document with a work."
 #: c/engine/licenses/zero_templates/deed.pt:69
 msgid "deed.zero.patent"
-msgstr ""
-"Patent or trademark rights held by the person who associated this "
-"document with a work."
+msgstr "Patentna prava ili prava žiga osobe koja je ovaj dokument vezala uz djelo."
 
 #. Default: "What are \"Publicity Rights\"?"
 #: c/engine/licenses/zero_templates/deed.pt:83
 msgid "deed.publicity_rights.help.title"
-msgstr "What are \"Publicity Rights\"?"
+msgstr "Što je pravo nad objavljivanjem osobne fotografije?"
 
 #. Default: ""
 #. "Publicity\n"
@@ -2176,22 +2161,23 @@ msgstr "What are \"Publicity Rights\"?"
 #: c/engine/licenses/zero_templates/deed.pt:87
 msgid "deed.zero.publicity_rights.help"
 msgstr ""
-"Publicity rights allow individuals to control how their voice, image or "
-"likeness is used for commercial purposes in public.  If a work under CC0 "
-"includes the voice or image of anyone other than the affirmer, a user of "
-"the work may need to get permission from those individuals before using "
-"the work for commercial purposes."
+"Pravo nad objavljivanjem osobne fotografije i drugih osobnih zapisa kao "
+"što je glasovni zapis postoji u nekim pravnim sustavima i omogućava osobi"
+" da kontrolira javno korištenje tih zapisa u komercijalne svrhe. Ako "
+"djelo pod CC0 sadrži glas ili sliku nekoga tko nije prenositelj prava, "
+"korisnik tog djela možda će trebati osigurati dopuštenje tih osoba prije "
+"nego što upotrijebi djelo u komerijcalne svrhe."
 
 #. Default: "Learn more"
 #: c/engine/licenses/zero_templates/deed.pt:95
 #: c/engine/zero/templates/index.pt:89
 msgid "util.learn_more"
-msgstr "Learn more"
+msgstr "Saznajte više"
 
 #. Default: "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:30
 msgid "license.zero.confirm_title"
-msgstr "Confirm Waiver"
+msgstr "Potvrdite ustupanje prava"
 
 #. Default: ""
 #. "Are you certain you wish to waive all rights to your\n"
@@ -2200,8 +2186,9 @@ msgstr "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:48
 msgid "license.zero.confirm_waiver_1"
 msgstr ""
-"Are you certain you wish to waive all rights to your work? Once these "
-"rights are waived, you cannot reclaim them."
+"Jeste li sigurni da želite ustupiti sva prava na Vaše djelo? Ovisno o "
+"odredbama Vašeg pravnog sustava, jednom kada ih ustupite, prijenos prava "
+"je neopoziv."
 
 #. Default: ""
 #. "In particular, if you are an artist or author who\n"
@@ -2211,9 +2198,9 @@ msgstr ""
 #: c/engine/zero/templates/confirm.pt:54
 msgid "license.zero.confirm_waiver_2"
 msgstr ""
-"In particular, if you are an artist or author who depends upon copyright "
-"for your income, Creative Commons <strong>does not recommend</strong> "
-"that you use this tool."
+"Ako ste pogotovo umjetnik ili autor koji financijski ovisi o svojim "
+"autorskim pravima, Creative Commons Vam <strong>ne preporuča</strong> "
+"korištenje ovog pravnog alata."
 
 #. Default: ""
 #. "If you don't own the rights to this work, then do not\n"
@@ -2223,20 +2210,19 @@ msgstr ""
 #: c/engine/zero/templates/confirm.pt:61
 msgid "license.zero.confirm_waiver_3"
 msgstr ""
-"If you don't own the rights to this work, then do not use CC0.  If you "
-"believe that nobody owns rights to the work, then the <a "
-"href=\"/license/publicdomain-2\">Public Domain Certification</a> may be "
-"what you're looking for."
+"Ako niste nositelj autorskih i srodnih prava, nemojte koristiti CC0. Ako "
+"smatrate da nitko ne polaže prava na djelo, onda zapravo trebate <a "
+"href=\"/license/publicdomain-2\"> Prenošenje u javno dobro</a>."
 
 #. Default: "No, I Do Not Waive"
 #: c/engine/zero/templates/confirm.pt:71
 msgid "license.zero.confirm_waiver_no"
-msgstr "No, I Do Not Waive"
+msgstr "Ne, ne ustupam"
 
 #. Default: "Yes, I Waive"
 #: c/engine/zero/templates/confirm.pt:82
 msgid "license.zero.confirm_waiver_yes"
-msgstr "Yes, I Waive"
+msgstr "Da, ustupam"
 
 #. Default: ""
 #. "Please note that this is <strong>not a registration\n"
@@ -2249,17 +2235,17 @@ msgstr "Yes, I Waive"
 #: c/engine/zero/templates/index.pt:76
 msgid "license.zero.intro_3"
 msgstr ""
-"Please note that this is <strong>not a registration process</strong> and "
-"Creative Commons does not store or save any of the information you enter."
-"  This tool guides you through the process of generating HTML with "
-"embedded metadata for marking your work as being available under CC0.  "
-"Your work will not be associated with CC0 or made available under CC0 "
-"until you publish it marked as being so."
+"Upozoravamo Vas da ovo nije <strong>postupak registracije</strong> i da "
+"Creative Commons ne pohranjuje ili čuva informacije koje unosite. Ovaj "
+"alat Vas vodi kroz proces kreiranja HTML koda s uklopljenim metapodacima "
+"koji obilježava Vaše djelo kao dostupno pod CC0. Vaše djelo neće biti "
+"povezivo s CC0 ili dano na korištenje pod CC0 dokle god ga ne objavite "
+"tako označenoga."
 
 #. Default: "begin"
 #: c/engine/zero/templates/index.pt:98
 msgid "util.begin"
-msgstr "begin"
+msgstr "započni"
 
 #. Default: ""
 #. "Copy the text below to your Web site to let your visitors\n"
@@ -2270,15 +2256,16 @@ msgstr "begin"
 #: c/engine/zero/templates/results.pt:108
 msgid "license.zero.copy_text"
 msgstr ""
-"Copy the text below to your Web site to let your visitors know that "
-"you've waived the rights to your work.  Creative Commons does not retain "
-"a record of your selection; as the publisher it's up to you to let people"
-" know how they may use your work."
+"Prekopirajte niže navedeni tekst na Vaše internetske stranice kako bi "
+"posjetitelji stranica znali da ste ustupili prava na svoje djelo. "
+"Creative Commons ne pohranjuje informacije o Vašem izboru - Vaša je "
+"odgovornost kao objavljivača djela da upoznate ljude s uvjetima pod "
+"kojima mogu koristiti Vaše djelo."
 
 #. Default: "Send Email"
 #: c/engine/zero/templates/results.pt:122
 msgid "license.zero.send_email"
-msgstr "Send Email"
+msgstr "Pošalji e-mail"
 
 #. Default: ""
 #. "An error occurred when we tried to send the email message;\n"
@@ -2289,15 +2276,15 @@ msgstr "Send Email"
 #: c/engine/zero/templates/results.pt:134
 msgid "license.zero.email_error"
 msgstr ""
-"An error occurred when we tried to send the email message; you can try "
-"clicking the Back button and double checking your email address.  If the "
-"address you used (${email_addr}) was correct you can <a "
-"href=\"/about/contact\">contact us</a>."
+"Greška je nastala prilikom slanja e-mail poruke. Možete pokušati kliknuti"
+" na gumb Natrag i još jednom provjeriti e-mail adresu. Ako je adresa koju"
+" ste koristili (${email_addr}) ispravna, možete <a "
+"href=\"/about/contact\">kontaktirati nas</a>. "
 
 #. Default: "The suggested HTML has been sent to ${email_addr}."
 #: c/engine/zero/templates/results.pt:143
 msgid "license.zero.email_sent"
-msgstr "The suggested HTML has been sent to ${email_addr}."
+msgstr "Predloženi HTML kod poslan je na e-mail adresu ${email_addr}."
 
 #. Default: ""
 #. "You have asked to be notified of updates to CC0.  A subscription\n"
@@ -2306,9 +2293,9 @@ msgstr "The suggested HTML has been sent to ${email_addr}."
 #: c/engine/zero/templates/results.pt:148
 msgid "license.zero.subscribed_to_updates"
 msgstr ""
-"You have asked to be notified of updates to CC0.  A subscription request "
-"has been sent on your behalf; you must click the link in the confirmation"
-" email to complete the sign-up process."
+"Tražili ste da Vas se obaviještava o izmjenama CC0. Poslan Vam je zahtjev"
+" za pretplatom na obavijesti. Morate kliknuti na link u potvdnom e-mail "
+"da biste dovršili proces pretplate na obavijesti."
 
 #. Default: ""
 #. "If you'd like to get the HTML with embedded metadata via\n"
@@ -2317,13 +2304,13 @@ msgstr ""
 #: c/engine/zero/templates/results.pt:161
 msgid "license.zero.send_email_updates"
 msgstr ""
-"If you'd like to get the HTML with embedded metadata via email and "
-"optionally receive updates about CC0, fill in your email address below."
+"Ako želite dobiti HTML kod s uključenim metapodacima na Vaš e-mail i, "
+"opcionalno, primati obavijesti o CC0, unesite ovdje Vašu e-mail adresu."
 
 #. Default: "Send me updates about CC0"
 #: c/engine/zero/templates/results.pt:181
 msgid "license.zero.update_opt_in"
-msgstr "Send me updates about CC0"
+msgstr "Šaljite mi obavijesti o CC0"
 
 #. Default: ""
 #. "You did not affirm your decision to waive the rights\n"
@@ -2332,39 +2319,40 @@ msgstr "Send me updates about CC0"
 #: c/engine/zero/templates/results.pt:55
 msgid "license.zero.declined"
 msgstr ""
-"You did not affirm your decision to waive the rights associated with your"
-" work. If you'd like to continue you can click the Back button to review "
-"your choice."
+"Niste potvrdili Vašu odluku da ustupate prava u Vašem djelu. Ako želite "
+"nastaviti, možete kliknuti na gumb Natrag da revidirate svoj izbor."
 
 #. Default: "About CC0"
 #: c/engine/zero/templates/results.pt:61
 msgid "license.zero.about"
-msgstr "About CC0"
+msgstr "O CC0"
 
 #. Default: "Frequently Asked Questions"
 #: c/engine/zero/templates/results.pt:63
 msgid "util.FAQ"
-msgstr "Frequently Asked Questions"
+msgstr "Često postavljana pitanja"
 
 #. Default: "Choose which style of button you'd like on your webpage:"
 #: c/engine/zero/templates/results.pt:72
 msgid "license.choose_button"
-msgstr "Choose which style of button you'd like on your webpage:"
+msgstr "Izaberite kojeg stila gumb želite na Vašim internetskim stranicma:"
 
 #. Default: "Here's a preview of how your waiver will appear on your site:"
 #: c/engine/zero/templates/results.pt:98
 msgid "license.zero.preview_waiver"
-msgstr "Here's a preview of how your waiver will appear on your site:"
+msgstr ""
+"Pogledajte kako će izgledati Vaše ustupanje prava posjetiteljima Vaših "
+"stranica:"
 
 #. Default: "Your name"
 #: c/engine/zero/templates/waiver.pt:103
 msgid "util.your_name"
-msgstr "Your name"
+msgstr "Vaše ime"
 
 #. Default: "Your URL"
 #: c/engine/zero/templates/waiver.pt:111 c/engine/zero/templates/waiver.pt:125
 msgid "util.your_url"
-msgstr "Your URL"
+msgstr "Vaš URL"
 
 #. Default: ""
 #. "The URL where people can find more information about \n"
@@ -2372,20 +2360,20 @@ msgstr "Your URL"
 #: c/engine/zero/templates/waiver.pt:126 c/engine/zero/templates/waiver.pt:124
 msgid "license.zero.your_url_help"
 msgstr ""
-"The URL where people can find more information about \n"
-"the work or the person using CC0."
+"URL na kojem će ljudi moći naći više informacija o autoru ili nositelju "
+"prava."
 
 #. Default: "Country"
 #: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
 msgid "util.country"
-msgstr "Country"
+msgstr "Zemlja"
 
 #. Default: ""
 #. "Jurisdiction where the work is being \n"
 #. "\toffered from under CC0."
 #: c/engine/zero/templates/waiver.pt:166 c/engine/zero/templates/waiver.pt:164
 msgid "license.zero.country_help"
-msgstr "Jurisdiction from which the work is being offered under CC0."
+msgstr "Pravni sustav u kojem se djelo nudi pod CC0."
 
 #. Default: ""
 #. "I hereby waive all copyright and related or neighboring\n"
@@ -2395,9 +2383,9 @@ msgstr "Jurisdiction from which the work is being offered under CC0."
 #: c/engine/zero/templates/waiver.pt:180
 msgid "license.zero.confirm_waiver"
 msgstr ""
-"I hereby waive all copyright and related or neighboring rights together "
-"with all associated claims and causes of action with respect to this work"
-" to the extent possible under the law."
+"Ovime, u mjeri u kojoj je to dopušteno mjerodavnim zakonima, ustupam sva "
+"autorska i srodna prava, kao i sva pripadna potraživanja i postupke, "
+"vezana uz ovo djelo."
 
 #. Default: ""
 #. "I have read and understand the terms and intended legal\n"
@@ -2406,13 +2394,13 @@ msgstr ""
 #: c/engine/zero/templates/waiver.pt:205
 msgid "license.zero.confirm_reading"
 msgstr ""
-"I have read and understand the terms and intended legal effect of CC0, "
-"and hereby voluntarily elect to apply it to this work."
+"Pročitao sam i razumio uvjete i pravne učinke CC0 te se ovime dragovoljno"
+" odlučujem primijeniti CC0 na ovo djelo."
 
 #. Default: "continue"
 #: c/engine/zero/templates/waiver.pt:217
 msgid "util.continue"
-msgstr "continue"
+msgstr "nastavi"
 
 #. Default: ""
 #. "These fields are optional, but will be embedded in the HTML\n"
@@ -2422,116 +2410,114 @@ msgstr "continue"
 #: c/engine/zero/templates/waiver.pt:65
 msgid "license.zero.additional_metadata"
 msgstr ""
-"These fields are optional, but will be embedded in the HTML generated for"
-" your work. This allows users of your work to determine how to contact "
-"you or where to go for more information about the work."
+"Ova polja su opcionalna, ali informacije unešene u njih bit će uklopljene"
+" u HTML kod koji se generira za Vaše djelo. To će korisnicima Vašeg djela"
+" omogućiti da saznaju kako Vas mogu kontaktirati i gdje mogu naći više "
+"informacija o djelu."
 
 #: c/engine/chooser_pages/index.pt:165 c/engine/chooser_pages/index.pt:170
 msgid "None of the above"
-msgstr ""
+msgstr "Ništa od prethodnog"
 
 #: c/engine/chooser_pages/index.pt:310
 msgid "Software"
-msgstr ""
+msgstr "Softver"
 
 #: c/engine/chooser_pages/results.pt:103
 msgid "license.publish_ia"
 msgstr ""
-"Publish your licensed music or video to\n"
-"\t       the Internet Archive"
+"Objavite svoju licenciranu glazbu ili video na arhivskom portalu Internet"
+" Archive"
 
 #: c/engine/chooser_pages/results.pt:119
 msgid "license.offline_work"
-msgstr "Offline Work?"
+msgstr "Djelo koje nije na internetu?"
 
 #: c/engine/chooser_pages/results.pt:129
 msgid "license.option_next_steps"
-msgstr "Optional next steps"
+msgstr "Opcionalni daljni koraci"
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:14
 #: c/engine/pd/templates/publicdomain-3.pt:38
 msgid "deed.pd.title"
 msgstr ""
-"Copyright-Only Dedication<a href=\"#\" class=\"helpLink\" "
-"id=\"use_zero\">*</a>\n"
-"  (based on United States law)<br />\n"
-"  or Public Domain Certification"
+"Prenošenje u javno dobro<a href=\"#\" class=\"helpLink\" "
+"id=\"use_zero\">*</a> (temeljeno na zakonu Sjedinjenih Američkih Država) "
+"ili Potvrda o javnom dobru "
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:25
 #: c/engine/licenses/standard_templates/deed.pt:22
 #: c/engine/publicdomain/zero_templates/deed.pt:25
 msgid "This license is acceptable for Free Cultural Works."
-msgstr ""
+msgstr "Ova licenca ulazi u definiciju Slobodnih kulturni djela."
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:47
 #: c/engine/publicdomain/zero_templates/deed.pt:141
 msgid "deed.use_this_tool"
-msgstr "Use this tool for your own work."
+msgstr "Upotrijebite ovaj alat za svoje djelo."
 
 #: c/engine/licenses/standard_templates/deed.pt:110
 msgid "deed.with_the_understanding"
-msgstr "With the understanding that:"
+msgstr "A podrazumjeva se da:"
 
 #: c/engine/licenses/standard_templates/deed.pt:116
 msgid "util.waiver"
-msgstr "Waiver"
+msgstr "Dokument o ustupanju prava"
 
 #: c/engine/licenses/standard_templates/deed.pt:125
 msgid "util.other_rights"
-msgstr "Other Rights"
+msgstr "Druga prava"
 
 #: c/engine/licenses/standard_templates/deed.pt:128
 msgid "deed.other_rights"
-msgstr "In no way are any of the following rights affected by the license:"
+msgstr "Licenca ni na koji načine ne utječe na:"
 
 #: c/engine/licenses/standard_templates/deed.pt:178
 msgid "deed.permission.help.title"
-msgstr "What does \"conditions can be waived\" mean?"
+msgstr "Što znači \"uvjeti koji se mogu ustupiti\"?"
 
 #: c/engine/licenses/standard_templates/deed.pt:182
 msgid "deed.permission.help"
 msgstr ""
-"CC licenses anticipate that a licensor may want to\n"
-"\t\twaive compliance with a specific condition, such as\n"
-"\t\tattribution."
+"CC licence pretpostavljaju da davatelj licence može odustati od zahtjeva "
+"da se korisnici pridržavaju određenih uvjeta, primjerice navođenje "
+"autorstva."
 
 #: c/engine/licenses/standard_templates/deed.pt:192
 msgid "deed.fair_use.help.title"
-msgstr "What does \"Fair use\" mean?"
+msgstr "Što su \"zakonska ograničenja autorskog i srodnih prava\"?"
 
 #: c/engine/licenses/standard_templates/deed.pt:196
 msgid "deed.fair_use.help"
 msgstr ""
-"All jurisdictions\n"
-"              allow some limited uses of copyrighted material without\n"
-"              permission.  CC licenses do not affect the rights of\n"
-"              users under those copyright limitations and exceptions,\n"
-"              such as fair use and fair dealing where applicable."
+"Svi pravni sustavi dopuštaju neka ograničena korištenja autorskopravno "
+"zaštićenih materijala bez dopuštenja autora. CC licence ne utječu na "
+"prava korisnika temeljenih na tim zakonskim ograničenjima autorskog i "
+"srodnih prava,"
 
 #: c/engine/licenses/standard_templates/deed.pt:208
 msgid "deed.moralrights.help.title"
-msgstr "What are \"Moral Rights\"?"
+msgstr "Što su \"moralna prava\"?"
 
 #: c/engine/licenses/standard_templates/deed.pt:212
 msgid "deed.moralrights.help"
 msgstr ""
-"In addition to the right of licensors to request removal of their name "
-"from the work when used in a derivative or collective they don't like, "
-"copyright laws in most jurisdictions around the world (with the notable "
-"exception of the US except in very limited circumstances) grant creators "
-"\"moral rights\" which may provide some redress if a derivative work "
-"represents a \"derogatory treatment\" of the licensor's work."
+"Uz pravo davatelja licence da traži uklanjanje svog imena s djela kada se"
+" ono koristi u preradi ili zbirci koja mu se ne sviđa, zakoni o autorskom"
+" i srodnim pravima u većini pravnih sustava (uz izuzetak SAD-a u vrlo "
+"usko određenim okolnostima) autoru opoziv prava korištenja ili zatražiti "
+"popravljanje štete ako prerada ne \"poštiva\" djelo ili \"ugrožava čast "
+"ili ugled\" autora."
 
 #: c/engine/licenses/standard_templates/deed.pt:233
 msgid "deed.publicity_rights.help"
 msgstr ""
-"Publicity\n"
-"              rights allow individuals to control how their voice,\n"
-"              image or likeness is used for commercial purposes in\n"
-"              public.  If a CC-licensed work includes the voice or\n"
-"              image of anyone other than the licensor, a user of the\n"
-"              work may need to get permission from those individuals\n"
-"              before using the work for commercial purposes."
+"Pravo nad objavljivanjem osobne fotografije i drugih osobnih zapisa kao "
+"što je glasovni zapis postoji u nekim pravnim sustavima i omogućava osobi"
+" da kontrolira javno korištenje tih zapisa u komercijalne svrhe. Ako "
+"djelo pod CC licencom sadrži glas ili sliku nekoga tko nije prenositelj "
+"prava, korisnik tog djela možda će trebati osigurati dopuštenje tih osoba"
+" prije nego što upotrijebi djelo u komerijcalne svrhe."
 
 #: c/engine/macros_templates/metadata.pt:24
 #: c/engine/macros_templates/metadata.pt:59
@@ -2547,63 +2533,61 @@ msgstr ""
 #: c/engine/chooser_pages/index.pt:112 c/engine/chooser_pages/index.pt:125
 #: c/engine/chooser_pages/index.pt:138
 msgid "Information"
-msgstr ""
+msgstr "Informacije"
 
 #: c/engine/pd/templates/publicdomain-2.pt:20
 msgid "license.pd.intro_1"
 msgstr ""
-"You have selected the Public Domain Certification.  The Public\n"
-"    Domain Certification should only be used to certify a work that is\n"
-"    already in the public domain.  Creative Commons does not recommend\n"
-"    you use the Public Domain Certification for dedicating a work\n"
-"    still protected by copyright to the public domain.  To dedicate a\n"
-"    work to the public domain, consider\n"
-"    using <a href=\"/license/zero/\">CC0</a>.  Please note that if you\n"
-"    use the Public Domain Certification to dedicate a work to the\n"
-"    public domain, it may not be valid outside of the United States."
+"Odabrali ste Potvrdu o javnom dobru. Potvrdu o javnom dobru trebalo bi "
+"koristiti samo u svrhu potvrde za djela koja su već javna dobra. Creative"
+" Commons ne preporuča korištenje Potvrde o javnom dobru za djela kojima "
+"još nije istekla autorskopravna zaštita. Da biste prenijeli Vaše djelo u "
+"javnu domenu, koristite <a href=\"/license/zero/\">CC0</a>. Upozoravamo "
+"da, ako koristite Potvrdu o javnom dobru, ona možda neće vrijediti van "
+"Sjedinjenih Američkih Država. "
 
 #: c/engine/pd/templates/publicdomain-2.pt:37
 #: c/engine/pd/templates/publicdomain-2.pt:32
 msgid "license.pd.intro_3"
 msgstr ""
-"Once you're done filling this out, you will still have the\n"
-"    opportunity to confirm your choice before the certification\n"
-"    happens."
+"Kada završite s unosom imate ćete priliku da prije ovjeravanja još jednom"
+" potvrdite Vaš izbor. "
 
 #: c/engine/pd/templates/publicdomain-2.pt:43
 msgid "license.pd.about_the_work"
-msgstr "About the work you are certifying"
+msgstr "O djelu koje ovjeravate"
 
 #: c/engine/pd/templates/publicdomain-2.pt:47
 msgid "util.fields_required"
-msgstr "(all fields are required)"
+msgstr "(potrebno je ispuniti sva polja)"
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:16
 #: c/engine/pd/templates/publicdomain-4.pt:17
 #: c/engine/pd/templates/publicdomain-3.pt:18
 #: c/engine/pd/templates/publicdomain-2.pt:16
 msgid "license.pd.identify_a_pd_work"
-msgstr "Identify a Public Domain Work"
+msgstr "Potvrdite da je djelo javno dobro"
 
 #: c/engine/publicdomain/templates/index.pt:14
 msgid "license.pdtools.title"
-msgstr "Our Public Domain Tools"
+msgstr "Naši alati za javna dobra"
 
 #: c/engine/publicdomain/templates/index.pt:16
 msgid "license.pdtools.intro"
 msgstr ""
-"Our licenses help authors\n"
-"  keep and manage their copyright on terms they choose.  Our public\n"
-"  domain tools, on the other hand, facilitate the discovery of works\n"
-"  already in the public domain and enable authors and copyright owners\n"
-"  who want to dedicate their works to the public domain to do so."
+"Naše licence pomažu autorima da zadrže i upravljaju svojim autorskim i "
+"srodnim pravima pod uvjetima koji im odgovaraju. Naši alati za javna "
+"dobra pak olakšavaju otkrivanje djela koja su već prešla u javna dobra i "
+"omogućavaju nositeljima autorskih i srodnih prava koji žele svoje djelo "
+"prenijeti u javno dobro da, u mjeri u kojoj je to zakonski moguće, to i "
+"učine."
 
 #: c/engine/publicdomain/templates/index.pt:24
 msgid "license.pdtools.zero"
 msgstr ""
-"Use this universal tool if\n"
-"    you are a holder of copyright or database rights, and you wish to\n"
-"    waive all your interests in your work."
+"Ovaj univerzalni alat upotrijebite ako ste nositelj autorskih i srodnih "
+"prava ili prava proizvođača baze podataka i želite se odreći svih prava u"
+" djelu."
 
 #: c/engine/publicdomain/templates/index.pt:33
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:8
@@ -2611,78 +2595,75 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-3.pt:8
 #: c/engine/pd/templates/publicdomain-2.pt:8
 msgid "util.public_domain_certification"
-msgstr "Public Domain Certification"
+msgstr "Potvrda o javnom dobru"
 
 #: c/engine/publicdomain/templates/index.pt:35
 msgid "license.pdtools.pdc"
 msgstr ""
-"Use this tool if you have\n"
-"    identified and want to certify other works that are already in the\n"
-"    public domain.  You will also be relinquishing any rights in the\n"
-"    work you may have under copyright.  Creative Commons does not\n"
-"    recommend this tool for use with works under copyright - \n"
-" consider using CC0 instead."
+"Ovaj alat koristite ako ste detektirali ili želite potvrditi druga djela "
+"koja su već prešla u javna dobra. Njime se odričete bilo kakvih prava u "
+"djelu koja imate temeljem Zakona o autorskom i srodnim pravima. Creative "
+"Commons ne preporuča korištenje ovog alata za Vaša djela - predlažemo da "
+"namjesto njega razmotrite upotrebu CC0."
 
 #: c/engine/zero/templates/index.pt:59
 msgid "license.zero.intro_1"
 msgstr ""
-"Using CC0, you can waive all copyrights and related or\n"
-"\t  neighboring rights that you have over your work, such as\n"
-"\t  your moral rights (to the extent waivable), your publicity\n"
-"\t  or privacy rights, rights you have protecting against unfair\n"
-"\t  competition, and database rights and rights protecting the\n"
-"\t  extraction, dissemination and reuse of data."
+"Primjenjujući CC0 na Vaše djelo možete ustupiti sva autorska i srodna "
+"prava u djelu, kao što su Vaša moralna prava (u mjeri u kojoj je to "
+"zakonski moguće), Vaše pravo nad objavljivanjem osobne fotografije ili "
+"pravo privatnosti, prava koja Vas štite protiv nepravedne konkurencije i "
+"prava proizvođača baze podataka."
 
 #: c/engine/zero/templates/index.pt:68
 msgid "license.zero.intro_2"
 msgstr ""
-"Keep in mind that you cannot waive rights to a work that you\n"
-"\t  do not own unless you have permission from the owner.  To\n"
-"\t  avoid infringing third party rights, you should consult with\n"
-"\t  your legal advisor if you are unsure whether you have all\n"
-"\t  the rights you need to distribute the work."
+"Imajte na umu da ne možete ustupiti prava na djelo koje nije Vaše, osim "
+"ako nemate dopuštenje autora. Ne biste li izbjegli kršenje prava treće "
+"strane, ako niste sigurni posjedujete li sva potrebna prava da biste "
+"mogli distribuirati djelo, potražite prethodno pravni savjet."
 
 #: c/engine/zero/templates/waiver.pt:83
 msgid "license.zero.metadata_help"
 msgstr ""
-"<p>\n"
-"\t  The information is embedded in a software readable format.\n"
-"\t  This allows search engines to index additional information\n"
-"\t  about your work.\n"
-"\t</p>\n"
-"\t<p>\n"
-"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
-"\t    information</a> on Creative Commons metadata is available if\n"
-"\t  you want to find out more.\n"
-"\t</p>"
+"<p>Informacije su uklopljene u kod u obliku koji je strojno čitljiv. To "
+"tražilicama omogućuje da indeksiraju dodatne informacije o Vašem "
+"djelu.</p><p><a href=\"http://wiki.creativecommons.org/Metadata\">Dodatne"
+" informacije</a> o Creative Commons metapodacima, ako želite saznati "
+"više.</p>"
 
 #: c/engine/pd/templates/publicdomain-3.pt:65
 msgid "deed.pd.title_plain"
 msgstr ""
-"Copyright-Only Dedication (based on United States law) \n"
-"or Public Domain Certification"
+"Prenošenje u javno dobro (temeljeno na zakonu Sjedinjenih Američkih "
+"Država) ili Potvrda o javnom dobru"
 
 #: c/engine/pd/templates/publicdomain-2.pt:58
 msgid "util.author"
-msgstr "Author"
+msgstr "Autor"
 
 #: c/engine/pd/templates/publicdomain-3.pt:118
 msgid "license.pdc.confirm_reading"
 msgstr ""
-"I have read and understand the terms and intended legal\n"
-"\t    effect of this tool, and hereby voluntarily elect to apply it to\n"
-"\t    this work."
+"Pročitao sam i razmijem uvjete i željene pravne učinke ovog alata te se "
+"ovime dragovoljno odlučujem primijeniti ga na ovo djelo."
 
 #: c/engine/pd/templates/publicdomain-3.pt:56
 msgid "license.pd.confirm_title"
-msgstr "Confirm Your Public Domain Certification"
+msgstr "Zaključite Vašu Potvrdu o javnom dobru"
 
 #: c/engine/publicdomain/templates/index.pt:34
 #: c/engine/publicdomain/templates/index.pt:51
 msgid "util.use_this_tool"
-msgstr "Use this tool"
+msgstr "Upotrijebi ovaj pravni alat"
 
 #: c/engine/publicdomain/zero_templates/deed.pt:67
 msgid "deed.zero.other_rights"
-msgstr "In no way are any of the following rights affected by CC0:"
+msgstr "Primjena CC0 ni na koji načine ne utječe na sljedeća prava:"
+
+msgid "country.th"
+msgstr "Thailand"
+
+msgid "lang.th"
+msgstr "Thai"
 
