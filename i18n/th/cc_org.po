@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-03-31 16:04-0700\n"
-"PO-Revision-Date: 2009-03-31 16:04-0700\n"
+"POT-Creation-Date: 2009-04-01 13:52-0400\n"
+"PO-Revision-Date: 2009-04-01 13:52-0400\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: th <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -185,8 +185,7 @@ msgstr ""
 "ซึ่งเป็นสัญญาอนุญาตกนู ${license_code} ฉบับเต็ม ในภาษาอังกฤษและ<a "
 "href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">ภาษาโปรตุเกส</a>."
 " และที่ซ่อนอยู่ในแท็กนั้นคือ \"สัญญาฉบับภาษาคอมพิวเตอร์\" — "
-"ข้อมูลที่ระบุถึงตัวสัญญา — "
-"ซึ่งจะทำให้ผู้อื่นสามารถค้นหาซอฟต์แวร์ของคุณได้"
+"ข้อมูลเมตาดาตา — ซึ่งจะทำให้ผู้อื่นสามารถค้นหาซอฟต์แวร์ของคุณได้"
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:46
 msgid "deed.bsd_notice"
@@ -225,7 +224,7 @@ msgstr ""
 
 msgid "license.rdfa_licensed_no_title"
 msgstr ""
-"${work_type}นี้ โดย {$work_author} ใช้<a rel=\"license\" "
+"${work_type}นี้ โดย ${work_author} ใช้<a rel=\"license\" "
 "href=\"${license_url}\">สัญญาอนุญาตของครีเอทีฟคอมมอนส์แบบ "
 "${license_name}</a>."
 
@@ -347,7 +346,7 @@ msgstr "อิสราเอล"
 msgid "license.more_perms_available"
 msgstr ""
 "การอนุญาตนอกเหนือจากที่ระบุไว้ในสัญญาอนุญาตนี้ อาจมีอยู่ที่ "
-"${more_perms_link}."
+"${more_perms_link}"
 
 msgid "country.in"
 msgstr "อินเดีย"
@@ -645,7 +644,10 @@ msgstr "เสียง"
 
 #: c/engine/macros_templates/deed.pt:92
 msgid "deed.fair_use"
-msgstr "การปฏิบัติตอคูสัญญาอย่างเป็นธรรมของคุณหรือสิทธิการใช้งานโดยชอบ"
+msgstr ""
+"สิทธิการได้รับการปฏิบัติที่เป็นธรรมหรือ<a "
+"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
+" id=\"fair_use\" class=\"helpLink\">สิทธิการใช้งานที่เป็นธรรม</a>ของคุณ"
 
 msgid "country.nl"
 msgstr "เนเธอร์แลนด์"
@@ -989,7 +991,7 @@ msgstr ""
 "href=\"/publicdomain/\">เครื่องมือสาธารณสมบัติ</a>ของเราช่วยคุณได้"
 
 msgid "char.by_brief.jp"
-msgstr "คุณต้องแสดงชื่อของผู้สร้างสรรค์เดิมและผู้แสดงด้วย."
+msgstr "คุณต้องแสดงชื่อของผู้สร้างสรรค์เดิมและผู้แสดงด้วย"
 
 #: c/engine/chooser_pages/results.pt:94
 msgid "license.learn_host"
@@ -1282,6 +1284,9 @@ msgstr "คุณไม่อาจใช้งานนี้เพื่อว
 msgid "util.more_permissions_url"
 msgstr "ที่อยู่อินเทอร์เน็ต สำหรับเงื่อนไขเพิ่มเติม"
 
+# the English text in  http://creativecommons.org/licenses/by/3.0/ appears as
+# "Nothing in this license impairs or restricts the author's moral rights."
+# (Thai: สัญญาอนุญาตนี้ ไม่ลดทอนหรือจำกัดจริยสิทธิ์ของผู้สร้างสรรค์)
 #: c/engine/licenses/standard_templates/deed.pt:64
 msgid "deed.moralrights"
 msgstr "สัญญาอนุญาตนี้ ไม่ลดทอนหรือจำกัดจริยสิทธิ์ของผู้สร้างสรรค์"
@@ -2111,12 +2116,12 @@ msgstr "ตามรอยการนำงานของคุณไปใช
 msgid "deed.zero.disclaimer"
 msgstr ""
 "<p>หนังสือสำคัญคอมมอนส์นี้ไม่ใช่เครื่องมือทางกฎหมาย\n"
-"\t\tมันเป็นเพียงเอกสารอ้างอิงเพื่อความสะดวกในการ\t\tทำความเข้าใจข้อกฎหมาย"
-" CC0\n"
+"\t\tมันเป็นเพียงเอกสารอ้างอิงเพื่อความสะดวกในการ\t\t"
+"ทำความเข้าใจข้อกฎหมายซีซีซีโร่\n"
 "\t\tเป็นการบอกกล่าวด้วยภาษาง่าย ๆ ถึงเงื่อนไขสำคัญบางประการของมัน\n"
-"\t\tคิดเสียว่ามันเป็นหน้ากากครอบข้อกฎหมาย CC0 ข้างใต้\n"
+"\t\tคิดเสียว่ามันเป็นหน้ากากครอบข้อกฎหมาย ซีซีซีโร่ ข้างใต้\n"
 "\t\tหนังสือสำคัญนี้โดยตัวเองไม่มีค่าทางกฎหมาย\n"
-"\t\tและเนื้อหาของมันไม่ปรากฎใน CC0</p>\n"
+"\t\tและเนื้อหาของมันไม่ปรากฎในซีซีซีโร่</p>\n"
 "\n"
 "\t\t<p>ครีเอทีฟคอมมอนส์คอร์ปอเรชั่นไม่ใช่สำนักงานกฎหมาย\n"
 "\t\tและไม่ได้ให้บริการทางกฎหมาย การแจกจ่าย แสดง\n"
@@ -2147,10 +2152,9 @@ msgstr "ไม่มีลิขสิทธิ์"
 #: c/engine/licenses/zero_templates/deed.pt:33
 msgid "deed.zero.nocopyright-text"
 msgstr ""
-"The person who associated a work with this document has dedicated this "
-"work to the Commons by waiving all of his or her rights to the work under"
-" copyright law and all related or neighboring legal rights he or she had "
-"in the work, to the extent allowable by law."
+"ผู้ที่ได้ใช้เอกสารฉบับนี้กับงานของเขา ได้อุทิศงานนี้แก่สาธารณะ "
+"โดยการสละสิทธิ์ทุกประการตามกฎหมายลิขสิทธิ์และกฎหมายที่เกี่ยวข้องที่เขาหรือเธอมีต่องานดังกล่าว"
+" ตามขอบเขตที่กฎหมายอนุญาต"
 
 #. Default: "Attribute this work:"
 #: c/engine/licenses/zero_templates/deed.pt:42
@@ -2211,8 +2215,8 @@ msgstr "ยืนยันการสละสิทธิ์"
 #: c/engine/zero/templates/confirm.pt:48
 msgid "license.zero.confirm_waiver_1"
 msgstr ""
-"Are you certain you wish to waive all rights to your work? Once these "
-"rights are waived, you cannot reclaim them."
+" คุณแน่ใจที่จะสละสิทธิ์ในผลงานของคุณหรือไม่ ? "
+"ทันทีที่มีการสละสิทธิ์ในสิทธิเหล่านี้ คุณจะไม่สามารถเรียกร้องกลับคืนได้"
 
 #. Default: ""
 #. "In particular, if you are an artist or author who\n"
@@ -2222,9 +2226,9 @@ msgstr ""
 #: c/engine/zero/templates/confirm.pt:54
 msgid "license.zero.confirm_waiver_2"
 msgstr ""
-"In particular, if you are an artist or author who depends upon copyright "
-"for your income, Creative Commons <strong>does not recommend</strong> "
-"that you use this tool."
+" ในกรณีที่ "
+"คุณเป็นศิลปินหรือนักประพันธ์ซึ่งมีรายได้จากลิขสิทธิ์ในผลงานของคุณ "
+"ครีเอทีฟคอมมอนส์<strong>ไม่แนะนำ</strong>ให้คุณใช้เครื่องมือนี้"
 
 #. Default: ""
 #. "If you don't own the rights to this work, then do not\n"
@@ -2234,10 +2238,10 @@ msgstr ""
 #: c/engine/zero/templates/confirm.pt:61
 msgid "license.zero.confirm_waiver_3"
 msgstr ""
-"If you don't own the rights to this work, then do not use CC0.  If you "
-"believe that nobody owns rights to the work, then the <a "
-"href=\"/license/publicdomain-2\">Public Domain Certification</a> may be "
-"what you're looking for."
+"หากคุณไม่ได้เป็นเจ้าของลิขสิทธิ์งานนี้ อย่าใช้ CC0 "
+"หากคุณเชื่อว่าไม่มีใครเป็นเจ้าของลิขสิทธิ์งานนี้ <a "
+"href=\"/license/publicdomain-2\">การรับรองสาธารณสมบัติ</a> "
+"อาจเป็นเครื่องมือที่คุณต้องการใช้"
 
 #. Default: "No, I Do Not Waive"
 #: c/engine/zero/templates/confirm.pt:71
@@ -2260,12 +2264,12 @@ msgstr "ใช่ ฉันสละสิทธิ์"
 #: c/engine/zero/templates/index.pt:76
 msgid "license.zero.intro_3"
 msgstr ""
-"Please note that this is <strong>not a registration process</strong> and "
-"Creative Commons does not store or save any of the information you enter."
-"  This tool guides you through the process of generating HTML with "
-"embedded metadata for marking your work as being available under CC0.  "
-"Your work will not be associated with CC0 or made available under CC0 "
-"until you publish it marked as being so."
+"โปรดทราบว่านี่ <strong>ไม่ใช้กระบวนการจดทะเบียน</strong> "
+"และครีเอทีฟคอมมอนส์ไม่จัดเก็บข้อมูลใด ๆ ที่คุณกรอก "
+"เครื่องมือนี้นำทางคุณสู่กระบวนสร้างแฟ้ม HTML "
+"ที่มาพร้อมข้อมูลเมตาดาตาเพื่อระบุว่างานของคุณใช้สัญญา CC0 "
+"โดยงานของคุณจะไม่ถูกผูกกับ CC0 หรือถูกเผยแพร่ภายใต้ CC0 "
+"จนกว่าคุณจะเผยแพร่งานโดยระบุเป็นเช่นนั้น"
 
 #. Default: "begin"
 #: c/engine/zero/templates/index.pt:98
@@ -2281,10 +2285,10 @@ msgstr "เริ่ม"
 #: c/engine/zero/templates/results.pt:108
 msgid "license.zero.copy_text"
 msgstr ""
-"Copy the text below to your Web site to let your visitors know that "
-"you've waived the rights to your work.  Creative Commons does not retain "
-"a record of your selection; as the publisher it's up to you to let people"
-" know how they may use your work."
+"คัดลอกข้อความด้านล่างไปวางบนเว็บไซต์ของคุณ "
+"เพื่อแจ้งให้ผู้เข้าชมทราบว่าคุณได้สละลิทธิ์ต่องานของคุณ "
+"ครีเอทีฟคอมมอนส์ไม่ได้เก็บบันทึกการเลือกใช้สัญญาของคุณ "
+"โดยคุณในฐานะผู้ตีพิมพ์ผลงานเป็นผู้มีสิทธิ์ที่จะบอกให้ผู้ชมทราบว่าเขามีสิทธิ์อะไรบ้างในการใช้ผลงานของคุณ"
 
 #. Default: "Send Email"
 #: c/engine/zero/templates/results.pt:122
@@ -2300,15 +2304,14 @@ msgstr "ส่งอีเมล"
 #: c/engine/zero/templates/results.pt:134
 msgid "license.zero.email_error"
 msgstr ""
-"An error occurred when we tried to send the email message; you can try "
-"clicking the Back button and double checking your email address.  If the "
-"address you used (${email_addr}) was correct you can <a "
-"href=\"/about/contact\">contact us</a>."
+"เกิดข้อผิดพลาดในขณะที่เราพยายามส่งอีเมลถึงคุณ : ลองคลิกปุ่ม Back "
+"และตรวจสอบที่อยู่อีเมลของคุณอีกครั้ง หากที่อยู่ที่คุณใช้ (${email_addr}) "
+"ถูกต้องแล้ว คุณสามารถ <a href=\"/about/contact\">ติดต่อเรา</a>"
 
 #. Default: "The suggested HTML has been sent to ${email_addr}."
 #: c/engine/zero/templates/results.pt:143
 msgid "license.zero.email_sent"
-msgstr "The suggested HTML has been sent to ${email_addr}."
+msgstr "โค้ด HTML ที่แนะนำ ถุกส่งไปยัง ${email_addr}."
 
 #. Default: ""
 #. "You have asked to be notified of updates to CC0.  A subscription\n"
@@ -2317,9 +2320,9 @@ msgstr "The suggested HTML has been sent to ${email_addr}."
 #: c/engine/zero/templates/results.pt:148
 msgid "license.zero.subscribed_to_updates"
 msgstr ""
-"You have asked to be notified of updates to CC0.  A subscription request "
-"has been sent on your behalf; you must click the link in the confirmation"
-" email to complete the sign-up process."
+"คุณได้ขอรับความคืบหน้าเกี่ยวกับ CC0 "
+"คำขอรับข้อมูลได้ถูกส่งแทนคุณเรียบร้อยแล้ว : "
+"คุณต้องคลิกลิงก์ยืนยันในอีเมลเพื่อให้กระบวนการเสร็จสมบูรณ์"
 
 #. Default: ""
 #. "If you'd like to get the HTML with embedded metadata via\n"
@@ -2328,8 +2331,9 @@ msgstr ""
 #: c/engine/zero/templates/results.pt:161
 msgid "license.zero.send_email_updates"
 msgstr ""
-"If you'd like to get the HTML with embedded metadata via email and "
-"optionally receive updates about CC0, fill in your email address below."
+"ถ้าคุณอยากได้โค้ด HTML พร้อมข้อมูลเมตาดาตา ทางอีเมล "
+"กรอกที่อยู่อีเมลด้านล่างนี้ - คุณอาจเลือกรับข่าวเกี่ยวกับ CC0 "
+"หรือไม่ก็ได้"
 
 #. Default: "Send me updates about CC0"
 #: c/engine/zero/templates/results.pt:181
@@ -2405,9 +2409,8 @@ msgstr "อำนาจในการตัดสินว่าผลงาน
 #: c/engine/zero/templates/waiver.pt:180
 msgid "license.zero.confirm_waiver"
 msgstr ""
-"I hereby waive all copyright and related or neighboring rights together "
-"with all associated claims and causes of action with respect to this work"
-" to the extent possible under the law."
+"ข้าพเจ้าขอสละสิทธิ์ทั้งหมดตามกฎหมายลิขสิทธิ์และกฎหมายที่เกี่ยวข้อง  "
+"ที่มีต่องานชิ้นนี้ ตามขอบเขตที่กฎหมายกำหนด"
 
 #. Default: ""
 #. "I have read and understand the terms and intended legal\n"
@@ -2416,8 +2419,8 @@ msgstr ""
 #: c/engine/zero/templates/waiver.pt:205
 msgid "license.zero.confirm_reading"
 msgstr ""
-"I have read and understand the terms and intended legal effect of CC0, "
-"and hereby voluntarily elect to apply it to this work."
+" ฉันอ่านและเข้าใจเงื่อนไขและความมุ่งหมายด้านกฏหมายเกี่ยวกับ CC0 "
+"และสมัครใจเลือกสิทธิ์นั้นกับงานชิ้นนี้"
 
 #. Default: "continue"
 #: c/engine/zero/templates/waiver.pt:217
@@ -2448,8 +2451,8 @@ msgstr "ซอฟต์แวร์"
 #: c/engine/chooser_pages/results.pt:103
 msgid "license.publish_ia"
 msgstr ""
-"เผยแพร่เพลงหรือหนังที่อนุญาตให้ใช้ของคุณที่\n"
-"\tInternet Archive"
+"เผยแพร่เพลงหรือหนังที่อนุญาตให้ใช้ของคุณที่ \n"
+"\t Internet Archive"
 
 #: c/engine/chooser_pages/results.pt:119
 msgid "license.offline_work"
@@ -2457,16 +2460,15 @@ msgstr "งานออฟไลน์ ?"
 
 #: c/engine/chooser_pages/results.pt:129
 msgid "license.option_next_steps"
-msgstr "Optional next steps"
+msgstr "ขั้นต่อไป (ทำหรือไม่ก็ได้)"
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:14
 #: c/engine/pd/templates/publicdomain-3.pt:38
 msgid "deed.pd.title"
 msgstr ""
-"Copyright-Only Dedication<a href=\"#\" class=\"helpLink\" "
-"id=\"use_zero\">*</a>\n"
-"  (based on United States law)<br />\n"
-"  or Public Domain Certification"
+"คำอุทิศเฉพาะลิขสิทธิ์<a href=\"#\" class=\"helpLink\" "
+"id=\"use_zero\">*</a>(ตามกฎหมายสหรัฐอเมริกา)<br "
+"/>หรือการรับรองสาธารณสมบัติ"
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:25
 #: c/engine/licenses/standard_templates/deed.pt:22
@@ -2489,35 +2491,34 @@ msgstr "คำสละสิทธิ์"
 
 #: c/engine/licenses/standard_templates/deed.pt:125
 msgid "util.other_rights"
-msgstr "สิทธิ์อื่น"
+msgstr "สิทธิ์อื่น ๆ"
 
 #: c/engine/licenses/standard_templates/deed.pt:128
 msgid "deed.other_rights"
-msgstr "ไม่ว่าในทางใด สิทธิดังต่อไปนี้ไม่กระทบโดยสัญญาอนุญาต :"
+msgstr "ไม่ว่าในทางใด สิทธิดังต่อไปนี้ไม่กระทบโดยสัญญาอนุญาต "
 
 #: c/engine/licenses/standard_templates/deed.pt:178
 msgid "deed.permission.help.title"
-msgstr "What does \"conditions can be waived\" mean?"
+msgstr "คำว่า \"เงื่อนไขที่สามารถสละได้\" หมายความว่าอย่างไร ?"
 
 #: c/engine/licenses/standard_templates/deed.pt:182
 msgid "deed.permission.help"
 msgstr ""
-"CC licenses anticipate that a licensor may want to\n"
-"\t\twaive compliance with a specific condition, such as\n"
-"\t\tattribution."
+"สัญญาอนุญาตซีซี คาดว่า ผู้อนุญาต อาจต้องการ\t\tสละสิทธิ์บางอย่าง "
+"ถ้ายอมทำตามเงื่อนไขที่กำหนด เช่น\t\tการอ้างที่มา"
 
 #: c/engine/licenses/standard_templates/deed.pt:192
 msgid "deed.fair_use.help.title"
-msgstr "\"การใช้งานโดยชอบ\" คืออะไร ?"
+msgstr "\"การใช้งานที่เป็นธรรม\" คืออะไร ?"
 
 #: c/engine/licenses/standard_templates/deed.pt:196
 msgid "deed.fair_use.help"
 msgstr ""
-"All jurisdictions\n"
-"              allow some limited uses of copyrighted material without\n"
-"              permission.  CC licenses do not affect the rights of\n"
-"              users under those copyright limitations and exceptions,\n"
-"              such as fair use and fair dealing where applicable."
+"เขตอำนาจศาลทุกแห่ง\n"
+"อนุญาตให้สามารถใช้งานที่มีลิขสิทธิ์ ได้ในบางกรณีโดย\n"
+"ไม่ต้องขออนุญาต สัญญาอนุญาตซีซี ไม่กระทบต่อสิทธิ์\n"
+"ของผู้ใช้งานที่สามารถทำได้ภายใต้ข้อจำกัดและข้อยกเว้น\n"
+"ตามกฎหมายลิขสิทธิ์ เช่น การใช้งานที่เป็นธรรมและสมควร ที่กฎหมายกำหนด"
 
 # moral rights
 #: c/engine/licenses/standard_templates/deed.pt:208
@@ -2527,23 +2528,23 @@ msgstr "\"จริยสิทธิ์\" คืออะไร ?"
 #: c/engine/licenses/standard_templates/deed.pt:212
 msgid "deed.moralrights.help"
 msgstr ""
-"In addition to the right of licensors to request removal of their name "
-"from the work when used in a derivative or collective they don't like, "
-"copyright laws in most jurisdictions around the world (with the notable "
-"exception of the US except in very limited circumstances) grant creators "
-"\"moral rights\" which may provide some redress if a derivative work "
-"represents a \"derogatory treatment\" of the licensor's work."
+"นอกจากสิทธิ์ของผู้อนุญาต ในการขอให้นำชื่อของเขาออกจากงาน "
+"เมื่องานนั้นถูกใช้ในงานดัดแปลงหรืองานรวบรวมที่เขาไม่ต้องการ "
+"กฎหมายลิขสิทธิ์ของรัฐส่วนมากทั่วโลก (ยกเว้นในสหรัฐอเมริกา "
+"ซึ่งมีกรณีที่เข้าข้อยกเว้นน้อยมาก) มักกำหนดให้ผู้สร้างงานมี "
+"\"จริยสิทธิ์\" ซึ่งสามารถขอให้แก้ไขปรับปรุงได้ ถ้างานดัดแปลงนั้น "
+"ทำให้เกิด\" การตำหนิ\" ต่องานต้นฉบับของผู้อนุญาต"
 
 #: c/engine/licenses/standard_templates/deed.pt:233
 msgid "deed.publicity_rights.help"
 msgstr ""
-"Publicity\n"
-"              rights allow individuals to control how their voice,\n"
-"              image or likeness is used for commercial purposes in\n"
-"              public.  If a CC-licensed work includes the voice or\n"
-"              image of anyone other than the licensor, a user of the\n"
-"              work may need to get permission from those individuals\n"
-"              before using the work for commercial purposes."
+"สิทธิ์สาธารณะ\n"
+"อนุญาตให้บุคคลสามารถควบคุมการใช้งานเสียง\n"
+"ภาพ หรือสิ่งอื่นทำนองเดียวกัน เพื่อการค้า ใน\n"
+"สาธารณะ หากงานที่ใช้สัญญาอนุญาตซีซี มีเสียง หรือ\n"
+"รูปของคนอื่นที่ไม่ใช่ผู้อนุญาตรวมอยู่ด้วย ผู้ใช้งาน\n"
+"อาจต้องขออนุญาตจากบุคคลดังกล่าว\n"
+"ก่อนการใช้งานเพื่อการค้า"
 
 #: c/engine/macros_templates/metadata.pt:24
 #: c/engine/macros_templates/metadata.pt:59
@@ -2559,63 +2560,65 @@ msgstr ""
 #: c/engine/chooser_pages/index.pt:112 c/engine/chooser_pages/index.pt:125
 #: c/engine/chooser_pages/index.pt:138
 msgid "Information"
-msgstr ""
+msgstr "ข้อมูล"
 
 #: c/engine/pd/templates/publicdomain-2.pt:20
 msgid "license.pd.intro_1"
 msgstr ""
-"You have selected the Public Domain Certification.  The Public\n"
-"    Domain Certification should only be used to certify a work that is\n"
-"    already in the public domain.  Creative Commons does not recommend\n"
-"    you use the Public Domain Certification for dedicating a work\n"
-"    still protected by copyright to the public domain.  To dedicate a\n"
-"    work to the public domain, consider\n"
-"    using <a href=\"/license/zero/\">CC0</a>.  Please note that if you\n"
-"    use the Public Domain Certification to dedicate a work to the\n"
-"    public domain, it may not be valid outside of the United States."
+"คุณได้เลิอกใบรับรองงานสาธารณสมบัติ \n"
+"คุณควรใช้ใบรับรองงานสาธารณสมบัติ "
+"เพื่อรับรองงานซึ่งเป็นสาธารณสมบัติอยู่แล้ว\n"
+" เท่านั้น ครีเอทีฟคอมมอนส์ไม่แนะนำให้\n"
+"คุณใช้ใบรับรองงานสาธารณสมบัติ เพื่ออุทิศงานที่มีลิขสิทธิ์ "
+"ให้เป็นสาธารณสมบัติ\n"
+"การอุทิศงานให้เป็นสาธารณสมบัติ กรุณา\n"
+"พิจารณาใช้ ซีซีซีโร่ กรุณาสังเกตว่า ถ้าคุณ\n"
+"ใช้ใบรับรองงานสาธารณสมบัติเพื่ออุทิศงาน ให้เป็น\n"
+" สาธารณสมบัติ การอุทิศนั้น อาจไม่ชอบด้วยกฎหมายนอกสหรัฐอเมริกา"
 
 #: c/engine/pd/templates/publicdomain-2.pt:37
 #: c/engine/pd/templates/publicdomain-2.pt:32
 msgid "license.pd.intro_3"
 msgstr ""
-"Once you're done filling this out, you will still have the\n"
-"    opportunity to confirm your choice before the certification\n"
-"    happens."
+"เมื่อคุณกรอกเสร็จแล้ว คุณยังมี\n"
+"โอกาสยืนยันตัวเลือกก่อนการรับรองจริง\n"
 
 #: c/engine/pd/templates/publicdomain-2.pt:43
 msgid "license.pd.about_the_work"
-msgstr "About the work you are certifying"
+msgstr "เกี่ยวกับงานที่คุณกำลังรับรอง"
 
 #: c/engine/pd/templates/publicdomain-2.pt:47
 msgid "util.fields_required"
-msgstr "(all fields are required)"
+msgstr "(ต้องใส่ทุกช่อง)"
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:16
 #: c/engine/pd/templates/publicdomain-4.pt:17
 #: c/engine/pd/templates/publicdomain-3.pt:18
 #: c/engine/pd/templates/publicdomain-2.pt:16
 msgid "license.pd.identify_a_pd_work"
-msgstr "Identify a Public Domain Work"
+msgstr "ระบุงานสาธารณสมบัติ"
 
 #: c/engine/publicdomain/templates/index.pt:14
 msgid "license.pdtools.title"
-msgstr "Our Public Domain Tools"
+msgstr "เครื่องมืองานสาธารณสมบัติของเรา"
 
 #: c/engine/publicdomain/templates/index.pt:16
 msgid "license.pdtools.intro"
 msgstr ""
-"Our licenses help authors\n"
-"  keep and manage their copyright on terms they choose.  Our public\n"
-"  domain tools, on the other hand, facilitate the discovery of works\n"
-"  already in the public domain and enable authors and copyright owners\n"
-"  who want to dedicate their works to the public domain to do so."
+"สัญญาอนุญาตของเรา ช่วยให้ผู้สร้างสรรค์\n"
+"สามารถรักษาและจัดการลิขสิทธิ์ของเขา โดยใช้เงื่อนไขที่เขาเองเป็นผู้กำหนด \n"
+"ในขณะที่เครื่องมืองานสาธารณสมบัติ  ของเรา ช่วยให้ผู้ใช้ "
+"ค้นพบงานที่เป็นสาธารณสมบัติอยู่แล้ว\n"
+"และทำให้ผู้สร้างสรรค์และเจ้าของลิขสิทธิ์ที่ต้องการอุทิศงานเป็นสาธารณสมบัติ"
+" \n"
+" สามารถทำเช่นนั้นได้"
 
 #: c/engine/publicdomain/templates/index.pt:24
 msgid "license.pdtools.zero"
 msgstr ""
-"Use this universal tool if\n"
-"    you are a holder of copyright or database rights, and you wish to\n"
-"    waive all your interests in your work."
+"ใช้เครื่องมือทั่วไปนี้ หาก\n"
+"\tคุณเป็นผู้ถือครองลิขสิทธิ์หรือสิทธิ์ในฐานข้อมูล และคุณต้องการจะ\n"
+"\tสละสิทธิ์ทุกประการในงานของคุณ"
 
 #: c/engine/publicdomain/templates/index.pt:33
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:8
@@ -2623,84 +2626,84 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-3.pt:8
 #: c/engine/pd/templates/publicdomain-2.pt:8
 msgid "util.public_domain_certification"
-msgstr "Public Domain Certification"
+msgstr "การรับรองสาธารณสมบัติ"
 
 #: c/engine/publicdomain/templates/index.pt:35
 msgid "license.pdtools.pdc"
 msgstr ""
-"Use this tool if you have\n"
-"    identified and want to certify other works that are already in the\n"
-"    public domain.  You will also be relinquishing any rights in the\n"
-"    work you may have under copyright.  Creative Commons does not\n"
-"    recommend this tool for use with works under copyright - \n"
-" consider using CC0 instead."
+"ใช้เครื่องมือนี้ หากคุณได้\n"
+"ระบุและต้องการที่จะรับรองงานอื่น ๆ ที่เป็น\n"
+"สาธารณสมบัติอยู่แล้ว คุณจะสละสิทธิ์ทั้งหมดใน\n"
+"งานที่คุณอาจมีลิขสิทธิ์ ครีเอทีฟคอมมอนส์ไม่แนะนำ\n"
+" เครื่องมือนี้ เพื่อใช้กับงานที่มีลิขสิทธิ์ \n"
+"ขอให้พิจารณาใช้ ซีซีซีโร่ แทน"
 
 #: c/engine/zero/templates/index.pt:59
 msgid "license.zero.intro_1"
 msgstr ""
-"Using CC0, you can waive all copyrights and related or\n"
-"\t  neighboring rights that you have over your work, such as\n"
-"\t  your moral rights (to the extent waivable), your publicity\n"
-"\t  or privacy rights, rights you have protecting against unfair\n"
-"\t  competition, and database rights and rights protecting the\n"
-"\t  extraction, dissemination and reuse of data."
+"การใช้ ซีซีซีโร่ ทำให้คุณสามารถสละลิขสิทธิ์ และสิทธิ์อื่นที่เกี่ยวข้อง\n"
+"\tหรือสิทธิ์ข้างเคียงที่คุณมีต่องานของคุณ เช่น จริยสิทธิ์ "
+"(เท่าที่กฎหมายยอมให้สละ\n"
+" \tได้), สิทธิ์ในการเผยแพร่ต่อสาธารณะ หรือสิทธิ์ในความเป็นส่วนตัว, "
+"สิทธิ์ใน\n"
+"\tการได้รับปกป้องจากการการแข่งขันอย่างไม่เป็นธรรม และสิทธิ์ในฐานข้อมูล\n"
+"\tและสิทธิ์ในการปกป้องการนำออก การเผยแพร่และการใช้ซ้ำของข้อมูล"
 
 #: c/engine/zero/templates/index.pt:68
 msgid "license.zero.intro_2"
 msgstr ""
-"Keep in mind that you cannot waive rights to a work that you\n"
-"\t  do not own unless you have permission from the owner.  To\n"
-"\t  avoid infringing third party rights, you should consult with\n"
-"\t  your legal advisor if you are unsure whether you have all\n"
-"\t  the rights you need to distribute the work."
+"โปรดทราบว่า คุณไม่สามารถสละสิทธิ์ในงานที่คุณ\n"
+"ไม่ได้เป็นเจ้าของลิขสิทธิ์ เว้นแต่คุณได้รับอนุญาตจากเจ้าของ\n"
+" \tเพื่อหลีกเลี่ยงการละเมิดสิทธิ์ของบุคคลที่สาม "
+"คุณควรขอคำปรึกษาจากที่ปรึกษา\n"
+"ทางกฎหมายของคุณ ถ้าคุณไม่แน่ใจว่า คุณมีสิทธิ์ในการเผยแพร่งานหรือไม่"
 
 #: c/engine/zero/templates/waiver.pt:83
 msgid "license.zero.metadata_help"
 msgstr ""
 "<p>\n"
-"\t  The information is embedded in a software readable format.\n"
-"\t  This allows search engines to index additional information\n"
-"\t  about your work.\n"
-"\t</p>\n"
+"\t ข้อมูลได้ถูกแนบในแบบที่ซอฟท์แวร์อ่านได้\n"
+" นี่ทำให้เครื่องคอมพิวเตอร์ค้นหา "
+"สามารถเก็บดัชนีข้อมูลเพิ่มเติมเกี่ยวกับงานของคุณได้\t</p>\n"
 "\t<p>\n"
-"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
-"\t    information</a> on Creative Commons metadata is available if\n"
-"\t  you want to find out more.\n"
+"\t"
+"<ahref=\"http://wiki.creativecommons.org/Metadata\">ข้อมูลเพิ่มเติม</a>เกี่ยวกับครีเอทีฟคอมมอนส์"
+" มีให้ ถ้าคุณต้องการทราบมากกว่านี้\n"
 "\t</p>"
 
 #: c/engine/pd/templates/publicdomain-3.pt:65
 msgid "deed.pd.title_plain"
 msgstr ""
-"Copyright-Only Dedication (based on United States law) \n"
-"or Public Domain Certification"
+"คำอุทิศลิขสิทธิ์เท่านั้น (ตามกฎหมายสหรัฐ\n"
+" อเมริกา) หรือการรับรองงานสาธารณสมบัติ"
 
 #: c/engine/pd/templates/publicdomain-2.pt:58
 msgid "util.author"
-msgstr "Author"
+msgstr "ผู้สร้างสรรค์"
 
 #: c/engine/pd/templates/publicdomain-3.pt:118
 msgid "license.pdc.confirm_reading"
 msgstr ""
-"I have read and understand the terms and intended legal\n"
-"\t    effect of this tool, and hereby voluntarily elect to apply it to\n"
-"\t    this work."
+"ข้าพเจ้าได้อ่านและเข้าใจข้อตกลงและผลทาง\n"
+"\tกฎหมายที่เกิดจากการใช้เครื่องมือนี้ และ\n"
+"\tเลือกที่จะใช้เครื่องมือกับงานนี้"
 
 #: c/engine/pd/templates/publicdomain-3.pt:56
 msgid "license.pd.confirm_title"
-msgstr "Confirm Your Public Domain Certification"
+msgstr "ยืนยันการรับรองสาธารณสมบัติของคุณ"
 
 #: c/engine/publicdomain/templates/index.pt:34
 #: c/engine/publicdomain/templates/index.pt:51
 msgid "util.use_this_tool"
-msgstr "Use this tool"
+msgstr "ใช้เครื่องมือนี้"
 
 #: c/engine/publicdomain/zero_templates/deed.pt:67
 msgid "deed.zero.other_rights"
-msgstr "In no way are any of the following rights affected by CC0:"
+msgstr "ไม่ว่าในกรณีใด สิทธิ์ดังต่อไปนี้ จะไม่ได้รับผลกระทบจากซีซีซีโร่ :"
 
 msgid "country.th"
-msgstr "Thailand"
+msgstr "ประเทศไทย"
 
 msgid "lang.th"
-msgstr "Thai"
+msgstr "ไทย"
 
