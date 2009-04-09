@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-04-02 17:18-0400\n"
-"PO-Revision-Date: 2009-04-02 17:18-0400\n"
+"POT-Creation-Date: 2009-04-09 08:28+0000\n"
+"PO-Revision-Date: 2009-04-09 08:28+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: cs <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -51,7 +51,9 @@ msgstr ""
 
 #: c/engine/chooser_pages/index.pt:88
 msgid "Yes, as long as others share alike"
-msgstr "Ano, pokud ostatní budou sdílet podobně."
+msgstr ""
+"Ano, pokud upravené dílo bude k dispozici pod stejnou (nebo podobnou) "
+"licencí."
 
 #: c/engine/licenses/sampling_templates/deed.pt:31
 msgid "deed.free_copy_distribute_noncommercial"
@@ -422,6 +424,7 @@ msgstr ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">year of copyright</a>"
 
+# vyberte licenci
 #: c/engine/chooser_pages/index.pt:29 c/engine/chooser_pages/sampling.pt:32
 #: c/engine/macros_templates/support.pt:82
 #: c/engine/macros_templates/support.pt:86
@@ -553,7 +556,7 @@ msgstr ""
 "alt=\"disclaimer\" border=\"0\"></a></div>"
 
 msgid "license.no_license"
-msgstr "Sorry, no license matches your criteria."
+msgstr "Omlouváme se, ale žádná z licencí neodpovídá vašim požadavkům."
 
 msgid "lang.it"
 msgstr "Italian"
@@ -591,7 +594,7 @@ msgstr "your email"
 #: c/engine/chooser_pages/partner/index.pt:54
 #: c/engine/chooser_pages/partner/index.pt:65
 msgid "util.Yes"
-msgstr "Yes"
+msgstr "Ano"
 
 msgid "deed.free_copy_distribute.jp"
 msgstr ""
@@ -972,6 +975,7 @@ msgstr "Enter your email address to get the HTML by email:"
 msgid "util.Next_step"
 msgstr "Next step:"
 
+# Nebo zvolte
 #: c/engine/chooser_pages/index.pt:198
 msgid "license.or_choose"
 msgstr "Or Choose:"
@@ -1093,6 +1097,7 @@ msgstr ""
 msgid "lang.ja"
 msgstr "Japanese"
 
+# Zvolte licenci k samplování
 #: c/engine/chooser_pages/sampling.pt:53
 msgid "license.sampling_title"
 msgstr "Choose Your Sampling License Options"
@@ -1194,6 +1199,7 @@ msgstr ""
 msgid "licenses.pretty_sampling+"
 msgstr "Sampling Plus"
 
+# Povolit komerční využití díla ?
 #: c/engine/chooser_pages/index.pt:42
 msgid "api.commercial"
 msgstr "Allow commercial uses of your work?"
@@ -1203,6 +1209,7 @@ msgstr "Allow commercial uses of your work?"
 msgid "license.enter_information"
 msgstr "enter information"
 
+# Povolit remixování
 msgid "jswidget.Allow_Remixing"
 msgstr "Allow Remixing"
 
@@ -1358,7 +1365,7 @@ msgstr ""
 "available in your jurisdiction."
 
 msgid "country.cz"
-msgstr "Czech Republic"
+msgstr "Česká republika"
 
 msgid "licenses.pretty_nd-nc"
 msgstr "NoDerivs-NonCommercial"
@@ -1575,10 +1582,10 @@ msgstr ""
 #: c/engine/chooser_pages/partner/index.pt:56
 #: c/engine/chooser_pages/partner/index.pt:73
 msgid "util.No"
-msgstr "No"
+msgstr "Ne"
 
 msgid "util.find"
-msgstr "find"
+msgstr "hledat"
 
 msgid "api.sampling_flavor"
 msgstr "What flavor of Sampling license?"
@@ -2324,7 +2331,7 @@ msgstr "Frequently Asked Questions"
 #. Default: "Choose which style of button you'd like on your webpage:"
 #: c/engine/zero/templates/results.pt:72
 msgid "license.choose_button"
-msgstr "Choose which style of button you'd like on your webpage:"
+msgstr "Vyberte styl ikony, kterou chcete zobrazit na vašem webu"
 
 #. Default: "Here's a preview of how your waiver will appear on your site:"
 #: c/engine/zero/templates/results.pt:98
