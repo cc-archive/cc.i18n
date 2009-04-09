@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-04-09 08:28+0000\n"
-"PO-Revision-Date: 2009-04-09 08:28+0000\n"
+"POT-Creation-Date: 2009-04-09 09:18+0000\n"
+"PO-Revision-Date: 2009-04-09 09:18+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: cs <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -28,10 +28,10 @@ msgstr "Povolit úpravy díla"
 #: c/engine/chooser_pages/index.pt:107
 msgid "license.help.derivatives"
 msgstr ""
-"Poskytovatel licence souhlasí aby ostatní kopírovali, šířili, zobrazovali"
-" a užívali jeho dílo, jakož i na jeho základě vytvářeli díla nová - "
-"příkladem může být  zhudebnění, překlad, zařazení do většího celku a "
-"podobně. "
+"Poskytovatel licence souhlasí s tím, aby ostatní kopírovali, šířili, "
+"zobrazovali a užívali jeho dílo, jakož i na jeho základě vytvářeli díla "
+"odvozená - příkladem může být  zhudebnění, překlad, zařazení do většího "
+"celku a podobně. "
 
 #: c/engine/chooser_pages/index.pt:56
 msgid "Commercial Use"
@@ -40,14 +40,14 @@ msgstr "Komerční Využití"
 #: c/engine/chooser_pages/index.pt:59
 msgid "license.help.commercial"
 msgstr ""
-"Poskytovatel licence souhlasí aby ostatní kopírovali, šířili, zobrazovali"
-" a užívali praci, včetně komerčního užití."
+"Poskytovatel licence souhlasí s tím, aby ostatní kopírovali, šířili, "
+"zobrazovali a užívali jeho dílo a to i ke komerčním účelům."
 
 #: c/engine/chooser_pages/index.pt:70
 msgid "license.help.noncommercial"
 msgstr ""
-"Poskytovatel licence souhlasí aby ostatní kopírovali, šířili, zobrazovali"
-" a užívali praci výhradně jen pro nekomerčního účely."
+"Poskytovatel licence souhlasí s tím, aby ostatní kopírovali, šířili, "
+"zobrazovali a užívali jeho dílo, ale pouze pro nekomerčního účely."
 
 #: c/engine/chooser_pages/index.pt:88
 msgid "Yes, as long as others share alike"
@@ -118,7 +118,7 @@ msgstr "copyright date"
 
 #: c/engine/chooser_pages/index.pt:168 c/engine/chooser_pages/sampling.pt:104
 msgid "util.Jurisdiction"
-msgstr "Jurisdiction"
+msgstr "Jurisdikce"
 
 #: c/engine/chooser_pages/sampling.pt:80 c/engine/chooser_pages/sampling.pt:92
 msgid "country.br"
@@ -212,14 +212,14 @@ msgstr ""
 
 msgid "license.work_type_licensed"
 msgstr ""
-"This ${work_type} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+"Uvedené dílo (${work_type}) podléhá licenci<a rel=\"license\" "
+"href=\"${license_url}\">Creative Commons ${license_name}</a>."
 
 msgid "license.rdfa_licensed_no_title"
 msgstr ""
-"This ${work_type} by ${work_author} is licensed under a <a "
+"Uvedené dílo (${work_type}) vytvořené ${work_author} podléhá licenci <a "
 "rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
-"License</a>."
+"</a>."
 
 #: c/engine/chooser_pages/gpl.pt:46 c/engine/chooser_pages/lgpl.pt:47
 msgid "license.human-readable_commons_deed"
@@ -290,7 +290,7 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-2.pt:34
 #: c/engine/macros_templates/metadata.pt:46
 msgid "util.title_of_work"
-msgstr "Title of work"
+msgstr "Název díla"
 
 #: c/engine/licenses/fsf_templates/deed.pt:61
 msgid "deed.gpl_sharealike"
@@ -461,11 +461,11 @@ msgstr ""
 
 #: c/engine/macros_templates/metadata.pt:58
 msgid "util.attribute_to_url"
-msgstr "Attribute work to URL"
+msgstr "URL pro uvedení autora"
 
 #: c/engine/chooser_pages/index.pt:195
 msgid "license.view_explanation"
-msgstr "View an explanation of all our licenses."
+msgstr "Podrobné vysvětlení všech licencí."
 
 msgid "jargon.copyright_description"
 msgstr ""
@@ -495,7 +495,7 @@ msgstr "Luxembourg"
 
 #: c/engine/macros_templates/metadata.pt:23
 msgid "license.tell_format"
-msgstr "Tell us the format of your work:"
+msgstr "V jakém formátu je vaše dílo:"
 
 msgid "country.cl"
 msgstr "Chile"
@@ -722,8 +722,8 @@ msgstr "Zvolte licenci"
 
 msgid "license.rdfa_licensed"
 msgstr ""
-"${work_title} by ${work_author} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+"${work_title} autora ${work_author} podléhí licenci <a rel=\"license\" "
+"href=\"${license_url}\">Creative Commons ${license_name} </a>."
 
 msgid "util.description"
 msgstr "description"
@@ -764,9 +764,9 @@ msgstr ""
 
 msgid "char.nc_description"
 msgstr ""
-"The licensor permits others to copy, distribute, display, and perform the"
-" work. In return, licensees may not use the work for commercial purposes "
-"— unless they get the licensor's permission."
+"Poskytovatel licence souhlasí s tím, aby ostatní kopírovali, šířili, "
+"zobrazovali a užívali jeho dílo, ale pro komerční účely - pokud k tomu "
+"nezískají svolení přímo od poskytovatele licence,"
 
 msgid "lang.es_MX"
 msgstr "Spanish (MX)"
@@ -796,7 +796,7 @@ msgstr "English (US)"
 
 #: c/engine/macros_templates/metadata.pt:52
 msgid "util.attribute_to_name"
-msgstr "Attribute work to name"
+msgstr "Jméno autora"
 
 msgid "api.sampling_flavor_help"
 msgstr ""
@@ -824,8 +824,8 @@ msgstr ""
 #: c/engine/chooser_pages/index.pt:170 c/engine/chooser_pages/sampling.pt:106
 msgid "license.jurisdiction_help"
 msgstr ""
-"If you desire a license governed by the Copyright Law of a specific "
-"jurisdiction, please select the appropriate jurisdiction."
+"Pokud si přejete, aby licence byla v souladu s právním řádem upravujícím "
+"autorské právo v dané zemi, vyberte požadovaný stát. "
 
 #: c/engine/licenses/fsf_templates/deed.pt:34
 msgid "deed.gpl_free_run"
@@ -834,7 +834,7 @@ msgstr "The freedom to run the program for any purpose."
 #: c/engine/chooser_pages/index.pt:128 c/engine/chooser_pages/sampling.pt:72
 #: c/engine/chooser_pages/partner/index.pt:79
 msgid "license.jurisdiction_question"
-msgstr "Jurisdiction of your license"
+msgstr "Stát, ve kterém chcete licenci použít"
 
 #: c/engine/pd/templates/publicdomain-2.pt:39
 msgid "util.copyright_holder"
@@ -901,8 +901,8 @@ msgstr "Video"
 
 msgid "license.rdfa_licensed_no_attrib"
 msgstr ""
-"${work_title} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+"${work_title} podléhá licenci <a rel=\"license\" "
+"href=\"${license_url}\">Creative Commons ${license_name}</a>."
 
 msgid "country.hu"
 msgstr "Hungary"
@@ -978,7 +978,7 @@ msgstr "Next step:"
 # Nebo zvolte
 #: c/engine/chooser_pages/index.pt:198
 msgid "license.or_choose"
-msgstr "Or Choose:"
+msgstr "Nebo zvolte:"
 
 msgid "licenses.pretty_by-nc-nd"
 msgstr "Attribution-NonCommercial-NoDerivs"
@@ -1045,9 +1045,9 @@ msgstr ""
 #: c/engine/chooser_pages/index.pt:124
 msgid "char.sa_description"
 msgstr ""
-"The licensor permits others to distribute derivative works only under the"
-" same license or one compatible with the one that governs the licensor's "
-"work."
+"Poskytovatel licence souhlasí s tím, aby ostatní šířili dílo odvozené z "
+"jeho díla, ale pouze v případě, že tak budou činit pod stejnou nebo "
+"podobnou licencí."
 
 #: c/engine/macros_templates/metadata.pt:34
 msgid "util.Image"
@@ -1116,7 +1116,7 @@ msgid "util.more_info"
 msgstr "more info"
 
 msgid "nav.select_a_jurisdiction"
-msgstr "Select a jurisdiction"
+msgstr "Vyberte jurisdikci"
 
 #: c/engine/chooser_pages/sampling.pt:61
 msgid "license.sampling_a_sampling+"
@@ -1160,7 +1160,7 @@ msgstr "Spanish (AR)"
 #: c/engine/macros_templates/metadata.pt:66
 #: c/engine/macros_templates/metadata.pt:82
 msgid "util.source_work"
-msgstr "Source work URL"
+msgstr "URL odkaz na původní dílo"
 
 #: c/engine/chooser_pages/sampling.pt:115
 msgid "license.sampling_note"
@@ -1244,7 +1244,7 @@ msgstr "Toto dílo nesmíte využít pro komerční účely."
 
 #: c/engine/macros_templates/metadata.pt:72
 msgid "util.more_permissions_url"
-msgstr "More permissions URL"
+msgstr "URL odkaz na stránku popisující další možnosti užití díla"
 
 #: c/engine/licenses/standard_templates/deed.pt:64
 msgid "deed.moralrights"
@@ -1701,8 +1701,9 @@ msgstr ""
 #: c/engine/chooser_pages/index.pt:117
 msgid "char.nd_description"
 msgstr ""
-"The licensor permits others to copy, distribute, display and perform only"
-" unaltered copies of the work — not derivative works based on it."
+"Poskytovatel licence souhlasí s tím, aby ostatní kopírovali, šířili, "
+"zobrazovali a užívali jeho dílo, ale pouze v jeho stávající podobě - tedy"
+" ne díla odvozená."
 
 msgid "license.learn_publicize"
 msgstr "Learn how to publicize and share your work"
@@ -1894,7 +1895,7 @@ msgstr ""
 "lyrics)."
 
 msgid "api.jurisdiction"
-msgstr "Jurisdiction of your license:"
+msgstr "Stát, ve kterém chcete licenci použít:"
 
 msgid "util.home"
 msgstr "home"
@@ -1922,7 +1923,7 @@ msgstr "Spanish (Ecuador)"
 
 #: e/macros_templates/metadata.pt:107
 msgid "Embedded Metadata"
-msgstr ""
+msgstr "Vložená metadata"
 
 #. Default: ""
 #. "<p>\n"
@@ -1941,16 +1942,15 @@ msgstr ""
 msgid "license.metadata_help"
 msgstr ""
 "<p>\n"
-"\t  The information is embedded in a software readable format.\n"
-"\t  This allows search engines to index additional information\n"
-"\t  about your work and allows people coming to the license deed\n"
-"\t  from your page to see information on the deed about how to\n"
-"\t  attribute your work.  \n"
+"\t  Informace budou vloženy ve strojově čitelném formátu.\n"
+"\t  To umožňuje vyhledávačům získat dodatečné informace\n"
+"\t  o díle a umožňuje návštěvníkům odkázaným z vaší stránky \n"
+"\t  zobrazit informaci o tom, jakým způsobem\n"
+"\t  mají uvést autora.  \n"
 "\t</p>\n"
 "\t<p>\n"
-"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
-"\t    information</a> on Creative Commons metadata is available if\n"
-"\t  you want to find out more.\n"
+"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">Více\n"
+"\t    informací</a> o Creative Commons metadatech je k dispozici\n"
 "\t</p>"
 
 #: e/macros_templates/metadata.pt:140
@@ -1992,15 +1992,15 @@ msgstr "Ecuador"
 
 #: e/macros_templates/metadata.pt:13
 msgid "license.additional_info"
-msgstr "Additional Information"
+msgstr "Další informace"
 
 #: e/macros_templates/metadata.pt:16
 msgid "license.additional_fields_optional"
 msgstr ""
-"The additional fields are <strong>optional</strong>, but will be embedded"
-" in the HTML generated for your license. This allows users of your work "
-"to determine how to attribute it or where to go for more information "
-"about the work."
+"Tato doplňková políčka jsou <strong>nepovinná</strong>, ale budou "
+"zahrnuta v HTML kódu vygenerovaném pro vaši licenci. To usnadňuje "
+"uživatelům vašeho díla určit, jakým způsobem uvést autora díla a kde "
+"získat další informace o díle samotném."
 
 msgid "country.no"
 msgstr "Norsko"
