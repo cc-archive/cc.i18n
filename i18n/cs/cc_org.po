@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-04-10 15:13-0700\n"
-"PO-Revision-Date: 2009-04-10 15:13-0700\n"
+"POT-Creation-Date: 2009-04-14 13:04+0000\n"
+"PO-Revision-Date: 2009-04-14 13:04+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: cs <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -391,12 +391,12 @@ msgstr "Sampling"
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
 msgid "util.page_other_languages"
-msgstr "This page is available in the following languages:"
+msgstr "Tato stránka je k dispozici v následujících jazycích:"
 
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
 msgid "deed.view_in"
-msgstr "This page is available in the following languages:"
+msgstr "Tato stránka je k dispozici v následujících jazycích:"
 
 msgid "lang.en_GB"
 msgstr "English (GB)"
@@ -657,11 +657,11 @@ msgstr "United States"
 #: c/engine/chooser_pages/results.pt:70
 msgid "license.select_text"
 msgstr ""
-"Select the contents of the box above and copy it. Or, have it <a "
-"href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open"
+"Označte celý taxt v rámečku a zkopírujte jej. Můžete si jej také nechat "
+"<a href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open"
 "('work-html-popup?${url_vars}', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">emailed to yourself.</a>"
+" false;\">poslat emailem.</a>"
 
 msgid "license.q1"
 msgstr ""
@@ -695,12 +695,12 @@ msgstr ""
 #: c/engine/chooser_pages/partner/index.pt:61
 msgid "license.q3"
 msgstr ""
-"<strong>Allow modifications of your work?</strong> (<a "
+"<strong>Povolit úpravy díla ?</strong> (<a "
 "href=\"/characteristic/nd?lang=${lang}\" "
 "onclick=\"window.open('/characteristic/nd?lang=${lang}', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">more info</a> <a href=\"/characteristic/nd?lang=${lang}\" "
+" false;\">více informací</a> <a href=\"/characteristic/nd?lang=${lang}\" "
 "onclick=\"window.open('/characteristic/nd?lang=${lang}', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
@@ -710,10 +710,10 @@ msgstr ""
 #: c/engine/chooser_pages/htmlpopup.pt:24
 msgid "license.html_directions"
 msgstr ""
-"Simply copy the text, then paste it into your web documents containing "
-"information about your works. <a href=\"/learn/technology/usingmarkup\" "
-"target=\"_blank\">More information about adding HTML to your documents "
-"here</a>."
+"Jednouše zkopírujte tento text a vložte jej do webových stránek "
+"obsahujících informace o vašem díle. <a "
+"href=\"/learn/technology/usingmarkup\" target=\"_blank\">Více informací o"
+" vkládání HTML naleznete zde.</a>."
 
 #: c/engine/chooser_pages/index.pt:178
 #: c/engine/chooser_pages/partner/index.pt:114
@@ -891,9 +891,9 @@ msgstr ""
 #: c/engine/chooser_pages/results.pt:21
 msgid "license.selected"
 msgstr ""
-"You have selected the Creative Commons ${license_pretty_name} "
-"License${country_name}. <a href=\"${license_url}\">See how the license "
-"will look</a> to your site's visitors."
+"Vybrali jste licenci Creative Commons ${license_pretty_name} "
+"License${country_name}. <a href=\"${license_url}\">Podívejte se, jak bude"
+" licence vypadat</a> z pohledu návštěvníků vašich stránek."
 
 #: c/engine/macros_templates/metadata.pt:32
 msgid "util.Video"
@@ -932,21 +932,21 @@ msgstr ""
 " Developing Nations license</a>."
 
 #: c/engine/chooser_pages/index.pt:32
-#, fuzzy
 msgid "license.what"
 msgstr ""
 "Prostřednictvím Creative Commons licence <strong>si ponecháte autorská "
-"práva ke svému dílu</strong> ale umožníte ostatním <a "
-"href=\"/learn/licenses/fullrights\">šířit a kopírovat toto dílo</a>, "
+"práva ke svému dílu</strong>, ale umožníte ostatním <a "
+"href=\"/learn/licenses/fullrights\">toto dílo šířit a kopírovat</a>, "
 "pokud <a href=\"/characteristic/by?lang=${lang}\" "
 "onclick=\"window.open('/characteristic/by?lang=${lang}', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">uvedou autora</a> a  budou akceptovat  zde určené podmínky "
-"přístupu k autorským dílům. Pro nové uživatele Creative Commons licence "
-"jsme připravili <a href=\"/about/think\">seznam podmínek</a>, za jakých "
-"můžete šířit své dílo dále. Jestliže chcete poskytnout vaše dílo zcela "
-"volně, zvolte jednu z <a href=\"publicdomain-2\">public domain</a>."
+" false;\">uvedou autora</a> a  budou zde určené podmínky. Pro nové "
+"uživatele Creative Commons licence jsme připravili <a "
+"href=\"/about/think\">seznam aspektů, která byste měli rozmyslet.</a>. "
+"Jestliže chcete poskytnout vaše dílo zcela volně, nebo chcete svoji práci"
+" označit jako veřejnou (public domain), zvolte jeden z našich <a "
+"href=\"publicdomain-2\">public domain</a> nástrojů."
 
 msgid "char.by_brief.jp"
 msgstr "You must give the original author and the performer credit."
@@ -954,8 +954,8 @@ msgstr "You must give the original author and the performer credit."
 #: c/engine/chooser_pages/results.pt:94
 msgid "license.learn_host"
 msgstr ""
-"Learn about other places you can host your licensed files. These sites "
-"work with your Creative Commons license."
+"Naučte se používat další místa, kam můžete umístit svůj licencovaný "
+"obsah.Tyto weby budou fungovat s vaší licencí."
 
 msgid "lang.es_CO"
 msgstr "Spanish (CO)"
@@ -989,21 +989,21 @@ msgid "deed.disclaimer"
 msgstr ""
 "<p>\n"
 "Toto shrnutí není licenčním ujednáním. Pouze vyjadřuje v obecném jazyce "
-"základní podmínky licenčního ujednání Creative Commons. Jinými slovy je "
+"základní podmínky licenčního ujednání Creative Commons. Jinými slovy, je "
 "to uživatelsky přívětivé zestručnění právního textu, který je jeho "
 "podkladem. Samo o sobě nemá právní váhu a ani se neobjevuje ve vlastním "
 "textu licence.\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"Creative Commons is not a law firm and does not provide legal services. "
-"Distributing of, displaying of, or linking to this Commons Deed does not "
-"create an attorney-client relationship.\n"
+"Organizace Creative Commons není advokátní kanceláří ani neposkytuje "
+"právní služby. Distribucí, zveřejněním či odkázání na tuto licenci "
+"nevzniká vztah mezi advokátem a klientem.\n"
 "</p>"
 
 #: c/engine/chooser_pages/results.pt:15
 msgid "license.here_chosen"
-msgstr "Here is the license you've chosen"
+msgstr "Zde je vámi vybraná licence"
 
 #: c/engine/macros_templates/deed.pt:161
 msgid "deed.learn"
@@ -1024,7 +1024,7 @@ msgstr "Chinese (Taiwan)"
 
 #: c/engine/macros_templates/metadata.pt:84
 msgid "jargon.source_work_description"
-msgstr "A work another is derived from."
+msgstr "Odkaz na původní dílo. "
 
 msgid "lang.zu"
 msgstr "Zulu"
@@ -1082,18 +1082,19 @@ msgstr "Chinese"
 
 #: c/engine/chooser_pages/results.pt:59
 msgid "license.have_your_own_website"
-msgstr "Have your own website?"
+msgstr "Máte vlastní webové stránky?"
 
 msgid "license.review_choice_directions"
 msgstr ""
-"<h1>Review Choice</h1>\n"
+"<h1>Zkontrolujte volby licence</h1>\n"
 "\n"
-"<p>Congratulations, you have selected the Creative Commons <a "
+"<p>Gratulujeme, vybrali jste si licenci Creative Commons <a "
 "href=\"${license_url}\">${license_pretty_name} "
-"License${country_name}</a>. </p>\n"
+"Licence${country_name}</a>. </p>\n"
 "\n"
-"<p>To signal to others that you are using a Creative Commons license, you"
-" can use a Creative Commons logo. The result will look like this:</p>"
+"<p>Abyste ostatním dali na vědomí, že používáte licenci Creative Commons,"
+" můžete použít Creative Commons logo. Výsledek bude vypadat "
+"názledovně:</p>"
 
 msgid "lang.ja"
 msgstr "Japanese"
@@ -1147,7 +1148,9 @@ msgid "util.Highlight_Text"
 msgstr "Highlight Text to Copy"
 
 msgid "char.nd_brief"
-msgstr "You may not alter, transform, or build upon this work."
+msgstr ""
+"Toto dílo  nesmíte  pozměňovat, doplňovat,  využívat celé  nebo částečně "
+"v  jiných dílech."
 
 #: c/engine/chooser_pages/sampling.pt:78 c/engine/chooser_pages/sampling.pt:90
 #: c/engine/chooser_pages/partner/index.pt:83
@@ -1203,7 +1206,7 @@ msgstr "Sampling Plus"
 # Povolit komerční využití díla ?
 #: c/engine/chooser_pages/index.pt:42
 msgid "api.commercial"
-msgstr "Allow commercial uses of your work?"
+msgstr "Dovolit využití vašeho díla pro komerční účely ?"
 
 #: c/engine/macros_templates/support.pt:103
 #: c/engine/macros_templates/support.pt:107
@@ -1257,8 +1260,8 @@ msgstr "Slovak Republic"
 #: c/engine/chooser_pages/results.pt:61
 msgid "license.copy_text"
 msgstr ""
-"Copy the text below to your Web site to let your visitors know what "
-"license applies to your works."
+"Zkopírujte kód uvedený níže, aby onávštěvníci vašich stránek věděli, jaké"
+" licence se na vaše dílo vztahuje."
 
 msgid "lang.he"
 msgstr "Hebrew"
@@ -1417,7 +1420,7 @@ msgstr "<strong>Šířit</strong> — kopírovat, distribuovat a  sdělovat veř
 
 #: c/engine/chooser_pages/index.pt:115
 msgid "char.nd_title"
-msgstr "No Derivative Works"
+msgstr "Nezasahujte do díla"
 
 #: c/engine/licenses/devnations_templates/deed.pt:50
 #: c/engine/licenses/sampling_templates/deed.pt:43
@@ -1522,8 +1525,8 @@ msgstr "NonCommercial-ShareAlike"
 #: c/engine/chooser_pages/results.pt:78
 msgid "license.after_support_cc"
 msgstr ""
-"After publishing your license, please consider <a "
-"href=\"http://creativecommons.org/support/\">supporting Creative "
+"Poté, co začnete používat tuto licenci, zvažte, jak byste mohli <a "
+"href=\"http://creativecommons.org/support/\">podpořit činnost Creative "
 "Commons</a>."
 
 #: c/engine/templates/by.pt:25
@@ -1553,11 +1556,10 @@ msgstr ""
 "code to programs which link to the library."
 
 #: c/engine/chooser_pages/results.pt:76
-#, fuzzy
 msgid "license.read_tutorial"
 msgstr ""
-"Need more help? <a href=\"/education/publish-website\">Read our "
-"tutorial</a>."
+"Potřebujete více informací nebo pomoc? <a href=\"/education/publish-"
+"website\">Přečtěte si návod (v angličtině)</a>."
 
 msgid "country.fi"
 msgstr "Finland"
@@ -1607,7 +1609,7 @@ msgstr ""
 
 #: c/engine/macros_templates/metadata.pt:15
 msgid "license.include_more"
-msgstr "Click to include more information about your work."
+msgstr "Klikněte sem pro zadání doplňujících informací o vašem díle. "
 
 #: c/engine/chooser_templates/emailhtml.pt:16
 msgid "license.link_emailed"
@@ -1661,7 +1663,7 @@ msgstr "Portugese"
 #: c/engine/licenses/standard_templates/deed.pt:60
 msgid "deed.permission"
 msgstr ""
-"Všechna výše uvedené podmínky mohou být <a href=\"#\" id=\"waived\" "
+"Všechny výše uvedené podmínky mohou být <a href=\"#\" id=\"waived\" "
 "class=\"helpLink\">zrušeny</a>, pokud k tomu získáte souhlas nositele "
 "autorských práv."
 
@@ -1956,25 +1958,32 @@ msgstr ""
 
 #: e/macros_templates/metadata.pt:140
 msgid "The title of the work you are licensing."
-msgstr ""
+msgstr "Nadpis či název díla, které chcete vydat pod touto licencí."
 
 #: e/macros_templates/metadata.pt:152
 msgid ""
 "The name users of the work should give attribution to. For example, the "
 "name of the work's author."
 msgstr ""
+"Jméno, na které mají uživatelé díla odkazovat. V běžném případě to bude "
+"jméno autora. "
 
 #: e/macros_templates/metadata.pt:165
 msgid ""
 "The URL users of the work should link to. For example, the work's page on"
 " the author's site."
 msgstr ""
+"URL, kterou mohou uživatelé použít na vytvoření odkazu na původní dílo či"
+" jeho autora. Obvykle například stránka s informací o díle na webu jeho "
+"autora. "
 
 #: e/macros_templates/metadata.pt:178
 msgid ""
 "A URL where a user can obtain information about clearing rights that are "
 "not pre-cleared by your CC license."
 msgstr ""
+"URL odkaz na stránku, kde mohou uživatelé díla získat další podrobnosti "
+"týkající se práv nepokrytých CC licencí. "
 
 #: e/licenses/standard_templates/deed.pt:126
 msgid "What does \"Attribute this work\" mean?"
@@ -2051,11 +2060,10 @@ msgstr "English (Singapore)"
 #. href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\"
 #. class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy\n"
 #. "\t      rights."
-#, fuzzy
 msgid "deed.publicity_rights"
 msgstr ""
-"Rights other persons may have either in the work itself or in how the "
-"work is used, such as publicity or privacy rights."
+"Případná práva dalších osob jak na dílo samotné, tak na způsoby jeho "
+"užití, jako například práva na publicitu či ochranu soukromí."
 
 #: src/cc/engine/chooser_pages/results.pt:144
 msgid "license.register_with_cc_network"
@@ -2146,7 +2154,7 @@ msgstr ""
 #. Default: "What are \"Publicity Rights\"?"
 #: c/engine/licenses/zero_templates/deed.pt:83
 msgid "deed.publicity_rights.help.title"
-msgstr "What are \"Publicity Rights\"?"
+msgstr "Co jsou \"Práva na zveřejňování\"?"
 
 #. Default: ""
 #. "Publicity\n"
@@ -2159,11 +2167,9 @@ msgstr "What are \"Publicity Rights\"?"
 #: c/engine/licenses/zero_templates/deed.pt:87
 msgid "deed.zero.publicity_rights.help"
 msgstr ""
-"Publicity rights allow individuals to control how their voice, image or "
-"likeness is used for commercial purposes in public.  If a work under CC0 "
-"includes the voice or image of anyone other than the affirmer, a user of "
-"the work may need to get permission from those individuals before using "
-"the work for commercial purposes."
+"Práva ke zveřejnění dovolují jednotlivcům určit, jakým způsobem může být "
+"záznam jejich hlasu, fotografie a podobně zveřejňován za účelem "
+"komerčního využití na veřejnosti."
 
 #. Default: "Learn more"
 #: c/engine/licenses/zero_templates/deed.pt:95
@@ -2411,7 +2417,7 @@ msgstr ""
 
 #: c/engine/chooser_pages/index.pt:165 c/engine/chooser_pages/index.pt:170
 msgid "None of the above"
-msgstr ""
+msgstr "Žádný z výše uvedených"
 
 #: c/engine/chooser_pages/index.pt:310
 msgid "Software"
@@ -2677,5 +2683,5 @@ msgstr "Thai"
 
 #: c/engine/licenses/standard_templates/deed.pt:162
 msgid "util.notice"
-msgstr "Notice"
+msgstr "Poznámka"
 
