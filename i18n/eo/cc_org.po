@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-04-14 19:16-0400\n"
-"PO-Revision-Date: 2009-04-14 19:16-0400\n"
+"POT-Creation-Date: 2009-04-23 14:23-0700\n"
+"PO-Revision-Date: 2009-04-23 14:23-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: eo <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -1552,6 +1552,7 @@ msgid "country.fi"
 msgstr "Finnlando"
 
 #: c/engine/chooser_pages/partner/index.pt:25
+#, fuzzy
 msgid "license.partner_what"
 msgstr ""
 "<p>Vi kreis verkon pri kiu vi fieras. Nun estas tempo por ĝin havebligi "
@@ -2666,4 +2667,37 @@ msgstr "Notice"
 
 msgid "lang.cs"
 msgstr "Czech"
+
+#: c/engine/chooser_pages/partner/index.pt:36
+msgid "license.partner.publicdomain_options"
+msgstr ""
+"If you want to share a work you created with no conditions, choose\n"
+"<a href=\"${cc0_url}\">CC0</a>. If\n"
+"   you're sharing a work that isn't covered by copyright or on which\n"
+"   the copyright has expired, choose the\n"
+"   <a href=\"${pd_url}\">public domain certification</a>."
+
+#: c/engine/pd/templates/publicdomain-partner.pt:24
+msgid "license.partner.pd_intro"
+msgstr ""
+"Your choice suggests you\n"
+"want to certify a work is in the public domain. The Public Domain\n"
+"Certification is not a license. By using it you assert that a work is\n"
+"already in the public domain."
+
+#: c/engine/pd/templates/publicdomain-partner.pt:31
+msgid "license.partner.pd.use_cc0"
+msgstr ""
+"If instead you want to\n"
+"waive copyright and neighboring rights on a work <em>in which you hold\n"
+"these rights</em>, choose <a href=\"${cc0_url}\">CC0</a>."
+
+#: c/engine/zero/templates/partner.pt:44
+msgid "license.partner.zero.use_pdc_instead"
+msgstr ""
+"If\n"
+"\tinstead you want to certify that a work is <em>already in the\n"
+"\tpublic domain</em>, use\n"
+"\tthe <a href=\"${pd_url}\">Public\n"
+"\tDomain Certification</a>."
 
