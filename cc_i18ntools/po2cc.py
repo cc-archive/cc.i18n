@@ -53,6 +53,9 @@ def cli(enable_caching = True):
             locale_code = root.split(os.sep)[-1]
             if localedata.exists(locale_code):
                 locale = core.Locale.parse(locale_code)
+            # fallback to parent language
+            elif '-' in locale_code and localedata.exists(locale_code.split('_')[0]:
+                locale = core.Locale.parse(locale_code.split('_')[0])                
             else:
                 locale = None
 
