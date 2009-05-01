@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-04-23 14:23-0700\n"
-"PO-Revision-Date: 2009-04-23 14:23-0700\n"
+"POT-Creation-Date: 2009-05-01 15:47-0700\n"
+"PO-Revision-Date: 2009-05-01 15:47-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en_GB <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -929,21 +929,6 @@ msgstr ""
 "This work is licenced under a <a href=\"${license_url}\">Creative Commons"
 " Developing Nations licence</a>."
 
-#: c/engine/chooser_pages/index.pt:32
-#, fuzzy
-msgid "license.what"
-msgstr ""
-"With a Creative Commons licence, <strong>you keep your copyright</strong>"
-" but allow people to <a href=\"/learn/licenses/fullrights\">copy and "
-"distribute your work</a> provided they <a "
-"href=\"/characteristic/by?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/by?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">give you credit</a> -- and only on the conditions you specify "
-"here. If you want to offer your work with no conditions, choose the <a "
-"href=\"publicdomain-2\">public domain</a>."
-
 msgid "char.by_brief.jp"
 msgstr "You must give the original author and the performer credit."
 
@@ -1482,15 +1467,6 @@ msgstr "Share Music"
 #: c/engine/chooser_pages/index.pt:122
 msgid "char.sa_title"
 msgstr "Share Alike"
-
-#: c/engine/chooser_pages/index.pt:193
-msgid "license.explain"
-msgstr ""
-"Creative Commons helps you publish your work online while letting others "
-"know exactly what they can and can't do with your work. When you choose a"
-" licence, we provide you with tools and tutorials that let you add "
-"licence information to our own site, or to one of several free hosting "
-"services that have incorporated Creative Commons."
 
 #: c/engine/pd/templates/publicdomain-4.pt:27
 #, fuzzy
@@ -2700,4 +2676,26 @@ msgstr ""
 "\tpublic domain</em>, use\n"
 "\tthe <a href=\"${pd_url}\">Public\n"
 "\tDomain Certification</a>."
+
+#: c/engine/chooser_pages/index.pt:30
+msgid "license.what"
+msgstr ""
+"With a Creative Commons license, <strong>you keep your copyright</strong>"
+" but allow people to <a href=\"/learn/licenses/fullrights\">copy and "
+"distribute your work</a> provided <a href=\"#\" class=\"helpLink\" "
+"id=\"give_you_credit\">they give you credit</a> &mdash; and only on the "
+"conditions you specify here. For those new to Creative Commons licensing,"
+" we've prepared <a href=\"/about/think\">a list of things to think "
+"about</a>. If you want to offer your work with no conditions or you want "
+"to certify a work as public domain, choose one of our<a "
+"href=\"/publicdomain/\">public domain tools</a>."
+
+#: c/engine/chooser_pages/index.pt:39
+msgid "license.explain"
+msgstr ""
+"When you choose a license, we provide you with HTML you can use to add "
+"the license information to your site and information on how to select a "
+"license on one of several free hosting services that have incorporated "
+"Creative Commons. This is not a registration and we do not retain a "
+"record of your selection."
 
