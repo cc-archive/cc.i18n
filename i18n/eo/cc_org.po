@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-05-01 15:47-0700\n"
-"PO-Revision-Date: 2009-05-01 15:47-0700\n"
+"POT-Creation-Date: 2009-05-09 12:59+0000\n"
+"PO-Revision-Date: 2009-05-09 12:59+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: eo <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -15,14 +15,14 @@ msgstr ""
 "Generated-By: Babel 1.0b-cc-2009-03-17\n"
 
 msgid "country.nz"
-msgstr "New Zealand"
+msgstr "Nov-Zelando"
 
 msgid "country.gr"
-msgstr "Greece"
+msgstr "Grekujo"
 
 #: c/engine/chooser_pages/index.pt:104
 msgid "Allow Derivative Works"
-msgstr ""
+msgstr "Permesi derivojn"
 
 #: c/engine/chooser_pages/index.pt:107
 msgid "license.help.derivatives"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: c/engine/chooser_pages/index.pt:56
 msgid "Commercial Use"
-msgstr ""
+msgstr "Komerca Uzo"
 
 #: c/engine/chooser_pages/index.pt:59
 msgid "license.help.commercial"
@@ -97,7 +97,7 @@ msgstr ""
 "</p>"
 
 msgid "country.bg"
-msgstr "Bulgario"
+msgstr "Bulgarujo"
 
 #: c/engine/pd/templates/publicdomain-4.pt:32
 #, fuzzy
@@ -137,7 +137,7 @@ msgstr ""
 " estas:"
 
 msgid "country.be"
-msgstr "Belgio"
+msgstr "Belgujo"
 
 #, fuzzy
 msgid "license.work_type_dedicated"
@@ -349,10 +349,10 @@ msgstr ""
 "de tiu ĉi procezo</a> vi trovos en nia bildstrio."
 
 msgid "country.it"
-msgstr "Italio"
+msgstr "Italujo"
 
 msgid "country.pl"
-msgstr "Pollando"
+msgstr "Polujo"
 
 msgid "lang.ms"
 msgstr "la malaja"
@@ -391,7 +391,7 @@ msgid "deed.view_in"
 msgstr "Tiu ĉi paĝo estas havebla en la jenaj lingvoj:"
 
 msgid "lang.en_GB"
-msgstr "la angla (Britio)"
+msgstr "Angle (Britujo)"
 
 #: c/engine/licenses/standard_templates/deed.pt:69
 #, fuzzy
@@ -401,7 +401,7 @@ msgstr ""
 "permesilo limigas la moralajn rajtojn de la aŭtoro."
 
 msgid "lang.pl"
-msgstr "la pola"
+msgstr "Pole"
 
 #: c/engine/pd/templates/publicdomain-3.pt:87
 msgid "util.confirm"
@@ -508,10 +508,10 @@ msgid "license.no_web_site"
 msgstr "Neniu retejo?"
 
 msgid "country.rs"
-msgstr "Serbio"
+msgstr "Serbujo"
 
 msgid "country.kr"
-msgstr "Koreio"
+msgstr "Koreujo"
 
 #: c/engine/chooser_pages/partner/index.pt:69
 msgid "license.a6"
@@ -551,7 +551,7 @@ msgid "lang.it"
 msgstr "la itala"
 
 msgid "country.ro"
-msgstr "Rumanio"
+msgstr "Rumanujo"
 
 #: c/engine/chooser_pages/index.pt:191
 msgid "license.what_you"
@@ -631,7 +631,7 @@ msgid "util.Creative_Commons"
 msgstr "Creative Commons"
 
 msgid "country.uk"
-msgstr "Britio: Anglio kaj Kimrio"
+msgstr "Britujo: Anglujo kaj Kimrujo"
 
 msgid "country.ng"
 msgstr "Niĝerio"
@@ -737,7 +737,7 @@ msgid "util.weblog"
 msgstr "retprotokolo"
 
 msgid "country.es"
-msgstr "Hispanio"
+msgstr "Hispanujo"
 
 #: c/engine/pd/templates/publicdomain-4.pt:49
 #: c/engine/chooser_pages/results.pt:127
@@ -889,10 +889,10 @@ msgstr ""
 "href=\"${license_url}\">Creative Commons ${license_name} License</a>."
 
 msgid "country.hu"
-msgstr "Hungario"
+msgstr "Hungarujo"
 
 msgid "country.hr"
-msgstr "Kroatio"
+msgstr "Kroatujo"
 
 #: c/engine/chooser_pages/gpl.pt:118 c/engine/chooser_pages/lgpl.pt:121
 msgid "license.fsf_more_info"
@@ -914,6 +914,33 @@ msgid "license.devnations_licensed"
 msgstr ""
 "Tiu ĉi verko havas la permesilon <a href=\"${license_url}\">Creative "
 "Commons por ne riĉaj landoj</a>."
+
+#: c/engine/chooser_pages/index.pt:32
+#, fuzzy
+msgctxt "license.what"
+msgid ""
+"With a Creative Commons license, <strong>you keep your copyright</strong>"
+" but allow people to <a href=\"/learn/licenses/fullrights\">copy and "
+"distribute your work</a> provided they <a href=\"#\" class=\"helpLink\" "
+"id=\"give_you_credit\">give you credit</a> &mdash; and only on the "
+"conditions you specify here. For those new to Creative Commons licensing,"
+" we've prepared <a href=\"/about/think\">a list of things to think "
+"about</a>. If you want to  offer your work with no conditions or you want"
+" to certify a work as public domain, choose one of our <a "
+"href=\"/publicdomain/\">public domain tools</a>."
+msgstr ""
+"Kun permesilo de \"Creative Commons\", <strong>vi daŭre estas la "
+"kopirajto-posedanto</strong>, sed permesas ke homoj <a "
+"href=\"/learn/licenses/fullrights\">kopiu kaj distribuu vian verkon </a> "
+"kondiĉe ke ili <a href=\"/characteristic/by?lang=${lang}\" "
+"onclick=\"window.open('/characteristic/by?lang=${lang}', "
+"'characteristic_help', "
+"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
+" false;\">mencias vin kiel ĝia aŭtoro</a> – kaj nur sub la kondiĉoj de vi"
+" specifitaj. Por personoj kiuj estas novaj al la permesiloj de Creative "
+"Commons, ni pretigis <a href=\"/about/think\">liston de aferoj pri kiuj "
+"vi devas pensi</a>.Se vi volas donanci vian verkon sen iuj ajn kondiĉoj, "
+"elektu <a href=\"publicdomain-2\">Publika havaĵo</a>."
 
 msgid "char.by_brief.jp"
 msgstr "Vi devas mencii la originalan aŭtoron kaj kreinton."
@@ -1071,7 +1098,7 @@ msgid "license.sampling_title"
 msgstr "Elektu la opciojn de via Specimeno-permesilo."
 
 msgid "country.jp"
-msgstr "Japanio"
+msgstr "Japanujo"
 
 msgid "deed.free_commercial"
 msgstr "uzi la verkon por komercaj celoj"
@@ -1105,7 +1132,7 @@ msgid "country.jo"
 msgstr "Jordanio"
 
 msgid "country.es-ca"
-msgstr "Katalunio"
+msgstr "Katalunujo"
 
 #: c/engine/pd/templates/publicdomain-4.pt:41 c/engine/chooser_pages/gpl.pt:107
 #: c/engine/chooser_pages/lgpl.pt:110 c/engine/chooser_pages/nonweb_popup.pt:31
@@ -1143,7 +1170,7 @@ msgid "country.au"
 msgstr "Aŭstralio"
 
 msgid "country.at"
-msgstr "Aŭstrio"
+msgstr "Aŭstrujo"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:19
 #, fuzzy
@@ -1187,7 +1214,7 @@ msgid "license.hide_optional_fields"
 msgstr "Kaŝu jenajn kampojn (ĉiuj kampoj estas opciaj)"
 
 msgid "country.pt"
-msgstr "Portugalio"
+msgstr "Portugalujo"
 
 msgid "license.GPL_name_full"
 msgstr "GNUa Ĝenerala Publika Permesilo"
@@ -1225,7 +1252,7 @@ msgstr ""
 " aŭtoro."
 
 msgid "country.sk"
-msgstr "Slovakio"
+msgstr "Slovakujo"
 
 #: c/engine/chooser_pages/results.pt:61
 msgid "license.copy_text"
@@ -1243,17 +1270,17 @@ msgid "country.sg"
 msgstr "Singapuro"
 
 msgid "country.se"
-msgstr "Svedio"
+msgstr "Svedujo"
 
 #: c/engine/chooser_pages/sampling.pt:82 c/engine/chooser_pages/sampling.pt:94
 msgid "country.de"
-msgstr "Germanio"
+msgstr "Germanujo"
 
 msgid "lang.hu"
 msgstr "la hungara"
 
 msgid "country.dk"
-msgstr "Danio"
+msgstr "Danujo"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:37
 #: c/engine/chooser_pages/htmlpopup.pt:46
@@ -1263,16 +1290,16 @@ msgid "util.Close_window"
 msgstr "Fermu fenestron"
 
 msgid "country.si"
-msgstr "Slovenio"
+msgstr "Slovenujo"
 
 msgid "lang.hr"
 msgstr "la kroata"
 
 msgid "country.scotland"
-msgstr "Britio: Skotlando"
+msgstr "Britujo: Skotujo"
 
 msgid "country.ua"
-msgstr "Ukrainio"
+msgstr "Ukrainujo"
 
 #: c/engine/licenses/fsf_templates/deed.pt:24
 #: c/engine/licenses/devnations_templates/deed.pt:25
@@ -1290,7 +1317,7 @@ msgid "country.co"
 msgstr "Kolombio"
 
 msgid "country.cn"
-msgstr "Ĉinio"
+msgstr "Ĉinujo"
 
 msgid "licenses.pretty_GPL"
 msgstr "GPL"
@@ -1328,7 +1355,7 @@ msgstr ""
 "</p>"
 
 msgid "country.ch"
-msgstr "Svislando"
+msgstr "Svisujo"
 
 #: c/engine/chooser_pages/results.pt:105
 #, fuzzy
@@ -1341,7 +1368,7 @@ msgstr ""
 "available in your jurisdiction."
 
 msgid "country.cz"
-msgstr "Ĉeĥio"
+msgstr "Ĉeĥujo"
 
 msgid "licenses.pretty_nd-nc"
 msgstr "Neniu derivaĵo-nekomerca"
@@ -1350,7 +1377,7 @@ msgid "licenses.pretty_by-nc-sa"
 msgstr "Atribuo-nekomerca-distribui samrajte"
 
 msgid "country.fr"
-msgstr "Francio"
+msgstr "Francujo"
 
 msgid "util.creators_name"
 msgstr "nomo de la kreinto"
@@ -1466,6 +1493,21 @@ msgstr "Dividu muzikon"
 msgid "char.sa_title"
 msgstr "Distribui kun sama permesilo"
 
+#: c/engine/chooser_pages/index.pt:193
+msgctxt "license.explain"
+msgid ""
+"Creative Commons helps you publish your work online while letting others "
+"know exactly what they can and can't do with your work. When you choose a"
+" license, we provide you with tools and tutorials that let you add "
+"license information to your own site, or to one of several free hosting "
+"services that have incorporated Creative Commons."
+msgstr ""
+"\"Creative Commons\" helpas vin publikigi vian verkon en la reton "
+"sciigante aliajn ekzakte kion ili rajtas kaj ne rajtas fari per ĝi. Se vi"
+" ne elektas permesilon, ni provizas ilojn kaj manlibrojn kiuj permesas "
+"vin aldoni permesilajn informojn al via propra retejo, aŭ al unu el "
+"pluraj senpagaj gastigaj servoj kiuj enkorpigis \"Creative Commons\"."
+
 #: c/engine/pd/templates/publicdomain-4.pt:27
 #, fuzzy
 msgid "license.mark_pd"
@@ -1523,7 +1565,7 @@ msgstr ""
 "nian manlibron</a>."
 
 msgid "country.fi"
-msgstr "Finnlando"
+msgstr "Finnujo"
 
 #: c/engine/chooser_pages/partner/index.pt:25
 #, fuzzy
@@ -1602,7 +1644,7 @@ msgstr ""
 "al tiu ĉi."
 
 msgid "country.mk"
-msgstr "Macedonia"
+msgstr "Makedonujo"
 
 msgid "licenses.pretty_sa"
 msgstr "Distribui samrajte"
@@ -1964,7 +2006,7 @@ msgstr ""
 "about the work."
 
 msgid "country.no"
-msgstr "Norway"
+msgstr "Norvegujo"
 
 msgid "lang.no"
 msgstr "Norwegian"
@@ -1987,22 +2029,22 @@ msgid "deed.use_this_license"
 msgstr "Use this license for your own work."
 
 msgid "country.hk"
-msgstr "Hong Kong"
+msgstr "Honkongo"
 
 msgid "lang.en_HK"
-msgstr "English (Hong Kong)"
+msgstr "Angle (Honkongo)"
 
 msgid "lang.zh_HK"
-msgstr "Chinese (Hong Kong)"
+msgstr "Ĉine (Honkongo)"
 
 msgid "country.gt"
-msgstr "Guatemala"
+msgstr "Gvatemalo"
 
 msgid "lang.es_GT"
-msgstr "Spanish (Guatemala)"
+msgstr "Hispane (Gvatemalo)"
 
 msgid "lang.en_SG"
-msgstr "English (Singapore)"
+msgstr "Angle (Singapuro)"
 
 #. "Rights other\n"
 #. "\t      persons may have either in the work itself or in how the\n"
@@ -2240,7 +2282,7 @@ msgstr ""
 #. Default: "The suggested HTML has been sent to ${email_addr}."
 #: c/engine/zero/templates/results.pt:143
 msgid "license.zero.email_sent"
-msgstr "The suggested HTML has been sent to ${email_addr}."
+msgstr "La proponita HTML estas sendita al ${email_addr}."
 
 #. Default: ""
 #. "You have asked to be notified of updates to CC0.  A subscription\n"
@@ -2249,9 +2291,9 @@ msgstr "The suggested HTML has been sent to ${email_addr}."
 #: c/engine/zero/templates/results.pt:148
 msgid "license.zero.subscribed_to_updates"
 msgstr ""
-"You have asked to be notified of updates to CC0.  A subscription request "
-"has been sent on your behalf; you must click the link in the confirmation"
-" email to complete the sign-up process."
+"Vi petis ricevi sciigojn pri ĝisdatigoj de CC0. La abonpeto estas sendita"
+" vianome; nun necesas alklaki la ligilon en la konfirma retmesaĝo por "
+"kompletigi la ekabonan procedon."
 
 #. Default: ""
 #. "If you'd like to get the HTML with embedded metadata via\n"
@@ -2282,12 +2324,12 @@ msgstr ""
 #. Default: "About CC0"
 #: c/engine/zero/templates/results.pt:61
 msgid "license.zero.about"
-msgstr "About CC0"
+msgstr "Pri CC0"
 
 #. Default: "Frequently Asked Questions"
 #: c/engine/zero/templates/results.pt:63
 msgid "util.FAQ"
-msgstr "Frequently Asked Questions"
+msgstr "Oftaj Demandoj"
 
 #. Default: "Choose which style of button you'd like on your webpage:"
 #: c/engine/zero/templates/results.pt:72
@@ -2302,12 +2344,12 @@ msgstr "Here's a preview of how your waiver will appear on your site:"
 #. Default: "Your name"
 #: c/engine/zero/templates/waiver.pt:103
 msgid "util.your_name"
-msgstr "Your name"
+msgstr "Via nomo"
 
 #. Default: "Your URL"
 #: c/engine/zero/templates/waiver.pt:111 c/engine/zero/templates/waiver.pt:125
 msgid "util.your_url"
-msgstr "Your URL"
+msgstr "Via URL"
 
 #. Default: ""
 #. "The URL where people can find more information about \n"
@@ -2315,20 +2357,20 @@ msgstr "Your URL"
 #: c/engine/zero/templates/waiver.pt:126 c/engine/zero/templates/waiver.pt:124
 msgid "license.zero.your_url_help"
 msgstr ""
-"The URL where people can find more information about \n"
-"the work or the person using CC0."
+"Je kiu retadreso oni povas trovi pluajn informojn pri \n"
+" la verko aŭ la persono uzanta CC0."
 
 #. Default: "Country"
 #: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
 msgid "util.country"
-msgstr "Country"
+msgstr "Ŝtato"
 
 #. Default: ""
 #. "Jurisdiction where the work is being \n"
 #. "\toffered from under CC0."
 #: c/engine/zero/templates/waiver.pt:166 c/engine/zero/templates/waiver.pt:164
 msgid "license.zero.country_help"
-msgstr "Jurisdiction from which the work is being offered under CC0."
+msgstr "En kiu jurisdikcio estas la verko proponata sub CC0."
 
 #. Default: ""
 #. "I hereby waive all copyright and related or neighboring\n"
@@ -2355,7 +2397,7 @@ msgstr ""
 #. Default: "continue"
 #: c/engine/zero/templates/waiver.pt:217
 msgid "util.continue"
-msgstr "continue"
+msgstr "daŭrigi"
 
 #. Default: ""
 #. "These fields are optional, but will be embedded in the HTML\n"
@@ -2375,7 +2417,7 @@ msgstr ""
 
 #: c/engine/chooser_pages/index.pt:310
 msgid "Software"
-msgstr ""
+msgstr "Programaro"
 
 #: c/engine/chooser_pages/results.pt:103
 msgid "license.publish_ia"
@@ -2385,7 +2427,7 @@ msgstr ""
 
 #: c/engine/chooser_pages/results.pt:119
 msgid "license.offline_work"
-msgstr "Offline Work?"
+msgstr "Ĉu Eksterreta Verko?"
 
 #: c/engine/chooser_pages/results.pt:129
 msgid "license.option_next_steps"
@@ -2421,7 +2463,7 @@ msgstr "Waiver"
 
 #: c/engine/licenses/standard_templates/deed.pt:125
 msgid "util.other_rights"
-msgstr "Other Rights"
+msgstr "Aliaj Rajtoj"
 
 #: c/engine/licenses/standard_templates/deed.pt:128
 msgid "deed.other_rights"
@@ -2490,7 +2532,7 @@ msgstr ""
 #: c/engine/chooser_pages/index.pt:112 c/engine/chooser_pages/index.pt:125
 #: c/engine/chooser_pages/index.pt:138
 msgid "Information"
-msgstr ""
+msgstr "Informaro"
 
 #: c/engine/pd/templates/publicdomain-2.pt:20
 msgid "license.pd.intro_1"
@@ -2630,7 +2672,7 @@ msgid "deed.zero.other_rights"
 msgstr "In no way are any of the following rights affected by CC0:"
 
 msgid "country.th"
-msgstr "Thailand"
+msgstr "Tajlando"
 
 msgid "lang.th"
 msgstr "Thai"
@@ -2640,7 +2682,7 @@ msgid "util.notice"
 msgstr "Notice"
 
 msgid "lang.cs"
-msgstr "Czech"
+msgstr "Ĉeĥe"
 
 #: c/engine/chooser_pages/partner/index.pt:36
 msgid "license.partner.publicdomain_options"
@@ -2674,26 +2716,4 @@ msgstr ""
 "\tpublic domain</em>, use\n"
 "\tthe <a href=\"${pd_url}\">Public\n"
 "\tDomain Certification</a>."
-
-#: c/engine/chooser_pages/index.pt:30
-msgid "license.what"
-msgstr ""
-"With a Creative Commons license, <strong>you keep your copyright</strong>"
-" but allow people to <a href=\"/learn/licenses/fullrights\">copy and "
-"distribute your work</a> provided <a href=\"#\" class=\"helpLink\" "
-"id=\"give_you_credit\">they give you credit</a> &mdash; and only on the "
-"conditions you specify here. For those new to Creative Commons licensing,"
-" we've prepared <a href=\"/about/think\">a list of things to think "
-"about</a>. If you want to offer your work with no conditions or you want "
-"to certify a work as public domain, choose one of our<a "
-"href=\"/publicdomain/\">public domain tools</a>."
-
-#: c/engine/chooser_pages/index.pt:39
-msgid "license.explain"
-msgstr ""
-"When you choose a license, we provide you with HTML you can use to add "
-"the license information to your site and information on how to select a "
-"license on one of several free hosting services that have incorporated "
-"Creative Commons. This is not a registration and we do not retain a "
-"record of your selection."
 
