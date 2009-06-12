@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-05-01 15:47-0700\n"
-"PO-Revision-Date: 2009-05-01 15:47-0700\n"
+"POT-Creation-Date: 2009-06-12 04:03+0000\n"
+"PO-Revision-Date: 2009-06-12 04:03+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh_HK <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -511,9 +511,11 @@ msgid "util.Audio"
 msgstr "音訊"
 
 #: c/engine/macros_templates/deed.pt:92
-#, fuzzy
 msgid "deed.fair_use"
-msgstr "您的合理使用以及其他權利不受上述規定影響。"
+msgstr ""
+"您的<a "
+"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
+" id=\"fair_use\" class=\"helpLink\">公平處理</a>或合理使用權利。"
 
 msgid "country.nl"
 msgstr "荷蘭"
@@ -788,9 +790,18 @@ msgstr "${license_name_full}, <a href=\"http://www.gnu.org/\">自由軟體基金
 msgid "license.devnations_licensed"
 msgstr "本作品係採用<a href=\"${license_url}\">共享創意開發中國家授權條款</a>授權。"
 
-#: c/engine/chooser_pages/index.pt:32 c/engine/chooser_pages/index.pt:30
-#, fuzzy
-msgid "license.what"
+#: c/engine/chooser_pages/index.pt:32
+msgctxt "license.what"
+msgid ""
+"With a Creative Commons license, <strong>you keep your copyright</strong>"
+" but allow people to <a href=\"/learn/licenses/fullrights\">copy and "
+"distribute your work</a> provided they <a href=\"#\" class=\"helpLink\" "
+"id=\"give_you_credit\">give you credit</a> &mdash; and only on the "
+"conditions you specify here. For those new to Creative Commons licensing,"
+" we've prepared <a href=\"/about/think\">a list of things to think "
+"about</a>. If you want to  offer your work with no conditions or you want"
+" to certify a work as public domain, choose one of our <a "
+"href=\"/publicdomain/\">public domain tools</a>."
 msgstr ""
 "透過共享創意授權條款，<strong>您不但可以保留您的版權</strong>，同時允許人們<a "
 "href=\"/learn/licenses/fullrights\">得以複製及分發您的作品</a>，惟需<a href=\"#\" "
@@ -1065,9 +1076,11 @@ msgid "util.more_permissions_url"
 msgstr "其他授權方式網址"
 
 #: c/engine/licenses/standard_templates/deed.pt:64
-#, fuzzy
 msgid "deed.moralrights"
-msgstr "本授權條款中，並無任何侵犯或限制作者精神權利的條文。"
+msgstr ""
+"作者的<a "
+"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
+" id=\"moral_rights\" class=\"helpLink\">精神權利</a>。"
 
 msgid "country.sk"
 msgstr "斯洛伐克"
@@ -1279,9 +1292,14 @@ msgstr "共享音樂"
 msgid "char.sa_title"
 msgstr "相同方式共享"
 
-#: c/engine/chooser_pages/index.pt:193 c/engine/chooser_pages/index.pt:39
-#, fuzzy
-msgid "license.explain"
+#: c/engine/chooser_pages/index.pt:193
+msgctxt "license.explain"
+msgid ""
+"Creative Commons helps you publish your work online while letting others "
+"know exactly what they can and can't do with your work. When you choose a"
+" license, we provide you with tools and tutorials that let you add "
+"license information to your own site, or to one of several free hosting "
+"services that have incorporated Creative Commons."
 msgstr "共享創意幫助您在線上發表您的作品，同時讓其他人明確知道他們能對您的作品做些甚麼、不能做些甚麼。當您選擇了某一份授權條款後，我們還會提供工具及教學指引，讓您能在我們的網站中，或在某個整合了共享創意的免費檔案存放服務站台中，加入這些授權條款的資訊。"
 
 #: c/engine/pd/templates/publicdomain-4.pt:27
@@ -1408,7 +1426,6 @@ msgstr "葡萄牙語"
 #: c/engine/licenses/devnations_templates/deed.pt:51
 #: c/engine/licenses/mitbsd_templates/deed.pt:60
 #: c/engine/licenses/standard_templates/deed.pt:60
-#, fuzzy
 msgid "deed.permission"
 msgstr "若您獲版權人許可，上述任何條件均能<a href=\"#\" id=\"waived\" class=\"helpLink\">免除</a>。"
 
@@ -1756,11 +1773,11 @@ msgstr "英語 (新加坡)"
 #. href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\"
 #. class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy\n"
 #. "\t      rights."
-#, fuzzy
 msgid "deed.publicity_rights"
 msgstr ""
-"Rights other persons may have either in the work itself or in how the "
-"work is used, such as publicity or privacy rights."
+"其他人可能在作品本身或作品如何使用上有其權利，例如<a "
+"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
+" class=\"helpLink\" id=\"publicity_rights\">推廣權</a>或私隱權。"
 
 #: src/cc/engine/chooser_pages/results.pt:144
 msgid "license.register_with_cc_network"
@@ -1851,7 +1868,7 @@ msgstr ""
 #. Default: "What are \"Publicity Rights\"?"
 #: c/engine/licenses/zero_templates/deed.pt:83
 msgid "deed.publicity_rights.help.title"
-msgstr "What are \"Publicity Rights\"?"
+msgstr "什麼是「推廣權」？"
 
 #. Default: ""
 #. "Publicity\n"
@@ -1874,7 +1891,7 @@ msgstr ""
 #: c/engine/licenses/zero_templates/deed.pt:95
 #: c/engine/zero/templates/index.pt:89
 msgid "util.learn_more"
-msgstr "Learn more"
+msgstr "詳情"
 
 #. Default: "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:30
@@ -2157,7 +2174,7 @@ msgstr "Use this tool for your own work."
 
 #: c/engine/licenses/standard_templates/deed.pt:110
 msgid "deed.with_the_understanding"
-msgstr "With the understanding that:"
+msgstr "上述條件基於以下的理解："
 
 #: c/engine/licenses/standard_templates/deed.pt:116
 #, fuzzy
@@ -2166,61 +2183,39 @@ msgstr "免除"
 
 #: c/engine/licenses/standard_templates/deed.pt:125
 msgid "util.other_rights"
-msgstr "Other Rights"
+msgstr "其他權利"
 
 #: c/engine/licenses/standard_templates/deed.pt:128
 msgid "deed.other_rights"
-msgstr "In no way are any of the following rights affected by the license:"
+msgstr "在任何情況下，本條款不會影響下列的權利："
 
 #: c/engine/licenses/standard_templates/deed.pt:178
-#, fuzzy
 msgid "deed.permission.help.title"
-msgstr "「上述任何條件均能免」所指何事？"
+msgstr "什麼是「任何條件均能免除」？"
 
 #: c/engine/licenses/standard_templates/deed.pt:182
 msgid "deed.permission.help"
-msgstr ""
-"CC licenses anticipate that a licensor may want to\n"
-"\t\twaive compliance with a specific condition, such as\n"
-"\t\tattribution."
+msgstr "共享創意條款預期授權人可能希望免除遵守某個特定條件的責任，例如署名。"
 
 #: c/engine/licenses/standard_templates/deed.pt:192
 msgid "deed.fair_use.help.title"
-msgstr "What does \"Fair use\" mean?"
+msgstr "什麼是「合理使用」？"
 
 #: c/engine/licenses/standard_templates/deed.pt:196
 msgid "deed.fair_use.help"
-msgstr ""
-"All jurisdictions\n"
-"              allow some limited uses of copyrighted material without\n"
-"              permission.  CC licenses do not affect the rights of\n"
-"              users under those copyright limitations and exceptions,\n"
-"              such as fair use and fair dealing where applicable."
+msgstr "所有司法管轄區都允許有限度使用受版權保護的作品而無需獲得授權。共享創意條款不會影響使用人行使上述權利，例如合理使用和公平處理。"
 
 #: c/engine/licenses/standard_templates/deed.pt:208
 msgid "deed.moralrights.help.title"
-msgstr "What are \"Moral Rights\"?"
+msgstr "什麼是「精神權利」？"
 
 #: c/engine/licenses/standard_templates/deed.pt:212
 msgid "deed.moralrights.help"
-msgstr ""
-"In addition to the right of licensors to request removal of their name "
-"from the work when used in a derivative or collective they don't like, "
-"copyright laws in most jurisdictions around the world (with the notable "
-"exception of the US except in very limited circumstances) grant creators "
-"\"moral rights\" which may provide some redress if a derivative work "
-"represents a \"derogatory treatment\" of the licensor's work."
+msgstr "除了授權人可以要求將他們的名字從他們不喜歡的衍生作品或匯編中除名外，世界上多數司法管轄區的版權法也賦予創作人精神權利（美國在極有限的情況有例外），可以糾正授權人作品在衍生作品中受貶損的情況。"
 
 #: c/engine/licenses/standard_templates/deed.pt:233
 msgid "deed.publicity_rights.help"
-msgstr ""
-"Publicity\n"
-"              rights allow individuals to control how their voice,\n"
-"              image or likeness is used for commercial purposes in\n"
-"              public.  If a CC-licensed work includes the voice or\n"
-"              image of anyone other than the licensor, a user of the\n"
-"              work may need to get permission from those individuals\n"
-"              before using the work for commercial purposes."
+msgstr "推廣權允許個人去控制自己的聲音、圖像或肖像在公開場合如何作商業用途。如果一件以共享創意授權釋出的作品包括授權人以外的聲音或圖像，使用人可能要向有關人士取得同意，才可以將作品作商業用途。"
 
 #: c/engine/macros_templates/metadata.pt:24
 #: c/engine/macros_templates/metadata.pt:59
@@ -2383,7 +2378,7 @@ msgstr "泰文"
 
 #: c/engine/licenses/standard_templates/deed.pt:162
 msgid "util.notice"
-msgstr "Notice"
+msgstr "通知"
 
 msgid "lang.cs"
 msgstr "Czech"
