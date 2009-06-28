@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2009-04-23 14:16-0700\n"
-"PO-Revision-Date: 2009-05-10 10:31+0000\n"
+"PO-Revision-Date: 2009-06-28 15:52+0000\n"
 "Last-Translator: Petr Adam Dohnálek <pa.dohnalek@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eo\n"
@@ -36,6 +36,8 @@ msgid ""
 "The licensor permits others to copy, distribute, display and perform the "
 "work, as well as make derivative works based on it."
 msgstr ""
+"La permesanto rajtigas aliulojn kopii, distribui, vidigi kaj efektivigi la "
+"verkon, same kiel krei verkojn sur tiu bazitajn aŭ tiun enhavantajn."
 
 #: c/engine/chooser_pages/index.pt:56
 msgid "Commercial Use"
@@ -47,6 +49,8 @@ msgid ""
 "The licensor permits others to copy, distribute, display, and perform the"
 " work, including for commercial purposes."
 msgstr ""
+"La permesanto rajtigas aliulojn kopii, distribui, vidigi kaj efektivigi la "
+"verkon, ankaŭ por komercaj celoj."
 
 #: c/engine/chooser_pages/index.pt:70
 msgctxt "license.help.noncommercial"
@@ -54,10 +58,12 @@ msgid ""
 "The licensor permits others to copy, distribute, display, and perform the"
 " work for non-commercial purposes only."
 msgstr ""
+"La permesanto rajtigas aliulojn kopii, distribui, vidigi kaj efektivigi la "
+"verkon, sed nur por nekomercaj celoj."
 
 #: c/engine/chooser_pages/index.pt:88
 msgid "Yes, as long as others share alike"
-msgstr ""
+msgstr "Jes, se la aliigita verko estos disponebla samkondiĉe."
 
 #: c/engine/licenses/sampling_templates/deed.pt:31
 msgctxt "deed.free_copy_distribute_noncommercial"
@@ -65,9 +71,8 @@ msgid ""
 "To perform, display, and distribute copies of this whole work for "
 "noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
 msgstr ""
-"Prezenti antaŭ publiko, montri kaj distribui kopiojn de tiu ĉi tuta verko"
-" por nekomercaj celoj (ekz. dosiero-interŝanĝo aŭ nekomerca reta "
-"distribuado)."
+"Efektivigi, vidigi kaj distribui kopiaĵojn de la kompleta verko por "
+"nekomercaj celoj (ekz. dosiera kunhavigo aŭ nekomerca retelsendo)."
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
 msgctxt "license.pd_awaiting_confirmation"
@@ -113,37 +118,37 @@ msgstr ""
 "<h1>Dediĉo kiel Publika Havaĵo – retpoŝta konfirmo</h1>\n"
 "\n"
 "<p>\n"
-"Retmesaĝo estas sendita al vi je <b>${email}</b>. Vi devus ricevi ĝin ene"
-" de kelkaj minutoj. \n"
+"Retletero estas sendita al vi je <b>${email}</b>. Vi devus ricevi ĝin ene de "
+"kelkaj minutoj. \n"
 "</p>\n"
 "\n"
 "<p>\n"
-"Tiu ĉi mesaĝo enhavas konfirmon de via dediĉo kiel Publika Havaĵo. Ĝi "
+"Tiu ĉi retletero enhavas konfirmon de via dediĉo kiel Publika Havaĵo. Ĝi "
 "devus inkluzivi la titolon de via verko (\"<b>${title}</b>\") kaj la "
 "kopirajto-posedanto de la verko (\"<b>${copyright_holder}</b>\"). \n"
 "</p>\n"
 "\n"
 "<p>\n"
-"Tiu ĉi mesaĝo ankaŭ inkluzivas ligilon kun konfirma kodo. Tiu ĉi konfirma"
-" kodo ebligas nin kontroli ke vi efektive estas la rajtigita persono por "
-"ricevi retpoŝton je <b>${email}</b>. Alklakante la ligilon vi konfirmas "
-"ke vi rezignas pri kopirajto por via verko kaj vi efektive disponigas la "
-"verkon kiel Publika Havaĵo.\n"
+"Tiu ĉi retletero ankaŭ inkluzivas ligilon kun konfirma kodo. Tiu ĉi konfirma "
+"kodo ebligas nin kontroli ke vi efektive estas la rajtigita persono por "
+"ricevi retpoŝton je <b>${email}</b>. Alklakante la ligilon vi konfirmas ke "
+"vi rezignas pri kopirajto por via verko kaj vi efektive disponigas la verkon "
+"kiel Publika Havaĵo.\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"<b>Ĝis kiam vi alklakis la konfirman ligilon, via verko ne estos dediĉita"
-" kiel Publika Havaĵo.</b>\n"
+"<b>Ĝis kiam vi alklakis la konfirman ligilon, via verko ne estos dediĉita "
+"kiel Publika Havaĵo.</b>\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"Se vi ne ricevus konfirman retmesaĝon ene de 30-45 minutoj, bv. tion  <a "
+"Se vi ne ricevus konfirman retleteron ene de 30-45 minutoj, bv. tion  <a "
 "href=\"mailto:pd@creativecommons.org\">al ni sciigi</a>.\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"Post alklako de la konfirma ligilo, vi ekscios kiel marki vian enhavon "
-"kun dediĉo de Publika Havaĵo kaj kiel publikigi vian verkon.\n"
+"Post alklako de la konfirma ligilo, vi ekscios kiel marki vian enhavon kun "
+"dediĉo de Publika Havaĵo kaj kiel publikigi vian verkon.\n"
 "</p>"
 
 msgctxt "country.bg"
@@ -164,12 +169,12 @@ msgstr ""
 
 msgctxt "util.copyright_date"
 msgid "copyright date"
-msgstr "dato de kopirajto"
+msgstr "aŭtorrajta dato"
 
 #: c/engine/chooser_pages/index.pt:168 c/engine/chooser_pages/sampling.pt:104
 msgctxt "util.Jurisdiction"
 msgid "Jurisdiction"
-msgstr "Jurisdikcio"
+msgstr "Juĝorajto"
 
 #: c/engine/chooser_pages/sampling.pt:80 c/engine/chooser_pages/sampling.pt:92
 msgctxt "country.br"
@@ -178,7 +183,7 @@ msgstr "Brazilo"
 
 msgctxt "util.Creative_Commons_License"
 msgid "Creative Commons License"
-msgstr "Permesilo de \"Creative Commons\""
+msgstr "La permesilo Creative Commons"
 
 #: c/engine/chooser_pages/sampling.pt:41
 #: c/engine/macros_templates/support.pt:145
@@ -196,37 +201,34 @@ msgid ""
 "with the express conditions of this license. The principal conditions "
 "are:"
 msgstr ""
-"Vi estas libera fari tion kio estas priskribita ĉi tie, kondiĉe ke vi "
-"konsentas kun la specifaj kondiĉoj de tiu ĉi permesilo. La ĉefaj kondiĉoj"
-" estas:"
+"Vi rajtas realigi ĉion priskribitan ĉi tie, se vi konsentas kun la specifaj "
+"kondiĉoj de la permesilo. La ĉefaj estas la jenaj:"
 
 msgctxt "country.be"
 msgid "Belgium"
 msgstr "Belgujo"
 
-#, fuzzy
 msgctxt "license.work_type_dedicated"
 msgid ""
 "This ${work_type} is in the <a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
 "Domain</a>."
 msgstr ""
-"Tiu ĉi ${work_type} estas dediĉita kiel <a rel=\"license\" "
-"href=\"http://creativecommons.org/licenses/publicdomain/\">Publika "
-"Havaĵo</a>."
+"Tiu ĉi ${work_type} estas <a rel=\"license\" "
+"href=\"http://creativecommons.org/licenses/publicdomain/\">Publika Havaĵo</a>."
 
 #: c/engine/chooser_pages/index.pt:77
 msgctxt "api.derivatives"
 msgid "Allow modifications of your work?"
-msgstr "Ĉu permesi modifojn de via verko?"
+msgstr "Ĉu permesi aliigon de via verko?"
 
 msgctxt "deed.fair_use.jp"
 msgid ""
 "Your rights to exploit the work based on the limitations to copyright "
 "clauses and other rights are in no way affected by the above."
 msgstr ""
-"Viaj rajtoj utiligi la verkon ene de la limigoj de la kopirajto kaj aliaj"
-" rajtoj neniel estas influitaj per la supre menciitaj aferoj."
+"La supraj aferoj neniel influas al viaj rajtoj utiligi la verkon bazitaj sur "
+"limigoj de aŭtorrajtaj klaŭzoj kaj aliaj rajtoj."
 
 msgctxt "deed.back_to_cc"
 msgid "back to <a href=\"/\">Creative Commons</a>"
@@ -2199,7 +2201,7 @@ msgstr "Dividu muzikon"
 #: c/engine/chooser_pages/index.pt:122
 msgctxt "char.sa_title"
 msgid "Share Alike"
-msgstr "Distribui kun sama permesilo"
+msgstr "Distribuo kun sama permesilo"
 
 #: c/engine/chooser_pages/index.pt:193
 msgctxt "license.explain"
@@ -2820,7 +2822,7 @@ msgstr "Hispana (Ekvadoro)"
 
 #: e/macros_templates/metadata.pt:107
 msgid "Embedded Metadata"
-msgstr ""
+msgstr "Enkorpigitaj Metadatenoj"
 
 #. Default: ""
 #. "<p>\n"
@@ -2866,29 +2868,33 @@ msgstr ""
 
 #: e/macros_templates/metadata.pt:140
 msgid "The title of the work you are licensing."
-msgstr ""
+msgstr "Titolo de la verko, por kiu vi kreas permesilon."
 
 #: e/macros_templates/metadata.pt:152
 msgid ""
 "The name users of the work should give attribution to. For example, the "
 "name of the work's author."
-msgstr ""
+msgstr "Nomo al kiu la uzantoj atribuu la verkon. Ekzemple nomo de la aŭtoro. "
 
 #: e/macros_templates/metadata.pt:165
 msgid ""
 "The URL users of the work should link to. For example, the work's page on"
 " the author's site."
 msgstr ""
+"URL, al kiu la uzantoj de la verko aperigu ligilon. Ekzemple retpaĝo pri "
+"laboro de la aŭtoro."
 
 #: e/macros_templates/metadata.pt:178
 msgid ""
 "A URL where a user can obtain information about clearing rights that are "
 "not pre-cleared by your CC license."
 msgstr ""
+"URL, kie la uzantoj povas atingi pluajn informojn, detalojn pri rajtoj ne "
+"enhavataj en la permesilo Creative Commons."
 
 #: e/licenses/standard_templates/deed.pt:126
 msgid "What does \"Attribute this work\" mean?"
-msgstr ""
+msgstr "Kion signifas \"Atribuu la verkon\"?"
 
 #: e/licenses/standard_templates/deed.pt:129
 msgid ""
@@ -2897,6 +2903,10 @@ msgid ""
 "here to cite the work. Doing so will also include metadata on your page "
 "so that others can find the original work as well."
 msgstr ""
+"La paĝo el kiu vi venas enhavis enkorpigitajn permesilajn metadatenojn, "
+"indikantajn ankaŭ kian atribuon la kreinto deziras por reuzoj. Vi povas uzi "
+"tiun HTML ĉi tie por citi la verkon, kio aldonos metadatenojn en vian paĝon, "
+"tiel ke ankaŭ aliuloj povos trovi la originan verkon."
 
 msgctxt "country.ec"
 msgid "Ecuador"
@@ -2905,7 +2915,7 @@ msgstr "Ekvadoro"
 #: e/macros_templates/metadata.pt:13
 msgctxt "license.additional_info"
 msgid "Additional Information"
-msgstr "Additional Information"
+msgstr "Plia Informaro"
 
 #: e/macros_templates/metadata.pt:16
 msgctxt "license.additional_fields_optional"
@@ -2915,10 +2925,9 @@ msgid ""
 "to determine how to attribute it or where to go for more information "
 "about the work."
 msgstr ""
-"The additional fields are <strong>optional</strong>, but will be embedded"
-" in the HTML generated for your license. This allows users of your work "
-"to determine how to attribute it or where to go for more information "
-"about the work."
+"La pluaj kampoj estas <strong>nedevigaj</strong>, sed enkorpiĝos en HTML "
+"generita por via permesilo. Tio ebligos al la uzantoj de via verko destini "
+"kiel ĝin atribui aŭ kie trovi pluajn informojn pri ĝi."
 
 msgctxt "country.no"
 msgid "Norway"
@@ -2930,7 +2939,7 @@ msgstr "Norvega"
 
 msgctxt "license.mark_software"
 msgid "Mark Software"
-msgstr "Mark Software"
+msgstr "Marku Programaron"
 
 msgctxt "license.fsf_instructions"
 msgid ""
@@ -2945,13 +2954,13 @@ msgid ""
 "You can display the icon on any site you offer your software for download"
 " using the following markup:"
 msgstr ""
-"You can display the icon on any site you offer your software for download"
-" using the following markup:"
+"Vi povas vidigi la bildsimbolon en iu ajn paĝo, kie vi proponas elŝuton de "
+"via programaro, uzante la jenan markadon:"
 
 #: c/engine/macros_templates/deed.pt:206
 msgctxt "deed.use_this_license"
 msgid "Use this license for your own work."
-msgstr "Use this license for your own work."
+msgstr "Uzu la permesilon por via propra verko."
 
 msgctxt "country.hk"
 msgid "Hong Kong"
@@ -2984,7 +2993,6 @@ msgstr "Angla (Singapuro)"
 #. href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\"
 #. class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy\n"
 #. "\t      rights."
-#, fuzzy
 msgctxt "deed.publicity_rights"
 msgid ""
 "Rights other persons may have either in the work itself or in how the "
@@ -2993,18 +3001,20 @@ msgid ""
 " class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy "
 "rights."
 msgstr ""
-"Rights other persons may have either in the work itself or in how the "
-"work is used, such as publicity or privacy rights."
+"Eventualaj rajtoj de aliuloj aŭ por la verko mem aŭ por la maniero de ĝia "
+"uzo, ekz. rajtoj por protekto de <a href=\"http://wiki.creativecommons.org/Fr"
+"equently_Asked_Questions#When_are_publicity_rights_relevant.3F\" "
+"class=\"helpLink\" id=\"publicity_rights\">persono kaj ties privateco</a>."
 
 #: src/cc/engine/chooser_pages/results.pt:144
 msgctxt "license.register_with_cc_network"
 msgid "Register your work with the CC Network"
-msgstr ""
+msgstr "Registri vian verkon per la CC-Reto."
 
 #: src/cc/engine/chooser_pages/results.pt:151
 msgctxt "license.track_with_fairshare"
 msgid "Track use of your work with FairShare"
-msgstr ""
+msgstr "Spuri uzon de via verko per FairShare."
 
 #. Default: ""
 #. "<p>The Commons Deed is not a legal instrument. It is simply a\n"
@@ -3035,6 +3045,15 @@ msgid ""
 "\t\t  or linking to this Commons Deed does not create an\n"
 "\t\t  attorney-client relationship.</p>"
 msgstr ""
+"<p>Commons Deed ne estas jura rimedo, sed nur konciza resumo helpanta "
+"kompreni la tekston CC0 Legal Code, esprimanta al nejuristoj ties "
+"fundamentajn ideojn. Konsideru ĝin kiel afablan interfacon por CC0 Legal "
+"Code. Commons Deed havas nenian juran valoron kaj ties enhavo ne aperas en "
+"CC0 Legal Code.</p>\n"
+"\n"
+"\t\t<p>Creative Commons ne estas jura firmao kaj ne provizas jurajn servojn. "
+"Distribuado, vidigado aŭ ligado al Commons Deed kreas nenian rilaton de "
+"juristo kaj kliento.</p>"
 
 #. Default: ""
 #. "This is a human-readable summary of\n"
@@ -3051,7 +3070,7 @@ msgstr ""
 #: c/engine/licenses/zero_templates/deed.pt:30
 msgctxt "deed.zero.no_copyright"
 msgid "No Copyright"
-msgstr ""
+msgstr "Neniu Aŭtorrajto"
 
 #. Default: ""
 #. "The person who associated a work with this document\n"
@@ -3072,7 +3091,7 @@ msgstr ""
 #: c/engine/licenses/zero_templates/deed.pt:42
 msgctxt "deed.attribute_this_work"
 msgid "Attribute this work:"
-msgstr ""
+msgstr "Atribuu ĉi tiun verkon:"
 
 #. Default: ""
 #. "In no way are any of the following rights affected by\n"
@@ -3080,7 +3099,7 @@ msgstr ""
 #: c/engine/licenses/zero_templates/deed.pt:65
 msgctxt "deed.following_unaffected"
 msgid "In no way are any of the following rights affected by the above:"
-msgstr ""
+msgstr "La permesilo neniel influas la jenajn rajtojn:"
 
 #. Default: "Patent or trademark rights held by the person who associated this
 #. document with a work."
@@ -3095,7 +3114,7 @@ msgstr ""
 #: c/engine/licenses/zero_templates/deed.pt:83
 msgctxt "deed.publicity_rights.help.title"
 msgid "What are \"Publicity Rights\"?"
-msgstr ""
+msgstr "Kio estas \"Publikigaj Rajtoj\"?"
 
 #. Default: ""
 #. "Publicity\n"
@@ -3114,13 +3133,17 @@ msgid ""
 "the work may need to get permission from those individuals before using "
 "the work for commercial purposes."
 msgstr ""
+"La publikigaj rajtoj ebligas al homoj destini, kiel ilia voĉo, bildo ks. "
+"povas esti uzata publike por komercaj celoj. Se verko sub CC0 enhavas voĉon, "
+"bildon ks. fare de alia homo ol estas la permesanto, uzanto devos akiri "
+"ankaŭ lian konsenton antaŭ publika utiligo de la verko por komercaj celoj."
 
 #. Default: "Learn more"
 #: c/engine/licenses/zero_templates/deed.pt:95
 #: c/engine/zero/templates/index.pt:89
 msgctxt "util.learn_more"
 msgid "Learn more"
-msgstr ""
+msgstr "Pliaj informoj"
 
 #. Default: "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:30
@@ -3201,7 +3224,7 @@ msgstr ""
 #: c/engine/zero/templates/index.pt:98
 msgctxt "util.begin"
 msgid "begin"
-msgstr ""
+msgstr "komencu"
 
 #. Default: ""
 #. "Copy the text below to your Web site to let your visitors\n"
@@ -3222,7 +3245,7 @@ msgstr ""
 #: c/engine/zero/templates/results.pt:122
 msgctxt "license.zero.send_email"
 msgid "Send Email"
-msgstr ""
+msgstr "Sendu Retleteron"
 
 #. Default: ""
 #. "An error occurred when we tried to send the email message;\n"
@@ -3257,7 +3280,7 @@ msgid ""
 " email to complete the sign-up process."
 msgstr ""
 "Vi petis ricevi sciigojn pri ĝisdatigoj de CC0. La abonpeto estas sendita "
-"vianome; nun necesas alklaki la ligilon en la konfirma retmesaĝo por "
+"vianome; nun necesas alklaki la ligilon en la konfirma retletero por "
 "kompletigi la ekabonan procedon."
 
 #. Default: ""
@@ -3275,7 +3298,7 @@ msgstr ""
 #: c/engine/zero/templates/results.pt:181
 msgctxt "license.zero.update_opt_in"
 msgid "Send me updates about CC0"
-msgstr ""
+msgstr "Sendu al mi aktualigojn pri CC0"
 
 #. Default: ""
 #. "You did not affirm your decision to waive the rights\n"
@@ -3379,7 +3402,7 @@ msgstr ""
 #: c/engine/zero/templates/waiver.pt:217
 msgctxt "util.continue"
 msgid "continue"
-msgstr "daŭrigi"
+msgstr "daŭrigu"
 
 #. Default: ""
 #. "These fields are optional, but will be embedded in the HTML\n"
@@ -3396,7 +3419,7 @@ msgstr ""
 
 #: c/engine/chooser_pages/index.pt:165 c/engine/chooser_pages/index.pt:170
 msgid "None of the above"
-msgstr ""
+msgstr "Neniu el la antaŭaj"
 
 #: c/engine/chooser_pages/index.pt:310
 msgid "Software"
