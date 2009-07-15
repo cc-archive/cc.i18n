@@ -14,7 +14,7 @@ import sha
 
 LOGGER_NAME = "po2cc"
 
-def cli(enable_caching = True):
+def cli():
     """Command line interface for po2cc script."""
 
     # parse the command line
@@ -60,7 +60,7 @@ def cli(enable_caching = True):
                 locale = None
 
             # optional: if caching enabled, and we have processed our files before, don't do anything
-            if enable_caching:
+            if options.cache:
                 cache_dir = os.path.join(os.getenv('HOME'), '.cc2po-cache')
                 if not os.path.exists(cache_dir):
                     os.mkdir(cache_dir, 0700)
@@ -86,7 +86,7 @@ def cli(enable_caching = True):
             getLogger(LOGGER_NAME).debug("Write %s." % output_fn)
 
             # if caching is enabled, store a note that the result is good
-            if enable_caching:
+            if options.cache:
                 assert input_sha1 == sha.sha(open(input_fn).read()).hexdigest()
                 input_sha_file = os.path.join(cache_dir, input_sha1)
                 output_sha1 = sha.sha(open(output_fn).read()).hexdigest()

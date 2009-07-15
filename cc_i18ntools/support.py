@@ -18,6 +18,9 @@ def make_option_parser():
                       action='store_const', const=logging.INFO)
     parser.add_option('--noisy', dest='verbosity', 
                       action='store_const', const=logging.DEBUG)
+    parser.add_option('--no-cache', dest='cache',
+                      action='store_false')
+    parser.set_defaults(cache=True)
 
     # input options
     parser.add_option('-i', '--input-dir', dest='input_dir',
