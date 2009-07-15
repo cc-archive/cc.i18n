@@ -4,9 +4,7 @@ import logging
 import shutil
 from logging import getLogger
 
-from babel.messages.pofile import read_po
-
-from babel.messages.pofile import write_po
+from babel.messages.pofile import read_po, write_po
 
 import convert
 from support import parse_args
@@ -31,11 +29,6 @@ def cli():
     # load the master domain file
     master = read_po(file(options.english_po, 'r'))
     previous_master = read_po(file(options.english_po + '.bak', 'r'))
-
-    # translate the master file using itself 
-    # (ie, so the strings and keys are the same)
-    #master = read_po(file(options.english_po, 'r'))
-    #master = convert.cc_to_po(master, master)
 
     # walk the input directory...
     for root, dirnames, filenames in os.walk(options.input_dir):
