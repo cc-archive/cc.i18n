@@ -3287,12 +3287,6 @@ msgstr ""
 "عنوان الموقع حيث يستطيع الناس العثور على مزيد من المعلومات حول \n"
 "عمل أو الشخص الذي يستخدم CC0."
 
-#. Default: "Country"
-#: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
-msgctxt "util.country"
-msgid "Country"
-msgstr "البلد"
-
 #. Default: ""
 #. "Jurisdiction where the work is being \n"
 #. "\toffered from under CC0."
@@ -3764,10 +3758,19 @@ msgid ""
 "\tDomain Certification</a>."
 msgstr ""
 "اذا \n"
-" بدلا من ترغب في التصريح ان العمل هو  <em> متوفر من قبل في  الملكية العامة "
-"</em> استعمل  \n"
+" بدلا من ترغب في التصريح ان العمل هو  <em> متوفر من قبل في  الملكية "
+"العامة </em> استعمل  \n"
 " href=\"${pd_url}\"> العامة\t العام  شهادات الملكية </a>."
 
 msgctxt "lang.ar"
 msgid "Arabic"
 msgstr "العربية"
+
+#. Default: "Territory"
+#: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
+#, fuzzy
+msgctxt "util.territory"
+msgid "Territory"
+msgstr "البلد"
+
+
