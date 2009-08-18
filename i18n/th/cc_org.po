@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-07-15 14:58-0700\n"
-"PO-Revision-Date: 2009-07-15 14:58-0700\n"
+"POT-Creation-Date: 2009-08-18 11:03-0700\n"
+"PO-Revision-Date: 2009-08-18 11:03-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: th <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -1556,6 +1556,7 @@ msgid "licenses.pretty_nc-sa"
 msgstr "ไม่ใช่เพื่อการค้า-อนุญาตแบบเดียวกัน"
 
 #: c/engine/chooser_pages/results.pt:78
+#, fuzzy
 msgid "license.after_support_cc"
 msgstr ""
 "หลังจากประกาศสัญญาของคุณแล้ว กรุณาสนับสนุน<a "
@@ -2147,6 +2148,7 @@ msgstr "ไม่มีลิขสิทธิ์"
 #. "            and all related or neighboring legal rights he or she\n"
 #. "            had in the work, to the extent allowable by law."
 #: c/engine/licenses/zero_templates/deed.pt:33
+#, fuzzy
 msgid "deed.zero.nocopyright-text"
 msgstr ""
 "ผู้ที่ได้ใช้เอกสารฉบับนี้กับงานของเขา ได้อุทิศงานนี้แก่สาธารณะ "
@@ -2385,11 +2387,6 @@ msgid "license.zero.your_url_help"
 msgstr ""
 "ที่อยู่อินเทอร์เน็ตซึ่งคุณสามารถค้นหารายละเอียดเพิ่มเติมเกี่ยวกับ \n"
 " ของผลงานหรือของผู้ที่ใช้ CC0"
-
-#. Default: "Country"
-#: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
-msgid "util.country"
-msgstr "ประเทศ"
 
 #. Default: ""
 #. "Jurisdiction where the work is being \n"
@@ -2743,4 +2740,18 @@ msgstr ""
 "\tpublic domain</em>, use\n"
 "\tthe <a href=\"${pd_url}\">Public\n"
 "\tDomain Certification</a>."
+
+msgid "lang.ar"
+msgstr "Arabic"
+
+#. Default: "Territory"
+#: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
+#, fuzzy
+msgid "util.territory"
+msgstr "ประเทศ"
+
+msgid "deed.zero.no-endorsment"
+msgstr ""
+"Works under CC0 do not require attribution.  When citing the work, you "
+"should not imply endorsement by the author."
 

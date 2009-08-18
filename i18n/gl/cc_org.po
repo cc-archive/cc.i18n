@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-07-15 14:58-0700\n"
-"PO-Revision-Date: 2009-07-15 14:58-0700\n"
+"POT-Creation-Date: 2009-08-18 11:03-0700\n"
+"PO-Revision-Date: 2009-08-18 11:03-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: gl <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -1501,6 +1501,7 @@ msgid "licenses.pretty_nc-sa"
 msgstr "NonComercial-CompartirIgual"
 
 #: c/engine/chooser_pages/results.pt:78
+#, fuzzy
 msgid "license.after_support_cc"
 msgstr ""
 "After publishing your license, please consider <a "
@@ -2100,10 +2101,10 @@ msgstr "No Copyright"
 #: c/engine/licenses/zero_templates/deed.pt:33
 msgid "deed.zero.nocopyright-text"
 msgstr ""
-"The person who associated a work with this document has dedicated this "
-"work to the Commons by waiving all of his or her rights to the work under"
-" copyright law and all related or neighboring legal rights he or she had "
-"in the work, to the extent allowable by law."
+"The person who associated a work with this document has dedicated the "
+"work to the Commons by waiving all of his or her rights to the work "
+"worldwide under copyright law and all related or neighboring legal rights"
+" he or she had in the work, to the extent allowable by law."
 
 #. Default: "Attribute this work:"
 #: c/engine/licenses/zero_templates/deed.pt:42
@@ -2339,11 +2340,6 @@ msgid "license.zero.your_url_help"
 msgstr ""
 "The URL where people can find more information about \n"
 "the work or the person using CC0."
-
-#. Default: "Country"
-#: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
-msgid "util.country"
-msgstr "Country"
 
 #. Default: ""
 #. "Jurisdiction where the work is being \n"
@@ -2696,4 +2692,17 @@ msgstr ""
 "\tpublic domain</em>, use\n"
 "\tthe <a href=\"${pd_url}\">Public\n"
 "\tDomain Certification</a>."
+
+msgid "lang.ar"
+msgstr "Arabic"
+
+#. Default: "Territory"
+#: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
+msgid "util.territory"
+msgstr "Territory"
+
+msgid "deed.zero.no-endorsment"
+msgstr ""
+"Works under CC0 do not require attribution.  When citing the work, you "
+"should not imply endorsement by the author."
 

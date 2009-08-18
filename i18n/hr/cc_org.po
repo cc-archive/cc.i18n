@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-07-15 14:59-0700\n"
-"PO-Revision-Date: 2009-07-15 14:59-0700\n"
+"POT-Creation-Date: 2009-08-18 11:03-0700\n"
+"PO-Revision-Date: 2009-08-18 11:03-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: hr <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -1511,6 +1511,7 @@ msgid "licenses.pretty_nc-sa"
 msgstr "Nekomercijalno-Dijeli pod istim uvjetima"
 
 #: c/engine/chooser_pages/results.pt:78
+#, fuzzy
 msgid "license.after_support_cc"
 msgstr ""
 "Nakon što ste objavili licencu, razmotrite da eventualno <a "
@@ -2118,6 +2119,7 @@ msgstr "Nema autorskih i srodnih prava"
 #. "            and all related or neighboring legal rights he or she\n"
 #. "            had in the work, to the extent allowable by law."
 #: c/engine/licenses/zero_templates/deed.pt:33
+#, fuzzy
 msgid "deed.zero.nocopyright-text"
 msgstr ""
 "Osoba koja je djelo vezala uz ovaj dokument prenijela je to djelo u javno"
@@ -2359,11 +2361,6 @@ msgid "license.zero.your_url_help"
 msgstr ""
 "URL na kojem će ljudi moći naći više informacija o autoru ili nositelju "
 "prava."
-
-#. Default: "Country"
-#: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
-msgid "util.country"
-msgstr "Zemlja"
 
 #. Default: ""
 #. "Jurisdiction where the work is being \n"
@@ -2703,4 +2700,18 @@ msgstr ""
 "\tpublic domain</em>, use\n"
 "\tthe <a href=\"${pd_url}\">Public\n"
 "\tDomain Certification</a>."
+
+msgid "lang.ar"
+msgstr "Arabic"
+
+#. Default: "Territory"
+#: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
+#, fuzzy
+msgid "util.territory"
+msgstr "Zemlja"
+
+msgid "deed.zero.no-endorsment"
+msgstr ""
+"Works under CC0 do not require attribution.  When citing the work, you "
+"should not imply endorsement by the author."
 
