@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2009-08-18 10:43-0700\n"
-"PO-Revision-Date: 2009-07-07 17:20+0000\n"
-"Last-Translator: Bodo Balazs <bodo@mokk.bme.hu>\n"
+"PO-Revision-Date: 2009-10-11 21:51+0000\n"
+"Last-Translator: Tisza Gergő <gtisza@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -446,7 +446,7 @@ msgstr ""
 #: c/engine/macros_templates/metadata.pt:46
 msgctxt "util.title_of_work"
 msgid "Title of work"
-msgstr "A mű címe"
+msgstr "Címe"
 
 #: c/engine/licenses/fsf_templates/deed.pt:61
 msgctxt "deed.gpl_sharealike"
@@ -1855,13 +1855,16 @@ msgid "More permissions URL"
 msgstr "More permissions URL"
 
 #: c/engine/licenses/standard_templates/deed.pt:64
-#, fuzzy
 msgctxt "deed.moralrights"
 msgid ""
 "The author's <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
-msgstr "Nothing in this license impairs or restricts the author's moral rights."
+msgstr ""
+"A szerző <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions"
+"#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work"
+"_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\" id=\"moral_rights\" "
+"class=\"helpLink\">személyhez fűződő</a> jogai"
 
 msgctxt "country.sk"
 msgid "Slovak Republic"
@@ -2019,7 +2022,6 @@ msgid "Switzerland"
 msgstr "Svájc"
 
 #: c/engine/chooser_pages/results.pt:105
-#, fuzzy
 msgctxt "license.publish_flickr"
 msgid "Post your licensed images at Flickr"
 msgstr "Tedd fel a Creative Commons alatt licencelt képeidet a Flickr-re!"
@@ -2216,7 +2218,6 @@ msgid "Share Alike"
 msgstr "Így add tovább!"
 
 #: c/engine/chooser_pages/index.pt:193
-#, fuzzy
 msgctxt "license.explain"
 msgid ""
 "When you choose a license, we provide you with HTML you can use to add "
@@ -2225,21 +2226,20 @@ msgid ""
 "Creative Commons. This is not a registration and we do not retain a "
 "record of your selection."
 msgstr ""
-"Creative Commons helps you publish your work online while letting others "
-"know exactly what they can and can't do with your work. When you choose a"
-" license, we provide you with tools and tutorials that let you add "
-"license information to your own site, or to one of several free hosting "
-"services that have incorporated Creative Commons."
+"Amikor választasz a licencek közül, elkészítjük számodra azt a HTML-kódot, "
+"amivel feltüntetheted a licencet a weboldaladon, és információt nyújtunk "
+"arról, hogyan választhatod ki a licencet a Creative Commonst támogató "
+"szolgáltatóknál. Ez nem egy regisztráció, és az általad megadott adatokat "
+"nem tároljuk el."
 
 #: c/engine/pd/templates/publicdomain-4.pt:27
-#, fuzzy
 msgctxt "license.mark_pd"
 msgid ""
 "Now that you've chosen the Public Domain Certification, you should mark "
 "the work in the appropriate way."
 msgstr ""
-"Most, hogy úgy döntöttél, hogy közkinccsé teszed a művedet, ezt "
-"megfelelően jelölnöd is kell a művön!"
+"Most, hogy kiválasztottad a közkincs-tanúsítványt, ezt megfelelően jelölnöd "
+"is kell a művön."
 
 msgctxt "util.Try_again"
 msgid "Try again!"
@@ -2255,16 +2255,15 @@ msgid "NonCommercial-ShareAlike"
 msgstr "Ne add el! - Így add tovább!"
 
 #: c/engine/chooser_pages/results.pt:78
-#, fuzzy
 msgctxt "license.after_support_cc"
 msgid ""
 "After publishing your license, please consider <a "
 "href=\"http://support.creativecommons.org/donate/\">supporting Creative "
 "Commons</a>."
 msgstr ""
-"After publishing your license, please consider <a "
-"href=\"http://creativecommons.org/support/\">supporting Creative "
-"Commons</a>."
+"Miután közzétetted a licencet, kérlek fontold meg <a "
+"href=\"http://creativecommons.org/support/\">a Creative Commons "
+"támogatását</a>."
 
 #: c/engine/templates/by.pt:25
 msgctxt "char.by_description"
@@ -2307,22 +2306,20 @@ msgstr ""
 "code to programs which link to the library."
 
 #: c/engine/chooser_pages/results.pt:76
-#, fuzzy
 msgctxt "license.read_tutorial"
 msgid ""
 "Need more help? <a "
 "href=\"http://wiki.creativecommons.org/Website/Publish\">Read our "
 "tutorial</a>."
 msgstr ""
-"Elakadtál? <a href=\"/education/publish-website\">Olvasd el a "
-"tanácsainkat!</a>."
+"Elakadtál? <a href=\"http://wiki.creativecommons.org/Website/Publish\">Olvasd "
+"el a tanácsainkat!</a>."
 
 msgctxt "country.fi"
 msgid "Finland"
 msgstr "Finnország"
 
 #: c/engine/chooser_pages/partner/index.pt:25
-#, fuzzy
 msgctxt "license.partner_what"
 msgid ""
 "Creative Commons licenses help you share your work while keeping\n"
@@ -2336,20 +2333,15 @@ msgid ""
 "you credit</a> -- and only on the conditions you specify here.\n"
 "This page helps you choose those conditions.\n"
 msgstr ""
-"<p>Létrehoztál valamit. Légy büszke rá! Ideje arra is gondolni, hogy "
-"hogyan teszed ezt a művet mások számára is hozzáférhetővé!</p>\n"
-"\n"
-"<p>A Creative Commons licencek segítségével úgy tudod másokkal is "
-"megosztani a művedet, hogy közben megtartod a szerzői jogaidat. Engedélyt"
-" adhatsz a többieknek arra, hogy másolatot készítsenek a művedről, vagy "
-"terjeszthessék azt, ha <a href=\"/characteristic/by?lang=en\" "
-"onclick=\"window.open('/characteristic/by?lang=en', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">feltüntetnek téged, mint szerzőt</a> -- és megfelelnek az "
-"általad szabott feltételeknek. Ezen az oldalon segítünk e feltételeket "
-"kiválasztani. Ha nem akarsz feltételeket szabni, válaszd a <a "
-"href=\"${results_pd_url}\">Közkinccsé tételt</a>!</p>"
+"A Creative Commons licencek segítségével úgy tudod másokkal is megosztani a "
+"művedet, hogy közben megtartod a szerzői jogaidat. Az emberek másolatot "
+"készíthetnek a művedről, vagy terjeszthetik azt, ha <a "
+"href=\"/characteristic/by?lang=hu\" "
+"onclick=\"window.open('/characteristic/by?lang=hu', 'characteristic_help', 'w"
+"idth=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,l"
+"ocation=yes,menubar=no,status=yes');return false;\">feltüntetnek téged, mint "
+"szerzőt</a> – de csak az általad megszabott feltételekkel. Ezen az oldalon "
+"segítünk kiválasztani ezeket a feltételeket."
 
 #: c/engine/chooser_pages/index.pt:49 c/engine/chooser_pages/index.pt:96
 #: c/engine/chooser_pages/partner/index.pt:56
@@ -2443,12 +2435,9 @@ msgid "ShareAlike"
 msgstr "Így add tovább!"
 
 #: c/engine/chooser_pages/results.pt:111
-#, fuzzy
 msgctxt "license.publish_blog"
 msgid "Add a Creative Commons license to your blog"
-msgstr ""
-"Licenceld Creative Commons alatt a blogodat (Blogger, Movable Type vagy "
-"Typepad)!"
+msgstr "Helyezd Creative Commons licenc alá a blogodat!"
 
 msgctxt "lang.pt"
 msgid "Portugese"
@@ -2462,15 +2451,14 @@ msgstr "Portugál"
 #: c/engine/licenses/devnations_templates/deed.pt:51
 #: c/engine/licenses/mitbsd_templates/deed.pt:60
 #: c/engine/licenses/standard_templates/deed.pt:60
-#, fuzzy
 msgctxt "deed.permission"
 msgid ""
 "Any of the above conditions can be <a href=\"#\" id=\"waived\" "
 "class=\"helpLink\">waived</a> if you get permission from the copyright "
 "holder."
 msgstr ""
-"A szerzői jogok tulajdonosának írásos engedélyével bármelyik fenti "
-"feltételtől eltérhetsz."
+"A szerzői jogok tulajdonosának engedélyével bármelyik fenti feltételtől <a "
+"href=\"#\" id=\"waived\" class=\"helpLink\">eltérhetsz</a>."
 
 msgctxt "country.my"
 msgid "Malaysia"
@@ -2839,7 +2827,7 @@ msgstr "Spanish (Ecuador)"
 
 #: e/macros_templates/metadata.pt:107
 msgid "Embedded Metadata"
-msgstr ""
+msgstr "Beágyazott metaadatok"
 
 #. Default: ""
 #. "<p>\n"
@@ -2870,44 +2858,50 @@ msgid ""
 "\t  you want to find out more.\n"
 "\t</p>"
 msgstr ""
-"<p>\n"
-"\t  The information is embedded in a software readable format.\n"
-"\t  This allows search engines to index additional information\n"
-"\t  about your work and allows people coming to the license deed\n"
-"\t  from your page to see information on the deed about how to\n"
-"\t  attribute your work.  \n"
-"\t</p>\n"
-"\t<p>\n"
-"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
-"\t    information</a> on Creative Commons metadata is available if\n"
-"\t  you want to find out more.\n"
+"<p>\r\n"
+"\t Az információ programok által feldolgozható formátumban \r\n"
+"\t kerül a licencbe. Ez lehetővé teszi a keresőmotoroknak, hogy \r\n"
+"\t ezt az extra információt is eltárolják, valamint azok, akik a te \r\n"
+"\t oldaladon elhelyezett linken keresztül érkeznek a licenc \r\n"
+"\t leírására, látni fogják, hogyan kell téged szerzőként megjelölni.() \r\n"
+"\t</p>\r\n"
+"\t<p>\r\n"
+"\t <a href=\"http://wiki.creativecommons.org/Metadata\"> További\r\n"
+"\t információt</a> (angol nyelven) a Creative Commons ()wikin\r\n"
+"\t találsz.\r\n"
 "\t</p>"
 
 #: e/macros_templates/metadata.pt:140
 msgid "The title of the work you are licensing."
-msgstr ""
+msgstr "A címe a művednek, aminek a felhasználására engedélyt adsz"
 
 #: e/macros_templates/metadata.pt:152
 msgid ""
 "The name users of the work should give attribution to. For example, the "
 "name of the work's author."
 msgstr ""
+"A név, amit a mű felhasználóinak fel kell tüntetniük (például a szerző "
+"neve)."
 
 #: e/macros_templates/metadata.pt:165
 msgid ""
 "The URL users of the work should link to. For example, the work's page on"
 " the author's site."
 msgstr ""
+"Az internetes cím, amire a mű felhasználóinak linkelniük kell (például a mű "
+"oldala a szerző honlapján)."
 
 #: e/macros_templates/metadata.pt:178
 msgid ""
 "A URL where a user can obtain information about clearing rights that are "
 "not pre-cleared by your CC license."
 msgstr ""
+"Egy internetes cím, ahol a felhasználók megtudhatják, hogyan nyerhetnek "
+"engedélyt olyan felhasználási módokra, amiket ez a licenc nem engedélyez."
 
 #: e/licenses/standard_templates/deed.pt:126
 msgid "What does \"Attribute this work\" mean?"
-msgstr ""
+msgstr "Mit jelent a „Szerző megjelölése”:"
 
 #: e/licenses/standard_templates/deed.pt:129
 msgid ""
@@ -2916,6 +2910,11 @@ msgid ""
 "here to cite the work. Doing so will also include metadata on your page "
 "so that others can find the original work as well."
 msgstr ""
+"Az oldal, amiről érkeztél, beágyazott licenc-metaadatokat tartalmazott, "
+"köztük azt, milyen  név vagy cím feltüntetését kéri a szerző. Az itteni "
+"HTML-t használhatod a műre való hivatkozáskor. Ha ezt teszed, a te oldaladba "
+"is bekerülnek a metaadatok, és így mások is meg tudják találni az eredeti "
+"művet."
 
 msgctxt "country.ec"
 msgid "Ecuador"
@@ -2924,7 +2923,7 @@ msgstr "Ecuador"
 #: e/macros_templates/metadata.pt:13
 msgctxt "license.additional_info"
 msgid "Additional Information"
-msgstr "Additional Information"
+msgstr "További információ"
 
 #: e/macros_templates/metadata.pt:16
 msgctxt "license.additional_fields_optional"
@@ -2934,18 +2933,17 @@ msgid ""
 "to determine how to attribute it or where to go for more information "
 "about the work."
 msgstr ""
-"The additional fields are <strong>optional</strong>, but will be embedded"
-" in the HTML generated for your license. This allows users of your work "
-"to determine how to attribute it or where to go for more information "
-"about the work."
+"A további mezők <strong>nem kötelezőek</strong>, de bekerülnek a licencedhez "
+"generáltHTML kódba, és jelzik a műveid felhasználóinak, hogyan kell "
+"tégedmegnevezni, vagy hol lehet további információt találni a műről."
 
 msgctxt "country.no"
 msgid "Norway"
-msgstr "Norway"
+msgstr "Norvégia"
 
 msgctxt "lang.no"
 msgid "Norwegian"
-msgstr "Norwegian"
+msgstr "norvég"
 
 msgctxt "license.mark_software"
 msgid "Mark Software"
@@ -2956,8 +2954,8 @@ msgid ""
 "Read the <a href=\"http://www.gnu.org/licenses/gpl-howto.html\">FSF's "
 "instructions for including the license with your software</a>."
 msgstr ""
-"Read the <a href=\"http://www.gnu.org/licenses/gpl-howto.html\">FSF's "
-"instructions for including the license with your software</a>."
+"Olvasd el <a href=\"http://www.gnu.org/licenses/gpl-howto.html\">az FSF "
+"útmutatását arról, hogyan illeszd be a licencet a szoftveredbe</a>."
 
 msgctxt "license.display_software_icon"
 msgid ""
@@ -2970,7 +2968,7 @@ msgstr ""
 #: c/engine/macros_templates/deed.pt:206
 msgctxt "deed.use_this_license"
 msgid "Use this license for your own work."
-msgstr "Use this license for your own work."
+msgstr "Használd ezt a licencet a saját művedhez."
 
 msgctxt "country.hk"
 msgid "Hong Kong"
@@ -3003,7 +3001,6 @@ msgstr "English (Singapore)"
 #. href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\"
 #. class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy\n"
 #. "\t      rights."
-#, fuzzy
 msgctxt "deed.publicity_rights"
 msgid ""
 "Rights other persons may have either in the work itself or in how the "
@@ -3012,18 +3009,20 @@ msgid ""
 " class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy "
 "rights."
 msgstr ""
-"Rights other persons may have either in the work itself or in how the "
-"work is used, such as publicity or privacy rights."
+"Más személyeknek a művet vagy a mű használatát érintő jogai, mint például a "
+"<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are"
+"_publicity_rights_relevant.3F\" class=\"helpLink\" "
+"id=\"publicity_rights\">személyiségi jogok</a> vagy az adatvédelmi jogok."
 
 #: src/cc/engine/chooser_pages/results.pt:144
 msgctxt "license.register_with_cc_network"
 msgid "Register your work with the CC Network"
-msgstr ""
+msgstr "Regisztráld a művedet a CC Hálózatba"
 
 #: src/cc/engine/chooser_pages/results.pt:151
 msgctxt "license.track_with_fairshare"
 msgid "Track use of your work with FairShare"
-msgstr ""
+msgstr "Kövesd a műved felhasználását a FairShare-rel"
 
 #. Default: ""
 #. "<p>The Commons Deed is not a legal instrument. It is simply a\n"
@@ -3054,6 +3053,15 @@ msgid ""
 "\t\t  or linking to this Commons Deed does not create an\n"
 "\t\t  attorney-client relationship.</p>"
 msgstr ""
+"<p>Az Egyszerűsített változat nem licenc, csupán segítség a CC0 Jogi "
+"változatának megértéséhez, (vagyis a licenc teljes szövegének). Nincs más "
+"célja, mint hogy közérthető nyelven fogalmazza meg a licenc tartalmának "
+"lényegét. Tekintsd úgy, hogy ez egy \"felhasználóbarát\" interfész a CC0 Jogi "
+"változathoz. Az Egyszerűsített változatnak jogi szempontból nincs "
+"jelentősége és a szövegét maga a CC0 licenc nem tartalmazza.</p><p>A "
+"Creative Commons nem ügyvédi iroda, nem nyújt jogi tanácsadást. Az "
+"Egyszerűsített változat terjesztése, bemutatása, vagy link elhelyezése rá "
+"nem hoz létre megbízási jogviszonyt.</p>"
 
 #. Default: ""
 #. "This is a human-readable summary of\n"
@@ -3065,12 +3073,14 @@ msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal "
 "Code (read the full text)</a>."
 msgstr ""
+"Ez a <a href=\"./legalcode\">Legal Code (Jogi változat, vagyis a teljes "
+"licenc)</a> szövegének közérthető nyelven megfogalmazott kivonata."
 
 #. Default: "No Copyright"
 #: c/engine/licenses/zero_templates/deed.pt:30
 msgctxt "deed.zero.no_copyright"
 msgid "No Copyright"
-msgstr ""
+msgstr "Nem jogvédett"
 
 #. Default: ""
 #. "The person who associated a work with this document\n"
@@ -3086,12 +3096,16 @@ msgid ""
 "worldwide under copyright law and all related or neighboring legal rights"
 " he or she had in the work, to the extent allowable by law."
 msgstr ""
+"Az a személy, aki a műhöz ezt a dokumentumot csatolta, a művet "
+"köztulajdonnak nyilvánítottja: világszerte lemondott a műhöz kapcsolódó "
+"szerzői és egyéb szomszédos jogairól, a törvény által lehetővé tett "
+"mértékben."
 
 #. Default: "Attribute this work:"
 #: c/engine/licenses/zero_templates/deed.pt:42
 msgctxt "deed.attribute_this_work"
 msgid "Attribute this work:"
-msgstr ""
+msgstr "Megjelölendő szerző:"
 
 #. Default: ""
 #. "In no way are any of the following rights affected by\n"
@@ -3099,7 +3113,7 @@ msgstr ""
 #: c/engine/licenses/zero_templates/deed.pt:65
 msgctxt "deed.following_unaffected"
 msgid "In no way are any of the following rights affected by the above:"
-msgstr ""
+msgstr "A fentiek semmilyen hatással nincsenek a következő jogokra:"
 
 #. Default: "Patent or trademark rights held by the person who associated this
 #. document with a work."
@@ -3109,12 +3123,13 @@ msgid ""
 "Patent or trademark rights held by the person who associated this "
 "document with a work."
 msgstr ""
+"A művet ehhez a dokumentumhoz kötő személy szabadalmi vagy védjegyjogai."
 
 #. Default: "What are \"Publicity Rights\"?"
 #: c/engine/licenses/zero_templates/deed.pt:83
 msgctxt "deed.publicity_rights.help.title"
 msgid "What are \"Publicity Rights\"?"
-msgstr ""
+msgstr "Mik azok a személyiségi jogok?"
 
 #. Default: ""
 #. "Publicity\n"
@@ -3133,19 +3148,24 @@ msgid ""
 "the work may need to get permission from those individuals before using "
 "the work for commercial purposes."
 msgstr ""
+"A személyiségi jogok lehetővé teszik annak, akiről kép vagy hangfelvétel "
+"készül, hogy kontrollálja, hogyan használják fel azt nyilvánosan "
+"kereskedelmi célra. Ha egy CC0 alatti mű a CC0 alá helyezőn kívül bárki "
+"másnak a képét vagy a hnagjár is tartalmazza, lehetséges, a mű kereskedelmi "
+"célra való felhasználásához engedélyt kell kérni tőlük."
 
 #. Default: "Learn more"
 #: c/engine/licenses/zero_templates/deed.pt:95
 #: c/engine/zero/templates/index.pt:89
 msgctxt "util.learn_more"
 msgid "Learn more"
-msgstr ""
+msgstr "Tudj meg többet"
 
 #. Default: "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:30
 msgctxt "license.zero.confirm_title"
 msgid "Confirm Waiver"
-msgstr ""
+msgstr "Lemondás megerősítése"
 
 #. Default: ""
 #. "Are you certain you wish to waive all rights to your\n"
@@ -3157,6 +3177,8 @@ msgid ""
 "Are you certain you wish to waive all rights to your work? Once these "
 "rights are waived, you cannot reclaim them."
 msgstr ""
+"Biztos vagy benne, hogy le akarsz mondani a műhöz fűződő összes jogodról? Ha "
+"egyszer lemondtál róluk, már nem igényelheted vissza őket."
 
 #. Default: ""
 #. "In particular, if you are an artist or author who\n"
@@ -3170,6 +3192,8 @@ msgid ""
 "for your income, Creative Commons <strong>does not recommend</strong> "
 "that you use this tool."
 msgstr ""
+"Ha művész vagy író vagy, aki a szerzői jogból él, a Creative Commons "
+"<strong>nem javasolja</strong> ennek az eszköznek a használatát."
 
 #. Default: ""
 #. "If you don't own the rights to this work, then do not\n"
@@ -3184,18 +3208,21 @@ msgid ""
 "href=\"/license/publicdomain-2\">Public Domain Certification</a> may be "
 "what you're looking for."
 msgstr ""
+"Ha nem te vagy a mű jogtulajdonosa, ne használd a CC0-t. Ha úgy gondolod, a "
+"mű nem jogvédett, akkor a <a href=\"/license/publicdomain-2\">Public Domain "
+"Certification</a> (közkincs-igazolás) lehet az, amit keresel."
 
 #. Default: "No, I Do Not Waive"
 #: c/engine/zero/templates/confirm.pt:71
 msgctxt "license.zero.confirm_waiver_no"
 msgid "No, I Do Not Waive"
-msgstr ""
+msgstr "Nem, nem mondok le"
 
 #. Default: "Yes, I Waive"
 #: c/engine/zero/templates/confirm.pt:82
 msgctxt "license.zero.confirm_waiver_yes"
 msgid "Yes, I Waive"
-msgstr ""
+msgstr "Igen, lemondok"
 
 #. Default: ""
 #. "Please note that this is <strong>not a registration\n"
@@ -3215,12 +3242,17 @@ msgid ""
 "Your work will not be associated with CC0 or made available under CC0 "
 "until you publish it marked as being so."
 msgstr ""
+"Ne feledd, hogy ez <strong>nem egy regisztrációs folyamat</strong>, és a "
+"Creative Commons semmilyen általad megadott információt nem őriz meg. Ez az "
+"eszköz olyan HTML kódot generál, ami alkalmas annak jelzésére, hogy a műved "
+"CC0 alatt van. A műved csak azáltal kerül CC0 alá, hogy ezzel a HTML kóddal "
+"közzéteszed."
 
 #. Default: "begin"
 #: c/engine/zero/templates/index.pt:98
 msgctxt "util.begin"
 msgid "begin"
-msgstr ""
+msgstr "kezdés"
 
 #. Default: ""
 #. "Copy the text below to your Web site to let your visitors\n"
@@ -3236,12 +3268,16 @@ msgid ""
 "a record of your selection; as the publisher it's up to you to let people"
 " know how they may use your work."
 msgstr ""
+"Másold az alábbi szöveget a weboldaladra, hogy a látogatóid tudják, "
+"lemondtál ennek a műnek a jogairól. A Creative Commons nem őriz meg "
+"semmilyen felegyzést arról, hogy így döntöttél; neked kell az emberek "
+"tudomására hoznod, hogyan használhatják a művedet."
 
 #. Default: "Send Email"
 #: c/engine/zero/templates/results.pt:122
 msgctxt "license.zero.send_email"
 msgid "Send Email"
-msgstr ""
+msgstr "Email küldése"
 
 #. Default: ""
 #. "An error occurred when we tried to send the email message;\n"
@@ -3257,12 +3293,16 @@ msgid ""
 "address you used (${email_addr}) was correct you can <a "
 "href=\"/about/contact\">contact us</a>."
 msgstr ""
+"Hiba lépett fel, amikor levelet próbáltunk küldeni neked; ellenőrizd le, jól "
+"adtad-e meg a címed. Ha az általad megadott cím (${email_addr}) helyes "
+"volt, <a href=\"/about/contact\">szólhatsz nekünk</a>; máskülönben a Vissza "
+"gombra kattintva kijavíthatod."
 
 #. Default: "The suggested HTML has been sent to ${email_addr}."
 #: c/engine/zero/templates/results.pt:143
 msgctxt "license.zero.email_sent"
 msgid "The suggested HTML has been sent to ${email_addr}."
-msgstr ""
+msgstr "Az ajánlott HTML kódot elküldtük a(z) ${email_addr} címre."
 
 #. Default: ""
 #. "You have asked to be notified of updates to CC0.  A subscription\n"
@@ -3275,6 +3315,9 @@ msgid ""
 "has been sent on your behalf; you must click the link in the confirmation"
 " email to complete the sign-up process."
 msgstr ""
+"Azt kérted, hogy értesítsünk a CC0 változásairól. Küldtünk neked egy "
+"feliratkozási kérelmet; a levélben a megerősítő linkre kattintva fejezheted "
+"be a feliratkozási folyamatot."
 
 #. Default: ""
 #. "If you'd like to get the HTML with embedded metadata via\n"
@@ -3286,12 +3329,14 @@ msgid ""
 "If you'd like to get the HTML with embedded metadata via email and "
 "optionally receive updates about CC0, fill in your email address below."
 msgstr ""
+"Ha szeretnéd levélben megkapni a HTML-kódot a beágyazott metaadatokkal, és "
+"opcionálisanhíreket a CC0-ról, írd be az email-címed alább."
 
 #. Default: "Send me updates about CC0"
 #: c/engine/zero/templates/results.pt:181
 msgctxt "license.zero.update_opt_in"
 msgid "Send me updates about CC0"
-msgstr ""
+msgstr "Szeretnék értesítést kapni a CC0 változásairól"
 
 #. Default: ""
 #. "You did not affirm your decision to waive the rights\n"
@@ -3304,42 +3349,47 @@ msgid ""
 " work. If you'd like to continue you can click the Back button to review "
 "your choice."
 msgstr ""
+"Nem erősítetted meg a döntésedet, hogy lemondasz a műhöz fűződő minden "
+"jogodról. Ha folytatni szeretnéd, kattints a Vissza gombra, és változtasd "
+"meg a döntésed."
 
 #. Default: "About CC0"
 #: c/engine/zero/templates/results.pt:61
 msgctxt "license.zero.about"
 msgid "About CC0"
-msgstr ""
+msgstr "A CC0-ról"
 
 #. Default: "Frequently Asked Questions"
 #: c/engine/zero/templates/results.pt:63
 msgctxt "util.FAQ"
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Gyakran ismételt kérdések"
 
 #. Default: "Choose which style of button you'd like on your webpage:"
 #: c/engine/zero/templates/results.pt:72
 msgctxt "license.choose_button"
 msgid "Choose which style of button you'd like on your webpage:"
-msgstr ""
+msgstr "Válaszd ki, melyik fajta gombot szeretnéd a weboldaladra:"
 
 #. Default: "Here's a preview of how your waiver will appear on your site:"
 #: c/engine/zero/templates/results.pt:98
 msgctxt "license.zero.preview_waiver"
 msgid "Here's a preview of how your waiver will appear on your site:"
 msgstr ""
+"Ez az előnézet mutatja, hogyan fog a lemondó nyilatkozat kinézni az "
+"oldaladon:"
 
 #. Default: "Your name"
 #: c/engine/zero/templates/waiver.pt:103
 msgctxt "util.your_name"
 msgid "Your name"
-msgstr ""
+msgstr "Neved"
 
 #. Default: "Your URL"
 #: c/engine/zero/templates/waiver.pt:111 c/engine/zero/templates/waiver.pt:125
 msgctxt "util.your_url"
 msgid "Your URL"
-msgstr ""
+msgstr "Internetes címed"
 
 #. Default: ""
 #. "The URL where people can find more information about \n"
@@ -3350,6 +3400,8 @@ msgid ""
 "The URL where people can find more information about \n"
 "the work or the person using CC0."
 msgstr ""
+"Egy internetes cím, ahol az emberek több információt találnak a műről, vagy "
+"a személyről, aki CC0 alá helyezte."
 
 #. Default: ""
 #. "Jurisdiction where the work is being \n"
@@ -3357,7 +3409,7 @@ msgstr ""
 #: c/engine/zero/templates/waiver.pt:166 c/engine/zero/templates/waiver.pt:164
 msgctxt "license.zero.country_help"
 msgid "Jurisdiction from which the work is being offered under CC0."
-msgstr ""
+msgstr "Melyik ország joghatóságában lett a mű CC0 alatt közzétéve?"
 
 #. Default: ""
 #. "I hereby waive all copyright and related or neighboring\n"
@@ -3382,12 +3434,14 @@ msgid ""
 "I have read and understand the terms and intended legal effect of CC0, "
 "and hereby voluntarily elect to apply it to this work."
 msgstr ""
+"Elolvastam és tudomásul vettem a CC0 feltételeit és szándékolt hatását, és "
+"szabad akaratomból alkalmazom erre a műre."
 
 #. Default: "continue"
 #: c/engine/zero/templates/waiver.pt:217
 msgctxt "util.continue"
 msgid "continue"
-msgstr ""
+msgstr "folytatás"
 
 #. Default: ""
 #. "These fields are optional, but will be embedded in the HTML\n"
@@ -3401,31 +3455,34 @@ msgid ""
 " your work. This allows users of your work to determine how to contact "
 "you or where to go for more information about the work."
 msgstr ""
+"Ezek a mezők nem kötelezőek, de bekerülnek a licenchez generált HTML kódba, "
+"és jelzik a mű felhasználóinak, hogyan lehet veled kapcsolatba lépni, vagy "
+"hol lehet további információt találni a műről."
 
 #: c/engine/chooser_pages/index.pt:165 c/engine/chooser_pages/index.pt:170
 msgid "None of the above"
-msgstr ""
+msgstr "A fentiek egyike sem"
 
 #: c/engine/chooser_pages/index.pt:310
 msgid "Software"
-msgstr ""
+msgstr "Szoftver"
 
 #: c/engine/chooser_pages/results.pt:103
 msgctxt "license.publish_ia"
 msgid ""
 "Publish your licensed music or video to\n"
 "\t       the Internet Archive"
-msgstr ""
+msgstr "A licencelt zene vagy videó publikálása az Internet Archive-ba"
 
 #: c/engine/chooser_pages/results.pt:119
 msgctxt "license.offline_work"
 msgid "Offline Work?"
-msgstr ""
+msgstr "Nem elérhető a mű az interneten?"
 
 #: c/engine/chooser_pages/results.pt:129
 msgctxt "license.option_next_steps"
 msgid "Optional next steps"
-msgstr ""
+msgstr "Opcionális további lépések"
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:14
 #: c/engine/pd/templates/publicdomain-3.pt:38
@@ -3441,38 +3498,38 @@ msgstr ""
 #: c/engine/licenses/standard_templates/deed.pt:22
 #: c/engine/publicdomain/zero_templates/deed.pt:25
 msgid "This license is acceptable for Free Cultural Works."
-msgstr ""
+msgstr "Ez egy szabad licenc."
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:47
 #: c/engine/publicdomain/zero_templates/deed.pt:141
 msgctxt "deed.use_this_tool"
 msgid "Use this tool for your own work."
-msgstr ""
+msgstr "A saját műveidre használd ezt az eszközt."
 
 #: c/engine/licenses/standard_templates/deed.pt:110
 msgctxt "deed.with_the_understanding"
 msgid "With the understanding that:"
-msgstr ""
+msgstr "Az alábbiak figyelembevételével:"
 
 #: c/engine/licenses/standard_templates/deed.pt:116
 msgctxt "util.waiver"
 msgid "Waiver"
-msgstr ""
+msgstr "Elengedés"
 
 #: c/engine/licenses/standard_templates/deed.pt:125
 msgctxt "util.other_rights"
 msgid "Other Rights"
-msgstr ""
+msgstr "Más jogok"
 
 #: c/engine/licenses/standard_templates/deed.pt:128
 msgctxt "deed.other_rights"
 msgid "In no way are any of the following rights affected by the license:"
-msgstr ""
+msgstr "A következő jogokat a licenc semmiben nem befolyásolja:"
 
 #: c/engine/licenses/standard_templates/deed.pt:178
 msgctxt "deed.permission.help.title"
 msgid "What does \"conditions can be waived\" mean?"
-msgstr ""
+msgstr "Mit jelent az, hogy a feltételek elengedhetőek?"
 
 #: c/engine/licenses/standard_templates/deed.pt:182
 msgctxt "deed.permission.help"
@@ -3481,11 +3538,13 @@ msgid ""
 "\t\twaive compliance with a specific condition, such as\n"
 "\t\tattribution."
 msgstr ""
+"A CC licencek lehetővé teszik, hogy a licencelő egyes esetekben elengedje "
+"valamelyik feltételt, például a megnevezést."
 
 #: c/engine/licenses/standard_templates/deed.pt:192
 msgctxt "deed.fair_use.help.title"
 msgid "What does \"Fair use\" mean?"
-msgstr ""
+msgstr "Mit jelent a szabad felhasználás?"
 
 #: c/engine/licenses/standard_templates/deed.pt:196
 msgctxt "deed.fair_use.help"
@@ -3496,11 +3555,15 @@ msgid ""
 "              users under those copyright limitations and exceptions,\n"
 "              such as fair use and fair dealing where applicable."
 msgstr ""
+"Minden országban megengedett a jogvédett anyagok bizonyos korlátozott "
+"felhasználása külön engedély nélkül is. Ilyen lehetőség például Amerikában a "
+"fair use, vagy Magyarországon a szabd felhasználás. A CC licencek nem "
+"befolyásolják a felhasználó ezen jogait."
 
 #: c/engine/licenses/standard_templates/deed.pt:208
 msgctxt "deed.moralrights.help.title"
 msgid "What are \"Moral Rights\"?"
-msgstr ""
+msgstr "Mik azok a személyhez fűződő jogok?"
 
 #: c/engine/licenses/standard_templates/deed.pt:212
 msgctxt "deed.moralrights.help"
@@ -3512,6 +3575,12 @@ msgid ""
 "\"moral rights\" which may provide some redress if a derivative work "
 "represents a \"derogatory treatment\" of the licensor's work."
 msgstr ""
+"A licencelő azon jogán túl, hogy követelheti a neve eltávolítását a művén "
+"alapuló átdolgozásokról és a művét tartalmazó gyűjteményekről, ha azok nem "
+"tetszenek neki, a legtöbb országban a szerzők személyhez fűződő jogokat "
+"kapnak, amik jogorvoslati lehetőséget biztosítanak nekik, ha egy átdolgozás "
+"„méltatlanul bánik” az eredeti művel. (Az USA kivétel ez alól, ott csak "
+"rendkívül korlátozott esetben van ilyen lehetőség.)"
 
 #: c/engine/licenses/standard_templates/deed.pt:233
 msgctxt "deed.publicity_rights.help"
@@ -3524,6 +3593,11 @@ msgid ""
 "              work may need to get permission from those individuals\n"
 "              before using the work for commercial purposes."
 msgstr ""
+"A személyiségi jogok lehetővé teszik annak, akiről kép vagy hangfelvétel "
+"készül, hogy kontrollálja, hogyan használják fel azt nyilvánosan "
+"kereskedelmi célra. Ha egy CC alatti mű a licencelőn kívül bárki másnak a "
+"képét vagy a hangját is tartalmazza, lehetséges, hogy a mű kereskedelmi "
+"célra való felhasználásához engedélyt kell kérni tőlük. "
 
 #: c/engine/macros_templates/metadata.pt:24
 #: c/engine/macros_templates/metadata.pt:59
@@ -3539,7 +3613,7 @@ msgstr ""
 #: c/engine/chooser_pages/index.pt:112 c/engine/chooser_pages/index.pt:125
 #: c/engine/chooser_pages/index.pt:138
 msgid "Information"
-msgstr ""
+msgstr "Információ"
 
 #: c/engine/pd/templates/publicdomain-2.pt:20
 msgctxt "license.pd.intro_1"
@@ -3554,6 +3628,13 @@ msgid ""
 "    use the Public Domain Certification to dedicate a work to the\n"
 "    public domain, it may not be valid outside of the United States."
 msgstr ""
+"A Közkincs-tanúsítványt választottad. Csak akkor használd ezt, ha tanúsítani "
+"akarod, hogy egy mű már közkincs. A Creative Commons nem javasolja, hogy a "
+"Közkincs-tanúsítvánnyal nyilatkozz egy jogvédett mű közkinccsé tételéről, "
+"mert az egyes országok jogrendszere közti különbségek miatt az ilyen "
+"nyilatkozat az Amerikai Egyesült Államokon kívül nem biztos, hogy érvényes. "
+"Ha a saját művedet szeretnéd közkinccsé minősíteni, használd a <a "
+"href=\"/license/zero/\">CC0</a>-t."
 
 #: c/engine/pd/templates/publicdomain-2.pt:37
 #: c/engine/pd/templates/publicdomain-2.pt:32
@@ -3563,16 +3644,18 @@ msgid ""
 "    opportunity to confirm your choice before the certification\n"
 "    happens."
 msgstr ""
+"Miután kitöltötted ezt az űrlapot, még egyszer meg kell majd erősítened a "
+"döntésedet, mielőtt a tanúsítás megtörténne."
 
 #: c/engine/pd/templates/publicdomain-2.pt:43
 msgctxt "license.pd.about_the_work"
 msgid "About the work you are certifying"
-msgstr ""
+msgstr "A tanúsítandó mű"
 
 #: c/engine/pd/templates/publicdomain-2.pt:47
 msgctxt "util.fields_required"
 msgid "(all fields are required)"
-msgstr ""
+msgstr "(az összes mező kötelező)"
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:16
 #: c/engine/pd/templates/publicdomain-4.pt:17
@@ -3580,12 +3663,12 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-2.pt:16
 msgctxt "license.pd.identify_a_pd_work"
 msgid "Identify a Public Domain Work"
-msgstr ""
+msgstr "Közkincs mű adatainak megadása"
 
 #: c/engine/publicdomain/templates/index.pt:14
 msgctxt "license.pdtools.title"
 msgid "Our Public Domain Tools"
-msgstr ""
+msgstr "Közkincs-eszközeink"
 
 #: c/engine/publicdomain/templates/index.pt:16
 msgctxt "license.pdtools.intro"
@@ -3596,6 +3679,11 @@ msgid ""
 "  already in the public domain and enable authors and copyright owners\n"
 "  who want to dedicate their works to the public domain to do so."
 msgstr ""
+"A licenceink segítenek a szerzőknek, hogy az általuk választott módon "
+"élhessenek a szerzői jogaikkal. A közkincs-eszközeink ezzel szemben azt a "
+"célt szolgálják, hogy a már közkincs művek könnyebben beazonosíthatóak "
+"legyenek, és azok a szerzők, akik le akarnak mondani a jogaikról, és a "
+"művüket közkinccsé tenni, megtehessék ezt."
 
 #: c/engine/publicdomain/templates/index.pt:24
 msgctxt "license.pdtools.zero"
@@ -3604,6 +3692,8 @@ msgid ""
 "    you are a holder of copyright or database rights, and you wish to\n"
 "    waive all your interests in your work."
 msgstr ""
+"Akkor használd ezt az eszközt, ha te vagy a szerzői vagy az adatbázishoz "
+"fűződő jogok tulajdonosa, és minden jogodról le akarsz mondani."
 
 #: c/engine/publicdomain/templates/index.pt:33
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:8
@@ -3612,7 +3702,7 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-2.pt:8
 msgctxt "util.public_domain_certification"
 msgid "Public Domain Certification"
-msgstr ""
+msgstr "Közkincs-tanúsítvány"
 
 #: c/engine/publicdomain/templates/index.pt:35
 msgctxt "license.pdtools.pdc"
@@ -3624,6 +3714,11 @@ msgid ""
 "    recommend this tool for use with works under copyright - \n"
 " consider using CC0 instead."
 msgstr ""
+"Akkor használd ezt az eszközt, ha megállapítottad egy műről, hogy közkincs, "
+"és tanúsítani akarod ezt. A használatával egyben le is mondasz minden "
+"esetleges saját, a művel kapcsolatos szerzői jogodról. A Creative Commons "
+"nem javasolja ezt az eszközt a jogvédett művek közkinccsé tételéhez – inkább "
+"a CC0-t használd."
 
 #: c/engine/zero/templates/index.pt:59
 msgctxt "license.zero.intro_1"
@@ -3635,6 +3730,12 @@ msgid ""
 "\t  competition, and database rights and rights protecting the\n"
 "\t  extraction, dissemination and reuse of data."
 msgstr ""
+"A CC0-val minden a műhöz fűződő szerzői és kapcsolódó vagy szomszédos "
+"jogodról lemondhatsz, mint például a személyhez fűződő jogaidról (a törvény "
+"által megengedett mértékben), a személyiségi jogaidról, az adatvédelmi "
+"jogaidról, a tisztességtelen verseny elleni jogaidról vagy az adatbázishoz "
+"fűződő és az adatok kinyerését, terjesztését és felhasználását védő "
+"jogaidról."
 
 #: c/engine/zero/templates/index.pt:68
 msgctxt "license.zero.intro_2"
@@ -3645,6 +3746,10 @@ msgid ""
 "\t  your legal advisor if you are unsure whether you have all\n"
 "\t  the rights you need to distribute the work."
 msgstr ""
+"Ne feledd, hogy akkor mondhatsz le a műhöz fűződő jogokról, ha azok a te "
+"birtokodban vannak, vagy a tulajdonosuk engedélyezte. Ha nem vagy biztos "
+"benne, hogy minden szükséges jogod megvan-e a mű terjesztéséhez, egyeztess a "
+"jogi tanácsadóddal, hogy elkerüld egy harmadik fél jogainak a megsértését."
 
 #: c/engine/zero/templates/waiver.pt:83
 msgctxt "license.zero.metadata_help"
@@ -3660,6 +3765,11 @@ msgid ""
 "\t  you want to find out more.\n"
 "\t</p>"
 msgstr ""
+"<p>Az információ programok által feldolgozható formátumban kerül a "
+"HTML-kódba. Ez lehetővé teszi a keresőmotoroknak, hogy ezt az extra "
+"információt is eltárolják.</p><p><a "
+"href=\"http://wiki.creativecommons.org/Metadata\">További információ</a> is "
+"elérhető a Creative Commons metaadatokról, ha többet szeretnél megtudni.</p>"
 
 #: c/engine/pd/templates/publicdomain-3.pt:65
 msgctxt "deed.pd.title_plain"
@@ -3671,7 +3781,7 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-2.pt:58
 msgctxt "util.author"
 msgid "Author"
-msgstr "Szerző"
+msgstr "Szerzője"
 
 #: c/engine/pd/templates/publicdomain-3.pt:118
 msgctxt "license.pdc.confirm_reading"
@@ -3680,22 +3790,25 @@ msgid ""
 "\t    effect of this tool, and hereby voluntarily elect to apply it to\n"
 "\t    this work."
 msgstr ""
+"Elolvastam és tudomásul vettem az eszköz\n"
+"\t feltételeit és szándékolt hatását, és szabad\n"
+"\t akaratomból alkalmazom erre a műre."
 
 #: c/engine/pd/templates/publicdomain-3.pt:56
 msgctxt "license.pd.confirm_title"
 msgid "Confirm Your Public Domain Certification"
-msgstr "Erősítsd meg a Public Domain tanúsítványodat!"
+msgstr "Erősítsd meg a közkincs-tanúsítványodat!"
 
 #: c/engine/publicdomain/templates/index.pt:34
 #: c/engine/publicdomain/templates/index.pt:51
 msgctxt "util.use_this_tool"
 msgid "Use this tool"
-msgstr ""
+msgstr "Ezt használom"
 
 #: c/engine/publicdomain/zero_templates/deed.pt:67
 msgctxt "deed.zero.other_rights"
 msgid "In no way are any of the following rights affected by CC0:"
-msgstr ""
+msgstr "A következő jogokat a CC0 semmiben nem befolyásolja:"
 
 msgctxt "country.th"
 msgid "Thailand"
@@ -3708,11 +3821,11 @@ msgstr "Thai"
 #: c/engine/licenses/standard_templates/deed.pt:162
 msgctxt "util.notice"
 msgid "Notice"
-msgstr ""
+msgstr "Jelzés"
 
 msgctxt "lang.cs"
 msgid "Czech"
-msgstr ""
+msgstr "Cseh"
 
 #: c/engine/chooser_pages/partner/index.pt:36
 msgctxt "license.partner.publicdomain_options"
@@ -3723,6 +3836,10 @@ msgid ""
 "   the copyright has expired, choose the\n"
 "   <a href=\"${pd_url}\">public domain certification</a>."
 msgstr ""
+"Ha egy általad készített művet akarsz mindenféle korlátozás nélkül "
+"felhasználhatóvá tenni, használd a <a href=\"${cc0_url}\">CC0</a>-t. Ha egy "
+"olyan művet teszel közzé, ami nem jogvédett, vagy a védelmi ideje már "
+"lejárt, használd a <a href=\"${pd_url}\">közkincs-tanúsítványt</a>."
 
 #: c/engine/pd/templates/publicdomain-partner.pt:24
 msgctxt "license.partner.pd_intro"
@@ -3732,6 +3849,9 @@ msgid ""
 "Certification is not a license. By using it you assert that a work is\n"
 "already in the public domain."
 msgstr ""
+"A választásodból úgy tűnik, tanúsítani akarod, hogy egy mű közkincs. A k"
+"özkincs-tanúsítvány nem licenc. A használatával tanúsítod, hogy a mű már "
+"közkincs."
 
 #: c/engine/pd/templates/publicdomain-partner.pt:31
 msgctxt "license.partner.pd.use_cc0"
@@ -3740,6 +3860,9 @@ msgid ""
 "waive copyright and neighboring rights on a work <em>in which you hold\n"
 "these rights</em>, choose <a href=\"${cc0_url}\">CC0</a>."
 msgstr ""
+"Ha ehelyett közkinccsé akarsz tenni egy olyan művet, <em>aminek te vagy a "
+"jogtulajdonosa</em> (azaz le akarsz mondani a jelenleg még meglévő szerzői "
+"és szomszédos jogaidról), használd a <a href=\"${cc0_url}\">CC0</a>-t."
 
 #: c/engine/zero/templates/partner.pt:44
 msgctxt "license.partner.zero.use_pdc_instead"
@@ -3750,20 +3873,23 @@ msgid ""
 "\tthe <a href=\"${pd_url}\">Public\n"
 "\tDomain Certification</a>."
 msgstr ""
+"Ha ehelyett tanúsítani akarod, hogy egy mű <em>már közkincs</em>, használd a "
+"<a href=\"${pd_url}\">Közkincs-tanúsítványt</a>."
 
 msgctxt "lang.ar"
 msgid "Arabic"
-msgstr ""
+msgstr "arab"
 
 #. Default: "Territory"
 #: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
 msgctxt "util.territory"
 msgid "Territory"
-msgstr ""
+msgstr "terület"
 
 msgctxt "deed.zero.no-endorsment"
 msgid ""
 "Works under CC0 do not require attribution.  When citing the work, you "
 "should not imply endorsement by the author."
 msgstr ""
-
+"A CC0 alatti műveknél nem kell megjelölni a forrást. Ha hivatkozol a műre, "
+"ne keltsd azt a látszatot, hogy a szerző ajánlásával teszed."
