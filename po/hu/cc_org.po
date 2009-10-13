@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2009-10-12 14:22-0700\n"
-"PO-Revision-Date: 2009-10-13 19:40+0000\n"
+"PO-Revision-Date: 2009-10-13 21:22+0000\n"
 "Last-Translator: Tisza Gergő <gtisza@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -694,7 +694,7 @@ msgstr ""
 #: c/engine/macros_templates/metadata.pt:58
 msgctxt "util.attribute_to_url"
 msgid "Attribute work to URL"
-msgstr "Attribute work to URL"
+msgstr "A szerző megjelölésére használható webcím"
 
 #: c/engine/chooser_pages/index.pt:195
 msgctxt "license.view_explanation"
@@ -742,7 +742,7 @@ msgstr ""
 
 msgctxt "country.lu"
 msgid "Luxembourg"
-msgstr "Luxembourg"
+msgstr "Luxemburg"
 
 #: c/engine/macros_templates/metadata.pt:23
 msgctxt "license.tell_format"
@@ -781,7 +781,7 @@ msgstr "Nincs weboldalad?"
 
 msgctxt "country.rs"
 msgid "Serbia"
-msgstr "Serbia"
+msgstr "Szerbia"
 
 msgctxt "country.kr"
 msgid "Korea"
@@ -853,7 +853,7 @@ msgstr "Olasz"
 
 msgctxt "country.ro"
 msgid "Romania"
-msgstr "Romania"
+msgstr "Románia"
 
 #: c/engine/chooser_pages/index.pt:191
 msgctxt "license.what_you"
@@ -980,7 +980,7 @@ msgstr "Nigéria"
 
 msgctxt "jswidget.Licensor_permits_others_to_make_derivative_works"
 msgid "Licensor permits others to make derivative works"
-msgstr "Licensor permits others to make derivative works"
+msgstr "A licencelő engedélyezi másoknak a származékos művek készítését"
 
 msgctxt "country.us"
 msgid "United States"
@@ -1109,8 +1109,8 @@ msgid ""
 "${work_title} by ${work_author} is licensed under a <a rel=\"license\" "
 "href=\"${license_url}\">Creative Commons ${license_name} License</a>."
 msgstr ""
-"${work_title} by ${work_author} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+"${work_author} ${work_title} című műve <a rel=\"license\" "
+"href=\"${license_url}\">Creative Commons ${license_name} Licenc</a> alatt van."
 
 msgctxt "util.description"
 msgid "description"
@@ -1137,8 +1137,8 @@ msgid ""
 "For any reuse, you must make clear to others the license terms of this "
 "work."
 msgstr ""
-"For any reuse, you must make clear to others the license terms of this "
-"work."
+"A mű bárminemű felhasználásakor világossá kell tenned, milyen licenc alatt "
+"teszed."
 
 #: c/engine/macros_templates/deed.pt:124
 msgctxt "lang.nl"
@@ -1147,7 +1147,7 @@ msgstr "Holland"
 
 msgctxt "util.weblog"
 msgid "weblog"
-msgstr "weblog"
+msgstr "blog"
 
 msgctxt "country.es"
 msgid "Spain"
@@ -1180,7 +1180,7 @@ msgstr ""
 
 msgctxt "lang.es_MX"
 msgid "Spanish (MX)"
-msgstr "Spanish (MX)"
+msgstr "Spanyol (MX)"
 
 msgctxt "util.publish"
 msgid "publish"
@@ -1211,12 +1211,12 @@ msgstr "Tovább"
 
 msgctxt "lang.en_US"
 msgid "English (US)"
-msgstr "English (US)"
+msgstr "Angol (US)"
 
 #: c/engine/macros_templates/metadata.pt:52
 msgctxt "util.attribute_to_name"
 msgid "Attribute work to name"
-msgstr "Attribute work to name"
+msgstr "A személy, akit a mű szerzőjeként kell feltüntetni"
 
 msgctxt "api.sampling_flavor_help"
 msgid ""
@@ -1243,7 +1243,7 @@ msgstr "Angol"
 
 msgctxt "lang.eo"
 msgid "Esperanto"
-msgstr "Esperanto"
+msgstr "Eszperantó"
 
 msgctxt "licenses.draft_notice"
 msgid ""
@@ -1267,7 +1267,7 @@ msgstr ""
 #: c/engine/licenses/fsf_templates/deed.pt:34
 msgctxt "deed.gpl_free_run"
 msgid "The freedom to run the program for any purpose."
-msgstr "The freedom to run the program for any purpose."
+msgstr "Annak szabadsága, hogy használd a programot, bármilyen célra."
 
 #: c/engine/chooser_pages/index.pt:128 c/engine/chooser_pages/sampling.pt:72
 #: c/engine/chooser_pages/partner/index.pt:79
@@ -1300,7 +1300,7 @@ msgstr ""
 
 msgctxt "lang.sv"
 msgid "Swedish"
-msgstr "Swedish"
+msgstr "Svéd"
 
 #: c/engine/chooser_pages/htmlpopup.pt:15
 msgctxt "license.html_display"
@@ -1310,7 +1310,7 @@ msgstr "A logót megjelenító HTML részlet a következő:"
 #: c/engine/macros_templates/deed.pt:109
 msgctxt "lang.eu"
 msgid "Basque"
-msgstr "Basque"
+msgstr "Baszk"
 
 msgctxt "lang.en_CA"
 msgid "English (CA)"
@@ -1369,8 +1369,8 @@ msgid ""
 "${work_title} is licensed under a <a rel=\"license\" "
 "href=\"${license_url}\">Creative Commons ${license_name} License</a>."
 msgstr ""
-"${work_title} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+"${work_title} a <a rel=\"license\" href=\"${license_url}\">Creative Commons "
+"${license_name} Licenc</a> alatt van."
 
 msgctxt "country.hu"
 msgid "Hungary"
@@ -1386,13 +1386,13 @@ msgid ""
 "For more information about the Free Software Foundation, visit their <a "
 "href=\"http://www.fsf.org\">web page</a>."
 msgstr ""
-"For more information about the Free Software Foundation, visit their <a "
-"href=\"http://www.fsf.org\">web page</a>."
+"Ha többet szeretnél tudni a Free Software Foundationról, látogasd meg <a "
+"href=\"http://www.fsf.org\">a honlapjukat</a>."
 
 #: c/engine/chooser_pages/sampling.pt:111
 msgctxt "license.sampling_get"
 msgid "Get your Sampling License"
-msgstr "Get your Sampling License"
+msgstr "Mintavétel-licenc letöltése"
 
 #: c/engine/licenses/fsf_templates/deed.pt:16
 msgctxt "deed.gpl_title"
@@ -1408,8 +1408,8 @@ msgid ""
 "This work is licensed under a <a href=\"${license_url}\">Creative Commons"
 " Developing Nations license</a>."
 msgstr ""
-"This work is licensed under a <a href=\"${license_url}\">Creative Commons"
-" Developing Nations license</a>."
+"Ez a mű a <a href=\"${license_url}\">Creative Commons Fejlődő Országok "
+"licenc</a> alatt van."
 
 #: c/engine/chooser_pages/index.pt:32
 msgctxt "license.what"
@@ -1452,7 +1452,7 @@ msgstr ""
 
 msgctxt "lang.es_CO"
 msgid "Spanish (CO)"
-msgstr "Spanish (CO)"
+msgstr "Spanyol (CO)"
 
 #: c/engine/pd/templates/publicdomain-4.pt:42 c/engine/chooser_pages/gpl.pt:110
 #: c/engine/chooser_pages/lgpl.pt:113
@@ -1537,8 +1537,8 @@ msgid ""
 "The freedom to improve the program and release your improvements to the "
 "public, so that the whole community benefits."
 msgstr ""
-"The freedom to improve the program and release your improvements to the "
-"public, so that the whole community benefits."
+"Annak szabadsága, hogy fejleszd a programot és közzétedd a fejlesztéseidet, "
+"hogy mindenki más is hasznukat vehesse."
 
 msgctxt "lang.zh_TW"
 msgid "Chinese (Taiwan)"
@@ -1547,7 +1547,7 @@ msgstr "Kínai (Tajvani)"
 #: c/engine/macros_templates/metadata.pt:84
 msgctxt "jargon.source_work_description"
 msgid "A work another is derived from."
-msgstr "A work another is derived from."
+msgstr "A mű, amelynek felhasználásával ez a mű készült."
 
 msgctxt "lang.zu"
 msgid "Zulu"
@@ -1854,7 +1854,7 @@ msgstr "Ezt a művet nem használhatod fel kereskedelmi célokra."
 #: c/engine/macros_templates/metadata.pt:72
 msgctxt "util.more_permissions_url"
 msgid "More permissions URL"
-msgstr "More permissions URL"
+msgstr "Webcím engedélykéréshez"
 
 #: c/engine/licenses/standard_templates/deed.pt:64
 msgctxt "deed.moralrights"
@@ -1890,7 +1890,7 @@ msgstr "Hogyan tudod megjelölni a tartalmaidat?"
 
 msgctxt "country.sg"
 msgid "Singapore"
-msgstr "Singapore"
+msgstr "Szingapúr"
 
 msgctxt "country.se"
 msgid "Sweden"
@@ -1951,7 +1951,7 @@ msgstr "Kanada"
 
 msgctxt "country.co"
 msgid "Colombia"
-msgstr "Colombia"
+msgstr "Kolumbia"
 
 msgctxt "country.cn"
 msgid "China Mainland"
@@ -2032,8 +2032,8 @@ msgid ""
 "We have updated the version of your license to the most recent one "
 "available in your jurisdiction."
 msgstr ""
-"We have updated the version of your license to the most recent one "
-"available in your jurisdiction."
+"A licenced verzióját módosítottuk a legfrissebb verzióra, ami arra az "
+"országra vonatkozik, ahol laksz."
 
 msgctxt "country.cz"
 msgid "Czech Republic"
@@ -2061,7 +2061,7 @@ msgstr "Dél-Afrika"
 
 msgctxt "lang.sr"
 msgid "Serbian"
-msgstr "Serbian"
+msgstr "szerb"
 
 msgctxt "lang.st"
 msgid "Sotho"
@@ -2140,10 +2140,10 @@ msgid ""
 " Creative Commons, 171 Second Street, Suite 300, San Francisco, "
 "California, 94105, USA."
 msgstr ""
-"This work is licensed under the Creative Commons ${license_name} License."
-" To view a copy of this license, visit ${license_url} or send a letter to"
-" Creative Commons, 171 Second Street, Suite 300, San Francisco, "
-"California, 94105, USA."
+"Ez a mű Creative Commons ${license_name} Licenc alatt van. A licenc "
+"szövegének megtekintéséhez látogasd meg a  ${license_url} webcímet vagy "
+"küldj egy levelet a következő címre: Creative Commons, 171 Second Street, "
+"Suite 300, San Francisco, California, 94105, USA."
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:40
 msgctxt "deed.no_endorsement"
@@ -2152,13 +2152,14 @@ msgid ""
 "to endorse or promote products derived from this software without "
 "specific prior written permission."
 msgstr ""
-"<strong>No Endorsement</strong>. The name of the author may not be used "
-"to endorse or promote products derived from this software without "
-"specific prior written permission."
+"<strong>Nincs támogatás</strong>. Külön erre vonatkozó írásos engedély "
+"hiányában nem szabad a szerző nevét olyan módon használni, ami azt a "
+"látszatot keltheti, hogy a szerző helyesli vagy támogatja az ezen szoftver "
+"felhasználásával készült más szoftvereket."
 
 msgctxt "jswidget.Prohibit_Commercial_Use"
 msgid "Prohibit Commercial Use"
-msgstr "Prohibit Commercial Use"
+msgstr "Kereskedelmi felhasználás tiltása"
 
 #: c/engine/chooser_pages/results.pt:56
 msgctxt "license.what_to_do_next"
