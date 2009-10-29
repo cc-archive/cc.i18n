@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-08-18 11:03-0700\n"
-"PO-Revision-Date: 2009-08-18 11:03-0700\n"
+"POT-Creation-Date: 2009-10-29 18:00+0000\n"
+"PO-Revision-Date: 2009-10-29 18:00+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh_TW <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -83,7 +83,6 @@ msgid "country.bg"
 msgstr "保加利亞"
 
 #: c/engine/pd/templates/publicdomain-4.pt:32
-#, fuzzy
 msgid "license.mark_web"
 msgstr ""
 "在網頁上為您的內容加上標示；顯示按鈕的 HTML 原始碼如下，並請確實<a "
@@ -118,7 +117,6 @@ msgstr "只要您遵循這個授權條款所明示的條件，即可行使此處
 msgid "country.be"
 msgstr "比利時"
 
-#, fuzzy
 msgid "license.work_type_dedicated"
 msgstr ""
 "本 ${work_type} 已貢獻至\n"
@@ -654,7 +652,9 @@ msgstr "發行"
 
 #: c/engine/macros_templates/deed.pt:153
 msgid "deed.human_summary"
-msgstr "這是一份讓一般人易於了解的<a href=\"legalcode\" class=\"fulltext\">法律條款（完整的授權條款）</a>摘要。"
+msgstr ""
+"這是一份讓一般人易於了解的法律條款摘要，您可參考<a href=\"legalcode\" "
+"class=\"fulltext\">完整的授權條款</a>。"
 
 #: c/engine/pd/templates/publicdomain-2.pt:46
 msgid "util.proceed"
@@ -789,18 +789,15 @@ msgid "license.devnations_licensed"
 msgstr "本著作係採用<a href=\"${license_url}\">創用 CC 開發中國家授權條款</a>授權。"
 
 #: c/engine/chooser_pages/index.pt:32
-#, fuzzy
 msgid "license.what"
 msgstr ""
 "透過創用 CC 授權條款，<strong>您不但可以保留您的著作權</strong>，同時允許人們<a "
-"href=\"/learn/licenses/fullrights\">得以重製及散布您的著作</a>，惟需<a "
-"href=\"/characteristic/by?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/by?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">保留您的姓名標示</a>──並遵循您在此所具體指明之條件；如果您對於創用 CC 授權條款還不熟悉，我們也備妥了<a "
-"href=\"/about/think\">一份您該考慮的事項清單</a>。若您希望將您的著作毫無條件地釋出，請選用<a "
-"href=\"publicdomain-2\">公共領域 (public domain)</a> 。"
+"href=\"/learn/licenses/fullrights\">得以重製及散布您的著作</a>，惟需<a href=\"#\" "
+"class=\"helpLink\" "
+"id=\"give_you_credit\">保留您的姓名標示</a>，並遵循您在此所具體指明之條件；如果您對於創用 CC "
+"授權條款還不熟悉，我們也備妥了<a "
+"href=\"/about/think\">一份您該考慮的事項清單</a>。若您希望將您的著作毫無條件地釋出，請選用我們提供的<a "
+"href=\"/publicdomain/\">公共領域 (public domain) 工具</a> 。"
 
 msgid "char.by_brief.jp"
 msgstr "您必須表彰原作者及表演人之姓名。"
@@ -963,7 +960,7 @@ msgstr ""
 
 #: c/engine/macros_templates/deed.pt:98
 msgid "deed.human_summary_multilanguage"
-msgstr "這是一份讓一般人易於了解的法律條款（完整的授權條款）摘要，同時有下列不同語言的譯本："
+msgstr "這是一份讓一般人易於了解的法律條款（即完整的授權條款）摘要，同時有下列不同語言的譯本："
 
 msgid "country.jo"
 msgstr "約旦"
@@ -1005,12 +1002,11 @@ msgid "country.at"
 msgstr "奧地利"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:19
-#, fuzzy
 msgid "license.non_web_pd"
 msgstr ""
 "本著作已在此釋出至公共領域。若欲瀏覽對公共領域之貢獻的認證書 (public domain dedication) 副本，請造訪 "
 "http://creativecommons.org/licenses/publicdomain/ ，或寄信到 Creative Commons,"
-" 171 Second Street, Suite 300, San Francisco, California, 94105, USA 。"
+" 171 Second Street, Suite 300, San Francisco, California, 94105, USA。"
 
 msgid "country.ar"
 msgstr "阿根廷"
@@ -1283,17 +1279,14 @@ msgid "char.sa_title"
 msgstr "相同方式分享"
 
 #: c/engine/chooser_pages/index.pt:193
-#, fuzzy
 msgid "license.explain"
 msgstr ""
-"創用 CC "
-"幫助您在線上發表您的著作，同時讓其他人明確知道他們能對您的著作做些甚麼、不能做些甚麼。當您選擇了某一份授權條款後，我們還會提供工具及教學指引，讓您能在我們的網站中，或在某個整合了創用"
-" CC 的免費檔案存放服務站台中，加入這些授權條款的資訊。"
+"當您選擇了某一份授權條款後，我們提供 HTML，讓您能在自己的網站上、或是其他整合創用 CC "
+"的免費檔案存放網站中，加入這些授權條款的資訊。這不是註冊手續，我們也不自行儲存您所填入的資訊。"
 
 #: c/engine/pd/templates/publicdomain-4.pt:27
-#, fuzzy
 msgid "license.mark_pd"
-msgstr "既然您已經選擇將您的著作貢獻至公共領域 (public domain) ，那麼您就必須以適當方式在您的著作上加以標示。"
+msgstr "既然您已經選擇將著作貢獻至公共領域 (public domain) ，那麼您就必須以適當方式在著作上加以標示。"
 
 msgid "util.Try_again"
 msgstr "請再試一次！"
@@ -1306,11 +1299,10 @@ msgid "licenses.pretty_nc-sa"
 msgstr "非商業性-相同方式分享"
 
 #: c/engine/chooser_pages/results.pt:78
-#, fuzzy
 msgid "license.after_support_cc"
 msgstr ""
-"發表授權條款後，也請考慮<a href=\"http://creativecommons.org/support/\">支持 Creative "
-"Commons</a>。"
+"發表授權條款後，也請考慮<a href=\"http://support.creativecommons.org/donate/\">支持 "
+"Creative Commons</a>。"
 
 #: c/engine/templates/by.pt:25
 msgid "char.by_description"
@@ -1338,18 +1330,14 @@ msgid "country.fi"
 msgstr "芬蘭"
 
 #: c/engine/chooser_pages/partner/index.pt:25
-#, fuzzy
 msgid "license.partner_what"
 msgstr ""
-"<p>您已創作出令您引以為傲的著作。現在正是藉由讓他人得以利用您的著作，而獲取創意的絕佳時機了。</p>\n"
-"\n"
-"<p>創用 CC 授權條款能幫助您在與他人分享您的著作時，仍然能夠保有您自己的著作權。其他人只要<a "
-"href=\"/characteristic/by?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/by?lang=${lang}', "
-"'characteristic_help', "
+"創用 CC 授權條款能幫助您在與他人分享您的著作時，仍然能夠保有您自己的著作權。其他人只要<a "
+"href=\"http://creativecommons.org/characteristic/by?lang=en\" "
+"onclick=\"window.open('http://creativecommons.org/characteristic/by?lang=en',"
+" 'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">保留您的姓名標示</a>──並遵照您在本頁面具體指明的條件，就能重製及散布您的著作。如果您想要無條件地提供您的著作，請選擇<a"
-" href=\"${results_pd_url}\">公共領域 (Public Domain) </a>。</p>"
+" false;\">保留您的姓名標示</a>，並遵照您指定的條件，就能重製及散布您的著作。本頁就是為了協助您具體指定使用者需要遵守的條件。"
 
 #: c/engine/chooser_pages/index.pt:49 c/engine/chooser_pages/index.pt:96
 #: c/engine/chooser_pages/partner/index.pt:56
@@ -1421,9 +1409,10 @@ msgstr "葡萄牙語"
 #: c/engine/licenses/devnations_templates/deed.pt:51
 #: c/engine/licenses/mitbsd_templates/deed.pt:60
 #: c/engine/licenses/standard_templates/deed.pt:60
-#, fuzzy
 msgid "deed.permission"
-msgstr "如果您取得著作權人之許可，這些條件中任一項都能免除。"
+msgstr ""
+"如果您取得著作權人之許可，這些條件中任一項都能<a href=\"#\" id=\"waived\" "
+"class=\"helpLink\">免除</a>。"
 
 msgid "country.my"
 msgstr "馬來西亞"
@@ -1468,14 +1457,14 @@ msgstr "認識如何宣傳及分享您的著作"
 #: c/engine/macros_templates/deed.pt:135
 msgid "deed.lgpl_human_summary"
 msgstr ""
-"這是一份讓一般人易於了解的法律條款（完整的<a href=\"http://www.gnu.org/licenses/old-"
+"這是一份讓一般人易於了解的法律條款（即完整的<a href=\"http://www.gnu.org/licenses/old-"
 "licenses/lgpl-2.1.html\">GNU 較寬鬆通用公共授權條款, GNU LGPL</a> ）摘要。也有<a "
 "href=\"legalcode.pt\">葡萄牙語的譯本</a>。"
 
 #: c/engine/macros_templates/deed.pt:145
 msgid "deed.gpl_human_summary"
 msgstr ""
-"這是讓一般人易於了解的法律條款（完整的 <a href=\"http://www.gnu.org/licenses/old-"
+"這是讓一般人易於了解的法律條款（即完整的 <a href=\"http://www.gnu.org/licenses/old-"
 "licenses/gpl-2.0.html\">GNU 通用公共授權條款</a>）摘要。也有<a "
 "href=\"legalcode.pt\">葡萄牙語的譯本</a>。"
 
@@ -1697,7 +1686,6 @@ msgid "What does \"Attribute this work\" mean?"
 msgstr "所謂的「姓名標示」是什麼意思？"
 
 #: e/licenses/standard_templates/deed.pt:129
-#, fuzzy
 msgid ""
 "The page you came from contained embedded licensing metadata, including "
 "how the creator wishes to be attributed for re-use. You can use the HTML "
@@ -1705,10 +1693,7 @@ msgid ""
 "so that others can find the original work as well."
 msgstr ""
 "引領你前來此處的網頁中嵌入了含授權資訊的後設資料，包括原作者想以什麼方式為人表彰等。你可以使用此處提供的 HTML "
-"來引用此作品、並表彰出處。使用後，你的網頁上也會有授權後設資料，方便他人尋得原始作品。\n"
-"#-#-#-#-#\n"
-"您連至此網頁前的那份網頁中嵌入了授權後設資料，包括原作者要求您使用該著作時的出處標示方式。您可以使用此處的 HTML "
-"來引用該著作，這麼一來您的網頁上也會嵌入後設資料、讓別人可以找到你所引用的原作品。"
+"來引用此作品、並表彰出處。這麼一來，你的網頁上也會有授權後設資料，方便他人尋得原始作品。"
 
 msgid "country.ec"
 msgstr "厄瓜多爾"
@@ -1802,18 +1787,10 @@ msgstr "以 FairShare 追蹤您作品被利用的情形"
 #: c/engine/licenses/zero_templates/deed.pt:114
 msgid "deed.zero.disclaimer"
 msgstr ""
-"<p>The Commons Deed is not a legal instrument. It is simply a\n"
-"\t\thandy reference for understanding the CC0 Legal Code,\n"
-"\t\ta human-readable expression of some of its key\n"
-"\t\tterms. Think of it as the user-friendly interface to\n"
-"\t\tthe CC0 Legal Code beneath. This Deed itself has no\n"
-"\t\tlegal value, and its contents do not appear in\n"
-"\t\tCC0.</p>\n"
+"<p>此公共標章並非正式的法律文件，僅是為了方便一般人理解 CC0 法律條款關鍵要素的簡明文件。\n"
+"\t\t公眾標章本身沒有法律意義，其內容也不會出現在 CC0 中。</p>\n"
 "\n"
-"\t\t<p>Creative Commons is not a law firm and does not\n"
-"\t\t  provide legal services. Distributing, displaying, \n"
-"\t\t  or linking to this Commons Deed does not create an\n"
-"\t\t  attorney-client relationship.</p>"
+"\t\t<p>Creative Commons 不是法律事務所，亦不提供法律服務。散布、展示或連結到本公共標章並不產生律師與客戶的關係。"
 
 #. Default: ""
 #. "This is a human-readable summary of\n"
@@ -1821,14 +1798,12 @@ msgstr ""
 #. "\t  text)</a>."
 #: c/engine/licenses/zero_templates/deed.pt:131
 msgid "deed.zero.human_summary"
-msgstr ""
-"This is a human-readable summary of the <a href=\"./legalcode\">Legal "
-"Code (read the full text)</a>."
+msgstr "這是一份讓一般人易於了解的法律條款摘要，您可參考<a href=\"./legalcode\">完整的授權條款</a>。"
 
 #. Default: "No Copyright"
 #: c/engine/licenses/zero_templates/deed.pt:30
 msgid "deed.zero.no_copyright"
-msgstr "No Copyright"
+msgstr "無著作權"
 
 #. Default: ""
 #. "The person who associated a work with this document\n"
@@ -1847,7 +1822,7 @@ msgstr ""
 #. Default: "Attribute this work:"
 #: c/engine/licenses/zero_templates/deed.pt:42
 msgid "deed.attribute_this_work"
-msgstr "Attribute this work:"
+msgstr "標示這份著作："
 
 #. Default: ""
 #. "In no way are any of the following rights affected by\n"
@@ -1890,12 +1865,12 @@ msgstr ""
 #: c/engine/licenses/zero_templates/deed.pt:95
 #: c/engine/zero/templates/index.pt:89
 msgid "util.learn_more"
-msgstr "Learn more"
+msgstr "了解更多資訊"
 
 #. Default: "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:30
 msgid "license.zero.confirm_title"
-msgstr "Confirm Waiver"
+msgstr "拋棄確認"
 
 #. Default: ""
 #. "Are you certain you wish to waive all rights to your\n"
@@ -1903,9 +1878,7 @@ msgstr "Confirm Waiver"
 #. "\t    them."
 #: c/engine/zero/templates/confirm.pt:48
 msgid "license.zero.confirm_waiver_1"
-msgstr ""
-"Are you certain you wish to waive all rights to your work? Once these "
-"rights are waived, you cannot reclaim them."
+msgstr "你確定要放棄與此作品相關的所有權利？一旦放棄，便不能再取回。"
 
 #. Default: ""
 #. "In particular, if you are an artist or author who\n"
@@ -1914,10 +1887,7 @@ msgstr ""
 #. "\t    tool."
 #: c/engine/zero/templates/confirm.pt:54
 msgid "license.zero.confirm_waiver_2"
-msgstr ""
-"In particular, if you are an artist or author who depends upon copyright "
-"for your income, Creative Commons <strong>does not recommend</strong> "
-"that you use this tool."
+msgstr "尤其，如果您是仰賴著作權維生的藝術家、作家，Creative Commons <strong>並不建議</strong>您使用這個工具。"
 
 #. Default: ""
 #. "If you don't own the rights to this work, then do not\n"
@@ -1927,20 +1897,18 @@ msgstr ""
 #: c/engine/zero/templates/confirm.pt:61
 msgid "license.zero.confirm_waiver_3"
 msgstr ""
-"If you don't own the rights to this work, then do not use CC0.  If you "
-"believe that nobody owns rights to the work, then the <a "
-"href=\"/license/publicdomain-2\">Public Domain Certification</a> may be "
-"what you're looking for."
+"如果您沒有這份作品的著作權，請不要使用 CC0。如果您相信已沒有任何人擁有此作品的著作權，或許您該使用<a "
+"href=\"/license/publicdomain-2\">公共領域認証</a>。"
 
 #. Default: "No, I Do Not Waive"
 #: c/engine/zero/templates/confirm.pt:71
 msgid "license.zero.confirm_waiver_no"
-msgstr "No, I Do Not Waive"
+msgstr "不，我不想放棄"
 
 #. Default: "Yes, I Waive"
 #: c/engine/zero/templates/confirm.pt:82
 msgid "license.zero.confirm_waiver_yes"
-msgstr "Yes, I Waive"
+msgstr "是的，我要放棄"
 
 #. Default: ""
 #. "Please note that this is <strong>not a registration\n"
@@ -1953,12 +1921,9 @@ msgstr "Yes, I Waive"
 #: c/engine/zero/templates/index.pt:76
 msgid "license.zero.intro_3"
 msgstr ""
-"Please note that this is <strong>not a registration process</strong> and "
-"Creative Commons does not store or save any of the information you enter."
-"  This tool guides you through the process of generating HTML with "
-"embedded metadata for marking your work as being available under CC0.  "
-"Your work will not be associated with CC0 or made available under CC0 "
-"until you publish it marked as being so."
+"請注意，這並不是<strong>註冊程序</strong>，Creative Commons "
+"也不會儲存您鍵入的任何資訊。這個工具只是為了協助您產生內含後設資料的 HTML 程式碼，以便標示您的作品為 "
+"CC0；是以，若您最後未將產生的程式碼與作品結合發佈，您的作品就還沒真正採用 CC0 釋出。"
 
 #. Default: "begin"
 #: c/engine/zero/templates/index.pt:98
@@ -1982,7 +1947,7 @@ msgstr ""
 #. Default: "Send Email"
 #: c/engine/zero/templates/results.pt:122
 msgid "license.zero.send_email"
-msgstr "Send Email"
+msgstr "寄送電子郵件"
 
 #. Default: ""
 #. "An error occurred when we tried to send the email message;\n"
@@ -1993,15 +1958,13 @@ msgstr "Send Email"
 #: c/engine/zero/templates/results.pt:134
 msgid "license.zero.email_error"
 msgstr ""
-"An error occurred when we tried to send the email message; you can try "
-"clicking the Back button and double checking your email address.  If the "
-"address you used (${email_addr}) was correct you can <a "
-"href=\"/about/contact\">contact us</a>."
+"寄送郵件時發生錯誤。您可以按下「上一頁」鈕，再檢查一下郵件地址是否正確。如果您輸入的郵件地址 (${email_addr}) 正確無誤，請<a "
+"href=\"/about/contact\">連絡我們</a>。"
 
 #. Default: "The suggested HTML has been sent to ${email_addr}."
 #: c/engine/zero/templates/results.pt:143
 msgid "license.zero.email_sent"
-msgstr "The suggested HTML has been sent to ${email_addr}."
+msgstr "已經將本站建議的 HTML 程式碼寄到 ${email_addr}。"
 
 #. Default: ""
 #. "You have asked to be notified of updates to CC0.  A subscription\n"
@@ -2009,10 +1972,7 @@ msgstr "The suggested HTML has been sent to ${email_addr}."
 #. "\t    the confirmation email to complete the sign-up process."
 #: c/engine/zero/templates/results.pt:148
 msgid "license.zero.subscribed_to_updates"
-msgstr ""
-"You have asked to be notified of updates to CC0.  A subscription request "
-"has been sent on your behalf; you must click the link in the confirmation"
-" email to complete the sign-up process."
+msgstr "您已經要求收取 CC0 的新消息，我們寄了一封訂閱確認函到您的信箱中，請查看信件並按下確認信中的連結，以完成訂閱程序。"
 
 #. Default: ""
 #. "If you'd like to get the HTML with embedded metadata via\n"
@@ -2027,7 +1987,7 @@ msgstr ""
 #. Default: "Send me updates about CC0"
 #: c/engine/zero/templates/results.pt:181
 msgid "license.zero.update_opt_in"
-msgstr "Send me updates about CC0"
+msgstr "CC0 有新資訊時請寄信給我"
 
 #. Default: ""
 #. "You did not affirm your decision to waive the rights\n"
@@ -2043,12 +2003,12 @@ msgstr ""
 #. Default: "About CC0"
 #: c/engine/zero/templates/results.pt:61
 msgid "license.zero.about"
-msgstr "About CC0"
+msgstr "關於 CC0"
 
 #. Default: "Frequently Asked Questions"
 #: c/engine/zero/templates/results.pt:63
 msgid "util.FAQ"
-msgstr "Frequently Asked Questions"
+msgstr "常見問題集"
 
 #. Default: "Choose which style of button you'd like on your webpage:"
 #: c/engine/zero/templates/results.pt:72
@@ -2063,12 +2023,12 @@ msgstr "Here's a preview of how your waiver will appear on your site:"
 #. Default: "Your name"
 #: c/engine/zero/templates/waiver.pt:103
 msgid "util.your_name"
-msgstr "Your name"
+msgstr "您的姓名"
 
 #. Default: "Your URL"
 #: c/engine/zero/templates/waiver.pt:111 c/engine/zero/templates/waiver.pt:125
 msgid "util.your_url"
-msgstr "Your URL"
+msgstr "您的網址"
 
 #. Default: ""
 #. "The URL where people can find more information about \n"
@@ -2127,11 +2087,11 @@ msgstr ""
 
 #: c/engine/chooser_pages/index.pt:165 c/engine/chooser_pages/index.pt:170
 msgid "None of the above"
-msgstr ""
+msgstr "以上皆非"
 
 #: c/engine/chooser_pages/index.pt:310
 msgid "Software"
-msgstr ""
+msgstr "軟體"
 
 #: c/engine/chooser_pages/results.pt:103
 msgid "license.publish_ia"
@@ -2141,7 +2101,7 @@ msgstr ""
 
 #: c/engine/chooser_pages/results.pt:119
 msgid "license.offline_work"
-msgstr "Offline Work?"
+msgstr "作品不在網路上？"
 
 #: c/engine/chooser_pages/results.pt:129
 msgid "license.option_next_steps"
@@ -2160,7 +2120,7 @@ msgstr ""
 #: c/engine/licenses/standard_templates/deed.pt:22
 #: c/engine/publicdomain/zero_templates/deed.pt:25
 msgid "This license is acceptable for Free Cultural Works."
-msgstr ""
+msgstr "此授權條款適合自由文化作品。"
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:47
 #: c/engine/publicdomain/zero_templates/deed.pt:141
@@ -2177,7 +2137,7 @@ msgstr "Waiver"
 
 #: c/engine/licenses/standard_templates/deed.pt:125
 msgid "util.other_rights"
-msgstr "Other Rights"
+msgstr "其他權利"
 
 #: c/engine/licenses/standard_templates/deed.pt:128
 msgid "deed.other_rights"
@@ -2196,7 +2156,7 @@ msgstr ""
 
 #: c/engine/licenses/standard_templates/deed.pt:192
 msgid "deed.fair_use.help.title"
-msgstr "What does \"Fair use\" mean?"
+msgstr "「合理使用」是什麼意思？"
 
 #: c/engine/licenses/standard_templates/deed.pt:196
 msgid "deed.fair_use.help"
@@ -2275,7 +2235,7 @@ msgstr "About the work you are certifying"
 
 #: c/engine/pd/templates/publicdomain-2.pt:47
 msgid "util.fields_required"
-msgstr "(all fields are required)"
+msgstr "(所有欄位皆為必填)"
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:16
 #: c/engine/pd/templates/publicdomain-4.pt:17
@@ -2310,7 +2270,7 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-3.pt:8
 #: c/engine/pd/templates/publicdomain-2.pt:8
 msgid "util.public_domain_certification"
-msgstr "Public Domain Certification"
+msgstr "公共領域認証"
 
 #: c/engine/publicdomain/templates/index.pt:35
 msgid "license.pdtools.pdc"
@@ -2334,12 +2294,7 @@ msgstr ""
 
 #: c/engine/zero/templates/index.pt:68
 msgid "license.zero.intro_2"
-msgstr ""
-"Keep in mind that you cannot waive rights to a work that you\n"
-"\t  do not own unless you have permission from the owner.  To\n"
-"\t  avoid infringing third party rights, you should consult with\n"
-"\t  your legal advisor if you are unsure whether you have all\n"
-"\t  the rights you need to distribute the work."
+msgstr "請注意，若您不是作品的權利人，或沒有取得權利人的許可，便不能聲明放棄此作品的權利。為避免侵權，您若不確定自己是否有相關權利，請尋求法律顧問協助。"
 
 #: c/engine/zero/templates/waiver.pt:83
 msgid "license.zero.metadata_help"
