@@ -25,13 +25,14 @@ import sys
 setup(
     name = "cc.i18npkg", 
     version = "0.1-dev",
-    packages = ['cc.engine'],
+    packages = ['cc.i18npkg'],
     namespace_packages = ['cc',],
     
     # scripts and dependencies
     install_requires = [
         'setuptools',
         'zope.i18n',
+        'zope.interface',
         'python-gettext'],
 
     # author metadata
