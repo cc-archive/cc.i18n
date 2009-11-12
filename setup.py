@@ -24,7 +24,7 @@ import sys
 
 setup(
     name = "cc.i18npkg", 
-    version = "0.1-dev",
+    version = "0.1.1",
     packages = ['cc.i18npkg'],
     namespace_packages = ['cc',],
     
