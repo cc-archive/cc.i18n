@@ -24,9 +24,10 @@ import sys
 
 setup(
     name = "cc.i18npkg", 
-    version = "0.1.1",
-    packages = ['cc.i18npkg'],
+    version = "0.1.2",
+    packages = find_packages(exclude=['ez_setup', 'examples', 'tests']),
     namespace_packages = ['cc',],
+    include_package_data = True,
     
     # scripts and dependencies
     install_requires = [
@@ -41,4 +42,5 @@ setup(
     description = '',
     license = 'MIT',
     url = 'http://creativecommons.org',
+    zip_safe = False,
     )
