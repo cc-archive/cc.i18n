@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2009-11-13 15:27-0800\n"
-"PO-Revision-Date: 2009-11-18 22:01+0000\n"
+"PO-Revision-Date: 2009-11-18 22:36+0000\n"
 "Last-Translator: Karl Jonsson <kalle@creativecommons.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -2346,7 +2346,7 @@ msgstr "Vilken smak av Samplingslicens?"
 
 msgctxt "jswidget.no_license_chosen"
 msgid "No license chosen"
-msgstr "No license chosen"
+msgstr "Ingen licens vald"
 
 msgctxt "lang.fi"
 msgid "Finnish"
@@ -2628,7 +2628,7 @@ msgstr "steg"
 #: c/engine/licenses/standard_templates/deed.pt:34
 msgctxt "deed.You_are_free"
 msgid "You are free:"
-msgstr "Du får:"
+msgstr "Du har tillstånd:"
 
 msgctxt "char.sa_brief"
 msgid ""
@@ -2663,7 +2663,7 @@ msgstr ""
 
 msgctxt "jswidget.Require_Share-Alike"
 msgid "Require Share-Alike"
-msgstr "Require Share-Alike"
+msgstr "Kräv DelaLika"
 
 #: c/engine/licenses/devnations_templates/deed.pt:34
 #: c/engine/licenses/mitbsd_templates/deed.pt:26
@@ -3042,12 +3042,14 @@ msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal "
 "Code (read the full text)</a>."
 msgstr ""
+"Detta är en lättläst sammanfattning av <a href=\"./legalcode\">den "
+"fullständiga licenstexten</a>."
 
 #. Default: "No Copyright"
 #: c/engine/licenses/zero_templates/deed.pt:30
 msgctxt "deed.zero.no_copyright"
 msgid "No Copyright"
-msgstr ""
+msgstr "Ingen upphovsrätt"
 
 #. Default: ""
 #. "The person who associated a work with this document\n"
@@ -3076,7 +3078,7 @@ msgstr ""
 #: c/engine/licenses/zero_templates/deed.pt:65
 msgctxt "deed.following_unaffected"
 msgid "In no way are any of the following rights affected by the above:"
-msgstr ""
+msgstr "Följande rättigheter påverkas inte av ovanstående:"
 
 #. Default: "Patent or trademark rights held by the person who associated this
 #. document with a work."
@@ -3086,6 +3088,8 @@ msgid ""
 "Patent or trademark rights held by the person who associated this "
 "document with a work."
 msgstr ""
+"Patent eller varumärkesrättigheter som innehas av personen som associerade "
+"detta dokument med ett verk."
 
 #. Default: "What are \"Publicity Rights\"?"
 #: c/engine/licenses/zero_templates/deed.pt:83
@@ -3116,7 +3120,7 @@ msgstr ""
 #: c/engine/zero/templates/index.pt:89
 msgctxt "util.learn_more"
 msgid "Learn more"
-msgstr ""
+msgstr "Lär dig mer"
 
 #. Default: "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:30
@@ -3134,6 +3138,8 @@ msgid ""
 "Are you certain you wish to waive all rights to your work? Once these "
 "rights are waived, you cannot reclaim them."
 msgstr ""
+"Är du säker på att du vill avsäga dig alla rättigheter till ditt verk? När "
+"du avsagt dig rättigheterna kan du inte återfå dem."
 
 #. Default: ""
 #. "In particular, if you are an artist or author who\n"
@@ -3197,7 +3203,7 @@ msgstr ""
 #: c/engine/zero/templates/index.pt:98
 msgctxt "util.begin"
 msgid "begin"
-msgstr ""
+msgstr "börja"
 
 #. Default: ""
 #. "Copy the text below to your Web site to let your visitors\n"
@@ -3292,13 +3298,13 @@ msgstr ""
 #: c/engine/zero/templates/results.pt:63
 msgctxt "util.FAQ"
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Vanliga frågor"
 
 #. Default: "Choose which style of button you'd like on your webpage:"
 #: c/engine/zero/templates/results.pt:72
 msgctxt "license.choose_button"
 msgid "Choose which style of button you'd like on your webpage:"
-msgstr ""
+msgstr "Välj vilken typ av knapp du vill ha på din webbplats:"
 
 #. Default: "Here's a preview of how your waiver will appear on your site:"
 #: c/engine/zero/templates/results.pt:98
@@ -3310,13 +3316,13 @@ msgstr ""
 #: c/engine/zero/templates/waiver.pt:103
 msgctxt "util.your_name"
 msgid "Your name"
-msgstr ""
+msgstr "Ditt namn"
 
 #. Default: "Your URL"
 #: c/engine/zero/templates/waiver.pt:111 c/engine/zero/templates/waiver.pt:125
 msgctxt "util.your_url"
 msgid "Your URL"
-msgstr ""
+msgstr "Din URL"
 
 #. Default: ""
 #. "The URL where people can find more information about \n"
@@ -3364,7 +3370,7 @@ msgstr ""
 #: c/engine/zero/templates/waiver.pt:217
 msgctxt "util.continue"
 msgid "continue"
-msgstr ""
+msgstr "fortsätt"
 
 #. Default: ""
 #. "These fields are optional, but will be embedded in the HTML\n"
@@ -3385,7 +3391,7 @@ msgstr ""
 
 #: c/engine/chooser_pages/index.pt:310
 msgid "Software"
-msgstr ""
+msgstr "Datorprogram"
 
 #: c/engine/chooser_pages/results.pt:103
 msgctxt "license.publish_ia"
@@ -3439,7 +3445,7 @@ msgstr ""
 #: c/engine/licenses/standard_templates/deed.pt:125
 msgctxt "util.other_rights"
 msgid "Other Rights"
-msgstr ""
+msgstr "Övriga rättigheter"
 
 #: c/engine/licenses/standard_templates/deed.pt:128
 msgctxt "deed.other_rights"
@@ -3516,7 +3522,7 @@ msgstr ""
 #: c/engine/chooser_pages/index.pt:112 c/engine/chooser_pages/index.pt:125
 #: c/engine/chooser_pages/index.pt:138
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
 #: c/engine/pd/templates/publicdomain-2.pt:20
 msgctxt "license.pd.intro_1"
@@ -3676,11 +3682,11 @@ msgstr ""
 
 msgctxt "country.th"
 msgid "Thailand"
-msgstr ""
+msgstr "Thailand"
 
 msgctxt "lang.th"
 msgid "Thai"
-msgstr ""
+msgstr "Thai"
 
 #: c/engine/licenses/standard_templates/deed.pt:162
 msgctxt "util.notice"
@@ -3689,7 +3695,7 @@ msgstr ""
 
 msgctxt "lang.cs"
 msgid "Czech"
-msgstr ""
+msgstr "tjeckiska"
 
 #: c/engine/chooser_pages/partner/index.pt:36
 msgctxt "license.partner.publicdomain_options"
@@ -3730,13 +3736,13 @@ msgstr ""
 
 msgctxt "lang.ar"
 msgid "Arabic"
-msgstr ""
+msgstr "arabiska"
 
 #. Default: "Territory"
 #: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
 msgctxt "util.territory"
 msgid "Territory"
-msgstr ""
+msgstr "Territorium"
 
 msgctxt "deed.zero.no-endorsment"
 msgid ""
@@ -3756,7 +3762,7 @@ msgstr ""
 #: s/standard_templates/deed.pt:209
 msgctxt "deed.public_domain.help.title"
 msgid "What does \"Public Domain\" mean?"
-msgstr ""
+msgstr "Vad betyder \"Public Domain\"?"
 
 #: s/standard_templates/deed.pt:213
 msgctxt "deed.public_domain.help"
