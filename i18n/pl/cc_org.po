@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-11-13 15:29-0800\n"
-"PO-Revision-Date: 2009-11-13 15:29-0800\n"
+"POT-Creation-Date: 2009-11-24 10:24+0000\n"
+"PO-Revision-Date: 2009-11-24 10:24+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: pl <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
@@ -23,13 +23,13 @@ msgstr "Grecja"
 
 #: c/engine/chooser_pages/index.pt:104
 msgid "Allow Derivative Works"
-msgstr ""
+msgstr "Zezwól na tworzenie Utworów zależnych"
 
 #: c/engine/chooser_pages/index.pt:107
 msgid "license.help.derivatives"
 msgstr ""
-"The licensor permits others to copy, distribute, display and perform the "
-"work, as well as make derivative works based on it."
+"Licencjodawca zezwala innym kopiować, rozpowszechniać, odtwarzać i "
+"wykonywać utwór, a także tworzyć utwory zależne."
 
 #: c/engine/chooser_pages/index.pt:56
 msgid "Commercial Use"
@@ -38,14 +38,14 @@ msgstr "Użycie komercyjne"
 #: c/engine/chooser_pages/index.pt:59
 msgid "license.help.commercial"
 msgstr ""
-"The licensor permits others to copy, distribute, display, and perform the"
-" work, including for commercial purposes."
+"Licencjodawca zezwala innym kopiować, rozpowszechniać, odtwarzać i "
+"wykonywać utwór, także do celów komercyjnych."
 
 #: c/engine/chooser_pages/index.pt:70
 msgid "license.help.noncommercial"
 msgstr ""
-"The licensor permits others to copy, distribute, display, and perform the"
-" work for non-commercial purposes only."
+"Licencjodawca zezwala innym kopiować, rozpowszechniać, odtwarzać i "
+"wykonywać utwór, ale tylko do celów niekomercyjnych."
 
 #: c/engine/chooser_pages/index.pt:88
 msgid "Yes, as long as others share alike"
@@ -55,7 +55,7 @@ msgstr ""
 msgid "deed.free_copy_distribute_noncommercial"
 msgstr ""
 "Wykonywać, odtwarzać i rozpowszechniać kopie całości tego utworu w celach"
-" niekomercyjnych (np. w sieciach P2P lub transmitować przez internet)."
+" niekomercyjnych (np. w sieciach P2P lub transmitować przez internet). "
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
 msgid "license.pd_awaiting_confirmation"
@@ -102,13 +102,11 @@ msgid "country.bg"
 msgstr "Bułgaria"
 
 #: c/engine/pd/templates/publicdomain-4.pt:32
-#, fuzzy
 msgid "license.mark_web"
 msgstr ""
-"Aby oznaczyć zawartość swojej strony WWW, kod HTML konieczny do "
-"wyświetlenia przycisku informującego jest następujący. Należy się także "
-"upewnić czy spełnione zostały <a href=\"/technology/web\">następujące "
-"kryteria </a>:"
+"Aby oznaczyć zawartość strony WWW, kod HTML konieczny do wyświetlenia "
+"grafiki jest następujący. Należy się także upewnić czy spełnione zostały "
+"<a href=\"/technology/web\">następujące kryteria </a>:"
 
 msgid "util.copyright_date"
 msgstr "copyright date"
@@ -145,9 +143,9 @@ msgstr "Belgia"
 #, fuzzy
 msgid "license.work_type_dedicated"
 msgstr ""
-"This ${work_type} is dedicated to the <a rel=\"license\" "
-"href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
-"Domain</a>."
+"Ten ${work_type} został umieszczony w <a rel=\"license\" "
+"href=\"http://creativecommons.org/licenses/publicdomain/\">Domenie "
+"publicznej</a>."
 
 #: c/engine/chooser_pages/index.pt:77
 msgid "api.derivatives"
@@ -188,8 +186,8 @@ msgstr "Bez utworów zależnych"
 
 msgid "jswidget.Updated_license_version_generic"
 msgstr ""
-"We have updated the version of your license to the most recent one "
-"available."
+"Wersja stosowanej przez Ciebie licencji została zaktualizowana do "
+"najbardziej aktualnej. "
 
 #: c/engine/chooser_pages/index.pt:67
 msgid "licenses.pretty_nc"
@@ -231,33 +229,25 @@ msgid "license.confirm_choice"
 msgstr "potwierdź wybór"
 
 #: c/engine/chooser_pages/sampling.pt:54
-#, fuzzy
 msgid "license.sampling_explain"
 msgstr ""
-"<div style=\"float:right;width:175px;border:1px solid "
-"#ccc;padding:8px;margin:0px 14px 10px 14px;background:#eee;\"> <a "
-"href=\"/about/sampling\">Tu znajduje się więcej informacji na temat "
-"licencji pozwalającej na samplowanie</a> oraz historia o tym jak "
-"Negativland pomógł nam je napisać. Pozostałe wyjaśnienia przedstawia <a "
-"href=\"/about/licenses/sampling\">nasz komiks</a>.</div>\n"
+"<p>Licencja Sampling pozwala zaprosić innych, by wykorzystywali fragmenty"
+" utworu do tworzenia nowych dzieł. </p>\n"
 "\n"
-"<p>Licencje pozwalające na samplowanie pozwalają zachęcić innych do "
-"użycia utworu i stworzenia czegoś nowego.</p>\n"
-"\n"
-"<p>Na przykład do:</p>\n"
+"<p>Na przykład:</p>\n"
 "\n"
 "<ul>\n"
-"<li>Użycia sampla z utworu i wykorzystania go w swoim utworze.</li>\n"
-"<li>Użycia fragmentu filmu.</li>\n"
-"<li>Użycia fragmentu fotografii i stworzenia z niej kolażu.</li>\n"
+"<li>Do pobrania sampla z piosenki i wykorzystania we własnym "
+"utworze.</li>\n"
+"<li>Do wykorzystania ujęć z filmu.</li>\n"
+"<li>Do uycia fragmentu zdjęcia we własnym kolażu.</li>\n"
 "</ul>\n"
 "\n"
-"<p>Można to traktować jak sposób wynagradzania innych za przekształcenie "
-"utworów w coś zupełnie nowego.</p>\n"
+"<p>Należy je traktować jako formę nagrody dla osób gotowych przekształcić"
+" utwór w coś, czym wcześniej nie był.</p>\n"
 "\n"
-"<p>Oczywiście z zachowaniem odpowiednich zasad. Są trzy typy Licencji "
-"pozwalających na Samplowanie. Należy wybrać taką, króra najlepiej oddaje "
-"nasz styl :</p>"
+"<p>Oczywiście pod pewnymi warunkami. Istnieją dwa rodzaje licencji "
+"Sampling. Wybierz tą, która jest bardziej odpowiednia:</p>"
 
 msgid "license.pd_dedication_email"
 msgstr ""
@@ -288,17 +278,15 @@ msgstr "bułgarski"
 
 #: c/engine/chooser_pages/gpl.pt:37 c/engine/chooser_pages/gpl.pt:79
 #: c/engine/chooser_pages/lgpl.pt:38 c/engine/chooser_pages/lgpl.pt:82
-#, fuzzy
 msgid "license.fsf_software_licensed"
 msgstr ""
 "Ten program objęty jest licencją <a href=\"${license_url}\">CC-GNU "
-"${license_code}</a>."
+"${license_code}</a>, wersja ${license_version} lub późniejsza."
 
 #: c/engine/pd/templates/publicdomain-2.pt:34
 #: c/engine/macros_templates/metadata.pt:46
-#, fuzzy
 msgid "util.title_of_work"
-msgstr "tytuł utworu"
+msgstr "Tytuł utworu"
 
 #: c/engine/licenses/fsf_templates/deed.pt:61
 msgid "deed.gpl_sharealike"
@@ -944,18 +932,19 @@ msgstr ""
 "Commons Developing Nations</a>."
 
 #: c/engine/chooser_pages/index.pt:32
-#, fuzzy
 msgid "license.what"
 msgstr ""
 "Używając licencji Creative Commons <strong>zachowujesz prawa "
 "autorskie</strong>, ale też pozwalasz innym na <a "
 "href=\"/learn/licenses/fullrights\">kopiowanie i rozpowszechnianie "
-"utworu</a> pod warunkiem, <a href=\"/characteristic/by?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/by?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">że zamieszczą informację o autorze</a> -- i tylko na warunkach,"
-" które zostaną tu określone."
+"utworu</a> pod warunkiem, że <a href=\"#\" class=\"helpLink\" "
+"id=\"give_you_credit\">zamieszczą informację o autorze</a> &mdash; i "
+"tylko na warunkach, które zostaną tu określone. Przygotowaliśmy <a "
+"href=\"/about/think\">listę ważnych spraw do przemyślenia</a>, dla osób "
+"nieobeznanych z licencjami Creative Commons. Jeśli chcesz udostępnić "
+"utwór bez jakichkolwiek warunków wykorzystania lub oznaczyć utwór "
+"znajdujący się w domenie publicznej, wybierz jedno z naszych <a "
+"href=\"/publicdomain/\">narzędzi dla domeny publicznej</a>."
 
 msgid "char.by_brief.jp"
 msgstr "Należy zamieścić informację o autorze i wykonawcy utworu."
@@ -1260,7 +1249,10 @@ msgstr "More permissions URL"
 #: c/engine/licenses/standard_templates/deed.pt:64
 #, fuzzy
 msgid "deed.moralrights"
-msgstr "Nothing in this license impairs or restricts the author's moral rights."
+msgstr ""
+"Autorskie prawa <a "
+"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
+" id=\"moral_rights\" class=\"helpLink\">osobiste</a> autora;"
 
 msgid "country.sk"
 msgstr "Słowacja"
@@ -1508,14 +1500,13 @@ msgid "char.sa_title"
 msgstr "Na tych samych warunkach"
 
 #: c/engine/chooser_pages/index.pt:193
-#, fuzzy
 msgid "license.explain"
 msgstr ""
 "Dzięki Creative Commons możesz publikować swoje prace w internecie tak, "
 "żeby inni wiedzieli, co wolno, a czego nie wolno z nimi robić. Oferujemy "
-"narzędzia oraz samouczki, które  pomogą Ci dodać informacje licencyjne do"
-" treści umieszczonych na Twojej stronie lub w jednym z darmowych "
-"serwisów, które współpracują z Creative Commons."
+"narzędzia oraz samouczki, które pomogą Ci dodać informacje licencyjne do "
+"treści umieszczonych na Twojej stronie lub w jednym z darmowych serwisów,"
+" które współpracują z Creative Commons. "
 
 #: c/engine/pd/templates/publicdomain-4.pt:27
 #, fuzzy
@@ -1535,11 +1526,10 @@ msgid "licenses.pretty_nc-sa"
 msgstr "Użycie niekomercyjne-Na tych samych warunkach"
 
 #: c/engine/chooser_pages/results.pt:78
-#, fuzzy
 msgid "license.after_support_cc"
 msgstr ""
-"After publishing your license, please consider <a "
-"href=\"http://creativecommons.org/support/\">supporting Creative "
+"Po opublikowaniu licencji rozważ <a "
+"href=\\\"http://creativecommons.org/support/\\\">wsparcie Creative "
 "Commons</a>."
 
 #: c/engine/templates/by.pt:25
@@ -1569,10 +1559,10 @@ msgstr ""
 "źródłowego do programów, które wykorzystują bibliotekę."
 
 #: c/engine/chooser_pages/results.pt:76
-#, fuzzy
 msgid "license.read_tutorial"
 msgstr ""
-"Potrzebujesz pomocy? <a href=\"/education/publish-website\">Przeczytaj "
+"Potrzebujesz pomocy? <a "
+"href=\"http://wiki.creativecommons.org/Website/Publish\">Przeczytaj "
 "samouczek</a> (w języku angielskim)."
 
 msgid "country.fi"
@@ -1658,11 +1648,8 @@ msgid "licenses.pretty_sa"
 msgstr "Na tych samych warunkach"
 
 #: c/engine/chooser_pages/results.pt:111
-#, fuzzy
 msgid "license.publish_blog"
-msgstr ""
-"Dodawanie licencji Creative Commons do bloga (Blogger, Movable Type, "
-"Typepad)"
+msgstr "Dodaj licencję Creative Commons do swojego bloga"
 
 msgid "lang.pt"
 msgstr "portugalski"
@@ -1674,11 +1661,11 @@ msgstr "portugalski"
 #: c/engine/licenses/devnations_templates/deed.pt:51
 #: c/engine/licenses/mitbsd_templates/deed.pt:60
 #: c/engine/licenses/standard_templates/deed.pt:60
-#, fuzzy
 msgid "deed.permission"
 msgstr ""
-"Każdy z tych warunków może zostać uchylony, jeśli uzyska się zezwolenie "
-"właściciela praw autorskich."
+"Każdy z tych warunków może zostać <a href=\"#\" id=\"waived\" "
+"class=\"helpLink\">uchylony</a>, jeśli uzyska się zezwolenie właściciela "
+"praw autorskich."
 
 msgid "country.my"
 msgstr "Malezja"
@@ -1940,7 +1927,7 @@ msgstr "Spanish (Ecuador)"
 
 #: e/macros_templates/metadata.pt:107
 msgid "Embedded Metadata"
-msgstr ""
+msgstr "Zagnieżdżone metadane"
 
 #. Default: ""
 #. "<p>\n"
@@ -1973,7 +1960,7 @@ msgstr ""
 
 #: e/macros_templates/metadata.pt:140
 msgid "The title of the work you are licensing."
-msgstr ""
+msgstr "Tytuł utworu, który jest licencjonowany"
 
 #: e/macros_templates/metadata.pt:152
 msgid ""
