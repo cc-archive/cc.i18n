@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-11-24 10:24+0000\n"
-"PO-Revision-Date: 2009-11-24 10:24+0000\n"
+"POT-Creation-Date: 2009-12-07 20:08+0000\n"
+"PO-Revision-Date: 2009-12-07 20:08+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: pl <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
@@ -16,7 +16,7 @@ msgstr ""
 "Generated-By: Babel 1.0b-cc-2009-03-17\n"
 
 msgid "country.nz"
-msgstr "New Zealand"
+msgstr "Nowa Zelandia"
 
 msgid "country.gr"
 msgstr "Grecja"
@@ -26,6 +26,7 @@ msgid "Allow Derivative Works"
 msgstr "Zezwól na tworzenie Utworów zależnych"
 
 #: c/engine/chooser_pages/index.pt:107
+#, fuzzy
 msgid "license.help.derivatives"
 msgstr ""
 "Licencjodawca zezwala innym kopiować, rozpowszechniać, odtwarzać i "
@@ -36,12 +37,14 @@ msgid "Commercial Use"
 msgstr "Użycie komercyjne"
 
 #: c/engine/chooser_pages/index.pt:59
+#, fuzzy
 msgid "license.help.commercial"
 msgstr ""
 "Licencjodawca zezwala innym kopiować, rozpowszechniać, odtwarzać i "
 "wykonywać utwór, także do celów komercyjnych."
 
 #: c/engine/chooser_pages/index.pt:70
+#, fuzzy
 msgid "license.help.noncommercial"
 msgstr ""
 "Licencjodawca zezwala innym kopiować, rozpowszechniać, odtwarzać i "
@@ -49,13 +52,13 @@ msgstr ""
 
 #: c/engine/chooser_pages/index.pt:88
 msgid "Yes, as long as others share alike"
-msgstr ""
+msgstr "Tak, o ile inni będą udostępniać na tych samych warunkach"
 
 #: c/engine/licenses/sampling_templates/deed.pt:31
 msgid "deed.free_copy_distribute_noncommercial"
 msgstr ""
 "Wykonywać, odtwarzać i rozpowszechniać kopie całości tego utworu w celach"
-" niekomercyjnych (np. w sieciach P2P lub transmitować przez internet). "
+" niekomercyjnych (np. w sieciach P2P lub transmitować przez internet)."
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
 msgid "license.pd_awaiting_confirmation"
@@ -140,10 +143,9 @@ msgstr ""
 msgid "country.be"
 msgstr "Belgia"
 
-#, fuzzy
 msgid "license.work_type_dedicated"
 msgstr ""
-"Ten ${work_type} został umieszczony w <a rel=\"license\" "
+"${work_type} jest umieszczony w <a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Domenie "
 "publicznej</a>."
 
@@ -186,8 +188,8 @@ msgstr "Bez utworów zależnych"
 
 msgid "jswidget.Updated_license_version_generic"
 msgstr ""
-"Wersja stosowanej przez Ciebie licencji została zaktualizowana do "
-"najbardziej aktualnej. "
+"We have updated the version of your license to the most recent one "
+"available."
 
 #: c/engine/chooser_pages/index.pt:67
 msgid "licenses.pretty_nc"
@@ -312,7 +314,7 @@ msgid "licenses.pretty_by-nd"
 msgstr "Uznanie autorstwa-Bez utworów zależnych"
 
 msgid "lang.es_PE"
-msgstr "Spanish (PE)"
+msgstr "hiszpański (PE)"
 
 #: c/engine/licenses/sampling_templates/deed.pt:29
 msgid "deed.free_sample"
@@ -332,7 +334,7 @@ msgid "country.in"
 msgstr "Indie"
 
 msgid "lang.mk"
-msgstr "Macedonian"
+msgstr "macedoński"
 
 msgid "license.how_it_works"
 msgstr ""
@@ -391,12 +393,16 @@ msgstr "Strona jest dostępna w następujących językach:"
 msgid "lang.en_GB"
 msgstr "angielski (W. Brytania)"
 
+# to jest fragment z przystępnego podsumowania
 #: c/engine/licenses/standard_templates/deed.pt:69
 #, fuzzy
 msgid "deed.moralrights-remix.us"
 msgstr ""
-"Apart from the remix rights granted under this license, nothing in this "
-"license impairs or restricts the author's moral rights."
+"<a "
+"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
+" id=\"moral_rights\" class=\"helpLink\">Autorskie prawa osobiste</a> "
+"autora, niezależnie od zgody na remiksowanie, udzielonej w ramach tej "
+"licencji;"
 
 msgid "lang.pl"
 msgstr "polski"
@@ -406,7 +412,7 @@ msgid "util.confirm"
 msgstr "potwierdź"
 
 msgid "util.Do_you_want_to"
-msgstr "Do you want to:"
+msgstr "Czy chcesz:"
 
 msgid "util.year_of_copyright"
 msgstr ""
@@ -453,7 +459,7 @@ msgstr ""
 
 #: c/engine/macros_templates/metadata.pt:58
 msgid "util.attribute_to_url"
-msgstr "Attribute work to URL"
+msgstr "Przypisz utwór do URL"
 
 #: c/engine/chooser_pages/index.pt:195
 msgid "license.view_explanation"
@@ -493,7 +499,7 @@ msgid "country.cl"
 msgstr "Chile"
 
 msgid "lang.nso"
-msgstr "Northern Sotho"
+msgstr "północny sotho"
 
 #: c/engine/chooser_pages/index.pt:222
 msgid "util.CC_GNU_LGPL"
@@ -614,7 +620,10 @@ msgstr "Audio"
 msgid "deed.fair_use"
 msgstr ""
 "Powyższe postanowienia w żaden sposób nie naruszają uprawnień "
-"wynikających z dozwolonego użytku ani żadnych innych praw."
+"wynikających z <a "
+"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
+" id=\"fair_use\" class=\"helpLink\">dozwolonego użytku</ani> ani żadnych "
+"innych praw."
 
 msgid "country.nl"
 msgstr "Holandia"
@@ -637,7 +646,7 @@ msgid "util.Creative_Commons"
 msgstr "Creative Commons"
 
 msgid "country.uk"
-msgstr "Anglia i Walia"
+msgstr "UK: Anglia i Walia"
 
 msgid "country.ng"
 msgstr "Nigeria"
@@ -777,7 +786,7 @@ msgstr "publikuj"
 msgid "deed.human_summary"
 msgstr ""
 "Ten tekst to przystępne podsumowanie <a href=\"legalcode\" "
-"class=\"fulltext\">Tekstu prawnego (pełna licencja)</a>."
+"class=\"fulltext\">Tekstu prawnego (pełnej licencji)</a>."
 
 #: c/engine/pd/templates/publicdomain-2.pt:46
 msgid "util.proceed"
@@ -794,7 +803,7 @@ msgstr "angielski (USA)"
 
 #: c/engine/macros_templates/metadata.pt:52
 msgid "util.attribute_to_name"
-msgstr "Attribute work to name"
+msgstr "Przypisz utwór do imienia lub nazwy"
 
 msgid "api.sampling_flavor_help"
 msgstr ""
@@ -825,7 +834,7 @@ msgstr ""
 msgid "license.jurisdiction_help"
 msgstr ""
 "Aby użyć licencji zaadaptowanej do określonego systemu prawnego, wybierz "
-"odpowiedni kraj."
+"z listy odpowiedni system prawny"
 
 #: c/engine/licenses/fsf_templates/deed.pt:34
 msgid "deed.gpl_free_run"
@@ -932,6 +941,7 @@ msgstr ""
 "Commons Developing Nations</a>."
 
 #: c/engine/chooser_pages/index.pt:32
+#, fuzzy
 msgid "license.what"
 msgstr ""
 "Używając licencji Creative Commons <strong>zachowujesz prawa "
@@ -1154,12 +1164,12 @@ msgid "util.Generic"
 msgstr "Ogólny"
 
 msgid "lang.es_AR"
-msgstr "Spanish (AR)"
+msgstr "hiszpański (AR)"
 
 #: c/engine/macros_templates/metadata.pt:66
 #: c/engine/macros_templates/metadata.pt:82
 msgid "util.source_work"
-msgstr "Source work URL"
+msgstr "URL oryginalnego utworu"
 
 #: c/engine/chooser_pages/sampling.pt:115
 msgid "license.sampling_note"
@@ -1178,11 +1188,11 @@ msgstr "Austria"
 #, fuzzy
 msgid "license.non_web_pd"
 msgstr ""
-"This work is hereby released into the Public Domain. To view a copy of "
-"the public domain dedication, visit "
-"http://creativecommons.org/licenses/publicdomain/ or send a letter to "
-"Creative Commons, 171 Second Street, Suite 300, San Francisco, "
-"California, 94105, USA."
+"Utwór ten stanowi część Domeny Publicznej. Kopia certyfikatu domeny "
+"publicznej jest dostępna pod adresem "
+"http://creativecommons.org/licenses/publicdomain/ lub pocztą po wysłaniu "
+"listu na adres Creative Commons, 171 Second Street, Suite 300, San "
+"Francisco, California, 94105, USA."
 
 msgid "country.ar"
 msgstr "Argentyna"
@@ -1244,7 +1254,7 @@ msgstr "Nie wolno używać tego utworu do celów komercyjnych."
 
 #: c/engine/macros_templates/metadata.pt:72
 msgid "util.more_permissions_url"
-msgstr "More permissions URL"
+msgstr "URL informacji o dodatkowych licencjach"
 
 #: c/engine/licenses/standard_templates/deed.pt:64
 #, fuzzy
@@ -1299,7 +1309,7 @@ msgid "lang.hr"
 msgstr "chorwacki"
 
 msgid "country.scotland"
-msgstr "Szkocja"
+msgstr "UK: Szkocja"
 
 msgid "country.ua"
 msgstr "Ukraina"
@@ -1362,14 +1372,13 @@ msgid "country.ch"
 msgstr "Szwajcaria"
 
 #: c/engine/chooser_pages/results.pt:105
-#, fuzzy
 msgid "license.publish_flickr"
 msgstr "Umieszczanie licencjonowanych zdjęć w serwisie Flickr"
 
 msgid "jswidget.Updated_license_jurisdiction"
 msgstr ""
-"We have updated the version of your license to the most recent one "
-"available in your jurisdiction."
+"Licencja została zaktualizowana do najbardziej aktualnej wersji, "
+"dostępnej w danym systemie prawnym."
 
 msgid "country.cz"
 msgstr "Czechy"
@@ -1390,7 +1399,7 @@ msgid "country.za"
 msgstr "Południowa Afryka"
 
 msgid "lang.sr"
-msgstr "Serbian"
+msgstr "serbski"
 
 msgid "lang.st"
 msgstr "sotho"
@@ -1472,7 +1481,7 @@ msgstr ""
 "2.0</a>."
 
 msgid "lang.es_CL"
-msgstr "Spanish (CL)"
+msgstr "hiszpański (CL)"
 
 #: c/engine/chooser_pages/sampling.pt:36
 #: c/engine/macros_templates/support.pt:127
@@ -1500,6 +1509,7 @@ msgid "char.sa_title"
 msgstr "Na tych samych warunkach"
 
 #: c/engine/chooser_pages/index.pt:193
+#, fuzzy
 msgid "license.explain"
 msgstr ""
 "Dzięki Creative Commons możesz publikować swoje prace w internecie tak, "
@@ -1509,11 +1519,10 @@ msgstr ""
 " które współpracują z Creative Commons. "
 
 #: c/engine/pd/templates/publicdomain-4.pt:27
-#, fuzzy
 msgid "license.mark_pd"
 msgstr ""
-"Now that you've chosen the public domain dedication, you must mark your "
-"work in the appropriate way."
+"Po wybraniu Certyfikatu Domeny Publicznej należy odpowiednio oznaczyć "
+"utwór."
 
 msgid "util.Try_again"
 msgstr "Spróbuj ponownie!"
@@ -1526,10 +1535,11 @@ msgid "licenses.pretty_nc-sa"
 msgstr "Użycie niekomercyjne-Na tych samych warunkach"
 
 #: c/engine/chooser_pages/results.pt:78
+#, fuzzy
 msgid "license.after_support_cc"
 msgstr ""
 "Po opublikowaniu licencji rozważ <a "
-"href=\\\"http://creativecommons.org/support/\\\">wsparcie Creative "
+"href=\"http://creativecommons.org/support/\">wsparcie Creative "
 "Commons</a>."
 
 #: c/engine/templates/by.pt:25
@@ -1598,18 +1608,18 @@ msgid "api.sampling_flavor"
 msgstr "Jakiego typu licencję na Sampling wybierasz?"
 
 msgid "jswidget.no_license_chosen"
-msgstr "No license chosen"
+msgstr "Nie wybrano licencji"
 
 msgid "lang.fi"
 msgstr "fiński"
 
 msgid "jswidget.short"
 msgstr ""
-"With a Creative Commons license, you keep your copyright but allow people"
-" to copy and distribute your work provided they give you credit — and "
-"only on the conditions you specify here.', 'If you desire a license "
-"governed by the Copyright Law of a specific jurisdiction, please select "
-"the appropriate jurisdiction."
+"Licencja Creative Commons pozwala zachować prawa autorskie, jednocześnie "
+"zezwalając innym na kopiowanie i dalsze rozpowszechnianie utworu - pod "
+"warunkiem, że będą uznawać Twoje autorstwo utworu i przestrzegać warunków"
+" korzystania, które określisz.', 'Aby użyć licencji zaadaptowanej do "
+"określonego systemu prawnego, wybierz z listy odpowiedni system prawny."
 
 #: c/engine/macros_templates/metadata.pt:15
 msgid "license.include_more"
@@ -1619,7 +1629,8 @@ msgstr "Kliknij, aby podać więcej informacji o utworze."
 msgid "license.link_emailed"
 msgstr ""
 "<p>\n"
-"Informacja o wyborze została wysłana na adres <strong>${email}</strong>.\n"
+"Informacja o dokonanym wyborze została wysłana na adres "
+"<strong>${email}</strong>.\n"
 "</p>\n"
 "\n"
 "<p>Należy umieścić link lub kod HTML na swojej stronie, tuż obok utworu "
@@ -1638,8 +1649,9 @@ msgstr "Lub możesz <a href=\"./\">wrócić do pytań</a>."
 
 msgid "char.sa_bysa30_brief"
 msgstr ""
-"If you alter, transform, or build upon this work, you may distribute the "
-"resulting work only under the same, similar or a compatible license."
+"Zmieniając utwór, przekształcając go lub tworząc na jego podstawie, wolno"
+" rozpowszechniać powstały utwór zależny jedynie na tej samej, podobnej "
+"lub kompatybilnej licencji. "
 
 msgid "country.mk"
 msgstr "Macedonia"
@@ -1697,9 +1709,9 @@ msgstr "utwór"
 #: c/engine/licenses/fsf_templates/deed.pt:29
 msgid "deed.gpl_freedoms"
 msgstr ""
-"${license_name_full} to tzw. licencja <a "
-"href=\"http://www.gnu.org/philosophy/free-sw.html\">Free Software</a>. "
-"Jak każda licencja Free Software zapewnia następujące swobody:"
+"${license_name_full} to licencja <a href=\"http://www.gnu.org/philosophy"
+"/free-sw.html\">Wolnego Oprogramowania</a>. Jak każda licencja Wolnego "
+"Oprogramowania zapewnia następujące swobody:"
 
 #: c/engine/chooser_pages/index.pt:117
 msgid "char.nd_description"
@@ -1752,13 +1764,13 @@ msgstr ""
 "poniższą <a href=\"/technology/xmp-help\">instrukcją</a>."
 
 msgid "licenses.pretty_nc-sampling+"
-msgstr "Użycie niekomercyne-Sampling Plus"
+msgstr "Użycie niekomercyjne-Sampling Plus"
 
 #: c/engine/licenses/sampling_templates/deed.pt:47
 msgid "char.no_brief"
 msgstr ""
-"Nie wolno wykonywać, odtwarzać ani rozpowszechniać tego utworu w całości "
-"w jakimkolwiek celu."
+"Nie wolno wykonywać, odtwarzać ani rozpowszechniać tego utworu w całości,"
+" w jakimkolwiek celu."
 
 #: c/engine/chooser_pages/index.pt:232
 msgid "util.Wiki"
@@ -1771,7 +1783,7 @@ msgid "util.Unported"
 msgstr "Unported"
 
 msgid "license.work_based_on"
-msgstr "Based on a work at ${source_link}."
+msgstr "W oparciu o utwór dostępny pod adresem ${source_link}"
 
 #: c/engine/macros_templates/deed.pt:129
 msgid "lang.de"
@@ -1826,7 +1838,7 @@ msgstr ""
 "Tekst prawny"
 
 msgid "jswidget.Require_Share-Alike"
-msgstr "Require Share-Alike"
+msgstr "Wymagany warunek \"Na tych samych warunkach\""
 
 #: c/engine/licenses/devnations_templates/deed.pt:34
 #: c/engine/licenses/mitbsd_templates/deed.pt:26
@@ -1911,19 +1923,19 @@ msgstr ""
 "poprawny!"
 
 msgid "lang.sr_LATN"
-msgstr "Serbian (Latin)"
+msgstr "serbski (łacinica)"
 
 msgid "country.pr"
-msgstr "Puerto Rico"
+msgstr "Portoryko"
 
 msgid "lang.el"
-msgstr "Greek"
+msgstr "grecki"
 
 msgid "lang.ro"
-msgstr "Romanian"
+msgstr "rumuński"
 
 msgid "lang.es_EC"
-msgstr "Spanish (Ecuador)"
+msgstr "hiszpański (Ekwador)"
 
 #: e/macros_templates/metadata.pt:107
 msgid "Embedded Metadata"
@@ -1946,16 +1958,15 @@ msgstr "Zagnieżdżone metadane"
 msgid "license.metadata_help"
 msgstr ""
 "<p>\n"
-"\t  The information is embedded in a software readable format.\n"
-"\t  This allows search engines to index additional information\n"
-"\t  about your work and allows people coming to the license deed\n"
-"\t  from your page to see information on the deed about how to\n"
-"\t  attribute your work.  \n"
+"\t  Poniższe informacje zostaną zapisane w postaci kodu komputerowego.\n"
+"\t  Pozwoli to wyszukiwarkom zapisać dodatkowe informacje\n"
+"\t  na temat utworu, dzięki czemu będą widoczne w podsumowaniu licencji,\n"
+"\t  umożliwiając użytkownikom poprawnie uznawać autorstwo utworu. \n"
 "\t</p>\n"
 "\t<p>\n"
-"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
-"\t    information</a> on Creative Commons metadata is available if\n"
-"\t  you want to find out more.\n"
+"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">Więcej\n"
+"\t  informacji</a> na temat metadanych Creative Commons\n"
+"\t  (w języku angielskim).\n"
 "\t</p>"
 
 #: e/macros_templates/metadata.pt:140
@@ -1967,22 +1978,29 @@ msgid ""
 "The name users of the work should give attribution to. For example, the "
 "name of the work's author."
 msgstr ""
+"Imię i nazwisko lub nazwa, którą uzytkownicy utworu powinni stosować "
+"uznając jego autorstwo. Przykładowo, imię autora utworu."
 
 #: e/macros_templates/metadata.pt:165
 msgid ""
 "The URL users of the work should link to. For example, the work's page on"
 " the author's site."
 msgstr ""
+"URL do którego odnośniki powinni zamieszczać użytkownicy utworu. "
+"Przykładowo, strona autora lub strona, na której utwór został "
+"opublikowany."
 
 #: e/macros_templates/metadata.pt:178
 msgid ""
 "A URL where a user can obtain information about clearing rights that are "
 "not pre-cleared by your CC license."
 msgstr ""
+"URL pod którym użytkownik może uzyskać informacje na temat pozyskania "
+"praw, które nie są z góry przekazane przez wybraną licencję CC."
 
 #: e/licenses/standard_templates/deed.pt:126
 msgid "What does \"Attribute this work\" mean?"
-msgstr ""
+msgstr "Co oznacza wymóg \"uznania autorstwa utworu\"?"
 
 #: e/licenses/standard_templates/deed.pt:129
 msgid ""
@@ -1991,62 +2009,68 @@ msgid ""
 "here to cite the work. Doing so will also include metadata on your page "
 "so that others can find the original work as well."
 msgstr ""
+"Strona, z której do nas trafiłeś zawierała zagnieżdżone metadane na temat"
+" warunków licencyjnych, łącznie z informacjami dotyczącymi określonych "
+"przez twórcę utworu sposobów uznania autorstwa utworu. Cytując utwór "
+"możesz wykorzystać poniższy kod HTML. Zawarte w nim metadane pozwolą "
+"innym użytkownikom również dotrzeć do oryginalnego utworu."
 
 msgid "country.ec"
-msgstr "Ecuador"
+msgstr "Ekwador"
 
 #: e/macros_templates/metadata.pt:13
 msgid "license.additional_info"
-msgstr "Additional Information"
+msgstr "informacje dodatkowe"
 
 #: e/macros_templates/metadata.pt:16
 msgid "license.additional_fields_optional"
 msgstr ""
-"The additional fields are <strong>optional</strong>, but will be embedded"
-" in the HTML generated for your license. This allows users of your work "
-"to determine how to attribute it or where to go for more information "
-"about the work."
+"Poniższe pola <strong>nie są obowiązkowe</strong>, jednak zamieszczone w "
+"nich informacje zostaną zapisane w generowanym przez nasz system kodzie "
+"HTML opisującym licencję. Pozwoli to użytkownikom utworu w pełni uznać "
+"autorstwo lub uzyskać dodatkowe informacje o utworze. "
 
 msgid "country.no"
-msgstr "Norway"
+msgstr "Norwegia"
 
 msgid "lang.no"
-msgstr "Norwegian"
+msgstr "norweski"
 
 msgid "license.mark_software"
-msgstr "Mark Software"
+msgstr "Oznacz oprogramowanie"
 
 msgid "license.fsf_instructions"
 msgstr ""
-"Read the <a href=\"http://www.gnu.org/licenses/gpl-howto.html\">FSF's "
-"instructions for including the license with your software</a>."
+"Przeczytaj <a href=\"http://www.gnu.org/licenses/gpl-"
+"howto.html\">instrukcje Free Software Foundation na temat stosowania tej "
+"licencji dla oprogramowania</a>."
 
 msgid "license.display_software_icon"
 msgstr ""
-"You can display the icon on any site you offer your software for download"
-" using the following markup:"
+"Chcąc wyświetlić powyższą ikonę na stronie, na której znajduje się "
+"licencjonowany program, należy wykorzystać następujący kod:"
 
 #: c/engine/macros_templates/deed.pt:206
 msgid "deed.use_this_license"
-msgstr "Use this license for your own work."
+msgstr "Wykorzystaj tę licencję do licencjonowania własnych utworów."
 
 msgid "country.hk"
 msgstr "Hong Kong"
 
 msgid "lang.en_HK"
-msgstr "English (Hong Kong)"
+msgstr "angielski (Hong Kong)"
 
 msgid "lang.zh_HK"
-msgstr "Chinese (Hong Kong)"
+msgstr "chiński (Hong Kong)"
 
 msgid "country.gt"
-msgstr "Guatemala"
+msgstr "Gwatemala"
 
 msgid "lang.es_GT"
-msgstr "Spanish (Guatemala)"
+msgstr "hiszpański (Gwatemala)"
 
 msgid "lang.en_SG"
-msgstr "English (Singapore)"
+msgstr "angielski (Singapur)"
 
 #. "Rights other\n"
 #. "\t      persons may have either in the work itself or in how the\n"
@@ -2059,16 +2083,20 @@ msgstr "English (Singapore)"
 msgid "deed.publicity_rights"
 msgstr ""
 "Rights other persons may have either in the work itself or in how the "
-"work is used, such as publicity or privacy rights."
+"work is used, such as <a "
+"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
+" class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy "
+"rights."
 
 #: src/cc/engine/chooser_pages/results.pt:144
 msgid "license.register_with_cc_network"
-msgstr "Register your work with the CC Network"
+msgstr "Zarejestruj utwór w CC Network"
 
 #: src/cc/engine/chooser_pages/results.pt:151
 msgid "license.track_with_fairshare"
-msgstr "Track use of your work with FairShare"
+msgstr "Śledź wykorzystanie utworu z pomocą serwisu FairShare"
 
+# waiver - mechanizm?
 #. Default: ""
 #. "<p>The Commons Deed is not a legal instrument. It is simply a\n"
 #. "\t\thandy reference for understanding the CC0 Legal Code,\n"
@@ -2085,18 +2113,13 @@ msgstr "Track use of your work with FairShare"
 #: c/engine/licenses/zero_templates/deed.pt:114
 msgid "deed.zero.disclaimer"
 msgstr ""
-"<p>The Commons Deed is not a legal instrument. It is simply a\n"
-"\t\thandy reference for understanding the CC0 Legal Code,\n"
-"\t\ta human-readable expression of some of its key\n"
-"\t\tterms. Think of it as the user-friendly interface to\n"
-"\t\tthe CC0 Legal Code beneath. This Deed itself has no\n"
-"\t\tlegal value, and its contents do not appear in\n"
-"\t\tCC0.</p>\n"
-"\n"
-"\t\t<p>Creative Commons is not a law firm and does not\n"
-"\t\t  provide legal services. Distributing, displaying, \n"
-"\t\t  or linking to this Commons Deed does not create an\n"
-"\t\t  attorney-client relationship.</p>"
+"<p>Przystępne podsumowanie nie jest dokumentem prawnym.\n"
+"\t\tSłuży wyłącznie jako prosta informacja tłumacząca pełny tekst\n"
+"\t\tmechanizmu CC0, jest zapisem kluczowych warunków wyrażonym w\n"
+"\t\tprzystępny sposób. Podsumowanie należy traktować jako\n"
+"\t\t wygodne streszczenie pełnego tekstu CC0. Samo podsumowanie\n"
+"\t\t nie ma jednak wartości prawnej, a jego treść nie jest zawarta w\n"
+"\t\tdokumencie CC0.<p>\n"
 
 #. Default: ""
 #. "This is a human-readable summary of\n"
@@ -2105,13 +2128,13 @@ msgstr ""
 #: c/engine/licenses/zero_templates/deed.pt:131
 msgid "deed.zero.human_summary"
 msgstr ""
-"This is a human-readable summary of the <a href=\"./legalcode\">Legal "
-"Code (read the full text)</a>."
+"Ten tekst to przystępne podsumowanie <a href=\"legalcode\" "
+"class=\"fulltext\">Tekstu prawnego (pełnej jego treści)</a>."
 
 #. Default: "No Copyright"
 #: c/engine/licenses/zero_templates/deed.pt:30
 msgid "deed.zero.no_copyright"
-msgstr "No Copyright"
+msgstr "Brak praw autorskich"
 
 #. Default: ""
 #. "The person who associated a work with this document\n"
@@ -2130,22 +2153,20 @@ msgstr ""
 #. Default: "Attribute this work:"
 #: c/engine/licenses/zero_templates/deed.pt:42
 msgid "deed.attribute_this_work"
-msgstr "Attribute this work:"
+msgstr "Uznaj autorstwo utworu:"
 
 #. Default: ""
 #. "In no way are any of the following rights affected by\n"
 #. "\t  the above:"
 #: c/engine/licenses/zero_templates/deed.pt:65
 msgid "deed.following_unaffected"
-msgstr "In no way are any of the following rights affected by the above:"
+msgstr "Powyższe nie wpływa w żaden sposób na następujące prawa:"
 
 #. Default: "Patent or trademark rights held by the person who associated this
 #. document with a work."
 #: c/engine/licenses/zero_templates/deed.pt:69
 msgid "deed.zero.patent"
-msgstr ""
-"Patent or trademark rights held by the person who associated this "
-"document with a work."
+msgstr "Patenty lub znaki towarowe zastrzeżone przez osobę związaną z tym utworem."
 
 #. Default: "What are \"Publicity Rights\"?"
 #: c/engine/licenses/zero_templates/deed.pt:83
@@ -2173,22 +2194,24 @@ msgstr ""
 #: c/engine/licenses/zero_templates/deed.pt:95
 #: c/engine/zero/templates/index.pt:89
 msgid "util.learn_more"
-msgstr "Learn more"
+msgstr "Więcej informacji"
 
 #. Default: "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:30
+#, fuzzy
 msgid "license.zero.confirm_title"
-msgstr "Confirm Waiver"
+msgstr "Potwierdź zrzeczenie się praw autorskich."
 
 #. Default: ""
 #. "Are you certain you wish to waive all rights to your\n"
 #. "\t    work?  Once these rights are waived, you cannot reclaim\n"
 #. "\t    them."
 #: c/engine/zero/templates/confirm.pt:48
+#, fuzzy
 msgid "license.zero.confirm_waiver_1"
 msgstr ""
-"Are you certain you wish to waive all rights to your work? Once these "
-"rights are waived, you cannot reclaim them."
+"Czy jesteś pewien, że chcesz zrzec się wszystkich praw do utworu? Praw "
+"tych, po zrzeczeniu się, nie można odzyskać."
 
 #. Default: ""
 #. "In particular, if you are an artist or author who\n"
@@ -2198,9 +2221,9 @@ msgstr ""
 #: c/engine/zero/templates/confirm.pt:54
 msgid "license.zero.confirm_waiver_2"
 msgstr ""
-"In particular, if you are an artist or author who depends upon copyright "
-"for your income, Creative Commons <strong>does not recommend</strong> "
-"that you use this tool."
+"W szczególności, w przypadku artystów lub autorów, którzy zarabiają "
+"rozporządzając prawami autorskimi do utworów, Creative Commons "
+"<strong>nie rekomenduje</strong> stosowania tego narzędzia."
 
 #. Default: ""
 #. "If you don't own the rights to this work, then do not\n"
@@ -2210,20 +2233,20 @@ msgstr ""
 #: c/engine/zero/templates/confirm.pt:61
 msgid "license.zero.confirm_waiver_3"
 msgstr ""
-"If you don't own the rights to this work, then do not use CC0.  If you "
-"believe that nobody owns rights to the work, then the <a "
-"href=\"/license/publicdomain-2\">Public Domain Certification</a> may be "
-"what you're looking for."
+"Jeśli nie posiadasz praw do utworu, nie stosuj CC0. Jeśli jesteś "
+"przekonany, że nikt nie posiada praw do utworu, możesz rozważyć "
+"wykorzystanie <a href=\"/license/publicdomain-2\">Public Domain "
+"Certification</a>"
 
 #. Default: "No, I Do Not Waive"
 #: c/engine/zero/templates/confirm.pt:71
 msgid "license.zero.confirm_waiver_no"
-msgstr "No, I Do Not Waive"
+msgstr "Nie, nie zrzekam się"
 
 #. Default: "Yes, I Waive"
 #: c/engine/zero/templates/confirm.pt:82
 msgid "license.zero.confirm_waiver_yes"
-msgstr "Yes, I Waive"
+msgstr "Tak, zrzekam się"
 
 #. Default: ""
 #. "Please note that this is <strong>not a registration\n"
@@ -2234,19 +2257,20 @@ msgstr "Yes, I Waive"
 #. "\t  under CC0.  Your work will not be associated with CC0 or made\n"
 #. "\t  available under CC0 until you publish it marked as being so."
 #: c/engine/zero/templates/index.pt:76
+#, fuzzy
 msgid "license.zero.intro_3"
 msgstr ""
-"Please note that this is <strong>not a registration process</strong> and "
-"Creative Commons does not store or save any of the information you enter."
-"  This tool guides you through the process of generating HTML with "
-"embedded metadata for marking your work as being available under CC0.  "
-"Your work will not be associated with CC0 or made available under CC0 "
-"until you publish it marked as being so."
+"Należy pamiętać, że <strong>nie jest to proces rejestracyjny</strong>, a "
+"Creative Commons nie przechowuje wprowadzonych informacji. Narzędzie "
+"służy jedynie jako pomoc w generowaniu kodu HTML wraz z metadanymi, który"
+" pozwoli oznaczyć utwór jako dostępny na CC0. Utwór nie będzie w żaden "
+"sposób powiązany z CC0 lub dostępny na zasadzie CC) dopóki nie zostanie "
+"opublikowany wraz z odpowiednimi oznaczeniami. "
 
 #. Default: "begin"
 #: c/engine/zero/templates/index.pt:98
 msgid "util.begin"
-msgstr "begin"
+msgstr "zacznij"
 
 #. Default: ""
 #. "Copy the text below to your Web site to let your visitors\n"
@@ -2255,17 +2279,19 @@ msgstr "begin"
 #. "\tpublisher it's up to you to let people know how they may use your\n"
 #. "\twork."
 #: c/engine/zero/templates/results.pt:108
+#, fuzzy
 msgid "license.zero.copy_text"
 msgstr ""
-"Copy the text below to your Web site to let your visitors know that "
-"you've waived the rights to your work.  Creative Commons does not retain "
-"a record of your selection; as the publisher it's up to you to let people"
-" know how they may use your work."
+"Skopiuj poniższy tekst i umieść go na stronie WWW, tak by inni "
+"użytkownicy wiedzieli, że doszło do zrzeczenia się praw do tego utworu. "
+"Creative Commons nie przechowuje informacji na temat dokonanego wyboru. "
+"Jako wydawca utworu masz obowiązek poinformować innych, jak mogą "
+"wykorzystywać utwór. "
 
 #. Default: "Send Email"
 #: c/engine/zero/templates/results.pt:122
 msgid "license.zero.send_email"
-msgstr "Send Email"
+msgstr "Wyślij Email"
 
 #. Default: ""
 #. "An error occurred when we tried to send the email message;\n"
@@ -2276,15 +2302,15 @@ msgstr "Send Email"
 #: c/engine/zero/templates/results.pt:134
 msgid "license.zero.email_error"
 msgstr ""
-"An error occurred when we tried to send the email message; you can try "
-"clicking the Back button and double checking your email address.  If the "
-"address you used (${email_addr}) was correct you can <a "
-"href=\"/about/contact\">contact us</a>."
+"Nastąpił błąd podczas wysyłania poczty elektronicznej. Spróbuj powrócić "
+"do poprzedniej strony i sprawdzić podany adres emailowy. Jeśli podany "
+"adres (${email_addr}) jest prawidłowy, możesz <a "
+"href=\"/about/contact\">skontaktować się z nami</a>."
 
 #. Default: "The suggested HTML has been sent to ${email_addr}."
 #: c/engine/zero/templates/results.pt:143
 msgid "license.zero.email_sent"
-msgstr "The suggested HTML has been sent to ${email_addr}."
+msgstr "Kod HTML został wysłany na adres ${email_addr}"
 
 #. Default: ""
 #. "You have asked to be notified of updates to CC0.  A subscription\n"
@@ -2293,9 +2319,11 @@ msgstr "The suggested HTML has been sent to ${email_addr}."
 #: c/engine/zero/templates/results.pt:148
 msgid "license.zero.subscribed_to_updates"
 msgstr ""
-"You have asked to be notified of updates to CC0.  A subscription request "
-"has been sent on your behalf; you must click the link in the confirmation"
-" email to complete the sign-up process."
+"Wyraziłeś chęć otrzymywania informacji bieżących na temat dalszego "
+"rozwoju CC0 (w języku angielskim). Prośba o potwierdzenie subskrypcji "
+"została wysłana na podany adres mailowy. W celu potwierdzenia subskrypcji"
+" i dokończenia procesu, proszę kliknąć w link podany w przesłanej "
+"wiadomości."
 
 #. Default: ""
 #. "If you'd like to get the HTML with embedded metadata via\n"
@@ -2304,13 +2332,14 @@ msgstr ""
 #: c/engine/zero/templates/results.pt:161
 msgid "license.zero.send_email_updates"
 msgstr ""
-"If you'd like to get the HTML with embedded metadata via email and "
-"optionally receive updates about CC0, fill in your email address below."
+"Jeśli chcesz otrzymać pocztą elektroniczną kod HTML opisujący metadane "
+"utworu, oraz ewentualnie otrzymywać informacje bieżące na temat dalszego "
+"rozwoju CC0, proszę podać poniżej swój adres emailowy."
 
 #. Default: "Send me updates about CC0"
 #: c/engine/zero/templates/results.pt:181
 msgid "license.zero.update_opt_in"
-msgstr "Send me updates about CC0"
+msgstr "Chcę otrzymywać powiadomienia na temat CC0"
 
 #. Default: ""
 #. "You did not affirm your decision to waive the rights\n"
@@ -2319,39 +2348,41 @@ msgstr "Send me updates about CC0"
 #: c/engine/zero/templates/results.pt:55
 msgid "license.zero.declined"
 msgstr ""
-"You did not affirm your decision to waive the rights associated with your"
-" work. If you'd like to continue you can click the Back button to review "
-"your choice."
+"Nie potwierdziłeś decyzji o zrzeczeniu się praw do utworu. Jeśli chcesz "
+"zrzec się tych praw, wróć do poprzedniej strony i ponownie dokonaj "
+"wyboru."
 
 #. Default: "About CC0"
 #: c/engine/zero/templates/results.pt:61
 msgid "license.zero.about"
-msgstr "About CC0"
+msgstr "Informacje o CC0"
 
 #. Default: "Frequently Asked Questions"
 #: c/engine/zero/templates/results.pt:63
 msgid "util.FAQ"
-msgstr "Frequently Asked Questions"
+msgstr "Często zadawane pytania"
 
 #. Default: "Choose which style of button you'd like on your webpage:"
 #: c/engine/zero/templates/results.pt:72
 msgid "license.choose_button"
-msgstr "Choose which style of button you'd like on your webpage:"
+msgstr "Wybierz rodzaj grafiki, którą chcesz mieć na swojej stronie:"
 
 #. Default: "Here's a preview of how your waiver will appear on your site:"
 #: c/engine/zero/templates/results.pt:98
 msgid "license.zero.preview_waiver"
-msgstr "Here's a preview of how your waiver will appear on your site:"
+msgstr ""
+"Osoby odwiedzające Twoją stronę zobaczą następującą informację o "
+"zrzeczeniu się praw do utworu:"
 
 #. Default: "Your name"
 #: c/engine/zero/templates/waiver.pt:103
 msgid "util.your_name"
-msgstr "Your name"
+msgstr "Imię i nazwisko"
 
 #. Default: "Your URL"
 #: c/engine/zero/templates/waiver.pt:111 c/engine/zero/templates/waiver.pt:125
 msgid "util.your_url"
-msgstr "Your URL"
+msgstr "URL"
 
 #. Default: ""
 #. "The URL where people can find more information about \n"
@@ -2359,15 +2390,15 @@ msgstr "Your URL"
 #: c/engine/zero/templates/waiver.pt:126 c/engine/zero/templates/waiver.pt:124
 msgid "license.zero.your_url_help"
 msgstr ""
-"The URL where people can find more information about \n"
-"the work or the person using CC0."
+"URL pod którym można znaleźć więcej informacji na temat\n"
+"utworu lub osoby wykorzystującej CC0."
 
 #. Default: ""
 #. "Jurisdiction where the work is being \n"
 #. "\toffered from under CC0."
 #: c/engine/zero/templates/waiver.pt:166 c/engine/zero/templates/waiver.pt:164
 msgid "license.zero.country_help"
-msgstr "Jurisdiction from which the work is being offered under CC0."
+msgstr "System prawny z którego pochodzi utwór udostępniony na mocy CC0."
 
 #. Default: ""
 #. "I hereby waive all copyright and related or neighboring\n"
@@ -2394,7 +2425,7 @@ msgstr ""
 #. Default: "continue"
 #: c/engine/zero/templates/waiver.pt:217
 msgid "util.continue"
-msgstr "continue"
+msgstr "dalej"
 
 #. Default: ""
 #. "These fields are optional, but will be embedded in the HTML\n"
@@ -2404,31 +2435,32 @@ msgstr "continue"
 #: c/engine/zero/templates/waiver.pt:65
 msgid "license.zero.additional_metadata"
 msgstr ""
-"These fields are optional, but will be embedded in the HTML generated for"
-" your work. This allows users of your work to determine how to contact "
-"you or where to go for more information about the work."
+"Poniższe pola nie są obowiązkowe, jednak zamieszczone w nich informacje "
+"zostaną zapisane w generowanym przez nasz system kodzie HTML opisującym "
+"licencję. Pozwoli to użytkownikom utworu w pełni uznać autorstwo lub "
+"uzyskać dodatkowe informacje o utworze. "
 
 #: c/engine/chooser_pages/index.pt:165 c/engine/chooser_pages/index.pt:170
 msgid "None of the above"
-msgstr ""
+msgstr "Żadne z powyższych"
 
 #: c/engine/chooser_pages/index.pt:310
 msgid "Software"
-msgstr ""
+msgstr "Oprogramowanie"
 
 #: c/engine/chooser_pages/results.pt:103
 msgid "license.publish_ia"
 msgstr ""
-"Publish your licensed music or video to\n"
-"\t       the Internet Archive"
+"Publikuj muzykę lub wideo\n"
+"\t w Internet Archive"
 
 #: c/engine/chooser_pages/results.pt:119
 msgid "license.offline_work"
-msgstr "Offline Work?"
+msgstr "Utwór niedostępny w Sieci?"
 
 #: c/engine/chooser_pages/results.pt:129
 msgid "license.option_next_steps"
-msgstr "Optional next steps"
+msgstr "Opcje dodatkowe"
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:14
 #: c/engine/pd/templates/publicdomain-3.pt:38
@@ -2443,12 +2475,12 @@ msgstr ""
 #: c/engine/licenses/standard_templates/deed.pt:22
 #: c/engine/publicdomain/zero_templates/deed.pt:25
 msgid "This license is acceptable for Free Cultural Works."
-msgstr ""
+msgstr "Licencję można stosować do Wolnych Utworów Kultury."
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:47
 #: c/engine/publicdomain/zero_templates/deed.pt:141
 msgid "deed.use_this_tool"
-msgstr "Use this tool for your own work."
+msgstr "Wykorzystaj CC0 do licencjonowania własnych utworów."
 
 #: c/engine/licenses/standard_templates/deed.pt:110
 msgid "deed.with_the_understanding"
@@ -2460,39 +2492,44 @@ msgstr "Waiver"
 
 #: c/engine/licenses/standard_templates/deed.pt:125
 msgid "util.other_rights"
-msgstr "Other Rights"
+msgstr "Inne prawa"
 
 #: c/engine/licenses/standard_templates/deed.pt:128
+#, fuzzy
 msgid "deed.other_rights"
-msgstr "In no way are any of the following rights affected by the license:"
+msgstr "Licencja nie wpływa w żaden sposób na następujące prawa:"
 
 #: c/engine/licenses/standard_templates/deed.pt:178
+#, fuzzy
 msgid "deed.permission.help.title"
-msgstr "What does \"conditions can be waived\" mean?"
+msgstr "Co oznaczają \"warunki, które ulegną zrzeczeniu\"?"
 
 #: c/engine/licenses/standard_templates/deed.pt:182
+#, fuzzy
 msgid "deed.permission.help"
 msgstr ""
-"CC licenses anticipate that a licensor may want to\n"
-"\t\twaive compliance with a specific condition, such as\n"
-"\t\tattribution."
+"Licencje CC zakładają, że Licencjodawca może zechcieć\n"
+"\t\tznieść wymóg przestrzegania określonego warunku, takiego\n"
+"\t\tjak na przykład uznanie autorstwa."
 
 #: c/engine/licenses/standard_templates/deed.pt:192
 msgid "deed.fair_use.help.title"
-msgstr "What does \"Fair use\" mean?"
+msgstr "Co to znaczy \"dozwolony użytek\"?"
 
 #: c/engine/licenses/standard_templates/deed.pt:196
 msgid "deed.fair_use.help"
 msgstr ""
-"All jurisdictions\n"
-"              allow some limited uses of copyrighted material without\n"
+"Wszystkie systemy prawne\n"
+"              zezwalają na wykorzystanie w ograniczonym stopniu treści\n"
+"              objętych prawami autorskimi bez zgody autora. Licencje CC\n"
 "              permission.  CC licenses do not affect the rights of\n"
-"              users under those copyright limitations and exceptions,\n"
-"              such as fair use and fair dealing where applicable."
+"              nie wpływają na prawa użytkowników wynikające z takich\n"
+"              ograniczeń lub wyjątków, a w szczególności z zasad\n"
+"              dozwolonego użytku."
 
 #: c/engine/licenses/standard_templates/deed.pt:208
 msgid "deed.moralrights.help.title"
-msgstr "What are \"Moral Rights\"?"
+msgstr "Czym są \"autorskie prawa osobiste\"?"
 
 #: c/engine/licenses/standard_templates/deed.pt:212
 msgid "deed.moralrights.help"
@@ -2529,63 +2566,70 @@ msgstr ""
 #: c/engine/chooser_pages/index.pt:112 c/engine/chooser_pages/index.pt:125
 #: c/engine/chooser_pages/index.pt:138
 msgid "Information"
-msgstr ""
+msgstr "Informacje"
 
 #: c/engine/pd/templates/publicdomain-2.pt:20
+#, fuzzy
 msgid "license.pd.intro_1"
 msgstr ""
-"You have selected the Public Domain Certification.  The Public\n"
-"    Domain Certification should only be used to certify a work that is\n"
-"    already in the public domain.  Creative Commons does not recommend\n"
-"    you use the Public Domain Certification for dedicating a work\n"
-"    still protected by copyright to the public domain.  To dedicate a\n"
-"    work to the public domain, consider\n"
-"    using <a href=\"/license/zero/\">CC0</a>.  Please note that if you\n"
-"    use the Public Domain Certification to dedicate a work to the\n"
-"    public domain, it may not be valid outside of the United States."
+"Wybrałeś Certyfikat Domeny Publicznej. Certyfikat ten\n"
+"    powinien być wykorzystywany wyłącznie w celu zaświadczenia, że utwór\n"
+"    znajduje się w domenie publicznej. Creative Commons nie zaleca \n"
+"    stosowania Certyfikatu Domeny Publicznej w celu przekazania utworu\n"
+"    nadal objętego prawami autorskimi do domeny publicznej. Osobom chcący"
+"\n"
+"    przekazać utwór do domeny publicznej, zalecamy\n"
+"    wykorzystanie protokołu <a href=\"/license/zero/\">CC0</a>.  Proszę "
+"pamiętać,\n"
+"    że stosowanie Certyfikatu Domeny Publicznej w celu przekazania utworu"
+"\n"
+"    do domeny publicznej może nie być zgodne z prawem poza terenem Stanów"
+" ZJednoczonych."
 
 #: c/engine/pd/templates/publicdomain-2.pt:37
 #: c/engine/pd/templates/publicdomain-2.pt:32
+#, fuzzy
 msgid "license.pd.intro_3"
 msgstr ""
-"Once you're done filling this out, you will still have the\n"
-"    opportunity to confirm your choice before the certification\n"
-"    happens."
+"Po wypełnieniu danych, będziesz miał nadal możliwość\n"
+"    potwierdzić swój wybór, zanim dojdzie do zaświadczenia."
 
 #: c/engine/pd/templates/publicdomain-2.pt:43
 msgid "license.pd.about_the_work"
-msgstr "About the work you are certifying"
+msgstr "Informacje na temat utworu"
 
 #: c/engine/pd/templates/publicdomain-2.pt:47
 msgid "util.fields_required"
-msgstr "(all fields are required)"
+msgstr "(wszystkie pola są obowiązkowe)"
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:16
 #: c/engine/pd/templates/publicdomain-4.pt:17
 #: c/engine/pd/templates/publicdomain-3.pt:18
 #: c/engine/pd/templates/publicdomain-2.pt:16
 msgid "license.pd.identify_a_pd_work"
-msgstr "Identify a Public Domain Work"
+msgstr "Zidentyfikuj utwór znajdujący się w domenie publicznej"
 
 #: c/engine/publicdomain/templates/index.pt:14
 msgid "license.pdtools.title"
-msgstr "Our Public Domain Tools"
+msgstr "Narzędzia dotyczące Domeny Publicznej"
 
 #: c/engine/publicdomain/templates/index.pt:16
+#, fuzzy
 msgid "license.pdtools.intro"
 msgstr ""
-"Our licenses help authors\n"
-"  keep and manage their copyright on terms they choose.  Our public\n"
-"  domain tools, on the other hand, facilitate the discovery of works\n"
-"  already in the public domain and enable authors and copyright owners\n"
-"  who want to dedicate their works to the public domain to do so."
+"Licencje CC pomagają posiadaczom praw atorskich\n"
+"  zarządzać nimi na zasadach, które sami wybiorą. Z kolei\n"
+"  narzędzia związane z domeną publiczną służą odnajdywaniu utworów\n"
+"  już dostępnych w domenie publicznej oraz pozwalają twórcom oraz "
+"posiadaczom\n"
+"  praw autorskich przekazać utwór do domeny publicznej."
 
 #: c/engine/publicdomain/templates/index.pt:24
 msgid "license.pdtools.zero"
 msgstr ""
-"Use this universal tool if\n"
-"    you are a holder of copyright or database rights, and you wish to\n"
-"    waive all your interests in your work."
+"CC0 to uniwersalne narzędzie,\n"
+"    które pozwala posiadaczowi praw autorskich lub praw do bazy danych\n"
+"    zrzec się praw do utworu."
 
 #: c/engine/publicdomain/templates/index.pt:33
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:8
@@ -2593,7 +2637,7 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-3.pt:8
 #: c/engine/pd/templates/publicdomain-2.pt:8
 msgid "util.public_domain_certification"
-msgstr "Public Domain Certification"
+msgstr "Certyfikat Domeny Publicznej"
 
 #: c/engine/publicdomain/templates/index.pt:35
 msgid "license.pdtools.pdc"
@@ -2646,7 +2690,7 @@ msgstr ""
 
 #: c/engine/pd/templates/publicdomain-2.pt:58
 msgid "util.author"
-msgstr "Author"
+msgstr "Autor"
 
 #: c/engine/pd/templates/publicdomain-3.pt:118
 msgid "license.pdc.confirm_reading"
@@ -2656,20 +2700,22 @@ msgstr ""
 "\t    this work."
 
 #: c/engine/pd/templates/publicdomain-3.pt:56
+#, fuzzy
 msgid "license.pd.confirm_title"
-msgstr "Confirm Your Public Domain Certification"
+msgstr "Potwierdź wykorzystanie Certyfikatu Domeny Publicznej"
 
 #: c/engine/publicdomain/templates/index.pt:34
 #: c/engine/publicdomain/templates/index.pt:51
 msgid "util.use_this_tool"
-msgstr "Use this tool"
+msgstr "Użyj tego narzędzia"
 
 #: c/engine/publicdomain/zero_templates/deed.pt:67
 msgid "deed.zero.other_rights"
-msgstr "In no way are any of the following rights affected by CC0:"
+msgstr "CC0 w "
 
+#, fuzzy
 msgid "country.th"
-msgstr "Thailand"
+msgstr "Tajwan"
 
 msgid "lang.th"
 msgstr "Thai"
@@ -2736,8 +2782,9 @@ msgstr ""
 "applicable law, that status is in no way affected by the license."
 
 #: s/standard_templates/deed.pt:209
+#, fuzzy
 msgid "deed.public_domain.help.title"
-msgstr "What does \"Public Domain\" mean?"
+msgstr "Co to znaczy \"dozwolony użytek\"?"
 
 #: s/standard_templates/deed.pt:213
 msgid "deed.public_domain.help"
