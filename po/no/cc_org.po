@@ -3,18 +3,19 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2009-12-10 15:44-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2009-05-21 13:59+0000\n"
+"Last-Translator: Gisle Hannemyr <gisle@ifi.uio.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.3-svn\n"
 "Generated-By: Babel 1.0b-cc-2009-03-17\n"
 
 msgctxt "country.nz"
@@ -1417,7 +1418,6 @@ msgstr ""
 "Commons Developing Nations lisens</a>."
 
 #: c/engine/chooser_pages/index.pt:32
-#, fuzzy
 msgctxt "license.what"
 msgid ""
 "With a Creative Commons license, <strong>you keep your copyright</strong>"
@@ -1430,20 +1430,16 @@ msgid ""
 "to certify a work as public domain, choose one of our <a "
 "href=\"/publicdomain/\">public domain tools</a>."
 msgstr ""
-"Med en Creative Commons-lisens, <strong>bevarer du din "
-"opphavsrett</strong>, men tillater andre personer å <a "
-"href=\"/learn/licenses/fullrights\">kopiere og spre ditt verk</a> "
-"forutsatt at de <a href=\"/characteristic/by?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/by?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">navngir deg som opphavsperson</a> og kun på de betingelser som "
-"er angitt her. For dem som ikke tidligere har  benyttet Creative Commons "
-"lisenser, har vi utarbeidet <a href=\"/about/think\">en liste over "
-"forhold som du bør kjenne til</a>. Dersom du ønsker å tilby ditt verk til"
-" andre helt uten betingelser eller du ønsker å frigi et verk til "
-"fullstendig fri bruk, benytt en av våre <a href=\"/publicdomain/\">Public"
-" Domain verktøy</a>."
+"Med en Creative Commons-lisens, <strong>bevarer du din opphavsrett</strong>, "
+"men tillater andre personer å <a href=\"/learn/licenses/fullrights\">kopiere "
+"og spre ditt verk</a> forutsatt at de <a href=\"#\" class=\"helpLink\" "
+"id=\"give_you_credit\">navngir deg som opphavsperson</a> &mdash; og kun på de "
+"betingelser som er angitt her. For dem som ikke tidligere har  benyttet "
+"Creative Commons lisenser, har vi utarbeidet <a href=\"/about/think\">en liste "
+"over forhold som du bør kjenne til</a>. Dersom du ønsker å tilby ditt verk "
+"til andre helt uten betingelser eller du ønsker å frigi et verk til "
+"fullstendig fri bruk, benytt en av våre <a href=\"/publicdomain/\">Public "
+"Domain verktøy</a>."
 
 msgctxt "char.by_brief.jp"
 msgid "You must give the original author and the performer credit."
@@ -2326,7 +2322,6 @@ msgid "Finland"
 msgstr "Finland"
 
 #: c/engine/chooser_pages/partner/index.pt:25
-#, fuzzy
 msgctxt "license.partner_what"
 msgid ""
 "Creative Commons licenses help you share your work while keeping\n"
@@ -2340,21 +2335,17 @@ msgid ""
 "you credit</a> -- and only on the conditions you specify here.\n"
 "This page helps you choose those conditions.\n"
 msgstr ""
-"<p>Du har skapt et verk som du er stolt av. Nå er tiden inne til å være "
-"kreativ med hensyn til hvordan du gjør det tilgengelig.</p>\n"
-"\n"
-"<p>Creative Commons-lisensene hjelper deg med å dele ditt verk samtidig "
-"som du beholder\n"
-"opphavsretten. Andre mennesker kan kopiere og distribuere ditt verk "
-"dersom de <a href=\"/characteristic/by?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/by?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">krediterer deg</a>  og kun på de betingelsene du spesifiserer "
-"her. Denne siden hjelper deg med å velge disse betingelsene. Dersom du "
-"ønsker å tilby verket uten betingelser finnes <a "
-"href=\"${results_pd_url}\">public domain</a>. Det er imidlertid tvilsomt "
-"om en public domain-lisens vil være gyldig i Norge.</p>"
+"Creative Commons-lisensene hjelper deg med å dele ditt verk samtidig som du "
+"beholder\n"
+"opphavsretten. Andre mennesker kan kopiere og distribuere ditt verk dersom "
+"de\n"
+"<a href=\"http://creativecommons.org/characteristic/by?lang=en\" "
+"onclick=\"window.open('http://creativecommons.org/characteristic/by?lang=en', "
+"'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,t"
+"oolbar=no,directories=no,location=yes,menubar=no,status=yes');return "
+"false;\">krediterer\n"
+"deg</a> &mdash; og kun på de betingelsene du spesifiserer her.\n"
+"Denne siden hjelper deg med å velge disse betingelsene.\n"
 
 #: c/engine/chooser_pages/index.pt:49 c/engine/chooser_pages/index.pt:96
 #: c/engine/chooser_pages/partner/index.pt:56
@@ -3320,6 +3311,10 @@ msgid ""
 "address you used (${email_addr}) was correct you can <a "
 "href=\"/about/contact\">contact us</a>."
 msgstr ""
+"En feil oppsto når vi forsøkte å sende en epost-melding; du kan forsøke å "
+"trykke på Tilbake-knappen og kontrollere epost-adressen.  Dersom adressen du "
+"benyttet (${email_addr}) var korrekt kan du <a "
+"href=\"/about/contact\">kontakte oss</a>."
 
 #. Default: "The suggested HTML has been sent to ${email_addr}."
 #: c/engine/zero/templates/results.pt:143
@@ -3354,7 +3349,7 @@ msgstr ""
 #: c/engine/zero/templates/results.pt:181
 msgctxt "license.zero.update_opt_in"
 msgid "Send me updates about CC0"
-msgstr ""
+msgstr "Send meg oppdateringer om CC0"
 
 #. Default: ""
 #. "You did not affirm your decision to waive the rights\n"
@@ -3372,37 +3367,39 @@ msgstr ""
 #: c/engine/zero/templates/results.pt:61
 msgctxt "license.zero.about"
 msgid "About CC0"
-msgstr ""
+msgstr "Om CC0"
 
 #. Default: "Frequently Asked Questions"
 #: c/engine/zero/templates/results.pt:63
 msgctxt "util.FAQ"
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Ofte Stilte Spørsmål"
 
 #. Default: "Choose which style of button you'd like on your webpage:"
 #: c/engine/zero/templates/results.pt:72
 msgctxt "license.choose_button"
 msgid "Choose which style of button you'd like on your webpage:"
-msgstr ""
+msgstr "Velg stil på de knappene du skal bruke på din nettside:"
 
 #. Default: "Here's a preview of how your waiver will appear on your site:"
 #: c/engine/zero/templates/results.pt:98
 msgctxt "license.zero.preview_waiver"
 msgid "Here's a preview of how your waiver will appear on your site:"
 msgstr ""
+"Her er en forhåndsvisning av hvordan din ærklæring vil vises på ditt "
+"nettsted:"
 
 #. Default: "Your name"
 #: c/engine/zero/templates/waiver.pt:103
 msgctxt "util.your_name"
 msgid "Your name"
-msgstr ""
+msgstr "Ditt navn"
 
 #. Default: "Your URL"
 #: c/engine/zero/templates/waiver.pt:111 c/engine/zero/templates/waiver.pt:125
 msgctxt "util.your_url"
 msgid "Your URL"
-msgstr ""
+msgstr "Din URL"
 
 #. Default: ""
 #. "The URL where people can find more information about \n"
@@ -3413,6 +3410,8 @@ msgid ""
 "The URL where people can find more information about \n"
 "the work or the person using CC0."
 msgstr ""
+"URLen hvor man kan finne mer informasjon om verkene elle personen som bruker "
+"CC0."
 
 #. Default: ""
 #. "Jurisdiction where the work is being \n"
@@ -3450,7 +3449,7 @@ msgstr ""
 #: c/engine/zero/templates/waiver.pt:217
 msgctxt "util.continue"
 msgid "continue"
-msgstr ""
+msgstr "fortsett"
 
 #. Default: ""
 #. "These fields are optional, but will be embedded in the HTML\n"
@@ -3464,14 +3463,17 @@ msgid ""
 " your work. This allows users of your work to determine how to contact "
 "you or where to go for more information about the work."
 msgstr ""
+"Disse feltene er valgfrie, men vil bli innbakt i HTML-markeringene som "
+"genereres for ditt verk. Det vil la brukere av ditt verk få vite hvordan de "
+"kan kontakte deg eller hvor de kan finne mer informasjon om verket."
 
 #: c/engine/chooser_pages/index.pt:165 c/engine/chooser_pages/index.pt:170
 msgid "None of the above"
-msgstr ""
+msgstr "Ingen av valgene over"
 
 #: c/engine/chooser_pages/index.pt:310
 msgid "Software"
-msgstr ""
+msgstr "Programvare"
 
 #: c/engine/chooser_pages/results.pt:103
 msgctxt "license.publish_ia"
@@ -3762,20 +3764,20 @@ msgstr "Følgende rettigheter er på ingen måte påvirket av CC0:"
 
 msgctxt "country.th"
 msgid "Thailand"
-msgstr ""
+msgstr "Thailand"
 
 msgctxt "lang.th"
 msgid "Thai"
-msgstr ""
+msgstr "Thai"
 
 #: c/engine/licenses/standard_templates/deed.pt:162
 msgctxt "util.notice"
 msgid "Notice"
-msgstr ""
+msgstr "NB"
 
 msgctxt "lang.cs"
 msgid "Czech"
-msgstr ""
+msgstr "Tsjekkisk"
 
 #: c/engine/chooser_pages/partner/index.pt:36
 msgctxt "license.partner.publicdomain_options"
