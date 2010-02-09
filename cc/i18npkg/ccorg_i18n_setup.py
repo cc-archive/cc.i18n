@@ -33,11 +33,19 @@ def _setup_i18n():
 
         compile_mo_file(I18N_DOMAIN, catalog_path)
         
-        domain.addCatalog(GettextMessageCatalog(
+        domain.addCatalog(UTF8GettextMessageCatalog(
                 catalog, I18N_DOMAIN, mo_path))
 
     component.provideUtility(domain, ITranslationDomain, name='cc_org')
     DOMAIN_SETUP = True
+
+
+class UTF8GettextMessageCatalog(GettextMessageCatalog):
+    def queryMessage(self, id, default=None):
+        try:
+            return self._catalog.ugettext(id).decode('utf-8')
+        except KeyError:
+            return default
 
 
 _setup_i18n()
