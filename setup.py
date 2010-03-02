@@ -43,4 +43,8 @@ setup(
     license = 'MIT',
     url = 'http://creativecommons.org',
     zip_safe = False,
-    )
+
+    entry_points = """
+    [console_scripts]
+    compile_mo = cc.i18npkg.compile_mo:compile_mo_files
+    """)
