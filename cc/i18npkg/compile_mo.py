@@ -22,6 +22,8 @@ def compile_mo_files():
         if not os.path.isdir(catalog_path) or not os.path.exists(po_path):
             continue
 
+        if not os.path.exists(MO_FILES_BASE):
+            os.mkdir(MO_FILES_BASE)
         if not os.path.exists(os.path.join(MO_FILES_BASE, catalog)):
             os.mkdir(os.path.join(MO_FILES_BASE, catalog))
         if not os.path.exists(os.path.join(
