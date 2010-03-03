@@ -11,10 +11,10 @@ from zope import component
 
 DOMAIN_SETUP = False
 
-I18N_PATH = pkg_resources.resource_filename(
-    'cc.i18npkg', 'i18n/i18n')
+MO_PATH = pkg_resources.resource_filename(
+    'cc.i18npkg', 'mo')
 I18N_DOMAIN = 'cc_org'
-
+# cc/i18npkg/mo/ms/LC_MESSAGES/cc_org.mo
 
 def _setup_i18n():
     global DOMAIN_SETUP
@@ -22,17 +22,13 @@ def _setup_i18n():
         return
 
     domain = TranslationDomain(I18N_DOMAIN)
-    for catalog in os.listdir(I18N_PATH):
+    for catalog in os.listdir(MO_PATH):
+        catalog_path = os.path.join(MO_PATH, catalog)
 
-        catalog_path = os.path.join(I18N_PATH, catalog)
-
-        po_path = os.path.join(catalog_path, I18N_DOMAIN + '.po')
-        mo_path = os.path.join(catalog_path, I18N_DOMAIN + '.mo')
-        if not os.path.isdir(catalog_path) or not os.path.exists(po_path):
+        mo_path = os.path.join(catalog_path, 'LC_MESSAGES', I18N_DOMAIN + '.mo')
+        if not os.path.exists(mo_path):
             continue
 
-        compile_mo_file(I18N_DOMAIN, catalog_path)
-        
         domain.addCatalog(UTF8GettextMessageCatalog(
                 catalog, I18N_DOMAIN, mo_path))
 
