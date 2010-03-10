@@ -10,6 +10,9 @@ CCORG_GETTEXT_TRANSLATIONS = {}
 
 
 def translations_for_locale(locale):
+    """
+    Get the right translation and return it
+    """
     if CCORG_GETTEXT_TRANSLATIONS.has_key(locale):
         return CCORG_GETTEXT_TRANSLATIONS[locale]
 
@@ -25,3 +28,7 @@ def translations_for_locale(locale):
     translations = gettext.translation(I18N_DOMAIN, MO_PATH, langs)
     CCORG_GETTEXT_TRANSLATIONS[locale] = translations
     return translations
+
+
+def ugettext_for_locale(locale):
+    return translations_for_locale(locale).ugettext
