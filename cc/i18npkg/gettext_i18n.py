@@ -31,4 +31,7 @@ def translations_for_locale(locale):
 
 
 def ugettext_for_locale(locale):
-    return translations_for_locale(locale).ugettext
+    def _wrapped_ugettext(message):
+        return translations_for_locale(locale).ugettext(message).decode('utf-8')
+
+    return _wrapped_ugettext
