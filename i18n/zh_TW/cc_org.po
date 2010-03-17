@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2010-02-26 11:14-0500\n"
-"PO-Revision-Date: 2010-02-26 11:14-0500\n"
+"POT-Creation-Date: 2010-03-17 03:08+0000\n"
+"PO-Revision-Date: 2010-03-17 03:08+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh_TW <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -1789,10 +1789,14 @@ msgstr "以 FairShare 追蹤您作品被利用的情形"
 #: c/engine/licenses/zero_templates/deed.pt:114
 msgid "deed.zero.disclaimer"
 msgstr ""
-"<p>此公共標章並非正式的法律文件，僅是為了方便一般人理解 CC0 法律條款關鍵要素的簡明文件。\n"
-"\t\t公眾標章本身沒有法律意義，其內容也不會出現在 CC0 中。</p>\n"
-"\n"
-"\t\t<p>Creative Commons 不是法律事務所，亦不提供法律服務。散布、展示或連結到本公共標章並不產生律師與客戶的關係。"
+"<p>本共享標章並非一份法律文件。它只是一份\n"
+"可了解CC0法律條款、其中某些關鍵用語的\n"
+"人類可讀版本的一份便利參考。請把此共享\n"
+"標章看作是CC0法律條款的使用者友善界面。\n"
+"此標章本身不具法律價值，且其內容並不會\n"
+"出現在CC0中。</p><p>CREATIVE COMMONS不是法律事務所，亦不提供\n"
+"法律服務。散布、展示或連結到本共享標章並\n"
+"不產生律師和客戶的關係。</p>"
 
 #. Default: ""
 #. "This is a human-readable summary of\n"
@@ -1800,7 +1804,7 @@ msgstr ""
 #. "\t  text)</a>."
 #: c/engine/licenses/zero_templates/deed.pt:131
 msgid "deed.zero.human_summary"
-msgstr "這是一份讓一般人易於了解的法律條款摘要，您可參考<a href=\"./legalcode\">完整的授權條款</a>。"
+msgstr "這是一份人類可讀版本的<a href=\"./legalcode\">法律條款（閱讀全文）</a>的摘要。"
 
 #. Default: "No Copyright"
 #: c/engine/licenses/zero_templates/deed.pt:30
@@ -1816,10 +1820,8 @@ msgstr "無著作權"
 #: c/engine/licenses/zero_templates/deed.pt:33
 msgid "deed.zero.nocopyright-text"
 msgstr ""
-"The person who associated a work with this document has dedicated the "
-"work to the Commons by waiving all of his or her rights to the work "
-"worldwide under copyright law and all related or neighboring legal rights"
-" he or she had in the work, to the extent allowable by law."
+"以著作結合本文件之人，在法律許可的範圍內，拋棄該著作依著作權法所享有之權利，及其相關或鄰接的法律權利，宣告該著作貢獻至本共享領域（the "
+"Commons）。"
 
 #. Default: "Attribute this work:"
 #: c/engine/licenses/zero_templates/deed.pt:42
@@ -1837,14 +1839,12 @@ msgstr "任何下列的權利絕不會受到本授權條款的影響："
 #. document with a work."
 #: c/engine/licenses/zero_templates/deed.pt:69
 msgid "deed.zero.patent"
-msgstr ""
-"Patent or trademark rights held by the person who associated this "
-"document with a work."
+msgstr "以著作結合本文件之人所擁有的專利權或商標權。"
 
 #. Default: "What are \"Publicity Rights\"?"
 #: c/engine/licenses/zero_templates/deed.pt:83
 msgid "deed.publicity_rights.help.title"
-msgstr "什麼是「形象權」？"
+msgstr "什麼是「形象權」(Publicity Rights)？"
 
 #. Default: ""
 #. "Publicity\n"
@@ -1856,18 +1856,13 @@ msgstr "什麼是「形象權」？"
 #. "          commercial purposes."
 #: c/engine/licenses/zero_templates/deed.pt:87
 msgid "deed.zero.publicity_rights.help"
-msgstr ""
-"Publicity rights allow individuals to control how their voice, image or "
-"likeness is used for commercial purposes in public.  If a work under CC0 "
-"includes the voice or image of anyone other than the affirmer, a user of "
-"the work may need to get permission from those individuals before using "
-"the work for commercial purposes."
+msgstr "形象權允許個人掌控其聲音、形象或肖像如何公開地被使用於商業目的。若某作品採用CC0，其中包含宣告者之外的其他人的聲音或形象，則該作品的使用者可能需獲得這些人的同意才能將該作品使用於商業目的。"
 
 #. Default: "Learn more"
 #: c/engine/licenses/zero_templates/deed.pt:95
 #: c/engine/zero/templates/index.pt:89
 msgid "util.learn_more"
-msgstr "了解更多資訊"
+msgstr "想知道更多？"
 
 #. Default: "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:30
@@ -2125,7 +2120,7 @@ msgstr "此授權條款適合自由文化作品。"
 #: c/engine/licenses/publicdomain_templates/deed.pt:47
 #: c/engine/publicdomain/zero_templates/deed.pt:141
 msgid "deed.use_this_tool"
-msgstr "Use this tool for your own work."
+msgstr "使用此工具於你自己的作品上。"
 
 #: c/engine/licenses/standard_templates/deed.pt:110
 msgid "deed.with_the_understanding"
