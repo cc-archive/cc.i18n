@@ -24,7 +24,7 @@ import sys
 
 setup(
     name = "cc.i18npkg", 
-    version = "0.2.3.1",
+    version = "0.2.3.2",
     packages = find_packages(exclude=['ez_setup', 'examples', 'tests']),
     namespace_packages = ['cc',],
     include_package_data = True,
