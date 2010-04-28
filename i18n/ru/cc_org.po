@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2010-04-28 00:29+0000\n"
-"PO-Revision-Date: 2010-04-28 00:29+0000\n"
+"POT-Creation-Date: 2010-04-28 00:59+0000\n"
+"PO-Revision-Date: 2010-04-28 00:59+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -324,6 +324,7 @@ msgstr "Лицензировать ваше произведение"
 msgid "licenses.pretty_by-nc"
 msgstr "Attribution-NonCommercial"
 
+# пока не переводим - часть названия 0лицензии
 msgid "licenses.pretty_by-nd"
 msgstr "Attribution-NoDerivs"
 
@@ -590,6 +591,7 @@ msgstr ""
 "датой по умолчанию является дата, в которую вы создали работу, или "
 "завершили её."
 
+# пока не переводим - часть названия 0лицензии
 msgid "licenses.pretty_by-nd-nc"
 msgstr "Attribution-NoDerivs-NonCommercial"
 
@@ -889,7 +891,7 @@ msgstr "Шведский"
 
 #: c/engine/chooser_pages/htmlpopup.pt:15
 msgid "license.html_display"
-msgstr "Код HTML для отображения вашей кнопки будет следующим:"
+msgstr "За отображение вашей кнопки отвечает следующий HTML-код:"
 
 #: c/engine/macros_templates/deed.pt:109
 msgid "lang.eu"
@@ -902,15 +904,21 @@ msgstr "Английский (CA)"
 msgid "lang.es"
 msgstr "Испанский"
 
+# в списке условий
+# в названии страницы - пример
+# staging.creativecommons.org/licenses/by/3.0/deed.ru
 #: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
 #: c/engine/licenses/devnations_templates/deed.pt:47
 msgid "char.by_title"
-msgstr "Attribution"
+msgstr "Атрибуция"
 
+# в списке условий
+# в названии страницы - пример
+# staging.creativecommons.org/licenses/by/3.0/deed.ru
 #: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
 #: c/engine/licenses/devnations_templates/deed.pt:47
 msgid "licenses.pretty_by"
-msgstr "Attribution"
+msgstr "Атрибуция"
 
 #: c/engine/chooser_pages/sampling.pt:65
 msgid "license.sampling_a_nc-sampling+"
@@ -1008,7 +1016,7 @@ msgstr "Интерактивное произведение"
 
 #: c/engine/chooser_pages/htmlpopup.pt:27
 msgid "license.html_email"
-msgstr "Для получения HTML по электронной почте введите свой адрес здесь:"
+msgstr "Введите свой электронный адрес, чтобы получить письмо с этим HTML-кодом:"
 
 msgid "util.Next_step"
 msgstr "Следующий шаг:"
@@ -1104,7 +1112,7 @@ msgid "license.you_may_proceed"
 msgstr "Теперь можно <a href=\"${processed_exit_url}\">продолжить</a>"
 
 msgid "char.nc_title"
-msgstr "Некоммерческое"
+msgstr "Некоммерческое использование"
 
 #: c/engine/chooser_pages/index.pt:204
 msgid "licenses.pretty_publicdomain"
@@ -1546,9 +1554,10 @@ msgstr ""
 msgid "util.Share_Music"
 msgstr "Share Music"
 
+# в тексте - в списке условий
 #: c/engine/chooser_pages/index.pt:122
 msgid "char.sa_title"
-msgstr "Share Alike"
+msgstr "Сохранение услловий (<i>Share Alike</i>)"
 
 #: c/engine/chooser_pages/index.pt:193
 msgid "license.explain"
@@ -1600,9 +1609,9 @@ msgstr "Текст"
 msgid "char.by_brief"
 msgstr ""
 "Вы должны атрибутировать произведение (<i>указывать автора и "
-"источник</i>) в порядке, предусмотренном автором или лицензиаром (но не "
-"любым способом, предполагающим, что они поддерживают вас или "
-"использование вами этого произведения)."
+"источник</i>) в порядке, предусмотренном автором или лицензиаром (но "
+"только чтобы никоим образом не подразумевалось, что они поддерживают вас "
+"или использование вами этого произведения)."
 
 msgid "deed.lgpl_source"
 msgstr ""
@@ -2508,9 +2517,7 @@ msgstr "Программное обеспечение"
 
 #: c/engine/chooser_pages/results.pt:103
 msgid "license.publish_ia"
-msgstr ""
-"Побликовать вашу лицензированную музыку или видео в\n"
-"\t       Архиве интернета"
+msgstr "Публиковать вашу лицензированную музыку или видео в Архиве интернета"
 
 #: c/engine/chooser_pages/results.pt:119
 msgid "license.offline_work"
