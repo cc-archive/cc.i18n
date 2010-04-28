@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2010-04-15 12:25-0400\n"
-"PO-Revision-Date: 2010-04-28 00:29+0000\n"
+"PO-Revision-Date: 2010-04-28 00:58+0000\n"
 "Last-Translator: Paul Kaganer <paul.kaganer@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ru\n"
@@ -486,6 +486,7 @@ msgctxt "licenses.pretty_by-nc"
 msgid "Attribution-NonCommercial"
 msgstr "Attribution-NonCommercial"
 
+# пока не переводим - часть названия 0лицензии
 msgctxt "licenses.pretty_by-nd"
 msgid "Attribution-NoDerivs"
 msgstr "Attribution-NoDerivs"
@@ -878,6 +879,7 @@ msgstr ""
 "Если вы не регистрировали официально авторские права на вашу работу, датой "
 "по умолчанию является дата, в которую вы создали работу, или завершили её."
 
+# пока не переводим - часть названия 0лицензии
 msgctxt "licenses.pretty_by-nd-nc"
 msgid "Attribution-NoDerivs-NonCommercial"
 msgstr "Attribution-NoDerivs-NonCommercial"
@@ -1324,7 +1326,7 @@ msgstr "Шведский"
 #: c/engine/chooser_pages/htmlpopup.pt:15
 msgctxt "license.html_display"
 msgid "The HTML to display your button is as follows:"
-msgstr "Код HTML для отображения вашей кнопки будет следующим:"
+msgstr "За отображение вашей кнопки отвечает следующий HTML-код:"
 
 #: c/engine/macros_templates/deed.pt:109
 msgctxt "lang.eu"
@@ -1340,17 +1342,19 @@ msgctxt "lang.es"
 msgid "Spanish"
 msgstr "Испанский"
 
+# в списке условий
 #: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
 #: c/engine/licenses/devnations_templates/deed.pt:47
 msgctxt "char.by_title"
 msgid "Attribution"
-msgstr "Attribution"
+msgstr "Атрибуция"
 
+# в названии страницы - пример staging.creativecommons.org/licenses/by/3.0/deed.ru
 #: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
 #: c/engine/licenses/devnations_templates/deed.pt:47
 msgctxt "licenses.pretty_by"
 msgid "Attribution"
-msgstr "Attribution*"
+msgstr "Attribution"
 
 #: c/engine/chooser_pages/sampling.pt:65
 msgctxt "license.sampling_a_nc-sampling+"
@@ -1490,7 +1494,8 @@ msgstr "Интерактивное произведение"
 #: c/engine/chooser_pages/htmlpopup.pt:27
 msgctxt "license.html_email"
 msgid "Enter your email address to get the HTML by email:"
-msgstr "Для получения HTML по электронной почте введите свой адрес здесь:"
+msgstr ""
+"Введите свой электронный адрес, чтобы получить письмо с этим HTML-кодом:"
 
 msgctxt "util.Next_step"
 msgid "Next step:"
@@ -1631,7 +1636,7 @@ msgstr "Теперь можно <a href=\"${processed_exit_url}\">продолж
 
 msgctxt "char.nc_title"
 msgid "Noncommercial"
-msgstr "Некоммерческое"
+msgstr "Некоммерческое использование"
 
 #: c/engine/chooser_pages/index.pt:204
 msgctxt "licenses.pretty_publicdomain"
@@ -2255,10 +2260,11 @@ msgctxt "util.Share_Music"
 msgid "Share Music"
 msgstr "Share Music"
 
+# в тексте - в списке условий
 #: c/engine/chooser_pages/index.pt:122
 msgctxt "char.sa_title"
 msgid "Share Alike"
-msgstr "Share Alike"
+msgstr "Сохранение услловий (<i>Share Alike</i>)"
 
 #: c/engine/chooser_pages/index.pt:193
 msgctxt "license.explain"
@@ -2333,9 +2339,9 @@ msgid ""
 "use of the work)."
 msgstr ""
 "Вы должны атрибутировать произведение (<i>указывать автора и источник</i>) в "
-"порядке, предусмотренном автором или лицензиаром (но не любым способом, "
-"предполагающим, что они поддерживают вас или использование вами этого "
-"произведения)."
+"порядке, предусмотренном автором или лицензиаром (но только чтобы никоим "
+"образом не подразумевалось, что они поддерживают вас или использование вами "
+"этого произведения)."
 
 msgctxt "deed.lgpl_source"
 msgid ""
@@ -3552,9 +3558,7 @@ msgctxt "license.publish_ia"
 msgid ""
 "Publish your licensed music or video to\n"
 "\t       the Internet Archive"
-msgstr ""
-"Побликовать вашу лицензированную музыку или видео в\n"
-"\t       Архиве интернета"
+msgstr "Публиковать вашу лицензированную музыку или видео в Архиве интернета"
 
 #: c/engine/chooser_pages/results.pt:119
 msgctxt "license.offline_work"
