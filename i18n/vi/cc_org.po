@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2010-05-04 11:48-0400\n"
-"PO-Revision-Date: 2010-05-04 11:48-0400\n"
+"POT-Creation-Date: 2010-05-06 20:21+0000\n"
+"PO-Revision-Date: 2010-05-06 20:21+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: vi <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -16,11 +16,11 @@ msgstr ""
 
 #. New Zealand
 msgid "country.nz"
-msgstr "New Zealand"
+msgstr "Nước New Zealand"
 
 #. Greece
 msgid "country.gr"
-msgstr "Greece"
+msgstr "Nước Hy Lạp "
 
 msgid "Allow Derivative Works"
 msgstr "Cho phép tạo các bản phái sinh"
@@ -45,20 +45,21 @@ msgstr ""
 msgid "license.help.noncommercial"
 msgstr ""
 "Người cấp phép cho phép những người khác sao chép, phân phối, hiển thị và"
-" trình diễn tác phấm với điều kiện không được dùng cho mục đích thương "
+" trình diễn tác phẩm với điều kiện không được dùng cho mục đích thương "
 "mại."
 
 #: s/index.pt:88
 msgid "Yes, as long as others share alike"
-msgstr ""
+msgstr "Có, miễn là những người khác cũng chia sẻ tương tự"
 
 #. To perform, display, and distribute copies of this whole work for
 #. noncommercial purposes (e.g., file-sharing or noncommercial webcasting).
 #: c/engine/licenses/sampling_templates/deed.pt:31
 msgid "deed.free_copy_distribute_noncommercial"
 msgstr ""
-"To perform, display, and distribute copies of this whole work for "
-"noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
+"Để trình diễn, hiển thị, và phân phối bản sao của toàn bộ tác phẩm với "
+"mục đích phi thương mại (như chia sẻ tập tin hoặc phát phi thương mại "
+"trên web)."
 
 #. <h1>Public Domain Dedication - Email Confirmation</h1>
 #. <p>
@@ -84,76 +85,53 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
 msgid "license.pd_awaiting_confirmation"
 msgstr ""
-"<h1>Public Domain Dedication - Email Confirmation</h1>\n"
-"\n"
-"<p>\n"
-"An email has been sent to you at <b>${email}</b>. You should receive it\n"
-"within a few minutes.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"This email includes a confirmation of your public domain\n"
-"dedication. It should include the title of your work\n"
-"(\"<b>${title}</b>\"), and the copyright holder of the work\n"
-"(\"<b>${copyright_holder}</b>\").\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"The email will also include a link with an embedded confirmation\n"
-"code. This confirmation code enables us to verify that you are indeed\n"
-"the person eligible to receive email at <b>${email}</b>. Clicking\n"
-"through on this confirmation link will constitute an \"overt act of\n"
-"relinquishment\" by which you will actually be placing your work in the\n"
-"public domain.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"<b>Until you click the confirmation link, your work will not be\n"
-"dedicated to the public domain.</b>\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"If for some reason you haven't received this email within 30-45 minutes, "
-"please <a href=\"mailto:pd@creativecommons.org\">let us know</a>.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"After clicking on the confirmation link, you'll find out how to mark your"
-" content with a public domain dedication and publicize your work.\n"
-"</p>"
+"Vùng dành riêng cho công chúng - Khẳng định EmailEmail đã được gửi tới "
+"bạn theo địa chỉ <b>${email}</b>. Bạn sẽ nhận được email đó trong vòng 1 "
+"vài phút. Email này khẳng định vùng dành riêng cho công chúng của bạn và "
+"tên tác phẩm của bạn, (\"<b>${title}</b>\"), người sở hữu tác quyền của "
+"tác phẩm <b>${copyright_holder}</b>\").Email đó cũng có đường link dẫn "
+"tới mã khẳng định của tác phẩm, giúp chứng minh được bạn chính là người "
+"được quyền nhận email tại địa chỉ <b>${email}</b>. Nhấp chuột qua hết "
+"đường link này chính là bạn đã \"công khai trao quyền\" mà theo đó bạn "
+"thực sự đã đặt tác phẩm của bạn vào cùng của công chúng. <b>Tác phẩm của "
+"bạn chỉ được dành cho công chúng khi bạn nhấp chuột vào đường link khẳng "
+"định. Nếu vì một lý do nào đó bạn không nhận được email này trong vòng "
+"30-45 phút, xin bạn hãy vui lòng cho chúng tôi biết theo địa chỉ "
+"email:pd@creativecommons.org.Sau khi nhấp chuột vào đường link khẳng định"
+" bạn sẽ được hướng dẫn cách đánh dấu nội dung dành cho công chúng và công"
+" khai tác phẩm của bạn. "
 
 #. Bulgaria
 msgid "country.bg"
-msgstr "Bulgaria"
+msgstr "Nước Bungari"
 
 #. Mark your content on a web page, the HTML to display your button is as
 #. follows and be sure to <a href="/technology/web">follow the guidelines
 #. here</a>:
 #: c/engine/pd/templates/publicdomain-4.pt:32
-#, fuzzy
 msgid "license.mark_web"
 msgstr ""
-"Mark your content on a web page, the HTML to display your button is as "
-"follows and be sure to <a href=\"/technology/web\">follow the guidelines "
-"here</a>:"
+"Để đánh dấu nội dung trên một trang web(), mã HTML cần để hiển thị nút "
+"bấm được ghi ở dưới và hãy đảm bảo <a href=\"/technology/web\">()làm theo"
+" hướng dẫn tại đây</a>:"
 
 #. copyright date
 msgid "util.copyright_date"
-msgstr "copyright date"
+msgstr "ngày tác quyền"
 
 #. Jurisdiction
 #: c/engine/chooser_pages/index.pt:168 c/engine/chooser_pages/sampling.pt:104
 msgid "util.Jurisdiction"
-msgstr "Jurisdiction"
+msgstr "Tr()ong phạm vi quyền lực pháp lý có thể được thực thi"
 
 #. Brazil
 #: c/engine/chooser_pages/sampling.pt:80 c/engine/chooser_pages/sampling.pt:92
 msgid "country.br"
-msgstr "Brazil"
+msgstr "Nước Brazil"
 
 #. Creative Commons License
 msgid "util.Creative_Commons_License"
-msgstr "Creative Commons License"
+msgstr "Giấy phép Creative Commons "
 
 #. mark content
 #: c/engine/chooser_pages/sampling.pt:41
@@ -249,7 +227,7 @@ msgstr ""
 #. NonCommercial
 #: c/engine/chooser_pages/index.pt:67
 msgid "licenses.pretty_nc"
-msgstr "NonCommercial"
+msgstr "Phi thương mại"
 
 #. Catalan
 #: c/engine/macros_templates/deed.pt:103
@@ -398,7 +376,7 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-2.pt:34
 #: c/engine/macros_templates/metadata.pt:46
 msgid "util.title_of_work"
-msgstr "title of work"
+msgstr "Tiêu đề của sản phẩm"
 
 #. If you modify your copy or copies of the program or any portion of it, or
 #. develop a program based upon it, you may distribute the resulting work
@@ -407,19 +385,20 @@ msgstr "title of work"
 #: c/engine/licenses/fsf_templates/deed.pt:61
 msgid "deed.gpl_sharealike"
 msgstr ""
-"If you modify your copy or copies of the program or any portion of it, or"
-" develop a program based upon it, you may distribute the resulting work "
-"provided you do so under the ${license_name_full}. Any translation of the"
-" ${license_name_full} must be accompanied by the ${license_name_full}."
+"Nếu bạn sửa đổi một phần hoặc toàn bộ bản sao hoặc các bản sao chương "
+"trình của bạn hoặc phát triển một chương trình dựa trên đó, bạn có thể "
+"phân phối tác phẩm thu được nếu bạn sử dụng giấy phép ${giấy phép_tên đầy"
+" đủ}. Bất kỳ bản dịch nào của ${giấy phép_tên đầy đủ} cũng phải được đi "
+"kèm() ${giấy phép_tên đầy đủ}."
 
 #. Ireland
 msgid "country.ie"
-msgstr "Ireland"
+msgstr "Nước Ireland"
 
 #. License Your Work
 #: c/engine/macros_templates/engine.pt:111
 msgid "license.License_Your_Work"
-msgstr "License Your Work"
+msgstr "Cấp phép cho tác phẩm của bạn"
 
 #. Attribution-NonCommercial
 msgid "licenses.pretty_by-nc"
@@ -588,7 +567,7 @@ msgstr ""
 #: c/engine/macros_templates/support.pt:82
 #: c/engine/macros_templates/support.pt:86
 msgid "license.choose_license"
-msgstr "choose license"
+msgstr "lựa chọn giấy phép"
 
 #. The freedom to redistribute copies so you can help your neighbor.
 #: c/engine/licenses/fsf_templates/deed.pt:38
@@ -2656,7 +2635,7 @@ msgstr ""
 
 #: e/licenses/standard_templates/deed.pt:126
 msgid "What does \"Attribute this work\" mean?"
-msgstr ""
+msgstr "\"Ghi công cho tác phẩm này\" có nghĩa là gì?"
 
 #: e/licenses/standard_templates/deed.pt:129
 msgid ""
@@ -2665,10 +2644,15 @@ msgid ""
 "here to cite the work. Doing so will also include metadata on your page "
 "so that others can find the original work as well."
 msgstr ""
+"Trang web mà bạn xem có chứa giấy phép ở dạng ngôn ngữ máy, bao gồm cách "
+"mà tác giả muốn người sử dụng ghi công họ. Bạn cũng có thể sử dụng HTLM "
+"tại đây để viết lại tác phẩm của bạn.Khi làm như vậy bạn nên để lại cả "
+"ngôn ngữ mã máy trên trang của bạn để những người khác có thể tìm lại "
+"được tác phẩm nguyên gốc của bạn. "
 
 #: e/macros_templates/metadata.pt:107
 msgid "Embedded Metadata"
-msgstr ""
+msgstr "Siêu dữ liệu được nhúng"
 
 #. Default: ""
 #. "<p>\n"
@@ -2686,72 +2670,72 @@ msgstr ""
 #: e/macros_templates/metadata.pt:108
 msgid "license.metadata_help"
 msgstr ""
-"<p>\n"
-"\t  The information is embedded in a software readable format.\n"
-"\t  This allows search engines to index additional information\n"
-"\t  about your work and allows people coming to the license deed\n"
-"\t  from your page to see information on the deed about how to\n"
-"\t  attribute your work.  \n"
-"\t</p>\n"
-"\t<p>\n"
-"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
-"\t    information</a> on Creative Commons metadata is available if\n"
-"\t  you want to find out more.\n"
-"\t</p>"
+"Thông tin được tích hợp theo định dạng của một phần mềm có thể đọc. Điều "
+"này cho phép công cụ tìm kiếm đánh dấu các thông tin bổ sung trong tác "
+"phẩm của bạn và cho phép mọi người tiếp cận với giấy phép trên trang web "
+"của bạn để biết làm thế nào để ghi công bạn. Để tìm hiểu thêm thông tin "
+"về ngôn ngữ máy của CC, xin vui lòng truy cập: license.metadata_help"
 
 #: e/macros_templates/metadata.pt:140
 msgid "The title of the work you are licensing."
-msgstr ""
+msgstr "Tiêu đề tác phẩm bạn muốn cấp phép"
 
 #: e/macros_templates/metadata.pt:152
 msgid ""
 "The name users of the work should give attribution to. For example, the "
 "name of the work's author."
 msgstr ""
+"Tên những người sử dụng tác phẩm mà bạn nên ghi công. Ví dụ nhe tên của "
+"tác giả."
 
 #: e/macros_templates/metadata.pt:165
 msgid ""
 "The URL users of the work should link to. For example, the work's page on"
 " the author's site."
 msgstr ""
+"Địa chỉ URL mà người dùng tác phẩm cần liên kết tới. Ví dụ như trang chứa"
+" tác phẩm trên trang của tác giả."
 
 #: e/macros_templates/metadata.pt:178
 msgid ""
 "A URL where a user can obtain information about clearing rights that are "
 "not pre-cleared by your CC license."
 msgstr ""
+"Địa chỉ URL mà người dùng tác phẩm cần liên kết. Ví dụ như trang chứa tác"
+" phẩm trên trang của tác giả."
 
 msgid "lang.es_EC"
-msgstr "Spanish (Ecuador)"
+msgstr "Tiếng/ Người Tây Ban Nha (Ecuador)"
 
 msgid "country.ec"
 msgstr "Ecuador"
 
 msgid "lang.ro"
-msgstr "Romanian"
+msgstr "Người Rumani "
 
 msgid "lang.el"
-msgstr "Greek"
+msgstr "Tiếng/ Người Hy Lạp "
 
 msgid "country.pr"
 msgstr "Puerto Rico"
 
 msgid "license.mark_software"
-msgstr "Mark Software"
+msgstr "Phần mềm đánh dấu"
 
 msgid "license.fsf_instructions"
 msgstr ""
-"Read the <a href=\"http://www.gnu.org/licenses/gpl-howto.html\">FSF's "
-"instructions for including the license with your software</a>."
+"Đọc các hwongs dẫn FSF <a href=\"http://www.gnu.org/licenses/gpl-"
+"howto.html\"> để cho giấy phép vào phầm mềm của bạn. "
 
 msgid "license.display_software_icon"
 msgstr ""
-"You can display the icon on any site you offer your software for download"
-" using the following markup:"
+"Bạn có thể hiển thị biểu tượng trên bất kỳ trang nào bạn muốn tặng phần "
+"mềm của bạn cho mọi người tải bằng cách sử dụng đường link sau: "
+"license.display_software_icon"
 
 #: c/engine/macros_templates/deed.pt:206
 msgid "deed.use_this_license"
-msgstr "Use this license for your own work."
+msgstr "Sử dụng giấy phép này cho riêng tác phẩm của bạn "
 
 msgid "lang.sr_LATN"
 msgstr "Serbian (Latin)"
@@ -2763,19 +2747,18 @@ msgstr "Serbian (Latin)"
 #. href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\"
 #. class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy\n"
 #. "\t      rights."
-#, fuzzy
 msgid "deed.publicity_rights"
 msgstr ""
-"Rights other persons may have either in the work itself or in how the "
-"work is used, such as publicity or privacy rights."
+"Quyền mà người khác có thể có đối với bản thân tác phẩm hoặc cách sử dụng"
+" chẳng hạn quyền công bố tác phẩm hoặc các quyền riêng tư. "
 
 #: src/cc/engine/chooser_pages/results.pt:144
 msgid "license.register_with_cc_network"
-msgstr "Register your work with the CC Network"
+msgstr "Đăng ký tác phẩm của bạn với Mạng lưới CC"
 
 #: src/cc/engine/chooser_pages/results.pt:151
 msgid "license.track_with_fairshare"
-msgstr "Track use of your work with FairShare"
+msgstr "Theo dõi việc sử dụng tác phẩm của bạn bằng FairShare"
 
 #. Default: ""
 #. "<p>The Commons Deed is not a legal instrument. It is simply a\n"
@@ -2793,18 +2776,18 @@ msgstr "Track use of your work with FairShare"
 #: c/engine/licenses/zero_templates/deed.pt:114
 msgid "deed.zero.disclaimer"
 msgstr ""
-"<p>The Commons Deed is not a legal instrument. It is simply a\n"
-"\t\thandy reference for understanding the CC0 Legal Code,\n"
-"\t\ta human-readable expression of some of its key\n"
-"\t\tterms. Think of it as the user-friendly interface to\n"
-"\t\tthe CC0 Legal Code beneath. This Deed itself has no\n"
-"\t\tlegal value, and its contents do not appear in\n"
+"<p>Chứng thư Commons không phải là công cụ pháp lý. Nó đơn giản chỉ là\n"
+"\t\tmột tham chiếu ngắn để có thể hiểu được Luật Pháp lý CC0,\n"
+"\t\tlà sự diễn đạt một số điều khoản chính yếu ở dạng văn bản.\n"
+"\t\tCứ xem nó là một giao diện thân thiện với người nhìn đại diện\n"
+"\t\tcho Luật Pháp lý CC0 bên dưới. Bản thân Chứng thư không có\n"
+"\t\tgiá trị pháp lý, và nội dung của nó không xuất hiện trong\n"
 "\t\tCC0.</p>\n"
 "\n"
-"\t\t<p>Creative Commons is not a law firm and does not\n"
-"\t\t  provide legal services. Distributing, displaying, \n"
-"\t\t  or linking to this Commons Deed does not create an\n"
-"\t\t  attorney-client relationship.</p>"
+"\t\t<p>Creative Commons không phải là một hãng luật và không\n"
+"\t\t cung cấp dịch vụ hỗ trợ pháp lý. Việc phân phối, trưng bày, \n"
+"\t\t hoặc liên kết đến Chứng thư Commons này không tạo thành\n"
+"\t\t mối quan hệ thân chủ-khách hàng.</p>"
 
 #. Default: ""
 #. "This is a human-readable summary of\n"
@@ -2813,13 +2796,13 @@ msgstr ""
 #: c/engine/licenses/zero_templates/deed.pt:131
 msgid "deed.zero.human_summary"
 msgstr ""
-"This is a human-readable summary of the <a href=\"./legalcode\">Legal "
-"Code (read the full text)</a>."
+"Đây là bản tóm tắt mà con người có thể đọc hiểu của <a "
+"href=\"./legalcode\">Luật Pháp lý (đọc toàn văn)</a>."
 
 #. Default: "No Copyright"
 #: c/engine/licenses/zero_templates/deed.pt:30
 msgid "deed.zero.no_copyright"
-msgstr "No Copyright"
+msgstr "Không giữ bản quyền"
 
 #. Default: ""
 #. "The person who associated a work with this document\n"
@@ -2830,35 +2813,34 @@ msgstr "No Copyright"
 #: c/engine/licenses/zero_templates/deed.pt:33
 msgid "deed.zero.nocopyright-text"
 msgstr ""
-"The person who associated a work with this document has dedicated the "
-"work to the Commons by waiving all of his or her rights to the work "
-"worldwide under copyright law and all related or neighboring legal rights"
-" he or she had in the work, to the extent allowable by law."
+"Một người khi gắn tác phẩm của họ với văn bản này nghĩa là người ta đã "
+"hiến tác phẩm của mình cho CC bằng cách miễn tất cả các quyền của họ đối "
+"với tác phẩm trên toàn cầu theo luật bản quyền và tất cả các quyền pháp "
+"lý lân cận hoặc có liên quan mà họ có đối với tác phẩm của mình tới mức "
+"mà luật pháp có thể cho phép."
 
 #. Default: "Attribute this work:"
 #: c/engine/licenses/zero_templates/deed.pt:42
 msgid "deed.attribute_this_work"
-msgstr "Attribute this work:"
+msgstr "Ghi công tác phẩm này"
 
 #. Default: ""
 #. "In no way are any of the following rights affected by\n"
 #. "\t  the above:"
 #: c/engine/licenses/zero_templates/deed.pt:65
 msgid "deed.following_unaffected"
-msgstr "In no way are any of the following rights affected by the above:"
+msgstr "Các quyền sau đây không bị ảnh hưởng bởi các điều trên"
 
 #. Default: "Patent or trademark rights held by the person who associated this
 #. document with a work."
 #: c/engine/licenses/zero_templates/deed.pt:69
 msgid "deed.zero.patent"
-msgstr ""
-"Patent or trademark rights held by the person who associated this "
-"document with a work."
+msgstr "Người gắn tài liệu này với tác phẩm của họ sẽ giữ bản quyền thương hiệu "
 
 #. Default: "What are \"Publicity Rights\"?"
 #: c/engine/licenses/zero_templates/deed.pt:83
 msgid "deed.publicity_rights.help.title"
-msgstr "What are \"Publicity Rights\"?"
+msgstr "\"Quyền Công chúng\" là gì?"
 
 #. Default: ""
 #. "Publicity\n"
@@ -2871,22 +2853,23 @@ msgstr "What are \"Publicity Rights\"?"
 #: c/engine/licenses/zero_templates/deed.pt:87
 msgid "deed.zero.publicity_rights.help"
 msgstr ""
-"Publicity rights allow individuals to control how their voice, image or "
-"likeness is used for commercial purposes in public.  If a work under CC0 "
-"includes the voice or image of anyone other than the affirmer, a user of "
-"the work may need to get permission from those individuals before using "
-"the work for commercial purposes."
+"Quyền công chúng cho phép các cá nhân kiểm soát cách mà giọng điệu, hình "
+"ảnh và sở thích của họ được sử dụng cho các mục đích thương mại trong "
+"cộng đồng. Nếu một tác phẩm được cấp phép CC có bao gồm giọng nói hoặc "
+"hình ảnh của bất kỳ ai ngoại trừ người xác nhận thì người sử dụng tác "
+"phẩm có thể phải cần sự cho phép của các cá nhân đó trước khi sử dụng tác"
+" phẩm cho mục đích thương mại."
 
 #. Default: "Learn more"
 #: c/engine/licenses/zero_templates/deed.pt:95
 #: c/engine/zero/templates/index.pt:89
 msgid "util.learn_more"
-msgstr "Learn more"
+msgstr "Học nữa"
 
 #. Default: "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:30
 msgid "license.zero.confirm_title"
-msgstr "Confirm Waiver"
+msgstr "Khẳng định sự miễn trừ"
 
 #. Default: ""
 #. "Are you certain you wish to waive all rights to your\n"
@@ -2895,8 +2878,8 @@ msgstr "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:48
 msgid "license.zero.confirm_waiver_1"
 msgstr ""
-"Are you certain you wish to waive all rights to your work? Once these "
-"rights are waived, you cannot reclaim them."
+"Bạn có chắc là bạn muốn miễn tất cả các quyền đối với tác phẩm của bạn? "
+"Khi các quyền đã được miễn, bạn không lấy lại được."
 
 #. Default: ""
 #. "In particular, if you are an artist or author who\n"
@@ -2906,9 +2889,9 @@ msgstr ""
 #: c/engine/zero/templates/confirm.pt:54
 msgid "license.zero.confirm_waiver_2"
 msgstr ""
-"In particular, if you are an artist or author who depends upon copyright "
-"for your income, Creative Commons <strong>does not recommend</strong> "
-"that you use this tool."
+"Đặc biệt, nếu bạn là họa sĩ hoặc tác giả mà thu nhập phụ thuộc vào tác "
+"quyền của bạn thì Creative Commons không khuyến khích bạn sử dụng công cụ"
+" này."
 
 #. Default: ""
 #. "If you don't own the rights to this work, then do not\n"
@@ -2918,20 +2901,19 @@ msgstr ""
 #: c/engine/zero/templates/confirm.pt:61
 msgid "license.zero.confirm_waiver_3"
 msgstr ""
-"If you don't own the rights to this work, then do not use CC0.  If you "
-"believe that nobody owns rights to the work, then the <a "
-"href=\"/license/publicdomain-2\">Public Domain Certification</a> may be "
-"what you're looking for."
+"Nếu bạn không sở hữu quyền đối với tác phẩm này thì bạn không nên dùng "
+"CC. Nếu bạn tin rằng không ai sở hữu quyền tác phẩm thì bạn nên truy cập "
+"và tìm hiểu để sử dụng trang web: license.zero.confirm_waiver_3"
 
 #. Default: "No, I Do Not Waive"
 #: c/engine/zero/templates/confirm.pt:71
 msgid "license.zero.confirm_waiver_no"
-msgstr "No, I Do Not Waive"
+msgstr "Không, tôi không miễn quyền"
 
 #. Default: "Yes, I Waive"
 #: c/engine/zero/templates/confirm.pt:82
 msgid "license.zero.confirm_waiver_yes"
-msgstr "Yes, I Waive"
+msgstr "Có, tôi miễn quyền"
 
 #. Default: ""
 #. "Please note that this is <strong>not a registration\n"
@@ -2944,17 +2926,17 @@ msgstr "Yes, I Waive"
 #: c/engine/zero/templates/index.pt:76
 msgid "license.zero.intro_3"
 msgstr ""
-"Please note that this is <strong>not a registration process</strong> and "
-"Creative Commons does not store or save any of the information you enter."
-"  This tool guides you through the process of generating HTML with "
-"embedded metadata for marking your work as being available under CC0.  "
-"Your work will not be associated with CC0 or made available under CC0 "
-"until you publish it marked as being so."
+"Hãy nhớ rằng đây không phải là qúa trình đăng ký và CC không lưu trữ hoặc"
+" giữ lại bất kỳ thông tin nào mà bạn nhập vào. Công cụ này hướng dẫn bạn "
+"quá trình tạo ra HTLM với các ngôn ngữ máy tích hợp trong đó để giúp bạn "
+"đánh dấu tác phẩm của bạn đã được cấp phép CC. Tác phẩm của bạn sẽ không "
+"được gắn với CC hoặc cấp phép CC trừ khi bạn công bố nó được đánh dấu như"
+" vậy."
 
 #. Default: "begin"
 #: c/engine/zero/templates/index.pt:98
 msgid "util.begin"
-msgstr "begin"
+msgstr "bắt đầu"
 
 #. Default: ""
 #. "Copy the text below to your Web site to let your visitors\n"
@@ -2965,15 +2947,15 @@ msgstr "begin"
 #: c/engine/zero/templates/results.pt:108
 msgid "license.zero.copy_text"
 msgstr ""
-"Copy the text below to your Web site to let your visitors know that "
-"you've waived the rights to your work.  Creative Commons does not retain "
-"a record of your selection; as the publisher it's up to you to let people"
-" know how they may use your work."
+"Copy đoạn sau vào trang web của bạn để những ngườitruy cập trang web biết"
+" rằng bạn đã miễn các quyền đối với tác phẩm của bạn. CC không giữ lại "
+"bất kỳ hồ sơ nào về sự lựa chọn của bạn; là người công bố bạn có quyền "
+"cho mọi người biết cách mà bạn muốn người khác sử dụng tác phẩm của bạn."
 
 #. Default: "Send Email"
 #: c/engine/zero/templates/results.pt:122
 msgid "license.zero.send_email"
-msgstr "Send Email"
+msgstr "Gửi email"
 
 #. Default: ""
 #. "An error occurred when we tried to send the email message;\n"
@@ -2984,15 +2966,15 @@ msgstr "Send Email"
 #: c/engine/zero/templates/results.pt:134
 msgid "license.zero.email_error"
 msgstr ""
-"An error occurred when we tried to send the email message; you can try "
-"clicking the Back button and double checking your email address.  If the "
-"address you used (${email_addr}) was correct you can <a "
-"href=\"/about/contact\">contact us</a>."
+"Lỗi xuất hiện khi chúng tôi cố gắng gửi email này; bạn có thể thử bằng "
+"cách click vào nút Back và kiểm tra lại địa chỉ email của bạn. Nếu địa "
+"chỉ email và bạn đã sử dụng vẫn đúng thì bạn có thể liên lạc với chúng "
+"tôi."
 
 #. Default: "The suggested HTML has been sent to ${email_addr}."
 #: c/engine/zero/templates/results.pt:143
 msgid "license.zero.email_sent"
-msgstr "The suggested HTML has been sent to ${email_addr}."
+msgstr "HTML được khuyến nghị sử dụng đã được gửi đến địa chỉ"
 
 #. Default: ""
 #. "You have asked to be notified of updates to CC0.  A subscription\n"
@@ -3001,9 +2983,9 @@ msgstr "The suggested HTML has been sent to ${email_addr}."
 #: c/engine/zero/templates/results.pt:148
 msgid "license.zero.subscribed_to_updates"
 msgstr ""
-"You have asked to be notified of updates to CC0.  A subscription request "
-"has been sent on your behalf; you must click the link in the confirmation"
-" email to complete the sign-up process."
+"Bạn đã yêu cầu được thông báo về các cập nhật của CC0. Chúng tôi đã thay "
+"mặt bạn gửi một yêu cầu đăng ký; bạn phải click vào email khẳng định để "
+"kết thúc quá trình đăng ký."
 
 #. Default: ""
 #. "If you'd like to get the HTML with embedded metadata via\n"
@@ -3012,13 +2994,14 @@ msgstr ""
 #: c/engine/zero/templates/results.pt:161
 msgid "license.zero.send_email_updates"
 msgstr ""
-"If you'd like to get the HTML with embedded metadata via email and "
-"optionally receive updates about CC0, fill in your email address below."
+"Nếu bạn muốn có HTLM có chứa ngôn ngữ mã máy qua email và không nhất "
+"thiết phải nhận những cập nhất về CC0 thì bạn hãy điền địa chỉ email của "
+"bạn xuống dưới đây"
 
 #. Default: "Send me updates about CC0"
 #: c/engine/zero/templates/results.pt:181
 msgid "license.zero.update_opt_in"
-msgstr "Send me updates about CC0"
+msgstr "Hãy cập nhật cho tôi về CC0"
 
 #. Default: ""
 #. "You did not affirm your decision to waive the rights\n"
@@ -3027,39 +3010,41 @@ msgstr "Send me updates about CC0"
 #: c/engine/zero/templates/results.pt:55
 msgid "license.zero.declined"
 msgstr ""
-"You did not affirm your decision to waive the rights associated with your"
-" work. If you'd like to continue you can click the Back button to review "
-"your choice."
+"Bạn đã không khẳng định là bạn sẽ miễn các quyền liên quan đến tác phẩm "
+"của bạn. Nếu bạn muốn tiếp tục, hãy click vào nút Back để xem lại lựa "
+"chọn của bạn."
 
 #. Default: "About CC0"
 #: c/engine/zero/templates/results.pt:61
 msgid "license.zero.about"
-msgstr "About CC0"
+msgstr "Về CC0"
 
 #. Default: "Frequently Asked Questions"
 #: c/engine/zero/templates/results.pt:63
 msgid "util.FAQ"
-msgstr "Frequently Asked Questions"
+msgstr "Các câu hỏi thường gặp"
 
 #. Default: "Choose which style of button you'd like on your webpage:"
 #: c/engine/zero/templates/results.pt:72
 msgid "license.choose_button"
-msgstr "Choose which style of button you'd like on your webpage:"
+msgstr "Chọn kiểu nút bấm cho trang web của bạn"
 
 #. Default: "Here's a preview of how your waiver will appear on your site:"
 #: c/engine/zero/templates/results.pt:98
 msgid "license.zero.preview_waiver"
-msgstr "Here's a preview of how your waiver will appear on your site:"
+msgstr ""
+"Đây là hình ảnh trên trang của bạn sau khi bạn miễn các quyền liên quan "
+"đến tác phẩm để bạn xem trước."
 
 #. Default: "Your name"
 #: c/engine/zero/templates/waiver.pt:103
 msgid "util.your_name"
-msgstr "Your name"
+msgstr "Tên của bạn"
 
 #. Default: "Your URL"
 #: c/engine/zero/templates/waiver.pt:111 c/engine/zero/templates/waiver.pt:125
 msgid "util.your_url"
-msgstr "Your URL"
+msgstr "URL của bạn"
 
 #. Default: ""
 #. "The URL where people can find more information about \n"
@@ -3067,15 +3052,15 @@ msgstr "Your URL"
 #: c/engine/zero/templates/waiver.pt:126 c/engine/zero/templates/waiver.pt:124
 msgid "license.zero.your_url_help"
 msgstr ""
-"The URL where people can find more information about \n"
-"the work or the person using CC0."
+"URL nơi mà bạn có thể tìm thêm thông tin về tác phẩm hoặc người sử dụng "
+"CC0."
 
 #. Default: ""
 #. "Jurisdiction where the work is being \n"
 #. "\toffered from under CC0."
 #: c/engine/zero/templates/waiver.pt:166 c/engine/zero/templates/waiver.pt:164
 msgid "license.zero.country_help"
-msgstr "Jurisdiction from which the work is being offered under CC0."
+msgstr "Các điều khoản pháp luật mà theo đó tác phẩm được cấp phép CC"
 
 #. Default: ""
 #. "I hereby waive all copyright and related or neighboring\n"
@@ -3085,9 +3070,9 @@ msgstr "Jurisdiction from which the work is being offered under CC0."
 #: c/engine/zero/templates/waiver.pt:180
 msgid "license.zero.confirm_waiver"
 msgstr ""
-"I hereby waive all copyright and related or neighboring rights together "
-"with all associated claims and causes of action with respect to this work"
-" to the extent possible under the law."
+"Tôi xin miễn tất cả tác quyền và các quyền liên quan hoặc lân cận và các "
+"yêu cầu bồi thường và điều khoản liên quan tới tác phẩm này theo phạm vi "
+"pháp luật cho phép."
 
 #. Default: ""
 #. "I have read and understand the terms and intended legal\n"
@@ -3096,13 +3081,13 @@ msgstr ""
 #: c/engine/zero/templates/waiver.pt:205
 msgid "license.zero.confirm_reading"
 msgstr ""
-"I have read and understand the terms and intended legal effect of CC0, "
-"and hereby voluntarily elect to apply it to this work."
+"Tôi đã đọc và hiểu các điều khoản và hậu quả pháp lý của CC0 và xin tự "
+"nguyện áp dụng nó cho tác phẩm của tôi."
 
 #. Default: "continue"
 #: c/engine/zero/templates/waiver.pt:217
 msgid "util.continue"
-msgstr "continue"
+msgstr "tiếp tục"
 
 #. Default: ""
 #. "These fields are optional, but will be embedded in the HTML\n"
@@ -3112,116 +3097,115 @@ msgstr "continue"
 #: c/engine/zero/templates/waiver.pt:65
 msgid "license.zero.additional_metadata"
 msgstr ""
-"These fields are optional, but will be embedded in the HTML generated for"
-" your work. This allows users of your work to determine how to contact "
-"you or where to go for more information about the work."
+"Các trường này không bắt buộc nhưng sẽ được lồng vào HTLM dành cho tác "
+"phẩm của bạn. Điều này cho phép người sử dụng tác phẩm quyết định cách mà"
+" họ có thể liên hệ với bạn và nơi họ có thể tìm thêm thông tin về tác "
+"phẩm của bạn."
 
 #: c/engine/chooser_pages/index.pt:165 c/engine/chooser_pages/index.pt:170
 msgid "None of the above"
-msgstr ""
+msgstr "Không có cái nào trong các điều trên"
 
 #: c/engine/chooser_pages/index.pt:310
 msgid "Software"
-msgstr ""
+msgstr "Phần mềm"
 
 #: c/engine/chooser_pages/results.pt:103
 msgid "license.publish_ia"
 msgstr ""
-"Publish your licensed music or video to\n"
-"\t       the Internet Archive"
+"Công bố tác phẩm âm nhạc hoặc băng hình đã được cấp phép cho Internet "
+"Archive"
 
 #: c/engine/chooser_pages/results.pt:119
 msgid "license.offline_work"
-msgstr "Offline Work?"
+msgstr "Tác phẩm offline?"
 
 #: c/engine/chooser_pages/results.pt:129
 msgid "license.option_next_steps"
-msgstr "Optional next steps"
+msgstr "Các bước không bắt buộc tiếp theo"
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:14
 #: c/engine/pd/templates/publicdomain-3.pt:38
 msgid "deed.pd.title"
 msgstr ""
-"Copyright-Only Dedication<a href=\"#\" class=\"helpLink\" "
-"id=\"use_zero\">*</a>\n"
-"  (based on United States law)<br />\n"
-"  or Public Domain Certification"
+"Chỉ dành cho tác quyền (dựa vào luật của Mỹ) hoặc Giấy chứng nhận Vùng "
+"dành cho Công chúng"
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:25
 #: c/engine/licenses/standard_templates/deed.pt:22
 #: c/engine/publicdomain/zero_templates/deed.pt:25
 msgid "This license is acceptable for Free Cultural Works."
-msgstr ""
+msgstr "Giấy phép được chấp nhận cho các tác phẩm văn hóa sử dụng miễn phí."
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:47
 #: c/engine/publicdomain/zero_templates/deed.pt:141
 msgid "deed.use_this_tool"
-msgstr "Use this tool for your own work."
+msgstr "Sử dụng công cụ này cho tác phẩm của bạn"
 
 #: c/engine/licenses/standard_templates/deed.pt:110
 msgid "deed.with_the_understanding"
-msgstr "With the understanding that:"
+msgstr "Hiểu rằng: "
 
 #: c/engine/licenses/standard_templates/deed.pt:116
 msgid "util.waiver"
-msgstr "Waiver"
+msgstr "Miễn"
 
 #: c/engine/licenses/standard_templates/deed.pt:125
 msgid "util.other_rights"
-msgstr "Other Rights"
+msgstr "Các quyền khác"
 
 #: c/engine/licenses/standard_templates/deed.pt:128
 msgid "deed.other_rights"
-msgstr "In no way are any of the following rights affected by the license:"
+msgstr ""
+"Trong bất kỳ trường hợp nào thì các quyền sau cũng không bị ảnh hưởng bởi"
+" giấy phép:"
 
 #: c/engine/licenses/standard_templates/deed.pt:178
 msgid "deed.permission.help.title"
-msgstr "What does \"conditions can be waived\" mean?"
+msgstr "\"Các điều kiện có thể được miễn\" nghĩa là gì?"
 
 #: c/engine/licenses/standard_templates/deed.pt:182
 msgid "deed.permission.help"
 msgstr ""
-"CC licenses anticipate that a licensor may want to\n"
-"\t\twaive compliance with a specific condition, such as\n"
-"\t\tattribution."
+"Các giấy phép CC cũng đề cập rằng người cấp phép có thể muốn miễn một "
+"điều kiện đặc biệt nào đó, chẳng hạn như ghi công."
 
 #: c/engine/licenses/standard_templates/deed.pt:192
 msgid "deed.fair_use.help.title"
-msgstr "What does \"Fair use\" mean?"
+msgstr "\"Sử dụng công bằng\" nghĩa là gì?"
 
 #: c/engine/licenses/standard_templates/deed.pt:196
 msgid "deed.fair_use.help"
 msgstr ""
-"All jurisdictions\n"
-"              allow some limited uses of copyrighted material without\n"
-"              permission.  CC licenses do not affect the rights of\n"
-"              users under those copyright limitations and exceptions,\n"
-"              such as fair use and fair dealing where applicable."
+"Tất cả các điều khoản pháp lý cho phép sử dụng các tài liệu được cấp bản "
+"quyền một cách hạn chế mà không cần xin phép. Giấy phép CC không ảnh "
+"hưởng đến quyền của người sử dụng theo các giới hạn về tác quyền và các "
+"ngoại lệ đó, chẳng hạn như việc sử dụng và các giao dịch đúng đắn cho "
+"phép.  "
 
 #: c/engine/licenses/standard_templates/deed.pt:208
 msgid "deed.moralrights.help.title"
-msgstr "What are \"Moral Rights\"?"
+msgstr "\"Các quyền về đạo đức\" là gì?"
 
 #: c/engine/licenses/standard_templates/deed.pt:212
 msgid "deed.moralrights.help"
 msgstr ""
-"In addition to the right of licensors to request removal of their name "
-"from the work when used in a derivative or collective they don't like, "
-"copyright laws in most jurisdictions around the world (with the notable "
-"exception of the US except in very limited circumstances) grant creators "
-"\"moral rights\" which may provide some redress if a derivative work "
-"represents a \"derogatory treatment\" of the licensor's work."
+"Bên cạnh quyền yêu cầu được bỏ tên ra khỏi tác phẩm của người cấp phép "
+"khi được phát sử dụng dưới hình thức phái sinh hoặc tuyển tập mà họ không"
+" thích, luật tác quyền ở hầu hết các nước trên thế giới (ngoại lệ nổi "
+"tiếng là Mỹ ngoại trừ một số trường hợp rất bị hạn chế) cho người cấp "
+"phép \"quyền đạo đức\" có thể cho phép sửa đổi nếu một tác phẩm phái sinh"
+" thể hiện \"sự xúc phẩm\" tới tác phẩm của người cấp phép."
 
 #: c/engine/licenses/standard_templates/deed.pt:233
 msgid "deed.publicity_rights.help"
 msgstr ""
-"Publicity\n"
-"              rights allow individuals to control how their voice,\n"
-"              image or likeness is used for commercial purposes in\n"
-"              public.  If a CC-licensed work includes the voice or\n"
-"              image of anyone other than the licensor, a user of the\n"
-"              work may need to get permission from those individuals\n"
-"              before using the work for commercial purposes."
+"Quyền công bố tác phẩm cho phép các cá nhân kiểm soát giọng nói, hình ảnh"
+" hoặc sở thích được sử dụng cho các mục đích thương mại trong công chúng."
+" Nếu một tác phẩm được cấp phép CC có chứa giọng nói hoặc hình ảnh của "
+"một người không phải là của người cấp phép thì người sử dụng tác phẩm "
+"phải xin phép các cá nhân đó trước khi sử dụng cho các mục đích thương "
+"mại."
 
 #: c/engine/macros_templates/metadata.pt:24
 #: c/engine/macros_templates/metadata.pt:59
@@ -3237,63 +3221,61 @@ msgstr ""
 #: c/engine/chooser_pages/index.pt:112 c/engine/chooser_pages/index.pt:125
 #: c/engine/chooser_pages/index.pt:138
 msgid "Information"
-msgstr ""
+msgstr "Thông tin"
 
 #: c/engine/pd/templates/publicdomain-2.pt:20
 msgid "license.pd.intro_1"
 msgstr ""
-"You have selected the Public Domain Certification.  The Public\n"
-"    Domain Certification should only be used to certify a work that is\n"
-"    already in the public domain.  Creative Commons does not recommend\n"
-"    you use the Public Domain Certification for dedicating a work\n"
-"    still protected by copyright to the public domain.  To dedicate a\n"
-"    work to the public domain, consider\n"
-"    using <a href=\"/license/zero/\">CC0</a>.  Please note that if you\n"
-"    use the Public Domain Certification to dedicate a work to the\n"
-"    public domain, it may not be valid outside of the United States."
+"Bạn đã lựa chọn Giấy chứng nhận tác phẩm cho Vùng dành cho Công chúng. "
+"Giấy chứng nhận này chỉ được áp dụng cho một tác phẩm đã được dành cho "
+"vùng dành cho công chúng. CC không khuyến khích bạn áp dụng Giấy phép này"
+" cho các tác phẩm vẫn được bảo vệ bản quyền. Để hiến tặng một tác phẩm "
+"cho vùng dành cho công chúng, hãy sử dụng <a "
+"href=\"/license/zero/\">CC0</a>. Xin lưu ý rằng Giấy chứng nhận này chi "
+"được dùng để hiến một tác phẩm cho vùng dành cho công chúng trong nước "
+"Mỹ."
 
 #: c/engine/pd/templates/publicdomain-2.pt:37
 #: c/engine/pd/templates/publicdomain-2.pt:32
 msgid "license.pd.intro_3"
 msgstr ""
-"Once you're done filling this out, you will still have the\n"
-"    opportunity to confirm your choice before the certification\n"
-"    happens."
+"Khi bạn đã điền xong bạn vẫn có cơ hội khăng định lại sự lựa chọn của bạn"
+" trước khi có giấy phép."
 
 #: c/engine/pd/templates/publicdomain-2.pt:43
 msgid "license.pd.about_the_work"
-msgstr "About the work you are certifying"
+msgstr "Về tác phẩm mà bạn đang chứng nhận"
 
 #: c/engine/pd/templates/publicdomain-2.pt:47
 msgid "util.fields_required"
-msgstr "(all fields are required)"
+msgstr "(tất ca các trường đều bắt buộc)"
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:16
 #: c/engine/pd/templates/publicdomain-4.pt:17
 #: c/engine/pd/templates/publicdomain-3.pt:18
 #: c/engine/pd/templates/publicdomain-2.pt:16
 msgid "license.pd.identify_a_pd_work"
-msgstr "Identify a Public Domain Work"
+msgstr "Xác định một tác phẩm trong vùng dành cho công chúng."
 
 #: c/engine/publicdomain/templates/index.pt:14
 msgid "license.pdtools.title"
-msgstr "Our Public Domain Tools"
+msgstr "Các công cụ Vùng dành cho Công chúng của chúng tôi"
 
 #: c/engine/publicdomain/templates/index.pt:16
 msgid "license.pdtools.intro"
 msgstr ""
-"Our licenses help authors\n"
-"  keep and manage their copyright on terms they choose.  Our public\n"
-"  domain tools, on the other hand, facilitate the discovery of works\n"
-"  already in the public domain and enable authors and copyright owners\n"
-"  who want to dedicate their works to the public domain to do so."
+"Các giấy phép của chúng tôi giúp cho tác giả giữ và quản lý tác quyền với"
+" các điều khoản họ đã lựa chọn. Mặt khác, các công cụ vùng dành cho công "
+"chúng cua chúng tôi hỗ trợ việc tìm ra các tác phẩm đã được hiến cho vùng"
+" dành cho công chúng và cho phép tác giả và người sở hữu tác quyền nếu họ"
+" muốn hiến tác phẩm của họ cho vùng dành cho công chúng."
 
 #: c/engine/publicdomain/templates/index.pt:24
 msgid "license.pdtools.zero"
 msgstr ""
-"Use this universal tool if\n"
-"    you are a holder of copyright or database rights, and you wish to\n"
-"    waive all your interests in your work."
+"Sử dụng công cụ toàn cầu này nếu bạn là chủ nhân của tác quyền hoặc các "
+"quyền về dữ liệu, và nếu bạn muốn miễn các quyền liên quan đến tác phẩm "
+"của bạn."
 
 #: c/engine/publicdomain/templates/index.pt:33
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:8
@@ -3301,157 +3283,142 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-3.pt:8
 #: c/engine/pd/templates/publicdomain-2.pt:8
 msgid "util.public_domain_certification"
-msgstr "Public Domain Certification"
+msgstr "Giấy chứng nhận Vùng dành cho Công chúng"
 
 #: c/engine/publicdomain/templates/index.pt:35
 msgid "license.pdtools.pdc"
 msgstr ""
-"Use this tool if you have\n"
-"    identified and want to certify other works that are already in the\n"
-"    public domain.  You will also be relinquishing any rights in the\n"
-"    work you may have under copyright.  Creative Commons does not\n"
-"    recommend this tool for use with works under copyright - \n"
-" consider using CC0 instead."
+"Hãy sử dụng công cụ này nếu bạn đã xác định và muốn chứng nhận các tác "
+"phẩm đã trong vùng dành cho công chúng. Bạn cũng sẽ miễn bất kỳ quyền nào"
+" mà bạn có đối với tác phẩm của bạn theo luật tác quyền. CC không khuyến "
+"khích sử dụng công cụ này với các tác phẩm được tác quyền. Trong trường "
+"hợp đó, hãy sử dụng CC0."
 
 #: c/engine/zero/templates/index.pt:59
 msgid "license.zero.intro_1"
 msgstr ""
-"Using CC0, you can waive all copyrights and related or\n"
-"\t  neighboring rights that you have over your work, such as\n"
-"\t  your moral rights (to the extent waivable), your publicity\n"
-"\t  or privacy rights, rights you have protecting against unfair\n"
-"\t  competition, and database rights and rights protecting the\n"
-"\t  extraction, dissemination and reuse of data."
+"Sử dụng CC0, bạn có thể miễn tác quyền và các quyền liên quan hoặc lân "
+"cận với tác phẩm của bạn, ví dụ như các quyền đạo đức (ở mức độ có thể "
+"miễn được), các quyền công bố hoặc quyền cá nhân, các quyền đối chống lại"
+" việc cạnh tranh không lành mạnh, quyền về dữ liệu và quyền chống lại "
+"việc bóc tách, phân biệt và tái sử dụng dữ liệu."
 
 #: c/engine/zero/templates/index.pt:68
 msgid "license.zero.intro_2"
 msgstr ""
-"Keep in mind that you cannot waive rights to a work that you\n"
-"\t  do not own unless you have permission from the owner.  To\n"
-"\t  avoid infringing third party rights, you should consult with\n"
-"\t  your legal advisor if you are unsure whether you have all\n"
-"\t  the rights you need to distribute the work."
+"Nên nhớ rằng bạn không thể miễn các quyền đối với một tác phẩm mà bạn "
+"không sở hữu trừ khi bạn được tác giả cho phép. Để tránh việc vi phạm tới"
+" các quyền của bên thứ 3, bạn nên xin tư vấn từ luật sư của bạn nếu bạn "
+"không chắc rằng bạn có các quyền cấn thiết để phân phối tác phẩm không."
 
 #: c/engine/zero/templates/waiver.pt:83
 msgid "license.zero.metadata_help"
 msgstr ""
-"<p>\n"
-"\t  The information is embedded in a software readable format.\n"
-"\t  This allows search engines to index additional information\n"
-"\t  about your work.\n"
-"\t</p>\n"
-"\t<p>\n"
-"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
-"\t    information</a> on Creative Commons metadata is available if\n"
-"\t  you want to find out more.\n"
-"\t</p>"
+"Thông tin được lưu trong định dạng phần mềm dễ đọc. Điều này cho phép "
+"công cụ tìm kiếm đánh dấu các thông tin bô sung về tác phẩm của bạn."
 
 #: c/engine/pd/templates/publicdomain-3.pt:65
 msgid "deed.pd.title_plain"
 msgstr ""
-"Copyright-Only Dedication (based on United States law) \n"
-"or Public Domain Certification"
+"Chỉ hiến tặng riêng cho tác quyền (dựa vào luật của Mỹ) hoặc Chứng nhận "
+"Vùng dành cho Công chúng."
 
 #: c/engine/pd/templates/publicdomain-2.pt:58
 msgid "util.author"
-msgstr "Author"
+msgstr "Tác giả"
 
 #: c/engine/pd/templates/publicdomain-3.pt:118
 msgid "license.pdc.confirm_reading"
 msgstr ""
-"I have read and understand the terms and intended legal\n"
-"\t    effect of this tool, and hereby voluntarily elect to apply it to\n"
-"\t    this work."
+"Tôi đã đọc và hiểu hiệu quả của các điều khoản pháp lý của công cụ này và"
+" tôi tình nguyện áp dụng nó cho tác phẩm của tôi."
 
 #: c/engine/pd/templates/publicdomain-3.pt:56
 msgid "license.pd.confirm_title"
-msgstr "Confirm Your Public Domain Certification"
+msgstr "Khẳng định Chứng nhận Vùng dành cho Công chúng"
 
 #: c/engine/publicdomain/templates/index.pt:34
 #: c/engine/publicdomain/templates/index.pt:51
 msgid "util.use_this_tool"
-msgstr "Use this tool"
+msgstr "Sử dụng công cụ này"
 
 #: c/engine/publicdomain/zero_templates/deed.pt:67
 msgid "deed.zero.other_rights"
-msgstr "In no way are any of the following rights affected by CC0:"
+msgstr ""
+"Trong bất kỳ trường hợp nào các quyền sau cũng sẽ không bị ảnh hưởng bởi "
+"CC0"
 
 msgid "country.th"
-msgstr "Thailand"
+msgstr "Nước Thái Lan"
 
 msgid "lang.th"
-msgstr "Thai"
+msgstr "Người Thái Lan"
 
 #: c/engine/licenses/standard_templates/deed.pt:162
 msgid "util.notice"
-msgstr "Notice"
+msgstr "Thông báo"
 
 msgid "lang.cs"
-msgstr "Czech"
+msgstr "Người Séc"
 
 #: c/engine/chooser_pages/partner/index.pt:36
 msgid "license.partner.publicdomain_options"
 msgstr ""
-"If you want to share a work you created with no conditions, choose\n"
-"<a href=\"${cc0_url}\">CC0</a>. If\n"
-"   you're sharing a work that isn't covered by copyright or on which\n"
-"   the copyright has expired, choose the\n"
-"   <a href=\"${pd_url}\">public domain certification</a>."
+"Nếu bạn muốn chia sẻ một tác phẩm của bạn vô điều kiện, ạn hãy chọn <a "
+"href=\"${cc0_url}\">CC0</a>. Nếu bạn muốn chia sẻ một tác phẩm không được"
+" bảo hộ tác quyền hoặc tác quyền đã hết hạn bảo hộ, hãy chọn chứng nhận "
+"dành cho công chúng."
 
 #: c/engine/pd/templates/publicdomain-partner.pt:24
 msgid "license.partner.pd_intro"
 msgstr ""
-"Your choice suggests you\n"
-"want to certify a work is in the public domain. The Public Domain\n"
-"Certification is not a license. By using it you assert that a work is\n"
-"already in the public domain."
+"Lựa chọn của bạn cho thấy bạn muốn chúng nhận cho một tác phẩm trong vùng"
+" dành cho công chúng. Giấy chứng nhận Vùng Dành cho Công chúng không phải"
+" là giấy phép. Bằng việc sử dụng Giấy phép này bạn đã khẳng định rằng tác"
+" phẩm của bạn đã được dành cho công chúng."
 
 #: c/engine/pd/templates/publicdomain-partner.pt:31
 msgid "license.partner.pd.use_cc0"
 msgstr ""
-"If instead you want to\n"
-"waive copyright and neighboring rights on a work <em>in which you hold\n"
-"these rights</em>, choose <a href=\"${cc0_url}\">CC0</a>."
+"Nếu thay bằng như vậy bạn lại muốn miễn tác quyền và các quyền lân cận "
+"của tác phẩm mà bạn đang sở các quyền này."
 
 #: c/engine/zero/templates/partner.pt:44
 msgid "license.partner.zero.use_pdc_instead"
 msgstr ""
-"If\n"
-"\tinstead you want to certify that a work is <em>already in the\n"
-"\tpublic domain</em>, use\n"
-"\tthe <a href=\"${pd_url}\">Public\n"
-"\tDomain Certification</a>."
+"Nếu thay bằng việc như vậy bạn lại muốn chúng thực cho một tác phẩm đã ở "
+"trong vùng dành cho công chúng, hãy sử dụng Giấy Chứng nhận Vùng dành cho"
+" Công chúng."
 
 msgid "lang.ar"
-msgstr "Arabic"
+msgstr "Người Ả Rập"
 
 #. Default: "Territory"
 #: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
 msgid "util.territory"
-msgstr "Territory"
+msgstr "Lãnh thổ"
 
 msgid "deed.zero.no-endorsment"
 msgstr ""
-"Works under CC0 do not require attribution.  When citing the work, you "
-"should not imply endorsement by the author."
+"Các tác phẩm được cấp phép CC0 không cần được ghi công. Khi ghi lại tác "
+"phẩm bạn không nên ngụ ý sự đồng ý của tác giả."
 
 #: s/standard_templates/deed.pt:121
 msgid "deed.public_domain"
 msgstr ""
-"Where the work or any of its elements is in the <a "
-"href=\"http://wiki.creativecommons.org/Public_domain\" "
-"id=\"public_domain\" class=\"helpLink\">public domain</a> under "
-"applicable law, that status is in no way affected by the license."
+"Khi tác phẩm hoặc bất kỳ chương nào của tác phẩm đã trong vùng dành cho "
+"công chúng theo quy định của pháp luật thì tình trạng của nó không bị ảnh"
+" hưởng bởi giấy phép trong bất kỳ trường hợp nào."
 
 #: s/standard_templates/deed.pt:209
 msgid "deed.public_domain.help.title"
-msgstr "What does \"Public Domain\" mean?"
+msgstr "\"Vùng dành cho Công chúng\" nghĩa là gì?"
 
 #: s/standard_templates/deed.pt:213
 msgid "deed.public_domain.help"
 msgstr ""
-"A work is in the public domain when it is free for use by anyone for any "
-"purpose without restriction under copyright."
+"Một tác phẩm trong vùng dành cho công chúng sẽ được sử dụng miễn phí bởi "
+"bất kỳ ai, cho bất kỳ lý do gì mà không bị giới hạn bởi tác quyền."
 
 msgid "lang.ast_ES"
 msgstr "Asturian"
@@ -3460,26 +3427,26 @@ msgid "lang.oci_ES"
 msgstr "Aranese"
 
 msgid "lang.lt"
-msgstr "Lithuanian"
+msgstr "Người Lít va"
 
 msgid "lang.ur"
-msgstr "Urdu"
+msgstr "Tiếng Urdu"
 
 msgid "lang.lv"
-msgstr "Latvian"
+msgstr "Nước Latvian"
 
 msgid "lang.uk"
-msgstr "Ukranian"
+msgstr "Người Ukraina"
 
 msgid "util.Universal"
-msgstr "Universal"
+msgstr "Toàn cầu"
 
 msgid "lang.ru"
-msgstr "Russian"
+msgstr "Người Nga"
 
 msgid "lang.be"
-msgstr "Belarusian"
+msgstr "Người Bê la rút"
 
 msgid "lang.mn"
-msgstr "Mongolian"
+msgstr "Người Mông Cổ"
 
