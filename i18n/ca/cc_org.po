@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2010-05-04 11:48-0400\n"
-"PO-Revision-Date: 2010-05-04 11:48-0400\n"
+"POT-Creation-Date: 2010-05-13 14:23-0400\n"
+"PO-Revision-Date: 2010-05-13 14:23-0400\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ca <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -820,12 +820,18 @@ msgstr ""
 "licenses@creativecommons.org."
 
 #: c/engine/chooser_pages/index.pt:170 c/engine/chooser_pages/sampling.pt:106
-#, fuzzy
 msgid "license.jurisdiction_help"
 msgstr ""
-"Si desitgeu protegir la vostra obra sota les lleis de propietat "
-"intel·lectual d'una jurisdicció específica, si us plau seleccioneu la "
-"versió apropiada de la llicència."
+"Utilitzeu l'opció \"Internacional\" si desitgeu una llicència amb un "
+"llenguatge\n"
+"i una terminologia de tractats internacionals. Si les llicències s'han\n"
+"adaptat a la vostra jurisdicció i creieu que aquestes\n"
+"aporten algun aspecte de la legislació local diferent a les\n"
+"internacionals, hauríeu de considerar\n"
+"<a "
+"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">quina"
+"\n"
+"llicència encaixa millor a les vostres necessitats</a>."
 
 #: c/engine/licenses/fsf_templates/deed.pt:34
 msgid "deed.gpl_free_run"
@@ -1935,16 +1941,18 @@ msgstr "Metadades incrustades"
 msgid "license.metadata_help"
 msgstr ""
 "<p>\n"
-"\t  The information is embedded in a software readable format.\n"
-"\t  This allows search engines to index additional information\n"
-"\t  about your work and allows people coming to the license deed\n"
-"\t  from your page to see information on the deed about how to\n"
-"\t  attribute your work.  \n"
+"\t La informació s'incrusta en un format llegible mitjançant aplicacions "
+"de programari.\n"
+"\t Això permet que els motors de cerca indexin informació addicional \n"
+"\t de la vostra obra i permet que la gent que accedeixi al resum de la "
+"llicència\n"
+"\t de la vostra pàgina hi pugui veure la manera com han\n"
+"\t de reconèixer l'autoria de la vostar obra. \n"
 "\t</p>\n"
 "\t<p>\n"
-"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
-"\t    information</a> on Creative Commons metadata is available if\n"
-"\t  you want to find out more.\n"
+"\t <a href=\"http://wiki.creativecommons.org/Metadata\">Si voleu\n"
+"\t més informació</a> sobre les metadades de Creative Commons podeu "
+"consultar-la.\n"
 "\t</p>"
 
 #: e/macros_templates/metadata.pt:140
@@ -2124,10 +2132,10 @@ msgstr "Sense drets d'explotació"
 #: c/engine/licenses/zero_templates/deed.pt:33
 msgid "deed.zero.nocopyright-text"
 msgstr ""
-"The person who associated a work with this document has dedicated the "
-"work to the Commons by waiving all of his or her rights to the work "
-"worldwide under copyright law and all related or neighboring legal rights"
-" he or she had in the work, to the extent allowable by law."
+"La persona que ha associat una obra amb aquest document l'ha entregada "
+"als béns comuns mitjançant la renúncia de tots els drets sobre l'obra pel"
+" que fa a la propietat intel·lectual, incloent-hi els drets afins, fins "
+"on és possible amb la llei vigent."
 
 #. Default: "Attribute this work:"
 #: c/engine/licenses/zero_templates/deed.pt:42
@@ -2165,11 +2173,12 @@ msgstr "Què són els \"Drets de Publicitat\"?"
 #: c/engine/licenses/zero_templates/deed.pt:87
 msgid "deed.zero.publicity_rights.help"
 msgstr ""
-"Publicity rights allow individuals to control how their voice, image or "
-"likeness is used for commercial purposes in public.  If a work under CC0 "
-"includes the voice or image of anyone other than the affirmer, a user of "
-"the work may need to get permission from those individuals before using "
-"the work for commercial purposes."
+"Els dret a la pròpia imatge atorga a les persones el control sobre com "
+"s'ha d'utilitzar la seva veu, imatge o semblança per a finalitats "
+"comercials en públic. Si una obra amb una llicència CC0 inclou  la veu o "
+"la imatge d'alguna persona més que qui ha assignat la llicència, l'usuari"
+" de l'obra pot necessitar l'autorització d'aquestes altres persones abans"
+" d'utilitzar l'obra comercialment."
 
 #. Default: "Learn more"
 #: c/engine/licenses/zero_templates/deed.pt:95
@@ -2258,10 +2267,10 @@ msgstr "inici"
 #: c/engine/zero/templates/results.pt:108
 msgid "license.zero.copy_text"
 msgstr ""
-"Copy the text below to your Web site to let your visitors know that "
-"you've waived the rights to your work.  Creative Commons does not retain "
-"a record of your selection; as the publisher it's up to you to let people"
-" know how they may use your work."
+"Copieu el text inferior en el vostre lloc web per permetre que els "
+"visitants s'assabentin que heu renunciat als drets sobre la vostra obra. "
+"Creative Commons no enregistra la vostra elecció; com a editor és la "
+"vostra tasca informar a la gent sobre com poden utilitzar la vostra obra."
 
 #. Default: "Send Email"
 #: c/engine/zero/templates/results.pt:122
@@ -2439,8 +2448,8 @@ msgid "deed.pd.title"
 msgstr ""
 "Copyright-Only Dedication<a href=\"#\" class=\"helpLink\" "
 "id=\"use_zero\">*</a>\n"
-"  (based on United States law)<br />\n"
-"  or Public Domain Certification"
+"(basada en la legislació dels EUA)<br />\n"
+"o Certificació de Domini Públic"
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:25
 #: c/engine/licenses/standard_templates/deed.pt:22
@@ -2557,7 +2566,7 @@ msgstr ""
 
 #: c/engine/pd/templates/publicdomain-2.pt:43
 msgid "license.pd.about_the_work"
-msgstr "About the work you are certifying"
+msgstr "Quant a l'obra que esteu oferint"
 
 #: c/engine/pd/templates/publicdomain-2.pt:47
 msgid "util.fields_required"
@@ -2596,7 +2605,7 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-3.pt:8
 #: c/engine/pd/templates/publicdomain-2.pt:8
 msgid "util.public_domain_certification"
-msgstr "Public Domain Certification"
+msgstr "Certificat de domini públic"
 
 #: c/engine/publicdomain/templates/index.pt:35
 msgid "license.pdtools.pdc"
@@ -2644,8 +2653,8 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-3.pt:65
 msgid "deed.pd.title_plain"
 msgstr ""
-"Copyright-Only Dedication (based on United States law) \n"
-"or Public Domain Certification"
+"Copyright-Only Dedication (basada en la legislació dels EUA) \n"
+"o Certificació de Domini Públic"
 
 #: c/engine/pd/templates/publicdomain-2.pt:58
 msgid "util.author"
@@ -2654,13 +2663,14 @@ msgstr "Autor"
 #: c/engine/pd/templates/publicdomain-3.pt:118
 msgid "license.pdc.confirm_reading"
 msgstr ""
-"I have read and understand the terms and intended legal\n"
-"\t    effect of this tool, and hereby voluntarily elect to apply it to\n"
-"\t    this work."
+"He llegit i entenc les condicions i els efectes legals\n"
+"\t relacionats amb aquest instrument i per la present opto de manera "
+"voluntària\n"
+" \t aplicar-lo a aquesta obra"
 
 #: c/engine/pd/templates/publicdomain-3.pt:56
 msgid "license.pd.confirm_title"
-msgstr "Confirm Your Public Domain Certification"
+msgstr "Confirmeu el vostre Certificat de domini públic"
 
 #: c/engine/publicdomain/templates/index.pt:34
 #: c/engine/publicdomain/templates/index.pt:51
@@ -2687,35 +2697,38 @@ msgstr "Txec"
 #: c/engine/chooser_pages/partner/index.pt:36
 msgid "license.partner.publicdomain_options"
 msgstr ""
-"If you want to share a work you created with no conditions, choose\n"
-"<a href=\"${cc0_url}\">CC0</a>. If\n"
-"   you're sharing a work that isn't covered by copyright or on which\n"
-"   the copyright has expired, choose the\n"
-"   <a href=\"${pd_url}\">public domain certification</a>."
+"Si voleu compartir sense condicions una obra que heu creat, escolliu\n"
+"<a href=\"${cc0_url}\">CC0</a>. Si\n"
+"   compartiu una obra que no està protegida per la propietat "
+"intel·lectual o els drets\n"
+"   sobre la qual s'han exhaurit, escolliu el\n"
+"   <a href=\"${pd_url}\">certificat de domini públic</a>."
 
 #: c/engine/pd/templates/publicdomain-partner.pt:24
 msgid "license.partner.pd_intro"
 msgstr ""
-"Your choice suggests you\n"
-"want to certify a work is in the public domain. The Public Domain\n"
-"Certification is not a license. By using it you assert that a work is\n"
-"already in the public domain."
+"La vostra elecció suggereix que\n"
+"voleu certificar que una obra és al domini públic. El Certificat del\n"
+"domini públic no és una llicència. Utilitzant-lo afirmeu que una obra ja "
+"es troba\n"
+"en el domini públic."
 
 #: c/engine/pd/templates/publicdomain-partner.pt:31
 msgid "license.partner.pd.use_cc0"
 msgstr ""
-"If instead you want to\n"
-"waive copyright and neighboring rights on a work <em>in which you hold\n"
-"these rights</em>, choose <a href=\"${cc0_url}\">CC0</a>."
+"Si en canvi voleu \n"
+"renunciar als drets d'autor i els drets afins sobre l'obra <em>dels quals"
+" en sou\n"
+"titular</em>, escolliu <a href=\"${cc0_url}\">CC0</a>."
 
 #: c/engine/zero/templates/partner.pt:44
 msgid "license.partner.zero.use_pdc_instead"
 msgstr ""
 "Si\n"
-"\ten canvi voleu certificar que una obra <em>ja es troba en el \n"
-"\tdomini públic</em>, utilitzeu\n"
-"\tla <a href=\"${pd_url}\">Certificació\n"
-"\tdel domini públic</a>."
+"\\en canvi voleu certificar que una obra <em>ja es troba en el \n"
+"\tdomini públic</em>, utilitzeu el \n"
+"\tla <a href=\"${pd_url}\">Certificat\n"
+"\tde domini públic</a>."
 
 msgid "lang.ar"
 msgstr "Àrab"
@@ -2762,20 +2775,23 @@ msgid "lang.ur"
 msgstr "Urdu"
 
 msgid "lang.lv"
-msgstr "Latvian"
+msgstr "Letó"
 
 msgid "lang.uk"
-msgstr "Ukranian"
+msgstr "Ucraïnès"
 
 msgid "util.Universal"
 msgstr "Universal"
 
 msgid "lang.ru"
-msgstr "Russian"
+msgstr "Rus"
 
 msgid "lang.be"
-msgstr "Belarusian"
+msgstr "Bielorús"
 
 msgid "lang.mn"
-msgstr "Mongolian"
+msgstr "Mongol"
+
+msgid "lang.as"
+msgstr "Assamese"
 
