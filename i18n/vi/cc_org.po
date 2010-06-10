@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2010-06-01 14:45-0700\n"
-"PO-Revision-Date: 2010-06-01 14:45-0700\n"
+"POT-Creation-Date: 2010-06-10 21:25+0000\n"
+"PO-Revision-Date: 2010-06-10 21:25+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: vi <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -140,46 +140,40 @@ msgstr "Giấy phép Creative Commons "
 #: c/engine/macros_templates/support.pt:154
 #: c/engine/pd/templates/publicdomain-4.pt:25
 msgid "license.mark_content"
-msgstr "mark content"
+msgstr "đánh dấu nội dung"
 
 #. You may exercise the freedoms specified here provided that you comply with
 #. the express conditions of this license. The principal conditions are:
 #: c/engine/licenses/fsf_templates/deed.pt:48
 msgid "deed.gpl_under_conditions"
 msgstr ""
-"You may exercise the freedoms specified here provided that you comply "
-"with the express conditions of this license. The principal conditions "
-"are:"
+"Bạn có các quyền được nêu ở đây và thực hiện các quyền đó với điều kiện "
+"bạn tuân thủ các điều kiện của giấy phép. Các điều kiện chủ yếu là:"
 
 #. Belgium
 msgid "country.be"
-msgstr "Belgium"
+msgstr "Nước Bỉ"
 
 #. This ${work_type} is dedicated to the <a rel="license"
 #. href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.
 msgid "license.work_type_dedicated"
-msgstr ""
-"()${work_type} này được hiến vào() <a rel=\"license\" "
-"href=\"http://creativecommons.org/licenses/publicdomain/\">Phạm vi Công "
-"chúng</a>.()${work_type} này được hiến vào() <a rel=\"license\" "
-"href=\"http://creativecommons.org/licenses/publicdomain/\">Phạm vi Công "
-"chúng</a>."
+msgstr "Tác phẩm này nằm trong Phạm vi Công chúng"
 
 #. Allow modifications of your work?
 #: c/engine/chooser_pages/index.pt:77
 msgid "api.derivatives"
-msgstr "Allow modifications of your work?"
+msgstr "Có cho phép chỉnh sửa tác phẩm của bạn không?"
 
 #. Your rights to exploit the work based on the limitations to copyright
 #. clauses and other rights are in no way affected by the above.
 msgid "deed.fair_use.jp"
 msgstr ""
-"Your rights to exploit the work based on the limitations to copyright "
-"clauses and other rights are in no way affected by the above."
+"Quyền khai thác tác phẩm dựa trên các giới hạn của điều khoản tác quyền "
+"và các quyền khác sẽ không bị ảnh hưởng bởi những điều nêu trên."
 
 #. back to <a href="/">Creative Commons</a>
 msgid "deed.back_to_cc"
-msgstr "back to <a href=\"/\">Creative Commons</a>"
+msgstr "trở lại với Creative Commons"
 
 #. Here's how the CC-GNU ${license_code} works: A user clicking on the Creative
 #. Commons icon gets the CC-GNU ${license_code} "<a
@@ -194,36 +188,33 @@ msgstr "back to <a href=\"/\">Creative Commons</a>"
 #: c/engine/chooser_pages/gpl.pt:63 c/engine/chooser_pages/lgpl.pt:66
 msgid "license.fsf_how_it_works"
 msgstr ""
-"Here's how the CC-GNU ${license_code} works: A user clicking on the "
-"Creative Commons icon gets the CC-GNU ${license_code} \"<a "
-"href=\"/licenses/${license_code}/${version_title}/\">Commons Deed</a>\" —"
-" a human readable version of the license. From that she can link to \"<a "
-"href=\"http://www.gnu.org/licenses/old-"
-"licenses/${license_name_lower}.html\">Legal Code</a>\" — the full text of"
-" the GNU ${license_code}, in English and <a "
-"href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">Portuguese</a>."
-" And hidden in the tag is \"Machine-Readable Code\" — metadata — that "
-"will enable others to find your software."
+"Đây là cách thức hoạt động của CC-GNU. Người sử dụng nhấp chuột vào biểu "
+"tượng Creative Commons để lấy CC-GNU — phiên bản giấy phép và con người "
+"có thể đọc hiểu. Từ đó, họ có thể kết nối với \"<a "
+"()=\"http://www.gnu.org/licenses/old-"
+"licenses/${license_name_lower}.html\">Legal Code</a>\" — văn bản đầy đủ "
+"của GNU  bằng Tiếng Anh và Tây Ban Nha. Và ẩn sau thẻ dấu là Ngôn ngữ mã "
+"máy metadata — cho phép người khác tìm ra phần mềm của bạn"
 
 #. You must retain the license terms and copyright notice in any source code
 #. distribution and reproduce them in documentation for binary distributions.
 #: c/engine/licenses/mitbsd_templates/deed.pt:46
 msgid "deed.bsd_notice"
 msgstr ""
-"You must retain the license terms and copyright notice in any source code"
-" distribution and reproduce them in documentation for binary "
-"distributions."
+"Bạn phải lưu lại các điều khoản của giấy phép và thông báo tác quyền "
+"trong bất kỳ lần phân phối mã nguồn nào và tái phân phối trong tài liệu "
+"nhị phân. "
 
 #. NoDerivs
 msgid "licenses.pretty_nd"
-msgstr "NoDerivs"
+msgstr "Không Phái sinh"
 
 #. We have updated the version of your license to the most recent one
 #. available.
 msgid "jswidget.Updated_license_version_generic"
 msgstr ""
-"We have updated the version of your license to the most recent one "
-"available."
+"Chúng tôi đã cập nhật các phiên bản giấy phép của bạn theo phiên bản mới "
+"nhất của chúng tôi."
 
 #. NonCommercial
 #: c/engine/chooser_pages/index.pt:67
@@ -241,40 +232,31 @@ msgstr "Catalan"
 #: c/engine/chooser_pages/gpl.pt:66 c/engine/chooser_pages/lgpl.pt:69
 msgid "license.fsf_mark_software"
 msgstr ""
-"<h1>Mark Software</h1>\n"
-"\n"
-"<p>Display the icon on any site you offer your software for download "
-"using the following markup:</p>"
+"Phần mềm đánh dấuHãy hiển thị biểu tượng ở bất kỳ trang web nào mà bạn "
+"cho phép người khác tải phần mềm của bạn, sử dụng ký hiệu sau: </p>"
 
 #. This ${work_type} is licensed under a <a rel="license"
 #. href="${license_url}">Creative Commons ${license_name} License</a>.
 msgid "license.work_type_licensed"
-msgstr ""
-"This ${work_type} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+msgstr "Tác phẩm này được cấp phép theo giấy phép theo giấy phép CC. "
 
 #. This ${work_type} by ${work_author} is licensed under a <a rel="license"
 #. href="${license_url}">Creative Commons ${license_name} License</a>.
 msgid "license.rdfa_licensed_no_title"
-msgstr ""
-"This ${work_type} by ${work_author} is licensed under a <a "
-"rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
-"License</a>."
+msgstr "Tác phẩm này, của tác giả này được cấp giấy phép CC."
 
 #. Human-Readable<br />
 #. Commons Deed
 #: c/engine/chooser_pages/gpl.pt:46 c/engine/chooser_pages/lgpl.pt:47
 msgid "license.human-readable_commons_deed"
-msgstr ""
-"Human-Readable<br />\n"
-"Commons Deed"
+msgstr "Con người có thể đọc hiểu được (Commons Deed)"
 
 #. confirm choice
 #: c/engine/macros_templates/support.pt:93
 #: c/engine/macros_templates/support.pt:97
 #: c/engine/pd/templates/publicdomain-partner.pt:22
 msgid "license.confirm_choice"
-msgstr "confirm choice"
+msgstr "khẳng định lựa chọn"
 
 #. <div style="float:right;width:175px;border:1px solid
 #. #ccc;padding:8px;margin:0px 14px 10px 14px;background:#eee;">Want to <a
@@ -296,28 +278,8 @@ msgstr "confirm choice"
 #: c/engine/chooser_pages/sampling.pt:54
 msgid "license.sampling_explain"
 msgstr ""
-"<div style=\"float:right;width:175px;border:1px solid "
-"#ccc;padding:8px;margin:0px 14px 10px 14px;background:#eee;\">Want to <a "
-"href=\"/about/sampling\">learn more about the sampling licenses</a> and "
-"how Negativland helped us write them? Or check out an explanation <a "
-"href=\"/about/licenses/sampling\">in comic-book format</a>?</div>\n"
-"\n"
-"<p>The Sampling licenses let you invite other people to use a part of "
-"your work and make it new.</p>\n"
-"\n"
-"<p>For example:</p>\n"
-"\n"
-"<ul>\n"
-"<li>To take a sample from your song and include it in their own.</li>\n"
-"<li>To use a clip from your film.</li>\n"
-"<li>To take a piece of your photograph and put it into a collage.</li>\n"
-"</ul>\n"
-"\n"
-"<p>Think of it as a way to reward people for transforming your work into "
-"something it wasn't before.</p>\n"
-"\n"
-"<p>On certain conditions, that is. There are two flavors of the Sampling "
-"license. Pick the one that reflects your creative style:</p>"
+"Bạn có các quyền được nêu ở đây và thực() hiện các quyền đó với điều kiện"
+" bạn tuân thủ các điều kiện của giấy phép. Các điều kiện chủ yếu ()là: ()"
 
 #. This is a record of a Public Domain Dedication.
 #. On ${sysdate}, ${copyright_holder} dedicated to the public domain the
@@ -338,31 +300,31 @@ msgstr ""
 #. <http://creativecommons.org/licenses/publicdomain/>.
 msgid "license.pd_dedication_email"
 msgstr ""
-"This is a record of a Public Domain Dedication.\n"
+"Đây là bản lưu của Vùng dành riêng cho công chúng.\n"
 "\n"
-"On ${sysdate}, ${copyright_holder} dedicated to the public domain the\n"
-"work \"${title}.\" Before making the dedication, ${copyright_holder}\n"
-"represented that ${copyright_holder} owned all copyrights in the\n"
-"work. By making the dedication, ${copyright_holder} made an overt act\n"
-"of relinquishment in perpetuity of all present and future rights under\n"
-"copyright law, whether vested or contingent, in \"${title}.\"\n"
+"Trên ${sysdate}, ${tác quyền_người sở hữu} được dành cho vùng dành cho "
+"công chúng. \"${title}.\" Trước khi làm việc này, ${tác quyền_người sở "
+"hữu}\n"
+"thể hiện rằng ${tác quyền_người sở hữu} làm chủ tất cả các tác quyền của "
+"tác phẩm. Bằng việc tặng cho công chúng, ${tác quyền_người sở hữu} công "
+"khai trao quyền vĩnh viễn bây giờ và mãi mãi các quyền theo luật tác "
+"quyền một cách vô ý hay chủ ý, in \"${title}.\"\n"
 "\n"
-"${copyright_holder} understands that such relinquishment of all rights\n"
-"includes the relinquishment of all rights to enforce (by lawsuit or\n"
-"otherwise) those copyrights in the Work.\n"
-"\n"
-"${copyright_holder} recognizes that, once placed in the public domain,\n"
-"\"${title}\" may be freely reproduced, distributed, transmitted, used,\n"
-"modified, built upon, or otherwise exploited by anyone for any\n"
-"purpose, commercial or non-commercial, and in any way, including by\n"
-"methods that have not yet been invented or conceived.\n"
-"\n"
-"For more information, please see\n"
-"<http://creativecommons.org/licenses/publicdomain/>."
+"${tác quyền_người sở hữu} hiểu rằng sự trao toàn bộ quyền hạn như vậy "
+"nhằm gắn chặt các tác quyền đó với tác phẩm theo pháp luật hoặc bằng cách"
+" khác. \n"
+"${tác quyền_người sở hữu } nhận thức được rằng khi tác phẩm đã được đặt "
+"vào vùng dành riêng cho công chúng thì \"${title}\" tác phẩm đó được sao "
+"chép,xuất bản, tuyên truyền và sử dụng, biến đổi, phát triển miễn phí, "
+"nói cách khác, tác phẩm có thể được khai thác bởi bất cứ ai, cho bất cứ "
+"mục đíchgì thương mại và phi thương mại, và bằng bất kỳ cách nào, bao gồm"
+" cả các phương pháp chưa từng được biết đến hoặc tìm ra.Để biết thêm "
+"thông tin, xin mời truy cập trang "
+"web:<http://creativecommons.org/licenses/publicdomain/>."
 
 #. Bulgarian
 msgid "lang.bg"
-msgstr "Bulgarian"
+msgstr "Nước Bun Ga Ri"
 
 #. This software is licensed under the <a href="${license_url}">CC-GNU
 #. ${license_code}</a>.
@@ -370,14 +332,14 @@ msgstr "Bulgarian"
 #: c/engine/chooser_pages/lgpl.pt:38 c/engine/chooser_pages/lgpl.pt:82
 msgid "license.fsf_software_licensed"
 msgstr ""
-"This software is licensed under the <a href=\"${license_url}\">CC-GNU "
-"${license_code}</a>."
+"Phần mền này được cấp giấy phép theo <a href=\"${license_url}\">CC-GNU "
+"${license_code}</"
 
 #. title of work
 #: c/engine/pd/templates/publicdomain-2.pt:34
 #: c/engine/macros_templates/metadata.pt:46
 msgid "util.title_of_work"
-msgstr "Tiêu đề của sản phẩm"
+msgstr "Tiêu đề của tác phẩm"
 
 #. If you modify your copy or copies of the program or any portion of it, or
 #. develop a program based upon it, you may distribute the resulting work
@@ -403,38 +365,38 @@ msgstr "Cấp phép cho tác phẩm của bạn"
 
 #. Attribution-NonCommercial
 msgid "licenses.pretty_by-nc"
-msgstr "Attribution-NonCommercial"
+msgstr "Ghi nhận công của tác giả - Phi thương mại "
 
 #. Attribution-NoDerivs
 msgid "licenses.pretty_by-nd"
-msgstr "Attribution-NoDerivs"
+msgstr "Ghi nhận công của tác giả - Không phái sinh"
 
 #. Spanish (PE)
 msgid "lang.es_PE"
-msgstr "Spanish (PE)"
+msgstr "Tiếng Tây Ban Nha"
 
 #. To sample, mash-up, or otherwise creatively transform this work for
 #. commercial or noncommercial purposes.
 #: c/engine/licenses/sampling_templates/deed.pt:29
 msgid "deed.free_sample"
 msgstr ""
-"To sample, mash-up, or otherwise creatively transform this work for "
-"commercial or noncommercial purposes."
+"Để đưa mẫu, chia nhỏ, hoặc biến đổi một cách sáng tạo tác phẩm này cho "
+"mục đích() thương mại() hoặc() phi thương mại. "
 
 #. Israel
 msgid "country.il"
-msgstr "Israel"
+msgstr "Nước Israel"
 
 #. Permissions beyond the scope of this license may be available at
 #. ${more_perms_link}.
 msgid "license.more_perms_available"
 msgstr ""
-"Permissions beyond the scope of this license may be available at "
+"Có thể truy cập các giấy phép ngoài phạm vi của giấy phép này tại "
 "${more_perms_link}."
 
 #. India
 msgid "country.in"
-msgstr "India"
+msgstr "Nước Ấn độ "
 
 #. Macedonian
 msgid "lang.mk"
@@ -455,80 +417,77 @@ msgstr "Macedonian"
 #. can be found in our comics.
 msgid "license.how_it_works"
 msgstr ""
-"Here's how it works: A user clicking on the Creative Commons icon gets "
-"your\n"
-"\"<a href=\"${license_url}\">Commons Deed</a>\" &mdash; a human readable "
-"version of the\n"
-"license. From that she can link to \"<a "
-"href=\"${license_url}legalcode\">Legal Code</a>\" &mdash;  the\n"
-"actual license you have offered your content under.\n"
-"And hidden in the tag is \"<a href=\"/license/work-html-"
-"popup?${url_vars}\" onclick=\"window.open('work-html-popup?${url_vars}', "
-"'html_help', "
+"Đây là cách thức thực hiện: Người sử dụng nhấp chuột vào biểu tượng "
+"Creative Commons để có được \n"
+"\"<a href=\"${license_url}\">Commons Deed</a>\" &mdash; phiên bản của "
+"giấy phép mà con người có thể đọc hiểu. Từ đó, họ có thể kết nối với\"<a "
+"href=\"${license_url}legalcode\">Legal Code</a>\" &mdash; giấy phép mà họ"
+" đã cấp cho nội dung của tác phẩm. Và ẩn sau thẻ nhớ là \"<a "
+"href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open"
+"('work-html-popup?${url_vars}', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">Machine-Readable Code</a>\" &mdash; metadata &mdash; that will "
-"enable others to find your\n"
-"content. <a href=\"/learn/licenses/how1\">An illustration of the "
-"process</a> can be found in our comics."
+" false;\">Ngôn ngữ mã máy</a>\" &mdash; metadata &mdash; cho phép người "
+"khác tìm thấy nội dung của bạn. <a href=\"/learn/licenses/how1\">Ví dụ về"
+" quá trình này có thể được tìm thấy ở các bức họa của chúng tôi."
 
 #. Italy
 msgid "country.it"
-msgstr "Italy"
+msgstr "Nước Italy"
 
 #. Poland
 msgid "country.pl"
-msgstr "Poland"
+msgstr "Nước Phần Lan"
 
 #. Malay
 msgid "lang.ms"
-msgstr "Malay"
+msgstr "Nước Ma lay xia"
 
 #. Philippines
 msgid "country.ph"
-msgstr "Philippines"
+msgstr "Phi lip pin"
 
 #. You may not use this work to advertise for or promote anything but the work
 #. you create from it.
 #: c/engine/licenses/sampling_templates/deed.pt:42
 msgid "char.na_brief"
 msgstr ""
-"You may not use this work to advertise for or promote anything but the "
-"work you create from it."
+"Bạn có thể không sử dụng tác phẩm này để quảng cáo() hay cổ vũ cho bất kỳ"
+" cái gì ngoài sản phẩm mà bạn tạo ra từ tác phẩm ban đầu."
 
 #. Peru
 msgid "country.pe"
-msgstr "Peru"
+msgstr "Nước Peru"
 
 #. Any of the above conditions can be waived if you get permission from the
 #. rights holders to this work.
 msgid "deed.permission.jp"
 msgstr ""
-"Any of the above conditions can be waived if you get permission from the "
-"rights holders to this work."
+"Bất kỳ điều kiện nào trên đây cũng có thể được miễn nếu bạn được phép của"
+" người sở hữu tác quyền."
 
 #. Sampling
 msgid "util.Sampling"
-msgstr "Sampling"
+msgstr "Làm mẫu"
 
 #. Sampling
 msgid "licenses.pretty_sampling"
-msgstr "Sampling"
+msgstr "Làm mẫu"
 
 #. This page is available in the following languages:
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
 msgid "util.page_other_languages"
-msgstr "This page is available in the following languages:"
+msgstr "Tra()ng này được dịch ra các ngôn ngữ sau():"
 
 #. This page is available in the following languages:
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
 msgid "deed.view_in"
-msgstr "This page is available in the following languages:"
+msgstr "Tra()ng này được dịch ra các ngôn ngữ sau():"
 
 #. English (GB)
 msgid "lang.en_GB"
-msgstr "English (GB)"
+msgstr "Người Anh"
 
 #. Apart from the remix rights granted under this license, nothing in this
 #. license impairs or restricts the author's moral rights.
@@ -541,16 +500,16 @@ msgstr ""
 
 #. Polish
 msgid "lang.pl"
-msgstr "Polish"
+msgstr "Người/ Tiếng Ba Lan "
 
 #. confirm
 #: c/engine/pd/templates/publicdomain-3.pt:87
 msgid "util.confirm"
-msgstr "confirm"
+msgstr "khẳng định "
 
 #. Do you want to:
 msgid "util.Do_you_want_to"
-msgstr "Do you want to:"
+msgstr "Bạn có muốn"
 
 #. <a href="/jargon/copyright_date" class="jargon"
 #. onClick="window.open('/jargon/copyright_date', 'jargon_term_lookup',
@@ -558,10 +517,9 @@ msgstr "Do you want to:"
 #. return false;">year of copyright</a>
 msgid "util.year_of_copyright"
 msgstr ""
-"<a href=\"/jargon/copyright_date\" class=\"jargon\" "
-"onClick=\"window.open('/jargon/copyright_date', 'jargon_term_lookup', "
-"'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
-" return false;\">year of copyright</a>"
+"<ngày tác quyền\" tra cứu từ lóng, 'độ rộng=300,chiều cao=400,thanh kéo "
+"xuống=có,có thể điều chỉnh kích thước=có,thanh điều chỉnh=không,danh "
+"bạ=không,vị trí=có,thanh công cụ=không,tình trạng=có);>năm tác quyền>"
 
 #. choose license
 #: c/engine/chooser_pages/index.pt:29 c/engine/chooser_pages/sampling.pt:32
@@ -573,12 +531,16 @@ msgstr "lựa chọn giấy phép"
 #. The freedom to redistribute copies so you can help your neighbor.
 #: c/engine/licenses/fsf_templates/deed.pt:38
 msgid "deed.gpl_free_redistribute"
-msgstr "The freedom to redistribute copies so you can help your neighbor."
+msgstr ""
+"Tự ()do() tái phân phối các bản sao vì thế bạn có thể giúp được những "
+"người() xung qu()anh bạn. ()"
 
 #. Mark an mp3, <a href="/technology/mp3">follow these guidelines</a>.
 #: c/engine/pd/templates/publicdomain-4.pt:47
 msgid "license.mark_mp3"
-msgstr "Mark an mp3, <a href=\"/technology/mp3\">follow these guidelines</a>."
+msgstr ""
+"Đánh dấu mp3, <a href=\"/technology/mp3\"> làm theo các hướng dẫn này "
+"</a>."
 
 #. Under the following conditions:
 #: c/engine/licenses/devnations_templates/deed.pt:40
@@ -586,15 +548,13 @@ msgstr "Mark an mp3, <a href=\"/technology/mp3\">follow these guidelines</a>."
 #: c/engine/licenses/sampling_templates/deed.pt:39
 #: c/engine/licenses/standard_templates/deed.pt:45
 msgid "deed.under_conditions"
-msgstr "Under the following conditions:"
+msgstr "Với các điều kiện sau:"
 
 #. Machine-Readable<br />
 #. Digital Code
 #: c/engine/chooser_pages/gpl.pt:48 c/engine/chooser_pages/lgpl.pt:49
 msgid "license.machine-readable_digital_code"
-msgstr ""
-"Machine-Readable<br />\n"
-"Digital Code"
+msgstr "Ngôn ngữ mã máy (Machine-Readable)"
 
 #. <a href="/jargon/copyright" class="jargon"
 #. onClick="window.open('/jargon/copyright', 'jargon_term_lookup',
@@ -602,20 +562,20 @@ msgstr ""
 #. return false;">copyright</a> holder's name
 msgid "util.copyright_holders_name"
 msgstr ""
-"<a href=\"/jargon/copyright\" class=\"jargon\" "
-"onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', "
-"'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
-" return false;\">copyright</a> holder's name"
+"<ngày tác quyền'tra cứu từ lóng 'độ rộng=300,chiều cao=400,thanh kéo "
+"xuống=có,có thể điều chỉnh kích cỡ=có,thanh điều "
+"chỉnh=không,hướng=không,vị trí=có,thanh công cụ=không,tình trạng=có); tên"
+" chủ tác quyền"
 
 #. attribute to url
 #: c/engine/macros_templates/metadata.pt:58
 msgid "util.attribute_to_url"
-msgstr "attribute to url"
+msgstr "gắn với url"
 
 #. View an explanation of all our licenses.
 #: c/engine/chooser_pages/index.pt:195
 msgid "license.view_explanation"
-msgstr "View an explanation of all our licenses."
+msgstr "Xem giải thích cho tất cả các giấy phép của chúng tôi."
 
 #. Copyright. A set of limited monopoly rights that governments grant to
 #. encourage the production of creative works. A copyright includes the rights
@@ -626,13 +586,13 @@ msgstr "View an explanation of all our licenses."
 #. facts or ideas.
 msgid "jargon.copyright_description"
 msgstr ""
-"Copyright. A set of limited monopoly rights that governments grant to "
-"encourage the production of creative works. A copyright includes the "
-"rights to copy, distribute, transmit (including broadcast), market, and "
-"make derivative works out of a creative work. It also includes the right "
-"to sue to enforce these rights, and to authorize others to exercise them."
-" Copyright does not apply to facts or ideas, but to the original "
-"expression of those facts or ideas."
+"Tác quyền. Tập hợp các quyền độc nhất màchính phủ trao tặng nhằm khuyến "
+"khích nhằm tạo ra nhiều tác phẩm sáng tạo. Một tác quyền bao gồm quyền "
+"đối với việc sao chép, phân phối, truyền gửi 9bao gồm phát sóng), tiếp "
+"thị và tạo ra các tác phẩm phái sinh từ một tác phẩm sáng tạo. Nó cũng "
+"bao gồm quyền khiếu kiện nhằm thực thi các quyền đó và ủy quyền cho người"
+" khác thực hiện các quyền đó. Tác quyền không áp dụng đối với các thực "
+"tế, ý tưởng mà với nguồn gố của thực tế hay ý tưởng.()"
 
 #. You may exercise the freedoms specified here provided that you comply with
 #. the express conditions of this license. The LGPL is intended for software
@@ -640,34 +600,33 @@ msgstr ""
 #: c/engine/licenses/fsf_templates/deed.pt:50
 msgid "deed.lgpl_under_conditions"
 msgstr ""
-"You may exercise the freedoms specified here provided that you comply "
-"with the express conditions of this license. The LGPL is intended for "
-"software libraries, rather than executable programs. The principal "
-"conditions are:"
+"Bạn có các sự tự do được đề cập đến ở đây nếu bạn tuân thủ các điều kiện "
+"của giấy phép này.LGPL được dùng cho các thư viện phần mềm, hơn là cho "
+"các chương trình thực hiện. Các điều kiện() cơ bản là:"
 
 #. Now that you've chosen a Creative Commons license, you must mark your work
 #. in the appropriate way.
 msgid "license.mark_license"
 msgstr ""
-"Now that you've chosen a Creative Commons license, you must mark your "
-"work in the appropriate way."
+"Bây giờ bạn đã chọn được một giấy phép Creative Commons(), bạn phải đánh "
+"dấu tác phẩm của bạn một cách đúng đắn. ()"
 
 #. Luxembourg
 msgid "country.lu"
-msgstr "Luxembourg"
+msgstr "Nước Lúc xăm bua"
 
 #. Tell us the format of your work:
 #: c/engine/macros_templates/metadata.pt:23
 msgid "license.tell_format"
-msgstr "Tell us the format of your work:"
+msgstr "Hãy nói cho chúng tôi biết định dạng tác phẩm của bạn: "
 
 #. Chile
 msgid "country.cl"
-msgstr "Chile"
+msgstr "Nước Chi lê"
 
 #. Northern Sotho
 msgid "lang.nso"
-msgstr "Northern Sotho"
+msgstr "Miền Bắc Sotho"
 
 #. CC-GNU LGPL
 #: c/engine/chooser_pages/index.pt:222
@@ -680,23 +639,23 @@ msgstr "CC-GNU LGPL"
 #. work</strong> is also prohibited.
 msgid "license.sampling_a_sampling"
 msgstr ""
-"<strong>Sampling</strong>: People can take and transform "
-"<strong>pieces</strong> of your work for any purpose other than "
-"advertising, which is prohibited. Copying and distribution of the "
-"<strong>entire work</strong> is also prohibited."
+"< Mọi người có thể áp dụng và biến đổi <strong>pieces</strong> tác phẩm "
+"của bạn cho bất kỳ mục đích gì miễn là không phải quảng cáo vì điều này "
+"đã bị cấm. việc sao chép và phân phối <strong>toàn bộ tác phẩm </strong> "
+"cũng bị cấm.()"
 
 #. No web site?
 #: c/engine/chooser_pages/results.pt:92
 msgid "license.no_web_site"
-msgstr "No web site?"
+msgstr "Không có trang web()?"
 
 #. Serbia
 msgid "country.rs"
-msgstr "Serbia"
+msgstr "Nước Serbia"
 
 #. Korea
 msgid "country.kr"
-msgstr "Korea"
+msgstr "Nước Hàn Quốc "
 
 #. Yes, as long as others share alike (<a
 #. href="/characteristic/sa?lang=${lang}"
@@ -708,22 +667,11 @@ msgstr "Korea"
 #. information" border="0" /></a>)
 #: c/engine/chooser_pages/partner/index.pt:69
 msgid "license.a6"
-msgstr ""
-"Yes, as long as others share alike (<a "
-"href=\"/characteristic/sa?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/sa?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">more info</a> <a href=\"/characteristic/sa?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/sa?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+msgstr "Đúng, miễn là mọi người chia sẻ như nhau"
 
 #. Korean
 msgid "lang.ko"
-msgstr "Korean"
+msgstr "Người Hàn Quốc"
 
 #. <div align="center"><a href="/licenses/disclaimer-popup"
 #. onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help',
@@ -733,44 +681,38 @@ msgstr "Korean"
 #. border="0"></a></div>
 msgid "deed.gpl_disclaimer"
 msgstr ""
-"<div align=\"center\"><a href=\"/licenses/disclaimer-popup\" "
-"onclick=\"window.open('/licenses/disclaimer-popup', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">Disclaimer</a> <a href=\"/licenses/disclaimer-popup\" "
-"onclick=\"window.open('/licenses/disclaimer-popup', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"disclaimer\" border=\"0\"></a></div>"
+"'độ rộng=375,chiều cao=300,thanh kéo xuống=có,có thể điều chỉnh kích "
+"cỡ=có,thanh điều chỉnh=không,danh bạ=không,cị trí=có,thanh công cụ=không,"
+" tình trạng=có"
 
 #. Sorry, no license matches your criteria.
 msgid "license.no_license"
-msgstr "Sorry, no license matches your criteria."
+msgstr "Xin lỗi, không có giấy phép nào đáp ứng được các tiêu ()chí của bạn. "
 
 #. Italian
 msgid "lang.it"
-msgstr "Italian"
+msgstr "Người Italy"
 
 #. Romania
 msgid "country.ro"
-msgstr "Romania"
+msgstr "Nước Rumani"
 
 #. What You Can Do Here
 #: c/engine/chooser_pages/index.pt:191
 msgid "license.what_you"
-msgstr "What You Can Do Here"
+msgstr "Bạn có thể làm được gì ở đây"
 
 #. If you have not officially registered for a copyright on your work the
 #. default date is the date you created the work, or completed it.
 msgid "jargon.copyright_date_description"
 msgstr ""
-"If you have not officially registered for a copyright on your work the "
-"default date is the date you created the work, or completed it."
+"Nếu bạn chưa c()hính thức đăng ký tác quyền cho tác phẩm của() bạn thì "
+"ngày mặc định sẽ là ngày bạn sáng tạo tác phẩm hoặc ngày bạn hoàn thành "
+"tác phẩm đó."
 
 #. Attribution-NoDerivs-NonCommercial
 msgid "licenses.pretty_by-nd-nc"
-msgstr "Attribution-NoDerivs-NonCommercial"
+msgstr "Ghi nhận công của tác giả- Không phái sinh - Phi thương mại "
 
 #. Galician
 #: c/engine/macros_templates/deed.pt:110
@@ -781,27 +723,27 @@ msgstr "Galician"
 #. public domain with your work</a>.
 msgid "license.proceed_pd"
 msgstr ""
-"You may now <a href=\"publicdomain-2?${url_vars}\">proceed and enrich the"
-" public domain with your work</a>."
+"Bạn có thể bắt đầu làm phong phú thêm vùng dành cho công chúng của tác "
+"phẩm của bạn()."
 
 #. your email
 #: c/engine/pd/templates/publicdomain-2.pt:29
 msgid "util.your_email"
-msgstr "your email"
+msgstr "email của bạn"
 
 #. Yes
 #: c/engine/chooser_pages/index.pt:46 c/engine/chooser_pages/index.pt:81
 #: c/engine/chooser_pages/partner/index.pt:54
 #: c/engine/chooser_pages/partner/index.pt:65
 msgid "util.Yes"
-msgstr "Yes"
+msgstr "Đúng"
 
 #. to copy, distribute, display, perform, present, publicly transmit, and
 #. recite the work
 msgid "deed.free_copy_distribute.jp"
 msgstr ""
-"to copy, distribute, display, perform, present, publicly transmit, and "
-"recite the work"
+"để phân phối, sao chép, trình bày, thực hiện, thể hiện,truyền gửi công "
+"khai và thuật lại tác phẩm."
 
 #. <p>Your choice suggests you want to dedicate your work to the public domain,
 #. the commons of information and expression where nothing is owned and all is
@@ -813,10 +755,13 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-partner.pt:24
 msgid "license.pd_choice"
 msgstr ""
-"<p>Your choice suggests you want to dedicate your work to the public "
-"domain, the commons of information and expression where nothing is owned "
-"and all is permitted.</p>\n"
-"\n"
+"Lựa chọn của bạn cho thấy bạn muốn hiến tác phẩm của bạn cho vùng dành "
+"cho công chúng, vùng của thông tin và các biểu đạt mà ở đó chẳng có gì "
+"chịu sự sở hữu và mọi cái đều được phép. <p>Vùng dành cho công chúng "
+"không phải là giấy phép. Bằng việc sử dụng nó, bạn đã không tạo ra một "
+"ngoại lệ nào đối với tác quyền của bạn; bạn tặng toàn bộ bản quyền của "
+"bạn cho công chúng một cách vô điều kiện. Sự trao tặng này là vĩnh viễn "
+"và không thể thay đổi được. \n"
 "        <p>The Public Domain Dedication is not a license. By using it, "
 "you do not simply carve out exceptions to your copyright; you grant your "
 "entire copyright to the public without condition. This grant is permanent"
@@ -825,7 +770,7 @@ msgstr ""
 #. Audio
 #: c/engine/macros_templates/metadata.pt:30
 msgid "util.Audio"
-msgstr "Audio"
+msgstr "Âm thanh"
 
 #. Your fair dealing and other rights are in no way affected by the above.
 #: c/engine/macros_templates/deed.pt:92
@@ -836,12 +781,12 @@ msgstr ""
 
 #. Netherlands
 msgid "country.nl"
-msgstr "Netherlands"
+msgstr "Nước Hà Lan"
 
 #. In order to:
 #: c/engine/pd/templates/publicdomain-4.pt:29
 msgid "license.in_order_to"
-msgstr "In order to:"
+msgstr "Nhằm/để"
 
 #. If you copy or distribute the program, you must accompany it with the
 #. complete corresponding machine-readable source code or with a written offer,
@@ -850,10 +795,10 @@ msgstr "In order to:"
 #: c/engine/licenses/fsf_templates/deed.pt:67
 msgid "deed.gpl_source"
 msgstr ""
-"If you copy or distribute the program, you must accompany it with the "
-"complete corresponding machine-readable source code or with a written "
-"offer, valid for at least three years, to furnish the complete "
-"corresponding machine-readable source code."
+"Nếu bạn sao chép hoặc phân phối chương trình, bạn phải đính kèm theo đó "
+"mã nguồn của ngôn ngữ máy tương ứng hoặc một lời giúp đỡ bằng văn bản có "
+"hiệu lực ít nhất trong vòng 3 năm để hoàn thiện mã nguồn của ngôn ngữ mã "
+"máy tương ứng."
 
 #. Creative Commons
 #: c/engine/macros_templates/partner.pt:29
@@ -862,19 +807,19 @@ msgstr "Creative Commons"
 
 #. UK: England & Wales
 msgid "country.uk"
-msgstr "UK: England & Wales"
+msgstr "Vương quốc Anh: Nước Anh và xứ Wales"
 
 #. Nigeria
 msgid "country.ng"
-msgstr "Nigeria"
+msgstr "Nước Ni giê ria"
 
 #. Licensor permits others to make derivative works
 msgid "jswidget.Licensor_permits_others_to_make_derivative_works"
-msgstr "Licensor permits others to make derivative works"
+msgstr "Người cấp phép cho phép những người khác phái sinh tác phẩm của mình. "
 
 #. United States
 msgid "country.us"
-msgstr "United States"
+msgstr "Hợp chủng quốc Hoa Kỳ (Nước Mỹ)"
 
 #. Select the contents of the box above and copy it. Or, have it <a
 #. href="/license/work-html-popup?${url_vars}" onclick="window.open('work-html-
@@ -883,12 +828,7 @@ msgstr "United States"
 #. false;">emailed to yourself.</a>
 #: c/engine/chooser_pages/results.pt:70
 msgid "license.select_text"
-msgstr ""
-"Select the contents of the box above and copy it. Or, have it <a "
-"href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open"
-"('work-html-popup?${url_vars}', 'html_help', "
-"'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">emailed to yourself.</a>"
+msgstr "Lựa chọn các nội dung trong hôp sau và sao chép lại. "
 
 #. <strong>Require attribution?</strong> (<a
 #. href="/characteristic/by?lang=${lang}"
@@ -899,18 +839,7 @@ msgstr ""
 #. false;"><img src="/images/popup.gif" width="15" height="13" alt="more
 #. information" border="0" /></a>)
 msgid "license.q1"
-msgstr ""
-"<strong>Require attribution?</strong> (<a "
-"href=\"/characteristic/by?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/by?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">more info</a> <a href=\"/characteristic/by?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/by?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+msgstr "Cần ghi nhận công của tác giả?"
 
 #. <strong>Allow commercial uses of your work?</strong> (<a
 #. href="/characteristic/nc?lang=${lang}"
@@ -922,18 +851,7 @@ msgstr ""
 #. information" border="0" /></a>)
 #: c/engine/chooser_pages/partner/index.pt:50
 msgid "license.q2"
-msgstr ""
-"<strong>Allow commercial uses of your work?</strong> (<a "
-"href=\"/characteristic/nc?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nc?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">more info</a> <a href=\"/characteristic/nc?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nc?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+msgstr "<Cho phép sử dụng tác phẩm của bạn cho mục đích thương mại?"
 
 #. <strong>Allow modifications of your work?</strong> (<a
 #. href="/characteristic/nd?lang=${lang}"
@@ -945,18 +863,7 @@ msgstr ""
 #. information" border="0" /></a>)
 #: c/engine/chooser_pages/partner/index.pt:61
 msgid "license.q3"
-msgstr ""
-"<strong>Allow modifications of your work?</strong> (<a "
-"href=\"/characteristic/nd?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nd?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">more info</a> <a href=\"/characteristic/nd?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nd?lang=${lang}', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+msgstr "Cho phép thay đổi tác phẩm của bạn"
 
 #. Simply copy the text, then paste it into your web documents containing
 #. information about your works. <a href="/learn/technology/usingmarkup"
@@ -965,27 +872,23 @@ msgstr ""
 #: c/engine/chooser_pages/htmlpopup.pt:24
 msgid "license.html_directions"
 msgstr ""
-"Simply copy the text, then paste it into your web documents containing "
-"information about your works. <a href=\"/learn/technology/usingmarkup\" "
-"target=\"_blank\">More information about adding HTML to your documents "
-"here</a>."
+"Chỉ cần sao chép văn bản rồi dán vào trang web tài liệu của bạn, bao gồm "
+"thông tin về tác phẩm của bạn"
 
 #. Select a License
 #: c/engine/chooser_pages/index.pt:178
 #: c/engine/chooser_pages/partner/index.pt:114
 msgid "license.Select_a_License"
-msgstr "Select a License"
+msgstr "Chọn Giấy phép"
 
 #. ${work_title} by ${work_author} is licensed under a <a rel="license"
 #. href="${license_url}">Creative Commons ${license_name} License</a>.
 msgid "license.rdfa_licensed"
-msgstr ""
-"${work_title} by ${work_author} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+msgstr "tác phẩm_nhan đề} by ${tác phẩm_()tác giả} được cấp giấy phép "
 
 #. description
 msgid "util.description"
-msgstr "description"
+msgstr "mô tả"
 
 #. You have selected the <a target="cc_other"
 #. href="${license_deed_url}"><b>${license_pretty_name} License</b></a>.<br>
@@ -994,23 +897,20 @@ msgstr "description"
 #: c/engine/chooser_pages/partner/results.pt:29
 msgid "license.partner_selected"
 msgstr ""
-"You have selected the <a target=\"cc_other\" "
-"href=\"${license_deed_url}\"><b>${license_pretty_name} "
-"License</b></a>.<br>\n"
-"This license is permanently located at<br>\n"
+"Bạn đã chọn Giấy phép. Giấy phép này luôn có ở at<br>\n"
 "<b><tt>${license_url}</tt></b>."
 
 #. For any reuse, you must make clear to others the license terms of this work.
 #: c/engine/licenses/sampling_templates/deed.pt:45
 msgid "deed.notice_withoutdistribution"
 msgstr ""
-"For any reuse, you must make clear to others the license terms of this "
-"work."
+"Bất kỳ khi nào tái sử dụng bạn cũng cần phải làm rõ với mọi người về các "
+"điều khoản của giấy phép mà bạn cấp cho tác phẩm của bạn. ()"
 
 #. Dutch
 #: c/engine/macros_templates/deed.pt:124
 msgid "lang.nl"
-msgstr "Dutch"
+msgstr "Người Hà Lan"
 
 #. weblog
 msgid "util.weblog"
@@ -1018,7 +918,7 @@ msgstr "weblog"
 
 #. Spain
 msgid "country.es"
-msgstr "Spain"
+msgstr "Nước Tây Ban Nha"
 
 #. Mark a document not on the web, <a href="non-web-popup?${url_vars}"
 #. onclick="window.open('non-web-popup?${url_vars}', 'html_help',
@@ -1027,58 +927,52 @@ msgstr "Spain"
 #: c/engine/pd/templates/publicdomain-4.pt:49
 #: c/engine/chooser_pages/results.pt:127
 msgid "license.mark_nonweb"
-msgstr ""
-"Mark a document not on the web, <a href=\"non-web-popup?${url_vars}\" "
-"onclick=\"window.open('non-web-popup?${url_vars}', 'html_help', "
-"'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">add this text</a> to your work."
+msgstr "Đánh dấu một tác phẩm không ở trên trang web "
 
 #. The licensor permits others to copy, distribute and transmit the work. In
 #. return, licensees may not use the work for commercial purposes — unless they
 #. get the licensor's permission.
 msgid "char.nc_description"
 msgstr ""
-"The licensor permits others to copy, distribute and transmit the work. In"
-" return, licensees may not use the work for commercial purposes — unless "
-"they get the licensor's permission."
+"Người cấp phép cho phép người khác sao chép, phân phối và quyền gửi tác "
+"phẩm. Đổi lại, người được cấp phép không được sử dụng tác phẩm cho mụcb "
+"đích thương mại trừ phi họ được phép của người cấp phép."
 
 #. Spanish (MX)
 msgid "lang.es_MX"
-msgstr "Spanish (MX)"
+msgstr "Người Tây Ban Nha"
 
 #. publish
 msgid "util.publish"
-msgstr "publish"
+msgstr "xuất bản"
 
 #. This is a human-readable summary of the <a href="legalcode"
 #. class="fulltext">Legal Code (the full license)</a>.
 #: c/engine/macros_templates/deed.pt:153
 msgid "deed.human_summary"
-msgstr ""
-"This is a human-readable summary of the <a href=\"legalcode\" "
-"class=\"fulltext\">Legal Code (the full license)</a>."
+msgstr "Đây là bản tóm tắt của giấy phép mà con người có thể đọc hiểu."
 
 #. proceed
 #: c/engine/pd/templates/publicdomain-2.pt:46
 msgid "util.proceed"
-msgstr "proceed"
+msgstr "tiến hành"
 
 #. GNU Lesser General Public License
 msgid "license.LGPL_name_full"
-msgstr "GNU Lesser General Public License"
+msgstr "Giấy phép Công Chúng Tổng Quát GNU"
 
 #. more
 msgid "util.more"
-msgstr "more"
+msgstr "hơn nữa"
 
 #. English (US)
 msgid "lang.en_US"
-msgstr "English (US)"
+msgstr "Người Anh"
 
 #. attribute to name
 #: c/engine/macros_templates/metadata.pt:52
 msgid "util.attribute_to_name"
-msgstr "attribute to name"
+msgstr "gắn với tên"
 
 #. The Sampling Flavor determines how much freedom licensees have. Sampling
 #. only allows pieces to be used and prohibits sharing of the entire work.
@@ -1089,18 +983,17 @@ msgstr "attribute to name"
 #. work.
 msgid "api.sampling_flavor_help"
 msgstr ""
-"The Sampling Flavor determines how much freedom licensees have. Sampling "
-"only allows pieces to be used and prohibits sharing of the entire work.  "
-"Sampling Plus allows licensees to take and transform pieces of the work, "
-"as well as share the entire work for non-commercial purposes.  "
-"Noncommercial Sampling Plus further restricts the Sampling Plus license "
-"by only authorizing non-commercial derivatives to be created from the "
-"pieces of your work."
+"Sampling Flavor xác định mức độ tự do của giấy phép. Việc làm mẫu chỉ cho"
+" phép sử dụng từng phần nhỏ của tác phẩm  và ngăn cấm việc chia sẻ toàn "
+"bộ tác phẩm. Sampling Plus cho phép người cấp phép sử dụng và biến đổi "
+"các phần nhỏ của tác phẩm cũng như chia sẻ toàn bộ tác phẩm cho mục đích "
+"phi thương mại. Sampling Plus hạn chế giấy phép Sampling Plus bằng cách "
+"chỉ cho phép phái sinh phi thương mại từng phần trong tác phẩm của bạn."
 
 #. English
 #: c/engine/macros_templates/deed.pt:117
 msgid "lang.en"
-msgstr "English"
+msgstr "Người Anh"
 
 #. Esperanto
 msgid "lang.eo"
@@ -1111,9 +1004,9 @@ msgstr "Esperanto"
 #. christiane@creativecommons.org.
 msgid "licenses.draft_notice"
 msgstr ""
-"This is a draft license published for public review. Do not use this "
-"license until this notice has been removed. Direct comments on this draft"
-" license to christiane@creativecommons.org."
+"Đây là bản nháp của giấy phép cho công chúng xem xét. Không sử dụng giấy "
+"phép này cho tới khi thông báo này được gỡ bỏ. Các bình luận trực tiếp "
+"cho giấy phép phép này xin gửi tới licenses@creativecommons.org."
 
 #. If you desire a license governed by the Copyright Law of a specific
 #. jurisdiction, please select the appropriate jurisdiction.
@@ -1126,18 +1019,18 @@ msgstr ""
 #. The freedom to run the program for any purpose.
 #: c/engine/licenses/fsf_templates/deed.pt:34
 msgid "deed.gpl_free_run"
-msgstr "The freedom to run the program for any purpose."
+msgstr "Tự do chạy chương trình cho bất kỳ mục đích nào"
 
 #. Jurisdiction of your license
 #: c/engine/chooser_pages/index.pt:128 c/engine/chooser_pages/sampling.pt:72
 #: c/engine/chooser_pages/partner/index.pt:79
 msgid "license.jurisdiction_question"
-msgstr "Jurisdiction of your license"
+msgstr "Tính pháp lý của giấy phép của bạn"
 
 #. copyright holder
 #: c/engine/pd/templates/publicdomain-2.pt:39
 msgid "util.copyright_holder"
-msgstr "copyright holder"
+msgstr "chủ tác quyền"
 
 #. <p>If you <strong>want</strong> to invite people to make
 #. <strong>any</strong> commercial re-use of your work &mdash; transformative
@@ -1149,21 +1042,18 @@ msgstr "copyright holder"
 #, python-format
 msgid "license.sampling_alternatives"
 msgstr ""
-"<p>If you <strong>want</strong> to invite people to make "
-"<strong>any</strong> commercial re-use of your work &mdash; "
-"transformative or not &mdash; you should consider either the <a "
-"href=\"/license/results-one?license%5fcode=by%2dsa\">Attribution-"
-"ShareAlike</a> license or simply the <a href=\"/license/results-"
-"one?license%5fcode=by\">Attribution</a> license.</p>"
+"Nếu bạn muốn mời người khác sử dụng tác phẩm của bạn, bạn có thể cân nhắc"
+" lựa chọn giấy phép Ghi nhận công của tác giả - Chia sẻ tương tự hoặc đơn"
+" giản là giấy phép Ghi nhận công của tác giả. "
 
 #. Swedish
 msgid "lang.sv"
-msgstr "Swedish"
+msgstr "Người Thụy Điển"
 
 #. The HTML to display your button is as follows:
 #: c/engine/chooser_pages/htmlpopup.pt:15
 msgid "license.html_display"
-msgstr "The HTML to display your button is as follows:"
+msgstr "HTML sau giúp hiển thị nút của bạn: "
 
 #. Basque
 #: c/engine/macros_templates/deed.pt:109
@@ -1172,24 +1062,24 @@ msgstr "Basque"
 
 #. English (CA)
 msgid "lang.en_CA"
-msgstr "English (CA)"
+msgstr "Người Anh"
 
 #. Spanish
 #: c/engine/macros_templates/deed.pt:104
 msgid "lang.es"
-msgstr "Spanish"
+msgstr "Người Tây Ban Nha"
 
 #. Attribution
 #: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
 #: c/engine/licenses/devnations_templates/deed.pt:47
 msgid "char.by_title"
-msgstr "Attribution"
+msgstr "Ghi nhận công của tác giả"
 
 #. Attribution
 #: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
 #: c/engine/licenses/devnations_templates/deed.pt:47
 msgid "licenses.pretty_by"
-msgstr "Attribution"
+msgstr "Ghi nhận công của tác giả"
 
 #. <strong>Noncommercial Sampling Plus</strong>: People can take and transform
 #. <strong>pieces</strong> of your work for <strong>noncommercial</strong>
@@ -1198,11 +1088,10 @@ msgstr "Attribution"
 #: c/engine/chooser_pages/sampling.pt:65
 msgid "license.sampling_a_nc-sampling+"
 msgstr ""
-"<strong>Noncommercial Sampling Plus</strong>: People can take and "
-"transform <strong>pieces</strong> of your work for "
-"<strong>noncommercial</strong> purposes only. "
-"<strong>Noncommercial</strong> copying and distribution (like file-"
-"sharing) of the <strong>entire work</strong> are also allowed."
+"Sampling Plus Phi thương mại: Mọi người chỉ có thể sử dụng và biến đổi "
+"tác phẩm của bạn cho mục đích phi thương mại. Việc sao chép và phân phối "
+"không vì mục đích thương mại toàn bộ tác ohẩm của bạn cũng được cho phép."
+" "
 
 #. You have selected the Creative Commons ${license_pretty_name}
 #. License${country_name}. <a href="${license_url}">See how the license will
@@ -1210,9 +1099,8 @@ msgstr ""
 #: c/engine/chooser_pages/results.pt:21
 msgid "license.selected"
 msgstr ""
-"You have selected the Creative Commons ${license_pretty_name} "
-"License${country_name}. <a href=\"${license_url}\">See how the license "
-"will look</a> to your site's visitors."
+"Bạn đã lựa chọn giấy phép CC. Bạn hãy xem nó thể hiện như thế nào trên "
+"trang web của bạn: "
 
 #. Video
 #: c/engine/macros_templates/metadata.pt:32
@@ -1222,45 +1110,41 @@ msgstr "Video"
 #. ${work_title} is licensed under a <a rel="license"
 #. href="${license_url}">Creative Commons ${license_name} License</a>.
 msgid "license.rdfa_licensed_no_attrib"
-msgstr ""
-"${work_title} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+msgstr "Tác phẩm được cấp phép CC"
 
 #. Hungary
 msgid "country.hu"
-msgstr "Hungary"
+msgstr "Nước Hungary"
 
 #. Croatia
 msgid "country.hr"
-msgstr "Croatia"
+msgstr "Nước Croatia"
 
 #. For more information about the Free Software Foundation, visit their <a
 #. href="http://www.fsf.org">web page</a>.
 #: c/engine/chooser_pages/gpl.pt:118 c/engine/chooser_pages/lgpl.pt:121
 msgid "license.fsf_more_info"
 msgstr ""
-"For more information about the Free Software Foundation, visit their <a "
-"href=\"http://www.fsf.org\">web page</a>."
+"Để biết thêm thông tin về Free Software Foundation, hãy truy cập trang "
+"web: \"http://www.fsf.org\">web page</a>."
 
 #. Get your Sampling License
 #: c/engine/chooser_pages/sampling.pt:111
 msgid "license.sampling_get"
-msgstr "Get your Sampling License"
+msgstr "Lấy Giấy phép mẫu của bạn"
 
 #. ${license_name_full}, <a href="http://www.gnu.org/">Free Software
 #. Foundation</a>
 #: c/engine/licenses/fsf_templates/deed.pt:16
 msgid "deed.gpl_title"
-msgstr ""
-"${license_name_full}, <a href=\"http://www.gnu.org/\">Free Software "
-"Foundation</a>"
+msgstr "Tên giấy phép"
 
 #. This work is licensed under a <a href="${license_url}">Creative Commons
 #. Developing Nations license</a>.
 msgid "license.devnations_licensed"
 msgstr ""
-"This work is licensed under a <a href=\"${license_url}\">Creative Commons"
-" Developing Nations license</a>."
+"Tác phẩm này được cấp phép theo Giấy phép dành cho các quốc gia đang phát"
+" triển. "
 
 #. With a Creative Commons license, <strong>you keep your copyright</strong>
 #. but allow people to <a href="/learn/licenses/fullrights">copy and distribute
@@ -1286,48 +1170,48 @@ msgstr ""
 
 #. You must give the original author and the performer credit.
 msgid "char.by_brief.jp"
-msgstr "You must give the original author and the performer credit."
+msgstr "Bạn phải ghi nhận công của tác giả và người trình bày ban đầu. "
 
 #. Learn about other places you can host your licensed files. These sites work
 #. with your Creative Commons license.
 #: c/engine/chooser_pages/results.pt:94
 msgid "license.learn_host"
 msgstr ""
-"Learn about other places you can host your licensed files. These sites "
-"work with your Creative Commons license."
+"Tìm hiểu thêm về các nơi bạn có thể đặt các giấy phép của bạn. Các trang "
+"này phù hợp cho giấy phép của bạn. "
 
 #. Spanish (CO)
 msgid "lang.es_CO"
-msgstr "Spanish (CO)"
+msgstr "Người Tây Ban Nha"
 
 #. Get HTML and email it to yourself
 #: c/engine/pd/templates/publicdomain-4.pt:42 c/engine/chooser_pages/gpl.pt:110
 #: c/engine/chooser_pages/lgpl.pt:113
 msgid "license.get_html_email"
-msgstr "Get HTML and email it to yourself"
+msgstr "Nhận HTML và gửi email cho chính bạn "
 
 #. Interactive
 #: c/engine/macros_templates/metadata.pt:38
 msgid "util.Interactive"
-msgstr "Interactive"
+msgstr "trao đổi"
 
 #. Enter your email address to get the HTML by email:
 #: c/engine/chooser_pages/htmlpopup.pt:27
 msgid "license.html_email"
-msgstr "Enter your email address to get the HTML by email:"
+msgstr "Nhập địa chỉ email của bạn để nhận HTML qua email:"
 
 #. Next step:
 msgid "util.Next_step"
-msgstr "Next step:"
+msgstr "Bước tiếp theo: "
 
 #. Or Choose:
 #: c/engine/chooser_pages/index.pt:198
 msgid "license.or_choose"
-msgstr "Or Choose:"
+msgstr "Hoặc lựa chọn:"
 
 #. Attribution-NonCommercial-NoDerivs
 msgid "licenses.pretty_by-nc-nd"
-msgstr "Attribution-NonCommercial-NoDerivs"
+msgstr "Ghi nhận công của tác giả - Phi thương mại - Không phái sinh "
 
 #. <p>
 #. The Commons Deed is not a license. It is simply a handy reference for
@@ -1342,51 +1226,45 @@ msgstr "Attribution-NonCommercial-NoDerivs"
 #: c/engine/licenses/catalog_pages/disclaimer-popup.pt:19
 msgid "deed.disclaimer"
 msgstr ""
-"<p>\n"
-"The Commons Deed is not a license. It is simply a handy reference for "
-"understanding the Legal Code (the full license) &mdash; it is a human-"
-"readable expression of some of its key terms. Think of it as the user-"
-"friendly interface to the Legal Code beneath. This Deed itself has no "
-"legal value, and its contents do not appear in the actual license.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Creative Commons is not a law firm and does not provide legal services. "
-"Distributing of, displaying of, or linking to this Commons Deed does not "
-"create an attorney-client relationship.\n"
-"</p>"
+"Phiên bản mà con người có thể đọc hiểu chưa phải là giấy phép. Nó chỉ "
+"giúp tham khảo ngôn ngữ dành cho luật sư môtột cách thuận tiện.  Hãy coi "
+"nó là giao diện gần gũi với người đọc của ngôn ngữ dành cho luật sư. Tài "
+"liệu đó không có giá trị pháp lý và nội dung của nó không xuất hiện trong"
+" giấy phép sau này. Creative Commons không phải là công ty luật và không "
+"cung cấp các dịch vụ pháp lý. Việc phân phối, trình bày hoặc kết nối với "
+"tài liệu này không tạo ra mối quan hệ giữa luật sư và khách hàng. "
 
 #. Here is the license you've chosen
 #: c/engine/chooser_pages/results.pt:15
 msgid "license.here_chosen"
-msgstr "Here is the license you've chosen"
+msgstr "Đây là giấy phép mà bạn đã chọn"
 
 #. Learn how to distribute your work using this license
 #: c/engine/macros_templates/deed.pt:161
 msgid "deed.learn"
-msgstr "Learn how to distribute your work using this license"
+msgstr "Học cách phân phối tác phẩm của bạn thông qua việc sử dụng giấy phép này"
 
 #. Send
 #: c/engine/chooser_pages/htmlpopup.pt:41
 msgid "util.Send"
-msgstr "Send"
+msgstr "Gửi"
 
 #. The freedom to improve the program and release your improvements to the
 #. public, so that the whole community benefits.
 #: c/engine/licenses/fsf_templates/deed.pt:40
 msgid "deed.gpl_free_improve"
 msgstr ""
-"The freedom to improve the program and release your improvements to the "
-"public, so that the whole community benefits."
+"Sự tự do cải tiến chương trình và chia sẻ các cải tiến đó của bạn với "
+"công chúng giúp mang lại lợi ích cho cộng đồng."
 
 #. Chinese (Taiwan)
 msgid "lang.zh_TW"
-msgstr "Chinese (Taiwan)"
+msgstr "Tiếng Trung Quốc(Đài Loan)"
 
 #. A work another is derived from.
 #: c/engine/macros_templates/metadata.pt:84
 msgid "jargon.source_work_description"
-msgstr "A work another is derived from."
+msgstr "Tác phẩm mà từ đó có một tác phẩm phái sinh khác."
 
 #. Zulu
 msgid "lang.zu"
@@ -1403,68 +1281,63 @@ msgstr "Zulu"
 #: c/engine/chooser_pages/gpl.pt:25 c/engine/chooser_pages/lgpl.pt:26
 msgid "license.fsf_explain"
 msgstr ""
-"<h1>Creative Commons GNU ${license_code}</h1>\n"
-"\n"
-"<p>The CC-GNU ${license_code} adds the Creative Commons' metadata and "
-"Commons Deed to the Free Software Foundation's ${license_name_full}. The "
-"license is the official FSF ${license_code}, and includes a Portuguese "
-"translation.</p>\n"
-"\n"
-"<p>To signal to others that you are using a Creative Commons license, you"
-" can use a Creative Commons logo, which links to the CC-GNU "
-"${license_code}. The result will look like this:</p>"
+"Creative Commons thêm ngôn ngữ mã máy và phiên bản giấy phép bằng ngôn "
+"ngữ đọc hiểu bởi con người vào Free Software Foundation (FSF). Giấy phép "
+"là FSF chính thức và có dịch sang tiếng Bồ Đào Nha. Để báo hiệu cho người"
+" khác biết rằng bạn sử dụng Giấy phép CC, bạn có thể sử dụng logo của CC "
+"được kết nối với CC-GNU. Kết quả trông sẽ như sau:"
 
 #. The licensor permits others to distribute derivative works only under a
 #. license identical to the one that governs the licensor's work.
 #: c/engine/chooser_pages/index.pt:124
 msgid "char.sa_description"
 msgstr ""
-"The licensor permits others to distribute derivative works only under the"
-" same license or one compatible with the one that governs the licensor's "
-"work."
+"Người cấp phép cho phép người khác phân phối tác phẩm phái sinh theo "
+"chính giấy phép đó hoặc theo một giấy phép tương thích với giấy phép mà "
+"chi phối tác phẩm của người cấp phép. "
 
 #. Image
 #: c/engine/macros_templates/metadata.pt:34
 msgid "util.Image"
-msgstr "Image"
+msgstr "Hình ảnh"
 
 #. Other
 #: c/engine/macros_templates/metadata.pt:28
 msgid "util.Other"
-msgstr "Other"
+msgstr "Khác"
 
 #. You may now <a href="${processed_exit_url}">proceed</a>
 #: c/engine/pd/templates/publicdomain-partner.pt:31
 #: c/engine/chooser_pages/partner/results.pt:35
 msgid "license.you_may_proceed"
-msgstr "You may now <a href=\"${processed_exit_url}\">proceed</a>"
+msgstr "Bây giờ bạn có thể tiến hành"
 
 #. Noncommercial
 msgid "char.nc_title"
-msgstr "Noncommercial"
+msgstr "Phi thương mại"
 
 #. Public Domain
 #: c/engine/chooser_pages/index.pt:204
 msgid "licenses.pretty_publicdomain"
-msgstr "Public Domain"
+msgstr "Phạm vi công chúng"
 
 #. Public Domain
 #: c/engine/chooser_pages/index.pt:204
 msgid "util.Public_Domain"
-msgstr "Public Domain"
+msgstr "Phạm vi công chúng"
 
 #. Chinese
 msgid "lang.zh"
-msgstr "Chinese"
+msgstr "Tiếng Trung Quốc"
 
 #. Chinese
 msgid "lang.zh_CN"
-msgstr "Chinese"
+msgstr "Tiếng Trung Quốc"
 
 #. Have your own website?
 #: c/engine/chooser_pages/results.pt:59
 msgid "license.have_your_own_website"
-msgstr "Have your own website?"
+msgstr "Có trang web riêng của bạn?"
 
 #. <h1>Review Choice</h1>
 #. <p>Congratulations, you have selected the Creative Commons <a
@@ -1474,31 +1347,26 @@ msgstr "Have your own website?"
 #. can use a Creative Commons logo. The result will look like this:</p>
 msgid "license.review_choice_directions"
 msgstr ""
-"<h1>Review Choice</h1>\n"
-"\n"
-"<p>Congratulations, you have selected the Creative Commons <a "
-"href=\"${license_url}\">${license_pretty_name} "
-"License${country_name}</a>. </p>\n"
-"\n"
-"<p>To signal to others that you are using a Creative Commons license, you"
-" can use a Creative Commons logo. The result will look like this:</p>"
+"Xin chúc mừng. Bạn đã chọn giấy phép CC. Để ra hiệu cho người khác biết "
+"rằng bạn đang sử dụng giấy phép CC bạn có thể sử dụng logo của CC. Kết "
+"quả sẽ như sau:"
 
 #. Japanese
 msgid "lang.ja"
-msgstr "Japanese"
+msgstr "Tiếng Nhật Bản"
 
 #. Choose Your Sampling License Options
 #: c/engine/chooser_pages/sampling.pt:53
 msgid "license.sampling_title"
-msgstr "Choose Your Sampling License Options"
+msgstr "Lựa chọn Giấy phép mẫu của bạn"
 
 #. Japan
 msgid "country.jp"
-msgstr "Japan"
+msgstr "Nước Nhật Bản"
 
 #. to make commercial use of the work
 msgid "deed.free_commercial"
-msgstr "to make commercial use of the work"
+msgstr "để sử dụng tác phẩm cho mục đích thương mại"
 
 #. more info
 #: c/engine/chooser_pages/index.pt:47 c/engine/chooser_pages/index.pt:50
@@ -1506,11 +1374,11 @@ msgstr "to make commercial use of the work"
 #: c/engine/chooser_pages/index.pt:97 c/engine/chooser_pages/index.pt:130
 #: c/engine/chooser_pages/sampling.pt:74
 msgid "util.more_info"
-msgstr "more info"
+msgstr "thông tin thêm"
 
 #. Select a jurisdiction
 msgid "nav.select_a_jurisdiction"
-msgstr "Select a jurisdiction"
+msgstr "Chọn hình phạt pháp lý"
 
 #. <strong>Sampling Plus</strong>: People can take and transform
 #. <strong>pieces</strong> of your work for any purpose other than advertising,
@@ -1520,23 +1388,22 @@ msgstr "Select a jurisdiction"
 #: c/engine/chooser_pages/sampling.pt:61
 msgid "license.sampling_a_sampling+"
 msgstr ""
-"<strong>Sampling Plus</strong>: People can take and transform "
-"<strong>pieces</strong> of your work for any purpose other than "
-"advertising, which is prohibited. <strong>Noncommercial</strong> copying "
-"and distribution (like file-sharing) of the <strong>entire work</strong> "
-"are also allowed. Hence, \"<strong>plus</strong>\"."
+"Sampling Plus. Mọi người có thể sử dụng và biến đổi từng phần nhỏ trong "
+"tác phẩm của bạn cho bất kỳ mục đích nào ngoài mục đích quảng cáo vì cách"
+" sử dụng này bị cấm. Việc sao chép và phân phối cho mục đích phi thương "
+"mại toàn bộ tác phẩm thì được cho phép."
 
 #. This is a human-readable summary of the Legal Code (the full license)
 #. available in the following languages:
 #: c/engine/macros_templates/deed.pt:98
 msgid "deed.human_summary_multilanguage"
 msgstr ""
-"This is a human-readable summary of the Legal Code (the full license) "
-"available in the following languages:"
+"Đây là bản tóm tắt của giấy phép ngôn ngữ luật mà con người có thể đọc "
+"hiểu và được dịch sang những ngôn ngữ sau:"
 
 #. Jordan
 msgid "country.jo"
-msgstr "Jordan"
+msgstr "Nước Jordan"
 
 #. Catalonia
 msgid "country.es-ca"
@@ -1547,44 +1414,44 @@ msgstr "Catalonia"
 #: c/engine/chooser_pages/lgpl.pt:110 c/engine/chooser_pages/nonweb_popup.pt:31
 #: c/engine/chooser_pages/htmlpopup.pt:20
 msgid "util.Highlight_Text"
-msgstr "Highlight Text to Copy"
+msgstr "Đánh dấu những phần cần sao chép"
 
 #. You may not alter, transform, or build upon this work.
 msgid "char.nd_brief"
-msgstr "You may not alter, transform, or build upon this work."
+msgstr "Bạn không thể chỉnh sửa, thay đổi hay phát triển tác phẩm này. "
 
 #. Generic
 #: c/engine/chooser_pages/sampling.pt:78 c/engine/chooser_pages/sampling.pt:90
 #: c/engine/chooser_pages/partner/index.pt:83
 #: c/engine/chooser_pages/partner/index.pt:86
 msgid "util.Generic"
-msgstr "Generic"
+msgstr "Chung"
 
 #. Spanish (AR)
 msgid "lang.es_AR"
-msgstr "Spanish (AR)"
+msgstr "Tiêng Tây Ban Nha"
 
 #. source work
 #: c/engine/macros_templates/metadata.pt:66
 #: c/engine/macros_templates/metadata.pt:82
 msgid "util.source_work"
-msgstr "source work"
+msgstr "tác phẩm nguồn"
 
 #. Note: The sampling license isn't just for music. It can apply to all types
 #. of copyrighted work: images, film, etc.
 #: c/engine/chooser_pages/sampling.pt:115
 msgid "license.sampling_note"
 msgstr ""
-"Note: The sampling license isn't just for music. It can apply to all "
-"types of copyrighted work: images, film, etc."
+"Ghi chú: Giấy phép mẫu không chỉ dành cho âm nhạc. Nó có thể áp dụng với "
+"tất cả các tác phẩm được cấp bản quyền: hình ảnh, phim,..."
 
 #. Australia
 msgid "country.au"
-msgstr "Australia"
+msgstr "Nước Úc "
 
 #. Austria
 msgid "country.at"
-msgstr "Austria"
+msgstr "Nước Austria"
 
 #. This work is hereby released into the Public Domain. To view a copy of the
 #. public domain dedication, visit
@@ -1595,14 +1462,13 @@ msgstr "Austria"
 msgid "license.non_web_pd"
 msgstr ""
 "Tác phẩm này thuộc về Phạm vi Công chúng. Để xem bản sao chứng nhận phạm "
-"vi công chúng, mời xem "
-"http://creativecommons.org/licenses/public()domain/ hoặc gửi thư tới "
-"Creative Commons, 171 Second Street, Suite 300, San Francisco, "
-"California, 94105, USA"
+"vi công chúng, mời xem http://creativecommons.org/licenses/publicdomain/ "
+"hoặc gửi thư tới Creative Commons, 171 Second Street, Suite 300, San "
+"Francisco, California, 94105, USA."
 
 #. Argentina
 msgid "country.ar"
-msgstr "Argentina"
+msgstr "Nước Achentina"
 
 #. A <a href="${current_version_url}">new version</a> of this license is
 #. available. You should use it for new works, and you may want to relicense
@@ -1611,10 +1477,10 @@ msgstr "Argentina"
 #: c/engine/licenses/standard_templates/deed.pt:77
 msgid "deed.superseded"
 msgstr ""
-"A <a href=\"${current_version_url}\">new version</a> of this license is "
-"available. You should use it for new works, and you may want to relicense"
-" existing works under it. No works are <em>automatically</em> put under "
-"the new license, however."
+"Phiên bản mới của giấy phép này đã có. Bạn nên dùng chúng cho các tác "
+"phẩm sau này của bạn và bạn cũng có thể cấp phép lại cho các tác phẩm "
+"hiện tại của bạn. Tuy nhiên, không có tác phẩm nào được tự động cấp phép "
+"theo phiên mới."
 
 #. Sampling Plus
 #: c/engine/chooser_pages/index.pt:209
@@ -1624,35 +1490,37 @@ msgstr "Sampling Plus"
 #. Allow commercial uses of your work?
 #: c/engine/chooser_pages/index.pt:42
 msgid "api.commercial"
-msgstr "Allow commercial uses of your work?"
+msgstr "Cho phép sử dụng cho mục đích thương mại? "
 
 #. enter information
 #: c/engine/macros_templates/support.pt:103
 #: c/engine/macros_templates/support.pt:107
 msgid "license.enter_information"
-msgstr "enter information"
+msgstr "nhập thông tin"
 
 #. Allow Remixing
 msgid "jswidget.Allow_Remixing"
-msgstr "Allow Remixing"
+msgstr "Cho phép hòa trộn tác phẩm"
 
 #. Hide these fields (All fields are optional)
 #: c/engine/macros_templates/metadata.pt:16
 msgid "license.hide_optional_fields"
-msgstr "Hide these fields (All fields are optional)"
+msgstr "Giấu các trường này (toàn bộ các trường đều không bắt buộc)"
 
 #. Portugal
 msgid "country.pt"
-msgstr "Portugal"
+msgstr "Nước Bồ Đào Nha"
 
 #. GNU General Public License
 msgid "license.GPL_name_full"
-msgstr "GNU General Public License"
+msgstr "Giấy phép GNU General Public "
 
 #. The freedom to study how the program works and adapt it to your needs.
 #: c/engine/licenses/fsf_templates/deed.pt:36
 msgid "deed.gpl_free_study"
-msgstr "The freedom to study how the program works and adapt it to your needs."
+msgstr ""
+"Tự do nghiên cứu cách vận hành của chương trình và biến đổi nó cho phù "
+"hợp với nhu cầu của bạn. "
 
 #. Afrikaans
 msgid "lang.af"
@@ -1663,8 +1531,8 @@ msgstr "Afrikaans"
 #: c/engine/licenses/mitbsd_templates/deed.pt:54
 msgid "deed.mit_notice"
 msgstr ""
-"The copyright notice and license shall be included in all copies or\n"
-"substantial portions of the software."
+"Thông báo về bản quyền và giấy phép sẽ được đề cập tới trong tất cả hoặc "
+"trong các phần quan trọng của phần mềm."
 
 #. Remix
 msgid "jswidget.Remix"
@@ -3412,23 +3280,25 @@ msgid "lang.as"
 msgstr "Assamese"
 
 msgid "lang.vi"
-msgstr "Vietnamese"
+msgstr "Người Việt/Tiếng Việt"
 
 msgid "country.vn"
-msgstr "Vietnam"
+msgstr "Việt Nam"
 
 #: src/cc/deedscraper/templates/attribution_details.html:2
 #, python-format
 msgid ""
 "You must attribute this work to <a "
 "href=\"%(attributionURL)s\">%(attributionName)s</a> (with link)."
-msgstr ""
+msgstr "Bạn phải ghi nhận tác phẩm này "
 
 #: src/cc/deedscraper/templates/more_permissions.html:2
 msgid ""
 "<strong>Permissions beyond</strong> the scope of this public license are "
 "available at"
 msgstr ""
+"Để xin phép ngoài giới hạn nêu ra trong giấy phép này, hãy truy cập trang"
+" web:"
 
 #: src/cc/deedscraper/templates/registration.html:2
 #, python-format
@@ -3436,5 +3306,5 @@ msgid ""
 "<a href=\"%(owner_url)s\">%(owner_name)s</a> has registered <a "
 "href=\"%(lookup_uri)s\">this work</a> at the <nobr><a "
 "href=\"%(network_url)s\">%(network_name)s</a></nobr>"
-msgstr ""
+msgstr "(người sở hữu-tên) đã đăng ký tác phẩm này tại (mạng lưới-tên)"
 
