@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
@@ -13,9 +12,11 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: de <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.3-svn\n"
 "Generated-By: Babel 1.0b-cc-2009-03-17\n"
 
 msgctxt "country.nz"
@@ -4057,6 +4058,9 @@ msgid ""
 "Works under CC0 do not require attribution.  When citing the work, you "
 "should not imply endorsement by the author."
 msgstr ""
+"Werke oder Inhalte unter CC0 erfordern keine Namensnennung oder "
+"Zuschreibung. Und wenn Sie ein Zitat vornehmen, sollten Sie nicht den "
+"Eindruck erwecken, dass dies vom Rechteinhaber unterstützt wird."
 
 #: s/standard_templates/deed.pt:121
 msgctxt "deed.public_domain"
@@ -4066,11 +4070,15 @@ msgid ""
 "id=\"public_domain\" class=\"helpLink\">public domain</a> under "
 "applicable law, that status is in no way affected by the license."
 msgstr ""
+"Soweit das Werk, der Inhalt oder irgendein Teil davon zur <a "
+"href=\"http://wiki.creativecommons.org/Public_domain\" id=\"public_domain\" "
+"class=\"helpLink\">Public Domain</a> der jeweiligen Rechtsordnung gehört, wird "
+"dieser Status von der Lizenz in keiner Weise berührt."
 
 #: s/standard_templates/deed.pt:209
 msgctxt "deed.public_domain.help.title"
 msgid "What does \"Public Domain\" mean?"
-msgstr ""
+msgstr "Was bedeutet \"Public Domain\"?"
 
 #: s/standard_templates/deed.pt:213
 msgctxt "deed.public_domain.help"
@@ -4078,58 +4086,60 @@ msgid ""
 "A work is in the public domain when it is free for use by anyone for any "
 "purpose without restriction under copyright."
 msgstr ""
+"Ein Werk oder Inhalt gehört der Public Domain an, wenn es von jedermann ohne "
+"urheberrechtliche Einschränkungen in jeder Weise genutzt werden kann."
 
 msgctxt "lang.ast_ES"
 msgid "Asturian"
-msgstr ""
+msgstr "Asturisch"
 
 msgctxt "lang.oci_ES"
 msgid "Aranese"
-msgstr ""
+msgstr "Aranisch"
 
 msgctxt "lang.lt"
 msgid "Lithuanian"
-msgstr ""
+msgstr "Litauisch"
 
 msgctxt "lang.ur"
 msgid "Urdu"
-msgstr ""
+msgstr "Urdu"
 
 msgctxt "lang.lv"
 msgid "Latvian"
-msgstr ""
+msgstr "Lettisch"
 
 msgctxt "lang.uk"
 msgid "Ukranian"
-msgstr ""
+msgstr "Ukrainisch"
 
 msgctxt "util.Universal"
 msgid "Universal"
-msgstr ""
+msgstr "Universell"
 
 msgctxt "lang.ru"
 msgid "Russian"
-msgstr ""
+msgstr "Russisch"
 
 msgctxt "lang.be"
 msgid "Belarusian"
-msgstr ""
+msgstr "Belorussisch"
 
 msgctxt "lang.mn"
 msgid "Mongolian"
-msgstr ""
+msgstr "Mongolisch"
 
 msgctxt "lang.as"
 msgid "Assamese"
-msgstr ""
+msgstr "Assamesisch"
 
 msgctxt "lang.vi"
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnamesisch"
 
 msgctxt "country.vn"
 msgid "Vietnam"
-msgstr ""
+msgstr "Vietnam"
 
 #: src/cc/deedscraper/templates/attribution_details.html:2
 #, python-format
@@ -4137,12 +4147,16 @@ msgid ""
 "You must attribute this work to <a "
 "href=\"%(attributionURL)s\">%(attributionName)s</a> (with link)."
 msgstr ""
+"Sie müssen dieses Werk oder diesen Inhalt <a "
+"href=\"%(attributionURL)s\">%(attributionName)s</a> zuschreiben (mit Link)."
 
 #: src/cc/deedscraper/templates/more_permissions.html:2
 msgid ""
 "<strong>Permissions beyond</strong> the scope of this public license are "
 "available at"
 msgstr ""
+"<strong>Weitere Freiheiten</strong> über diese Lizenz hinaus erhalten Sie "
+"unter "
 
 #: src/cc/deedscraper/templates/registration.html:2
 #, python-format
@@ -4151,4 +4165,6 @@ msgid ""
 "href=\"%(lookup_uri)s\">this work</a> at the <nobr><a "
 "href=\"%(network_url)s\">%(network_name)s</a></nobr>"
 msgstr ""
-
+"<a href=\"%(owner_url)s\">%(owner_name)s</a> hat <a "
+"href=\"%(lookup_uri)s\">dieses Werk bzw, diesen Inhalt</a> bei <nobr><a "
+"href=\"%(network_url)s\">%(network_name)s</a></nobr> registriert."
