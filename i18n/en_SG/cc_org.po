@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2010-05-13 14:23-0400\n"
-"PO-Revision-Date: 2010-05-13 14:23-0400\n"
+"POT-Creation-Date: 2010-07-02 17:39-0500\n"
+"PO-Revision-Date: 2010-07-02 17:39-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en_SG <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -205,6 +205,7 @@ msgstr ""
 "<p>Display the icon on any site you offer your software for download "
 "using the following markup:</p>"
 
+#, fuzzy
 msgid "license.work_type_licensed"
 msgstr ""
 "This ${work_type} is licenced under a <a rel=\"license\" "
@@ -2760,4 +2761,31 @@ msgstr "Mongolian"
 
 msgid "lang.as"
 msgstr "Assamese"
+
+msgid "lang.vi"
+msgstr "Vietnamese"
+
+msgid "country.vn"
+msgstr "Vietnam"
+
+#: src/cc/deedscraper/templates/attribution_details.html:2
+#, python-format
+msgid ""
+"You must attribute this work to <a "
+"href=\"%(attributionURL)s\">%(attributionName)s</a> (with link)."
+msgstr ""
+
+#: src/cc/deedscraper/templates/more_permissions.html:2
+msgid ""
+"<strong>Permissions beyond</strong> the scope of this public license are "
+"available at"
+msgstr ""
+
+#: src/cc/deedscraper/templates/registration.html:2
+#, python-format
+msgid ""
+"<a href=\"%(owner_url)s\">%(owner_name)s</a> has registered <a "
+"href=\"%(lookup_uri)s\">this work</a> at the <nobr><a "
+"href=\"%(network_url)s\">%(network_name)s</a></nobr>"
+msgstr ""
 

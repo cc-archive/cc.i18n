@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2010-05-13 14:23-0400\n"
-"PO-Revision-Date: 2010-05-13 14:23-0400\n"
+"POT-Creation-Date: 2010-07-02 17:39-0500\n"
+"PO-Revision-Date: 2010-07-02 17:39-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: eo <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -814,12 +814,16 @@ msgstr ""
 "malnetaĵo al licenses@creativecommons.org."
 
 #: c/engine/chooser_pages/index.pt:170 c/engine/chooser_pages/sampling.pt:106
-#, fuzzy
 msgid "license.jurisdiction_help"
 msgstr ""
-"Se vi deziras uzi permesilon adaptitan por perfekta kongruo kun "
-"aŭtorrajta leĝaro de konkreta jurisdikcio, bonvolu elekti la koncernan "
-"ŝtaton."
+"Uzu la opcion \"Internacia\", se vi deziras permesilon uzantan\n"
+"lingvaĵon kaj terminaron de internaciaj kontraktoj. Se ekzistas\n"
+"versio de la permesilo adaptita por via jurisdikcio kaj ŝajnas\n"
+"al vi, ke la adaptita versio konsideras iujn aspektojn de loka\n"
+"leĝaro, kiujn neglektas la internaciaj permesiloj, eble vi volas\n"
+"pripensi <a "
+"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">kiu"
+" permesilo pli taŭgas por via bezono</a>."
 
 #: c/engine/licenses/fsf_templates/deed.pt:34
 msgid "deed.gpl_free_run"
@@ -2769,8 +2773,35 @@ msgid "lang.be"
 msgstr "Belorusa"
 
 msgid "lang.mn"
-msgstr "Mongolian"
+msgstr "Mongola"
 
 msgid "lang.as"
-msgstr "Assamese"
+msgstr "Asama"
+
+msgid "lang.vi"
+msgstr "Vietnamese"
+
+msgid "country.vn"
+msgstr "Vietnam"
+
+#: src/cc/deedscraper/templates/attribution_details.html:2
+#, python-format
+msgid ""
+"You must attribute this work to <a "
+"href=\"%(attributionURL)s\">%(attributionName)s</a> (with link)."
+msgstr ""
+
+#: src/cc/deedscraper/templates/more_permissions.html:2
+msgid ""
+"<strong>Permissions beyond</strong> the scope of this public license are "
+"available at"
+msgstr ""
+
+#: src/cc/deedscraper/templates/registration.html:2
+#, python-format
+msgid ""
+"<a href=\"%(owner_url)s\">%(owner_name)s</a> has registered <a "
+"href=\"%(lookup_uri)s\">this work</a> at the <nobr><a "
+"href=\"%(network_url)s\">%(network_name)s</a></nobr>"
+msgstr ""
 

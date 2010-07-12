@@ -1,4 +1,4 @@
-# Translations template for PROJECT.
+# German (Switzerland) translations for PROJECT.
 # Copyright (C) 2010 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2010-05-13 14:16-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2010-06-01 14:44-0700\n"
+"PO-Revision-Date: 2010-07-02 17:20-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: de_CH <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -315,6 +316,7 @@ msgstr ""
 "Verwenden Sie dieses Logo auf jeder Website, auf der Sie Software als "
 "Download anbieten und benutzen Sie dabei folgenden Markup:"
 
+#, fuzzy
 msgctxt "license.work_type_licensed"
 msgid ""
 "This ${work_type} is licensed under a <a rel=\"license\" "
@@ -3915,5 +3917,34 @@ msgstr ""
 
 msgctxt "lang.as"
 msgid "Assamese"
+msgstr ""
+
+msgctxt "lang.vi"
+msgid "Vietnamese"
+msgstr ""
+
+msgctxt "country.vn"
+msgid "Vietnam"
+msgstr ""
+
+#: src/cc/deedscraper/templates/attribution_details.html:2
+#, python-format
+msgid ""
+"You must attribute this work to <a "
+"href=\"%(attributionURL)s\">%(attributionName)s</a> (with link)."
+msgstr ""
+
+#: src/cc/deedscraper/templates/more_permissions.html:2
+msgid ""
+"<strong>Permissions beyond</strong> the scope of this public license are "
+"available at"
+msgstr ""
+
+#: src/cc/deedscraper/templates/registration.html:2
+#, python-format
+msgid ""
+"<a href=\"%(owner_url)s\">%(owner_name)s</a> has registered <a "
+"href=\"%(lookup_uri)s\">this work</a> at the <nobr><a "
+"href=\"%(network_url)s\">%(network_name)s</a></nobr>"
 msgstr ""
 
