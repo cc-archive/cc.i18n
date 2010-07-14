@@ -1,5 +1,7 @@
 import logging
 import optparse
+import pkg_resources
+
 
 def make_option_parser():
     """Return an optparse.OptionParser configured for the make_cc_files 
@@ -9,9 +11,11 @@ def make_option_parser():
     parser.set_defaults(verbosity=logging.WARNING)
 
     # settings
-    parser.add_option('-m', '--master', dest='english_po',
-                      default='master/cc_org.po',
-                      help='Master .po file, used to map keys.')
+    parser.add_option(
+        '-m', '--master', dest='english_po',
+        default=pkg_resources.resource_filename(
+            'cc.i18n', 'master/cc_org.po'),
+        help='Master .po file, used to map keys.')
     parser.add_option('-q', '--quiet', dest='verbosity',
                       action='store_const', const=logging.ERROR)
     parser.add_option('-v', dest='verbosity', 
