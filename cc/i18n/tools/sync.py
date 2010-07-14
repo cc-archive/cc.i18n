@@ -6,8 +6,8 @@ from logging import getLogger
 
 from babel.messages.pofile import read_po, write_po
 
-import convert
-from support import parse_args
+from cc.i18n.tools import convert
+from cc.i18n.tools.support import parse_args
 
 LOGGER_NAME = "sync"
 

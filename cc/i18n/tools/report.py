@@ -7,8 +7,8 @@ from babel.messages.pofile import read_po
 
 from babel.messages.pofile import write_po
 
-import convert
-from support import parse_args
+from cc.i18n.tools import convert
+from cc.i18n.tools.support import parse_args
 
 def count(catalog):
     """Given a Catalog, return the number of strings actually translated."""
