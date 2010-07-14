@@ -21,9 +21,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = "cc_i18ntools",
+    namespace_packages = ['cc',],
+    packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
     version = "0.1",
-    packages = find_packages('.'),    
 
     # scripts and dependencies
     install_requires = ['setuptools',
@@ -31,11 +31,11 @@ setup(
                         ],
 
     entry_points = {'console_scripts' : 
-                    ['po2cc = cc_i18ntools.po2cc:cli',
-                     'cc2po = cc_i18ntools.cc2po:cli',
-                     'sync = cc_i18ntools.sync:cli',
-                     'update = cc_i18ntools.update:cli',
-                     'report = cc_i18ntools.report:cli',
+                    ['po2cc = cc.i18n.tools.po2cc:cli',
+                     'cc2po = cc.i18n.tools.cc2po:cli',
+                     'sync = cc.i18n.tools.sync:cli',
+                     'update = cc.i18n.tools.update:cli',
+                     'report = cc.i18n.tools.report:cli',
                      ],
                     },
 
