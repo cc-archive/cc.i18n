@@ -1,4 +1,4 @@
-## Copyright (c) 2007 Nathan R. Yergler, Creative Commons
+## Copyright (c) 2010 Nathan R. Yergler, Christopher Webber, Creative Commons
 
 ## Permission is hereby granted, free of charge, to any person obtaining
 ## a copy of this software and associated documentation files (the "Software"),
@@ -23,12 +23,17 @@ from setuptools import setup, find_packages
 setup(
     namespace_packages = ['cc',],
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
-    version = "0.1",
+    version = "0.2",
+    include_package_data = True,
+    zip_safe = False,
 
     # scripts and dependencies
-    install_requires = ['setuptools',
-                        'Babel>0.99',
-                        ],
+    install_requires = [
+        'setuptools',
+        'Babel>0.99',
+        'zope.i18n',
+        'zope.interface',
+        'python-gettext'],
 
     entry_points = {'console_scripts' : 
                     ['po2cc = cc.i18n.tools.po2cc:cli',
@@ -36,6 +41,7 @@ setup(
                      'sync = cc.i18n.tools.sync:cli',
                      'update = cc.i18n.tools.update:cli',
                      'report = cc.i18n.tools.report:cli',
+                     'compile_mo = cc.i18n.tools.compile_mo:compile_mo_files',
                      ],
                     },
 
@@ -45,5 +51,4 @@ setup(
     description = '',
     license = 'MIT',
     url = 'http://translate.creativecommons.org',
-
     )
