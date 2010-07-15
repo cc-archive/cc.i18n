@@ -21,6 +21,7 @@
 from setuptools import setup, find_packages
 
 setup(
+    name='cc.i18n',
     namespace_packages = ['cc',],
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
     version = "0.2",
@@ -30,7 +31,7 @@ setup(
     # scripts and dependencies
     install_requires = [
         'setuptools',
-        'Babel>0.99',
+        'Babel',
         'zope.i18n',
         'zope.interface',
         'python-gettext'],
