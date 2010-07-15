@@ -1,6 +1,7 @@
 import os
 import logging
 from logging import getLogger
+import pkg_resources
 
 from babel.messages.pofile import read_po
 from babel import localedata
@@ -18,8 +19,11 @@ def cli():
     """Command line interface for po2cc script."""
 
     # parse the command line
-    (options, input_files) = parse_args(input_dir = 'po',
-                                        output_dir = 'i18n')
+    (options, input_files) = parse_args(
+        input_dir=pkg_resources.resource_filename(
+            'cc.i18n', 'po'),
+        output_dir=pkg_resources.resource_filename(
+            'cc.i18n', 'i18n'))
 
     # set up the logging infrastructure
     getLogger(LOGGER_NAME).addHandler(logging.StreamHandler())

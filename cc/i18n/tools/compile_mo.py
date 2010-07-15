@@ -8,9 +8,9 @@ from pythongettext.msgfmt import Msgfmt
 
 
 I18N_PATH = pkg_resources.resource_filename(
-    'cc.i18npkg', 'i18n/i18n')
+    'cc.i18n', 'i18n/i18n')
 MO_FILES_BASE = pkg_resources.resource_filename(
-    'cc.i18npkg', 'mo')
+    'cc.i18n', 'mo')
 
 
 def compile_mo_files():

@@ -3,6 +3,7 @@ import copy
 import logging
 import shutil
 from logging import getLogger
+import pkg_resources
 
 from babel.messages.pofile import read_po, write_po
 
@@ -15,7 +16,11 @@ def cli():
     """Command line interface for sync script."""
 
     # parse the command line
-    (options, args) = parse_args(input_dir='po', output_dir='po')
+    (options, args) = parse_args(
+        input_dir=pkg_resources.resource_filename(
+            'cc.i18n', 'po'),
+        output_dir=pkg_resources.resource_filename(
+            'cc.i18n', 'po'))
 
     # set up the logging infrastructure
     getLogger(LOGGER_NAME).addHandler(logging.StreamHandler())
