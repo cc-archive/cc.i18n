@@ -23,14 +23,14 @@ def add_comments(english_po_filename, locale, non_english_po_filename):
     babel.messages.pofile.write_po(open(non_english_po_filename, 'w'), target_po)
 
 def add_comments_to_all():
-    english_filename = 'i18n/en/cc_org.po'
-    for pofile in glob.glob('i18n/*/cc_org.po'):
+    english_filename = 'cc/i18n/i18n/en/cc_org.po'
+    for pofile in glob.glob('cc/i18n/i18n/*/cc_org.po'):
         
         if pofile == english_filename:
             continue # Get me a non-English one
         
         print 'converting ', pofile
-        add_comments(english_filename, pofile.split('/')[1], pofile )
+        add_comments(english_filename, pofile.split('/')[-2], pofile )
     
 
 if __name__ == '__main__':
