@@ -31,7 +31,7 @@ setup(
     # scripts and dependencies
     install_requires = [
         'setuptools',
-        'Babel',
+        'Babel>0.99',
         'zope.i18n',
         'zope.interface',
         'python-gettext'],
