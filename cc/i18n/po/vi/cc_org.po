@@ -1,17 +1,17 @@
-# Vietnamese translations for PROJECT.
+# Translations template for PROJECT.
 # Copyright (C) 2010 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2010-06-01 14:44-0700\n"
-"PO-Revision-Date: 2010-06-10 21:24+0000\n"
-"Last-Translator: Que Nguyen <quenguyen@vef.gov>\n"
-"Language-Team: vi <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"POT-Creation-Date: 2010-07-23 22:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -695,7 +695,7 @@ msgstr "Tra()ng này được dịch ra các ngôn ngữ sau():"
 #: c/engine/macros_templates/support.pt:56
 msgctxt "deed.view_in"
 msgid "This page is available in the following languages:"
-msgstr "Trang này được dịch ra các ngôn ngữ sau:"
+msgstr "Tra()ng này được dịch ra các ngôn ngữ sau():"
 
 #. English (GB)
 msgctxt "lang.en_GB"
@@ -1560,19 +1560,6 @@ msgstr ""
 "không vì mục đích thương mại toàn bộ tác ohẩm của bạn cũng được cho phép."
 " "
 
-#. You have selected the Creative Commons ${license_pretty_name}
-#. License${country_name}. <a href="${license_url}">See how the license will
-#. look</a> to your site's visitors.
-#: c/engine/chooser_pages/results.pt:21
-msgctxt "license.selected"
-msgid ""
-"You have selected the Creative Commons ${license_pretty_name} "
-"License${country_name}. <a href=\"${license_url}\">See how the license "
-"will look</a> to your site's visitors."
-msgstr ""
-"Bạn đã lựa chọn giấy phép CC. Bạn hãy xem nó thể hiện như thế nào trên "
-"trang web của bạn: "
-
 #. Video
 #: c/engine/macros_templates/metadata.pt:32
 msgctxt "util.Video"
@@ -1894,27 +1881,6 @@ msgstr "Tiếng Trung Quốc"
 msgctxt "license.have_your_own_website"
 msgid "Have your own website?"
 msgstr "Có trang web riêng của bạn?"
-
-#. <h1>Review Choice</h1>
-#. <p>Congratulations, you have selected the Creative Commons <a
-#. href="${license_url}">${license_pretty_name} License${country_name}</a>.
-#. </p>
-#. <p>To signal to others that you are using a Creative Commons license, you
-#. can use a Creative Commons logo. The result will look like this:</p>
-msgctxt "license.review_choice_directions"
-msgid ""
-"<h1>Review Choice</h1>\n"
-"\n"
-"<p>Congratulations, you have selected the Creative Commons <a "
-"href=\"${license_url}\">${license_pretty_name} "
-"License${country_name}</a>. </p>\n"
-"\n"
-"<p>To signal to others that you are using a Creative Commons license, you"
-" can use a Creative Commons logo. The result will look like this:</p>"
-msgstr ""
-"Xin chúc mừng. Bạn đã chọn giấy phép CC. Để ra hiệu cho người khác biết "
-"rằng bạn đang sử dụng giấy phép CC bạn có thể sử dụng logo của CC. Kết "
-"quả sẽ như sau:"
 
 #. Japanese
 msgctxt "lang.ja"
@@ -4549,4 +4515,23 @@ msgid ""
 "href=\"%(lookup_uri)s\">this work</a> at the <nobr><a "
 "href=\"%(network_url)s\">%(network_name)s</a></nobr>"
 msgstr "(người sở hữu-tên) đã đăng ký tác phẩm này tại (mạng lưới-tên)"
+
+#: c/engine/chooser_pages/results.pt:21
+msgctxt "license.selected"
+msgid ""
+"You have selected the Creative Commons ${license_pretty_name} License. <a"
+" href=\"${license_url}\">See how the license will look</a> to your site's"
+" visitors."
+msgstr ""
+
+msgctxt "license.review_choice_directions"
+msgid ""
+"<h1>Review Choice</h1>\n"
+"\n"
+"<p>Congratulations, you have selected the Creative Commons <a "
+"href=\"${license_url}\">${license_pretty_name} License</a>. </p>\n"
+"\n"
+"<p>To signal to others that you are using a Creative Commons license, you"
+" can use a Creative Commons logo. The result will look like this:</p>"
+msgstr ""
 

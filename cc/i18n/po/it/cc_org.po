@@ -1,22 +1,20 @@
-# Italian translations for PROJECT.
+# Translations template for PROJECT.
 # Copyright (C) 2010 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2010-06-01 14:44-0700\n"
-"PO-Revision-Date: 2010-07-05 15:54+0000\n"
-"Last-Translator: Claudio Artusio <claudioartusio@gmail.com>\n"
-"Language-Team: it <LL@li.org>\n"
-"Language: it\n"
+"POT-Creation-Date: 2010-07-23 22:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Pootle 1.3-svn\n"
 "Generated-By: Babel 1.0b-cc-2009-03-17\n"
 
 msgctxt "country.nz"
@@ -1399,18 +1397,6 @@ msgstr ""
 "dell'<strong>opera nella sua interezza</strong> (ad esempio per mezzo di "
 "applicazioni per il <span lang=\"en\">file-sharing</span>) sono permesse."
 
-#: c/engine/chooser_pages/results.pt:21
-msgctxt "license.selected"
-msgid ""
-"You have selected the Creative Commons ${license_pretty_name} "
-"License${country_name}. <a href=\"${license_url}\">See how the license "
-"will look</a> to your site's visitors."
-msgstr ""
-"Hai scelto la <span lang=\"en\">Creative Commons</span> "
-"${license_pretty_name} License${country_name}. <a "
-"href=\"${license_url}\">Guarda come apparirà la licenza</a> ai visitatori"
-" del tuo sito web."
-
 #: c/engine/macros_templates/metadata.pt:32
 msgctxt "util.Video"
 msgid "Video"
@@ -1692,28 +1678,6 @@ msgstr "Cinese"
 msgctxt "license.have_your_own_website"
 msgid "Have your own website?"
 msgstr "Possiedi un tuo sito web?"
-
-msgctxt "license.review_choice_directions"
-msgid ""
-"<h1>Review Choice</h1>\n"
-"\n"
-"<p>Congratulations, you have selected the Creative Commons <a "
-"href=\"${license_url}\">${license_pretty_name} "
-"License${country_name}</a>. </p>\n"
-"\n"
-"<p>To signal to others that you are using a Creative Commons license, you"
-" can use a Creative Commons logo. The result will look like this:</p>"
-msgstr ""
-"<h1>La tua scelta</h1>\n"
-"\n"
-"<p>Congratulazioni, hai scelto la licenza <span lang=\"en\">Creative "
-"Commons</span> <a href=\"${license_url}\">${license_pretty_name} "
-"License${country_name}</a>. </p>\n"
-"\n"
-"<p>Per segnalare agli altri che hai scelto di tutelare la tua opera con "
-"una licenza <span lang=\"en\">Creative Commons</span>, puoi usare il "
-"logotipo <span lang=\"en\">Creative Commons</span>. Il risultato dovrebbe"
-" essere simile a questo:</p>"
 
 msgctxt "lang.ja"
 msgid "Japanese"
@@ -4132,8 +4096,8 @@ msgid ""
 "<strong>Permissions beyond</strong> the scope of this public license are "
 "available at"
 msgstr ""
-"<strong>Permessi ulteriori</strong> rispetto alle finalità della presente "
-"licenza pubblica sono disponibili presso"
+"<strong>Permessi ulteriori</strong> rispetto alle finalità della presente"
+" licenza pubblica sono disponibili presso"
 
 #: src/cc/deedscraper/templates/registration.html:2
 #, python-format
@@ -4145,3 +4109,23 @@ msgstr ""
 "<a href=\"%(owner_url)s\">%(owner_name)s</a> ha registrato <a "
 "href=\"%(lookup_uri)s\">quest'opera</a> presso <nobr><a "
 "href=\"%(network_url)s\">%(network_name)s</a></nobr>"
+
+#: c/engine/chooser_pages/results.pt:21
+msgctxt "license.selected"
+msgid ""
+"You have selected the Creative Commons ${license_pretty_name} License. <a"
+" href=\"${license_url}\">See how the license will look</a> to your site's"
+" visitors."
+msgstr ""
+
+msgctxt "license.review_choice_directions"
+msgid ""
+"<h1>Review Choice</h1>\n"
+"\n"
+"<p>Congratulations, you have selected the Creative Commons <a "
+"href=\"${license_url}\">${license_pretty_name} License</a>. </p>\n"
+"\n"
+"<p>To signal to others that you are using a Creative Commons license, you"
+" can use a Creative Commons logo. The result will look like this:</p>"
+msgstr ""
+
