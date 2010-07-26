@@ -15,26 +15,18 @@ import sha
 
 LOGGER_NAME = "po2cc"
 
-def cli():
-    """Command line interface for po2cc script."""
-
-    # parse the command line
-    (options, input_files) = parse_args(
-        input_dir=pkg_resources.resource_filename(
-            'cc.i18n', 'po'),
-        output_dir=pkg_resources.resource_filename(
-            'cc.i18n', 'i18n'))
-
+def po2cc(input_files, input_dir, output_dir, english_po,
+          verbosity, cache):
     # set up the logging infrastructure
     getLogger(LOGGER_NAME).addHandler(logging.StreamHandler())
-    getLogger(LOGGER_NAME).setLevel(options.verbosity)
+    getLogger(LOGGER_NAME).setLevel(verbosity)
 
     # make everything absolute paths
-    options.input_dir = os.path.abspath(options.input_dir)
-    options.output_dir = os.path.abspath(options.output_dir)
-    options.english_po = os.path.abspath(options.english_po)
+    input_dir = os.path.abspath(input_dir)
+    output_dir = os.path.abspath(output_dir)
+    english_po = os.path.abspath(english_po)
 
-    for root, dirnames, filenames in os.walk(options.input_dir):
+    for root, dirnames, filenames in os.walk(input_dir):
         
         for fn in filenames:
 
@@ -46,8 +38,8 @@ def cli():
 
             # determine the output path
             output_fn = os.path.join(
-                options.output_dir,
-                input_fn[len(options.input_dir) + 1:])
+                output_dir,
+                input_fn[len(input_dir) + 1:])
 
             # make sure the necessary directories exist
             if not(os.path.exists(os.path.dirname(output_fn))):
@@ -64,7 +56,7 @@ def cli():
                 locale = None
 
             # optional: if caching enabled, and we have processed our files before, don't do anything
-            if options.cache:
+            if cache:
                 cache_dir = os.path.join(os.getenv('HOME'), '.cc2po-cache')
                 if not os.path.exists(cache_dir):
                     os.mkdir(cache_dir, 0700)
@@ -82,7 +74,7 @@ def cli():
             result = convert.po_to_cc(read_po(file(input_fn, 'r'),
                                               locale, 
                                               'cc_org'),
-                             read_po(file(options.english_po, 'r')))
+                             read_po(file(english_po, 'r')))
 
             convert.defuzz(result)
 
@@ -90,7 +82,7 @@ def cli():
             getLogger(LOGGER_NAME).debug("Write %s." % output_fn)
 
             # if caching is enabled, store a note that the result is good
-            if options.cache:
+            if cache:
                 assert input_sha1 == sha.sha(open(input_fn).read()).hexdigest()
                 input_sha_file = os.path.join(cache_dir, input_sha1)
                 output_sha1 = sha.sha(open(output_fn).read()).hexdigest()
@@ -98,3 +90,16 @@ def cli():
                 fd.write(output_sha1)
                 fd.close()
 
+
+def cli():
+    """Command line interface for po2cc script."""
+
+    # parse the command line
+    (options, input_files) = parse_args(
+        input_dir=pkg_resources.resource_filename(
+            'cc.i18n', 'po'),
+        output_dir=pkg_resources.resource_filename(
+            'cc.i18n', 'i18n'))
+
+    po2cc(input_files, options.input_dir, options.output_dir,
+          options.english_po, options.verbosity, options.cache)
