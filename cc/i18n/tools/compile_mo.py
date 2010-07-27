@@ -42,5 +42,17 @@ def compile_mo_files():
         fd.close()
 
 
+class CompileMORecipe(object):
+    def __init__(self, buildout, name, options):
+        self.name, self.options = name, options
+
+    def install(self):
+        compile_mo_files()
+        return MO_FILES_BASE
+
+    def update(self):
+        compile_mo_files()
+
+
 if __name__ == '__main__':
     compile_mo_files()
