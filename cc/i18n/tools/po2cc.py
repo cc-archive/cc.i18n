@@ -15,8 +15,17 @@ import sha
 
 LOGGER_NAME = "po2cc"
 
-def po2cc(input_files, input_dir, output_dir, english_po,
-          verbosity, cache):
+
+INPUT_DIR = pkg_resources.resource_filename(
+    'cc.i18n', 'po')
+OUTPUT_DIR = pkg_resources.resource_filename(
+    'cc.i18n', 'i18n')
+MASTER_PO = pkg_resources.resource_filename(
+    'cc.i18n', 'master/cc_org.po')
+
+def po2cc(input_dir=INPUT_DIR, output_dir=OUTPUT_DIR,
+          english_po=MASTER_PO, verbosity=logging.WARNING,
+          cache=True):
     # set up the logging infrastructure
     getLogger(LOGGER_NAME).addHandler(logging.StreamHandler())
     getLogger(LOGGER_NAME).setLevel(verbosity)
@@ -95,11 +104,24 @@ def cli():
     """Command line interface for po2cc script."""
 
     # parse the command line
-    (options, input_files) = parse_args(
-        input_dir=pkg_resources.resource_filename(
-            'cc.i18n', 'po'),
-        output_dir=pkg_resources.resource_filename(
-            'cc.i18n', 'i18n'))
+    (options, args) = parse_args(
+        input_dir=INPUT_DIR,
+        output_dir=OUTPUT_DIR)
 
-    po2cc(input_files, options.input_dir, options.output_dir,
+    po2cc(options.input_dir, options.output_dir,
           options.english_po, options.verbosity, options.cache)
+
+
+class Po2CC(object):
+    def __init__(self, buildout, name, options):
+        self.name, self.options = name, options
+
+    def install(self):
+        if not os.path.exists(OUTPUT_DIR):
+            os.mkdir(OUTPUT_DIR)
+
+        po2cc()
+        return OUTPUT_DIR
+
+    def update(self):
+        po2cc()
