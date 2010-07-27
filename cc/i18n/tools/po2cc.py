@@ -112,7 +112,7 @@ def cli():
           options.english_po, options.verbosity, options.cache)
 
 
-class Po2CC(object):
+class Po2CCRecipe(object):
     def __init__(self, buildout, name, options):
         self.name, self.options = name, options
 
