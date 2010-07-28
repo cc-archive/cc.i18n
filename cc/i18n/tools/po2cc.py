@@ -71,7 +71,7 @@ def po2cc(input_dir=INPUT_DIR, output_dir=OUTPUT_DIR,
                     os.mkdir(cache_dir, 0700)
                 input_sha1 = sha.sha(open(input_fn).read()).hexdigest()
                 input_sha_file = os.path.join(cache_dir, input_sha1)
-                if os.path.exists(input_sha_file):
+                if os.path.exists(input_sha_file) and os.path.exists(output_fn):
                     # if it exists, check the file's contents.
                     output_sha1 = sha.sha(open(output_fn).read()).hexdigest()
                     contents = open(input_sha_file).read().strip()
