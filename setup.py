@@ -46,8 +46,8 @@ setup(
             # 'po2cc = cc.i18n.tools.po2cc:cli',
             ],
         'zc.buildout': [
-            'po2cc = cc.i18n.tools.po2cc:Po2CCCRecipe',
-            'compile_mo = cc.i18n.tools.compile_mo:CompileMORecipe',
+            'cc.i18n.po2cc = cc.i18n.tools.po2cc:Po2CCCRecipe',
+            'cc.i18n.compile_mo = cc.i18n.tools.compile_mo:CompileMORecipe',
             ]
         },
 
