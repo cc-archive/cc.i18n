@@ -4,7 +4,7 @@ import pkg_resources
 
 
 MO_PATH = pkg_resources.resource_filename(
-    'cc.i18npkg', 'mo')
+    'cc.i18n', 'mo')
 I18N_DOMAIN = 'cc_org'
 CCORG_GETTEXT_TRANSLATIONS = {}
 

@@ -12,9 +12,9 @@ from zope import component
 DOMAIN_SETUP = False
 
 MO_PATH = pkg_resources.resource_filename(
-    'cc.i18npkg', 'mo')
+    'cc.i18n', 'mo')
 I18N_DOMAIN = 'cc_org'
-# cc/i18npkg/mo/ms/LC_MESSAGES/cc_org.mo
+# cc/i18n/mo/ms/LC_MESSAGES/cc_org.mo
 
 def _setup_i18n():
     global DOMAIN_SETUP
