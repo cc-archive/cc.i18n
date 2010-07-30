@@ -5,6 +5,7 @@ Compile .po files into .mo files in the cc
 import os
 import pkg_resources
 from pythongettext.msgfmt import Msgfmt
+from stat import ST_MTIME
 
 
 I18N_PATH = pkg_resources.resource_filename(
@@ -22,6 +23,8 @@ def compile_mo_files():
         if not os.path.isdir(catalog_path) or not os.path.exists(po_path):
             continue
 
+        po_mtime = os.stat(po_path)[ST_MTIME]
+
         if not os.path.exists(MO_FILES_BASE):
             os.mkdir(MO_FILES_BASE)
         if not os.path.exists(os.path.join(MO_FILES_BASE, catalog)):
@@ -34,8 +37,12 @@ def compile_mo_files():
         mo_path = os.path.join(
             MO_FILES_BASE, catalog, 'LC_MESSAGES', 'cc_org.mo')
 
-        # TODO: only do this if po_mtime > mo_mtime maybe, see
-        # zope.i18n.compile
+        # don't compile mo files when we don't need to.
+        if os.path.exists(mo_path):
+            mo_mtime = os.stat(mo_path)[ST_MTIME]
+            if po_mtime == mo_mtime:
+                continue
+
         mo_data = Msgfmt(po_path, 'cc_org').getAsFile()
         fd = open(mo_path, 'wb')
         fd.write(mo_data.read())
