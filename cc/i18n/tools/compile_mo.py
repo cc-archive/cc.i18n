@@ -45,13 +45,13 @@ def compile_mo_files():
 class CompileMORecipe(object):
     def __init__(self, buildout, name, options):
         self.name, self.options = name, options
+        options['path'] = MO_FILES_BASE
 
     def install(self):
         compile_mo_files()
-        return MO_FILES_BASE
+        return ()
 
-    def update(self):
-        compile_mo_files()
+    update = install
 
 
 if __name__ == '__main__':

@@ -121,7 +121,6 @@ class Po2CCRecipe(object):
             os.mkdir(OUTPUT_DIR)
 
         po2cc()
-        return OUTPUT_DIR
+        return ()
 
-    def update(self):
-        po2cc()
+    update = install
