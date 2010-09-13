@@ -441,7 +441,7 @@ msgstr ""
 
 msgctxt "util.copyright_holders_name"
 msgid "<a href=\"/jargon/copyright\" class=\"jargon\" onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;\">copyright</a> holder's name"
-msgstr ""
+msgstr "<a href=\"/jargon/copyright\" class=\"jargon\" onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes'); return false;\">autoriõiguste</a> valdaja nimi"
 
 #: c/engine/macros_templates/metadata.pt:58
 msgctxt "util.attribute_to_url"
@@ -593,7 +593,7 @@ msgstr "Holland"
 #: c/engine/pd/templates/publicdomain-4.pt:29
 msgctxt "license.in_order_to"
 msgid "In order to:"
-msgstr ""
+msgstr "Selleks, et:"
 
 #: c/engine/licenses/fsf_templates/deed.pt:67
 msgctxt "deed.gpl_source"
@@ -643,7 +643,7 @@ msgstr "<strong>Kas te lubate teose muutmist?</strong> (<a href=\"/characteristi
 #: c/engine/chooser_pages/htmlpopup.pt:24
 msgctxt "license.html_directions"
 msgid "Simply copy the text, then paste it into your web documents containing information about your works. <a href=\"/learn/technology/usingmarkup\" target=\"_blank\">More information about adding HTML to your documents here</a>."
-msgstr ""
+msgstr "Kopeeri tekst ja kleebi see oma veebilehele, mis sisaldab infot sinu tööde kohta. <a href=\"/learn/technology/usingmarkup\" target=\"_blank\">Lisa info HTML'i lisamise kohta veebilehele asub siin</a>."
 
 #: c/engine/chooser_pages/index.pt:178
 #: c/engine/chooser_pages/partner/index.pt:114
@@ -653,7 +653,7 @@ msgstr "Vali litsents"
 
 msgctxt "license.rdfa_licensed"
 msgid "${work_title} by ${work_author} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>."
-msgstr ""
+msgstr "Autori ${work_author} teos pealkirjaga ${work_title} on kaitstud litsentsiga <a rel=\"license\" href=\"${license_url}\">Creative Commonsi ${license_name} litsents</a>."
 
 msgctxt "util.description"
 msgid "description"
@@ -666,6 +666,8 @@ msgid ""
 "This license is permanently located at<br>\n"
 "<b><tt>${license_url}</tt></b>."
 msgstr ""
+"Olete valinud <a target=\"cc_other\" href=\"${license_deed_url}\"><b>${license_pretty_name} litsentsi</b></a>.<br> Litsents on alaliselt kättesaadav aadressilt <br>\n"
+"<b><tt>${license_url}</tt></b>."
 
 #: c/engine/licenses/sampling_templates/deed.pt:45
 msgctxt "deed.notice_withoutdistribution"
@@ -679,7 +681,7 @@ msgstr "Hollandi"
 
 msgctxt "util.weblog"
 msgid "weblog"
-msgstr ""
+msgstr "veebilogi"
 
 msgctxt "country.es"
 msgid "Spain"
@@ -706,7 +708,7 @@ msgstr "avalda"
 #: c/engine/macros_templates/deed.pt:153
 msgctxt "deed.human_summary"
 msgid "This is a human-readable summary of the <a href=\"legalcode\" class=\"fulltext\">Legal Code (the full license)</a>."
-msgstr ""
+msgstr "See on lihtsustatud kokkuvõte <a href=\"legalcode\" class=\"fulltext\">litsentsi reeglistiku täisversioonist</a>."
 
 #: c/engine/pd/templates/publicdomain-2.pt:46
 msgctxt "util.proceed"
@@ -788,7 +790,7 @@ msgstr "Rootsi"
 #: c/engine/chooser_pages/htmlpopup.pt:15
 msgctxt "license.html_display"
 msgid "The HTML to display your button is as follows:"
-msgstr ""
+msgstr "HTML kood litsentsile vastava pildi kuvamiseks on järgnev:"
 
 #: c/engine/macros_templates/deed.pt:109
 msgctxt "lang.eu"
