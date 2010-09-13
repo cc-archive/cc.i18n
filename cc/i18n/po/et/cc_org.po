@@ -196,11 +196,11 @@ msgstr ""
 
 msgctxt "license.work_type_licensed"
 msgid "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>."
-msgstr ""
+msgstr "See ${work_type} on litsentseeritud <a rel=\"license\" href=\"${license_url}\">Creative Commonsi ${license_name} litsentsiga</a>."
 
 msgctxt "license.rdfa_licensed_no_title"
 msgid "This ${work_type} by ${work_author} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>."
-msgstr ""
+msgstr "See ${work_type} autorilt ${work_author} on litsentseeritud <a rel=\"license\" href=\"${license_url}\">Creative Commonsi ${license_name} litsentsiga</a>."
 
 #: c/engine/chooser_pages/gpl.pt:46 c/engine/chooser_pages/lgpl.pt:47
 msgctxt "license.human-readable_commons_deed"
@@ -373,7 +373,7 @@ msgstr ""
 #: c/engine/macros_templates/support.pt:56
 msgctxt "util.page_other_languages"
 msgid "This page is available in the following languages:"
-msgstr "See lehekülg on kättesaadav järgmistes keeltes:"
+msgstr "See lehekülg on kättesaadav järgmistes keeltes: "
 
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
@@ -422,7 +422,7 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-4.pt:47
 msgctxt "license.mark_mp3"
 msgid "Mark an mp3, <a href=\"/technology/mp3\">follow these guidelines</a>."
-msgstr ""
+msgstr "Märgista MP3, <a href=\"/technology/mp3\">järgides neid juhiseid</a>."
 
 #: c/engine/licenses/devnations_templates/deed.pt:40
 #: c/engine/licenses/mitbsd_templates/deed.pt:33
@@ -624,7 +624,7 @@ msgstr "Ameerika Ühendriigid"
 #: c/engine/chooser_pages/results.pt:70
 msgctxt "license.select_text"
 msgid "Select the contents of the box above and copy it. Or, have it <a href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open('work-html-popup?${url_vars}', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">emailed to yourself.</a>"
-msgstr ""
+msgstr "Märgista kastis olev sisu ja kopeeri see enda veebilehele või lase see endale <a href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open('work-html-popup?${url_vars}', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">e-mailile saata.</a>"
 
 msgctxt "license.q1"
 msgid "<strong>Require attribution?</strong> (<a href=\"/characteristic/by?lang=${lang}\" onclick=\"window.open('/characteristic/by?lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">more info</a> <a href=\"/characteristic/by?lang=${lang}\" onclick=\"window.open('/characteristic/by?lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
@@ -830,7 +830,7 @@ msgstr "Video"
 
 msgctxt "license.rdfa_licensed_no_attrib"
 msgid "${work_title} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>."
-msgstr ""
+msgstr "${work_title} on litsentseeritud <a rel=\"license\" href=\"${license_url}\">Creative Commonsi ${license_name} litsentsi all</a>."
 
 msgctxt "country.hu"
 msgid "Hungary"
@@ -989,7 +989,7 @@ msgstr "Mitteäriline eesmärk"
 #: c/engine/chooser_pages/index.pt:204
 msgctxt "licenses.pretty_publicdomain"
 msgid "Public Domain"
-msgstr "Avalik omand"
+msgstr "Vabas kasutuses olev teos"
 
 #: c/engine/chooser_pages/index.pt:204
 msgctxt "util.Public_Domain"
@@ -1032,7 +1032,7 @@ msgstr ""
 #: c/engine/chooser_pages/sampling.pt:74
 msgctxt "util.more_info"
 msgid "more info"
-msgstr ""
+msgstr "veel infot"
 
 msgctxt "nav.select_a_jurisdiction"
 msgid "Select a jurisdiction"
@@ -1046,7 +1046,7 @@ msgstr ""
 #: c/engine/macros_templates/deed.pt:98
 msgctxt "deed.human_summary_multilanguage"
 msgid "This is a human-readable summary of the Legal Code (the full license) available in the following languages:"
-msgstr ""
+msgstr " "
 
 msgctxt "country.jo"
 msgid "Jordan"
@@ -1261,7 +1261,6 @@ msgctxt "country.cn"
 msgid "China Mainland"
 msgstr "Mandri-Hiina"
 
-#, fuzzy
 msgctxt "licenses.pretty_GPL"
 msgid "GPL"
 msgstr "GPL"
