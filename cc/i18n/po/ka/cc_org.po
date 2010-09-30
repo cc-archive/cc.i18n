@@ -561,7 +561,7 @@ msgstr "კორეა"
 #: c/engine/chooser_pages/partner/index.pt:69
 msgctxt "license.a6"
 msgid "Yes, as long as others share alike (<a href=\"/characteristic/sa?lang=${lang}\" onclick=\"window.open('/characteristic/sa?lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">more info</a> <a href=\"/characteristic/sa?lang=${lang}\" onclick=\"window.open('/characteristic/sa?lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
+msgstr "დიახ, როგორც იგივე პირობებით, როგორც სხვები (<a href=\"/characteristic/sa?lang=${lang}\" onclick=\"window.open('/characteristic/sa?lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">more info</a> <a href=\"/characteristic/sa?lang=${lang}\" onclick=\"window.open('/characteristic/sa?lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 msgctxt "lang.ko"
 msgid "Korean"
@@ -681,12 +681,12 @@ msgstr ""
 
 msgctxt "license.q1"
 msgid "<strong>Require attribution?</strong> (<a href=\"/characteristic/by?lang=${lang}\" onclick=\"window.open('/characteristic/by?lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">more info</a> <a href=\"/characteristic/by?lang=${lang}\" onclick=\"window.open('/characteristic/by?lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
+msgstr "<strong>მოთხოვნილია ავტორობის მითითება?</strong> (<a href=\"/characteristic/by?lang=${lang}\" onclick=\"window.open('/characteristic/by?lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">more info</a> <a href=\"/characteristic/by?lang=${lang}\" onclick=\"window.open('/characteristic/by?lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: c/engine/chooser_pages/partner/index.pt:50
 msgctxt "license.q2"
 msgid "<strong>Allow commercial uses of your work?</strong> (<a href=\"/characteristic/nc?lang=${lang}\" onclick=\"window.open('/characteristic/nc?lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">more info</a> <a href=\"/characteristic/nc?lang=${lang}\" onclick=\"window.open('/characteristic/nc?lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
+msgstr "<strong>ნებადართულია თქვენი ნაწარმოების კომერციული გამოყენება?</strong> (<a href=\"/characteristic/nc?lang=${lang}\" onclick=\"window.open('/characteristic/nc?lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">more info</a> <a href=\"/characteristic/nc?lang=${lang}\" onclick=\"window.open('/characteristic/nc?lang=${lang}', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: c/engine/chooser_pages/partner/index.pt:61
 msgctxt "license.q3"
@@ -706,7 +706,7 @@ msgstr "აირჩიეთ ლიცენზია"
 
 msgctxt "license.rdfa_licensed"
 msgid "${work_title} by ${work_author} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>."
-msgstr ""
+msgstr "${work_title} შექმნილი ${work_author} ლიცენზირებულია <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>."
 
 msgctxt "util.description"
 msgid "description"
@@ -719,6 +719,9 @@ msgid ""
 "This license is permanently located at<br>\n"
 "<b><tt>${license_url}</tt></b>."
 msgstr ""
+"თქვენ აირჩიეთ<a target=\"cc_other\" href=\"${license_deed_url}\"><b>${license_pretty_name} License</b></a>.<br>\n"
+"ეს ლიცენზია მუდმივად განთავსებულია <br>\n"
+"<b><tt>${license_url}</tt></b>."
 
 #: c/engine/licenses/sampling_templates/deed.pt:45
 msgctxt "deed.notice_withoutdistribution"
