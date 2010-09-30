@@ -373,6 +373,7 @@ msgctxt "lang.mk"
 msgid "Macedonian"
 msgstr "მაკედონია"
 
+#, fuzzy
 msgctxt "license.how_it_works"
 msgid ""
 "Here's how it works: A user clicking on the Creative Commons icon gets your\n"
@@ -382,6 +383,12 @@ msgid ""
 "And hidden in the tag is \"<a href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open('work-html-popup?${url_vars}', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">Machine-Readable Code</a>\" &mdash; metadata &mdash; that will enable others to find your\n"
 "content. <a href=\"/learn/licenses/how1\">An illustration of the process</a> can be found in our comics."
 msgstr ""
+"იხილე თუ როგორ მუშაობს იგი: Creative Commons სიმბოლოს დაჭერით მომხმარებელი მიიღებს თქვენს\n"
+"\"<a href=\"${license_url}\">Commons Deed</a>\" &mdash; a human readable version of the\n"
+"license. From that she can link to \"<a href=\"${license_url}legalcode\">Legal Code</a>\" &mdash;  the\n"
+"actual license you have offered your content under.\n"
+"And hidden in the tag is \"<a href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open('work-html-popup?${url_vars}', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">Machine-Readable Code</a>\" &mdash; metadata &mdash; that will enable others to find your\n"
+"content. <a href=\"/learn/licenses/how1\">An illustration of the process</a> can be found in our comics."
 
 msgctxt "country.it"
 msgid "Italy"
@@ -567,9 +574,10 @@ msgctxt "lang.ko"
 msgid "Korean"
 msgstr "კორეული"
 
+#, fuzzy
 msgctxt "deed.gpl_disclaimer"
 msgid "<div style=\"text-align:center\"><a href=\"/licenses/disclaimer-popup\" onclick=\"window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">Disclaimer</a> <a href=\"/licenses/disclaimer-popup\" onclick=\"window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"disclaimer\" border=\"0\"></a></div>"
-msgstr ""
+msgstr "<div style=\"text-align:center\"><a href=\"/licenses/disclaimer-popup\" onclick=\"window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">Disclaimer</a> <a href=\"/licenses/disclaimer-popup\" onclick=\"window.open('/licenses/disclaimer-popup', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"disclaimer\" border=\"0\"></a></div>"
 
 msgctxt "license.no_license"
 msgid "Sorry, no license matches your criteria."
@@ -637,7 +645,7 @@ msgstr "აუდიო"
 #: c/engine/macros_templates/deed.pt:92
 msgctxt "deed.fair_use"
 msgid "Your fair dealing or <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\" id=\"fair_use\" class=\"helpLink\">fair use</a> rights, or other applicable copyright exceptions and limitations;"
-msgstr ""
+msgstr "თვქენს მიერ კეთილსინდისიერი განაწილება ან<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\" id=\"fair_use\" class=\"helpLink\">fair use</a> უფლებები, ან საავტორო უფლებების სხვა შესაბამისი შეზღუდვები ან გამონაკლისები;"
 
 msgctxt "country.nl"
 msgid "Netherlands"
@@ -743,9 +751,10 @@ msgstr "ესპანეთი"
 
 #: c/engine/pd/templates/publicdomain-4.pt:49
 #: c/engine/chooser_pages/results.pt:127
+#, fuzzy
 msgctxt "license.mark_nonweb"
 msgid "Mark a document not on the web, <a href=\"non-web-popup?${url_vars}\" onclick=\"window.open('non-web-popup?${url_vars}', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">add this text</a> to your work."
-msgstr ""
+msgstr "მონიშნეთ დოკუმენტი არა ვებ–გვერდზე, <a href=\"non-web-popup?${url_vars}\" onclick=\"window.open('non-web-popup?${url_vars}', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">დაუმატეთ ეს ტექსტი</a>თქვენს ნაწარმოებს."
 
 msgctxt "char.nc_description"
 msgid "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission."
@@ -882,9 +891,10 @@ msgctxt "util.Video"
 msgid "Video"
 msgstr "ვიდეო"
 
+#, fuzzy
 msgctxt "license.rdfa_licensed_no_attrib"
 msgid "${work_title} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>."
-msgstr ""
+msgstr "${work_title} ლიცენზირებულია<a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} ლიცენზიით</a>."
 
 msgctxt "country.hu"
 msgid "Hungary"
