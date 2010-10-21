@@ -2641,7 +2641,6 @@ msgid ""
 msgstr "Ten en cuenta que no puede srenunciar a los derechos de una obra que \\ n \\ t no eres propietario a menos que tengas permiso del propietario. Para evitar infringir los derechos de terceros, debes consultar con \\ n \\ t con tu asesor legal si no estás seguro si tienes todos los \\ n \\ t los derechos necesarios para distribuir el trabajo."
 
 #: c/engine/zero/templates/waiver.pt:83
-#, fuzzy
 msgctxt "license.zero.metadata_help"
 msgid ""
 "<p>\n"
@@ -2654,15 +2653,16 @@ msgid ""
 "\t    information</a> on Creative Commons metadata is available if\n"
 "\t  you want to find out more.\n"
 "\t</p>"
-msgstr "<p> \\ N \\ t La información que se incrusta en un formato de software de lectura. \\ N \\ t Esto permite a los motores de búsqueda para indexar información adicional \\ n \\ t sobre su trabajo. \\ N \\ t </p> \\ N \\ t <p> \\ N \\ t <a href=\"http://wiki.creativecommons.org/Metadata\">Más \\ \\ t n la información</a> sobre Creative Commons metadatos está disponible si \\ n \\ t desea obtener más información. \\ n \\ t </p>"
+msgstr "<p> \\ N \\ t La información está ingresada en un formato de software de lectura. \\ N \\ t Esto permite a los motores de búsqueda indexar información adicional \\ n \\ t sobre tu obra. \\ N \\ t </p> \\ N \\ t <p> \\ N \\ t <a href=\"http://wiki.creativecommons.org/Metadata\">Más \\ \\ t n información</a> sobre Creative Commons metadatos está disponible si \\ n \\ t desea obtener más información. \\ n \\ t </p>"
 
 #: c/engine/pd/templates/publicdomain-3.pt:65
-#, fuzzy
 msgctxt "deed.pd.title_plain"
 msgid ""
 "Copyright-Only Dedication (based on United States law) \n"
 "or Public Domain Certification"
-msgstr "Dedicación de Derecho de Autor de sólo (en base a la legislación estadounidense) \\ no de dominio público de certificación"
+msgstr ""
+"Dedicación de Derecho de Autor  (en base a la legislación estadounidense) \n"
+"o certificación de dominio público"
 
 #: c/engine/pd/templates/publicdomain-2.pt:58
 msgctxt "util.author"
@@ -2670,16 +2670,17 @@ msgid "Author"
 msgstr "Autor"
 
 #: c/engine/pd/templates/publicdomain-3.pt:118
-#, fuzzy
 msgctxt "license.pdc.confirm_reading"
 msgid ""
 "I have read and understand the terms and intended legal\n"
 "\t    effect of this tool, and hereby voluntarily elect to apply it to\n"
 "\t    this work."
-msgstr "He leído y entiendo los términos legales y destinados \\ n \\ t efecto de esta herramienta, y por la presente voluntariamente decidan aplicarlo a \\ n \\ t este trabajo."
+msgstr ""
+"He leído y entiendo los términos legales y\n"
+"\\ t efectos de esta herramienta, y por la presente voluntariamente decido aplicarlo a \n"
+" \t esta obra."
 
 #: c/engine/pd/templates/publicdomain-3.pt:56
-#, fuzzy
 msgctxt "license.pd.confirm_title"
 msgid "Confirm Your Public Domain Certification"
 msgstr "Confirma tu Certificación de Dominio Público"
@@ -2708,7 +2709,6 @@ msgid "Czech"
 msgstr "Checo"
 
 #: c/engine/chooser_pages/partner/index.pt:36
-#, fuzzy
 msgctxt "license.partner.publicdomain_options"
 msgid ""
 "If you want to share a work you created with no conditions, choose\n"
@@ -2716,29 +2716,37 @@ msgid ""
 "   you're sharing a work that isn't covered by copyright or on which\n"
 "   the copyright has expired, choose the\n"
 "   <a href=\"${pd_url}\">public domain certification</a>."
-msgstr "Si desea compartir una obra que ha creado sin ninguna condición, seleccione \\ n <a href=\"${cc0_url}\">CC0</a> . Si \\ n estás compartiendo una obra que no está cubierta por derechos de autor o en el que \\ n ha expirado el copyright, seleccione \\ n <a href=\"${pd_url}\">certificación de dominio público</a> ."
+msgstr ""
+"Si deseas compartir una obra que has creado sin ninguna condición, selecciona\n"
+"<a href=\"${cc0_url}\">CC0</a> . Si\n"
+" estás compartiendo una obra que no está cubierta por derechos de autor o en el que\n"
+" ha expirado el copyright, selecciona\n"
+"<a href=\"${pd_url}\">certificación de dominio público</a> ."
 
 #: c/engine/pd/templates/publicdomain-partner.pt:24
-#, fuzzy
 msgctxt "license.partner.pd_intro"
 msgid ""
 "Your choice suggests you\n"
 "want to certify a work is in the public domain. The Public Domain\n"
 "Certification is not a license. By using it you assert that a work is\n"
 "already in the public domain."
-msgstr "Su elección se sugiere \\ nwant para certificar una obra es de dominio público. El Dominio Público \\ nCertification no es una licencia. Mediante el uso de lo que afirman que una obra es \\ nya en el dominio público."
+msgstr ""
+"Tu elección sugiere\n"
+"que quieres certificar una obra que es de dominio público. La Certificación de  Dominio Público\n"
+" no es una licencia. Mediante el uso afirmas que una obra ya\n"
+"está en el dominio público."
 
 #: c/engine/pd/templates/publicdomain-partner.pt:31
-#, fuzzy
 msgctxt "license.partner.pd.use_cc0"
 msgid ""
 "If instead you want to\n"
 "waive copyright and neighboring rights on a work <em>in which you hold\n"
 "these rights</em>, choose <a href=\"${cc0_url}\">CC0</a>."
-msgstr "Si en vez de esto quieres renunciar a tus derechos de autor y vecinos en una obra donde los posees, elige CC0."
+msgstr ""
+"Si en vez de esto quieres renunciar a tus derechos de autor y vecinos en una obra<em> donde los\n"
+"posees</em>, elige <a href=\"${cc0_url}\">CC0</a>."
 
 #: c/engine/zero/templates/partner.pt:44
-#, fuzzy
 msgctxt "license.partner.zero.use_pdc_instead"
 msgid ""
 "If\n"
@@ -2746,7 +2754,12 @@ msgid ""
 "\tpublic domain</em>, use\n"
 "\tthe <a href=\"${pd_url}\">Public\n"
 "\tDomain Certification</a>."
-msgstr "Si \\ n \\ tinstead desea certificar que la obra <em>ya</em> está <em>en el n \\ tpublic dominio \\,</em> utilice \\ n \\ tel <a href=\"${pd_url}\">Pública \\ n \\ tDomain certificación</a> ."
+msgstr ""
+"Si\n"
+"\tien vez de lo anterior deseas certificar que la obra <em>ya</em> está <em>en el\n"
+"\tpublic dominio \\,</em> utiliza\n"
+"\\ tla<a href=\"${pd_url}\">Certificación\n"
+"\tDominio Público</a> ."
 
 msgctxt "lang.ar"
 msgid "Arabic"
@@ -2758,7 +2771,6 @@ msgctxt "util.territory"
 msgid "Territory"
 msgstr "Territorio"
 
-#, fuzzy
 msgctxt "deed.zero.no-endorsment"
 msgid "You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See <b>Other Information</b> below."
 msgstr "Puedes copiar, modificar, distribuir y ejecutar una obra, aún con propósito comercial, todo sin pedir permiso. Más información a continuación"
@@ -2841,12 +2853,10 @@ msgid "<a href=\"%(owner_url)s\">%(owner_name)s</a> has registered <a href=\"%(l
 msgstr "<a href=\"%(owner_url)s\">%(owner_name)s</a> ha  registrado <a href=\"%(lookup_uri)s\">esta obra</a> en <nobr><a href=\"%(network_url)s\">%(network_name)s</a></nobr>"
 
 #: c/engine/chooser_pages/results.pt:21
-#, fuzzy
 msgctxt "license.selected"
 msgid "You have selected the Creative Commons ${license_pretty_name} License. <a href=\"${license_url}\">See how the license will look</a> to your site's visitors."
 msgstr "Ha seleccionado la licencia Creative Commons $ {} license_pretty_name licencia. <a href=\"${license_url}\">Vea como la licencia se verá</a> a los visitantes de su sitio."
 
-#, fuzzy
 msgctxt "license.review_choice_directions"
 msgid ""
 "<h1>Review Choice</h1>\n"
@@ -2854,49 +2864,40 @@ msgid ""
 "<p>Congratulations, you have selected the Creative Commons <a href=\"${license_url}\">${license_pretty_name} License</a>. </p>\n"
 "\n"
 "<p>To signal to others that you are using a Creative Commons license, you can use a Creative Commons logo. The result will look like this:</p>"
-msgstr "<h1> Resumen de Selección </h1> \\ N \\ n <p> Felicitaciones, usted ha seleccionado la licencia Creative Commons <a href=\"${license_url}\">$ {} license_pretty_name licencia</a> . </p> \\ N \\ n <p> Para indicar a los demás que está utilizando una licencia de Creative Commons, puedes utilizar un logotipo de Creative Commons. El resultado se verá así: </p>"
+msgstr "<h1> Resumen de Selección </h1> \\ N \\ n <p> Felicitaciones,  has seleccionado la licencia Creative Commons <a href=\"${license_url}\">$ {} license_pretty_name licencia</a> . </p> \\ N \\ n <p> Para indicar a los demás que estás utilizando una licencia de Creative Commons, puedes utilizar un logotipo de Creative Commons. El resultado se verá así: </p>"
 
-#, fuzzy
 msgctxt "lang.hi"
 msgid "Hindi"
 msgstr "Hindú"
 
-#, fuzzy
 msgctxt "lang.bn"
 msgid "Bengali"
 msgstr "Bengalí"
 
-#, fuzzy
 msgctxt "lang.ta"
 msgid "Tamil"
 msgstr "Tamil"
 
-#, fuzzy
 msgctxt "lang.is"
 msgid "Icelandic"
 msgstr "Islandesa"
 
-#, fuzzy
 msgctxt "licenses.publicdomain_mark_title"
 msgid "Public Domain Mark"
 msgstr "Etiqueta de Dominio Público"
 
-#, fuzzy
 msgctxt "lang.et"
 msgid "Estonian"
 msgstr "Estonio"
 
-#, fuzzy
 msgctxt "lang.ka"
 msgid "Georgian"
 msgstr "Georgiano"
 
-#, fuzzy
 msgctxt "lang.ast"
 msgid "Asturian"
 msgstr "Asturiano"
 
-#, fuzzy
 msgctxt "lang.te"
 msgid "Telugu"
 msgstr "Telugu"
