@@ -3350,9 +3350,10 @@ msgstr "Dedicación de Dominio Público"
 #. "<a href=\"\" class=\"inline-help helpLink\" "
 #. "id=\"who_is_affirmer\">Affirmer</a>"
 #: licenses/zero_deed.pt:66
+#, fuzzy
 msgctxt "deed.workdetails.affirmer"
 msgid "<a href=\"\" class=\"inline-help helpLink\" id=\"who_is_affirmer\">Affirmer</a>"
-msgstr ""
+msgstr "Afirmador"
 
 #. Default: ""
 #. "In no way are the patent or trademark rights of any person affected by "
@@ -3362,9 +3363,10 @@ msgstr ""
 #. " class=\"helpLink\" id=\"publicity_rights\" "
 #. "name=\"publicity_rights\">publicity or privacy</a> rights."
 #: licenses/zero_deed.pt:94
+#, fuzzy
 msgctxt "deed.zero.other_info.other_rights"
 msgid "In no way are the patent or trademark rights of any person affected by CC0, nor are the rights that other persons may have in the work or in how the work is used, such as <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\" class=\"helpLink\" id=\"publicity_rights\" name=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
+msgstr "En ninguna manera  los derechos de patente o marca de alguna persona se ven afectados por CC0, tampoco los derechos que otras personas puedan tener en la obra o en su uso, tales como derechos de publicidad o privacidad"
 
 #. Default: ""
 #. "Thank you for using a Creative Commons legal tool for your work.\n"
@@ -3382,6 +3384,7 @@ msgstr ""
 #. "Creative Commons Support\n"
 #. "info@creativecommons.org"
 #: util.py:440
+#, fuzzy
 msgctxt "license.info_email_body"
 msgid ""
 "Thank you for using a Creative Commons legal tool for your work.\n"
@@ -3402,72 +3405,86 @@ msgid ""
 "Creative Commons Support\n"
 "info@creativecommons.org"
 msgstr ""
+"Gracias por usar una herramienta legal de Creative Commons para tu obra. Tu has seleccionado. Deberias incluir una referencia de esto en tu página web que incluye la obra en cuestión. Aquí esta ell HTML sugerido. Consejos para etiquetar tu obra los puedes encontrar en \n"
+"http://wiki.creativecommons.org/Marking.  Información en el HTML y metadata entregado puede encontrarse en http://wiki.creativecommons.org/CC_REL.\n"
+"\n"
+" Gracias! Soporte Creative Commons\n"
+"info@creativecommons.org "
 
 #. Default: "Your Creative Commons License Information"
 #: util.py:460
+#, fuzzy
 msgctxt "license.info_email_subject"
 msgid "Your Creative Commons License Information"
-msgstr ""
+msgstr "Información de tu licencia Creative Commons"
 
 #. Default: "This work is free of known copyright restrictions."
 #: cc/license/formatters/classes.py:313
+#, fuzzy
 msgctxt "license.mark_plain"
 msgid "This work is free of known copyright restrictions."
-msgstr ""
+msgstr "Esta obra esta libre de restricciones conocidas de derecho de autor."
 
 #. Default: "This work (${work_title}) is free of known copyright
 #. restrictions."
 #: cc/license/formatters/classes.py:317
+#, fuzzy
 msgctxt "license.mark_worktitle"
 msgid "This work (${work_title}) is free of known copyright restrictions."
-msgstr ""
+msgstr "Esta obra (${work_title}) está libre  de restricciones conocidas de derecho de autor."
 
 #. Default: "This work (by ${author}) is free of known copyright
 #. restrictions."
 #: cc/license/formatters/classes.py:322
+#, fuzzy
 msgctxt "license.mark_author"
 msgid "This work (by ${author}) is free of known copyright restrictions."
-msgstr ""
+msgstr "Esta obra (by ${author}) está libre  de restricciones conocidas de derecho de autor. "
 
 #. Default: ""
 #. "This work, identified by ${curator}, is free of known copyright "
 #. "restrictions."
 #: cc/license/formatters/classes.py:329
+#, fuzzy
 msgctxt "license.mark_curator"
 msgid "This work, identified by ${curator}, is free of known copyright restrictions."
-msgstr ""
+msgstr "Esta obra , identificada por ${curator} , está libre de restricciones conocidas de derecho de autor."
 
 #. Default: ""
 #. "This work (${work_title}, by ${author}) is free of known copyright "
 #. "restrictions."
 #: cc/license/formatters/classes.py:336
+#, fuzzy
 msgctxt "license.mark_worktitle_author"
 msgid "This work (${work_title}, by ${author}) is free of known copyright restrictions."
-msgstr ""
+msgstr "Esta obra (${work_title}, by ${author}) está libre de restricciones conocidas de derecho de autor."
 
 #. Default: ""
 #. "This work (${work_title}), identified by ${curator}, is free of known "
 #. "copyright restrictions."
 #: cc/license/formatters/classes.py:342
+#, fuzzy
 msgctxt "license.mark_worktitle_curator"
 msgid "This work (${work_title}), identified by ${curator}, is free of known copyright restrictions."
-msgstr ""
+msgstr "Esta obra (${work_title}), identificada por ${curator}, está libre de restricciones conocidas de derecho de autor."
 
 #. Default: ""
 #. "This work (${work_title}, by ${author}), identified by ${curator}, is "
 #. "free of known copyright restrictions."
 #: cc/license/formatters/classes.py:349
+#, fuzzy
 msgctxt "license.mark_worktitle_author_curator"
 msgid "This work (${work_title}, by ${author}), identified by ${curator}, is free of known copyright restrictions."
-msgstr ""
+msgstr "Esta obra (${work_title}, por ${author}), identificada por ${curator}, está libre de restricciones conocidas de derecho de autor."
 
 #. Default: ""
 #. "This work (by ${author}), identified by ${curator}, is free of known "
 #. "copyright restrictions."
 #: cc/license/formatters/classes.py:356
+#, fuzzy
 msgctxt "license.mark_author_curator"
 msgid "This work (by ${author}), identified by ${curator}, is free of known copyright restrictions."
-msgstr ""
+msgstr "Esta obra (by ${author}), identificada por  ${curator}, está libre de restricciones conocidas de derecho de autor."
 
 #. Default: ""
 #. "You are using a tool for freeing your own work of copyright restrictions "
@@ -3477,9 +3494,10 @@ msgstr ""
 #. " are already in the public domain worldwide, instead use the <b><a "
 #. "href=\"/choose/mark/\">Public Domain Mark</a></b> for such works."
 #: chooser_pages/zero/index.pt:50
+#, fuzzy
 msgctxt "license.zero.PDM-difference"
 msgid "You are using a tool for freeing your own work of copyright restrictions around the world. You may use this tool even if your work is free of copyright in some jurisdictions, if you want to want to ensure it is free everywhere. Creative Commons does not recommend this tool for works that are already in the public domain worldwide, instead use the <b><a href=\"/choose/mark/\">Public Domain Mark</a></b> for such works."
-msgstr ""
+msgstr "Estás usando una herramienta para liberar tu propia obra de las restricciones de derecho de autor alrededor del mundo. Puedes usar esta herramienta aún cuando tu obra esté libre de derecho de autor en algunas jurisdicciones, si quieres asegurar que sea libre en todos lados. Creative Commons no recomienda esta herramienta para obras que ya se encuentran en el dominio público alrededor del mundo, en ese caso utiliza la Etiqueta de Dominio Público para dichas obras."
 
 #. Default: ""
 #. "You are using a tool for labeling works that are free of known copyright "
@@ -3489,9 +3507,10 @@ msgstr ""
 #. "use the <b><a href=\"/choose/zero/\">CC0 public domain "
 #. "dedication</a></b>."
 #: chooser_pages/pdmark/index.pt:63
+#, fuzzy
 msgctxt "license.mark.CC0-difference"
 msgid "You are using a tool for labeling works that are free of known copyright restrictions. Creative Commons does not recommend this tool for works that are restricted by copyright laws in one or more jurisdictions. If you want to free <b>your own work</b> of copyright restrictions, instead use the <b><a href=\"/choose/zero/\">CC0 public domain dedication</a></b>."
-msgstr ""
+msgstr "Estás usando una herramienta para etiquetar obras que están libres de restricciones conocidas de dominio público. Creative Commons no recomienda esta herramienta para obras que están restringidas por leyes de propiedad intelectual en una o más jurisdicciones. SI quieres liberarla de restricciones de derecho de autor, utiliza la Dedicación de Dominio Público."
 
 #. Default: ""
 #. "Creative Commons has <a "
@@ -3500,6 +3519,7 @@ msgstr ""
 #. "href=\"http://creativecommons.org/publicdomain\">current tool</a> for "
 #. "waiving rights or identifying public domain works."
 #: chooser_pages/publicdomain/publicdomain-2.pt:22
+#, fuzzy
 msgctxt "license.pd.retired"
 msgid "Creative Commons has <a href=\"http://creativecommons.org/retiredlicenses\">retired this legal tool</a>. CC recommends using a <a href=\"http://creativecommons.org/publicdomain\">current tool</a> for waiving rights or identifying public domain works."
-msgstr ""
+msgstr "Creative Commons ha retirado esta herramienta legal. CC recomienda usar una herramienta actual para renunciar a derechos o identificar obras en el dominio público."
