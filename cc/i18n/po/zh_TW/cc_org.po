@@ -2315,6 +2315,7 @@ msgid ""
 "The URL where people can find more information about \n"
 "the work or the person using CC0."
 msgstr ""
+"可讓使用者找到關於將著作以CC0授權的人，或關於著作本身的網址"
 
 #. Default: ""
 #. "Jurisdiction where the work is being \n"
@@ -2322,7 +2323,7 @@ msgstr ""
 #: c/engine/zero/templates/waiver.pt:166 c/engine/zero/templates/waiver.pt:164
 msgctxt "license.zero.country_help"
 msgid "Jurisdiction from which the work is being offered under CC0."
-msgstr ""
+msgstr "以CC0授權的著作所在司法管轄領域。"
 
 #. Default: ""
 #. "I hereby waive all copyright and related or neighboring\n"
@@ -2332,7 +2333,7 @@ msgstr ""
 #: c/engine/zero/templates/waiver.pt:180
 msgctxt "license.zero.confirm_waiver"
 msgid "I hereby waive all copyright and related or neighboring rights together with all associated claims and causes of action with respect to this work to the extent possible under the law."
-msgstr ""
+msgstr "在此我放棄此著作依著作權法所享有之權利，包括所有相關與鄰接的法律權利。"
 
 #. Default: ""
 #. "I have read and understand the terms and intended legal\n"
@@ -2341,7 +2342,7 @@ msgstr ""
 #: c/engine/zero/templates/waiver.pt:205
 msgctxt "license.zero.confirm_reading"
 msgid "I have read and understand the terms and intended legal effect of CC0, and hereby voluntarily elect to apply it to this work."
-msgstr ""
+msgstr "我已閱讀並且瞭解CC0條款及其法律效力，並自願選擇將此著作以CC0授權。"
 
 #. Default: "continue"
 #: c/engine/zero/templates/waiver.pt:217
@@ -2357,7 +2358,7 @@ msgstr "繼續"
 #: c/engine/zero/templates/waiver.pt:65
 msgctxt "license.zero.additional_metadata"
 msgid "These fields are optional, but will be embedded in the HTML generated for your work. This allows users of your work to determine how to contact you or where to go for more information about the work."
-msgstr ""
+msgstr "附加資訊欄位是<b>選填</b>的，一旦填入、則會一併嵌入到稍後產生給您的授權條款 HTML 碼中。這些資訊讓利用人更能清楚知道如何表彰原作者，也提供與您作品相關的進一步資訊。"
 
 #: c/engine/chooser_pages/index.pt:165 c/engine/chooser_pages/index.pt:170
 msgid "None of the above"
@@ -2600,6 +2601,16 @@ msgid ""
 "\t  you want to find out more.\n"
 "\t</p>"
 msgstr ""
+"<p>\n"
+"\t  這些資訊以軟體可辨識的格式嵌入。\n"
+"\t  這麼一來，搜尋引擎可以藉此獲取與你作品相關的\n"
+"\t  額外授權資訊，並引導使用者前往授權標章網頁、\n"
+"\t  查看標示你姓名的方法。\n"
+"\t</p>\n"
+"\t<p>\n"
+"\t  如果您想查閱其他與創用 CC 後設資料相關的訊息\n"
+"\t  ，請上<a href=\"http://wiki.creativecommons.org/Metadata\">後設資訊專題網頁</a> \n"
+"\t</p>"
 
 #: c/engine/pd/templates/publicdomain-3.pt:65
 msgctxt "deed.pd.title_plain"
@@ -2694,11 +2705,11 @@ msgstr ""
 #: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
 msgctxt "util.territory"
 msgid "Territory"
-msgstr "領　　地"
+msgstr "司法管轄領域"
 
 msgctxt "deed.zero.no-endorsment"
 msgid "You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See <b>Other Information</b> below."
-msgstr "您可以複製、修改、散布與演播該著作，不論是否出於商業目的，所有的使用皆不需要求允許。其他資訊，請參照下述。"
+msgstr "您可以複製、修改、散布與演播該著作，不論是否出於商業目的，所有的使用皆不需要求允許。其他資訊，請參照下述："
 
 #: s/standard_templates/deed.pt:121
 msgctxt "deed.public_domain"
@@ -2902,7 +2913,7 @@ msgstr ""
 #: chooser_pages/pdmark/details.pt:65
 msgctxt "license.mark.additional_metadata"
 msgid "These fields are optional, but will be embedded in the HTML generated for the work you are marking. This allows users of the work to locate the work online and find out where to go for more information."
-msgstr "這些是選填欄位，但您填的內容會被嵌入自動產生的HTML程式碼中。這會讓使用這個作品的人知道去哪找到作品相關資訊。"
+msgstr "附加資訊欄位是<b>選填</b>的，一旦填入、則會一併嵌入到稍後產生給您的授權條款 HTML 碼中。這些資訊讓利用人更能清楚知道如何表彰原作者，也提供與您作品相關的進一步資訊。"
 
 #. Default: ""
 #. "<p> The information is embedded in a software readable format. This "
