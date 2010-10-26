@@ -45,7 +45,7 @@ msgstr "Poskytovatel licence souhlasí s tím, aby ostatní kopírovali, šíři
 #: c/engine/chooser_pages/index.pt:70
 msgctxt "license.help.noncommercial"
 msgid "The licensor permits others to copy, distribute, display, and perform the work for non-commercial purposes only."
-msgstr "Poskytovatel licence souhlasí s tím, aby ostatní kopírovali, šířili, zobrazovali a užívali jjeho dílo, ale pouze pro nekomerční účely."
+msgstr "Poskytovatel licence souhlasí s tím, aby ostatní kopírovali, šířili, zobrazovali a užívali jeho dílo, ale pouze pro nekomerční účely."
 
 #: c/engine/chooser_pages/index.pt:88
 msgid "Yes, as long as others share alike"
@@ -57,6 +57,7 @@ msgid "To perform, display, and distribute copies of this whole work for noncomm
 msgstr "Sdělovat veřejnosti, vystavovat, šířit kopie tohoto díla pro nekomerční účely (například sdílení  souborů nebo nekomerční vysílání na iInternetu)."
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
+#, fuzzy
 msgctxt "license.pd_awaiting_confirmation"
 msgid ""
 "<h1>Public Domain Dedication - Email Confirmation</h1>\n"
@@ -176,6 +177,7 @@ msgctxt "country.be"
 msgid "Belgium"
 msgstr "Belgie"
 
+#, fuzzy
 msgctxt "license.work_type_dedicated"
 msgid "This ${work_type} is in the <a rel=\"license\" href=\"http://creativecommons.org/licenses/publicdomain/\">Public Domain</a>."
 msgstr " ${work_type}byl/bylo přesunuto mezi <a rel=\"license\" href=\"http://creativecommons.org/licenses/publicdomain/\">volná díla</a>."
@@ -194,14 +196,16 @@ msgid "back to <a href=\"/\">Creative Commons</a>"
 msgstr "zpátky na <a href=\"/\">Creative Commons</a>"
 
 #: c/engine/chooser_pages/gpl.pt:63 c/engine/chooser_pages/lgpl.pt:66
+#, fuzzy
 msgctxt "license.fsf_how_it_works"
 msgid "Here's how the CC-GNU ${license_code} works: A user clicking on the Creative Commons icon gets the CC-GNU ${license_code} \"<a href=\"/licenses/${license_code}/${version_title}/\">Commons Deed</a>\" — a human readable version of the license. From that she can link to \"<a href=\"http://www.gnu.org/licenses/old-licenses/${license_name_lower}.html\">Legal Code</a>\" — the full text of the GNU ${license_code}, in English and <a href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">Portuguese</a>. And hidden in the tag is \"Machine-Readable Code\" — metadata — that will enable others to find your software."
-msgstr "Here's how the CC-GNU ${license_code} works: A user clicking on the Creative Commons icon gets the CC-GNU ${license_code} \"<a href=\"/licenses/${license_code}/${version_title}/\">Commons Deed</a>\" — a human readable version of the license. From that she can link to \"<a href=\"http://www.gnu.org/licenses/old-licenses/${license_name_lower}.html\">Legal Code</a>\" — the full text of the GNU ${license_code}, in English and <a href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">Portuguese</a>. And hidden in the tag is \"Machine-Readable Code\" — metadata — that will enable others to find your software."
+msgstr "Zde je návod, jak CC-GNU $ {} license_code práce: uživatel klepnutím na ikonu Creative Commons CC-dostane GNU $ {} license_code \\ \" <a href=\"/licenses/${license_code}/${version_title}/\">encyklopedie listina</a> \\ \"- člověka čitelné verzi licence. Od toho se může spojit s \\ \" <a href=\"http://www.gnu.org/licenses/old-licenses/${license_name_lower}.html\">právní kód</a> \\ \"- plný text GNU $ {} license_code, v angličtině a <a href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">portugalštině</a> . A skryté v tagu je \\ \"stroj-čitelný kód \" - metadata - která umožní ostatním najít software."
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:46
+#, fuzzy
 msgctxt "deed.bsd_notice"
 msgid "You must retain the license terms and copyright notice in any source code distribution and reproduce them in documentation for binary distributions."
-msgstr "You must retain the license terms and copyright notice in any source code distribution and reproduce them in documentation for binary distributions."
+msgstr "Musíte udržet licenční podmínky a copyright v jakékoli distribuce zdrojového kódu a reprodukovat v dokumentaci pro binární distribuce."
 
 # Nezasahujte do díla
 msgctxt "licenses.pretty_nd"
@@ -210,7 +214,7 @@ msgstr "Nezasahujte do díla"
 
 msgctxt "jswidget.Updated_license_version_generic"
 msgid "We have updated the version of your license to the most recent one available."
-msgstr "Aktualizovali jsme Vaši licenci na nejnovější verzi"
+msgstr "Aktualizovali jsme vaši licenci na nejnovější verzi"
 
 #: c/engine/chooser_pages/index.pt:67
 msgctxt "licenses.pretty_nc"
@@ -258,6 +262,7 @@ msgid "confirm choice"
 msgstr "potvrdit volbu"
 
 #: c/engine/chooser_pages/sampling.pt:54
+#, fuzzy
 msgctxt "license.sampling_explain"
 msgid ""
 "<p>The Sampling licenses let you invite other people to use a part of your work and make it new.</p>\n"
@@ -273,21 +278,9 @@ msgid ""
 "<p>Think of it as a way to reward people for transforming your work into something it wasn't before.</p>\n"
 "\n"
 "<p>On certain conditions, that is. There are two flavors of the Sampling license. Pick the one that reflects your creative style:</p>"
-msgstr ""
-"<p>The Sampling licenses let you invite other people to use a part of your work and make it new.</p>\n"
-"\n"
-"<p>For example:</p>\n"
-"\n"
-"<ul>\n"
-"<li>To take a sample from your song and include it in their own.</li>\n"
-"<li>To use a clip from your film.</li>\n"
-"<li>To take a piece of your photograph and put it into a collage.</li>\n"
-"</ul>\n"
-"\n"
-"<p>Think of it as a way to reward people for transforming your work into something it wasn't before.</p>\n"
-"\n"
-"<p>On certain conditions, that is. There are two flavors of the Sampling license. Pick the one that reflects your creative style:</p>"
+msgstr "<p> Odběr vzorků licence vám umožní pozvat další lidi, aby používali část vaší práce a učinit z něj nové. </p> \\ N \\ n <p> Například: </p> \\ N \\ n <ul> \\ N <li> Chcete-li odebrat vzorek z vaší písně a zahrnout jej do své vlastní. </li> \\ N <li> Chcete-li použít klip z filmu. </li> \\ N <li> Chcete-li mít kus své fotografie a dejte je do koláže. </li> \\ N </ul> \\ N \\ n <p> Ber to jako způsob, jak odměnit lidi pro transformaci práci do něčeho to nebylo předtím. </p> \\ N \\ n <p> Za určitých podmínek, že je. Existují dvě varianty odběru licence. Vyberte si ten, který odráží vaše tvůrčí styl: </p>"
 
+#, fuzzy
 msgctxt "license.pd_dedication_email"
 msgid ""
 "This is a record of a Public Domain Dedication.\n"
@@ -311,28 +304,7 @@ msgid ""
 "\n"
 "For more information, please see\n"
 "<http://creativecommons.org/licenses/publicdomain/>."
-msgstr ""
-"This is a record of a Public Domain Dedication.\n"
-"\n"
-"On ${sysdate}, ${copyright_holder} dedicated to the public domain the\n"
-"work \"${title}.\" Before making the dedication, ${copyright_holder}\n"
-"represented that ${copyright_holder} owned all copyrights in the\n"
-"work. By making the dedication, ${copyright_holder} made an overt act\n"
-"of relinquishment in perpetuity of all present and future rights under\n"
-"copyright law, whether vested or contingent, in \"${title}.\"\n"
-"\n"
-"${copyright_holder} understands that such relinquishment of all rights\n"
-"includes the relinquishment of all rights to enforce (by lawsuit or\n"
-"otherwise) those copyrights in the Work.\n"
-"\n"
-"${copyright_holder} recognizes that, once placed in the public domain,\n"
-"\"${title}\" may be freely reproduced, distributed, transmitted, used,\n"
-"modified, built upon, or otherwise exploited by anyone for any\n"
-"purpose, commercial or non-commercial, and in any way, including by\n"
-"methods that have not yet been invented or conceived.\n"
-"\n"
-"For more information, please see\n"
-"<http://creativecommons.org/licenses/publicdomain/>."
+msgstr "Jedná se o rekord o věnování Public Domain. \\ N \\ než $ {} SYSDATE, $ {} copyright_holder věnuje public domain \\ nwork \\ \"$ {title}. \" Před věnování, $ {copyright_holder} \\ nrepresented, že $ {} copyright_holder vlastní všechna autorská práva k \\ nwork. Tím, že věnování, $ {} copyright_holder dělal zjevnou aktu \\ nve vzdání v permanenci všech současných i budoucích práv na základě \\ nCopyright právo, ať náleží nebo podmíněné, v \\ \"$ {title}. \" \\ N \\ n $ { copyright_holder} chápe, že takové vzdání se všech práv \\ nincludes vzdání se všech práv na prosazování (podle žaloby nebo \\ notherwise) ty autorská práva na práci. \\ n \\ n $ {} copyright_holder uznává, že po uvedení ve veřejné doméně, \\ n \\ \"$ {title} \" se může volně reprodukovat, distribuovat, přenášet, použité, \\ nmodified, stavěl na, nebo jinak zneužít kdokoli z jakéhokoli \\ npurpose, komerční nebo non-komerční, a jakýmkoli způsobem, včetně \\ nmethods, které ještě nebyly vynalezeny ani koncipován. \\ n \\ n. Více informací naleznete \\ n <http://creativecommons.org/licenses/publicdomain/> ."
 
 msgctxt "lang.bg"
 msgid "Bulgarian"
@@ -351,9 +323,10 @@ msgid "Title of work"
 msgstr "Název díla"
 
 #: c/engine/licenses/fsf_templates/deed.pt:61
+#, fuzzy
 msgctxt "deed.gpl_sharealike"
 msgid "If you modify your copy or copies of the program or any portion of it, or develop a program based upon it, you may distribute the resulting work provided you do so under the ${license_name_full}. Any translation of the ${license_name_full} must be accompanied by the ${license_name_full}."
-msgstr "If you modify your copy or copies of the program or any portion of it, or develop a program based upon it, you may distribute the resulting work provided you do so under the ${license_name_full}. Any translation of the ${license_name_full} must be accompanied by the ${license_name_full}."
+msgstr "Máte-li modifikovat vaši kopii či kopie programu anebo kterékoliv jeho části, nebo vytvořit program založený na tom, můžete šířit výsledné dílo za předpokladu, můžete tak učinit na základě $ {} license_name_full. Každý překlad z $ {} license_name_full musí být doprovázeno $ {} license_name_full."
 
 msgctxt "country.ie"
 msgid "Ireland"
@@ -408,11 +381,11 @@ msgid ""
 "And hidden in the tag is \"<a href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open('work-html-popup?${url_vars}', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">Machine-Readable Code</a>\" &mdash; metadata &mdash; that will enable others to find your\n"
 "content. <a href=\"/learn/licenses/how1\">An illustration of the process</a> can be found in our comics."
 msgstr ""
-"Takto to funguje: Uživate, který klikne na logo licence Creative Commons se seznámí se\n"
+"Takto to funguje: Uživatel, který klikne na logo licence Creative Commons se seznámí se\n"
 "\"<a href=\"${license_url}\">Commons Deed</a>\" &mdash; zkráceným zněním\n"
 "licence. Odkud se může dostat na \"<a href=\"${license_url}legalcode\">plné znění</a>\" &mdash;  \n"
 "kompletní znění licence, kterou jste zvolili pro své dílo.\n"
-"A skrytá v HTML kódu jsou \"<a href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open('work-html-popup?${url_vars}', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">metadata</a>\" &mdash; metadata &mdash; , která umožní ostatním najít Vaše licencované\n"
+"A skrytá v HTML kódu jsou \"<a href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open('work-html-popup?${url_vars}', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">metadata</a>\" &mdash; metadata &mdash; , která umožní ostatním najít vaše licencované\n"
 "dílo. <a href=\"/learn/licenses/how1\">Ilustrace popisující tento proces</a> jsou uvedena v našem komiksu."
 
 msgctxt "country.it"
@@ -550,7 +523,7 @@ msgstr "Můžete vykonávat práva zde specifikována za předpokladu dodržení
 
 msgctxt "license.mark_license"
 msgid "Now that you've chosen a Creative Commons license, you must mark your work in the appropriate way."
-msgstr "Nyní, když jste si zvolili  licenci Creative Commons, označte prosím náležitě Vaše dílo."
+msgstr "Nyní, když jste si zvolili  licenci Creative Commons, označte prosím náležitě vaše dílo."
 
 msgctxt "country.lu"
 msgid "Luxembourg"
@@ -559,7 +532,7 @@ msgstr "Lucembursko"
 #: c/engine/macros_templates/metadata.pt:23
 msgctxt "license.tell_format"
 msgid "Tell us the format of your work:"
-msgstr "V jakém formátu je Vaše dílo:"
+msgstr "V jakém formátu je vaše dílo:"
 
 msgctxt "country.cl"
 msgid "Chile"
@@ -567,7 +540,9 @@ msgstr "Čile"
 
 msgctxt "lang.nso"
 msgid "Northern Sotho"
-msgstr "severní sotho"
+msgstr ""
+"\r\n"
+"Severní Sotho"
 
 #: c/engine/chooser_pages/index.pt:222
 msgctxt "util.CC_GNU_LGPL"
@@ -576,7 +551,7 @@ msgstr "CC-GNU LGPL"
 
 msgctxt "license.sampling_a_sampling"
 msgid "<strong>Sampling</strong>: People can take and transform <strong>pieces</strong> of your work for any purpose other than advertising, which is prohibited. Copying and distribution of the <strong>entire work</strong> is also prohibited."
-msgstr "<strong>Samplování</strong>: Lidé mohou přebírat a upravovat<strong>části</strong> Vašeho díla pro jakékoliv účely kromě vytváření reklam. Kopírovaní a distribuce <strong>celého díla</strong> je taktéž zakázáno."
+msgstr "<strong>Samplování</strong>: Lidé mohou přebírat a upravovat<strong>části</strong> vašeho díla pro jakékoliv účely kromě vytváření reklam. Kopírovaní a distribuce <strong>celého díla</strong> je taktéž zakázáno."
 
 #: c/engine/chooser_pages/results.pt:92
 msgctxt "license.no_web_site"
@@ -606,7 +581,7 @@ msgstr "<div style=\"text-align:center\"><a href=\"/licenses/disclaimer-popup\" 
 
 msgctxt "license.no_license"
 msgid "Sorry, no license matches your criteria."
-msgstr "Omlouváme se, ale žádná z licencí neodpovídá Vašim požadavkům."
+msgstr "Omlouváme se, ale žádná z licencí neodpovídá vašim požadavkům."
 
 msgctxt "lang.it"
 msgid "Italian"
@@ -623,7 +598,7 @@ msgstr "Jak to funguje"
 
 msgctxt "jargon.copyright_date_description"
 msgid "If you have not officially registered for a copyright on your work the default date is the date you created the work, or completed it."
-msgstr "Pokud jste si nenechali Vaše dílo zaregistrovat, pak datum vzniku díla je datem,  kdy jste ho vytvořili."
+msgstr "Pokud jste si nenechali vaše dílo zaregistrovat, pak datum vzniku díla je datem,  kdy jste ho vytvořili."
 
 # Uveďte autora-Zachovejte licenci-Neužívejte komerčně
 msgctxt "licenses.pretty_by-nd-nc"
@@ -635,9 +610,10 @@ msgctxt "lang.gl"
 msgid "Galician"
 msgstr "galícijština"
 
+#, fuzzy
 msgctxt "license.proceed_pd"
 msgid "You may now <a href=\"publicdomain-2?${url_vars}\">proceed and enrich the public domain with your work</a>."
-msgstr "You may now <a href=\"publicdomain-2?${url_vars}\">proceed and enrich the public domain with your work</a>."
+msgstr "Nyní můžete <a href=\"publicdomain-2?${url_vars}\">pokračovat a obohacovat veřejné domény s vaší prací</a> ."
 
 #: c/engine/pd/templates/publicdomain-2.pt:29
 msgctxt "util.your_email"
