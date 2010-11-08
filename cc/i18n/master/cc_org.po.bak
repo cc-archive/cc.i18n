@@ -1206,9 +1206,10 @@ msgstr ""
 "create an attorney-client relationship.\n"
 "</p>"
 
-#: c/engine/chooser_pages/results.pt:15
+#. Default: "Here is the license you&rsquo;ve chosen"
+#: chooser_pages/results.pt:24
 msgid "license.here_chosen"
-msgstr "Here is the license you've chosen"
+msgstr "Here is the license you&rsquo;ve chosen"
 
 #: c/engine/macros_templates/deed.pt:161
 msgid "deed.learn"
@@ -1708,14 +1709,22 @@ msgstr "Share Music"
 msgid "char.sa_title"
 msgstr "Share Alike"
 
-#: c/engine/chooser_pages/index.pt:39
+#. Default: ""
+#. "When you choose <a "
+#. "href=\"http://creativecommons.org/about/licenses\">license</a>, we "
+#. "provide you with HTML you can use to add the license information to your "
+#. "site and information on how to select a license on one of several free "
+#. "hosting services that have incorporated Creative Commons. This is not a "
+#. "registration and we do not retain a record of your selection."
+#: chooser_pages/index.pt:48
 msgid "license.explain"
 msgstr ""
-"Creative Commons helps you publish your work online while letting others "
-"know exactly what they can and can't do with your work. When you choose a"
-" license, we provide you with tools and tutorials that let you add "
-"license information to our own site, or to one of several free hosting "
-"services that have incorporated Creative Commons."
+"When you choose <a "
+"href=\"http://creativecommons.org/about/licenses\">license</a>, we "
+"provide you with HTML you can use to add the license information to your "
+"site and information on how to select a license on one of several free "
+"hosting services that have incorporated Creative Commons. This is not a "
+"registration and we do not retain a record of your selection."
 
 #: c/engine/pd/templates/publicdomain-4.pt:27
 msgid "license.mark_pd"
@@ -2452,9 +2461,10 @@ msgstr ""
 msgid "license.offline_work"
 msgstr "Offline Work?"
 
-#: c/engine/chooser_pages/results.pt:129
+#. Default: "Optional next step"
+#: chooser_pages/results.pt:160
 msgid "license.option_next_steps"
-msgstr "Optional next steps"
+msgstr "Optional next step"
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:14
 #: c/engine/pd/templates/publicdomain-3.pt:38
