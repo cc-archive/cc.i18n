@@ -12,7 +12,8 @@ import pkg_resources
 
 from babel.messages.pofile import read_po
 
-
+CSV_HEADERS = [
+    'lang', 'num_messages', 'num_trans', 'num_fuzzy', 'percent_trans']
 DEFAULT_INPUT_DIR = pkg_resources.resource_filename(
     'cc.i18n', 'po')
 DEFAULT_CSV_FILE = pkg_resources.resource_filename(
@@ -31,9 +32,7 @@ def gen_statistics(input_dir, output_file):
     lang_dirs = os.listdir(input_dir)
 
     # Create CSV writer
-    writer = csv.DictWriter(
-        output_file,
-        ['lang', 'num_messages', 'num_trans', 'num_fuzzy', 'percent_trans'])
+    writer = csv.DictWriter(output_file, CSV_HEADERS)
 
     # iterate through all the languages
     for lang in lang_dirs:
@@ -63,7 +62,10 @@ def gen_statistics(input_dir, output_file):
              'percent_trans': int((float(translated) / len(pofile)) * 100)})
 
 
-if __name__ == '__main__':
+def cli():
+    """
+    Command line interface for transstats
+    """
     parser = optparse.OptionParser()
 
     parser.add_option(
@@ -80,3 +82,7 @@ if __name__ == '__main__':
     output_file = file(options.output_file, 'w')
     gen_statistics(options.input_dir, output_file)
     output_file.close()
+
+
+if __name__ == '__main__':
+    cli()
