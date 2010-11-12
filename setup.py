@@ -34,7 +34,8 @@ setup(
         'Babel>0.99',
         'zope.i18n',
         'zope.interface',
-        'python-gettext'],
+        'python-gettext',
+        'nose'],
 
     entry_points = {
         'console_scripts': [
