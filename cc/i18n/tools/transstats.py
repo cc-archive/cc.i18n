@@ -26,8 +26,10 @@ def gen_statistics(input_dir, output_file):
 
     Keyword arguments:
     - input_dir: The directory of languages we'll iterate through
-    - output_file: The CSV file that will be written to (file object)
+    - output_file: Path to the CSV file that will be written to
     """
+    output_file = file(output_file, 'w')
+
     input_dir = os.path.abspath(input_dir)
     lang_dirs = os.listdir(input_dir)
 
@@ -61,6 +63,8 @@ def gen_statistics(input_dir, output_file):
              'num_fuzzy': fuzzies,
              'percent_trans': int((float(translated) / len(pofile)) * 100)})
 
+    output_file.close()
+
 
 def cli():
     """
@@ -79,9 +83,7 @@ def cli():
 
     options, args = parser.parse_args()
 
-    output_file = file(options.output_file, 'w')
-    gen_statistics(options.input_dir, output_file)
-    output_file.close()
+    gen_statistics(options.input_dir, options.output_file)
 
 
 if __name__ == '__main__':
