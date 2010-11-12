@@ -49,6 +49,7 @@ setup(
         'zc.buildout': [
             'po2cc = cc.i18n.tools.po2cc:Po2CCRecipe',
             'compile_mo = cc.i18n.tools.compile_mo:CompileMORecipe',
+            'transstats = cc.i18n.tools.transstats:TransStatsRecipe',
             ]
         },
 

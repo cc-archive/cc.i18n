@@ -86,5 +86,22 @@ def cli():
     gen_statistics(options.input_dir, options.output_file)
 
 
+class TransStatsRecipe(object):
+    """
+    Recipe for running cc.i18n translation statistics.
+    """
+    def __init__(self, buildout, name, options):
+        self.name, self.options = name, options
+
+    def install(self):
+        if os.path.exists(DEFAULT_CSV_FILE):
+            os.remove(DEFAULT_CSV_FILE)
+
+        gen_statistics(DEFAULT_INPUT_DIR, DEFAULT_CSV_FILE)
+        return ()
+
+    update = install
+
+
 if __name__ == '__main__':
     cli()
