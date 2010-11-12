@@ -42,6 +42,7 @@ setup(
             'sync = cc.i18n.tools.sync:cli',
             'update = cc.i18n.tools.update:cli',
             'report = cc.i18n.tools.report:cli',
+            'transstats = cc.i18n.tools.transstats:cli',
             # 'compile_mo = cc.i18n.tools.compile_mo:compile_mo_files',
             # 'po2cc = cc.i18n.tools.po2cc:cli',
             ],
