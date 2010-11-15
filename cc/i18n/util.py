@@ -6,6 +6,7 @@ import csv
 import os
 
 from cc.i18n.tools.transstats import CSV_HEADERS, DEFAULT_CSV_FILE
+from cc.i18n.gettext_i18n import ugettext_for_locale
 
 
 CACHED_TRANS_STATS = {}
@@ -56,3 +57,73 @@ def get_all_trans_stats(trans_file=DEFAULT_CSV_FILE):
     # cache and return
     CACHED_TRANS_STATS[trans_file] = stats
     return stats
+
+
+CACHED_WELL_TRANSLATED_LANGS = {}
+def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
+                              trans_file=DEFAULT_CSV_FILE):
+    """
+    Get a list of all languages above a certain threshold of translation.
+    
+    Keyword arguments:
+    - threshold: percentage that languages should be translated at or above
+    - trans_file:levelspecify from which CSV file we're gathering statistics.
+        Used for testing, You probably don't need this.
+
+    Returns:
+      An unsorted set of all qualified language codes
+    """
+    if CACHED_WELL_TRANSLATED_LANGS.has_key((threshold, trans_file)):
+        return CACHED_WELL_TRANSLATED_LANGS[(threshold, trans_file)]
+
+    trans_stats = get_all_trans_stats(trans_file)
+    
+    qualified_langs = set([
+        lang for lang, data in trans_stats.iter_items()
+        if data['percent_trans'] >= threshold])
+
+    CACHED_WELL_TRANSLATED_LANGS[(threshold, trans_file)] = qualified_langs
+    
+    return qualified_langs
+
+
+# wow, this is really gross and long
+CACHED_ALPHABETIZED_TRANSLATED_LANGS = {}
+def alphabetized_well_translated_langs(threshold, trans_file):
+    """
+    Get an alphebatized and name-rendered list of all languages above
+    a certain threshold of translation.
+
+    Keyword arguments:
+    - threshold: percentage that languages should be translated at or above
+    - trans_file:levelspecify from which CSV file we're gathering statistics.
+        Used for testing, You probably don't need this.
+
+    Returns:
+      An alphebatized sequence of dicts, where each element consists
+      of the following keys:
+       - code: the language code
+       - name: the translated name of this language
+      for each available language.
+    """
+    cache_key = (threshold, trans_file)
+    if CACHED_ALPHABETIZED_TRANSLATED_LANGS.has_key(cache_key):
+        return CACHED_ALPHABETIZED_TRANSLATED_LANGS[cache_key]
+    
+    translated_langs = get_well_translated_langs(threshold, trans_file)
+
+    # this loop is long hand for clarity; it's only done once, so
+    # the additional performance cost should be negligible
+    result = []
+    for code in translated_langs:
+        gettext = ugettext_for_locale(code)
+        name = gettext(u'lang.%s' % code)
+        if name != u'lang.%s' % code:
+            # we have a translation for this name...
+            result.append(dict(code=code, name=name))
+
+    result = sorted(result, key=lambda lang: lang['name'].lower())
+    
+    CACHED_ALPHABETIZED_TRANSLATED_LANGS[cache_key] = result
+
+    return result
