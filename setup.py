@@ -34,7 +34,8 @@ setup(
         'Babel>0.99',
         'zope.i18n',
         'zope.interface',
-        'python-gettext'],
+        'python-gettext',
+        'nose'],
 
     entry_points = {
         'console_scripts': [
@@ -42,12 +43,14 @@ setup(
             'sync = cc.i18n.tools.sync:cli',
             'update = cc.i18n.tools.update:cli',
             'report = cc.i18n.tools.report:cli',
+            'transstats = cc.i18n.tools.transstats:cli',
             # 'compile_mo = cc.i18n.tools.compile_mo:compile_mo_files',
             # 'po2cc = cc.i18n.tools.po2cc:cli',
             ],
         'zc.buildout': [
             'po2cc = cc.i18n.tools.po2cc:Po2CCRecipe',
             'compile_mo = cc.i18n.tools.compile_mo:CompileMORecipe',
+            'transstats = cc.i18n.tools.transstats:TransStatsRecipe',
             ]
         },
 
