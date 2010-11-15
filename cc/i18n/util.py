@@ -9,6 +9,10 @@ from cc.i18n.tools.transstats import CSV_HEADERS, DEFAULT_CSV_FILE
 from cc.i18n.gettext_i18n import ugettext_for_locale
 
 
+# Percent translated that languages should be at or above
+TRANSLATION_THRESHOLD = 60
+
+
 CACHED_TRANS_STATS = {}
 def get_all_trans_stats(trans_file=DEFAULT_CSV_FILE):
     """
