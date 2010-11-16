@@ -65,15 +65,19 @@ def get_all_trans_stats(trans_file=DEFAULT_CSV_FILE):
 
 CACHED_WELL_TRANSLATED_LANGS = {}
 def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
-                              trans_file=DEFAULT_CSV_FILE):
+                              trans_file=DEFAULT_CSV_FILE,
+                              append_english=True):
     """
     Get an alphebatized and name-rendered list of all languages above
     a certain threshold of translation.
     
     Keyword arguments:
     - threshold: percentage that languages should be translated at or above
-    - trans_file:levelspecify from which CSV file we're gathering statistics.
+    - trans_file: specify from which CSV file we're gathering statistics.
         Used for testing, You probably don't need this.
+    - append_english: Add English to the list, even if it's completely
+        "untranslated" (since English is the default for messages,
+        nobody translates it)
 
     Returns:
       An alphebatized sequence of dicts, where each element consists
@@ -83,14 +87,20 @@ def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
       for each available language.
       An unsorted set of all qualified language codes
     """
-    if CACHED_WELL_TRANSLATED_LANGS.has_key((threshold, trans_file)):
-        return CACHED_WELL_TRANSLATED_LANGS[(threshold, trans_file)]
+    cache_key = (threshold, trans_file, append_english)
+
+    if CACHED_WELL_TRANSLATED_LANGS.has_key(cache_key):
+        return CACHED_WELL_TRANSLATED_LANGS[cache_key]
 
     trans_stats = get_all_trans_stats(trans_file)
     
     qualified_langs = set([
         lang for lang, data in trans_stats.iteritems()
         if data['percent_trans'] >= threshold])
+
+    # Add english if necessary.
+    if not 'en' in qualified_langs and append_english:
+        qualified_langs.add('en')
 
     # this loop is long hand for clarity; it's only done once, so
     # the additional performance cost should be negligible
@@ -104,6 +114,6 @@ def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
 
     result = sorted(result, key=lambda lang: lang['name'].lower())
     
-    CACHED_WELL_TRANSLATED_LANGS[(threshold, trans_file)] = result
+    CACHED_WELL_TRANSLATED_LANGS[cache_key] = result
     
     return result

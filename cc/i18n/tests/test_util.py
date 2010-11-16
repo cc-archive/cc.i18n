@@ -74,6 +74,7 @@ def test_get_well_translated_langs():
     ts_file = file(transstats, 'w')
     ts_file.write(
         ('es_AR,564,343,27,60\n'
+         'en,564,0,0,0\n'
          'en_US,564,0,1,0\n'
          'hr,564,447,17,79\n'
          'no,564,400,14,70\n'
@@ -83,6 +84,7 @@ def test_get_well_translated_langs():
 
     expected_zero = [
         {'code': 'es_AR', 'name': u'Castellano (AR)'},
+        {'code': 'en', 'name': u'English'},
         {'code': 'en_US', 'name': u'English (US)'},
         {'code': 'hr', 'name': u'hrvatski'},
         {'code': 'nl', 'name': u'Nederlands'},
@@ -91,6 +93,7 @@ def test_get_well_translated_langs():
     assert util.get_well_translated_langs(0, transstats) == expected_zero
 
     expected_seventy = [
+        {'code': 'en', 'name': u'English'},
         {'code': 'hr', 'name': u'hrvatski'},
         {'code': 'nl', 'name': u'Nederlands'},
         {'code': 'no', 'name': u'Norsk'},
@@ -98,6 +101,7 @@ def test_get_well_translated_langs():
     assert util.get_well_translated_langs(70, transstats) == expected_seventy
 
     expected_eighty = [
+        {'code': 'en', 'name': u'English'},
         {'code': 'nl', 'name': u'Nederlands'},
         {'code': 'fi', 'name': u'Suomeksi'}]
     assert util.get_well_translated_langs(80, transstats) == expected_eighty
@@ -107,6 +111,7 @@ def test_get_well_translated_langs():
     ts_file = file(transstats, 'w')
     ts_file.write(
         ('es_AR,999,999,999,999\n'
+         'en,999,999,999,999\n'
          'en_US,999,999,999,999\n'
          'hr,999,999,999,999\n'
          'no,999,999,999,999\n'
@@ -114,3 +119,10 @@ def test_get_well_translated_langs():
          'fi,999,999,999,999'))
     ts_file.close()
     assert util.get_well_translated_langs(80, transstats) == expected_eighty
+
+    # English shouldn't show up if we tell it not to
+    expected_eighty_noenglish = [
+        {'code': 'nl', 'name': u'Nederlands'},
+        {'code': 'fi', 'name': u'Suomeksi'}]
+    assert util.get_well_translated_langs(
+        80, transstats, False) == expected_eighty_noenglish
