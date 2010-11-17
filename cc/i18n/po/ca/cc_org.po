@@ -2086,21 +2086,9 @@ msgstr "Seguiu l'ús de la vostra obra amb FairShare"
 #. "\t\t  or linking to this Commons Deed does not create an\n"
 #. "\t\t  attorney-client relationship.</p>"
 #: c/engine/licenses/zero_templates/deed.pt:114
-#, fuzzy
 msgctxt "deed.zero.disclaimer"
 msgid "<p> The Commons Deed is not a legal instrument. It is simply a handy reference for understanding the CC0 Legal Code, a human-readable expression of some of its key terms. Think of it as the user-friendly interface to the CC0 Legal Code beneath. This Deed itself has no legal value, and its contents do not appear in CC0. </p> <p> Creative Commons is not a law firm and does not provide legal services. Distributing, displaying, or linking to this Commons Deed does not create an attorney-client relationship. </p> <p> Creative Commons has not verified the copyright status of any work to which CC0 has been applied. CC makes no warranties about any work or its copyright status in any jurisdiction, and disclaims all liability for all uses of any work. </p>"
-msgstr ""
-"<p>El Commons Deed no és un instrument legal. Simplement és \n"
-"\t\t una referència útil per entendre el codi legal de CC0,\n"
-"\t\t una explicació fàcilment entendible dels principals termes.\n"
-"\t\t Penseu que és la interfície amicable del codi legal de CC0\n"
-"\t\t que es troba a l'interior. Aquest resum per si sol no té\n"
-"\t\t valor legal i el seu contingut no apareix  en n\t\tCC0.</p>\n"
-"\n"
-"\t\t<p>Creative Commons no é sun bufet d'advocats i no ofereix\n"
-"\t\t serveis jurídics. La distribució, la comunicació o \n"
-"\t\t l'enllaç a aquest Commons Deed no crea cap\n"
-"\t\t relació advocat-client.</p>"
+msgstr "<p>El Commons Deed no és un instrument legal. Simplement és  una referència útil per entendre el codi legal de CC0, una explicació fàcilment entendible dels principals termes. Penseu que és la interfície amicable del codi legal de CC0 que es troba a l'interior. Aquest resum per si sol no té valor legal i el seu contingut no apareix  en CC0.</p><p>Creative Commons no és un bufet d'advocats i no ofereix serveis jurídics. La distribució, la comunicació o  l'enllaç a aquest Commons Deed no crea cap relació advocat-client.</p><p>Creative Commons no ha verificat la situació dels drets de propietat inetel·lectual de cap de les obres subjectes a CC0. CC no ofereix cap garantia sobra l'obra o l'estat legal i s'eximeix de tota responsabilitat per qualsevol ús que se'n faci.</p>"
 
 #. Default: ""
 #. "This is a human-readable summary of\n"
@@ -2124,10 +2112,9 @@ msgstr "Sense drets d'explotació"
 #. "            and all related or neighboring legal rights he or she\n"
 #. "            had in the work, to the extent allowable by law."
 #: c/engine/licenses/zero_templates/deed.pt:33
-#, fuzzy
 msgctxt "deed.zero.nocopyright-text"
 msgid "The person who associated a work with this deed has <b>dedicated</b> the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law."
-msgstr "La persona que ha associat una obra amb aquest document l'ha entregada als béns comuns mitjançant la renúncia de tots els drets sobre l'obra pel que fa a la propietat intel·lectual, incloent-hi els drets afins, fins on és possible amb la llei vigent."
+msgstr "La persona que ha associat una obra amb aquest document <b>l'ha entregada</b> al domini públic mitjançant la renúncia de tots els drets sobre l'obra pel que fa a la propietat intel·lectual, incloent-hi els drets afins, fins on és possible amb la llei vigent aplicable."
 
 #. Default: "Attribute this work:"
 #: c/engine/licenses/zero_templates/deed.pt:42
@@ -2187,10 +2174,9 @@ msgstr "En particular, si sou un artista o un autor i els vostres ingresos depen
 #. "\t    work, then the <a href=\"/license/publicdomain-2\">Public\n"
 #. "\t      Domain Certification</a> may be what you're looking for."
 #: c/engine/zero/templates/confirm.pt:61
-#, fuzzy
 msgctxt "license.zero.confirm_waiver_3"
 msgid "If you don't own the rights to this work, then do not use CC0. If you believe that nobody owns rights to the work, then the <a href=\"/choose/mark/\">Public Domain Mark</a> may be what you're looking for."
-msgstr "Si no sou els titulars d'aquesta obra no utilitzeu CC0. Si creieu que ningú ostenta els drets d'aquesta obra llavors potser esteu buscant <a href=\"/license/publicdomain-2\">la certificació al Domini Públic</a>."
+msgstr "Si no sou els titulars d'aquesta obra no utilitzeu CC0. Si creieu que ningú ostenta els drets d'aquesta obra llavors potser esteu buscant <a href=\"/choose/mark/\">l'indicatiu de Domini Públic</a>."
 
 #. Default: "No, I Do Not Waive"
 #: c/engine/zero/templates/confirm.pt:71
@@ -2684,15 +2670,9 @@ msgid "Czech"
 msgstr "Txec"
 
 #: c/engine/chooser_pages/partner/index.pt:36
-#, fuzzy
 msgctxt "license.partner.publicdomain_options"
 msgid "If you want to share a work you created with no conditions, choose <a href=\"${cc0_url}\">CC0</a>. If you're sharing a work that isn't covered by copyright or on which the copyright has expired, choose the <a href=\"${pd_url}\">Public Domain Mark</a>."
-msgstr ""
-"Si voleu compartir sense condicions una obra que heu creat, escolliu\n"
-"<a href=\"${cc0_url}\">CC0</a>. Si\n"
-"   compartiu una obra que no està protegida per la propietat intel·lectual o els drets\n"
-"   sobre la qual s'han exhaurit, escolliu el\n"
-"   <a href=\"${pd_url}\">certificat de domini públic</a>."
+msgstr "Si voleu compartir sense condicions una obra que heu creat, escolliu<a href=\"${cc0_url}\">CC0</a>. Si compartiu una obra que no està protegida per la propietat intel·lectual o els drets  sobre la qual s'han exhaurit, escolliu <a href=\"${pd_url}\">l'identificador de domini públic</a>."
 
 #: c/engine/pd/templates/publicdomain-partner.pt:24
 msgctxt "license.partner.pd_intro"
@@ -2728,10 +2708,9 @@ msgctxt "util.territory"
 msgid "Territory"
 msgstr "Territori"
 
-#, fuzzy
 msgctxt "deed.zero.no-endorsment"
 msgid "You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See <b>Other Information</b> below."
-msgstr "Les obres amb CC0 no requereixen reconeixement. Quan citeu l'obra no heu d'insinuar cap tipus de suport de l'autor."
+msgstr "Podeu copiar, modificar, distribuir l'obra i fer-ne comunicació pública, fins i tot amb finalitat comercial, sense demanar cap mena de permís. <b>Més informació</b> a sota."
 
 #: s/standard_templates/deed.pt:121
 msgctxt "deed.public_domain"
