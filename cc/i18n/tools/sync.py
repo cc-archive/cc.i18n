@@ -78,6 +78,14 @@ def cli():
                     # new strings aren't translated by default
                     source.get(message.id, message.context).string = ""
 
+                # If for some reason python-format ended up in
+                # source's message but wasn't in master's message
+                # (probably due to auto-detection by babel), remove it
+                # from source's message.
+                if (('python-format' in source[message.id].flags and
+                     'python-format' not in message.flags)):
+                    source[message.id].flags.remove('python-format')
+
             # convert back to .po style, thereby updating the English source
             source = convert.cc_to_po(source, master, previous_master)
 
