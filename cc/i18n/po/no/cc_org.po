@@ -840,6 +840,7 @@ msgid "This is a draft license published for public review. Do not use this lice
 msgstr "Dette er et utkast til en lisens som er publisert for offentlig diskusjon. Bruk ikke denne lisensen før denne meldingen er fjernet. Kommentarer vedrørende denne lisensen sendes til licenses@creativecommons.org."
 
 #: c/engine/chooser_pages/index.pt:170 c/engine/chooser_pages/sampling.pt:106
+#, fuzzy
 msgctxt "license.jurisdiction_help"
 msgid ""
 "Use the option \"International\" if you desire a license using language\n"
@@ -849,11 +850,7 @@ msgid ""
 "international licenses do not, then you may want to consider\n"
 "<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">which\n"
 "license is better suited for your needs</a>."
-msgstr ""
-"Velg alternativet \"internasjonal\" dersom du ønsker en lisens som bruker språket\n"
-"og terminilogien fra internasjonale avtaler. Dersom lisensene har\n"
-"blitt oversatt til din jurisdiksjon og du mener at at de oversatte lisensene tar hensyn til enkelte aspekter ved lokal lovgiving som er fraværende i de internasjonale lisensene bør du overveie\n"
-"<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">hvilken lisens som passer dine behov best</a>."
+msgstr "Velg alternativet \"internasjonal\" dersom du ønsker en lisens som bruker språket\nog terminilogien fra internasjonale avtaler. Dersom lisensene har\nblitt oversatt til din jurisdiksjon og du mener at at de oversatte lisensene tar hensyn til enkelte aspekter ved lokal lovgiving som er fraværende i de internasjonale lisensene bør du overveie\n<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">hvilken lisens som passer dine behov best</a>."
 
 #: c/engine/licenses/fsf_templates/deed.pt:34
 msgctxt "deed.gpl_free_run"
@@ -1492,7 +1489,7 @@ msgstr "Dette verk er lisensieret under Creative Commons ${license_name}-lisense
 #: c/engine/licenses/mitbsd_templates/deed.pt:40
 msgctxt "deed.no_endorsement"
 msgid "<strong>No Endorsement</strong>. The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission."
-msgstr "<strong>Ingen anbefalinger</strong>. Forfatterens navn kan ikke brukes til å anbefale eller markedsføre produkter avledet fra denne programvaren uten at det på forhånd innhentes en spesifikk skriftlig tillatelse."
+msgstr "<strong>Ingen anbefaling</strong>. Forfatterens navn kan ikke brukes til å anbefale eller markedsføre produkter avledet fra denne programvaren uten at det på forhånd innhentes en spesifikk skriftlig tillatelse."
 
 msgctxt "jswidget.Prohibit_Commercial_Use"
 msgid "Prohibit Commercial Use"
@@ -1579,7 +1576,7 @@ msgstr "Tekst"
 #: c/engine/licenses/sampling_templates/deed.pt:41
 msgctxt "char.by_brief"
 msgid "You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work)."
-msgstr "Du skal navngi opphavspersonen og/eller lisensgiveren på den måte som disse angir (men ikke på en måte som indikerer at disse har godkjent eller anbefaler din bruk av verket)."
+msgstr "Du skal navngi opphavspersonen og/eller lisensgiveren på den måte som disse angir (men ikke på en måte som indikerer at disse har godkjent eller anbefaler deg eller din bruk av verket)."
 
 msgctxt "deed.lgpl_source"
 msgid "If you copy or distribute the library, you must accompany it with the complete corresponding machine-readable source code or with a written offer, valid for at least three years, to furnish the complete corresponding machine-readable source code.  You need not provide source code to programs which link to the library."
@@ -2159,7 +2156,7 @@ msgstr "Ingen opphavsrett"
 #: c/engine/licenses/zero_templates/deed.pt:33
 msgctxt "deed.zero.nocopyright-text"
 msgid "The person who associated a work with this deed has <b>dedicated</b> the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law."
-msgstr "Den person som har knyttet et verk til dette dokumentet har, i den utstrekning loven tillater, <b>dedikert</b> dette verket til fri bruk ved å si fra seg alle de opphavsrettigheter og nærstående rettigheter som vedkommende hadde til verket."
+msgstr "Den person som har knyttet et verk til denne erklæring (deed) har, i den utstrekning loven tillater, <b>dedikert</b> dette verket til fri bruk ved å si fra seg alle de opphavsrettigheter og nærstående rettigheter som vedkommende hadde til verket."
 
 #. Default: "Attribute this work:"
 #: c/engine/licenses/zero_templates/deed.pt:42
@@ -2622,8 +2619,7 @@ msgid ""
 "\t  or privacy rights, rights you have protecting against unfair\n"
 "\t  competition, and database rights and rights protecting the\n"
 "\t  extraction, dissemination and reuse of data."
-msgstr ""
-"Ved å benytte  CC0 kan du fraskrive deg alle opphavsrettigheter og\n"
+msgstr "Ved å benytte  CC0 kan du fraskrive deg alle opphavsrettigheter og\n"
 "\t  nærstående rettigheter som du måtte ha i forhold til de verk, slik som\n"
 "\t  dine ideelle rettigheter (i den utstrekning slike kan fraskrives), dine\n"
 "\t   personlighets- eller personvernrettigheter, konkurranserettigheter, og\n"
@@ -2991,7 +2987,7 @@ msgstr ""
 #: chooser_pages/pdmark/index.pt:71
 msgctxt "license.mark.intro_2"
 msgid "The PDM is intended for use with old works that are free of copyright restrictions around the world, or works that have been affirmatively placed in the worldwide public domain prior to the expiration of copyright by the rights’ holder. It should not be used to mark works that are in the public domain in some jurisdictions while known to be restricted by copyright in others. Currently, Creative Commons does not recommend the Public Domain Mark for works whose copyright status differs jurisdiction to jurisdiction, though we are developing means for marking and tagging such works. You should consult with your legal advisor if you are unsure whether you should use the PDM for a work you have identified."
-msgstr ""
+msgstr "PDM er tenkt benyttet for eldre verk som har falt i det fri over hele verden, eller verk som det er bekreftet er blitt plassert i det fri av rettighetshaveren før vernetiden er utløpt.  PDM skal ikke benyttes til å merke verk som har falt i det fri i noen jurisdiksjoner, mens det fortsatt er underlagt opphavsrettsbegrensinger i andre.  For øyeblikket anbefaler Creative Commons ikke at Public Domain Merket benyttes for verk hvis opphavsrettslige status er ulik i ulike jurisdisjoner, men vi arbeider med å utvikle måter å merke slike verk på.  Du bør rådføre deg med en juridisk rådgiver dersom du er usikker på om du bør bruke PDM på et verk som du har identifisert."
 
 #. Default: ""
 #. "Please note that this is <strong>not a registration process</strong> and "
@@ -3059,7 +3055,7 @@ msgstr "Det kan være at noen har andre rettigheter til, eller i forhold til, ve
 #: licenses/pdmark_deed.pt:111
 msgctxt "deed.mark.other_info.moral_rights"
 msgid "In some jurisdictions <a href=\"\" class=\"helpLink\" id=\"moral_rights\" name=\"moral_rights\">moral rights</a> of the author may persist beyond the term of copyright. These rights may include the right to be identified as the author and the right to object to derogatory treatments."
-msgstr "I noen jurisdiksjoner varer de <a href=\"\" class=\"helpLink\" id=\"moral_rights\" name=\"moral_rights\">ideelle rettighetene</a> enn verkets vernetid.  Disse rettighetene kan inkludere rettigheten til å bli navngitt som opphavsperson og retten til å motsette seg krenkende bruk av verket."
+msgstr "I noen jurisdiksjoner kan de <a href=\"\" class=\"helpLink\" id=\"moral_rights\" name=\"moral_rights\">ideelle rettighetene</a> strekke seg ut over verkets vernetid.  Disse rettighetene kan inkludere rettigheten til å bli navngitt som opphavsperson og retten til å motsette seg krenkende bruk av verket."
 
 #. Default: ""
 #. "Unless expressly stated otherwise, the person who identified the work "
@@ -3068,7 +3064,7 @@ msgstr "I noen jurisdiksjoner varer de <a href=\"\" class=\"helpLink\" id=\"mora
 #: licenses/pdmark_deed.pt:119
 msgctxt "deed.mark.other_info.no_warranty"
 msgid "Unless expressly stated otherwise, the person who identified the work makes no warranties about the work, and disclaims liability for all uses of the work, to the fullest extent permitted by applicable law."
-msgstr ""
+msgstr "Med mindre annet er uttrykkelig angitt, gir den personen som identifiserte verket ingen garantier om verket, og fraskriver seg ethvert ansvar for bruk av verket, i den grad dette er mulig under gjeldende lovgivning."
 
 #. Default: ""
 #. "When using or citing the work, you should not imply <a href=\"\" "
@@ -3078,13 +3074,13 @@ msgstr ""
 #: licenses/pdmark_deed.pt:125
 msgctxt "deed.mark.other_info.no_endorsement"
 msgid "When using or citing the work, you should not imply <a href=\"\" class=\"helpLink\" id=\"endorsement\" name=\"endorsement\">endorsement</a> by the author or the person who identified the work."
-msgstr ""
+msgstr "Når du bruker eller siterer arbeidet, kan du ikke gjøre det på en måte som impliserer en <a href=\"\" class=\"helpLink\" id=\"endorsement\" name=\"endorsement\">anbefaling</a> fra forfatteren eller fra den som identifiserte verket."
 
 #. Default: "Endorsement"
 #: licenses/pdmark_deed.pt:145 licenses/zero_deed.pt:143
 msgctxt "util.endorsement"
 msgid "Endorsement"
-msgstr ""
+msgstr "Anbefaling"
 
 #. Default: ""
 #. "In some jurisdictions, wrongfully implying that an author, publisher or "
@@ -3092,7 +3088,7 @@ msgstr ""
 #: licenses/pdmark_deed.pt:149 licenses/zero_deed.pt:145
 msgctxt "deed.help.endorsement"
 msgid "In some jurisdictions, wrongfully implying that an author, publisher or anyone else endorses your use of a work may be unlawful."
-msgstr "I noen jurisdiksjoner vil det være rettsstridig å angi at en opphavsperson, utgiver eller andre bifaller din bruk av verket."
+msgstr "I noen jurisdiksjoner vil det være rettsstridig å angi at en opphavsperson, utgiver eller andre anbefaler eller bifaller din bruk av verket."
 
 #. Default: "Citation"
 #: licenses/pdmark_deed.pt:162 licenses/zero_deed.pt:159
@@ -3228,7 +3224,7 @@ msgstr "Det kan være at verket ikke er fri for alle oppahvsrettslige restriksjo
 #: licenses/zero_deed.pt:104
 msgctxt "deed.zero.other_info.no_warranty"
 msgid "Unless expressly stated otherwise, the person who associated a work with this deed makes no warranties about the work, and disclaims liability for all uses of the work, to the fullest extent permitted by applicable law."
-msgstr ""
+msgstr "Med mindre annet er uttrykkelig angitt, gir den personen som knyttet verket til denne erklæring (deed) ingen garantier om verket, og fraskriver seg ethvert ansvar for bruk av verket, i den grad dette er mulig under gjeldende lovgivning."
 
 #. Default: ""
 #. "When using or citing the work, you should not imply <a href=\"\" "
@@ -3237,7 +3233,7 @@ msgstr ""
 #: licenses/zero_deed.pt:112
 msgctxt "deed.zero.other_info.no_endorsement"
 msgid "When using or citing the work, you should not imply <a href=\"\" class=\"helpLink\" id=\"endorsement\" name=\"endorsement\">endorsement</a> by the author or the affirmer."
-msgstr ""
+msgstr "Når du bruker eller siterer arbeidet, kan du ikke gjøre det på en måte som impliserer en <a href=\"\" class=\"helpLink\" id=\"endorsement\" name=\"endorsement\">anbefaling</a> fra forfatteren eller bekrefteren."
 
 #. Default: "Who is the affirmer?"
 #: licenses/zero_deed.pt:173
