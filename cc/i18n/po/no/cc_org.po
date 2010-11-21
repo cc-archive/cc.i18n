@@ -840,6 +840,7 @@ msgid "This is a draft license published for public review. Do not use this lice
 msgstr "Dette er et utkast til en lisens som er publisert for offentlig diskusjon. Bruk ikke denne lisensen før denne meldingen er fjernet. Kommentarer vedrørende denne lisensen sendes til licenses@creativecommons.org."
 
 #: c/engine/chooser_pages/index.pt:170 c/engine/chooser_pages/sampling.pt:106
+#, fuzzy
 msgctxt "license.jurisdiction_help"
 msgid ""
 "Use the option \"International\" if you desire a license using language\n"
@@ -849,11 +850,7 @@ msgid ""
 "international licenses do not, then you may want to consider\n"
 "<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">which\n"
 "license is better suited for your needs</a>."
-msgstr ""
-"Velg alternativet \"internasjonal\" dersom du ønsker en lisens som bruker språket\n"
-"og terminilogien fra internasjonale avtaler. Dersom lisensene har\n"
-"blitt oversatt til din jurisdiksjon og du mener at at de oversatte lisensene tar hensyn til enkelte aspekter ved lokal lovgiving som er fraværende i de internasjonale lisensene bør du overveie\n"
-"<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">hvilken lisens som passer dine behov best</a>."
+msgstr "Velg alternativet \"internasjonal\" dersom du ønsker en lisens som bruker språket\nog terminilogien fra internasjonale avtaler. Dersom lisensene har\nblitt oversatt til din jurisdiksjon og du mener at at de oversatte lisensene tar hensyn til enkelte aspekter ved lokal lovgiving som er fraværende i de internasjonale lisensene bør du overveie\n<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">hvilken lisens som passer dine behov best</a>."
 
 #: c/engine/licenses/fsf_templates/deed.pt:34
 msgctxt "deed.gpl_free_run"
@@ -2133,7 +2130,7 @@ msgstr "Spor bruk av ditt verk med Fairshare"
 #: c/engine/licenses/zero_templates/deed.pt:114
 msgctxt "deed.zero.disclaimer"
 msgid "<p> The Commons Deed is not a legal instrument. It is simply a handy reference for understanding the CC0 Legal Code, a human-readable expression of some of its key terms. Think of it as the user-friendly interface to the CC0 Legal Code beneath. This Deed itself has no legal value, and its contents do not appear in CC0. </p> <p> Creative Commons is not a law firm and does not provide legal services. Distributing, displaying, or linking to this Commons Deed does not create an attorney-client relationship. </p> <p> Creative Commons has not verified the copyright status of any work to which CC0 has been applied. CC makes no warranties about any work or its copyright status in any jurisdiction, and disclaims all liability for all uses of any work. </p>"
-msgstr "<p> Commons Deed er ikke en juridisk dokument. Det er kun en kortfattet sammendrag av den juridiske CC0 lisensteksten med en opplisting av noen av nøkkelbegrepene. Tenk på den som et brukervennlig grensesnitt mot det underliggende juridiske CC0 lisensteksten. Alene har Deed-teksten ikke juridisk relevans, og innholdet i den inngår ikke i CC0</p> <p>Creative Commons er ikke et advokatfirma og tilbyr ikke juridiske tjenester. Å distribuere, vise, eller lenke til denne oppsummeringen (Commons Deed) skaper ikke et advokat-klientforhold.</p> <p>Creative Commons har ikke verifisert den opphavsrettslige status til noe verk som CC0 er anvendt på. CC tilbyr ingen garantier om noe verk eller dets opphavsrettslige status i noen jurisdiksjon, og fraskriver seg alt ansvar for enhver bruk av noe verk.</p>"
+msgstr "<p> Commons Deed er ikke et juridisk instrument. Det er kun en kortfattet sammendrag av den juridiske CC0 lisensteksten med en opplisting av noen av nøkkelbegrepene. Tenk på den som et brukervennlig grensesnitt mot det underliggende juridiske CC0 lisensteksten. Alene har Deed-teksten ikke juridisk relevans, og innholdet i den inngår ikke i CC0</p> <p>Creative Commons er ikke et advokatfirma og tilbyr ikke juridiske tjenester. Å distribuere, vise, eller lenke til denne oppsummeringen (Commons Deed) skaper ikke et advokat-klientforhold.</p> <p>Creative Commons har ikke verifisert den opphavsrettslige status til noe verk som CC0 er anvendt på. CC tilbyr ingen garantier om noe verk eller dets opphavsrettslige status i noen jurisdiksjon, og fraskriver seg alt ansvar for enhver bruk av noe verk.</p>"
 
 #. Default: ""
 #. "This is a human-readable summary of\n"
@@ -2221,7 +2218,7 @@ msgstr "I særdeleshet, dersom du er en kunstner som baserer din virksomhet på 
 #: c/engine/zero/templates/confirm.pt:61
 msgctxt "license.zero.confirm_waiver_3"
 msgid "If you don't own the rights to this work, then do not use CC0. If you believe that nobody owns rights to the work, then the <a href=\"/choose/mark/\">Public Domain Mark</a> may be what you're looking for."
-msgstr "Dersom det ikke er du som eier rettighetene til dette verket, kan du ikke benytte CC0.  Dersom du er sikker på at ingen eier rettighetene til verket, kan de være at du kan benytte verktøyet <a href=\"/license/publicdomain-2\">Public Domain Sertifisering</a>."
+msgstr "Dersom det ikke er du som eier rettighetene til dette verket, kan du ikke benytte CC0.  Dersom du er sikker på at ingen eier rettighetene til verket, kan de være at du kan benytte verktøyet <a href=\"/license/publicdomain-2\">Public Domain-merket</a>."
 
 #. Default: "No, I Do Not Waive"
 #: c/engine/zero/templates/confirm.pt:71
@@ -2622,8 +2619,7 @@ msgid ""
 "\t  or privacy rights, rights you have protecting against unfair\n"
 "\t  competition, and database rights and rights protecting the\n"
 "\t  extraction, dissemination and reuse of data."
-msgstr ""
-"Ved å benytte  CC0 kan du fraskrive deg alle opphavsrettigheter og\n"
+msgstr "Ved å benytte  CC0 kan du fraskrive deg alle opphavsrettigheter og\n"
 "\t  nærstående rettigheter som du måtte ha i forhold til de verk, slik som\n"
 "\t  dine ideelle rettigheter (i den utstrekning slike kan fraskrives), dine\n"
 "\t   personlighets- eller personvernrettigheter, konkurranserettigheter, og\n"
@@ -2706,7 +2702,7 @@ msgstr "Tsjekkisk"
 #: c/engine/chooser_pages/partner/index.pt:36
 msgctxt "license.partner.publicdomain_options"
 msgid "If you want to share a work you created with no conditions, choose <a href=\"${cc0_url}\">CC0</a>. If you're sharing a work that isn't covered by copyright or on which the copyright has expired, choose the <a href=\"${pd_url}\">Public Domain Mark</a>."
-msgstr ""
+msgstr "Dersom du ønsker å dele et verk du har skapt uten vilkår, velg <a href=\"${cc0_url}\">CC0</a>. Dersom du deler et verk som ikke er omfattet av opphavsrett eller der vernetiden er utløpt, velg <a href=\"${pd_url}\">Public Domain-merket</a>."
 
 #: c/engine/pd/templates/publicdomain-partner.pt:24
 msgctxt "license.partner.pd_intro"
@@ -2715,10 +2711,7 @@ msgid ""
 "want to certify a work is in the public domain. The Public Domain\n"
 "Certification is not a license. By using it you assert that a work is\n"
 "already in the public domain."
-msgstr ""
-"Ditt valg angir at du\n"
-" ønsker å sertifisere et verk som er i Public Domain.  Public Donain\n"
-" sertifiseringen er ikke en lisens.  Ved å bruke denne bekrefter du at verket allerede befinner seg i Public Domain."
+msgstr "Ditt valg angir at du\n ønsker å sertifisere et verk som er i Public Domain.  Public Donain\n sertifiseringen er ikke en lisens.  Ved å bruke denne bekrefter du at verket allerede befinner seg i Public Domain."
 
 #: c/engine/pd/templates/publicdomain-partner.pt:31
 msgctxt "license.partner.pd.use_cc0"
@@ -2726,10 +2719,7 @@ msgid ""
 "If instead you want to\n"
 "waive copyright and neighboring rights on a work <em>in which you hold\n"
 "these rights</em>, choose <a href=\"${cc0_url}\">CC0</a>."
-msgstr ""
-"Dersom du i stedet ønsker å\n"
-" fraskrive deg opphavsrettighetene og de nærstående rettigehetene til et verk <em>der du har slike\n"
-" rettigheter</em>, velg <a href=\"${cc0_url}\">CC0</a>."
+msgstr "Dersom du i stedet ønsker å\n fraskrive deg opphavsrettighetene og de nærstående rettigehetene til et verk <em>der du har slike\n rettigheter</em>, velg <a href=\"${cc0_url}\">CC0</a>."
 
 msgctxt "lang.ar"
 msgid "Arabic"
@@ -2854,7 +2844,7 @@ msgstr "Islandsk"
 
 msgctxt "licenses.publicdomain_mark_title"
 msgid "Public Domain Mark"
-msgstr ""
+msgstr "Public Domain-merket"
 
 msgctxt "lang.et"
 msgid "Estonian"
@@ -2980,7 +2970,7 @@ msgstr "Verk-navn"
 #: chooser_pages/pdmark/index.pt:64
 msgctxt "license.mark.intro_1"
 msgid "Using the Public Domain Mark, you can mark a work that is free of known copyright restrictions and clearly convey that status. When applied properly, the PDM allows the work to be easily discovered, and provides valuable information about the work."
-msgstr ""
+msgstr "Ved å bruke Public Domain-merket kan du merke et verk som er fri for alle kjente opphavsrettsbegrensinger og på den måten klart vise hva slags status det har.  Brukt på riktig måte vil PDM gjøre det mulig å enhelt finne verk i det fri, og gi verdifulle opplysninger om verket."
 
 #. Default: ""
 #. "The PDM is intended for use with old works that are free of copyright "
@@ -2997,7 +2987,7 @@ msgstr ""
 #: chooser_pages/pdmark/index.pt:71
 msgctxt "license.mark.intro_2"
 msgid "The PDM is intended for use with old works that are free of copyright restrictions around the world, or works that have been affirmatively placed in the worldwide public domain prior to the expiration of copyright by the rights’ holder. It should not be used to mark works that are in the public domain in some jurisdictions while known to be restricted by copyright in others. Currently, Creative Commons does not recommend the Public Domain Mark for works whose copyright status differs jurisdiction to jurisdiction, though we are developing means for marking and tagging such works. You should consult with your legal advisor if you are unsure whether you should use the PDM for a work you have identified."
-msgstr "PDM er tenkt benyttet for eldre verk som har falt i det fri over hele verden, eller verk som det er bekreftet er blitt plassert i det fri av rettighetshaveren før vernetiden er utløpt.  PDM skal ikke benyttes til å merke verk som har falt i det fri i noen jurisdiksjoner, mens det fortsatt er underlagt opphavsrettsbegrensinger i andre.  For øyeblikket anbefaler Creative Commons ikke at Public Domain Merket benyttes for verk hvis opphavsrettslige status er ulik i ulike jurisdisjoner, men vi arbeider med å utvikle måter å merke slike verk på.  Du bør rådføre deg med en juridisk rådgiver dersom du er usikker på om du bør bruke PDM på et verk som du har identifisert."
+msgstr "PDM er tenkt benyttet for eldre verk som har falt i det fri over hele verden, eller verk som det er bekreftet er blitt plassert i det fri av rettighetshaveren før vernetiden er utløpt.  PDM skal ikke benyttes til å merke verk som har falt i det fri i noen jurisdiksjoner, mens det fortsatt er underlagt opphavsrettsbegrensinger i andre.  For øyeblikket anbefaler Creative Commons ikke at Public Domain-merket benyttes for verk hvis opphavsrettslige status er ulik i ulike jurisdisjoner, men vi arbeider med å utvikle måter å merke slike verk på.  Du bør rådføre deg med en juridisk rådgiver dersom du er usikker på om du bør bruke PDM på et verk som du har identifisert."
 
 #. Default: ""
 #. "Please note that this is <strong>not a registration process</strong> and "
@@ -3009,7 +2999,7 @@ msgstr "PDM er tenkt benyttet for eldre verk som har falt i det fri over hele ve
 #: chooser_pages/pdmark/index.pt:86
 msgctxt "license.mark.intro_3"
 msgid "Please note that this is <strong>not a registration process</strong> and Creative Commons does not store or save any of the information you provide. This tool guides you through the process of generating HTML with embedded metadata for marking the work you have identified as free of known copyright restrictions. The work will not be associated with a Public Domain Mark until you publish it marked as being so."
-msgstr ""
+msgstr "Vennligst legg merke til at dette er <strong>ikke en registrerings-prosess</strong> og at Creative Commons lagrer ikke noe av den informasjonen du oppgir.  Dette verktøyet loser deg gjennom det å genererere HTML med innbakte metdata for å markere det verket du har identifisert som fri for alle kjente opphavsrettslige begrensninger.  Verket vil ikke bli knyttet til Public Domain-merket før du publiserer det merket på denne måten."
 
 #. Default: ""
 #. "If you'd like to get the HTML with embedded metadata via email, fill in "
@@ -3042,7 +3032,7 @@ msgstr "Her er en forhåndsvisning av hvordan merket vil bli vist på nettsiden:
 #: chooser_pages/pdmark/results.pt:88
 msgctxt "license.mark.copy_text"
 msgid "Copy the text below to your website to let your visitors know that the work identified by you is free of known copyright restrictions. Creative Commons does not maintain a record of the work you have identified using the Public Domain Mark. It is up to you to let people know that you have identified the work using the mark."
-msgstr ""
+msgstr "Kopier teksten under til ditt nettsted for å la besøkende vite at det verk du har identifisert er fri for kjente opphavsrettslige begrensinger.  Creative Commons lagrer ingen data om det verk du har identifisert med Public Domain-merket.  Det er opp til deg å la folk vite at du har identifisert det ved å bruke merket."
 
 #. Default: ""
 #. "Persons may have other rights in or related to the work, such as patent "
@@ -3178,7 +3168,7 @@ msgstr "<p id=\"nolaw-tekst\"> Dette verket har blitt <b>identifisert</b> som fr
 #: licenses/pdmark_deed.pt:248
 msgctxt "deed.mark.disclaimer"
 msgid "<p> The Public Domain Mark is not a legal instrument. </p> <p> Creative Commons is not a law firm and does not provide legal services or advice. Distributing, displaying, or linking to this Public Domain Mark does not create an attorney-client relationship. </p> <p> Creative Commons has not verified the copyright status of any work to which this mark has been applied. CC makes no warranties about any work or its copyright status in any jurisdiction, and disclaims all liability for all uses of any work. </p>"
-msgstr ""
+msgstr "<p> Public Domain-merket er ikke et juridisk instrument. </p> <p> Creative Commons er ikke et advokatfirma og tilbyr ikke juridiske tjenester. Å distribuere, vise, eller lenke til Public Domain-merket skaper ikke et advokat-klientforhold. </p> <p> Creative Commons har ikke verifisert den opphavsrettslige status til noe verk som dette merket er anvendt på. CC tilbyr ingen garantier om noe verk eller dets opphavsrettslige status i noen jurisdiksjon, og fraskriver seg alt ansvar for enhver bruk av noe verk. </p>"
 
 #. Default: "Use this tool to mark other public domain works."
 #: licenses/pdmark_deed.pt:272
@@ -3400,7 +3390,7 @@ msgstr "Dette arbeidet (ved ${author}), identifisert av ${curator}, er fri for k
 #: chooser_pages/zero/index.pt:50
 msgctxt "license.zero.PDM-difference"
 msgid "You are using a tool for freeing your own work of copyright restrictions around the world. You may use this tool even if your work is free of copyright in some jurisdictions, if you want to want to ensure it is free everywhere. Creative Commons does not recommend this tool for works that are already in the public domain worldwide, instead use the <b><a href=\"/choose/mark/\">Public Domain Mark</a></b> for such works."
-msgstr ""
+msgstr "Du bruker et verktøy som frigir ditt eget verk fra opphavsrettsbegrensinger overalt.  Du kan bruke dette verktøyet selv om ditt verk allerede er uten opphavsrettslig beskyttelse i noen jurisdiksjoner, dersom du ønsker å gjøre det klart at det er er i det fri overalt.  Creative Commons anbefaler imidlertid ikke dette verktøyet for verk som allerede befinner seg i det fri overalt.  I stedet bør du benytte <b><a href=\"/choose/mark/\">Public Domain-merket</a></b> for å markere slike verk."
 
 #. Default: ""
 #. "You are using a tool for labeling works that are free of known copyright "
@@ -3423,7 +3413,7 @@ msgstr ""
 #: chooser_pages/publicdomain/publicdomain-2.pt:22
 msgctxt "license.pd.retired"
 msgid "Creative Commons has <a href=\"http://creativecommons.org/retiredlicenses\">retired this legal tool</a>. CC recommends using a <a href=\"http://creativecommons.org/publicdomain\">current tool</a> for waiving rights or identifying public domain works."
-msgstr ""
+msgstr "Creative Commons har <a href=\"http://creativecommons.org/retiredlicenses\">trukket dette verktøyet tilbake</a>. CC anbefaler at du i stedet benytter et av våre <a href=\"http://creativecommons.org/publicdomain\">nyere verktøy</a> dersom for å fraskrive for rettigheter eller for å identifisere verk som befinner seg i det fri."
 
 #. Default: ""
 #. "Any of the above conditions can be waived if you get permission from the "
@@ -3449,7 +3439,7 @@ msgstr "Dette verktøyet er basert på lovigivingen i USA og er ikke nødvendigv
 #: chooser_pages/zero/partner.pt:43
 msgctxt "license.partner.zero.use_pdm_instead"
 msgid "If instead you want to certify that a work is <em>already in the public domain</em>, instead use the <a href=\"${pd_url}\">Public Domain Mark</a>."
-msgstr "Dersom du i stedet ønsker å sertifisere at et verk <em>allerede befinner seg i det fri</em> kan du benytte <a href=\"${pd_url}\">Public Domain Mark</a>."
+msgstr "Dersom du i stedet ønsker å sertifisere at et verk <em>allerede befinner seg i det fri</em> kan du benytte <a href=\"${pd_url}\">Public Domain-merket</a>."
 
 #. Default: ""
 #. "If you want to free <em>your own work</em> of copyright restrictions, "
