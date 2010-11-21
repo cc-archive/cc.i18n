@@ -840,6 +840,7 @@ msgid "This is a draft license published for public review. Do not use this lice
 msgstr "Dette er et utkast til en lisens som er publisert for offentlig diskusjon. Bruk ikke denne lisensen før denne meldingen er fjernet. Kommentarer vedrørende denne lisensen sendes til licenses@creativecommons.org."
 
 #: c/engine/chooser_pages/index.pt:170 c/engine/chooser_pages/sampling.pt:106
+#, fuzzy
 msgctxt "license.jurisdiction_help"
 msgid ""
 "Use the option \"International\" if you desire a license using language\n"
@@ -849,11 +850,7 @@ msgid ""
 "international licenses do not, then you may want to consider\n"
 "<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">which\n"
 "license is better suited for your needs</a>."
-msgstr ""
-"Velg alternativet \"internasjonal\" dersom du ønsker en lisens som bruker språket\n"
-"og terminilogien fra internasjonale avtaler. Dersom lisensene har\n"
-"blitt oversatt til din jurisdiksjon og du mener at at de oversatte lisensene tar hensyn til enkelte aspekter ved lokal lovgiving som er fraværende i de internasjonale lisensene bør du overveie\n"
-"<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">hvilken lisens som passer dine behov best</a>."
+msgstr "Velg alternativet \"internasjonal\" dersom du ønsker en lisens som bruker språket\nog terminilogien fra internasjonale avtaler. Dersom lisensene har\nblitt oversatt til din jurisdiksjon og du mener at at de oversatte lisensene tar hensyn til enkelte aspekter ved lokal lovgiving som er fraværende i de internasjonale lisensene bør du overveie\n<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">hvilken lisens som passer dine behov best</a>."
 
 #: c/engine/licenses/fsf_templates/deed.pt:34
 msgctxt "deed.gpl_free_run"
@@ -2233,7 +2230,7 @@ msgstr "Nei, jeg ønsker ikke å frigi rettighetene"
 #: c/engine/zero/templates/confirm.pt:82
 msgctxt "license.zero.confirm_waiver_yes"
 msgid "Yes, I Waive"
-msgstr "Ja, jeg ønsker å frigi rettighetene"
+msgstr "Ja, jeg ønsker å fraskrive meg rettighetene"
 
 #. Default: ""
 #. "Please note that this is <strong>not a registration\n"
@@ -2466,7 +2463,7 @@ msgstr ""
 #: c/engine/licenses/standard_templates/deed.pt:116
 msgctxt "util.waiver"
 msgid "Waiver"
-msgstr "Fraskrivelse"
+msgstr "Frafalling"
 
 #: c/engine/licenses/standard_templates/deed.pt:125
 msgctxt "util.other_rights"
@@ -2622,8 +2619,7 @@ msgid ""
 "\t  or privacy rights, rights you have protecting against unfair\n"
 "\t  competition, and database rights and rights protecting the\n"
 "\t  extraction, dissemination and reuse of data."
-msgstr ""
-"Ved å benytte  CC0 kan du fraskrive deg alle opphavsrettigheter og\n"
+msgstr "Ved å benytte  CC0 kan du fraskrive deg alle opphavsrettigheter og\n"
 "\t  nærstående rettigheter som du måtte ha i forhold til de verk, slik som\n"
 "\t  dine ideelle rettigheter (i den utstrekning slike kan fraskrives), dine\n"
 "\t   personlighets- eller personvernrettigheter, konkurranserettigheter, og\n"
@@ -2715,7 +2711,7 @@ msgid ""
 "want to certify a work is in the public domain. The Public Domain\n"
 "Certification is not a license. By using it you assert that a work is\n"
 "already in the public domain."
-msgstr ""
+msgstr "Ditt valg angir at du\n ønsker å sertifisere et verk som er i Public Domain.  Public Donain\n sertifiseringen er ikke en lisens.  Ved å bruke denne bekrefter du at verket allerede befinner seg i Public Domain."
 
 #: c/engine/pd/templates/publicdomain-partner.pt:31
 msgctxt "license.partner.pd.use_cc0"
@@ -2723,17 +2719,17 @@ msgid ""
 "If instead you want to\n"
 "waive copyright and neighboring rights on a work <em>in which you hold\n"
 "these rights</em>, choose <a href=\"${cc0_url}\">CC0</a>."
-msgstr ""
+msgstr "Dersom du i stedet ønsker å\n fraskrive deg opphavsrettighetene og de nærstående rettigehetene til et verk <em>der du har slike\n rettigheter</em>, velg <a href=\"${cc0_url}\">CC0</a>."
 
 msgctxt "lang.ar"
 msgid "Arabic"
-msgstr ""
+msgstr "Arabisk"
 
 #. Default: "Territory"
 #: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
 msgctxt "util.territory"
 msgid "Territory"
-msgstr ""
+msgstr "Område"
 
 msgctxt "deed.zero.no-endorsment"
 msgid "You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See <b>Other Information</b> below."
@@ -2742,65 +2738,65 @@ msgstr "Du kan kopiere, modifisere, distribuere og fremføre verket, selv for ko
 #: s/standard_templates/deed.pt:121
 msgctxt "deed.public_domain"
 msgid "Where the work or any of its elements is in the <a href=\"http://wiki.creativecommons.org/Public_domain\" id=\"public_domain\" class=\"helpLink\">public domain</a> under applicable law, that status is in no way affected by the license."
-msgstr ""
+msgstr "Der verket eller noen av dets elementer er <a href=\"http://wiki.creativecommons.org/Public_domain\" id=\"public_domain\" class=\"helpLink\">i det fri</a> (public domain) under gjeldende rett, så påvirkes denne status på ingen måte av lisensen."
 
 #: s/standard_templates/deed.pt:209
 msgctxt "deed.public_domain.help.title"
 msgid "What does \"Public Domain\" mean?"
-msgstr ""
+msgstr "Hva betyr \"i det fri\" (public domain)?"
 
 #: s/standard_templates/deed.pt:213
 msgctxt "deed.public_domain.help"
 msgid "A work is in the public domain when it is free for use by anyone for any purpose without restriction under copyright."
-msgstr ""
+msgstr "Et verk er i det fri (public domaim) dersom det fritt kan benyttes av alle for ethvert formål uten de begrensinger som følger av opphavsrett."
 
 msgctxt "lang.oci_ES"
 msgid "Aranese"
-msgstr ""
+msgstr "Aranesisk"
 
 msgctxt "lang.lt"
 msgid "Lithuanian"
-msgstr ""
+msgstr "Litauisk"
 
 msgctxt "lang.ur"
 msgid "Urdu"
-msgstr ""
+msgstr "Urdu"
 
 msgctxt "lang.lv"
 msgid "Latvian"
-msgstr ""
+msgstr "Latvisk"
 
 msgctxt "lang.uk"
 msgid "Ukranian"
-msgstr ""
+msgstr "Ukrainsk"
 
 msgctxt "util.Universal"
 msgid "Universal"
-msgstr ""
+msgstr "Universal"
 
 msgctxt "lang.ru"
 msgid "Russian"
-msgstr ""
+msgstr "Russisk"
 
 msgctxt "lang.be"
 msgid "Belarusian"
-msgstr ""
+msgstr "Hviterussisk"
 
 msgctxt "lang.mn"
 msgid "Mongolian"
-msgstr ""
+msgstr "Mongolsk"
 
 msgctxt "lang.as"
 msgid "Assamese"
-msgstr ""
+msgstr "Assamesisk"
 
 msgctxt "lang.vi"
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnamesisk"
 
 msgctxt "country.vn"
 msgid "Vietnam"
-msgstr ""
+msgstr "Vietnam"
 
 #: src/cc/deedscraper/templates/attribution_details.html:2
 #, python-format
@@ -2941,7 +2937,7 @@ msgstr "Dette kan bli din personlige hjemmeside eller informasjonssiden om deg p
 #: chooser_pages/pdmark/details.pt:65
 msgctxt "license.mark.additional_metadata"
 msgid "These fields are optional, but will be embedded in the HTML generated for the work you are marking. This allows users of the work to locate the work online and find out where to go for more information."
-msgstr ""
+msgstr "Disse feltene er valgfri, men vil bli innbakt i HTML-markeringene som vil bli generert for det verk du merker.  Dette gjør det mulig å søke etter verket på nettet og finne ut hvor man skal gå for mer informasjon."
 
 #. Default: ""
 #. "<p> The information is embedded in a software readable format. This "
