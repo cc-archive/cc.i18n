@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2010-11-18 15:39-0600\n"
+"POT-Creation-Date: 2010-11-22 10:48-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -255,38 +255,6 @@ msgctxt "deed.back_to_cc"
 msgid "back to <a href=\"/\">Creative Commons</a>"
 msgstr "trở lại với Creative Commons"
 
-#. Here's how the CC-GNU ${license_code} works: A user clicking on the Creative
-#. Commons icon gets the CC-GNU ${license_code} "<a
-#. href="/licenses/${license_code}/${version_title}/">Commons Deed</a>" — a
-#. human readable version of the license. From that she can link to "<a
-#. href="http://www.gnu.org/licenses/old-
-#. licenses/${license_name_lower}.html">Legal Code</a>" — the full text of the
-#. GNU ${license_code}, in English and <a
-#. href="/licenses/${license_code}/${version_title}/legalcode.pt">Portuguese</a>.
-#. And hidden in the tag is "Machine-Readable Code" — metadata — that will
-#. enable others to find your software.
-#: c/engine/chooser_pages/gpl.pt:63 c/engine/chooser_pages/lgpl.pt:66
-msgctxt "license.fsf_how_it_works"
-msgid ""
-"Here's how the CC-GNU ${license_code} works: A user clicking on the "
-"Creative Commons icon gets the CC-GNU ${license_code} \"<a "
-"href=\"/licenses/${license_code}/${version_title}/\">Commons Deed</a>\" —"
-" a human readable version of the license. From that she can link to \"<a "
-"href=\"http://www.gnu.org/licenses/old-"
-"licenses/${license_name_lower}.html\">Legal Code</a>\" — the full text of"
-" the GNU ${license_code}, in English and <a "
-"href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">Portuguese</a>."
-" And hidden in the tag is \"Machine-Readable Code\" — metadata — that "
-"will enable others to find your software."
-msgstr ""
-"Đây là cách thức hoạt động của CC-GNU. Người sử dụng nhấp chuột vào biểu "
-"tượng Creative Commons để lấy CC-GNU — phiên bản giấy phép và con người "
-"có thể đọc hiểu. Từ đó, họ có thể kết nối với \"<a "
-"()=\"http://www.gnu.org/licenses/old-"
-"licenses/${license_name_lower}.html\">Legal Code</a>\" — văn bản đầy đủ "
-"của GNU  bằng Tiếng Anh và Tây Ban Nha. Và ẩn sau thẻ dấu là Ngôn ngữ mã "
-"máy metadata — cho phép người khác tìm ra phần mềm của bạn"
-
 #. You must retain the license terms and copyright notice in any source code
 #. distribution and reproduce them in documentation for binary distributions.
 #: c/engine/licenses/mitbsd_templates/deed.pt:46
@@ -484,18 +452,6 @@ msgstr ""
 msgctxt "lang.bg"
 msgid "Bulgarian"
 msgstr "Nước Bun Ga Ri"
-
-#. This software is licensed under the <a href="${license_url}">CC-GNU
-#. ${license_code}</a>.
-#: c/engine/chooser_pages/gpl.pt:37 c/engine/chooser_pages/gpl.pt:79
-#: c/engine/chooser_pages/lgpl.pt:38 c/engine/chooser_pages/lgpl.pt:82
-msgctxt "license.fsf_software_licensed"
-msgid ""
-"This software is licensed under the <a href=\"${license_url}\">CC-GNU "
-"${license_code}</a> version ${license_version} or later."
-msgstr ""
-"Phần mền này được cấp giấy phép theo <a href=\"${license_url}\">CC-GNU "
-"${license_code}</"
 
 #. title of work
 #: c/engine/pd/templates/publicdomain-2.pt:34
@@ -1585,17 +1541,6 @@ msgctxt "country.hr"
 msgid "Croatia"
 msgstr "Nước Croatia"
 
-#. For more information about the Free Software Foundation, visit their <a
-#. href="http://www.fsf.org">web page</a>.
-#: c/engine/chooser_pages/gpl.pt:118 c/engine/chooser_pages/lgpl.pt:121
-msgctxt "license.fsf_more_info"
-msgid ""
-"For more information about the Free Software Foundation, visit their <a "
-"href=\"http://www.fsf.org\">web page</a>."
-msgstr ""
-"Để biết thêm thông tin về Free Software Foundation, hãy truy cập trang "
-"web: \"http://www.fsf.org\">web page</a>."
-
 #. Get your Sampling License
 #: c/engine/chooser_pages/sampling.pt:111
 msgctxt "license.sampling_get"
@@ -1791,34 +1736,6 @@ msgstr "Tác phẩm mà từ đó có một tác phẩm phái sinh khác."
 msgctxt "lang.zu"
 msgid "Zulu"
 msgstr "Zulu"
-
-#. <h1>Creative Commons GNU ${license_code}</h1>
-#. <p>The CC-GNU ${license_code} adds the Creative Commons' metadata and
-#. Commons Deed to the Free Software Foundation's ${license_name_full}. The
-#. license is the official FSF ${license_code}, and includes a Portuguese
-#. translation.</p>
-#. <p>To signal to others that you are using a Creative Commons license, you
-#. can use a Creative Commons logo, which links to the CC-GNU ${license_code}.
-#. The result will look like this:</p>
-#: c/engine/chooser_pages/gpl.pt:25 c/engine/chooser_pages/lgpl.pt:26
-msgctxt "license.fsf_explain"
-msgid ""
-"<h1>Creative Commons GNU ${license_code}</h1>\n"
-"\n"
-"<p>The CC-GNU ${license_code} adds the Creative Commons' metadata and "
-"Commons Deed to the Free Software Foundation's ${license_name_full}. The "
-"license is the official FSF ${license_code}, and includes a Portuguese "
-"translation.</p>\n"
-"\n"
-"<p>To signal to others that you are using a Creative Commons license, you"
-" can use a Creative Commons logo, which links to the CC-GNU "
-"${license_code}. The result will look like this:</p>"
-msgstr ""
-"Creative Commons thêm ngôn ngữ mã máy và phiên bản giấy phép bằng ngôn "
-"ngữ đọc hiểu bởi con người vào Free Software Foundation (FSF). Giấy phép "
-"là FSF chính thức và có dịch sang tiếng Bồ Đào Nha. Để báo hiệu cho người"
-" khác biết rằng bạn sử dụng Giấy phép CC, bạn có thể sử dụng logo của CC "
-"được kết nối với CC-GNU. Kết quả trông sẽ như sau:"
 
 #. The licensor permits others to distribute derivative works only under a
 #. license identical to the one that governs the licensor's work.
@@ -3476,14 +3393,6 @@ msgstr "Puerto Rico"
 msgctxt "license.mark_software"
 msgid "Mark Software"
 msgstr "Phần mềm đánh dấu"
-
-msgctxt "license.fsf_instructions"
-msgid ""
-"Read the <a href=\"http://www.gnu.org/licenses/gpl-howto.html\">FSF's "
-"instructions for including the license with your software</a>."
-msgstr ""
-"Đọc các hwongs dẫn FSF <a href=\"http://www.gnu.org/licenses/gpl-"
-"howto.html\"> để cho giấy phép vào phầm mềm của bạn. "
 
 msgctxt "license.display_software_icon"
 msgid ""

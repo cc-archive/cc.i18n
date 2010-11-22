@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2010-11-18 15:40-0600\n"
+"POT-Creation-Date: 2010-11-22 10:48-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -243,32 +243,6 @@ msgctxt "deed.back_to_cc"
 msgid "back to <a href=\"/\">Creative Commons</a>"
 msgstr "დაბრუნება<a href=\"/\">Creative Commons</a>"
 
-#: c/engine/chooser_pages/gpl.pt:63 c/engine/chooser_pages/lgpl.pt:66
-msgctxt "license.fsf_how_it_works"
-msgid ""
-"Here's how the CC-GNU ${license_code} works: A user clicking on the "
-"Creative Commons icon gets the CC-GNU ${license_code} \"<a "
-"href=\"/licenses/${license_code}/${version_title}/\">Commons Deed</a>\" —"
-" a human readable version of the license. From that she can link to \"<a "
-"href=\"http://www.gnu.org/licenses/old-"
-"licenses/${license_name_lower}.html\">Legal Code</a>\" — the full text of"
-" the GNU ${license_code}, in English and <a "
-"href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">Portuguese</a>."
-" And hidden in the tag is \"Machine-Readable Code\" — metadata — that "
-"will enable others to find your software."
-msgstr ""
-"აქ არის CC-GNU ${ლიცენზიის_წესები} ნაწარმოები: მომხმარებელი Creative "
-"Commons ღილაკის დაჭერით მიიღებს CC-GNU ${ლიცენზიის_წესები} \"<a "
-"href=\"/ლიცენზიები/${ლიცენზიის_წესები}/${ვერსია_სახელწოდება}/\">საჯარო "
-"დოკუმენტი</a>\" — ლიცენზიის ადამიანის მიერ აღქმადი ვერსია. იმის შემდეგ, "
-"რაც ის გადავა ბმულზე \"<a href=\"http://www.gnu.org/licenses/old-"
-"licenses/${ლიცენზია_სახელი_ბოლო}.html\">იურიდიული წესები</a>\" — GNU–ს "
-"სრული ტექსტი ${ლიცენზიის_წესები}, ინგლისურად და<a "
-"href=\"/ლიცენზიები/${ლიცენზიის_წესები}/${ვერსია_სახელი}/legalcode.pt\">პორტუგალიური</a>."
-" და მიმაგრაბულ ჩანართში დამალულია \"მანქანის მიერ აღქმადი წესები\" — "
-"მეტამონაცემები — რომელიც ხელს შეუწყობს სხვებს მოძებნონ თქვენი "
-"კომპიუტერული პროგრამა."
-
 #: c/engine/licenses/mitbsd_templates/deed.pt:46
 msgctxt "deed.bsd_notice"
 msgid ""
@@ -414,16 +388,6 @@ msgstr ""
 msgctxt "lang.bg"
 msgid "Bulgarian"
 msgstr "ბულგარეთი"
-
-#: c/engine/chooser_pages/gpl.pt:37 c/engine/chooser_pages/gpl.pt:79
-#: c/engine/chooser_pages/lgpl.pt:38 c/engine/chooser_pages/lgpl.pt:82
-msgctxt "license.fsf_software_licensed"
-msgid ""
-"This software is licensed under the <a href=\"${license_url}\">CC-GNU "
-"${license_code}</a> version ${license_version} or later."
-msgstr ""
-"ეს კომპიუტერული პროგრამა ლიცენზირებულია <a href=\"${ლიცენზია_url}\">CC-"
-"GNU ${ლიცენზია_კოდი}</a> ვერსიით${lლიცენზიის_ვერსია} ან უფრო ახალით."
 
 #: c/engine/pd/templates/publicdomain-2.pt:34
 #: c/engine/macros_templates/metadata.pt:46
@@ -1303,13 +1267,6 @@ msgctxt "country.hr"
 msgid "Croatia"
 msgstr "ხორვატია"
 
-#: c/engine/chooser_pages/gpl.pt:118 c/engine/chooser_pages/lgpl.pt:121
-msgctxt "license.fsf_more_info"
-msgid ""
-"For more information about the Free Software Foundation, visit their <a "
-"href=\"http://www.fsf.org\">web page</a>."
-msgstr ""
-
 #: c/engine/chooser_pages/sampling.pt:111
 msgctxt "license.sampling_get"
 msgid "Get your Sampling License"
@@ -1445,21 +1402,6 @@ msgstr "ნაწარმოები, რომლისგანაც სხ
 msgctxt "lang.zu"
 msgid "Zulu"
 msgstr "ზულუ"
-
-#: c/engine/chooser_pages/gpl.pt:25 c/engine/chooser_pages/lgpl.pt:26
-msgctxt "license.fsf_explain"
-msgid ""
-"<h1>Creative Commons GNU ${license_code}</h1>\n"
-"\n"
-"<p>The CC-GNU ${license_code} adds the Creative Commons' metadata and "
-"Commons Deed to the Free Software Foundation's ${license_name_full}. The "
-"license is the official FSF ${license_code}, and includes a Portuguese "
-"translation.</p>\n"
-"\n"
-"<p>To signal to others that you are using a Creative Commons license, you"
-" can use a Creative Commons logo, which links to the CC-GNU "
-"${license_code}. The result will look like this:</p>"
-msgstr ""
 
 #: c/engine/chooser_pages/index.pt:124
 msgctxt "char.sa_description"
@@ -2633,12 +2575,6 @@ msgstr "ნორვეგიული"
 msgctxt "license.mark_software"
 msgid "Mark Software"
 msgstr "მონიშნეთ კომპიუტერული პროგრამა"
-
-msgctxt "license.fsf_instructions"
-msgid ""
-"Read the <a href=\"http://www.gnu.org/licenses/gpl-howto.html\">FSF's "
-"instructions for including the license with your software</a>."
-msgstr ""
 
 msgctxt "license.display_software_icon"
 msgid ""

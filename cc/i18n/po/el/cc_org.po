@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2010-11-18 15:39-0600\n"
+"POT-Creation-Date: 2010-11-22 10:48-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -279,54 +279,6 @@ msgstr ""
 msgctxt "deed.back_to_cc"
 msgid "back to <a href=\"/\">Creative Commons</a>"
 msgstr "πίσω στο <a href=\"/\">Creative Commons</a>"
-
-# Here's how the CC-GNU ${license_code} works: A user clicking on the Creative
-# Commons icon gets the CC-GNU ${license_code} "<a
-# href="/licenses/${license_code}/${version_title}/">Commons Deed</a>" — a
-# human readable version of the license. From that she can link to "<a
-# href="http://www.gnu.org/licenses/old-
-# licenses/${license_name_lower}.html">Legal Code</a>" — the full text of the
-# GNU ${license_code}, in English and <a
-# href="/licenses/${license_code}/${version_title}/legalcode.pt">Portuguese</a>.
-# And hidden in the tag is "Machine-Readable Code" — metadata — that will
-# enable others to find your software.
-#. Here's how the CC-GNU ${license_code} works: A user clicking on the
-#. Creative
-#. Commons icon gets the CC-GNU ${license_code} "<a
-#. href="/licenses/${license_code}/${version_title}/">Commons Deed</a>" — a
-#. human readable version of the license. From that she can link to "<a
-#. href="http://www.gnu.org/licenses/old-
-#. licenses/${license_name_lower}.html">Legal Code</a>" — the full text of the
-#. GNU ${license_code}, in English and <a
-#. href="/licenses/${license_code}/${version_title}/legalcode.pt">Portuguese</a>.
-#. And hidden in the tag is "Machine-Readable Code" — metadata — that will
-#. enable others to find your software.
-#: c/engine/chooser_pages/gpl.pt:63 c/engine/chooser_pages/lgpl.pt:66
-msgctxt "license.fsf_how_it_works"
-msgid ""
-"Here's how the CC-GNU ${license_code} works: A user clicking on the "
-"Creative Commons icon gets the CC-GNU ${license_code} \"<a "
-"href=\"/licenses/${license_code}/${version_title}/\">Commons Deed</a>\" —"
-" a human readable version of the license. From that she can link to \"<a "
-"href=\"http://www.gnu.org/licenses/old-"
-"licenses/${license_name_lower}.html\">Legal Code</a>\" — the full text of"
-" the GNU ${license_code}, in English and <a "
-"href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">Portuguese</a>."
-" And hidden in the tag is \"Machine-Readable Code\" — metadata — that "
-"will enable others to find your software."
-msgstr ""
-"Να πώς δουλεύει η CC-GNU ${license_code} : Ο χρήστης πατώντας πάνω στο "
-"εικονίδιο  CreativeCommons λαμβάνει τη  CC-GNU ${license_code} \"<a "
-"href=\"/licenses/${license_code}/${version_title}/\">Περιληπτικό "
-"μέρος</a>\" — μία έκδοση της άδειας εύληπτη από το μη νομομαθή απλό "
-"χρήστη. Από αυτό μπορεί να συνδεθεί \"<a "
-"href=\"http://www.gnu.org/licenses/old-"
-"licenses/${license_name_lower}.html\">Νομικό Μέρος</a>\" — το πλήρες "
-"κείμενο της άδειας GNU ${license_code}, στα Αγγλικά και <a "
-"href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">Πορτογαλικά</a>."
-" Και κρυμμένο μέσα στο tag\"Κώδικας που διαβάζεται από μηχανές\" — "
-"μεταδεδομένα — που θα επιτρέψει στους άλλους να εντοπίσουν  το λογισμικό "
-"σας."
 
 # You must retain the license terms and copyright notice in any source code
 # distribution and reproduce them in documentation for binary distributions.
@@ -612,20 +564,6 @@ msgstr ""
 msgctxt "lang.bg"
 msgid "Bulgarian"
 msgstr "Βουλγαρικά"
-
-# This software is licensed under the <a href="${license_url}">CC-GNU
-# ${license_code}</a>.
-#. This software is licensed under the <a href="${license_url}">CC-GNU
-#. ${license_code}</a>.
-#: c/engine/chooser_pages/gpl.pt:37 c/engine/chooser_pages/gpl.pt:79
-#: c/engine/chooser_pages/lgpl.pt:38 c/engine/chooser_pages/lgpl.pt:82
-msgctxt "license.fsf_software_licensed"
-msgid ""
-"This software is licensed under the <a href=\"${license_url}\">CC-GNU "
-"${license_code}</a> version ${license_version} or later."
-msgstr ""
-"Το λογισμικό αυτό είναι υπό την <a href=\"${license_url}\">άδεια CC-GNU "
-"${license_code}</a>, έκδοση ${license_version} ή νεώτερη."
 
 # title of work
 #. title of work
@@ -2077,19 +2015,6 @@ msgctxt "country.hr"
 msgid "Croatia"
 msgstr "Κροατία"
 
-# For more information about the Free Software Foundation, visit their <a
-# href="http://www.fsf.org">web page</a>.
-#. For more information about the Free Software Foundation, visit their <a
-#. href="http://www.fsf.org">web page</a>.
-#: c/engine/chooser_pages/gpl.pt:118 c/engine/chooser_pages/lgpl.pt:121
-msgctxt "license.fsf_more_info"
-msgid ""
-"For more information about the Free Software Foundation, visit their <a "
-"href=\"http://www.fsf.org\">web page</a>."
-msgstr ""
-"Για περισσότερες πληροφορίες για το Ίδρυμα Ελεύθερου Λογισμικού, "
-"επισκεφτείτε <a href=\"http://www.fsf.org\">ιστοσελίδα</a>."
-
 # Get your Sampling License
 #. Get your Sampling License
 #: c/engine/chooser_pages/sampling.pt:111
@@ -2298,48 +2223,6 @@ msgstr "Έργο από το οποίο προέκυψε άλλο."
 msgctxt "lang.zu"
 msgid "Zulu"
 msgstr "Ζουλού"
-
-# <h1>Creative Commons GNU ${license_code}</h1>
-# <p>The CC-GNU ${license_code} adds the Creative Commons' metadata and
-# Commons Deed to the Free Software Foundation's ${license_name_full}. The
-# license is the official FSF ${license_code}, and includes a Portuguese
-# translation.</p>
-# <p>To signal to others that you are using a Creative Commons license, you
-# can use a Creative Commons logo, which links to the CC-GNU ${license_code}.
-# The result will look like this:</p>
-#. <h1>Creative Commons GNU ${license_code}</h1>
-#. <p>The CC-GNU ${license_code} adds the Creative Commons' metadata and
-#. Commons Deed to the Free Software Foundation's ${license_name_full}. The
-#. license is the official FSF ${license_code}, and includes a Portuguese
-#. translation.</p>
-#. <p>To signal to others that you are using a Creative Commons license, you
-#. can use a Creative Commons logo, which links to the CC-GNU ${license_code}.
-#. The result will look like this:</p>
-#: c/engine/chooser_pages/gpl.pt:25 c/engine/chooser_pages/lgpl.pt:26
-msgctxt "license.fsf_explain"
-msgid ""
-"<h1>Creative Commons GNU ${license_code}</h1>\n"
-"\n"
-"<p>The CC-GNU ${license_code} adds the Creative Commons' metadata and "
-"Commons Deed to the Free Software Foundation's ${license_name_full}. The "
-"license is the official FSF ${license_code}, and includes a Portuguese "
-"translation.</p>\n"
-"\n"
-"<p>To signal to others that you are using a Creative Commons license, you"
-" can use a Creative Commons logo, which links to the CC-GNU "
-"${license_code}. The result will look like this:</p>"
-msgstr ""
-"<h1>Creative Commons GNU ${license_code}</h1>\n"
-"\n"
-"<p>The CC-GNU ${license_code} προσθέτει τα Creative Commons' μεταδεδομένα"
-" και το Περιληπτικό Μέρος στο  Free Software Foundation's "
-"${license_name_full}. Η άδεια είναι το επίσημο FSF ${license_code}, και "
-"περιλαμβάνει μία Πορτογαλική έκδοση.</p>\n"
-"\n"
-"<p>Προκειμένου να δείξετε στο κοινό ότι χρησιμοποιείτε άδεια Creative  "
-"Commons, μπορείτε να χρησιμοποιήσετε ένα λογότυπο  Creative Commons, το "
-"οποίο σας συνδέει με τη  CC-GNU ${license_code}. Το αποτέλεσμα θα "
-"φαίνεται ως εξής:</p>"
 
 # The licensor permits others to distribute derivative works only under a
 # license identical to the one that governs the licensor's work.
@@ -4378,15 +4261,6 @@ msgstr "Νορβηγικά"
 msgctxt "license.mark_software"
 msgid "Mark Software"
 msgstr "Σήμανση λογισμικού"
-
-msgctxt "license.fsf_instructions"
-msgid ""
-"Read the <a href=\"http://www.gnu.org/licenses/gpl-howto.html\">FSF's "
-"instructions for including the license with your software</a>."
-msgstr ""
-"Διαβάστε τις  <a href=\"http://www.gnu.org/licenses/gpl-howto.html\"> "
-"οδηγίες του FSF για να συμπεριλάβετε την άδεια μαζί με το λογισμικό "
-"σας</a>."
 
 msgctxt "license.display_software_icon"
 msgid ""
