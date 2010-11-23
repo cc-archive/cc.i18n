@@ -114,10 +114,9 @@ msgid "Bulgaria"
 msgstr "Bulgarije"
 
 #: c/engine/pd/templates/publicdomain-4.pt:32
-#, fuzzy
 msgctxt "license.mark_web"
 msgid "To mark content on a web page, the HTML to display the button is as follows and be sure to <a href=\"/technology/web\">follow the guidelines here</a>:"
-msgstr "Markeer uw content op een webpagina, de HTML om uw button te tonen luidt als volgt en<a href=\"/technology/web\"> en volg deze richtlijnen</a>:"
+msgstr "De HTML om de button weer te geven om content te markeren op een webpagina is als volgt (denk aan de <a href=\"/technology/web\">richtlijnen</a>)."
 
 msgctxt "util.copyright_date"
 msgid "copyright date"
@@ -211,10 +210,9 @@ msgstr ""
 "\n"
 "<p>Toon het ikoontje op elke site waarop de gebruiker zijn software aanbiedt met behulp van de volgende markup:</p>"
 
-#, fuzzy
 msgctxt "license.work_type_licensed"
 msgid "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>."
-msgstr "Op dit ${work_type} is een <a rel=\"license\" href=\"${license_url}\">Creative Commons Licentie</a> van toepassing."
+msgstr "Dit ${work_type} is gelicenseerd onder een <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} licentie</a>"
 
 msgctxt "license.rdfa_licensed_no_title"
 msgid "This ${work_type} by ${work_author} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>."
@@ -1316,10 +1314,9 @@ msgstr "Oekraïne"
 #: c/engine/licenses/devnations_templates/deed.pt:25
 #: c/engine/licenses/sampling_templates/deed.pt:23
 #: c/engine/licenses/standard_templates/deed.pt:31
-#, fuzzy
 msgctxt "deed.retired"
 msgid "Creative Commons has <a href=\"http://creativecommons.org/retiredlicenses\">retired this legal tool</a> and does not recommend that it be applied to works."
-msgstr "Deze licentie is <a href=\"/retiredlicenses\">verouderd</a>. Gelieve niet te gebruiken voor nieuwe werken"
+msgstr "Deze licentie is <a href=\"http://creativecommons.org/retiredlicenses\">verouderd</a>. Gelieve niet te gebruiken voor nieuwe werken."
 
 msgctxt "country.ca"
 msgid "Canada"
@@ -2901,7 +2898,7 @@ msgstr "Dit mag de URL zijn waar de maker het werk heeft gepubliceerd of de URL 
 #: chooser_pages/pdmark/details.pt:149
 msgctxt "util.identifying_party"
 msgid "Identifying Individual or Organization"
-msgstr ""
+msgstr "Identificerende instantie of individu"
 
 #. Default: "Name"
 #: chooser_pages/pdmark/details.pt:152
@@ -3101,7 +3098,7 @@ msgstr "Citatie"
 #: licenses/pdmark_deed.pt:166 licenses/zero_deed.pt:161
 msgctxt "deed.help.citation"
 msgid "Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
+msgstr "Kopieer en plak de HTML om het werk gemakkelijk op je webpagina te citeren."
 
 #. Default: "Moral Rights"
 #: licenses/pdmark_deed.pt:178
@@ -3223,14 +3220,13 @@ msgstr "Dit werk is mogelijk niet in alle <a href=\"\" class=\"helpLink\" id=\"a
 #: licenses/zero_deed.pt:104
 msgctxt "deed.zero.other_info.no_warranty"
 msgid "Unless expressly stated otherwise, the person who associated a work with this deed makes no warranties about the work, and disclaims liability for all uses of the work, to the fullest extent permitted by applicable law."
-msgstr ""
+msgstr "Tenzij uitdrukkelijk anders is vermeld, de persoon die een werk in verband met deze akte geeft geen garanties over het werk, en wijst elke aansprakelijkheid af voor alle toepassingen van het werk, voor zover toegestaan door de toepasselijke wetgeving."
 
 #. Default: ""
 #. "When using or citing the work, you should not imply <a href=\"\" "
 #. "class=\"helpLink\" id=\"endorsement\" "
 #. "name=\"endorsement\">endorsement</a> by the author or the affirmer."
 #: licenses/zero_deed.pt:112
-#, fuzzy
 msgctxt "deed.zero.other_info.no_endorsement"
 msgid "When using or citing the work, you should not imply <a href=\"\" class=\"helpLink\" id=\"endorsement\" name=\"endorsement\">endorsement</a> by the author or the affirmer."
 msgstr "Wanneer je het werk gebruikt of citeert, mag je niet suggereren dat de maker of de persoon die toestemming verleent dat heeft <a href=\"\" class=\"helpLink\" id=\"endorsement\" name=\"endorsement\">goedgekeurd</a>. "
@@ -3239,7 +3235,7 @@ msgstr "Wanneer je het werk gebruikt of citeert, mag je niet suggereren dat de m
 #: licenses/zero_deed.pt:173
 msgctxt "util.who_is_affirmer"
 msgid "Who is the affirmer?"
-msgstr ""
+msgstr "Wie is de bevestiger?"
 
 #. Default: ""
 #. "The affirmer is the person who surrendered rights to the work worldwide "
@@ -3255,7 +3251,7 @@ msgstr ""
 #: licenses/zero_deed.pt:18
 msgctxt "util.public_domain_dedication"
 msgid "Public Domain Dedication"
-msgstr ""
+msgstr "Publieke Domein Dedicatie"
 
 #. Default: ""
 #. "<a href=\"\" class=\"inline-help helpLink\" "
@@ -3263,7 +3259,7 @@ msgstr ""
 #: licenses/zero_deed.pt:66
 msgctxt "deed.workdetails.affirmer"
 msgid "<a href=\"\" class=\"inline-help helpLink\" id=\"who_is_affirmer\">Affirmer</a>"
-msgstr ""
+msgstr "<a href=\"\" class=\"inline-help helpLink\" id=\"who_is_affirmer\">Bevestiger</a>"
 
 #. Default: ""
 #. "In no way are the patent or trademark rights of any person affected by "
@@ -3324,21 +3320,21 @@ msgstr "Uw Creative Commons Licentie-informatie"
 #: cc/license/formatters/classes.py:313
 msgctxt "license.mark_plain"
 msgid "This work is free of known copyright restrictions."
-msgstr "Dit werk is vrij van bekende auteursrechtelijke beperkingen."
+msgstr "Dit werk is vrij van  bekende auteursrechtaanspraken."
 
 #. Default: "This work (${work_title}) is free of known copyright
 #. restrictions."
 #: cc/license/formatters/classes.py:317
 msgctxt "license.mark_worktitle"
 msgid "This work (${work_title}) is free of known copyright restrictions."
-msgstr "Dit werk (${work_title}) is vrij van bekende auteursrechtelijke beperkingen."
+msgstr "Dit werk (${work_title}) is vrij van bekende auteursrechtaanspraken."
 
 #. Default: "This work (by ${author}) is free of known copyright
 #. restrictions."
 #: cc/license/formatters/classes.py:322
 msgctxt "license.mark_author"
 msgid "This work (by ${author}) is free of known copyright restrictions."
-msgstr ""
+msgstr "Dit werk (door ${author}) is vrij van bekende auteursrechtaanspraken."
 
 #. Default: ""
 #. "This work, identified by ${curator}, is free of known copyright "
@@ -3346,7 +3342,7 @@ msgstr ""
 #: cc/license/formatters/classes.py:329
 msgctxt "license.mark_curator"
 msgid "This work, identified by ${curator}, is free of known copyright restrictions."
-msgstr ""
+msgstr "Dit werk, geïdentificeerd door ${curator}, is vrij van bekende auteursrechtaanspraken."
 
 #. Default: ""
 #. "This work (${work_title}, by ${author}) is free of known copyright "
@@ -3354,7 +3350,7 @@ msgstr ""
 #: cc/license/formatters/classes.py:336
 msgctxt "license.mark_worktitle_author"
 msgid "This work (${work_title}, by ${author}) is free of known copyright restrictions."
-msgstr ""
+msgstr "Dit werk (${work_title}, by ${author}) is vrij van bekende auteursrechtaanspraken."
 
 #. Default: ""
 #. "This work (${work_title}), identified by ${curator}, is free of known "
@@ -3362,7 +3358,7 @@ msgstr ""
 #: cc/license/formatters/classes.py:342
 msgctxt "license.mark_worktitle_curator"
 msgid "This work (${work_title}), identified by ${curator}, is free of known copyright restrictions."
-msgstr ""
+msgstr "Dit werk (${work_title}), geïdentificeerd door ${curator}, is vrij van bekende auteursrechtaanspraken."
 
 #. Default: ""
 #. "This work (${work_title}, by ${author}), identified by ${curator}, is "
@@ -3370,7 +3366,7 @@ msgstr ""
 #: cc/license/formatters/classes.py:349
 msgctxt "license.mark_worktitle_author_curator"
 msgid "This work (${work_title}, by ${author}), identified by ${curator}, is free of known copyright restrictions."
-msgstr ""
+msgstr "Dit werk (${work_title}, door ${author}), geïdentificeerd door ${curator}, is vrij van bekende auteursrechtaanspraken."
 
 #. Default: ""
 #. "This work (by ${author}), identified by ${curator}, is free of known "
@@ -3378,7 +3374,7 @@ msgstr ""
 #: cc/license/formatters/classes.py:356
 msgctxt "license.mark_author_curator"
 msgid "This work (by ${author}), identified by ${curator}, is free of known copyright restrictions."
-msgstr ""
+msgstr "Dit werk (door ${author}), geïdentificeerd door ${curator}, is vrij van bekende auteursrechtaanspraken."
 
 #. Default: ""
 #. "You are using a tool for freeing your own work of copyright restrictions "
@@ -3421,7 +3417,7 @@ msgstr ""
 #: licenses/fsf_deed.pt:94
 msgctxt "deed.permission.nopopup"
 msgid "Any of the above conditions can be waived if you get permission from the copyright holder."
-msgstr ""
+msgstr "Van elk van de bovengenoemde voorwaarden kan worden afgeweken als je toestemming krijgt van de auteursrechthebbende."
 
 #. Default: ""
 #. "This tool is based on United States law and may not be applicable outside"
