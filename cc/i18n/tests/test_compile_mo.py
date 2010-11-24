@@ -44,5 +44,5 @@ def test_compile_mo_files():
     for language, expected_translations in expected_translations.iteritems():
         gettext = ugettext_for_locale(language, output_dir)
         for msgid, expected_translation in expected_translations.iteritems():
-            assert gettext(msgid) == expected_translation
+            assert gettext(msgid) == expected_translation.decode('utf-8')
 
