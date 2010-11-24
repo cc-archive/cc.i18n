@@ -23,7 +23,7 @@ def test_compile_mo_files():
             'license.rdfa_licensed':
                 ('${work_title} by ${work_author} is licensed under a '
                  '<a rel="license" href="${license_url}">Creative Commons '
-                 '${license_name} License</a>')},
+                 '${license_name} License</a>.')},
         'pt': {
             'country.nz': 'Nova Zel\xc3\xa2ndia',
             'licenses.pretty_sampling': 'Sampling',
@@ -31,7 +31,7 @@ def test_compile_mo_files():
                 ('A obra ${work_title} de ${work_author} '
                  'foi licenciada com uma Licen\xc3\xa7a '
                  '<a rel="license" href="${license_url}>Creative Commons - '
-                 '${license_name}</a>')},
+                 '${license_name}</a>.')},
         'es': {
             'country.nz': 'Nueva Zelanda',
             'licenses.pretty_sampling': 'Sampling',
@@ -39,7 +39,7 @@ def test_compile_mo_files():
                 ('${work_title} por ${work_author} '
                  'se encuentra bajo una Licencia '
                  '<a rel="license" href="${license_url}">Creative Commons '
-                 '${license_name}</a>')}}
+                 '${license_name}</a>.')}}
 
     for language, expected_translations in expected_translations.iteritems():
         gettext = ugettext_for_locale(language, output_dir)
