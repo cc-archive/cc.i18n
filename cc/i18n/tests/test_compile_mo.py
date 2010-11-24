@@ -18,7 +18,7 @@ def test_compile_mo_files():
 
     expected_translations = {
         'en': {
-            'country.nz': 'New Zeland',
+            'country.nz': 'New Zealand',
             'licenses.pretty_sampling': 'Sampling',
             'license.rdfa_licensed':
                 ('${work_title} by ${work_author} is licensed under a '
