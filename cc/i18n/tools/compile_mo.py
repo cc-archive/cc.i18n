@@ -4,7 +4,11 @@ Compile .po files into .mo files in the cc
 
 import os
 import pkg_resources
-from pythongettext.msgfmt import Msgfmt
+
+from babel.messages.mofile import write_mo
+from babel.messages.pofile import read_po
+from babel.core import UnknownLocaleError
+
 from stat import ST_MTIME
 
 
@@ -22,8 +26,8 @@ def compile_mo_files(input_dir=I18N_PATH, output_dir=MO_FILES_BASE):
     - input_dir: Directory of input files to compile
     - output_dir: Directory where we'll put compiled MO files
     """
-    for catalog in os.listdir(input_dir):
-        catalog_path = os.path.join(input_dir, catalog)
+    for locale in os.listdir(input_dir):
+        catalog_path = os.path.join(input_dir, locale)
 
         po_path = os.path.join(catalog_path, 'cc_org.po')
 
@@ -34,15 +38,15 @@ def compile_mo_files(input_dir=I18N_PATH, output_dir=MO_FILES_BASE):
 
         if not os.path.exists(output_dir):
             os.mkdir(output_dir)
-        if not os.path.exists(os.path.join(output_dir, catalog)):
-            os.mkdir(os.path.join(output_dir, catalog))
+        if not os.path.exists(os.path.join(output_dir, locale)):
+            os.mkdir(os.path.join(output_dir, locale))
         if not os.path.exists(os.path.join(
-                output_dir, catalog, 'LC_MESSAGES')):
+                output_dir, locale, 'LC_MESSAGES')):
             os.mkdir(os.path.join(
-                    output_dir, catalog, 'LC_MESSAGES'))
+                    output_dir, locale, 'LC_MESSAGES'))
 
         mo_path = os.path.join(
-            output_dir, catalog, 'LC_MESSAGES', 'cc_org.mo')
+            output_dir, locale, 'LC_MESSAGES', 'cc_org.mo')
 
         # don't compile mo files when we don't need to.
         if os.path.exists(mo_path):
@@ -50,10 +54,21 @@ def compile_mo_files(input_dir=I18N_PATH, output_dir=MO_FILES_BASE):
             if po_mtime == mo_mtime:
                 continue
 
-        mo_data = Msgfmt(po_path, 'cc_org').getAsFile()
-        fd = open(mo_path, 'wb')
-        fd.write(mo_data.read())
-        fd.close()
+        # Read the po, write the mo!
+        infile = open(po_path, 'r')
+        try:
+            catalog = read_po(infile, locale)
+        except UnknownLocaleError:
+            print "Unknown locale: %s ... skipping" % locale
+            continue
+        finally:
+            infile.close()
+
+        outfile = open(mo_path, 'wb')
+        try:
+            write_mo(outfile, catalog)
+        finally:
+            outfile.close()
 
 
 class CompileMORecipe(object):
