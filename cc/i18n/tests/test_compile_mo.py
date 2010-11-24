@@ -30,7 +30,7 @@ def test_compile_mo_files():
             'license.rdfa_licensed':
                 ('A obra ${work_title} de ${work_author} '
                  'foi licenciada com uma Licen\xc3\xa7a '
-                 '<a rel="license" href="${license_url}>Creative Commons - '
+                 '<a rel="license" href="${license_url}">Creative Commons - '
                  '${license_name}</a>.')},
         'es': {
             'country.nz': 'Nueva Zelanda',
