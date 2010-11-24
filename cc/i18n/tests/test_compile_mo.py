@@ -46,3 +46,14 @@ def test_compile_mo_files():
         for msgid, expected_translation in expected_translations.iteritems():
             assert gettext(msgid) == expected_translation.decode('utf-8')
 
+
+def test_troublemaker_non_translating_args():
+    gettext = ugettext_for_locale('pt')
+    expected = (
+        '${work_title} por ${work_author} '
+        'se encuentra bajo una Licencia '
+        '<a rel="license" href="${license_url}">Creative Commons '
+        '${license_name}</a>.').decode('utf-8')
+    result = gettext('license.rdfa_licensed')
+
+    assert result == expected
