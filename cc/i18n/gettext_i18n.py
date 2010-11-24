@@ -13,8 +13,9 @@ def translations_for_locale(locale, mo_path=MO_PATH):
     """
     Get the right translation and return it
     """
-    if CCORG_GETTEXT_TRANSLATIONS.has_key(locale):
-        return CCORG_GETTEXT_TRANSLATIONS[locale]
+    cache_key = (locale, mo_path)
+    if CCORG_GETTEXT_TRANSLATIONS.has_key(cache_key):
+        return CCORG_GETTEXT_TRANSLATIONS[cache_key]
 
     # do I have the order backwards here?
     langs = [locale]
@@ -27,7 +28,7 @@ def translations_for_locale(locale, mo_path=MO_PATH):
         langs.append('en')
 
     translations = gettext.translation(I18N_DOMAIN, mo_path, langs)
-    CCORG_GETTEXT_TRANSLATIONS[locale] = translations
+    CCORG_GETTEXT_TRANSLATIONS[cache_key] = translations
     return translations
 
 
