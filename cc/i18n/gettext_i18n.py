@@ -23,7 +23,8 @@ def translations_for_locale(locale):
         if os.path.exists(os.path.join(MO_PATH, root_lang)):
             langs.append(root_lang)
 
-    langs.append('en')
+    if not 'en' in langs:
+        langs.append('en')
 
     translations = gettext.translation(I18N_DOMAIN, MO_PATH, langs)
     CCORG_GETTEXT_TRANSLATIONS[locale] = translations
