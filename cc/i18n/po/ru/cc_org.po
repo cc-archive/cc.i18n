@@ -3007,9 +3007,10 @@ msgstr "Имя автора"
 #. "You may list multiple authors. If unknown, you may wish to state "
 #. "'unknown'."
 #: chooser_pages/pdmark/details.pt:123
+#, fuzzy
 msgctxt "license.mark.author_help"
 msgid "You may list multiple authors. If unknown, you may wish to state 'unknown'."
-msgstr ""
+msgstr "Вы можете перечислить несколько авторов. Если авторы вам неизвестны, выберите \"неизвестно\""
 
 #. Default: "Author URL"
 #: chooser_pages/pdmark/details.pt:132
@@ -3023,13 +3024,13 @@ msgstr "URL автора"
 #: chooser_pages/pdmark/details.pt:137
 msgctxt "license.mark.author_url_help"
 msgid "This may be the URL where the author published the work online, or the URL where the work is published by the person identifying the work."
-msgstr ""
+msgstr "URL страницы, на которой автор опубликовал свою работу в сети Интернет, или URL страницы, где работа опубликована другим человеком."
 
 #. Default: "Identifying Individual or Organization"
 #: chooser_pages/pdmark/details.pt:149
 msgctxt "util.identifying_party"
 msgid "Identifying Individual or Organization"
-msgstr ""
+msgstr "Индивидуальное лицо или организация"
 
 #. Default: "Name"
 #: chooser_pages/pdmark/details.pt:152
@@ -3055,16 +3056,17 @@ msgstr "URL"
 #: chooser_pages/pdmark/details.pt:169
 msgctxt "license.mark.curator_href_help"
 msgid "This may be your main website or the information page about you on a hosting website, such as Flickr Commons."
-msgstr ""
+msgstr "Ваш основной веб-сайт или страница с информацией о Вас на веб-хостинге, таком как Flickr Commons."
 
 #. Default: ""
 #. "These fields are optional, but will be embedded in the HTML generated for"
 #. " the work you are marking. This allows users of the work to locate the "
 #. "work online and find out where to go for more information."
 #: chooser_pages/pdmark/details.pt:65
+#, fuzzy
 msgctxt "license.mark.additional_metadata"
 msgid "These fields are optional, but will be embedded in the HTML generated for the work you are marking. This allows users of the work to locate the work online and find out where to go for more information."
-msgstr ""
+msgstr "These fields are optional, but will be embedded in the HTML generated for the work you are marking. This allows users of the work to locate the work online and find out where to go for more information."
 
 #. Default: ""
 #. "<p> The information is embedded in a software readable format. This "
@@ -3075,19 +3077,19 @@ msgstr ""
 #: chooser_pages/pdmark/details.pt:80
 msgctxt "license.mark.metadata_help"
 msgid "<p> The information is embedded in a software readable format. This allows search engines to index additional information about the marked work. </p> <p> <a href=\"http://wiki.creativecommons.org/Metadata\">More information</a> on Creative Commons metadata is available if you want to find out more. </p>"
-msgstr ""
+msgstr "<p> Вкладывайте информацию в формат, читаемый программным обеспечением. Это позволяет поисковым система индексировать дополнительную информацию о отмеченной работе. </p> <p> <a href=\"http://wiki.creativecommons.org/Metadata\">Доступна подробная информация</a> о метаданных Creative Commons. </p>"
 
 #. Default: "Work Information"
 #: chooser_pages/pdmark/details.pt:96
 msgctxt "util.work_information"
 msgid "Work Information"
-msgstr ""
+msgstr "Информация о работе"
 
 #. Default: "Work name"
 #: chooser_pages/pdmark/details.pt:99
 msgctxt "util.work_name"
 msgid "Work name"
-msgstr ""
+msgstr "Название работы"
 
 #. Default: ""
 #. "Using the Public Domain Mark, you can mark a work that is free of known "
@@ -3097,7 +3099,7 @@ msgstr ""
 #: chooser_pages/pdmark/index.pt:64
 msgctxt "license.mark.intro_1"
 msgid "Using the Public Domain Mark, you can mark a work that is free of known copyright restrictions and clearly convey that status. When applied properly, the PDM allows the work to be easily discovered, and provides valuable information about the work."
-msgstr ""
+msgstr "Используя Public Domain Mark, вы можете отметить работу, свободную от известных ограничений авторских прав и четким статусом. При должном применений, PDM позволяет легко обнаруживать, и предоставлять ценную информацию о работе."
 
 #. Default: ""
 #. "The PDM is intended for use with old works that are free of copyright "
@@ -3114,7 +3116,7 @@ msgstr ""
 #: chooser_pages/pdmark/index.pt:71
 msgctxt "license.mark.intro_2"
 msgid "The PDM is intended for use with old works that are free of copyright restrictions around the world, or works that have been affirmatively placed in the worldwide public domain prior to the expiration of copyright by the rights’ holder. It should not be used to mark works that are in the public domain in some jurisdictions while known to be restricted by copyright in others. Currently, Creative Commons does not recommend the Public Domain Mark for works whose copyright status differs jurisdiction to jurisdiction, though we are developing means for marking and tagging such works. You should consult with your legal advisor if you are unsure whether you should use the PDM for a work you have identified."
-msgstr ""
+msgstr "PDM предназначен для использования со старыми работами, которые свободны от авторских ограничений по всему миру, или работы, которые были помещены в общественное достояние по всему по причине истечения авторских прав владельца. Он не должен быть использован, для отметки работ, которые находятся в общественном достоянии в некоторых странах, в то время как в других, ещё ограничены авторским правом. В настоящее время, Creative Commons не рекомендует использовать Public Domain Mark для работ, чей правовой статус отличается от юрисдикций разных стран, однако мы развиваем средства для маркировки и отметки таких работ. Вы должны проконсультироваться с вашим юристом, если вы не уверены, в использовать PDM для работы, которую вы определили."
 
 #. Default: ""
 #. "Please note that this is <strong>not a registration process</strong> and "
@@ -3126,7 +3128,7 @@ msgstr ""
 #: chooser_pages/pdmark/index.pt:86
 msgctxt "license.mark.intro_3"
 msgid "Please note that this is <strong>not a registration process</strong> and Creative Commons does not store or save any of the information you provide. This tool guides you through the process of generating HTML with embedded metadata for marking the work you have identified as free of known copyright restrictions. The work will not be associated with a Public Domain Mark until you publish it marked as being so."
-msgstr ""
+msgstr "Пожалуйста, обратите внимание, что это <strong>не является процессом регистрации</strong> и Creative Commons ни коем образом не сохраняет любую информацию, предоставленную Вами. Этот инструмент поможет вам создать HTML-код с внедренными метаданными для маркировки работы, которую вы определили в качестве свободной от известных ограничений авторских прав. Работа не будет связана с Public Domain Mark пока не будет опубликована с отметкой."
 
 #. Default: ""
 #. "If you'd like to get the HTML with embedded metadata via email, fill in "
@@ -3134,7 +3136,7 @@ msgstr ""
 #: chooser_pages/pdmark/results.pt:130
 msgctxt "license.mark.send_email_updates"
 msgid "If you'd like to get the HTML with embedded metadata via email, fill in your email address below."
-msgstr ""
+msgstr "Если вы хотите получить HTML с внедренными метаданными по электронной почте, введите свой электронный адрес в поле ниже."
 
 #. Default: ""
 #. "Choose which style of button you would like to appear by the work on the "
@@ -3148,7 +3150,7 @@ msgstr ""
 #: chooser_pages/pdmark/results.pt:78
 msgctxt "license.mark.preview_waiver"
 msgid "Here's a preview of how the mark will appear on the website:"
-msgstr ""
+msgstr "Отметка будет выглядеть на сайте вот так:"
 
 #. Default: ""
 #. "Copy the text below to your website to let your visitors know that the "
@@ -3307,13 +3309,13 @@ msgstr ""
 #: licenses/pdmark_deed.pt:61 licenses/zero_deed.pt:61
 msgctxt "deed.workdetails.work"
 msgid "Work:"
-msgstr ""
+msgstr "Работа:"
 
 #. Default: "Author:"
 #: licenses/pdmark_deed.pt:66
 msgctxt "deed.workdetails.author"
 msgid "Author:"
-msgstr ""
+msgstr "Автор:"
 
 #. Default: "Identified by:"
 #: licenses/pdmark_deed.pt:71
