@@ -11,32 +11,35 @@ from cc.i18n.tools import convert
 from cc.i18n.tools.support import parse_args
 
 LOGGER_NAME = "sync"
+PO_DIR = pkg_resources.resource_filename('cc.i18n', 'po')
 
-def cli():
-    """Command line interface for sync script."""
 
-    # parse the command line
-    (options, args) = parse_args(
-        input_dir=pkg_resources.resource_filename(
-            'cc.i18n', 'po'),
-        output_dir=pkg_resources.resource_filename(
-            'cc.i18n', 'po'))
+def sync(input_dir, output_dir, english_po, verbosity=logging.WARNING):
+    """
+    Sync new messages / changed messages across all po files
 
+    Keyword arguments:
+    - input_dir: The directory with files that have the old translations
+    - output_dir: The directory where we will write files with updated
+      translations
+    - english_po: The english .po file, which we'll look at for reference
+    - verbosity: How noisy we should be in our logging (default logging.WARNING)
+    """
     # set up the logging infrastructure
     getLogger(LOGGER_NAME).addHandler(logging.StreamHandler())
-    getLogger(LOGGER_NAME).setLevel(options.verbosity)
+    getLogger(LOGGER_NAME).setLevel(verbosity)
 
     # make everything absolute paths
-    options.input_dir = os.path.abspath(options.input_dir)
-    options.output_dir = os.path.abspath(options.output_dir)
-    options.english_po = os.path.abspath(options.english_po)
+    input_dir = os.path.abspath(input_dir)
+    output_dir = os.path.abspath(output_dir)
+    english_po = os.path.abspath(english_po)
 
     # load the master domain file
-    master = read_po(file(options.english_po, 'r'))
-    previous_master = read_po(file(options.english_po + '.bak', 'r'))
+    master = read_po(file(english_po, 'r'))
+    previous_master = read_po(file(english_po + '.bak', 'r'))
 
     # walk the input directory...
-    for root, dirnames, filenames in os.walk(options.input_dir):
+    for root, dirnames, filenames in os.walk(input_dir):
         
         # ...looking for .po files
         for fn in filenames:
@@ -49,8 +52,8 @@ def cli():
 
             # determine the output path
             output_fn = os.path.join(
-                options.output_dir,
-                input_fn[len(options.input_dir) + 1:])
+                output_dir,
+                input_fn[len(input_dir) + 1:])
 
             # make sure the necessary directories exist
             if not(os.path.exists(os.path.dirname(output_fn))):
@@ -93,5 +96,20 @@ def cli():
             getLogger(LOGGER_NAME).debug("Write %s." % output_fn)
 
     # copy master to previous_master
-    shutil.copyfile(options.english_po, '%s.bak' % options.english_po)
+    shutil.copyfile(english_po, '%s.bak' % english_po)
     
+
+def cli():
+    """Command line interface for sync script."""
+
+    # parse the command line
+    (options, args) = parse_args(
+        input_dir=PO_DIR,
+        output_dir=PO_DIR)
+
+    sync(options.input_dir, options.output_dir, options.english_po,
+         options.verbosity)
+
+
+if __name__ == '__main__':
+    cli()

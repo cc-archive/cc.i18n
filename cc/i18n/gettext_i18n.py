@@ -9,29 +9,45 @@ I18N_DOMAIN = 'cc_org'
 CCORG_GETTEXT_TRANSLATIONS = {}
 
 
-def translations_for_locale(locale):
+def translations_for_locale(locale, mo_path=MO_PATH):
     """
     Get the right translation and return it
     """
-    if CCORG_GETTEXT_TRANSLATIONS.has_key(locale):
-        return CCORG_GETTEXT_TRANSLATIONS[locale]
+    cache_key = (locale, mo_path)
+    if CCORG_GETTEXT_TRANSLATIONS.has_key(cache_key):
+        return CCORG_GETTEXT_TRANSLATIONS[cache_key]
 
     # do I have the order backwards here?
     langs = [locale]
     if '_' in locale:
         root_lang = locale.split('_')[0]
-        if os.path.exists(os.path.join(MO_PATH, root_lang)):
+        if os.path.exists(os.path.join(mo_path, root_lang)):
             langs.append(root_lang)
 
-    langs.append('en')
+    if not 'en' in langs:
+        langs.append('en')
 
-    translations = gettext.translation(I18N_DOMAIN, MO_PATH, langs)
-    CCORG_GETTEXT_TRANSLATIONS[locale] = translations
+    translations = None
+
+    for lang in langs:
+        mo_path = os.path.join(MO_PATH, lang, 'LC_MESSAGES', 'cc_org.mo')
+        if not os.path.exists(mo_path):
+            continue
+
+        this_trans = gettext.GNUTranslations(open(mo_path, 'rb'))
+
+        if translations is None:
+            translations = this_trans
+        else:
+            translations.add_fallback(this_trans)
+
+    CCORG_GETTEXT_TRANSLATIONS[cache_key] = translations
     return translations
 
 
-def ugettext_for_locale(locale):
+def ugettext_for_locale(locale, mo_path=MO_PATH):
     def _wrapped_ugettext(message):
-        return translations_for_locale(locale).ugettext(message).decode('utf-8')
+        return translations_for_locale(
+            locale, mo_path).ugettext(message).decode('utf-8')
 
     return _wrapped_ugettext

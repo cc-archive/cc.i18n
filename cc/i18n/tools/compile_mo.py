@@ -14,9 +14,16 @@ MO_FILES_BASE = pkg_resources.resource_filename(
     'cc.i18n', 'mo')
 
 
-def compile_mo_files():
-    for catalog in os.listdir(I18N_PATH):
-        catalog_path = os.path.join(I18N_PATH, catalog)
+def compile_mo_files(input_dir=I18N_PATH, output_dir=MO_FILES_BASE):
+    """
+    Compile all cc-style po files to mo files.
+
+    Keyword arguments:
+    - input_dir: Directory of input files to compile
+    - output_dir: Directory where we'll put compiled MO files
+    """
+    for catalog in os.listdir(input_dir):
+        catalog_path = os.path.join(input_dir, catalog)
 
         po_path = os.path.join(catalog_path, 'cc_org.po')
 
@@ -25,17 +32,17 @@ def compile_mo_files():
 
         po_mtime = os.stat(po_path)[ST_MTIME]
 
-        if not os.path.exists(MO_FILES_BASE):
-            os.mkdir(MO_FILES_BASE)
-        if not os.path.exists(os.path.join(MO_FILES_BASE, catalog)):
-            os.mkdir(os.path.join(MO_FILES_BASE, catalog))
+        if not os.path.exists(output_dir):
+            os.mkdir(output_dir)
+        if not os.path.exists(os.path.join(output_dir, catalog)):
+            os.mkdir(os.path.join(output_dir, catalog))
         if not os.path.exists(os.path.join(
-                MO_FILES_BASE, catalog, 'LC_MESSAGES')):
+                output_dir, catalog, 'LC_MESSAGES')):
             os.mkdir(os.path.join(
-                    MO_FILES_BASE, catalog, 'LC_MESSAGES'))
+                    output_dir, catalog, 'LC_MESSAGES'))
 
         mo_path = os.path.join(
-            MO_FILES_BASE, catalog, 'LC_MESSAGES', 'cc_org.mo')
+            output_dir, catalog, 'LC_MESSAGES', 'cc_org.mo')
 
         # don't compile mo files when we don't need to.
         if os.path.exists(mo_path):
