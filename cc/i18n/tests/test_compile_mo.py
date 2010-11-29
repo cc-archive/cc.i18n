@@ -48,7 +48,7 @@ def test_compile_mo_files():
 
 
 def test_troublemaker_non_translating_args():
-    gettext = ugettext_for_locale('pt')
+    gettext = ugettext_for_locale('es')
     expected = (
         '${work_title} por ${work_author} '
         'se encuentra bajo una Licencia '
