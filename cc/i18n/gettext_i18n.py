@@ -27,7 +27,20 @@ def translations_for_locale(locale, mo_path=MO_PATH):
     if not 'en' in langs:
         langs.append('en')
 
-    translations = gettext.translation(I18N_DOMAIN, mo_path, langs)
+    translations = None
+
+    for lang in langs:
+        mo_path = os.path.join(MO_PATH, lang, 'LC_MESSAGES', 'cc_org.mo')
+        if not os.path.exists(mo_path):
+            continue
+
+        this_trans = gettext.GNUTranslations(open(mo_path, 'rb'))
+
+        if translations is None:
+            translations = this_trans
+        else:
+            translations.add_fallback(this_trans)
+
     CCORG_GETTEXT_TRANSLATIONS[cache_key] = translations
     return translations
 
