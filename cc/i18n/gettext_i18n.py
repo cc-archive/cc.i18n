@@ -2,9 +2,9 @@ import os
 import gettext
 import pkg_resources
 
+from cc.i18n.util import applicable_langs, MO_PATH
 
-MO_PATH = pkg_resources.resource_filename(
-    'cc.i18n', 'mo')
+
 I18N_DOMAIN = 'cc_org'
 CCORG_GETTEXT_TRANSLATIONS = {}
 
