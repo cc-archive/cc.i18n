@@ -129,31 +129,31 @@ def test_get_well_translated_langs():
         80, transstats, False) == expected_eighty_noenglish
 
 
+FAKE_MODIR = pkg_resources.resource_filename(
+    'cc.i18n.tests', 'fake_modir')
+
 def test_applicable_langs():
     """
-    Test cc.i18n.gettext_i18n.test_applicable_langs
+    Test cc.i18n.util.test_applicable_langs
     """
-    fake_modir = pkg_resources.resource_filename(
-        'cc.i18n.tests', 'fake_modir')
-
     ## Make sure we return the right patterns
     # normal default language (en)
-    assert util.applicable_langs('en', fake_modir) == ['en']
+    assert util.applicable_langs('en', FAKE_MODIR) == ['en']
     # english with country
-    assert util.applicable_langs('en_US', fake_modir) == ['en_US', 'en']
+    assert util.applicable_langs('en_US', FAKE_MODIR) == ['en_US', 'en']
     # language with fake country
-    assert util.applicable_langs('pt_FOO', fake_modir) == ['pt', 'en']
+    assert util.applicable_langs('pt_FOO', FAKE_MODIR) == ['pt', 'en']
     # just language
-    assert util.applicable_langs('zh', fake_modir) == ['zh', 'en']
+    assert util.applicable_langs('zh', FAKE_MODIR) == ['zh', 'en']
     # language with real country
     assert util.applicable_langs(
-        'zh_TW', fake_modir) == ['zh_TW', 'zh', 'en']
+        'zh_TW', FAKE_MODIR) == ['zh_TW', 'zh', 'en']
     # totally fake language
-    assert util.applicable_langs('foobie_BLECH', fake_modir) == ['en']
+    assert util.applicable_langs('foobie_BLECH', FAKE_MODIR) == ['en']
 
     # Make sure we cached the right things
     def _check_cache(lang):
-        return util.CACHED_APPLICABLE_LANGS[lang, fake_modir]
+        return util.CACHED_APPLICABLE_LANGS[lang, FAKE_MODIR]
 
     assert _check_cache('en') == ['en']
     assert _check_cache('en_US') == ['en_US', 'en']
@@ -162,4 +162,19 @@ def test_applicable_langs():
     assert _check_cache('zh_TW') == ['zh_TW', 'zh', 'en']
 
     # Don't cache foobie_blech, that'd be silly
-    assert not util.CACHED_APPLICABLE_LANGS.has_key(('foobie_BLECH', fake_modir))
+    assert not util.CACHED_APPLICABLE_LANGS.has_key(
+        ('foobie_BLECH', FAKE_MODIR))
+
+
+def test_negotiate_locale():
+    """
+    Test cc.i18n.util.negotiate_locale()
+    """
+    ## Make sure we return the right patterns
+    assert util.negotiate_locale('en', FAKE_MODIR) == 'en'
+    assert util.negotiate_locale('en_US', FAKE_MODIR) == 'en_US'
+    assert util.negotiate_locale('pt_FOO', FAKE_MODIR) == 'pt'
+    assert util.negotiate_locale('zh', FAKE_MODIR) == 'zh'
+    assert util.negotiate_locale('zh_TW', FAKE_MODIR) == 'zh_TW'
+    assert util.negotiate_locale('foobie_BLECH', FAKE_MODIR) == 'en'
+
