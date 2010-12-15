@@ -18,14 +18,7 @@ def translations_for_locale(locale, mo_path=MO_PATH):
         return CCORG_GETTEXT_TRANSLATIONS[cache_key]
 
     # do I have the order backwards here?
-    langs = [locale]
-    if '_' in locale:
-        root_lang = locale.split('_')[0]
-        if os.path.exists(os.path.join(mo_path, root_lang)):
-            langs.append(root_lang)
-
-    if not 'en' in langs:
-        langs.append('en')
+    langs = applicable_langs(locale)
 
     translations = None
 
