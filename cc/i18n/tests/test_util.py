@@ -1,4 +1,5 @@
 import os
+import pkg_resources
 import tempfile
 
 from cc.i18n import util
@@ -126,3 +127,39 @@ def test_get_well_translated_langs():
         {'code': 'fi', 'name': u'Suomeksi'}]
     assert util.get_well_translated_langs(
         80, transstats, False) == expected_eighty_noenglish
+
+
+def test_applicable_langs():
+    """
+    Test cc.i18n.gettext_i18n.test_applicable_langs
+    """
+    fake_modir = pkg_resources.resource_filename(
+        'cc.i18n.tests', 'fake_modir')
+
+    ## Make sure we return the right patterns
+    # normal default language (en)
+    assert util.applicable_langs('en', fake_modir) == ['en']
+    # english with country
+    assert util.applicable_langs('en_US', fake_modir) == ['en_US', 'en']
+    # language with fake country
+    assert util.applicable_langs('pt_FOO', fake_modir) == ['pt', 'en']
+    # just language
+    assert util.applicable_langs('zh', fake_modir) == ['zh', 'en']
+    # language with real country
+    assert util.applicable_langs(
+        'zh_TW', fake_modir) == ['zh_TW', 'zh', 'en']
+    # totally fake language
+    assert util.applicable_langs('foobie_BLECH', fake_modir) == ['en']
+
+    # Make sure we cached the right things
+    def _check_cache(lang):
+        return util.CACHED_APPLICABLE_LANGS[lang, fake_modir]
+
+    assert _check_cache('en') == ['en']
+    assert _check_cache('en_US') == ['en_US', 'en']
+    assert _check_cache('pt_FOO') == ['pt', 'en']
+    assert _check_cache('zh') == ['zh', 'en']
+    assert _check_cache('zh_TW') == ['zh_TW', 'zh', 'en']
+
+    # Don't cache foobie_blech, that'd be silly
+    assert not util.CACHED_APPLICABLE_LANGS.has_key(('foobie_BLECH', fake_modir))
