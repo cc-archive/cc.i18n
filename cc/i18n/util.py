@@ -4,10 +4,13 @@ Utilities relevant to cc.i18n.
 
 import csv
 import os
+import pkg_resources
 
 from cc.i18n.tools.transstats import CSV_HEADERS, DEFAULT_CSV_FILE
-from cc.i18n.gettext_i18n import ugettext_for_locale
 
+
+MO_PATH = pkg_resources.resource_filename(
+    'cc.i18n', 'mo')
 
 # Percent translated that languages should be at or above
 TRANSLATION_THRESHOLD = 60
@@ -106,6 +109,7 @@ def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
     # the additional performance cost should be negligible
     result = []
     for code in qualified_langs:
+        from cc.i18n.gettext_i18n import ugettext_for_locale
         gettext = ugettext_for_locale(code)
         name = gettext(u'lang.%s' % code)
         if name != u'lang.%s' % code:
@@ -117,3 +121,46 @@ def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
     CACHED_WELL_TRANSLATED_LANGS[cache_key] = result
     
     return result
+
+
+# Locale negotiation tools
+CACHED_APPLICABLE_LANGS = {}
+
+
+def negotiate_locale(locale, mo_path=MO_PATH):
+    """
+    Choose the appropriate locale, using fallbacks, given the
+    'requested' locale.
+
+    Actually just a wrapper function for applicable_langs().
+    """
+    return applicable_langs(locale, mo_path)[0]
+
+
+def applicable_langs(locale, mo_path=MO_PATH):
+    """
+    Return all available languages "applicable" to a requested locale.
+    """
+    cache_key = (locale, mo_path)
+    if CACHED_APPLICABLE_LANGS.has_key(cache_key):
+        return CACHED_APPLICABLE_LANGS[cache_key]
+
+    applicable_langs = []
+    if os.path.exists(os.path.join(mo_path, locale)):
+        applicable_langs.append(locale)
+
+    if '_' in locale:
+        root_lang = locale.split('_')[0]
+        if os.path.exists(os.path.join(mo_path, root_lang)):
+            applicable_langs.append(root_lang)
+
+    if not 'en' in applicable_langs:
+        applicable_langs.append('en')
+
+    # Don't cache silly languages that only fallback to en anyway, to
+    # (semi-)prevent caching infinite amounts of BS
+    if not locale == 'en' and len(applicable_langs) == 1:
+        return applicable_langs
+    
+    CACHED_APPLICABLE_LANGS[cache_key] = applicable_langs
+    return applicable_langs
