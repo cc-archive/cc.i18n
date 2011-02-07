@@ -48,7 +48,7 @@ def cli():
             result = convert.cc_to_po(read_po(file(input_fn, 'r')),
                              read_po(file(options.english_po, 'r')))
 
-            write_po(file(output_fn, 'w'), result)
+            write_po(file(output_fn, 'w'), result, width=None)
             getLogger(LOGGER_NAME).debug("Write %s." % output_fn)
 
 
