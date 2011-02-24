@@ -164,3 +164,28 @@ def applicable_langs(locale, mo_path=MO_PATH):
     
     CACHED_APPLICABLE_LANGS[cache_key] = applicable_langs
     return applicable_langs
+
+
+def locale_to_lower_upper(locale):
+    """
+    Take a locale, regardless of style, and format it like "en-us"
+    """
+    if '-' in locale:
+        lang, country = locale.split('-', 1)
+        return '%s_%s' % (lang.lower(), country.upper())
+    elif '_' in locale:
+        lang, country = locale.split('_', 1)
+        return '%s_%s' % (lang.lower(), country.upper())
+    else:
+        return locale.lower()
+
+
+def locale_to_lower_lower(locale):
+    """
+    Take a locale, regardless of style, and format it like "en_US"
+    """
+    if '_' in locale:
+        lang, country = locale.split('_', 1)
+        return '%s-%s' % (lang.lower(), country.lower())
+    else:
+        return locale.lower()
