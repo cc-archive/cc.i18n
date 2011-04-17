@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
 "POT-Creation-Date: 2011-04-12 15:08-0500\n"
-"PO-Revision-Date: 2011-04-12 20:24+0000\n"
-"Last-Translator: cc_cronuser <webmaster@creativecommons.org>\n"
+"PO-Revision-Date: 2011-04-17 07:00+0000\n"
+"Last-Translator: blind_justice <herkko@gmail.com>\n"
 "Language-Team: Finnish <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1276,7 +1276,7 @@ msgstr ""
 #: c/engine/chooser_pages/results.pt:15
 msgctxt "license.here_chosen"
 msgid "Here is the license you&rsquo;ve chosen"
-msgstr ""
+msgstr "Tässä on lisenssi jonka olet valinnut"
 
 #: c/engine/macros_templates/deed.pt:161
 msgctxt "deed.learn"
@@ -2543,7 +2543,7 @@ msgstr ""
 #: src/cc/engine/chooser_pages/results.pt:144
 msgctxt "license.register_with_cc_network"
 msgid "Catalog your work with the CC Network"
-msgstr ""
+msgstr "Ilmoita teoksesi CC verkostossa"
 
 #: src/cc/engine/chooser_pages/results.pt:151
 msgctxt "license.track_with_fairshare"
@@ -2959,7 +2959,7 @@ msgstr "Offline teos?"
 #: c/engine/chooser_pages/results.pt:129
 msgctxt "license.option_next_steps"
 msgid "Optional next step"
-msgstr ""
+msgstr "Valinnainen seuraava askel"
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:14
 #: c/engine/pd/templates/publicdomain-3.pt:38
@@ -3403,11 +3403,11 @@ msgstr "Assami"
 
 msgctxt "lang.vi"
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnamilainen"
 
 msgctxt "country.vn"
 msgid "Vietnam"
-msgstr ""
+msgstr "Vietnam"
 
 #: src/cc/deedscraper/templates/attribution_details.html:2
 #, python-format
@@ -3449,39 +3449,39 @@ msgstr ""
 
 msgctxt "lang.hi"
 msgid "Hindi"
-msgstr ""
+msgstr "Hindi"
 
 msgctxt "lang.bn"
 msgid "Bengali"
-msgstr ""
+msgstr "Bengali"
 
 msgctxt "lang.ta"
 msgid "Tamil"
-msgstr ""
+msgstr "Tamili"
 
 msgctxt "lang.is"
 msgid "Icelandic"
-msgstr ""
+msgstr "Islantilainen"
 
 msgctxt "licenses.publicdomain_mark_title"
 msgid "Public Domain Mark"
-msgstr ""
+msgstr "Public Domain merkki"
 
 msgctxt "lang.et"
 msgid "Estonian"
-msgstr ""
+msgstr "Virolainen"
 
 msgctxt "lang.ka"
 msgid "Georgian"
-msgstr ""
+msgstr "Georgialainen"
 
 msgctxt "lang.ast"
 msgid "Asturian"
-msgstr ""
+msgstr "Asturialainen"
 
 msgctxt "lang.te"
 msgid "Telugu"
-msgstr ""
+msgstr "Telugu"
 
 #. Default: ""
 #. "This is usually the title of the work given by the author, or if none the"
@@ -3497,7 +3497,7 @@ msgstr ""
 #: chooser_pages/pdmark/details.pt:118
 msgctxt "util.author_name"
 msgid "Author name"
-msgstr ""
+msgstr "Tekijän nimi"
 
 #. Default: ""
 #. "You may list multiple authors. If unknown, you may wish to state "
@@ -3507,12 +3507,14 @@ msgctxt "license.mark.author_help"
 msgid ""
 "You may list multiple authors. If unknown, you may wish to state 'unknown'."
 msgstr ""
+"Voin ilmoittaa useita tekijöitä. Jos teoksen tekijä ei ole tunnettu, voit "
+"ilmoittaa \"tuntematon."
 
 #. Default: "Author URL"
 #: chooser_pages/pdmark/details.pt:132
 msgctxt "util.author_url"
 msgid "Author URL"
-msgstr ""
+msgstr "Tekijä URL"
 
 #. Default: ""
 #. "This may be the URL where the author published the work online, or the "
@@ -3523,30 +3525,32 @@ msgid ""
 "This may be the URL where the author published the work online, or the URL "
 "where the work is published by the person identifying the work."
 msgstr ""
+"Tämä voi olla URL jossa tekijä on julkaissut teoksen verkossa, tai URL jossa"
+" teos on julkaistu teoksen tunnistaneen henkilön toimesta."
 
 #. Default: "Identifying Individual or Organization"
 #: chooser_pages/pdmark/details.pt:149
 msgctxt "util.identifying_party"
 msgid "Identifying Individual or Organization"
-msgstr ""
+msgstr "Henkilön tai organisaation ilmoittaminen"
 
 #. Default: "Name"
 #: chooser_pages/pdmark/details.pt:152
 msgctxt "util.name"
 msgid "Name"
-msgstr ""
+msgstr "Nimi"
 
 #. Default: "Identify yourself here."
 #: chooser_pages/pdmark/details.pt:157
 msgctxt "license.mark.curator_help"
 msgid "Identify yourself here."
-msgstr ""
+msgstr "Ilmoita nimesi tässä."
 
 #. Default: "URL"
 #: chooser_pages/pdmark/details.pt:165
 msgctxt "util.url"
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. Default: ""
 #. "This may be your main website or the information page about you on a "
@@ -3590,13 +3594,13 @@ msgstr ""
 #: chooser_pages/pdmark/details.pt:96
 msgctxt "util.work_information"
 msgid "Work Information"
-msgstr ""
+msgstr "Teoksen tiedot"
 
 #. Default: "Work name"
 #: chooser_pages/pdmark/details.pt:99
 msgctxt "util.work_name"
 msgid "Work name"
-msgstr ""
+msgstr "Teoksen nimi"
 
 #. Default: ""
 #. "Using the Public Domain Mark, you can mark a work that is free of known "
@@ -3666,6 +3670,8 @@ msgid ""
 "If you'd like to get the HTML with embedded metadata via email, fill in your"
 " email address below."
 msgstr ""
+"Jos haluat saata HTML tiedoston jossa on metadata mukana, täytä "
+"sähköpostiosoitteesi alle"
 
 #. Default: ""
 #. "Choose which style of button you would like to appear by the work on the "
@@ -3675,13 +3681,14 @@ msgctxt "license.mark.choose_button"
 msgid ""
 "Choose which style of button you would like to appear by the work on the "
 "webpage:"
-msgstr ""
+msgstr "Valitse tyyli napille jonka haluat verkkosivuillesi:"
 
 #. Default: "Here's a preview of how the mark will appear on the website:"
 #: chooser_pages/pdmark/results.pt:78
 msgctxt "license.mark.preview_waiver"
 msgid "Here's a preview of how the mark will appear on the website:"
 msgstr ""
+"Tässä on esikatselunäkymä merkkille ja sille miten se näkyy verkkosivuilla:"
 
 #. Default: ""
 #. "Copy the text below to your website to let your visitors know that the "
@@ -3777,7 +3784,7 @@ msgstr ""
 #: licenses/pdmark_deed.pt:162 licenses/zero_deed.pt:159
 msgctxt "util.citation"
 msgid "Citation"
-msgstr ""
+msgstr "Lainaus"
 
 #. Default: ""
 #. "Copy and paste the HTML provided into your webpage to easily cite this "
@@ -3787,12 +3794,14 @@ msgctxt "deed.help.citation"
 msgid ""
 "Copy and paste the HTML provided into your webpage to easily cite this work."
 msgstr ""
+"Kopioi ja liitä tämä HTML osaksi verkkosivuasi. Näin voit helposti viitata "
+"tähän teokseen."
 
 #. Default: "Moral Rights"
 #: licenses/pdmark_deed.pt:178
 msgctxt "util.moralrights"
 msgid "Moral Rights"
-msgstr ""
+msgstr "Moraaliset oikeudet"
 
 #. Default: ""
 #. "Copyright laws in most jurisdictions around the world grant creators "
@@ -3826,7 +3835,7 @@ msgstr ""
 #: licenses/pdmark_deed.pt:213
 msgctxt "util.term_of_copyright"
 msgid "Term of Copyright"
-msgstr ""
+msgstr "Tekijänoikeuden kesto"
 
 #. Default: ""
 #. "Copyright terms vary jurisdiction to jurisdiction. A work free of "
@@ -3882,24 +3891,25 @@ msgstr ""
 msgctxt "deed.mark.use_this_tool"
 msgid "Use this tool to mark other public domain works."
 msgstr ""
+"Käytä tätä työkalua merkitäksesi muita tekijänoikeudesta vapaita teoksia."
 
 #. Default: "Work:"
 #: licenses/pdmark_deed.pt:61 licenses/zero_deed.pt:61
 msgctxt "deed.workdetails.work"
 msgid "Work:"
-msgstr ""
+msgstr "Teos:"
 
 #. Default: "Author:"
 #: licenses/pdmark_deed.pt:66
 msgctxt "deed.workdetails.author"
 msgid "Author:"
-msgstr ""
+msgstr "Tekijä:"
 
 #. Default: "Identified by:"
 #: licenses/pdmark_deed.pt:71
 msgctxt "deed.workdetails.curator"
 msgid "Identified by:"
-msgstr ""
+msgstr "Tunnistetaan:"
 
 #. Default: ""
 #. "You can <a href=\"\" class=\"helpLink\" id=\"citation_help\" "
@@ -3915,7 +3925,7 @@ msgstr ""
 #: licenses/pdmark_deed.pt:96 licenses/zero_deed.pt:92
 msgctxt "util.other_information"
 msgid "Other Information"
-msgstr ""
+msgstr "Muut tiedot"
 
 #. Default: ""
 #. "The work may not be free of known copyright restrictions in all <a "
@@ -3977,7 +3987,7 @@ msgstr ""
 #: licenses/zero_deed.pt:18
 msgctxt "util.public_domain_dedication"
 msgid "Public Domain Dedication"
-msgstr ""
+msgstr "Public Domain Ilmoitus"
 
 #. Default: ""
 #. "<a href=\"\" class=\"inline-help helpLink\" "
@@ -3985,7 +3995,7 @@ msgstr ""
 #: licenses/zero_deed.pt:66
 msgctxt "deed.workdetails.affirmer"
 msgid "<a href=\"\" class=\"inline-help helpLink\" id=\"who_is_affirmer\">Affirmer</a>"
-msgstr ""
+msgstr "<a href=\"\" class=\"inline-help helpLink\" id=\"who_is_affirmer\">vahvistaja</a>"
 
 #. Default: ""
 #. "In no way are the patent or trademark rights of any person affected by "
@@ -4046,13 +4056,13 @@ msgstr ""
 #: util.py:460
 msgctxt "license.info_email_subject"
 msgid "Your Creative Commons License Information"
-msgstr ""
+msgstr "Sinun Creative Commons lisenssitiedot"
 
 #. Default: "This work is free of known copyright restrictions."
 #: cc/license/formatters/classes.py:313
 msgctxt "license.mark_plain"
 msgid "This work is free of known copyright restrictions."
-msgstr ""
+msgstr "Tämä työ on vapaa tiedossa olevista tekijänoikeuden rajoituksia."
 
 #. Default: "This work (${work_title}) is free of known copyright
 #. restrictions."
@@ -4229,13 +4239,13 @@ msgstr ""
 #: catalog_pages/licenses-index.pt:13
 msgctxt "util.Creative_Commons_Licenses"
 msgid "Creative Commons Licenses"
-msgstr ""
+msgstr "Creative Commons-lisenssit"
 
 #. Default: "Characteristics"
 #: catalog_pages/licenses-index.pt:29
 msgctxt "util.characteristics"
 msgid "Characteristics"
-msgstr ""
+msgstr "Ominaisuudet"
 
 #. Default: ""
 #. "Mark a document not on the web, <a href=\"non-web-"
@@ -4256,41 +4266,41 @@ msgstr ""
 #: chooser_pages/index.pt:149 chooser_pages/index.pt:166
 msgctxt "util.International"
 msgid "International"
-msgstr ""
+msgstr "Kansainvälinen"
 
 #. Default: "CC0: Waiver"
 #: chooser_pages/zero/waiver.pt:8
 msgctxt "license.zero.waiver_title"
 msgid "CC0: Waiver"
-msgstr ""
+msgstr "CC0: Luopuminen"
 
 msgctxt "lang.tr"
 msgid "Turkish"
-msgstr ""
+msgstr "Turkkilainen"
 
 msgctxt "lang.pt_PT"
 msgid "Portuguese (Portugal)"
-msgstr ""
+msgstr "Portugalilainen (Portugali)"
 
 msgctxt "lang.id"
 msgid "Indonesian"
-msgstr ""
+msgstr "Indonesialainen"
 
 msgctxt "lang.hy"
 msgid "Armenian"
-msgstr ""
+msgstr "Armenialainen"
 
 msgctxt "lang.ga"
 msgid "Irish"
-msgstr ""
+msgstr "Irlantilainen"
 
 msgctxt "lang.es_ES"
 msgid "Spanish (Spain)"
-msgstr ""
+msgstr "Espanialainen (Espanja)"
 
 msgctxt "lang.az"
 msgid "Azerbaijani"
-msgstr ""
+msgstr "Azerbaidžanilainen"
 
 msgctxt "lang.ml"
 msgid "Malayalam"
@@ -4300,23 +4310,23 @@ msgstr ""
 #: chooser_pages/results.pt:67
 msgctxt "license.preview"
 msgid "Here's a preview of how your license will appear on your site:"
-msgstr ""
+msgstr "Tässä esimakua siitä, miten lisenssi näkyy sivustossa:"
 
 msgctxt "country.cr"
 msgid "Costa Rica"
-msgstr ""
+msgstr "Costa Rica"
 
 msgctxt "country.ee"
 msgid "Estonia"
-msgstr ""
+msgstr "Virolainen"
 
 msgctxt "lang.kk"
 msgid "Kazakh"
-msgstr ""
+msgstr "Kazakstanilainen"
 
 msgctxt "lang.si_LK"
 msgid "Sinhala"
-msgstr ""
+msgstr "Sinhala"
 
 #. Default: ""
 #. "We also provide tools that work in the “all rights granted” space of "
@@ -4426,13 +4436,13 @@ msgstr ""
 #: catalog_pages/licenses-index.pt:165
 msgctxt "license.index.the_licenses.title"
 msgid "The Licenses"
-msgstr ""
+msgstr "Lisenssit"
 
 #. Default: "License design and rationale"
 #: catalog_pages/licenses-index.pt:46
 msgctxt "license.index.design_rationale.title"
 msgid "License design and rationale"
-msgstr ""
+msgstr "Lisenssin rakenne ja tarkoitus"
 
 #. Default: ""
 #. "All Creative Commons licenses have many important features in common. "
@@ -4523,7 +4533,7 @@ msgstr ""
 #: catalog_pages/licenses-index.pt:98
 msgctxt "license.index.three_layers.title"
 msgid "Three “Layers” Of Licenses"
-msgstr ""
+msgstr "Lisenssin kolme \"kerrosta\""
 
 #. Default: ""
 #. "Our public copyright licenses incorporate a unique and innovative "
@@ -4636,7 +4646,7 @@ msgstr ""
 #: catalog_pages/licenses-index.pt:21
 msgctxt "license.index.what_licenses_do.title"
 msgid "What our licenses do"
-msgstr ""
+msgstr "Mitä lisenssimme tekevät"
 
 #. Default: ""
 #. "The Creative Commons copyright licenses and tools forge a balance inside "
@@ -4668,7 +4678,7 @@ msgstr ""
 #: catalog_pages/licenses-index.pt:13
 msgctxt "util.About_The_Licenses"
 msgid "About The Licenses"
-msgstr ""
+msgstr "Lisensseistä"
 
 #. Default: "View License Deed"
 #: catalog_pages/licenses-index.pt:190 catalog_pages/licenses-index.pt:228
@@ -4676,7 +4686,7 @@ msgstr ""
 #: catalog_pages/licenses-index.pt:319 catalog_pages/licenses-index.pt:350
 msgctxt "util.View_License_Deed"
 msgid "View License Deed"
-msgstr ""
+msgstr "Tarkastele lisenssitiivistelmää"
 
 #. Default: "View Legal Code"
 #: catalog_pages/licenses-index.pt:192 catalog_pages/licenses-index.pt:230
@@ -4684,7 +4694,7 @@ msgstr ""
 #: catalog_pages/licenses-index.pt:321 catalog_pages/licenses-index.pt:352
 msgctxt "util.View_Legal_Code"
 msgid "View Legal Code"
-msgstr ""
+msgstr "Tarkastele juridista lisenssiä"
 
 #. Default: ""
 #. "Share your work with an existing community that has enabled Creative "
@@ -4695,6 +4705,8 @@ msgid ""
 "Share your work with an existing community that has enabled Creative Commons"
 " licensing."
 msgstr ""
+"Jaa teoksesi yhteisön kanssa joka on mahdollistanut Creative Commons "
+"lisensoinnin."
 
 #. Default: ""
 #. "Learn where to <a "
@@ -4731,14 +4743,14 @@ msgstr ""
 #: chooser_pages/results.pt:160
 msgctxt "license.get_high_res"
 msgid "Get high resolution and vector versions of the license graphics."
-msgstr ""
+msgstr "Hanki korkea resoluutio ja vektori versiot lisenssi grafiikoista."
 
 #. Default: "Learn how to mark video and other formats."
 #: chooser_pages/results.pt:166
 msgctxt "license.mark_video"
 msgid "Learn how to mark video and other formats."
-msgstr ""
+msgstr "Opi kuinka voit merkitä videoita ja muita formaatteja."
 
 msgctxt "lang.fa"
 msgid "Persian"
-msgstr ""
+msgstr "Persialainen"
