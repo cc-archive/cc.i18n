@@ -5,7 +5,7 @@ import shutil
 from logging import getLogger
 import pkg_resources
 
-from babel.messages.pofile import read_po, write_po
+import polib
 
 from cc.i18n.tools import convert
 from cc.i18n.tools.support import parse_args
@@ -35,8 +35,8 @@ def sync(input_dir, output_dir, english_po, verbosity=logging.WARNING):
     english_po = os.path.abspath(english_po)
 
     # load the master domain file
-    master = read_po(file(english_po, 'r'))
-    previous_master = read_po(file(english_po + '.bak', 'r'))
+    master = polib.pofile(english_po)
+    previous_master = polib.pofile(english_po + '.bak')
 
     # walk the input directory...
     for root, dirnames, filenames in os.walk(input_dir):
@@ -60,7 +60,7 @@ def sync(input_dir, output_dir, english_po, verbosity=logging.WARNING):
                 os.makedirs(os.path.dirname(output_fn))
 
             # load the source file
-            source = read_po(file(input_fn, 'r'))
+            source = polib.pofile(input_fn)
 
             # convert the source back to cc-style 
             # (so we can match symbolic names)
@@ -92,7 +92,7 @@ def sync(input_dir, output_dir, english_po, verbosity=logging.WARNING):
             # convert back to .po style, thereby updating the English source
             source = convert.cc_to_po(source, master, previous_master)
 
-            write_po(file(output_fn, 'w'), source, width=None)
+            source.save(output_fn)
             getLogger(LOGGER_NAME).debug("Write %s." % output_fn)
 
     # copy master to previous_master
