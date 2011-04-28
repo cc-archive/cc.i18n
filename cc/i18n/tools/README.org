@@ -1,0 +1,41 @@
+Here are just some simple notes because I feel like I often forget
+what various tools in this directory do.  Hopefully I can clean this
+up later.
+
+** What the tools do
+
+#+BEGIN_QUOTE
+<nkinkade> paroneayea: sync, takes changes in  master/cc_org.po and propagates
+           that to all cc-style PO files.
+<nkinkade> Then presumably one needs to run cc2po to get the new strings and
+           changes from the logically keyed PO files to the the regular
+           english-keyed PO files.
+<nkinkade> po2cc does the opposite.
+<nkinkade> I don't think we use po2cc.py very often because that isn't the
+           normal workflow.
+#+END_QUOTE
+
+** Why cc.i18n is how it is
+
+/These are some poorly formatted notes I took in my last one on one
+with Nathan Yergler./
+
+part of carryover from tcl days strings had symbolic representation,
+so we've retained a lot of that, which was fine in zope because zope's
+i18n translate attributes allows you to specify what to look up in tal:
+
+we looked at moving to pure gettext at some point but the zpt engine
+we had to have things substituted into the attributes?  doing the
+translation into html and injecting them into the attributes.. when
+your translation machinery included html, substitution wouldn't work
+in attributes, or into links, etc...
+
+or something.  By using symbolic identifiers that took care of the
+problem.
+
+Could also be that having the source text for the key means source
+text in the html makes it crazy.. nyergler not sure which of these is
+completly true, maybe all :)
+
+hence why the ./bin/sync, because none of those tools handled symbolic
+identifiers "right", so we do that part ourselves.
