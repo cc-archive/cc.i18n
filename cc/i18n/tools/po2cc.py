@@ -3,11 +3,7 @@ import logging
 from logging import getLogger
 import pkg_resources
 
-from babel.messages.pofile import read_po
-from babel import localedata
-from babel import core
-
-from babel.messages.pofile import write_po
+import polib
 
 from cc.i18n.tools import convert
 from cc.i18n.tools.support import parse_args
@@ -54,17 +50,20 @@ def po2cc(input_dir=INPUT_DIR, output_dir=OUTPUT_DIR,
             if not(os.path.exists(os.path.dirname(output_fn))):
                 os.makedirs(os.path.dirname(output_fn))
 
-            # grab the locale from the path
-            locale_code = root.split(os.sep)[-1]
-            if localedata.exists(locale_code):
-                locale = core.Locale.parse(locale_code)
-            # fallback to parent language
-            elif '-' in locale_code and localedata.exists(locale_code.split('_')[0]):
-                locale = core.Locale.parse(locale_code.split('_')[0])                
-            else:
-                locale = None
+            ## Removed this... honestly not sure if it's needed with polib or not.
+            # # grab the locale from the path
+            # locale_code = root.split(os.sep)[-1]
+            # if localedata.exists(locale_code):
+            #     locale = core.Locale.parse(locale_code)
+            # # fallback to parent language
+            # elif '-' in locale_code and localedata.exists(locale_code.split('_')[0]):
+            #     locale = core.Locale.parse(locale_code.split('_')[0])                
+            # else:
+            #     locale = None
 
-            # optional: if caching enabled, and we have processed our files before, don't do anything
+
+            # optional: if caching enabled, and we have processed our
+            # files before, don't do anything
             if cache:
                 cache_dir = os.path.join(os.getenv('HOME'), '.cc2po-cache')
                 if not os.path.exists(cache_dir):
@@ -76,18 +75,20 @@ def po2cc(input_dir=INPUT_DIR, output_dir=OUTPUT_DIR,
                     output_sha1 = sha.sha(open(output_fn).read()).hexdigest()
                     contents = open(input_sha_file).read().strip()
                     if contents == output_sha1:
-                        getLogger(LOGGER_NAME).info('Due to caching, we have skipped this file.')
-                        continue # we have previously recorded that this is the right output
+                        getLogger(LOGGER_NAME).info(
+                            'Due to caching, we have skipped this file.')
+                        # we have previously recorded that this is the
+                        # right output
+                        continue
 
             # convert the file
-            result = convert.po_to_cc(read_po(file(input_fn, 'r'),
-                                              locale, 
-                                              'cc_org'),
-                             read_po(file(english_po, 'r')))
+            result = convert.po_to_cc(
+                polib.pofile(input_fn),
+                polib.pofile(english_po))
 
             convert.defuzz(result)
 
-            write_po(file(output_fn, 'w'), result)
+            result.save(output_fn)
             getLogger(LOGGER_NAME).debug("Write %s." % output_fn)
 
             # if caching is enabled, store a note that the result is good

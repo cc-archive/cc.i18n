@@ -2,8 +2,7 @@ import os
 import logging
 from logging import getLogger
 
-from babel.messages.pofile import read_po
-from babel.messages.pofile import write_po
+import polib
 
 from cc.i18n.tools import convert
 from cc.i18n.tools.support import parse_args
@@ -45,10 +44,11 @@ def cli():
                 os.makedirs(os.path.dirname(output_fn))
 
             # convert the file
-            result = convert.cc_to_po(read_po(file(input_fn, 'r')),
-                             read_po(file(options.english_po, 'r')))
+            result = convert.cc_to_po(
+                polib.pofile(input_fn),
+                polib.pofile(options.english_po))
 
-            write_po(file(output_fn, 'w'), result, width=None)
+            result.save(output_fn)
             getLogger(LOGGER_NAME).debug("Write %s." % output_fn)
 
 

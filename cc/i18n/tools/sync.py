@@ -71,23 +71,23 @@ def sync(input_dir, output_dir, english_po, verbosity=logging.WARNING):
             for message in master:
                 
                 # don't add strings that don't have an ID
-                if not message.id:
+                if not message.msgid:
                     continue
 
-                if message.id not in source:
+                if message.msgid not in source:
                     # copy the Message object
-                    source[message.id] = copy.deepcopy(message)
+                    source[message.msgid] = copy.deepcopy(message)
 
                     # new strings aren't translated by default
-                    source.get(message.id, message.context).string = ""
+                    source.get(message.msgid, message.context).string = ""
 
                 # If for some reason python-format ended up in
                 # source's message but wasn't in master's message
                 # (probably due to auto-detection by babel), remove it
                 # from source's message.
-                if (('python-format' in source[message.id].flags and
+                if (('python-format' in source[message.msgid].flags and
                      'python-format' not in message.flags)):
-                    source[message.id].flags.remove('python-format')
+                    source[message.msgid].flags.remove('python-format')
 
             # convert back to .po style, thereby updating the English source
             source = convert.cc_to_po(source, master, previous_master)
