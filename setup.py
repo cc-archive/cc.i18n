@@ -35,6 +35,7 @@ setup(
         'zope.i18n',
         'zope.interface',
         'python-gettext',
+        'polib',
         'nose'],
 
     entry_points = {
