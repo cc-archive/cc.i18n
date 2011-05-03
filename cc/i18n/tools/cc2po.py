@@ -1,6 +1,7 @@
 import os
 import logging
 from logging import getLogger
+import pkg_resources
 
 import polib
 
@@ -9,22 +10,26 @@ from cc.i18n.tools.support import parse_args
 
 LOGGER_NAME = "cc2po"
 
-def cli():
-    """Command line interface for cc2po script."""
+INPUT_DIR = pkg_resources.resource_filename(
+    'cc.i18n', 'i18n')
+OUTPUT_DIR = pkg_resources.resource_filename(
+    'cc.i18n', 'po')
+MASTER_PO = pkg_resources.resource_filename(
+    'cc.i18n', 'master/cc_org.po')
 
-    # parse the command line
-    (options, input_files) = parse_args()
 
+def cc2po(input_dir=INPUT_DIR, output_dir=OUTPUT_DIR,
+          english_po=MASTER_PO, verbosity=logging.WARNING):
     # set up the logging infrastructure
     getLogger(LOGGER_NAME).addHandler(logging.StreamHandler())
-    getLogger(LOGGER_NAME).setLevel(options.verbosity)
+    getLogger(LOGGER_NAME).setLevel(verbosity)
 
     # make everything absolute paths
-    options.input_dir = os.path.abspath(options.input_dir)
-    options.output_dir = os.path.abspath(options.output_dir)
-    options.english_po = os.path.abspath(options.english_po)
+    input_dir = os.path.abspath(input_dir)
+    output_dir = os.path.abspath(output_dir)
+    english_po = os.path.abspath(english_po)
 
-    for root, dirnames, filenames in os.walk(options.input_dir):
+    for root, dirnames, filenames in os.walk(input_dir):
         
         for fn in filenames:
 
@@ -36,8 +41,8 @@ def cli():
 
             # determine the output path
             output_fn = os.path.join(
-                options.output_dir,
-                input_fn[len(options.input_dir) + 1:])
+                output_dir,
+                input_fn[len(input_dir) + 1:])
 
             # make sure the necessary directories exist
             if not(os.path.exists(os.path.dirname(output_fn))):
@@ -46,9 +51,17 @@ def cli():
             # convert the file
             result = convert.cc_to_po(
                 polib.pofile(input_fn),
-                polib.pofile(options.english_po))
+                polib.pofile(english_po))
 
             result.save(output_fn)
             getLogger(LOGGER_NAME).debug("Write %s." % output_fn)
 
 
+def cli():
+    """Command line interface for cc2po script."""
+
+    # parse the command line
+    (options, input_files) = parse_args()
+
+    cc2po(options.input_dir, options.output_dir,
+          options.english_po, options.verbosity)
