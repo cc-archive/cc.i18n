@@ -1,14 +1,13 @@
+import polib
+
 import copy
-
-from babel.messages.catalog import Catalog
-
 
 def defuzz(catalog):
     """Scan a catalog and de-fuzz-ify messages that have no translation."""
 
     for message in catalog:
-        if message.fuzzy and (message.string.strip() == u'' or 
-                              message.id.strip() == u''):
+        if message.fuzzy and (message.msgstr.strip() == u'' or 
+                              message.msgid.strip() == u''):
             # not fuzzy, damn it!
             message.flags.remove('fuzzy')
 
@@ -28,7 +27,7 @@ def reverse_english(message, english):
     hasYielded = False
 
     for en_msg in english:
-        if en_msg.string == message.id:
+        if en_msg.msgstr == message.id:
             # found it!
             result = copy.deepcopy(message)
             result.id = en_msg.id
@@ -50,23 +49,21 @@ def po_to_cc(source, english, fallback=True):
     Returns a Catalog instance."""
 
     # create the new target Catalog
-    target = Catalog(header_comment="", 
-                     locale=source.locale, 
-                     domain=source.domain)
+    target = polib.POFile()
 
     # iterate over all the strings in the target PO
     for message in source:
 
         # skip messages w/an empty id
-        if not(message.id): continue
+        if not(message.msgid): continue
 
         for new_message in reverse_english(message, english):
         
             # fall-back to English if untranslated
-            if fallback and not(new_message.string.strip()):
-                new_message.string = english[new_message.id].string
+            if fallback and not(new_message.msgstr.strip()):
+                new_message.msgstr = english.find(new_message.msgid).msgstr
 
-            target[new_message.id] = new_message
+            target.append(new_message)
 
     return target
 
@@ -83,7 +80,7 @@ def cc_to_po(source, english, previous=None):
     Returns a Catalog instance."""
 
     # create the new target Catalog
-    target = Catalog()
+    target = polib.POFile()
 
     # iterate over all the strings in the target PO
     for message in source:
@@ -91,41 +88,43 @@ def cc_to_po(source, english, previous=None):
         # make a copy of the original
         new_message = copy.deepcopy(message)
 
-        if message.id in english:
-            if english[message.id].string:
+        english_message = english.find(message.msgid)
+        if english_message:
+            if english_message.msgstr:
                 # only use the english text as a key if the text exists
-                new_message.id = english[message.id].string
+                new_message.msgid = english_message.msgstr
         else:
             # if the key doesn't exist in the master file, 
             # it's dead to us.
             continue
 
         # if the string matches the key (ie, untranslated)
-        #if new_message.id == new_message.string:
+        #if new_message.msgid == new_message.msgstr:
         #    # clear the string
-        #    new_message.string = ''
+        #    new_message.msgstr = ''
 
         if previous is not None:
 
             # see if this was untranslated previously (in which case
             # we really just want to fall back to the new English instead
             # of the old)
-            if message.id in previous:
-                if new_message.string == previous[message.id].string:
+            if previous.find(message.msgid):
+                if new_message.msgstr == previous.find(message.msgid).msgstr:
                     # the string is the same as the old English text...
                     # remove the string since it's not really translated
                     pass
-                    #new_message.string = ''
+                    #new_message.msgstr = ''
 
             # see if this should be marked as "fuzzy"
-            if new_message.string and \
-                    message.id in previous and message.id in english:
-                if previous[message.id].string != english[message.id].string:
+            if new_message.msgstr and \
+                    previous.find(message.msgid) and english_message.msgid:
+                if previous.find(message.msgid).msgstr \
+                        != english_message.msgid.msgstr:
                     new_message.flags.add('fuzzy')
 
-        if new_message.id != message.id:
-            new_message.context = message.id
-        target[new_message.id] = new_message
+        if new_message.msgid != message.msgid:
+            new_message.context = message.msgid
+        target.append(new_message)
 
     return target
 
