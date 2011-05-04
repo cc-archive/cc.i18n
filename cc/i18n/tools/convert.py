@@ -19,7 +19,7 @@ def reverse_english(message, english):
     return the original message."""
 
     result = copy.deepcopy(message)
-    result.context = None # NOTE: Removing context from copied message
+    result.msgctxt = None # NOTE: Removing context from copied message
     # When we did not clear context, we got stray unrelated context 
     # stored in "result"
     # Context is irrelevant for these anyway, since they're PO-style
@@ -31,7 +31,7 @@ def reverse_english(message, english):
             # found it!
             result = copy.deepcopy(message)
             result.msgid = en_msg.msgid
-            result.context = None
+            result.msgctxt = None
 
             hasYielded = True
             yield result
@@ -74,7 +74,7 @@ def cc_to_po(source, english, previous=None):
     English text.  The result is a Catalog whose keys contain English text
     rather than symbolic strings.
 
-    Furthermore, each message in the new Catalog has as its .context
+    Furthermore, each message in the new Catalog has as its .msgctxt
     the sybolic key value.
 
     Returns a Catalog instance."""
@@ -124,7 +124,7 @@ def cc_to_po(source, english, previous=None):
                     new_message.flags.add('fuzzy')
 
         if new_message.msgid != message.msgid:
-            new_message.context = message.msgid
+            new_message.msgctxt = message.msgid
         target.append(new_message)
 
     return target
