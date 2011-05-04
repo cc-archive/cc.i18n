@@ -27,10 +27,10 @@ def reverse_english(message, english):
     hasYielded = False
 
     for en_msg in english:
-        if en_msg.msgstr == message.id:
+        if en_msg.msgstr == message.msgid:
             # found it!
             result = copy.deepcopy(message)
-            result.id = en_msg.id
+            result.msgid = en_msg.msgid
             result.context = None
 
             hasYielded = True
@@ -117,9 +117,10 @@ def cc_to_po(source, english, previous=None):
 
             # see if this should be marked as "fuzzy"
             if new_message.msgstr and \
-                    previous.find(message.msgid) and english_message.msgid:
+                    previous.find(message.msgid) \
+                    and english.find(message.msgid):
                 if previous.find(message.msgid).msgstr \
-                        != english_message.msgid.msgstr:
+                        != english.find(message.msgid).msgstr:
                     new_message.flags.add('fuzzy')
 
         if new_message.msgid != message.msgid:
