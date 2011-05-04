@@ -121,7 +121,7 @@ def cc_to_po(source, english, previous=None):
                     and english.find(message.msgid):
                 if previous.find(message.msgid).msgstr \
                         != english.find(message.msgid).msgstr:
-                    new_message.flags.add('fuzzy')
+                    new_message.flags.append('fuzzy')
 
         if new_message.msgid != message.msgid:
             new_message.msgctxt = message.msgid

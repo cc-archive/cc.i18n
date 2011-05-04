@@ -74,20 +74,22 @@ def sync(input_dir, output_dir, english_po, verbosity=logging.WARNING):
                 if not message.msgid:
                     continue
 
-                if message.msgid not in source:
-                    # copy the Message object
-                    source[message.msgid] = copy.deepcopy(message)
+                if message not in source:
+                    new_message = copy.deepcopy(message)
 
                     # new strings aren't translated by default
-                    source.get(message.msgid, message.context).string = ""
+                    new_message.msgstr = ""
+
+                    # copy the Message object
+                    source.append(new_message)
 
                 # If for some reason python-format ended up in
                 # source's message but wasn't in master's message
                 # (probably due to auto-detection by babel), remove it
                 # from source's message.
-                if (('python-format' in source[message.msgid].flags and
+                if (('python-format' in source.find(message.msgid).flags and
                      'python-format' not in message.flags)):
-                    source[message.msgid].flags.remove('python-format')
+                    source.find(message.msgid).flags.remove('python-format')
 
             # convert back to .po style, thereby updating the English source
             source = convert.cc_to_po(source, master, previous_master)
