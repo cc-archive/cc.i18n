@@ -6,7 +6,7 @@ def defuzz(catalog):
     """Scan a catalog and de-fuzz-ify messages that have no translation."""
 
     for message in catalog:
-        if message.fuzzy and (message.msgstr.strip() == u'' or 
+        if 'fuzzy' in message.flags and (message.msgstr.strip() == u'' or 
                               message.msgid.strip() == u''):
             # not fuzzy, damn it!
             message.flags.remove('fuzzy')
