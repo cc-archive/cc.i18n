@@ -7,7 +7,7 @@ def defuzz(catalog):
 
     for message in catalog:
         if 'fuzzy' in message.flags and (message.msgstr.strip() == u'' or 
-                              message.msgid.strip() == u''):
+                                         message.msgid.strip() == u''):
             # not fuzzy, damn it!
             message.flags.remove('fuzzy')
 
