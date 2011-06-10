@@ -1,6 +1,7 @@
 import os
 import pkg_resources
 import tempfile
+import subprocess
 from shutil import copyfile
 
 import polib
@@ -16,6 +17,14 @@ FAKE_MASTER_PO = pkg_resources.resource_filename(
     'cc.i18n.tests', 'fake_master_ccorg.po')
 FAKE_MODIFIED_MASTER_PO = pkg_resources.resource_filename(
     'cc.i18n.tests', 'fake_master_ccorg_modified.po')
+
+
+def _passes_msgfmt_check(filepath):
+    """
+    Check if file at FILEPATH passes the msgfmt -c check.
+    """
+    return subprocess.Popen(['msgfmt', '-c', filepath]).wait() == 0
+
 
 def assert_catalogs_match(catalog1, catalog2, cc2po_laziness=False):
     """
@@ -78,6 +87,7 @@ def test_po_to_cc_tool():
         i18n_name = os.path.join(FAKE_I18N_DIR, dirname, 'cc_org.po')
         outfile_name = os.path.join(outdir, dirname, 'cc_org.po')
         assert_catalogs_match(polib.pofile(i18n_name), polib.pofile(outfile_name))
+        assert _passes_msgfmt_check(outfile_name)
 
 
 def test_cc_to_po_tool():
@@ -99,6 +109,7 @@ def test_cc_to_po_tool():
         assert_catalogs_match(
             polib.pofile(po_name), polib.pofile(outfile_name),
             True)
+        assert _passes_msgfmt_check(outfile_name)
 
 
 def test_sync():
@@ -139,13 +150,17 @@ def test_sync():
         assert_catalogs_match(
             polib.pofile(po_name), polib.pofile(outfile_name),
             True)
+        assert _passes_msgfmt_check(outfile_name)
 
     sync.sync(outdir, outdir, fake_master_po_modified)
 
-    vi_pofile = polib.pofile(
-        os.path.join(outdir, 'vi', 'cc_org.po'))
-    es_pofile = polib.pofile(
-        os.path.join(outdir, 'es', 'cc_org.po'))
+
+    vi_pofilepath = os.path.join(outdir, 'vi', 'cc_org.po')
+    vi_pofile = polib.pofile(vi_pofilepath)
+    assert _passes_msgfmt_check(vi_pofilepath)
+    es_pofilepath = os.path.join(outdir, 'es', 'cc_org.po')
+    es_pofile = polib.pofile(es_pofilepath)
+    assert _passes_msgfmt_check(es_pofilepath)
 
     ## util.name should have changed
     # was previously untranslated in vi
