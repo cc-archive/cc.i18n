@@ -5,7 +5,7 @@ import shutil
 from logging import getLogger
 import pkg_resources
 
-import polib
+from babel.messages.pofile import read_po, write_po
 
 from cc.i18n.tools import convert
 from cc.i18n.tools.support import parse_args
@@ -35,8 +35,8 @@ def sync(input_dir, output_dir, english_po, verbosity=logging.WARNING):
     english_po = os.path.abspath(english_po)
 
     # load the master domain file
-    master = polib.pofile(english_po)
-    previous_master = polib.pofile(english_po + '.bak')
+    master = read_po(file(english_po, 'r'))
+    previous_master = read_po(file(english_po + '.bak', 'r'))
 
     # walk the input directory...
     for root, dirnames, filenames in os.walk(input_dir):
@@ -60,7 +60,7 @@ def sync(input_dir, output_dir, english_po, verbosity=logging.WARNING):
                 os.makedirs(os.path.dirname(output_fn))
 
             # load the source file
-            source = polib.pofile(input_fn)
+            source = read_po(file(input_fn, 'r'))
 
             # convert the source back to cc-style 
             # (so we can match symbolic names)
@@ -71,30 +71,28 @@ def sync(input_dir, output_dir, english_po, verbosity=logging.WARNING):
             for message in master:
                 
                 # don't add strings that don't have an ID
-                if not message.msgid:
+                if not message.id:
                     continue
 
-                if message not in source:
-                    new_message = copy.deepcopy(message)
+                if message.id not in source:
+                    # copy the Message object
+                    source[message.id] = copy.deepcopy(message)
 
                     # new strings aren't translated by default
-                    new_message.msgstr = ""
-
-                    # copy the Message object
-                    source.append(new_message)
+                    source.get(message.id, message.context).string = ""
 
                 # If for some reason python-format ended up in
                 # source's message but wasn't in master's message
                 # (probably due to auto-detection by babel), remove it
                 # from source's message.
-                if (('python-format' in source.find(message.msgid).flags and
+                if (('python-format' in source[message.id].flags and
                      'python-format' not in message.flags)):
-                    source.find(message.msgid).flags.remove('python-format')
+                    source[message.id].flags.remove('python-format')
 
             # convert back to .po style, thereby updating the English source
             source = convert.cc_to_po(source, master, previous_master)
 
-            source.save(output_fn)
+            write_po(file(output_fn, 'w'), source, width=None)
             getLogger(LOGGER_NAME).debug("Write %s." % output_fn)
 
     # copy master to previous_master
