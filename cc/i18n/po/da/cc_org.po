@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
 "POT-Creation-Date: 2011-04-25 14:58-0500\n"
-"PO-Revision-Date: 2011-06-15 13:00+0000\n"
+"PO-Revision-Date: 2011-06-17 10:59+0000\n"
 "Last-Translator: peterleth <peter@pluk.dk>\n"
 "Language-Team: Danish (http://www.transifex.net/projects/p/CC/team/da/)\n"
 "MIME-Version: 1.0\n"
@@ -63,7 +63,7 @@ msgstr ""
 
 #: c/engine/chooser_pages/index.pt:88
 msgid "Yes, as long as others share alike"
-msgstr "Ja, så længe at andre deler ligeligt. "
+msgstr "Ja, så længe at andre deler på samme vilkår. "
 
 #: c/engine/licenses/sampling_templates/deed.pt:31
 msgctxt "deed.free_copy_distribute_noncommercial"
@@ -169,7 +169,7 @@ msgstr "Brasilien"
 
 msgctxt "util.Creative_Commons_License"
 msgid "Creative Commons License"
-msgstr "Creative Commons Licens"
+msgstr "Creative Commons licens"
 
 #: c/engine/chooser_pages/sampling.pt:41
 #: c/engine/macros_templates/support.pt:145
@@ -2568,7 +2568,7 @@ msgstr "Katalog dit arbejde med CC netværk"
 #: src/cc/engine/chooser_pages/results.pt:151
 msgctxt "license.track_with_fairshare"
 msgid "Track use of your work with FairShare"
-msgstr ""
+msgstr "Spor brugen af dit arbejde med FairShare"
 
 #. Default: ""
 #. "<p>The Commons Deed is not a legal instrument. It is simply a\n"
@@ -2598,6 +2598,18 @@ msgid ""
 "copyright status in any jurisdiction, and disclaims all liability for all "
 "uses of any work. </p>"
 msgstr ""
+"<p> Commons Deed er ikke et juridisk instrument. Det er ganske simpelt en "
+"kortfattet forklaring til at forstå CC0 Juridiske beskrivelse, et menneske-"
+"læsbart udtryk for nogle af licensaftalens nøglebegreber. Tænk på det som "
+"brugervenlig grænseflade til CC0 Juridiske Tekst. Tænk på det som ikke har "
+"nogen juridisk værdi, og dens indhold vises ikke i CC0. </p><p> Creative "
+"Commons er ikke et advokatfirma og giver ikke juridisk rådgivning. "
+"Distribution, visning eller link hertil denne Commons Deed skaber ikke et "
+"advokat-klient forhold. </p><p> Creative Commons har ikke verificeret om "
+"værket har en anden ophavsretslige status forud for at en person anvender "
+"CC0. CC giver ingen garantier om noget arbejde eller dets ophavsret status i"
+" nogen jurisdiktion, og fralægger sig ethvert ansvar for al brug af enhver "
+"form for arbejde. </p>"
 
 #. Default: ""
 #. "This is a human-readable summary of\n"
@@ -3006,7 +3018,7 @@ msgstr ""
 #: c/engine/licenses/standard_templates/deed.pt:22
 #: c/engine/publicdomain/zero_templates/deed.pt:25
 msgid "This license is acceptable for Free Cultural Works."
-msgstr ""
+msgstr "Denne licens er acceptabel for Free Cultural Works."
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:47
 #: c/engine/publicdomain/zero_templates/deed.pt:141
@@ -3038,7 +3050,7 @@ msgstr ""
 #: c/engine/licenses/standard_templates/deed.pt:178
 msgctxt "deed.permission.help.title"
 msgid "What does \"conditions can be waived\" mean?"
-msgstr ""
+msgstr "Hvad betyder \"vilkår kan frafaldes\" ?"
 
 #: c/engine/licenses/standard_templates/deed.pt:182
 msgctxt "deed.permission.help"
@@ -3047,11 +3059,15 @@ msgid ""
 "\t\twaive compliance with a specific condition, such as\n"
 "\t\tattribution."
 msgstr ""
+"CC licenser bygger på antagelsen, at en licensgiver måske ønsker at <span "
+"class=\"whitespace other\" title=\"Tab\">»»</span> give afkald på bestemte "
+"betingelser, på en bestemt betingelse, såsom <span class=\"whitespace "
+"other\" title=\"Tab\">»»</span> kreditering."
 
 #: c/engine/licenses/standard_templates/deed.pt:192
 msgctxt "deed.fair_use.help.title"
 msgid "What does \"Fair use\" mean?"
-msgstr ""
+msgstr "Hvad betyder \"fair use\" ?"
 
 #: c/engine/licenses/standard_templates/deed.pt:196
 msgctxt "deed.fair_use.help"
@@ -3062,11 +3078,15 @@ msgid ""
 "              users under those copyright limitations and exceptions,\n"
 "              such as fair use and fair dealing where applicable."
 msgstr ""
+"Alle jurisdiktioner tillader nogle begrænsede anvendelser af ophavsretligt "
+"beskyttet materiale uden tilladelse. CC licenser påvirker ikke brugernes "
+"rettigheder i henhold til disse ophavsret begrænsninger og undtagelser, "
+"såsom fair use og fair behandling i givet fald."
 
 #: c/engine/licenses/standard_templates/deed.pt:208
 msgctxt "deed.moralrights.help.title"
 msgid "What are \"Moral Rights\"?"
-msgstr ""
+msgstr "Hvad er \"moralske rettigheder\"?"
 
 #: c/engine/licenses/standard_templates/deed.pt:212
 msgctxt "deed.moralrights.help"
@@ -3105,7 +3125,7 @@ msgstr ""
 #: c/engine/chooser_pages/index.pt:112 c/engine/chooser_pages/index.pt:125
 #: c/engine/chooser_pages/index.pt:138
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
 #: c/engine/pd/templates/publicdomain-2.pt:20
 msgctxt "license.pd.intro_1"
@@ -3224,6 +3244,8 @@ msgid ""
 "Copyright-Only Dedication (based on United States law) \n"
 "or Public Domain Certification"
 msgstr ""
+"Copyright-Kun Dedikation (baseret på amerikansk lov) eller Public Domain "
+"Certificering"
 
 #: c/engine/pd/templates/publicdomain-2.pt:58
 msgctxt "util.author"
@@ -3237,17 +3259,21 @@ msgid ""
 "\t    effect of this tool, and hereby voluntarily elect to apply it to\n"
 "\t    this work."
 msgstr ""
+"Jeg har læst og forstår de vilkår og påtænkte juridiske <span "
+"class=\"whitespace other\" title=\"Tab\">»virkninger</span> af dette "
+"værktøj, og vælger hermed frivilligt  at anvende den <span "
+"class=\"whitespace other\" title=\"Tab\">på»</span> dette arbejde."
 
 #: c/engine/pd/templates/publicdomain-3.pt:56
 msgctxt "license.pd.confirm_title"
 msgid "Confirm Your Public Domain Certification"
-msgstr ""
+msgstr "Bekræft din Public Domain certificering"
 
 #: c/engine/publicdomain/templates/index.pt:34
 #: c/engine/publicdomain/templates/index.pt:51
 msgctxt "util.use_this_tool"
 msgid "Use this tool"
-msgstr ""
+msgstr "Brug dette værktøj"
 
 msgctxt "country.th"
 msgid "Thailand"
@@ -3307,6 +3333,9 @@ msgid ""
 "You can copy, modify, distribute and perform the work, even for commercial "
 "purposes, all without asking permission. See <b>Other Information</b> below."
 msgstr ""
+"Du kan kopiere, ændre, distribuere og fremføre dette værk, også til "
+"kommercielle formål, alle uden at spørge om lov. Se <b>Andre oplysninger</b>"
+" nedenfor."
 
 #: s/standard_templates/deed.pt:121
 msgctxt "deed.public_domain"
@@ -3316,6 +3345,10 @@ msgid ""
 "class=\"helpLink\">public domain</a> under applicable law, that status is in"
 " no way affected by the license."
 msgstr ""
+"Hvis arbejdet eller nogen af dens elementer er i <a "
+"href=\"http://wiki.creativecommons.org/Public_domain\" id=\"public_domain\" "
+"class=\"helpLink\">offentligt eje</a> i henhold til gældende ret, bliver "
+"værkets status på ingen måde påvirket af licensen."
 
 #: s/standard_templates/deed.pt:209
 msgctxt "deed.public_domain.help.title"
@@ -3549,6 +3582,9 @@ msgid ""
 "the work you are marking. This allows users of the work to locate the work "
 "online and find out where to go for more information."
 msgstr ""
+"Disse felter er valgfrie, men vil blive indlejret i den HTML-kode som "
+"genereres for det arbejde, du markerer. Dette giver brugere af værket "
+"mulighed for at finde det online og finde mere information."
 
 #. Default: ""
 #. "<p> The information is embedded in a software readable format. This "
@@ -3591,6 +3627,10 @@ msgid ""
 "properly, the PDM allows the work to be easily discovered, and provides "
 "valuable information about the work."
 msgstr ""
+"Med brug af Public Domain mærket, kan du markere et værk, der er fri af "
+"kendte copyright-begrænsninger og klart formidle denne status. Når mærket "
+"anvendes korrekt, er det nemt at finde værket og det giver værdifulde "
+"oplysninger om værket."
 
 #. Default: ""
 #. "The PDM is intended for use with old works that are free of copyright "
@@ -3618,6 +3658,17 @@ msgid ""
 "should consult with your legal advisor if you are unsure whether you should "
 "use the PDM for a work you have identified."
 msgstr ""
+"Public Domain mærket er beregnet til brug af gamle værker, der ikke længere "
+"er beskyttet af ophavsrettigheder rundt omkring i verden, eller til værker, "
+"der er blevet frigivet som Public Domain før forældelse, af de kendte "
+"rettighedshavere til værket.   Det bør ikke anvendes til at markere værker, "
+"der kun er Public Domain i nogle jurisdiktioner, og samtidig kendt for at "
+"være begrænset af ophavsret i andre. I øjeblikket kan Creative Commons ikke "
+"anbefale Public Domain mærker for værker, hvis copyright status varierer fra"
+" jurisdiktion til jurisdiktion, selv om vi er ved at udvikle midler til "
+"mærkning og kodning af sådanne værker. Du bør rådføre sig med din juridiske "
+"rådgiver, hvis du er usikker på, om du skal bruge Public Domain mærket til "
+"et arbejde, du har identificeret."
 
 #. Default: ""
 #. "Please note that this is <strong>not a registration process</strong> and "
@@ -3741,7 +3792,7 @@ msgstr ""
 #: licenses/pdmark_deed.pt:145 licenses/zero_deed.pt:143
 msgctxt "util.endorsement"
 msgid "Endorsement"
-msgstr ""
+msgstr "Påtegning"
 
 #. Default: ""
 #. "In some jurisdictions, wrongfully implying that an author, publisher or "
@@ -3757,7 +3808,7 @@ msgstr ""
 #: licenses/pdmark_deed.pt:162 licenses/zero_deed.pt:159
 msgctxt "util.citation"
 msgid "Citation"
-msgstr ""
+msgstr "Citation"
 
 #. Default: ""
 #. "Copy and paste the HTML provided into your webpage to easily cite this "
@@ -3821,6 +3872,9 @@ msgid ""
 "restrictions in one jurisdiction may not be similarly free in other "
 "jurisdictions."
 msgstr ""
+"Copyright vilkår varierer fra  jurisdiktion til jurisdiktion. Et værk fri af"
+" ophavsrettigheder i en jurisdiktion, ikke kan tilsvarende fri i andre "
+"jurisdiktioner."
 
 #. Default: ""
 #. "<p id=\"nolaw-text\"> This work has been <b>identified</b> as being free "
@@ -3897,7 +3951,7 @@ msgstr ""
 #: licenses/pdmark_deed.pt:96 licenses/zero_deed.pt:92
 msgctxt "util.other_information"
 msgid "Other Information"
-msgstr ""
+msgstr "Anden information"
 
 #. Default: ""
 #. "The work may not be free of known copyright restrictions in all <a "
@@ -3959,7 +4013,7 @@ msgstr ""
 #: licenses/zero_deed.pt:18
 msgctxt "util.public_domain_dedication"
 msgid "Public Domain Dedication"
-msgstr ""
+msgstr "Public Domain Dedikation"
 
 #. Default: ""
 #. "<a href=\"\" class=\"inline-help helpLink\" "
@@ -4073,6 +4127,8 @@ msgid ""
 "This work (${work_title}, by ${author}) is free of known copyright "
 "restrictions."
 msgstr ""
+"Dette arbejde ($ {work_title}, af $ {author}) er uden kendte copyright-"
+"begrænsninger."
 
 #. Default: ""
 #. "This work (${work_title}), identified by ${curator}, is free of known "
@@ -4083,6 +4139,8 @@ msgid ""
 "This work (${work_title}), identified by ${curator}, is free of known "
 "copyright restrictions."
 msgstr ""
+"Dette arbejde ($ {work_title}), identificeres ved $ {kurator}, er fri for "
+"kendte copyright-begrænsninger."
 
 #. Default: ""
 #. "This work (${work_title}, by ${author}), identified by ${curator}, is "
@@ -4093,6 +4151,8 @@ msgid ""
 "This work (${work_title}, by ${author}), identified by ${curator}, is free "
 "of known copyright restrictions."
 msgstr ""
+"Dette arbejde ($ {work_title}, af $ {author}), identificeres ved $ "
+"{kurator}, er fri for kendte copyright-begrænsninger."
 
 #. Default: ""
 #. "This work (by ${author}), identified by ${curator}, is free of known "
