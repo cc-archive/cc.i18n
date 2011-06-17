@@ -5,10 +5,10 @@ import shutil
 from logging import getLogger
 import pkg_resources
 
-from babel.messages.pofile import read_po, write_po
+from babel.messages.pofile import read_po
 
 from cc.i18n.tools import convert
-from cc.i18n.tools.support import parse_args
+from cc.i18n.tools.support import parse_args, polib_wrapped_write_po
 
 LOGGER_NAME = "sync"
 PO_DIR = pkg_resources.resource_filename('cc.i18n', 'po')
@@ -92,7 +92,7 @@ def sync(input_dir, output_dir, english_po, verbosity=logging.WARNING):
             # convert back to .po style, thereby updating the English source
             source = convert.cc_to_po(source, master, previous_master)
 
-            write_po(file(output_fn, 'w'), source, width=None)
+            polib_wrapped_write_po(output_fn, source)
             getLogger(LOGGER_NAME).debug("Write %s." % output_fn)
 
     # copy master to previous_master

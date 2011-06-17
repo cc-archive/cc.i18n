@@ -7,10 +7,8 @@ from babel.messages.pofile import read_po
 from babel import localedata
 from babel import core
 
-from babel.messages.pofile import write_po
-
 from cc.i18n.tools import convert
-from cc.i18n.tools.support import parse_args
+from cc.i18n.tools.support import parse_args, polib_wrapped_write_po
 import sha
 
 LOGGER_NAME = "po2cc"
@@ -87,7 +85,7 @@ def po2cc(input_dir=INPUT_DIR, output_dir=OUTPUT_DIR,
 
             convert.defuzz(result)
 
-            write_po(file(output_fn, 'w'), result)
+            polib_wrapped_write_po(output_fn, result)
             getLogger(LOGGER_NAME).debug("Write %s." % output_fn)
 
             # if caching is enabled, store a note that the result is good

@@ -8,10 +8,8 @@ from logging import getLogger
 
 from babel.messages.pofile import read_po
 
-from babel.messages.pofile import write_po
-
 from cc.i18n.tools import convert
-from cc.i18n.tools.support import parse_args
+from cc.i18n.tools.support import parse_args, polib_wrapped_write_po
 
 LOGGER_NAME = "update"
 
@@ -60,6 +58,6 @@ def cli():
             print message.id
 
 
-    write_po(file(master_file, 'w'), master)
+    polib_wrapped_write_po(master_file, master)
     #        getLogger(LOGGER_NAME).debug("Write %s." % output_fn)
     

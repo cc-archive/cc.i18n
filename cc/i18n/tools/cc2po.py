@@ -4,10 +4,9 @@ from logging import getLogger
 import pkg_resources
 
 from babel.messages.pofile import read_po
-from babel.messages.pofile import write_po
 
 from cc.i18n.tools import convert
-from cc.i18n.tools.support import parse_args
+from cc.i18n.tools.support import parse_args, polib_wrapped_write_po
 
 LOGGER_NAME = "cc2po"
 
@@ -53,7 +52,7 @@ def cc2po(input_dir=INPUT_DIR, output_dir=OUTPUT_DIR,
             result = convert.cc_to_po(read_po(file(input_fn, 'r')),
                              read_po(file(english_po, 'r')))
 
-            write_po(file(output_fn, 'w'), result, width=None)
+            polib_wrapped_write_po(output_fn, result)
             getLogger(LOGGER_NAME).debug("Write %s." % output_fn)
 
 

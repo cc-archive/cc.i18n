@@ -1,6 +1,9 @@
 import logging
 import optparse
 import pkg_resources
+from babel.messages.pofile import write_po
+
+import polib
 
 
 def make_option_parser():
@@ -59,3 +62,15 @@ def parse_args(**defaults):
 
 
     return options, args
+
+
+def polib_wrapped_write_po(filename, catalog):
+    """
+    Wrap saving a Catalog from Babel via polib so we get the right wrapping.
+    """
+    out_file = file(filename, 'w')
+    with out_file:
+        write_po(out_file, catalog)
+
+    polib_file = polib.pofile(filename)
+    polib_file.save(filename)
