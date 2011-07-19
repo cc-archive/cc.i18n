@@ -38,6 +38,10 @@ setup(
         'polib',
         'nose'],
 
+    dependency_links = [
+        'http://code.creativecommons.org/basket/',
+        ],
+
     entry_points = {
         'console_scripts': [
             'cc2po = cc.i18n.tools.cc2po:cli',
