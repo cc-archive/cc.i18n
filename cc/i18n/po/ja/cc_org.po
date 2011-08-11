@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
 "POT-Creation-Date: 2011-07-12 15:25-0500\n"
-"PO-Revision-Date: 2011-08-11 08:00+0000\n"
+"PO-Revision-Date: 2011-08-11 15:16+0000\n"
 "Last-Translator: Tomo <tomoaki@creativecommons.jp>\n"
 "Language-Team: Japanese (http://www.transifex.net/projects/p/CC/team/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1684,6 +1684,10 @@ msgid ""
 "Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, "
 "94041, USA."
 msgstr ""
+"この作品はクリエイティブ・コモンズ・ライセンス ${license_name} "
+"の下に提供されています。このライセンスのコピーを見るためには、${license_url} をご覧になるか、以下へお手紙をお送り下さい：  "
+"Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, "
+"94041, USA."
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:40
 msgctxt "deed.no_endorsement"
@@ -2824,7 +2828,7 @@ msgstr ""
 #: c/engine/licenses/standard_templates/deed.pt:192
 msgctxt "deed.fair_use.help.title"
 msgid "What does \"Fair use\" mean?"
-msgstr ""
+msgstr "\"フェアユース\"というのは何を意味していますか？"
 
 #: c/engine/licenses/standard_templates/deed.pt:196
 msgctxt "deed.fair_use.help"
@@ -2835,6 +2839,7 @@ msgid ""
 "              users under those copyright limitations and exceptions,\n"
 "              such as fair use and fair dealing where applicable."
 msgstr ""
+"全ての管轄地で、許諾なしでも著作物を利用することが何らかの限定された範囲内で認められています。CCライセンスは利用者が持つこのような著作権の制限や例外規定に関する権利（フェアユースやフェア・ディーリングなどが適用されうる場面ではそれらも含め）には影響を与えません。"
 
 #: c/engine/licenses/standard_templates/deed.pt:208
 msgctxt "deed.moralrights.help.title"
@@ -2851,6 +2856,7 @@ msgid ""
 " which may provide some redress if a derivative work represents a "
 "\"derogatory treatment\" of the licensor's work."
 msgstr ""
+"世界中のほとんどの管轄地の著作権法は、ライセンサーの意向に反する派生著作物や集合著作物中での作品の使用に対して、ライセンサーが自分の氏名の表示を除去するようリクエストする権利と、それに加えて派生著作物が「名誉声望をそこなうような扱い」にあたる場合に何らかの救済を与えることのある「著作者人格権」を認めるものになっています。（米国は非常に限られた条件下でしかこのような権利を認めない点で顕著な例外となっています）"
 
 #: c/engine/licenses/standard_templates/deed.pt:233
 msgctxt "deed.publicity_rights.help"
@@ -2863,6 +2869,7 @@ msgid ""
 "              work may need to get permission from those individuals\n"
 "              before using the work for commercial purposes."
 msgstr ""
+"パブリシティ権は自分の声、イメージ、容姿がどのように公的な場で商業利用されるかについて、個々人がコントロールすることを認めるものです。CCライセンスされた作品が、ライセンサー以外の人の声またはイメージを含んでいる場合には、その作品を商業利用する場合にはそのような人から許諾を得ることが必要になる場合があります。"
 
 #: c/engine/macros_templates/metadata.pt:24
 #: c/engine/macros_templates/metadata.pt:59
@@ -2911,7 +2918,7 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-2.pt:47
 msgctxt "util.fields_required"
 msgid "(all fields are required)"
-msgstr ""
+msgstr "(全ての欄への記入が必要です)"
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:16
 #: c/engine/pd/templates/publicdomain-4.pt:17
@@ -2924,7 +2931,7 @@ msgstr ""
 #: c/engine/publicdomain/templates/index.pt:14
 msgctxt "license.pdtools.title"
 msgid "Our Public Domain Tools"
-msgstr ""
+msgstr "パブリック・ドメイン・ツール"
 
 #: c/engine/publicdomain/templates/index.pt:16
 msgctxt "license.pdtools.intro"
@@ -3518,7 +3525,7 @@ msgstr ""
 msgctxt "deed.help.citation"
 msgid ""
 "Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
+msgstr "この作品に簡単に言及するには、こちらのHTMLコードをあなたのウェブページへ組み込んでください。"
 
 #. Default: "Moral Rights"
 #: licenses/pdmark_deed.pt:178
@@ -3779,7 +3786,7 @@ msgstr ""
 #: util.py:460
 msgctxt "license.info_email_subject"
 msgid "Your Creative Commons License Information"
-msgstr ""
+msgstr "あなたのクリエイティブ・コモンズ・ライセンス情報"
 
 #. Default: "This work is free of known copyright restrictions."
 #: cc/license/formatters/classes.py:313
