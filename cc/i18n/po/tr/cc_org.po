@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
 "POT-Creation-Date: 2011-08-30 16:25-0400\n"
-"PO-Revision-Date: 2011-09-28 20:57+0000\n"
+"PO-Revision-Date: 2011-09-28 22:05+0000\n"
 "Last-Translator: fakandere <f.akandere@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.net/projects/p/CC/team/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -187,7 +187,7 @@ msgstr "Creative Commons Lisansı"
 #: c/engine/pd/templates/publicdomain-4.pt:25
 msgctxt "license.mark_content"
 msgid "mark content"
-msgstr "mark content"
+msgstr "içerik işaretle"
 
 msgctxt "country.be"
 msgid "Belgium"
@@ -215,7 +215,7 @@ msgstr ""
 
 msgctxt "deed.back_to_cc"
 msgid "back to <a href=\"/\">Creative Commons</a>"
-msgstr "<a href=\"/\">Creative Commons</a>'a geri dön"
+msgstr "<a href=\"/\">Creative Commons</a>&rsquo;a geri dön"
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:46
 msgctxt "deed.bsd_notice"
@@ -251,8 +251,8 @@ msgid ""
 "This ${work_type} is licensed under a <a rel=\"license\" "
 "href=\"${license_url}\">Creative Commons ${license_name} License</a>."
 msgstr ""
-"This ${work_type} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+"Bu ${work_type} <a rel=\"license\" href=\"${license_url}\">Creative Commons "
+"${license_name} Lisansı</a> ile lisanslanmıştır."
 
 msgctxt "license.rdfa_licensed_no_title"
 msgid ""
@@ -399,8 +399,8 @@ msgid ""
 "Permissions beyond the scope of this license may be available at "
 "${more_perms_link}."
 msgstr ""
-"Permissions beyond the scope of this license may be available at "
-"${more_perms_link}."
+"Bu lisansın kapsamı dışındaki izinler ${more_perms_link} adresinde mevcut "
+"olabilir."
 
 msgctxt "country.in"
 msgid "India"
@@ -609,11 +609,11 @@ msgstr "Eserinizin biçimi:"
 
 msgctxt "country.cl"
 msgid "Chile"
-msgstr "Chile"
+msgstr "Şili"
 
 msgctxt "lang.nso"
 msgid "Northern Sotho"
-msgstr "Northern Sotho"
+msgstr "Kuzey Sotho"
 
 #: c/engine/chooser_pages/index.pt:222
 msgctxt "util.CC_GNU_LGPL"
@@ -643,7 +643,7 @@ msgstr "Sırbistan"
 
 msgctxt "country.kr"
 msgid "South Korea"
-msgstr ""
+msgstr "Güney Kore"
 
 #: c/engine/chooser_pages/partner/index.pt:69
 msgctxt "license.a6"
@@ -807,7 +807,7 @@ msgstr "Nijerya"
 
 msgctxt "jswidget.Licensor_permits_others_to_make_derivative_works"
 msgid "Licensor permits others to make derivative works"
-msgstr "Lisans sahibi eserin türetilmesine izin veriyor"
+msgstr "Lisans sahibi eserin türetilmesine izin vermektedir."
 
 msgctxt "country.us"
 msgid "United States"
@@ -822,11 +822,11 @@ msgid ""
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">emailed to yourself.</a>"
 msgstr ""
-"Select the contents of the box above and copy it. Or, have it <a "
-"href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open('work-"
-"html-popup?${url_vars}', 'html_help', "
+"Aşağıdaki kutunun içeriğini seçin ve kopyalayın. ya da <a href=\"/license"
+"/work-html-popup?${url_vars}\" onclick=\"window.open('work-html-"
+"popup?${url_vars}', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">emailed to yourself.</a>"
+" false;\">email adresinize gönderin.</a>"
 
 msgctxt "license.q1"
 msgid ""
@@ -896,17 +896,17 @@ msgid ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 msgstr ""
-"<strong>Allow modifications of your work?</strong> (<a "
+"<strong>Çalışmanızda değişiklik yapılmasına izin verilsin mi?</strong> (<a "
 "href=\"/characteristic/nd?lang=${lang}\" "
 "onclick=\"window.open('/characteristic/nd?lang=${lang}', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">more info</a> <a href=\"/characteristic/nd?lang=${lang}\" "
+" false;\">daha fazla bilgi</a> <a href=\"/characteristic/nd?lang=${lang}\" "
 "onclick=\"window.open('/characteristic/nd?lang=${lang}', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+"alt=\"daha fazla bilgi\" border=\"0\" /></a>)"
 
 #: c/engine/chooser_pages/htmlpopup.pt:24
 msgctxt "license.html_directions"
@@ -979,6 +979,11 @@ msgid ""
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">add this text</a> to your work."
 msgstr ""
+"İnternet dışı bir dökümanı işaretlemek için <a href=\"non-web-"
+"popup?${url_vars}\" onclick=\"window.open('non-web-popup?${url_vars}', "
+"'html_help', "
+"'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
+" false;\">bu metni</a> çalışmanıza ekleyiniz."
 
 msgctxt "char.nc_description"
 msgid ""
@@ -996,7 +1001,7 @@ msgstr "İspanyolca (MX)"
 
 msgctxt "util.publish"
 msgid "publish"
-msgstr "publish"
+msgstr "yayınla"
 
 #: c/engine/macros_templates/deed.pt:153
 msgctxt "deed.human_summary"
@@ -1004,8 +1009,8 @@ msgid ""
 "This is a human-readable summary of the <a href=\"legalcode\" "
 "class=\"fulltext\">Legal Code (the full license)</a>."
 msgstr ""
-"This is a human-readable summary of the <a href=\"legalcode\" "
-"class=\"fulltext\">Legal Code (the full license)</a>."
+"Bu <a href=\"legalcode\" class=\"fulltext\">Hukuki Yasa (tam lisans)'nın</a>"
+" okunabilir özetidir."
 
 #: c/engine/pd/templates/publicdomain-2.pt:46
 msgctxt "util.proceed"
@@ -1014,15 +1019,15 @@ msgstr "devam et"
 
 msgctxt "license.LGPL_name_full"
 msgid "GNU Lesser General Public License"
-msgstr "GNU Lesser General Public License"
+msgstr "GNU Kısıtlı Genel Kamu Lisansı"
 
 msgctxt "util.more"
 msgid "more"
-msgstr "more"
+msgstr "dahası"
 
 msgctxt "lang.en_US"
 msgid "English (US)"
-msgstr "English (US)"
+msgstr "İngilizce (US)"
 
 #: c/engine/macros_templates/metadata.pt:52
 msgctxt "util.attribute_to_name"
@@ -1050,7 +1055,7 @@ msgstr ""
 #: c/engine/macros_templates/deed.pt:117
 msgctxt "lang.en"
 msgid "English"
-msgstr "English"
+msgstr "İngilizce"
 
 msgctxt "lang.eo"
 msgid "Esperanto"
@@ -1108,7 +1113,7 @@ msgstr ""
 
 msgctxt "lang.sv"
 msgid "Swedish"
-msgstr "Swedish"
+msgstr "İsveç"
 
 #: c/engine/chooser_pages/htmlpopup.pt:15
 msgctxt "license.html_display"
@@ -1122,12 +1127,12 @@ msgstr "Basque"
 
 msgctxt "lang.en_CA"
 msgid "English (CA)"
-msgstr "English (CA)"
+msgstr "İngilizce (CA)"
 
 #: c/engine/macros_templates/deed.pt:104
 msgctxt "lang.es"
 msgid "Spanish"
-msgstr "Spanish"
+msgstr "İspanyolca"
 
 #: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
 #: c/engine/licenses/devnations_templates/deed.pt:47
@@ -1169,11 +1174,11 @@ msgstr ""
 
 msgctxt "country.hu"
 msgid "Hungary"
-msgstr "Hungary"
+msgstr "Macaristan"
 
 msgctxt "country.hr"
 msgid "Croatia"
-msgstr "Croatia"
+msgstr "Hırvatistan"
 
 #: c/engine/chooser_pages/sampling.pt:111
 msgctxt "license.sampling_get"
@@ -1218,7 +1223,7 @@ msgstr ""
 
 msgctxt "lang.es_CO"
 msgid "Spanish (CO)"
-msgstr "Spanish (CO)"
+msgstr "İspanyolca (CO)"
 
 #: c/engine/pd/templates/publicdomain-4.pt:42
 #: c/engine/chooser_pages/gpl.pt:110 c/engine/chooser_pages/lgpl.pt:113
@@ -1229,16 +1234,16 @@ msgstr "Get HTML and email it to yourself"
 #: c/engine/macros_templates/metadata.pt:38
 msgctxt "util.Interactive"
 msgid "Interactive"
-msgstr "Interactive"
+msgstr "Interaktif"
 
 #: c/engine/chooser_pages/htmlpopup.pt:27
 msgctxt "license.html_email"
 msgid "Enter your email address to get the HTML by email:"
-msgstr "Enter your email address to get the HTML by email:"
+msgstr "HTML kodunu e-posta yolu ile almak için e-posta adresinizi girin:"
 
 msgctxt "util.Next_step"
 msgid "Next step:"
-msgstr "Next step:"
+msgstr "Sonraki adım:"
 
 #: c/engine/chooser_pages/index.pt:198
 msgctxt "license.or_choose"
@@ -1276,11 +1281,11 @@ msgstr "Learn how to distribute your work using this license"
 #: c/engine/chooser_pages/htmlpopup.pt:41
 msgctxt "util.Send"
 msgid "Send"
-msgstr "Send"
+msgstr "Gönder"
 
 msgctxt "lang.zh_TW"
 msgid "Chinese (Taiwan)"
-msgstr "Chinese (Taiwan)"
+msgstr "Çince (Tayvan)"
 
 #: c/engine/macros_templates/metadata.pt:84
 msgctxt "jargon.source_work_description"
@@ -1305,12 +1310,12 @@ msgstr ""
 #: c/engine/macros_templates/metadata.pt:34
 msgctxt "util.Image"
 msgid "Image"
-msgstr "Image"
+msgstr "Görüntü"
 
 #: c/engine/macros_templates/metadata.pt:28
 msgctxt "util.Other"
 msgid "Other"
-msgstr "Other"
+msgstr "Diğer"
 
 #: c/engine/pd/templates/publicdomain-partner.pt:31
 #: c/engine/chooser_pages/partner/results.pt:35
@@ -1334,7 +1339,7 @@ msgstr "Public Domain"
 
 msgctxt "lang.zh"
 msgid "Chinese"
-msgstr "Chinese"
+msgstr "Çince"
 
 msgctxt "lang.zh_CN"
 msgid "Chinese"
@@ -1343,11 +1348,11 @@ msgstr "Chinese"
 #: c/engine/chooser_pages/results.pt:59
 msgctxt "license.have_your_own_website"
 msgid "Have your own website?"
-msgstr "Have your own website?"
+msgstr "Bir websitesine sahip misiniz?"
 
 msgctxt "lang.ja"
 msgid "Japanese"
-msgstr "Japanese"
+msgstr "Japonca"
 
 #: c/engine/chooser_pages/sampling.pt:53
 msgctxt "license.sampling_title"
@@ -1356,7 +1361,7 @@ msgstr "Choose Your Sampling License Options"
 
 msgctxt "country.jp"
 msgid "Japan"
-msgstr "Japan"
+msgstr "Japonya"
 
 msgctxt "deed.free_commercial"
 msgid "to make commercial use of the work"
@@ -1368,7 +1373,7 @@ msgstr "to make commercial use of the work"
 #: c/engine/chooser_pages/sampling.pt:74
 msgctxt "util.more_info"
 msgid "more info"
-msgstr "more info"
+msgstr "daha fazla bilgi"
 
 msgctxt "nav.select_a_jurisdiction"
 msgid "Select a jurisdiction"
@@ -1400,11 +1405,11 @@ msgstr ""
 
 msgctxt "country.jo"
 msgid "Jordan"
-msgstr "Jordan"
+msgstr "Ürdün"
 
 msgctxt "country.es-ca"
 msgid "Catalonia"
-msgstr "Catalonia"
+msgstr "Katalonya"
 
 #: c/engine/pd/templates/publicdomain-4.pt:41
 #: c/engine/chooser_pages/gpl.pt:107 c/engine/chooser_pages/lgpl.pt:110
@@ -1423,11 +1428,11 @@ msgstr "You may not alter, transform, or build upon this work."
 #: c/engine/chooser_pages/partner/index.pt:86
 msgctxt "util.Generic"
 msgid "Generic"
-msgstr "Generic"
+msgstr "Kapsamlı"
 
 msgctxt "lang.es_AR"
 msgid "Spanish (AR)"
-msgstr "Spanish (AR)"
+msgstr "İspanyolca (AR)"
 
 #: c/engine/macros_templates/metadata.pt:66
 #: c/engine/macros_templates/metadata.pt:82
@@ -1446,11 +1451,11 @@ msgstr ""
 
 msgctxt "country.au"
 msgid "Australia"
-msgstr "Australia"
+msgstr "Avustralya"
 
 msgctxt "country.at"
 msgid "Austria"
-msgstr "Austria"
+msgstr "Avusturya"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:19
 msgctxt "license.non_web_pd"
@@ -1463,7 +1468,7 @@ msgstr ""
 
 msgctxt "country.ar"
 msgid "Argentina"
-msgstr "Argentina"
+msgstr "Arjantin"
 
 #: c/engine/licenses/standard_templates/deed.pt:77
 msgctxt "deed.superseded"
@@ -1501,15 +1506,15 @@ msgstr "Allow Remixing"
 #: c/engine/macros_templates/metadata.pt:16
 msgctxt "license.hide_optional_fields"
 msgid "Hide these fields (All fields are optional)"
-msgstr "Hide these fields (All fields are optional)"
+msgstr "Bu alanları gizle (Tüm alanlar isteğe bağlıdır)"
 
 msgctxt "country.pt"
 msgid "Portugal"
-msgstr "Portugal"
+msgstr "Portekiz"
 
 msgctxt "license.GPL_name_full"
 msgid "GNU General Public License"
-msgstr "GNU General Public License"
+msgstr "GNU Genel Kamu Lisansı"
 
 msgctxt "lang.af"
 msgid "Afrikaans"
@@ -1547,7 +1552,7 @@ msgstr ""
 
 msgctxt "country.sk"
 msgid "Slovak Republic"
-msgstr "Slovak Republic"
+msgstr "Slovak Cumhuriyeti"
 
 #: c/engine/chooser_pages/results.pt:61
 msgctxt "license.copy_text"
@@ -1555,16 +1560,16 @@ msgid ""
 "Copy the text below to your Web site to let your visitors know what license "
 "applies to your works."
 msgstr ""
-"Copy the text below to your Web site to let your visitors know what license "
-"applies to your works."
+"Ziyaretçilerinizi, çalışmalarınız üzerinde nasıl bir telif hakkı olduğunu "
+"belirtmek için aşağıdaki metni web sitenize kopyalayınız."
 
 msgctxt "lang.he"
 msgid "Hebrew"
-msgstr "Hebrew"
+msgstr "İbranice"
 
 msgctxt "license.learn_mark"
 msgid "learn how to mark your content"
-msgstr "learn how to mark your content"
+msgstr "içeriğinizi nasıl işaretleyeceğinizi öğrenin"
 
 msgctxt "country.sg"
 msgid "Singapore"
@@ -1601,15 +1606,15 @@ msgstr "Slovenya"
 
 msgctxt "lang.hr"
 msgid "Croatian"
-msgstr "Croatian"
+msgstr "Hırvatça"
 
 msgctxt "country.scotland"
 msgid "UK: Scotland"
-msgstr "UK: Scotland"
+msgstr "UK: İngiltere"
 
 msgctxt "country.ua"
 msgid "Ukraine"
-msgstr "Ukraine"
+msgstr "Ukrayna"
 
 #: c/engine/licenses/fsf_templates/deed.pt:24
 #: c/engine/licenses/devnations_templates/deed.pt:25
@@ -1624,7 +1629,7 @@ msgstr ""
 
 msgctxt "country.ca"
 msgid "Canada"
-msgstr "Canada"
+msgstr "Kanada"
 
 msgctxt "country.co"
 msgid "Colombia"
@@ -1632,7 +1637,7 @@ msgstr "Kolombiya"
 
 msgctxt "country.cn"
 msgid "China Mainland"
-msgstr "China Mainland"
+msgstr "Çin Halk Cumhuriyeti"
 
 msgctxt "licenses.pretty_GPL"
 msgid "GPL"
@@ -1667,7 +1672,7 @@ msgstr ""
 
 msgctxt "country.ch"
 msgid "Switzerland"
-msgstr "Switzerland"
+msgstr "İsviçre"
 
 #: c/engine/chooser_pages/results.pt:105
 msgctxt "license.publish_flickr"
@@ -1684,7 +1689,7 @@ msgstr ""
 
 msgctxt "country.cz"
 msgid "Czech Republic"
-msgstr "Czech Republic"
+msgstr "Çek Cumhuriyeti"
 
 msgctxt "licenses.pretty_nd-nc"
 msgid "NoDerivs-NonCommercial"
@@ -1896,6 +1901,9 @@ msgid ""
 "href=\"http://wiki.creativecommons.org/Website/Publish\">Read our "
 "tutorial</a>."
 msgstr ""
+"Daha fazla yardıma ihtiyacınız mı var? <a "
+"href=\"http://wiki.creativecommons.org/Website/Publish\">Bilgilendiricimizi "
+"okuyun</a>."
 
 msgctxt "country.fi"
 msgid "Finland"
@@ -2068,7 +2076,7 @@ msgstr ""
 
 msgctxt "license.learn_publicize"
 msgid "Learn how to publicize and share your work"
-msgstr "Learn how to publicize and share your work"
+msgstr "Çalışmalarınızı nasıl duyurup, paylaşacağınızı öğrenin"
 
 #: c/engine/macros_templates/deed.pt:135
 msgctxt "deed.lgpl_human_summary"
@@ -2092,9 +2100,9 @@ msgid ""
 "is also available."
 msgstr ""
 "This is a human-readable summary of the Legal Code (the full <a "
-"href=\"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General "
-"Public License</a>). A <a href=\"legalcode.pt\">Portuguese translation</a> "
-"is also available."
+"href=\"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU Genel "
+"Kamu Lisansı</a>). A <a href=\"legalcode.pt\">Portuguese translation</a> is "
+"also available."
 
 #: c/engine/chooser_pages/partner/index.pt:117
 msgctxt "license.partner_note"
@@ -2534,6 +2542,8 @@ msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
 msgstr ""
+"Bu <a href=\"./legalcode\">Hukuki Yasa'nın (tam metni okuyun)</a> okunabilir"
+" özetidir."
 
 #. Default: "No Copyright"
 #: c/engine/licenses/zero_templates/deed.pt:30
@@ -4289,7 +4299,7 @@ msgstr ""
 #: catalog_pages/licenses-index.pt:165
 msgctxt "license.index.the_licenses.title"
 msgid "The Licenses"
-msgstr ""
+msgstr "Lisanlar"
 
 #. Default: "License design and rationale"
 #: catalog_pages/licenses-index.pt:46
@@ -4381,6 +4391,8 @@ msgid ""
 "<a href=\"http://creativecommons.org/choose\">Try out our simple <em>License"
 " Chooser</em></a>."
 msgstr ""
+"<a href=\"http://creativecommons.org/choose\">Basit <em>Lisans "
+"Seçici</em>mizi deneyin</a>."
 
 #. Default: "Three “Layers” Of Licenses"
 #: catalog_pages/licenses-index.pt:98
@@ -4530,7 +4542,7 @@ msgstr ""
 #: catalog_pages/licenses-index.pt:13
 msgctxt "util.About_The_Licenses"
 msgid "About The Licenses"
-msgstr ""
+msgstr "Lisanslar Hakkında"
 
 #. Default: "View License Deed"
 #: catalog_pages/licenses-index.pt:190 catalog_pages/licenses-index.pt:228
@@ -4599,11 +4611,11 @@ msgstr ""
 #: chooser_pages/results.pt:166
 msgctxt "license.mark_video"
 msgid "Learn how to mark video and other formats."
-msgstr ""
+msgstr "Video ve diğer biçimleri nasıl işaretleyeceğinizi öğrenin."
 
 msgctxt "lang.fa"
 msgid "Persian"
-msgstr ""
+msgstr "Farsça"
 
 #. Default: "Dataset"
 #: macros_templates/metadata.pt:48
