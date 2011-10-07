@@ -44,3 +44,10 @@ def ugettext_for_locale(locale, mo_path=MO_PATH):
             locale, mo_path).ugettext(message).decode('utf-8')
 
     return _wrapped_ugettext
+
+
+def fake_ugettext(string):
+    """
+    Fake that we're making a gettext call for extraction purposes.
+    """
+    return string
