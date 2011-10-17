@@ -23,11 +23,11 @@ def translations_for_locale(locale, mo_path=MO_PATH):
     translations = None
 
     for lang in langs:
-        mo_path = os.path.join(MO_PATH, lang, 'LC_MESSAGES', 'cc_org.mo')
-        if not os.path.exists(mo_path):
+        full_mo_path = os.path.join(mo_path, lang, 'LC_MESSAGES', 'cc_org.mo')
+        if not os.path.exists(full_mo_path):
             continue
 
-        this_trans = gettext.GNUTranslations(open(mo_path, 'rb'))
+        this_trans = gettext.GNUTranslations(open(full_mo_path, 'rb'))
 
         if translations is None:
             translations = this_trans
