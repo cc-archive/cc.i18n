@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
 "POT-Creation-Date: 2011-10-19 15:22-0500\n"
-"PO-Revision-Date: 2011-10-19 20:33+0000\n"
-"Last-Translator: cc_cronuser <webmaster@creativecommons.org>\n"
+"PO-Revision-Date: 2011-11-03 16:57+0000\n"
+"Last-Translator: kire <kire@metamorphosis.org.mk>\n"
 "Language-Team: Macedonian (http://www.transifex.net/projects/p/CC/team/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,7 +58,7 @@ msgstr ""
 
 #: c/engine/chooser_pages/index.pt:88
 msgid "Yes, as long as others share alike"
-msgstr ""
+msgstr "Да, сè додека другите споделуваат под исти услови"
 
 #: c/engine/licenses/sampling_templates/deed.pt:31
 msgctxt "deed.free_copy_distribute_noncommercial"
@@ -560,7 +560,7 @@ msgstr "име на носителот на авторското право"
 #: c/engine/macros_templates/metadata.pt:58
 msgctxt "util.attribute_to_url"
 msgid "Attribute work to URL"
-msgstr "Attribute work to URL"
+msgstr "Наведи извор - URL"
 
 #: c/engine/chooser_pages/index.pt:195
 msgctxt "license.view_explanation"
@@ -1048,7 +1048,7 @@ msgstr "англиски (САД)"
 #: c/engine/macros_templates/metadata.pt:52
 msgctxt "util.attribute_to_name"
 msgid "Attribute work to name"
-msgstr "Attribute work to name"
+msgstr "Наведи извор - име"
 
 msgctxt "api.sampling_flavor_help"
 msgid ""
@@ -1468,7 +1468,7 @@ msgstr "шпански (АР)"
 #: c/engine/macros_templates/metadata.pt:82
 msgctxt "util.source_work"
 msgid "Source work URL"
-msgstr ""
+msgstr "URL на изворно дело"
 
 #: c/engine/chooser_pages/sampling.pt:115
 msgctxt "license.sampling_note"
@@ -1706,7 +1706,7 @@ msgstr "Швајцарија"
 #: c/engine/chooser_pages/results.pt:105
 msgctxt "license.publish_flickr"
 msgid "Post your licensed images at Flickr"
-msgstr ""
+msgstr "Објавете ги лиценцираните слики на Flickr"
 
 msgctxt "jswidget.Updated_license_jurisdiction"
 msgid ""
@@ -1806,6 +1806,10 @@ msgid ""
 "Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, "
 "94041, USA."
 msgstr ""
+"Ова дело е лиценцирано под лиценцата Криејтив комонс ${license_name}. За да "
+"погледнете примерок од оваа лиценца, посетете го ${license_url} или "
+"испратете писмо до Creative Commons, 444 Castro Street, Suite 900, Mountain "
+"View, California, 94041, USA."
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:40
 msgctxt "deed.no_endorsement"
@@ -1870,6 +1874,13 @@ msgid ""
 "services that have incorporated Creative Commons. This is not a registration"
 " and we do not retain a record of your selection."
 msgstr ""
+"Кога избирате <a "
+"href=\"http://creativecommons.org/about/licenses\">лиценца</a>, ви "
+"обезбедуваме HTML што може да го користите за да ги додадете информациите за"
+" лиценцата на вашиот веб-сајт и информации околу тоа како да изберете "
+"лиценца на еден од неколкуте бесплатни сервиси за хостинг кои ја имаат "
+"инкорпорирано Криејтив комонс. Ова не претставува регистрација и не "
+"задржуваме запис за избраната лиценца."
 
 #: c/engine/pd/templates/publicdomain-4.pt:27
 msgctxt "license.mark_pd"
@@ -2037,15 +2048,15 @@ msgstr "СподелиПодИстиУслови"
 #: c/engine/chooser_pages/results.pt:111
 msgctxt "license.publish_blog"
 msgid "Add a Creative Commons license to your blog"
-msgstr ""
+msgstr "Додадете лиценца Криејтив комонс на вашиот блог"
 
 msgctxt "lang.pt"
 msgid "Portuguese"
-msgstr ""
+msgstr "Португалски"
 
 msgctxt "lang.pt_BR"
 msgid "Portuguese (BR)"
-msgstr ""
+msgstr "португалски (Бразил)"
 
 #: c/engine/licenses/fsf_templates/deed.pt:75
 #: c/engine/licenses/devnations_templates/deed.pt:51
@@ -2397,19 +2408,23 @@ msgstr ""
 
 #: e/macros_templates/metadata.pt:140
 msgid "The title of the work you are licensing."
-msgstr ""
+msgstr "Наслов на делото што го лиценцирате."
 
 #: e/macros_templates/metadata.pt:152
 msgid ""
 "The name users of the work should give attribution to. For example, the name"
 " of the work's author."
 msgstr ""
+"Името кое корисниците на делото треба да го наведат како извор. На пример, "
+"името на авторот на делото."
 
 #: e/macros_templates/metadata.pt:165
 msgid ""
 "The URL users of the work should link to. For example, the work's page on "
 "the author's site."
 msgstr ""
+"URL-адресата до која корисниците на делото треба да постават линк. На "
+"пример, страницата за делото на веб-сајтот на авторот."
 
 #: e/macros_templates/metadata.pt:178
 msgid ""
@@ -2564,7 +2579,7 @@ msgstr ""
 #: c/engine/licenses/zero_templates/deed.pt:30
 msgctxt "deed.zero.no_copyright"
 msgid "No Copyright"
-msgstr ""
+msgstr "Без авторски права"
 
 #. Default: ""
 #. "The person who associated a work with this document\n"
@@ -2606,7 +2621,7 @@ msgstr ""
 #: c/engine/zero/templates/index.pt:89
 msgctxt "util.learn_more"
 msgid "Learn more"
-msgstr ""
+msgstr "Дознајте повеќе"
 
 #. Default: "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:30
@@ -3120,7 +3135,7 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-2.pt:58
 msgctxt "util.author"
 msgid "Author"
-msgstr ""
+msgstr "Автор"
 
 #: c/engine/pd/templates/publicdomain-3.pt:118
 msgctxt "license.pdc.confirm_reading"
@@ -3212,7 +3227,7 @@ msgstr ""
 #: s/standard_templates/deed.pt:209
 msgctxt "deed.public_domain.help.title"
 msgid "What does \"Public Domain\" mean?"
-msgstr ""
+msgstr "Што значи \"Јавен домен\"?"
 
 #: s/standard_templates/deed.pt:213
 msgctxt "deed.public_domain.help"
@@ -3227,7 +3242,7 @@ msgstr ""
 
 msgctxt "lang.lt"
 msgid "Lithuanian"
-msgstr ""
+msgstr "литвански"
 
 msgctxt "lang.ur"
 msgid "Urdu"
@@ -3239,7 +3254,7 @@ msgstr ""
 
 msgctxt "lang.uk"
 msgid "Ukranian"
-msgstr ""
+msgstr "украински"
 
 msgctxt "util.Universal"
 msgid "Universal"
@@ -3247,15 +3262,15 @@ msgstr ""
 
 msgctxt "lang.ru"
 msgid "Russian"
-msgstr ""
+msgstr "руски"
 
 msgctxt "lang.be"
 msgid "Belarusian"
-msgstr ""
+msgstr "белоруски"
 
 msgctxt "lang.mn"
 msgid "Mongolian"
-msgstr ""
+msgstr "монголиски"
 
 msgctxt "lang.as"
 msgid "Assamese"
@@ -3263,11 +3278,11 @@ msgstr ""
 
 msgctxt "lang.vi"
 msgid "Vietnamese"
-msgstr ""
+msgstr "виетнамски"
 
 msgctxt "country.vn"
 msgid "Vietnam"
-msgstr ""
+msgstr "Виетнам"
 
 #: src/cc/deedscraper/templates/attribution_details.html:2
 #, python-format
@@ -3305,15 +3320,15 @@ msgstr ""
 
 msgctxt "lang.bn"
 msgid "Bengali"
-msgstr ""
+msgstr "бенгалски"
 
 msgctxt "lang.ta"
 msgid "Tamil"
-msgstr ""
+msgstr "тамилски"
 
 msgctxt "lang.is"
 msgid "Icelandic"
-msgstr ""
+msgstr "исландски"
 
 msgctxt "licenses.publicdomain_mark_title"
 msgid "Public Domain Mark"
@@ -3321,11 +3336,11 @@ msgstr ""
 
 msgctxt "lang.et"
 msgid "Estonian"
-msgstr ""
+msgstr "естонски"
 
 msgctxt "lang.ka"
 msgid "Georgian"
-msgstr ""
+msgstr "грузиски"
 
 msgctxt "lang.ast"
 msgid "Asturian"
@@ -3349,7 +3364,7 @@ msgstr ""
 #: chooser_pages/pdmark/details.pt:118
 msgctxt "util.author_name"
 msgid "Author name"
-msgstr ""
+msgstr "Име на авторот"
 
 #. Default: ""
 #. "You may list multiple authors. If unknown, you may wish to state "
@@ -3364,7 +3379,7 @@ msgstr ""
 #: chooser_pages/pdmark/details.pt:132
 msgctxt "util.author_url"
 msgid "Author URL"
-msgstr ""
+msgstr "URL на авторот"
 
 #. Default: ""
 #. "This may be the URL where the author published the work online, or the "
@@ -3386,19 +3401,19 @@ msgstr ""
 #: chooser_pages/pdmark/details.pt:152
 msgctxt "util.name"
 msgid "Name"
-msgstr ""
+msgstr "Име"
 
 #. Default: "Identify yourself here."
 #: chooser_pages/pdmark/details.pt:157
 msgctxt "license.mark.curator_help"
 msgid "Identify yourself here."
-msgstr ""
+msgstr "Идентификувајте се овде."
 
 #. Default: "URL"
 #: chooser_pages/pdmark/details.pt:165
 msgctxt "util.url"
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. Default: ""
 #. "This may be your main website or the information page about you on a "
@@ -3442,13 +3457,13 @@ msgstr ""
 #: chooser_pages/pdmark/details.pt:96
 msgctxt "util.work_information"
 msgid "Work Information"
-msgstr ""
+msgstr "Информации за делото"
 
 #. Default: "Work name"
 #: chooser_pages/pdmark/details.pt:99
 msgctxt "util.work_name"
 msgid "Work name"
-msgstr ""
+msgstr "Име на делото"
 
 #. Default: ""
 #. "Using the Public Domain Mark, you can mark a work that is free of known "
@@ -4086,19 +4101,19 @@ msgstr ""
 #: catalog_pages/licenses-index.pt:13
 msgctxt "util.Creative_Commons_Licenses"
 msgid "Creative Commons Licenses"
-msgstr ""
+msgstr "Лиценци Криејтив комонс"
 
 #. Default: "Characteristics"
 #: catalog_pages/licenses-index.pt:29
 msgctxt "util.characteristics"
 msgid "Characteristics"
-msgstr ""
+msgstr "Карактеристики"
 
 #. Default: "International"
 #: chooser_pages/index.pt:149 chooser_pages/index.pt:166
 msgctxt "util.International"
 msgid "International"
-msgstr ""
+msgstr "Меѓународен"
 
 #. Default: "CC0: Waiver"
 #: chooser_pages/zero/waiver.pt:8
@@ -4108,31 +4123,31 @@ msgstr ""
 
 msgctxt "lang.tr"
 msgid "Turkish"
-msgstr ""
+msgstr "турски"
 
 msgctxt "lang.pt_PT"
 msgid "Portuguese (Portugal)"
-msgstr ""
+msgstr "португалски (Португалија)"
 
 msgctxt "lang.id"
 msgid "Indonesian"
-msgstr ""
+msgstr "индонезиски"
 
 msgctxt "lang.hy"
 msgid "Armenian"
-msgstr ""
+msgstr "ерменски"
 
 msgctxt "lang.ga"
 msgid "Irish"
-msgstr ""
+msgstr "ирски"
 
 msgctxt "lang.es_ES"
 msgid "Spanish (Spain)"
-msgstr ""
+msgstr "шпански (Шпанија)"
 
 msgctxt "lang.az"
 msgid "Azerbaijani"
-msgstr ""
+msgstr "азербејџански"
 
 msgctxt "lang.ml"
 msgid "Malayalam"
