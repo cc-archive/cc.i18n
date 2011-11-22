@@ -7,6 +7,7 @@ import os
 import pkg_resources
 
 from cc.i18n.tools.transstats import CSV_HEADERS, DEFAULT_CSV_FILE
+from cc.i18n import mappers
 
 
 MO_PATH = pkg_resources.resource_filename(
@@ -111,9 +112,9 @@ def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
     for code in qualified_langs:
         from cc.i18n.gettext_i18n import ugettext_for_locale
         gettext = ugettext_for_locale(code)
-        name = gettext(u'lang.%s' % code)
-        if name != u'lang.%s' % code:
+        if code in mappers.LANG_MAP:
             # we have a translation for this name...
+            name = gettext(mappers.LANG_MAP[code])
             result.append(dict(code=code, name=name))
 
     result = sorted(result, key=lambda lang: lang['name'].lower())
