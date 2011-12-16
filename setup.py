@@ -36,7 +36,9 @@ setup(
         'zope.interface',
         'python-gettext',
         'polib',
-        'nose'],
+        'nose',
+        'rdflib<3.0',
+        ],
 
     dependency_links = [
         'http://code.creativecommons.org/basket/',
@@ -49,14 +51,17 @@ setup(
             'update = cc.i18n.tools.update:cli',
             'report = cc.i18n.tools.report:cli',
             'transstats = cc.i18n.tools.transstats:cli',
-            # 'compile_mo = cc.i18n.tools.compile_mo:compile_mo_files',
-            # 'po2cc = cc.i18n.tools.po2cc:cli',
+            'compile_mo = cc.i18n.tools.compile_mo:compile_mo_files',
+            'po2cc = cc.i18n.tools.po2cc:cli',
             ],
         'zc.buildout': [
             'po2cc = cc.i18n.tools.po2cc:Po2CCRecipe',
             'compile_mo = cc.i18n.tools.compile_mo:CompileMORecipe',
             'transstats = cc.i18n.tools.transstats:TransStatsRecipe',
-            ]
+            ],
+        'babel.extractors': [
+            'ccrdf = cc.i18n.tools.extractors:extract_translations_from_rdf',
+            ],
         },
 
     # author metadata

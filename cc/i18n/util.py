@@ -7,7 +7,6 @@ import os
 import pkg_resources
 
 from cc.i18n.tools.transstats import CSV_HEADERS, DEFAULT_CSV_FILE
-from cc.i18n import mappers
 
 
 MO_PATH = pkg_resources.resource_filename(
@@ -91,6 +90,8 @@ def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
       for each available language.
       An unsorted set of all qualified language codes
     """
+    from cc.i18n import mappers
+
     cache_key = (threshold, trans_file, append_english)
 
     if CACHED_WELL_TRANSLATED_LANGS.has_key(cache_key):
@@ -109,6 +110,7 @@ def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
     # this loop is long hand for clarity; it's only done once, so
     # the additional performance cost should be negligible
     result = []
+
     for code in qualified_langs:
         from cc.i18n.gettext_i18n import ugettext_for_locale
         gettext = ugettext_for_locale(code)
