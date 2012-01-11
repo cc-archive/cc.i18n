@@ -9,7 +9,7 @@ from stat import ST_MTIME
 
 
 I18N_PATH = pkg_resources.resource_filename(
-    'cc.i18n', 'i18n')
+    'cc.i18n', 'po')
 MO_FILES_BASE = pkg_resources.resource_filename(
     'cc.i18n', 'mo')
 
