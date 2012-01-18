@@ -64,6 +64,36 @@ def test_get_all_trans_stats():
     assert results == expected
 
 
+def test_get_all_supported_languages():
+    """
+    Test the util.get_all_supported_languages function.
+    """
+    temp_dir = tempfile.mkdtemp()
+
+    # write a fake CSV file
+    transstats = os.path.join(temp_dir, 'transstats.csv')
+    ts_file = file(transstats, 'w')
+    ts_file.write(
+        ('es_AR,564,343,27,60\n'
+         'en_US,564,0,1,0\n'
+         'hr,564,447,17,79\n'
+         'no,564,400,14,70'))
+    ts_file.close()
+
+    expected = set(['es_AR', 'es_US', 'hr', 'no'])
+    results = util.get_all_supported_languages(transstats)
+    assert results == expected
+
+    # make sure it cached the old results
+    assert util.CACHED_LANGUAGES_SUPPORTED[transstats] == expected
+
+    # make sure the cache is actually used
+    bs_results = set(["the internet", "near space altitude"]);
+    util.CACHED_LANGUAGES_SUPPORTED[transstats] = bs_results
+    results = util.get_all_supported_languages(transstats)
+    assert results == bs_results
+
+
 def test_get_well_translated_langs():
     """
     Test the util.get_well_translated_langs function.
