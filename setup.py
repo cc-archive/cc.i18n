@@ -24,7 +24,7 @@ setup(
     name='cc.i18n',
     namespace_packages = ['cc',],
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
-    version = "0.2",
+    version = "0.3",
     include_package_data = True,
     zip_safe = False,
 
