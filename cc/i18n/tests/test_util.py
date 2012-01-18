@@ -80,7 +80,7 @@ def test_get_all_supported_languages():
          'no,564,400,14,70'))
     ts_file.close()
 
-    expected = set(['es_AR', 'es_US', 'hr', 'no'])
+    expected = set(['es_AR', 'en_US', 'hr', 'no'])
     results = util.get_all_supported_languages(transstats)
     assert results == expected
 
