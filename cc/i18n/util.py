@@ -66,6 +66,17 @@ def get_all_trans_stats(trans_file=DEFAULT_CSV_FILE):
     return stats
 
 
+CACHED_LANGUAGES_SUPPORTED = {}
+def get_all_supported_languages(trans_file=DEFAULT_CSV_FILE):
+
+    if CACHED_LANGUAGES_SUPPORTED.has_key(trans_file):
+        return CACHED_LANGUAGES_SUPPORTED[trans_file]
+    
+    supported = set(get_all_trans_stats(trans_file).keys())
+    CACHED_LANGUAGES_SUPPORTED[trans_file] = supported
+    return supported
+
+
 CACHED_WELL_TRANSLATED_LANGS = {}
 def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
                               trans_file=DEFAULT_CSV_FILE,
