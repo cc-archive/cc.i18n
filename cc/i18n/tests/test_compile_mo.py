@@ -11,49 +11,43 @@ def test_compile_mo_files():
     have the appropriate output
     """
     output_dir = tempfile.mkdtemp()
-    fake_i18ndir = pkg_resources.resource_filename(
-        'cc.i18n.tests', 'fake_i18ndir')
+    fake_podir = pkg_resources.resource_filename(
+        'cc.i18n.tests', 'fake_podir')
 
-    compile_mo_files(fake_i18ndir, output_dir)
+    compile_mo_files(fake_podir, output_dir)
 
     expected_translations = {
         'en': {
-            'country.nz': 'New Zealand',
-            'licenses.pretty_sampling': 'Sampling',
-            'license.rdfa_licensed':
-                ('${work_title} by ${work_author} is licensed under a '
-                 '<a rel="license" href="${license_url}">Creative Commons '
-                 '${license_name} License</a>.')},
+            'New Zealand': 'New Zealand',
+            'Sampling': 'Sampling',
+            ('%(work_title)s by %(work_author)s is licensed under a '
+             '<a rel="license" href="%(license_url)s">Creative Commons '
+             '%(license_name)s License</a>.'):
+                ('%(work_title)s by %(work_author)s is licensed under a '
+                 '<a rel="license" href="%(license_url)s">Creative Commons '
+                 '%(license_name)s License</a>.')},
         'pt': {
-            'country.nz': 'Nova Zel\xc3\xa2ndia',
-            'licenses.pretty_sampling': 'Sampling',
-            'license.rdfa_licensed':
-                ('A obra ${work_title} de ${work_author} '
+            'New Zealand': 'Nova Zel\xc3\xa2ndia',
+            'Sampling': 'Sampling',
+            ('%(work_title)s by %(work_author)s is licensed under a '
+             '<a rel="license" href="%(license_url)s">Creative Commons '
+             '%(license_name)s License</a>.'):
+                ('A obra %(work_title)s de %(work_author)s '
                  'foi licenciada com uma Licen\xc3\xa7a '
-                 '<a rel="license" href="${license_url}">Creative Commons - '
-                 '${license_name}</a>.')},
+                 '<a rel="license" href="%(license_url)s">Creative Commons - '
+                 '%(license_name)s</a>.')},
         'es': {
-            'country.nz': 'Nueva Zelanda',
-            'licenses.pretty_sampling': 'Sampling',
-            'license.rdfa_licensed':
-                ('${work_title} por ${work_author} '
+            'New Zealand': 'Nueva Zelanda',
+            'Sampling': 'Sampling',
+            ('%(work_title)s by %(work_author)s is licensed under a '
+             '<a rel="license" href="%(license_url)s">Creative Commons '
+             '%(license_name)s License</a>.'):
+                ('%(work_title)s por %(work_author)s '
                  'se encuentra bajo una Licencia '
-                 '<a rel="license" href="${license_url}">Creative Commons '
-                 '${license_name}</a>.')}}
+                 '<a rel="license" href="%(license_url)s">Creative Commons '
+                 '%(license_name)s</a>.')}}
 
     for language, expected_translations in expected_translations.iteritems():
         gettext = ugettext_for_locale(language, output_dir)
         for msgid, expected_translation in expected_translations.iteritems():
             assert gettext(msgid) == expected_translation.decode('utf-8')
-
-
-def test_troublemaker_non_translating_args():
-    gettext = ugettext_for_locale('es')
-    expected = (
-        '${work_title} por ${work_author} '
-        'se encuentra bajo una Licencia '
-        '<a rel="license" href="${license_url}">Creative Commons '
-        '${license_name}</a>.').decode('utf-8')
-    result = gettext('license.rdfa_licensed')
-
-    assert result == expected

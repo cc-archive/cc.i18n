@@ -101,6 +101,8 @@ def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
       for each available language.
       An unsorted set of all qualified language codes
     """
+    from cc.i18n import mappers
+
     cache_key = (threshold, trans_file, append_english)
 
     if CACHED_WELL_TRANSLATED_LANGS.has_key(cache_key):
@@ -119,12 +121,13 @@ def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
     # this loop is long hand for clarity; it's only done once, so
     # the additional performance cost should be negligible
     result = []
+
     for code in qualified_langs:
         from cc.i18n.gettext_i18n import ugettext_for_locale
         gettext = ugettext_for_locale(code)
-        name = gettext(u'lang.%s' % code)
-        if name != u'lang.%s' % code:
+        if code in mappers.LANG_MAP:
             # we have a translation for this name...
+            name = gettext(mappers.LANG_MAP[code])
             result.append(dict(code=code, name=name))
 
     result = sorted(result, key=lambda lang: lang['name'].lower())
