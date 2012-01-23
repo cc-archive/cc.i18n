@@ -62,6 +62,7 @@ msgstr ""
 "comerciais (por exemplo, file-sharing ou webcasting não comercial)"
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
+#, python-format
 msgid ""
 "<h1>Public Domain Dedication - Email Confirmation</h1>\n"
 "\n"
@@ -102,11 +103,11 @@ msgstr ""
 "<h1> Dedicação de Domínio Público - Confirmação de envio de Email</h1>\n"
 "\n"
 "<p>\n"
-"Foi-lhe enviado um email para o endereço <b>${email}</b>. Deve recebê-lo dentro de alguns minutos.\n"
+"Foi-lhe enviado um email para o endereço <b>%(email)s</b>. Deve recebê-lo dentro de alguns minutos.\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"Este email inclui a confirmação da sua dedicação ao domínio público. Ele deve conter o título da obra (\"<b>${title}</b>\"), e o nome do titular do direito de autor da obra (\"<b>${copyright_holder}\"</b>).\n"
+"Este email inclui a confirmação da sua dedicação ao domínio público. Ele deve conter o título da obra (\"<b>%(title)s</b>\"), e o nome do titular do direito de autor da obra (\"<b>%(copyright_holder)s\"</b>).\n"
 "</p>\n"
 "\n"
 "<p>\n"
@@ -180,13 +181,13 @@ msgstr ""
 msgid "Belgium"
 msgstr "Bélgica"
 
-#, fuzzy
+#, fuzzy, python-format
 msgid ""
 "This %(work_type)s is in the <a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
 "Domain</a>."
 msgstr ""
-"Este(a) ${work_type} é dedicado ao <a rel=\"license\" href=\"http://creativecommons.org/licenses/publicdomain/\">Domínio Publico</a>.\n"
+"Este(a) %(work_type)s é dedicado ao <a rel=\"license\" href=\"http://creativecommons.org/licenses/publicdomain/\">Domínio Publico</a>.\n"
 "\n"
 "<p> AVISO IMPORTANTE\n"
 "\"A dedicação ao Domínio Público não se aplica à jurisdição portuguesa. Esta modalidade aplica-se, por exemplo, se sua obra estiver submetida ao direito dos Estados Unidos da América do Norte. Se a sua obra for regida pelo direito português, a opção \"Domínio Público\" não produzirá quaisquer efeitos jurídicos sobre sua obra. Para o Portugal, pode utilizar qualquer outra licença do Creative Commons, que são perfeitamente válidas e eficazes no ordenamento jurídico português. Pode ver essas licenças na página http://creativecommons.org/license/?lang=pt\" \n"
@@ -212,6 +213,7 @@ msgid "back to <a href=\"/\">Creative Commons</a>"
 msgstr "Voltar ao <a href=\"/\">Creative Commons</a>"
 
 #: c/engine/chooser_pages/gpl.pt:63 c/engine/chooser_pages/lgpl.pt:66
+#, python-format
 msgid ""
 "Here's how the CC-GNU %(license_code)s works: A user clicking on the "
 "Creative Commons icon gets the CC-GNU %(license_code)s \"<a "
@@ -224,14 +226,14 @@ msgid ""
 " And hidden in the tag is \"Machine-Readable Code\" — metadata — that will "
 "enable others to find your software."
 msgstr ""
-"Aqui está como funciona a CC-GNU ${license_code}: O utilizador ao clicar "
-"sobre o ícone do Creative Commons, acede a CC-GNU ${license_code} \"<a "
-"href=\"/licenses/${license_code}/${version_title}/\">Commons Deed</a>\" – "
+"Aqui está como funciona a CC-GNU %(license_code)s: O utilizador ao clicar "
+"sobre o ícone do Creative Commons, acede a CC-GNU %(license_code)s \"<a "
+"href=\"/licenses/%(license_code)s/%(version_title)s/\">Commons Deed</a>\" – "
 "uma versão em linguagem comum da licença. A partir desta, o utilizador pode "
 "aceder à \"<a href=\"http://www.gnu.org/licenses/old-"
-"licenses/${license_name_lower}.html\">Parte Jurídica</a>\" – o texto "
+"licenses/%(license_name_lower)s.html\">Parte Jurídica</a>\" – o texto "
 "completo da GNU GPL, em Inglês e em <a "
-"href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">Português</a>."
+"href=\"/licenses/%(license_code)s/%(version_title)s/legalcode.pt\">Português</a>."
 " Ocultado na tag está o \"Código passível de Leitura pela Máquina” – um "
 "metadado – que permitirá a outras pessoas encontrarem o seu software."
 
@@ -271,20 +273,21 @@ msgstr ""
 "\n"
 "<p>Exiba o ícone em qualquer site onde disponibilize o seu software para download, usando a seguinte instrução:</p>"
 
-#, fuzzy
+#, fuzzy, python-format
 msgid ""
 "This %(work_type)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr ""
-"Esta ${work_type} está licenciada sob uma <a rel=\"license\" "
-"href=\"${license_url}\">Licença Creative Commons</a>."
+"Esta %(work_type)s está licenciada sob uma <a rel=\"license\" "
+"href=\"%(license_url)s\">Licença Creative Commons</a>."
 
+#, python-format
 msgid ""
 "This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\""
 " href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr ""
-"This ${work_type} by ${work_author} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+"This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\""
+" href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 
 #: c/engine/chooser_pages/gpl.pt:46 c/engine/chooser_pages/lgpl.pt:47
 msgid ""
@@ -332,6 +335,7 @@ msgstr ""
 "\n"
 "<p>sob certas condições, deve-se frisar. Há três \"sabores\" da Licença de Sampling. Escolha a que melhor reflete o seu estilo criativo:</p>"
 
+#, python-format
 msgid ""
 "This is a record of a Public Domain Dedication.\n"
 "\n"
@@ -357,12 +361,12 @@ msgid ""
 msgstr ""
 "Este é um instrumento de registo da Dedicação ao Domínio Público.\n"
 "\n"
-"Em ${sysdate}, ${copyright_holder} dedicou ao domínio público a obra \"${title}.\" Antes de realizar o acto jurídico de dedicação, ${copyright_holder}\n"
-"declarou para todos os fins de direito ${copyright_holder} ser titular de todos os direitos de autor sobre a obra. Ao fazer esta dedicação, ${copyright_holder} executou um acto público de abdicação perpétua de todos os direitos futuros e presentes sob a lei, sejam estes direitos sujeitos a condição ou já adquiridos, sobre \"${title}.\"\n"
+"Em %(sysdate)s, %(copyright_holder)s dedicou ao domínio público a obra \"%(title)s.\" Antes de realizar o acto jurídico de dedicação, %(copyright_holder)s\n"
+"declarou para todos os fins de direito %(copyright_holder)s ser titular de todos os direitos de autor sobre a obra. Ao fazer esta dedicação, %(copyright_holder)s executou um acto público de abdicação perpétua de todos os direitos futuros e presentes sob a lei, sejam estes direitos sujeitos a condição ou já adquiridos, sobre \"%(title)s.\"\n"
 "\n"
-"${copyright_holder} declara estar ciente de que esta abdicação de todos os seus direitos incluem a abdicação de todos os direitos de exigir (judicialmente ou de qualquer outro modo) os direitos autorais sobre a Obra.\n"
+"%(copyright_holder)s declara estar ciente de que esta abdicação de todos os seus direitos incluem a abdicação de todos os direitos de exigir (judicialmente ou de qualquer outro modo) os direitos autorais sobre a Obra.\n"
 "\n"
-"${copyright_holder} reconhece que, uma vez colocada em domínio público, \"${title}\" poderá ser livremente reproduzido, distribuído, transmitido, utilizado, modificado, adaptado ou utilizado em outras obras, ou de qualquer maneira explorado por qualquer pessoa para quaisquer propósitos, comercial e não-comercial, e de qualquer maneira, incluindo por métodos que não tenham ainda sido inventados ou concebidos.\n"
+"%(copyright_holder)s reconhece que, uma vez colocada em domínio público, \"%(title)s\" poderá ser livremente reproduzido, distribuído, transmitido, utilizado, modificado, adaptado ou utilizado em outras obras, ou de qualquer maneira explorado por qualquer pessoa para quaisquer propósitos, comercial e não-comercial, e de qualquer maneira, incluindo por métodos que não tenham ainda sido inventados ou concebidos.\n"
 "\n"
 "Para mais informações, veja\n"
 "<http://creativecommons.org/licenses/publicdomain/>.\n"
@@ -380,14 +384,14 @@ msgstr "Búlgaro"
 
 #: c/engine/chooser_pages/gpl.pt:37 c/engine/chooser_pages/gpl.pt:79
 #: c/engine/chooser_pages/lgpl.pt:38 c/engine/chooser_pages/lgpl.pt:82
-#, fuzzy
+#, fuzzy, python-format
 msgid ""
 "This software is licensed under the <a href=\"%(license_url)s\">CC-GNU "
 "%(license_code)s</a> version %(license_version)s or later."
 msgstr ""
 "Este Software é licenciado sob a <a "
-"href=\"http://creativecommons.org/licenses/${license_code}/${version_title"
-"}/\">CC-GNU ${license_code}</a>."
+"href=\"http://creativecommons.org/licenses/%(license_code)s/${version_title"
+"}/\">CC-GNU %(license_code)s</a>."
 
 #: c/engine/pd/templates/publicdomain-2.pt:34
 #: c/engine/macros_templates/metadata.pt:46
@@ -396,6 +400,7 @@ msgid "Title of work"
 msgstr "título da obra"
 
 #: c/engine/licenses/fsf_templates/deed.pt:61
+#, python-format
 msgid ""
 "If you modify your copy or copies of the program or any portion of it, or "
 "develop a program based upon it, you may distribute the resulting work "
@@ -404,8 +409,8 @@ msgid ""
 msgstr ""
 "Se alterar ou transformar a obra, ou desenvolver outra obra baseada nela, "
 "poderá distribuir o trabalho resultante desde que sob uma licença idêntica a"
-" esta. Qualquer tradução da ${license_name_full} deverá estar acompanhada da"
-" ${license_name_full} (original em lnglês)."
+" esta. Qualquer tradução da %(license_name_full)s deverá estar acompanhada "
+"da %(license_name_full)s (original em lnglês)."
 
 msgid "Ireland"
 msgstr "Irlanda"
@@ -434,12 +439,13 @@ msgstr ""
 msgid "Israel"
 msgstr "Israel"
 
+#, python-format
 msgid ""
 "Permissions beyond the scope of this license may be available at "
 "%(more_perms_link)s."
 msgstr ""
 "Permissions beyond the scope of this license may be available at "
-"${more_perms_link}."
+"%(more_perms_link)s."
 
 msgid "India"
 msgstr "India"
@@ -447,6 +453,7 @@ msgstr "India"
 msgid "Macedonian"
 msgstr "Macedonian"
 
+#, python-format
 msgid ""
 "Here's how it works: A user clicking on the Creative Commons icon gets your\n"
 "\"<a href=\"%(license_url)s\">Commons Deed</a>\" &mdash; a human readable version of the\n"
@@ -456,12 +463,12 @@ msgid ""
 "content. <a href=\"/learn/licenses/how1\">An illustration of the process</a> can be found in our comics."
 msgstr ""
 "Funciona da seguinte maneira: Um utilizador ao clicar no logotipo do "
-"Creative Commons acede ao \"<a href=\"${license_url}\">Acordo Commons</a>\" "
-"– uma versão da licença para leigos. Desta licença pode aceder à \"<a "
-"href=\"${license_url}legalcode\">Licença Jurídica</a>\" – a licença efectiva"
-" pela qual disponibiliza o seu conteúdo. E escondida na etiqueta está a \"<a"
-" href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open('work-"
-"html-popup?${url_vars}', 'html_help', "
+"Creative Commons acede ao \"<a href=\"%(license_url)s\">Acordo Commons</a>\""
+" – uma versão da licença para leigos. Desta licença pode aceder à \"<a "
+"href=\"%(license_url)slegalcode\">Licença Jurídica</a>\" – a licença "
+"efectiva pela qual disponibiliza o seu conteúdo. E escondida na etiqueta "
+"está a \"<a href=\"/license/work-html-popup?%(url_vars)s\" "
+"onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">Licença Digital</a>\" – metadado – que permitirá a outros "
 "encontrarem seu conteúdo. <a href=\"/learn/licenses/how1\">Uma ilustração do"
@@ -660,6 +667,7 @@ msgid "Korea"
 msgstr "Correia"
 
 #: c/engine/chooser_pages/partner/index.pt:69
+#, python-format
 msgid ""
 "Yes, as long as others share alike (<a "
 "href=\"/characteristic/sa?lang=%(lang)s\" "
@@ -674,12 +682,12 @@ msgid ""
 "alt=\"more information\" border=\"0\" /></a>)"
 msgstr ""
 "Sim, desde que os outros partilhem pela mesma licença (<a "
-"href=\"/characteristic/sa?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/sa?lang=${lang}', "
+"href=\"/characteristic/sa?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">mais informações</a> <a href=\"/characteristic/sa?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/sa?lang=${lang}', "
+" false;\">mais informações</a> <a href=\"/characteristic/sa?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
@@ -736,11 +744,12 @@ msgstr ""
 msgid "Galician"
 msgstr "Galego"
 
+#, python-format
 msgid ""
 "You may now <a href=\"publicdomain-2?%(url_vars)s\">proceed and enrich the "
 "public domain with your work</a>."
 msgstr ""
-"Agora o utilizador pode <a href=\"publicdomain-2?${url_vars}\">continuar e enriquecer o domínio público com a sua obra</a>.\n"
+"Agora o utilizador pode <a href=\"publicdomain-2?%(url_vars)s\">continuar e enriquecer o domínio público com a sua obra</a>.\n"
 "\n"
 "<p> AVISO IMPORTANTE\n"
 "\"A dedicação ao Domínio Público não se aplica à jurisdição portuguesa. Esta modalidade aplica-se, por exemplo, se sua obra estiver submetida ao direito dos Estados Unidos da América do Norte. Se a sua obra for regida pelo direito português, a opção \"Domínio Público\" não produzirá quaisquer efeitos jurídicos sobre sua obra. Para Portugal, pode utilizar qualquer outra licença do Creative Commons, que são perfeitamente válidas e eficazes no ordenamento jurídico português. Pode ver essas licenças na página http://creativecommons.org/license/?lang=pt\" \n"
@@ -838,6 +847,7 @@ msgid "United States"
 msgstr "Estados Unidos"
 
 #: c/engine/chooser_pages/results.pt:70
+#, python-format
 msgid ""
 "Select the contents of the box above and copy it. Or, have it <a "
 "href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-"
@@ -846,11 +856,12 @@ msgid ""
 " false;\">emailed to yourself.</a>"
 msgstr ""
 "Seleccione o conteúdo da caixa acima e copie o texto. Ou, mande por email <a"
-" href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open('work-"
-"html-popup?${url_vars}', 'html_help', "
+" href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-"
+"html-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">para si próprio.</a>"
 
+#, python-format
 msgid ""
 "<strong>Require attribution?</strong> (<a "
 "href=\"/characteristic/by?lang=%(lang)s\" "
@@ -865,18 +876,19 @@ msgid ""
 "alt=\"more information\" border=\"0\" /></a>)"
 msgstr ""
 "<strong>Requer atribuição?</strong> (<a "
-"href=\"/characteristic/by?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/by?lang=${lang}', "
+"href=\"/characteristic/by?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/by?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">mais informações</a> <a href=\"/characteristic/by?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/by?lang=${lang}', "
+" false;\">mais informações</a> <a href=\"/characteristic/by?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/by?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
 #: c/engine/chooser_pages/partner/index.pt:50
+#, python-format
 msgid ""
 "<strong>Allow commercial uses of your work?</strong> (<a "
 "href=\"/characteristic/nc?lang=%(lang)s\" "
@@ -891,18 +903,19 @@ msgid ""
 "alt=\"more information\" border=\"0\" /></a>)"
 msgstr ""
 "<strong>Permitir uso comercial da obra?</strong> (<a "
-"href=\"/characteristic/nc?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nc?lang=${lang}', "
+"href=\"/characteristic/nc?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">mais informações</a> <a href=\"/characteristic/nc?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nc?lang=${lang}', "
+" false;\">mais informações</a> <a href=\"/characteristic/nc?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
 #: c/engine/chooser_pages/partner/index.pt:61
+#, python-format
 msgid ""
 "<strong>Allow modifications of your work?</strong> (<a "
 "href=\"/characteristic/nd?lang=%(lang)s\" "
@@ -917,12 +930,12 @@ msgid ""
 "alt=\"more information\" border=\"0\" /></a>)"
 msgstr ""
 "<strong>Permitir modificações na obra?</strong> (<a "
-"href=\"/characteristic/nd?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nd?lang=${lang}', "
+"href=\"/characteristic/nd?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">mais informações</a> <a href=\"/characteristic/nd?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nd?lang=${lang}', "
+" false;\">mais informações</a> <a href=\"/characteristic/nd?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
@@ -943,25 +956,27 @@ msgstr ""
 msgid "Select a License"
 msgstr "Escolha uma Licença"
 
+#, python-format
 msgid ""
 "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr ""
-"${work_title} by ${work_author} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+"%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 
 msgid "description"
 msgstr "descrição"
 
 #: c/engine/chooser_pages/partner/results.pt:29
+#, python-format
 msgid ""
 "You have selected the <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s License</b></a>.<br>\n"
 "This license is permanently located at<br>\n"
 "<b><tt>%(license_url)s</tt></b>."
 msgstr ""
-"Seleccionou a <a target=\"cc_other\" href=\"${license_deed_url}\"><b>Licença ${license_pretty_name}</b></a>\n"
+"Seleccionou a <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>Licença %(license_pretty_name)s</b></a>\n"
 "Esta licença está localizada no endereço:\n"
-"<b><tt>${license_url}</tt></b>."
+"<b><tt>%(license_url)s</tt></b>."
 
 #: c/engine/licenses/sampling_templates/deed.pt:45
 msgid ""
@@ -982,6 +997,7 @@ msgstr "Espanha"
 
 #: c/engine/pd/templates/publicdomain-4.pt:49
 #: c/engine/chooser_pages/results.pt:127
+#, python-format
 msgid ""
 "Mark a document not on the web, <a href=\"non-web-popup?%(url_vars)s\" "
 "onclick=\"window.open('non-web-popup?%(url_vars)s', 'html_help', "
@@ -989,7 +1005,7 @@ msgid ""
 " false;\">add this text</a> to your work."
 msgstr ""
 "Marque um documento que não esteja na Internet, <a href=\"non-web-"
-"popup?${url_vars}\" onclick=\"window.open('non-web-popup?${url_vars}', "
+"popup?%(url_vars)s\" onclick=\"window.open('non-web-popup?%(url_vars)s', "
 "'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">adicionando este texto</a> ao seu trabalho."
@@ -1149,12 +1165,13 @@ msgstr ""
 msgid "Video"
 msgstr "Vídeo"
 
+#, python-format
 msgid ""
 "%(work_title)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr ""
-"${work_title} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+"%(work_title)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 
 msgid "Hungary"
 msgstr "Hungary"
@@ -1175,18 +1192,20 @@ msgid "Get your Sampling License"
 msgstr "Obtenha a sua Licença de Sampling"
 
 #: c/engine/licenses/fsf_templates/deed.pt:16
+#, python-format
 msgid ""
 "%(license_name_full)s, <a href=\"http://www.gnu.org/\">Free Software "
 "Foundation</a>"
 msgstr ""
-"${license_name_full} da <a href=\"http://www.gnu.org/home.pt.html\">Free "
+"%(license_name_full)s da <a href=\"http://www.gnu.org/home.pt.html\">Free "
 "Software Foundation</a>"
 
+#, python-format
 msgid ""
 "This work is licensed under a <a href=\"%(license_url)s\">Creative Commons "
 "Developing Nations license</a>."
 msgstr ""
-"Este trabalho está licenciado por uma <a href=\"${license_url}\">Licença "
+"Este trabalho está licenciado por uma <a href=\"%(license_url)s\">Licença "
 "Creative Commons para Países em Desenvolvimento</a>."
 
 #: c/engine/chooser_pages/index.pt:32
@@ -1303,6 +1322,7 @@ msgid "Zulu"
 msgstr "Zulu"
 
 #: c/engine/chooser_pages/gpl.pt:25 c/engine/chooser_pages/lgpl.pt:26
+#, python-format
 msgid ""
 "<h1>Creative Commons GNU %(license_code)s</h1>\n"
 "\n"
@@ -1310,11 +1330,11 @@ msgid ""
 "\n"
 "<p>To signal to others that you are using a Creative Commons license, you can use a Creative Commons logo, which links to the CC-GNU %(license_code)s. The result will look like this:</p>"
 msgstr ""
-"<h1>Creative Commons GNU ${license_code}</h1>\n"
+"<h1>Creative Commons GNU %(license_code)s</h1>\n"
 "\n"
-"<p>A CC-GNU ${license_code} acrescenta os meta-dados gerados pelo Creative Commons e a parte explicativa, chamada \"Commons Deed\", à ${license_name_full} (${license_code}) da Free Software Foundation. Esta licença é a ${license_code} oficial da FSF, traduzida em português.</p>\n"
+"<p>A CC-GNU %(license_code)s acrescenta os meta-dados gerados pelo Creative Commons e a parte explicativa, chamada \"Commons Deed\", à %(license_name_full)s (%(license_code)s) da Free Software Foundation. Esta licença é a %(license_code)s oficial da FSF, traduzida em português.</p>\n"
 "\n"
-"<p>Para mostrar a outras pessoas que está a utilizar a CC-GNU ${license_code}, deverá utilizar o logo do Creative Commons, que serve de link para a CC-GNU ${license_code}. O resultado ficará da seguinte forma:</p>"
+"<p>Para mostrar a outras pessoas que está a utilizar a CC-GNU %(license_code)s, deverá utilizar o logo do Creative Commons, que serve de link para a CC-GNU %(license_code)s. O resultado ficará da seguinte forma:</p>"
 
 #: c/engine/chooser_pages/index.pt:124
 msgid ""
@@ -1335,8 +1355,9 @@ msgstr "Outro"
 
 #: c/engine/pd/templates/publicdomain-partner.pt:31
 #: c/engine/chooser_pages/partner/results.pt:35
+#, python-format
 msgid "You may now <a href=\"%(processed_exit_url)s\">proceed</a>"
-msgstr "Agora pode <a href=\"${processed_exit_url}\">continuar</a>"
+msgstr "Agora pode <a href=\"%(processed_exit_url)s\">continuar</a>"
 
 msgid "Noncommercial"
 msgstr "Uso Não-Comercial"
@@ -1461,13 +1482,14 @@ msgid "Argentina"
 msgstr "Argentina"
 
 #: c/engine/licenses/standard_templates/deed.pt:77
+#, python-format
 msgid ""
 "A <a href=\"%(current_version_url)s\">new version</a> of this license is "
 "available. You should use it for new works, and you may want to relicense "
 "existing works under it. No works are <em>automatically</em> put under the "
 "new license, however."
 msgstr ""
-"Uma <a href=\"${current_version_url}\">nova versão</a> desta licença está "
+"Uma <a href=\"%(current_version_url)s\">nova versão</a> desta licença está "
 "disponível. Deverá utilizá-la para novas obras e pode relicenciar, se "
 "quiser, obras anteriores com ela. Nenhuma obra fica <em>automaticamente</em>"
 " licenciada pelos termos da nova licença."
@@ -1691,6 +1713,7 @@ msgid "Final step:"
 msgstr "Último passo:"
 
 #: c/engine/licenses/fsf_templates/deed.pt:55
+#, python-format
 msgid ""
 "You must conspicuously and appropriately publish on each copy distributed an"
 " appropriate copyright notice and disclaimer of warranty and keep intact all"
@@ -1705,8 +1728,8 @@ msgstr ""
 "informações, avisos e notificações referentes à Licença e à ausência de "
 "qualquer garantia. O utilizador deve também fornecer a qualquer outra pessoa"
 " que receba este Programa uma cópia desta Licença em conjunto com o "
-"Programa. Qualquer tradução da ${license_name_full} deverá estar acompanhada"
-" da ${license_name_full} (original em lnglês)."
+"Programa. Qualquer tradução da %(license_name_full)s deverá estar "
+"acompanhada da %(license_name_full)s (original em lnglês)."
 
 #: c/engine/licenses/devnations_templates/deed.pt:30
 #: c/engine/licenses/mitbsd_templates/deed.pt:25
@@ -1735,6 +1758,7 @@ msgid "copyright"
 msgstr "copyright"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:27
+#, python-format
 msgid ""
 "This work is licensed under the Creative Commons %(license_name)s License. "
 "To view a copy of this license, visit %(license_url)s or send a letter to "
@@ -1742,8 +1766,8 @@ msgid ""
 "94105, USA."
 msgstr ""
 "Este trabalho está licenciado sob uma Licença Creative Commons "
-"${license_name}. Para ver uma cópia desta licença, visite ${license_url} ou "
-"envie uma carta para Creative Commons, 171 Second Street, Suite 300, San "
+"%(license_name)s. Para ver uma cópia desta licença, visite %(license_url)s "
+"ou envie uma carta para Creative Commons, 171 Second Street, Suite 300, San "
 "Francisco, California 94105, USA."
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:40
@@ -1914,7 +1938,7 @@ msgstr ""
 "<p> Criou uma obra da qual está orgulhoso. Agora é hora de se tornar criativo em como a tornar disponível. </p>\n"
 "\n"
 "<p>\n"
-"As licenças Creative Commons ajudam-no a partilhar a sua obra, enquanto mantêm os seus direitos de autor. Outros podem copiar e distribuir a sua obra, desde que lhe <a href=\"/characteristic/by?lang=en\" onclick=\"window.open('/characteristic/by?lang=en', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">atribuam o devido crédito </a> - e somente sob as condições que especificar aqui. Se deseja oferecer a sua obra sem nenhuma condição, escolha a opção <a href=\"${results_pd_url}\">domínio público</a>.</p>"
+"As licenças Creative Commons ajudam-no a partilhar a sua obra, enquanto mantêm os seus direitos de autor. Outros podem copiar e distribuir a sua obra, desde que lhe <a href=\"/characteristic/by?lang=en\" onclick=\"window.open('/characteristic/by?lang=en', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">atribuam o devido crédito </a> - e somente sob as condições que especificar aqui. Se deseja oferecer a sua obra sem nenhuma condição, escolha a opção <a href=\"%(results_pd_url)s\">domínio público</a>.</p>"
 
 #: c/engine/chooser_pages/index.pt:49 c/engine/chooser_pages/index.pt:96
 #: c/engine/chooser_pages/partner/index.pt:56
@@ -1952,6 +1976,7 @@ msgid "Click to include more information about your work."
 msgstr "Clique para inserir mais informações sobre a sua obra."
 
 #: c/engine/chooser_templates/emailhtml.pt:16
+#, python-format
 msgid ""
 "<p>\n"
 "The information concerning your choice has been emailed to you at <strong>%(email)s</strong>.\n"
@@ -1960,7 +1985,7 @@ msgid ""
 "<p>Place the link or the HTML on your website, right next to the work you intend to license.  </p>"
 msgstr ""
 "<p>\n"
-"A informação referente à sua escolha foi enviada por email para o seu endereço <strong>${email}</strong>.\n"
+"A informação referente à sua escolha foi enviada por email para o seu endereço <strong>%(email)s</strong>.\n"
 "</p>\n"
 "\n"
 "<p>Insira o link ou o HTML no seu website ao lado da obra que pretende licenciar.</p>"
@@ -2041,12 +2066,13 @@ msgid "work"
 msgstr "obra"
 
 #: c/engine/licenses/fsf_templates/deed.pt:29
+#, python-format
 msgid ""
 "The %(license_name_full)s is a <a href=\"http://www.gnu.org/philosophy/free-"
 "sw.html\">Free Software</a> license. Like any Free Software license, it "
 "grants to you the four following freedoms:"
 msgstr ""
-"A ${license_name_full} é uma licença de <a "
+"A %(license_name_full)s é uma licença de <a "
 "href=\"http://www.gnu.org/philosophy/free-sw.pt.html\">Software Livre "
 "(\"Free Software\")</a>. Assim como qualquer licença de Software Livre, esta"
 " concede ao utilizador o exercício livre dos quatro seguintes direitos:"
@@ -2106,13 +2132,14 @@ msgstr "Nações em Desenvolvimento"
 
 #: c/engine/pd/templates/publicdomain-4.pt:54
 #: c/engine/chooser_pages/results.pt:122
+#, python-format
 msgid ""
 "To mark a PDF or other XMP-supported file, <a href=\"xmp?%(url_vars)s\">save"
 " this template</a> following these <a href=\"/technology/xmp-"
 "help\">instructions</a>."
 msgstr ""
 "Para marcar um arquivo PDF ou outro arquivo suportado por XMP, <a "
-"href=\"xmp?${url_vars}\">salve este template</a> seguindo estas <a "
+"href=\"xmp?%(url_vars)s\">salve este template</a> seguindo estas <a "
 "href=\"/technology/xmp-help\">instruções</a>."
 
 msgid "NonCommercial Sampling Plus"
@@ -2136,8 +2163,9 @@ msgstr "Danish"
 msgid "Unported"
 msgstr "Unported"
 
+#, python-format
 msgid "Based on a work at %(source_link)s."
-msgstr "Based on a work at ${source_link}."
+msgstr "Based on a work at %(source_link)s."
 
 #: c/engine/macros_templates/deed.pt:129
 msgid "German"
@@ -2641,9 +2669,10 @@ msgstr ""
 #. "An error occurred when we tried to send the email message;\n"
 #. "\t  you can try clicking the Back button and double checking your \n"
 #. "\t  email address.  If the address you used (\n"
-#. "\t  ${email_addr}) was correct you can \n"
+#. "\t  %(email_addr)s) was correct you can \n"
 #. "\t  <a href=\"/about/contact\">contact us</a>."
 #: c/engine/zero/templates/results.pt:134
+#, python-format
 msgid ""
 "An error occurred when we tried to send the email message; you can try "
 "clicking the Back button and double checking your email address.  If the "
@@ -2651,8 +2680,9 @@ msgid ""
 "href=\"/about/contact\">contact us</a>."
 msgstr ""
 
-#. Default: "The suggested HTML has been sent to ${email_addr}."
+#. Default: "The suggested HTML has been sent to %(email_addr)s."
 #: c/engine/zero/templates/results.pt:143
+#, python-format
 msgid "The suggested HTML has been sent to %(email_addr)s."
 msgstr ""
 
@@ -3036,6 +3066,7 @@ msgid "Czech"
 msgstr ""
 
 #: c/engine/chooser_pages/partner/index.pt:36
+#, python-format
 msgid ""
 "If you want to share a work you created with no conditions, choose <a "
 "href=\"%(cc0_url)s\">CC0</a>. If you're sharing a work that isn't covered by"
@@ -3052,6 +3083,7 @@ msgid ""
 msgstr ""
 
 #: c/engine/pd/templates/publicdomain-partner.pt:31
+#, python-format
 msgid ""
 "If instead you want to\n"
 "waive copyright and neighboring rights on a work <em>in which you hold\n"
@@ -3147,12 +3179,14 @@ msgid ""
 msgstr ""
 
 #: c/engine/chooser_pages/results.pt:21
+#, python-format
 msgid ""
 "You have selected the Creative Commons %(license_pretty_name)s License. <a "
 "href=\"%(license_url)s\">See how the license will look</a> to your site's "
 "visitors."
 msgstr ""
 
+#, python-format
 msgid ""
 "<h1>Review Choice</h1>\n"
 "\n"
@@ -3663,11 +3697,11 @@ msgstr ""
 #. Default: ""
 #. "Thank you for using a Creative Commons legal tool for your work.\n"
 #. "\n"
-#. "You have selected ${license_title}.\n"
+#. "You have selected %(license_title)s.\n"
 #. "You should include a reference to this on the web page that includes\n"
 #. "the work in question.\n"
 #. "Here is the suggested HTML:\n"
-#. "${license_html}\n"
+#. "%(license_html)s\n"
 #. "Tips for marking your work can be found at\n"
 #. "http://wiki.creativecommons.org/Marking.  Information on the supplied "
 #. "HTML and\n"
@@ -3676,6 +3710,7 @@ msgstr ""
 #. "Creative Commons Support\n"
 #. "info@creativecommons.org"
 #: util.py:440
+#, python-format
 msgid ""
 "Thank you for using a Creative Commons legal tool for your work.\n"
 "\n"
@@ -3706,58 +3741,65 @@ msgstr ""
 msgid "This work is free of known copyright restrictions."
 msgstr ""
 
-#. Default: "This work (${work_title}) is free of known copyright
+#. Default: "This work (%(work_title)s) is free of known copyright
 #. restrictions."
 #: cc/license/formatters/classes.py:317
+#, python-format
 msgid "This work (%(work_title)s) is free of known copyright restrictions."
 msgstr ""
 
-#. Default: "This work (by ${author}) is free of known copyright
+#. Default: "This work (by %(author)s) is free of known copyright
 #. restrictions."
 #: cc/license/formatters/classes.py:322
+#, python-format
 msgid "This work (by %(author)s) is free of known copyright restrictions."
 msgstr ""
 
 #. Default: ""
-#. "This work, identified by ${curator}, is free of known copyright "
+#. "This work, identified by %(curator)s, is free of known copyright "
 #. "restrictions."
 #: cc/license/formatters/classes.py:329
+#, python-format
 msgid ""
 "This work, identified by %(curator)s, is free of known copyright "
 "restrictions."
 msgstr ""
 
 #. Default: ""
-#. "This work (${work_title}, by ${author}) is free of known copyright "
+#. "This work (%(work_title)s, by %(author)s) is free of known copyright "
 #. "restrictions."
 #: cc/license/formatters/classes.py:336
+#, python-format
 msgid ""
 "This work (%(work_title)s, by %(author)s) is free of known copyright "
 "restrictions."
 msgstr ""
 
 #. Default: ""
-#. "This work (${work_title}), identified by ${curator}, is free of known "
+#. "This work (%(work_title)s), identified by %(curator)s, is free of known "
 #. "copyright restrictions."
 #: cc/license/formatters/classes.py:342
+#, python-format
 msgid ""
 "This work (%(work_title)s), identified by %(curator)s, is free of known "
 "copyright restrictions."
 msgstr ""
 
 #. Default: ""
-#. "This work (${work_title}, by ${author}), identified by ${curator}, is "
+#. "This work (%(work_title)s, by %(author)s), identified by %(curator)s, is "
 #. "free of known copyright restrictions."
 #: cc/license/formatters/classes.py:349
+#, python-format
 msgid ""
 "This work (%(work_title)s, by %(author)s), identified by %(curator)s, is "
 "free of known copyright restrictions."
 msgstr ""
 
 #. Default: ""
-#. "This work (by ${author}), identified by ${curator}, is free of known "
+#. "This work (by %(author)s), identified by %(curator)s, is free of known "
 #. "copyright restrictions."
 #: cc/license/formatters/classes.py:356
+#, python-format
 msgid ""
 "This work (by %(author)s), identified by %(curator)s, is free of known "
 "copyright restrictions."
@@ -3833,9 +3875,10 @@ msgstr ""
 
 #. Default: ""
 #. "If instead you want to certify that a work is <em>already in the public "
-#. "domain</em>, instead use the <a href=\"${pd_url}\">Public Domain "
+#. "domain</em>, instead use the <a href=\"%(pd_url)s\">Public Domain "
 #. "Mark</a>."
 #: chooser_pages/zero/partner.pt:43
+#, python-format
 msgid ""
 "If instead you want to certify that a work is <em>already in the public "
 "domain</em>, instead use the <a href=\"%(pd_url)s\">Public Domain Mark</a>."
@@ -3843,9 +3886,10 @@ msgstr ""
 
 #. Default: ""
 #. "If you want to free <em>your own work</em> of copyright restrictions, "
-#. "instead use the <a href=\"${pd_url}\">CC0 public domain "
+#. "instead use the <a href=\"%(pd_url)s\">CC0 public domain "
 #. "dedication</a>."
 #: chooser_pages/pdmark/partner.pt:58
+#, python-format
 msgid ""
 "If you want to free <em>your own work</em> of copyright restrictions, "
 "instead use the <a href=\"%(pd_url)s\">CC0 public domain dedication</a>."
@@ -3909,11 +3953,12 @@ msgstr ""
 
 #. Default: ""
 #. "Mark a document not on the web, <a href=\"non-web-"
-#. "popup?${url_vars}\" onclick=\"window.open('non-web-popup?${url_vars}', "
+#. "popup?%(url_vars)s\" onclick=\"window.open('non-web-popup?%(url_vars)s', "
 #. "'html_help', "
 #. "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 #. " false;\">add this text</a> to your work.\""
 #: chooser_pages/publicdomain/publicdomain-4.pt:58
+#, python-format
 msgid ""
 "To mark a document not on the web, <a href=\"non-web-popup?%(url_vars)s\" "
 "onclick=\"window.open('non-web-popup?%(url_vars)s', 'html_help', "
