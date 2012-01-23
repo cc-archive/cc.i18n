@@ -1,31 +1,27 @@
-# Translations template for PROJECT.
+# Translations template for Creative.
 # Copyright (C) 2011 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
+# This file is distributed under the same license as the Creative project.
 # 
 # Translators:
 # Harry Chen <harryhow@gmail.com>, 2011.
 # Polley Wong <polley@gmail.com>, 2011.
-#   <yhchang@gate.sinica.edu.tw>, 2011.
+# <yhchang@gate.sinica.edu.tw>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
 "POT-Creation-Date: 2011-10-19 15:22-0500\n"
-"PO-Revision-Date: 2011-12-01 12:40+0000\n"
-"Last-Translator: harryhow <harryhow@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.net/projects/p/CC/team/zh_TW/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.0dev-r546\n"
-"Language: zh_TW\n"
-"Plural-Forms: nplurals=1; plural=0\n"
 
-msgctxt "country.nz"
 msgid "New Zealand"
 msgstr "紐西蘭"
 
-msgctxt "country.gr"
 msgid "Greece"
 msgstr "希臘"
 
@@ -34,7 +30,6 @@ msgid "Allow Derivative Works"
 msgstr "允許衍生著作"
 
 #: c/engine/chooser_pages/index.pt:107
-msgctxt "license.help.derivatives"
 msgid ""
 "The licensor permits others to copy, distribute, display and perform the "
 "work, as well as make derivative works based on it."
@@ -45,14 +40,12 @@ msgid "Commercial Use"
 msgstr "商業使用"
 
 #: c/engine/chooser_pages/index.pt:59
-msgctxt "license.help.commercial"
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work, including for commercial purposes."
 msgstr "授權人允許他人重製、散布、公開展示、公開演出、公開上映、公開播送、公開傳輸及公開口述本著作，亦允許為商業目的而使用。"
 
 #: c/engine/chooser_pages/index.pt:70
-msgctxt "license.help.noncommercial"
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work for non-commercial purposes only."
@@ -63,33 +56,32 @@ msgid "Yes, as long as others share alike"
 msgstr "可以，只要別人以相同授權方式分享"
 
 #: c/engine/licenses/sampling_templates/deed.pt:31
-msgctxt "deed.free_copy_distribute_noncommercial"
 msgid ""
 "To perform, display, and distribute copies of this whole work for "
 "noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
 msgstr "為非商業目的而演出、展示及散布整部著作的重製物（例如，檔案分享或非商業性的網路播送）。"
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
-msgctxt "license.pd_awaiting_confirmation"
+#, python-format
 msgid ""
 "<h1>Public Domain Dedication - Email Confirmation</h1>\n"
 "\n"
 "<p>\n"
-"An email has been sent to you at <b>${email}</b>. You should receive it\n"
+"An email has been sent to you at <b>%(email)s</b>. You should receive it\n"
 "within a few minutes.\n"
 "</p>\n"
 "\n"
 "<p>\n"
 "This email includes a confirmation of your public domain\n"
 "dedication. It should include the title of your work\n"
-"(\"<b>${title}</b>\"), and the copyright holder of the work\n"
-"(\"<b>${copyright_holder}</b>\").\n"
+"(\"<b>%(title)s</b>\"), and the copyright holder of the work\n"
+"(\"<b>%(copyright_holder)s</b>\").\n"
 "</p>\n"
 "\n"
 "<p>\n"
 "The email will also include a link with an embedded confirmation\n"
 "code. This confirmation code enables us to verify that you are indeed\n"
-"the person eligible to receive email at <b>${email}</b>. Clicking\n"
+"the person eligible to receive email at <b>%(email)s</b>. Clicking\n"
 "through on this confirmation link will constitute an \"overt act of\n"
 "relinquishment\" by which you will actually be placing your work in the\n"
 "public domain.\n"
@@ -111,15 +103,15 @@ msgstr ""
 "<h1>對公眾領域的貢獻──電子郵件確認</h1>\n"
 "\n"
 "<p>\n"
-"我們已寄出一封電子郵件到你的信箱 <b>${email}</b> 了；你應該會在幾分鐘之內收到這封信。\n"
+"我們已寄出一封電子郵件到你的信箱 <b>%(email)s</b> 了；你應該會在幾分鐘之內收到這封信。\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"這封電子郵件包含了確認你的著作貢獻至公眾領域的情況；其內容應含有你的著作名稱（「<b>${title}</b>」），以及本著作的著作權人（「<b>${copyright_holder}</b>」）。\n"
+"這封電子郵件包含了確認你的著作貢獻至公眾領域的情況；其內容應含有你的著作名稱（「<b>%(title)s</b>」），以及本著作的著作權人（「<b>%(copyright_holder)s</b>」）。\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"這封電子郵件也會包含一個嵌有確認碼的鏈結，該鏈結能使我們能驗證你確實就是透過 <b>${email}</b> 收到這封電子郵件的人。按下此確認鏈結將構成一個「公開放棄權利的行為」，藉此你實際上即將你的著作放置於公眾領域中。\n"
+"這封電子郵件也會包含一個嵌有確認碼的鏈結，該鏈結能使我們能驗證你確實就是透過 <b>%(email)s</b> 收到這封電子郵件的人。按下此確認鏈結將構成一個「公開放棄權利的行為」，藉此你實際上即將你的著作放置於公眾領域中。\n"
 "</p>\n"
 "\n"
 "<p>\n"
@@ -133,32 +125,26 @@ msgstr ""
 "<p>\n"
 "按下確認鏈結後，你也將得知如何將你的著作內容標上對公眾領域的貢獻之標識，並加以宣傳。</p>"
 
-msgctxt "country.bg"
 msgid "Bulgaria"
 msgstr "保加利亞"
 
 #: c/engine/pd/templates/publicdomain-4.pt:32
-msgctxt "license.mark_web"
 msgid ""
 "To mark content on a web page, the HTML to display the button is as follows "
 "and be sure to <a href=\"/technology/web\">follow the guidelines here</a>:"
 msgstr "以下是標示網頁授權按鈕的HTML程式碼，並請務必<a href=\"/technology/web\">遵循此準則</a>："
 
-msgctxt "util.copyright_date"
 msgid "copyright date"
 msgstr "著作權保護啟始日期"
 
 #: c/engine/chooser_pages/index.pt:168 c/engine/chooser_pages/sampling.pt:104
-msgctxt "util.Jurisdiction"
 msgid "Jurisdiction"
 msgstr "司法管轄領域"
 
 #: c/engine/chooser_pages/sampling.pt:80 c/engine/chooser_pages/sampling.pt:92
-msgctxt "country.br"
 msgid "Brazil"
 msgstr "巴西"
 
-msgctxt "util.Creative_Commons_License"
 msgid "Creative Commons License"
 msgstr "創用 CC 授權條款"
 
@@ -167,83 +153,72 @@ msgstr "創用 CC 授權條款"
 #: c/engine/macros_templates/support.pt:152
 #: c/engine/macros_templates/support.pt:154
 #: c/engine/pd/templates/publicdomain-4.pt:25
-msgctxt "license.mark_content"
 msgid "mark content"
 msgstr "替內容加上標示"
 
-msgctxt "country.be"
 msgid "Belgium"
 msgstr "比利時"
 
-msgctxt "license.work_type_dedicated"
+#, python-format
 msgid ""
-"This ${work_type} is in the <a rel=\"license\" "
+"This %(work_type)s is in the <a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
 "Domain</a>."
 msgstr ""
-"本${work_type}已貢獻至\n"
+"本%(work_type)s已貢獻至\n"
 "<a rel=\"license\" href=\"http://creativecommons.org/licenses/publicdomain/\">公眾領域</a>."
 
 #: c/engine/chooser_pages/index.pt:77
-msgctxt "api.derivatives"
 msgid "Allow modifications of your work?"
 msgstr "是否允許他人改作你的著作?"
 
-msgctxt "deed.fair_use.jp"
 msgid ""
 "Your rights to exploit the work based on the limitations to copyright "
 "clauses and other rights are in no way affected by the above."
 msgstr "你基於對著作權條款的限制而利用本著作的權利及其他權利，不因上述內容而受影響。"
 
-msgctxt "deed.back_to_cc"
 msgid "back to <a href=\"/\">Creative Commons</a>"
 msgstr "回到<a href=\"http://creativecommons.org.tw/\">台灣「創用 CC」計畫</a>"
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:46
-msgctxt "deed.bsd_notice"
 msgid ""
 "You must retain the license terms and copyright notice in any source code "
 "distribution and reproduce them in documentation for binary distributions."
 msgstr "你必須隨原始碼附上此授權條款及著作權聲明，並記載成為文件、隨二元散佈版一併發行。"
 
-msgctxt "licenses.pretty_nd"
 msgid "NoDerivs"
 msgstr "禁止改作"
 
-msgctxt "jswidget.Updated_license_version_generic"
 msgid ""
 "We have updated the version of your license to the most recent one "
 "available."
 msgstr "我們已將你的授權條款更新至最新一版。"
 
 #: c/engine/chooser_pages/index.pt:67
-msgctxt "licenses.pretty_nc"
 msgid "NonCommercial"
 msgstr "非商業性"
 
 #: c/engine/macros_templates/deed.pt:103
-msgctxt "lang.ca"
 msgid "Catalan"
 msgstr "嘉泰羅尼亞語"
 
-msgctxt "license.work_type_licensed"
+#, python-format
 msgid ""
-"This ${work_type} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+"This %(work_type)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr ""
-"本${work_type}係採用<a rel=\"license\" href=\"${license_url}\">創用 CC "
-"${license_name} 授權條款</a>授權."
+"本%(work_type)s係採用<a rel=\"license\" href=\"%(license_url)s\">創用 CC "
+"%(license_name)s 授權條款</a>授權."
 
-msgctxt "license.rdfa_licensed_no_title"
+#, python-format
 msgid ""
-"This ${work_type} by ${work_author} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+"This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\""
+" href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr ""
-"本${work_type}由${work_author}製作，以<a rel=\"license\" "
-"href=\"${license_url}\">創用CC ${license_name} 授權條款</a>釋出。"
+"本%(work_type)s由%(work_author)s製作，以<a rel=\"license\" "
+"href=\"%(license_url)s\">創用CC %(license_name)s 授權條款</a>釋出。"
 
 #: c/engine/chooser_pages/gpl.pt:46 c/engine/chooser_pages/lgpl.pt:47
-msgctxt "license.human-readable_commons_deed"
 msgid ""
 "Human-Readable<br />\n"
 "Commons Deed"
@@ -252,12 +227,10 @@ msgstr "供一般人閱讀的<br />授權標章"
 #: c/engine/macros_templates/support.pt:93
 #: c/engine/macros_templates/support.pt:97
 #: c/engine/pd/templates/publicdomain-partner.pt:22
-msgctxt "license.confirm_choice"
 msgid "confirm choice"
 msgstr "確認選擇"
 
 #: c/engine/chooser_pages/sampling.pt:54
-msgctxt "license.sampling_explain"
 msgid ""
 "<p>The Sampling licenses let you invite other people to use a part of your work and make it new.</p>\n"
 "\n"
@@ -275,23 +248,23 @@ msgid ""
 msgstr ""
 "<p>取樣授權條款讓你可以邀請其他人來利用你著作的某一部分，並賦予它嶄新的面貌。</p><p>例如：</p><ul><li>從你的歌曲中取樣，並放入他們自己所創作的歌曲中。</li><li>使用你影片中的一段剪輯。</li><li>從你的攝影作品中擷取一部份，並將其放入美術拼貼作品中。</li></ul><p>把取樣授權想成獎勵他人改作你的著作，並使其以嶄新面貌呈現的一種方式。</p><p>在這些情況下，取樣授權條款正是你所需要的。一共有兩種「取樣授權」的方式，請選擇一種能反映你創作風格的來使用：</p>"
 
-msgctxt "license.pd_dedication_email"
+#, python-format
 msgid ""
 "This is a record of a Public Domain Dedication.\n"
 "\n"
-"On ${sysdate}, ${copyright_holder} dedicated to the public domain the\n"
-"work \"${title}.\" Before making the dedication, ${copyright_holder}\n"
-"represented that ${copyright_holder} owned all copyrights in the\n"
-"work. By making the dedication, ${copyright_holder} made an overt act\n"
+"On %(sysdate)s, %(copyright_holder)s dedicated to the public domain the\n"
+"work \"%(title)s.\" Before making the dedication, %(copyright_holder)s\n"
+"represented that %(copyright_holder)s owned all copyrights in the\n"
+"work. By making the dedication, %(copyright_holder)s made an overt act\n"
 "of relinquishment in perpetuity of all present and future rights under\n"
-"copyright law, whether vested or contingent, in \"${title}.\"\n"
+"copyright law, whether vested or contingent, in \"%(title)s.\"\n"
 "\n"
-"${copyright_holder} understands that such relinquishment of all rights\n"
+"%(copyright_holder)s understands that such relinquishment of all rights\n"
 "includes the relinquishment of all rights to enforce (by lawsuit or\n"
 "otherwise) those copyrights in the Work.\n"
 "\n"
-"${copyright_holder} recognizes that, once placed in the public domain,\n"
-"\"${title}\" may be freely reproduced, distributed, transmitted, used,\n"
+"%(copyright_holder)s recognizes that, once placed in the public domain,\n"
+"\"%(title)s\" may be freely reproduced, distributed, transmitted, used,\n"
 "modified, built upon, or otherwise exploited by anyone for any\n"
 "purpose, commercial or non-commercial, and in any way, including by\n"
 "methods that have not yet been invented or conceived.\n"
@@ -301,161 +274,134 @@ msgid ""
 msgstr ""
 "這是一份貢獻至公眾領域 (Public Domain Dedication) 的紀錄。\n"
 "\n"
-"於 ${sysdate} 時， ${copyright_holder} 將其著作「 ${title} 」貢獻至公眾領域。在作此貢獻之前， ${copyright_holder} 表示${copyright_holder} 擁有該著作中的所有著作權；藉由作此貢獻， ${copyright_holder} 公開表示永久拋棄其著作「 ${title} 」在著作權法中所有現存及將來的永久權利，不論是既得的 (vested) 或是附帶的 (contingent) 的權利皆然。\n"
-"${copyright_holder} 瞭解其行為代表拋棄所有的權利，包括拋棄得請求實施該著作中著作權（透過訴訟或其他方式）的所有權利。\n"
+"於 %(sysdate)s 時， %(copyright_holder)s 將其著作「 %(title)s 」貢獻至公眾領域。在作此貢獻之前， %(copyright_holder)s 表示%(copyright_holder)s 擁有該著作中的所有著作權；藉由作此貢獻， %(copyright_holder)s 公開表示永久拋棄其著作「 %(title)s 」在著作權法中所有現存及將來的永久權利，不論是既得的 (vested) 或是附帶的 (contingent) 的權利皆然。\n"
+"%(copyright_holder)s 瞭解其行為代表拋棄所有的權利，包括拋棄得請求實施該著作中著作權（透過訴訟或其他方式）的所有權利。\n"
 "\n"
-"${copyright_holder} 瞭解一旦將「 ${title} 」置於公眾領域，任何人即得為任何目的，無論是商業或非商業，以任何方式，包括現在尚未發明或想像的方法，自由地重製、散布、傳輸、使用、變更、改作或以其他方式利用「 ${title} 」。\n"
+"%(copyright_holder)s 瞭解一旦將「 %(title)s 」置於公眾領域，任何人即得為任何目的，無論是商業或非商業，以任何方式，包括現在尚未發明或想像的方法，自由地重製、散布、傳輸、使用、變更、改作或以其他方式利用「 %(title)s 」。\n"
 "\n"
 "如果你要進一步的資訊，請參閱 <a href=\"http://creativecommons.org/licenses/publicdomain/\">http://creativecommons.org/licenses/publicdomain/</a> 。"
 
-msgctxt "lang.bg"
 msgid "Bulgarian"
 msgstr "保加利亞語"
 
 #: c/engine/pd/templates/publicdomain-2.pt:34
 #: c/engine/macros_templates/metadata.pt:46
-msgctxt "util.title_of_work"
 msgid "Title of work"
 msgstr "著作名稱"
 
-msgctxt "country.ie"
 msgid "Ireland"
 msgstr "愛爾蘭"
 
-msgctxt "licenses.pretty_by-nc"
 msgid "Attribution-NonCommercial"
 msgstr "姓名標示-非商業性"
 
-msgctxt "licenses.pretty_by-nd"
 msgid "Attribution-NoDerivs"
 msgstr "姓名標示-禁止改作"
 
-msgctxt "lang.es_PE"
 msgid "Spanish (PE)"
 msgstr "西班牙語 (秘魯)"
 
 #: c/engine/licenses/sampling_templates/deed.pt:29
-msgctxt "deed.free_sample"
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "commercial or noncommercial purposes."
 msgstr "取樣，混合，或為商業或非商業目的以其他方式有創造性地改變本著作。"
 
-msgctxt "country.il"
 msgid "Israel"
 msgstr "以色列"
 
-msgctxt "license.more_perms_available"
+#, python-format
 msgid ""
 "Permissions beyond the scope of this license may be available at "
-"${more_perms_link}."
-msgstr "超出此條款範圍外的授權可於${more_perms_link}查閱。"
+"%(more_perms_link)s."
+msgstr "超出此條款範圍外的授權可於%(more_perms_link)s查閱。"
 
-msgctxt "country.in"
 msgid "India"
 msgstr "印度"
 
-msgctxt "lang.mk"
 msgid "Macedonian"
 msgstr "馬其頓語"
 
-msgctxt "license.how_it_works"
+#, python-format
 msgid ""
 "Here's how it works: A user clicking on the Creative Commons icon gets your\n"
-"\"<a href=\"${license_url}\">Commons Deed</a>\" &mdash; a human readable version of the\n"
-"license. From that she can link to \"<a href=\"${license_url}legalcode\">Legal Code</a>\" &mdash;  the\n"
+"\"<a href=\"%(license_url)s\">Commons Deed</a>\" &mdash; a human readable version of the\n"
+"license. From that she can link to \"<a href=\"%(license_url)slegalcode\">Legal Code</a>\" &mdash;  the\n"
 "actual license you have offered your content under.\n"
-"And hidden in the tag is \"<a href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open('work-html-popup?${url_vars}', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">Machine-Readable Code</a>\" &mdash; metadata &mdash; that will enable others to find your\n"
+"And hidden in the tag is \"<a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">Machine-Readable Code</a>\" &mdash; metadata &mdash; that will enable others to find your\n"
 "content. <a href=\"/learn/licenses/how1\">An illustration of the process</a> can be found in our comics."
 msgstr ""
 "以下是本圖示的作用流程：當使用者按下創用CC的圖示時，就能閱讀你的「<a "
-"href=\"${license_url}\">授權標章</a>」（即一般人較易於了解的授權條款摘要）；從授權標章可連結到「<a "
-"href=\"${license_url}legalcode\">法律條款</a>」（實際使用的授權條款內容）；在授權圖示裡，還嵌入了隱藏的「<a "
-"href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open('work-"
-"html-popup?${url_vars}', 'html_help', "
+"href=\"%(license_url)s\">授權標章</a>」（即一般人較易於了解的授權條款摘要）；從授權標章可連結到「<a "
+"href=\"%(license_url)slegalcode\">法律條款</a>」（實際使用的授權條款內容）；在授權圖示裡，還嵌入了隱藏的「<a "
+"href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-"
+"html-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">數位標籤</a>」（後設資料），讓別人得以找到你的著作。你也可以在我們的漫畫裡找到<a "
 "href=\"/learn/licenses/how1\">整個過程的圖解</a>。"
 
-msgctxt "country.it"
 msgid "Italy"
 msgstr "義大利"
 
-msgctxt "country.pl"
 msgid "Poland"
 msgstr "波蘭"
 
-msgctxt "lang.ms"
 msgid "Malay"
 msgstr "馬來語"
 
-msgctxt "country.ph"
 msgid "Philippines"
 msgstr "菲律賓"
 
 #: c/engine/licenses/sampling_templates/deed.pt:42
-msgctxt "char.na_brief"
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
 msgstr "除了你從本著作所創造出來的著作外，你不得使用本著作來廣告或推銷其他東西。"
 
-msgctxt "country.pe"
 msgid "Peru"
 msgstr "秘魯"
 
-msgctxt "deed.permission.jp"
 msgid ""
 "Any of the above conditions can be waived if you get permission from the "
 "rights holders to this work."
 msgstr "如果你取得本著作著作權人之許可，這些條件中任一項都能免除。"
 
-msgctxt "util.Sampling"
 msgid "Sampling"
 msgstr "取樣"
 
-msgctxt "licenses.pretty_sampling"
 msgid "Sampling"
 msgstr "取樣"
 
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
-msgctxt "util.page_other_languages"
 msgid "This page is available in the following languages:"
 msgstr "本頁面也有下列各語言的版本："
 
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
-msgctxt "deed.view_in"
 msgid "This page is available in the following languages:"
 msgstr "本頁面也有下列各語言的版本："
 
-msgctxt "lang.en_GB"
 msgid "English (GB)"
 msgstr "英語 (英國)"
 
 #: c/engine/licenses/standard_templates/deed.pt:69
-msgctxt "deed.moralrights-remix.us"
 msgid ""
 "Apart from the remix rights granted under this license, the author's <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
 msgstr "除了這份授權條款所給予的重混權利外，這份授權條款中，沒有任何侵犯或限制作者著作人格權的條文。"
 
-msgctxt "lang.pl"
 msgid "Polish"
 msgstr "波蘭語"
 
 #: c/engine/pd/templates/publicdomain-3.pt:87
-msgctxt "util.confirm"
 msgid "confirm"
 msgstr "確認"
 
-msgctxt "util.Do_you_want_to"
 msgid "Do you want to:"
 msgstr "你是否想要："
 
-msgctxt "util.year_of_copyright"
 msgid ""
 "<a href=\"/jargon/copyright_date\" class=\"jargon\" "
 "onClick=\"window.open('/jargon/copyright_date', 'jargon_term_lookup', "
@@ -470,12 +416,10 @@ msgstr ""
 #: c/engine/chooser_pages/index.pt:29 c/engine/chooser_pages/sampling.pt:32
 #: c/engine/macros_templates/support.pt:82
 #: c/engine/macros_templates/support.pt:86
-msgctxt "license.choose_license"
 msgid "choose license"
 msgstr "選擇授權條款"
 
 #: c/engine/pd/templates/publicdomain-4.pt:47
-msgctxt "license.mark_mp3"
 msgid "Mark an mp3, <a href=\"/technology/mp3\">follow these guidelines</a>."
 msgstr "<a href=\"/technology/mp3\">遵循這些指導原則</a>替 mp3 檔案加上標示。"
 
@@ -483,12 +427,10 @@ msgstr "<a href=\"/technology/mp3\">遵循這些指導原則</a>替 mp3 檔案�
 #: c/engine/licenses/mitbsd_templates/deed.pt:33
 #: c/engine/licenses/sampling_templates/deed.pt:39
 #: c/engine/licenses/standard_templates/deed.pt:45
-msgctxt "deed.under_conditions"
 msgid "Under the following conditions:"
 msgstr "惟需遵照下列條件："
 
 #: c/engine/chooser_pages/gpl.pt:48 c/engine/chooser_pages/lgpl.pt:49
-msgctxt "license.machine-readable_digital_code"
 msgid ""
 "Machine-Readable<br />\n"
 "Digital Code"
@@ -496,7 +438,6 @@ msgstr ""
 "機器可辨讀的<br />\n"
 "數位標籤"
 
-msgctxt "util.copyright_holders_name"
 msgid ""
 "<a href=\"/jargon/copyright\" class=\"jargon\" "
 "onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', "
@@ -509,16 +450,13 @@ msgstr ""
 " return false;\">著作權</a>人姓名"
 
 #: c/engine/macros_templates/metadata.pt:58
-msgctxt "util.attribute_to_url"
 msgid "Attribute work to URL"
 msgstr "標示作者網址"
 
 #: c/engine/chooser_pages/index.pt:195
-msgctxt "license.view_explanation"
 msgid "View an explanation of all our licenses."
 msgstr "檢視我們所有授權條款的詳細解釋。"
 
-msgctxt "jargon.copyright_description"
 msgid ""
 "Copyright. A set of limited monopoly rights that governments grant to "
 "encourage the production of creative works. A copyright includes the rights "
@@ -530,35 +468,28 @@ msgid ""
 msgstr ""
 "著作權是政府為鼓勵創作而給予的一套有限的獨佔權利。所謂的著作權包含了重製、散布、公開展示、公開演出、公開上映、公開播送、公開傳輸、公開口述、發行及改作的權利；同時亦包含了排除或防止著作權侵害的權利，以及讓與或授權他人行使這些權利的權利。著作權並不適用於事實或概念，而是適用於這些事實或概念的原始表達。"
 
-msgctxt "license.mark_license"
 msgid ""
 "Now that you've chosen a Creative Commons license, you must mark your work "
 "in the appropriate way."
 msgstr "既然你已經選擇了創用 CC 授權條款，那麼你就必須以適當方式在你的著作上加以標示。"
 
-msgctxt "country.lu"
 msgid "Luxembourg"
 msgstr "盧森堡"
 
 #: c/engine/macros_templates/metadata.pt:23
-msgctxt "license.tell_format"
 msgid "Tell us the format of your work:"
 msgstr "告訴我們你的著作格式:"
 
-msgctxt "country.cl"
 msgid "Chile"
 msgstr "智利"
 
-msgctxt "lang.nso"
 msgid "Northern Sotho"
 msgstr "北索托語"
 
 #: c/engine/chooser_pages/index.pt:222
-msgctxt "util.CC_GNU_LGPL"
 msgid "CC-GNU LGPL"
 msgstr "創用 CC-GNU LGPL"
 
-msgctxt "license.sampling_a_sampling"
 msgid ""
 "<strong>Sampling</strong>: People can take and transform "
 "<strong>pieces</strong> of your work for any purpose other than advertising,"
@@ -569,49 +500,44 @@ msgstr ""
 "：他人可為任何目的取用並改編你著作的<strong>部分</strong>，但不得用於廣告用途。重製與散布<strong>完整著作</strong>亦被禁止。"
 
 #: c/engine/chooser_pages/results.pt:92
-msgctxt "license.no_web_site"
 msgid "No web site?"
 msgstr "沒有網站嗎？"
 
-msgctxt "country.rs"
 msgid "Serbia"
 msgstr "塞爾維亞"
 
-msgctxt "country.kr"
 msgid "South Korea"
 msgstr "南韓"
 
 #: c/engine/chooser_pages/partner/index.pt:69
-msgctxt "license.a6"
+#, python-format
 msgid ""
 "Yes, as long as others share alike (<a "
-"href=\"/characteristic/sa?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/sa?lang=${lang}', "
+"href=\"/characteristic/sa?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">more info</a> <a href=\"/characteristic/sa?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/sa?lang=${lang}', "
+" false;\">more info</a> <a href=\"/characteristic/sa?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 msgstr ""
-"是的，只要其他人也以相同方式分享衍生著作 (<a href=\"/characteristic/sa?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/sa?lang=${lang}', "
+"是的，只要其他人也以相同方式分享衍生著作 (<a href=\"/characteristic/sa?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">更多資訊</a> <a href=\"/characteristic/sa?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/sa?lang=${lang}', "
+" false;\">更多資訊</a> <a href=\"/characteristic/sa?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
-msgctxt "lang.ko"
 msgid "Korean"
 msgstr "韓國語"
 
-msgctxt "deed.gpl_disclaimer"
 msgid ""
 "<div style=\"text-align:center\"><a href=\"/licenses/disclaimer-popup\" "
 "onclick=\"window.open('/licenses/disclaimer-popup', 'characteristic_help', "
@@ -631,64 +557,53 @@ msgstr ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"disclaimer\" border=\"0\"></a></div>"
 
-msgctxt "license.no_license"
 msgid "Sorry, no license matches your criteria."
 msgstr "抱歉，沒有任何一份授權條款符合你的要求。"
 
-msgctxt "lang.it"
 msgid "Italian"
 msgstr "義大利語"
 
-msgctxt "country.ro"
 msgid "Romania"
 msgstr "羅馬尼亞"
 
 #: c/engine/chooser_pages/index.pt:191
-msgctxt "license.what_you"
 msgid "What You Can Do Here"
 msgstr "此刻你可以做的事"
 
-msgctxt "jargon.copyright_date_description"
 msgid ""
 "If you have not officially registered for a copyright on your work the "
 "default date is the date you created the work, or completed it."
 msgstr "如果你沒有為你的著作正式登錄著作權，那麼預設的著作權啟始日期就會是你創造或完成著作的那一天。"
 
-msgctxt "licenses.pretty_by-nd-nc"
 msgid "Attribution-NoDerivs-NonCommercial"
 msgstr "姓名標示-禁止改作-非商業性"
 
 #: c/engine/macros_templates/deed.pt:110
-msgctxt "lang.gl"
 msgid "Galician"
 msgstr "加利西亞語"
 
-msgctxt "license.proceed_pd"
+#, python-format
 msgid ""
-"You may now <a href=\"publicdomain-2?${url_vars}\">proceed and enrich the "
+"You may now <a href=\"publicdomain-2?%(url_vars)s\">proceed and enrich the "
 "public domain with your work</a>."
-msgstr "你現在可以<a href=\"publicdomain-2?${url_vars}\">繼續進行下去，並藉由你的著作使公眾領域更為豐富</a>."
+msgstr "你現在可以<a href=\"publicdomain-2?%(url_vars)s\">繼續進行下去，並藉由你的著作使公眾領域更為豐富</a>."
 
 #: c/engine/pd/templates/publicdomain-2.pt:29
-msgctxt "util.your_email"
 msgid "your email"
 msgstr "你的電子郵件信箱"
 
 #: c/engine/chooser_pages/index.pt:46 c/engine/chooser_pages/index.pt:81
 #: c/engine/chooser_pages/partner/index.pt:54
 #: c/engine/chooser_pages/partner/index.pt:65
-msgctxt "util.Yes"
 msgid "Yes"
 msgstr "是"
 
-msgctxt "deed.free_copy_distribute.jp"
 msgid ""
 "to copy, distribute, display, perform, present, publicly transmit, and "
 "recite the work"
 msgstr "重製、散布、展示、公開演出、公開上映、公開播送、公開傳輸及公開口述本著作"
 
 #: c/engine/pd/templates/publicdomain-partner.pt:24
-msgctxt "license.pd_choice"
 msgid ""
 "<p>Your choice suggests you want to dedicate your work to the public domain, the commons of information and expression where nothing is owned and all is permitted.</p>\n"
 "\n"
@@ -699,12 +614,10 @@ msgstr ""
 "        <p>對公眾領域的貢獻 (Public Domain Dedication) 並不是一份授權條款。藉著將著作貢獻至公眾領域，你並非僅為你的著作權開創出例外，而是無條件地將你全部的著作權給予公眾。這個給予是永久且不可撤銷的。</p>"
 
 #: c/engine/macros_templates/metadata.pt:30
-msgctxt "util.Audio"
 msgid "Audio"
 msgstr "音訊"
 
 #: c/engine/macros_templates/deed.pt:92
-msgctxt "deed.fair_use"
 msgid ""
 "Your fair dealing or <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
@@ -715,130 +628,122 @@ msgstr ""
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
 " id=\"fair_use\" class=\"helpLink\">合理使用的權利</a>；"
 
-msgctxt "country.nl"
 msgid "Netherlands"
 msgstr "荷蘭"
 
 #: c/engine/pd/templates/publicdomain-4.pt:29
-msgctxt "license.in_order_to"
 msgid "In order to:"
 msgstr "為了："
 
 #: c/engine/macros_templates/partner.pt:29
-msgctxt "util.Creative_Commons"
 msgid "Creative Commons"
 msgstr "創用 CC"
 
-msgctxt "country.uk"
 msgid "UK: England & Wales"
 msgstr "英國: 英格蘭及威爾斯"
 
-msgctxt "country.ng"
 msgid "Nigeria"
 msgstr "奈及利亞"
 
-msgctxt "jswidget.Licensor_permits_others_to_make_derivative_works"
 msgid "Licensor permits others to make derivative works"
 msgstr "允許他人依此作品創作衍生著作"
 
-msgctxt "country.us"
 msgid "United States"
 msgstr "美國"
 
 #: c/engine/chooser_pages/results.pt:70
-msgctxt "license.select_text"
+#, python-format
 msgid ""
 "Select the contents of the box above and copy it. Or, have it <a "
-"href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open('work-"
-"html-popup?${url_vars}', 'html_help', "
+"href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-"
+"html-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">emailed to yourself.</a>"
 msgstr ""
-"選取並複製以上文字框之內容，或將該內容<a href=\"/license/work-html-popup?${url_vars}\" "
-"onclick=\"window.open('work-html-popup?${url_vars}', 'html_help', "
+"選取並複製以上文字框之內容，或將該內容<a href=\"/license/work-html-popup?%(url_vars)s\" "
+"onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">以電子郵件寄給你自己</a>。"
 
-msgctxt "license.q1"
+#, python-format
 msgid ""
 "<strong>Require attribution?</strong> (<a "
-"href=\"/characteristic/by?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/by?lang=${lang}', "
+"href=\"/characteristic/by?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/by?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">more info</a> <a href=\"/characteristic/by?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/by?lang=${lang}', "
+" false;\">more info</a> <a href=\"/characteristic/by?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/by?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 msgstr ""
-"<strong>要求姓名標示?</strong> (<a href=\"/characteristic/by?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/by?lang=${lang}', "
+"<strong>要求姓名標示?</strong> (<a href=\"/characteristic/by?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/by?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">更多資訊</a> <a href=\"/characteristic/by?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/by?lang=${lang}', "
+" false;\">更多資訊</a> <a href=\"/characteristic/by?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/by?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
 #: c/engine/chooser_pages/partner/index.pt:50
-msgctxt "license.q2"
+#, python-format
 msgid ""
 "<strong>Allow commercial uses of your work?</strong> (<a "
-"href=\"/characteristic/nc?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nc?lang=${lang}', "
+"href=\"/characteristic/nc?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">more info</a> <a href=\"/characteristic/nc?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nc?lang=${lang}', "
+" false;\">more info</a> <a href=\"/characteristic/nc?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 msgstr ""
 "<strong>允許你的著作被使用於商業目的?</strong> (<a "
-"href=\"/characteristic/nc?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nc?lang=${lang}', "
+"href=\"/characteristic/nc?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">更多資訊</a> <a href=\"/characteristic/nc?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nc?lang=${lang}', "
+" false;\">更多資訊</a> <a href=\"/characteristic/nc?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
 #: c/engine/chooser_pages/partner/index.pt:61
-msgctxt "license.q3"
+#, python-format
 msgid ""
 "<strong>Allow modifications of your work?</strong> (<a "
-"href=\"/characteristic/nd?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nd?lang=${lang}', "
+"href=\"/characteristic/nd?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">more info</a> <a href=\"/characteristic/nd?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nd?lang=${lang}', "
+" false;\">more info</a> <a href=\"/characteristic/nd?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 msgstr ""
-"<strong>允許他人改作你的著作?</strong> (<a href=\"/characteristic/nd?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nd?lang=${lang}', "
+"<strong>允許他人改作你的著作?</strong> (<a href=\"/characteristic/nd?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">更多資訊</a> <a href=\"/characteristic/nd?lang=${lang}\" "
-"onclick=\"window.open('/characteristic/nd?lang=${lang}', "
+" false;\">更多資訊</a> <a href=\"/characteristic/nd?lang=%(lang)s\" "
+"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
 "'characteristic_help', "
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 
 #: c/engine/chooser_pages/htmlpopup.pt:24
-msgctxt "license.html_directions"
 msgid ""
 "Simply copy the text, then paste it into your web documents containing "
 "information about your works. <a href=\"/learn/technology/usingmarkup\" "
@@ -850,138 +755,122 @@ msgstr ""
 
 #: c/engine/chooser_pages/index.pt:178
 #: c/engine/chooser_pages/partner/index.pt:114
-msgctxt "license.Select_a_License"
 msgid "Select a License"
 msgstr "選擇授權條款"
 
-msgctxt "license.rdfa_licensed"
+#, python-format
 msgid ""
-"${work_title} by ${work_author} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+"%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr ""
-"${work_title}由${work_author}製作，以<a rel=\"license\" "
-"href=\"${license_url}\">創用CC ${license_name} 授權條款</a>釋出。"
+"%(work_title)s由%(work_author)s製作，以<a rel=\"license\" "
+"href=\"%(license_url)s\">創用CC %(license_name)s 授權條款</a>釋出。"
 
-msgctxt "util.description"
 msgid "description"
 msgstr "描述"
 
 #: c/engine/chooser_pages/partner/results.pt:29
-msgctxt "license.partner_selected"
+#, python-format
 msgid ""
-"You have selected the <a target=\"cc_other\" href=\"${license_deed_url}\"><b>${license_pretty_name} License</b></a>.<br>\n"
+"You have selected the <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s License</b></a>.<br>\n"
 "This license is permanently located at<br>\n"
-"<b><tt>${license_url}</tt></b>."
+"<b><tt>%(license_url)s</tt></b>."
 msgstr ""
-"你已經選擇了這份 <a target=\"cc_other\" href=\"${license_deed_url}\"><b>${license_pretty_name} 授權條款</b></a>。<br>本授權條款之永久網址為：<br>\n"
-"<b><tt>${license_url}</tt></b>。"
+"你已經選擇了這份 <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s 授權條款</b></a>。<br>本授權條款之永久網址為：<br>\n"
+"<b><tt>%(license_url)s</tt></b>。"
 
 #: c/engine/licenses/sampling_templates/deed.pt:45
-msgctxt "deed.notice_withoutdistribution"
 msgid ""
 "For any reuse, you must make clear to others the license terms of this work."
 msgstr "為再使用本著作，你必須向他人清楚說明本著作所適用的授權條款。"
 
 #: c/engine/macros_templates/deed.pt:124
-msgctxt "lang.nl"
 msgid "Dutch"
 msgstr "荷蘭語"
 
-msgctxt "util.weblog"
 msgid "weblog"
 msgstr "網誌（部落格）"
 
-msgctxt "country.es"
 msgid "Spain"
 msgstr "西班牙"
 
 #. Default: ""
 #. "Mark a document not on the web, <a href=\"non-web-"
-#. "popup?${url_vars}\" onclick=\"window.open('non-web-popup?${url_vars}', "
+#. "popup?%(url_vars)s\" onclick=\"window.open('non-web-popup?%(url_vars)s', "
 #. "'html_help', "
 #. "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 #. " false;\">add this text</a> to your work.\""
 #: c/engine/pd/templates/publicdomain-4.pt:49
 #: c/engine/chooser_pages/results.pt:127
 #: chooser_pages/publicdomain/publicdomain-4.pt:58
-msgctxt "license.mark_nonweb"
+#, python-format
 msgid ""
-"To mark a document not on the web, <a href=\"non-web-popup?${url_vars}\" "
-"onclick=\"window.open('non-web-popup?${url_vars}', 'html_help', "
+"To mark a document not on the web, <a href=\"non-web-popup?%(url_vars)s\" "
+"onclick=\"window.open('non-web-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">add this text</a> to your work."
 msgstr ""
-"標示不在網路上的文件，請在你的著作裡<a href=\"non-web-popup?${url_vars}\" "
-"onclick=\"window.open('non-web-popup?${url_vars}', 'html_help', "
+"標示不在網路上的文件，請在你的著作裡<a href=\"non-web-popup?%(url_vars)s\" "
+"onclick=\"window.open('non-web-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">加入這段文字</a>。"
 
 #. Default: ""
 #. "Mark a document not on the web, <a href=\"non-web-"
-#. "popup?${url_vars}\" onclick=\"window.open('non-web-popup?${url_vars}', "
+#. "popup?%(url_vars)s\" onclick=\"window.open('non-web-popup?%(url_vars)s', "
 #. "'html_help', "
 #. "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 #. " false;\">add this text</a> to your work.\""
 #: c/engine/pd/templates/publicdomain-4.pt:49
 #: c/engine/chooser_pages/results.pt:127
 #: chooser_pages/publicdomain/publicdomain-4.pt:58
-msgctxt "license.pd.to_mark_nonweb"
+#, python-format
 msgid ""
-"To mark a document not on the web, <a href=\"non-web-popup?${url_vars}\" "
-"onclick=\"window.open('non-web-popup?${url_vars}', 'html_help', "
+"To mark a document not on the web, <a href=\"non-web-popup?%(url_vars)s\" "
+"onclick=\"window.open('non-web-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">add this text</a> to your work."
 msgstr ""
-"標示不在網路上的文件，請在你的著作裡<a href=\"non-web-popup?${url_vars}\" "
-"onclick=\"window.open('non-web-popup?${url_vars}', 'html_help', "
+"標示不在網路上的文件，請在你的著作裡<a href=\"non-web-popup?%(url_vars)s\" "
+"onclick=\"window.open('non-web-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">加入這段文字</a>。"
 
-msgctxt "char.nc_description"
 msgid ""
 "The licensor permits others to copy, distribute and transmit the work. In "
 "return, licensees may not use the work for commercial purposes — unless they"
 " get the licensor's permission."
 msgstr "授權人允許他人重製、散布、展示、演出本著作。相對地，除非得到授權人的允許，否則被授權人不得為商業目的使用本著作。"
 
-msgctxt "lang.es_MX"
 msgid "Spanish (MX)"
 msgstr "西班牙語 (墨西哥)"
 
-msgctxt "util.publish"
 msgid "publish"
 msgstr "發行"
 
 #: c/engine/macros_templates/deed.pt:153
-msgctxt "deed.human_summary"
 msgid ""
 "This is a human-readable summary of the <a href=\"legalcode\" "
 "class=\"fulltext\">Legal Code (the full license)</a>."
 msgstr "這是一份讓一般人易於了解的<a href=\"legalcode\" class=\"fulltext\">法律條款（完整的授權條款）</a>摘要。"
 
 #: c/engine/pd/templates/publicdomain-2.pt:46
-msgctxt "util.proceed"
 msgid "proceed"
 msgstr "進行"
 
-msgctxt "license.LGPL_name_full"
 msgid "GNU Lesser General Public License"
 msgstr "GNU 較寬鬆通用公共授權條款"
 
-msgctxt "util.more"
 msgid "more"
 msgstr "更多"
 
-msgctxt "lang.en_US"
 msgid "English (US)"
 msgstr "英語 (美國)"
 
 #: c/engine/macros_templates/metadata.pt:52
-msgctxt "util.attribute_to_name"
 msgid "Attribute work to name"
 msgstr "標示作者姓名"
 
-msgctxt "api.sampling_flavor_help"
 msgid ""
 "The Sampling Flavor determines how much freedom licensees have. Sampling "
 "only allows pieces to be used and prohibits sharing of the entire work.  "
@@ -997,15 +886,12 @@ msgstr ""
 "則對【特別取樣】加上了額外的限制：僅授權在非商業使用的情況下，被授權人才得以由你的著作片段加以改作。"
 
 #: c/engine/macros_templates/deed.pt:117
-msgctxt "lang.en"
 msgid "English"
 msgstr "英語"
 
-msgctxt "lang.eo"
 msgid "Esperanto"
 msgstr "世界語"
 
-msgctxt "licenses.draft_notice"
 msgid ""
 "This is a draft license published for public review. Do not use this license"
 " until this notice has been removed. Direct comments on this draft license "
@@ -1015,7 +901,6 @@ msgstr ""
 "licenses@creativecommons.org （當然，她只看得懂英文）。"
 
 #: c/engine/chooser_pages/index.pt:170 c/engine/chooser_pages/sampling.pt:106
-msgctxt "license.jurisdiction_help"
 msgid ""
 "Use the option \"International\" if you desire a license using language\n"
 "and terminology from international treaties.  If the licenses have\n"
@@ -1032,17 +917,15 @@ msgstr ""
 
 #: c/engine/chooser_pages/index.pt:128 c/engine/chooser_pages/sampling.pt:72
 #: c/engine/chooser_pages/partner/index.pt:79
-msgctxt "license.jurisdiction_question"
 msgid "Jurisdiction of your license"
 msgstr "選擇司法管轄領域"
 
 #: c/engine/pd/templates/publicdomain-2.pt:39
-msgctxt "util.copyright_holder"
 msgid "copyright holder"
 msgstr "著作權人"
 
 #: c/engine/chooser_pages/sampling.pt:118
-msgctxt "license.sampling_alternatives"
+#, python-format
 msgid ""
 "<p>If you <strong>want</strong> to invite people to make "
 "<strong>any</strong> commercial re-use of your work &mdash; transformative "
@@ -1056,43 +939,35 @@ msgstr ""
 "相同方式分享</a>授權條款，或更單純的<a href=\"/license/results-"
 "one?license%5fcode=by\">姓名標示</a>授權條款。</p>"
 
-msgctxt "lang.sv"
 msgid "Swedish"
 msgstr "瑞典語"
 
 #: c/engine/chooser_pages/htmlpopup.pt:15
-msgctxt "license.html_display"
 msgid "The HTML to display your button is as follows:"
 msgstr "按鈕的HTML原始碼如下："
 
 #: c/engine/macros_templates/deed.pt:109
-msgctxt "lang.eu"
 msgid "Basque"
 msgstr "巴斯克語"
 
-msgctxt "lang.en_CA"
 msgid "English (CA)"
 msgstr "英語 (加拿大)"
 
 #: c/engine/macros_templates/deed.pt:104
-msgctxt "lang.es"
 msgid "Spanish"
 msgstr "西班牙語"
 
 #: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
 #: c/engine/licenses/devnations_templates/deed.pt:47
-msgctxt "char.by_title"
 msgid "Attribution"
 msgstr "姓名標示"
 
 #: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
 #: c/engine/licenses/devnations_templates/deed.pt:47
-msgctxt "licenses.pretty_by"
 msgid "Attribution"
 msgstr "姓名標示"
 
 #: c/engine/chooser_pages/sampling.pt:65
-msgctxt "license.sampling_a_nc-sampling+"
 msgid ""
 "<strong>Noncommercial Sampling Plus</strong>: People can take and transform "
 "<strong>pieces</strong> of your work for <strong>noncommercial</strong> "
@@ -1103,39 +978,34 @@ msgstr ""
 "：他人僅可為非商業目的取用並改編你著作的<strong>部分</strong>。<strong>非商業性</strong>的重製與散布（如檔案分享）<strong>完整著作</strong>亦被允許。"
 
 #: c/engine/macros_templates/metadata.pt:32
-msgctxt "util.Video"
 msgid "Video"
 msgstr "影片"
 
-msgctxt "license.rdfa_licensed_no_attrib"
+#, python-format
 msgid ""
-"${work_title} is licensed under a <a rel=\"license\" "
-"href=\"${license_url}\">Creative Commons ${license_name} License</a>."
+"%(work_title)s is licensed under a <a rel=\"license\" "
+"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr ""
-"${work_title}以<a rel=\"license\" href=\"${license_url}\">創用CC "
-"${license_name} 授權條款</a>釋出。"
+"%(work_title)s以<a rel=\"license\" href=\"%(license_url)s\">創用CC "
+"%(license_name)s 授權條款</a>釋出。"
 
-msgctxt "country.hu"
 msgid "Hungary"
 msgstr "匈牙利"
 
-msgctxt "country.hr"
 msgid "Croatia"
 msgstr "克羅埃西亞"
 
 #: c/engine/chooser_pages/sampling.pt:111
-msgctxt "license.sampling_get"
 msgid "Get your Sampling License"
 msgstr "取得你的「取樣授權條款」"
 
-msgctxt "license.devnations_licensed"
+#, python-format
 msgid ""
-"This work is licensed under a <a href=\"${license_url}\">Creative Commons "
+"This work is licensed under a <a href=\"%(license_url)s\">Creative Commons "
 "Developing Nations license</a>."
-msgstr "本著作係採用<a href=\"${license_url}\">創用 CC 開發中國家授權條款</a>授權。"
+msgstr "本著作係採用<a href=\"%(license_url)s\">創用 CC 開發中國家授權條款</a>授權。"
 
 #: c/engine/chooser_pages/index.pt:32
-msgctxt "license.what"
 msgid ""
 "With a Creative Commons license, <strong>you keep your copyright</strong> "
 "but allow people to <a href=\"/learn/licenses/fullrights\">copy and "
@@ -1155,52 +1025,42 @@ msgstr ""
 "href=\"/about/think\">你該考慮的事項清單（英文）</a>。若你希望將你的著作無條件釋出，請選用我們提供的<a "
 "href=\"/publicdomain/\">公眾領域工具</a> 。"
 
-msgctxt "char.by_brief.jp"
 msgid "You must give the original author and the performer credit."
 msgstr "你必須表彰原作者及表演人之姓名。"
 
 #: c/engine/chooser_pages/results.pt:94
-msgctxt "license.learn_host"
 msgid ""
 "Learn about other places you can host your licensed files. These sites work "
 "with your Creative Commons license."
 msgstr "了解其他能夠存放你已授權檔案的服務。這些網站都支援你所選擇的創用CC授權條款。"
 
-msgctxt "lang.es_CO"
 msgid "Spanish (CO)"
 msgstr "西班牙語（哥倫比亞）"
 
 #: c/engine/pd/templates/publicdomain-4.pt:42
 #: c/engine/chooser_pages/gpl.pt:110 c/engine/chooser_pages/lgpl.pt:113
-msgctxt "license.get_html_email"
 msgid "Get HTML and email it to yourself"
 msgstr "取得HTML原始碼並透過電子郵件寄給你自己"
 
 #: c/engine/macros_templates/metadata.pt:38
-msgctxt "util.Interactive"
 msgid "Interactive"
 msgstr "互動式媒體"
 
 #: c/engine/chooser_pages/htmlpopup.pt:27
-msgctxt "license.html_email"
 msgid "Enter your email address to get the HTML by email:"
 msgstr "請輸入你的電子郵件地址，我們將用電子郵件把HTML原始碼寄給你："
 
-msgctxt "util.Next_step"
 msgid "Next step:"
 msgstr "下一步："
 
 #: c/engine/chooser_pages/index.pt:198
-msgctxt "license.or_choose"
 msgid "Or Choose:"
 msgstr "或選擇："
 
-msgctxt "licenses.pretty_by-nc-nd"
 msgid "Attribution-NonCommercial-NoDerivs"
 msgstr "姓名標示-非商業性-禁止改作"
 
 #: c/engine/licenses/catalog_pages/disclaimer-popup.pt:19
-msgctxt "deed.disclaimer"
 msgid ""
 "<p>\n"
 "The Commons Deed is not a license. It is simply a handy reference for understanding the Legal Code (the full license) &mdash; it is a human-readable expression of some of its key terms. Think of it as the user-friendly interface to the Legal Code beneath. This Deed itself has no legal value, and its contents do not appear in the actual license.\n"
@@ -1217,30 +1077,24 @@ msgstr ""
 "Creative Commons 不是法律事務所，亦不提供法律服務。散布、展示或連結到授權標章並不產生律師和客戶的關係。</p>"
 
 #: c/engine/macros_templates/deed.pt:161
-msgctxt "deed.learn"
 msgid "Learn how to distribute your work using this license"
 msgstr "認識如何使用這個授權條款來散布你的著作"
 
 #: c/engine/chooser_pages/htmlpopup.pt:41
-msgctxt "util.Send"
 msgid "Send"
 msgstr "送出"
 
-msgctxt "lang.zh_TW"
 msgid "Chinese (Taiwan)"
 msgstr "華語 (台灣)"
 
 #: c/engine/macros_templates/metadata.pt:84
-msgctxt "jargon.source_work_description"
 msgid "A work another is derived from."
 msgstr "衍生著作所依據的來源著作。"
 
-msgctxt "lang.zu"
 msgid "Zulu"
 msgstr "祖魯語"
 
 #: c/engine/chooser_pages/index.pt:124
-msgctxt "char.sa_description"
 msgid ""
 "The licensor permits others to distribute derivative works only under the "
 "same license or one compatible with the one that governs the licensor's "
@@ -1248,62 +1102,50 @@ msgid ""
 msgstr "授權人僅允許他人得在遵守與規範授權人的著作相同的授權條款下散布衍生著作。"
 
 #: c/engine/macros_templates/metadata.pt:34
-msgctxt "util.Image"
 msgid "Image"
 msgstr "圖像"
 
 #: c/engine/macros_templates/metadata.pt:28
-msgctxt "util.Other"
 msgid "Other"
 msgstr "其他"
 
 #: c/engine/pd/templates/publicdomain-partner.pt:31
 #: c/engine/chooser_pages/partner/results.pt:35
-msgctxt "license.you_may_proceed"
-msgid "You may now <a href=\"${processed_exit_url}\">proceed</a>"
-msgstr "你現在可以<a href=\"${processed_exit_url}\">繼續進行下去</a>"
+#, python-format
+msgid "You may now <a href=\"%(processed_exit_url)s\">proceed</a>"
+msgstr "你現在可以<a href=\"%(processed_exit_url)s\">繼續進行下去</a>"
 
-msgctxt "char.nc_title"
 msgid "Noncommercial"
 msgstr "非商業性"
 
 #: c/engine/chooser_pages/index.pt:204
-msgctxt "licenses.pretty_publicdomain"
 msgid "Public Domain"
 msgstr "公眾領域"
 
 #: c/engine/chooser_pages/index.pt:204
-msgctxt "util.Public_Domain"
 msgid "Public Domain"
 msgstr "公眾領域"
 
-msgctxt "lang.zh"
 msgid "Chinese"
 msgstr "華語"
 
-msgctxt "lang.zh_CN"
 msgid "Chinese"
 msgstr "華語"
 
 #: c/engine/chooser_pages/results.pt:59
-msgctxt "license.have_your_own_website"
 msgid "Have your own website?"
 msgstr "有自己的網站嗎？"
 
-msgctxt "lang.ja"
 msgid "Japanese"
 msgstr "日本語"
 
 #: c/engine/chooser_pages/sampling.pt:53
-msgctxt "license.sampling_title"
 msgid "Choose Your Sampling License Options"
 msgstr "選擇你的取樣授權條款選項"
 
-msgctxt "country.jp"
 msgid "Japan"
 msgstr "日本"
 
-msgctxt "deed.free_commercial"
 msgid "to make commercial use of the work"
 msgstr "對本著作進行商業利用"
 
@@ -1311,16 +1153,13 @@ msgstr "對本著作進行商業利用"
 #: c/engine/chooser_pages/index.pt:82 c/engine/chooser_pages/index.pt:89
 #: c/engine/chooser_pages/index.pt:97 c/engine/chooser_pages/index.pt:130
 #: c/engine/chooser_pages/sampling.pt:74
-msgctxt "util.more_info"
 msgid "more info"
 msgstr "更多資訊"
 
-msgctxt "nav.select_a_jurisdiction"
 msgid "Select a jurisdiction"
 msgstr "選擇司法管轄領域"
 
 #: c/engine/chooser_pages/sampling.pt:61
-msgctxt "license.sampling_a_sampling+"
 msgid ""
 "<strong>Sampling Plus</strong>: People can take and transform "
 "<strong>pieces</strong> of your work for any purpose other than advertising,"
@@ -1333,17 +1172,14 @@ msgstr ""
 " (plus) </strong>」。"
 
 #: c/engine/macros_templates/deed.pt:98
-msgctxt "deed.human_summary_multilanguage"
 msgid ""
 "This is a human-readable summary of the Legal Code (the full license) "
 "available in the following languages:"
 msgstr "這是一份讓一般人易於了解的法律條款（即完整的授權條款）摘要，同時有下列不同語言的譯本："
 
-msgctxt "country.jo"
 msgid "Jordan"
 msgstr "約旦"
 
-msgctxt "country.es-ca"
 msgid "Catalonia"
 msgstr "加泰隆尼亞"
 
@@ -1351,48 +1187,39 @@ msgstr "加泰隆尼亞"
 #: c/engine/chooser_pages/gpl.pt:107 c/engine/chooser_pages/lgpl.pt:110
 #: c/engine/chooser_pages/nonweb_popup.pt:31
 #: c/engine/chooser_pages/htmlpopup.pt:20
-msgctxt "util.Highlight_Text"
 msgid "Highlight Text to Copy"
 msgstr "反白（選取）文字以進行複製"
 
-msgctxt "char.nd_brief"
 msgid "You may not alter, transform, or build upon this work."
 msgstr "你不得變更、變形或修改本著作。"
 
 #: c/engine/chooser_pages/sampling.pt:78 c/engine/chooser_pages/sampling.pt:90
 #: c/engine/chooser_pages/partner/index.pt:83
 #: c/engine/chooser_pages/partner/index.pt:86
-msgctxt "util.Generic"
 msgid "Generic"
 msgstr "通用版"
 
-msgctxt "lang.es_AR"
 msgid "Spanish (AR)"
 msgstr "西班牙語 (阿根廷)"
 
 #: c/engine/macros_templates/metadata.pt:66
 #: c/engine/macros_templates/metadata.pt:82
-msgctxt "util.source_work"
 msgid "Source work URL"
 msgstr "原始著作"
 
 #: c/engine/chooser_pages/sampling.pt:115
-msgctxt "license.sampling_note"
 msgid ""
 "Note: The sampling license isn't just for music. It can apply to all types "
 "of copyrighted work: images, film, etc."
 msgstr "注意：取樣授權條款不僅適用於音樂。它也適用於所有類型之著作物如：圖像、影片等。"
 
-msgctxt "country.au"
 msgid "Australia"
 msgstr "澳大利亞"
 
-msgctxt "country.at"
 msgid "Austria"
 msgstr "奧地利"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:19
-msgctxt "license.non_web_pd"
 msgid ""
 "This work is in the Public Domain. To view a copy of the public domain "
 "certification, visit http://creativecommons.org/licenses/publicdomain/ or "
@@ -1402,80 +1229,66 @@ msgstr ""
 "此工作於公眾領域。欲查看公眾領域認證副本，請參閱http://creativecommons.org/licenses/publicdomain/或寫信給"
 " 台灣創用CC計畫，11574 台北市南港區研究院路二段128號 資訊科技創新研究中心 304室. "
 
-msgctxt "country.ar"
 msgid "Argentina"
 msgstr "阿根廷"
 
 #: c/engine/licenses/standard_templates/deed.pt:77
-msgctxt "deed.superseded"
+#, python-format
 msgid ""
-"A <a href=\"${current_version_url}\">new version</a> of this license is "
+"A <a href=\"%(current_version_url)s\">new version</a> of this license is "
 "available. You should use it for new works, and you may want to relicense "
 "existing works under it. No works are <em>automatically</em> put under the "
 "new license, however."
 msgstr ""
 "本授權條款有<a "
-"href=\"${current_version_url}\">新的版本</a>。你的新著作應使用本授權條款之新版本，且你可依據該新版授權條款再授權現有著作。然而，新版授權條款並不會<em>自動地</em>套用於任何著作上。"
+"href=\"%(current_version_url)s\">新的版本</a>。你的新著作應使用本授權條款之新版本，且你可依據該新版授權條款再授權現有著作。然而，新版授權條款並不會<em>自動地</em>套用於任何著作上。"
 
 #: c/engine/chooser_pages/index.pt:209
-msgctxt "licenses.pretty_sampling+"
 msgid "Sampling Plus"
 msgstr "特別取樣"
 
 #: c/engine/chooser_pages/index.pt:42
-msgctxt "api.commercial"
 msgid "Allow commercial uses of your work?"
 msgstr "是否允許你的著作被使用於商業目的?"
 
 #: c/engine/macros_templates/support.pt:103
 #: c/engine/macros_templates/support.pt:107
-msgctxt "license.enter_information"
 msgid "enter information"
 msgstr "輸入資訊"
 
-msgctxt "jswidget.Allow_Remixing"
 msgid "Allow Remixing"
 msgstr "允許重混"
 
 #: c/engine/macros_templates/metadata.pt:16
-msgctxt "license.hide_optional_fields"
 msgid "Hide these fields (All fields are optional)"
 msgstr "隱藏這些欄位（所有這些欄位都是可選擇性填寫的）"
 
-msgctxt "country.pt"
 msgid "Portugal"
 msgstr "葡萄牙"
 
-msgctxt "license.GPL_name_full"
 msgid "GNU General Public License"
 msgstr "GNU 通用公共授權條款"
 
-msgctxt "lang.af"
 msgid "Afrikaans"
 msgstr "南非洲公用荷蘭語"
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:54
-msgctxt "deed.mit_notice"
 msgid ""
 "The copyright notice and license shall be included in all copies or\n"
 "substantial portions of the software."
 msgstr "此著作權聲明需隨本軟體之重製品或衍生軟體之相關部份中出現。"
 
-msgctxt "jswidget.Remix"
 msgid "Remix"
 msgstr "重混"
 
-msgctxt "char.nc_brief"
 msgid "You may not use this work for commercial purposes."
 msgstr "你不得為商業目的而使用本著作。"
 
 #: c/engine/macros_templates/metadata.pt:72
-msgctxt "util.more_permissions_url"
 msgid "More permissions URL"
 msgstr "其他授權方式網址"
 
 #: c/engine/licenses/standard_templates/deed.pt:64
-msgctxt "deed.moralrights"
 msgid ""
 "The author's <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
@@ -1485,43 +1298,34 @@ msgstr ""
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">著作人格權</a>；"
 
-msgctxt "country.sk"
 msgid "Slovak Republic"
 msgstr "斯洛伐克"
 
 #: c/engine/chooser_pages/results.pt:61
-msgctxt "license.copy_text"
 msgid ""
 "Copy the text below to your Web site to let your visitors know what license "
 "applies to your works."
 msgstr "將以下文字複製到你的網站上，讓你的網站讀者得知你的著作採用的授權條款。"
 
-msgctxt "lang.he"
 msgid "Hebrew"
 msgstr "希伯來語"
 
-msgctxt "license.learn_mark"
 msgid "learn how to mark your content"
 msgstr "認識如何為你的著作內容加上標示"
 
-msgctxt "country.sg"
 msgid "Singapore"
 msgstr "新加坡"
 
-msgctxt "country.se"
 msgid "Sweden"
 msgstr "瑞典"
 
 #: c/engine/chooser_pages/sampling.pt:82 c/engine/chooser_pages/sampling.pt:94
-msgctxt "country.de"
 msgid "Germany"
 msgstr "德國"
 
-msgctxt "lang.hu"
 msgid "Hungarian"
 msgstr "匈牙利語"
 
-msgctxt "country.dk"
 msgid "Denmark"
 msgstr "丹麥"
 
@@ -1529,23 +1333,18 @@ msgstr "丹麥"
 #: c/engine/chooser_pages/htmlpopup.pt:46
 #: c/engine/chooser_templates/emailhtml.pt:19 c/engine/templates/by.pt:31
 #: c/engine/licenses/catalog_pages/disclaimer-popup.pt:21
-msgctxt "util.Close_window"
 msgid "Close window"
 msgstr "關閉視窗"
 
-msgctxt "country.si"
 msgid "Slovenia"
 msgstr "斯洛維尼亞"
 
-msgctxt "lang.hr"
 msgid "Croatian"
 msgstr "克羅埃西亞語"
 
-msgctxt "country.scotland"
 msgid "UK: Scotland"
 msgstr "英國: 蘇格蘭"
 
-msgctxt "country.ua"
 msgid "Ukraine"
 msgstr "烏克蘭"
 
@@ -1553,7 +1352,6 @@ msgstr "烏克蘭"
 #: c/engine/licenses/devnations_templates/deed.pt:25
 #: c/engine/licenses/sampling_templates/deed.pt:23
 #: c/engine/licenses/standard_templates/deed.pt:31
-msgctxt "deed.retired"
 msgid ""
 "Creative Commons has <a "
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
@@ -1562,24 +1360,19 @@ msgstr ""
 "創用CC已 <a href=\"http://creativecommons.org/retiredlicenses\">棄用這個授權工具</a> "
 "，並且不建議你在新作品中使用它。"
 
-msgctxt "country.ca"
 msgid "Canada"
 msgstr "加拿大"
 
-msgctxt "country.co"
 msgid "Colombia"
 msgstr "哥倫比亞"
 
-msgctxt "country.cn"
 msgid "China Mainland"
 msgstr "中國大陸"
 
-msgctxt "licenses.pretty_GPL"
 msgid "GPL"
 msgstr "通用公共授權條款 (GPL)"
 
 #: c/engine/macros_templates/deed.pt:76
-msgctxt "deed.disclaimer.jp"
 msgid ""
 "<p>\n"
 "The Commons Deed is not a license. It is simply a handy reference for understanding the Legal Code (the full License) — it is a human-readable expression of some of its key terms. This Deed itself has no legal value, and its contents do not appear in the actual License.  The actual terms of the license is set forth by the Legal Code.  <a href=\"legalcode\" class=\"fulltext\">Please click here to see the full License</a>.  \n"
@@ -1605,54 +1398,42 @@ msgstr ""
 "依據創用 CC 授權條款所授權的產品係由適用於此授權條款之人所提供； Creative Commons 及日本 Creative Commons 並不擔保授權人有合法之權利。關於授權條款之適用，以及使用依據創用 CC 授權條款所授權之產品的資訊，請閱讀<a href=\"http://creativecommons.jp/faq/\">此處</a>。\n"
 "</p>"
 
-msgctxt "country.ch"
 msgid "Switzerland"
 msgstr "瑞士"
 
 #: c/engine/chooser_pages/results.pt:105
-msgctxt "license.publish_flickr"
 msgid "Post your licensed images at Flickr"
 msgstr "在 Flickr 上發表你已授權的圖像"
 
-msgctxt "jswidget.Updated_license_jurisdiction"
 msgid ""
 "We have updated the version of your license to the most recent one available"
 " in your jurisdiction."
 msgstr "我們已將你的授權條款更新至你所選之司法管轄領域的最新版本。"
 
-msgctxt "country.cz"
 msgid "Czech Republic"
 msgstr "捷克"
 
-msgctxt "licenses.pretty_nd-nc"
 msgid "NoDerivs-NonCommercial"
 msgstr "禁止改作-非商業性"
 
-msgctxt "licenses.pretty_by-nc-sa"
 msgid "Attribution-NonCommercial-ShareAlike"
 msgstr "姓名標示-非商業性-相同方式分享"
 
-msgctxt "country.fr"
 msgid "France"
 msgstr "法國"
 
-msgctxt "util.creators_name"
 msgid "creator's name"
 msgstr "作者姓名"
 
-msgctxt "country.za"
 msgid "South Africa"
 msgstr "南非"
 
-msgctxt "lang.sr"
 msgid "Serbian"
 msgstr "塞爾維亞語"
 
-msgctxt "lang.st"
 msgid "Sotho"
 msgstr "索托語"
 
-msgctxt "util.source_work_url"
 msgid ""
 "<a href=\"/jargon/source_work\" class=\"jargon\" "
 "onClick=\"window.open('/jargon/source_work', 'jargon_term_lookup', "
@@ -1664,69 +1445,59 @@ msgstr ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">原始著作</a> URL<br>(僅需為衍生著作填寫)"
 
-msgctxt "license.Final_step"
 msgid "Final step:"
 msgstr "最後一步："
 
 #: c/engine/licenses/devnations_templates/deed.pt:30
 #: c/engine/licenses/mitbsd_templates/deed.pt:25
 #: c/engine/licenses/standard_templates/deed.pt:38
-msgctxt "deed.free_copy_distribute"
 msgid "<strong>to Share</strong> — to copy, distribute and transmit the work"
 msgstr "<strong>分享</strong> — 重製、散布及傳輸本著作"
 
 #: c/engine/chooser_pages/index.pt:115
-msgctxt "char.nd_title"
 msgid "No Derivative Works"
 msgstr "禁止改作"
 
 #: c/engine/licenses/devnations_templates/deed.pt:50
 #: c/engine/licenses/sampling_templates/deed.pt:43
 #: c/engine/licenses/standard_templates/deed.pt:56
-msgctxt "deed.notice"
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
 msgstr "為了再使用或散布之目的，你必須向他人清楚說明本著作所適用的授權條款。提供本網頁連結是最好的方式。"
 
-msgctxt "lang.sl"
 msgid "Slovenian"
 msgstr "斯洛維尼亞語"
 
-msgctxt "util.copyright"
 msgid "copyright"
 msgstr "著作權"
 
 #: c/engine/chooser_pages/nonweb_popup.pt:27
-msgctxt "license.non_web_statement"
+#, python-format
 msgid ""
-"This work is licensed under the Creative Commons ${license_name} License. To"
-" view a copy of this license, visit ${license_url} or send a letter to "
+"This work is licensed under the Creative Commons %(license_name)s License. "
+"To view a copy of this license, visit %(license_url)s or send a letter to "
 "Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, "
 "94041, USA."
 msgstr ""
-"本著作係採用${license_name}授權。閱讀本授權條款，請到${license_url}，或寫信至Creative Commons, 444 "
-"Castro Street, Suite 900, Mountain View, California, 94041, USA."
+"本著作係採用%(license_name)s授權。閱讀本授權條款，請到%(license_url)s，或寫信至Creative Commons, 444"
+" Castro Street, Suite 900, Mountain View, California, 94041, USA."
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:40
-msgctxt "deed.no_endorsement"
 msgid ""
 "<strong>No Endorsement</strong>. The name of the author may not be used to "
 "endorse or promote products derived from this software without specific "
 "prior written permission."
 msgstr "<strong>無背書關係</strong>。非經書面許可，標示作者之姓名不代表原作者願意推廣此軟體之衍生著作，或為此軟體之衍生著作背書。"
 
-msgctxt "jswidget.Prohibit_Commercial_Use"
 msgid "Prohibit Commercial Use"
 msgstr "禁止為商業目的使用"
 
 #: c/engine/chooser_pages/results.pt:56
-msgctxt "license.what_to_do_next"
 msgid "What to do next"
 msgstr "接下來該做些甚麼"
 
 #: c/engine/pd/templates/publicdomain-4.pt:52
-msgctxt "license.mark_rss"
 msgid ""
 "Add your license information to a RSS feed, use <a "
 "href=\"http://web.resource.org/rss/1.0/modules/cc/\">the RSS 1.0 module</a>,"
@@ -1738,7 +1509,6 @@ msgstr ""
 "href=\"http://backend.userland.com/creativeCommonsRssModule\">RSS 2.0 "
 "模組</a>。"
 
-msgctxt "lang.es_CL"
 msgid "Spanish (CL)"
 msgstr "西班牙語 (智利)"
 
@@ -1746,21 +1516,17 @@ msgstr "西班牙語 (智利)"
 #: c/engine/macros_templates/support.pt:127
 #: c/engine/macros_templates/support.pt:134
 #: c/engine/macros_templates/support.pt:136
-msgctxt "license.review_choice"
 msgid "review choice"
 msgstr "回顧你的選擇"
 
-msgctxt "util.Share_Music"
 msgid "Share Music"
 msgstr "共享音樂"
 
 #: c/engine/chooser_pages/index.pt:122
-msgctxt "char.sa_title"
 msgid "Share Alike"
 msgstr "相同方式分享"
 
 #: c/engine/chooser_pages/index.pt:193
-msgctxt "license.explain"
 msgid ""
 "When you choose a <a "
 "href=\"http://creativecommons.org/about/licenses\">license</a>, we provide "
@@ -1773,27 +1539,22 @@ msgstr ""
 "href=\"http://creativecommons.org/about/licenses\">授權</a>時，我們提供了可嵌入你的網站的HTML原始碼以標示授權資訊，也提供幾個網路上免費且應用CC授權的存放服務。這<b>不是</b>一個註冊動作，我們也不會保留你的選擇紀錄。"
 
 #: c/engine/pd/templates/publicdomain-4.pt:27
-msgctxt "license.mark_pd"
 msgid ""
 "Now that you've chosen the Public Domain Certification, you should mark the "
 "work in the appropriate way."
 msgstr "既然你已經選擇將著作貢獻至公眾領域，那麼你就必須以適當方式在著作上加以標示。"
 
-msgctxt "util.Try_again"
 msgid "Try again!"
 msgstr "請再試一次！"
 
 #: c/engine/chooser_pages/index.pt:214
-msgctxt "util.Founders_Copyright"
 msgid "Founder's Copyright"
 msgstr "美國建國者著作權 (Founder's Copyright)"
 
-msgctxt "licenses.pretty_nc-sa"
 msgid "NonCommercial-ShareAlike"
 msgstr "非商業性-相同方式分享"
 
 #: c/engine/chooser_pages/results.pt:78
-msgctxt "license.after_support_cc"
 msgid ""
 "After publishing your license, please consider <a "
 "href=\"http://support.creativecommons.org/donate/\">supporting Creative "
@@ -1803,20 +1564,17 @@ msgstr ""
 "Creative Commons</a>。"
 
 #: c/engine/templates/by.pt:25
-msgctxt "char.by_description"
 msgid ""
 "You must attribute the\n"
 "work in the manner specified by the author or licensor."
 msgstr "授權人允許他人重製、散布、展示、演出本著作。相對的，被授權人必須按照作者或授權人所指定的方式，保留原作者的姓名標示。"
 
 #: c/engine/macros_templates/metadata.pt:36
-msgctxt "util.Text"
 msgid "Text"
 msgstr "語文"
 
 #: c/engine/licenses/devnations_templates/deed.pt:48
 #: c/engine/licenses/sampling_templates/deed.pt:41
-msgctxt "char.by_brief"
 msgid ""
 "You must attribute the work in the manner specified by the author or "
 "licensor (but not in any way that suggests that they endorse you or your use"
@@ -1824,7 +1582,6 @@ msgid ""
 msgstr "你必須按照著作人或授權人所指定的方式，表彰其姓名（但不得以任何方式暗示其為你或你使用本著作的方式背書）。"
 
 #: c/engine/chooser_pages/results.pt:76
-msgctxt "license.read_tutorial"
 msgid ""
 "Need more help? <a "
 "href=\"http://wiki.creativecommons.org/Website/Publish\">Read our "
@@ -1833,12 +1590,10 @@ msgstr ""
 "需要更多的協助嗎？<a "
 "href=\"http://wiki.creativecommons.org/Website/Publish\">請閱讀我們的教學指南</a>。"
 
-msgctxt "country.fi"
 msgid "Finland"
 msgstr "芬蘭"
 
 #: c/engine/chooser_pages/partner/index.pt:25
-msgctxt "license.partner_what"
 msgid ""
 "Creative Commons licenses help you share your work while keeping\n"
 "your copyright.  Other people can copy and distribute your work provided they\n"
@@ -1856,27 +1611,21 @@ msgstr ""
 #: c/engine/chooser_pages/index.pt:49 c/engine/chooser_pages/index.pt:96
 #: c/engine/chooser_pages/partner/index.pt:56
 #: c/engine/chooser_pages/partner/index.pt:73
-msgctxt "util.No"
 msgid "No"
 msgstr "否"
 
-msgctxt "util.find"
 msgid "find"
 msgstr "尋找"
 
-msgctxt "api.sampling_flavor"
 msgid "What flavor of Sampling license?"
 msgstr "要選擇何種取樣授權條款?"
 
-msgctxt "jswidget.no_license_chosen"
 msgid "No license chosen"
 msgstr "尚未選擇授權條款"
 
-msgctxt "lang.fi"
 msgid "Finnish"
 msgstr "芬蘭語"
 
-msgctxt "jswidget.short"
 msgid ""
 "With a Creative Commons license, you keep your copyright but allow people to"
 " copy and distribute your work provided they give you credit — and only on "
@@ -1887,61 +1636,51 @@ msgstr ""
 "透過使用創用CC授權條款，你不但可以保留你的著作權，也同時允許其他人得以重製及散布你的著作，惟需保留你的姓名標示，並遵循你在此具體指明的條件。如果你想選擇適用於特定司法管轄領域著作權法之授權條款，請在此選擇合適的司法管轄領域。"
 
 #: c/engine/macros_templates/metadata.pt:15
-msgctxt "license.include_more"
 msgid "Click to include more information about your work."
 msgstr "按此以加入更多關於你著作的資訊。"
 
 #: c/engine/chooser_templates/emailhtml.pt:16
-msgctxt "license.link_emailed"
+#, python-format
 msgid ""
 "<p>\n"
-"The information concerning your choice has been emailed to you at <strong>${email}</strong>.\n"
+"The information concerning your choice has been emailed to you at <strong>%(email)s</strong>.\n"
 "</p>\n"
 "\n"
 "<p>Place the link or the HTML on your website, right next to the work you intend to license.  </p>"
 msgstr ""
-"<p>跟你的選擇有關的資訊，已經以電子郵件寄給你的 <strong>${email}</strong> 信箱了。</p>\n"
+"<p>跟你的選擇有關的資訊，已經以電子郵件寄給你的 <strong>%(email)s</strong> 信箱了。</p>\n"
 "\n"
 "<p>請將連結或HTML原始碼放置在你的網站上、緊跟著你想授權的著作旁。</p>"
 
 #: c/engine/macros_templates/deed.pt:118 c/engine/macros_templates/deed.pt:123
-msgctxt "lang.fr"
 msgid "French"
 msgstr "法語"
 
 #: c/engine/chooser_pages/index.pt:218
-msgctxt "util.CC_GNU_GPL"
 msgid "CC-GNU GPL"
 msgstr "創用 CC-GNU GPL"
 
-msgctxt "license.or_return"
 msgid "Or, you can <a href=\"./\">return to the questions</a>."
 msgstr "或者，你能<a href=\"./\">回到問題部分</a>。"
 
-msgctxt "char.sa_bysa30_brief"
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
 msgstr "若你改變、轉變或改作本著作，僅在採用與本著作相同、相似或相容的授權條款下，你始得散布由本著作而生的衍生著作。"
 
-msgctxt "country.mk"
 msgid "Macedonia"
 msgstr "馬其頓"
 
-msgctxt "licenses.pretty_sa"
 msgid "ShareAlike"
 msgstr "相同方式分享"
 
 #: c/engine/chooser_pages/results.pt:111
-msgctxt "license.publish_blog"
 msgid "Add a Creative Commons license to your blog"
 msgstr "在你的部落格 (無名小站、天空部落、Pixnet 等) 中加入創用 CC 授權條款"
 
-msgctxt "lang.pt"
 msgid "Portuguese"
 msgstr "葡萄牙文"
 
-msgctxt "lang.pt_BR"
 msgid "Portuguese (BR)"
 msgstr "葡萄牙文 (巴西)"
 
@@ -1949,61 +1688,49 @@ msgstr "葡萄牙文 (巴西)"
 #: c/engine/licenses/devnations_templates/deed.pt:51
 #: c/engine/licenses/mitbsd_templates/deed.pt:60
 #: c/engine/licenses/standard_templates/deed.pt:60
-msgctxt "deed.permission"
 msgid ""
 "Any of the above conditions can be <a href=\"#\" id=\"waived\" "
 "class=\"helpLink\">waived</a> if you get permission from the copyright "
 "holder."
 msgstr "若你得到著作權人的同意，上述任何條件都可獲<a href=\"#\" id=\"waived\" class=\"helpLink\">免除</a>。"
 
-msgctxt "country.my"
 msgid "Malaysia"
 msgstr "馬來西亞"
 
-msgctxt "country.mx"
 msgid "Mexico"
 msgstr "墨西哥"
 
 #: c/engine/chooser_pages/sampling.pt:84 c/engine/chooser_pages/sampling.pt:96
-msgctxt "country.tw"
 msgid "Taiwan"
 msgstr "台灣"
 
 #: c/engine/macros_templates/deed.pt:81
 #: c/engine/licenses/catalog_pages/disclaimer-popup.pt:15
-msgctxt "util.Disclaimer"
 msgid "Disclaimer"
 msgstr "免責聲明"
 
-msgctxt "licenses.pretty_by-sa"
 msgid "Attribution-ShareAlike"
 msgstr "姓名標示-相同方式分享"
 
-msgctxt "license.back_to_licenses"
 msgid "back to licenses"
 msgstr "回到授權條款"
 
-msgctxt "country.mt"
 msgid "Malta"
 msgstr "馬爾他"
 
-msgctxt "util.work"
 msgid "work"
 msgstr "著作"
 
 #: c/engine/chooser_pages/index.pt:117
-msgctxt "char.nd_description"
 msgid ""
 "The licensor permits others to copy, distribute and transmit only unaltered "
 "copies of the work — not derivative works based on it."
 msgstr "授權人只允許他人重製、散布、展示及演出未經改變的本著作重製物，未允許對根據原著作而生的衍生著作進行上述行為。"
 
-msgctxt "license.learn_publicize"
 msgid "Learn how to publicize and share your work"
 msgstr "認識如何宣傳及分享你的著作"
 
 #: c/engine/macros_templates/deed.pt:135
-msgctxt "deed.lgpl_human_summary"
 msgid ""
 "This is a human-readable summary of the Legal Code (the full <a "
 "href=\"http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html\">GNU Lesser "
@@ -2015,7 +1742,6 @@ msgstr ""
 "href=\"legalcode.pt\">葡萄牙語的譯本</a>。"
 
 #: c/engine/macros_templates/deed.pt:145
-msgctxt "deed.gpl_human_summary"
 msgid ""
 "This is a human-readable summary of the Legal Code (the full <a "
 "href=\"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General "
@@ -2027,7 +1753,6 @@ msgstr ""
 "href=\"legalcode.pt\">葡萄牙語的譯本</a>。"
 
 #: c/engine/chooser_pages/partner/index.pt:117
-msgctxt "license.partner_note"
 msgid ""
 "<p>\n"
 "<em>Note:</em> To license a work, you must be its copyright holder or have express authorization from its copyright holder to do so.</p>\n"
@@ -2042,51 +1767,44 @@ msgstr ""
 "<p>\n"
 "Creative Commons 並不提供法律意見或服務。我們提供法律格式的文件，其他的部分就得靠你自己了。</p>"
 
-msgctxt "util.Developing_Nations"
 msgid "Developing Nations"
 msgstr "開發中國家"
 
 #: c/engine/pd/templates/publicdomain-4.pt:54
 #: c/engine/chooser_pages/results.pt:122
-msgctxt "license.mark_xmp"
+#, python-format
 msgid ""
-"To mark a PDF or other XMP-supported file, <a href=\"xmp?${url_vars}\">save "
-"this template</a> following these <a href=\"/technology/xmp-"
+"To mark a PDF or other XMP-supported file, <a href=\"xmp?%(url_vars)s\">save"
+" this template</a> following these <a href=\"/technology/xmp-"
 "help\">instructions</a>."
 msgstr ""
 "如欲為 PDF 或其他支援 XMP 的檔案加上標示，請遵循下列這些<a href=\"/technology/xmp-help\">指示</a>來<a "
-"href=\"xmp?${url_vars}\">儲存這個模板</a>。"
+"href=\"xmp?%(url_vars)s\">儲存這個模板</a>。"
 
-msgctxt "licenses.pretty_nc-sampling+"
 msgid "NonCommercial Sampling Plus"
 msgstr "非商業性特別取樣"
 
 #: c/engine/licenses/sampling_templates/deed.pt:47
-msgctxt "char.no_brief"
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
 msgstr "你不得為任何目的展示、演出或散布整部著作的重製物。"
 
 #: c/engine/chooser_pages/index.pt:232
-msgctxt "util.Wiki"
 msgid "Wiki"
 msgstr "維基"
 
-msgctxt "lang.da"
 msgid "Danish"
 msgstr "丹麥語"
 
-msgctxt "util.Unported"
 msgid "Unported"
 msgstr "Unported"
 
-msgctxt "license.work_based_on"
-msgid "Based on a work at ${source_link}."
-msgstr "此作品衍生自${source_link}。"
+#, python-format
+msgid "Based on a work at %(source_link)s."
+msgstr "此作品衍生自%(source_link)s。"
 
 #: c/engine/macros_templates/deed.pt:129
-msgctxt "lang.de"
 msgid "German"
 msgstr "德語"
 
@@ -2106,7 +1824,6 @@ msgstr "德語"
 #: c/engine/macros_templates/support.pt:148
 #: c/engine/macros_templates/support.pt:160
 #: c/engine/macros_templates/support.pt:164
-msgctxt "util.step"
 msgid "step"
 msgstr "步驟"
 
@@ -2114,65 +1831,53 @@ msgstr "步驟"
 #: c/engine/licenses/mitbsd_templates/deed.pt:23
 #: c/engine/licenses/sampling_templates/deed.pt:25
 #: c/engine/licenses/standard_templates/deed.pt:34
-msgctxt "deed.You_are_free"
 msgid "You are free:"
 msgstr "你可自由："
 
-msgctxt "char.sa_brief"
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same or similar license to this one."
 msgstr "若你變更、變形或修改本著作，你僅得依本授權條款或與本授權條款類似者來散布該衍生作品。"
 
 #: c/engine/chooser_pages/index.pt:236
-msgctxt "util.Music_Sharing"
 msgid "Music Sharing"
 msgstr "音樂共享"
 
-msgctxt "licenses.pretty_LGPL"
 msgid "LGPL"
 msgstr "較寬鬆通用公共授權條款 (LGPL)"
 
-msgctxt "lang.fr_CA"
 msgid "French (CA)"
 msgstr "法語 (加拿大)"
 
 #: c/engine/chooser_pages/gpl.pt:47 c/engine/chooser_pages/lgpl.pt:48
-msgctxt "license.lawyer-readable_legal_code"
 msgid ""
 "Lawyer-Readable<br/>\n"
 "Legal Code"
 msgstr "供律師閱讀的<br />法律條款"
 
-msgctxt "jswidget.Require_Share-Alike"
 msgid "Require Share-Alike"
 msgstr "要求以相同方式分享"
 
 #: c/engine/licenses/devnations_templates/deed.pt:34
 #: c/engine/licenses/mitbsd_templates/deed.pt:26
 #: c/engine/licenses/standard_templates/deed.pt:39
-msgctxt "deed.free_derivative"
 msgid "<strong>to Remix</strong> — to adapt the work"
 msgstr "<strong>重混</strong> — 修改本著作"
 
-msgctxt "nav.find_title"
 msgid "Find music, photos and more"
 msgstr "尋找音樂、照片或更多其他東西"
 
-msgctxt "country.ve"
 msgid "Venezuela"
 msgstr "委內瑞拉"
 
 #: c/engine/chooser_pages/sampling.pt:46
 #: c/engine/macros_templates/support.pt:161
 #: c/engine/macros_templates/support.pt:165
-msgctxt "license.publicize"
 msgid "publicize"
 msgstr "宣傳"
 
 #: c/engine/pd/templates/publicdomain-3.pt:41
 #: c/engine/licenses/publicdomain_templates/deed.pt:19
-msgctxt "deed.pd"
 msgid ""
 "        <p>The person or persons who have associated work with this document (the \"Dedicator\" or \"Certifier\") hereby either (a) certifies that, to the best of his knowledge, the work of authorship identified is in the public domain of the country from which the work is published, or (b) hereby dedicates whatever copyright the dedicators holds in the work of authorship identified below (the \"Work\") to the public domain. A certifier, moreover, dedicates any copyright interest he may have in the associated work, and for these purposes, is described as a \"dedicator\" below.</p>\n"
 "\n"
@@ -2191,52 +1896,42 @@ msgstr ""
 "貢獻者認知到，一旦本著作歸屬於公眾領域，任何人即得為任何目的，無論商業或非商業，以任何方式，包括尚未被發明或想像之方法，自由地重製、散布、傳輸、使用、修改、改作或以其他方式利用本著作。"
 
 #: c/engine/licenses/sampling_templates/deed.pt:27
-msgctxt "deed.free_sample_nc"
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "noncommercial purposes."
 msgstr "取樣，混合，或為非商業目的以其他方式有創造性地改變本著作。"
 
 #: c/engine/chooser_pages/sampling.pt:116
-msgctxt "license.sampling_before"
 msgid ""
 "Before you apply the Sampling License to your work, make sure you have the "
 "authority to license all the rights involved. Musical works, for example, "
 "often consist of multiple copyrights (composition, recording, lyrics)."
 msgstr "在你為你的著作選用「取樣授權條款」之前，請確認你有權對所有涵蓋的權利進行授權。舉例來說，音樂著作通常包含多個著作權（編曲、錄音、歌詞）。"
 
-msgctxt "api.jurisdiction"
 msgid "Jurisdiction of your license:"
 msgstr "選擇司法管轄領域:"
 
-msgctxt "util.home"
 msgid "home"
 msgstr "首頁"
 
 #: c/engine/pd/templates/publicdomain-2.pt:53
-msgctxt "license.proceed_email_note"
 msgid ""
 "<b>NOTE:</b> clicking on \"proceed\" will send a confirmation request to the"
 " email address you entered. Make sure the address is correct!"
 msgstr "<b>請注意：</b>按下「進行」後，將會送出一份確認要求至你所填寫的電子郵件信箱。請確認該地址是正確的！"
 
-msgctxt "lang.sr_LATN"
 msgid "Serbian (Latin)"
 msgstr "賽爾維亞語"
 
-msgctxt "country.pr"
 msgid "Puerto Rico"
 msgstr "波多黎各"
 
-msgctxt "lang.el"
 msgid "Greek"
 msgstr "希臘"
 
-msgctxt "lang.ro"
 msgid "Romanian"
 msgstr "羅馬尼亞語"
 
-msgctxt "lang.es_EC"
 msgid "Spanish (Ecuador)"
 msgstr "西班牙語 (厄瓜多爾)"
 
@@ -2258,7 +1953,6 @@ msgstr "嵌入之後設資料"
 #. "\t  you want to find out more.\n"
 #. "\t</p>"
 #: e/macros_templates/metadata.pt:108
-msgctxt "license.metadata_help"
 msgid ""
 "<p>\n"
 "\t  The information is embedded in a software readable format.\n"
@@ -2312,17 +2006,14 @@ msgstr ""
 "引領你前來此處的網頁中嵌入了含授權資訊的後設資料，包括原作者想以什麼方式為人表彰等。你可以使用此處提供的 HTML "
 "來引用此作品、並表彰出處。這麼一來，你的網頁上也會有授權後設資料，方便他人尋得原始作品。"
 
-msgctxt "country.ec"
 msgid "Ecuador"
 msgstr "厄瓜多爾"
 
 #: e/macros_templates/metadata.pt:13
-msgctxt "license.additional_info"
 msgid "Additional Information"
 msgstr "其他附加資訊"
 
 #: e/macros_templates/metadata.pt:16
-msgctxt "license.additional_fields_optional"
 msgid ""
 "The additional fields are <strong>optional</strong>, but will be embedded in"
 " the HTML generated for your license. This allows users of your work to "
@@ -2331,50 +2022,39 @@ msgid ""
 msgstr ""
 "附加資訊欄位是<strong>選填</strong>的，你所填寫的資訊會併入稍後產生的授權條款HTML碼中。這些資訊讓使用人能更清楚知道如何表彰原作者，也提供與你著作相關的進一步資訊。"
 
-msgctxt "country.no"
 msgid "Norway"
 msgstr "挪威"
 
-msgctxt "lang.no"
 msgid "Norwegian"
 msgstr "挪威語"
 
-msgctxt "license.mark_software"
 msgid "Mark Software"
 msgstr "標註軟體"
 
-msgctxt "license.display_software_icon"
 msgid ""
 "You can display the icon on any site you offer your software for download "
 "using the following markup:"
 msgstr "你可以在提供軟體下載的網站上，以下列程式碼加上授權標章："
 
 #: c/engine/macros_templates/deed.pt:206
-msgctxt "deed.use_this_license"
 msgid "Use this license for your own work."
 msgstr "將你自己的著作採用這個條款，宣告讓他人使用。"
 
-msgctxt "country.hk"
 msgid "Hong Kong"
 msgstr "香港"
 
-msgctxt "lang.en_HK"
 msgid "English (Hong Kong)"
 msgstr "英文 (香港)"
 
-msgctxt "lang.zh_HK"
 msgid "Chinese (Hong Kong)"
 msgstr "中文 (香港)"
 
-msgctxt "country.gt"
 msgid "Guatemala"
 msgstr "瓜地馬拉"
 
-msgctxt "lang.es_GT"
 msgid "Spanish (Guatemala)"
 msgstr "西班牙語 (瓜地馬拉)"
 
-msgctxt "lang.en_SG"
 msgid "English (Singapore)"
 msgstr "English (Singapore)"
 
@@ -2385,7 +2065,6 @@ msgstr "English (Singapore)"
 #. href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\"
 #. class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy\n"
 #. "\t      rights."
-msgctxt "deed.publicity_rights"
 msgid ""
 "Rights other persons may have either in the work itself or in how the work "
 "is used, such as <a "
@@ -2397,7 +2076,6 @@ msgstr ""
 " class=\"helpLink\" id=\"publicity_rights\">形象權</a>或隱私權。"
 
 #: src/cc/engine/chooser_pages/results.pt:151
-msgctxt "license.track_with_fairshare"
 msgid "Track use of your work with FairShare"
 msgstr "以 FairShare 追蹤你作品被利用的情形"
 
@@ -2415,7 +2093,6 @@ msgstr "以 FairShare 追蹤你作品被利用的情形"
 #. "\t\t  or linking to this Commons Deed does not create an\n"
 #. "\t\t  attorney-client relationship.</p>"
 #: c/engine/licenses/zero_templates/deed.pt:114
-msgctxt "deed.zero.disclaimer"
 msgid ""
 "<p> The Commons Deed is not a legal instrument. It is simply a handy "
 "reference for understanding the CC0 Legal Code, a human-readable expression "
@@ -2436,7 +2113,6 @@ msgstr ""
 #. "\t  the <a href=\"./legalcode\">Legal Code (read the full\n"
 #. "\t  text)</a>."
 #: c/engine/licenses/zero_templates/deed.pt:131
-msgctxt "deed.zero.human_summary"
 msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
@@ -2444,7 +2120,6 @@ msgstr "這是一份讓一般人易於了解的法律條款摘要，你可參考
 
 #. Default: "No Copyright"
 #: c/engine/licenses/zero_templates/deed.pt:30
-msgctxt "deed.zero.no_copyright"
 msgid "No Copyright"
 msgstr "無著作權"
 
@@ -2455,7 +2130,6 @@ msgstr "無著作權"
 #. "            and all related or neighboring legal rights he or she\n"
 #. "            had in the work, to the extent allowable by law."
 #: c/engine/licenses/zero_templates/deed.pt:33
-msgctxt "deed.zero.nocopyright-text"
 msgid ""
 "The person who associated a work with this deed has <b>dedicated</b> the "
 "work to the public domain by waiving all of his or her rights to the work "
@@ -2466,7 +2140,6 @@ msgstr ""
 
 #. Default: "Attribute this work:"
 #: c/engine/licenses/zero_templates/deed.pt:42
-msgctxt "deed.attribute_this_work"
 msgid "Attribute this work:"
 msgstr "標示這份著作："
 
@@ -2474,26 +2147,22 @@ msgstr "標示這份著作："
 #. "In no way are any of the following rights affected by\n"
 #. "\t  the above:"
 #: c/engine/licenses/zero_templates/deed.pt:65
-msgctxt "deed.following_unaffected"
 msgid "In no way are any of the following rights affected by the above:"
 msgstr "任何下列的權利絕不會受到本授權條款的影響："
 
 #. Default: "What are \"Publicity Rights\"?"
 #: c/engine/licenses/zero_templates/deed.pt:83
-msgctxt "deed.publicity_rights.help.title"
 msgid "What are \"Publicity Rights\"?"
 msgstr "什麼是「形象權」(Publicity Rights)？"
 
 #. Default: "Learn more"
 #: c/engine/licenses/zero_templates/deed.pt:95
 #: c/engine/zero/templates/index.pt:89
-msgctxt "util.learn_more"
 msgid "Learn more"
 msgstr "瞭解更多資訊"
 
 #. Default: "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:30
-msgctxt "license.zero.confirm_title"
 msgid "Confirm Waiver"
 msgstr "拋棄確認"
 
@@ -2502,7 +2171,6 @@ msgstr "拋棄確認"
 #. "\t    work?  Once these rights are waived, you cannot reclaim\n"
 #. "\t    them."
 #: c/engine/zero/templates/confirm.pt:48
-msgctxt "license.zero.confirm_waiver_1"
 msgid ""
 "Are you certain you wish to waive all rights to your work? Once these rights"
 " are waived, you cannot reclaim them."
@@ -2514,7 +2182,6 @@ msgstr "你確定要放棄與此作品相關的所有權利？一旦放棄，便
 #. "\t    <strong>does not recommend</strong> that you use this\n"
 #. "\t    tool."
 #: c/engine/zero/templates/confirm.pt:54
-msgctxt "license.zero.confirm_waiver_2"
 msgid ""
 "In particular, if you are an artist or author who depends upon copyright for"
 " your income, Creative Commons <strong>does not recommend</strong> that you "
@@ -2527,7 +2194,6 @@ msgstr "尤其，如果你是仰賴著作權維生的藝術家、作家，Creati
 #. "\t    work, then the <a href=\"/license/publicdomain-2\">Public\n"
 #. "\t      Domain Certification</a> may be what you're looking for."
 #: c/engine/zero/templates/confirm.pt:61
-msgctxt "license.zero.confirm_waiver_3"
 msgid ""
 "If you don't own the rights to this work, then do not use CC0. If you "
 "believe that nobody owns rights to the work, then the <a "
@@ -2539,13 +2205,11 @@ msgstr ""
 
 #. Default: "No, I Do Not Waive"
 #: c/engine/zero/templates/confirm.pt:71
-msgctxt "license.zero.confirm_waiver_no"
 msgid "No, I Do Not Waive"
 msgstr "不，我不想放棄"
 
 #. Default: "Yes, I Waive"
 #: c/engine/zero/templates/confirm.pt:82
-msgctxt "license.zero.confirm_waiver_yes"
 msgid "Yes, I Waive"
 msgstr "是的，我要放棄"
 
@@ -2558,7 +2222,6 @@ msgstr "是的，我要放棄"
 #. "\t  under CC0.  Your work will not be associated with CC0 or made\n"
 #. "\t  available under CC0 until you publish it marked as being so."
 #: c/engine/zero/templates/index.pt:76
-msgctxt "license.zero.intro_3"
 msgid ""
 "Please note that this is <strong>not a registration process</strong> and "
 "Creative Commons does not store or save any of the information you enter.  "
@@ -2572,7 +2235,6 @@ msgstr ""
 
 #. Default: "begin"
 #: c/engine/zero/templates/index.pt:98
-msgctxt "util.begin"
 msgid "begin"
 msgstr "開始"
 
@@ -2583,7 +2245,6 @@ msgstr "開始"
 #. "\tpublisher it's up to you to let people know how they may use your\n"
 #. "\twork."
 #: c/engine/zero/templates/results.pt:108
-msgctxt "license.zero.copy_text"
 msgid ""
 "Copy the text below to your Web site to let your visitors know that you've "
 "waived the rights to your work.  Creative Commons does not retain a record "
@@ -2594,7 +2255,6 @@ msgstr ""
 
 #. Default: "Send Email"
 #: c/engine/zero/templates/results.pt:122
-msgctxt "license.zero.send_email"
 msgid "Send Email"
 msgstr "寄送電子郵件"
 
@@ -2602,31 +2262,30 @@ msgstr "寄送電子郵件"
 #. "An error occurred when we tried to send the email message;\n"
 #. "\t  you can try clicking the Back button and double checking your \n"
 #. "\t  email address.  If the address you used (\n"
-#. "\t  ${email_addr}) was correct you can \n"
+#. "\t  %(email_addr)s) was correct you can \n"
 #. "\t  <a href=\"/about/contact\">contact us</a>."
 #: c/engine/zero/templates/results.pt:134
-msgctxt "license.zero.email_error"
+#, python-format
 msgid ""
 "An error occurred when we tried to send the email message; you can try "
 "clicking the Back button and double checking your email address.  If the "
-"address you used (${email_addr}) was correct you can <a "
+"address you used (%(email_addr)s) was correct you can <a "
 "href=\"/about/contact\">contact us</a>."
 msgstr ""
-"寄送郵件時發生錯誤。你可以按下「上一頁」鈕，再檢查一下郵件地址是否正確。如果你輸入的郵件地址 (${email_addr}) 正確無誤，請<a "
+"寄送郵件時發生錯誤。你可以按下「上一頁」鈕，再檢查一下郵件地址是否正確。如果你輸入的郵件地址 (%(email_addr)s) 正確無誤，請<a "
 "href=\"/about/contact\">連絡我們</a>。"
 
-#. Default: "The suggested HTML has been sent to ${email_addr}."
+#. Default: "The suggested HTML has been sent to %(email_addr)s."
 #: c/engine/zero/templates/results.pt:143
-msgctxt "license.zero.email_sent"
-msgid "The suggested HTML has been sent to ${email_addr}."
-msgstr "已經將本站建議的 HTML 程式碼寄到 ${email_addr}。"
+#, python-format
+msgid "The suggested HTML has been sent to %(email_addr)s."
+msgstr "已經將本站建議的 HTML 程式碼寄到 %(email_addr)s。"
 
 #. Default: ""
 #. "You have asked to be notified of updates to CC0.  A subscription\n"
 #. "\t    request has been sent on your behalf; you must click the link in\n"
 #. "\t    the confirmation email to complete the sign-up process."
 #: c/engine/zero/templates/results.pt:148
-msgctxt "license.zero.subscribed_to_updates"
 msgid ""
 "You have asked to be notified of updates to CC0.  A subscription request has"
 " been sent on your behalf; you must click the link in the confirmation email"
@@ -2638,7 +2297,6 @@ msgstr "你已經要求收取 CC0 的新消息，我們寄了一封訂閱確認�
 #. "\t  email and optionally receive updates about CC0, fill in your\n"
 #. "\t  email address below."
 #: c/engine/zero/templates/results.pt:161
-msgctxt "license.zero.send_email_updates"
 msgid ""
 "If you'd like to get the HTML with embedded metadata via email and "
 "optionally receive updates about CC0, fill in your email address below."
@@ -2646,7 +2304,6 @@ msgstr "如果你想要以電子郵件方式收到含後設資料(metadata)的HT
 
 #. Default: "Send me updates about CC0"
 #: c/engine/zero/templates/results.pt:181
-msgctxt "license.zero.update_opt_in"
 msgid "Send me updates about CC0"
 msgstr "CC0 有新資訊時請寄信給我"
 
@@ -2655,7 +2312,6 @@ msgstr "CC0 有新資訊時請寄信給我"
 #. "\tassociated with your work. If you'd like to continue you can\n"
 #. "\tclick the Back button to review your choice."
 #: c/engine/zero/templates/results.pt:55
-msgctxt "license.zero.declined"
 msgid ""
 "You did not affirm your decision to waive the rights associated with your "
 "work. If you'd like to continue you can click the Back button to review your"
@@ -2664,37 +2320,31 @@ msgstr "你尚未確認你想放棄你對此創作的權利。若你想繼續，
 
 #. Default: "About CC0"
 #: c/engine/zero/templates/results.pt:61
-msgctxt "license.zero.about"
 msgid "About CC0"
 msgstr "關於 CC0"
 
 #. Default: "Frequently Asked Questions"
 #: c/engine/zero/templates/results.pt:63
-msgctxt "util.FAQ"
 msgid "Frequently Asked Questions"
 msgstr "常見問題集"
 
 #. Default: "Choose which style of button you'd like on your webpage:"
 #: c/engine/zero/templates/results.pt:72
-msgctxt "license.choose_button"
 msgid "Choose which style of button you'd like on your webpage:"
 msgstr "選擇你想要在網頁上顯示的按鈕樣式："
 
 #. Default: "Here's a preview of how your waiver will appear on your site:"
 #: c/engine/zero/templates/results.pt:98
-msgctxt "license.zero.preview_waiver"
 msgid "Here's a preview of how your waiver will appear on your site:"
 msgstr "放棄授權聲明圖示與文字預覽："
 
 #. Default: "Your name"
 #: c/engine/zero/templates/waiver.pt:103
-msgctxt "util.your_name"
 msgid "Your name"
 msgstr "你的姓名"
 
 #. Default: "Your URL"
 #: c/engine/zero/templates/waiver.pt:111 c/engine/zero/templates/waiver.pt:125
-msgctxt "util.your_url"
 msgid "Your URL"
 msgstr "你的網址"
 
@@ -2702,7 +2352,6 @@ msgstr "你的網址"
 #. "The URL where people can find more information about \n"
 #. "\tthe creator or rights holder."
 #: c/engine/zero/templates/waiver.pt:126 c/engine/zero/templates/waiver.pt:124
-msgctxt "license.zero.your_url_help"
 msgid ""
 "The URL where people can find more information about \n"
 "the work or the person using CC0."
@@ -2712,7 +2361,6 @@ msgstr "可讓使用者找到關於將著作以CC0授權的人，或關於著作
 #. "Jurisdiction where the work is being \n"
 #. "\toffered from under CC0."
 #: c/engine/zero/templates/waiver.pt:166 c/engine/zero/templates/waiver.pt:164
-msgctxt "license.zero.country_help"
 msgid "Jurisdiction from which the work is being offered under CC0."
 msgstr "以CC0授權的著作所在司法管轄領域。"
 
@@ -2722,7 +2370,6 @@ msgstr "以CC0授權的著作所在司法管轄領域。"
 #. "\t    action with respect to this work to the extent possible\n"
 #. "\t    under the law."
 #: c/engine/zero/templates/waiver.pt:180
-msgctxt "license.zero.confirm_waiver"
 msgid ""
 "I hereby waive all copyright and related or neighboring rights together with"
 " all associated claims and causes of action with respect to this work to the"
@@ -2734,7 +2381,6 @@ msgstr "在此我放棄此著作依著作權法所享有之權利，包括所有
 #. "\t    effect of CC0, and hereby voluntarily elect to apply it to\n"
 #. "\t    this work."
 #: c/engine/zero/templates/waiver.pt:205
-msgctxt "license.zero.confirm_reading"
 msgid ""
 "I have read and understand the terms and intended legal effect of CC0, and "
 "hereby voluntarily elect to apply it to this work."
@@ -2742,7 +2388,6 @@ msgstr "我已閱讀並且瞭解CC0條款及其法律效力，並自願選擇將
 
 #. Default: "continue"
 #: c/engine/zero/templates/waiver.pt:217
-msgctxt "util.continue"
 msgid "continue"
 msgstr "繼續"
 
@@ -2752,7 +2397,6 @@ msgstr "繼續"
 #. "      determine how to contact you or where to go for more information\n"
 #. "      about the work."
 #: c/engine/zero/templates/waiver.pt:65
-msgctxt "license.zero.additional_metadata"
 msgid ""
 "These fields are optional, but will be embedded in the HTML generated for "
 "your work. This allows users of your work to determine how to contact you or"
@@ -2770,20 +2414,17 @@ msgid "Software"
 msgstr "軟體"
 
 #: c/engine/chooser_pages/results.pt:103
-msgctxt "license.publish_ia"
 msgid ""
 "Publish your licensed music or video to\n"
 "\t       the Internet Archive"
 msgstr "將你已授權的作品發佈到 Internet Archive 上"
 
 #: c/engine/chooser_pages/results.pt:119
-msgctxt "license.offline_work"
 msgid "Offline Work?"
 msgstr "作品不在網路上？"
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:14
 #: c/engine/pd/templates/publicdomain-3.pt:38
-msgctxt "deed.pd.title"
 msgid ""
 "Copyright-Only Dedication<a href=\"#\" class=\"helpLink\" id=\"use_zero\">*</a>\n"
 "  (based on United States law)<br />\n"
@@ -2801,37 +2442,30 @@ msgstr "此授權條款適合自由文化作品。"
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:47
 #: c/engine/publicdomain/zero_templates/deed.pt:141
-msgctxt "deed.use_this_tool"
 msgid "Use this tool for your own work."
 msgstr "將你自己的著作採用這個條款，宣告讓他人使用。"
 
 #: c/engine/licenses/standard_templates/deed.pt:110
-msgctxt "deed.with_the_understanding"
 msgid "With the understanding that:"
 msgstr "且認知到："
 
 #: c/engine/licenses/standard_templates/deed.pt:116
-msgctxt "util.waiver"
 msgid "Waiver"
 msgstr "免除"
 
 #: c/engine/licenses/standard_templates/deed.pt:125
-msgctxt "util.other_rights"
 msgid "Other Rights"
 msgstr "其他權利"
 
 #: c/engine/licenses/standard_templates/deed.pt:128
-msgctxt "deed.other_rights"
 msgid "In no way are any of the following rights affected by the license:"
 msgstr "任何下列的權利絕不會受到本授權條款的影響："
 
 #: c/engine/licenses/standard_templates/deed.pt:178
-msgctxt "deed.permission.help.title"
 msgid "What does \"conditions can be waived\" mean?"
 msgstr "什麼是「免除」？"
 
 #: c/engine/licenses/standard_templates/deed.pt:182
-msgctxt "deed.permission.help"
 msgid ""
 "CC licenses anticipate that a licensor may want to\n"
 "\t\twaive compliance with a specific condition, such as\n"
@@ -2841,12 +2475,10 @@ msgstr ""
 "<span class=\"whitespace other\" title=\"Tab\">»</span><span class=\"whitespace other\" title=\"Tab\">»</span>屬性."
 
 #: c/engine/licenses/standard_templates/deed.pt:192
-msgctxt "deed.fair_use.help.title"
 msgid "What does \"Fair use\" mean?"
 msgstr "什麼是「合理使用的權利」？"
 
 #: c/engine/licenses/standard_templates/deed.pt:196
-msgctxt "deed.fair_use.help"
 msgid ""
 "All jurisdictions\n"
 "              allow some limited uses of copyrighted material without\n"
@@ -2857,12 +2489,10 @@ msgstr ""
 "所有司法管轄領域都允許對有著作權之著作進行某些有限度但無需取得取可的利用。創用CC授權條款不會影響這些著作權之規範與例外情形，如合理使用權利等。"
 
 #: c/engine/licenses/standard_templates/deed.pt:208
-msgctxt "deed.moralrights.help.title"
 msgid "What are \"Moral Rights\"?"
 msgstr "什麼是「著作人格權」？"
 
 #: c/engine/licenses/standard_templates/deed.pt:212
-msgctxt "deed.moralrights.help"
 msgid ""
 "In addition to the right of licensors to request removal of their name from "
 "the work when used in a derivative or collective they don't like, copyright "
@@ -2879,7 +2509,6 @@ msgstr ""
 "\"derogatory treatment\" of the licensor's work."
 
 #: c/engine/licenses/standard_templates/deed.pt:233
-msgctxt "deed.publicity_rights.help"
 msgid ""
 "Publicity\n"
 "              rights allow individuals to control how their voice,\n"
@@ -2913,7 +2542,6 @@ msgid "Information"
 msgstr "資訊"
 
 #: c/engine/pd/templates/publicdomain-2.pt:20
-msgctxt "license.pd.intro_1"
 msgid ""
 "You have selected the Public Domain Certification.  The Public\n"
 "    Domain Certification should only be used to certify a work that is\n"
@@ -2931,7 +2559,6 @@ msgstr ""
 
 #: c/engine/pd/templates/publicdomain-2.pt:37
 #: c/engine/pd/templates/publicdomain-2.pt:32
-msgctxt "license.pd.intro_3"
 msgid ""
 "Once you're done filling this out, you will still have the\n"
 "    opportunity to confirm your choice before the certification\n"
@@ -2939,12 +2566,10 @@ msgid ""
 msgstr "縱使你已經完成填表，你仍然有機會在認證完成前確認你的選擇。"
 
 #: c/engine/pd/templates/publicdomain-2.pt:43
-msgctxt "license.pd.about_the_work"
 msgid "About the work you are certifying"
 msgstr "關於你要認證的創作"
 
 #: c/engine/pd/templates/publicdomain-2.pt:47
-msgctxt "util.fields_required"
 msgid "(all fields are required)"
 msgstr "(所有欄位皆為必填)"
 
@@ -2952,17 +2577,14 @@ msgstr "(所有欄位皆為必填)"
 #: c/engine/pd/templates/publicdomain-4.pt:17
 #: c/engine/pd/templates/publicdomain-3.pt:18
 #: c/engine/pd/templates/publicdomain-2.pt:16
-msgctxt "license.pd.identify_a_pd_work"
 msgid "Identify a Public Domain Work"
 msgstr "指出一個公眾領域作品"
 
 #: c/engine/publicdomain/templates/index.pt:14
-msgctxt "license.pdtools.title"
 msgid "Our Public Domain Tools"
 msgstr "我們的公眾領域工具"
 
 #: c/engine/publicdomain/templates/index.pt:16
-msgctxt "license.pdtools.intro"
 msgid ""
 "Our licenses help authors keep and manage their copyright on terms they "
 "choose. Our public domain tools, on the other hand, enable authors and "
@@ -2973,7 +2595,6 @@ msgstr ""
 "我們的授權協助著作人保存及管理他們所選擇的著作權。再者，我們的公眾領域工具使得欲貢獻作品於公共領域的著作人與權利人得以為之，以及實施對於已經免除於著作權的作品的標示與揭露。"
 
 #: c/engine/publicdomain/templates/index.pt:24
-msgctxt "license.pdtools.zero"
 msgid ""
 "Use this universal tool if you are a holder of copyright or database rights,"
 " and you wish to waive all your interests in your work worldwide."
@@ -2984,12 +2605,10 @@ msgstr "如果你是著作權或是資料庫擁有者，而且，你想要拋棄
 #: c/engine/pd/templates/publicdomain-4.pt:8
 #: c/engine/pd/templates/publicdomain-3.pt:8
 #: c/engine/pd/templates/publicdomain-2.pt:8
-msgctxt "util.public_domain_certification"
 msgid "Public Domain Certification"
 msgstr "公眾領域認証"
 
 #: c/engine/zero/templates/index.pt:59
-msgctxt "license.zero.intro_1"
 msgid ""
 "Using CC0, you can waive all copyrights and related or\n"
 "\t  neighboring rights that you have over your work, such as\n"
@@ -3006,7 +2625,6 @@ msgstr ""
 "<span class=\"whitespace other\" title=\"Tab\">»</span>  extraction, dissemination and reuse of data."
 
 #: c/engine/zero/templates/index.pt:68
-msgctxt "license.zero.intro_2"
 msgid ""
 "Keep in mind that you cannot waive rights to a work that you\n"
 "\t  do not own unless you have permission from the owner.  To\n"
@@ -3017,7 +2635,6 @@ msgstr ""
 "請注意，若你不是作品的權利人，或沒有取得權利人的許可，便不能聲明放棄此作品的權利。為避免侵權，你若不確定自己是否有相關權利，請尋求法律顧問協助。"
 
 #: c/engine/zero/templates/waiver.pt:83
-msgctxt "license.zero.metadata_help"
 msgid ""
 "<p>\n"
 "\t  The information is embedded in a software readable format.\n"
@@ -3034,19 +2651,16 @@ msgstr ""
 "<p>如果你想了解更多與創用CC後設資料相關的訊息 ，請至<a href=\"http://wiki.creativecommons.org/Metadata\">後設資訊專題網頁</a>。</p>"
 
 #: c/engine/pd/templates/publicdomain-3.pt:65
-msgctxt "deed.pd.title_plain"
 msgid ""
 "Copyright-Only Dedication (based on United States law) \n"
 "or Public Domain Certification"
 msgstr "公眾領域認證"
 
 #: c/engine/pd/templates/publicdomain-2.pt:58
-msgctxt "util.author"
 msgid "Author"
 msgstr "作者"
 
 #: c/engine/pd/templates/publicdomain-3.pt:118
-msgctxt "license.pdc.confirm_reading"
 msgid ""
 "I have read and understand the terms and intended legal\n"
 "\t    effect of this tool, and hereby voluntarily elect to apply it to\n"
@@ -3057,46 +2671,39 @@ msgstr ""
 "卡\">應用</span>於此作品。"
 
 #: c/engine/pd/templates/publicdomain-3.pt:56
-msgctxt "license.pd.confirm_title"
 msgid "Confirm Your Public Domain Certification"
 msgstr "確認你的公眾領域認證"
 
 #: c/engine/publicdomain/templates/index.pt:34
 #: c/engine/publicdomain/templates/index.pt:51
-msgctxt "util.use_this_tool"
 msgid "Use this tool"
 msgstr "使用這個工具"
 
-msgctxt "country.th"
 msgid "Thailand"
 msgstr "泰國"
 
-msgctxt "lang.th"
 msgid "Thai"
 msgstr "泰文"
 
 #: c/engine/licenses/standard_templates/deed.pt:162
-msgctxt "util.notice"
 msgid "Notice"
 msgstr "聲明"
 
-msgctxt "lang.cs"
 msgid "Czech"
 msgstr "捷克"
 
 #: c/engine/chooser_pages/partner/index.pt:36
-msgctxt "license.partner.publicdomain_options"
+#, python-format
 msgid ""
 "If you want to share a work you created with no conditions, choose <a "
-"href=\"${cc0_url}\">CC0</a>. If you're sharing a work that isn't covered by "
-"copyright or on which the copyright has expired, choose the <a "
-"href=\"${pd_url}\">Public Domain Mark</a>."
+"href=\"%(cc0_url)s\">CC0</a>. If you're sharing a work that isn't covered by"
+" copyright or on which the copyright has expired, choose the <a "
+"href=\"%(pd_url)s\">Public Domain Mark</a>."
 msgstr ""
-"如果你想要無條件的分享你的創作，選擇<a href=\"${cc0_url}\">CC0</a> "
-"。如果你正要分享一個沒有受著作權保護的或是著作權已經過期的作品， <a href=\"${pd_url}\">選擇公眾領域</a>標章。"
+"如果你想要無條件的分享你的創作，選擇<a href=\"%(cc0_url)s\">CC0</a> "
+"。如果你正要分享一個沒有受著作權保護的或是著作權已經過期的作品， <a href=\"%(pd_url)s\">選擇公眾領域</a>標章。"
 
 #: c/engine/pd/templates/publicdomain-partner.pt:24
-msgctxt "license.partner.pd_intro"
 msgid ""
 "Your choice suggests you\n"
 "want to certify a work is in the public domain. The Public Domain\n"
@@ -3105,31 +2712,27 @@ msgid ""
 msgstr "你的選擇表明你要認證此作於公眾領域。公眾領域認證不是一種授權。藉此你宣稱此作已於公眾領域。"
 
 #: c/engine/pd/templates/publicdomain-partner.pt:31
-msgctxt "license.partner.pd.use_cc0"
+#, python-format
 msgid ""
 "If instead you want to\n"
 "waive copyright and neighboring rights on a work <em>in which you hold\n"
-"these rights</em>, choose <a href=\"${cc0_url}\">CC0</a>."
-msgstr "如果你反而想放棄<em>你擁有的</em>著作權與鄰接權等權利，選擇<a href=\"${cc0_url}\">CC0</a>。"
+"these rights</em>, choose <a href=\"%(cc0_url)s\">CC0</a>."
+msgstr "如果你反而想放棄<em>你擁有的</em>著作權與鄰接權等權利，選擇<a href=\"%(cc0_url)s\">CC0</a>。"
 
-msgctxt "lang.ar"
 msgid "Arabic"
 msgstr "阿拉伯語"
 
 #. Default: "Territory"
 #: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
-msgctxt "util.territory"
 msgid "Territory"
 msgstr "司法管轄領域"
 
-msgctxt "deed.zero.no-endorsment"
 msgid ""
 "You can copy, modify, distribute and perform the work, even for commercial "
 "purposes, all without asking permission. See <b>Other Information</b> below."
 msgstr "你可以複製、修改、散布與演播該著作，不論是否出於商業目的，所有的使用皆不需要求允許。其他資訊，請參照下述："
 
 #: s/standard_templates/deed.pt:121
-msgctxt "deed.public_domain"
 msgid ""
 "Where the work or any of its elements is in the <a "
 "href=\"http://wiki.creativecommons.org/Public_domain\" id=\"public_domain\" "
@@ -3140,62 +2743,48 @@ msgstr ""
 "id=\"public_domain\" class=\"helpLink\">公共領域</a>，此狀態絕不會受到本授權條款的影響。 "
 
 #: s/standard_templates/deed.pt:209
-msgctxt "deed.public_domain.help.title"
 msgid "What does \"Public Domain\" mean?"
 msgstr "「公眾領域」是甚麼意思？"
 
 #: s/standard_templates/deed.pt:213
-msgctxt "deed.public_domain.help"
 msgid ""
 "A work is in the public domain when it is free for use by anyone for any "
 "purpose without restriction under copyright."
 msgstr "此作品存在於公眾領域，在無著作權限制之下，自由供任何人使用，。"
 
-msgctxt "lang.oci_ES"
 msgid "Aranese"
 msgstr "亞拉尼斯語"
 
-msgctxt "lang.lt"
 msgid "Lithuanian"
 msgstr "立陶宛與"
 
-msgctxt "lang.ur"
 msgid "Urdu"
 msgstr "烏爾都語"
 
-msgctxt "lang.lv"
 msgid "Latvian"
 msgstr "拉脫維亞與"
 
-msgctxt "lang.uk"
 msgid "Ukranian"
 msgstr "烏克蘭語"
 
-msgctxt "util.Universal"
 msgid "Universal"
 msgstr "通用"
 
-msgctxt "lang.ru"
 msgid "Russian"
 msgstr "俄語"
 
-msgctxt "lang.be"
 msgid "Belarusian"
 msgstr "白俄羅斯與"
 
-msgctxt "lang.mn"
 msgid "Mongolian"
 msgstr "蒙古語"
 
-msgctxt "lang.as"
 msgid "Assamese"
 msgstr "阿薩姆語"
 
-msgctxt "lang.vi"
 msgid "Vietnamese"
 msgstr "越南語"
 
-msgctxt "country.vn"
 msgid "Vietnam"
 msgstr "越南"
 
@@ -3223,51 +2812,42 @@ msgstr ""
 "href=\"%(lookup_uri)s\">此作品</a> 於 <nobr><a "
 "href=\"%(network_url)s\">%(network_name)s</a></nobr>"
 
-msgctxt "license.review_choice_directions"
+#, python-format
 msgid ""
 "<h1>Review Choice</h1>\n"
 "\n"
-"<p>Congratulations, you have selected the Creative Commons <a href=\"${license_url}\">${license_pretty_name} License</a>. </p>\n"
+"<p>Congratulations, you have selected the Creative Commons <a href=\"%(license_url)s\">%(license_pretty_name)s License</a>. </p>\n"
 "\n"
 "<p>To signal to others that you are using a Creative Commons license, you can use a Creative Commons logo. The result will look like this:</p>"
 msgstr ""
-"<h1>檢視選項</h1><p>恭喜你，你已選擇創用CC<a href=\"${license_url}\">$ "
+"<h1>檢視選項</h1><p>恭喜你，你已選擇創用CC<a href=\"%(license_url)s\">$ "
 "{license_pretty_name}授權</a> 。 "
 "</p><p>讓他人知道你正在使用創用CC，你可以使用創用CC標誌。結果看起來像這樣：</p>"
 
-msgctxt "lang.hi"
 msgid "Hindi"
 msgstr "印度語"
 
-msgctxt "lang.bn"
 msgid "Bengali"
 msgstr "孟加拉語"
 
-msgctxt "lang.ta"
 msgid "Tamil"
 msgstr "坦米爾語"
 
-msgctxt "lang.is"
 msgid "Icelandic"
 msgstr "冰島語"
 
-msgctxt "licenses.publicdomain_mark_title"
 msgid "Public Domain Mark"
 msgstr "公眾領域標章"
 
-msgctxt "lang.et"
 msgid "Estonian"
 msgstr "愛沙尼亞語"
 
-msgctxt "lang.ka"
 msgid "Georgian"
 msgstr "喬治亞語"
 
-msgctxt "lang.ast"
 msgid "Asturian"
 msgstr "阿斯圖裡亞斯與"
 
-msgctxt "lang.te"
 msgid "Telugu"
 msgstr "泰盧固語"
 
@@ -3275,7 +2855,6 @@ msgstr "泰盧固語"
 #. "This is usually the title of the work given by the author, or if none the"
 #. " name associated with the work by the person identifying the work."
 #: chooser_pages/pdmark/details.pt:104
-msgctxt "license.mark.work_title"
 msgid ""
 "This is usually the title of the work given by the author, or if none the "
 "name associated with the work by the person identifying the work."
@@ -3283,7 +2862,6 @@ msgstr "這通常是作者給的標題，又或是辨識此著作的人員沒有
 
 #. Default: "Author name"
 #: chooser_pages/pdmark/details.pt:118
-msgctxt "util.author_name"
 msgid "Author name"
 msgstr "創作者名稱"
 
@@ -3291,14 +2869,12 @@ msgstr "創作者名稱"
 #. "You may list multiple authors. If unknown, you may wish to state "
 #. "'unknown'."
 #: chooser_pages/pdmark/details.pt:123
-msgctxt "license.mark.author_help"
 msgid ""
 "You may list multiple authors. If unknown, you may wish to state 'unknown'."
 msgstr "你可列出多位作者。如果作者未知，你會想要填入'未知'"
 
 #. Default: "Author URL"
 #: chooser_pages/pdmark/details.pt:132
-msgctxt "util.author_url"
 msgid "Author URL"
 msgstr "創作者網址"
 
@@ -3306,7 +2882,6 @@ msgstr "創作者網址"
 #. "This may be the URL where the author published the work online, or the "
 #. "URL where the work is published by the person identifying the work."
 #: chooser_pages/pdmark/details.pt:137
-msgctxt "license.mark.author_url_help"
 msgid ""
 "This may be the URL where the author published the work online, or the URL "
 "where the work is published by the person identifying the work."
@@ -3314,25 +2889,21 @@ msgstr "這會是一個由作者在網路上發佈作品的網址，或是由識
 
 #. Default: "Identifying Individual or Organization"
 #: chooser_pages/pdmark/details.pt:149
-msgctxt "util.identifying_party"
 msgid "Identifying Individual or Organization"
 msgstr "確認個人或是組織"
 
 #. Default: "Name"
 #: chooser_pages/pdmark/details.pt:152
-msgctxt "util.name"
 msgid "Name"
 msgstr "名稱"
 
 #. Default: "Identify yourself here."
 #: chooser_pages/pdmark/details.pt:157
-msgctxt "license.mark.curator_help"
 msgid "Identify yourself here."
 msgstr "在這確認你的身分。"
 
 #. Default: "URL"
 #: chooser_pages/pdmark/details.pt:165
-msgctxt "util.url"
 msgid "URL"
 msgstr "網址"
 
@@ -3340,7 +2911,6 @@ msgstr "網址"
 #. "This may be your main website or the information page about you on a "
 #. "hosting website, such as Flickr Commons."
 #: chooser_pages/pdmark/details.pt:169
-msgctxt "license.mark.curator_href_help"
 msgid ""
 "This may be your main website or the information page about you on a hosting"
 " website, such as Flickr Commons."
@@ -3351,7 +2921,6 @@ msgstr "這可能是你的主要網站或是關於你的資訊，如Flickr Commo
 #. " the work you are marking. This allows users of the work to locate the "
 #. "work online and find out where to go for more information."
 #: chooser_pages/pdmark/details.pt:65
-msgctxt "license.mark.additional_metadata"
 msgid ""
 "These fields are optional, but will be embedded in the HTML generated for "
 "the work you are marking. This allows users of the work to locate the work "
@@ -3367,7 +2936,6 @@ msgstr ""
 #. "information</a> on Creative Commons metadata is available if you want to "
 #. "find out more. </p>"
 #: chooser_pages/pdmark/details.pt:80
-msgctxt "license.mark.metadata_help"
 msgid ""
 "<p> The information is embedded in a software readable format. This allows "
 "search engines to index additional information about the marked work. </p> "
@@ -3380,13 +2948,11 @@ msgstr ""
 
 #. Default: "Work Information"
 #: chooser_pages/pdmark/details.pt:96
-msgctxt "util.work_information"
 msgid "Work Information"
 msgstr "作品資訊"
 
 #. Default: "Work name"
 #: chooser_pages/pdmark/details.pt:99
-msgctxt "util.work_name"
 msgid "Work name"
 msgstr "作品名稱"
 
@@ -3396,7 +2962,6 @@ msgstr "作品名稱"
 #. "properly, the PDM allows the work to be easily discovered, and provides "
 #. "valuable information about the work."
 #: chooser_pages/pdmark/index.pt:64
-msgctxt "license.mark.intro_1"
 msgid ""
 "Using the Public Domain Mark, you can mark a work that is free of known "
 "copyright restrictions and clearly convey that status. When applied "
@@ -3418,7 +2983,6 @@ msgstr ""
 #. "you are unsure whether you should use the PDM for a work you have "
 #. "identified."
 #: chooser_pages/pdmark/index.pt:71
-msgctxt "license.mark.intro_2"
 msgid ""
 "The PDM is intended for use with old works that are free of copyright "
 "restrictions around the world, or works that have been affirmatively placed "
@@ -3441,7 +3005,6 @@ msgstr ""
 #. "known copyright restrictions. The work will not be associated with a "
 #. "Public Domain Mark until you publish it marked as being so."
 #: chooser_pages/pdmark/index.pt:86
-msgctxt "license.mark.intro_3"
 msgid ""
 "Please note that this is <strong>not a registration process</strong> and "
 "Creative Commons does not store or save any of the information you provide. "
@@ -3456,7 +3019,6 @@ msgstr ""
 #. "If you'd like to get the HTML with embedded metadata via email, fill in "
 #. "your email address below."
 #: chooser_pages/pdmark/results.pt:130
-msgctxt "license.mark.send_email_updates"
 msgid ""
 "If you'd like to get the HTML with embedded metadata via email, fill in your"
 " email address below."
@@ -3466,7 +3028,6 @@ msgstr "如果你想要以電子郵件方式收到含後設資料(metadata)的HT
 #. "Choose which style of button you would like to appear by the work on the "
 #. "webpage:"
 #: chooser_pages/pdmark/results.pt:53
-msgctxt "license.mark.choose_button"
 msgid ""
 "Choose which style of button you would like to appear by the work on the "
 "webpage:"
@@ -3474,7 +3035,6 @@ msgstr "選擇你想要在你的著作網頁上顯示的按鈕樣式："
 
 #. Default: "Here's a preview of how the mark will appear on the website:"
 #: chooser_pages/pdmark/results.pt:78
-msgctxt "license.mark.preview_waiver"
 msgid "Here's a preview of how the mark will appear on the website:"
 msgstr "授權標示與文字預覽"
 
@@ -3485,7 +3045,6 @@ msgstr "授權標示與文字預覽"
 #. "the Public Domain Mark. It is up to you to let people know that you have "
 #. "identified the work using the mark."
 #: chooser_pages/pdmark/results.pt:88
-msgctxt "license.mark.copy_text"
 msgid ""
 "Copy the text below to your website to let your visitors know that the work "
 "identified by you is free of known copyright restrictions. Creative Commons "
@@ -3503,7 +3062,6 @@ msgstr ""
 #. " class=\"helpLink\" id=\"publicity_rights\" "
 #. "name=\"publicity_rights\">publicity or privacy</a> rights."
 #: licenses/pdmark_deed.pt:103
-msgctxt "deed.mark.other_info.other_rights"
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
@@ -3524,7 +3082,6 @@ msgstr ""
 #. "identified as the author and the right to object to derogatory "
 #. "treatments."
 #: licenses/pdmark_deed.pt:111
-msgctxt "deed.mark.other_info.moral_rights"
 msgid ""
 "In some jurisdictions <a href=\"\" class=\"helpLink\" id=\"moral_rights\" "
 "name=\"moral_rights\">moral rights</a> of the author may persist beyond the "
@@ -3539,7 +3096,6 @@ msgstr ""
 #. "makes no warranties about the work, and disclaims liability for all uses "
 #. "of the work, to the fullest extent permitted by applicable law."
 #: licenses/pdmark_deed.pt:119
-msgctxt "deed.mark.other_info.no_warranty"
 msgid ""
 "Unless expressly stated otherwise, the person who identified the work makes "
 "no warranties about the work, and disclaims liability for all uses of the "
@@ -3552,7 +3108,6 @@ msgstr "除非另有明文規定，著作關係人對於所有著作的使用不
 #. "name=\"endorsement\">endorsement</a> by the author or the person who "
 #. "identified the work."
 #: licenses/pdmark_deed.pt:125
-msgctxt "deed.mark.other_info.no_endorsement"
 msgid ""
 "When using or citing the work, you should not imply <a href=\"\" "
 "class=\"helpLink\" id=\"endorsement\" name=\"endorsement\">endorsement</a> "
@@ -3563,7 +3118,6 @@ msgstr ""
 
 #. Default: "Endorsement"
 #: licenses/pdmark_deed.pt:145 licenses/zero_deed.pt:143
-msgctxt "util.endorsement"
 msgid "Endorsement"
 msgstr "背書"
 
@@ -3571,7 +3125,6 @@ msgstr "背書"
 #. "In some jurisdictions, wrongfully implying that an author, publisher or "
 #. "anyone else endorses your use of a work may be unlawful."
 #: licenses/pdmark_deed.pt:149 licenses/zero_deed.pt:145
-msgctxt "deed.help.endorsement"
 msgid ""
 "In some jurisdictions, wrongfully implying that an author, publisher or "
 "anyone else endorses your use of a work may be unlawful."
@@ -3579,7 +3132,6 @@ msgstr "在某些司法官轄區，錯誤地暗示某作者，出版者或任何
 
 #. Default: "Citation"
 #: licenses/pdmark_deed.pt:162 licenses/zero_deed.pt:159
-msgctxt "util.citation"
 msgid "Citation"
 msgstr "引用"
 
@@ -3587,14 +3139,12 @@ msgstr "引用"
 #. "Copy and paste the HTML provided into your webpage to easily cite this "
 #. "work."
 #: licenses/pdmark_deed.pt:166 licenses/zero_deed.pt:161
-msgctxt "deed.help.citation"
 msgid ""
 "Copy and paste the HTML provided into your webpage to easily cite this work."
 msgstr "複製此處的HTML碼並貼至你的網頁以引用此著作。"
 
 #. Default: "Moral Rights"
 #: licenses/pdmark_deed.pt:178
-msgctxt "util.moralrights"
 msgid "Moral Rights"
 msgstr "著作人格權"
 
@@ -3603,7 +3153,6 @@ msgstr "著作人格權"
 #. "\"moral rights\" which may provide some redress if use of a work is "
 #. "considered \"derogatory\"."
 #: licenses/pdmark_deed.pt:182
-msgctxt "deed.help.moralrights"
 msgid ""
 "Copyright laws in most jurisdictions around the world grant creators \"moral"
 " rights\" which may provide some redress if use of a work is considered "
@@ -3617,7 +3166,6 @@ msgstr "在世界各國的司法管轄區中，著作權被視為\"道德權利\
 #. " to control how their voice, image or likeness is used, or other "
 #. "restrictions or limitations under applicable law."
 #: licenses/pdmark_deed.pt:198 licenses/zero_deed.pt:126
-msgctxt "deed.help.other_rights"
 msgid ""
 "The use of a work free of known copyright restrictions may be otherwise "
 "regulated or limited. The work or its use may be subject to personal data "
@@ -3629,7 +3177,6 @@ msgstr ""
 
 #. Default: "Term of Copyright"
 #: licenses/pdmark_deed.pt:213
-msgctxt "util.term_of_copyright"
 msgid "Term of Copyright"
 msgstr "著作權條約"
 
@@ -3638,7 +3185,6 @@ msgstr "著作權條約"
 #. "copyright restrictions in one jurisdiction may not be similarly free in "
 #. "other jurisdictions."
 #: licenses/pdmark_deed.pt:216
-msgctxt "deed.help.term_of_copyright"
 msgid ""
 "Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
 "restrictions in one jurisdiction may not be similarly free in other "
@@ -3652,7 +3198,6 @@ msgstr "著作權依不同司法管轄而不同。在某司法管轄下無著作
 #. "perform the work, even for commercial purposes, all without asking "
 #. "permission. See <b>Other Information</b> below. </p>"
 #: licenses/pdmark_deed.pt:23
-msgctxt "deed.mark.no_law"
 msgid ""
 "<p id=\"nolaw-text\"> This work has been <b>identified</b> as being free of "
 "known restrictions under copyright law, including all related and "
@@ -3673,7 +3218,6 @@ msgstr ""
 #. " any jurisdiction, and disclaims all liability for all uses of any work. "
 #. "</p>"
 #: licenses/pdmark_deed.pt:248
-msgctxt "deed.mark.disclaimer"
 msgid ""
 "<p> The Public Domain Mark is not a legal instrument. </p> <p> Creative "
 "Commons is not a law firm and does not provide legal services or advice. "
@@ -3690,25 +3234,21 @@ msgstr ""
 
 #. Default: "Use this tool to mark other public domain works."
 #: licenses/pdmark_deed.pt:272
-msgctxt "deed.mark.use_this_tool"
 msgid "Use this tool to mark other public domain works."
 msgstr "使用此工具標示其他公眾領域作品。"
 
 #. Default: "Work:"
 #: licenses/pdmark_deed.pt:61 licenses/zero_deed.pt:61
-msgctxt "deed.workdetails.work"
 msgid "Work:"
 msgstr "作品："
 
 #. Default: "Author:"
 #: licenses/pdmark_deed.pt:66
-msgctxt "deed.workdetails.author"
 msgid "Author:"
 msgstr "創作者："
 
 #. Default: "Identified by:"
 #: licenses/pdmark_deed.pt:71
-msgctxt "deed.workdetails.curator"
 msgid "Identified by:"
 msgstr "識別由:"
 
@@ -3716,7 +3256,6 @@ msgstr "識別由:"
 #. "You can <a href=\"\" class=\"helpLink\" id=\"citation_help\" "
 #. "name=\"citation_help\">cite</a> this work with this HTML:"
 #: licenses/pdmark_deed.pt:77 licenses/zero_deed.pt:74
-msgctxt "deed.cite_this_work"
 msgid ""
 "You can <a href=\"\" class=\"helpLink\" id=\"citation_help\" "
 "name=\"citation_help\">cite</a> this work with this HTML:"
@@ -3726,7 +3265,6 @@ msgstr ""
 
 #. Default: "Other Information"
 #: licenses/pdmark_deed.pt:96 licenses/zero_deed.pt:92
-msgctxt "util.other_information"
 msgid "Other Information"
 msgstr "其他資訊"
 
@@ -3735,7 +3273,6 @@ msgstr "其他資訊"
 #. "href=\"\" class=\"helpLink\" id=\"all_jurisdictions\" "
 #. "name=\"all_jurisdictions\">jurisdictions</a>."
 #: licenses/pdmark_deed.pt:98
-msgctxt "deed.mark.other_info.jurisdictions"
 msgid ""
 "The work may not be free of known copyright restrictions in all <a href=\"\""
 " class=\"helpLink\" id=\"all_jurisdictions\" "
@@ -3749,7 +3286,6 @@ msgstr ""
 #. "this deed makes no warranties about the work, and disclaims liability for"
 #. " all uses of the work, to the fullest extent permitted by applicable law."
 #: licenses/zero_deed.pt:104
-msgctxt "deed.zero.other_info.no_warranty"
 msgid ""
 "Unless expressly stated otherwise, the person who associated a work with "
 "this deed makes no warranties about the work, and disclaims liability for "
@@ -3761,7 +3297,6 @@ msgstr "除非有明確陳述相反的意思表示外，以著作結合本標章
 #. "class=\"helpLink\" id=\"endorsement\" "
 #. "name=\"endorsement\">endorsement</a> by the author or the affirmer."
 #: licenses/zero_deed.pt:112
-msgctxt "deed.zero.other_info.no_endorsement"
 msgid ""
 "When using or citing the work, you should not imply <a href=\"\" "
 "class=\"helpLink\" id=\"endorsement\" name=\"endorsement\">endorsement</a> "
@@ -3772,7 +3307,6 @@ msgstr ""
 
 #. Default: "Who is the affirmer?"
 #: licenses/zero_deed.pt:173
-msgctxt "util.who_is_affirmer"
 msgid "Who is the affirmer?"
 msgstr "誰是「宣告者」？"
 
@@ -3782,7 +3316,6 @@ msgstr "誰是「宣告者」？"
 #. "of the work or another person who may have had some copyright or related "
 #. "or neighboring legal rights in the work."
 #: licenses/zero_deed.pt:176
-msgctxt "deed.help.who_is_affirmer"
 msgid ""
 "The affirmer is the person who surrendered rights to the work worldwide "
 "using CC0, to the extent allowable by law. It may be the original author of "
@@ -3793,7 +3326,6 @@ msgstr ""
 
 #. Default: "Public Domain Dedication"
 #: licenses/zero_deed.pt:18
-msgctxt "util.public_domain_dedication"
 msgid "Public Domain Dedication"
 msgstr "公眾領域貢獻宣告"
 
@@ -3801,7 +3333,6 @@ msgstr "公眾領域貢獻宣告"
 #. "<a href=\"\" class=\"inline-help helpLink\" "
 #. "id=\"who_is_affirmer\">Affirmer</a>"
 #: licenses/zero_deed.pt:66
-msgctxt "deed.workdetails.affirmer"
 msgid "<a href=\"\" class=\"inline-help helpLink\" id=\"who_is_affirmer\">Affirmer</a>"
 msgstr "<a href=\"\" class=\"inline-help helpLink\" id=\"who_is_affirmer\">宣告者</a>"
 
@@ -3813,7 +3344,6 @@ msgstr "<a href=\"\" class=\"inline-help helpLink\" id=\"who_is_affirmer\">宣�
 #. " class=\"helpLink\" id=\"publicity_rights\" "
 #. "name=\"publicity_rights\">publicity or privacy</a> rights."
 #: licenses/zero_deed.pt:94
-msgctxt "deed.zero.other_info.other_rights"
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
@@ -3830,11 +3360,11 @@ msgstr ""
 #. Default: ""
 #. "Thank you for using a Creative Commons legal tool for your work.\n"
 #. "\n"
-#. "You have selected ${license_title}.\n"
+#. "You have selected %(license_title)s.\n"
 #. "You should include a reference to this on the web page that includes\n"
 #. "the work in question.\n"
 #. "Here is the suggested HTML:\n"
-#. "${license_html}\n"
+#. "%(license_html)s\n"
 #. "Tips for marking your work can be found at\n"
 #. "http://wiki.creativecommons.org/Marking.  Information on the supplied "
 #. "HTML and\n"
@@ -3843,17 +3373,17 @@ msgstr ""
 #. "Creative Commons Support\n"
 #. "info@creativecommons.org"
 #: util.py:440
-msgctxt "license.info_email_body"
+#, python-format
 msgid ""
 "Thank you for using a Creative Commons legal tool for your work.\n"
 "\n"
-"You have selected ${license_title}.\n"
+"You have selected %(license_title)s.\n"
 "You should include a reference to this on the web page that includes\n"
 "the work in question.\n"
 "\n"
 "Here is the suggested HTML:\n"
 "\n"
-"${license_html}\n"
+"%(license_html)s\n"
 "\n"
 "Tips for marking your work can be found at\n"
 "http://wiki.creativecommons.org/Marking.  Information on the supplied HTML and\n"
@@ -3868,7 +3398,7 @@ msgid ""
 "Creative Commons Support\n"
 "info@creativecommons.org"
 msgstr ""
-"感謝你為你的創作使用在創用CC的法律工具。你選擇${license_title}。你應該加入此網頁作為參考，包括尚有疑問的工作。這裡是建議的的HTML：${license_html} 這有小提示讓你的作品可被找到http://wiki.creativecommons.org/Marking。\n"
+"感謝你為你的創作使用在創用CC的法律工具。你選擇%(license_title)s。你應該加入此網頁作為參考，包括尚有疑問的工作。這裡是建議的的HTML：%(license_html)s 這有小提示讓你的作品可被找到http://wiki.creativecommons.org/Marking。\n"
 "\n"
 "所提供的HTML和後設資料訊息可以在這找到http://wiki.creativecommons.org/CC_REL。\n"
 "\n"
@@ -3878,79 +3408,77 @@ msgstr ""
 
 #. Default: "Your Creative Commons License Information"
 #: util.py:460
-msgctxt "license.info_email_subject"
 msgid "Your Creative Commons License Information"
 msgstr "你的創用CC授權資訊"
 
 #. Default: "This work is free of known copyright restrictions."
 #: cc/license/formatters/classes.py:313
-msgctxt "license.mark_plain"
 msgid "This work is free of known copyright restrictions."
 msgstr "此作品是無著作權限制的。"
 
-#. Default: "This work (${work_title}) is free of known copyright
+#. Default: "This work (%(work_title)s) is free of known copyright
 #. restrictions."
 #: cc/license/formatters/classes.py:317
-msgctxt "license.mark_worktitle"
-msgid "This work (${work_title}) is free of known copyright restrictions."
-msgstr "此作品標題($ {work_title})，是無著作權限制的。"
+#, python-format
+msgid "This work (%(work_title)s) is free of known copyright restrictions."
+msgstr "此作品標題(%( {work_title)s)，是無著作權限制的。"
 
-#. Default: "This work (by ${author}) is free of known copyright
+#. Default: "This work (by %(author)s) is free of known copyright
 #. restrictions."
 #: cc/license/formatters/classes.py:322
-msgctxt "license.mark_author"
-msgid "This work (by ${author}) is free of known copyright restrictions."
-msgstr "此作品(由$ {author})著作，是無著作權限制的。"
+#, python-format
+msgid "This work (by %(author)s) is free of known copyright restrictions."
+msgstr "此作品(由%( {author)s)著作，是無著作權限制的。"
 
 #. Default: ""
-#. "This work, identified by ${curator}, is free of known copyright "
+#. "This work, identified by %(curator)s, is free of known copyright "
 #. "restrictions."
 #: cc/license/formatters/classes.py:329
-msgctxt "license.mark_curator"
+#, python-format
 msgid ""
-"This work, identified by ${curator}, is free of known copyright "
+"This work, identified by %(curator)s, is free of known copyright "
 "restrictions."
-msgstr "此作品由$ {curator}認定，是無著作權限制的。"
+msgstr "此作品由%( {curator)s認定，是無著作權限制的。"
 
 #. Default: ""
-#. "This work (${work_title}, by ${author}) is free of known copyright "
+#. "This work (%(work_title)s, by %(author)s) is free of known copyright "
 #. "restrictions."
 #: cc/license/formatters/classes.py:336
-msgctxt "license.mark_worktitle_author"
+#, python-format
 msgid ""
-"This work (${work_title}, by ${author}) is free of known copyright "
+"This work (%(work_title)s, by %(author)s) is free of known copyright "
 "restrictions."
-msgstr "此作品 (${work_title} 由$ {author})著作，是無著作權限制的。"
+msgstr "此作品 (%(work_title)s 由%( {author)s)著作，是無著作權限制的。"
 
 #. Default: ""
-#. "This work (${work_title}), identified by ${curator}, is free of known "
+#. "This work (%(work_title)s), identified by %(curator)s, is free of known "
 #. "copyright restrictions."
 #: cc/license/formatters/classes.py:342
-msgctxt "license.mark_worktitle_curator"
+#, python-format
 msgid ""
-"This work (${work_title}), identified by ${curator}, is free of known "
+"This work (%(work_title)s), identified by %(curator)s, is free of known "
 "copyright restrictions."
-msgstr "此作品 (${work_title}) 由$ {curator}認定，是無著作權限制的。"
+msgstr "此作品 (%(work_title)s) 由%( {curator)s認定，是無著作權限制的。"
 
 #. Default: ""
-#. "This work (${work_title}, by ${author}), identified by ${curator}, is "
+#. "This work (%(work_title)s, by %(author)s), identified by %(curator)s, is "
 #. "free of known copyright restrictions."
 #: cc/license/formatters/classes.py:349
-msgctxt "license.mark_worktitle_author_curator"
+#, python-format
 msgid ""
-"This work (${work_title}, by ${author}), identified by ${curator}, is free "
-"of known copyright restrictions."
-msgstr "此作品 (${work_title} 由 $ {author})著作，並由$ {curator}認定，是無著作權限制的。"
+"This work (%(work_title)s, by %(author)s), identified by %(curator)s, is "
+"free of known copyright restrictions."
+msgstr "此作品 (%(work_title)s 由 %( {author)s)著作，並由%( {curator)s認定，是無著作權限制的。"
 
 #. Default: ""
-#. "This work (by ${author}), identified by ${curator}, is free of known "
+#. "This work (by %(author)s), identified by %(curator)s, is free of known "
 #. "copyright restrictions."
 #: cc/license/formatters/classes.py:356
-msgctxt "license.mark_author_curator"
+#, python-format
 msgid ""
-"This work (by ${author}), identified by ${curator}, is free of known "
+"This work (by %(author)s), identified by %(curator)s, is free of known "
 "copyright restrictions."
-msgstr "此作品(由$ {author})著作，並由$ {curator}認定，是無著作權限制的。"
+msgstr "此作品(由%( {author)s)著作，並由%( {curator)s認定，是無著作權限制的。"
 
 #. Default: ""
 #. "You are using a tool for freeing your own work of copyright restrictions "
@@ -3960,7 +3488,6 @@ msgstr "此作品(由$ {author})著作，並由$ {curator}認定，是無著作�
 #. " are already in the public domain worldwide, instead use the <b><a "
 #. "href=\"/choose/mark/\">Public Domain Mark</a></b> for such works."
 #: chooser_pages/zero/index.pt:50
-msgctxt "license.zero.PDM-difference"
 msgid ""
 "You are using a tool for freeing your own work of copyright restrictions "
 "around the world. You may use this tool even if your work is free of "
@@ -3980,7 +3507,6 @@ msgstr ""
 #. "use the <b><a href=\"/choose/zero/\">CC0 public domain "
 #. "dedication</a></b>."
 #: chooser_pages/pdmark/index.pt:63
-msgctxt "license.mark.CC0-difference"
 msgid ""
 "You are using a tool for labeling works that are free of known copyright "
 "restrictions. Creative Commons does not recommend this tool for works that "
@@ -3998,7 +3524,6 @@ msgstr ""
 #. "href=\"http://creativecommons.org/publicdomain\">current tool</a> for "
 #. "waiving rights or identifying public domain works."
 #: chooser_pages/publicdomain/publicdomain-2.pt:22
-msgctxt "license.pd.retired"
 msgid ""
 "Creative Commons has <a "
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
@@ -4014,7 +3539,6 @@ msgstr ""
 #. "Any of the above conditions can be waived if you get permission from the "
 #. "copyright holder."
 #: licenses/fsf_deed.pt:94
-msgctxt "deed.permission.nopopup"
 msgid ""
 "Any of the above conditions can be waived if you get permission from the "
 "copyright holder."
@@ -4025,7 +3549,6 @@ msgstr "如果你獲得著作權人的的許可，可拋棄上述任何條件。
 #. " the US. For dedicating new works to the public domain, we recommend <a "
 #. "href=\"/choose/zero/\">CC0</a>."
 #: licenses/publicdomain_deed.pt:94
-msgctxt "deed.pd.help_use_zero"
 msgid ""
 "This tool is based on United States law and may not be applicable outside "
 "the US. For dedicating new works to the public domain, we recommend <a "
@@ -4034,32 +3557,31 @@ msgstr "此工具基於美國法，可能不適用於美國以外。針對貢獻
 
 #. Default: ""
 #. "If instead you want to certify that a work is <em>already in the public "
-#. "domain</em>, instead use the <a href=\"${pd_url}\">Public Domain "
+#. "domain</em>, instead use the <a href=\"%(pd_url)s\">Public Domain "
 #. "Mark</a>."
 #: chooser_pages/zero/partner.pt:43
-msgctxt "license.partner.zero.use_pdm_instead"
+#, python-format
 msgid ""
 "If instead you want to certify that a work is <em>already in the public "
-"domain</em>, instead use the <a href=\"${pd_url}\">Public Domain Mark</a>."
-msgstr "反之，如果你想認證的作品<em>已存在於公眾領域</em> ，請改而使用<a href=\"${pd_url}\">公眾領域標章</a> 。"
+"domain</em>, instead use the <a href=\"%(pd_url)s\">Public Domain Mark</a>."
+msgstr "反之，如果你想認證的作品<em>已存在於公眾領域</em> ，請改而使用<a href=\"%(pd_url)s\">公眾領域標章</a> 。"
 
 #. Default: ""
 #. "If you want to free <em>your own work</em> of copyright restrictions, "
-#. "instead use the <a href=\"${pd_url}\">CC0 public domain "
+#. "instead use the <a href=\"%(pd_url)s\">CC0 public domain "
 #. "dedication</a>."
 #: chooser_pages/pdmark/partner.pt:58
-msgctxt "license.partner.mark.use_cc0_instead"
+#, python-format
 msgid ""
 "If you want to free <em>your own work</em> of copyright restrictions, "
-"instead use the <a href=\"${pd_url}\">CC0 public domain dedication</a>."
-msgstr "如果你想釋放<em>你自己的作品</em>的權所有限制，改為使用<a href=\"${pd_url}\">CC0公眾領域貢獻宣告</a> 。"
+"instead use the <a href=\"%(pd_url)s\">CC0 public domain dedication</a>."
+msgstr "如果你想釋放<em>你自己的作品</em>的權所有限制，改為使用<a href=\"%(pd_url)s\">CC0公眾領域貢獻宣告</a> 。"
 
 #. Default: ""
 #. "Creative Commons is a non-profit organization.<br /> We need your support"
 #. " to continue providing these tools.<br /> <a "
 #. "href=\"https://creativecommons.net/donate/\">Donate today!</a>"
 #: chooser_pages/results.pt:112
-msgctxt "license.donate_message"
 msgid ""
 "Creative Commons is a non-profit organization.<br /> We need your support to"
 " continue providing these tools.<br /> <a "
@@ -4070,79 +3592,62 @@ msgstr ""
 
 #. Default: "Creative Commons Licenses"
 #: catalog_pages/licenses-index.pt:13
-msgctxt "util.Creative_Commons_Licenses"
 msgid "Creative Commons Licenses"
 msgstr "創用CC授權"
 
 #. Default: "Characteristics"
 #: catalog_pages/licenses-index.pt:29
-msgctxt "util.characteristics"
 msgid "Characteristics"
 msgstr "特性"
 
 #. Default: "International"
 #: chooser_pages/index.pt:149 chooser_pages/index.pt:166
-msgctxt "util.International"
 msgid "International"
 msgstr "國際"
 
 #. Default: "CC0: Waiver"
 #: chooser_pages/zero/waiver.pt:8
-msgctxt "license.zero.waiver_title"
 msgid "CC0: Waiver"
 msgstr "CC0: 拋棄"
 
-msgctxt "lang.tr"
 msgid "Turkish"
 msgstr "土耳其語"
 
-msgctxt "lang.pt_PT"
 msgid "Portuguese (Portugal)"
 msgstr "葡萄牙語 (葡萄牙)"
 
-msgctxt "lang.id"
 msgid "Indonesian"
 msgstr "印度尼西亞語"
 
-msgctxt "lang.hy"
 msgid "Armenian"
 msgstr "亞美尼亞語"
 
-msgctxt "lang.ga"
 msgid "Irish"
 msgstr "愛爾蘭語"
 
-msgctxt "lang.es_ES"
 msgid "Spanish (Spain)"
 msgstr "西班牙語 (西班牙)"
 
-msgctxt "lang.az"
 msgid "Azerbaijani"
 msgstr "阿塞拜疆語"
 
-msgctxt "lang.ml"
 msgid "Malayalam"
 msgstr "馬來亞語"
 
 #. Default: "Here's a preview of how your license will appear on your site:"
 #: chooser_pages/results.pt:67
-msgctxt "license.preview"
 msgid "Here's a preview of how your license will appear on your site:"
 msgstr "授權條款圖示與文字預覽"
 
-msgctxt "country.cr"
 msgid "Costa Rica"
 msgstr "哥斯大黎加"
 
-msgctxt "country.ee"
 msgid "Estonia"
 msgstr "愛沙尼亞"
 
-msgctxt "lang.kk"
 msgid "Kazakh"
 msgstr "哈薩克"
 
-msgctxt "lang.si_LK"
 msgid "Sinhala"
 msgstr "僧伽羅語"
 
@@ -4155,7 +3660,6 @@ msgstr "僧伽羅語"
 #. "href=\"http://creativecommons.org/about/pdm\">Public Domain Mark</a> "
 #. "allows any web user to “mark” a work as being in the public domain."
 #: catalog_pages/licenses-index.pt:360
-msgctxt "license.about_our_publicdomain_tools"
 msgid ""
 "We also provide tools that work in the “all rights granted” space of the <a "
 "href=\"http://wiki.creativecommons.org/Public_domain\">public domain</a>. "
@@ -4176,7 +3680,6 @@ msgstr ""
 #. "creation. This is the most accommodating of licenses offered. Recommended"
 #. " for maximum dissemination and use of licensed materials."
 #: catalog_pages/licenses-index.pt:180
-msgctxt "license.description.by"
 msgid ""
 "This license lets others distribute, remix, tweak, and build upon your work,"
 " even commercially, as long as they credit you for the original creation. "
@@ -4195,7 +3698,6 @@ msgstr ""
 #. "recommended for materials that would benefit from incorporating content "
 #. "from Wikipedia and similarly licensed projects."
 #: catalog_pages/licenses-index.pt:214
-msgctxt "license.description.by-sa"
 msgid ""
 "This license lets others remix, tweak, and build upon your work even for "
 "commercial purposes, as long as they credit you and license their new "
@@ -4214,7 +3716,6 @@ msgstr ""
 #. "This license allows for redistribution, commercial and non-commercial, as"
 #. " long as it is passed along unchanged and in whole, with credit to you."
 #: catalog_pages/licenses-index.pt:250
-msgctxt "license.description.by-nd"
 msgid ""
 "This license allows for redistribution, commercial and non-commercial, as "
 "long as it is passed along unchanged and in whole, with credit to you."
@@ -4227,7 +3728,6 @@ msgstr ""
 #. "be non-commercial, they don’t have to license their derivative works on"
 #. " the same terms."
 #: catalog_pages/licenses-index.pt:280
-msgctxt "license.description.by-nc"
 msgid ""
 "This license lets others remix, tweak, and build upon your work non-"
 "commercially, and although their new works must also acknowledge you and be "
@@ -4242,7 +3742,6 @@ msgstr ""
 #. " as they credit you, but they can’t change them in any way or use them "
 #. "commercially."
 #: catalog_pages/licenses-index.pt:341
-msgctxt "license.description.by-nc-nd"
 msgid ""
 "This license is the most restrictive of our six main licenses, only allowing"
 " others to download your works and share them with others as long as they "
@@ -4255,7 +3754,6 @@ msgstr ""
 #. "commercially, as long as they credit you and license their new creations "
 #. "under the identical terms."
 #: catalog_pages/licenses-index.pt:311
-msgctxt "license.description.by-nc-sa"
 msgid ""
 "This license lets others remix, tweak, and build upon your work non-"
 "commercially, as long as they credit you and license their new creations "
@@ -4264,13 +3762,11 @@ msgstr "本授權條款允許使用者重製、散布、傳輸以及修改你的
 
 #. Default: "The Licenses"
 #: catalog_pages/licenses-index.pt:165
-msgctxt "license.index.the_licenses.title"
 msgid "The Licenses"
 msgstr "授權條款"
 
 #. Default: "License design and rationale"
 #: catalog_pages/licenses-index.pt:46
-msgctxt "license.index.design_rationale.title"
 msgid "License design and rationale"
 msgstr "授權設計與原理"
 
@@ -4286,7 +3782,6 @@ msgstr "授權設計與原理"
 #. " baseline, on top of which licensors can choose to grant additional "
 #. "permissions when deciding how they want their work to be used."
 #: catalog_pages/licenses-index.pt:49
-msgctxt "license.index.design_rationale.body1"
 msgid ""
 "All Creative Commons licenses have many important features in common. Every "
 "license helps creators &mdash; we call them licensors if they use our tools "
@@ -4315,7 +3810,6 @@ msgstr ""
 #. "by the GNU General Public License, used by many open source software "
 #. "projects."
 #: catalog_pages/licenses-index.pt:63
-msgctxt "license.index.design_rationale.body2"
 msgid ""
 "A Creative Commons licensor answers a few simple questions on the path to "
 "choosing a license &mdash; first, do I want to allow commercial use or not, "
@@ -4343,7 +3837,6 @@ msgstr ""
 #. "copies of the work. Licensees cannot use technological measures to "
 #. "restrict access to the work by others."
 #: catalog_pages/licenses-index.pt:78
-msgctxt "license.index.design_rationale.body3"
 msgid ""
 "Our licenses do not affect freedoms that the law grants to users of creative"
 " works otherwise protected by copyright, such as exceptions and limitations "
@@ -4362,7 +3855,6 @@ msgstr ""
 #. "<a href=\"http://creativecommons.org/choose\">Try out our simple "
 #. "<em>License Chooser</em></a>."
 #: catalog_pages/licenses-index.pt:90
-msgctxt "license.index.design_rationale.body4"
 msgid ""
 "<a href=\"http://creativecommons.org/choose\">Try out our simple <em>License"
 " Chooser</em></a>."
@@ -4370,7 +3862,6 @@ msgstr "<a href=\"http://creativecommons.org/choose\">試試看我們的<em>選�
 
 #. Default: "Three “Layers” Of Licenses"
 #: catalog_pages/licenses-index.pt:98
-msgctxt "license.index.three_layers.title"
 msgid "Three “Layers” Of Licenses"
 msgstr "授權條款的三種「表達形式」"
 
@@ -4380,7 +3871,6 @@ msgstr "授權條款的三種「表達形式」"
 #. "tool, in the kind of language and text formats that most lawyers know and"
 #. " love. We call this the Legal Code layer of each license."
 #: catalog_pages/licenses-index.pt:104
-msgctxt "license.index.three_layers.body1"
 msgid ""
 "Our public copyright licenses incorporate a unique and innovative “three-"
 "layer” design. Each license begins as a traditional legal tool, in the kind "
@@ -4400,7 +3890,6 @@ msgstr ""
 #. "itself is not a license, and its contents are not part of the Legal Code "
 #. "itself."
 #: catalog_pages/licenses-index.pt:111
-msgctxt "license.index.three_layers.body2"
 msgid ""
 "But since most creators, educators, and scientists are not in fact lawyers, "
 "we also make the licenses available in a format that normal people can read "
@@ -4428,7 +3917,6 @@ msgstr ""
 #. "href=\"http://wiki.creativecommons.org/Ccrel\">CC Rights Expression "
 #. "Language</a> (CC REL) to accomplish this."
 #: catalog_pages/licenses-index.pt:123
-msgctxt "license.index.three_layers.body3"
 msgid ""
 "The final layer of the license design recognizes that software, from search "
 "engines to office productivity to music editing, plays an enormous role in "
@@ -4459,7 +3947,6 @@ msgstr ""
 #. "Commons</a>, which powers <a href=\"http://wikipedia.org\">Wikipedia</a>,"
 #. " is a core user of our licenses as well."
 #: catalog_pages/licenses-index.pt:138
-msgctxt "license.index.three_layers.body4"
 msgid ""
 "Searching for open content is an important function enabled by our approach."
 " You can use <a "
@@ -4486,7 +3973,6 @@ msgstr ""
 #. "of works can understand, their users can understand, and even the Web "
 #. "itself can understand."
 #: catalog_pages/licenses-index.pt:154
-msgctxt "license.index.three_layers.body5"
 msgid ""
 "Taken together, these three layers of licenses ensure that the spectrum of "
 "rights isn’t just a legal concept. It’s something that the creators of works"
@@ -4498,7 +3984,6 @@ msgstr ""
 
 #. Default: "What our licenses do"
 #: catalog_pages/licenses-index.pt:21
-msgctxt "license.index.what_licenses_do.title"
 msgid "What our licenses do"
 msgstr "我們的授權在做"
 
@@ -4514,7 +3999,6 @@ msgstr "我們的授權在做"
 #. "together\">copied, distributed, edited, remixed, and built upon</a>, all "
 #. "within the boundaries of copyright law."
 #: catalog_pages/licenses-index.pt:22
-msgctxt "license.index.what_licenses_do.body"
 msgid ""
 "The Creative Commons copyright licenses and tools forge a balance inside the"
 " traditional “all rights reserved” setting that copyright law creates. Our "
@@ -4534,7 +4018,6 @@ msgstr ""
 
 #. Default: "About The Licenses"
 #: catalog_pages/licenses-index.pt:13
-msgctxt "util.About_The_Licenses"
 msgid "About The Licenses"
 msgstr "關於授權條款"
 
@@ -4542,7 +4025,6 @@ msgstr "關於授權條款"
 #: catalog_pages/licenses-index.pt:190 catalog_pages/licenses-index.pt:228
 #: catalog_pages/licenses-index.pt:258 catalog_pages/licenses-index.pt:289
 #: catalog_pages/licenses-index.pt:319 catalog_pages/licenses-index.pt:350
-msgctxt "util.View_License_Deed"
 msgid "View License Deed"
 msgstr "閱讀授權標章"
 
@@ -4550,7 +4032,6 @@ msgstr "閱讀授權標章"
 #: catalog_pages/licenses-index.pt:192 catalog_pages/licenses-index.pt:230
 #: catalog_pages/licenses-index.pt:260 catalog_pages/licenses-index.pt:291
 #: catalog_pages/licenses-index.pt:321 catalog_pages/licenses-index.pt:352
-msgctxt "util.View_Legal_Code"
 msgid "View Legal Code"
 msgstr "閱讀法律條款"
 
@@ -4558,7 +4039,6 @@ msgstr "閱讀法律條款"
 #. "Share your work with an existing community that has enabled Creative "
 #. "Commons licensing."
 #: chooser_pages/results.pt:124
-msgctxt "license.learn_share"
 msgid ""
 "Share your work with an existing community that has enabled Creative Commons"
 " licensing."
@@ -4573,7 +4053,6 @@ msgstr "將你的著作分享至採用創用CC授權的社群。"
 #. "href=\"http://wiki.creativecommons.org/Publish/Text\">text</a>, including"
 #. " <a href=\"http://wiki.creativecommons.org/Publish/Text#Blog\">blogs</a>."
 #: chooser_pages/results.pt:129
-msgctxt "license.learn_where_to_publish"
 msgid ""
 "Learn where to <a "
 "href=\"http://wiki.creativecommons.org/Publish\">publish</a> your <a "
@@ -4591,37 +4070,33 @@ msgstr ""
 "href=\"http://wiki.creativecommons.org/Publish/Text#Blog\">部落格</a>）。"
 
 #. Default: ""
-#. "Get <a href=\"/choose/metadata.xmp?${url_vars}\">metadata</a>"
+#. "Get <a href=\"/choose/metadata.xmp?%(url_vars)s\">metadata</a>"
 #. " for documents that <a "
 #. "href=\"http://wiki.creativecommons.org/XMP\">support XMP</a>."
 #: chooser_pages/results.pt:152
-msgctxt "license.xmp_metadata"
+#, python-format
 msgid ""
-"Get <a href=\"/choose/metadata.xmp?${url_vars}\">metadata</a> for documents "
-"that <a href=\"http://wiki.creativecommons.org/XMP\">support XMP</a>."
+"Get <a href=\"/choose/metadata.xmp?%(url_vars)s\">metadata</a> for documents"
+" that <a href=\"http://wiki.creativecommons.org/XMP\">support XMP</a>."
 msgstr ""
 "取得<a href=\"http://wiki.creativecommons.org/XMP\">支援 XMP</a>文件之<a "
-"href=\"/choose/metadata.xmp?${url_vars}\">後設資料</a>。"
+"href=\"/choose/metadata.xmp?%(url_vars)s\">後設資料</a>。"
 
 #. Default: "Get high resolution and vector versions of the license graphics."
 #: chooser_pages/results.pt:160
-msgctxt "license.get_high_res"
 msgid "Get high resolution and vector versions of the license graphics."
 msgstr "取得高解析度與向量版本的授權圖示。"
 
 #. Default: "Learn how to mark video and other formats."
 #: chooser_pages/results.pt:166
-msgctxt "license.mark_video"
 msgid "Learn how to mark video and other formats."
 msgstr "了解如何標示影片以及其他格式。"
 
-msgctxt "lang.fa"
 msgid "Persian"
 msgstr "波斯語"
 
 #. Default: "Dataset"
 #: macros_templates/metadata.pt:48
-msgctxt "util.Dataset"
 msgid "Dataset"
 msgstr "資料集"
 
@@ -4631,11 +4106,8 @@ msgstr "資料集"
 #. " works that are restricted by copyright laws in one or more "
 #. "jurisdictions."
 #: publicdomain/index.pt:50
-msgctxt "license.pdtools.pdm"
 msgid ""
 "Use this tool if you have identified a work that is free of known copyright "
 "restrictions. Creative Commons does not recommend this tool for works that "
 "are restricted by copyright laws in one or more jurisdictions."
 msgstr "請你於識別某作品無著作權限制才使用此工具。創用CC不建議在一個或多個司法管轄領域下受著作權保護的作品使用此工具。"
-
-
