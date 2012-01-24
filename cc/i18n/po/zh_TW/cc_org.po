@@ -2772,8 +2772,8 @@ msgid ""
 "\n"
 "<p>To signal to others that you are using a Creative Commons license, you can use a Creative Commons logo. The result will look like this:</p>"
 msgstr ""
-"<h1>檢視選項</h1><p>恭喜你，你已選擇創用CC<a href=\"%(license_url)s\">$ "
-"{license_pretty_name}授權</a> 。 "
+"<h1>檢視選項</h1><p>恭喜你，你已選擇創用CC<a href=\"%(license_url)s\">"
+"%(license_pretty_name)s授權</a> 。 "
 "</p><p>讓他人知道你正在使用創用CC，你可以使用創用CC標誌。結果看起來像這樣：</p>"
 
 msgid "Hindi"
@@ -3373,14 +3373,14 @@ msgstr "此作品是無著作權限制的。"
 #: cc/license/formatters/classes.py:317
 #, python-format
 msgid "This work (%(work_title)s) is free of known copyright restrictions."
-msgstr "此作品標題(%( {work_title)s)，是無著作權限制的。"
+msgstr "此作品標題(%(work_title)s)，是無著作權限制的。"
 
 #. Default: "This work (by %(author)s) is free of known copyright
 #. restrictions."
 #: cc/license/formatters/classes.py:322
 #, python-format
 msgid "This work (by %(author)s) is free of known copyright restrictions."
-msgstr "此作品(由%( {author)s)著作，是無著作權限制的。"
+msgstr "此作品(由%(author)s)著作，是無著作權限制的。"
 
 #. Default: ""
 #. "This work, identified by %(curator)s, is free of known copyright "
@@ -3390,7 +3390,7 @@ msgstr "此作品(由%( {author)s)著作，是無著作權限制的。"
 msgid ""
 "This work, identified by %(curator)s, is free of known copyright "
 "restrictions."
-msgstr "此作品由%( {curator)s認定，是無著作權限制的。"
+msgstr "此作品由%(curator)s認定，是無著作權限制的。"
 
 #. Default: ""
 #. "This work (%(work_title)s, by %(author)s) is free of known copyright "
@@ -3400,7 +3400,7 @@ msgstr "此作品由%( {curator)s認定，是無著作權限制的。"
 msgid ""
 "This work (%(work_title)s, by %(author)s) is free of known copyright "
 "restrictions."
-msgstr "此作品 (%(work_title)s 由%( {author)s)著作，是無著作權限制的。"
+msgstr "此作品 (%(work_title)s 由%(author)s)著作，是無著作權限制的。"
 
 #. Default: ""
 #. "This work (%(work_title)s), identified by %(curator)s, is free of known "
@@ -3410,7 +3410,7 @@ msgstr "此作品 (%(work_title)s 由%( {author)s)著作，是無著作權限制
 msgid ""
 "This work (%(work_title)s), identified by %(curator)s, is free of known "
 "copyright restrictions."
-msgstr "此作品 (%(work_title)s) 由%( {curator)s認定，是無著作權限制的。"
+msgstr "此作品 (%(work_title)s) 由%(curator)s認定，是無著作權限制的。"
 
 #. Default: ""
 #. "This work (%(work_title)s, by %(author)s), identified by %(curator)s, is "
@@ -3420,7 +3420,7 @@ msgstr "此作品 (%(work_title)s) 由%( {curator)s認定，是無著作權限�
 msgid ""
 "This work (%(work_title)s, by %(author)s), identified by %(curator)s, is "
 "free of known copyright restrictions."
-msgstr "此作品 (%(work_title)s 由 %( {author)s)著作，並由%( {curator)s認定，是無著作權限制的。"
+msgstr "此作品 (%(work_title)s 由 %(author)s)著作，並由%(curator)s認定，是無著作權限制的。"
 
 #. Default: ""
 #. "This work (by %(author)s), identified by %(curator)s, is free of known "
@@ -3430,7 +3430,7 @@ msgstr "此作品 (%(work_title)s 由 %( {author)s)著作，並由%( {curator)s�
 msgid ""
 "This work (by %(author)s), identified by %(curator)s, is free of known "
 "copyright restrictions."
-msgstr "此作品(由%( {author)s)著作，並由%( {curator)s認定，是無著作權限制的。"
+msgstr "此作品(由%(author)s)著作，並由%(curator)s認定，是無著作權限制的。"
 
 #. Default: ""
 #. "You are using a tool for freeing your own work of copyright restrictions "
