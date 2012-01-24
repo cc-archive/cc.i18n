@@ -33,7 +33,6 @@ setup(
         'setuptools',
         'Babel>0.99',
         'zope.i18n',
-        'zope.interface',
         'python-gettext',
         'polib',
         'nose',
