@@ -33,7 +33,7 @@ setup(
         'setuptools',
         'Babel>0.99',
         'zope.i18n',
-        'python-gettext',
+        'python-gettext<2.0',
         'polib',
         'nose',
         'rdflib<3.0',
