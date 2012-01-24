@@ -1,22 +1,27 @@
 # 
+# Translators:
+# Konstantinos Stampoulis <geraki@geraki.gr>, 2011.
+# Marinos Papadopoulos <marinos@marinos.com.gr>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
 "POT-Creation-Date: 2011-10-19 15:22-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2012-01-24 21:58+0000\n"
+"Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
+"Language-Team: Greek (http://www.transifex.net/projects/p/CC/team/el/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.0dev-r546\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 msgid "New Zealand"
-msgstr "Νέα Ζηλανδία"
+msgstr ""
 
 msgid "Greece"
-msgstr "Ελλάδα"
+msgstr ""
 
 #: c/engine/chooser_pages/index.pt:104
 msgid "Allow Derivative Works"
@@ -27,9 +32,6 @@ msgid ""
 "The licensor permits others to copy, distribute, display and perform the "
 "work, as well as make derivative works based on it."
 msgstr ""
-"Ο δικαιοπάροχος επιτρέπει σε άλλους να αντιγράψουν, να διανέμουν, να "
-"παρουσιάζουν το έργο στο κοινό και να προβαίνουν σε δημόσιες εκτελέσεις του "
-"έργου, καθώς και να δημιουργούν παράγωγα έργα που βασίζονται σε αυτό."
 
 #: c/engine/chooser_pages/index.pt:56
 msgid "Commercial Use"
@@ -40,17 +42,12 @@ msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work, including for commercial purposes."
 msgstr ""
-"Ο δικαιοπάροχος επιτρέπει σε άλλους να αντιγράψουν, διανέμουν, παρουσιάζουν "
-"το έργο στο κοινό και να προβαίνουν σε δημόσιες εκτελέσεις του έργου, ακόμη "
-"και για εμπορικούς σκοπούς."
 
 #: c/engine/chooser_pages/index.pt:70
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work for non-commercial purposes only."
 msgstr ""
-"Ο δικαιοπάροχος επιτρέπει σε άλλους να αντιγράψουν, διανέμουν, απεικονίσουν,"
-" και να εκτελέσουν την εργασία για μη εμπορικούς σκοπούς μόνο."
 
 #: c/engine/chooser_pages/index.pt:88
 msgid "Yes, as long as others share alike"
@@ -61,9 +58,6 @@ msgid ""
 "To perform, display, and distribute copies of this whole work for "
 "noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
 msgstr ""
-"Να ερμηνεύετε, να παρουσιάζετε στο κοινό και να διανέμετε αντίγραφα "
-"ολόκληρου του έργου για μη εμπορικούς σκοπούς (π.χ., ανταλλαγή αρχείων ή μη "
-"εμπορικό webcasting)"
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
 #, python-format
@@ -104,67 +98,29 @@ msgid ""
 "After clicking on the confirmation link, you'll find out how to mark your content with a public domain dedication and publicize your work.\n"
 "</p>"
 msgstr ""
-"<h1>Αφιέρωση στο Δημόσιο τομέα- Επιβεβαίωση ηλ. ταχυδρ.</h1>\n"
-"\n"
-"<p>\n"
-"Σας εστάλη ηλ. μήνυμα <b>%(email)s</b>. Θα πρέπει να το παραλάβετε\n"
-"σε μερικά δευτερόλεπτα.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Το email περιλαμβάνει επιβεβαίωση για την προσφορά για τα κοινά\n"
-". Θα πρέπει να περιλαμβάνει τον τίτλο του έργου\n"
-"(\"<b>%(title)s</b>\"),και το δικαιούχο του δικαιώματος πνευματικής ιδιοκτησίας\n"
-"(\"<b>%(copyright_holder)s</b>\").\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Το email θα πρέπει επίσης να περιλαμβάνει σύνδεσμο με τον ενσωματωμένο κώδικα επιβεβαίωσης\n"
-". Αυτός ο κώδικας επιβεβαίωσης μας δίνει τη δυνατότητα να εξακριβώσουμε αν είσαι πραγματικά \n"
-"το άτομο που πρέπει να λάβει αυτό το email <b>%(email)s</b>. Πατώντας \n"
-"επιβεβαίωση ο σύνδεσμος αυτός θα αποτελεί μία απροκάλυπτη επιβεβαίωση\"overt act of\n"
-"relinquishment\" με την οποία θα μπορείτε πραγματικά να προσφέρετε έργα  \n"
-"στα κοινά.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"<b>Μέχρι να πατήσετε επιβεβαίωση, το έργο σας δε θα είναι \n"
-"προσφορά στα κοινά.</b>\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Εάν για κάποιο  λόγο δε λάβει αυτό το ηλ. μήνυμα μέσα σε 30-45 λεπτά, παρακαλώ <a href=\"mailto:pd@creativecommons.org\">lενημερώστε μας</a>.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Αφού πατήσετε επιβεβαίωση θα ενημερωθείτε για το πως μπορείτε να μαρκάρετε το έργο σας που έχετε προσφέρει στα κοινά και να διαφημίσετε το έργο σας.\n"
-"</p>"
 
 msgid "Bulgaria"
-msgstr "Βουλγαρία"
+msgstr ""
 
 #: c/engine/pd/templates/publicdomain-4.pt:32
 msgid ""
 "To mark content on a web page, the HTML to display the button is as follows "
 "and be sure to <a href=\"/technology/web\">follow the guidelines here</a>:"
 msgstr ""
-"Για να σηματοδοτήσετε περιεχόμενο σε διαδικτυακό τόπο, ο λογισμικός κώδικας "
-"HTML για την εμφάνιση του κουμπιού είναι όπως φαίνεται παρακάτω. Ακολουθήστε"
-" τις <a href=\"/technology/web\">παρακάτω οδηγίες εδώ</a>:"
 
 msgid "copyright date"
-msgstr "ημερομηνία κατοχύρωσης του δικαιώματος πνευματικής ιδιοκτησίας"
+msgstr ""
 
 #: c/engine/chooser_pages/index.pt:168 c/engine/chooser_pages/sampling.pt:104
 msgid "Jurisdiction"
-msgstr "Δικαιοδοσία"
+msgstr ""
 
 #: c/engine/chooser_pages/sampling.pt:80 c/engine/chooser_pages/sampling.pt:92
 msgid "Brazil"
-msgstr "Βραζιλία"
+msgstr ""
 
 msgid "Creative Commons License"
-msgstr "Άδεια Creative Commons"
+msgstr ""
 
 #: c/engine/chooser_pages/sampling.pt:41
 #: c/engine/macros_templates/support.pt:145
@@ -172,10 +128,10 @@ msgstr "Άδεια Creative Commons"
 #: c/engine/macros_templates/support.pt:154
 #: c/engine/pd/templates/publicdomain-4.pt:25
 msgid "mark content"
-msgstr "σηματοδότηση περιεχομένου"
+msgstr ""
 
 msgid "Belgium"
-msgstr "Βέλγιο"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -183,83 +139,64 @@ msgid ""
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
 "Domain</a>."
 msgstr ""
-"Αυτό το %(work_type)s είναι στο<a rel=\"license\" "
-"href=\"http://creativecommons.org/licenses/publicdomain/\">Δημόσιο "
-"Τομέα</a>."
 
 #: c/engine/chooser_pages/index.pt:77
 msgid "Allow modifications of your work?"
-msgstr "Θα επιτρέψετε τροποποιήσεις στο έργο σας;"
+msgstr ""
 
 msgid ""
 "Your rights to exploit the work based on the limitations to copyright "
 "clauses and other rights are in no way affected by the above."
 msgstr ""
-"Τα δικαιώματά σας να εκμεταλλεύεστε το έργο υπόψη των νομίμων περιορισμών "
-"των δικαιωμάτων πνευματικής ιδιοκτησίας και άλλων δικαιωμάτων σε καμία "
-"περίπτωση δεν επηρεάζονται από τα παραπάνω."
 
 msgid "back to <a href=\"/\">Creative Commons</a>"
-msgstr "πίσω στο <a href=\"/\">Creative Commons</a>"
+msgstr ""
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:46
 msgid ""
 "You must retain the license terms and copyright notice in any source code "
 "distribution and reproduce them in documentation for binary distributions."
 msgstr ""
-"Θα πρέπει να διατηρήσετε τους όρους της άδειας και την ένδειξη περί το "
-"δικαίωμα πνευματικής ιδιοκτησίας  σε κάθε διανομή πηγαίου λογισμικού κώδικα "
-"και επίσης θα πρέπει να τα αναπαράγετε σε μορφή εγγράφου για δυαδικές "
-"διανομές."
 
 msgid "NoDerivs"
-msgstr "Όχι Παράγωγα Έργα"
+msgstr ""
 
 msgid ""
 "We have updated the version of your license to the most recent one "
 "available."
 msgstr ""
-"Έχουμε ενημερώσει την έκδοση της άδειάς σας με την πιο πρόσφατη που είναι "
-"διαθέσιμη"
 
 #: c/engine/chooser_pages/index.pt:67
 msgid "NonCommercial"
-msgstr "Μη Εμπορική Χρήση"
+msgstr ""
 
 #: c/engine/macros_templates/deed.pt:103
 msgid "Catalan"
-msgstr "Καταλανικά"
+msgstr ""
 
 #, python-format
 msgid ""
 "This %(work_type)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr ""
-"Αυτό το %(work_type)s χορηγείται με άδεια <a rel=\"license\" "
-"href=\"%(license_url)s\">Creative Commons %(license_name)s </a>."
 
 #, python-format
 msgid ""
 "This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\""
 " href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr ""
-"Αυτό το %(work_type)sαπό τον %(work_author)s χορηγείται με άδεια<a "
-"rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s "
-"</a>."
 
 #: c/engine/chooser_pages/gpl.pt:46 c/engine/chooser_pages/lgpl.pt:47
 msgid ""
 "Human-Readable<br />\n"
 "Commons Deed"
 msgstr ""
-"Εύληπτο από απλό μη νομομαθή χρήστη<br />\n"
-"Περιληπτικό Μέρος"
 
 #: c/engine/macros_templates/support.pt:93
 #: c/engine/macros_templates/support.pt:97
 #: c/engine/pd/templates/publicdomain-partner.pt:22
 msgid "confirm choice"
-msgstr "επιβεβαίωση επιλογής"
+msgstr ""
 
 #: c/engine/chooser_pages/sampling.pt:54
 msgid ""
@@ -277,19 +214,6 @@ msgid ""
 "\n"
 "<p>On certain conditions, that is. There are two flavors of the Sampling license. Pick the one that reflects your creative style:</p>"
 msgstr ""
-"<p>Οι άδειες Sampling σας επιτρέπουν να προσκαλέσετε άλλους να χρησιμοποιήσουν μέρος του έργου σας και να το κάνουν καινούριο.</p>\n"
-"\n"
-"<p>Για παράδειγμα:</p>\n"
-"\n"
-"<ul>\n"
-"<li>Να πάρουν κάποιο δείγμα από το τραγούδι σας και να το συμπεριλάβουν στο δικό τους.</li>\n"
-"<li>Να χρησιμοποιήσουν ένα απόσπασμα από το κινηματογραφικό έργο σας.</li>\n"
-"<li>Να πάρουν ένα κομμάτι της φωτογραφίας σας και να το τοποθετήσουν σε σύνθεση ετερόκλητων υλικών.</li>\n"
-"</ul>\n"
-"\n"
-"<p>Εκλάβετέ το σαν ένα τρόπο επιβράβευσης όσων μετατρέπουν το έργο σας σε κάτι που δεν ήταν προηγουμένως.</p>\n"
-"\n"
-"<p>Υπό συγκεκριμένες συνθήκες αυτό ισχύει. Υπάρχουν δύο είδη της  άδειας δειγματοποίησης. Επιλέξτε αυτή που ανταποκρίνεται στο ύφος της δημιουργίας σας:</p>"
 
 #, python-format
 msgid ""
@@ -315,69 +239,47 @@ msgid ""
 "For more information, please see\n"
 "<http://creativecommons.org/licenses/publicdomain/>."
 msgstr ""
-"Αυτή είναι μία καταχώρηση μίας προσφοράς στο κοινό.\n"
-"\n"
-"Σε %(sysdate)s, %(copyright_holder)s έργο που είναι δοσμένο στα κοινά\n"
-" \"%(title)s.\"Πριν κάνετε την προσφορά, %(copyright_holder)s\n"
-"αντιπροσώπευε %(copyright_holder)s κατείχε όλα τα δικαιώματα πνευματικής ιδιοκτησίας\n"
-"στο έργο. Κάνοντας την προσφορά, %(copyright_holder)s έκανε μία απροκάλυπτη ενέργεια\n"
-"παραχώρησης στο διηνεκές όλων των τωρινών και μελλοντικών δικαιωμάτων σύμφωνα με το νόμο περί πνευματικής ιδιοκτησίας, είτε ως κεκτημένο δικαίωμα είτε ως απρόοπτη εξέλιξη, στο \"%(title)s.\"\n"
-"\n"
-"%(copyright_holder)s αντιλαμβάνεται ότι τέτοια παραχώρηση όλων των δικαιωμάτων περιλαμβάνει και παραχώρηση  όλων των δικαιωμάτων περί επιβολής(με αγωγή\\ή αλλιώς) των δικαιωμάτων πνευματικής ιδιοκτησίας.\n"
-"\n"
-"%(copyright_holder)s αναγνωρίζει ότι, από τη στιγμή που θα ενταχθεί στα κοινά,\n"
-"\"%(title)s\" θα μπορεί να αναπαράγεται, διανέμεται, μεταδίδεται, χρησιμοποιείται,\n"
-"τροποποιείται, να δημιουργούν πάνω σε αυτό, ή αλλιώς να γίνεται αντικείμενο εκμετάλλευσης ελεύθερα από τον καθένα για οποιονδήποτε σκοπό\n"
-", εμπορικό ή μη εμπορικό, και σε κάθε περίπτωση, και σε κάθε περίπτωση να συμπεριλαμβάνει μεθόδους που δεν έχουν ακόμα εφευρεθεί ή δεν έχουν ακόμα γίνει κατανοητοί\n"
-".\n"
-"\n"
-"Για περισσότερες πληροφορίες, παρακαλώ δείτε στο \n"
-"<http://creativecommons.org/licenses/publicdomain/>."
 
 msgid "Bulgarian"
-msgstr "Βουλγαρικά"
+msgstr ""
 
 #: c/engine/pd/templates/publicdomain-2.pt:34
 #: c/engine/macros_templates/metadata.pt:46
 msgid "Title of work"
-msgstr "Τίτλος έργου"
+msgstr ""
 
 msgid "Ireland"
-msgstr "Ιρλανδία"
+msgstr ""
 
 msgid "Attribution-NonCommercial"
-msgstr "Αναφορά Δημιουργού-Μη Εμπορική Χρήση"
+msgstr ""
 
 msgid "Attribution-NoDerivs"
-msgstr "Αναφορά Δημιουργού-Όχι Παράγωγα Έργα"
+msgstr ""
 
 msgid "Spanish (PE)"
-msgstr "Ισπανικά (PE)"
+msgstr ""
 
 #: c/engine/licenses/sampling_templates/deed.pt:29
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "commercial or noncommercial purposes."
 msgstr ""
-"Για να δειγματίζετε, να αλλάξετε, ή άλλως να τροποποιήσετε δημιουργικά το "
-"έργο είτε για εμπορικούς είτε για μη εμπορικούς σκοπούς."
 
 msgid "Israel"
-msgstr "Ισραήλ"
+msgstr ""
 
 #, python-format
 msgid ""
 "Permissions beyond the scope of this license may be available at "
 "%(more_perms_link)s."
 msgstr ""
-"Παροχή δικαιωμάτων πέρα από τα πλαίσια αυτής της άδειας μπορεί να είναι "
-"διαθέσιμη στο%(more_perms_link)s."
 
 msgid "India"
-msgstr "Ινδία"
+msgstr ""
 
 msgid "Macedonian"
-msgstr "Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -388,50 +290,43 @@ msgid ""
 "And hidden in the tag is \"<a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">Machine-Readable Code</a>\" &mdash; metadata &mdash; that will enable others to find your\n"
 "content. <a href=\"/learn/licenses/how1\">An illustration of the process</a> can be found in our comics."
 msgstr ""
-"Πληροφόρηση για το πώς δουλεύει: Ο χρήστης πατώντας το εικονίδιο Creative Commons βλέπει το \"<a href=\"%(license_url)s\">Περιληπτικό Μέρος</a>\" &mdash; αυτό είναι μια εύληπτη περιληπτική έκδοση του περιεχομένου της άδειας διατυπωμένη για το μη νομομαθή χρήστη. Από εκεί μπορεί ο χρήστης να συνδεθεί στο περιεχόμενο \"<a href=\"%(license_url)slegalcode\">νομικό κώδικα</a>\" &mdash;  την\n"
-"πραγματική άδεια με την οποία έχει αδειοδοτήσει το έργο.\n"
-"Και κρυμμένο μέσα στην ετικέτα του λογισμικού κώδικα βρίσκονται τα \"<a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"> αναγνώσιμα από μηχανή</a>\" &mdash; μεταδεδομένα &mdash; που επιτρέπουν σε τρίτους να βρούν το περιεχόμενο του έργου. <a href=\"/learn/licenses/how1\">Μια απεικονιστική περιγραφή της διαδικασίας είναι διαθέσιμη</a> στα κόμικς μας."
 
 msgid "Italy"
-msgstr "Ιταλία"
+msgstr ""
 
 msgid "Poland"
-msgstr "Πολωνία"
+msgstr ""
 
 msgid "Malay"
-msgstr "Μαλάι"
+msgstr ""
 
 msgid "Philippines"
-msgstr "Φιλιππίνες"
+msgstr ""
 
 #: c/engine/licenses/sampling_templates/deed.pt:42
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
 msgstr ""
-"Δε μπορείτε να χρησιμοποιήσετε το έργο αυτό προκειμένου να διαφημίσετε ή να "
-"προωθήσετε οτιδήποτε άλλο πέρα από το έργο από το οποίο δημιουργείτε."
 
 msgid "Peru"
-msgstr "Περού"
+msgstr ""
 
 msgid ""
 "Any of the above conditions can be waived if you get permission from the "
 "rights holders to this work."
 msgstr ""
-"Μπορεί οποιοσδήποτε από τους παραπάνω όρους να αποσυρθεί εάν πάρετε άδεια "
-"από το δικαιούχο επί του έργου αυτού."
 
 msgid "Sampling"
-msgstr "Sampling"
+msgstr ""
 
 #: c/engine/macros_templates/support.pt:30
 #: c/engine/macros_templates/support.pt:56
 msgid "This page is available in the following languages:"
-msgstr "Η σελίδα αυτή είναι διαθέσιμη στις ακόλουθες γλώσσες:"
+msgstr ""
 
 msgid "English (GB)"
-msgstr "Αγγλικά (ΗΒ)"
+msgstr ""
 
 #: c/engine/licenses/standard_templates/deed.pt:69
 msgid ""
@@ -439,19 +334,16 @@ msgid ""
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
 msgstr ""
-"Πέρα από τα δικαιώματα διασκευής που παρέχονται με αυτήν την άδεια, τα <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
-" id=\"moral_rights\" class=\"helpLink\">ηθικά</a> του δημιουργού•"
 
 msgid "Polish"
-msgstr "Πολωνικά"
+msgstr ""
 
 #: c/engine/pd/templates/publicdomain-3.pt:87
 msgid "confirm"
-msgstr "επιβεβαίωση"
+msgstr ""
 
 msgid "Do you want to:"
-msgstr "Επιθυμείτε να:"
+msgstr ""
 
 msgid ""
 "<a href=\"/jargon/copyright_date\" class=\"jargon\" "
@@ -459,38 +351,29 @@ msgid ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">year of copyright</a>"
 msgstr ""
-"<a href=\"/jargon/copyright_date\" class=\"jargon\" "
-"onClick=\"window.open('/jargon/copyright_date', 'jargon_term_lookup', "
-"'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
-" return false;\">χρονολογία κατοχύρωσης των δικαιωμάτων πνευματικής "
-"ιδιοκτησίας</a>"
 
 #: c/engine/chooser_pages/index.pt:29 c/engine/chooser_pages/sampling.pt:32
 #: c/engine/macros_templates/support.pt:82
 #: c/engine/macros_templates/support.pt:86
 msgid "choose license"
-msgstr "Επιλέξτε άδεια"
+msgstr ""
 
 #: c/engine/pd/templates/publicdomain-4.pt:47
 msgid "Mark an mp3, <a href=\"/technology/mp3\">follow these guidelines</a>."
 msgstr ""
-"Προκειμένου να μαρκάρετε ένα mp3, <a href=\"/technology/mp3\">ακολουθήστε "
-"τις οδηγίες</a>."
 
 #: c/engine/licenses/devnations_templates/deed.pt:40
 #: c/engine/licenses/mitbsd_templates/deed.pt:33
 #: c/engine/licenses/sampling_templates/deed.pt:39
 #: c/engine/licenses/standard_templates/deed.pt:45
 msgid "Under the following conditions:"
-msgstr "Υπό τις ακόλουθες προϋποθέσεις:"
+msgstr ""
 
 #: c/engine/chooser_pages/gpl.pt:48 c/engine/chooser_pages/lgpl.pt:49
 msgid ""
 "Machine-Readable<br />\n"
 "Digital Code"
 msgstr ""
-"Ψηφιακός Κώδικας<br />\n"
-"Αναγνώσιμος από Μηχανές"
 
 msgid ""
 "<a href=\"/jargon/copyright\" class=\"jargon\" "
@@ -498,18 +381,14 @@ msgid ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">copyright</a> holder's name"
 msgstr ""
-"όνομα  δικαιούχο <a href=\"/jargon/copyright\" class=\"jargon\" "
-"onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', "
-"'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
-" return false;\">πνευματικής ιδιοκτησίας</a> "
 
 #: c/engine/macros_templates/metadata.pt:58
 msgid "Attribute work to URL"
-msgstr "Αποδώστε το έργο σε διεύθυνση ιστοσελίδας"
+msgstr ""
 
 #: c/engine/chooser_pages/index.pt:195
 msgid "View an explanation of all our licenses."
-msgstr "Δείτε επεξήγηση όλων των αδειών μας."
+msgstr ""
 
 msgid ""
 "Copyright. A set of limited monopoly rights that governments grant to "
@@ -520,42 +399,28 @@ msgid ""
 " does not apply to facts or ideas, but to the original expression of those "
 "facts or ideas."
 msgstr ""
-"Δικαίωμα πνευματικής ιδιοκτησίας. Ένα πακέτο περιορισμένων μονοπωλιακών "
-"δικαιωμάτων, τα οποία χορηγούν οι κυβερνήσεις προκειμένου να ενθαρρύνουν την"
-" παραγωγή δημιουργικών έργων. Το δικαίωμα πνευματικής ιδιοκτησίας "
-"περιλαμβάνει εξουσίες για να επιτρέπεται ή να απαγορεύεται η εγγραφή και η "
-"άμεση ή έμμεση προσωρινή ή μόνιμη αναπαραγωγή των έργων με οποιοδήποτε μέσο "
-"και μορφή εν όλο ή εν μέρει, τη διανομή, τη μετάδοση (συμπεριλαμβανομένης "
-"της ραδιοτηλεοπτικής μετάδοσης) και τη δημιουργία παραγώγων έργων από ένα "
-"δημιουργικό έργο. Επιπλέον περιλαμβάνει το δικαίωμα αξίωσης ποινικών και "
-"αστικών κυρώσεων, προκειμένου να επιβληθούν τα δικαιώματα αυτά και να "
-"εξουσιοδοτηθούν άλλοι να τα ασκούν. Το δικαίωμα πνευματικής ιδιοκτησίας δεν "
-"εφαρμόζεται σε γεγονότα ή ιδέες αλλά στη πρωτότυπη έκφραση αυτών των "
-"γεγονότων ή ιδεών."
 
 msgid ""
 "Now that you've chosen a Creative Commons license, you must mark your work "
 "in the appropriate way."
 msgstr ""
-"Τώρα που επιλέξατε μία άδεια Creative Commons θα πρέπει να μαρκάρετε το έργο"
-" σας με τον ανάλογο τρόπο."
 
 msgid "Luxembourg"
-msgstr "Λουξεμβούργο"
+msgstr ""
 
 #: c/engine/macros_templates/metadata.pt:23
 msgid "Tell us the format of your work:"
-msgstr "Πείτε μας τη μορφή του έργου σας:"
+msgstr ""
 
 msgid "Chile"
-msgstr "Χιλή"
+msgstr ""
 
 msgid "Northern Sotho"
-msgstr "Βόρειο Σόθο"
+msgstr ""
 
 #: c/engine/chooser_pages/index.pt:222
 msgid "CC-GNU LGPL"
-msgstr "CC-GNU LGPL"
+msgstr ""
 
 msgid ""
 "<strong>Sampling</strong>: People can take and transform "
@@ -563,17 +428,13 @@ msgid ""
 " which is prohibited. Copying and distribution of the <strong>entire "
 "work</strong> is also prohibited."
 msgstr ""
-"<strong>Δειγματοληψία</strong>:Οι χρήστες μπορούν να παίρνουν και να "
-"τροποποιούν <strong>κομμάτια</strong> του έργου σας για κάθε σκοπό εκτός από"
-" διαφημιστικούς σκοπούς που απαγορεύονται. Απαγορεύεται, επίσης, η "
-"αναπαραγωγή και διανομή <strong>ολόκληρου του έργου</strong>."
 
 #: c/engine/chooser_pages/results.pt:92
 msgid "No web site?"
-msgstr "Δεν έχετε ιστοσελίδα;"
+msgstr ""
 
 msgid "Serbia"
-msgstr "Σερβία"
+msgstr ""
 
 msgid "South Korea"
 msgstr ""
@@ -593,21 +454,9 @@ msgid ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 msgstr ""
-"Ναι, εφόσον και οι άλλοι κάνουν παρόμοια διανομή (<a "
-"href=\"/characteristic/sa?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">περισσότερες πληροφορίες</a> <a "
-"href=\"/characteristic/sa?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"περισσότερες πληροφορίες\" border=\"0\" /></a>)"
 
 msgid "Korean"
-msgstr "Κορεάτικα"
+msgstr ""
 
 msgid ""
 "<div style=\"text-align:center\"><a href=\"/licenses/disclaimer-popup\" "
@@ -619,68 +468,52 @@ msgid ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"disclaimer\" border=\"0\"></a></div>"
 msgstr ""
-"<div style=\"text-align:center\"><a href=\"/licenses/disclaimer-popup\" "
-"onclick=\"window.open('/licenses/disclaimer-popup', 'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">Αποποίηση ευθυνών</a> <a href=\"/licenses/disclaimer-popup\" "
-"onclick=\"window.open('/licenses/disclaimer-popup', 'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"Αποποίηση ευθυνών\" border=\"0\"></a></div>"
 
 msgid "Sorry, no license matches your criteria."
-msgstr "Λυπούμαστε. Καμμία άδεια δεν ταιριάζει με τα κριτήριά σας."
+msgstr ""
 
 msgid "Italian"
-msgstr "Ιταλικά"
+msgstr ""
 
 msgid "Romania"
-msgstr "Ρουμανία"
+msgstr ""
 
 #: c/engine/chooser_pages/index.pt:191
 msgid "What You Can Do Here"
-msgstr "Τι μπορείτε να κάνετε εδώ"
+msgstr ""
 
 msgid ""
 "If you have not officially registered for a copyright on your work the "
 "default date is the date you created the work, or completed it."
 msgstr ""
-"Εάν δεν έχετε κατοχυρώσει με κάποια επίσημη διατύπωση τα δικαιώματα "
-"πνευματικής ιδιοκτησίας στο έργο σας, η ημερομηνία δημιουργίας του "
-"δικαιώματος πνευματικής ιδιοκτησίας είναι η ημέρα  δημιουργίας ή ολοκλήρωσης"
-" του έργου. "
 
 msgid "Attribution-NoDerivs-NonCommercial"
-msgstr "Αναφορά Δημιουργού-Όχι Παράγωγα Έργα-Μη Εμπορική Χρήση"
+msgstr ""
 
 #: c/engine/macros_templates/deed.pt:110
 msgid "Galician"
-msgstr "Γαλικιανά"
+msgstr ""
 
 #, python-format
 msgid ""
 "You may now <a href=\"publicdomain-2?%(url_vars)s\">proceed and enrich the "
 "public domain with your work</a>."
 msgstr ""
-"Μπορείτε τώρα <a href=\"publicdomain-2?%(url_vars)s\">να προχωρήσετε και να "
-"εμπλουτίσετε το Δημόσιο Τομέα με το έργο σας</a>."
 
 #: c/engine/pd/templates/publicdomain-2.pt:29
 msgid "your email"
-msgstr "η διεύθυνση ηλεκτρονικού ταχυδρομείου σας"
+msgstr ""
 
 #: c/engine/chooser_pages/index.pt:46 c/engine/chooser_pages/index.pt:81
 #: c/engine/chooser_pages/partner/index.pt:54
 #: c/engine/chooser_pages/partner/index.pt:65
 msgid "Yes"
-msgstr "Ναι"
+msgstr ""
 
 msgid ""
 "to copy, distribute, display, perform, present, publicly transmit, and "
 "recite the work"
 msgstr ""
-"η αντιγραφή, διανομή, παρουσίαση, εκτέλεση, δημόσια αναμετάδοση και "
-"απαγγελία του έργου"
 
 #: c/engine/pd/templates/publicdomain-partner.pt:24
 msgid ""
@@ -688,13 +521,10 @@ msgid ""
 "\n"
 "        <p>The Public Domain Dedication is not a license. By using it, you do not simply carve out exceptions to your copyright; you grant your entire copyright to the public without condition. This grant is permanent and irreversible.</p>"
 msgstr ""
-"<p>Η επιλογή σας δείχνει ότι επιθυμείτε να εισφέρετε το έργο σας στο Δημόσιο Τομέα, στις κοινές πληροφορίες και έργα όπου τίποτα δεν ανήκει σε κανέναν και όλα επιτρέπονται.</p>\n"
-"\n"
-"<p>Η Εισφορά στο Δημόσιο Τομέα δεν αποτελεί άδεια. Επιλέγοντάς την δε θέτετε απλά περιορισμούς στα δικαιώματά σας πνευματικής ιδιοκτησίας σας. Αποποιήστε όλων των δικαιωμάτων πνευματικής ιδιοκτησίας σας εντάσσοντας το έργο σας στο Δημόσιο Τομέα χωρίς καμία προϋπόθεση. Η αποποίηση αυτή είναι μόνιμη και δεν ανακαλείται.</p>"
 
 #: c/engine/macros_templates/metadata.pt:30
 msgid "Audio"
-msgstr "Ήχος"
+msgstr ""
 
 #: c/engine/macros_templates/deed.pt:92
 msgid ""
@@ -703,35 +533,29 @@ msgid ""
 " id=\"fair_use\" class=\"helpLink\">fair use</a> rights, or other applicable"
 " copyright exceptions and limitations;"
 msgstr ""
-"Η σωστή δοσοληψία σας ή <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
-" id=\"fair_use\" class=\"helpLink\">νόμιμη χρήση</a>, ή άλλοι εφαρμοστέοι "
-"περιορισμοί και εξαιρέσεις δικαιωμάτων πνευματικής ιδιοκτησίας."
 
 msgid "Netherlands"
-msgstr "Ολλανδία"
+msgstr ""
 
 #: c/engine/pd/templates/publicdomain-4.pt:29
 msgid "In order to:"
-msgstr "Προκειμένου να:"
+msgstr ""
 
 #: c/engine/macros_templates/partner.pt:29
 msgid "Creative Commons"
-msgstr "Creative Commons"
+msgstr ""
 
 msgid "UK: England & Wales"
-msgstr "Ηνωμένο Βασίλειο: Αγγλία & Ουαλία"
+msgstr ""
 
 msgid "Nigeria"
-msgstr "Νιγηρία"
+msgstr ""
 
 msgid "Licensor permits others to make derivative works"
 msgstr ""
-"Ο χορηγών την άδεια επιτρέπει στους άλλους το δικαίωμα να κάνουν παράγωγα "
-"έργα"
 
 msgid "United States"
-msgstr "Ηνωμένες Πολιτείες"
+msgstr ""
 
 #: c/engine/chooser_pages/results.pt:70
 #, python-format
@@ -742,12 +566,6 @@ msgid ""
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">emailed to yourself.</a>"
 msgstr ""
-"Επιλέξτε τα περιεχόμενα από το παραπάνω κουτί και αντιγράψτε τα. Ή, <a "
-"href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-"
-"html-popup?%(url_vars)s', 'html_help', "
-"'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">στείλτε τα με μήνυμα ηλεκτρονικού ταχυδρομείου  στον εαυτό "
-"σας.</a>"
 
 #, python-format
 msgid ""
@@ -763,18 +581,6 @@ msgid ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 msgstr ""
-"<strong>Απαιτείται Αναφορά Δημιουργού;</strong> (<a "
-"href=\"/characteristic/by?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/by?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">περισσότερες πληροφορίες</a> <a "
-"href=\"/characteristic/by?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/by?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
 
 #: c/engine/chooser_pages/partner/index.pt:50
 #, python-format
@@ -791,18 +597,6 @@ msgid ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 msgstr ""
-"<strong>Να επιτρέπονται οι εμπορικές χρήσεις του έργου σας;</strong> (<a "
-"href=\"/characteristic/nc?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">περισσότερες πληροφορίες</a> <a "
-"href=\"/characteristic/nc?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
 
 #: c/engine/chooser_pages/partner/index.pt:61
 #, python-format
@@ -819,18 +613,6 @@ msgid ""
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
 msgstr ""
-"<strong>Να επιτρέπονται οι τροποποιήσεις στο έργο σας;</strong> (<a "
-"href=\"/characteristic/nd?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">περισσότερες πληροφορίες</a> <a "
-"href=\"/characteristic/nd?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"περισσότερες πληροφορίες\" border=\"0\" /></a>)"
 
 #: c/engine/chooser_pages/htmlpopup.pt:24
 msgid ""
@@ -839,27 +621,20 @@ msgid ""
 "target=\"_blank\">More information about adding HTML to your documents "
 "here</a>."
 msgstr ""
-"Απλώς αντιγράψτε το κείμενο και στη συνέχεια επικολλήστε το στα web αρχεία "
-"σας που περιέχουν πληροφορίες για το έργο σας. <a "
-"href=\"/learn/technology/usingmarkup\" target=\"_blank\">Περισσότερες "
-"πληροφορίες για το πώς βάζετε HTML λογισμικό κώδικα στα αρχεία σας εδώ</a>."
 
 #: c/engine/chooser_pages/index.pt:178
 #: c/engine/chooser_pages/partner/index.pt:114
 msgid "Select a License"
-msgstr "Επιλέξτε μία άδεια"
+msgstr ""
 
 #, python-format
 msgid ""
 "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr ""
-"Το έργο με τίτλο %(work_title)s από τον δημιουργό%(work_author)s διατίθεται "
-"με την άδεια <a rel=\"license\" href=\"%(license_url)s\">Creative Commons "
-"%(license_name)s </a>."
 
 msgid "description"
-msgstr "περιγραφή"
+msgstr ""
 
 #: c/engine/chooser_pages/partner/results.pt:29
 #, python-format
@@ -868,26 +643,21 @@ msgid ""
 "This license is permanently located at<br>\n"
 "<b><tt>%(license_url)s</tt></b>."
 msgstr ""
-"Έχετε επιλέξει την <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(licence_pretty_name)s Άδεια</b></a>.<br>\n"
-"Αυτή η άδεια βρίσκεται οριστικά σε<br>\n"
-"<b><tt>%(license_url)s</tt></b>."
 
 #: c/engine/licenses/sampling_templates/deed.pt:45
 msgid ""
 "For any reuse, you must make clear to others the license terms of this work."
 msgstr ""
-"Για κάθε νέα χρησιμοποίηση του έργου σας θα πρέπει να αποσαφηνίσετε στους "
-"άλλους τους όρους της άδειας γι' αυτό το έργο."
 
 #: c/engine/macros_templates/deed.pt:124
 msgid "Dutch"
-msgstr "Ολλανδικά"
+msgstr ""
 
 msgid "weblog"
-msgstr "ιστολόγιο"
+msgstr ""
 
 msgid "Spain"
-msgstr "Ισπανία"
+msgstr ""
 
 #. Default: ""
 #. "Mark a document not on the web, <a href=\"non-web-"
@@ -911,42 +681,35 @@ msgid ""
 "return, licensees may not use the work for commercial purposes — unless they"
 " get the licensor's permission."
 msgstr ""
-"Ο χορηγών την άδεια επιτρέπει στους άλλους να αντιγράφουν, να διανέμουν και "
-"να αναμεταδίδουν το έργο. Σε αντάλλαγμα οι χρήστες δεν μπορούν να "
-"χρησιμοποιήσουν το έργο για εμπορικούς σκοπούς, εκτός εάν πάρουν την έγκριση"
-" γι' αυτό του χορηγούντος την άδεια."
 
 msgid "Spanish (MX)"
-msgstr "Ισπανικά (MX)"
+msgstr ""
 
 msgid "publish"
-msgstr "δημοσίευση"
+msgstr ""
 
 #: c/engine/macros_templates/deed.pt:153
 msgid ""
 "This is a human-readable summary of the <a href=\"legalcode\" "
 "class=\"fulltext\">Legal Code (the full license)</a>."
 msgstr ""
-"Αυτό είναι μία εύληπτη στο μη νομομαθή χρήστη περίληψη του <a "
-"href=\"legalcode\" class=\"fulltext\">Νομικού Μέρους (του πλήρους "
-"περιεχομένου της άδειας)</a>."
 
 #: c/engine/pd/templates/publicdomain-2.pt:46
 msgid "proceed"
-msgstr "συνέχεια"
+msgstr ""
 
 msgid "GNU Lesser General Public License"
-msgstr "GNU Lesser General Public License"
+msgstr ""
 
 msgid "more"
-msgstr "περισσότερα"
+msgstr ""
 
 msgid "English (US)"
-msgstr "Αγγλικά (ΗΠΑ)"
+msgstr ""
 
 #: c/engine/macros_templates/metadata.pt:52
 msgid "Attribute work to name"
-msgstr "Αποδώστε το έργο σε όνομα"
+msgstr ""
 
 msgid ""
 "The Sampling Flavor determines how much freedom licensees have. Sampling "
@@ -957,32 +720,19 @@ msgid ""
 "authorizing non-commercial derivatives to be created from the pieces of your"
 " work."
 msgstr ""
-"Η Άδεια Δείγματος Flavor προσδιορίζει την έκταση της ελευθερίας που έχουν οι"
-" χρήστες. Η Άδεια Δείγματος επιτρέπει μόνο τη χρήση ορισμένων μερών "
-"δειγμάτων του έργου και απαγορεύει τη διανομή ολόκληρου του έργου. Η Άδεια "
-"Δείγματος Plus  επιτρέπει στους χρήστες να παίρνουν και να τροποποιούν μέρη "
-"δείγματα του έργου, καθώς επίσης και να μοιράζονται ολόκληρο το έργο για μη "
-"εμπορικούς σκοπούς. Η  Άδεια Δείγματος Plus για μη εμπορικό σκοπό περιορίζει"
-" περαιτέρω την Άδεια Δείγματος Plus με το να παρέχει το δικαίωμα να "
-"δημιουργούνται από τα μέρη δείγματα του έργου παράγωγα έργα χρησιμοποιούμενα"
-" αποκλειστικά για μη εμπορικό σκοπό."
 
 #: c/engine/macros_templates/deed.pt:117
 msgid "English"
-msgstr "Αγγλικά"
+msgstr ""
 
 msgid "Esperanto"
-msgstr "Εσπεράντο"
+msgstr ""
 
 msgid ""
 "This is a draft license published for public review. Do not use this license"
 " until this notice has been removed. Direct comments on this draft license "
 "to licenses@creativecommons.org."
 msgstr ""
-"Αυτό είναι ένα σχέδιο άδειας που τίθεται σε δημόσια διαβούλευση. Μη "
-"χρησιμοποιείτε αυτήν την άδεια μέχρι να παύσει υφιστάμενη αυτή η ειδοποίηση."
-" Απευθύνετε σχόλια επί του σχεδίου της άδειας αυτής στη διεύθυνση "
-"ηλεκτρονικού ταχυδρομείου  licenses@creativecommons.org."
 
 #: c/engine/chooser_pages/index.pt:170 c/engine/chooser_pages/sampling.pt:106
 msgid ""
@@ -994,19 +744,15 @@ msgid ""
 "<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">which\n"
 "license is better suited for your needs</a>."
 msgstr ""
-"Κάνε χρήση της επιλογής \"International\" αν επιθυμείς να κάνεις χρήση μίας άδειας διατυπωμένης σε γλώσσα \n"
-"και ορολογία διεθνών συνθηκών. Αν οι άδειες έχουν διαμορφωθεί \n"
-"σύμφωνα με το δίκαιο της χώρας σου και θεωρείς οτι  οι διαμορφωμένες άδειες για τη χώρα σου είναι προσαρμοσμένες στη νομοθεσία του τόπου σου κατά τρόπο που οι διεθνείς άδειες δεν επιτυγχάνουν, τότε πρέπει να είσαι σε θέση να αντιλαμβάνεσαι <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">ποια \n"
-"άδεια είναι καλύτερη για τις δικές σου ανάγκες</a>. "
 
 #: c/engine/chooser_pages/index.pt:128 c/engine/chooser_pages/sampling.pt:72
 #: c/engine/chooser_pages/partner/index.pt:79
 msgid "Jurisdiction of your license"
-msgstr "Δικαιοδοσία της άδειάς σας."
+msgstr ""
 
 #: c/engine/pd/templates/publicdomain-2.pt:39
 msgid "copyright holder"
-msgstr "Δικαιούχος πνευματικής ιδιοκτησίας"
+msgstr ""
 
 #: c/engine/chooser_pages/sampling.pt:118
 #, python-format
@@ -1018,36 +764,29 @@ msgid ""
 "the <a href=\"/license/results-one?license%5fcode=by\">Attribution</a> "
 "license.</p>"
 msgstr ""
-"<p>Εάν εσείς <strong>επιθυμείτε</strong> να προσκαλέσετε άλλους να "
-"κάνουν<strong>οποιαδήποτε</strong> εμπορική χρήση του έργου σας&mdash; είτε "
-"τροποποιώντας το είτε όχι &mdash; θα πρέπει να σκεφτείτε είτε την άδεια <a "
-"href=\"/license/results-one?license%5fcode=by%2dsa\">Αναφορά Δημιουργού-"
-"Παρόμοια Διανομή</a> ή απλώς την άδεια <a href=\"/license/results-"
-"one?license%5fcode=by\">Αναφορά Δημιουργού</a>.</p>"
 
 msgid "Swedish"
-msgstr "Σουηδικά"
+msgstr ""
 
 #: c/engine/chooser_pages/htmlpopup.pt:15
 msgid "The HTML to display your button is as follows:"
 msgstr ""
-"Ο HTML κώδικας προκειμένου να εμφανιστεί το κουμπί σας είναι ο παρακάτω:"
 
 #: c/engine/macros_templates/deed.pt:109
 msgid "Basque"
-msgstr "Βασκικά"
+msgstr ""
 
 msgid "English (CA)"
-msgstr "Αγγλικά (CA)"
+msgstr ""
 
 #: c/engine/macros_templates/deed.pt:104
 msgid "Spanish"
-msgstr "Ισπανικά"
+msgstr ""
 
 #: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
 #: c/engine/licenses/devnations_templates/deed.pt:47
 msgid "Attribution"
-msgstr "Αναφορά Δημιουργού"
+msgstr ""
 
 #: c/engine/chooser_pages/sampling.pt:65
 msgid ""
@@ -1056,41 +795,32 @@ msgid ""
 "purposes only. <strong>Noncommercial</strong> copying and distribution (like"
 " file-sharing) of the <strong>entire work</strong> are also allowed."
 msgstr ""
-"<strong>Άδεια Δείγματος Plus Μη Εμπορική χρήση</strong>: Οι χρήστες μπορούν "
-"να πάρουν και  τροποποιήσουν<strong>μέρη</strong> του έργου "
-"σας<strong>αποκλειστικά για μη εμπορικούς</strong> σκοπούς.<strong>Μη "
-"εμπορική</strong> αντιγραφή και διανομή (όπως ανταλλαγή αρχείων) ολόκληρου "
-"<strong>του έργου</strong> επίσης επιτρέπεται."
 
 #: c/engine/macros_templates/metadata.pt:32
 msgid "Video"
-msgstr "Βίντεο"
+msgstr ""
 
 #, python-format
 msgid ""
 "%(work_title)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr ""
-"Το έργο %(work_title)s διατίθεται υπό την <a rel=\"license\" "
-"href=\"%(license_url)s\">Άδεια Creative Commons %(license_name)s</a>."
 
 msgid "Hungary"
-msgstr "Ουγγαρία"
+msgstr ""
 
 msgid "Croatia"
-msgstr "Κροατία"
+msgstr ""
 
 #: c/engine/chooser_pages/sampling.pt:111
 msgid "Get your Sampling License"
-msgstr "Πάρτε τη  Άδεια Δείγματος "
+msgstr ""
 
 #, python-format
 msgid ""
 "This work is licensed under a <a href=\"%(license_url)s\">Creative Commons "
 "Developing Nations license</a>."
 msgstr ""
-"Αυτό το έργο διέπεται από την <a href=\"%(license_url)s\">Άδεια Creative "
-"Commons για Αναπτυσσόμενα Έθνη</a>."
 
 #: c/engine/chooser_pages/index.pt:32
 msgid ""
@@ -1105,61 +835,41 @@ msgid ""
 "public domain, choose one of our <a href=\"/publicdomain/\">public domain "
 "tools</a>."
 msgstr ""
-"Με τη χρήση μιας άδειας Creative Commons, <strong>παραμένετε δικαιούχος "
-"πνευματικής ιδιοκτησίας,</strong> αλλά παρέχετε το δικαίωμα στο κοινό <a "
-"href=\"/learn/licenses/fullrights\">ν' αντιγράφουν και διανέμουν το έργο "
-"σας</a> υπό την προϋπόθεση <a href=\"#\" class=\"helpLink\" "
-"id=\"give_you_credit\">ότι σας αναφέρουν ως δημιουργό/δικαιούχο</a> &mdash; "
-"και μόνο υπό τους όρους χρήσης που αναφέρετε στην άδεια αυτή. Για όσους δεν "
-"γνωρίζουν την αδειοδότηση έργων με Creative Commons, έχουμε ετοιμάσει <a "
-"href=\"/about/think\">μια λίστα με θέματα που πρέπει να σκεφτούν.</a> Αν "
-"θέλετε να εισφέρετε το έργο σας για χρήση χωρίς ειδικούς όρους ή θέλετε να "
-"σηματοδοτήσετε τη διαθεσιμότητα ενός έργου που είναι ήδη ελεύθερο γνωστών "
-"περιορισμών πνευματικής ιδιοκτησίας και είναι διαθέσιμο ως κοινό κτήμα, "
-"διαλέξτε ένα <a href=\"/publicdomain/\">από τα εργαλεία για το κοινό "
-"κτήμα</a> του οργανισμού Creative Commons. "
 
 msgid "You must give the original author and the performer credit."
-msgstr "Θα πρέπει να αναφέρετε τον αρχικό δημιουργό και τον ερμηνευτή."
+msgstr ""
 
 #: c/engine/chooser_pages/results.pt:94
 msgid ""
 "Learn about other places you can host your licensed files. These sites work "
 "with your Creative Commons license."
 msgstr ""
-"Ενημερωθείτε για άλλα σημεία στα οποία θα μπορείτε να φιλοξενήσετε τα "
-"αδειοδοτημένα αρχεία σας. Αυτοί οι διαδικτυακοί τόποι συνδυάζονται με την "
-"άδεια Creative Commons που έχετε επιλέξει."
 
 msgid "Spanish (CO)"
-msgstr "Ισπανικά (CO)"
+msgstr ""
 
 #: c/engine/pd/templates/publicdomain-4.pt:42
 #: c/engine/chooser_pages/gpl.pt:110 c/engine/chooser_pages/lgpl.pt:113
 msgid "Get HTML and email it to yourself"
 msgstr ""
-"Φτιάξτε HTML λογισμικό κώδικα και στείλτε το με μήνυμα ηλεκτρονικού "
-"ταχυδρομείου στον εαυτό σας."
 
 #: c/engine/macros_templates/metadata.pt:38
 msgid "Interactive"
-msgstr "Διαδραστικό"
+msgstr ""
 
 #: c/engine/chooser_pages/htmlpopup.pt:27
 msgid "Enter your email address to get the HTML by email:"
 msgstr ""
-"Εισάγετε τη διεύθυνση του ηλεκτρονικού σας ταχυδρομείου προκειμένου να "
-"λάβετε τον κώδικα HTML με μήνυμα ηλεκτρονικού ταχυδρομείου:"
 
 msgid "Next step:"
-msgstr "Επόμενο βήμα:"
+msgstr ""
 
 #: c/engine/chooser_pages/index.pt:198
 msgid "Or Choose:"
-msgstr "Ή Επιλέξτε:"
+msgstr ""
 
 msgid "Attribution-NonCommercial-NoDerivs"
-msgstr "Αναφορά Δημιουργού-Μη Εμπορική Χρήση-Όχι Παράγωγα Έργα"
+msgstr ""
 
 #: c/engine/licenses/catalog_pages/disclaimer-popup.pt:19
 msgid ""
@@ -1171,33 +881,24 @@ msgid ""
 "Creative Commons is not a law firm and does not provide legal services. Distributing of, displaying of, or linking to this Commons Deed does not create an attorney-client relationship.\n"
 "</p>"
 msgstr ""
-"<p>\n"
-"Το Περιληπτικό Μέρος δεν είναι άδεια. Είναι απλά μία εύληπτη επεξήγηση προκειμένου να κατανοήσετε το νομικό μέρος (την πλήρη άδεια) &mdash; Πρόκειται για έκφραση σε απλή γλώσσα κάποιων εκ των βασικών όρων της άδειας. Σκεφτείτε το σαν τη φιλική προς το χρήστη παρουσίαση του Νομικού Μέρους που ακολουθεί. Το μέρος αυτό από μόνο του δεν έχει καμία νομική ισχύ και τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Το νομικό πρόσωπο Creative Commons δεν είναι δικηγορική εταιρία και δεν παρέχει νομικές υπηρεσίες. Διανομή, εμφάνιση ή σύνδεση με το Περιληπτικό Μέρος δε δημιουργεί σχέση δικηγόρου-πελάτη.\n"
-"</p>"
 
 #: c/engine/macros_templates/deed.pt:161
 msgid "Learn how to distribute your work using this license"
 msgstr ""
-"Ενημερωθείτε για το πώς μπορείτε να διανέμετε το έργο σας χρησιμοποιώντας "
-"αυτήν την άδεια"
 
 #: c/engine/chooser_pages/htmlpopup.pt:41
 msgid "Send"
-msgstr "Αποστολή"
+msgstr ""
 
 msgid "Chinese (Taiwan)"
-msgstr "Κινέζικα (Ταϊβάν)"
+msgstr ""
 
 #: c/engine/macros_templates/metadata.pt:84
 msgid "A work another is derived from."
-msgstr "Έργο από το οποίο προέκυψε άλλο παράγωγο."
+msgstr ""
 
 msgid "Zulu"
-msgstr "Ζουλού"
+msgstr ""
 
 #: c/engine/chooser_pages/index.pt:124
 msgid ""
@@ -1205,59 +906,57 @@ msgid ""
 "same license or one compatible with the one that governs the licensor's "
 "work."
 msgstr ""
-"Ο χορηγών την άδεια επιτρέπει στο κοινό να διανέμει παράγωγα έργα μόνο με "
-"μία άδεια ακριβώς ίδια ή συμβατή με αυτή που διέπει το έργο του."
 
 #: c/engine/macros_templates/metadata.pt:34
 msgid "Image"
-msgstr "Εικόνα"
+msgstr ""
 
 #: c/engine/macros_templates/metadata.pt:28
 msgid "Other"
-msgstr "Άλλο"
+msgstr ""
 
 #: c/engine/pd/templates/publicdomain-partner.pt:31
 #: c/engine/chooser_pages/partner/results.pt:35
 #, python-format
 msgid "You may now <a href=\"%(processed_exit_url)s\">proceed</a>"
-msgstr "Τώρα μπορείτε <a href=\"%(processed_exit_url)s\">να συνεχίσετε</a>"
+msgstr ""
 
 msgid "Noncommercial"
-msgstr "Μη Εμπορική Χρήση"
+msgstr ""
 
 #: c/engine/chooser_pages/index.pt:204
 msgid "Public Domain"
-msgstr "Δημόσιος Τομέας"
+msgstr ""
 
 msgid "Chinese"
-msgstr "Κινέζικα"
+msgstr ""
 
 #: c/engine/chooser_pages/results.pt:59
 msgid "Have your own website?"
-msgstr "Έχετε δική σας ιστοσελίδα;"
+msgstr ""
 
 msgid "Japanese"
-msgstr "Ιαπωνικά"
+msgstr ""
 
 #: c/engine/chooser_pages/sampling.pt:53
 msgid "Choose Your Sampling License Options"
-msgstr "Επιλέξτε μία από τις επιλογές της Άδειας Δείγματος"
+msgstr ""
 
 msgid "Japan"
-msgstr "Ιαπωνία"
+msgstr ""
 
 msgid "to make commercial use of the work"
-msgstr "προκειμένου να κάνετε εμπορική χρήση του έργου"
+msgstr ""
 
 #: c/engine/chooser_pages/index.pt:47 c/engine/chooser_pages/index.pt:50
 #: c/engine/chooser_pages/index.pt:82 c/engine/chooser_pages/index.pt:89
 #: c/engine/chooser_pages/index.pt:97 c/engine/chooser_pages/index.pt:130
 #: c/engine/chooser_pages/sampling.pt:74
 msgid "more info"
-msgstr "περισσότερες πληροφορίες"
+msgstr ""
 
 msgid "Select a jurisdiction"
-msgstr "Επιλέξτε δικαιοδοσία"
+msgstr ""
 
 #: c/engine/chooser_pages/sampling.pt:61
 msgid ""
@@ -1267,68 +966,54 @@ msgid ""
 "distribution (like file-sharing) of the <strong>entire work</strong> are "
 "also allowed. Hence, \"<strong>plus</strong>\"."
 msgstr ""
-"<strong>Άδεια Δείγματος Plus</strong>: Το κοινό μπορεί να πάρει και να "
-"τροποποιήσει <strong>μέρη</strong>του έργου σας για οποιονδήποτε σκοπό εκτός"
-" από διαφήμιση, η οποία απαγορεύεται. <strong>Μη Εμπορική Χρήση</strong> "
-"αναπαραγωγή και διανομή (όπως ανταλλαγή αρχείων)  <strong>ολόκληρου του "
-"έργου</strong> επίσης επιτρέπεται. Γι'αυτό αναφέρεται η άδεια ως "
-"\"<strong>plus</strong>\"."
 
 #: c/engine/macros_templates/deed.pt:98
 msgid ""
 "This is a human-readable summary of the Legal Code (the full license) "
 "available in the following languages:"
 msgstr ""
-"Αυτή είναι μία εύληπτη περίληψη για τον απλό, μη νομομαθή χρήστη του Νομικού"
-" Μέρους (το πλήρες περιεχόμενο της άδειας), η οποία είναι διαθέσιμη στις "
-"ακόλουθες γλώσσες."
 
 msgid "Jordan"
-msgstr "Ιορδανία"
+msgstr ""
 
 msgid "Catalonia"
-msgstr "Καταλονία"
+msgstr ""
 
 #: c/engine/pd/templates/publicdomain-4.pt:41
 #: c/engine/chooser_pages/gpl.pt:107 c/engine/chooser_pages/lgpl.pt:110
 #: c/engine/chooser_pages/nonweb_popup.pt:31
 #: c/engine/chooser_pages/htmlpopup.pt:20
 msgid "Highlight Text to Copy"
-msgstr "Επισημάνετε το κείμενο προς αντιγραφή"
+msgstr ""
 
 msgid "You may not alter, transform, or build upon this work."
 msgstr ""
-"Δε μπορείτε να αλλοιώσετε, να τροποποιήσετε ή να δημιουργήσετε πάνω στο έργο"
-" αυτό."
 
 #: c/engine/chooser_pages/sampling.pt:78 c/engine/chooser_pages/sampling.pt:90
 #: c/engine/chooser_pages/partner/index.pt:83
 #: c/engine/chooser_pages/partner/index.pt:86
 msgid "Generic"
-msgstr "Γενικό"
+msgstr ""
 
 msgid "Spanish (AR)"
-msgstr "Ισπανικά (AΡ)"
+msgstr ""
 
 #: c/engine/macros_templates/metadata.pt:66
 #: c/engine/macros_templates/metadata.pt:82
 msgid "Source work URL"
-msgstr "Σύνδεσμος αρχικού έργου"
+msgstr ""
 
 #: c/engine/chooser_pages/sampling.pt:115
 msgid ""
 "Note: The sampling license isn't just for music. It can apply to all types "
 "of copyrighted work: images, film, etc."
 msgstr ""
-"Σημείωση: Η Άδεια Δείγματος δεν είναι αποκλειστικά και μόνο για μουσική. "
-"Μπορεί να εφαρμοστεί σε όλα τα έργα που προστατεύονται από το νόμο περί "
-"πνευματικής ιδιοκτησίας: εικόνες, κινηματογραφικά έργα κτλ."
 
 msgid "Australia"
-msgstr "Αυστραλία"
+msgstr ""
 
 msgid "Austria"
-msgstr "Αυστρία"
+msgstr ""
 
 #: c/engine/chooser_pages/nonweb_popup.pt:19
 msgid ""
@@ -1339,7 +1024,7 @@ msgid ""
 msgstr ""
 
 msgid "Argentina"
-msgstr "Αργεντινή"
+msgstr ""
 
 #: c/engine/licenses/standard_templates/deed.pt:77
 #, python-format
@@ -1349,58 +1034,51 @@ msgid ""
 "existing works under it. No works are <em>automatically</em> put under the "
 "new license, however."
 msgstr ""
-"Μία <a href=\"%(current_version_url)s\">νέα έκδοση</a> αυτής της άδειας "
-"είναι διαθέσιμη. Θα πρέπει να τη χρησιμοποιήσετε για νέα έργα, και "
-"ενδεχομένως θέλετε να αδειοδοτήσετε ξανά μ'αυτήν υπάρχοντα έργα. Εντούτοις, "
-"κανένα έργο <em>δεν τίθεται αυτόματα</em>στο καθεστώς μιας νέας άδειας."
 
 #: c/engine/chooser_pages/index.pt:209
 msgid "Sampling Plus"
-msgstr "Άδεια Δείγματος Plus"
+msgstr ""
 
 #: c/engine/chooser_pages/index.pt:42
 msgid "Allow commercial uses of your work?"
-msgstr "Να επιτρέπονται εμπορικές χρήσεις του έργου σας;"
+msgstr ""
 
 #: c/engine/macros_templates/support.pt:103
 #: c/engine/macros_templates/support.pt:107
 msgid "enter information"
-msgstr "εισάγετε πληροφορίες"
+msgstr ""
 
 msgid "Allow Remixing"
-msgstr "Επιτρέπεται Διασκευή"
+msgstr ""
 
 #: c/engine/macros_templates/metadata.pt:16
 msgid "Hide these fields (All fields are optional)"
-msgstr "Απόκρυψη των πεδίων (Όλα τα πεδία είναι προαιρετικά)"
+msgstr ""
 
 msgid "Portugal"
-msgstr "Πορτογαλία"
+msgstr ""
 
 msgid "GNU General Public License"
-msgstr "GNU Γενική Δημόσια Άδεια"
+msgstr ""
 
 msgid "Afrikaans"
-msgstr "Αφρικάανς"
+msgstr ""
 
 #: c/engine/licenses/mitbsd_templates/deed.pt:54
 msgid ""
 "The copyright notice and license shall be included in all copies or\n"
 "substantial portions of the software."
 msgstr ""
-"Η ένδειξη για τα δικαιώματα πνευματικής ιδιοκτησίας και η άδεια θα πρέπει να"
-" συμπεριλαμβάνονται σε όλα τα αντίγραφα ή σε ουσιωδώς μεγάλα κομμάτια του  "
-"λογισμικού"
 
 msgid "Remix"
-msgstr "Διασκευή"
+msgstr ""
 
 msgid "You may not use this work for commercial purposes."
-msgstr "Δε μπορείτε να χρησιμοποιήσετε το έργο αυτό για εμπορικούς σκοπούς."
+msgstr ""
 
 #: c/engine/macros_templates/metadata.pt:72
 msgid "More permissions URL"
-msgstr "Σύνδεσμος URL για άλλες παραχωρήσεις"
+msgstr ""
 
 #: c/engine/licenses/standard_templates/deed.pt:64
 msgid ""
@@ -1408,61 +1086,56 @@ msgid ""
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
 msgstr ""
-"Του συγγραφέα τα <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
-" id=\"moral_rights\" class=\"helpLink\">ηθικά</a> δικαιώματα•"
 
 msgid "Slovak Republic"
-msgstr "Δημοκρατία της Σλοβακίας"
+msgstr ""
 
 #: c/engine/chooser_pages/results.pt:61
 msgid ""
 "Copy the text below to your Web site to let your visitors know what license "
 "applies to your works."
 msgstr ""
-"Αντιγράψτε το παρακάτω κείμενο στην ιστοσελίδα σας, προκειμένου να "
-"ενημερώνετε τους επισκέπτες σας ποιά άδεια εφαρμόζεται στα έργα σας."
 
 msgid "Hebrew"
-msgstr "Εβραϊκά"
+msgstr ""
 
 msgid "learn how to mark your content"
-msgstr "ενημερωθείτε πώς μπορείτε να σηματοδοτήσετε το περιεχόμενό σας"
+msgstr ""
 
 msgid "Singapore"
-msgstr "Σιγκαπούρη"
+msgstr ""
 
 msgid "Sweden"
-msgstr "Σουηδία"
+msgstr ""
 
 #: c/engine/chooser_pages/sampling.pt:82 c/engine/chooser_pages/sampling.pt:94
 msgid "Germany"
-msgstr "Γερμανία"
+msgstr ""
 
 msgid "Hungarian"
-msgstr "Ουγγρικά"
+msgstr ""
 
 msgid "Denmark"
-msgstr "Δανία"
+msgstr ""
 
 #: c/engine/chooser_pages/nonweb_popup.pt:37
 #: c/engine/chooser_pages/htmlpopup.pt:46
 #: c/engine/chooser_templates/emailhtml.pt:19 c/engine/templates/by.pt:31
 #: c/engine/licenses/catalog_pages/disclaimer-popup.pt:21
 msgid "Close window"
-msgstr "Κλείσιμο παραθύρου"
+msgstr ""
 
 msgid "Slovenia"
-msgstr "Σλοβενία"
+msgstr ""
 
 msgid "Croatian"
-msgstr "Κροατικά"
+msgstr ""
 
 msgid "UK: Scotland"
-msgstr "Ηνωμένο Βασίλειο: Σκωτία"
+msgstr ""
 
 msgid "Ukraine"
-msgstr "Ουκρανία"
+msgstr ""
 
 #: c/engine/licenses/fsf_templates/deed.pt:24
 #: c/engine/licenses/devnations_templates/deed.pt:25
@@ -1473,21 +1146,18 @@ msgid ""
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
 "tool</a> and does not recommend that it be applied to works."
 msgstr ""
-"Ο οργανισμός Creative Commons έχει αποσύρει αυτή <a "
-"href=\"/retiredlicenses\">την άδεια </a> και δεν συνιστά να τη "
-"χρησιμοποιείτε για νέα έργα."
 
 msgid "Canada"
-msgstr "Καναδάς"
+msgstr ""
 
 msgid "Colombia"
-msgstr "Κολομβία"
+msgstr ""
 
 msgid "China Mainland"
-msgstr "Κίνα"
+msgstr ""
 
 msgid "GPL"
-msgstr "GPL"
+msgstr ""
 
 #: c/engine/macros_templates/deed.pt:76
 msgid ""
@@ -1503,55 +1173,42 @@ msgid ""
 "The Product licensed under Creative Commons License is provided by the person who applied the License.  Creative Commons and Creative Commons Japan make no warranties regarding the title of the licensor.  Please read <a href=\"http://creativecommons.jp/faq/\">here</a> for information regarding the application of licenses and exploitation of the Product licensed under Creative Commons licenses.\n"
 "</p>"
 msgstr ""
-"<p>\n"
-"Το περιληπτικό μέρος δεν αποτελεί άδεια. Πρόκειται απλά για μία εύληπτη αναφορά προκειμένου να κατανοήσετε το νομικό μέρος &mdash; είναι μία εύληπτη έκδοση για τον απλό μη νομομαθή χρήστη των βασικών εννοιών της άδειας. Το Περιληπτικό Μέρος από μόνο του δεν έχει καμία νομική ισχύ, και τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.  Οι πραγματικοί όροι της άδειας εμφανίζονται στο Νομικό Μέρος.  <a href=\"legalcode\" class=\"fulltext\">Παρακαλώ πατήστε εδώ προκειμένου να δείτε ολόκληρη την άδεια</a>.  \n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Το νομικό πρόσωπο Creative Commons και το Creative Commons Ελλάδος δεν είναι δικηγορικές εταιρίες, και η διανομή, η εμφάνιση και η σύνδεση με το Περιληπτικό Μέρος δεν αποτελεί παροχή νομικής συμβουλής ούτε  παροχή οποιωνδήποτε νομικών υπηρεσιών. Το νομικό πρόσωπο Creative Commons και το Creative Commons Ελλάδας δεν είναι συμβαλλόμενοι στην άδεια που υπόκειται αυτού του Περιληπτικού Μέρους  και αποποιούνται οποιαδήποτε ευθύνη για ζημιές που θα προκύψουν από οποιαδήποτε χρήση του Περιληπτικού Μέρους και της υποκείμενης άδειας.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Το Προϊόν που διέπεται από άδεια Creative Commons παραχωρείται από το άτομο που εφάρμοσε την άδεια.  Το νομικό πρόσωπο Creative Commons και το Creative Commons Ελλάδας δεν παρέχουν εγγυήσεις σχετικά με τον τίτλο του χορηγούντος την άδεια.  Παρακαλώ  διαβάστε href=\"http://creativecommons.jp/faq/\">εδώ</a> για πληροφορίες σχετικά με την εφαρμογή των αδειών και την εκμετάλλευση του Προϊόντος που διέπεται από άδειες Creative Commons.\n"
-"</p>"
 
 msgid "Switzerland"
-msgstr "Ελβετία"
+msgstr ""
 
 #: c/engine/chooser_pages/results.pt:105
 msgid "Post your licensed images at Flickr"
-msgstr "Στείλτε τις εικόνες σας που διέπονται από τις άδειες στο Flickr"
+msgstr ""
 
 msgid ""
 "We have updated the version of your license to the most recent one available"
 " in your jurisdiction."
 msgstr ""
-"Έχουμε ενημερώσει την έκδοση της άδειάς σας σύμφωνα με την πιο πρόσφατη που "
-"είναι διαθέσιμη στη δικαιοδοσία σας."
 
 msgid "Czech Republic"
-msgstr "Δημοκρατία της Τσεχίας"
+msgstr ""
 
 msgid "NoDerivs-NonCommercial"
-msgstr "Όχι Παράγωγα Έργα - Μη Εμπορική Χρήση"
+msgstr ""
 
 msgid "Attribution-NonCommercial-ShareAlike"
-msgstr "Αναφορά Δημιουργού - Μη Εμπορική Χρήση - Παρόμοια Διανομή"
+msgstr ""
 
 msgid "France"
-msgstr "Γαλλία"
+msgstr ""
 
 msgid "creator's name"
-msgstr "όνομα του δημιουργού"
+msgstr ""
 
 msgid "South Africa"
-msgstr "Νότια Αφρική"
+msgstr ""
 
 msgid "Serbian"
-msgstr "Σερβικά"
+msgstr ""
 
 msgid "Sotho"
-msgstr "Σόθο"
+msgstr ""
 
 msgid ""
 "<a href=\"/jargon/source_work\" class=\"jargon\" "
@@ -1559,25 +1216,19 @@ msgid ""
 "'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
 " return false;\">source work</a> URL"
 msgstr ""
-"<a href=\"/jargon/source_work\" class=\"jargon\" "
-"onClick=\"window.open('/jargon/source_work', 'jargon_term_lookup', "
-"'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
-" return false;\">αρχικό έργο </a> URL"
 
 msgid "Final step:"
-msgstr "Τελικό βήμα:"
+msgstr ""
 
 #: c/engine/licenses/devnations_templates/deed.pt:30
 #: c/engine/licenses/mitbsd_templates/deed.pt:25
 #: c/engine/licenses/standard_templates/deed.pt:38
 msgid "<strong>to Share</strong> — to copy, distribute and transmit the work"
 msgstr ""
-"<strong>για Διανομή</strong>: για αναπαραγωγή, διανομή, παρουσίαση στο κοινό"
-" του Έργου"
 
 #: c/engine/chooser_pages/index.pt:115
 msgid "No Derivative Works"
-msgstr "Όχι Παράγωγα Έργα"
+msgstr ""
 
 #: c/engine/licenses/devnations_templates/deed.pt:50
 #: c/engine/licenses/sampling_templates/deed.pt:43
@@ -1586,16 +1237,12 @@ msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
 msgstr ""
-"Για κάθε νέα χρήση ή διανομή, πρέπει να καταστήσετε σαφείς στους άλλους τους"
-" όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να πράξετε αυτό "
-"είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο αυτής της "
-"ιστοσελίδας."
 
 msgid "Slovenian"
-msgstr "Σλοβένικα"
+msgstr ""
 
 msgid "copyright"
-msgstr "δικαιώματα πνευματικής ιδιοκτησίας"
+msgstr ""
 
 #: c/engine/chooser_pages/nonweb_popup.pt:27
 #, python-format
@@ -1612,16 +1259,13 @@ msgid ""
 "endorse or promote products derived from this software without specific "
 "prior written permission."
 msgstr ""
-"<strong>Χωρίς επίσημη έγκριση</strong>. Το όνομα του δημιουργού δεν μπορεί "
-"να χρησιμοποιηθεί προκειμένου να εγκριθούν ή να προωθηθούν προϊόντα που "
-"παρήχθησαν από αυτό το πρόγραμμα υπολογιστή χωρίς προηγούμενη ρητή έγκριση."
 
 msgid "Prohibit Commercial Use"
-msgstr "Απαγορεύεται η Εμπορική Χρήση"
+msgstr ""
 
 #: c/engine/chooser_pages/results.pt:56
 msgid "What to do next"
-msgstr "Ποιό είναι το επόμενο βήμα"
+msgstr ""
 
 #: c/engine/pd/templates/publicdomain-4.pt:52
 msgid ""
@@ -1630,27 +1274,23 @@ msgid ""
 " or <a href=\"http://backend.userland.com/creativeCommonsRssModule\">the RSS"
 " 2.0 module</a>."
 msgstr ""
-"Τοποθετήστε τις πληροφορίες σας σε ένα RSS feed, χρησιμοποιήστε ένα <a "
-"href=\"http://web.resource.org/rss/1.0/modules/cc/\">the RSS 1.0 module</a>,"
-" ή <a href=\"http://backend.userland.com/creativeCommonsRssModule\">το RSS "
-"έκδοση 2.0 </a>."
 
 msgid "Spanish (CL)"
-msgstr "Ισπανικά (ΚΛ)"
+msgstr ""
 
 #: c/engine/chooser_pages/sampling.pt:36
 #: c/engine/macros_templates/support.pt:127
 #: c/engine/macros_templates/support.pt:134
 #: c/engine/macros_templates/support.pt:136
 msgid "review choice"
-msgstr "επανεξετάστε την επιλογή σας"
+msgstr ""
 
 msgid "Share Music"
-msgstr "Διανομή Μουσικής"
+msgstr ""
 
 #: c/engine/chooser_pages/index.pt:122
 msgid "Share Alike"
-msgstr "Παρόμοια Διανομή"
+msgstr ""
 
 #: c/engine/chooser_pages/index.pt:193
 msgid ""
@@ -1661,31 +1301,22 @@ msgid ""
 "services that have incorporated Creative Commons. This is not a registration"
 " and we do not retain a record of your selection."
 msgstr ""
-"Όταν διαλέγεις <a href=\"http://creativecommons.org/about/licenses\">μία "
-"άδεια</a>, σου παρέχουμε τον κώδικα HTML που μπορείς να χρησιμοποιήσεις για "
-"να προσθέσεις πληροφόρηση σχετική με την άδεια στον διαδικτυακό σου τόπο, "
-"καθώς και πληροφόρηση για το πώς να διαλέξεις μια άδεια μέσα από τις δωρεά "
-"διατιθέμενες υπηρεσίες που έχουν υιοθετήσει τις άδειες Creative Commons. "
-"Αυτή η διαδικασία δεν είναι συνδρομητική και δεν καταχωρούμε αρχείο της "
-"επιλογής σου. "
 
 #: c/engine/pd/templates/publicdomain-4.pt:27
 msgid ""
 "Now that you've chosen the Public Domain Certification, you should mark the "
 "work in the appropriate way."
 msgstr ""
-"Τώρα που επιλέξατε την πιστοποίηση  Δημοσίου Τομέα, πρέπει να σημάνετε το "
-"έργο με τον κατάλληλο τρόπο."
 
 msgid "Try again!"
-msgstr "Προσπαθήστε ξανά!"
+msgstr ""
 
 #: c/engine/chooser_pages/index.pt:214
 msgid "Founder's Copyright"
-msgstr "Πνευματικά δικαιώματα όπως αυτά ίσχυαν εν τη γενέσει τους."
+msgstr ""
 
 msgid "NonCommercial-ShareAlike"
-msgstr "Μη Εμπορική Χρήση - Παρόμοια Διανομή"
+msgstr ""
 
 #: c/engine/chooser_pages/results.pt:78
 msgid ""
@@ -1693,21 +1324,16 @@ msgid ""
 "href=\"http://support.creativecommons.org/donate/\">supporting Creative "
 "Commons</a>."
 msgstr ""
-"Αφού κάνεις χρήση κάποιας άδειας Creative Commons, παρακαλώ σκέψου <a "
-"href=\"http://support.creativecommons.org/donate/\">το ενδεχόμενο "
-"υποστήριξης του οργανισμού Creative Commons</a>."
 
 #: c/engine/templates/by.pt:25
 msgid ""
 "You must attribute the\n"
 "work in the manner specified by the author or licensor."
 msgstr ""
-"Θα πρέπει να κάνετε την αναφορά στο Δημιουργό του έργου με τον τρόπο που "
-"αυτός έχει οριστεί από το δημιουργό ή το χορηγούντα την άδεια"
 
 #: c/engine/macros_templates/metadata.pt:36
 msgid "Text"
-msgstr "Κείμενο"
+msgstr ""
 
 #: c/engine/licenses/devnations_templates/deed.pt:48
 #: c/engine/licenses/sampling_templates/deed.pt:41
@@ -1716,9 +1342,6 @@ msgid ""
 "licensor (but not in any way that suggests that they endorse you or your use"
 " of the work)."
 msgstr ""
-"Θα πρέπει να κάνετε την αναφορά στο έργο με τον τρόπο που έχει οριστεί από "
-"το δημιουργό ή το χορηγούντο την άδεια (χωρίς όμως να εννοείται με "
-"οποιονδήποτε τρόπο ότι εγκρίνουν εσάς ή τη χρήση του έργου από εσάς)."
 
 #: c/engine/chooser_pages/results.pt:76
 msgid ""
@@ -1726,11 +1349,9 @@ msgid ""
 "href=\"http://wiki.creativecommons.org/Website/Publish\">Read our "
 "tutorial</a>."
 msgstr ""
-"Χρειάζεστε περισσότερη βοήθεια; <a href=\"/education/publish-"
-"website\">Διαβάστε το εκπαιδευτικό  μας κείμενο</a>."
 
 msgid "Finland"
-msgstr "Φιλανδία"
+msgstr ""
 
 #: c/engine/chooser_pages/partner/index.pt:25
 msgid ""
@@ -1740,29 +1361,24 @@ msgid ""
 "you credit</a> -- and only on the conditions you specify here.\n"
 "This page helps you choose those conditions.\n"
 msgstr ""
-"Οι άδειες του Creative Commons βοηθάνε να μοιραστείτε τα έργα σας ενώ διατηρείτε\n"
-"τα πνευματικά σας δικαιώματα. Άλλοι άνθρωποι μπορούν να αντιγράψουν και να διανέμουν τα έργα σας υπό τον όρο ότι αυτοί\n"
-"<a href=\"http://creativecommons.org/characteristic/by?lang=en\" onclick=\"window.open('http://creativecommons.org/characteristic/by?lang=en', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">σας\n"
-"αναφέρουν</a> -- και μόνο υπό τους όρους που καθορίζονται εδώ.\n"
-"Αυτή η ιστοσελίδα σας βοηθάει να επιλέξετε αυτούς τους όρους.\n"
 
 #: c/engine/chooser_pages/index.pt:49 c/engine/chooser_pages/index.pt:96
 #: c/engine/chooser_pages/partner/index.pt:56
 #: c/engine/chooser_pages/partner/index.pt:73
 msgid "No"
-msgstr "Όχι"
+msgstr ""
 
 msgid "find"
-msgstr "βρείτε"
+msgstr ""
 
 msgid "What flavor of Sampling license?"
-msgstr "Ποιά έκδοση της Άδειας Δείγματος;"
+msgstr ""
 
 msgid "No license chosen"
-msgstr "Δεν έχει επιλεγεί καμία άδεια"
+msgstr ""
 
 msgid "Finnish"
-msgstr "Φινλανδικά "
+msgstr ""
 
 msgid ""
 "With a Creative Commons license, you keep your copyright but allow people to"
@@ -1771,18 +1387,10 @@ msgid ""
 "Copyright Law of a specific jurisdiction, please select the appropriate "
 "jurisdiction."
 msgstr ""
-"Με μία άδεια Creative Commons, διατηρείτε τα δικαιώματα πνευματικής "
-"ιδιοκτησίας αλλά επιτρέπετε στον κόσμο να αναπαράγει και να διανέμει το έργο"
-" σας αρκεί να αναφέρουν το όνομά σας &mdash; και μόνο σύμφωνα με τους όρους "
-"που θέτετε εσείς εδώ. Εάν επιθυμείτε μία άδεια που διέπεται από το δίκαιο "
-"της πνευματικής ιδιοκτησίας μίας συγκεκριμένης δικαιοδοσίας, παρακαλώ "
-"επιλέξτε τη δικαιοδοσία που επιθυμείτε."
 
 #: c/engine/macros_templates/metadata.pt:15
 msgid "Click to include more information about your work."
 msgstr ""
-"Πατήστε εδώ προκειμένου να συμπεριλάβετε περισσότερες πληροφορίες για το "
-"έργο σας."
 
 #: c/engine/chooser_templates/emailhtml.pt:16
 #, python-format
@@ -1793,46 +1401,38 @@ msgid ""
 "\n"
 "<p>Place the link or the HTML on your website, right next to the work you intend to license.  </p>"
 msgstr ""
-"<p>\n"
-"Οι πληροφορίες που αφορούν την επιλογή σας  έχουν αποσταλεί με μήνυμα ηλεκτρονικού ταχυδρομείου<strong>%(email)s</strong>.\n"
-"</p>\n"
-"\n"
-"<p>Τοποθετήστε το σύνδεσμο ή το HTML στην ιστοσελίδα σας ακριβώς δίπλα στο έργο που σκοπεύετε να αδειοδοτήσετε.  </p>"
 
 #: c/engine/macros_templates/deed.pt:118 c/engine/macros_templates/deed.pt:123
 msgid "French"
-msgstr "Γαλλικά"
+msgstr ""
 
 #: c/engine/chooser_pages/index.pt:218
 msgid "CC-GNU GPL"
-msgstr "CC-GNU GPL"
+msgstr ""
 
 msgid "Or, you can <a href=\"./\">return to the questions</a>."
-msgstr "Ή μπορείτε να  <a href=\"./\">επιστρέψετε στις ερωτήσεις</a>."
+msgstr ""
 
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
 msgstr ""
-"Εάν αλλοιώσετε, τροποποιήσετε ή δημιουργήσετε πάνω στο έργο αυτό, μπορείτε "
-"να διανείμετε το έργο που θα προκύψει μόνο υπό τους όρους της ίδιας, όμοιας "
-"ή συμβατής άδειας."
 
 msgid "Macedonia"
-msgstr "Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας"
+msgstr ""
 
 msgid "ShareAlike"
-msgstr "Παρόμοια Διανομή"
+msgstr ""
 
 #: c/engine/chooser_pages/results.pt:111
 msgid "Add a Creative Commons license to your blog"
-msgstr "Προσθέστε μία άδεια Creative Commons στο ιστολόγιό σας"
+msgstr ""
 
 msgid "Portuguese"
-msgstr "Πορτογαλικά"
+msgstr ""
 
 msgid "Portuguese (BR)"
-msgstr "Πορτογαλικά (BR)"
+msgstr ""
 
 #: c/engine/licenses/fsf_templates/deed.pt:75
 #: c/engine/licenses/devnations_templates/deed.pt:51
@@ -1843,50 +1443,42 @@ msgid ""
 "class=\"helpLink\">waived</a> if you get permission from the copyright "
 "holder."
 msgstr ""
-"Κάθε μία από τις παραπάνω συνθήκες μπορεί να <a href=\"#\" id=\"waived\" "
-"class=\"helpLink\">παρακαμφθεί</a> αν πάρετε άδεια από τον κάτοχο των "
-"πνευματικών δικαιωμάτων."
 
 msgid "Malaysia"
-msgstr "Μαλαισία"
+msgstr ""
 
 msgid "Mexico"
-msgstr "Μεξικό"
+msgstr ""
 
 #: c/engine/chooser_pages/sampling.pt:84 c/engine/chooser_pages/sampling.pt:96
 msgid "Taiwan"
-msgstr "Ταϊβάν"
+msgstr ""
 
 #: c/engine/macros_templates/deed.pt:81
 #: c/engine/licenses/catalog_pages/disclaimer-popup.pt:15
 msgid "Disclaimer"
-msgstr "Αποποίηση"
+msgstr ""
 
 msgid "Attribution-ShareAlike"
-msgstr "Αναφορά Δημιουργού - Παρόμοια Διανομή"
+msgstr ""
 
 msgid "back to licenses"
-msgstr "επιστροφή στις άδειες"
+msgstr ""
 
 msgid "Malta"
-msgstr "Μάλτα"
+msgstr ""
 
 msgid "work"
-msgstr "εργασία"
+msgstr ""
 
 #: c/engine/chooser_pages/index.pt:117
 msgid ""
 "The licensor permits others to copy, distribute and transmit only unaltered "
 "copies of the work — not derivative works based on it."
 msgstr ""
-"Ο χορηγών την άδεια επιτρέπει στους άλλους να αναπαράγουν, να διανέμουν και "
-"να μεταδίδουν μόνο αναλλοίωτα αντίγραφα του έργου-όχι παράγωγα έργα που "
-"βασίζονται σε αυτό"
 
 msgid "Learn how to publicize and share your work"
 msgstr ""
-"Ενημερωθείτε για το πως μπορείτε να δημοσιεύσετε και να διανέμετε το έργο "
-"σας"
 
 #: c/engine/macros_templates/deed.pt:135
 msgid ""
@@ -1895,10 +1487,6 @@ msgid ""
 "General Public License</a>). A <a href=\"legalcode.pt\">Portuguese "
 "translation</a> is also available."
 msgstr ""
-"Αυτή είναι μία εύληπτη για τον απλό χρήστη περίληψη του Νομικού Μέρους (the "
-"full <a href=\"http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html\">GNU "
-"Lesser General Public License</a>). A <a href=\"legalcode.pt\">Πορτογαλική "
-"έκδοση</a>είναι επίσης διαθέσιμη."
 
 #: c/engine/macros_templates/deed.pt:145
 msgid ""
@@ -1907,10 +1495,6 @@ msgid ""
 "Public License</a>). A <a href=\"legalcode.pt\">Portuguese translation</a> "
 "is also available."
 msgstr ""
-"Αυτή είναι μία εύληπτη για τον απλό χρήστη περίληψη του Νομικού Μέρους  (η "
-"πλήρης <a href=\"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU"
-" General Public License</a>). Μια <a href=\"legalcode.pt\">Πορτογαλική "
-"έκδοση</a> είναι επίσης διαθέσιμη."
 
 #: c/engine/chooser_pages/partner/index.pt:117
 msgid ""
@@ -1921,15 +1505,9 @@ msgid ""
 "Creative Commons does not provide legal advice or services. We provide form legal documents; the rest is up to you.\n"
 "</p>"
 msgstr ""
-"<p>\n"
-"<em>Σημείωση:</em> Προκειμένου να αδειοδοτήσετε ένα έργο θα πρέπει να είστε ο δικαιούχος του δικαιώματος πνευματικής ιδιοκτησίας ή να έχετε ρητή εξουσιοδότηση από το δικαιούχο γι'αυτό.</p>\n"
-"\n"
-"<p>\n"
-"Το νομικό πρόσωπο Creative Commons δεν παρέχει ούτε νομικές υπηρεσίες ούτε νομικές συμβουλές; Παρέχουμε τυποποιημένα νομικά κείμενα. Τα υπόλοιπα εξαρτώνται από εσάς.\n"
-"</p>"
 
 msgid "Developing Nations"
-msgstr "Αναπτυσσόμενα Έθνη"
+msgstr ""
 
 #: c/engine/pd/templates/publicdomain-4.pt:54
 #: c/engine/chooser_pages/results.pt:122
@@ -1939,38 +1517,33 @@ msgid ""
 " this template</a> following these <a href=\"/technology/xmp-"
 "help\">instructions</a>."
 msgstr ""
-"Προκειμένου να σηματοδοτήσετε ένα αρχείο  PDF ή άλλο XMP-αρχείο που "
-"υποστηρίζεται, <a href=\"xmp?%(url_vars)s\">σώστε αυτόν τον οδηγό</a> "
-"ακολουθώντας αυτές τις  <a href=\"/technology/xmp-help\">οδηγίες</a>."
 
 msgid "NonCommercial Sampling Plus"
-msgstr " Άδεια Δείγματος Plus για Μη Εμπορική Χρήση"
+msgstr ""
 
 #: c/engine/licenses/sampling_templates/deed.pt:47
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
 msgstr ""
-"Δε μπορείτε να ερμηνεύσετε, να κάνετε προσιτό στο κοινό ή να διανέμετε "
-"αντίγραφα από ολόκληρο αυτό το έργο για οποιοδήποτε σκοπό."
 
 #: c/engine/chooser_pages/index.pt:232
 msgid "Wiki"
-msgstr "Wiki"
+msgstr ""
 
 msgid "Danish"
-msgstr "Δανέζικα"
+msgstr ""
 
 msgid "Unported"
-msgstr "Μη εισαγόμενο"
+msgstr ""
 
 #, python-format
 msgid "Based on a work at %(source_link)s."
-msgstr "Βασισμένο σε έργο στο %(source_link)s."
+msgstr ""
 
 #: c/engine/macros_templates/deed.pt:129
 msgid "German"
-msgstr "Γερμανικά"
+msgstr ""
 
 #: c/engine/chooser_pages/sampling.pt:31 c/engine/chooser_pages/sampling.pt:35
 #: c/engine/chooser_pages/sampling.pt:40 c/engine/chooser_pages/sampling.pt:45
@@ -1989,61 +1562,56 @@ msgstr "Γερμανικά"
 #: c/engine/macros_templates/support.pt:160
 #: c/engine/macros_templates/support.pt:164
 msgid "step"
-msgstr "βήμα"
+msgstr ""
 
 #: c/engine/licenses/devnations_templates/deed.pt:27
 #: c/engine/licenses/mitbsd_templates/deed.pt:23
 #: c/engine/licenses/sampling_templates/deed.pt:25
 #: c/engine/licenses/standard_templates/deed.pt:34
 msgid "You are free:"
-msgstr "Είναι ελεύθερη:"
+msgstr ""
 
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same or similar license to this one."
 msgstr ""
-"Εάν αλλοιώσετε, τροποποιήσετε ή δημιουργήσετε περαιτέρω βασισμένοι στο έργο "
-"θα μπορείτε να διανέμετε το έργο που θα προκύψει μόνο με την ίδια ή παρόμοια"
-" άδεια."
 
 #: c/engine/chooser_pages/index.pt:236
 msgid "Music Sharing"
-msgstr "Διανομή Μουσικής"
+msgstr ""
 
 msgid "LGPL"
-msgstr "LGPL"
+msgstr ""
 
 msgid "French (CA)"
-msgstr "Γαλλικά (Καναδά)"
+msgstr ""
 
 #: c/engine/chooser_pages/gpl.pt:47 c/engine/chooser_pages/lgpl.pt:48
 msgid ""
 "Lawyer-Readable<br/>\n"
 "Legal Code"
 msgstr ""
-"Αφορά Δικηγόρους<br/>\n"
-"Νομικό Μέρος"
 
 msgid "Require Share-Alike"
-msgstr "Απαίτηση Παρόμοιας Διανομής"
+msgstr ""
 
 #: c/engine/licenses/devnations_templates/deed.pt:34
 #: c/engine/licenses/mitbsd_templates/deed.pt:26
 #: c/engine/licenses/standard_templates/deed.pt:39
 msgid "<strong>to Remix</strong> — to adapt the work"
-msgstr "<strong>για διασκευή</strong> —για να τροποποιήσετε το έργο"
+msgstr ""
 
 msgid "Find music, photos and more"
-msgstr "Βρείτε μουσική, φωτογραφίες και άλλα"
+msgstr ""
 
 msgid "Venezuela"
-msgstr "Βενεζουέλα"
+msgstr ""
 
 #: c/engine/chooser_pages/sampling.pt:46
 #: c/engine/macros_templates/support.pt:161
 #: c/engine/macros_templates/support.pt:165
 msgid "publicize"
-msgstr "προβάλετε"
+msgstr ""
 
 #: c/engine/pd/templates/publicdomain-3.pt:41
 #: c/engine/licenses/publicdomain_templates/deed.pt:19
@@ -2056,21 +1624,12 @@ msgid ""
 "\n"
 "        <p>Dedicator recognizes that, once placed in the public domain, the Work may be freely reproduced, distributed, transmitted, used, modified, built upon, or otherwise exploited by anyone for any purpose, commercial or non-commercial, and in any way, including by methods that have not yet been invented or conceived.</p>"
 msgstr ""
-"        <p>Το άτομο ή τα άτομα που έχουν συσχετίσει έργο με αυτό το αρχείο (αυτός που το προσφέρει ή πιστοποιεί) με το παρόν είτε (α) πιστοποιούν ότι, εν γνώσει τους, το έργο του οποίου η πατρότητα  εξακριβώθηκε, ανήκει στο δημόσιο τομέα της χώρας στην οποία αυτό δημοσιεύτηκε, είτε (β) προσφέρουν στο δημόσιο τομέα οποιοδήποτε δικαίωμα πνευματικής ιδιοκτησίας έχει ο προσφέρων το έργο, η πατρότητα του οποίου διαπιστώνεται παρακάτω. Αυτός που πιστοποιεί προσφέρει περαιτέρω οποιοδήποτε δικαίωμα επί των δικαιωμάτων πνευματικής ιδιοκτησίας  που τυχόν έχει με το έργο που σχετίζεται και για τους λόγους αυτούς περιγράφεται ως \"αυτός που προσφέρει\" παρακάτω.</p>\n"
-"\n"
-"        <p>Αυτός που πιστοποιεί έχει κάνει τις απαραίτητες ενέργειες προκειμένου να εξακριβώσει το καθεστώς σχετικά με τα δικαιώματα πνευματικής ιδιοκτησίας στο έργο αυτό. Αυτός που πιστοποιεί αναγνωρίζει ότι όλες οι προσπάθειες που έκανε με καλή την πίστη δεν τον απαλλάσσουν από τυχόν ευθύνη σε περίπτωση που το έργο του οποίου η πατρότητα εξακριβώθηκε δεν ανήκει στο δημόσιο τομέα.</p>\n"
-"\n"
-"        <p>Αυτός που προσφέρει κάνει την προσφορά αυτή για το καλό του κοινού και σε βάρος των απογόνων και κληρονόμων του. Αυτός που προσφέρει έχει σκοπό να αποτελεί η προσφορά του μία απροκάλυπτη πράξη εκχώρησης στο διηνεκές όλων των τωρινών και μελλοντικών δικαιωμάτων πνευματικής ιδιοκτησίας κεκτημένων ή ενδεχόμενων να προκύψουν στο μέλλον επί του έργου.</p>\n"
-"\n"
-"        <p>Αυτός που προσφέρει αναγνωρίζει ότι από τη στιγμή που το έργο θα εισέλθει στο δημόσιο τομέα, θα μπορεί ο καθένας ελεύθερα να το αναπαράγει, να το διανέμει, να το μεταδίδει, να το χρησιμοποιεί, να το τροποποιεί, να δημιουργεί παράγωγα έργα βασισμένα σε αυτό ή αλλιώς να το εκμεταλλεύεται ο καθένας για οποιονδήποτε σκοπό, εμπορικό ή μη εμπορικό, και με οποιονδήποτε τρόπο συμπεριλαμβανομένων και μεθόδων εκμετάλλευσης που δεν έχουν ακόμα εφευρεθεί ή συλληφθεί ως ιδέα.</p>"
 
 #: c/engine/licenses/sampling_templates/deed.pt:27
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "noncommercial purposes."
 msgstr ""
-"Να πάρετε δείγματα, να αλλάξετε ή αλλιώς να τροποποιήσετε δημιουργικά το "
-"έργο αυτό για μη εμπορικούς σκοπούς"
 
 #: c/engine/chooser_pages/sampling.pt:116
 msgid ""
@@ -2078,40 +1637,33 @@ msgid ""
 "authority to license all the rights involved. Musical works, for example, "
 "often consist of multiple copyrights (composition, recording, lyrics)."
 msgstr ""
-"Πριν εφαρμόσετε την Άδεια Δείγματος στο έργο σας, βεβαιωθείτε ότι έχετε την "
-"εξουσία να εκχωρήσετε όλα τα δικαιώματα που σχετίζονται με αυτό. Τα μουσικά "
-"έργα, για παράδειγμα, συχνά αφορούν περισσότερα του ενός δικαιώματα "
-"πνευματικής ιδιοκτησίας (σύνθεσης, ηχογράφησης, στίχων) ."
 
 msgid "Jurisdiction of your license:"
-msgstr "Δικαιοδοσία της άδειάς σας:"
+msgstr ""
 
 msgid "home"
-msgstr "αρχική"
+msgstr ""
 
 #: c/engine/pd/templates/publicdomain-2.pt:53
 msgid ""
 "<b>NOTE:</b> clicking on \"proceed\" will send a confirmation request to the"
 " email address you entered. Make sure the address is correct!"
 msgstr ""
-"<b>ΣΗΜΕΙΩΣΗ:</b>κάνοντας κλικ στο \"proceed\" θα σας αποσταλεί μία "
-"επιβεβαίωση στη διεύθυνση ηλεκτρονικού ταχυδρομείου που εισάγατε. "
-"Βεβαιωθείτε ότι η διεύθυνση αυτή είναι σωστή!"
 
 msgid "Serbian (Latin)"
-msgstr "Σερβικά (Λατινικά)"
+msgstr ""
 
 msgid "Puerto Rico"
-msgstr "Πουέρτο Ρίκο"
+msgstr ""
 
 msgid "Greek"
-msgstr "Ελληνικά"
+msgstr ""
 
 msgid "Romanian"
-msgstr "Ρουμανικά"
+msgstr ""
 
 msgid "Spanish (Ecuador)"
-msgstr "Ισπανικά (Εκουαδόρ)"
+msgstr ""
 
 #: e/macros_templates/metadata.pt:107
 msgid "Embedded Metadata"
@@ -2145,16 +1697,6 @@ msgid ""
 "\t  you want to find out more.\n"
 "\t</p>"
 msgstr ""
-"<p>\n"
-"\t  Η πληροφορία είναι ενσωματωμένη σε μία αναγνώσιμη μορφή λογισμικού.\n"
-"\t  Αυτό επιτρέπει στις μηχανές αναζήτησης να καταλογοποιήσουν επιπρόσθετες πληροφορίες\n"
-"\t  για την εργασία σας.\n"
-"\t</p>\n"
-"\t<p>\n"
-"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">Περισσότερες\n"
-"\t    πληροφορίες</a> στα Creative Commons μεταδεδομένα είναι διαθέσιμα αν\n"
-"\t  θέλετε να βρείτε περισσότερα.\n"
-"\t</p>"
 
 #: e/macros_templates/metadata.pt:140
 msgid "The title of the work you are licensing."
@@ -2203,11 +1745,11 @@ msgstr ""
 "μπορούν να βρουν το πρωτότυπο έργο, επίσης."
 
 msgid "Ecuador"
-msgstr "Εκουαδόρ"
+msgstr ""
 
 #: e/macros_templates/metadata.pt:13
 msgid "Additional Information"
-msgstr "Επιπρόσθετες πληροφορίες"
+msgstr ""
 
 #: e/macros_templates/metadata.pt:16
 msgid ""
@@ -2216,49 +1758,42 @@ msgid ""
 "determine how to attribute it or where to go for more information about the "
 "work."
 msgstr ""
-"Η καταχώρηση πληροφοριών σε πρόσθετα πεδία είναι "
-"<strong>προαιρετική</strong>, αλλά οι πληροφορίες αυτές θα ενσωματωθούν στο "
-"κώδικα HTML που θα δημιουργηθεί για την άδεια σας. Αυτό επιτρέπει στους "
-"χρήστες του έργου σας να περιγράφουν την αναφορά σ'αυτό ή και να μάθουν που "
-"να μεταβούν για περισσότερες πληροφορίες για αυτό το έργο."
 
 msgid "Norway"
-msgstr "Νορβηγία"
+msgstr ""
 
 msgid "Norwegian"
-msgstr "Νορβηγικά"
+msgstr ""
 
 msgid "Mark Software"
-msgstr "Σήμανση λογισμικού"
+msgstr ""
 
 msgid ""
 "You can display the icon on any site you offer your software for download "
 "using the following markup:"
 msgstr ""
-"Μπορείτε να εμφανίσετε το εικονίδιο σε κάθε ιστοσελίδα που παρέχετε το "
-"λογισμικό σας για λήψη με την ακόλουθη διατύπωση:"
 
 #: c/engine/macros_templates/deed.pt:206
 msgid "Use this license for your own work."
-msgstr "Κάνε χρήση αυτής της άδειας για το έργο σου."
+msgstr ""
 
 msgid "Hong Kong"
-msgstr "Χονγκ Κονγκ"
+msgstr ""
 
 msgid "English (Hong Kong)"
-msgstr "Αγγλικά (Χονγκ Κονγκ)"
+msgstr ""
 
 msgid "Chinese (Hong Kong)"
-msgstr "Κινέζικα (Χονγκ Κονγκ)"
+msgstr ""
 
 msgid "Guatemala"
-msgstr "Γουατεμάλα"
+msgstr ""
 
 msgid "Spanish (Guatemala)"
-msgstr "Ισπανικά (Γουατεμάλα)"
+msgstr ""
 
 msgid "English (Singapore)"
-msgstr "Αγγλικά (Σιγκαπούρη)"
+msgstr ""
 
 #. "Rights other\n"
 #. "\t      persons may have either in the work itself or in how the\n"
@@ -2273,15 +1808,10 @@ msgid ""
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
 " class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy rights."
 msgstr ""
-"Μπορεί να υπάρχουν δικαιώματα άλλων ατόμων  είτε στο έργο καθεαυτό είτε στο "
-"πώς αυτό χρησιμοποιείται όπως <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">δικαιώματα δημοσιότητας</a> ή "
-"δικαιώματα περί την ιδιωτικότητα."
 
 #: src/cc/engine/chooser_pages/results.pt:151
 msgid "Track use of your work with FairShare"
-msgstr "Παρακολουθήστε τη χρήση του έργο σας με το FairShare"
+msgstr ""
 
 #. Default: ""
 #. "<p>The Commons Deed is not a legal instrument. It is simply a\n"
@@ -2310,21 +1840,6 @@ msgid ""
 "copyright status in any jurisdiction, and disclaims all liability for all "
 "uses of any work. </p>"
 msgstr ""
-"<p>Το Περιληπτικό Μέρος της άδειας δεν είναι ένα νομικό εργαλείο. Είναι απλά"
-" μία χρήσιμη αναφορά για την κατανόηση του Νομικού Μέρους της άδειας CC0, "
-"είναι μία ανθρωπίνως εύληπτη έκφραση ορισμένων από τους όρους--κλειδιά της "
-"άδειας αυτής. Σκεφτείτε το σαν μία φιλική προς τον χρήστη παρουσίαση  του "
-"περιεχομένου του Νομικού Μέρους της άδειας CC0 που ακολουθεί. Αυτό το "
-"Περιληπτικό Μέρος από μόνο του δεν έχει νομική αξία και τα περιεχόμενα του "
-"δεν εμφανίζονται στο περιεχόμενο της άδειας CC0.</p><p>Ο οργανισμός Creative"
-" Commons δεν είναι εταιρία δικηγόρων και δεν παρέχει νομικές υπηρεσίες. Η "
-"διανομή, παρουσίαση στο κοινό, ή σύνδεση σε αυτό το Περιληπτικό Σημείωμα της"
-" άδειας δεν δημιουργεί μία σχέση δικηγόρου-πελάτη.</p><p>Ο οργανισμός "
-"Creative Commons δεν έχει επιβεβαιώσει το status περί την πνευματική "
-"ιδιοκτησία σε οποιοδήποτε έργο έχει υπαχθεί στην άδεια CC0. Ο οργανισμός "
-"Creative Commons δεν παρέχει καμία εγγύηση για οποιοδήποτε έργο ή για το "
-"καθεστώς πνευματικής του ιδιοκτησίας σε οποιαδήποτε δικαιοδοσία, και "
-"αποποιείται κάθε νομική ευθύνη για οποιαδήποτε χρήση οποιουδήποτε έργου.</p>"
 
 #. Default: ""
 #. "This is a human-readable summary of\n"
@@ -2335,13 +1850,11 @@ msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
 msgstr ""
-"Αυτό είναι μία περίληψη σε μορφή που μπορεί να αναγνωστεί από κάποιον του <a"
-" href=\"./legalcode\">Νομικού Μέρους (διαβάστε το πλήρες κείμενο)</a>."
 
 #. Default: "No Copyright"
 #: c/engine/licenses/zero_templates/deed.pt:30
 msgid "No Copyright"
-msgstr "Δεν υπάρχουν πνευματικά δικαιώματα"
+msgstr ""
 
 #. Default: ""
 #. "The person who associated a work with this document\n"
@@ -2356,17 +1869,11 @@ msgid ""
 "worldwide under copyright law, including all related and neighboring rights,"
 " to the extent allowed by law."
 msgstr ""
-"Το άτομο που συσχέτισε ένα έργο με αυτό το περιληπτικό σημείωμα άδειας έχει "
-"<b>διεθέσει</b> το έργο στο Δημόσιο Τομέα αποποιούμενο όλα τα δικαιώματά "
-"του/της επί του έργου για όλο τον κόσμο σύμφωνα με το νόμο για την προστασία"
-" της πνευματικής ιδιοκτησίας, συμπεριλαμβανομένων και όλων των σχετικών ή "
-"συγγενικών δικαιωμάτων του/της επί του έργου στο βαθμό που αυτό επιτρέπεται "
-"από το νόμο."
 
 #. Default: "Attribute this work:"
 #: c/engine/licenses/zero_templates/deed.pt:42
 msgid "Attribute this work:"
-msgstr "Κάντε Αναφορά Δημιουργού σ'αυτό το έργο:"
+msgstr ""
 
 #. Default: ""
 #. "In no way are any of the following rights affected by\n"
@@ -2374,23 +1881,22 @@ msgstr "Κάντε Αναφορά Δημιουργού σ'αυτό το έργο
 #: c/engine/licenses/zero_templates/deed.pt:65
 msgid "In no way are any of the following rights affected by the above:"
 msgstr ""
-"Σε καμία περίπτωση τα παρακάτω δικαιώματα δεν επηρεάζονται από τα παραπάνω:"
 
 #. Default: "What are \"Publicity Rights\"?"
 #: c/engine/licenses/zero_templates/deed.pt:83
 msgid "What are \"Publicity Rights\"?"
-msgstr "Τι είναι τα \"Δικαιώματα δημοσιότητας\";"
+msgstr ""
 
 #. Default: "Learn more"
 #: c/engine/licenses/zero_templates/deed.pt:95
 #: c/engine/zero/templates/index.pt:89
 msgid "Learn more"
-msgstr "Μάθετε περισσότερα"
+msgstr ""
 
 #. Default: "Confirm Waiver"
 #: c/engine/zero/templates/confirm.pt:30
 msgid "Confirm Waiver"
-msgstr "Επιβεβαίωση αποποίησης"
+msgstr ""
 
 #. Default: ""
 #. "Are you certain you wish to waive all rights to your\n"
@@ -2401,9 +1907,6 @@ msgid ""
 "Are you certain you wish to waive all rights to your work? Once these rights"
 " are waived, you cannot reclaim them."
 msgstr ""
-"Είστε σίγουροι ότι επιθυμείτε να αποποιηθείτε από όλα τα δικαιώματα στο έργο"
-" σας; Αφότου αποποιηθείτε τα δικαιώματα σας αυτά, δεν μπορείτε να τα "
-"διεκδικήσετε εκ νέου."
 
 #. Default: ""
 #. "In particular, if you are an artist or author who\n"
@@ -2416,9 +1919,6 @@ msgid ""
 " your income, Creative Commons <strong>does not recommend</strong> that you "
 "use this tool."
 msgstr ""
-"Ειδικότερα, εάν είστε ένας καλλιτέχνης ή συγγραφέας, που επαφίεστε στα "
-"δικαιώματα πνευματικής ιδιοκτησίας για το εισόδημά σας, ο οργανισμός "
-"Creative Commons <strong>δεν συνιστά</ strong>τη χρήση αυτού του εργαλείου."
 
 #. Default: ""
 #. "If you don't own the rights to this work, then do not\n"
@@ -2432,20 +1932,16 @@ msgid ""
 "href=\"/choose/mark/\">Public Domain Mark</a> may be what you're looking "
 "for."
 msgstr ""
-"Αν δεν είστε δικαιούχος αυτού του έργου, τότε μη χρησιμοποιείται την άδεια "
-"CC0. Αν πιστεύετε οτι κανένας δεν είναι δικαιούχος αυτού του έργου, τότε το "
-"<a href=\"/choose/mark/\"> Σήμα Δημόσιου Τομέα</a> μπορεί να είναι αυτό που "
-"αναζητείτε. "
 
 #. Default: "No, I Do Not Waive"
 #: c/engine/zero/templates/confirm.pt:71
 msgid "No, I Do Not Waive"
-msgstr "Όχι, δεν αποποιούμαι"
+msgstr ""
 
 #. Default: "Yes, I Waive"
 #: c/engine/zero/templates/confirm.pt:82
 msgid "Yes, I Waive"
-msgstr "Ναι, αποποιούμαι"
+msgstr ""
 
 #. Default: ""
 #. "Please note that this is <strong>not a registration\n"
@@ -2464,18 +1960,11 @@ msgid ""
 " not be associated with CC0 or made available under CC0 until you publish it"
 " marked as being so."
 msgstr ""
-"Παρακαλώ σημειώστε ότι αυτό <strong> δεν είναι διαδικασία εγγραφής</ strong>"
-" και ο οργανισμός Creative Commons δεν αποθηκεύει κάποιο από τα στοιχεία που"
-" εισάγετε. Το εργαλείο αυτό σας καθοδηγεί μέσω της διαδικασίας της "
-"δημιουργίας κώδικα HTML με ενσωματωμένα μεταδεδομένα για σήμανση του έργου "
-"σας αδειοδοτημένου με CC0. Το έργο σας δεν θα συσχετιστεί με την άδεια CC0 "
-"ούτε θα διατεθεί με την άδεια CC0 μέχρι να το δημοσιεύσετε σηματοδοτημένο ως"
-" διατιθέμενο μ'αυτήν την άδεια."
 
 #. Default: "begin"
 #: c/engine/zero/templates/index.pt:98
 msgid "begin"
-msgstr "έναρξη"
+msgstr ""
 
 #. Default: ""
 #. "Copy the text below to your Web site to let your visitors\n"
@@ -2490,16 +1979,11 @@ msgid ""
 "of your selection; as the publisher it's up to you to let people know how "
 "they may use your work."
 msgstr ""
-"Αντιγράψτε το παρακάτω κείμενο στην ιστοσελίδα σας, για να γνωρίζουν οι "
-"επισκέπτες σας ότι έχετε αποποιηθεί από τα δικαιώματα επί του έργου σας. Ο "
-"οργανισμός Creative Commons δεν διατηρεί αρχείο με την επιλογή σας. Ως "
-"εκδότης εξαρτάται από εσάς πως να καταστήσετε στους ανθρώπους γνωστό το πώς "
-"μπορούν να χρησιμοποιήσουν το έργο σας."
 
 #. Default: "Send Email"
 #: c/engine/zero/templates/results.pt:122
 msgid "Send Email"
-msgstr "Αποστολή μηνύματος ηλεκτρονικής αλληλογραφίας"
+msgstr ""
 
 #. Default: ""
 #. "An error occurred when we tried to send the email message;\n"
@@ -2515,18 +1999,12 @@ msgid ""
 "address you used (%(email_addr)s) was correct you can <a "
 "href=\"/about/contact\">contact us</a>."
 msgstr ""
-"Προέκυψε σφάλμα κατά την προσπάθεια αποστολής μηνύματος ηλεκτρονικής "
-"αλληλογραφίας. Προσπαθήστε να πατήσετε το κουμπί Πίσω και να ελέγξετε ξανά "
-"τη διεύθυνση ηλεκτρονικής αλληλογραφίας σας. Αν η διεύθυνση που "
-"χρησιμοποιήσατε (%(email_addr)s) ήταν σωστή μπορείτε να <a "
-"href=\"/about/contact\">επικοινωνήσετε μαζί μας</a>."
 
 #. Default: "The suggested HTML has been sent to %(email_addr)s."
 #: c/engine/zero/templates/results.pt:143
 #, python-format
 msgid "The suggested HTML has been sent to %(email_addr)s."
 msgstr ""
-"Ο προτεινόμενος κώδικας HTML έχει σταλεί στη διεύθυνση %(email_addr)s."
 
 #. Default: ""
 #. "You have asked to be notified of updates to CC0.  A subscription\n"
@@ -2538,10 +2016,6 @@ msgid ""
 " been sent on your behalf; you must click the link in the confirmation email"
 " to complete the sign-up process."
 msgstr ""
-"Έχετε ζητήσει να ειδοποιήστε για τις αναβαθμίσεις της άδειας CC0. Το αίτημα "
-"εγγραφής έχει σταλεί εκ μέρους σας. Πρέπει να κάνετε κλικ στον σύνδεσμο στην"
-" ηλεκτρονική αλληλογραφία επιβεβαίωσης για να ολοκληρώσετε τη διαδικασία "
-"εγγραφής."
 
 #. Default: ""
 #. "If you'd like to get the HTML with embedded metadata via\n"
@@ -2552,15 +2026,11 @@ msgid ""
 "If you'd like to get the HTML with embedded metadata via email and "
 "optionally receive updates about CC0, fill in your email address below."
 msgstr ""
-"Αν θα θέλατε να πάρετε τον κώδικα HTML με τα ενσωματωμένα μεταδεδομένα μέσω "
-"μηνύματος ηλεκτρονικής αλληλογραφίας και  να λαμβάνετε κατ' επιλογήν "
-"ενημερώσεις για την άδεια CC0, συμπληρώστε τη διεύθυνση ηλεκτρονικής "
-"αλληλογραφίας σας παρακάτω."
 
 #. Default: "Send me updates about CC0"
 #: c/engine/zero/templates/results.pt:181
 msgid "Send me updates about CC0"
-msgstr "Στείλτε μου ενημερώσεις για αναβαθμίσεις της άδειας CC0"
+msgstr ""
 
 #. Default: ""
 #. "You did not affirm your decision to waive the rights\n"
@@ -2572,41 +2042,36 @@ msgid ""
 "work. If you'd like to continue you can click the Back button to review your"
 " choice."
 msgstr ""
-"Δεν επιβεβαιώσατε την απόφασή σας να αποποιηθείτε από τα δικαιώματα που "
-"συσχετίζονται με το έργο σας. Αν θέλετε να συνεχίσετε μπορείτε να κάνετε "
-"κλικ στο κουμπί Πίσω για να επανεξετάσετε την επιλογή σας."
 
 #. Default: "About CC0"
 #: c/engine/zero/templates/results.pt:61
 msgid "About CC0"
-msgstr "Περί την άδεια CC0"
+msgstr ""
 
 #. Default: "Frequently Asked Questions"
 #: c/engine/zero/templates/results.pt:63
 msgid "Frequently Asked Questions"
-msgstr "Συχνές ερωτήσεις"
+msgstr ""
 
 #. Default: "Choose which style of button you'd like on your webpage:"
 #: c/engine/zero/templates/results.pt:72
 msgid "Choose which style of button you'd like on your webpage:"
-msgstr "Επιλέξτε τον τύπο του κουμπιού που σας αρέσει για την ιστοσελίδα σας:"
+msgstr ""
 
 #. Default: "Here's a preview of how your waiver will appear on your site:"
 #: c/engine/zero/templates/results.pt:98
 msgid "Here's a preview of how your waiver will appear on your site:"
 msgstr ""
-"Εδώ είναι μία προεπισκόπηση για το πως θα εμφανίζεται η αποποίηση "
-"δικαιωμάτων σας στο διαδικτυακό σας τόπο:"
 
 #. Default: "Your name"
 #: c/engine/zero/templates/waiver.pt:103
 msgid "Your name"
-msgstr "Το όνομα σας"
+msgstr ""
 
 #. Default: "Your URL"
 #: c/engine/zero/templates/waiver.pt:111 c/engine/zero/templates/waiver.pt:125
 msgid "Your URL"
-msgstr "Η διεύθυνση του διαδικτυακού σας τόπου"
+msgstr ""
 
 #. Default: ""
 #. "The URL where people can find more information about \n"
@@ -2616,15 +2081,13 @@ msgid ""
 "The URL where people can find more information about \n"
 "the work or the person using CC0."
 msgstr ""
-"Το URL στο οποίο που μπορούν οι άνθρωποι να βρουν περισσότερες πληροφορίες για \n"
-"το έργο ή το άτομο που χρησιμοποιεί την άδεια CC0."
 
 #. Default: ""
 #. "Jurisdiction where the work is being \n"
 #. "\toffered from under CC0."
 #: c/engine/zero/templates/waiver.pt:166 c/engine/zero/templates/waiver.pt:164
 msgid "Jurisdiction from which the work is being offered under CC0."
-msgstr "Δικαιοδοσία από την οποία το έργο διατίθεται υπό την άδεια CC0."
+msgstr ""
 
 #. Default: ""
 #. "I hereby waive all copyright and related or neighboring\n"
@@ -2637,10 +2100,6 @@ msgid ""
 " all associated claims and causes of action with respect to this work to the"
 " extent possible under the law."
 msgstr ""
-"Με την παρούσα δήλωση αποποιούμαι κάθε δικαιώματος πνευματικής ιδιοκτησίας "
-"του δημιουργού και σχετικών ή συγγενικών δικαιωμάτων μαζί με όλους τους "
-"συσχετιζόμενους ισχυρισμούς και κάθε λόγο ενεργειών αναφορικά με αυτό το "
-"έργο στο μέτρο του δυνατού σύμφωνα με τη νομοθεσία."
 
 #. Default: ""
 #. "I have read and understand the terms and intended legal\n"
@@ -2651,14 +2110,11 @@ msgid ""
 "I have read and understand the terms and intended legal effect of CC0, and "
 "hereby voluntarily elect to apply it to this work."
 msgstr ""
-"Έχω διαβάσει και καταλάβει τους όρους και τις αποσκοπούμενες νομικές "
-"συνέπειες της άδειας CC0 και με την παρούσα δήλωση επιλέγω με τη βούλησή μου"
-" να την εφαρμόσω σ'αυτό το έργο. "
 
 #. Default: "continue"
 #: c/engine/zero/templates/waiver.pt:217
 msgid "continue"
-msgstr "συνέχεια"
+msgstr ""
 
 #. Default: ""
 #. "These fields are optional, but will be embedded in the HTML\n"
@@ -2671,11 +2127,6 @@ msgid ""
 "your work. This allows users of your work to determine how to contact you or"
 " where to go for more information about the work."
 msgstr ""
-"Η συμπλήρωση των πεδίων αυτών είναι προαιρετική, αλλά τα καταχωρημένα "
-"στοιχεία θα είναι ενσωματωμένα στον κώδικα HTML που θα δημιουργηθεί για το "
-"έργο σας. Η συμπλήρωση αυτών των πεδίων επιτρέπει στους χρήστες του έργου "
-"σας να γνωρίζουν πως να επικοινωνήσουν μαζί σας ή που να βρουν περισσότερες "
-"πληροφορίες για το έργο σας."
 
 #: c/engine/chooser_pages/index.pt:165 c/engine/chooser_pages/index.pt:170
 msgid "None of the above"
@@ -2690,12 +2141,10 @@ msgid ""
 "Publish your licensed music or video to\n"
 "\t       the Internet Archive"
 msgstr ""
-"Δημοσιεύστε την αδειοδοτημένη  μουσική ή βίντεο σας στο»       Αρχείο "
-"Διαδικτύου. "
 
 #: c/engine/chooser_pages/results.pt:119
 msgid "Offline Work?"
-msgstr "Εργασία εκτός σύνδεσης;"
+msgstr ""
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:14
 #: c/engine/pd/templates/publicdomain-3.pt:38
@@ -2704,9 +2153,6 @@ msgid ""
 "  (based on United States law)<br />\n"
 "  or Public Domain Certification"
 msgstr ""
-"Πνευματικά δικαιώματα-Μόνον εκχώρηση<a href=\"#\" class=\"helpLink\" id=\"use_zero\">*</a>\n"
-"  (βασισμένο στον νόμο των ΗΠΑ)<br />\n"
-"  ή στην Πιστοποίηση Δημόσιου Τομέα"
 
 #: c/engine/licenses/publicdomain_templates/deed.pt:25
 #: c/engine/licenses/standard_templates/deed.pt:22
@@ -2717,29 +2163,27 @@ msgstr "Αυτή η άδεια είναι αποδεκτή για Ελεύθερ
 #: c/engine/licenses/publicdomain_templates/deed.pt:47
 #: c/engine/publicdomain/zero_templates/deed.pt:141
 msgid "Use this tool for your own work."
-msgstr "Χρησιμοποιήστε αυτό το εργαλείο το δικό σας έργο."
+msgstr ""
 
 #: c/engine/licenses/standard_templates/deed.pt:110
 msgid "With the understanding that:"
-msgstr "Με την κατανόηση ότι:"
+msgstr ""
 
 #: c/engine/licenses/standard_templates/deed.pt:116
 msgid "Waiver"
-msgstr "Αποποίηση"
+msgstr ""
 
 #: c/engine/licenses/standard_templates/deed.pt:125
 msgid "Other Rights"
-msgstr "Άλλα δικαιώματα"
+msgstr ""
 
 #: c/engine/licenses/standard_templates/deed.pt:128
 msgid "In no way are any of the following rights affected by the license:"
 msgstr ""
-"Σε καμία περίπτωση δεν επηρεάζονται από την άδεια οποιοδήποτε από τα "
-"παρακάτω δικαιώματα:"
 
 #: c/engine/licenses/standard_templates/deed.pt:178
 msgid "What does \"conditions can be waived\" mean?"
-msgstr "Τι σημαίνει \"μπορεί να υπάρξει αποποίηση από το περιεχόμενο των όρων\";"
+msgstr ""
 
 #: c/engine/licenses/standard_templates/deed.pt:182
 msgid ""
@@ -2747,12 +2191,10 @@ msgid ""
 "\t\twaive compliance with a specific condition, such as\n"
 "\t\tattribution."
 msgstr ""
-"Οι άδειες CC προβλέπουν ότι ο δικαιοπάροχος μπορεί να θέλει να »»αποποιηθεί "
-"τη συμμόρφωση με συγκεκριμένο όρο, όπως η»» \tΑναφορά Δημιουργού."
 
 #: c/engine/licenses/standard_templates/deed.pt:192
 msgid "What does \"Fair use\" mean?"
-msgstr "Τι σημαίνει \"Δίκαιη χρήση\";"
+msgstr ""
 
 #: c/engine/licenses/standard_templates/deed.pt:196
 msgid ""
@@ -2762,13 +2204,10 @@ msgid ""
 "              users under those copyright limitations and exceptions,\n"
 "              such as fair use and fair dealing where applicable."
 msgstr ""
-"Όλες οι δικαιοδοσίες \n"
-"              επιτρέπουν κάποιες περιορισμένες χρήσεις έργων προστατευμένων με πνευματικά δικαιώματα χωρίς\n"
-"              προηγούμενη άδεια.  Οι άδεις CC δεν επηρεάζουν τα δικαιώματα των χρηστών που ισχύουν ως περιορισμοί και εξαιρέσεις των πνευματικών δικαιωμάτων, όπως δικαιώματα από Δίκαιη χρήση ή Δίκαιη δοσοληψία όπου είναι αυτά είναι εφαρμόσιμα. "
 
 #: c/engine/licenses/standard_templates/deed.pt:208
 msgid "What are \"Moral Rights\"?"
-msgstr "Τι είναι  \"Ηθικά δικαιώματα\";"
+msgstr ""
 
 #: c/engine/licenses/standard_templates/deed.pt:212
 msgid ""
@@ -2779,14 +2218,6 @@ msgid ""
 " which may provide some redress if a derivative work represents a "
 "\"derogatory treatment\" of the licensor's work."
 msgstr ""
-"Εκτός από το δικαίωμα των αδειοδοτούντων να ζητούν τη διαγραφή του ονόματός "
-"τους από τα έργα όταν αυτά αναφέρονται σε παράγωγο έργο ή συλλογικά έργα τα "
-"οποία δεν εγκρίνουν, οι νόμοι περί πνευματικής ιδιοκτησίας στις περισσότερες"
-" χώρες ανά τον κόσμο (με την αξιοσημείωτη εξαίρεση των νόμων στις ΗΠΑ εκτός "
-"περιορισμένων συνθηκών) χορηγούν στους δημιουργούς \"ηθικά δικαιώματα\", τα "
-"οποία μπορεί να παρέχουν δικαιώματα εναντίωσης του δημιουργού αν το παράγωγο"
-" έργο αποτελεί μία \"υποτιμητική μεταχείριση\" του έργου του αδειοδοτούντος "
-"αυτό."
 
 #: c/engine/licenses/standard_templates/deed.pt:233
 msgid ""
@@ -2798,9 +2229,6 @@ msgid ""
 "              work may need to get permission from those individuals\n"
 "              before using the work for commercial purposes."
 msgstr ""
-"Τα δικαιώματα\n"
-"              δημοσιότητας επιτρέπουν σε άτομα να ελέγξουν πως η φωνή τους, η εικόνα τους ή κάποιο άλλο στοιχείο που τ'αφορά, χρησιμοποιείται για εμπορικούς σκοπούς δημοσίως.  Αν ένα αδειοδοτημένο με CC έργο περιέχει τη φωνή ή\n"
-"              την εικόνα κάποιου άλλου εκτός του αδειοδοτούντος, ο χρήστης του έργου ίσως χρειάζεται να πάρει άδεια από αυτά τα άτομα πριν την χρήση του έργου για εμπορικούς σκοπούς."
 
 #: c/engine/macros_templates/metadata.pt:24
 #: c/engine/macros_templates/metadata.pt:59
@@ -2830,15 +2258,6 @@ msgid ""
 "    use the Public Domain Certification to dedicate a work to the\n"
 "    public domain, it may not be valid outside of the United States."
 msgstr ""
-"Επιλέξατε Πιστοποίηση Δημόσιου Τομέα. Η Πιστοποίηση Δημόσιου Τομέα πρέπει να"
-" χρησιμοποιείται μόνο για να πιστοποιεί ένα έργο που είναι ήδη στο Δημόσιο "
-"Τομέα. Ο οργανισμός Creative Commons δε σας συνιστά να χρησιμοποιήσετε την "
-"Πιστοποίηση Δημόσιου Τομέα για να θέσετε ένα έργο σας στο Δημόσιο Τομέα ενώ "
-"σ'αυτό υπάρχουν ακόμη δικαιώματα πνευματικής ιδιοκτησίας. Για να θέσετε ένα "
-"έργο στο Δημόσιο Τομέα, σκεφτείτε να χρησιμοποιήσετε την άδεια <a "
-"href=\"/license/zero/\">CC0</a>. Παρακαλώ σημειώστε ότι αν χρησιμοποιήσετε "
-"την Πιστοποίηση Δημόσιου Τομέα για να θέσετε ένα έργο σ'αυτόν, η πράξη σας "
-"αυτή μπορεί να μην είναι έγκυρη εκτός δικαιοδοσίας των ΗΠΑ."
 
 #: c/engine/pd/templates/publicdomain-2.pt:37
 #: c/engine/pd/templates/publicdomain-2.pt:32
@@ -2847,27 +2266,25 @@ msgid ""
 "    opportunity to confirm your choice before the certification\n"
 "    happens."
 msgstr ""
-"Μόλις ολοκληρώσετε την συμπλήρωση στοιχείων, θα έχετε ακόμη την ευκαιρία να "
-"επιβεβαιώσετε την επιλογή σας πριν συμβεί η πιστοποίηση."
 
 #: c/engine/pd/templates/publicdomain-2.pt:43
 msgid "About the work you are certifying"
-msgstr "Σχετικά με το έργο που πιστοποιείτε"
+msgstr ""
 
 #: c/engine/pd/templates/publicdomain-2.pt:47
 msgid "(all fields are required)"
-msgstr "(όλα τα πεδία είναι απαραίτητα)"
+msgstr ""
 
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:16
 #: c/engine/pd/templates/publicdomain-4.pt:17
 #: c/engine/pd/templates/publicdomain-3.pt:18
 #: c/engine/pd/templates/publicdomain-2.pt:16
 msgid "Identify a Public Domain Work"
-msgstr "Προσδιορίστε ένα έργο Δημόσιου Τομέα"
+msgstr ""
 
 #: c/engine/publicdomain/templates/index.pt:14
 msgid "Our Public Domain Tools"
-msgstr "Τα εργαλεία μας για το Δημόσιο Τομέα"
+msgstr ""
 
 #: c/engine/publicdomain/templates/index.pt:16
 msgid ""
@@ -2877,22 +2294,12 @@ msgid ""
 "domain to do so, and facilitate the labeling and discovery of works that are"
 " already free of known copyright restrictions."
 msgstr ""
-"Οι άδειες μας βοηθάνε τους δημιουργούς να διατηρούν και διαχειρίζονται τα "
-"πνευματικά τους δικαιώματα με όρους που αυτοί επιλέγουν. Τα εργαλεία μας για"
-" το Δημόσιο Τομέα, από την άλλη, παρέχουν τη δυνατότητα στους δημιουργούς "
-"και δικαιούχους που θέλουν να διαθέσουν τα έργα τους στον παγκόσμιο Δημόσιο "
-"Τομέα να το κάνουν, και διευκολύνουν τη σήμανση και την ανεύρεση των έργων "
-"που είναι ήδη απαλλαγμένα από κάθε γνωστό περιορισμό πνευματικής "
-"ιδιοκτησίας. "
 
 #: c/engine/publicdomain/templates/index.pt:24
 msgid ""
 "Use this universal tool if you are a holder of copyright or database rights,"
 " and you wish to waive all your interests in your work worldwide."
 msgstr ""
-"Κάνε χρήση αυτού του διεθνώς χρησιμοποιούμενου εργαλείου αν είσαι δικαιούχος"
-" πνευματικής ιδιοκτησίας ή πνευματικών δικαιωμάτων σε βάση δεδομένων και "
-"επιθυμείς να αποποιηθείς των δικαιωμάτων σου επί του έργου παγκοσμίως."
 
 #: c/engine/publicdomain/templates/index.pt:33
 #: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:8
@@ -2900,7 +2307,7 @@ msgstr ""
 #: c/engine/pd/templates/publicdomain-3.pt:8
 #: c/engine/pd/templates/publicdomain-2.pt:8
 msgid "Public Domain Certification"
-msgstr "Πιστοποίηση Δημόσιου Τομέα"
+msgstr ""
 
 #: c/engine/zero/templates/index.pt:59
 msgid ""
@@ -2911,14 +2318,6 @@ msgid ""
 "\t  competition, and database rights and rights protecting the\n"
 "\t  extraction, dissemination and reuse of data."
 msgstr ""
-"Με τη χρήση της άδειας CC0, μπορείτε να αποποιηθείτε όλων των δικαιωμάτων "
-"πνευματικής ιδιοκτησίας και των συσχετιζόμενων ή συγγενικών δικαιωμάτων που "
-"έχετε στο έργο σας, όπως των ηθικών δικαιωμάτων (κατά το μέτρο της "
-"επιτρεπτής στο νόμο αποποίησης), των δικαιωμάτων δημοσιότητας ή των "
-"δικαιωμάτων ιδιωτικότητας, των δικαιωμάτων προστασίας έναντι αθέμιτου "
-"ανταγωνισμού, των δικαιωμάτων προστασία πνευματικής ιδιοκτησίας βάσεων "
-"δεδομένων, και των δικαιωμάτων προστασίας της εξαγωγής, διανομής και "
-"χρησιμοποίησης κατ' επανάληψη των δεδομένων."
 
 #: c/engine/zero/templates/index.pt:68
 msgid ""
@@ -2928,11 +2327,6 @@ msgid ""
 "\t  your legal advisor if you are unsure whether you have all\n"
 "\t  the rights you need to distribute the work."
 msgstr ""
-"Λάβετε υπόψη σας ότι δεν μπορείτε να αποποιηθείτε δικαιώματα σε έργο του "
-"οποίου δεν είστε δικαιούχος εκτός και αν έχετε άδεια από τον δικαιούχο. "
-"Προς\t  αποφυγή προσβολής δικαιωμάτων  τρίτων, πρέπει να συμβουλευτείτε τον "
-"νομικό σας σύμβουλο αν δεν είστε βέβαιοι αν έχετε όλα τα δικαιώματα που "
-"χρειάζεστε για να διανέμετε το έργο."
 
 #: c/engine/zero/templates/waiver.pt:83
 msgid ""
@@ -2947,28 +2341,16 @@ msgid ""
 "\t  you want to find out more.\n"
 "\t</p>"
 msgstr ""
-"<p>\n"
-"\t  Η πληροφορία είναι ενσωματωμένη σε μία αναγνώσιμη μορφή λογισμικού.\n"
-"\t  Αυτό επιτρέπει στις μηχανές αναζήτησης να καταλογοποιήσουν επιπρόσθετες πληροφορίες\n"
-"\t  για την εργασία σας.\n"
-"\t</p>\n"
-"\t<p>\n"
-"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">Περισσότερες\n"
-"\t    πληροφορίες</a> στα Creative Commons μεταδεδομένα είναι διαθέσιμα αν\n"
-"\t  θέλετε να βρείτε περισσότερα.\n"
-"\t</p>"
 
 #: c/engine/pd/templates/publicdomain-3.pt:65
 msgid ""
 "Copyright-Only Dedication (based on United States law) \n"
 "or Public Domain Certification"
 msgstr ""
-"Πνευματικά δικαιώματα-Μόνο εκχώρηση (βασισμένο στο νόμο των ΗΠΑ) ή "
-"πιστοποίηση δημόσιου τομέα"
 
 #: c/engine/pd/templates/publicdomain-2.pt:58
 msgid "Author"
-msgstr "Συγγραφέας"
+msgstr ""
 
 #: c/engine/pd/templates/publicdomain-3.pt:118
 msgid ""
@@ -2976,31 +2358,28 @@ msgid ""
 "\t    effect of this tool, and hereby voluntarily elect to apply it to\n"
 "\t    this work."
 msgstr ""
-"Έχω διαβάσει και καταλάβει τους όρους και τα προβλεπόμενα έννομα\n"
-"\t    αποτελέσματα αυτού του εργαλείου και επί του παρόντος επιλέξτε ελεύθερα να το εφαρμόσετε σε\n"
-"\t    αυτό το έργο."
 
 #: c/engine/pd/templates/publicdomain-3.pt:56
 msgid "Confirm Your Public Domain Certification"
-msgstr "Επιβεβαιώστε την πιστοποίηση σας για το Δημόσιο Τομέα"
+msgstr ""
 
 #: c/engine/publicdomain/templates/index.pt:34
 #: c/engine/publicdomain/templates/index.pt:51
 msgid "Use this tool"
-msgstr "Χρήση αυτού του εργαλείου"
+msgstr ""
 
 msgid "Thailand"
-msgstr "Ταϋλάνδη"
+msgstr ""
 
 msgid "Thai"
-msgstr "Ταϊλανδέζα"
+msgstr ""
 
 #: c/engine/licenses/standard_templates/deed.pt:162
 msgid "Notice"
-msgstr "Σημείωση"
+msgstr ""
 
 msgid "Czech"
-msgstr "Τσεχία"
+msgstr ""
 
 #: c/engine/chooser_pages/partner/index.pt:36
 #, python-format
@@ -3010,11 +2389,6 @@ msgid ""
 " copyright or on which the copyright has expired, choose the <a "
 "href=\"%(pd_url)s\">Public Domain Mark</a>."
 msgstr ""
-"Αν θέλετε να μοιραστείτε ένα έργο που δημιουργήσατε χωρίς όρους, διαλέξτε <a"
-" href=\"%(cc0_url)s\">την άδεια CC0</a>. Αν μοιράζεστε ένα έργο που δεν "
-"καλύπτετε από πνευματική ιδιοκτησία ή στο οποίο τα δικαιώματα πνευματικής "
-"ιδιοκτησίας έχουν λήξει, διαλέξτε<a href=\"%(pd_url)s\">το Σήμα Δημόσιου "
-"Τομέα</a>. "
 
 #: c/engine/pd/templates/publicdomain-partner.pt:24
 msgid ""
@@ -3023,10 +2397,6 @@ msgid ""
 "Certification is not a license. By using it you assert that a work is\n"
 "already in the public domain."
 msgstr ""
-"Η επιλογή σας προτείνει ότι \n"
-"θέλετε να πιστοποιήσετε μία εργασία στο δημόσιο τομέα. Η Πιστοποίηση Δημόσιου \n"
-"Τομέα δεν είναι μία άδεια. Χρησιμοποιώντας τη βεβαιώνεται ότι μία εργασία είναι ήδη\n"
-"στο δημόσιο τομέα."
 
 #: c/engine/pd/templates/publicdomain-partner.pt:31
 #, python-format
@@ -3035,25 +2405,19 @@ msgid ""
 "waive copyright and neighboring rights on a work <em>in which you hold\n"
 "these rights</em>, choose <a href=\"%(cc0_url)s\">CC0</a>."
 msgstr ""
-"Αν αντί αυτού θέλετε να\n"
-"αποποιηθείτε πνευματικά δικαιώματα και γειτονικά δικαιώματα για μία εργασία <em>την οποία κρατάτε\n"
-"τα δικαιώματα</em>, επιλέξτε <a href=\"%(cc0_url)s\">CC0</a>."
 
 msgid "Arabic"
-msgstr "Αραβικά"
+msgstr ""
 
 #. Default: "Territory"
 #: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
 msgid "Territory"
-msgstr "Επικράτεια"
+msgstr ""
 
 msgid ""
 "You can copy, modify, distribute and perform the work, even for commercial "
 "purposes, all without asking permission. See <b>Other Information</b> below."
 msgstr ""
-"Μπορείς να αντιγράφεις, διανέμεις, και παρουσιάζεις το έργο ακόμη και αν "
-"πρόκειται για εμπορικές χρήσεις, χωρίς να λαμβάνεις άδεια. Βλέπε "
-"<b>περαιτέρω πληροφόρηση</b> παρακάτω."
 
 #: s/standard_templates/deed.pt:121
 msgid ""
@@ -3062,58 +2426,52 @@ msgid ""
 "class=\"helpLink\">public domain</a> under applicable law, that status is in"
 " no way affected by the license."
 msgstr ""
-"Όταν ένα έργο ή κάποιο από τα μέρη του είναι διαθέσιμο στο <a "
-"href=\"http://wiki.creativecommons.org/Public_domain\" id=\"public_domain\" "
-"class=\"helpLink\">Δημόσιο Τομέα</a> σύμφωνα με εφαρμοστέο Δίκαιο, αυτό το "
-"status δεν επηρεάζεται με κανένα τρόπο από την άδεια. "
 
 #: s/standard_templates/deed.pt:209
 msgid "What does \"Public Domain\" mean?"
-msgstr "Τι σημαίνει \"Δημόσιος Τομέας\"; "
+msgstr ""
 
 #: s/standard_templates/deed.pt:213
 msgid ""
 "A work is in the public domain when it is free for use by anyone for any "
 "purpose without restriction under copyright."
 msgstr ""
-"Όταν ένα έργο είναι στο Δημόσιο Τομέα, είναι διαθέσιμο σε οποιονδήποτε χωρίς"
-" περιορισμούς πνευματικής ιδιοκτησίας και για οποιοδήποτε σκοπό."
 
 msgid "Aranese"
-msgstr "Διάλεκτος Aranese"
+msgstr ""
 
 msgid "Lithuanian"
-msgstr "Λιθουανικά"
+msgstr ""
 
 msgid "Urdu"
-msgstr "Ουρντού"
+msgstr ""
 
 msgid "Latvian"
-msgstr "Λετονικά"
+msgstr ""
 
 msgid "Ukranian"
-msgstr "Ουκρανικά"
+msgstr ""
 
 msgid "Universal"
-msgstr "Παγκόσμια"
+msgstr ""
 
 msgid "Russian"
-msgstr "Ρωσικά"
+msgstr ""
 
 msgid "Belarusian"
-msgstr "Λευκορωσικά"
+msgstr ""
 
 msgid "Mongolian"
-msgstr "Μογγολικά"
+msgstr ""
 
 msgid "Assamese"
-msgstr "Ασαμέζικα"
+msgstr ""
 
 msgid "Vietnamese"
-msgstr "Βιετναμέζικα"
+msgstr ""
 
 msgid "Vietnam"
-msgstr "Βιετνάμ"
+msgstr ""
 
 #: src/cc/deedscraper/templates/attribution_details.html:2
 #, python-format
@@ -3151,38 +2509,33 @@ msgid ""
 "\n"
 "<p>To signal to others that you are using a Creative Commons license, you can use a Creative Commons logo. The result will look like this:</p>"
 msgstr ""
-"<h1>Επανεξετάστε</h1>\n"
-"\n"
-"<p>Συγχαρητήρια, έχετε επιλέξει άδεια Creative Commons <a href=\"%(license_url)s\">%(license_pretty_name)s License</a>. </p>\n"
-"\n"
-"<p>Για να σηματοδοτήσετε προς τους άλλους οτι χρησιμοποείτε άδεια Creative Commons, μπορείτε να κάνετε χρήση ενός Creative Commons λογότυπου. Το αποτέλεσμα θα φαίνεται κάπως έτσι:</p>"
 
 msgid "Hindi"
-msgstr "Ινδικά"
+msgstr ""
 
 msgid "Bengali"
-msgstr "Βεγγαλικά"
+msgstr ""
 
 msgid "Tamil"
-msgstr "Διάλεκτος Ταμίλ"
+msgstr ""
 
 msgid "Icelandic"
-msgstr "Ισλανδικά"
+msgstr ""
 
 msgid "Public Domain Mark"
-msgstr "Σήμα Δημόσιου Τομέα"
+msgstr ""
 
 msgid "Estonian"
-msgstr "Εσθονικά"
+msgstr ""
 
 msgid "Georgian"
-msgstr "Γεωργιανά"
+msgstr ""
 
 msgid "Asturian"
-msgstr "Διάλεκτος Asturian"
+msgstr ""
 
 msgid "Telugu"
-msgstr "Telegu"
+msgstr ""
 
 #. Default: ""
 #. "This is usually the title of the work given by the author, or if none the"
@@ -3192,14 +2545,11 @@ msgid ""
 "This is usually the title of the work given by the author, or if none the "
 "name associated with the work by the person identifying the work."
 msgstr ""
-"Αυτός είναι ο συνήθης τίτλος του έργου που αναφέρεται από τον δημιουργό, ή "
-"στην περίπτωση που κανείς δεν αναφέρεται ως δημιουργός, ο τίτλος του έργου "
-"που αναφέρεται από το πρόσωπο που αναγνωρίζει το έργο. "
 
 #. Default: "Author name"
 #: chooser_pages/pdmark/details.pt:118
 msgid "Author name"
-msgstr "Όνομα συγγραφέα"
+msgstr ""
 
 #. Default: ""
 #. "You may list multiple authors. If unknown, you may wish to state "
@@ -3208,13 +2558,11 @@ msgstr "Όνομα συγγραφέα"
 msgid ""
 "You may list multiple authors. If unknown, you may wish to state 'unknown'."
 msgstr ""
-"Μπορείς να αναφέρεις περισσότερους συγγραφείς. Αν το έργο είναι αγνώστου "
-"συγγραφέα, μπορείς να αναφέρεις 'αγνώστου'."
 
 #. Default: "Author URL"
 #: chooser_pages/pdmark/details.pt:132
 msgid "Author URL"
-msgstr "Κανονιστικό Αναγνωριστικό Πόρου του συγγραφέα"
+msgstr ""
 
 #. Default: ""
 #. "This may be the URL where the author published the work online, or the "
@@ -3224,30 +2572,26 @@ msgid ""
 "This may be the URL where the author published the work online, or the URL "
 "where the work is published by the person identifying the work."
 msgstr ""
-"Αυτό μπορεί να είναι το Κανονιστικό Αναγνωριστικό Πόρου στο οποίο ο "
-"συγγραφέας δημοσίευσε αυτό το έργο στο διαδίκτυο, ή το Κανονιστικό "
-"Αναγνωριστικό Πόρου στο οποίο το έργο δημοσιεύθηκε από το πρόσωπο που "
-"αναγνωρίζει το έργο. "
 
 #. Default: "Identifying Individual or Organization"
 #: chooser_pages/pdmark/details.pt:149
 msgid "Identifying Individual or Organization"
-msgstr "Αναγνωρίζοντας ιδιώτη ή οργανισμό (φορέα)"
+msgstr ""
 
 #. Default: "Name"
 #: chooser_pages/pdmark/details.pt:152
 msgid "Name"
-msgstr "Όνομα"
+msgstr ""
 
 #. Default: "Identify yourself here."
 #: chooser_pages/pdmark/details.pt:157
 msgid "Identify yourself here."
-msgstr "Δηλώσου εδώ."
+msgstr ""
 
 #. Default: "URL"
 #: chooser_pages/pdmark/details.pt:165
 msgid "URL"
-msgstr "Κανονιστικό Αναγνωριστικό Πόρου "
+msgstr ""
 
 #. Default: ""
 #. "This may be your main website or the information page about you on a "
@@ -3257,9 +2601,6 @@ msgid ""
 "This may be your main website or the information page about you on a hosting"
 " website, such as Flickr Commons."
 msgstr ""
-"Αυτός μπορεί να είναι ο κύριος διαδικτυακός τόπος ή η ιστοσελίδα που παρέχει"
-" πληροφορίες για σένα σε διαδικτυακό τόπο που σε φιλοξενεί, όπως ο Flickr "
-"Commons. "
 
 #. Default: ""
 #. "These fields are optional, but will be embedded in the HTML generated for"
@@ -3271,10 +2612,6 @@ msgid ""
 "the work you are marking. This allows users of the work to locate the work "
 "online and find out where to go for more information."
 msgstr ""
-"Αυτά τα πεδία είναι προαιρετικά, αλλά θα ενσωματωθούν στον HTML κώδικα που "
-"θα παραχθεί για το έργο που σηματοδοτείς. Κατ' αυτό τον τρόπο οι χρήστες του"
-" έργου μπορούν να εντοπίσουν το έργο στο διαδίκτυο και βρίσκουν που μπορούν "
-"να έχουν γι' αυτό περαιτέρω πληροφόρηση. "
 
 #. Default: ""
 #. "<p> The information is embedded in a software readable format. This "
@@ -3290,22 +2627,16 @@ msgid ""
 "information</a> on Creative Commons metadata is available if you want to "
 "find out more. </p>"
 msgstr ""
-"<p> Οι πληροφορίες καταχωρούνται σε μορφή λογισμικά αναγνώσιμη. Αυτό "
-"επιτρέπει στις μηχανές αναζήτησης να ανασύρουν πρόσθετη πληροφόρηση σχετική "
-"με το σηματοδοτημένο έργο.</p> <p> <a "
-"href=\"http://wiki.creativecommons.org/Metadata\"> Περαιτέρω πληροφόρηση</a>"
-" για τα μεταδεδομένα των Creative Commons είναι διαθέσιμη, αν θες να μάθεις "
-"περισσότερα.</p>"
 
 #. Default: "Work Information"
 #: chooser_pages/pdmark/details.pt:96
 msgid "Work Information"
-msgstr "Πληροφορίες για το έργο"
+msgstr ""
 
 #. Default: "Work name"
 #: chooser_pages/pdmark/details.pt:99
 msgid "Work name"
-msgstr "Τίτλος έργου"
+msgstr ""
 
 #. Default: ""
 #. "Using the Public Domain Mark, you can mark a work that is free of known "
@@ -3319,11 +2650,6 @@ msgid ""
 "properly, the PDM allows the work to be easily discovered, and provides "
 "valuable information about the work."
 msgstr ""
-"Με το σήμα Δημόσιου Τομέα μπορείς να σηματοδοτήσεις ένα έργο που είναι "
-"ελεύθερο από γνωστούς περιορισμούς πνευματικής ιδιοκτησίας και εμφανώς "
-"δηλώνει αυτό το status. Όταν γίνεται σωστή χρήση του Σήματος Δημόσιου Τομέα,"
-" αυτό επιτρέπει να γίνεται εύκολη ανεύρεση του έργου και παρέχει χρήσιμη "
-"πληροφόρηση σχετικά με το έργο. "
 
 #. Default: ""
 #. "The PDM is intended for use with old works that are free of copyright "
@@ -3350,19 +2676,6 @@ msgid ""
 "should consult with your legal advisor if you are unsure whether you should "
 "use the PDM for a work you have identified."
 msgstr ""
-"Σήμα Δημόσιου Τομέα πρέπει να χρησιμοποιείται για παλαιά έργα που δεν έχουν "
-"περιορισμούς πνευματικής ιδιοκτησίας ανά τον κόσμο, ή για έργα που έχουν "
-"έχουν τεθεί στον παγκόσμιο Δημόσιο Τομέα πριν από τη λήξη των δικαιωμάτων "
-"πνευματικής ιδιοκτησίας σ'αυτά από τον δικαιούχο αυτών. Δεν πρέπει να "
-"χρησιμοποιείται για έργα που είναι στο Δημόσιο Τομέα σε μερικές "
-"δικαιοδοσίες, όμως είναι γνωστό οτι τελούν υπό περιορισμούς πνευματικής "
-"ιδιοκτησίας σε άλλες δικαιοδοσίες. Επί του παρόντος, ο οργανισμός Creative "
-"Commons δεν συνιστά το Σήμα Δημόσιου Τομέα για έργα των οποίων το status "
-"πνευματικής ιδιοκτησίας διαφέρει από δικαιοδοσία σε δικαιοδοσία. Παρόλα "
-"αυτά, αναπτύσσουμε εφαρμογές για τη σηματοδότηση και τη δημιουργία ετικετών "
-"για τέτοια έργα. Θα πρέπει να συμβουλευτείτε το νομικό σας σύμβουλο αν είστε"
-" αβέβαιοι για το αν πρέπει να χρησιμοποιήσετε το Σήμα Δημόσιου Τομέα για ένα"
-" έργο που έχετε επισημάνει."
 
 #. Default: ""
 #. "Please note that this is <strong>not a registration process</strong> and "
@@ -3380,13 +2693,6 @@ msgid ""
 " restrictions. The work will not be associated with a Public Domain Mark "
 "until you publish it marked as being so."
 msgstr ""
-"Παρακαλώ, λάβε υπόψη σου οτι αυτή <strong>δεν είναι μια διαδικασία "
-"εγγραφής</strong> και οτι ο οργανισμός Creative Commons δεν αποθηκεύει ούτε "
-"καταχωρεί οποιαδήποτε από τις πληροφορίες που παρέχεις. Αυτή η εφαρμογή σε "
-"καθοδηγεί στη διαδικασία παραγωγής λογισμικού κώδικα HTML εμπλουτισμένου με "
-"μεταδεδομένα για τη σηματοδότηση έργου που έχεις αναγνωρίσει ως ελεύθερο "
-"περιορισμών πνευματικής ιδιοκτησίας. Το έργο δεν θα συσχετιστεί με το Σήμα "
-"Δημόσιου Τομέα μέχρι να το δημοσιεύσεις έτσι σηματοδοτημένο. "
 
 #. Default: ""
 #. "If you'd like to get the HTML with embedded metadata via email, fill in "
@@ -3396,9 +2702,6 @@ msgid ""
 "If you'd like to get the HTML with embedded metadata via email, fill in your"
 " email address below."
 msgstr ""
-"Αν θέλεις να λάβεις τον λογισμικό κώδικα HTML με τα μεταδεδομένα μέσω "
-"ηλεκτρονικού ταχυδρομείου, συμπλήρωσε τη διεύθυνση ηλεκτρονικού ταχυδρομείου"
-" σου παρακάτω. "
 
 #. Default: ""
 #. "Choose which style of button you would like to appear by the work on the "
@@ -3408,14 +2711,11 @@ msgid ""
 "Choose which style of button you would like to appear by the work on the "
 "webpage:"
 msgstr ""
-"Διάλεξε ποιο είδος κουμπιού θέλεις να εμφανίζεται με το έργο στην "
-"ιστοσελίδα: "
 
 #. Default: "Here's a preview of how the mark will appear on the website:"
 #: chooser_pages/pdmark/results.pt:78
 msgid "Here's a preview of how the mark will appear on the website:"
 msgstr ""
-"Εδώ είναι μια προεπισκόπηση για το πως θα φαίνεται το σήμα στην ιστοσελίδα. "
 
 #. Default: ""
 #. "Copy the text below to your website to let your visitors know that the "
@@ -3431,12 +2731,6 @@ msgid ""
 "Domain Mark. It is up to you to let people know that you have identified the"
 " work using the mark."
 msgstr ""
-"Κάνε αντιγραφή του παρακάτω κειμένου στο διαδικτυακό σου τόπο για να "
-"ενημερώνεις τους επισκέπτες αυτού περί του οτι το έργο που έχεις αναγνωρίσει"
-" είναι ελεύθερο περιορισμών πνευματικής ιδιοκτησίας. Ο οργανισμός Creative "
-"Commons δεν διατηρεί αρχείο του έργου που έχεις αναγνωρίσει με τη χρήση του "
-"Σήματος Δημόσιου Τομέα. Από εσένα εξαρτάται να ενημερώσεις το κοινό για το "
-"έργο που έχεις αναγνωρίσει χρησιμοποιώντας το σήμα. "
 
 #. Default: ""
 #. "Persons may have other rights in or related to the work, such as patent "
@@ -3454,12 +2748,6 @@ msgid ""
 " class=\"helpLink\" id=\"publicity_rights\" "
 "name=\"publicity_rights\">publicity or privacy</a> rights."
 msgstr ""
-"Τρίτοι μπορεί να έχουν άλλα δικαιώματα στο ή σχετικά με το έργο, όπως "
-"δικαιώματα πατέντας ή εμπορικού σήματος, και άλλοι μπορεί να έχουν "
-"δικαιώματα σχετικά με τη χρήση του έργου, όπως <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\" "
-"name=\"publicity_rights\">publicity or privacy</a>δικαιώματα."
 
 #. Default: ""
 #. "In some jurisdictions <a href=\"\" class=\"helpLink\" id=\"moral_rights\""
@@ -3474,12 +2762,6 @@ msgid ""
 "term of copyright. These rights may include the right to be identified as "
 "the author and the right to object to derogatory treatments."
 msgstr ""
-"Σε μερικά δικαιικά συστήματα <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\" name=\"moral_rights\">moral rights</a> το ηθικό "
-"δικαίωμα</a> του δημιουργού διατηρείται πέρα από το χρόνο διάρκειας της "
-"πνευματικής ιδιοκτησίας. Το ηθικό δικαίωμα μπορεί να περιλαμβάνει το "
-"δικαίωμα του δημιουργού να αναγνωρίζεται ως συγγραφέας καθώς και το δικαίωμα"
-" εναντίωσης σε χρήσεις που προσβάλλουν το έργο. "
 
 #. Default: ""
 #. "Unless expressly stated otherwise, the person who identified the work "
@@ -3491,10 +2773,6 @@ msgid ""
 "no warranties about the work, and disclaims liability for all uses of the "
 "work, to the fullest extent permitted by applicable law."
 msgstr ""
-"Εκτός αν άλλως έχει ρητά διατυπωθεί, το πρόσωπο που έχει αναγνωρίσει το έργο"
-" δεν παρέχει καμία εγγύηση για το έργο, και αποποιείται νομική ευθύνη για "
-"κάθε χρήση του έργου, στον υπέρτατο βαθμό που αυτό επιτρέπεται από "
-"εφαρμοστέο νόμο. "
 
 #. Default: ""
 #. "When using or citing the work, you should not imply <a href=\"\" "
@@ -3507,15 +2785,11 @@ msgid ""
 "class=\"helpLink\" id=\"endorsement\" name=\"endorsement\">endorsement</a> "
 "by the author or the person who identified the work."
 msgstr ""
-"Όταν κάνεις χρήση ή παραπέμπεις στο έργο, δεν πρέπει να υπαινίσσεσαι <a "
-"href=\"\" class=\"helpLink\" id=\"endorsement\" "
-"name=\"endorsement\">endorsement</a> σ' αυτή ως ο συγγραφέας ή το πρόσωπο "
-"που αναγνώρισε το έργο. "
 
 #. Default: "Endorsement"
 #: licenses/pdmark_deed.pt:145 licenses/zero_deed.pt:143
 msgid "Endorsement"
-msgstr "Πιστοποίηση"
+msgstr ""
 
 #. Default: ""
 #. "In some jurisdictions, wrongfully implying that an author, publisher or "
@@ -3525,14 +2799,11 @@ msgid ""
 "In some jurisdictions, wrongfully implying that an author, publisher or "
 "anyone else endorses your use of a work may be unlawful."
 msgstr ""
-"Σε μερικά δικαιικά συστήματα, ο εσφαλμένος υπαινιγμός οτι ο συγγραφέας, ο "
-"εκδότης ή κάποιος άλλος εγκρίνει τη χρήση ενός έργου από εσένα μπορεί να "
-"είναι μη σύννομος. "
 
 #. Default: "Citation"
 #: licenses/pdmark_deed.pt:162 licenses/zero_deed.pt:159
 msgid "Citation"
-msgstr "Παραπομπή"
+msgstr ""
 
 #. Default: ""
 #. "Copy and paste the HTML provided into your webpage to easily cite this "
@@ -3541,13 +2812,11 @@ msgstr "Παραπομπή"
 msgid ""
 "Copy and paste the HTML provided into your webpage to easily cite this work."
 msgstr ""
-"Κάνε αντιγραφή και επικόλληση του HTML κώδικα που παρέχεται στην ιστοσελίδα "
-"σου για εύκολη παραπομπή σ' αυτό το έργο. "
 
 #. Default: "Moral Rights"
 #: licenses/pdmark_deed.pt:178
 msgid "Moral Rights"
-msgstr "Εξουσίες Ηθικού Δικαιώματος "
+msgstr ""
 
 #. Default: ""
 #. "Copyright laws in most jurisdictions around the world grant creators "
@@ -3559,10 +2828,6 @@ msgid ""
 " rights\" which may provide some redress if use of a work is considered "
 "\"derogatory\"."
 msgstr ""
-"Οι νομοθεσίες πνευματικής ιδιοκτησίας στα περισσότερα δικαιικά συστήματα σ' "
-"όλο τον κόσμο παρέχουν στους δημιουργούς εξουσίες ηθικού δικαιώματος που "
-"δίνουν το δικαίωμα επανόρθωσης/αποζημίωσης σε περίπτωση χρήσης έργου που "
-"μπορεί να εκληφθεί ως προσβλητική. "
 
 #. Default: ""
 #. "The use of a work free of known copyright restrictions may be otherwise "
@@ -3578,18 +2843,11 @@ msgid ""
 "control how their voice, image or likeness is used, or other restrictions or"
 " limitations under applicable law."
 msgstr ""
-"Η χρήση ενός έργου ελεύθερου από γνωστούς περιορισμούς πνευματικής "
-"ιδιοκτησίας μπορεί να υπόκειται σε άλλες ρυθμίσεις ή περιορισμούς. Το έργο ή"
-" η χρήση του μπορεί να υπόκειται σε ρυθμίσεις νομοθεσίας για την προστασία "
-"δεδομένων προσωπικού χαρακτήρα, ρυθμίσεις δημοσιότητας, εικόνας, ή "
-"ιδιωτικότητας που επιτρέπουν σ' ένα πρόσωπο να ελέγχει πως η φωνή, εικόνα ή "
-"ομοιότητα μ'αυτό χρησιμοποιείται, ή άλλες ρυθμίσεις ή περιορισμούς σύμφωνα "
-"με εφαρμοστέο νόμο. "
 
 #. Default: "Term of Copyright"
 #: licenses/pdmark_deed.pt:213
 msgid "Term of Copyright"
-msgstr "Διάρκεια ισχύος πνευματικής ιδιοκτησίας"
+msgstr ""
 
 #. Default: ""
 #. "Copyright terms vary jurisdiction to jurisdiction. A work free of "
@@ -3601,10 +2859,6 @@ msgid ""
 "restrictions in one jurisdiction may not be similarly free in other "
 "jurisdictions."
 msgstr ""
-"Η διάρκεια ισχύος της πνευματικής ιδιοκτησίας διαφέρει από ένα δικαιικό "
-"σύστημα σε άλλο. Ένα έργο ελεύθερο περιορισμών πνευματικής ιδιοκτησίας σε "
-"ένα δικαιικό σύστημα μπορεί να μην είναι ελεύθερο πνευματικής ιδιοκτησίας σε"
-" άλλα. "
 
 #. Default: ""
 #. "<p id=\"nolaw-text\"> This work has been <b>identified</b> as being free "
@@ -3620,12 +2874,6 @@ msgid ""
 "perform the work, even for commercial purposes, all without asking "
 "permission. See <b>Other Information</b> below. </p>"
 msgstr ""
-"<p id=\"nolaw-text\"> Αυτό το έργο έχει <b>αναγνωριστεί</b> ως ελεύθερο "
-"γνωστών περιορισμών πνευματικής ιδιοκτησίας, συμπεριλαμβανομένων και όλων "
-"των σχετικών και συγγενικών δικαιωμάτων.  </p> <p> <br /> Μπορείς να "
-"αντιγράψεις, τροποποιήσεις, διανέμεις, και παρουσιάσεις το έργο, ακόμη και "
-"για εμπορικούς σκοπούς, χωρίς να ζητήσεις προηγούμενη άδεια για όλα αυτά. "
-"Βλέπε <b>περαιτέρω πληροφόρηση</b> παρακάτω. </p>"
 
 #. Default: ""
 #. "<p> The Public Domain Mark is not a legal instrument. </p> <p> Creative "
@@ -3646,37 +2894,26 @@ msgid ""
 "applied. CC makes no warranties about any work or its copyright status in "
 "any jurisdiction, and disclaims all liability for all uses of any work. </p>"
 msgstr ""
-"<p> Το Σήμα Δημόσιου Τομέα δεν είναι νομικό εργαλείο.</p> <p> Ο οργανισμός "
-"Creative Commons δεν είναι εταιρία δικηγόρων και δεν παρέχει νομικές "
-"υπηρεσίες ή συμβουλές. Η διανομή, παρουσίαση ή σύνδεση με αυτό το Σήμα "
-"Δημόσιου Τομέα δεν δημιουργεί σχέση δικηγόρου-πελάτη.  </p> <p> Ο οργανισμός"
-" Creative Commons δεν έχει επιβεβαιώσει το status πνευματικής ιδιοκτησίας "
-"οποιουδήποτε έργου επί του οποίου αυτό το σήμα έχει τεθεί. Ο οργανισμός "
-"Creative Commons δεν παρέχει καμία εγγύηση σχετικά με οποιοδήποτε έργο ή το "
-"καθεστώς πνευματικής ιδιοκτησίας του σε οποιοδήποτε δικαιικό σύστημα, και "
-"αποποιείται κάθε νομική ευθύνη για όλες τις χρήσεις οποιουδήποτε έργου. </p>"
 
 #. Default: "Use this tool to mark other public domain works."
 #: licenses/pdmark_deed.pt:272
 msgid "Use this tool to mark other public domain works."
 msgstr ""
-"Κάνε χρήση αυτής της εφαρμογής για να σηματοδοτήσεις άλλα έργα του Δημόσιου "
-"Τομέα."
 
 #. Default: "Work:"
 #: licenses/pdmark_deed.pt:61 licenses/zero_deed.pt:61
 msgid "Work:"
-msgstr "Έργο:"
+msgstr ""
 
 #. Default: "Author:"
 #: licenses/pdmark_deed.pt:66
 msgid "Author:"
-msgstr "Συγγραφέας:"
+msgstr ""
 
 #. Default: "Identified by:"
 #: licenses/pdmark_deed.pt:71
 msgid "Identified by:"
-msgstr "Αναγνωρίζεται από:"
+msgstr ""
 
 #. Default: ""
 #. "You can <a href=\"\" class=\"helpLink\" id=\"citation_help\" "
@@ -3686,14 +2923,11 @@ msgid ""
 "You can <a href=\"\" class=\"helpLink\" id=\"citation_help\" "
 "name=\"citation_help\">cite</a> this work with this HTML:"
 msgstr ""
-"Μπορείς να κάνεις <a href=\"\" class=\"helpLink\" id=\"citation_help\" "
-"name=\"citation_help\">παραπομπή</a> σ' αυτό το έργο με αυτόν τον κώδικα "
-"HTML: "
 
 #. Default: "Other Information"
 #: licenses/pdmark_deed.pt:96 licenses/zero_deed.pt:92
 msgid "Other Information"
-msgstr "Άλλες πληροφορίες"
+msgstr ""
 
 #. Default: ""
 #. "The work may not be free of known copyright restrictions in all <a "
@@ -3705,9 +2939,6 @@ msgid ""
 " class=\"helpLink\" id=\"all_jurisdictions\" "
 "name=\"all_jurisdictions\">jurisdictions</a>."
 msgstr ""
-"Το έργο μπορεί να μην είναι ελεύθερο γνωστών περιορισμών πνευματικής "
-"ιδιοκτησίας σε όλα<a href=\"\" class=\"helpLink\" id=\"all_jurisdictions\" "
-"name=\"all_jurisdictions\">τα δικαιικά συστήματα.</a>"
 
 #. Default: ""
 #. "Unless expressly stated otherwise, the person who associated a work with "
@@ -3719,10 +2950,6 @@ msgid ""
 "this deed makes no warranties about the work, and disclaims liability for "
 "all uses of the work, to the fullest extent permitted by applicable law."
 msgstr ""
-"Εκτός αν άλλως έχει ρητά διατυπωθεί, το πρόσωπο που συσχέτισε ένα έργο με "
-"αυτό το συμφωνητικό δεν παρέχει οποιαδήποτε εγγύηση σχετικά με το έργο, και "
-"αποποιείται νομική ευθύνη για όλες τις χρήσεις του έργου, στον υπέρτατο "
-"βαθμό που αυτό επιτρέπεται από εφαρμοστέο νόμο. "
 
 #. Default: ""
 #. "When using or citing the work, you should not imply <a href=\"\" "
@@ -3734,14 +2961,11 @@ msgid ""
 "class=\"helpLink\" id=\"endorsement\" name=\"endorsement\">endorsement</a> "
 "by the author or the affirmer."
 msgstr ""
-"Όταν κάνεις χρήση ή παραπέμπεις στο έργο, δεν πρέπει να υπαινίσσεσαι a "
-"href=\"\" class=\"helpLink\" id=\"endorsement\" name=\"endorsement\"></a> σ'"
-" αυτή ως ο συγγραφέας ή το πρόσωπο που αναγνώρισε το έργο. "
 
 #. Default: "Who is the affirmer?"
 #: licenses/zero_deed.pt:173
 msgid "Who is the affirmer?"
-msgstr "Ποιο είναι το πρόσωπο που αναγνώρισε το έργο;"
+msgstr ""
 
 #. Default: ""
 #. "The affirmer is the person who surrendered rights to the work worldwide "
@@ -3755,16 +2979,11 @@ msgid ""
 "the work or another person who may have had some copyright or related or "
 "neighboring legal rights in the work."
 msgstr ""
-"Αυτός που αναγνώρισε το έργο είναι το πρόσωπο που αποποιήθηκε δικαιωμάτων "
-"επί του έργου παγκόσμια κάνοντας χρήση της άδειας CC0, στο βαθμό που αυτό "
-"επιτρέπεται από το νόμο. Μπορεί να είναι ο αρχικός δικαιούχος του έργου ή "
-"άλλο πρόσωπο που είχε κάποιο δικαίωμα πνευματικής ιδιοκτησίας ή συγγενικό "
-"δικαίωμα επί του έργου. "
 
 #. Default: "Public Domain Dedication"
 #: licenses/zero_deed.pt:18
 msgid "Public Domain Dedication"
-msgstr "Εκχώρηση Δημοσίου Τομέα"
+msgstr ""
 
 #. Default: ""
 #. "<a href=\"\" class=\"inline-help helpLink\" "
@@ -3772,8 +2991,6 @@ msgstr "Εκχώρηση Δημοσίου Τομέα"
 #: licenses/zero_deed.pt:66
 msgid "<a href=\"\" class=\"inline-help helpLink\" id=\"who_is_affirmer\">Affirmer</a>"
 msgstr ""
-"<a href=\"\" class=\"inline-help helpLink\" id=\"who_is_affirmer\">Ο "
-"αναγνωρίσας</a>"
 
 #. Default: ""
 #. "In no way are the patent or trademark rights of any person affected by "
@@ -3791,12 +3008,6 @@ msgid ""
 " class=\"helpLink\" id=\"publicity_rights\" "
 "name=\"publicity_rights\">publicity or privacy</a> rights."
 msgstr ""
-"Σε καμία περίπτωση δεν επηρεάζονται δικαιώματα πατέντας ή εμπορικού σήματος "
-"οποιουδήποτε προσώπου από την άδεια CC0, ούτε δικαιώματα που άλλα πρόσωπα "
-"μπορεί να έχουν στο έργο ή στο πως θα χρησιμοποιηθεί το έργο, όπως<a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\" "
-"name=\"publicity_rights\">publicity or privacy</a> δικαιώματα. "
 
 #. Default: ""
 #. "Thank you for using a Creative Commons legal tool for your work.\n"
@@ -3843,14 +3054,12 @@ msgstr ""
 #. Default: "Your Creative Commons License Information"
 #: util.py:460
 msgid "Your Creative Commons License Information"
-msgstr "Η πληροφόρηση σου για την άδεια Creative Commons"
+msgstr ""
 
 #. Default: "This work is free of known copyright restrictions."
 #: cc/license/formatters/classes.py:313
 msgid "This work is free of known copyright restrictions."
 msgstr ""
-"Αυτό το έργο είναι ελεύθερο από γνωστούς περιορισμούς πνευματικής "
-"ιδιοκτησίας. "
 
 #. Default: "This work (%(work_title)s) is free of known copyright
 #. restrictions."
@@ -3858,8 +3067,6 @@ msgstr ""
 #, python-format
 msgid "This work (%(work_title)s) is free of known copyright restrictions."
 msgstr ""
-"Αυτό το έργο (%(work_title)s) είναι ελεύθερο από γνωστούς περιορισμούς "
-"πνευματικής ιδιοκτησίας. "
 
 #. Default: "This work (by %(author)s) is free of known copyright
 #. restrictions."
@@ -3867,8 +3074,6 @@ msgstr ""
 #, python-format
 msgid "This work (by %(author)s) is free of known copyright restrictions."
 msgstr ""
-"Αυτό το έργο (by %(author)s) είναι ελεύθερο από γνωστούς περιορισμούς "
-"πνευματικής ιδιοκτησίας."
 
 #. Default: ""
 #. "This work, identified by %(curator)s, is free of known copyright "
@@ -3879,8 +3084,6 @@ msgid ""
 "This work, identified by %(curator)s, is free of known copyright "
 "restrictions."
 msgstr ""
-"Αυτό το έργο που αναγνωρίστηκε από %(curator)s είναι ελεύθερο από γνωστούς "
-"περιορισμούς πνευματικής ιδιοκτησίας."
 
 #. Default: ""
 #. "This work (%(work_title)s, by %(author)s) is free of known copyright "
@@ -3891,8 +3094,6 @@ msgid ""
 "This work (%(work_title)s, by %(author)s) is free of known copyright "
 "restrictions."
 msgstr ""
-"Αυτό το έργο (%(work_title)s του συγγραφέα %(author)s) είναι ελεύθερο από "
-"γνωστούς περιορισμούς πνευματικής ιδιοκτησίας."
 
 #. Default: ""
 #. "This work (%(work_title)s), identified by %(curator)s, is free of known "
@@ -3903,9 +3104,6 @@ msgid ""
 "This work (%(work_title)s), identified by %(curator)s, is free of known "
 "copyright restrictions."
 msgstr ""
-"Αυτό το έργο (%(work_title)s του συγγραφέα %(author)s) που αναγνωρίστηκε από"
-" τον %(curator)s είναι ελεύθερο από γνωστούς περιορισμούς πνευματικής "
-"ιδιοκτησίας."
 
 #. Default: ""
 #. "This work (%(work_title)s, by %(author)s), identified by %(curator)s, is "
@@ -3916,9 +3114,6 @@ msgid ""
 "This work (%(work_title)s, by %(author)s), identified by %(curator)s, is "
 "free of known copyright restrictions."
 msgstr ""
-"Αυτό το έργο (%(work_title)s του συγγραφέα %(author)s) που αναγνωρίστηκε από"
-" τον %(curator)s είναι ελεύθερο από γνωστούς περιορισμούς πνευματικής "
-"ιδιοκτησίας."
 
 #. Default: ""
 #. "This work (by %(author)s), identified by %(curator)s, is free of known "
@@ -3929,8 +3124,6 @@ msgid ""
 "This work (by %(author)s), identified by %(curator)s, is free of known "
 "copyright restrictions."
 msgstr ""
-"Αυτό το έργο (%(author)s) που αναγνωρίστηκε από τον %(curator)s είναι "
-"ελεύθερο από γνωστούς περιορισμούς πνευματικής ιδιοκτησίας."
 
 #. Default: ""
 #. "You are using a tool for freeing your own work of copyright restrictions "
@@ -3948,14 +3141,6 @@ msgid ""
 " already in the public domain worldwide, instead use the <b><a "
 "href=\"/choose/mark/\">Public Domain Mark</a></b> for such works."
 msgstr ""
-"Χρησιμοποιείτε ένα εργαλείο που απελευθερώνει το έργο σας από περιορισμούς "
-"πνευματικής ιδιοκτησίας σε όλο τον κόσμο. Μπορείτε να χρησιμοποιείτε αυτό το"
-" εργαλείο ακόμη κι αν το έργο σας είναι ελεύθερο πνευματικής ιδιοκτησίας σε "
-"μερικές δικαιοδοσίες, αν θέλετε να σιγουρευτείτε οτι είναι ελεύθερο "
-"πνευματικής ιδιοκτησίας παντού. Ο οργανισμός Creative Commons δεν συνιστά "
-"αυτό το εργαλείο για έργα που είναι ήδη στο παγκόσμιο Δημόσιο Τομέα, αλλά "
-"αντ' αυτού συνιστά  τη χρήση του<b><a href=\"/choose/mark/\">Σήματος "
-"Δημόσιου Τομέα</a></b> γι'αυτά τα έργα."
 
 #. Default: ""
 #. "You are using a tool for labeling works that are free of known copyright "
@@ -3972,13 +3157,6 @@ msgid ""
 "to free <b>your own work</b> of copyright restrictions, instead use the "
 "<b><a href=\"/choose/zero/\">CC0 public domain dedication</a></b>."
 msgstr ""
-"Χρησιμοποιείτε ένα εργαλείο για τη σήμανση έργων που είναι ελεύθερα κάθε "
-"γνωστού περιορισμού πνευματικής ιδιοκτησίας. Ο οργανισμός Creative Commons "
-"δεν συνιστά αυτό το εργαλείο για έργα που προστατεύονται με πνευματική "
-"ιδιοκτησία σε μία ή περισσότερες δικαιοδοσίες. Αν θέλετε να απαλλάξετε<b>το "
-"έργο σας</b> από περιορισμούς πνευματικής ιδιοκτησίας, κάνετε χρήση της "
-"άδειας<b><a href=\"/choose/zero/\">CC0 για εκχώρηση στο Δημόσιο "
-"Τομέα</a></b>. "
 
 #. Default: ""
 #. "Creative Commons has <a "
@@ -3994,10 +3172,6 @@ msgid ""
 "href=\"http://creativecommons.org/publicdomain\">current tool</a> for "
 "waiving rights or identifying public domain works."
 msgstr ""
-"Ο οργανισμός Creative Commons έχει σταματήσει<a "
-"href=\"http://creativecommons.org/retiredlicenses\"> να χρησιμοποιεί αυτό το"
-" εργαλείο.</a> Ο οργανισμός CC συνιστά τη χρήση του υφιστάμενου εργαλείου "
-"για την αποποίηση δικαιωμάτων ή την αναγνώριση έργων Δημοσίου Τομέα."
 
 #. Default: ""
 #. "Any of the above conditions can be waived if you get permission from the "
@@ -4007,8 +3181,6 @@ msgid ""
 "Any of the above conditions can be waived if you get permission from the "
 "copyright holder."
 msgstr ""
-"Για οποιαδήποτε από τις παραπάνω συνθήκες μπορεί να υπάρξει αποποίηση αν "
-"λάβετε άδεια από τον δικαιούχο."
 
 #. Default: ""
 #. "This tool is based on United States law and may not be applicable outside"
@@ -4020,9 +3192,6 @@ msgid ""
 "the US. For dedicating new works to the public domain, we recommend <a "
 "href=\"/choose/zero/\">CC0</a>."
 msgstr ""
-"Αυτό το εργαλείο στηρίζεται σε νόμο των ΗΠΑ και μπορεί να μην είναι "
-"εφαρμόσιμο σε δικαιοδοσία εκτός των ΗΠΑ. Για να εκχωρήσετε νέα έργα στο "
-"Δημόσιο Τομέα, συνιστούμε την άδεια CC0"
 
 #. Default: ""
 #. "If instead you want to certify that a work is <em>already in the public "
@@ -4034,8 +3203,6 @@ msgid ""
 "If instead you want to certify that a work is <em>already in the public "
 "domain</em>, instead use the <a href=\"%(pd_url)s\">Public Domain Mark</a>."
 msgstr ""
-"Αν, όμως, θέλεις να επιβεβαιώσεις οτι ένα έργο είναι <em>ήδη στο δημόσιο "
-"τομέα</em>, κάνε χρήση του Σημάτος Δημόσιου Τομέα</a>."
 
 #. Default: ""
 #. "If you want to free <em>your own work</em> of copyright restrictions, "
@@ -4047,9 +3214,6 @@ msgid ""
 "If you want to free <em>your own work</em> of copyright restrictions, "
 "instead use the <a href=\"%(pd_url)s\">CC0 public domain dedication</a>."
 msgstr ""
-"Αν θέλετε να απαλλάξετε <em>το έργο σας </em> από περιορισμούς πνευματικής "
-"ιδιοκτησίας, κάνετε χρήση <a href=\"%(pd_url)s\">της άδειας CC0 για το "
-"Δημόσιο Τομέα</a>."
 
 #. Default: ""
 #. "Creative Commons is a non-profit organization.<br /> We need your support"
@@ -4061,73 +3225,67 @@ msgid ""
 " continue providing these tools.<br /> <a "
 "href=\"https://creativecommons.net/donate/\">Donate today!</a>"
 msgstr ""
-"Ο οργανισμός Creative Commons είναι μη κερδοσκοπικός οργανισμός. <br "
-"/>Χρειαζόμαστε την υποστήριξή σου για να συνεχίσουμε να παρέχουμε αυτά τα "
-"εργαλεία.<br /> <a href=\"https://creativecommons.net/donate/\">Donate "
-"today!</a>Κάνε δωρεά τώρα!"
 
 #. Default: "Creative Commons Licenses"
 #: catalog_pages/licenses-index.pt:13
 msgid "Creative Commons Licenses"
-msgstr "Οι άδειες Creative Commons"
+msgstr ""
 
 #. Default: "Characteristics"
 #: catalog_pages/licenses-index.pt:29
 msgid "Characteristics"
-msgstr "Χαρακτηριστικά"
+msgstr ""
 
 #. Default: "International"
 #: chooser_pages/index.pt:149 chooser_pages/index.pt:166
 msgid "International"
-msgstr "Διεθνές"
+msgstr ""
 
 #. Default: "CC0: Waiver"
 #: chooser_pages/zero/waiver.pt:8
 msgid "CC0: Waiver"
-msgstr "CC0: Αποποίηση"
+msgstr ""
 
 msgid "Turkish"
-msgstr "Τουρκικά"
+msgstr ""
 
 msgid "Portuguese (Portugal)"
-msgstr "Πορτογαλικά (Πορτογαλία)"
+msgstr ""
 
 msgid "Indonesian"
-msgstr "Ινδονησιακά"
+msgstr ""
 
 msgid "Armenian"
-msgstr "Αρμένικα"
+msgstr ""
 
 msgid "Irish"
-msgstr "Ιρλανδικά"
+msgstr ""
 
 msgid "Spanish (Spain)"
-msgstr "Ισπανικά (Ισπανία)"
+msgstr ""
 
 msgid "Azerbaijani"
-msgstr "Αζέρικα"
+msgstr ""
 
 msgid "Malayalam"
-msgstr "Μαλαγιαλαμικά"
+msgstr ""
 
 #. Default: "Here's a preview of how your license will appear on your site:"
 #: chooser_pages/results.pt:67
 msgid "Here's a preview of how your license will appear on your site:"
 msgstr ""
-"Εδώ είναι μια προεπισκόπηση του πως η άδεια θα φαίνεται στο διαδικτυακό σας "
-"τόπο:"
 
 msgid "Costa Rica"
-msgstr "Κόστα Ρίκα"
+msgstr ""
 
 msgid "Estonia"
-msgstr "Εσθονία"
+msgstr ""
 
 msgid "Kazakh"
-msgstr "Καζακικά"
+msgstr ""
 
 msgid "Sinhala"
-msgstr "Σιγγαλέζικα"
+msgstr ""
 
 #. Default: ""
 #. "We also provide tools that work in the “all rights granted” space of "
@@ -4540,3 +3698,5 @@ msgid ""
 "restrictions. Creative Commons does not recommend this tool for works that "
 "are restricted by copyright laws in one or more jurisdictions."
 msgstr ""
+
+
