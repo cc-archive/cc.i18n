@@ -40,8 +40,15 @@ def translations_for_locale(locale, mo_path=MO_PATH):
 
 def ugettext_for_locale(locale, mo_path=MO_PATH):
     def _wrapped_ugettext(message):
-        return translations_for_locale(
-            locale, mo_path).ugettext(message).decode('utf-8')
+        message = translations_for_locale(
+            locale, mo_path).ugettext(message)
+
+        # No idea why it only sometimes returns unicode now...
+        # ...So decode to utf-8 conditionally!
+        if isinstance(message, unicode):
+            return message
+        else:
+            return message.decode(u'utf-8')
 
     return _wrapped_ugettext
 
