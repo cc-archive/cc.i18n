@@ -17,4 +17,6 @@ def extract_translations_from_rdf(fileobj, *args, **kwargs):
                 [(0, None, msg, "")
                  for msg in TRANSLATION_BIT_RE.findall(str(obj))])
 
+    # sort matches on name
+    matches = sorted(matches, key=lambda x: x[2])
     return matches
