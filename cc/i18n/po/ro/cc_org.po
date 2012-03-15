@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
-"POT-Creation-Date: 2012-02-03 12:28-0600\n"
-"PO-Revision-Date: 2012-02-03 18:30+0000\n"
+"POT-Creation-Date: 2012-03-15 15:31-0500\n"
+"PO-Revision-Date: 2012-03-15 20:44+0000\n"
 "Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
-"Language-Team: Romanian (http://www.transifex.net/projects/p/CC/team/ro/)\n"
+"Language-Team: Romanian (http://www.transifex.net/projects/p/CC/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -126,7 +126,8 @@ msgstr "Croaţia"
 msgid "Hungary"
 msgstr "Ungaria"
 
-#: cc/i18n/mappers.py:31
+#: cc/i18n/mappers.py:31 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
 msgid "Ireland"
 msgstr "Irlanda"
 
@@ -729,19 +730,14 @@ msgid ""
 "You must attribute the work in the manner specified by the author or "
 "licensor (but not in any way that suggests that they endorse you or your use"
 " of the work)."
-msgstr ""
-"Trebuie să atribui opera în maniera specificată de autor sau licenţiator "
-"(dar sub nici o formă care ar sugera faptul că aceştia te-ar susţine sau ar "
-"aproba folosirea de către tine a operei)"
+msgstr "Trebuie să atribui opera în maniera specificată de autor sau licenţiator (dar sub nici o formă care ar sugera faptul că aceştia te-ar susţine sau ar aproba folosirea de către tine a operei)"
 
 #: cc/i18n/mappers.py:188
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:53
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
-msgstr ""
-"Această operă nu poate fi folosită pentru a promova sau a face publicitate "
-"pentru altceva în afară de opera creată de tine pe baza acestei opere."
+msgstr "Această operă nu poate fi folosită pentru a promova sau a face publicitate pentru altceva în afară de opera creată de tine pe baza acestei opere."
 
 #: cc/i18n/mappers.py:191
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:49
@@ -757,26 +753,19 @@ msgstr "Nu poţi altera, transforma sau construi de la această operă."
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
-msgstr ""
-"Nu ai dreptul să prezinţi, să publici sau să distribui copii ale acestei "
-"opere, indiferent de scop."
+msgstr "Nu ai dreptul să prezinţi, să publici sau să distribui copii ale acestei opere, indiferent de scop."
 
 #: cc/i18n/mappers.py:196
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same or similar license to this one."
-msgstr ""
-"Dacă modifici, transformi sau creezi pe baza acestei opere, poţi distribui "
-"opera rezultată numai sub aceeaşi licenţă sau o licenţă similară acesteia."
+msgstr "Dacă modifici, transformi sau creezi pe baza acestei opere, poţi distribui opera rezultată numai sub aceeaşi licenţă sau o licenţă similară acesteia."
 
 #: cc/i18n/mappers.py:200 checkouts/cc.engine/cc/engine/util.py:256
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
-msgstr ""
-"Dacă modifici, transformi sau creezi pe baza acestei opere, poţi distribui "
-"opera rezultată numai sub aceeaşi licenţă, o licenţă similară sau "
-"compatibilă cu aceasta."
+msgstr "Dacă modifici, transformi sau creezi pe baza acestei opere, poţi distribui opera rezultată numai sub aceeaşi licenţă, o licenţă similară sau compatibilă cu aceasta."
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/attribution_details.html:3
 #, python-format
@@ -796,9 +785,7 @@ msgstr ""
 msgid ""
 "<strong>Permissions beyond</strong> the scope of this public license are "
 "available at"
-msgstr ""
-"<strong>Permisiuni suplimentare</strong> scopului acestei licențe publice "
-"sunt disponibile la"
+msgstr "<strong>Permisiuni suplimentare</strong> scopului acestei licențe publice sunt disponibile la"
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/registration.html:2
 #, python-format
@@ -850,9 +837,7 @@ msgstr "operă"
 msgid ""
 "This %(work_type)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"Această %(work_type)s este pusă la dispoziţie sub <a rel=\"license\" "
-"href=\"%(license_url)s\">Licenţa %(license_name)s Creative Commons</a>."
+msgstr "Această %(work_type)s este pusă la dispoziţie sub <a rel=\"license\" href=\"%(license_url)s\">Licenţa %(license_name)s Creative Commons</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/404.html:3
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/license_catcher.html:3
@@ -1087,9 +1072,7 @@ msgstr ""
 msgid ""
 "You must attribute the\n"
 "work in the manner specified by the author or licensor."
-msgstr ""
-"Trebuie să atribui \n"
-"opera în maniera specificată de autor sau licenţiator."
+msgstr "Trebuie să atribui \nopera în maniera specificată de autor sau licenţiator."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/by.html:20
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nc.html:19
@@ -1106,20 +1089,14 @@ msgid ""
 "The licensor permits others to copy, distribute and transmit the work. In "
 "return, licensees may not use the work for commercial purposes — unless they"
 " get the licensor's permission."
-msgstr ""
-"Licenţiatorul permite altora să copieze, distribuie şi să transmită opera. "
-"În schimb, licenţiatul nu are voie să folosească opera în scopuri "
-"comerciale, cu excepţia cazului când are o permisiune expresă din partea "
-"licenţiatorului."
+msgstr "Licenţiatorul permite altora să copieze, distribuie şi să transmită opera. În schimb, licenţiatul nu are voie să folosească opera în scopuri comerciale, cu excepţia cazului când are o permisiune expresă din partea licenţiatorului."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nd.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:158
 msgid ""
 "The licensor permits others to copy, distribute and transmit only unaltered "
 "copies of the work — not derivative works based on it."
-msgstr ""
-"Licenţiatorul permite doar copierea, distribuirea şi transmiterea copiilor "
-"nealterate ale operei - nu şi a operelor derivate bazate pe aceasta."
+msgstr "Licenţiatorul permite doar copierea, distribuirea şi transmiterea copiilor nealterate ale operei - nu şi a operelor derivate bazate pe aceasta."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/sa.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:135
@@ -1127,9 +1104,7 @@ msgid ""
 "The licensor permits others to distribute derivative works only under the "
 "same license or one compatible with the one that governs the licensor's "
 "work."
-msgstr ""
-"Licenţiatorul permite altora să distribuie opere derivate doar sub aceiaşi "
-"licenţă sau una compatibilă cu cea care guvernează opera licenţiatorului."
+msgstr "Licenţiatorul permite altora să distribuie opere derivate doar sub aceiaşi licenţă sau una compatibilă cu cea care guvernează opera licenţiatorului."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/emailhtml.html:7
 #, python-format
@@ -1139,12 +1114,7 @@ msgid ""
 "</p>\n"
 "\n"
 "<p>Place the link or the HTML on your website, right next to the work you intend to license.  </p>"
-msgstr ""
-"<p>\n"
-"Informaţiile referitoare la alegerea ta au fost trimise la <strong>%(email)s</strong>.\n"
-"</p>\n"
-"\n"
-"<p>Pune link-ul sau codul HTML pe site-ul tău, imediat lângă opera pe care intenţionezi să o lincenţiezi. </p>"
+msgstr "<p>\nInformaţiile referitoare la alegerea ta au fost trimise la <strong>%(email)s</strong>.\n</p>\n\n<p>Pune link-ul sau codul HTML pe site-ul tău, imediat lângă opera pe care intenţionezi să o lincenţiezi. </p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:7
 msgid "The HTML to display your button is as follows:"
@@ -1162,11 +1132,7 @@ msgid ""
 "information about your works. <a href=\"/learn/technology/usingmarkup\" "
 "target=\"_blank\">More information about adding HTML to your documents "
 "here</a>."
-msgstr ""
-"Doar copiază textul şi apoi pune-l în documentele web care conţin "
-"informaţiile despre operele tale. <a href=\"/learn/technology/usingmarkup\" "
-"target=\"_blank\">Mai multe informaţii despre cum să adaugi codul HTML la "
-"documentele tale + vezi aici</a>."
+msgstr "Doar copiază textul şi apoi pune-l în documentele web care conţin informaţiile despre operele tale. <a href=\"/learn/technology/usingmarkup\" target=\"_blank\">Mai multe informaţii despre cum să adaugi codul HTML la documentele tale + vezi aici</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:24
 msgid "Enter your email address to get the HTML by email:"
@@ -1190,18 +1156,7 @@ msgid ""
 "mark a work that is already free of known copyright restrictions and in the "
 "public domain, choose one of our <a href=\"/publicdomain/\">public domain "
 "tools</a>."
-msgstr ""
-"Cu o licență Creative Commons, <strong>îți păstrezi drepturile de autor "
-"</strong> dar permiți altora să  <a "
-"href=\"/learn/licenses/fullrights\">copieze și să dea mai departe opera ta "
-"</a> dacă <a href=\"#\" class=\"helpLink\" id=\"give_you_credit\">ești  "
-"menționat ca autor</a> &mdash; și numai în condițile pe care le specifici "
-"aici. Pentru noii veniți la sistemul de licențiere Creative Commons, am "
-"pregătit <a href=\"/about/think\">o listă de chestiuni pe care trebuie să le"
-" citiți </a>. Dacă vreți să vă oferiți opera fără nicio condiție sau vreți "
-"să marcați o operă care este deja în domeniul public și  liberă de orice "
-"restricții impuse de dreptul de autor, alege una <a "
-"href=\"/publicdomain/\">din uneltele dedicate pentru domeniul public</a>."
+msgstr "Cu o licență Creative Commons, <strong>îți păstrezi drepturile de autor </strong> dar permiți altora să  <a href=\"/learn/licenses/fullrights\">copieze și să dea mai departe opera ta </a> dacă <a href=\"#\" class=\"helpLink\" id=\"give_you_credit\">ești  menționat ca autor</a> &mdash; și numai în condițile pe care le specifici aici. Pentru noii veniți la sistemul de licențiere Creative Commons, am pregătit <a href=\"/about/think\">o listă de chestiuni pe care trebuie să le citiți </a>. Dacă vreți să vă oferiți opera fără nicio condiție sau vreți să marcați o operă care este deja în domeniul public și  liberă de orice restricții impuse de dreptul de autor, alege una <a href=\"/publicdomain/\">din uneltele dedicate pentru domeniul public</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:17
 msgid ""
@@ -1252,9 +1207,7 @@ msgstr "Utilizare comercială"
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work, including for commercial purposes."
-msgstr ""
-"Licenţiatorul permite terţilor să copieze, să distribuie, să afişeze şi să "
-"ruleze opera, inclusiv în scop comercial"
+msgstr "Licenţiatorul permite terţilor să copieze, să distribuie, să afişeze şi să ruleze opera, inclusiv în scop comercial"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:67
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:146
@@ -1267,9 +1220,7 @@ msgstr "Nu"
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work for non-commercial purposes only."
-msgstr ""
-"Licenţiatorul permite terţilor să copieze, să distribuie, să afişeze şi să "
-"ruleze opera numai în scop necomercial."
+msgstr "Licenţiatorul permite terţilor să copieze, să distribuie, să afişeze şi să ruleze opera numai în scop necomercial."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:89
 msgid "Allow modifications of your work?"
@@ -1283,9 +1234,7 @@ msgstr "Permite opere derivate"
 msgid ""
 "The licensor permits others to copy, distribute, display and perform the "
 "work, as well as make derivative works based on it."
-msgstr ""
-"Licentiatorul permite tertilor sa copieze, distribuie, afiseze si sa ruleze "
-"opera, precum si sa creeze opere derivate bazate pe ea."
+msgstr "Licentiatorul permite tertilor sa copieze, distribuie, afiseze si sa ruleze opera, precum si sa creeze opere derivate bazate pe ea."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:122
 msgid "Yes, as long as others share alike"
@@ -1345,8 +1294,7 @@ msgstr "Alege ce tip de buton vrei pe pagina ta:"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:55
 msgid "Here's a preview of how your license will appear on your site:"
-msgstr ""
-"Aceasta este un model a felului cum licența voastră va apărea pe site:"
+msgstr "Aceasta este un model a felului cum licența voastră va apărea pe site:"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:65
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:49
@@ -1358,9 +1306,7 @@ msgstr "Ai site-ul tau?"
 msgid ""
 "Copy the text below to your Web site to let your visitors know what license "
 "applies to your works."
-msgstr ""
-"Pune o copie a textului urmator pe site-ul tău pentru a-ţi înştiinţa "
-"vizitatorii ce tip de licenţă se aplică operelor tale."
+msgstr "Pune o copie a textului urmator pe site-ul tău pentru a-ţi înştiinţa vizitatorii ce tip de licenţă se aplică operelor tale."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:82
 #, python-format
@@ -1370,21 +1316,14 @@ msgid ""
 "html-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">emailed to yourself.</a>"
-msgstr ""
-"Selecteză conţinutul din spaţiul de mai sus si copiază-l. Sau trimiteţi-l "
-"prin <a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open"
-"('work-html-popup?%(url_vars)s', 'html_help', "
-"'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">e-mail.</a>"
+msgstr "Selecteză conţinutul din spaţiul de mai sus si copiază-l. Sau trimiteţi-l prin <a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">e-mail.</a>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:85
 msgid ""
 "Need more help? <a "
 "href=\"http://wiki.creativecommons.org/Website/Publish\">Read our "
 "tutorial</a>."
-msgstr ""
-"Ai nevoie de ajutor? <a href=\"/education/publish-website\">Citeşte ghidul "
-"nostru introductiv</a>."
+msgstr "Ai nevoie de ajutor? <a href=\"/education/publish-website\">Citeşte ghidul nostru introductiv</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:93
 msgid ""
@@ -1446,12 +1385,7 @@ msgid ""
 "<a href=\"http://creativecommons.org/characteristic/by?lang=en\" onclick=\"window.open('http://creativecommons.org/characteristic/by?lang=en', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">give\n"
 "you credit</a> -- and only on the conditions you specify here.\n"
 "This page helps you choose those conditions.\n"
-msgstr ""
-"Licenţele Creative Commons te ajută să distribui opera şi altora şi să păstrezi \n"
-"  dreptul de autor. Ceilalţi pot copia şi distribui opera ta cu condiţia ca ei\n"
-"<a href=\"http://creativecommons.org/characteristic/by?lang=en\" onclick=\"window.open('http://creativecommons.org/characteristic/by?lang=en', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">să îţi dea\n"
-"credit</a> -- şi numai în condiţiile pe care le specifici aici.\n"
-"Această pagină te ajută să alegi aceste condiţii.\n"
+msgstr "Licenţele Creative Commons te ajută să distribui opera şi altora şi să păstrezi \n  dreptul de autor. Ceilalţi pot copia şi distribui opera ta cu condiţia ca ei\n<a href=\"http://creativecommons.org/characteristic/by?lang=en\" onclick=\"window.open('http://creativecommons.org/characteristic/by?lang=en', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">să îţi dea\ncredit</a> -- şi numai în condiţiile pe care le specifici aici.\nAceastă pagină te ajută să alegi aceste condiţii.\n"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:16
 #, python-format
@@ -1476,19 +1410,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"<strong>Permiţi utilizări comerciale ale operei tale?</strong> (<a "
-"href=\"/characteristic/nc?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">mai multe informaţii</a> <a "
-"href=\"/characteristic/nc?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"mai multe informaţii\" border=\"0\" /></a>)"
+msgstr "<strong>Permiţi utilizări comerciale ale operei tale?</strong> (<a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">mai multe informaţii</a> <a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"mai multe informaţii\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:43
 #, python-format
@@ -1504,19 +1426,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"<strong>Permiţi modificări ale operei tale?</strong> (<a "
-"href=\"/characteristic/nd?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">mai multe informaţii</a> <a "
-"href=\"/characteristic/nd?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"mai multe informaţii\" border=\"0\" /></a>)"
+msgstr "<strong>Permiţi modificări ale operei tale?</strong> (<a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">mai multe informaţii</a> <a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"mai multe informaţii\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:52
 #, python-format
@@ -1532,18 +1442,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"Da, atâta vreme cât si alţii distribuie la fel (<a "
-"href=\"/characteristic/sa?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">more info</a> <a href=\"/characteristic/sa?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"mai multe informaţii\" border=\"0\" /></a>)"
+msgstr "Da, atâta vreme cât si alţii distribuie la fel (<a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">more info</a> <a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"mai multe informaţii\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:99
 msgid ""
@@ -1553,13 +1452,7 @@ msgid ""
 "<p>\n"
 "Creative Commons does not provide legal advice or services. We provide form legal documents; the rest is up to you.\n"
 "</p>"
-msgstr ""
-"<p>\n"
-"<em>Notă:</em> Pentru a licenţia o operă, trebuie să fii titularul drepturiulor de autor asupra operei sau să ai autorizarea expresă din partea titularului de drepturi de autor pentru această operaţiune.</p>\n"
-"\n"
-"<p>\n"
-"Creative Commons nu furnizează servicii sau consultaţii juridice. Noi punem la dispoziţie documentele juridice; restul depinde de tine.\n"
-"</p>"
+msgstr "<p>\n<em>Notă:</em> Pentru a licenţia o operă, trebuie să fii titularul drepturiulor de autor asupra operei sau să ai autorizarea expresă din partea titularului de drepturi de autor pentru această operaţiune.</p>\n\n<p>\nCreative Commons nu furnizează servicii sau consultaţii juridice. Noi punem la dispoziţie documentele juridice; restul depinde de tine.\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:7
 #, python-format
@@ -1567,10 +1460,7 @@ msgid ""
 "You have selected the <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s License</b></a>.<br>\n"
 "This license is permanently located at<br>\n"
 "<b><tt>%(license_url)s</tt></b>."
-msgstr ""
-"Ai selectat <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s Licenţa</b></a>.<br>\n"
-"Aceasta Licenţă poate fi gasită în mod permanent la <br>\n"
-"<b><tt>%(license_url)s</tt></b>."
+msgstr "Ai selectat <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s Licenţa</b></a>.<br>\nAceasta Licenţă poate fi gasită în mod permanent la <br>\n<b><tt>%(license_url)s</tt></b>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:25
@@ -1786,7 +1676,7 @@ msgid ""
 "An error occurred when we tried to send the email message; you can try "
 "clicking the Back button and double checking your email address.  If the "
 "address you used (%(email_addr)s) was correct you can <a "
-"href=\"/about/contact\">contact us</a>."
+"href=\"/contact\">contact us</a>."
 msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:75
@@ -1889,18 +1779,13 @@ msgstr ""
 msgid ""
 "Now that you've chosen the Public Domain Certification, you should mark the "
 "work in the appropriate way."
-msgstr ""
-"Acum că ai ales Certificarea Domeniul Public, ar trebui să-ţi marchezi opera"
-" într-un mod corespunzător."
+msgstr "Acum că ai ales Certificarea Domeniul Public, ar trebui să-ţi marchezi opera într-un mod corespunzător."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-4.html:17
 msgid ""
 "To mark content on a web page, the HTML to display the button is as follows "
 "and be sure to <a href=\"/technology/web\">follow the guidelines here</a>:"
-msgstr ""
-"Pentru a marca conținutul de pe o pagine web, preluați de mai jis codul HTML"
-" pentru afișarea butonului. Nu uitati să <a href=\"/technology/web\">urmați "
-"liniile directoare de aici</a>:"
+msgstr "Pentru a marca conținutul de pe o pagine web, preluați de mai jis codul HTML pentru afișarea butonului. Nu uitati să <a href=\"/technology/web\">urmați liniile directoare de aici</a>:"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-4.html:34
 msgid "Get HTML and email it to yourself"
@@ -1914,19 +1799,14 @@ msgstr "Confirmă Renunţarea"
 msgid ""
 "Are you certain you wish to waive all rights to your work? Once these rights"
 " are waived, you cannot reclaim them."
-msgstr ""
-"Eşti sigur că vrei să renunţi la toate drepturile asupra operei tale? Din "
-"momentul în care renunţi, acestea nu mai pot fi redobândite."
+msgstr "Eşti sigur că vrei să renunţi la toate drepturile asupra operei tale? Din momentul în care renunţi, acestea nu mai pot fi redobândite."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/confirm.html:30
 msgid ""
 "In particular, if you are an artist or author who depends upon copyright for"
 " your income, Creative Commons <strong>does not recommend</strong> that you "
 "use this tool."
-msgstr ""
-"În special daca eşti un autor sau artist care depinde de dreptul de autor ca"
-" sursă de venit, Creative Commons <strong>nu recomandă <-strong>utilizarea "
-"acestei aplicaţii."
+msgstr "În special daca eşti un autor sau artist care depinde de dreptul de autor ca sursă de venit, Creative Commons <strong>nu recomandă <-strong>utilizarea acestei aplicaţii."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/confirm.html:34
 msgid ""
@@ -2109,11 +1989,7 @@ msgid ""
 " the HTML generated for your license. This allows users of your work to "
 "determine how to attribute it or where to go for more information about the "
 "work."
-msgstr ""
-"Câmpurile adiţionale sunt <strong>opţionale</strong>, dar ele vor fi incluse"
-" în HTML-ul generat pentru licenta voastră. Aceasta va permite "
-"utilizatorilor operei dvs. să determine cum poate sa vă citeze sau unde pot "
-"afla mai multe informaţii despre opera dvs."
+msgstr "Câmpurile adiţionale sunt <strong>opţionale</strong>, dar ele vor fi incluse în HTML-ul generat pentru licenta voastră. Aceasta va permite utilizatorilor operei dvs. să determine cum poate sa vă citeze sau unde pot afla mai multe informaţii despre opera dvs."
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:19
 msgid ""
@@ -2176,9 +2052,7 @@ msgstr "Numele autorului (pentru atribuire):"
 msgid ""
 "The name users of the work should give attribution to. For example, the name"
 " of the work's author."
-msgstr ""
-"Numele pe care utilizatorii operei să îl folosească pentru atribuire. De "
-"exemplu numele autorului operei."
+msgstr "Numele pe care utilizatorii operei să îl folosească pentru atribuire. De exemplu numele autorului operei."
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:110
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:122
@@ -2189,9 +2063,7 @@ msgstr "Pagina web pentru atribuire"
 msgid ""
 "The URL users of the work should link to. For example, the work's page on "
 "the author's site."
-msgstr ""
-"Pagina web catre care trebuie să pună link utilizatorii. De exemplu: pagina "
-"operei pe site-ul autorului. "
+msgstr "Pagina web catre care trebuie să pună link utilizatorii. De exemplu: pagina operei pe site-ul autorului. "
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:133
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:144
@@ -2211,9 +2083,7 @@ msgstr "Pagina web pentru mai multe permisiuni"
 msgid ""
 "A URL where a user can obtain information about clearing rights that are not"
 " pre-cleared by your CC license."
-msgstr ""
-"O pagină web unde utilizatorul poate să obţină mai multe informaţii despre "
-"celelalte drepturi de autor care nu fac obiectul licenţei CC."
+msgstr "O pagină web unde utilizatorul poate să obţină mai multe informaţii despre celelalte drepturi de autor care nu fac obiectul licenţei CC."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:19
 #: checkouts/cc.engine/cc/engine/templates/licenses/publicdomain_deed.html:34
@@ -2234,9 +2104,7 @@ msgstr "Eşti liber să:"
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:28
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:53
 msgid "<strong>to Share</strong> — to copy, distribute and transmit the work"
-msgstr ""
-"<strong>partajezi cu alţii </strong> — dreptul de a copia, distribui şi "
-"transmite opera."
+msgstr "<strong>partajezi cu alţii </strong> — dreptul de a copia, distribui şi transmite opera."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:33
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:60
@@ -2255,10 +2123,7 @@ msgstr "În următoarele condiţii:"
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
-msgstr ""
-"Pentru orice reutilizare sau distribuţie, trebuie să prezinţi clar "
-"celorlalţi termenii licenţei pentru această operă. Cel mai bun mod de a-l "
-"face este de a pune un link către această pagină web."
+msgstr "Pentru orice reutilizare sau distribuţie, trebuie să prezinţi clar celorlalţi termenii licenţei pentru această operă. Cel mai bun mod de a-l face este de a pune un link către această pagină web."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:61
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:138
@@ -2266,10 +2131,7 @@ msgid ""
 "Any of the above conditions can be <a href=\"#\" id=\"waived\" "
 "class=\"helpLink\">waived</a> if you get permission from the copyright "
 "holder."
-msgstr ""
-"Dacă obţii permisiunea din partea titularului dreptului de autor, <a "
-"href=\"#\" id=\"waived\" class=\"helpLink\">se poate renunţa</a> la oricare "
-"dintre condiţiile de mai sus. "
+msgstr "Dacă obţii permisiunea din partea titularului dreptului de autor, <a href=\"#\" id=\"waived\" class=\"helpLink\">se poate renunţa</a> la oricare dintre condiţiile de mai sus. "
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:69
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:76
@@ -2289,12 +2151,7 @@ msgid ""
 "is used, such as <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
 " class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy rights."
-msgstr ""
-"Drepturile pe care alte persoane le au în această operă sau în felul cum "
-"opera este folosită cum ar fi <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">dreptul de publicitate</a> sau "
-"la viaţă privată."
+msgstr "Drepturile pe care alte persoane le au în această operă sau în felul cum opera este folosită cum ar fi <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\" class=\"helpLink\" id=\"publicity_rights\">dreptul de publicitate</a> sau la viaţă privată."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:16
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:23
@@ -2481,32 +2338,24 @@ msgstr ""
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "noncommercial purposes."
-msgstr ""
-"Pentru a face un sample (mostră), mash-up sau altă transformarea creativă a "
-"acestei opere în scopuri necomerciale."
+msgstr "Pentru a face un sample (mostră), mash-up sau altă transformarea creativă a acestei opere în scopuri necomerciale."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:28
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "commercial or noncommercial purposes."
-msgstr ""
-"Pentru a exemplifica, combina, sau transforma intr-un alt mod aceasta opera "
-"in scopuri comerciale sau ne-comerciale."
+msgstr "Pentru a exemplifica, combina, sau transforma intr-un alt mod aceasta opera in scopuri comerciale sau ne-comerciale."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:34
 msgid ""
 "To perform, display, and distribute copies of this whole work for "
 "noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
-msgstr ""
-"Sa ruleze, sa afiseze si sa distribuie copii ale operei intregi in scop "
-"necomercial (de exemplu file-sharing sau transmisii web necomerciale)."
+msgstr "Sa ruleze, sa afiseze si sa distribuie copii ale operei intregi in scop necomercial (de exemplu file-sharing sau transmisii web necomerciale)."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:63
 msgid ""
 "For any reuse, you must make clear to others the license terms of this work."
-msgstr ""
-"Pentru orice reutilizare, trebuie să prezinţi  celorlalţi în mod clar "
-"termenii licenţei pentru această opera."
+msgstr "Pentru orice reutilizare, trebuie să prezinţi  celorlalţi în mod clar termenii licenţei pentru această opera."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:66
 msgid "to make commercial use of the work"
@@ -2546,29 +2395,21 @@ msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:150
 msgid "In no way are any of the following rights affected by the license:"
-msgstr ""
-"În niciun fel vreunul din urmatoarele drepturi nu este afectat de licenţă:"
+msgstr "În niciun fel vreunul din urmatoarele drepturi nu este afectat de licenţă:"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:159
 msgid ""
 "The author's <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
-msgstr ""
-"Drepturile <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
-" id=\"moral_rights\" class=\"helpLink\">morale</a> ale autorului;"
+msgstr "Drepturile <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\" id=\"moral_rights\" class=\"helpLink\">morale</a> ale autorului;"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:164
 msgid ""
 "Apart from the remix rights granted under this license, the author's <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
-msgstr ""
-"În afară de drepturile de remixare oferite prin prezenta licenţă, nimic din "
-"această licenţă nu împiedică sau restricţionează drepturile <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
-" id=\"moral_rights\" class=\"helpLink\">morale</a> ale autorului."
+msgstr "În afară de drepturile de remixare oferite prin prezenta licenţă, nimic din această licenţă nu împiedică sau restricţionează drepturile <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\" id=\"moral_rights\" class=\"helpLink\">morale</a> ale autorului."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:176
 msgid "Notice"
@@ -2581,11 +2422,7 @@ msgid ""
 "available. You should use it for new works, and you may want to relicense "
 "existing works under it. No works are <em>automatically</em> put under the "
 "new license, however."
-msgstr ""
-"O <a href=\"%(current_version_url)s\">versiune nouă</a> a acestei licenţe "
-"este disponibilă. YAr trebui să o foloseşti pentru noile lucrări şi ai putea"
-" să-ţi relicenţiezi opere existente prin ea. Totuşi, nicio operă nu este în "
-"mod <em>automat</em> licenţiată prin noua licenţă."
+msgstr "O <a href=\"%(current_version_url)s\">versiune nouă</a> a acestei licenţe este disponibilă. YAr trebui să o foloseşti pentru noile lucrări şi ai putea să-ţi relicenţiezi opere existente prin ea. Totuşi, nicio operă nu este în mod <em>automat</em> licenţiată prin noua licenţă."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:192
 msgid "What does \"conditions can be waived\" mean?"
@@ -2619,12 +2456,7 @@ msgid ""
 "              permission.  CC licenses do not affect the rights of\n"
 "              users under those copyright limitations and exceptions,\n"
 "              such as fair use and fair dealing where applicable."
-msgstr ""
-"Toate jurisdicţiile\n"
-"              permit unele utilizări limitate ale materialelor protejate de drept de autor fără\n"
-"              permisiune.  Licenţele CC nu afectează drepturile \n"
-"              utilizatorilor prevăzute de aceste limitări,\n"
-"              cum ar fi limitele legale ale exercitării dreptului de autor, atunci când ele sunt aplicabile."
+msgstr "Toate jurisdicţiile\n              permit unele utilizări limitate ale materialelor protejate de drept de autor fără\n              permisiune.  Licenţele CC nu afectează drepturile \n              utilizatorilor prevăzute de aceste limitări,\n              cum ar fi limitele legale ale exercitării dreptului de autor, atunci când ele sunt aplicabile."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:242
 msgid "What are \"Moral Rights\"?"
@@ -2731,9 +2563,7 @@ msgstr ""
 msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
-msgstr ""
-"Acesta este un rezumat pe înţelesul tuturor al <a "
-"href=\"./legalcode\">Codului Juridic (citeşte textul integral)</a>."
+msgstr "Acesta este un rezumat pe înţelesul tuturor al <a href=\"./legalcode\">Codului Juridic (citeşte textul integral)</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:182
 msgid "Use this tool for your own work."
@@ -2763,30 +2593,19 @@ msgid ""
 "<p>\n"
 "Creative Commons is not a law firm and does not provide legal services. Distributing of, displaying of, or linking to this Commons Deed does not create an attorney-client relationship.\n"
 "</p>"
-msgstr ""
-"<p>\n"
-"Rezumatul Explicativ nu este o licenţă. Este doar o referinţă uşoară pentru a înţelege Codul Juridic (întreaga licenţă) &mdash; este exprimarea pe înţelesul tuturor a unora dintre termenii săi cheie. Să ne gândim la el ca la o interfaţă mai prietenoasă pentru Codul Juridic din spatele său. Acest Rezumat nu are nici o valoare juridică în sine şi conţinutul său nu apare în licenţă. \n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Creative Commons nu este o companie de avocatură şi nu furnizează servicii juridice. Distribuirea, afişarea sau legătura către acest Act Commons nu crează o relaţie de tip avocat-client. \n"
-"</p>"
+msgstr "<p>\nRezumatul Explicativ nu este o licenţă. Este doar o referinţă uşoară pentru a înţelege Codul Juridic (întreaga licenţă) &mdash; este exprimarea pe înţelesul tuturor a unora dintre termenii săi cheie. Să ne gândim la el ca la o interfaţă mai prietenoasă pentru Codul Juridic din spatele său. Acest Rezumat nu are nici o valoare juridică în sine şi conţinutul său nu apare în licenţă. \n</p>\n\n<p>\nCreative Commons nu este o companie de avocatură şi nu furnizează servicii juridice. Distribuirea, afişarea sau legătura către acest Act Commons nu crează o relaţie de tip avocat-client. \n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:131
 msgid ""
 "This is a human-readable summary of the Legal Code (the full license) "
 "available in the following languages:"
-msgstr ""
-"Acesta este un rezumat pe înţelesul tuturor a Codului Juridic (întreaga "
-"licenţă) disponibil în următoarele limbi:"
+msgstr "Acesta este un rezumat pe înţelesul tuturor a Codului Juridic (întreaga licenţă) disponibil în următoarele limbi:"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:138
 msgid ""
 "This is a human-readable summary of the <a href=\"legalcode\" "
 "class=\"fulltext\">Legal Code (the full license)</a>."
-msgstr ""
-"Acesta este un rezumat pe înţelesul tuturor a <a href=\"legalcode\" "
-"class=\"fulltext\">Codului Juridic (întreaga licenţă)</a>."
+msgstr "Acesta este un rezumat pe înţelesul tuturor a <a href=\"legalcode\" class=\"fulltext\">Codului Juridic (întreaga licenţă)</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:162
 msgid "Use this license for your own work."
@@ -2838,28 +2657,21 @@ msgstr "Licenţa Creative Commons"
 msgid ""
 "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"%(work_title)s de %(work_author)s este licenţiat printr-o <a rel=\"license\""
-" href=\"%(license_url)s\">Licenţă Creative Commons %(license_name)s </a>."
+msgstr "%(work_title)s de %(work_author)s este licenţiat printr-o <a rel=\"license\" href=\"%(license_url)s\">Licenţă Creative Commons %(license_name)s </a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:200
 #, python-format
 msgid ""
 "This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\""
 " href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"Această %(work_type)s creată de %(work_author)s este pusă la dispoziţie sub "
-"<a rel=\"license\" href=\"%(license_url)s\">Licenţa %(license_name)s "
-"Creative Commons</a>."
+msgstr "Această %(work_type)s creată de %(work_author)s este pusă la dispoziţie sub <a rel=\"license\" href=\"%(license_url)s\">Licenţa %(license_name)s Creative Commons</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:211
 #, python-format
 msgid ""
 "%(work_title)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"%(work_title)s este licenţiat printr-o <a rel=\"license\" "
-"href=\"%(license_url)s\">Licenţă Creative Commons %(license_name)s </a>."
+msgstr "%(work_title)s este licenţiat printr-o <a rel=\"license\" href=\"%(license_url)s\">Licenţă Creative Commons %(license_name)s </a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:230
 #, python-format
@@ -2871,9 +2683,7 @@ msgstr "Bazată pe opera disponibilă la %(source_link)s."
 msgid ""
 "Permissions beyond the scope of this license may be available at "
 "%(more_perms_link)s."
-msgstr ""
-"Permisii dincolo de aria acestei licente ar putea fi disponibile la "
-"%(more_perms_link)s."
+msgstr "Permisii dincolo de aria acestei licente ar putea fi disponibile la %(more_perms_link)s."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:314
 #, python-format
@@ -2881,10 +2691,7 @@ msgid ""
 "This %(work_type)s is in the <a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
 "Domain</a>."
-msgstr ""
-"Această %(work_type)s se află în <a rel=\"license\" "
-"href=\"http://creativecommons.org/licenses/publicdomain/\">Domeniul "
-"Public</a>."
+msgstr "Această %(work_type)s se află în <a rel=\"license\" href=\"http://creativecommons.org/licenses/publicdomain/\">Domeniul Public</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:328
 msgid "This work is free of known copyright restrictions."
@@ -2936,16 +2743,20 @@ msgid ""
 msgstr ""
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Generic"
-msgstr "Generică"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Unported"
-msgstr "Ne-adaptată"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Developing Nations"
 msgstr "Naţiuni în curs de dezvoltare"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU General Public License"
+msgstr "GNU Licenţa Publică Generală"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU Lesser General Public License"
+msgstr "GNU Lesser General Public License (GNU Licenta Publica Generala)"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "Generic"
+msgstr "Generică"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
@@ -2957,11 +2768,5 @@ msgid "Universal"
 msgstr "Universal"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU General Public License"
-msgstr "GNU Licenţa Publică Generală"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU Lesser General Public License"
-msgstr "GNU Lesser General Public License (GNU Licenta Publica Generala)"
-
-
+msgid "Unported"
+msgstr "Ne-adaptată"

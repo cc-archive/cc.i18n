@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
-"POT-Creation-Date: 2012-02-03 12:28-0600\n"
-"PO-Revision-Date: 2012-03-11 17:01+0000\n"
-"Last-Translator: Petr Adam Dohnálek <pa.dohnalek@gmail.com>\n"
+"POT-Creation-Date: 2012-03-15 15:31-0500\n"
+"PO-Revision-Date: 2012-03-15 20:44+0000\n"
+"Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
 "Language-Team: Esperanto (http://www.transifex.net/projects/p/CC/language/eo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -127,7 +127,8 @@ msgstr "Kroatujo"
 msgid "Hungary"
 msgstr "Hungarujo"
 
-#: cc/i18n/mappers.py:31
+#: cc/i18n/mappers.py:31 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
 msgid "Ireland"
 msgstr "Irlando"
 
@@ -1676,8 +1677,8 @@ msgid ""
 "An error occurred when we tried to send the email message; you can try "
 "clicking the Back button and double checking your email address.  If the "
 "address you used (%(email_addr)s) was correct you can <a "
-"href=\"/about/contact\">contact us</a>."
-msgstr "Dum klopodo sendi la retleteron aperis eraro; vi povas provi alklaki la butonon Reen kaj rekontroli vian retpoŝtadreson. Se la de vi entajpita adreso (%(email_addr)s) estis ĝusta, bonvolu <a href=\"/about/contact\">kontakti nin</a>."
+"href=\"/contact\">contact us</a>."
+msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:75
 msgid ""
@@ -2743,16 +2744,20 @@ msgid ""
 msgstr "Ĉi tiu verko (de %(author)s), identigita de %(curator)s, estas sen konataj aŭtorrajtaj limigoj."
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Generic"
-msgstr "Ĝenerala"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Unported"
-msgstr "Neadaptita"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Developing Nations"
 msgstr "Evolulandoj"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU General Public License"
+msgstr "GNU Ĝenerala Publika Permesilo (GPL)"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU Lesser General Public License"
+msgstr "GNU Malgranda Ĝenerala Publika Permesilo (LGPL)"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "Generic"
+msgstr "Ĝenerala"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
@@ -2764,9 +2769,5 @@ msgid "Universal"
 msgstr "Universala"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU General Public License"
-msgstr "GNU Ĝenerala Publika Permesilo (GPL)"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU Lesser General Public License"
-msgstr "GNU Malgranda Ĝenerala Publika Permesilo (LGPL)"
+msgid "Unported"
+msgstr "Neadaptita"

@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
-"POT-Creation-Date: 2012-02-03 12:28-0600\n"
-"PO-Revision-Date: 2012-03-14 06:49+0000\n"
-"Last-Translator: Harry Chen <harryhow@gmail.com>\n"
+"POT-Creation-Date: 2012-03-15 15:31-0500\n"
+"PO-Revision-Date: 2012-03-15 20:43+0000\n"
+"Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.net/projects/p/CC/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -128,7 +128,8 @@ msgstr "克羅埃西亞"
 msgid "Hungary"
 msgstr "匈牙利"
 
-#: cc/i18n/mappers.py:31
+#: cc/i18n/mappers.py:31 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
 msgid "Ireland"
 msgstr "愛爾蘭"
 
@@ -1677,8 +1678,8 @@ msgid ""
 "An error occurred when we tried to send the email message; you can try "
 "clicking the Back button and double checking your email address.  If the "
 "address you used (%(email_addr)s) was correct you can <a "
-"href=\"/about/contact\">contact us</a>."
-msgstr "寄送郵件時發生錯誤。你可以按下「上一頁」鈕，再檢查一下郵件地址是否正確。如果你輸入的郵件地址 (%(email_addr)s) 正確無誤，請<a href=\"/about/contact\">連絡我們</a>。"
+"href=\"/contact\">contact us</a>."
+msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:75
 msgid ""
@@ -2744,16 +2745,20 @@ msgid ""
 msgstr "此作品(由%(author)s)著作，並由%(curator)s認定，是無著作權限制的。"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Generic"
-msgstr "通用版"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Unported"
-msgstr "Unported"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Developing Nations"
 msgstr "開發中國家"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU General Public License"
+msgstr "GNU 通用公共授權條款"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU Lesser General Public License"
+msgstr "GNU 較寬鬆通用公共授權條款"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "Generic"
+msgstr "通用版"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
@@ -2765,9 +2770,5 @@ msgid "Universal"
 msgstr "通用"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU General Public License"
-msgstr "GNU 通用公共授權條款"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU Lesser General Public License"
-msgstr "GNU 較寬鬆通用公共授權條款"
+msgid "Unported"
+msgstr "Unported"

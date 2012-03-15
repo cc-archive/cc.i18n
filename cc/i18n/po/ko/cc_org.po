@@ -13,9 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
-"POT-Creation-Date: 2012-02-03 12:28-0600\n"
-"PO-Revision-Date: 2012-03-15 09:30+0000\n"
-"Last-Translator: cckorea_staff <creative@cckorea.org>\n"
+"POT-Creation-Date: 2012-03-15 15:31-0500\n"
+"PO-Revision-Date: 2012-03-15 20:44+0000\n"
+"Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
 "Language-Team: Korean (http://www.transifex.net/projects/p/CC/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -131,7 +131,8 @@ msgstr "크로아티아"
 msgid "Hungary"
 msgstr "헝가리"
 
-#: cc/i18n/mappers.py:31
+#: cc/i18n/mappers.py:31 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
 msgid "Ireland"
 msgstr "아일랜드"
 
@@ -1680,7 +1681,7 @@ msgid ""
 "An error occurred when we tried to send the email message; you can try "
 "clicking the Back button and double checking your email address.  If the "
 "address you used (%(email_addr)s) was correct you can <a "
-"href=\"/about/contact\">contact us</a>."
+"href=\"/contact\">contact us</a>."
 msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:75
@@ -2747,16 +2748,20 @@ msgid ""
 msgstr ""
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Generic"
-msgstr "일반"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Unported"
-msgstr "Unported"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Developing Nations"
 msgstr "개발도상국"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU General Public License"
+msgstr "GNU 일반 공중 사용 허가서"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU Lesser General Public License"
+msgstr "GNU 일반 공중 사용 허가서"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "Generic"
+msgstr "일반"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
@@ -2768,9 +2773,5 @@ msgid "Universal"
 msgstr "보편적인"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU General Public License"
-msgstr "GNU 일반 공중 사용 허가서"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU Lesser General Public License"
-msgstr "GNU 일반 공중 사용 허가서"
+msgid "Unported"
+msgstr "Unported"

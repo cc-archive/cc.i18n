@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
-"POT-Creation-Date: 2012-02-03 12:28-0600\n"
-"PO-Revision-Date: 2012-02-03 18:30+0000\n"
+"POT-Creation-Date: 2012-03-15 15:31-0500\n"
+"PO-Revision-Date: 2012-03-15 20:44+0000\n"
 "Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
-"Language-Team: Georgian (http://www.transifex.net/projects/p/CC/team/ka/)\n"
+"Language-Team: Georgian (http://www.transifex.net/projects/p/CC/language/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -125,7 +125,8 @@ msgstr "ხორვატია"
 msgid "Hungary"
 msgstr "უნგრეთი"
 
-#: cc/i18n/mappers.py:31
+#: cc/i18n/mappers.py:31 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
 msgid "Ireland"
 msgstr "ირლანდია"
 
@@ -629,15 +630,13 @@ msgstr "ავტორობის მითითებით არაკო�
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:362
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NonCommercial-NoDerivs"
-msgstr ""
-"ავტორობის მითითებით–არაკომერციული გამოყენბისათვის–გადამუშავების გარეშე"
+msgstr "ავტორობის მითითებით–არაკომერციული გამოყენბისათვის–გადამუშავების გარეშე"
 
 #: cc/i18n/mappers.py:161
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:335
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NonCommercial-ShareAlike"
-msgstr ""
-"ავტორობის მითითებით–არაკომერციული გამოყენებისთვის–გამოყენება იგივე პირობებით"
+msgstr "ავტორობის მითითებით–არაკომერციული გამოყენებისთვის–გამოყენება იგივე პირობებით"
 
 #: cc/i18n/mappers.py:162
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:279
@@ -648,8 +647,7 @@ msgstr "ავტორობის მითითებით გადამ�
 #: cc/i18n/mappers.py:163
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NoDerivs-NonCommercial"
-msgstr ""
-"ავტორობის მითითებით–გადამუშავების გარეშე–არაკომერციული გამოყენებისათვის "
+msgstr "ავტორობის მითითებით–გადამუშავების გარეშე–არაკომერციული გამოყენებისათვის "
 
 #: cc/i18n/mappers.py:164
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:250
@@ -731,20 +729,14 @@ msgid ""
 "You must attribute the work in the manner specified by the author or "
 "licensor (but not in any way that suggests that they endorse you or your use"
 " of the work)."
-msgstr ""
-"თქვენ აუცილებლად უნდა მიუთითოთ ავტორის სახელი ნაწარმოებზე ავტორის ან "
-"ლიცენზიარის მიერ დადგენილი ფორმით (მაგრამ ეს არავითარ შემთხვევაში არ "
-"გულისხმობს იმას, რომ მათ მხარი დაგიჭირეს თქვენ ან მოიწონეს თქვენს მიერ "
-"ნაწარმოების გამოყენება)."
+msgstr "თქვენ აუცილებლად უნდა მიუთითოთ ავტორის სახელი ნაწარმოებზე ავტორის ან ლიცენზიარის მიერ დადგენილი ფორმით (მაგრამ ეს არავითარ შემთხვევაში არ გულისხმობს იმას, რომ მათ მხარი დაგიჭირეს თქვენ ან მოიწონეს თქვენს მიერ ნაწარმოების გამოყენება)."
 
 #: cc/i18n/mappers.py:188
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:53
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
-msgstr ""
-"უფლება არ გაქვთ გამოიყენოთ ეს ნაწარმოები რეიმეს რეკლამირებისათვის, მაგრამ "
-"შეგიძლიათ მის საფუძველზე შექმნათ სხვა ნაწარმოები."
+msgstr "უფლება არ გაქვთ გამოიყენოთ ეს ნაწარმოები რეიმეს რეკლამირებისათვის, მაგრამ შეგიძლიათ მის საფუძველზე შექმნათ სხვა ნაწარმოები."
 
 #: cc/i18n/mappers.py:191
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:49
@@ -844,9 +836,7 @@ msgstr "ნაწარმოები"
 msgid ""
 "This %(work_type)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"ეს %(work_type)s ლიცენზირებულია <a rel=\"ლიცენზია\" "
-"href=\"%(license_url)s\">Creative Commons %(license_name)s ლიცენზია</a>."
+msgstr "ეს %(work_type)s ლიცენზირებულია <a rel=\"ლიცენზია\" href=\"%(license_url)s\">Creative Commons %(license_name)s ლიცენზია</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/404.html:3
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/license_catcher.html:3
@@ -1081,9 +1071,7 @@ msgstr ""
 msgid ""
 "You must attribute the\n"
 "work in the manner specified by the author or licensor."
-msgstr ""
-"თქვენ აუცილებლად უნდა მიუთითოთ ავტორის სახელი\n"
-"ნაწარმოებზე ავტორის ან ლიცენზიარის მიერ დადგენილი ფორმით."
+msgstr "თქვენ აუცილებლად უნდა მიუთითოთ ავტორის სახელი\nნაწარმოებზე ავტორის ან ლიცენზიარის მიერ დადგენილი ფორმით."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/by.html:20
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nc.html:19
@@ -1143,11 +1131,7 @@ msgid ""
 "information about your works. <a href=\"/learn/technology/usingmarkup\" "
 "target=\"_blank\">More information about adding HTML to your documents "
 "here</a>."
-msgstr ""
-"დააკოპირეთ ტექსტი, შემდეგ ჩასვით იგი თქვენს ვებ–დოკუმენტებში, რომელიც "
-"შეიცავს ინფორმაციას თქვენი ნაწარმოებების შესახებ. <a "
-"href=\"/იხილეთ/ტექნოლოგია/მონიშვნისგამოყენება\" მიზანი=\"_ბლანკი\">თქვენს "
-"დოკუმენტებზე HTML დამატების შესახებ მეტი ინფორმაცია იხილეთ აქ</a>."
+msgstr "დააკოპირეთ ტექსტი, შემდეგ ჩასვით იგი თქვენს ვებ–დოკუმენტებში, რომელიც შეიცავს ინფორმაციას თქვენი ნაწარმოებების შესახებ. <a href=\"/იხილეთ/ტექნოლოგია/მონიშვნისგამოყენება\" მიზანი=\"_ბლანკი\">თქვენს დოკუმენტებზე HTML დამატების შესახებ მეტი ინფორმაცია იხილეთ აქ</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:24
 msgid "Enter your email address to get the HTML by email:"
@@ -1222,9 +1206,7 @@ msgstr "კომერციული გამოყენება"
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work, including for commercial purposes."
-msgstr ""
-"ლიცენზიარი იძლევა თავისი ნაწარმოების ასლის დამზადების, დისტრიბუციის, "
-"ჩვენებისა და შესრულების ნებართვას მათ შორის კომერციული მიზნებისთვის.  "
+msgstr "ლიცენზიარი იძლევა თავისი ნაწარმოების ასლის დამზადების, დისტრიბუციის, ჩვენებისა და შესრულების ნებართვას მათ შორის კომერციული მიზნებისთვის.  "
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:67
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:146
@@ -1237,9 +1219,7 @@ msgstr "არა"
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work for non-commercial purposes only."
-msgstr ""
-"ლიცენზიარი იძლევა თავისი ნაწარმოების ასლის დამზადების, გავრცელების, "
-"ჩვენებისა და შესრულების უფლებას მხოლოდ არაკომერციული მიზნებისათვის."
+msgstr "ლიცენზიარი იძლევა თავისი ნაწარმოების ასლის დამზადების, გავრცელების, ჩვენებისა და შესრულების უფლებას მხოლოდ არაკომერციული მიზნებისათვის."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:89
 msgid "Allow modifications of your work?"
@@ -1253,10 +1233,7 @@ msgstr "ნებადართულია გადამუშავებ�
 msgid ""
 "The licensor permits others to copy, distribute, display and perform the "
 "work, as well as make derivative works based on it."
-msgstr ""
-"ლიცენზიარი სხვებს ნებას რთავს, რომ დააკოპირონ, გაავრცელონ, აჩვენონ და "
-"შეასრულონ ნაწარმოები, აგრეთვე შექმნან მასზე დაფუძნებული გადამუშავებული "
-"ნაწარმოები."
+msgstr "ლიცენზიარი სხვებს ნებას რთავს, რომ დააკოპირონ, გაავრცელონ, აჩვენონ და შეასრულონ ნაწარმოები, აგრეთვე შექმნან მასზე დაფუძნებული გადამუშავებული ნაწარმოები."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:122
 msgid "Yes, as long as others share alike"
@@ -1432,18 +1409,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"<strong>ნებადართულია თქვენი ნაწარმოების კომერციული გამოყენება?</strong> (<a "
-"href=\"/characteristic/nc?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">more info</a> <a href=\"/characteristic/nc?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+msgstr "<strong>ნებადართულია თქვენი ნაწარმოების კომერციული გამოყენება?</strong> (<a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">more info</a> <a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:43
 #, python-format
@@ -1459,18 +1425,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"<strong>თქვენი ნაწარმოების მოდიფიკაციის ნებას რთავთ?</strong> (<a "
-"href=\"/characteristic/nd?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">more info</a> <a href=\"/characteristic/nd?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+msgstr "<strong>თქვენი ნაწარმოების მოდიფიკაციის ნებას რთავთ?</strong> (<a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">more info</a> <a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:52
 #, python-format
@@ -1486,18 +1441,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"დიახ, როგორც იგივე პირობებით, როგორც სხვები (<a "
-"href=\"/characteristic/sa?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">more info</a> <a href=\"/characteristic/sa?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+msgstr "დიახ, როგორც იგივე პირობებით, როგორც სხვები (<a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">more info</a> <a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:99
 msgid ""
@@ -1515,10 +1459,7 @@ msgid ""
 "You have selected the <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s License</b></a>.<br>\n"
 "This license is permanently located at<br>\n"
 "<b><tt>%(license_url)s</tt></b>."
-msgstr ""
-"თქვენ აირჩიეთ<a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s License</b></a>.<br>\n"
-"ეს ლიცენზია მუდმივად განთავსებულია <br>\n"
-"<b><tt>%(license_url)s</tt></b>."
+msgstr "თქვენ აირჩიეთ<a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s License</b></a>.<br>\nეს ლიცენზია მუდმივად განთავსებულია <br>\n<b><tt>%(license_url)s</tt></b>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:25
@@ -1734,7 +1675,7 @@ msgid ""
 "An error occurred when we tried to send the email message; you can try "
 "clicking the Back button and double checking your email address.  If the "
 "address you used (%(email_addr)s) was correct you can <a "
-"href=\"/about/contact\">contact us</a>."
+"href=\"/contact\">contact us</a>."
 msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:75
@@ -1837,9 +1778,7 @@ msgstr ""
 msgid ""
 "Now that you've chosen the Public Domain Certification, you should mark the "
 "work in the appropriate way."
-msgstr ""
-"ეხლა, როდესაც აირჩიეთ საზოგადოებრივი საკუთრების სერტიფიკატი, თქვენ ეს "
-"დადგენილი წესით უნდა აღნიშნოთ თქვენს ნაწარმოებზე."
+msgstr "ეხლა, როდესაც აირჩიეთ საზოგადოებრივი საკუთრების სერტიფიკატი, თქვენ ეს დადგენილი წესით უნდა აღნიშნოთ თქვენს ნაწარმოებზე."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-4.html:17
 msgid ""
@@ -2010,9 +1949,7 @@ msgstr "თქვენი ინტერნეტ-მისამართი"
 msgid ""
 "The URL where people can find more information about \n"
 "the work or the person using CC0."
-msgstr ""
-"URL სადაც შესაძლებელია მეთი ინფორმაციის პოვნა\n"
-"ნაწარმოებზე ან პერონაზე CC0–ს გამოყენებით."
+msgstr "URL სადაც შესაძლებელია მეთი ინფორმაციის პოვნა\nნაწარმოებზე ან პერონაზე CC0–ს გამოყენებით."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:109
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:125
@@ -2166,9 +2103,7 @@ msgstr "თქვენ თავისუფალი ხართ:"
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:28
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:53
 msgid "<strong>to Share</strong> — to copy, distribute and transmit the work"
-msgstr ""
-"<strong>გაზიარება</strong> — ასლის გადაღება, გავრცელება და ნაწარმოების "
-"გადაცემა"
+msgstr "<strong>გაზიარება</strong> — ასლის გადაღება, გავრცელება და ნაწარმოების გადაცემა"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:33
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:60
@@ -2205,11 +2140,7 @@ msgid ""
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
 " id=\"fair_use\" class=\"helpLink\">fair use</a> rights, or other applicable"
 " copyright exceptions and limitations;"
-msgstr ""
-"თვქენს მიერ კეთილსინდისიერი განაწილება ან<a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
-" id=\"fair_use\" class=\"helpLink\">fair use</a> უფლებები, ან საავტორო "
-"უფლებების სხვა შესაბამისი შეზღუდვები ან გამონაკლისები;"
+msgstr "თვქენს მიერ კეთილსინდისიერი განაწილება ან<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\" id=\"fair_use\" class=\"helpLink\">fair use</a> უფლებები, ან საავტორო უფლებების სხვა შესაბამისი შეზღუდვები ან გამონაკლისები;"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:72
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:79
@@ -2412,18 +2343,13 @@ msgstr ""
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "commercial or noncommercial purposes."
-msgstr ""
-"შეცვლა, შერევა ან სხვაგვარად შემოქმედებითად ამ ნაწარმოების ტრანსფორმაცია "
-"კომერციული ან არაკომერციული მიზნებისათვის."
+msgstr "შეცვლა, შერევა ან სხვაგვარად შემოქმედებითად ამ ნაწარმოების ტრანსფორმაცია კომერციული ან არაკომერციული მიზნებისათვის."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:34
 msgid ""
 "To perform, display, and distribute copies of this whole work for "
 "noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
-msgstr ""
-"არაკომერციული მიზნებისათვის სრული ნაწარმოების ასლების შესრულება, ჩვენება და "
-"გავრცელება (მაგ., ფაილების გაცვლა ან ინტერნეტით პროგრამების არაკომერციული "
-"გადანაწილება)."
+msgstr "არაკომერციული მიზნებისათვის სრული ნაწარმოების ასლების შესრულება, ჩვენება და გავრცელება (მაგ., ფაილების გაცვლა ან ინტერნეტით პროგრამების არაკომერციული გადანაწილება)."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:63
 msgid ""
@@ -2482,10 +2408,7 @@ msgid ""
 "Apart from the remix rights granted under this license, the author's <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
-msgstr ""
-"ამ ლიცენზიით მოცემული რემიქსის უფლებებისგან დამოუკიდებლად, ავტორის <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
-" id=\"moral_rights\" class=\"helpLink\">moral</a> უფლებები;"
+msgstr "ამ ლიცენზიით მოცემული რემიქსის უფლებებისგან დამოუკიდებლად, ავტორის <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\" id=\"moral_rights\" class=\"helpLink\">moral</a> უფლებები;"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:176
 msgid "Notice"
@@ -2639,9 +2562,7 @@ msgstr ""
 msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
-msgstr ""
-"ეს არის ადამიანის მიერ აღქმადი მოკლე შინაარსი <a "
-"href=\"./legalcode\">იურიდიული კოდექსის (წაიკითხეთ სრული ტექსტი)</a>."
+msgstr "ეს არის ადამიანის მიერ აღქმადი მოკლე შინაარსი <a href=\"./legalcode\">იურიდიული კოდექსის (წაიკითხეთ სრული ტექსტი)</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:182
 msgid "Use this tool for your own work."
@@ -2677,17 +2598,13 @@ msgstr ""
 msgid ""
 "This is a human-readable summary of the Legal Code (the full license) "
 "available in the following languages:"
-msgstr ""
-"ეს არის ადამიანის მიერ აღმადი იურიდიული კოდექსის მოკლე შინაარსი (სრული "
-"ლიცენზია) ხელმისაწვდომი შემდეგ ენებზე:"
+msgstr "ეს არის ადამიანის მიერ აღმადი იურიდიული კოდექსის მოკლე შინაარსი (სრული ლიცენზია) ხელმისაწვდომი შემდეგ ენებზე:"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:138
 msgid ""
 "This is a human-readable summary of the <a href=\"legalcode\" "
 "class=\"fulltext\">Legal Code (the full license)</a>."
-msgstr ""
-"ეს არის ადამიანის მიერ აღქმადი შინაარსი <a href=\"იურიდიული კოდექსის\" "
-"კლასი=\"სრული ტექსტი\">იურიდიული კოდექსი (ლიცენზიის სრული ტექსტი)</a>."
+msgstr "ეს არის ადამიანის მიერ აღქმადი შინაარსი <a href=\"იურიდიული კოდექსის\" კლასი=\"სრული ტექსტი\">იურიდიული კოდექსი (ლიცენზიის სრული ტექსტი)</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:162
 msgid "Use this license for your own work."
@@ -2739,9 +2656,7 @@ msgstr "Creative Commons–ის ლიცენზია"
 msgid ""
 "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"%(work_title)s შექმნილი %(work_author)s ლიცენზირებულია <a rel=\"license\" "
-"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr "%(work_title)s შექმნილი %(work_author)s ლიცენზირებულია <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:200
 #, python-format
@@ -2767,9 +2682,7 @@ msgstr "ეფუძნება ნაწარმოებს, განლა
 msgid ""
 "Permissions beyond the scope of this license may be available at "
 "%(more_perms_link)s."
-msgstr ""
-"ნებართვა ამ ლიცენზიის ჩარჩოების გვერდის ავლის შეიძლება იხილოთ "
-"%(more_perms_link)s."
+msgstr "ნებართვა ამ ლიცენზიის ჩარჩოების გვერდის ავლის შეიძლება იხილოთ %(more_perms_link)s."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:314
 #, python-format
@@ -2777,10 +2690,7 @@ msgid ""
 "This %(work_type)s is in the <a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
 "Domain</a>."
-msgstr ""
-"ეს %(work_type)s არის <a rel=\"ლიცენზია\" "
-"href=\"http://creativecommons.org/licenses/publicdomain/\">საზოგადოებრივი "
-"საკუთრება</a>."
+msgstr "ეს %(work_type)s არის <a rel=\"ლიცენზია\" href=\"http://creativecommons.org/licenses/publicdomain/\">საზოგადოებრივი საკუთრება</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:328
 msgid "This work is free of known copyright restrictions."
@@ -2832,16 +2742,20 @@ msgid ""
 msgstr ""
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Generic"
-msgstr "ზოგადი"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Unported"
-msgstr "არაპორტირებული"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Developing Nations"
 msgstr "განვითარებადი ერები"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU General Public License"
+msgstr "GNU ზოგადი საჯარო ლიცენზია"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU Lesser General Public License"
+msgstr "GNU მცირე ზოგარი საჯარო ლიცენზია"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "Generic"
+msgstr "ზოგადი"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
@@ -2853,11 +2767,5 @@ msgid "Universal"
 msgstr "უნივერსალური"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU General Public License"
-msgstr "GNU ზოგადი საჯარო ლიცენზია"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU Lesser General Public License"
-msgstr "GNU მცირე ზოგარი საჯარო ლიცენზია"
-
-
+msgid "Unported"
+msgstr "არაპორტირებული"

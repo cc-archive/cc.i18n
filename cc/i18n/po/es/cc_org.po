@@ -9,10 +9,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
-"POT-Creation-Date: 2012-02-03 12:28-0600\n"
-"PO-Revision-Date: 2012-02-12 19:41+0000\n"
-"Last-Translator: claudioruiz <claudio@derechosdigitales.org>\n"
-"Language-Team: Spanish (Castilian) (http://www.transifex.net/projects/p/CC/team/es/)\n"
+"POT-Creation-Date: 2012-03-15 15:31-0500\n"
+"PO-Revision-Date: 2012-03-15 20:44+0000\n"
+"Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
+"Language-Team: Spanish (Castilian) (http://www.transifex.net/projects/p/CC/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -127,7 +127,8 @@ msgstr "Croacia"
 msgid "Hungary"
 msgstr "Hungría"
 
-#: cc/i18n/mappers.py:31
+#: cc/i18n/mappers.py:31 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
 msgid "Ireland"
 msgstr "Irlanda"
 
@@ -730,19 +731,14 @@ msgid ""
 "You must attribute the work in the manner specified by the author or "
 "licensor (but not in any way that suggests that they endorse you or your use"
 " of the work)."
-msgstr ""
-"Debe reconocer los créditos de la obra de la manera especificada por el "
-"autor o el licenciante (pero no de una manera que sugiera que tiene su apoyo"
-" o que apoyan el uso que hace de su obra)."
+msgstr "Debe reconocer los créditos de la obra de la manera especificada por el autor o el licenciante (pero no de una manera que sugiera que tiene su apoyo o que apoyan el uso que hace de su obra)."
 
 #: cc/i18n/mappers.py:188
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:53
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
-msgstr ""
-"Sólo puede utilizar esta obra para anunciar o promocionar una obra que haya "
-"creado partir de ésta."
+msgstr "Sólo puede utilizar esta obra para anunciar o promocionar una obra que haya creado partir de ésta."
 
 #: cc/i18n/mappers.py:191
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:49
@@ -751,35 +747,26 @@ msgstr "No puede utilizar esta obra para fines comerciales."
 
 #: cc/i18n/mappers.py:192
 msgid "You may not alter, transform, or build upon this work."
-msgstr ""
-"No se puede alterar, transformar o generar una obra derivada a partir de "
-"esta obra."
+msgstr "No se puede alterar, transformar o generar una obra derivada a partir de esta obra."
 
 #: cc/i18n/mappers.py:193
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:66
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
-msgstr ""
-"No puede comunicar públicamente, exhibir o distribuir copias de la obra "
-"completa, sea cual sea la finalidad."
+msgstr "No puede comunicar públicamente, exhibir o distribuir copias de la obra completa, sea cual sea la finalidad."
 
 #: cc/i18n/mappers.py:196
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same or similar license to this one."
-msgstr ""
-"Si altera o transforma esta obra, o genera una obra derivada, sólo puede "
-"distribuir la obra generada bajo una licencia idéntica a ésta."
+msgstr "Si altera o transforma esta obra, o genera una obra derivada, sólo puede distribuir la obra generada bajo una licencia idéntica a ésta."
 
 #: cc/i18n/mappers.py:200 checkouts/cc.engine/cc/engine/util.py:256
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
-msgstr ""
-"Si transforma o modifica esta obra para crear una obra derivada, sólo puede "
-"distribuir la obra resultante bajo la misma licencia, una similar o una "
-"compatible."
+msgstr "Si transforma o modifica esta obra para crear una obra derivada, sólo puede distribuir la obra resultante bajo la misma licencia, una similar o una compatible."
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/attribution_details.html:3
 #, python-format
@@ -793,17 +780,13 @@ msgstr ""
 msgid ""
 "You must attribute this work to <a "
 "href=\"%(attributionURL)s\">%(attributionName)s</a> (with link)."
-msgstr ""
-"Esta obra debe ser atribuida a <a "
-"href=\"%(attributionURL)s\">%(attributionName)s</a> (mediante un enlace)."
+msgstr "Esta obra debe ser atribuida a <a href=\"%(attributionURL)s\">%(attributionName)s</a> (mediante un enlace)."
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/more_permissions.html:2
 msgid ""
 "<strong>Permissions beyond</strong> the scope of this public license are "
 "available at"
-msgstr ""
-"<strong>Los permisos más allá</strong> de los concedidos con esta licencia "
-"pública se hallan en "
+msgstr "<strong>Los permisos más allá</strong> de los concedidos con esta licencia pública se hallan en "
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/registration.html:2
 #, python-format
@@ -811,10 +794,7 @@ msgid ""
 "<a href=\"%(owner_url)s\">%(owner_name)s</a> has registered <a "
 "href=\"%(lookup_uri)s\">this work</a> at the <nobr><a "
 "href=\"%(network_url)s\">%(network_name)s</a></nobr>"
-msgstr ""
-"<a href=\"%(owner_url)s\">%(owner_name)s</a> ha registrado <a "
-"href=\"%(lookup_uri)s\">esta obra</a> en <nobr><a "
-"href=\"%(network_url)s\">%(network_name)s</a></nobr>"
+msgstr "<a href=\"%(owner_url)s\">%(owner_name)s</a> ha registrado <a href=\"%(lookup_uri)s\">esta obra</a> en <nobr><a href=\"%(network_url)s\">%(network_name)s</a></nobr>"
 
 #: checkouts/cc.engine/cc/engine/util.py:506
 #, python-format
@@ -858,9 +838,7 @@ msgstr "obra"
 msgid ""
 "This %(work_type)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"Este %(work_type)s está bajo una <a rel=\"license\" "
-"href=\"%(license_url)s\">licencia Creative Commons %(license_name)s</a>."
+msgstr "Este %(work_type)s está bajo una <a rel=\"license\" href=\"%(license_url)s\">licencia Creative Commons %(license_name)s</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/404.html:3
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/license_catcher.html:3
@@ -1095,9 +1073,7 @@ msgstr ""
 msgid ""
 "You must attribute the\n"
 "work in the manner specified by the author or licensor."
-msgstr ""
-"Debes dar crédito en la obra\n"
-"en la forma especificada por el autor o licenciante."
+msgstr "Debes dar crédito en la obra\nen la forma especificada por el autor o licenciante."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/by.html:20
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nc.html:19
@@ -1114,19 +1090,14 @@ msgid ""
 "The licensor permits others to copy, distribute and transmit the work. In "
 "return, licensees may not use the work for commercial purposes — unless they"
 " get the licensor's permission."
-msgstr ""
-"El licenciante permite copiar, distribuir y comunicar públicamente la obra. "
-"A cambio, esta obra no puede ser utilizada con finalidades comerciales -- a "
-"menos que se obtenga el permiso del licenciante."
+msgstr "El licenciante permite copiar, distribuir y comunicar públicamente la obra. A cambio, esta obra no puede ser utilizada con finalidades comerciales -- a menos que se obtenga el permiso del licenciante."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nd.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:158
 msgid ""
 "The licensor permits others to copy, distribute and transmit only unaltered "
 "copies of the work — not derivative works based on it."
-msgstr ""
-"El licenciante permite copiar, distribuir y comunicar públicamente solamente"
-" copias inalteradas de la obra -- no obras derivadas basadas en ella."
+msgstr "El licenciante permite copiar, distribuir y comunicar públicamente solamente copias inalteradas de la obra -- no obras derivadas basadas en ella."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/sa.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:135
@@ -1134,9 +1105,7 @@ msgid ""
 "The licensor permits others to distribute derivative works only under the "
 "same license or one compatible with the one that governs the licensor's "
 "work."
-msgstr ""
-"El licenciante permite distribuir obras derivadas sólo bajo una licencia "
-"idéntica o compatible a la que regula su obra."
+msgstr "El licenciante permite distribuir obras derivadas sólo bajo una licencia idéntica o compatible a la que regula su obra."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/emailhtml.html:7
 #, python-format
@@ -1146,12 +1115,7 @@ msgid ""
 "</p>\n"
 "\n"
 "<p>Place the link or the HTML on your website, right next to the work you intend to license.  </p>"
-msgstr ""
-"<p>\n"
-"La información referente a su elección le ha sido enviada a <strong>%(email)s</strong>.\n"
-"</p>\n"
-"\n"
-"<p>Ponga el enlace o el código HTML en su web, junto a la obra que está bajo la licencia.  </p>"
+msgstr "<p>\nLa información referente a su elección le ha sido enviada a <strong>%(email)s</strong>.\n</p>\n\n<p>Ponga el enlace o el código HTML en su web, junto a la obra que está bajo la licencia.  </p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:7
 msgid "The HTML to display your button is as follows:"
@@ -1169,16 +1133,11 @@ msgid ""
 "information about your works. <a href=\"/learn/technology/usingmarkup\" "
 "target=\"_blank\">More information about adding HTML to your documents "
 "here</a>."
-msgstr ""
-"Simplemente copie el texto y péguelo en sus documentos del sitio web que "
-"contengan información sobre sus obras. <a "
-"href=\"/learn/technology/usingmarkup\" target=\"_blank\">Aquí encontrará más"
-" información sobre como añadir código HTML en sus documentos</a>."
+msgstr "Simplemente copie el texto y péguelo en sus documentos del sitio web que contengan información sobre sus obras. <a href=\"/learn/technology/usingmarkup\" target=\"_blank\">Aquí encontrará más información sobre como añadir código HTML en sus documentos</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:24
 msgid "Enter your email address to get the HTML by email:"
-msgstr ""
-"Escriba su dirección para obtener el código HTML por correo electrónico:"
+msgstr "Escriba su dirección para obtener el código HTML por correo electrónico:"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:39
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:89
@@ -1198,17 +1157,7 @@ msgid ""
 "mark a work that is already free of known copyright restrictions and in the "
 "public domain, choose one of our <a href=\"/publicdomain/\">public domain "
 "tools</a>."
-msgstr ""
-"Con una licencia de Creative Commons, <strong>mantienes tus derechos de "
-"autor</strong> pero permites a otras personas <a "
-"href=\"/learn/licenses/fullrights\">copiar y distribuir su obra</a>, siempre"
-" y cuando <a href=\"#\" class=\"helpLink\" id=\"give_you_credit\">reconozcan"
-" la correspondiente autoría</a> -- y solamente bajo las condiciones que "
-"especifiques aquí. Si las licencias Creative Commons son algo nuevo para ti,"
-" hemos preparado una <a href=\"/about/think\">lista de aspectos a tener en "
-"cuenta</a>. Si prefieres ofrecer tu obra sin condiciones o quieres "
-"certificar que una obra está en el dominio público, escoge una de nuestras "
-"<a href=\"/publicdomain/\">herramientas para dominio público</a>."
+msgstr "Con una licencia de Creative Commons, <strong>mantienes tus derechos de autor</strong> pero permites a otras personas <a href=\"/learn/licenses/fullrights\">copiar y distribuir su obra</a>, siempre y cuando <a href=\"#\" class=\"helpLink\" id=\"give_you_credit\">reconozcan la correspondiente autoría</a> -- y solamente bajo las condiciones que especifiques aquí. Si las licencias Creative Commons son algo nuevo para ti, hemos preparado una <a href=\"/about/think\">lista de aspectos a tener en cuenta</a>. Si prefieres ofrecer tu obra sin condiciones o quieres certificar que una obra está en el dominio público, escoge una de nuestras <a href=\"/publicdomain/\">herramientas para dominio público</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:17
 msgid ""
@@ -1218,13 +1167,7 @@ msgid ""
 "information on how to select a license on one of several free hosting "
 "services that have incorporated Creative Commons. This is not a registration"
 " and we do not retain a record of your selection."
-msgstr ""
-"Cuando usted escoge una <a "
-"href=\"http://creativecommons.org/about/licenses\">licencia</a>, le "
-"entregamos el código HTML que puede usar para agregar información sobre la "
-"licencia en su sitio web e información sobre cómo elegir una licencia en "
-"alguno de los sitios de alojamiento gratuito que han incorporado Creative "
-"Commons. Esto no constituye un registro y no almacenamos su elección."
+msgstr "Cuando usted escoge una <a href=\"http://creativecommons.org/about/licenses\">licencia</a>, le entregamos el código HTML que puede usar para agregar información sobre la licencia en su sitio web e información sobre cómo elegir una licencia en alguno de los sitios de alojamiento gratuito que han incorporado Creative Commons. Esto no constituye un registro y no almacenamos su elección."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:38
 msgid "Allow commercial uses of your work?"
@@ -1265,9 +1208,7 @@ msgstr "Uso Comercial"
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work, including for commercial purposes."
-msgstr ""
-"El licenciante permite la reproducción, distribución y comunicación pública "
-"de la obra, incluso con fines comerciales."
+msgstr "El licenciante permite la reproducción, distribución y comunicación pública de la obra, incluso con fines comerciales."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:67
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:146
@@ -1280,9 +1221,7 @@ msgstr "No"
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work for non-commercial purposes only."
-msgstr ""
-"El licenciante permite la reproducción, distribución y comunicación pública "
-"de la obra sólo para fines no comerciales."
+msgstr "El licenciante permite la reproducción, distribución y comunicación pública de la obra sólo para fines no comerciales."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:89
 msgid "Allow modifications of your work?"
@@ -1296,9 +1235,7 @@ msgstr "Permitir obras derivadas"
 msgid ""
 "The licensor permits others to copy, distribute, display and perform the "
 "work, as well as make derivative works based on it."
-msgstr ""
-"El licenciante permite la reproducción, distribución y comunicación pública "
-"de la obra así como la generación de obras derivadas."
+msgstr "El licenciante permite la reproducción, distribución y comunicación pública de la obra así como la generación de obras derivadas."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:122
 msgid "Yes, as long as others share alike"
@@ -1322,13 +1259,7 @@ msgid ""
 "international licenses do not, then you may want to consider\n"
 "<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">which\n"
 "license is better suited for your needs</a>."
-msgstr ""
-"Usa la opción \"International\" si deseas una licencia usando el lenguaje\n"
-"y la terminología de los tratados internacionales. Si las licencias se \n"
-"han adaptado a tu jurisdicción y consideras que las licencias \n"
-"adaptadas en tu jurisdicción abarcan algún aspecto de la legislación local\n"
-"que las licencias internacionales no cubren, podrías querer revisar\n"
-"<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">qué licencia es la más adecuada para tus necesidades</a>."
+msgstr "Usa la opción \"International\" si deseas una licencia usando el lenguaje\ny la terminología de los tratados internacionales. Si las licencias se \nhan adaptado a tu jurisdicción y consideras que las licencias \nadaptadas en tu jurisdicción abarcan algún aspecto de la legislación local\nque las licencias internacionales no cubren, podrías querer revisar\n<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">qué licencia es la más adecuada para tus necesidades</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:202
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:82
@@ -1376,9 +1307,7 @@ msgstr "¿Tiene su propio sitio web?"
 msgid ""
 "Copy the text below to your Web site to let your visitors know what license "
 "applies to your works."
-msgstr ""
-"Copie el texto siguiente en su sitio web y permita a los visitantes saber "
-"qué licencia se aplica a sus obras."
+msgstr "Copie el texto siguiente en su sitio web y permita a los visitantes saber qué licencia se aplica a sus obras."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:82
 #, python-format
@@ -1388,31 +1317,21 @@ msgid ""
 "html-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">emailed to yourself.</a>"
-msgstr ""
-"Seleccione el contenido de la ventana inferior y cópielo. O  <a "
-"href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-"
-"html-popup?%(url_vars)s', 'html_help', "
-"'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">enviéselo usted mismo</a> por email."
+msgstr "Seleccione el contenido de la ventana inferior y cópielo. O  <a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">enviéselo usted mismo</a> por email."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:85
 msgid ""
 "Need more help? <a "
 "href=\"http://wiki.creativecommons.org/Website/Publish\">Read our "
 "tutorial</a>."
-msgstr ""
-"¿Necesita más ayuda? <a href=\"/education/publish-website\">Lea nuestro "
-"tutorial</a>."
+msgstr "¿Necesita más ayuda? <a href=\"/education/publish-website\">Lea nuestro tutorial</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:93
 msgid ""
 "Creative Commons is a non-profit organization.<br /> We need your support to"
 " continue providing these tools.<br /> <a "
 "href=\"https://creativecommons.net/donate/\">Donate today!</a>"
-msgstr ""
-"Creative Commons es una organización sin fines de lucro.<br /> Necesitamos "
-"de tu apoyo para seguir entregando estas herramientas.<br /> <a "
-"href=\"https://creativecommons.net/donate/\">¡Colabora hoy donando!</a>"
+msgstr "Creative Commons es una organización sin fines de lucro.<br /> Necesitamos de tu apoyo para seguir entregando estas herramientas.<br /> <a href=\"https://creativecommons.net/donate/\">¡Colabora hoy donando!</a>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:105
 msgid ""
@@ -1467,14 +1386,7 @@ msgid ""
 "<a href=\"http://creativecommons.org/characteristic/by?lang=en\" onclick=\"window.open('http://creativecommons.org/characteristic/by?lang=en', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">give\n"
 "you credit</a> -- and only on the conditions you specify here.\n"
 "This page helps you choose those conditions.\n"
-msgstr ""
-"<p>Las licencias de Creative Commons le ayudan a compartir su obra "
-"manteniendo sus derechos de autor. La gente puede copiar y distribuir su "
-"obra siempre que le  <a href=\"/characteristic/by?lang=es\" "
-"onclick=\"window.open('/characteristic/by?lang=es', 'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">reconozcan su autoría</a> -- y sólo en las condiciones que usted "
-"especifique aquí. Esta página le ayuda a escoger estas condiciones. </p>\n"
+msgstr "<p>Las licencias de Creative Commons le ayudan a compartir su obra manteniendo sus derechos de autor. La gente puede copiar y distribuir su obra siempre que le  <a href=\"/characteristic/by?lang=es\" onclick=\"window.open('/characteristic/by?lang=es', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">reconozcan su autoría</a> -- y sólo en las condiciones que usted especifique aquí. Esta página le ayuda a escoger estas condiciones. </p>\n"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:16
 #, python-format
@@ -1483,11 +1395,7 @@ msgid ""
 "href=\"%(cc0_url)s\">CC0</a>. If you're sharing a work that isn't covered by"
 " copyright or on which the copyright has expired, choose the <a "
 "href=\"%(pd_url)s\">Public Domain Mark</a>."
-msgstr ""
-"Si deseas compartir sin ninguna condición una obra que has creado, escoge <a"
-" href=\"%(cc0_url)s\">CC0</a>. Si estás compartiendo una obra que no está "
-"cubierta por derechos de autor o en la que han expirado esos derechos, "
-"escoge la <a href=\"%(pd_url)s\">Etiqueta de Dominio Público</a>."
+msgstr "Si deseas compartir sin ninguna condición una obra que has creado, escoge <a href=\"%(cc0_url)s\">CC0</a>. Si estás compartiendo una obra que no está cubierta por derechos de autor o en la que han expirado esos derechos, escoge la <a href=\"%(pd_url)s\">Etiqueta de Dominio Público</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:31
 #, python-format
@@ -1503,18 +1411,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"<strong>¿Permitir el uso comercial de su obra?</strong> (<a "
-"href=\"/characteristic/nc?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">más información</a> <a href=\"/characteristic/nc?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"más información\" border=\"0\" /></a>)"
+msgstr "<strong>¿Permitir el uso comercial de su obra?</strong> (<a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">más información</a> <a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"más información\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:43
 #, python-format
@@ -1530,18 +1427,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"<strong>¿Permitir modificaciones de su obra?</strong> (<a "
-"href=\"/characteristic/nd?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">más información</a> <a href=\"/characteristic/nd?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+msgstr "<strong>¿Permitir modificaciones de su obra?</strong> (<a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">más información</a> <a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:52
 #, python-format
@@ -1557,18 +1443,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"Sí, siempre que se comparta de la misma manera (<a "
-"href=\"/characteristic/sa?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">más información</a> <a href=\"/characteristic/sa?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+msgstr "Sí, siempre que se comparta de la misma manera (<a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">más información</a> <a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:99
 msgid ""
@@ -1578,13 +1453,7 @@ msgid ""
 "<p>\n"
 "Creative Commons does not provide legal advice or services. We provide form legal documents; the rest is up to you.\n"
 "</p>"
-msgstr ""
-"<p>\n"
-"<em>Aviso:</em> Para licenciar una obra, usted debe ser el titular de los derechos o tener una autorización expresa del titular para hacerlo.</p>\n"
-"\n"
-"<p>\n"
-"Creative Commons no ofrece ninguna asesoría o servicio legal. Ofrecemos documentos legales prediseñados; el resto depende de usted.\n"
-"</p>"
+msgstr "<p>\n<em>Aviso:</em> Para licenciar una obra, usted debe ser el titular de los derechos o tener una autorización expresa del titular para hacerlo.</p>\n\n<p>\nCreative Commons no ofrece ninguna asesoría o servicio legal. Ofrecemos documentos legales prediseñados; el resto depende de usted.\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:7
 #, python-format
@@ -1592,10 +1461,7 @@ msgid ""
 "You have selected the <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s License</b></a>.<br>\n"
 "This license is permanently located at<br>\n"
 "<b><tt>%(license_url)s</tt></b>."
-msgstr ""
-"Ha seleccionado la <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>Licencia %(license_pretty_name)s</b></a>.<br>\n"
-"Esta licencia está permanentemente ubicada en<br>\n"
-"<b><tt>%(license_url)s</tt></b>."
+msgstr "Ha seleccionado la <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>Licencia %(license_pretty_name)s</b></a>.<br>\nEsta licencia está permanentemente ubicada en<br>\n<b><tt>%(license_url)s</tt></b>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:25
@@ -1609,10 +1475,7 @@ msgid ""
 "These fields are optional, but will be embedded in the HTML generated for "
 "the work you are marking. This allows users of the work to locate the work "
 "online and find out where to go for more information."
-msgstr ""
-"Estos campos son opcionales, pero se integrarán en el código HTML generado "
-"para la obra que estás marcando. Esto permite a los usuarios de la obra "
-"localizarla en línea y averiguar dónde ir para obtener más información."
+msgstr "Estos campos son opcionales, pero se integrarán en el código HTML generado para la obra que estás marcando. Esto permite a los usuarios de la obra localizarla en línea y averiguar dónde ir para obtener más información."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:39
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:46
@@ -1627,12 +1490,7 @@ msgid ""
 "<p> <a href=\"http://wiki.creativecommons.org/Metadata\">More "
 "information</a> on Creative Commons metadata is available if you want to "
 "find out more. </p>"
-msgstr ""
-"<p> La información está integrada en un formato legible por el software. "
-"Esto permite a los motores de búsqueda indexar información adicional acerca "
-"de la obra marcada. </p><p> <a "
-"href=\"http://wiki.creativecommons.org/Metadata\">Más información</a> sobre "
-"metadatos de Creative Commons está disponible si desea saber más.</p>"
+msgstr "<p> La información está integrada en un formato legible por el software. Esto permite a los motores de búsqueda indexar información adicional acerca de la obra marcada. </p><p> <a href=\"http://wiki.creativecommons.org/Metadata\">Más información</a> sobre metadatos de Creative Commons está disponible si desea saber más.</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:47
 msgid "Work Information"
@@ -1646,9 +1504,7 @@ msgstr "Nombre de la obra"
 msgid ""
 "This is usually the title of the work given by the author, or if none the "
 "name associated with the work by the person identifying the work."
-msgstr ""
-"Este es normalmente el título de la obra dado por el autor, y si no lo hay "
-"es el nombre asociado con la obra por la persona que la identifica."
+msgstr "Este es normalmente el título de la obra dado por el autor, y si no lo hay es el nombre asociado con la obra por la persona que la identifica."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:63
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-2.html:57
@@ -1662,9 +1518,7 @@ msgstr "Nombre de autor"
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:71
 msgid ""
 "You may list multiple authors. If unknown, you may wish to state 'unknown'."
-msgstr ""
-"Puedes indicar varios autores. Si es desconocido, puedes indicarlo como "
-"'desconocido'"
+msgstr "Puedes indicar varios autores. Si es desconocido, puedes indicarlo como 'desconocido'"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:77
 msgid "Author URL"
@@ -1674,9 +1528,7 @@ msgstr "URL de Autor"
 msgid ""
 "This may be the URL where the author published the work online, or the URL "
 "where the work is published by the person identifying the work."
-msgstr ""
-"Esta puede ser la URL donde el autor publica la obra en línea. o la URL "
-"donde la obra está publicada por la persona que ha identificado la obra."
+msgstr "Esta puede ser la URL donde el autor publica la obra en línea. o la URL donde la obra está publicada por la persona que ha identificado la obra."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:90
 msgid "Identifying Individual or Organization"
@@ -1698,9 +1550,7 @@ msgstr "URL"
 msgid ""
 "This may be your main website or the information page about you on a hosting"
 " website, such as Flickr Commons."
-msgstr ""
-"Este puede ser tu sitio web principal o la página de información sobre ti en"
-" un sitio web de alojamiento, tales como Flickr Commons."
+msgstr "Este puede ser tu sitio web principal o la página de información sobre ti en un sitio web de alojamiento, tales como Flickr Commons."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:123
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-3.html:76
@@ -1715,13 +1565,7 @@ msgid ""
 "are restricted by copyright laws in one or more jurisdictions. If you want "
 "to free <b>your own work</b> of copyright restrictions, instead use the "
 "<b><a href=\"/choose/zero/\">CC0 public domain dedication</a></b>."
-msgstr ""
-"Estás usando una herramienta para etiquetar obras que están libres de "
-"restricciones conocidas de dominio público. Creative Commons no recomienda "
-"esta herramienta para obras que están restringidas por leyes de propiedad "
-"intelectual en una o más jurisdicciones. Si quieres liberar <b>tu propia "
-"obra</b> de restricciones de derecho de autor, mejor utiliza la <b><a "
-"href=\"/choose/zero/\">dedicación al dominio público CC0</a></b>."
+msgstr "Estás usando una herramienta para etiquetar obras que están libres de restricciones conocidas de dominio público. Creative Commons no recomienda esta herramienta para obras que están restringidas por leyes de propiedad intelectual en una o más jurisdicciones. Si quieres liberar <b>tu propia obra</b> de restricciones de derecho de autor, mejor utiliza la <b><a href=\"/choose/zero/\">dedicación al dominio público CC0</a></b>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/index.html:22
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:9
@@ -1730,12 +1574,7 @@ msgid ""
 "copyright restrictions and clearly convey that status. When applied "
 "properly, the PDM allows the work to be easily discovered, and provides "
 "valuable information about the work."
-msgstr ""
-"Usando la Etiqueta de Dominio Público, puedes marcar una obra que está libre"
-" de restricciones conocidas de derechos de autor y expresar claramente esa "
-"condición. Cuando se aplica correctamente, la Etiqueta de Dominio Público "
-"permite que la obra sea descubierta fácilmente, y proporciona información "
-"valiosa acerca de la obra."
+msgstr "Usando la Etiqueta de Dominio Público, puedes marcar una obra que está libre de restricciones conocidas de derechos de autor y expresar claramente esa condición. Cuando se aplica correctamente, la Etiqueta de Dominio Público permite que la obra sea descubierta fácilmente, y proporciona información valiosa acerca de la obra."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/index.html:26
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:13
@@ -1750,19 +1589,7 @@ msgid ""
 "though we are developing means for marking and tagging such works. You "
 "should consult with your legal advisor if you are unsure whether you should "
 "use the PDM for a work you have identified."
-msgstr ""
-"La Etiqueta de Dominio Público está diseñada para uso en  obras antiguas que"
-" están libres de restricciones de derechos de autor alrededor del mundo, o "
-"las obras que han sido afirmativamente establecidas en el dominio público a "
-"nivel mundial por el titular de derechos de autor antes de la expiración de "
-"esos derechos. No debe ser utilizada para marcar las obras que están en el "
-"dominio público en algunas jurisdicciones mientras persisten restricciones "
-"de derecho de autor en otras. En la actualidad, Creative Commons no "
-"recomienda la Etiqueta de Dominio Público para las obras cuya protección por"
-" derechos de autor difiere una jurisdicción a otra, aunque estamos "
-"desarrollando los medios para marcar y etiquetar tales obras. Debes "
-"consultar con tu asesor legal si no estás seguro si debes usar la Etiqueta "
-"para una obra que has identificado."
+msgstr "La Etiqueta de Dominio Público está diseñada para uso en  obras antiguas que están libres de restricciones de derechos de autor alrededor del mundo, o las obras que han sido afirmativamente establecidas en el dominio público a nivel mundial por el titular de derechos de autor antes de la expiración de esos derechos. No debe ser utilizada para marcar las obras que están en el dominio público en algunas jurisdicciones mientras persisten restricciones de derecho de autor en otras. En la actualidad, Creative Commons no recomienda la Etiqueta de Dominio Público para las obras cuya protección por derechos de autor difiere una jurisdicción a otra, aunque estamos desarrollando los medios para marcar y etiquetar tales obras. Debes consultar con tu asesor legal si no estás seguro si debes usar la Etiqueta para una obra que has identificado."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/index.html:30
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:17
@@ -1773,14 +1600,7 @@ msgid ""
 "metadata for marking the work you have identified as free of known copyright"
 " restrictions. The work will not be associated with a Public Domain Mark "
 "until you publish it marked as being so."
-msgstr ""
-"Por favor ten presente que esto <strong>no es un proceso de "
-"registro</strong> y Creative Commons no conserva ni almacena la información "
-"que entregas. Esta herramienta te guía a través del proceso de generación "
-"del código HTML con metadatos integrados para etiquetar la obra que has "
-"identificado como libre de restricciones conocidas de derecho de autor. La "
-"obra no será asociada con una Etiqueta de Dominio Público hasta que la "
-"publiques etiquetada de esa forma."
+msgstr "Por favor ten presente que esto <strong>no es un proceso de registro</strong> y Creative Commons no conserva ni almacena la información que entregas. Esta herramienta te guía a través del proceso de generación del código HTML con metadatos integrados para etiquetar la obra que has identificado como libre de restricciones conocidas de derecho de autor. La obra no será asociada con una Etiqueta de Dominio Público hasta que la publiques etiquetada de esa forma."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/index.html:35
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/index.html:45
@@ -1818,23 +1638,17 @@ msgstr "confirme la elección"
 msgid ""
 "If you want to free <em>your own work</em> of copyright restrictions, "
 "instead use the <a href=\"%(pd_url)s\">CC0 public domain dedication</a>."
-msgstr ""
-"Si quieres liberar <em>tu propia obra</em> de restricciones de derechos de "
-"autor, mejor utiliza la <a href=\"%(pd_url)s\">dedicación al dominio público"
-" CC0</a>."
+msgstr "Si quieres liberar <em>tu propia obra</em> de restricciones de derechos de autor, mejor utiliza la <a href=\"%(pd_url)s\">dedicación al dominio público CC0</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:19
 msgid ""
 "Choose which style of button you would like to appear by the work on the "
 "webpage:"
-msgstr ""
-"Elige qué estilo de botón quieres que aparezca junto a la obra en la página "
-"web:"
+msgstr "Elige qué estilo de botón quieres que aparezca junto a la obra en la página web:"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:43
 msgid "Here's a preview of how the mark will appear on the website:"
-msgstr ""
-"Aquí hay una vista previa de cómo aparecerá la etiqueta en el sitio web:"
+msgstr "Aquí hay una vista previa de cómo aparecerá la etiqueta en el sitio web:"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:51
 msgid ""
@@ -1843,12 +1657,7 @@ msgid ""
 "does not maintain a record of the work you have identified using the Public "
 "Domain Mark. It is up to you to let people know that you have identified the"
 " work using the mark."
-msgstr ""
-"Copia el texto a continuación en tu sitio web para permitir a tus visitas "
-"saber que la obra identificada está libre de restricciones conocidas de "
-"derecho de autor.Creative Commons no mantiene un registro de la obra que has"
-" identificado con la Etiqueta de Dominio Público. Depende de ti que la gente"
-" sepa que has identificado  la obra usando la etiqueta."
+msgstr "Copia el texto a continuación en tu sitio web para permitir a tus visitas saber que la obra identificada está libre de restricciones conocidas de derecho de autor.Creative Commons no mantiene un registro de la obra que has identificado con la Etiqueta de Dominio Público. Depende de ti que la gente sepa que has identificado  la obra usando la etiqueta."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:58
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:85
@@ -1868,21 +1677,14 @@ msgid ""
 "An error occurred when we tried to send the email message; you can try "
 "clicking the Back button and double checking your email address.  If the "
 "address you used (%(email_addr)s) was correct you can <a "
-"href=\"/about/contact\">contact us</a>."
+"href=\"/contact\">contact us</a>."
 msgstr ""
-"Se produjo un error al intentar enviar el mensaje de correo electrónico, "
-"puedes tratar de hacer clic en el botón Atrás y doble control de tu "
-"dirección de correo electrónico. Si la dirección que utilizaste "
-"(%(email_addr)s) era correcta, te puedes <a "
-"href=\"/about/contact\">contactar con nosotros</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:75
 msgid ""
 "If you'd like to get the HTML with embedded metadata via email, fill in your"
 " email address below."
-msgstr ""
-"Si quieres obtener el código HTML con metadatos integrados por correo "
-"electrónico, completa con tu dirección a continuación."
+msgstr "Si quieres obtener el código HTML con metadatos integrados por correo electrónico, completa con tu dirección a continuación."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:84
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:115
@@ -1907,12 +1709,7 @@ msgid ""
 "tool</a>. CC recommends using a <a "
 "href=\"http://creativecommons.org/publicdomain\">current tool</a> for "
 "waiving rights or identifying public domain works."
-msgstr ""
-"Creative Commons ha <a "
-"href=\"http://creativecommons.org/retiredlicenses\">retirado esta "
-"herramienta legal</a>. CC recomienda usar una <a "
-"href=\"http://creativecommons.org/publicdomain\">herramienta actual</a> para"
-" renunciar a derechos o identificar obras en el dominio público."
+msgstr "Creative Commons ha <a href=\"http://creativecommons.org/retiredlicenses\">retirado esta herramienta legal</a>. CC recomienda usar una <a href=\"http://creativecommons.org/publicdomain\">herramienta actual</a> para renunciar a derechos o identificar obras en el dominio público."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-2.html:19
 msgid ""
@@ -1925,25 +1722,14 @@ msgid ""
 "    using <a href=\"/license/zero/\">CC0</a>.  Please note that if you\n"
 "    use the Public Domain Certification to dedicate a work to the\n"
 "    public domain, it may not be valid outside of the United States."
-msgstr ""
-"Has seleccionado la Certificación de Dominio Público. La certificación de "
-"Dominio Público sólo se debe utilizar para certificar que una obra ya está "
-"en el dominio público. Creative Commons no recomienda utilizar la "
-"certificación de Dominio Público para dedicar una obra aún protegida por "
-"derechos de autor al dominio público. Para dedicar una obra al dominio "
-"público, podrías querer utilizar <a href=\"/license/zero/\">CC0</a>. Ten en "
-"cuenta que si utilizas la Certificación de Dominio Público para dedicar una "
-"obra al dominio público, podría no ser válida fuera de los Estados Unidos."
+msgstr "Has seleccionado la Certificación de Dominio Público. La certificación de Dominio Público sólo se debe utilizar para certificar que una obra ya está en el dominio público. Creative Commons no recomienda utilizar la certificación de Dominio Público para dedicar una obra aún protegida por derechos de autor al dominio público. Para dedicar una obra al dominio público, podrías querer utilizar <a href=\"/license/zero/\">CC0</a>. Ten en cuenta que si utilizas la Certificación de Dominio Público para dedicar una obra al dominio público, podría no ser válida fuera de los Estados Unidos."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-2.html:31
 msgid ""
 "Once you're done filling this out, you will still have the\n"
 "    opportunity to confirm your choice before the certification\n"
 "    happens."
-msgstr ""
-"Una vez que hayas terminado de llenar esta solicitud, todavía tienes la "
-"oportunidad de confirmar tu elección antes de que se produzca la "
-"certificación."
+msgstr "Una vez que hayas terminado de llenar esta solicitud, todavía tienes la oportunidad de confirmar tu elección antes de que se produzca la certificación."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-2.html:37
 msgid "About the work you are certifying"
@@ -1969,9 +1755,7 @@ msgstr "Confirma tu Certificación de Dominio Público"
 msgid ""
 "Copyright-Only Dedication (based on United States law) \n"
 "or Public Domain Certification"
-msgstr ""
-"Dedicación de Derecho de Autor (en base a la legislación estadounidense) \n"
-"o certificación de dominio público"
+msgstr "Dedicación de Derecho de Autor (en base a la legislación estadounidense) \no certificación de dominio público"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-3.html:43
 #: checkouts/cc.engine/cc/engine/templates/licenses/publicdomain_deed.html:38
@@ -1983,40 +1767,26 @@ msgid ""
 "        <p>Dedicator makes this dedication for the benefit of the public at large and to the detriment of the Dedicator's heirs and successors. Dedicator intends this dedication to be an overt act of relinquishment in perpetuity of all present and future rights under copyright law, whether vested or contingent, in the Work. Dedicator understands that such relinquishment of all rights includes the relinquishment of all rights to enforce (by lawsuit or otherwise) those copyrights in the Work.</p>\n"
 "\n"
 "        <p>Dedicator recognizes that, once placed in the public domain, the Work may be freely reproduced, distributed, transmitted, used, modified, built upon, or otherwise exploited by anyone for any purpose, commercial or non-commercial, and in any way, including by methods that have not yet been invented or conceived.</p>"
-msgstr ""
-"<p>La persona o grupo de personas que ha asociado bajo esta licencia (el \"dedicante\" o \"certificador\") (a) certifica que, en su conocimiento, la obra de autoría conocida está en el dominio público del país en que se encuentra publicada, o (b) cede por este acto todo el derecho de autor que contengan quienes lo dedican en la obra mencionada anteriormente (la \"Obra\") al dominio público. Un certificador, asimismo, dedica cualquier interés de propiedad intelectual que tenga en la obra asociada, y para este propósito, se describe como \"dedicante\". </p>\n"
-"\n"
-" <p>Un certificador ha tomado las medidas razonables para verificar el estado de la obra respecto del derecho de autor. El certificador reconoce que sus esfuerzos de buena fe podrían no eximirlo de responsabilidad si no fuera cierto que efectivamente la obra certificada está en el dominio público. </p>\n"
-"\n"
-" <p>El dedicante realiza esta dedicación en beneficio del público a largo plazo y en detrimento de sus ganancias y las de sus sucesores. El dedicante realiza esta dedicación con la intención de que constituya un acto de renuncia expresa a perpetuidad de todos los derechos bajo las leyes de propiedad intelectual sobre la obra, presentes y futuros, adquiridos o contingentes. El dedicante entiende que dicha renuncia total incluye la misma renuncia de todos los derechos para hacer cumplir (mediante demanda u otra vía) esos derechos en la obra. </p>\n"
-"\n"
-" <p>El dedicante reconoce que, una vez puesta en el dominio público, la Obra puede ser libremente reproducida, distribuida, transmitida, usada, modificada, editada u objeto de cualquier otra forma de explotación para el propósito que sea, comercial o no, y de cualquier forma, incluyendo métodos que aún no se inventan o conciben.</p>"
+msgstr "<p>La persona o grupo de personas que ha asociado bajo esta licencia (el \"dedicante\" o \"certificador\") (a) certifica que, en su conocimiento, la obra de autoría conocida está en el dominio público del país en que se encuentra publicada, o (b) cede por este acto todo el derecho de autor que contengan quienes lo dedican en la obra mencionada anteriormente (la \"Obra\") al dominio público. Un certificador, asimismo, dedica cualquier interés de propiedad intelectual que tenga en la obra asociada, y para este propósito, se describe como \"dedicante\". </p>\n\n <p>Un certificador ha tomado las medidas razonables para verificar el estado de la obra respecto del derecho de autor. El certificador reconoce que sus esfuerzos de buena fe podrían no eximirlo de responsabilidad si no fuera cierto que efectivamente la obra certificada está en el dominio público. </p>\n\n <p>El dedicante realiza esta dedicación en beneficio del público a largo plazo y en detrimento de sus ganancias y las de sus sucesores. El dedicante realiza esta dedicación con la intención de que constituya un acto de renuncia expresa a perpetuidad de todos los derechos bajo las leyes de propiedad intelectual sobre la obra, presentes y futuros, adquiridos o contingentes. El dedicante entiende que dicha renuncia total incluye la misma renuncia de todos los derechos para hacer cumplir (mediante demanda u otra vía) esos derechos en la obra. </p>\n\n <p>El dedicante reconoce que, una vez puesta en el dominio público, la Obra puede ser libremente reproducida, distribuida, transmitida, usada, modificada, editada u objeto de cualquier otra forma de explotación para el propósito que sea, comercial o no, y de cualquier forma, incluyendo métodos que aún no se inventan o conciben.</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-3.html:65
 msgid ""
 "I have read and understand the terms and intended legal\n"
 "\t    effect of this tool, and hereby voluntarily elect to apply it to\n"
 "\t    this work."
-msgstr ""
-"He leído y entiendo las condiciones y el efecto legal perseguido por esta "
-"herramienta, y por este acto elijo voluntariamente aplicarla a esta obra."
+msgstr "He leído y entiendo las condiciones y el efecto legal perseguido por esta herramienta, y por este acto elijo voluntariamente aplicarla a esta obra."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-4.html:13
 msgid ""
 "Now that you've chosen the Public Domain Certification, you should mark the "
 "work in the appropriate way."
-msgstr ""
-"Ahora que ha escogido el ofrecimiento al Dominio Público, tiene que "
-"identificar apropiadamente su obra."
+msgstr "Ahora que ha escogido el ofrecimiento al Dominio Público, tiene que identificar apropiadamente su obra."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-4.html:17
 msgid ""
 "To mark content on a web page, the HTML to display the button is as follows "
 "and be sure to <a href=\"/technology/web\">follow the guidelines here</a>:"
-msgstr ""
-"Para marcar contenido en una página web, el código HTML que desplegará el "
-"botón es el siguiente, asegúrese de <a href=\"/technology/web\">seguir estas"
-" indicaciones</a>:"
+msgstr "Para marcar contenido en una página web, el código HTML que desplegará el botón es el siguiente, asegúrese de <a href=\"/technology/web\">seguir estas indicaciones</a>:"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-4.html:34
 msgid "Get HTML and email it to yourself"
@@ -2030,19 +1800,14 @@ msgstr "Confirme la renuncia"
 msgid ""
 "Are you certain you wish to waive all rights to your work? Once these rights"
 " are waived, you cannot reclaim them."
-msgstr ""
-"¿Está seguro que quiere renunciar a todos los derechos sobre su obra? Una "
-"vez realizada la renuncia no podrá reclamar ningún derecho."
+msgstr "¿Está seguro que quiere renunciar a todos los derechos sobre su obra? Una vez realizada la renuncia no podrá reclamar ningún derecho."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/confirm.html:30
 msgid ""
 "In particular, if you are an artist or author who depends upon copyright for"
 " your income, Creative Commons <strong>does not recommend</strong> that you "
 "use this tool."
-msgstr ""
-"En particular, si eres un artista o autor que depende financieramente de los"
-" ingresos de derechos de autor, Creative Commons <strong>no "
-"recomienda</strong> que utilices esta herramienta."
+msgstr "En particular, si eres un artista o autor que depende financieramente de los ingresos de derechos de autor, Creative Commons <strong>no recomienda</strong> que utilices esta herramienta."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/confirm.html:34
 msgid ""
@@ -2050,11 +1815,7 @@ msgid ""
 "believe that nobody owns rights to the work, then the <a "
 "href=\"/choose/mark/\">Public Domain Mark</a> may be what you're looking "
 "for."
-msgstr ""
-"Si no posees los derechos sobre esta obra, no utilices CC0. Si crees que "
-"nadie es dueño de los derechos, entonces la <a "
-"href=\"/license/publicdomain-2\">certificación de dominio público </a> puede"
-" ser lo que estás buscando."
+msgstr "Si no posees los derechos sobre esta obra, no utilices CC0. Si crees que nadie es dueño de los derechos, entonces la <a href=\"/license/publicdomain-2\">certificación de dominio público </a> puede ser lo que estás buscando."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/confirm.html:43
 msgid "No, I Do Not Waive"
@@ -2083,12 +1844,7 @@ msgid ""
 "\t  or privacy rights, rights you have protecting against unfair\n"
 "\t  competition, and database rights and rights protecting the\n"
 "\t  extraction, dissemination and reuse of data."
-msgstr ""
-"Usando CC0, puedes renunciar a los derechos de autor y conexos que tengas "
-"sobre la obra, tales como derechos morales (en la medida renunciable), "
-"derechos de publicidad o de privacidad, derechos de protección contra la "
-"competencia desleal y los derechos de base de datos y protección contra la "
-"extracción difusión y reutilización de los datos."
+msgstr "Usando CC0, puedes renunciar a los derechos de autor y conexos que tengas sobre la obra, tales como derechos morales (en la medida renunciable), derechos de publicidad o de privacidad, derechos de protección contra la competencia desleal y los derechos de base de datos y protección contra la extracción difusión y reutilización de los datos."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/index.html:32
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/partner.html:18
@@ -2098,12 +1854,7 @@ msgid ""
 "\t  avoid infringing third party rights, you should consult with\n"
 "\t  your legal advisor if you are unsure whether you have all\n"
 "\t  the rights you need to distribute the work."
-msgstr ""
-"Ten en cuenta que no puedes renunciar a los derechos de una obra de la que "
-"no eres propietario a menos que tengas permiso del dueño. Para evitar "
-"infringir los derechos de terceros, debes consultar con tu asesor legal si "
-"no estás seguro si tienes todos los derechos necesarios para distribuir la "
-"obra."
+msgstr "Ten en cuenta que no puedes renunciar a los derechos de una obra de la que no eres propietario a menos que tengas permiso del dueño. Para evitar infringir los derechos de terceros, debes consultar con tu asesor legal si no estás seguro si tienes todos los derechos necesarios para distribuir la obra."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/index.html:40
 msgid ""
@@ -2113,33 +1864,21 @@ msgid ""
 "metadata for marking your work as being available under CC0.  Your work will"
 " not be associated with CC0 or made available under CC0 until you publish it"
 " marked as being so."
-msgstr ""
-"Ten en cuenta que esto <strong>no</strong> es <strong>un proceso de "
-"registro</strong> y Creative Commons no conserva ni almacena la información "
-"que ingresas. Esta herramienta te guía a través del proceso de generación de"
-" HTML con metadatos incrustados para marcar tu obra como disponible en CC0. "
-"Tu obra no se asociará con CC0 o puesta a disposición con CC0 hasta que esta"
-" sea marcada como tal."
+msgstr "Ten en cuenta que esto <strong>no</strong> es <strong>un proceso de registro</strong> y Creative Commons no conserva ni almacena la información que ingresas. Esta herramienta te guía a través del proceso de generación de HTML con metadatos incrustados para marcar tu obra como disponible en CC0. Tu obra no se asociará con CC0 o puesta a disposición con CC0 hasta que esta sea marcada como tal."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/partner.html:26
 #, python-format
 msgid ""
 "If instead you want to certify that a work is <em>already in the public "
 "domain</em>, instead use the <a href=\"%(pd_url)s\">Public Domain Mark</a>."
-msgstr ""
-"Si en cambio usted desea certificar que una obra <em>ya se encuentra en el "
-"dominio público</em>, utilice la <a href=\"%(pd_url)s\">Etiqueta de Dominio "
-"Público</a>."
+msgstr "Si en cambio usted desea certificar que una obra <em>ya se encuentra en el dominio público</em>, utilice la <a href=\"%(pd_url)s\">Etiqueta de Dominio Público</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:30
 msgid ""
 "You did not affirm your decision to waive the rights associated with your "
 "work. If you'd like to continue you can click the Back button to review your"
 " choice."
-msgstr ""
-"No has confirmado tu decision de renunciar a los derechos asociados a tu "
-"obra. Si quieres continuar puedes hacer click en el botón Atrás para revisar"
-" tu opción."
+msgstr "No has confirmado tu decision de renunciar a los derechos asociados a tu obra. Si quieres continuar puedes hacer click en el botón Atrás para revisar tu opción."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:34
 msgid "About CC0"
@@ -2159,31 +1898,20 @@ msgid ""
 "waived the rights to your work.  Creative Commons does not retain a record "
 "of your selection; as the publisher it's up to you to let people know how "
 "they may use your work."
-msgstr ""
-"Copia el siguiente texto en tu sitio web para que los visitantes sepan que "
-"has renunciado a los derechos sobre tu obra. Creative Commons no conserva un"
-" registro de tu selección; como divulgador te toca a ti hacer saber a la "
-"gente cómo puede usar tu trabajo."
+msgstr "Copia el siguiente texto en tu sitio web para que los visitantes sepan que has renunciado a los derechos sobre tu obra. Creative Commons no conserva un registro de tu selección; como divulgador te toca a ti hacer saber a la gente cómo puede usar tu trabajo."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:100
 msgid ""
 "You have asked to be notified of updates to CC0.  A subscription request has"
 " been sent on your behalf; you must click the link in the confirmation email"
 " to complete the sign-up process."
-msgstr ""
-"Has solicitado que se te notifique de actualizaciones a CC0. Una solicitud "
-"de suscripción ha sido enviada en tu nombre; debes hacer clic en el enlace "
-"del correo electrónico de confirmación para completar el proceso de "
-"suscripción."
+msgstr "Has solicitado que se te notifique de actualizaciones a CC0. Una solicitud de suscripción ha sido enviada en tu nombre; debes hacer clic en el enlace del correo electrónico de confirmación para completar el proceso de suscripción."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:106
 msgid ""
 "If you'd like to get the HTML with embedded metadata via email and "
 "optionally receive updates about CC0, fill in your email address below."
-msgstr ""
-"Si deseas obtener el código HTML con metadatos incrustados a través de "
-"correo electrónico y, opcionalmente, recibir actualizaciones sobre CC0, "
-"ingresa tu dirección de correo electrónico."
+msgstr "Si deseas obtener el código HTML con metadatos incrustados a través de correo electrónico y, opcionalmente, recibir actualizaciones sobre CC0, ingresa tu dirección de correo electrónico."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:3
 msgid "CC0: Waiver"
@@ -2194,10 +1922,7 @@ msgid ""
 "These fields are optional, but will be embedded in the HTML generated for "
 "your work. This allows users of your work to determine how to contact you or"
 " where to go for more information about the work."
-msgstr ""
-"Estos campos son opcionales, pero se integrarán en el código HTML generado "
-"para tu obra. Esto permite a los usuarios de tu obra determinar cómo "
-"contactarte  o dónde ir para obtener más información acerca de la obra."
+msgstr "Estos campos son opcionales, pero se integrarán en el código HTML generado para tu obra. Esto permite a los usuarios de tu obra determinar cómo contactarte  o dónde ir para obtener más información acerca de la obra."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:49
 msgid ""
@@ -2211,16 +1936,7 @@ msgid ""
 "\t    information</a> on Creative Commons metadata is available if\n"
 "\t  you want to find out more.\n"
 "\t</p>"
-msgstr ""
-"<p>\n"
-"\t  La información está incluida en un formato legible por software.\n"
-"\t  Esto permite a los motores de búsqueda indexar información adicional\n"
-"\t  sobre tu obra.\n"
-"\t</p>\n"
-"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">Más\n"
-"\t  información</a> sobre metadatos de Creative Commons está disponible\n"
-"\t  si deseas saber más.\n"
-"\t</p>"
+msgstr "<p>\n\t  La información está incluida en un formato legible por software.\n\t  Esto permite a los motores de búsqueda indexar información adicional\n\t  sobre tu obra.\n\t</p>\n\t  <a href=\"http://wiki.creativecommons.org/Metadata\">Más\n\t  información</a> sobre metadatos de Creative Commons está disponible\n\t  si deseas saber más.\n\t</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:70
 msgid "Your name"
@@ -2235,9 +1951,7 @@ msgstr "Tu URL"
 msgid ""
 "The URL where people can find more information about \n"
 "the work or the person using CC0."
-msgstr ""
-"La URL donde la gente puede encontrar más información acerca de la obra o de"
-" la persona que usa CC0."
+msgstr "La URL donde la gente puede encontrar más información acerca de la obra o de la persona que usa CC0."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:109
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:125
@@ -2253,18 +1967,13 @@ msgid ""
 "I hereby waive all copyright and related or neighboring rights together with"
 " all associated claims and causes of action with respect to this work to the"
 " extent possible under the law."
-msgstr ""
-"Por este acto renuncio a todos los derechos de autor y derechos conexos o "
-"afines con respecto a esta obra, junto con todas las reclamaciones y las "
-"causas de acción asociadas, en la medida que lo permita la ley."
+msgstr "Por este acto renuncio a todos los derechos de autor y derechos conexos o afines con respecto a esta obra, junto con todas las reclamaciones y las causas de acción asociadas, en la medida que lo permita la ley."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:167
 msgid ""
 "I have read and understand the terms and intended legal effect of CC0, and "
 "hereby voluntarily elect to apply it to this work."
-msgstr ""
-"He leído y entiendo los términos y efectos jurídicos perseguidos por CC0, y "
-"por este acto elijo voluntariamente aplicarla a esta obra."
+msgstr "He leído y entiendo los términos y efectos jurídicos perseguidos por CC0, y por este acto elijo voluntariamente aplicarla a esta obra."
 
 #: checkouts/cc.engine/cc/engine/templates/includes/engine_languages.html:4
 #: checkouts/cc.engine/cc/engine/templates/includes/translations.html:3
@@ -2281,11 +1990,7 @@ msgid ""
 " the HTML generated for your license. This allows users of your work to "
 "determine how to attribute it or where to go for more information about the "
 "work."
-msgstr ""
-"Los campos siguientes son <strong>opcionales</strong>, pero serán "
-"incrustados en el código HTML generado para su licencia. Esto permite que "
-"los usuarios sepan cómo darle atribución o dónde ir para obtener más "
-"información sobre la obra."
+msgstr "Los campos siguientes son <strong>opcionales</strong>, pero serán incrustados en el código HTML generado para su licencia. Esto permite que los usuarios sepan cómo darle atribución o dónde ir para obtener más información sobre la obra."
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:19
 msgid ""
@@ -2301,19 +2006,7 @@ msgid ""
 "\t    information</a> on Creative Commons metadata is available if\n"
 "\t  you want to find out more.\n"
 "\t</p>"
-msgstr ""
-"<p>\n"
-"\t  La información está incluida en formato legible por software.\n"
-"\t  Esto permite que los motores de búsqueda indicen información\n"
-"\t  adicional sobre la obra y permitan acceder al resumen de la licencia\n"
-"\t  desde su página para ver la información sobre cómo dar atribución\n"
-"\t  sobre su obra. \n"
-"\t</p>\n"
-"\t<p>\n"
-"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">Más\n"
-"\t    information</a> información sobre los metadatos de Creative Commons\n"
-"\t  está disponible si quiere saber más.\n"
-"\t</p>"
+msgstr "<p>\n\t  La información está incluida en formato legible por software.\n\t  Esto permite que los motores de búsqueda indicen información\n\t  adicional sobre la obra y permitan acceder al resumen de la licencia\n\t  desde su página para ver la información sobre cómo dar atribución\n\t  sobre su obra. \n\t</p>\n\t<p>\n\t  <a href=\"http://wiki.creativecommons.org/Metadata\">Más\n\t    information</a> información sobre los metadatos de Creative Commons\n\t  está disponible si quiere saber más.\n\t</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:40
 msgid "Tell us the format of your work:"
@@ -2360,9 +2053,7 @@ msgstr "Atribuir la obra a"
 msgid ""
 "The name users of the work should give attribution to. For example, the name"
 " of the work's author."
-msgstr ""
-"El nombre al que los usuarios deben atribuir la obra. Por ejemplo, el nombre"
-" del autor de la obra."
+msgstr "El nombre al que los usuarios deben atribuir la obra. Por ejemplo, el nombre del autor de la obra."
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:110
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:122
@@ -2373,9 +2064,7 @@ msgstr "Atribuir la obra a (URL)"
 msgid ""
 "The URL users of the work should link to. For example, the work's page on "
 "the author's site."
-msgstr ""
-"La URL que los usuarios deberán enlazar. Por ejemplo, la página de la obra "
-"en el sitio web del autor."
+msgstr "La URL que los usuarios deberán enlazar. Por ejemplo, la página de la obra en el sitio web del autor."
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:133
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:144
@@ -2395,9 +2084,7 @@ msgstr "Más permisos sobre la obra (URL)"
 msgid ""
 "A URL where a user can obtain information about clearing rights that are not"
 " pre-cleared by your CC license."
-msgstr ""
-"Una URL donde los usuarios podrán encontrar información sobre cómo conseguir"
-" autorizaciones no concedidas por la licencia de CC."
+msgstr "Una URL donde los usuarios podrán encontrar información sobre cómo conseguir autorizaciones no concedidas por la licencia de CC."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:19
 #: checkouts/cc.engine/cc/engine/templates/licenses/publicdomain_deed.html:34
@@ -2407,9 +2094,7 @@ msgid ""
 "Creative Commons has <a "
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
 "tool</a> and does not recommend that it be applied to works."
-msgstr ""
-"Creative Commons ha <a href=\"/retiredlicenses\">retirado esta herramienta "
-"legal</a> y recomienda no aplicarla a obras."
+msgstr "Creative Commons ha <a href=\"/retiredlicenses\">retirado esta herramienta legal</a> y recomienda no aplicarla a obras."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:23
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:20
@@ -2420,8 +2105,7 @@ msgstr "Usted es libre de:"
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:28
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:53
 msgid "<strong>to Share</strong> — to copy, distribute and transmit the work"
-msgstr ""
-"Compartir - copiar, distribuir, ejecutar y comunicar públicamente la obra"
+msgstr "Compartir - copiar, distribuir, ejecutar y comunicar públicamente la obra"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:33
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:60
@@ -2440,10 +2124,7 @@ msgstr "Bajo las condiciones siguientes:"
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
-msgstr ""
-"Al reutilizar o distribuir la obra, tiene que dejar muy en claro los "
-"términos de la licencia de esta obra. La mejor forma de hacerlo es enlazar a"
-" esta página."
+msgstr "Al reutilizar o distribuir la obra, tiene que dejar muy en claro los términos de la licencia de esta obra. La mejor forma de hacerlo es enlazar a esta página."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:61
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:138
@@ -2451,10 +2132,7 @@ msgid ""
 "Any of the above conditions can be <a href=\"#\" id=\"waived\" "
 "class=\"helpLink\">waived</a> if you get permission from the copyright "
 "holder."
-msgstr ""
-"Alguna de estas condiciones puede <a href=\"#\" id=\"waived\" "
-"class=\"helpLink\">no aplicarse</a> si se obtiene el permiso del titular de "
-"los derechos de autor"
+msgstr "Alguna de estas condiciones puede <a href=\"#\" id=\"waived\" class=\"helpLink\">no aplicarse</a> si se obtiene el permiso del titular de los derechos de autor"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:69
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:76
@@ -2464,11 +2142,7 @@ msgid ""
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
 " id=\"fair_use\" class=\"helpLink\">fair use</a> rights, or other applicable"
 " copyright exceptions and limitations;"
-msgstr ""
-"Los derechos derivados de <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
-" id=\"fair_use\" class=\"helpLink\">usos legítimos</a>u otras limitaciones "
-"reconocidas por ley no se ven afectados por lo anterior."
+msgstr "Los derechos derivados de <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\" id=\"fair_use\" class=\"helpLink\">usos legítimos</a>u otras limitaciones reconocidas por ley no se ven afectados por lo anterior."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:72
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:79
@@ -2478,12 +2152,7 @@ msgid ""
 "is used, such as <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
 " class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy rights."
-msgstr ""
-"Derechos que pueden ostentar otras personas sobre la propia obra o su uso, "
-"como por ejemplo <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">derechos de imagen</a> o de "
-"privacidad."
+msgstr "Derechos que pueden ostentar otras personas sobre la propia obra o su uso, como por ejemplo <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\" class=\"helpLink\" id=\"publicity_rights\">derechos de imagen</a> o de privacidad."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:16
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:23
@@ -2497,12 +2166,7 @@ msgid ""
 "neighboring rights. </p> <p> <br /> You can copy, modify, distribute and "
 "perform the work, even for commercial purposes, all without asking "
 "permission. See <b>Other Information</b> below. </p>"
-msgstr ""
-"<p id=\"nolaw-text\">Esta obra ha sido <b>identificada</b> como libre de las"
-" restricciones conocidas en virtud del derecho de autor, incluyendo todos "
-"los derechos conexos. </p><p><br />  Puedes copiar, modificar, distribuir y "
-"comunicar públicamente la obra, incluso para fines comerciales, todo ello "
-"sin pedir permiso. Ver <b>más información</b> a continuación. </p>"
+msgstr "<p id=\"nolaw-text\">Esta obra ha sido <b>identificada</b> como libre de las restricciones conocidas en virtud del derecho de autor, incluyendo todos los derechos conexos. </p><p><br />  Puedes copiar, modificar, distribuir y comunicar públicamente la obra, incluso para fines comerciales, todo ello sin pedir permiso. Ver <b>más información</b> a continuación. </p>"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:44
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:53
@@ -2557,20 +2221,14 @@ msgid ""
 "Unless expressly stated otherwise, the person who identified the work makes "
 "no warranties about the work, and disclaims liability for all uses of the "
 "work, to the fullest extent permitted by applicable law."
-msgstr ""
-"A menos que esté expresamente señalado, la persona que identificó la obra "
-"con este acuerdo no entrega garantías sobre la obra, y se exime de toda "
-"responsabilidad por los usos de la misma, en la medida permitida por la ley."
+msgstr "A menos que esté expresamente señalado, la persona que identificó la obra con este acuerdo no entrega garantías sobre la obra, y se exime de toda responsabilidad por los usos de la misma, en la medida permitida por la ley."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:89
 msgid ""
 "When using or citing the work, you should not imply <a href=\"\" "
 "class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
 "person who identified the work."
-msgstr ""
-"El uso o cita de la obra debe hacerse sin que se pueda inferir <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">aprobación o respaldo</a> de dicho uso"
-" por parte de la persona que identificó la obra."
+msgstr "El uso o cita de la obra debe hacerse sin que se pueda inferir <a href=\"\" class=\"helpLink\" id=\"endorsement\">aprobación o respaldo</a> de dicho uso por parte de la persona que identificó la obra."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:106
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:111
@@ -2582,10 +2240,7 @@ msgstr "Aprobación"
 msgid ""
 "In some jurisdictions, wrongfully implying that an author, publisher or "
 "anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"En algunas jurisdicciones, podría ser ilegal dar a entender de forma "
-"indebida que un autor, editor o cualquier otra persona aprueba o respalda tu"
-" uso de una obra."
+msgstr "En algunas jurisdicciones, podría ser ilegal dar a entender de forma indebida que un autor, editor o cualquier otra persona aprueba o respalda tu uso de una obra."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:120
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:124
@@ -2596,9 +2251,7 @@ msgstr "Cita"
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:127
 msgid ""
 "Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
-"Copia y pega el HTML entregado en tu página web para citar fácilmente esta "
-"obra."
+msgstr "Copia y pega el HTML entregado en tu página web para citar fácilmente esta obra."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:134
 msgid "Moral Rights"
@@ -2609,10 +2262,7 @@ msgid ""
 "Copyright laws in most jurisdictions around the world grant creators \"moral"
 " rights\" which may provide some redress if use of a work is considered "
 "\"derogatory\"."
-msgstr ""
-"Las leyes sobre derechos de autor en la mayoría de las jurisdicciones del "
-"mundo garantizan a los creadores \"derechos morales\" que pueden proveer "
-"algún respaldo si el uso de una obra es considerado \"despectivo\"."
+msgstr "Las leyes sobre derechos de autor en la mayoría de las jurisdicciones del mundo garantizan a los creadores \"derechos morales\" que pueden proveer algún respaldo si el uso de una obra es considerado \"despectivo\"."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:147
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:148
@@ -2628,13 +2278,7 @@ msgid ""
 "protection laws, publicity, image, or privacy rights that allow a person to "
 "control how their voice, image or likeness is used, or other restrictions or"
 " limitations under applicable law."
-msgstr ""
-"El uso de una obra libre de restricciones conocidas de derecho de autor "
-"puede ser regulado o limitado. La obra o su uso pueden estar sujetos a "
-"reglas legales de protección de datos personales, derechos de publicidad, "
-"imagen o privacidad que permiten a la persona controlar cómo su voz, imagen "
-"o apariencia es usada, u otras restricciones o limitaciones bajo la ley "
-"aplicable."
+msgstr "El uso de una obra libre de restricciones conocidas de derecho de autor puede ser regulado o limitado. La obra o su uso pueden estar sujetos a reglas legales de protección de datos personales, derechos de publicidad, imagen o privacidad que permiten a la persona controlar cómo su voz, imagen o apariencia es usada, u otras restricciones o limitaciones bajo la ley aplicable."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:159
 msgid "Term of Copyright"
@@ -2645,10 +2289,7 @@ msgid ""
 "Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
 "restrictions in one jurisdiction may not be similarly free in other "
 "jurisdictions."
-msgstr ""
-"Los plazos de derecho de autor varían de jurisdicción en jurisdicción. Una "
-"obra libre de restricciones del derecho de autor en una jurisdicción puede "
-"que no sea igualmente libre en otras."
+msgstr "Los plazos de derecho de autor varían de jurisdicción en jurisdicción. Una obra libre de restricciones del derecho de autor en una jurisdicción puede que no sea igualmente libre en otras."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:179
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:186
@@ -2668,15 +2309,7 @@ msgid ""
 "verified the copyright status of any work to which this mark has been "
 "applied. CC makes no warranties about any work or its copyright status in "
 "any jurisdiction, and disclaims all liability for all uses of any work. </p>"
-msgstr ""
-"La etiqueta de dominio público no es un instrumento legal. Creative Commons "
-"no es una oficina de abogados y no provee servicios ni asesoría de tipo "
-"legal. Distribuir, exhibir o enlazar a esta Etiqueta de Dominio Público no "
-"crea una relacion abogado-cliente. Creative Commons no ha verificado el "
-"derecho de autor de ninguna obra a la que esta etiqueta ha sido aplicada. CC"
-" no entrega garantías sobre ninguna obra o derecho de autor en cualquier "
-"jurisdicción, y se exime de toda responsabilidad por el uso de cualquier "
-"obra."
+msgstr "La etiqueta de dominio público no es un instrumento legal. Creative Commons no es una oficina de abogados y no provee servicios ni asesoría de tipo legal. Distribuir, exhibir o enlazar a esta Etiqueta de Dominio Público no crea una relacion abogado-cliente. Creative Commons no ha verificado el derecho de autor de ninguna obra a la que esta etiqueta ha sido aplicada. CC no entrega garantías sobre ninguna obra o derecho de autor en cualquier jurisdicción, y se exime de toda responsabilidad por el uso de cualquier obra."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:194
 msgid "Use this tool to mark other public domain works."
@@ -2687,10 +2320,7 @@ msgid ""
 "Copyright-Only Dedication<a href=\"#\" class=\"helpLink\" id=\"use_zero\">*</a>\n"
 "  (based on United States law)<br />\n"
 "  or Public Domain Certification"
-msgstr ""
-"Dedicación Sólo de Derecho de Autor <a href=\"#\" class=\"helpLink\" id=\"use_zero\">*</a>\n"
-"  (basada en las leyes de los Estados Unidos) <br /> \n"
-"  o Certificación de Dominio Público"
+msgstr "Dedicación Sólo de Derecho de Autor <a href=\"#\" class=\"helpLink\" id=\"use_zero\">*</a>\n  (basada en las leyes de los Estados Unidos) <br /> \n  o Certificación de Dominio Público"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/publicdomain_deed.html:28
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:26
@@ -2703,42 +2333,30 @@ msgid ""
 "This tool is based on United States law and may not be applicable outside "
 "the US. For dedicating new works to the public domain, we recommend <a "
 "href=\"/choose/zero/\">CC0</a>."
-msgstr ""
-"Esta herramienta está basada en las leyes de Estados Unidos y puede no ser "
-"aplicable fuera de los Estados Unidos. Para dedicar nuevas obras al dominio "
-"público, recomendamos <a href=\"/choose/zero/\">CC0</a>."
+msgstr "Esta herramienta está basada en las leyes de Estados Unidos y puede no ser aplicable fuera de los Estados Unidos. Para dedicar nuevas obras al dominio público, recomendamos <a href=\"/choose/zero/\">CC0</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:24
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "noncommercial purposes."
-msgstr ""
-"Para hacer sample, mash-up, u otra forma de transformación creativa de esta "
-"obra para fines no comerciales."
+msgstr "Para hacer sample, mash-up, u otra forma de transformación creativa de esta obra para fines no comerciales."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:28
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "commercial or noncommercial purposes."
-msgstr ""
-"Samplear, remezclar, o transformar de manera creativa esta obra con fines "
-"comerciales o no comerciales."
+msgstr "Samplear, remezclar, o transformar de manera creativa esta obra con fines comerciales o no comerciales."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:34
 msgid ""
 "To perform, display, and distribute copies of this whole work for "
 "noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
-msgstr ""
-"Ejecutar, comunicar públicamente y distribuir copias de la obra completa con"
-" fines no comerciales (p.e., compartir archivos o emisiones no comerciales "
-"via web)"
+msgstr "Ejecutar, comunicar públicamente y distribuir copias de la obra completa con fines no comerciales (p.e., compartir archivos o emisiones no comerciales via web)"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:63
 msgid ""
 "For any reuse, you must make clear to others the license terms of this work."
-msgstr ""
-"Al reutilizar la obra, tienes que dejar muy en claro las condiciones de la "
-"licencia de esta obra."
+msgstr "Al reutilizar la obra, tienes que dejar muy en claro las condiciones de la licencia de esta obra."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:66
 msgid "to make commercial use of the work"
@@ -2758,11 +2376,7 @@ msgid ""
 "the creator wishes to be attributed for re-use. You can use the HTML here to"
 " cite the work. Doing so will also include metadata on your page so that "
 "others can find the original work as well."
-msgstr ""
-"La página de la que provienes contiene metadatos incrustados de la licencia,"
-" incluyendo cómo el autor quiere ser reconocido. Aquí puedes utilizar el "
-"código HTML para citar la obra. De esta manera se añadiran a tu página los "
-"metadatos para hallar también la obra original."
+msgstr "La página de la que provienes contiene metadatos incrustados de la licencia, incluyendo cómo el autor quiere ser reconocido. Aquí puedes utilizar el código HTML para citar la obra. De esta manera se añadiran a tu página los metadatos para hallar también la obra original."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:131
 msgid "With the understanding that:"
@@ -2778,38 +2392,25 @@ msgid ""
 "href=\"http://wiki.creativecommons.org/Public_domain\" id=\"public_domain\" "
 "class=\"helpLink\">public domain</a> under applicable law, that status is in"
 " no way affected by the license."
-msgstr ""
-"Cuando la obra o alguno de sus elementos se halle en el <a "
-"href=\"http://wiki.creativecommons.org/Public_domain\" id=\"public_domain\" "
-"class=\"helpLink\">dominio público</a> según la ley vigente aplicable, esta "
-"situación no quedará afectada por la licencia."
+msgstr "Cuando la obra o alguno de sus elementos se halle en el <a href=\"http://wiki.creativecommons.org/Public_domain\" id=\"public_domain\" class=\"helpLink\">dominio público</a> según la ley vigente aplicable, esta situación no quedará afectada por la licencia."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:150
 msgid "In no way are any of the following rights affected by the license:"
-msgstr ""
-"Los derechos siguientes no quedan afectados por la licencia de ninguna "
-"manera:"
+msgstr "Los derechos siguientes no quedan afectados por la licencia de ninguna manera:"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:159
 msgid ""
 "The author's <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
-msgstr ""
-"Los derechos <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
-" id=\"moral_rights\" class=\"helpLink\">morales</a> del auto;"
+msgstr "Los derechos <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\" id=\"moral_rights\" class=\"helpLink\">morales</a> del auto;"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:164
 msgid ""
 "Apart from the remix rights granted under this license, the author's <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
-msgstr ""
-"A parte de los derechos de remezcla concedidos con esta licencia, los "
-"derechos <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
-" id=\"moral_rights\" class=\"helpLink\">morales</a> del autor;"
+msgstr "A parte de los derechos de remezcla concedidos con esta licencia, los derechos <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\" id=\"moral_rights\" class=\"helpLink\">morales</a> del autor;"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:176
 msgid "Notice"
@@ -2822,11 +2423,7 @@ msgid ""
 "available. You should use it for new works, and you may want to relicense "
 "existing works under it. No works are <em>automatically</em> put under the "
 "new license, however."
-msgstr ""
-"Existe una <a href=\"%(current_version_url)s\">versión nueva</a> de esta "
-"licencia. Usted debería utilizarla para sus nuevas obras, y puede utilizarla"
-" para cambiar la licencia de obras ya existentes. Sin embargo, ninguna obra "
-"queda <em>automáticamente</em> sujeta a esta nueva licencia."
+msgstr "Existe una <a href=\"%(current_version_url)s\">versión nueva</a> de esta licencia. Usted debería utilizarla para sus nuevas obras, y puede utilizarla para cambiar la licencia de obras ya existentes. Sin embargo, ninguna obra queda <em>automáticamente</em> sujeta a esta nueva licencia."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:192
 msgid "What does \"conditions can be waived\" mean?"
@@ -2837,9 +2434,7 @@ msgid ""
 "CC licenses anticipate that a licensor may want to\n"
 "\t\twaive compliance with a specific condition, such as\n"
 "\t\tattribution."
-msgstr ""
-"Las licencias CC anticipan que un licenciante pueda querer renunciar al "
-"cumplimiento bajo una condición específica, como la atribución."
+msgstr "Las licencias CC anticipan que un licenciante pueda querer renunciar al cumplimiento bajo una condición específica, como la atribución."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:208
 msgid "What does \"Public Domain\" mean?"
@@ -2849,10 +2444,7 @@ msgstr "¿Qué significa \"Dominio público\"?"
 msgid ""
 "A work is in the public domain when it is free for use by anyone for any "
 "purpose without restriction under copyright."
-msgstr ""
-"Una obra en el dominio público puede ser utilizada libremente por cualquiera"
-" sin ninguna restricción de propiedad intelectual para cualquier finalidad, "
-"pero respetando su integridad y reconociendo su autoría."
+msgstr "Una obra en el dominio público puede ser utilizada libremente por cualquiera sin ninguna restricción de propiedad intelectual para cualquier finalidad, pero respetando su integridad y reconociendo su autoría."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:224
 msgid "What does \"Fair use\" mean?"
@@ -2865,11 +2457,7 @@ msgid ""
 "              permission.  CC licenses do not affect the rights of\n"
 "              users under those copyright limitations and exceptions,\n"
 "              such as fair use and fair dealing where applicable."
-msgstr ""
-"Todas las jurisdicciones permiten algunos usos limitados de material sujeto "
-"a derechos de autor sin requerir permiso. Las licencias CC no afectan los "
-"derechos de los usuarios en virtud de esas limitaciones y excepciones, como "
-"el uso justo y legítimo en su caso."
+msgstr "Todas las jurisdicciones permiten algunos usos limitados de material sujeto a derechos de autor sin requerir permiso. Las licencias CC no afectan los derechos de los usuarios en virtud de esas limitaciones y excepciones, como el uso justo y legítimo en su caso."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:242
 msgid "What are \"Moral Rights\"?"
@@ -2883,14 +2471,7 @@ msgid ""
 "the US except in very limited circumstances) grant creators \"moral rights\""
 " which may provide some redress if a derivative work represents a "
 "\"derogatory treatment\" of the licensor's work."
-msgstr ""
-"Además del derecho de los licenciantes a solicitar la eliminación de su "
-"nombre de la obra cuando se usa en obras derivadas o colecciones que no les "
-"gustan, en la mayoría de las jurisdicciones de todo el mundo (con la notable"
-" excepción de los EE.UU., salvo en circunstancias muy limitadas) la ley "
-"concede a los creadores \"derechos morales\", que pueden proporcionar cierta"
-" reparación en caso que una obra derivada represente un \"trato despectivo\""
-" de la obra del licenciante."
+msgstr "Además del derecho de los licenciantes a solicitar la eliminación de su nombre de la obra cuando se usa en obras derivadas o colecciones que no les gustan, en la mayoría de las jurisdicciones de todo el mundo (con la notable excepción de los EE.UU., salvo en circunstancias muy limitadas) la ley concede a los creadores \"derechos morales\", que pueden proporcionar cierta reparación en caso que una obra derivada represente un \"trato despectivo\" de la obra del licenciante."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:258
 msgid "What are \"Publicity Rights\"?"
@@ -2905,12 +2486,7 @@ msgid ""
 "              image of anyone other than the licensor, a user of the\n"
 "              work may need to get permission from those individuals\n"
 "              before using the work for commercial purposes."
-msgstr ""
-"Los derechos de publicidad o imagen permiten a los individuos controlar cómo"
-" se usa su voz, imagen o apariencia con fines comerciales en público. Si una"
-" obra con licencia CC incluye la voz o la imagen de alguien que no sea el "
-"licenciante, un usuario de la obra puede necesitar obtener el permiso de las"
-" personas antes de utilizar la obra para fines comerciales."
+msgstr "Los derechos de publicidad o imagen permiten a los individuos controlar cómo se usa su voz, imagen o apariencia con fines comerciales en público. Si una obra con licencia CC incluye la voz o la imagen de alguien que no sea el licenciante, un usuario de la obra puede necesitar obtener el permiso de las personas antes de utilizar la obra para fines comerciales."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:17
 msgid "Public Domain Dedication"
@@ -2922,20 +2498,13 @@ msgid ""
 "work to the public domain by waiving all of his or her rights to the work "
 "worldwide under copyright law, including all related and neighboring rights,"
 " to the extent allowed by law."
-msgstr ""
-"La persona que asoció una obra con este resumen ha <b>dedicado</b> la obra "
-"al dominio público, mediante la renuncia a todos sus derechos patrimoniales "
-"de autor sobre la obra en todo el mundo, incluyendo todos los derechos "
-"conexos y afines, en la medida permitida por la ley. "
+msgstr "La persona que asoció una obra con este resumen ha <b>dedicado</b> la obra al dominio público, mediante la renuncia a todos sus derechos patrimoniales de autor sobre la obra en todo el mundo, incluyendo todos los derechos conexos y afines, en la medida permitida por la ley. "
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:36
 msgid ""
 "You can copy, modify, distribute and perform the work, even for commercial "
 "purposes, all without asking permission. See <b>Other Information</b> below."
-msgstr ""
-"Puedes copiar, modificar, distribuir la obra y hacer comunicación pública de"
-" ella, incluso para fines comerciales, sin pedir permiso. <b>Más "
-"información</b> debajo."
+msgstr "Puedes copiar, modificar, distribuir la obra y hacer comunicación pública de ella, incluso para fines comerciales, sin pedir permiso. <b>Más información</b> debajo."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:59
 msgid "<a href=\"\" class=\"inline-help helpLink\" id=\"who_is_affirmer\">Affirmer</a>"
@@ -2948,33 +2517,21 @@ msgid ""
 "work is used, such as <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
 " class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
-"CC0 no afecta los derechos de patentes o de marcas sobre la obra, ni "
-"derechos que otras personas puedan tener en la obra o en como la obra es "
-"usada, como <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">derechos de publicidad o "
-"derechos derivados de la protección a la vida privada</a>."
+msgstr "CC0 no afecta los derechos de patentes o de marcas sobre la obra, ni derechos que otras personas puedan tener en la obra o en como la obra es usada, como <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\" class=\"helpLink\" id=\"publicity_rights\">derechos de publicidad o derechos derivados de la protección a la vida privada</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:87
 msgid ""
 "Unless expressly stated otherwise, the person who associated a work with "
 "this deed makes no warranties about the work, and disclaims liability for "
 "all uses of the work, to the fullest extent permitted by applicable law."
-msgstr ""
-"A menos que esté expresamente señalado, la persona que asoció una obra con "
-"este acuerdo no entrega garantías sobre la obra, y se exime de toda "
-"responsabilidad por los usos de la misma, en la medida permitida por la ley."
+msgstr "A menos que esté expresamente señalado, la persona que asoció una obra con este acuerdo no entrega garantías sobre la obra, y se exime de toda responsabilidad por los usos de la misma, en la medida permitida por la ley."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:91
 msgid ""
 "When using or citing the work, you should not imply <a href=\"\" "
 "class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
 "affirmer."
-msgstr ""
-"El uso o cita de la obra debe hacerse sin que se pueda inferir <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">aprobación o respaldo</a> de dicho uso"
-" por parte del autor o de quien dedicó esta obra al dominio público."
+msgstr "El uso o cita de la obra debe hacerse sin que se pueda inferir <a href=\"\" class=\"helpLink\" id=\"endorsement\">aprobación o respaldo</a> de dicho uso por parte del autor o de quien dedicó esta obra al dominio público."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:137
 msgid "Who is the affirmer?"
@@ -2986,11 +2543,7 @@ msgid ""
 "using CC0, to the extent allowable by law. It may be the original author of "
 "the work or another person who may have had some copyright or related or "
 "neighboring legal rights in the work."
-msgstr ""
-"El afirmador es la persona que entrega los derechos de la obra a todo el "
-"mundo usando CC0, en la medida permitida por la ley. Podría tratarse del "
-"autor original de la obra o de otra persona que puede haber tenido derechos "
-"de autor,  derechos conexos u otros derechos relacionados sobre la obra."
+msgstr "El afirmador es la persona que entrega los derechos de la obra a todo el mundo usando CC0, en la medida permitida por la ley. Podría tratarse del autor original de la obra o de otra persona que puede haber tenido derechos de autor,  derechos conexos u otros derechos relacionados sobre la obra."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:164
 msgid ""
@@ -3005,27 +2558,13 @@ msgid ""
 " CC0 has been applied. CC makes no warranties about any work or its "
 "copyright status in any jurisdiction, and disclaims all liability for all "
 "uses of any work. </p>"
-msgstr ""
-"<p>El resumen (Commons Deed) no es un instrumento legal. Simplemente es una "
-"referencia para entender el código legal de CC0, una descripción humanamente"
-" comprensible de algunos de sus términos clave. Piensa en él como una "
-"interfaz amigable para acceder al código legal interno de CC0. El resumen "
-"por sí solo no tiene valor legal y sus contenidos no aparecen en CC0.</p> "
-"<p>Creative Commons no es un bufete de abogados y no ofrece servicios de "
-"tipo legal. La distribución, exhibición o el enlace de este resumen no crea "
-"ninguna relación abogado-cliente.</p> <p> Creative Commons no ha verificado "
-"la protección por derechos de autor de ninguna de las obras a las que se ha "
-"aplicado CC0. CC no ofrece garantía sobre ninguna obra ni sobre su "
-"protección bajo derechos de autor en ninguna jurisdicción, y se desliga de "
-"toda responsabilidad por todos los usos de cualquier obra.</p>"
+msgstr "<p>El resumen (Commons Deed) no es un instrumento legal. Simplemente es una referencia para entender el código legal de CC0, una descripción humanamente comprensible de algunos de sus términos clave. Piensa en él como una interfaz amigable para acceder al código legal interno de CC0. El resumen por sí solo no tiene valor legal y sus contenidos no aparecen en CC0.</p> <p>Creative Commons no es un bufete de abogados y no ofrece servicios de tipo legal. La distribución, exhibición o el enlace de este resumen no crea ninguna relación abogado-cliente.</p> <p> Creative Commons no ha verificado la protección por derechos de autor de ninguna de las obras a las que se ha aplicado CC0. CC no ofrece garantía sobre ninguna obra ni sobre su protección bajo derechos de autor en ninguna jurisdicción, y se desliga de toda responsabilidad por todos los usos de cualquier obra.</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:170
 msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
-msgstr ""
-"Esto es un resumen legible por humanos del <a href=\"./legalcode\">Texto "
-"Legal (lea el texto completo)</a> de la licencia."
+msgstr "Esto es un resumen legible por humanos del <a href=\"./legalcode\">Texto Legal (lea el texto completo)</a> de la licencia."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:182
 msgid "Use this tool for your own work."
@@ -3044,18 +2583,7 @@ msgid ""
 "<p>\n"
 "The Product licensed under Creative Commons License is provided by the person who applied the License.  Creative Commons and Creative Commons Japan make no warranties regarding the title of the licensor.  Please read <a href=\"http://creativecommons.jp/faq/\">here</a> for information regarding the application of licenses and exploitation of the Product licensed under Creative Commons licenses.\n"
 "</p>"
-msgstr ""
-"<p>\n"
-"Este resumen (Commons Deed) no es una licencia. Sólo es una referencia práctica para entender el Texto Legal (la licencia completa) — es una síntesis de algunos de los términos clave de la licencia, legible por humanos. Este resumen por sí solo no tiene ningún valor legal, y su contenido no aparece en la licencia auténtica. Los términos reales de la licencia están fijados en el Teto Legal.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Creative Commons y Creative Commons Japón no son un bufete de abogados y no ofrecen ningún servicio legal. La distribución, muestra, o el enlace de este Resumen no crea ninguna vinculación abogado-cliente. Creative Commons y Creative Commons Japón no son parte de la licencia asociada a este resumen, y no se responsabilizan de los daños resultantes de la utilización de este resumen y de la licencia asociada.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"La obra bajo licencia de Creative Commons se ofrece por la persona que ha solicitado la licencia. Creative Commons y Creative Commons Japón no dan garantía respecto al otorgante de la licencia. Por favor lea <a href=\"http://creativecommons.jp/faq/\">aquí</a> si quiere información referente a la solicitud de licencias y la explotación de obras bajo licencia de Creative Commons.\n"
-"</p>"
+msgstr "<p>\nEste resumen (Commons Deed) no es una licencia. Sólo es una referencia práctica para entender el Texto Legal (la licencia completa) — es una síntesis de algunos de los términos clave de la licencia, legible por humanos. Este resumen por sí solo no tiene ningún valor legal, y su contenido no aparece en la licencia auténtica. Los términos reales de la licencia están fijados en el Teto Legal.\n</p>\n\n<p>\nCreative Commons y Creative Commons Japón no son un bufete de abogados y no ofrecen ningún servicio legal. La distribución, muestra, o el enlace de este Resumen no crea ninguna vinculación abogado-cliente. Creative Commons y Creative Commons Japón no son parte de la licencia asociada a este resumen, y no se responsabilizan de los daños resultantes de la utilización de este resumen y de la licencia asociada.\n</p>\n\n<p>\nLa obra bajo licencia de Creative Commons se ofrece por la persona que ha solicitado la licencia. Creative Commons y Creative Commons Japón no dan garantía respecto al otorgante de la licencia. Por favor lea <a href=\"http://creativecommons.jp/faq/\">aquí</a> si quiere información referente a la solicitud de licencias y la explotación de obras bajo licencia de Creative Commons.\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:117
 msgid ""
@@ -3066,30 +2594,19 @@ msgid ""
 "<p>\n"
 "Creative Commons is not a law firm and does not provide legal services. Distributing of, displaying of, or linking to this Commons Deed does not create an attorney-client relationship.\n"
 "</p>"
-msgstr ""
-"<p>\n"
-"Este resumen (Commons Deed) no es una licencia. Es simplemente una referencia práctica para entender el Texto Legal (la licencia completa) — es una redacción legible por humanos de algunos de los términos clave de la licencia. Tómelo como una interfaz amigable del Texto Legal que se encuentra más abajo. Este resumen por sí mismo no tiene valor legal, y su contenido no aparece en la auténtica licencia.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Creative Commons no es un bufete de abogados y no ofrece servicios legales. La distribución, la muestra, o el enlace de este Resumen no crea ningun vínculo abogado-cliente. \n"
-"</p>"
+msgstr "<p>\nEste resumen (Commons Deed) no es una licencia. Es simplemente una referencia práctica para entender el Texto Legal (la licencia completa) — es una redacción legible por humanos de algunos de los términos clave de la licencia. Tómelo como una interfaz amigable del Texto Legal que se encuentra más abajo. Este resumen por sí mismo no tiene valor legal, y su contenido no aparece en la auténtica licencia.\n</p>\n\n<p>\nCreative Commons no es un bufete de abogados y no ofrece servicios legales. La distribución, la muestra, o el enlace de este Resumen no crea ningun vínculo abogado-cliente. \n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:131
 msgid ""
 "This is a human-readable summary of the Legal Code (the full license) "
 "available in the following languages:"
-msgstr ""
-"Esto es un resumen legible por humanos del texto legal (la licencia "
-"completa) disponible en los idiomas siguientes:"
+msgstr "Esto es un resumen legible por humanos del texto legal (la licencia completa) disponible en los idiomas siguientes:"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:138
 msgid ""
 "This is a human-readable summary of the <a href=\"legalcode\" "
 "class=\"fulltext\">Legal Code (the full license)</a>."
-msgstr ""
-"Esto es un resumen fácilmente legible del <a href=\"legalcode\" "
-"class=\"fulltext\">Texto Legal (la licencia completa)</a>."
+msgstr "Esto es un resumen fácilmente legible del <a href=\"legalcode\" class=\"fulltext\">Texto Legal (la licencia completa)</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:162
 msgid "Use this license for your own work."
@@ -3106,22 +2623,13 @@ msgid ""
 "copyright owners who want to dedicate their works to the worldwide public "
 "domain to do so, and facilitate the labeling and discovery of works that are"
 " already free of known copyright restrictions."
-msgstr ""
-"Nuestras licencias ayudan a los autores a conservar y administrar sus "
-"derechos de autor en los términos que ellos elijan. Nuestras herramientas de"
-" dominio público, por el contrario, permiten a los autores y titulares de "
-"derechos de autor que quieren dedicar sus obras al dominio público mundial "
-"hacerlo, y facilitan el etiquetado y el descubrimiento de las obras que ya "
-"están libres de restricciones conocidas de derechos de autor."
+msgstr "Nuestras licencias ayudan a los autores a conservar y administrar sus derechos de autor en los términos que ellos elijan. Nuestras herramientas de dominio público, por el contrario, permiten a los autores y titulares de derechos de autor que quieren dedicar sus obras al dominio público mundial hacerlo, y facilitan el etiquetado y el descubrimiento de las obras que ya están libres de restricciones conocidas de derechos de autor."
 
 #: checkouts/cc.engine/cc/engine/templates/publicdomain/index.html:17
 msgid ""
 "Use this universal tool if you are a holder of copyright or database rights,"
 " and you wish to waive all your interests in your work worldwide."
-msgstr ""
-"Utiliza esta herramienta universal si eres un titular de derechos de autor o"
-" de base de datos, y deseas renunciar a todos tus intereses en tu obra "
-"alrededor del mundo."
+msgstr "Utiliza esta herramienta universal si eres un titular de derechos de autor o de base de datos, y deseas renunciar a todos tus intereses en tu obra alrededor del mundo."
 
 #: checkouts/cc.engine/cc/engine/templates/publicdomain/index.html:25
 #: checkouts/cc.engine/cc/engine/templates/publicdomain/index.html:40
@@ -3150,28 +2658,21 @@ msgstr "Licencia Creative Commons"
 msgid ""
 "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"%(work_title)s por %(work_author)s se encuentra bajo una Licencia <a "
-"rel=\"license\" href=\"%(license_url)s\">Creative Commons "
-"%(license_name)s</a>."
+msgstr "%(work_title)s por %(work_author)s se encuentra bajo una Licencia <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:200
 #, python-format
 msgid ""
 "This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\""
 " href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"Este %(work_type)s de %(work_author)s está bajo una <a rel=\"license\" "
-"href=\"%(license_url)s\">licencia Creative Commons %(license_name)s</a>."
+msgstr "Este %(work_type)s de %(work_author)s está bajo una <a rel=\"license\" href=\"%(license_url)s\">licencia Creative Commons %(license_name)s</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:211
 #, python-format
 msgid ""
 "%(work_title)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"%(work_title)s se encuentra bajo una Licencia<a rel=\"license\" "
-"href=\"%(license_url)s\">Creative Commons %(license_name)s</a>."
+msgstr "%(work_title)s se encuentra bajo una Licencia<a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:230
 #, python-format
@@ -3183,9 +2684,7 @@ msgstr "Basada en una obra en %(source_link)s."
 msgid ""
 "Permissions beyond the scope of this license may be available at "
 "%(more_perms_link)s."
-msgstr ""
-"Permisos que vayan más allá de lo cubierto por esta licencia pueden "
-"encontrarse en %(more_perms_link)s."
+msgstr "Permisos que vayan más allá de lo cubierto por esta licencia pueden encontrarse en %(more_perms_link)s."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:314
 #, python-format
@@ -3193,10 +2692,7 @@ msgid ""
 "This %(work_type)s is in the <a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
 "Domain</a>."
-msgstr ""
-"Esta %(work_type)s está en el <a rel=\"license\" "
-"href=\"http://creativecommons.org/licenses/publicdomain/\">Dominio "
-"Público</a>."
+msgstr "Esta %(work_type)s está en el <a rel=\"license\" href=\"http://creativecommons.org/licenses/publicdomain/\">Dominio Público</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:328
 msgid "This work is free of known copyright restrictions."
@@ -3205,73 +2701,63 @@ msgstr "Esta obra está libre de restricciones conocidas de derecho de autor."
 #: checkouts/cc.license/cc/license/formatters/classes.py:331
 #, python-format
 msgid "This work (%(work_title)s) is free of known copyright restrictions."
-msgstr ""
-"Esta obra (%(work_title)s) está libre  de restricciones conocidas de derecho"
-" de autor."
+msgstr "Esta obra (%(work_title)s) está libre  de restricciones conocidas de derecho de autor."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:334
 #, python-format
 msgid "This work (by %(author)s) is free of known copyright restrictions."
-msgstr ""
-"Esta obra creada por %(author)s) está libre de restricciones conocidas de "
-"derecho de autor. "
+msgstr "Esta obra creada por %(author)s) está libre de restricciones conocidas de derecho de autor. "
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:339
 #, python-format
 msgid ""
 "This work, identified by %(curator)s, is free of known copyright "
 "restrictions."
-msgstr ""
-"Esta obra, identificada por %(curator)s, está libre de restricciones "
-"conocidas de derecho de autor."
+msgstr "Esta obra, identificada por %(curator)s, está libre de restricciones conocidas de derecho de autor."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:344
 #, python-format
 msgid ""
 "This work (%(work_title)s, by %(author)s) is free of known copyright "
 "restrictions."
-msgstr ""
-"Esta obra (%(work_title)s, creada por %(author)s) está libre de "
-"restricciones conocidas de derecho de autor."
+msgstr "Esta obra (%(work_title)s, creada por %(author)s) está libre de restricciones conocidas de derecho de autor."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:348
 #, python-format
 msgid ""
 "This work (%(work_title)s), identified by %(curator)s, is free of known "
 "copyright restrictions."
-msgstr ""
-"Esta obra (%(work_title)s), identificada por %(curator)s, está libre de "
-"restricciones conocidas de derecho de autor."
+msgstr "Esta obra (%(work_title)s), identificada por %(curator)s, está libre de restricciones conocidas de derecho de autor."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:353
 #, python-format
 msgid ""
 "This work (%(work_title)s, by %(author)s), identified by %(curator)s, is "
 "free of known copyright restrictions."
-msgstr ""
-"Esta obra (%(work_title)s, creada por %(author)s), identificada por "
-"%(curator)s, está libre de restricciones conocidas de derecho de autor."
+msgstr "Esta obra (%(work_title)s, creada por %(author)s), identificada por %(curator)s, está libre de restricciones conocidas de derecho de autor."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:358
 #, python-format
 msgid ""
 "This work (by %(author)s), identified by %(curator)s, is free of known "
 "copyright restrictions."
-msgstr ""
-"Esta obra (by %(author)s), identificada por  %(curator)s, está libre de "
-"restricciones conocidas de derecho de autor."
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Generic"
-msgstr "Genérica"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Unported"
-msgstr "Unported"
+msgstr "Esta obra (by %(author)s), identificada por  %(curator)s, está libre de restricciones conocidas de derecho de autor."
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Developing Nations"
 msgstr "Naciones en desarrollo"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU General Public License"
+msgstr "Licencia Pública General de GNU"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU Lesser General Public License"
+msgstr "Licencia Pública General Menor de GNU"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "Generic"
+msgstr "Genérica"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
@@ -3283,11 +2769,5 @@ msgid "Universal"
 msgstr "Universal"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU General Public License"
-msgstr "Licencia Pública General de GNU"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU Lesser General Public License"
-msgstr "Licencia Pública General Menor de GNU"
-
-
+msgid "Unported"
+msgstr "Unported"

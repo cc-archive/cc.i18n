@@ -9,10 +9,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
-"POT-Creation-Date: 2012-02-03 12:28-0600\n"
-"PO-Revision-Date: 2012-02-03 18:30+0000\n"
+"POT-Creation-Date: 2012-03-15 15:31-0500\n"
+"PO-Revision-Date: 2012-03-15 20:43+0000\n"
 "Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
-"Language-Team: Chinese (China) (http://www.transifex.net/projects/p/CC/team/zh_CN/)\n"
+"Language-Team: Chinese (China) (http://www.transifex.net/projects/p/CC/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -127,7 +127,8 @@ msgstr "克罗地亚"
 msgid "Hungary"
 msgstr "匈牙利"
 
-#: cc/i18n/mappers.py:31
+#: cc/i18n/mappers.py:31 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
 msgid "Ireland"
 msgstr "爱尔兰"
 
@@ -765,9 +766,7 @@ msgstr "如果您改变、转换本作品或者以本作品为基础进行创作
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
-msgstr ""
-"If you alter, transform, or build upon this work, you may distribute the "
-"resulting work only under the same, similar or a compatible license."
+msgstr "If you alter, transform, or build upon this work, you may distribute the resulting work only under the same, similar or a compatible license."
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/attribution_details.html:3
 #, python-format
@@ -839,9 +838,7 @@ msgstr "作品"
 msgid ""
 "This %(work_type)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"本%(work_type)s采用<a rel=\"license\" "
-"href=\"%(license_url)s\">知识共享%(license_name)s许可协议</a>进行许可。"
+msgstr "本%(work_type)s采用<a rel=\"license\" href=\"%(license_url)s\">知识共享%(license_name)s许可协议</a>进行许可。"
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/404.html:3
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/license_catcher.html:3
@@ -1093,8 +1090,7 @@ msgid ""
 "The licensor permits others to copy, distribute and transmit the work. In "
 "return, licensees may not use the work for commercial purposes — unless they"
 " get the licensor's permission."
-msgstr ""
-"许可人允许他人复制、发行、展览、表演、放映、广播或者通过信息网络向公众传播本作品。但是，除非取得许可人同意，被许可人不得将本作品用于商业目的。"
+msgstr "许可人允许他人复制、发行、展览、表演、放映、广播或者通过信息网络向公众传播本作品。但是，除非取得许可人同意，被许可人不得将本作品用于商业目的。"
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nd.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:158
@@ -1119,12 +1115,7 @@ msgid ""
 "</p>\n"
 "\n"
 "<p>Place the link or the HTML on your website, right next to the work you intend to license.  </p>"
-msgstr ""
-"<p>\n"
-"您所做出的选择已通过电子邮件发到您的<strong>%(email)s</strong>。\n"
-"</p>\n"
-"\n"
-"<p>将链接或者HTML代码放在您的网站上您打算进行许可的作品的旁边。</p>"
+msgstr "<p>\n您所做出的选择已通过电子邮件发到您的<strong>%(email)s</strong>。\n</p>\n\n<p>将链接或者HTML代码放在您的网站上您打算进行许可的作品的旁边。</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:7
 msgid "The HTML to display your button is as follows:"
@@ -1142,10 +1133,7 @@ msgid ""
 "information about your works. <a href=\"/learn/technology/usingmarkup\" "
 "target=\"_blank\">More information about adding HTML to your documents "
 "here</a>."
-msgstr ""
-"复制这段文本，粘贴到含有您的作品信息的网页文档中。点击此处获取<a "
-"href=\"http://cn.creativecommons.org/technology/usingmarkup.php\" "
-"target=\"_blank\">更多有关添加HTML代码到您的文档中的信息</a>。"
+msgstr "复制这段文本，粘贴到含有您的作品信息的网页文档中。点击此处获取<a href=\"http://cn.creativecommons.org/technology/usingmarkup.php\" target=\"_blank\">更多有关添加HTML代码到您的文档中的信息</a>。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:24
 msgid "Enter your email address to get the HTML by email:"
@@ -1329,11 +1317,7 @@ msgid ""
 "html-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">emailed to yourself.</a>"
-msgstr ""
-"选择以上文本框中的内容并复制该内容。或者，您也可以<a href=\"/license/work-html-popup?%(url_vars)s\" "
-"onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', "
-"'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">用电子邮件将它发送给自己</a>。"
+msgstr "选择以上文本框中的内容并复制该内容。或者，您也可以<a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">用电子邮件将它发送给自己</a>。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:85
 msgid ""
@@ -1427,18 +1411,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"<strong>允许对您的作品进行商业性使用吗？</strong> (<a "
-"href=\"/characteristic/nc?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">更多信息</a> <a href=\"/characteristic/nc?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+msgstr "<strong>允许对您的作品进行商业性使用吗？</strong> (<a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">更多信息</a> <a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:43
 #, python-format
@@ -1454,17 +1427,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"<strong>允许对您的作品进行修改吗？</strong> (<a href=\"/characteristic/nd?lang=%(lang)s\""
-" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">更多信息</a> <a href=\"/characteristic/nd?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+msgstr "<strong>允许对您的作品进行修改吗？</strong> (<a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">更多信息</a> <a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:52
 #, python-format
@@ -1480,17 +1443,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"是的，只要其他人采用相同方式共享其作品(<a href=\"/characteristic/sa?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">更多信息</a> <a href=\"/characteristic/sa?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+msgstr "是的，只要其他人采用相同方式共享其作品(<a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">更多信息</a> <a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:99
 msgid ""
@@ -1500,13 +1453,7 @@ msgid ""
 "<p>\n"
 "Creative Commons does not provide legal advice or services. We provide form legal documents; the rest is up to you.\n"
 "</p>"
-msgstr ""
-"<p>\n"
-"<em>注意：</em> 要对一个作品进行许可，您必须是该作品的著作权人，或者得到本作品的著作权人的明示授权。</p>\n"
-"\n"
-"<p>\n"
-"知识共享组织不提供法律意见或服务。我们提供法律文本，其余事项由您本人负责。\n"
-"</p>"
+msgstr "<p>\n<em>注意：</em> 要对一个作品进行许可，您必须是该作品的著作权人，或者得到本作品的著作权人的明示授权。</p>\n\n<p>\n知识共享组织不提供法律意见或服务。我们提供法律文本，其余事项由您本人负责。\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:7
 #, python-format
@@ -1514,9 +1461,7 @@ msgid ""
 "You have selected the <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s License</b></a>.<br>\n"
 "This license is permanently located at<br>\n"
 "<b><tt>%(license_url)s</tt></b>."
-msgstr ""
-"您选择了<a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s许可协议</b></a>。该许可协议的永久地址是<br>\n"
-"<b><tt>%(license_url)s</tt></b>。"
+msgstr "您选择了<a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s许可协议</b></a>。该许可协议的永久地址是<br>\n<b><tt>%(license_url)s</tt></b>。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:25
@@ -1732,7 +1677,7 @@ msgid ""
 "An error occurred when we tried to send the email message; you can try "
 "clicking the Back button and double checking your email address.  If the "
 "address you used (%(email_addr)s) was correct you can <a "
-"href=\"/about/contact\">contact us</a>."
+"href=\"/contact\">contact us</a>."
 msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:75
@@ -2045,11 +1990,7 @@ msgid ""
 " the HTML generated for your license. This allows users of your work to "
 "determine how to attribute it or where to go for more information about the "
 "work."
-msgstr ""
-"The additional fields are <strong>optional</strong>, but will be embedded in"
-" the HTML generated for your license. This allows users of your work to "
-"determine how to attribute it or where to go for more information about the "
-"work."
+msgstr "The additional fields are <strong>optional</strong>, but will be embedded in the HTML generated for your license. This allows users of your work to determine how to attribute it or where to go for more information about the work."
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:19
 msgid ""
@@ -2065,19 +2006,7 @@ msgid ""
 "\t    information</a> on Creative Commons metadata is available if\n"
 "\t  you want to find out more.\n"
 "\t</p>"
-msgstr ""
-"<p>\n"
-"\t  The information is embedded in a software readable format.\n"
-"\t  This allows search engines to index additional information\n"
-"\t  about your work and allows people coming to the license deed\n"
-"\t  from your page to see information on the deed about how to\n"
-"\t  attribute your work.  \n"
-"\t</p>\n"
-"\t<p>\n"
-"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
-"\t    information</a> on Creative Commons metadata is available if\n"
-"\t  you want to find out more.\n"
-"\t</p>"
+msgstr "<p>\n\t  The information is embedded in a software readable format.\n\t  This allows search engines to index additional information\n\t  about your work and allows people coming to the license deed\n\t  from your page to see information on the deed about how to\n\t  attribute your work.  \n\t</p>\n\t<p>\n\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n\t    information</a> on Creative Commons metadata is available if\n\t  you want to find out more.\n\t</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:40
 msgid "Tell us the format of your work:"
@@ -2494,9 +2423,7 @@ msgid ""
 "available. You should use it for new works, and you may want to relicense "
 "existing works under it. No works are <em>automatically</em> put under the "
 "new license, however."
-msgstr ""
-"您可以获得本许可协议<a href=\"%(current_version_url)s\">新版本</a> "
-"。您应该将其用于新的作品，您也可以根据本许可协议对现有作品进行再授权。然而，任何一部作品都不会<em>自动</em>适用新许可协议。"
+msgstr "您可以获得本许可协议<a href=\"%(current_version_url)s\">新版本</a> 。您应该将其用于新的作品，您也可以根据本许可协议对现有作品进行再授权。然而，任何一部作品都不会<em>自动</em>适用新许可协议。"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:192
 msgid "What does \"conditions can be waived\" mean?"
@@ -2656,18 +2583,7 @@ msgid ""
 "<p>\n"
 "The Product licensed under Creative Commons License is provided by the person who applied the License.  Creative Commons and Creative Commons Japan make no warranties regarding the title of the licensor.  Please read <a href=\"http://creativecommons.jp/faq/\">here</a> for information regarding the application of licenses and exploitation of the Product licensed under Creative Commons licenses.\n"
 "</p>"
-msgstr ""
-"<p>\n"
-"普通文本不是一项许可协议，而仅仅是便于理解法律文本（即完整的许可协议）的参考资料——它是一项普通人可以读懂的包含法律文本关键术语的表达方式。您可以把它看成是下面法律文本的用户友好界面。本文本自身没有法律价值，其内容也不会表现在真实的许可协议之中。真正的许可协议条款规定在法律文本之中。 <a href=\"legalcode\" class=\"fulltext\">请点击这里查看完整的许可协议法律文本</a>。\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"知识共享组织不是一家律师事务所也不对外提供法律服务。发布、展示或者链接本普通文本并不导致“律师-当事人”关系的建立。知识共享组织和知识共享日本项目组不是普通文本之下的许可协议的一方当事人,不对任何因使用普通文本以及许可协议所带来的损失承担法律责任。\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"使用知识共享许可协议的作品由采用许可协议的人提供。知识共享组织和知识共享日本项目组对许可人的署名不做任何保证。请点击<a href=\"http://cn.creativecommons.org/faq.php\">这里</a>获取关于使用知识共享许可协议发布作品和使用以知识共享许可协议授权的作品的相关信息。\n"
-"</p>"
+msgstr "<p>\n普通文本不是一项许可协议，而仅仅是便于理解法律文本（即完整的许可协议）的参考资料——它是一项普通人可以读懂的包含法律文本关键术语的表达方式。您可以把它看成是下面法律文本的用户友好界面。本文本自身没有法律价值，其内容也不会表现在真实的许可协议之中。真正的许可协议条款规定在法律文本之中。 <a href=\"legalcode\" class=\"fulltext\">请点击这里查看完整的许可协议法律文本</a>。\n</p>\n\n<p>\n知识共享组织不是一家律师事务所也不对外提供法律服务。发布、展示或者链接本普通文本并不导致“律师-当事人”关系的建立。知识共享组织和知识共享日本项目组不是普通文本之下的许可协议的一方当事人,不对任何因使用普通文本以及许可协议所带来的损失承担法律责任。\n</p>\n\n<p>\n使用知识共享许可协议的作品由采用许可协议的人提供。知识共享组织和知识共享日本项目组对许可人的署名不做任何保证。请点击<a href=\"http://cn.creativecommons.org/faq.php\">这里</a>获取关于使用知识共享许可协议发布作品和使用以知识共享许可协议授权的作品的相关信息。\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:117
 msgid ""
@@ -2678,14 +2594,7 @@ msgid ""
 "<p>\n"
 "Creative Commons is not a law firm and does not provide legal services. Distributing of, displaying of, or linking to this Commons Deed does not create an attorney-client relationship.\n"
 "</p>"
-msgstr ""
-"<p>\n"
-"普通文本不是一项许可协议，而仅仅是便于理解法律文本（即完整的许可协议）的参考资料——它是一项一般人可以读懂的包含法律文本关键术语的表达方式。您可以把它看成是下面法律文本的用户友好界面。本文本自身没有法律价值，其内容也不会表现在真实的许可协议之中。\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"知识共享组织不是一家律师事务所也不对外提供法律服务。发布、展示或者链接本普通文本并不导致“律师-当事人”关系的建立。\n"
-"</p>"
+msgstr "<p>\n普通文本不是一项许可协议，而仅仅是便于理解法律文本（即完整的许可协议）的参考资料——它是一项一般人可以读懂的包含法律文本关键术语的表达方式。您可以把它看成是下面法律文本的用户友好界面。本文本自身没有法律价值，其内容也不会表现在真实的许可协议之中。\n</p>\n\n<p>\n知识共享组织不是一家律师事务所也不对外提供法律服务。发布、展示或者链接本普通文本并不导致“律师-当事人”关系的建立。\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:131
 msgid ""
@@ -2749,27 +2658,21 @@ msgstr "知识共享许可协议"
 msgid ""
 "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
-"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:200
 #, python-format
 msgid ""
 "This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\""
 " href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"本%(work_type)s由%(work_author)s创作，采用<a rel=\"license\" "
-"href=\"%(license_url)s\">知识共享%(license_name)s许可协议</a>进行许可。"
+msgstr "本%(work_type)s由%(work_author)s创作，采用<a rel=\"license\" href=\"%(license_url)s\">知识共享%(license_name)s许可协议</a>进行许可。"
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:211
 #, python-format
 msgid ""
 "%(work_title)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"%(work_title)s is licensed under a <a rel=\"license\" "
-"href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr "%(work_title)s is licensed under a <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:230
 #, python-format
@@ -2781,9 +2684,7 @@ msgstr "基于%(source_link)s上的作品创作。"
 msgid ""
 "Permissions beyond the scope of this license may be available at "
 "%(more_perms_link)s."
-msgstr ""
-"Permissions beyond the scope of this license may be available at "
-"%(more_perms_link)s."
+msgstr "Permissions beyond the scope of this license may be available at %(more_perms_link)s."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:314
 #, python-format
@@ -2843,16 +2744,20 @@ msgid ""
 msgstr ""
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Generic"
-msgstr "未本地化版本"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Unported"
-msgstr "Unported"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Developing Nations"
 msgstr "发展中国家"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU General Public License"
+msgstr "GNU GPL"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU Lesser General Public License"
+msgstr "GNU LGPL"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "Generic"
+msgstr "未本地化版本"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
@@ -2864,11 +2769,5 @@ msgid "Universal"
 msgstr ""
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU General Public License"
-msgstr "GNU GPL"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU Lesser General Public License"
-msgstr "GNU LGPL"
-
-
+msgid "Unported"
+msgstr "Unported"

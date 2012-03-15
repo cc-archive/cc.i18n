@@ -14,9 +14,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
-"POT-Creation-Date: 2012-02-03 12:28-0600\n"
-"PO-Revision-Date: 2012-03-09 08:25+0000\n"
-"Last-Translator: TarzanASG <e-maile-mail@mail.ru>\n"
+"POT-Creation-Date: 2012-03-15 15:31-0500\n"
+"PO-Revision-Date: 2012-03-15 20:44+0000\n"
+"Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
 "Language-Team: Russian (http://www.transifex.net/projects/p/CC/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -132,7 +132,8 @@ msgstr "Хорватия"
 msgid "Hungary"
 msgstr "Венгрия"
 
-#: cc/i18n/mappers.py:31
+#: cc/i18n/mappers.py:31 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
 msgid "Ireland"
 msgstr "Ирландия"
 
@@ -1681,8 +1682,8 @@ msgid ""
 "An error occurred when we tried to send the email message; you can try "
 "clicking the Back button and double checking your email address.  If the "
 "address you used (%(email_addr)s) was correct you can <a "
-"href=\"/about/contact\">contact us</a>."
-msgstr "Когда мы пытались отправить вам электронное письмо, произошла ошибка; вы можете попробовать нажать кнопку «Назад» и перепроверить свой электронный адрес. Если используемый вами адрес (%(email_addr)s) корректен, <a href=\"/about/contact\">свяжитесь с нами</a>."
+"href=\"/contact\">contact us</a>."
+msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:75
 msgid ""
@@ -2748,16 +2749,20 @@ msgid ""
 msgstr "Это произведение (автора %(author)s), идентифицированное %(curator)s, свободно от известных лицензионных ограничений."
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Generic"
-msgstr "Generic"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Unported"
-msgstr "Непортированная"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Developing Nations"
 msgstr "Развивающиеся страны"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU General Public License"
+msgstr "GNU General Public License"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU Lesser General Public License"
+msgstr "Стандартная общественная лицензия ограниченного применения GNU (<i>GNU Lesser General Public License</i>)"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "Generic"
+msgstr "Generic"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
@@ -2769,9 +2774,5 @@ msgid "Universal"
 msgstr "Универсальная"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU General Public License"
-msgstr "GNU General Public License"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU Lesser General Public License"
-msgstr "Стандартная общественная лицензия ограниченного применения GNU (<i>GNU Lesser General Public License</i>)"
+msgid "Unported"
+msgstr "Непортированная"

@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
-"POT-Creation-Date: 2012-02-03 12:28-0600\n"
-"PO-Revision-Date: 2012-02-03 18:30+0000\n"
+"POT-Creation-Date: 2012-03-15 15:31-0500\n"
+"PO-Revision-Date: 2012-03-15 20:44+0000\n"
 "Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
-"Language-Team: Hebrew (http://www.transifex.net/projects/p/CC/team/he/)\n"
+"Language-Team: Hebrew (http://www.transifex.net/projects/p/CC/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -125,7 +125,8 @@ msgstr "קרואטיה"
 msgid "Hungary"
 msgstr "הונגריה"
 
-#: cc/i18n/mappers.py:31
+#: cc/i18n/mappers.py:31 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
 msgid "Ireland"
 msgstr "אירלנד"
 
@@ -728,18 +729,14 @@ msgid ""
 "You must attribute the work in the manner specified by the author or "
 "licensor (but not in any way that suggests that they endorse you or your use"
 " of the work)."
-msgstr ""
-"עליך לייחס את היצירה (לתת קרדיט) באופן המצויין על-ידי היוצר או מעניק הרישיון"
-" (אך לא בשום אופן המרמז על כך שהם תומכים בך או בשימוש שלך ביצירה)."
+msgstr "עליך לייחס את היצירה (לתת קרדיט) באופן המצויין על-ידי היוצר או מעניק הרישיון (אך לא בשום אופן המרמז על כך שהם תומכים בך או בשימוש שלך ביצירה)."
 
 #: cc/i18n/mappers.py:188
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:53
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
-msgstr ""
-"אינך רשאי/ת לעשות שימוש ביצירה זו למטרות פרסום ו/או קידום של דבר מלבד יצירתך"
-" הנגזרת ממנה."
+msgstr "אינך רשאי/ת לעשות שימוש ביצירה זו למטרות פרסום ו/או קידום של דבר מלבד יצירתך הנגזרת ממנה."
 
 #: cc/i18n/mappers.py:191
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:49
@@ -755,24 +752,19 @@ msgstr "אינך רשאי/ת לשנות, לעבד או ליצור יצירה נ�
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
-msgstr ""
-"אינך רשאי/ת לבצע, להציג או להפיץ עותקים מיצירה זו בשלמותה לכל מטרה שהיא."
+msgstr "אינך רשאי/ת לבצע, להציג או להפיץ עותקים מיצירה זו בשלמותה לכל מטרה שהיא."
 
 #: cc/i18n/mappers.py:196
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same or similar license to this one."
-msgstr ""
-"אם תחליט/י לשנות, לעבד או ליצור יצירה נגזרת בהסתמך על יצירה זו, תוכל/י להפיץ"
-" את יצירתך החדשה רק תחת אותו הרישיון או רישיון דומה לרישיון זה."
+msgstr "אם תחליט/י לשנות, לעבד או ליצור יצירה נגזרת בהסתמך על יצירה זו, תוכל/י להפיץ את יצירתך החדשה רק תחת אותו הרישיון או רישיון דומה לרישיון זה."
 
 #: cc/i18n/mappers.py:200 checkouts/cc.engine/cc/engine/util.py:256
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
-msgstr ""
-"אם תחליט/י לשנות, לעבד או ליצור יצירה נגזרת בהסתמך על יצירה זו, תוכל/י להפיץ"
-" את יצירתך החדשה רק תחת אותו הרישיון, רישיון דומה או תואם לרישיון זה."
+msgstr "אם תחליט/י לשנות, לעבד או ליצור יצירה נגזרת בהסתמך על יצירה זו, תוכל/י להפיץ את יצירתך החדשה רק תחת אותו הרישיון, רישיון דומה או תואם לרישיון זה."
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/attribution_details.html:3
 #, python-format
@@ -844,10 +836,7 @@ msgstr "יצירה"
 msgid ""
 "This %(work_type)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"<span dir=\"rtl\">%(work_type)s זו מופצת תחת <a rel=\"license\" "
-"href=\"%(license_url)s\"> רישיון %(license_name)s של Creative "
-"Commons</a>.</span>"
+msgstr "<span dir=\"rtl\">%(work_type)s זו מופצת תחת <a rel=\"license\" href=\"%(license_url)s\"> רישיון %(license_name)s של Creative Commons</a>.</span>"
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/404.html:3
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/license_catcher.html:3
@@ -1082,9 +1071,7 @@ msgstr ""
 msgid ""
 "You must attribute the\n"
 "work in the manner specified by the author or licensor."
-msgstr ""
-"עליך לייחס את היצירה (לתת קרדיט) באופן המצויין על-ידי היוצר או מעניק "
-"הרישיון."
+msgstr "עליך לייחס את היצירה (לתת קרדיט) באופן המצויין על-ידי היוצר או מעניק הרישיון."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/by.html:20
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nc.html:19
@@ -1101,18 +1088,14 @@ msgid ""
 "The licensor permits others to copy, distribute and transmit the work. In "
 "return, licensees may not use the work for commercial purposes — unless they"
 " get the licensor's permission."
-msgstr ""
-"מעניק הרישיון מרשה לאחרים להעתיק, להפיץולהעביר את היצירה. בתמורה, המשתמשים "
-"אינם רשאים להשתמש ביצירה למטרות מסחריות — אלא אם קיבלו את הסכמת נותן הרשיון."
+msgstr "מעניק הרישיון מרשה לאחרים להעתיק, להפיץולהעביר את היצירה. בתמורה, המשתמשים אינם רשאים להשתמש ביצירה למטרות מסחריות — אלא אם קיבלו את הסכמת נותן הרשיון."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nd.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:158
 msgid ""
 "The licensor permits others to copy, distribute and transmit only unaltered "
 "copies of the work — not derivative works based on it."
-msgstr ""
-"מעניק הרישיון מאפשר לאחרים להעתיק, להפיץ ולהעביר רק העתקים זהים למקור של "
-"היצירה, שלא עברו כל שינוי — לא יצירות נגזרות המבוססות עליה."
+msgstr "מעניק הרישיון מאפשר לאחרים להעתיק, להפיץ ולהעביר רק העתקים זהים למקור של היצירה, שלא עברו כל שינוי — לא יצירות נגזרות המבוססות עליה."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/sa.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:135
@@ -1120,9 +1103,7 @@ msgid ""
 "The licensor permits others to distribute derivative works only under the "
 "same license or one compatible with the one that governs the licensor's "
 "work."
-msgstr ""
-"מעניק הרישיון מאפשר לאחרים להפיץ יצירות נגזרות המבוססות על יצירתו רק תחת "
-"רישיון זהה לרישיון תחתיו מוצעת יצירתו."
+msgstr "מעניק הרישיון מאפשר לאחרים להפיץ יצירות נגזרות המבוססות על יצירתו רק תחת רישיון זהה לרישיון תחתיו מוצעת יצירתו."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/emailhtml.html:7
 #, python-format
@@ -1132,12 +1113,7 @@ msgid ""
 "</p>\n"
 "\n"
 "<p>Place the link or the HTML on your website, right next to the work you intend to license.  </p>"
-msgstr ""
-"<p dir=\"rtl\" style=\"right\">\n"
-"המידע בנוגע לבחירתך נשלח אליך בדואר אלקטרוני לכתובת <strong>%(email)s</strong>.\n"
-"</p>\n"
-"\n"
-"<p dir=\"rtl\" style=\"right\">יש להציב את הקישור או את קוד ה-HTML באתרך, בצמוד ליצירה אותה שבכוונתך להציע בכפוף לרישיון. </p>"
+msgstr "<p dir=\"rtl\" style=\"right\">\nהמידע בנוגע לבחירתך נשלח אליך בדואר אלקטרוני לכתובת <strong>%(email)s</strong>.\n</p>\n\n<p dir=\"rtl\" style=\"right\">יש להציב את הקישור או את קוד ה-HTML באתרך, בצמוד ליצירה אותה שבכוונתך להציע בכפוף לרישיון. </p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:7
 msgid "The HTML to display your button is as follows:"
@@ -1155,10 +1131,7 @@ msgid ""
 "information about your works. <a href=\"/learn/technology/usingmarkup\" "
 "target=\"_blank\">More information about adding HTML to your documents "
 "here</a>."
-msgstr ""
-"פשוט העתיקו את הטקסט והדביקו אותו לתוך דפי האינטרנט שלכם הכוללים מידע אודות "
-"יצירותיכם. <a href=\"/learn/technology/usingmarkup\" target=\"_blank\">מידע "
-"נוסף לגבי הוספת קוד HTML למסמכים ודפי אינטרנט ניתן למצוא כאן</a>."
+msgstr "פשוט העתיקו את הטקסט והדביקו אותו לתוך דפי האינטרנט שלכם הכוללים מידע אודות יצירותיכם. <a href=\"/learn/technology/usingmarkup\" target=\"_blank\">מידע נוסף לגבי הוספת קוד HTML למסמכים ודפי אינטרנט ניתן למצוא כאן</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:24
 msgid "Enter your email address to get the HTML by email:"
@@ -1332,9 +1305,7 @@ msgstr "יש לך אתר משלך?"
 msgid ""
 "Copy the text below to your Web site to let your visitors know what license "
 "applies to your works."
-msgstr ""
-"יש להעתיק את הטקסט להלן לאתרך על-מנת שהמבקרים בו ידעו איזה רישיון חל על "
-"יצירותיך."
+msgstr "יש להעתיק את הטקסט להלן לאתרך על-מנת שהמבקרים בו ידעו איזה רישיון חל על יצירותיך."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:82
 #, python-format
@@ -1344,12 +1315,7 @@ msgid ""
 "html-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">emailed to yourself.</a>"
-msgstr ""
-"יש לסמן את תוכן התיבה שמעל ולהעתיק אותו. לחליפין ניתן <a href=\"/license"
-"/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-"
-"popup?%(url_vars)s', 'html_help', "
-"'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"> לשלוח אותו לעצמך בדוא\"ל</a>."
+msgstr "יש לסמן את תוכן התיבה שמעל ולהעתיק אותו. לחליפין ניתן <a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"> לשלוח אותו לעצמך בדוא\"ל</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:85
 msgid ""
@@ -1443,18 +1409,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"<strong>האם ברצונך להרשות שימוש ביצירתך למטרות מסחריות?</strong> (<a "
-"href=\"/characteristic/nc?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">מידע נוסף</a> <a href=\"/characteristic/nc?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"מידע נוסף\" border=\"0\" /></a>)"
+msgstr "<strong>האם ברצונך להרשות שימוש ביצירתך למטרות מסחריות?</strong> (<a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">מידע נוסף</a> <a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"מידע נוסף\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:43
 #, python-format
@@ -1470,18 +1425,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"<strong>האם ברצונך להרשות ביצוע שינויים ביצירתך?</strong> (<a "
-"href=\"/characteristic/nd?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">מידע נוסף</a> <a href=\"/characteristic/nd?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"מידע נוסף\" border=\"0\" /></a>)"
+msgstr "<strong>האם ברצונך להרשות ביצוע שינויים ביצירתך?</strong> (<a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">מידע נוסף</a> <a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"מידע נוסף\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:52
 #, python-format
@@ -1497,18 +1441,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"כן, כל עוד אחרים ישתפו את יצירתם באופן זהה (<a "
-"href=\"/characteristic/sa?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">מידע נוסף</a> <a href=\"/characteristic/sa?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"more information\" border=\"0\" /></a>)"
+msgstr "כן, כל עוד אחרים ישתפו את יצירתם באופן זהה (<a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">מידע נוסף</a> <a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:99
 msgid ""
@@ -1518,13 +1451,7 @@ msgid ""
 "<p>\n"
 "Creative Commons does not provide legal advice or services. We provide form legal documents; the rest is up to you.\n"
 "</p>"
-msgstr ""
-"<p>\n"
-"<em>הערה:</em> כדי לתת רישיון לשימוש ביצירה, עליכם להיות בעלי זכויות היוצרים או בעלי הרשאה מפורשת מבעלי זכויות היוצרים לעשות זאת.</p>\n"
-"\n"
-"<p>\n"
-"Creative Commons לא מספקים ייעוץ משפטי או שירותים משפטיים. אנחנו מספקים טפסים ומסמכים משפטיים; כל השאר באחריותכם.\n"
-"</p>"
+msgstr "<p>\n<em>הערה:</em> כדי לתת רישיון לשימוש ביצירה, עליכם להיות בעלי זכויות היוצרים או בעלי הרשאה מפורשת מבעלי זכויות היוצרים לעשות זאת.</p>\n\n<p>\nCreative Commons לא מספקים ייעוץ משפטי או שירותים משפטיים. אנחנו מספקים טפסים ומסמכים משפטיים; כל השאר באחריותכם.\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:7
 #, python-format
@@ -1532,9 +1459,7 @@ msgid ""
 "You have selected the <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s License</b></a>.<br>\n"
 "This license is permanently located at<br>\n"
 "<b><tt>%(license_url)s</tt></b>."
-msgstr ""
-"בחרת ברישיון <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s</b></a>.</br>רישיון זה ממוקם באופן קבוע בכתובת<br>\n"
-"<b><tt>%(license_url)s</tt></b>."
+msgstr "בחרת ברישיון <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s</b></a>.</br>רישיון זה ממוקם באופן קבוע בכתובת<br>\n<b><tt>%(license_url)s</tt></b>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:25
@@ -1750,7 +1675,7 @@ msgid ""
 "An error occurred when we tried to send the email message; you can try "
 "clicking the Back button and double checking your email address.  If the "
 "address you used (%(email_addr)s) was correct you can <a "
-"href=\"/about/contact\">contact us</a>."
+"href=\"/contact\">contact us</a>."
 msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:75
@@ -2063,11 +1988,7 @@ msgid ""
 " the HTML generated for your license. This allows users of your work to "
 "determine how to attribute it or where to go for more information about the "
 "work."
-msgstr ""
-"The additional fields are <strong>optional</strong>, but will be embedded in"
-" the HTML generated for your license. This allows users of your work to "
-"determine how to attribute it or where to go for more information about the "
-"work."
+msgstr "The additional fields are <strong>optional</strong>, but will be embedded in the HTML generated for your license. This allows users of your work to determine how to attribute it or where to go for more information about the work."
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:19
 msgid ""
@@ -2083,19 +2004,7 @@ msgid ""
 "\t    information</a> on Creative Commons metadata is available if\n"
 "\t  you want to find out more.\n"
 "\t</p>"
-msgstr ""
-"<p>\n"
-"\t  The information is embedded in a software readable format.\n"
-"\t  This allows search engines to index additional information\n"
-"\t  about your work and allows people coming to the license deed\n"
-"\t  from your page to see information on the deed about how to\n"
-"\t  attribute your work.  \n"
-"\t</p>\n"
-"\t<p>\n"
-"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
-"\t    information</a> on Creative Commons metadata is available if\n"
-"\t  you want to find out more.\n"
-"\t</p>"
+msgstr "<p>\n\t  The information is embedded in a software readable format.\n\t  This allows search engines to index additional information\n\t  about your work and allows people coming to the license deed\n\t  from your page to see information on the deed about how to\n\t  attribute your work.  \n\t</p>\n\t<p>\n\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n\t    information</a> on Creative Commons metadata is available if\n\t  you want to find out more.\n\t</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:40
 msgid "Tell us the format of your work:"
@@ -2213,9 +2122,7 @@ msgstr "בכפוף לתנאים הבאים:"
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
-msgstr ""
-"בכל שימוש חוזר או הפצה של היצירה עליך להבהיר לאחרים את תנאי הרישיון ביצירה "
-"זו. הדרך הטובה ביותר לעשות זאת היא לקשר לעמוד זה."
+msgstr "בכל שימוש חוזר או הפצה של היצירה עליך להבהיר לאחרים את תנאי הרישיון ביצירה זו. הדרך הטובה ביותר לעשות זאת היא לקשר לעמוד זה."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:61
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:138
@@ -2430,25 +2337,19 @@ msgstr ""
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "noncommercial purposes."
-msgstr ""
-"לדגום (לסמפל), לערבב (mash-up) או לשנות יצירה זו בכל אופן יצירתי אחר למטרות "
-"לא מסחריות."
+msgstr "לדגום (לסמפל), לערבב (mash-up) או לשנות יצירה זו בכל אופן יצירתי אחר למטרות לא מסחריות."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:28
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "commercial or noncommercial purposes."
-msgstr ""
-"לדגום (לסמפל), לערבב (mash-up), או לשנות באופן יצירתי אחר יצירה זו לצרכים "
-"מסחריים או שאינם מסחריים."
+msgstr "לדגום (לסמפל), לערבב (mash-up), או לשנות באופן יצירתי אחר יצירה זו לצרכים מסחריים או שאינם מסחריים."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:34
 msgid ""
 "To perform, display, and distribute copies of this whole work for "
 "noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
-msgstr ""
-"לבצע, להציג ולהפיץ עותקים של היצירה בשלמותה למטרות לא מסחריות (לדוגמא - "
-"שיתוף קבצים או שידור לא מסחרי דרך רשת האינטרנט.)"
+msgstr "לבצע, להציג ולהפיץ עותקים של היצירה בשלמותה למטרות לא מסחריות (לדוגמא - שיתוף קבצים או שידור לא מסחרי דרך רשת האינטרנט.)"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:63
 msgid ""
@@ -2520,11 +2421,7 @@ msgid ""
 "available. You should use it for new works, and you may want to relicense "
 "existing works under it. No works are <em>automatically</em> put under the "
 "new license, however."
-msgstr ""
-"<a href=\"%(current_version_url)s\">גרסה חדשה</a> של רישיון זה זמינה כעת. "
-"עליך להשתמש בה עבור יצירות חדשות וייתכן שתרצה/י לבצע רישוי מחודש של יצירות "
-"קיימות תחת גרסה זו. בכל אופן, אף יצירה אינה מועברת <em>באופן אוטומטי</em> "
-"להיות תחת הרישיון החדש."
+msgstr "<a href=\"%(current_version_url)s\">גרסה חדשה</a> של רישיון זה זמינה כעת. עליך להשתמש בה עבור יצירות חדשות וייתכן שתרצה/י לבצע רישוי מחודש של יצירות קיימות תחת גרסה זו. בכל אופן, אף יצירה אינה מועברת <em>באופן אוטומטי</em> להיות תחת הרישיון החדש."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:192
 msgid "What does \"conditions can be waived\" mean?"
@@ -2684,18 +2581,7 @@ msgid ""
 "<p>\n"
 "The Product licensed under Creative Commons License is provided by the person who applied the License.  Creative Commons and Creative Commons Japan make no warranties regarding the title of the licensor.  Please read <a href=\"http://creativecommons.jp/faq/\">here</a> for information regarding the application of licenses and exploitation of the Product licensed under Creative Commons licenses.\n"
 "</p>"
-msgstr ""
-"<p>\n"
-"The Commons Deed is not a license. It is simply a handy reference for understanding the Legal Code (the full License) — it is a human-readable expression of some of its key terms. This Deed itself has no legal value, and its contents do not appear in the actual License.  The actual terms of the license is set forth by the Legal Code.  <a href=\"legalcode\" class=\"fulltext\">Please click here to see the full License</a>.  \n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Creative Commons and Creative Commons Japan are not law firms, and distributing of or displaying of, or linking to the Commons Deed does not constitute an offer of legal advice or any other legal services. Creative Commons and Creative Commons Japan are not a party to the License underlying this Commons Deed, and disclaim liablity for damages resulting from any use of the Commons Deed and the underlying License.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"The Product licensed under Creative Commons License is provided by the person who applied the License.  Creative Commons and Creative Commons Japan make no warranties regarding the title of the licensor.  Please read <a href=\"http://creativecommons.jp/faq/\">here</a> for information regarding the application of licenses and exploitation of the Product licensed under Creative Commons licenses.\n"
-"</p>"
+msgstr "<p>\nThe Commons Deed is not a license. It is simply a handy reference for understanding the Legal Code (the full License) — it is a human-readable expression of some of its key terms. This Deed itself has no legal value, and its contents do not appear in the actual License.  The actual terms of the license is set forth by the Legal Code.  <a href=\"legalcode\" class=\"fulltext\">Please click here to see the full License</a>.  \n</p>\n\n<p>\nCreative Commons and Creative Commons Japan are not law firms, and distributing of or displaying of, or linking to the Commons Deed does not constitute an offer of legal advice or any other legal services. Creative Commons and Creative Commons Japan are not a party to the License underlying this Commons Deed, and disclaim liablity for damages resulting from any use of the Commons Deed and the underlying License.\n</p>\n\n<p>\nThe Product licensed under Creative Commons License is provided by the person who applied the License.  Creative Commons and Creative Commons Japan make no warranties regarding the title of the licensor.  Please read <a href=\"http://creativecommons.jp/faq/\">here</a> for information regarding the application of licenses and exploitation of the Product licensed under Creative Commons licenses.\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:117
 msgid ""
@@ -2706,12 +2592,7 @@ msgid ""
 "<p>\n"
 "Creative Commons is not a law firm and does not provide legal services. Distributing of, displaying of, or linking to this Commons Deed does not create an attorney-client relationship.\n"
 "</p>"
-msgstr ""
-"<p dir=\"rtl\" style=\"right\">\n"
-"תעודה זו אינה מהווה רישיון. היא רק כלי-עזר להבנת המסמך המשפטי (הרישיון המלא) &mdash; זהו ביטוי פשוט של חלק מהתנאים היסודיים של הרישיון. ניתן לראות אותה כממשק ידידותי למשתמש של המסמך המשפטי שמאחוריה. לתעודה זו כשלעצמה אין כל ערך משפטי, ותוכנה אינו מופיע ברישיון האמיתי.</p>\n"
-"\n"
-"<p dir=\"rtl\" style=\"right\">\n"
-"ארגון Creative Commons אינו משרד עורכי-דין ואינו מספק שירותים משפטיים. הפצה, הצגה או קישור לתעודה זו אינם יוצרים יחסי עורך דין-לקוח."
+msgstr "<p dir=\"rtl\" style=\"right\">\nתעודה זו אינה מהווה רישיון. היא רק כלי-עזר להבנת המסמך המשפטי (הרישיון המלא) &mdash; זהו ביטוי פשוט של חלק מהתנאים היסודיים של הרישיון. ניתן לראות אותה כממשק ידידותי למשתמש של המסמך המשפטי שמאחוריה. לתעודה זו כשלעצמה אין כל ערך משפטי, ותוכנה אינו מופיע ברישיון האמיתי.</p>\n\n<p dir=\"rtl\" style=\"right\">\nארגון Creative Commons אינו משרד עורכי-דין ואינו מספק שירותים משפטיים. הפצה, הצגה או קישור לתעודה זו אינם יוצרים יחסי עורך דין-לקוח."
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:131
 msgid ""
@@ -2723,9 +2604,7 @@ msgstr "זהו סיכום קריא של המסמך המשפטי (הרישיון 
 msgid ""
 "This is a human-readable summary of the <a href=\"legalcode\" "
 "class=\"fulltext\">Legal Code (the full license)</a>."
-msgstr ""
-"זהו סיכום קריא של <a href=\"legalcode\" class=\"fulltext\">המסמך המשפטי "
-"(הרישיון המלא)</a>."
+msgstr "זהו סיכום קריא של <a href=\"legalcode\" class=\"fulltext\">המסמך המשפטי (הרישיון המלא)</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:162
 msgid "Use this license for your own work."
@@ -2777,27 +2656,21 @@ msgstr "רישיון Creative Commons"
 msgid ""
 "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"היצירה %(work_title)s של %(work_author)s מוצעת תחת <a rel=\"license\" "
-"href=\"%(license_url)s\">רישיון %(license_name)s של Creative Commons</a>."
+msgstr "היצירה %(work_title)s של %(work_author)s מוצעת תחת <a rel=\"license\" href=\"%(license_url)s\">רישיון %(license_name)s של Creative Commons</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:200
 #, python-format
 msgid ""
 "This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\""
 " href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"יצירת %(work_type)s זו של %(work_author)s מוצע תחת <a rel=\"license\" "
-"href=\"%(license_url)s\">רישיון %(license_name)s של Creative Commons</a>."
+msgstr "יצירת %(work_type)s זו של %(work_author)s מוצע תחת <a rel=\"license\" href=\"%(license_url)s\">רישיון %(license_name)s של Creative Commons</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:211
 #, python-format
 msgid ""
 "%(work_title)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"היצירה %(work_title)s מוצעת תחת <a rel=\"license\" "
-"href=\"%(license_url)s\">רישיון %(license_name)s של Creative Commons</a>."
+msgstr "היצירה %(work_title)s מוצעת תחת <a rel=\"license\" href=\"%(license_url)s\">רישיון %(license_name)s של Creative Commons</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:230
 #, python-format
@@ -2809,9 +2682,7 @@ msgstr "מבוסס על יצירה הנמצאת בכתובת %(source_link)s."
 msgid ""
 "Permissions beyond the scope of this license may be available at "
 "%(more_perms_link)s."
-msgstr ""
-"ייתכן וניתן למצוא הרשאות מעבר לאלו הניתנות ברישיון זה בכתובת "
-"%(more_perms_link)s."
+msgstr "ייתכן וניתן למצוא הרשאות מעבר לאלו הניתנות ברישיון זה בכתובת %(more_perms_link)s."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:314
 #, python-format
@@ -2871,16 +2742,20 @@ msgid ""
 msgstr ""
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Generic"
-msgstr "לא מותאם"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Unported"
-msgstr "לא מותאם"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Developing Nations"
 msgstr "מדינות מתפתחות"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU General Public License"
+msgstr "הרישיון הציבורי הכללי של גנו"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU Lesser General Public License"
+msgstr "הרישיון הציבורי הכללי הנחות של גנו"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "Generic"
+msgstr "לא מותאם"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
@@ -2892,11 +2767,5 @@ msgid "Universal"
 msgstr ""
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU General Public License"
-msgstr "הרישיון הציבורי הכללי של גנו"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU Lesser General Public License"
-msgstr "הרישיון הציבורי הכללי הנחות של גנו"
-
-
+msgid "Unported"
+msgstr "לא מותאם"

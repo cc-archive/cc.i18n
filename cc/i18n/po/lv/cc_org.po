@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
-"POT-Creation-Date: 2012-02-03 12:28-0600\n"
-"PO-Revision-Date: 2012-02-03 18:30+0000\n"
+"POT-Creation-Date: 2012-03-15 15:31-0500\n"
+"PO-Revision-Date: 2012-03-15 20:44+0000\n"
 "Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
-"Language-Team: Latvian (http://www.transifex.net/projects/p/CC/team/lv/)\n"
+"Language-Team: Latvian (http://www.transifex.net/projects/p/CC/language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -125,7 +125,8 @@ msgstr "Horvātija"
 msgid "Hungary"
 msgstr "Ungārija"
 
-#: cc/i18n/mappers.py:31
+#: cc/i18n/mappers.py:31 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
 msgid "Ireland"
 msgstr "Īrija"
 
@@ -728,18 +729,14 @@ msgid ""
 "You must attribute the work in the manner specified by the author or "
 "licensor (but not in any way that suggests that they endorse you or your use"
 " of the work)."
-msgstr ""
-"Jums ir jānorāda uz darbu autora vai licences izdevēja pieprasītajā veidā "
-"(bet ne veidā, kas liktu domāt, ka autors atbalsta jūs vai jūsu darbu)."
+msgstr "Jums ir jānorāda uz darbu autora vai licences izdevēja pieprasītajā veidā (bet ne veidā, kas liktu domāt, ka autors atbalsta jūs vai jūsu darbu)."
 
 #: cc/i18n/mappers.py:188
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:53
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
-msgstr ""
-"Jūs varat izmantot šo darbu tikai tad, ja popularizējat vai atbalstāt tikai "
-"un vienīgi darbu, uz kā pamata tas ir veidots."
+msgstr "Jūs varat izmantot šo darbu tikai tad, ja popularizējat vai atbalstāt tikai un vienīgi darbu, uz kā pamata tas ir veidots."
 
 #: cc/i18n/mappers.py:191
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:49
@@ -748,34 +745,26 @@ msgstr "Jūs nevarat izmantot šo darbu komerciālos nolūkos."
 
 #: cc/i18n/mappers.py:192
 msgid "You may not alter, transform, or build upon this work."
-msgstr ""
-"Jūs nedrīkstat darbu rediģēt, mainīt vai veidot jaunu darbu uz šī darba "
-"pamata."
+msgstr "Jūs nedrīkstat darbu rediģēt, mainīt vai veidot jaunu darbu uz šī darba pamata."
 
 #: cc/i18n/mappers.py:193
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:66
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
-msgstr ""
-"Jūs nekādā gadījumā nedrīkstat attēlot, rādīt vai izplatīt visa darba "
-"kopijas."
+msgstr "Jūs nekādā gadījumā nedrīkstat attēlot, rādīt vai izplatīt visa darba kopijas."
 
 #: cc/i18n/mappers.py:196
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same or similar license to this one."
-msgstr ""
-"Ja jūs rediģējat, maināt vai veidojat jaunu darbu uz šī darba pamata, jūs "
-"drīkstat to izplatīt tikai ar šo vai arī savietojamu licenci."
+msgstr "Ja jūs rediģējat, maināt vai veidojat jaunu darbu uz šī darba pamata, jūs drīkstat to izplatīt tikai ar šo vai arī savietojamu licenci."
 
 #: cc/i18n/mappers.py:200 checkouts/cc.engine/cc/engine/util.py:256
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
-msgstr ""
-"Ja jūs rediģējat, maināt vai arī veidojat citu darbu uz šī darba pamata, jūs"
-" varat izplatīt šo darbu tikai ar to pašu vai savietojamu licenci."
+msgstr "Ja jūs rediģējat, maināt vai arī veidojat citu darbu uz šī darba pamata, jūs varat izplatīt šo darbu tikai ar to pašu vai savietojamu licenci."
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/attribution_details.html:3
 #, python-format
@@ -789,17 +778,13 @@ msgstr ""
 msgid ""
 "You must attribute this work to <a "
 "href=\"%(attributionURL)s\">%(attributionName)s</a> (with link)."
-msgstr ""
-"Jums ir jāatsaucas uz šo darbu <a "
-"href=\"%(attributionURL)s\">%(attributionName)s</a> (ar hipersaiti)."
+msgstr "Jums ir jāatsaucas uz šo darbu <a href=\"%(attributionURL)s\">%(attributionName)s</a> (ar hipersaiti)."
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/more_permissions.html:2
 msgid ""
 "<strong>Permissions beyond</strong> the scope of this public license are "
 "available at"
-msgstr ""
-"Šīs publiskās licences noteikumu <strong>papildu tiesības</strong> ir "
-"pieejamas"
+msgstr "Šīs publiskās licences noteikumu <strong>papildu tiesības</strong> ir pieejamas"
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/registration.html:2
 #, python-format
@@ -807,10 +792,7 @@ msgid ""
 "<a href=\"%(owner_url)s\">%(owner_name)s</a> has registered <a "
 "href=\"%(lookup_uri)s\">this work</a> at the <nobr><a "
 "href=\"%(network_url)s\">%(network_name)s</a></nobr>"
-msgstr ""
-"<a href=\"%(owner_url)s\">%(owner_name)s</a> ir reģistrējis <a "
-"href=\"%(lookup_uri)s\">šo darbu</a> šeit: <nobr><a "
-"href=\"%(network_url)s\">%(network_name)s</a></nobr>"
+msgstr "<a href=\"%(owner_url)s\">%(owner_name)s</a> ir reģistrējis <a href=\"%(lookup_uri)s\">šo darbu</a> šeit: <nobr><a href=\"%(network_url)s\">%(network_name)s</a></nobr>"
 
 #: checkouts/cc.engine/cc/engine/util.py:506
 #, python-format
@@ -854,9 +836,7 @@ msgstr "darbs"
 msgid ""
 "This %(work_type)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"Šis %(work_type)s ir licencēts ar <a rel=\"license\" "
-"href=\"%(license_url)s\">Creative Commons %(license_name)s licenci</a>."
+msgstr "Šis %(work_type)s ir licencēts ar <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s licenci</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/404.html:3
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/license_catcher.html:3
@@ -1091,9 +1071,7 @@ msgstr ""
 msgid ""
 "You must attribute the\n"
 "work in the manner specified by the author or licensor."
-msgstr ""
-"Jums ir jānorāda uz darbu\n"
-"autora vai licences devēja prasītajā veidā."
+msgstr "Jums ir jānorāda uz darbu\nautora vai licences devēja prasītajā veidā."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/by.html:20
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nc.html:19
@@ -1110,19 +1088,14 @@ msgid ""
 "The licensor permits others to copy, distribute and transmit the work. In "
 "return, licensees may not use the work for commercial purposes — unless they"
 " get the licensor's permission."
-msgstr ""
-"Licences izdevējs ļauj citiem kopēt, izplatīt un pārraidīt darbu. Tomēr "
-"licence neļauj izmantot darbu komerciālos nolūkos, ja vien autors tam nedod "
-"papildu tiesības."
+msgstr "Licences izdevējs ļauj citiem kopēt, izplatīt un pārraidīt darbu. Tomēr licence neļauj izmantot darbu komerciālos nolūkos, ja vien autors tam nedod papildu tiesības."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nd.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:158
 msgid ""
 "The licensor permits others to copy, distribute and transmit only unaltered "
 "copies of the work — not derivative works based on it."
-msgstr ""
-"Licences izdevējs ļauj kopēt, izplatīt vai pārraidīt tikai nemainītas šī "
-"darba kopijas. Uz šī darba pamata nedrīkst veidot atvasinātus darbus."
+msgstr "Licences izdevējs ļauj kopēt, izplatīt vai pārraidīt tikai nemainītas šī darba kopijas. Uz šī darba pamata nedrīkst veidot atvasinātus darbus."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/sa.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:135
@@ -1130,9 +1103,7 @@ msgid ""
 "The licensor permits others to distribute derivative works only under the "
 "same license or one compatible with the one that governs the licensor's "
 "work."
-msgstr ""
-"Licences izdevējs ļauj citiem izplatīt atvasinātos darbus tikai ar tādu pašu"
-" vai savietojamu licenci, ar kādu ir licencēts oriģinālais darbs."
+msgstr "Licences izdevējs ļauj citiem izplatīt atvasinātos darbus tikai ar tādu pašu vai savietojamu licenci, ar kādu ir licencēts oriģinālais darbs."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/emailhtml.html:7
 #, python-format
@@ -1142,12 +1113,7 @@ msgid ""
 "</p>\n"
 "\n"
 "<p>Place the link or the HTML on your website, right next to the work you intend to license.  </p>"
-msgstr ""
-"<p>\n"
-"Informācija par jūsu izvēli ir nosūtīta jums uz <strong>%(email)s</strong>.\n"
-"</p>\n"
-"\n"
-"<p>Ievietojiet saiti vai HTML kodu jūsu vietnē tūlīt pēc jūsu licencētā darba.  </p>"
+msgstr "<p>\nInformācija par jūsu izvēli ir nosūtīta jums uz <strong>%(email)s</strong>.\n</p>\n\n<p>Ievietojiet saiti vai HTML kodu jūsu vietnē tūlīt pēc jūsu licencētā darba.  </p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:7
 msgid "The HTML to display your button is as follows:"
@@ -1165,10 +1131,7 @@ msgid ""
 "information about your works. <a href=\"/learn/technology/usingmarkup\" "
 "target=\"_blank\">More information about adding HTML to your documents "
 "here</a>."
-msgstr ""
-"Vienkārši nokopējiet šo tekstu un ievietojiet to sava darba tīmekļa lapā. <a"
-" href=\"/learn/technology/usingmarkup\" target=\"_blank\">Papildu "
-"informācija par HTML iekļaušanu jūsu dokumentos ir šeit</a>."
+msgstr "Vienkārši nokopējiet šo tekstu un ievietojiet to sava darba tīmekļa lapā. <a href=\"/learn/technology/usingmarkup\" target=\"_blank\">Papildu informācija par HTML iekļaušanu jūsu dokumentos ir šeit</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:24
 msgid "Enter your email address to get the HTML by email:"
@@ -1243,9 +1206,7 @@ msgstr "Komerciāla lietošana"
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work, including for commercial purposes."
-msgstr ""
-"Licences devējs ļauj citiem kopēt, izplatīt, parādīt un atskaņot darbu arī "
-"komerciālos nolūkos."
+msgstr "Licences devējs ļauj citiem kopēt, izplatīt, parādīt un atskaņot darbu arī komerciālos nolūkos."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:67
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:146
@@ -1258,9 +1219,7 @@ msgstr "Nē"
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work for non-commercial purposes only."
-msgstr ""
-"Licences devējs ļauj citiem kopēt, izplatīt, parādīt un atskaņot darbu tikai"
-" nekomerciālos nolūkos."
+msgstr "Licences devējs ļauj citiem kopēt, izplatīt, parādīt un atskaņot darbu tikai nekomerciālos nolūkos."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:89
 msgid "Allow modifications of your work?"
@@ -1274,9 +1233,7 @@ msgstr "Atļaut atvasinātos darbus"
 msgid ""
 "The licensor permits others to copy, distribute, display and perform the "
 "work, as well as make derivative works based on it."
-msgstr ""
-"Licences devējs ļauj citiem kopēt, izplatīt, parādīt un atskaņot darbu, kā "
-"arī veidot atvasinātus darbus."
+msgstr "Licences devējs ļauj citiem kopēt, izplatīt, parādīt un atskaņot darbu, kā arī veidot atvasinātus darbus."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:122
 msgid "Yes, as long as others share alike"
@@ -1300,14 +1257,7 @@ msgid ""
 "international licenses do not, then you may want to consider\n"
 "<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">which\n"
 "license is better suited for your needs</a>."
-msgstr ""
-"Izmantojiet šo \"International\" iespēju ja vēlaties licencēt, izmantojot internacionālo\n"
-"valodu un terminoloģiju. Ja licence ir pārnesta\n"
-"uz jūsu jurisdikciju un jūs zināt, ka jūsu jurisdikcijas\n"
-"pārnestā licence ņem vērā kādus vietējās likumdošanas aspektus, kas nav\n"
-"minēti internacionālajā licencē, jūs varat apskatīt,\n"
-"<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">kura\n"
-"licence labāk atbilst jūsu vajadzībām</a>."
+msgstr "Izmantojiet šo \"International\" iespēju ja vēlaties licencēt, izmantojot internacionālo\nvalodu un terminoloģiju. Ja licence ir pārnesta\nuz jūsu jurisdikciju un jūs zināt, ka jūsu jurisdikcijas\npārnestā licence ņem vērā kādus vietējās likumdošanas aspektus, kas nav\nminēti internacionālajā licencē, jūs varat apskatīt,\n<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">kura\nlicence labāk atbilst jūsu vajadzībām</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:202
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:82
@@ -1355,9 +1305,7 @@ msgstr "Vai jums ir tīmekļa vietne?"
 msgid ""
 "Copy the text below to your Web site to let your visitors know what license "
 "applies to your works."
-msgstr ""
-"Lai darītu zināmu, kā jūs ļaujat izmantot jūsu darbu, nokopējiet zemāk esošo"
-" tekstu savā tīmekļa vietnē."
+msgstr "Lai darītu zināmu, kā jūs ļaujat izmantot jūsu darbu, nokopējiet zemāk esošo tekstu savā tīmekļa vietnē."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:82
 #, python-format
@@ -1367,22 +1315,14 @@ msgid ""
 "html-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">emailed to yourself.</a>"
-msgstr ""
-"Iezīmējiet augstāk attēloto tekstu un nokopējiet to. Vai arī <a "
-"href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-"
-"html-popup?%(url_vars)s', 'html_help', "
-"'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">nosūtiet sev to uz e-pastu.</a>"
+msgstr "Iezīmējiet augstāk attēloto tekstu un nokopējiet to. Vai arī <a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">nosūtiet sev to uz e-pastu.</a>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:85
 msgid ""
 "Need more help? <a "
 "href=\"http://wiki.creativecommons.org/Website/Publish\">Read our "
 "tutorial</a>."
-msgstr ""
-"Nepieciešama palīdzība? <a "
-"href=\"http://wiki.creativecommons.org/Website/Publish\">Lasiet šo "
-"aprakstu</a>."
+msgstr "Nepieciešama palīdzība? <a href=\"http://wiki.creativecommons.org/Website/Publish\">Lasiet šo aprakstu</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:93
 msgid ""
@@ -1444,12 +1384,7 @@ msgid ""
 "<a href=\"http://creativecommons.org/characteristic/by?lang=en\" onclick=\"window.open('http://creativecommons.org/characteristic/by?lang=en', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">give\n"
 "you credit</a> -- and only on the conditions you specify here.\n"
 "This page helps you choose those conditions.\n"
-msgstr ""
-"Radošās komūnas licence palīdz jums dalīties ar jūsu darbu, tajā pat laikā saglabājot\n"
-"jūsu autortiesības. Citi cilvēki var kopēt un izplatīt jūsu piedāvāto darbu\n"
-"<a href=\"http://creativecommons.org/characteristic/by?lang=en\" onclick=\"window.open('http://creativecommons.org/characteristic/by?lang=en', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">give\n"
-"you credit</a> -- tikai ar jūsu noteiktajiem nosacījumiem.\n"
-"Šī lapa jums palīdzēs izvēlēties nosacījumus.\n"
+msgstr "Radošās komūnas licence palīdz jums dalīties ar jūsu darbu, tajā pat laikā saglabājot\njūsu autortiesības. Citi cilvēki var kopēt un izplatīt jūsu piedāvāto darbu\n<a href=\"http://creativecommons.org/characteristic/by?lang=en\" onclick=\"window.open('http://creativecommons.org/characteristic/by?lang=en', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">give\nyou credit</a> -- tikai ar jūsu noteiktajiem nosacījumiem.\nŠī lapa jums palīdzēs izvēlēties nosacījumus.\n"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:16
 #, python-format
@@ -1474,19 +1409,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"<strong>Atļaut darba komerciālu izmantošanu?</strong> (<a "
-"href=\"/characteristic/nc?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">papildu informācija</a> <a "
-"href=\"/characteristic/nc?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nc?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"papildu informācija\" border=\"0\" /></a>)"
+msgstr "<strong>Atļaut darba komerciālu izmantošanu?</strong> (<a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">papildu informācija</a> <a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"papildu informācija\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:43
 #, python-format
@@ -1502,19 +1425,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"<strong>Atļaut mainīt darbu?</strong> (<a "
-"href=\"/characteristic/nd?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">papildu informācija</a> <a "
-"href=\"/characteristic/nd?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/nd?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"papildu informācija\" border=\"0\" /></a>)"
+msgstr "<strong>Atļaut mainīt darbu?</strong> (<a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">papildu informācija</a> <a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"papildu informācija\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:52
 #, python-format
@@ -1530,19 +1441,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
-"Jā, tikmēr, kamēr citi rīkojas tāpat (<a "
-"href=\"/characteristic/sa?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\">vairāk informācijas</a> <a "
-"href=\"/characteristic/sa?lang=%(lang)s\" "
-"onclick=\"window.open('/characteristic/sa?lang=%(lang)s', "
-"'characteristic_help', "
-"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
-" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
-"alt=\"vairāk informācijas\" border=\"0\" /></a>)"
+msgstr "Jā, tikmēr, kamēr citi rīkojas tāpat (<a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">vairāk informācijas</a> <a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"vairāk informācijas\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:99
 msgid ""
@@ -1552,13 +1451,7 @@ msgid ""
 "<p>\n"
 "Creative Commons does not provide legal advice or services. We provide form legal documents; the rest is up to you.\n"
 "</p>"
-msgstr ""
-"<p>\n"
-"<em>Piezīme:</em> Lai licencētu darbu jums ir jābūt tā autortiesību turētājam vai arī jābūt  autortiesību turētāja dotai atļaujai to darīt.</p>\n"
-"\n"
-"<p>\n"
-"Radošā komūna nenodrošina juridiskās konsultācijas vai pakalpojumus. Mēs piedāvājam juridisko dokumentu formu. Pārējais ir jūsu ziņā.\n"
-"</p>"
+msgstr "<p>\n<em>Piezīme:</em> Lai licencētu darbu jums ir jābūt tā autortiesību turētājam vai arī jābūt  autortiesību turētāja dotai atļaujai to darīt.</p>\n\n<p>\nRadošā komūna nenodrošina juridiskās konsultācijas vai pakalpojumus. Mēs piedāvājam juridisko dokumentu formu. Pārējais ir jūsu ziņā.\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:7
 #, python-format
@@ -1566,10 +1459,7 @@ msgid ""
 "You have selected the <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s License</b></a>.<br>\n"
 "This license is permanently located at<br>\n"
 "<b><tt>%(license_url)s</tt></b>."
-msgstr ""
-"Jūs esat izvēlējies <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s licenci</b></a>.<br>\n"
-"Šī licence ir pieejama šeit<br>\n"
-"<b><tt>%(license_url)s</tt></b>."
+msgstr "Jūs esat izvēlējies <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s licenci</b></a>.<br>\nŠī licence ir pieejama šeit<br>\n<b><tt>%(license_url)s</tt></b>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:25
@@ -1785,12 +1675,8 @@ msgid ""
 "An error occurred when we tried to send the email message; you can try "
 "clicking the Back button and double checking your email address.  If the "
 "address you used (%(email_addr)s) was correct you can <a "
-"href=\"/about/contact\">contact us</a>."
+"href=\"/contact\">contact us</a>."
 msgstr ""
-"Nosūtot e-pasta ziņojumu radās kļūda. Varat mēģināt klikšķināt uz Atpakaļ "
-"pogas un atkārtoti pārbaudīt jūsu e-pasta adresi. Ja adrese, kuru izmantojāt"
-" (%(email_addr)s) bija pareiza, Jūs varat <a "
-"href=\"/about/contact\">sazinieties ar mums</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:75
 msgid ""
@@ -1834,25 +1720,14 @@ msgid ""
 "    using <a href=\"/license/zero/\">CC0</a>.  Please note that if you\n"
 "    use the Public Domain Certification to dedicate a work to the\n"
 "    public domain, it may not be valid outside of the United States."
-msgstr ""
-"Esat izvēlējies Sabiedrības īpašuma sertifikāciju. Sabiedrības\n"
-"    Īpašuma sertifikācijas jāizmanto tikai tad, lai apliecinātu, ka darbs\n"
-"    jau pieder sabiedrībai. Radošā komūna neiesaka\n"
-"    izmantot Sabiedrības īpašuma sertifikāciju veikt darbam, kuru\n"
-"    no sabiedrības īpašuma joprojām aizsargā autortiesības.\n"
-"    Lai veltiet darbu sabiedrībai, labāk ir izmantot\n"
-"    <a href=\"/license/zero/\">CC0</a>. Lūdzu ņemiet vērā, ja jūs\n"
-"    padarītu darbu publiski pieejamu, izmantojat Sabiedrības īpašuma sertifikāciju,\n"
-"    tā var būt nederīga ārpus Amerikas Savienotajām Valstīm."
+msgstr "Esat izvēlējies Sabiedrības īpašuma sertifikāciju. Sabiedrības\n    Īpašuma sertifikācijas jāizmanto tikai tad, lai apliecinātu, ka darbs\n    jau pieder sabiedrībai. Radošā komūna neiesaka\n    izmantot Sabiedrības īpašuma sertifikāciju veikt darbam, kuru\n    no sabiedrības īpašuma joprojām aizsargā autortiesības.\n    Lai veltiet darbu sabiedrībai, labāk ir izmantot\n    <a href=\"/license/zero/\">CC0</a>. Lūdzu ņemiet vērā, ja jūs\n    padarītu darbu publiski pieejamu, izmantojat Sabiedrības īpašuma sertifikāciju,\n    tā var būt nederīga ārpus Amerikas Savienotajām Valstīm."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-2.html:31
 msgid ""
 "Once you're done filling this out, you will still have the\n"
 "    opportunity to confirm your choice before the certification\n"
 "    happens."
-msgstr ""
-"Kad esat pabeidzis aizpildīšanu, jums vēl arvien\n"
-"    pirms sertifikācijas ir iespēja apstiprināt savu izvēli."
+msgstr "Kad esat pabeidzis aizpildīšanu, jums vēl arvien\n    pirms sertifikācijas ir iespēja apstiprināt savu izvēli."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-2.html:37
 msgid "About the work you are certifying"
@@ -1878,9 +1753,7 @@ msgstr "Apstipriniet jūsu Sabiedrības īpašuma sertifikāciju"
 msgid ""
 "Copyright-Only Dedication (based on United States law) \n"
 "or Public Domain Certification"
-msgstr ""
-"Autortiesību veltījums (balstīts uz ASV likumu) \n"
-"vai arī Sabiedrības īpašuma sertifikācija"
+msgstr "Autortiesību veltījums (balstīts uz ASV likumu) \nvai arī Sabiedrības īpašuma sertifikācija"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-3.html:43
 #: checkouts/cc.engine/cc/engine/templates/licenses/publicdomain_deed.html:38
@@ -1892,29 +1765,20 @@ msgid ""
 "        <p>Dedicator makes this dedication for the benefit of the public at large and to the detriment of the Dedicator's heirs and successors. Dedicator intends this dedication to be an overt act of relinquishment in perpetuity of all present and future rights under copyright law, whether vested or contingent, in the Work. Dedicator understands that such relinquishment of all rights includes the relinquishment of all rights to enforce (by lawsuit or otherwise) those copyrights in the Work.</p>\n"
 "\n"
 "        <p>Dedicator recognizes that, once placed in the public domain, the Work may be freely reproduced, distributed, transmitted, used, modified, built upon, or otherwise exploited by anyone for any purpose, commercial or non-commercial, and in any way, including by methods that have not yet been invented or conceived.</p>"
-msgstr ""
-"<p>Persona vai personas, kam pieder ar šo dokumentu saistīts darbs (\"ziedotājs\" vai \"sertificētājs\") vai nu (a) apliecina, ka, cik viņam zināms, apzinātais autora darbs tajā valstī, kuras darbs ir publicēts, ir sabiedrības īpašums, vai (b) ir nolēmis veltīt, neatkarīgi no tā kādas autortiesību ziedotājam pieder, nodot autoru darbu kā tālāk minēts  (\"Darbs\"), sabiedrības īpašumā. Vēl vairāk, sertificētājs tam visas piederošās autortiesības un tāpēc to var raksturot kā \"ziedotāju\", nolemj: </p>\n"
-"<p>Sertificētājs ir veicis nepieciešamos soļus, lai pārbaudītu šī darba autortiesību statusu. Sertificētājs atzīst, ka viņa godprātīgie centieni neatbrīvo viņu no atbildības, ja patiesībā sertificētais darbs nav sabiedrības īpašums.</p>\n"
-"<p>Ziedotājs velta šo darbu par labu kopējais sabiedrībai, un par sliktu ziedotāja mantiniekiem un tiesību pārņēmējiem. Ziedotājs vēlas ar šo ziedojumu paziņot par atteikšanos no visām pašreizējām un turpmākām, neatkarīgi no piešķirtām vai iegūtām darba tiesībām, saskaņā ar autortiesību tiesību aktiem. Ziedotājs saprot, ka šāda atteikšanās no visām tiesībām ietver atteikšanos no tiesībām īstenot (ar tiesas prāvu vai kā citādi) šī darba autortiesības. </p>\n"
-"<p>Ziedotājs atzīst, ka, tiklīdz darbs ir nodots sabiedrības īpašumā, to var brīvi reproducēt, izplatīt, pārsūtīt, lietot, izmainīt, veidot uz tā pamata, vai citādi izmantot ikviens, jebkādos nolūkos, komerciālos vai nekomerciālos, un jebkurā veidā, tostarp ar metodēs, kas vēl nav izgudrotas, vai paredzētas. </p>"
+msgstr "<p>Persona vai personas, kam pieder ar šo dokumentu saistīts darbs (\"ziedotājs\" vai \"sertificētājs\") vai nu (a) apliecina, ka, cik viņam zināms, apzinātais autora darbs tajā valstī, kuras darbs ir publicēts, ir sabiedrības īpašums, vai (b) ir nolēmis veltīt, neatkarīgi no tā kādas autortiesību ziedotājam pieder, nodot autoru darbu kā tālāk minēts  (\"Darbs\"), sabiedrības īpašumā. Vēl vairāk, sertificētājs tam visas piederošās autortiesības un tāpēc to var raksturot kā \"ziedotāju\", nolemj: </p>\n<p>Sertificētājs ir veicis nepieciešamos soļus, lai pārbaudītu šī darba autortiesību statusu. Sertificētājs atzīst, ka viņa godprātīgie centieni neatbrīvo viņu no atbildības, ja patiesībā sertificētais darbs nav sabiedrības īpašums.</p>\n<p>Ziedotājs velta šo darbu par labu kopējais sabiedrībai, un par sliktu ziedotāja mantiniekiem un tiesību pārņēmējiem. Ziedotājs vēlas ar šo ziedojumu paziņot par atteikšanos no visām pašreizējām un turpmākām, neatkarīgi no piešķirtām vai iegūtām darba tiesībām, saskaņā ar autortiesību tiesību aktiem. Ziedotājs saprot, ka šāda atteikšanās no visām tiesībām ietver atteikšanos no tiesībām īstenot (ar tiesas prāvu vai kā citādi) šī darba autortiesības. </p>\n<p>Ziedotājs atzīst, ka, tiklīdz darbs ir nodots sabiedrības īpašumā, to var brīvi reproducēt, izplatīt, pārsūtīt, lietot, izmainīt, veidot uz tā pamata, vai citādi izmantot ikviens, jebkādos nolūkos, komerciālos vai nekomerciālos, un jebkurā veidā, tostarp ar metodēs, kas vēl nav izgudrotas, vai paredzētas. </p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-3.html:65
 msgid ""
 "I have read and understand the terms and intended legal\n"
 "\t    effect of this tool, and hereby voluntarily elect to apply it to\n"
 "\t    this work."
-msgstr ""
-"Esmu izlasījis un saprotu jēdzienus un šī rīka paredzamās juridiskās\n"
-"\t    sekas, un ar sekojošo brīvprātīgi pielietoju to\n"
-"\t    šim darbam."
+msgstr "Esmu izlasījis un saprotu jēdzienus un šī rīka paredzamās juridiskās\n\t    sekas, un ar sekojošo brīvprātīgi pielietoju to\n\t    šim darbam."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-4.html:13
 msgid ""
 "Now that you've chosen the Public Domain Certification, you should mark the "
 "work in the appropriate way."
-msgstr ""
-"Ja esat izvēlējies Sabiedrības īpašuma sertifikāciju, jūsu darbs ir arī "
-"atbilstoši jānoformē."
+msgstr "Ja esat izvēlējies Sabiedrības īpašuma sertifikāciju, jūsu darbs ir arī atbilstoši jānoformē."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-4.html:17
 msgid ""
@@ -1934,19 +1798,14 @@ msgstr "Apstiprināt atteikšanos:"
 msgid ""
 "Are you certain you wish to waive all rights to your work? Once these rights"
 " are waived, you cannot reclaim them."
-msgstr ""
-"Vai jūs patiešām vēlaties atteikties no visām sava darba tiesībām? Pēc "
-"atteikšanās tās vairs nevar tikt atprasītas."
+msgstr "Vai jūs patiešām vēlaties atteikties no visām sava darba tiesībām? Pēc atteikšanās tās vairs nevar tikt atprasītas."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/confirm.html:30
 msgid ""
 "In particular, if you are an artist or author who depends upon copyright for"
 " your income, Creative Commons <strong>does not recommend</strong> that you "
 "use this tool."
-msgstr ""
-"Piemēram, ja esat mākslinieks vai autors, kura ienākumi ir atkarīgi no "
-"autortiesībām, Radošā komūna <strong>neiesaka</strong> jums izmantot šo "
-"rīku."
+msgstr "Piemēram, ja esat mākslinieks vai autors, kura ienākumi ir atkarīgi no autortiesībām, Radošā komūna <strong>neiesaka</strong> jums izmantot šo rīku."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/confirm.html:34
 msgid ""
@@ -1983,13 +1842,7 @@ msgid ""
 "\t  or privacy rights, rights you have protecting against unfair\n"
 "\t  competition, and database rights and rights protecting the\n"
 "\t  extraction, dissemination and reuse of data."
-msgstr ""
-"Izmantojot CC0, jūs varat atteikties no visām autortiesībām un blakustiesībām, vai\n"
-"\t kas jums var piederēt uz jūsu darbu, piemēram,\n"
-"\t savas morālās tiesības (ciktāl tas ir iespējams), Jūsu publicitāti\n"
-"\t vai privātās dzīves neaizskaramību, tiesībām, kas jūs aizsargā pret negodīgu\n"
-"\t konkurenci, datubāžu tiesībām, datu izguves tiesībām,\n"
-"\t izplatīšanu un datu atkārtotu izmantošanu."
+msgstr "Izmantojot CC0, jūs varat atteikties no visām autortiesībām un blakustiesībām, vai\n\t kas jums var piederēt uz jūsu darbu, piemēram,\n\t savas morālās tiesības (ciktāl tas ir iespējams), Jūsu publicitāti\n\t vai privātās dzīves neaizskaramību, tiesībām, kas jūs aizsargā pret negodīgu\n\t konkurenci, datubāžu tiesībām, datu izguves tiesībām,\n\t izplatīšanu un datu atkārtotu izmantošanu."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/index.html:32
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/partner.html:18
@@ -1999,12 +1852,7 @@ msgid ""
 "\t  avoid infringing third party rights, you should consult with\n"
 "\t  your legal advisor if you are unsure whether you have all\n"
 "\t  the rights you need to distribute the work."
-msgstr ""
-"Ņemiet vērā, ka jūs nevarat atteikties no tiesībām uz darbu, kas jums\n"
-"\t nepieder, ja vien nav īpašnieka dota atļauja.\n"
-"\t Lai izvairītos no trešo pušu tiesību pārkāpuma, jums vajadzētu konsultēties ar\n"
-"\t savu juridisko konsultantu, ja neesat pārliecināts, vai jums ir visas\n"
-"\t tiesības, kas jums ir nepieciešams lai izplatītu šo darbu."
+msgstr "Ņemiet vērā, ka jūs nevarat atteikties no tiesībām uz darbu, kas jums\n\t nepieder, ja vien nav īpašnieka dota atļauja.\n\t Lai izvairītos no trešo pušu tiesību pārkāpuma, jums vajadzētu konsultēties ar\n\t savu juridisko konsultantu, ja neesat pārliecināts, vai jums ir visas\n\t tiesības, kas jums ir nepieciešams lai izplatītu šo darbu."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/index.html:40
 msgid ""
@@ -2014,13 +1862,7 @@ msgid ""
 "metadata for marking your work as being available under CC0.  Your work will"
 " not be associated with CC0 or made available under CC0 until you publish it"
 " marked as being so."
-msgstr ""
-"Lūdzu ņemiet vērā, ka tas <strong>nav reģistrācijas process</strong> un "
-"Radošā komūna neuzglabā jebkādu jūsu ievadīto informāciju. Šis rīks tikai "
-"palīdz jums izveidot HTML iegultos metadatus darba marķēšanai, ar kuriem jūs"
-" varat iezīmēt savu darbu kā pieejamu ar CC0. Jūsu darbs nebūs saistīts ar "
-"CC0 vai padarīts pieejams saskaņā CC0 līdz brīdim, kamēr jūs to attiecīgi "
-"neiezīmēsiet."
+msgstr "Lūdzu ņemiet vērā, ka tas <strong>nav reģistrācijas process</strong> un Radošā komūna neuzglabā jebkādu jūsu ievadīto informāciju. Šis rīks tikai palīdz jums izveidot HTML iegultos metadatus darba marķēšanai, ar kuriem jūs varat iezīmēt savu darbu kā pieejamu ar CC0. Jūsu darbs nebūs saistīts ar CC0 vai padarīts pieejams saskaņā CC0 līdz brīdim, kamēr jūs to attiecīgi neiezīmēsiet."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/partner.html:26
 #, python-format
@@ -2034,10 +1876,7 @@ msgid ""
 "You did not affirm your decision to waive the rights associated with your "
 "work. If you'd like to continue you can click the Back button to review your"
 " choice."
-msgstr ""
-"Jūs neesat apstiprinājis savu lēmumu atteikties no tiesībām, kas saistītas "
-"ar jūsu darbu. Ja vēlaties turpināt jūs varat klikšķināt uz pogas Atpakaļ un"
-" pārskatīt savu izvēli."
+msgstr "Jūs neesat apstiprinājis savu lēmumu atteikties no tiesībām, kas saistītas ar jūsu darbu. Ja vēlaties turpināt jūs varat klikšķināt uz pogas Atpakaļ un pārskatīt savu izvēli."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:34
 msgid "About CC0"
@@ -2049,8 +1888,7 @@ msgstr "Biežāk uzdotie jautājumi"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:71
 msgid "Here's a preview of how your waiver will appear on your site:"
-msgstr ""
-"Šeit ir priekšskatījums tam, kā jūsu atteikšanās parādīsies jūsu vietnē:"
+msgstr "Šeit ir priekšskatījums tam, kā jūsu atteikšanās parādīsies jūsu vietnē:"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:78
 msgid ""
@@ -2058,29 +1896,20 @@ msgid ""
 "waived the rights to your work.  Creative Commons does not retain a record "
 "of your selection; as the publisher it's up to you to let people know how "
 "they may use your work."
-msgstr ""
-"Nokopējiet zemāko tekstu jūsu tīmekļa vietnē, lai jūsu apmeklētāji zinātu, "
-"ka jūs esat atteicies no tiesībām uz savu darbu. Radošā komūna nereģistrē "
-"jūsu izvēli. Tā ir jūsu izvēle kā izdevējam, un tā ļauj cilvēkiem uzzināt, "
-"kā viņi var izmantot jūsu darbu."
+msgstr "Nokopējiet zemāko tekstu jūsu tīmekļa vietnē, lai jūsu apmeklētāji zinātu, ka jūs esat atteicies no tiesībām uz savu darbu. Radošā komūna nereģistrē jūsu izvēli. Tā ir jūsu izvēle kā izdevējam, un tā ļauj cilvēkiem uzzināt, kā viņi var izmantot jūsu darbu."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:100
 msgid ""
 "You have asked to be notified of updates to CC0.  A subscription request has"
 " been sent on your behalf; you must click the link in the confirmation email"
 " to complete the sign-up process."
-msgstr ""
-"Jūs esat lūdzis mums ziņot par CC0 jaunumiem. Jūsu vārdā tika nosūtīts "
-"abonēšanas pieprasījums un lai pabeigtu reģistrācijas procesu, jums ir "
-"jāklikšķina uz e-pasta apstiprinājuma saites."
+msgstr "Jūs esat lūdzis mums ziņot par CC0 jaunumiem. Jūsu vārdā tika nosūtīts abonēšanas pieprasījums un lai pabeigtu reģistrācijas procesu, jums ir jāklikšķina uz e-pasta apstiprinājuma saites."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:106
 msgid ""
 "If you'd like to get the HTML with embedded metadata via email and "
 "optionally receive updates about CC0, fill in your email address below."
-msgstr ""
-"Ja jūs vēlaties saņemt iegultos HTML metadatus pa e-pastu un pēc izvēles arī"
-" saņemt atjauninājumus par CC0, ierakstiet savu e-pasta adresi."
+msgstr "Ja jūs vēlaties saņemt iegultos HTML metadatus pa e-pastu un pēc izvēles arī saņemt atjauninājumus par CC0, ierakstiet savu e-pasta adresi."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:3
 msgid "CC0: Waiver"
@@ -2091,10 +1920,7 @@ msgid ""
 "These fields are optional, but will be embedded in the HTML generated for "
 "your work. This allows users of your work to determine how to contact you or"
 " where to go for more information about the work."
-msgstr ""
-"Šie lauki ir neobligāti, bet tiks iegulti priekš jūsu darba ģenerētajā "
-"HTMLā. Tas ļaus jūsu darba lietotājiem, noteiktu, kā ar jums sazināties vai "
-"kā iegūt papildu informācijas par darbu."
+msgstr "Šie lauki ir neobligāti, bet tiks iegulti priekš jūsu darba ģenerētajā HTMLā. Tas ļaus jūsu darba lietotājiem, noteiktu, kā ar jums sazināties vai kā iegūt papildu informācijas par darbu."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:49
 msgid ""
@@ -2108,15 +1934,7 @@ msgid ""
 "\t    information</a> on Creative Commons metadata is available if\n"
 "\t  you want to find out more.\n"
 "\t</p>"
-msgstr ""
-"<p>\n"
-"\t Informācija ir iegulta programmatūrai lasāmā formātā\n"
-".\t Tas ļauj meklētājprogrammām indeksēt papildu informāciju\n"
-"\t par jūsu darbu.\n"
-"\t</p>\n"
-"\t<p>\n"
-"\t Ja vēlaties uzzināt vairāk, par Radošās komūnas metadatiem,\n"
-".\t  ir pieejama, <a href=\"http://wiki.creativecommons.org/Metadata\">Papildu informācija</a>.</p>"
+msgstr "<p>\n\t Informācija ir iegulta programmatūrai lasāmā formātā\n.\t Tas ļauj meklētājprogrammām indeksēt papildu informāciju\n\t par jūsu darbu.\n\t</p>\n\t<p>\n\t Ja vēlaties uzzināt vairāk, par Radošās komūnas metadatiem,\n.\t  ir pieejama, <a href=\"http://wiki.creativecommons.org/Metadata\">Papildu informācija</a>.</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:70
 msgid "Your name"
@@ -2131,9 +1949,7 @@ msgstr "Jūsu vietrādis (URL)"
 msgid ""
 "The URL where people can find more information about \n"
 "the work or the person using CC0."
-msgstr ""
-"Vietrādis kur cilvēki var atrast papildu informāciju par\n"
-"darbu vai personu, kas izmanto CC0."
+msgstr "Vietrādis kur cilvēki var atrast papildu informāciju par\ndarbu vai personu, kas izmanto CC0."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:109
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:125
@@ -2149,18 +1965,13 @@ msgid ""
 "I hereby waive all copyright and related or neighboring rights together with"
 " all associated claims and causes of action with respect to this work to the"
 " extent possible under the law."
-msgstr ""
-"Ar šo es atsakos no visām autortiesībām un blakustiesībām vai visām kopā un "
-"visiem saistītajām tiesībām, kas izriet no tiesībām uz saistībā ar šo darbu,"
-" ciktāl tas iespējams saskaņā ar tiesību aktiem."
+msgstr "Ar šo es atsakos no visām autortiesībām un blakustiesībām vai visām kopā un visiem saistītajām tiesībām, kas izriet no tiesībām uz saistībā ar šo darbu, ciktāl tas iespējams saskaņā ar tiesību aktiem."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:167
 msgid ""
 "I have read and understand the terms and intended legal effect of CC0, and "
 "hereby voluntarily elect to apply it to this work."
-msgstr ""
-"Esmu izlasījis un saprotu noteikumus un CC0 paredzamās tiesiskās sekas, un "
-"ar šo brīvprātīgi izlemju tās piemērot šim darbam."
+msgstr "Esmu izlasījis un saprotu noteikumus un CC0 paredzamās tiesiskās sekas, un ar šo brīvprātīgi izlemju tās piemērot šim darbam."
 
 #: checkouts/cc.engine/cc/engine/templates/includes/engine_languages.html:4
 #: checkouts/cc.engine/cc/engine/templates/includes/translations.html:3
@@ -2177,10 +1988,7 @@ msgid ""
 " the HTML generated for your license. This allows users of your work to "
 "determine how to attribute it or where to go for more information about the "
 "work."
-msgstr ""
-"Papildu lauki ir <strong>neobligāti</strong>, bet tiks iegulti jūsu licences"
-" HTML ģenerētajā kodā. Tas ļaus jūsu darba lietotājiem noteikt, kā "
-"atsaukties vai kā par šo darbu iegūt papildu informāciju."
+msgstr "Papildu lauki ir <strong>neobligāti</strong>, bet tiks iegulti jūsu licences HTML ģenerētajā kodā. Tas ļaus jūsu darba lietotājiem noteikt, kā atsaukties vai kā par šo darbu iegūt papildu informāciju."
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:19
 msgid ""
@@ -2196,17 +2004,7 @@ msgid ""
 "\t    information</a> on Creative Commons metadata is available if\n"
 "\t  you want to find out more.\n"
 "\t</p>"
-msgstr ""
-"<p> \n"
-"\t Informācija ir iegulta programmatūrai lasāmā formātā.\n"
-"\t Tas ļauj meklētājprogrammām indeksēt papildu informāciju\n"
-"\t par jūsu darbu un ļauj cilvēkiem, kas apskata šo licences aktu\n"
-"\t jūsu lapas, uzzināt, kā atsaukties uz jūsu darbu.\n"
-"\t</p>\n"
-"\t<p>\n"
-"\t ja vēlaties uzzināt vairāk par Radošās komūnas metadatiem, skatiet\n"
-"\t<a href=\"http://wiki.creativecommons.org/Metadata\">Papildu informācija</a>.\n"
-"\t</p>"
+msgstr "<p> \n\t Informācija ir iegulta programmatūrai lasāmā formātā.\n\t Tas ļauj meklētājprogrammām indeksēt papildu informāciju\n\t par jūsu darbu un ļauj cilvēkiem, kas apskata šo licences aktu\n\t jūsu lapas, uzzināt, kā atsaukties uz jūsu darbu.\n\t</p>\n\t<p>\n\t ja vēlaties uzzināt vairāk par Radošās komūnas metadatiem, skatiet\n\t<a href=\"http://wiki.creativecommons.org/Metadata\">Papildu informācija</a>.\n\t</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:40
 msgid "Tell us the format of your work:"
@@ -2253,9 +2051,7 @@ msgstr "Atsaukties uz darba nosaukumu"
 msgid ""
 "The name users of the work should give attribution to. For example, the name"
 " of the work's author."
-msgstr ""
-"Kas lietotājiem jānorāda atsaucoties. Piemēram, darba nosaukums un darba "
-"autors."
+msgstr "Kas lietotājiem jānorāda atsaucoties. Piemēram, darba nosaukums un darba autors."
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:110
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:122
@@ -2266,9 +2062,7 @@ msgstr "Atsaukties uz darbu URL"
 msgid ""
 "The URL users of the work should link to. For example, the work's page on "
 "the author's site."
-msgstr ""
-"Vietrādis, uz ko lietotājam ir jānorāda. Piemēram hipersaite uz darbu autora"
-" tīmekļa vietnē."
+msgstr "Vietrādis, uz ko lietotājam ir jānorāda. Piemēram hipersaite uz darbu autora tīmekļa vietnē."
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:133
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:144
@@ -2288,9 +2082,7 @@ msgstr "Papildu tiesību vietrādis"
 msgid ""
 "A URL where a user can obtain information about clearing rights that are not"
 " pre-cleared by your CC license."
-msgstr ""
-"Vietrādis, kurā var iegūt informāciju par citām tiesībām, kas nav noteiktas "
-"ar jūsu CC licenci."
+msgstr "Vietrādis, kurā var iegūt informāciju par citām tiesībām, kas nav noteiktas ar jūsu CC licenci."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:19
 #: checkouts/cc.engine/cc/engine/templates/licenses/publicdomain_deed.html:34
@@ -2330,10 +2122,7 @@ msgstr "Ievērojot sekojošus nosacījumus"
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
-msgstr ""
-"Izmantojot vai izplatot darbu, jums ir skaidri jānorāda šī darba "
-"licencēšanas noteikumi. Labākais veids, kā to darīt, ir norādīt saiti uz šo "
-"lapu."
+msgstr "Izmantojot vai izplatot darbu, jums ir skaidri jānorāda šī darba licencēšanas noteikumi. Labākais veids, kā to darīt, ir norādīt saiti uz šo lapu."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:61
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:138
@@ -2341,10 +2130,7 @@ msgid ""
 "Any of the above conditions can be <a href=\"#\" id=\"waived\" "
 "class=\"helpLink\">waived</a> if you get permission from the copyright "
 "holder."
-msgstr ""
-"Jebkurš no augšminētajiem nosacījumiem ar tiešu autortiesību turētāju "
-"atļauju var tikt <a href=\"#\" id=\"waived\" "
-"class=\"helpLink\">atsaukts</a>."
+msgstr "Jebkurš no augšminētajiem nosacījumiem ar tiešu autortiesību turētāju atļauju var tikt <a href=\"#\" id=\"waived\" class=\"helpLink\">atsaukts</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:69
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:76
@@ -2354,11 +2140,7 @@ msgid ""
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
 " id=\"fair_use\" class=\"helpLink\">fair use</a> rights, or other applicable"
 " copyright exceptions and limitations;"
-msgstr ""
-"Jūs izmantojat <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
-" id=\"fair_use\" class=\"helpLink\">godīgas izmantošanas</a> tiesības, vai "
-"pielietojat citus autortiesību ierobežojumus vai izņēmumus;"
+msgstr "Jūs izmantojat <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\" id=\"fair_use\" class=\"helpLink\">godīgas izmantošanas</a> tiesības, vai pielietojat citus autortiesību ierobežojumus vai izņēmumus;"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:72
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:79
@@ -2368,12 +2150,7 @@ msgid ""
 "is used, such as <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
 " class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy rights."
-msgstr ""
-"Tiesības kā citas personas var lietot darbu pašu par sevi vai kādā to "
-"izmantot, piemēram, <a href "
-"=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicitātes</a> vai privātuma "
-"tiesības."
+msgstr "Tiesības kā citas personas var lietot darbu pašu par sevi vai kādā to izmantot, piemēram, <a href =\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\" class=\"helpLink\" id=\"publicity_rights\">publicitātes</a> vai privātuma tiesības."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:16
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:23
@@ -2541,10 +2318,7 @@ msgid ""
 "Copyright-Only Dedication<a href=\"#\" class=\"helpLink\" id=\"use_zero\">*</a>\n"
 "  (based on United States law)<br />\n"
 "  or Public Domain Certification"
-msgstr ""
-"Tikai autortiesību ziedošana <a href=\"#\" class=\"helpLink\" id=\"use_zero\">*</a>\n"
-"  (balstīts uz ASV likumu)<br />\n"
-"  vai Sabiedrības īpašuma sertifikācija"
+msgstr "Tikai autortiesību ziedošana <a href=\"#\" class=\"helpLink\" id=\"use_zero\">*</a>\n  (balstīts uz ASV likumu)<br />\n  vai Sabiedrības īpašuma sertifikācija"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/publicdomain_deed.html:28
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:26
@@ -2563,32 +2337,24 @@ msgstr ""
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "noncommercial purposes."
-msgstr ""
-"Veidot darba iztvērumus, mikšļus vai citādi radoši to pārveidot "
-"nekomerciālām vajadzībām."
+msgstr "Veidot darba iztvērumus, mikšļus vai citādi radoši to pārveidot nekomerciālām vajadzībām."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:28
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "commercial or noncommercial purposes."
-msgstr ""
-"Veidot darba iztvērumus, mikšļus vai citādi radoši to pārveidot "
-"nekomerciālām vajadzībām."
+msgstr "Veidot darba iztvērumus, mikšļus vai citādi radoši to pārveidot nekomerciālām vajadzībām."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:34
 msgid ""
 "To perform, display, and distribute copies of this whole work for "
 "noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
-msgstr ""
-"Visu darbu atskaņot, rādīt, un izplatīt kopijas nekomerciālos nolūkos "
-"(piem., daloties ar failiem vai veicot nekomerciālu tīmekļapraidi)."
+msgstr "Visu darbu atskaņot, rādīt, un izplatīt kopijas nekomerciālos nolūkos (piem., daloties ar failiem vai veicot nekomerciālu tīmekļapraidi)."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:63
 msgid ""
 "For any reuse, you must make clear to others the license terms of this work."
-msgstr ""
-"Jebkurai atkalizmantošanai jums ir skaidri jānorāda, šī darba licences "
-"noteikumi."
+msgstr "Jebkurai atkalizmantošanai jums ir skaidri jānorāda, šī darba licences noteikumi."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:66
 msgid "to make commercial use of the work"
@@ -2608,11 +2374,7 @@ msgid ""
 "the creator wishes to be attributed for re-use. You can use the HTML here to"
 " cite the work. Doing so will also include metadata on your page so that "
 "others can find the original work as well."
-msgstr ""
-"Lapu no kuras jūs ieguvāt licencēšanas metadatus, ieskaitot to, kā autors "
-"vēlas būt norādīts darba atkalizmantošanā. Lai atsauktos uz darbu, jūs varat"
-" izmantot šo HTML. To darot, metadati tiks iekļauti arī jūsu lapā, un tas "
-"ļaus citiem vieglāk atrast oriģinālo darbu."
+msgstr "Lapu no kuras jūs ieguvāt licencēšanas metadatus, ieskaitot to, kā autors vēlas būt norādīts darba atkalizmantošanā. Lai atsauktos uz darbu, jūs varat izmantot šo HTML. To darot, metadati tiks iekļauti arī jūsu lapā, un tas ļaus citiem vieglāk atrast oriģinālo darbu."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:131
 msgid "With the understanding that:"
@@ -2628,10 +2390,7 @@ msgid ""
 "href=\"http://wiki.creativecommons.org/Public_domain\" id=\"public_domain\" "
 "class=\"helpLink\">public domain</a> under applicable law, that status is in"
 " no way affected by the license."
-msgstr ""
-"Ja darbs vai jebkura tā daļa saskaņā ar likumdošanu ir <a "
-"href=\"http://wiki.creativecommons.org/Public_domain\" id=\"public_domain\" "
-"class=\"helpLink\">sabiedrības īpašums</a>, licence to nekādi neietekmē."
+msgstr "Ja darbs vai jebkura tā daļa saskaņā ar likumdošanu ir <a href=\"http://wiki.creativecommons.org/Public_domain\" id=\"public_domain\" class=\"helpLink\">sabiedrības īpašums</a>, licence to nekādi neietekmē."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:150
 msgid "In no way are any of the following rights affected by the license:"
@@ -2642,20 +2401,14 @@ msgid ""
 "The author's <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
-msgstr ""
-"Autora <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
-" id=\"moral_rights\" class=\"helpLink\">morālās</a> tiesības;"
+msgstr "Autora <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\" id=\"moral_rights\" class=\"helpLink\">morālās</a> tiesības;"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:164
 msgid ""
 "Apart from the remix rights granted under this license, the author's <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
-msgstr ""
-"Neskaitoties uz licences atļauju darbu modificēt autoram ir <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
-" id=\"moral_rights\" class=\"helpLink\">morālās</a> tiesības;"
+msgstr "Neskaitoties uz licences atļauju darbu modificēt autoram ir <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\" id=\"moral_rights\" class=\"helpLink\">morālās</a> tiesības;"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:176
 msgid "Notice"
@@ -2668,11 +2421,7 @@ msgid ""
 "available. You should use it for new works, and you may want to relicense "
 "existing works under it. No works are <em>automatically</em> put under the "
 "new license, however."
-msgstr ""
-"Ir pieejama <a href=\"%(current_version_url)s\">jauna</a> šīs licences "
-"versija. Jums vajadzētu izmantot šo licenci jauniem darbiem, un, iespējams, "
-"jūs vēlaties pārlicencēt ar šo licenci esošos darbus. Esošie darbi "
-"<em>automātiski netiek</em> licencēti ar jaunākās licences versiju."
+msgstr "Ir pieejama <a href=\"%(current_version_url)s\">jauna</a> šīs licences versija. Jums vajadzētu izmantot šo licenci jauniem darbiem, un, iespējams, jūs vēlaties pārlicencēt ar šo licenci esošos darbus. Esošie darbi <em>automātiski netiek</em> licencēti ar jaunākās licences versiju."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:192
 msgid "What does \"conditions can be waived\" mean?"
@@ -2683,10 +2432,7 @@ msgid ""
 "CC licenses anticipate that a licensor may want to\n"
 "\t\twaive compliance with a specific condition, such as\n"
 "\t\tattribution."
-msgstr ""
-"CC licence paredz ka licences sniedzējs var\n"
-"\t\tpielāgot atbilstību ar īpašiem nosacījumiem, piemēram\n"
-"\t\tatsaukšanos."
+msgstr "CC licence paredz ka licences sniedzējs var\n\t\tpielāgot atbilstību ar īpašiem nosacījumiem, piemēram\n\t\tatsaukšanos."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:208
 msgid "What does \"Public Domain\" mean?"
@@ -2696,9 +2442,7 @@ msgstr "Ko nozīmē \"Sabiedrības īpašums\"?"
 msgid ""
 "A work is in the public domain when it is free for use by anyone for any "
 "purpose without restriction under copyright."
-msgstr ""
-"Darbs ir sabiedrības īpašums, ja to var brīvi izmantot ikviens jebkādiem "
-"mērķiem bez jebkādiem autortiesību ierobežojumiem."
+msgstr "Darbs ir sabiedrības īpašums, ja to var brīvi izmantot ikviens jebkādiem mērķiem bez jebkādiem autortiesību ierobežojumiem."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:224
 msgid "What does \"Fair use\" mean?"
@@ -2711,12 +2455,7 @@ msgid ""
 "              permission.  CC licenses do not affect the rights of\n"
 "              users under those copyright limitations and exceptions,\n"
 "              such as fair use and fair dealing where applicable."
-msgstr ""
-"Visās jurisdikcijās, \n"
-"              pieļauj dažus autortiesību aizsargātu materiālu lietojumus bez \n"
-"              tiešas atļaujas. CC licences neietekmē lietotāju tiesības, \n"
-"              uz šiem autortiesību ierobežojumiem un izņēmumiem, \n"
-"              piemēram, godīga izmantošana un godīgie darījumi, kur tos var piemērot."
+msgstr "Visās jurisdikcijās, \n              pieļauj dažus autortiesību aizsargātu materiālu lietojumus bez \n              tiešas atļaujas. CC licences neietekmē lietotāju tiesības, \n              uz šiem autortiesību ierobežojumiem un izņēmumiem, \n              piemēram, godīga izmantošana un godīgie darījumi, kur tos var piemērot."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:242
 msgid "What are \"Moral Rights\"?"
@@ -2730,13 +2469,7 @@ msgid ""
 "the US except in very limited circumstances) grant creators \"moral rights\""
 " which may provide some redress if a derivative work represents a "
 "\"derogatory treatment\" of the licensor's work."
-msgstr ""
-"Papildus licencētāja tiesībām pieprasīt neizmantot viņu vārdu atvasinātos "
-"darbos vai kolektīvas, kas viņiem nepatīk, autortiesību likumus vairumā "
-"jurisdikciju visā pasaulē (ar ievērojamu izņēmumu ASV, kur, izņemot ļoti "
-"ierobežotos apstākļos) autoram tiek piešķirtas \"morālās tiesības\", kas var"
-" sniegt kādu atlīdzību, ja atvasinātais darbs ir licencētā darba \"izņēmuma "
-"gadījums\"."
+msgstr "Papildus licencētāja tiesībām pieprasīt neizmantot viņu vārdu atvasinātos darbos vai kolektīvas, kas viņiem nepatīk, autortiesību likumus vairumā jurisdikciju visā pasaulē (ar ievērojamu izņēmumu ASV, kur, izņemot ļoti ierobežotos apstākļos) autoram tiek piešķirtas \"morālās tiesības\", kas var sniegt kādu atlīdzību, ja atvasinātais darbs ir licencētā darba \"izņēmuma gadījums\"."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:258
 msgid "What are \"Publicity Rights\"?"
@@ -2751,14 +2484,7 @@ msgid ""
 "              image of anyone other than the licensor, a user of the\n"
 "              work may need to get permission from those individuals\n"
 "              before using the work for commercial purposes."
-msgstr ""
-"Publicitātes\n"
-"              tiesības ļauj indivīdiem kontrolētu to, kā viņu balss,\n"
-"              attēls vai līdzība tiek izmantots publiski komerciāliem nolūkiem\n"
-"              Ja CC-licencēts darbs ietver kādu balsi vai\n"
-"              attēlu, kas nav iekļauts licencē, darbu lietotājam.\n"
-"              pirms izmantot darbu komerciāliem mērķiem,\n"
-"              var būt nepieciešams saņemt atļauju no šīm personām."
+msgstr "Publicitātes\n              tiesības ļauj indivīdiem kontrolētu to, kā viņu balss,\n              attēls vai līdzība tiek izmantots publiski komerciāliem nolūkiem\n              Ja CC-licencēts darbs ietver kādu balsi vai\n              attēlu, kas nav iekļauts licencē, darbu lietotājam.\n              pirms izmantot darbu komerciāliem mērķiem,\n              var būt nepieciešams saņemt atļauju no šīm personām."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:17
 msgid "Public Domain Dedication"
@@ -2836,9 +2562,7 @@ msgstr ""
 msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
-msgstr ""
-"Šis ir cilvēkiem saprotams <a href=\"legalcode\" "
-"class=\"fulltext\">juridiskās (pilnās) licences</a> apkopojums."
+msgstr "Šis ir cilvēkiem saprotams <a href=\"legalcode\" class=\"fulltext\">juridiskās (pilnās) licences</a> apkopojums."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:182
 msgid "Use this tool for your own work."
@@ -2857,18 +2581,7 @@ msgid ""
 "<p>\n"
 "The Product licensed under Creative Commons License is provided by the person who applied the License.  Creative Commons and Creative Commons Japan make no warranties regarding the title of the licensor.  Please read <a href=\"http://creativecommons.jp/faq/\">here</a> for information regarding the application of licenses and exploitation of the Product licensed under Creative Commons licenses.\n"
 "</p>"
-msgstr ""
-"<p>\n"
-"Komūnas akts nav licence. Tas ir tikai ērts uzziņas līdzeklis licences juridiskās versijas (pilnās licences) galveno noteikumu izprašanai. Šim aktam pašam par sevi nav nekāda juridiskā spēka, un tā saturs patiesajā licencē neparādās. Patiesie licences noteikumi ir aprakstīti <a href=\"legalcode\" class=\"fulltext\">juridiskajā versijā</a>.  \n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Radošā komūna nav juridiska firma un nepiedāvā juridiskus pakalpojumus. Šī komūnas akta izplatīšana, kopēšana vai atsaukšanās uz to nerada nekādas klienta un pārstāvja attiecības. Radošā komūna nekādā veidā neatbild par Radošās komūnas akta pielietošanas juridiskajām sekām.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Darbu ar Radošās komūnas licenci piedāvā persona, kas ir piemērojusi šo licenci. Radošā komūna neuzņemas atbildību par darbu vai licencētāju. Līdzu izlasiet <a href=\"http://creativecommons.jp/faq/\">šo</a> informāciju par licences un darbu pielietošanu.\n"
-"</p>"
+msgstr "<p>\nKomūnas akts nav licence. Tas ir tikai ērts uzziņas līdzeklis licences juridiskās versijas (pilnās licences) galveno noteikumu izprašanai. Šim aktam pašam par sevi nav nekāda juridiskā spēka, un tā saturs patiesajā licencē neparādās. Patiesie licences noteikumi ir aprakstīti <a href=\"legalcode\" class=\"fulltext\">juridiskajā versijā</a>.  \n</p>\n\n<p>\nRadošā komūna nav juridiska firma un nepiedāvā juridiskus pakalpojumus. Šī komūnas akta izplatīšana, kopēšana vai atsaukšanās uz to nerada nekādas klienta un pārstāvja attiecības. Radošā komūna nekādā veidā neatbild par Radošās komūnas akta pielietošanas juridiskajām sekām.\n</p>\n\n<p>\nDarbu ar Radošās komūnas licenci piedāvā persona, kas ir piemērojusi šo licenci. Radošā komūna neuzņemas atbildību par darbu vai licencētāju. Līdzu izlasiet <a href=\"http://creativecommons.jp/faq/\">šo</a> informāciju par licences un darbu pielietošanu.\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:117
 msgid ""
@@ -2879,30 +2592,19 @@ msgid ""
 "<p>\n"
 "Creative Commons is not a law firm and does not provide legal services. Distributing of, displaying of, or linking to this Commons Deed does not create an attorney-client relationship.\n"
 "</p>"
-msgstr ""
-"<p>\n"
-"Komūnas akts nav licence. Tas ir tikai ērts uzziņas līdzeklis licences juridiskās versijas (pilnās licences) izprašana &mdash; tas ir cilvēkiem saprotams galveno juridisko terminu skaidrojums. Uzskatiet to par juridiskā dokumenta lietotāja saskarni. Šim aktam pašam par sevi nav nekāda juridiskā spēka, un tā saturs patiesajā licencē neparādās.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Radošā komūna nav juridiska firma un nepiedāvā juridiskus pakalpojumus. Šī komūnas akta izplatīšana, kopēšana vai atsaukšanās uz to nerada nekādas klienta un pārstāvja attiecības.\n"
-"</p>"
+msgstr "<p>\nKomūnas akts nav licence. Tas ir tikai ērts uzziņas līdzeklis licences juridiskās versijas (pilnās licences) izprašana &mdash; tas ir cilvēkiem saprotams galveno juridisko terminu skaidrojums. Uzskatiet to par juridiskā dokumenta lietotāja saskarni. Šim aktam pašam par sevi nav nekāda juridiskā spēka, un tā saturs patiesajā licencē neparādās.\n</p>\n\n<p>\nRadošā komūna nav juridiska firma un nepiedāvā juridiskus pakalpojumus. Šī komūnas akta izplatīšana, kopēšana vai atsaukšanās uz to nerada nekādas klienta un pārstāvja attiecības.\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:131
 msgid ""
 "This is a human-readable summary of the Legal Code (the full license) "
 "available in the following languages:"
-msgstr ""
-"Šis ir cilvēkiem saprotams juridiskās (pilnās) licences apkopojums sekojošās"
-" valodās:"
+msgstr "Šis ir cilvēkiem saprotams juridiskās (pilnās) licences apkopojums sekojošās valodās:"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:138
 msgid ""
 "This is a human-readable summary of the <a href=\"legalcode\" "
 "class=\"fulltext\">Legal Code (the full license)</a>."
-msgstr ""
-"Šis ir cilvēkiem saprotams <a href=\"legalcode\" "
-"class=\"fulltext\">Juridiski (pilnās) licences</a> apkopojums."
+msgstr "Šis ir cilvēkiem saprotams <a href=\"legalcode\" class=\"fulltext\">Juridiski (pilnās) licences</a> apkopojums."
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:162
 msgid "Use this license for your own work."
@@ -2954,27 +2656,21 @@ msgstr "Radošās komūnas licence"
 msgid ""
 "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"Darbu %(work_title)s %(work_author)s ir licencējis ar <a rel=\"license\" "
-"href=\"%(license_url)s\">Creative Commons %(license_name)s licenci</a>."
+msgstr "Darbu %(work_title)s %(work_author)s ir licencējis ar <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s licenci</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:200
 #, python-format
 msgid ""
 "This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\""
 " href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"Šo %(work_type)s %(work_author)s ir licencējis ar <a rel=\"license\" "
-"href=\"%(license_url)s\">Creative Commons %(license_name)s licenci</a>."
+msgstr "Šo %(work_type)s %(work_author)s ir licencējis ar <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s licenci</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:211
 #, python-format
 msgid ""
 "%(work_title)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
-"%(work_title)s ir licencēts ar <a rel=\"license\" "
-"href=\"%(license_url)s\">Creative Commons %(license_name)s licenci</a>."
+msgstr "%(work_title)s ir licencēts ar <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s licenci</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:230
 #, python-format
@@ -2994,10 +2690,7 @@ msgid ""
 "This %(work_type)s is in the <a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
 "Domain</a>."
-msgstr ""
-"Šis %(work_type)s ir <a rel=\"license\" "
-"href=\"http://creativecommons.org/licenses/publicdomain/\">Publiskajā "
-"domēnā</a>."
+msgstr "Šis %(work_type)s ir <a rel=\"license\" href=\"http://creativecommons.org/licenses/publicdomain/\">Publiskajā domēnā</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:328
 msgid "This work is free of known copyright restrictions."
@@ -3049,16 +2742,20 @@ msgid ""
 msgstr ""
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Generic"
-msgstr "Vispārīgs"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Unported"
-msgstr "Nepārnesta"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Developing Nations"
 msgstr "Attīstošās nācijas"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU General Public License"
+msgstr "GNU saīsinātā vispārīgā publiskā licence (LGPL)"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU Lesser General Public License"
+msgstr "GNU saīsinātā vispārīgā publiskā licence (LGPL)"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "Generic"
+msgstr "Vispārīgs"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
@@ -3070,11 +2767,5 @@ msgid "Universal"
 msgstr "Universāls"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU General Public License"
-msgstr "GNU saīsinātā vispārīgā publiskā licence (LGPL)"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU Lesser General Public License"
-msgstr "GNU saīsinātā vispārīgā publiskā licence (LGPL)"
-
-
+msgid "Unported"
+msgstr "Nepārnesta"
