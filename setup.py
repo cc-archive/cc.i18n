@@ -37,6 +37,7 @@ setup(
         'polib',
         'nose',
         'rdflib<3.0',
+        'jinja2',
         ],
 
     dependency_links = [
