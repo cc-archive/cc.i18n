@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
 "POT-Creation-Date: 2012-03-15 15:31-0500\n"
-"PO-Revision-Date: 2012-04-07 08:04+0000\n"
+"PO-Revision-Date: 2012-04-07 09:03+0000\n"
 "Last-Translator: Karl Jonsson <kalle@creativecommons.se>\n"
 "Language-Team: Swedish (http://www.transifex.net/projects/p/CC/language/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -773,7 +773,7 @@ msgstr "<p>\nDen lättlästa versionen, den sk. Commons Deed är inte en licens.
 msgid ""
 "You must attribute <a href=\"%(subject)s\">%(title)s</a> to <a "
 "href=\"%(attributionURL)s\">%(attributionName)s</a> (with link)."
-msgstr ""
+msgstr "Du måste ge erkännande <a href=\"%(subject)s\">%(title)s</a> till <a href=\"%(attributionURL)s\">%(attributionName)s</a> (med länk)."
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/attribution_details.html:7
 #, python-format
@@ -821,7 +821,7 @@ msgid ""
 "Thank you!\n"
 "Creative Commons Support\n"
 "info@creativecommons.org"
-msgstr ""
+msgstr "Tack för att du använder ett av Creative Commons juridiska verktyg för ditt verk.\n\nDu har valt %(license_title)s.\nDu bör inkludera en hänvisning till detta på webbsidan som inkluderar det aktuella verket.\n\nHär är den föreslagna HTML-koden:\n\n%(license_html)s\n\nTips för att märka ditt verk finns på\nhttp://wiki.creativecommons.org/Marking.  Information om HTML-koden ochand\nmetadata finns på http://wiki.creativecommons.org/CC_REL.\n\nDetta e-postmeddelande och teknisk support kom från personerna på den icke vinstdrivande organisationen Creative Commons. CC är beroende av donationer för att kunna tillhandahålla licenser och\ntjänster som denna. Vänligen överväg en donation till vår årliga fond:\nhttps://creativecommons.net/donate.\n\nTack!\nCreative Commons Support\ninfo@creativecommons.org"
 
 #: checkouts/cc.engine/cc/engine/util.py:530
 msgid "Your Creative Commons License Information"
@@ -867,7 +867,7 @@ msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:139
 msgid "License design and rationale"
-msgstr ""
+msgstr "Licensdesign och anledning"
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:143
 msgid ""
@@ -921,15 +921,15 @@ msgstr "Tre lager av licenserna"
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:175
 msgid "Machine Readable"
-msgstr ""
+msgstr "Maskinläsbar"
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:178
 msgid "Human Readable"
-msgstr ""
+msgstr "Läsbar för människor"
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:181
 msgid "Legal Code"
-msgstr ""
+msgstr "Licenstext"
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:188
 msgid ""
@@ -937,7 +937,7 @@ msgid ""
 "layer” design. Each license begins as a traditional legal tool, in the kind "
 "of language and text formats that most lawyers know and love. We call this "
 "the Legal Code layer of each license."
-msgstr ""
+msgstr "Våra publika upphovsrättslicenser innehåller en unik desig i tre lager. Varje licens börjar som ett traditionellt juridiskt verktyg med det språk och format som de flesta jurister kan och älskar. Vi kallar detta lager för Legal Code för varje licens."
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:192
 msgid ""
@@ -986,7 +986,7 @@ msgid ""
 "rights isn’t just a legal concept. It’s something that the creators of works"
 " can understand, their users can understand, and even the Web itself can "
 "understand."
-msgstr ""
+msgstr "Tillsammans säkerställer dessa tre lager att spektrat av rättigheter inte bara är ett juridiskt koncept. Det är något som skapare av verk kan förstå, användare kan förstå det och till och med webben själv kan förstå det."
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:212
 msgid "The Licenses"
@@ -1007,7 +1007,7 @@ msgstr "Licensen låter andra distribuera, remixa, ändra och bygga på ditt ver
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:348
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:375
 msgid "View License Deed"
-msgstr ""
+msgstr "Visa License Deed"
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:236
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:265
@@ -1049,7 +1049,7 @@ msgid ""
 "This license lets others remix, tweak, and build upon your work non-"
 "commercially, as long as they credit you and license their new creations "
 "under the identical terms."
-msgstr ""
+msgstr "Denna licens låter andra remixa, anpassa och bygga vidare på ditt verk i icke-kommersiella syften så länge de erkänner dig och licensierar sina bearbetningar under samma villkor."
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:369
 msgid ""
@@ -1337,7 +1337,7 @@ msgstr "Creative Commons är en icke vinstdrivande organisation. <br /> Vi behö
 msgid ""
 "Share your work with an existing community that has enabled Creative Commons"
 " licensing."
-msgstr ""
+msgstr "Dela ditt verk med en existerande gemenskap som har möjliggjort Creative Commons-licensiering."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:109
 msgid ""
@@ -1369,11 +1369,11 @@ msgstr "För att märka ett dokument som inte finns på webben, <a href=\"non-we
 msgid ""
 "Get <a href=\"/choose/metadata.xmp?%(url_vars)s\">metadata</a> for documents"
 " that <a href=\"http://wiki.creativecommons.org/XMP\">support XMP</a>."
-msgstr ""
+msgstr "Hämta <a href=\"/choose/metadata.xmp?%(url_vars)s\">metadata</a> för dokument som <a href=\"http://wiki.creativecommons.org/XMP\">stödjer XMP</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:125
 msgid "Get high resolution and vector versions of the license graphics."
-msgstr ""
+msgstr "Hämta högupplösta och vektorversioner av licensikonerna."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:130
 msgid "Learn how to mark video and other formats."
@@ -1678,7 +1678,7 @@ msgid ""
 "clicking the Back button and double checking your email address.  If the "
 "address you used (%(email_addr)s) was correct you can <a "
 "href=\"/contact\">contact us</a>."
-msgstr ""
+msgstr "Ett fel inträffade när vi försökte skicka e-postmeddelandet; du kan pröva att klicka på bakåtknappen och dubbelkolla din e-postadress. Om adressen du använde (%(email_addr)s) är korrekt kan du <a href=\"/contact\">kontakta oss</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:75
 msgid ""
@@ -1722,14 +1722,14 @@ msgid ""
 "    using <a href=\"/license/zero/\">CC0</a>.  Please note that if you\n"
 "    use the Public Domain Certification to dedicate a work to the\n"
 "    public domain, it may not be valid outside of the United States."
-msgstr ""
+msgstr "Du har valt Public Domain-certifiering.  Public\n    Domain-certificatiering ska bara användas för att certifiera ett verk som\n    redan är public domain.  Creative Commons rekommenderar inte\n    att du använder Public Domain-certification för att dedikera ett verk\n    som fortfarande skyddas av upphovsrätt till public domain.  För att dedikera ett\n    verk till public domain, överväg\n    att använda <a href=\"/license/zero/\">CC0</a>.  Notera att om du\n    använder Public Domain-certifiering för att dedikera ett verk till\n    public domain, kan det hända att detta inte är giltigt utanför USA."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-2.html:31
 msgid ""
 "Once you're done filling this out, you will still have the\n"
 "    opportunity to confirm your choice before the certification\n"
 "    happens."
-msgstr ""
+msgstr "När du har fyllt i detta kommer du fortfarande att ha\n    möjlighet att bekräfta ditt val innan certifieringen\n    sker."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-2.html:37
 msgid "About the work you are certifying"
@@ -1755,7 +1755,7 @@ msgstr "Bekräfta din public domain-certifiering"
 msgid ""
 "Copyright-Only Dedication (based on United States law) \n"
 "or Public Domain Certification"
-msgstr ""
+msgstr "Dedikation av endast upphovsrätt (baserad på USA:s lagar)\neller Public Domain-certifiering"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-3.html:43
 #: checkouts/cc.engine/cc/engine/templates/licenses/publicdomain_deed.html:38
@@ -1774,7 +1774,7 @@ msgid ""
 "I have read and understand the terms and intended legal\n"
 "\t    effect of this tool, and hereby voluntarily elect to apply it to\n"
 "\t    this work."
-msgstr ""
+msgstr "Jag har läst och förstår villkoren och avsett juridisk\n\t    effekt för detta verktyg och,  härmed völjer jag frivilligt att applicera det på\n\t    detta verk."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-4.html:13
 msgid ""
@@ -1844,7 +1844,7 @@ msgid ""
 "\t  or privacy rights, rights you have protecting against unfair\n"
 "\t  competition, and database rights and rights protecting the\n"
 "\t  extraction, dissemination and reuse of data."
-msgstr ""
+msgstr "Genom att använda CC0 kan du avsäga dig all upphovsrätt och relaterade eller\n\t  närstående rättigheter som du har till ditt verk, så som\n\t  din idéella rätt (i den mån den är möjlig att avsäga sig), dina publicitets-\n\t  eller integritetsrättigheter, rättigheter du har som skyddar mot otillbörlig\n\t  konkurrens och databasrättigheter och rättigheter som skyddar\n\t  utvinnande, spridande och återanvändning av data."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/index.html:32
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/partner.html:18
@@ -1854,7 +1854,7 @@ msgid ""
 "\t  avoid infringing third party rights, you should consult with\n"
 "\t  your legal advisor if you are unsure whether you have all\n"
 "\t  the rights you need to distribute the work."
-msgstr ""
+msgstr "Tänk på att du inte kan avsäga dig rättigheterna till ett verk som du\n\t  inte äger om du inte har tillstånd från ägaren. För\n\t  att undvika intrång i tredje parts rättigheter bör du rådgöra med\n\t  din juridiska rådgivare om du är osäker på om du har alla\n\t  nödvändiga rättigheter för att distribuera verket."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/index.html:40
 msgid ""
@@ -1936,7 +1936,7 @@ msgid ""
 "\t    information</a> on Creative Commons metadata is available if\n"
 "\t  you want to find out more.\n"
 "\t</p>"
-msgstr ""
+msgstr "<p>\n\t  Informationen är inbäddad i ett format som kan läsas av datorprogram.\n\t  Detta gör att sökmotorer kan indexera ytterligare information\n\t  om ditt verk.\n\t</p>\n\t<p>\n\t  <a href=\"http://wiki.creativecommons.org/Metadata\">Mer\n\t    information</a> om Creative Commons metadata är tillgänglig om\n\t  du vill vet amer.\n\t</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:70
 msgid "Your name"
@@ -2034,7 +2034,7 @@ msgstr "Text"
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:55
 msgid "Dataset"
-msgstr ""
+msgstr "Dataset"
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:57
 msgid "Interactive"
@@ -2186,7 +2186,7 @@ msgstr "Identifierat av:"
 msgid ""
 "You can <a href=\"\" class=\"helpLink\" id=\"citation_help\">cite</a> this "
 "work with this HTML:"
-msgstr ""
+msgstr "Du kan <a href=\"\" class=\"helpLink\" id=\"citation_help\">hänvisa till</a> detta verk med denna HTML-kod:"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:74
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:80
@@ -2197,7 +2197,7 @@ msgstr "Annan information"
 msgid ""
 "The work may not be free of known copyright restrictions in all <a href=\"\""
 " class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
-msgstr ""
+msgstr "Detta verk är kanske inte fritt från kända upphovsrättsliga restriktioner i alla <a href=\"\" class=\"helpLink\" id=\"all_jurisdictions\">jurisdiktioner</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:80
 msgid ""
@@ -2206,7 +2206,7 @@ msgid ""
 "as <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
 " class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
+msgstr "Personer kan ha andra rättigheter till verket eller relaterade til verket, så som patent eller varumärkesrättigheter och andra kan ha rättigheter som påverkar verkets användning, så som <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\" class=\"helpLink\" id=\"publicity_rights\">publicitets- eller integritetsrättigheter</a> rights."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:83
 msgid ""
@@ -2214,7 +2214,7 @@ msgid ""
 "id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
 "term of copyright. These rights may include the right to be identified as "
 "the author and the right to object to derogatory treatments."
-msgstr ""
+msgstr "I vissa jurisdiktioner kan upphovsmannens <a href=\"\" class=\"helpLink\" id=\"moral_rights\">idéella rätt</a> finnas kvar längre än upphovsrättens skyddstid. Denna rätt kan inkludera rätten att bli identifierad som upphovsman och rätten att protestera mot kränkande behandlngar."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:86
 msgid ""
@@ -2228,12 +2228,12 @@ msgid ""
 "When using or citing the work, you should not imply <a href=\"\" "
 "class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
 "person who identified the work."
-msgstr ""
+msgstr "När du använder eller hänvisar till vrket ska du inte antyda <a href=\"\" class=\"helpLink\" id=\"endorsement\">godkänande eller stöd</a> från upphovsmannen eller den person som identifierat verket."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:106
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:111
 msgid "Endorsement"
-msgstr ""
+msgstr "Godkännande"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:110
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:114
@@ -2434,7 +2434,7 @@ msgid ""
 "CC licenses anticipate that a licensor may want to\n"
 "\t\twaive compliance with a specific condition, such as\n"
 "\t\tattribution."
-msgstr "CC licenser förutser att en licensgivare kan vilja\n\t\tavsäga sig åtlydnad av ett specifikt villkor, så som\n\t\terkännande."
+msgstr "CC-licenser förutser att en licensgivare kan vilja\n\t\tavsäga sig åtlydnad av ett specifikt villkor, så som\n\t\terkännande."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:208
 msgid "What does \"Public Domain\" mean?"
@@ -2457,7 +2457,7 @@ msgid ""
 "              permission.  CC licenses do not affect the rights of\n"
 "              users under those copyright limitations and exceptions,\n"
 "              such as fair use and fair dealing where applicable."
-msgstr ""
+msgstr "Alla jurisdiktioner\n              tillåter viss begränsad användning av upphovsrättsskyddat material utan\n              tillstånd.  CC-licenser påverkar inte användarens\n              rättigheter enligt dessa undantag i upphovsrätten,\n              t.ex. \"fair use\" och \"fair dealing\" där dessa är tillämpliga."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:242
 msgid "What are \"Moral Rights\"?"
@@ -2471,7 +2471,7 @@ msgid ""
 "the US except in very limited circumstances) grant creators \"moral rights\""
 " which may provide some redress if a derivative work represents a "
 "\"derogatory treatment\" of the licensor's work."
-msgstr ""
+msgstr "Förutom licensgivares rätt att begära att deras namn tas bort från verket när det används i en bearbetning eller ett samlingsverk de inte tycker om ger upphovsrätten i många jurisdiktioner (med undantag för USA utom i väldigt begränsade omfattning) upphovsmän en \"idéell rätt\" som kan ge möjlighet till upprättelse om en bearbetning innebär kränkande behandling av licensgivarens verk."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:258
 msgid "What are \"Publicity Rights\"?"
@@ -2486,7 +2486,7 @@ msgid ""
 "              image of anyone other than the licensor, a user of the\n"
 "              work may need to get permission from those individuals\n"
 "              before using the work for commercial purposes."
-msgstr ""
+msgstr "Publicitetsrättigheter\n              ger individer kontroll över hur deras röst,\n              bild eller \"likeness\" används för komersiella syften\n              offentligt.  Om ett CC-licensierat verk inkluderar rösten eller\n              bilden av någon annan än licensgivaren, kan en användare av verket behöva få tillstånd från dessa personer innan verket används i kommersiella syften."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:17
 msgid "Public Domain Dedication"
@@ -2623,7 +2623,7 @@ msgid ""
 "copyright owners who want to dedicate their works to the worldwide public "
 "domain to do so, and facilitate the labeling and discovery of works that are"
 " already free of known copyright restrictions."
-msgstr ""
+msgstr "Våra licenser hjälper upphovsmän att hantera sin upphovsrätt på de villkor de väljer. Våra public domain-verktyg, å andra sidan, ger upphovsmän och upphovsrättsinnehavare som vill dedikera sina verk till public domain möjlighet att göra det, om förenklar märkning och upptäckande av verk som redan är fria från kända upphovsrättsliga restriktioner."
 
 #: checkouts/cc.engine/cc/engine/templates/publicdomain/index.html:17
 msgid ""
@@ -2762,7 +2762,7 @@ msgstr "Generisk"
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
 msgid "Korea"
-msgstr ""
+msgstr "Korea"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Universal"
