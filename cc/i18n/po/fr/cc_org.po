@@ -6,7 +6,7 @@
 # Damien Clauzel <Damien@Clauzel.nom.fr>, 2011.
 # Jean-Frédéric  <jeanfrederic.wiki@gmail.com>, 2011.
 #   <lara.beswick@gmail.com>, 2011.
-#   <melanie.ddr@gmail.com>, 2011.
+#   <melanie.ddr@gmail.com>, 2011, 2012.
 # Nathan Kinkade <nkinkade@creativecommons.org>, 2011.
 # Patrick Rump <patrick.rump@yahoo.fr>, 2011.
 # ProgVal <progval@gmail.com>, 2011.
@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
 "POT-Creation-Date: 2012-03-15 15:31-0500\n"
-"PO-Revision-Date: 2012-03-15 20:44+0000\n"
-"Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
+"PO-Revision-Date: 2012-04-20 17:05+0000\n"
+"Last-Translator: mdulong <melanie.ddr@gmail.com>\n"
 "Language-Team: French (http://www.transifex.net/projects/p/CC/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -631,7 +631,7 @@ msgstr "Attribution"
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:306
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NonCommercial"
-msgstr "Paternité - Pas d'Utilisation Commerciale"
+msgstr "Attribution - Pas d'Utilisation Commerciale"
 
 #: cc/i18n/mappers.py:160
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:362
@@ -649,12 +649,12 @@ msgstr "Attribution - Pas d'Utilisation Commerciale - Partage à l'Identique"
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:279
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NoDerivs"
-msgstr "Paternité - Pas de Modification"
+msgstr "Attribution - Pas de Modification"
 
 #: cc/i18n/mappers.py:163
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NoDerivs-NonCommercial"
-msgstr "Paternité - Pas de Modification - Pas d'Utilisation Commerciale"
+msgstr "Attribution - Pas de Modification - Pas d'Utilisation Commerciale"
 
 #: cc/i18n/mappers.py:164
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:250
@@ -778,7 +778,7 @@ msgstr "Si vous transformez ou modifiez cette oeuvre pour en créér une nouvell
 msgid ""
 "You must attribute <a href=\"%(subject)s\">%(title)s</a> to <a "
 "href=\"%(attributionURL)s\">%(attributionName)s</a> (with link)."
-msgstr ""
+msgstr "Vous devez citer <a href=\"%(subject)s\">%(title)s</a> to <a href=\"%(attributionURL)s\">%(attributionName)s</a> (avec un lien)."
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/attribution_details.html:7
 #, python-format
@@ -926,15 +926,15 @@ msgstr "trois “couches” de licences"
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:175
 msgid "Machine Readable"
-msgstr ""
+msgstr "Lisible par les machines"
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:178
 msgid "Human Readable"
-msgstr ""
+msgstr "Lisible par les humains"
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:181
 msgid "Legal Code"
-msgstr ""
+msgstr "Code Juridique"
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:188
 msgid ""
@@ -1244,7 +1244,7 @@ msgstr "Le titulaire des droits autorise autrui à reproduire, distribuer et com
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:122
 msgid "Yes, as long as others share alike"
-msgstr "Oui, sous condition de partage à l'identique."
+msgstr "Oui, sous condition de partage dans les mêmes conditions."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:168
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:70
@@ -1264,7 +1264,7 @@ msgid ""
 "international licenses do not, then you may want to consider\n"
 "<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">which\n"
 "license is better suited for your needs</a>."
-msgstr "Utilisez l’option \"International\" si vous désirez une licence utilisant le langage\net la terminologie de traités internationaux. Si les licences ont été \ntranscrites dans votre juridiction et si vous pensez que les licences \ntranscrites de votre juridiction tiennent compte de certains aspects \nde la législation locale que les licences internationales n’intègrent pas, \nil se peut alors que vous devriez identifier\n<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">\nquelle licence est la mieux adaptée à vos besoins</a>."
+msgstr "Utilisez l’option \"International\" si vous désirez une licence utilisant le langage et la terminologie de traités internationaux. Si les licences ont été \ntranscrites dans votre juridiction et si vous pensez que les licences \ntranscrites de votre juridiction tiennent compte de certains aspects \nde la législation locale que les licences internationales n’intègrent pas, \nil se peut alors que vous devriez identifier\n<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">\nquelle licence est la mieux adaptée à vos besoins</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:202
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:82
@@ -1291,7 +1291,7 @@ msgid ""
 "To view a copy of this license, visit %(license_url)s or send a letter to "
 "Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, "
 "94041, USA."
-msgstr ""
+msgstr "Cette oeuvre est mise à disposition sous licence %(license_name)s. Pour voir une copie de cette licence, visitez %(license_url)s ou écrivez à Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:19
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:47
@@ -1448,7 +1448,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr "Oui, sous condition de partage à l'identique (<a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">plus d'information</a> <a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more info\" border=\"0\" /></a>)"
+msgstr "Oui, selon les mêmes conditions (<a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">plus d'information</a> <a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more info\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:99
 msgid ""
@@ -1683,7 +1683,7 @@ msgid ""
 "clicking the Back button and double checking your email address.  If the "
 "address you used (%(email_addr)s) was correct you can <a "
 "href=\"/contact\">contact us</a>."
-msgstr ""
+msgstr "Une erreur s'est produite lorsque nous avons tenté de vous envoyer le courrier électronique; vous pouvez cliquer le bouton 'retour' et vérifier à nouveau votre adresse. Si votre adresse (%(email_addr)s) est correcte, vous pouvez <a href=\"/about/contact\">nous contacter</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:75
 msgid ""
@@ -1838,7 +1838,7 @@ msgid ""
 "everywhere. Creative Commons does not recommend this tool for works that are"
 " already in the public domain worldwide, instead use the <b><a "
 "href=\"/choose/mark/\">Public Domain Mark</a></b> for such works."
-msgstr ""
+msgstr "Vous utilisez un outil pour libérer votre oeuvre des restrictions de droits d'auteur pour le monde entier. Vous pouvez utilisez cet outil même si votre oeuvre est libre de droits d'auteur et droits connexes dans certaines juridictions, si vous voulez vous assurer qu'elle soit libre de partout. Creative Commons ne recommande pas cet outil pour les oeuvres qui sont déjà dans le domaine public du monde entier, utilsez plutôt <b><a href=\"/choose/mark/\">la Marque du Domaine Public</a></b> pour de telles oeuvres."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/index.html:23
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/partner.html:9
@@ -2191,7 +2191,7 @@ msgstr "Identifié par :"
 msgid ""
 "You can <a href=\"\" class=\"helpLink\" id=\"citation_help\">cite</a> this "
 "work with this HTML:"
-msgstr ""
+msgstr "Vous pouvez <a href=\"\" class=\"helpLink\" id=\"citation_help\">citer</a> cette oeuvre avec ce code HTML:"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:74
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:80
@@ -2202,7 +2202,7 @@ msgstr "Autres informations"
 msgid ""
 "The work may not be free of known copyright restrictions in all <a href=\"\""
 " class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
-msgstr ""
+msgstr "L'oeuvre peut ne pas être libre de restrictions de droits d'auteur connues dans toutes les <a href=\"\" class=\"helpLink\" id=\"all_jurisdictions\" name=\"all_jurisdictions\">juridictions</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:80
 msgid ""
@@ -2211,7 +2211,7 @@ msgid ""
 "as <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
 " class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
+msgstr "Certaines personnes peuvent détenir d'autres droits sur ou relatifs à l'oeuvre, comme un brevet ou des droits de marque commerciale, d'autres peuvent détenir les droits sur la manière dont l'oeuvre est utilisée, comme le droit <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\" class=\"helpLink\" id=\"publicity_rights\" name=\"publicity_rights\">à l'image ou à la vie privée</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:83
 msgid ""
@@ -2219,7 +2219,7 @@ msgid ""
 "id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
 "term of copyright. These rights may include the right to be identified as "
 "the author and the right to object to derogatory treatments."
-msgstr ""
+msgstr "Dans certaines juridictions, les <a href=\"\" class=\"helpLink\" id=\"moral_rights\" name=\"moral_rights\">droits moraux</a> de l'auteur peuvent persister de manière perpétuelle au-delà de la durée du droit d'auteur. Ces droits peuvent inclure le droit d'être identifié comme l'auteur et le droit de s'opposer à toute mutilation ou traitement dérogatoire de l'oeuvre."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:86
 msgid ""
@@ -2233,7 +2233,7 @@ msgid ""
 "When using or citing the work, you should not imply <a href=\"\" "
 "class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
 "person who identified the work."
-msgstr ""
+msgstr "Quand vous utilisez ou citez l'oeuvre, vous ne devez pas suggérer <a href=\"\" class=\"helpLink\" id=\"endorsement\" name=\"endorsement\">l'agrément</a> de l'auteur ou de la personne qui a identifié l'oeuvre."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:106
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:111
@@ -2415,7 +2415,7 @@ msgid ""
 "Apart from the remix rights granted under this license, the author's <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
-msgstr "Rien dans ce texte ne diminue ou ne restreint le<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\" id=\"moral_rights\" class=\"helpLink\">droits moraux</a> de l'auteur."
+msgstr "A part le droit de remix accordé par cette licence, le droit moral de l'auteur <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\" id=\"moral_rights\" class=\"helpLink\"></a>;"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:176
 msgid "Notice"
@@ -2522,7 +2522,7 @@ msgid ""
 "work is used, such as <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
 " class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
+msgstr "Les brevets et droits de marque commerciale qui peuvent être détenus par autrui ne sont en aucune façon affectés par CC0, de même pour les droits que pourraient détenir d'autres personnes sur l'oeuvre ou sur la façon dont elle est utilisée, comme <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\" class=\"helpLink\" id=\"publicity_rights\" name=\"publicity_rights\">le droit à l'image ou à la vie privée</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:87
 msgid ""
@@ -2536,7 +2536,7 @@ msgid ""
 "When using or citing the work, you should not imply <a href=\"\" "
 "class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
 "affirmer."
-msgstr ""
+msgstr "Quand vous utilisez ou citez l'oeuvre, vous ne devez pas suggérer <a href=\"\" class=\"helpLink\" id=\"endorsement\" name=\"endorsement\">l'agrément</a> de l'auteur ou de la personne qui affirme."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:137
 msgid "Who is the affirmer?"
@@ -2767,7 +2767,7 @@ msgstr "Générique"
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
 msgid "Korea"
-msgstr ""
+msgstr "Corée"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Universal"
