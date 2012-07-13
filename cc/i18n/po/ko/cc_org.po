@@ -13,10 +13,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
-"POT-Creation-Date: 2012-03-15 15:31-0500\n"
-"PO-Revision-Date: 2012-03-30 02:19+0000\n"
-"Last-Translator: cckorea_staff <creative@cckorea.org>\n"
-"Language-Team: Korean (http://www.transifex.net/projects/p/CC/language/ko/)\n"
+"POT-Creation-Date: 2012-07-13 12:46-0500\n"
+"PO-Revision-Date: 2012-07-13 17:47+0000\n"
+"Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
+"Language-Team: Korean (http://www.transifex.com/projects/p/CC/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -620,7 +620,8 @@ msgstr "LGPL"
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:223
 #: checkouts/cc.engine/cc/engine/templates/characteristic/by.html:3
 #: checkouts/cc.engine/cc/engine/templates/characteristic/by.html:12
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:21
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:21
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1781
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:53
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution"
@@ -662,7 +663,7 @@ msgid "Attribution-ShareAlike"
 msgstr "저작자표시-동일조건변경허락"
 
 #: cc/i18n/mappers.py:165
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:76
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:76
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "NonCommercial"
 msgstr "비영리"
@@ -711,20 +712,23 @@ msgstr "샘플링 플러스"
 #: cc/i18n/mappers.py:178
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nc.html:3
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nc.html:12
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1797
 msgid "Noncommercial"
 msgstr "비영리"
 
 #: cc/i18n/mappers.py:179
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nd.html:3
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nd.html:12
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:155
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:155
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1792
 msgid "No Derivative Works"
 msgstr "변경금지"
 
 #: cc/i18n/mappers.py:180
 #: checkouts/cc.engine/cc/engine/templates/characteristic/sa.html:3
 #: checkouts/cc.engine/cc/engine/templates/characteristic/sa.html:12
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:132
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:132
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1787
 msgid "Share Alike"
 msgstr "동일조건변경허락"
 
@@ -766,7 +770,7 @@ msgid ""
 "resulting work only under the same or similar license to this one."
 msgstr "이 저작물을 이용하여 만든 2차저작물에는 본 라이선스와 동일한 라이선스를 적용해야 합니다."
 
-#: cc/i18n/mappers.py:200 checkouts/cc.engine/cc/engine/util.py:256
+#: cc/i18n/mappers.py:200 checkouts/cc.engine/cc/engine/util.py:287
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
@@ -800,7 +804,7 @@ msgid ""
 "href=\"%(network_url)s\">%(network_name)s</a></nobr>"
 msgstr "<a href=\"%(owner_url)s\">%(owner_name)s</a>님이<nobr><a href=\"%(network_url)s\">%(network_name)s</a></nobr> 에서 <a href=\"%(lookup_uri)s\">이 콘텐츠를</a> 등록하였습니다."
 
-#: checkouts/cc.engine/cc/engine/util.py:506
+#: checkouts/cc.engine/cc/engine/util.py:537
 #, python-format
 msgid ""
 "Thank you for using a Creative Commons legal tool for your work.\n"
@@ -827,7 +831,7 @@ msgid ""
 "info@creativecommons.org"
 msgstr "\"저작물에 크리에이티브 커먼즈의 법률 도구를 이용해주셔서 감사합니다.⏎\n⏎\n%(license_title)s을(를) 선택하셨습니다.⏎\n해당 저작물이 포함되는 웹페이지에 이 라이선스에 대한 참조 인용을 포함해야 합니다.⏎\n⏎\n아래는 권장하는  HTML입니다:⏎\n⏎\n%(license_html)s⏎\n⏎\n저작물에 PDM 마크를 붙이 위한 조언을 얻으시려면 http://wiki.creativecommons.org/Marking 를 참고하시기 바랍니다. 제공되는 HTML과 메타데이터에 대한 정보는 http://wiki.creativecommons.org/CC_REL 에서 보실 수 있습니다.⏎\n⏎\n이 이메일과 기술 지원은 크리에이티브 커먼즈의 비영리 직원들의 도움으로 제공됩니다.\nCC는 귀하에게 라이선스 및 이와 같은 서비스를 제공하기 위해 기부금으로 운영되고 있습니다. 크리에이티브 커먼즈의 연간 기금에 기부해주시면 감사하겠습니다. \nhttps://creativecommons.net/donate.⏎\n⏎\n감사합니다!⏎\n크리에이티브 커먼즈 지원팀⏎\ninfo@creativecommons.org\""
 
-#: checkouts/cc.engine/cc/engine/util.py:530
+#: checkouts/cc.engine/cc/engine/util.py:561
 msgid "Your Creative Commons License Information"
 msgstr "귀하의 크리에이티브 커먼즈 라이선스 정보"
 
@@ -1073,7 +1077,8 @@ msgid ""
 msgstr "크리에이티브 커먼즈에서는 일체의 권리를 포기한 <a href=\"http://wiki.creativecommons.org/Public_domain\">퍼블릭 도메인</a> 저작물들도 제공합니다. 또 다른 도구로는 크리에이티브 커먼즈의 <a href=\"http://creativecommons.org/about/cc0\">CC0 도구</a>의 경우, 저작권자가 모든 권리를 포기하고 저작물을 퍼블릭 도메인으로 공개할 수 있게 해줍니다. 한편 <a href=\"http://creativecommons.org/about/pdm\">퍼블릭 도메인 마크</a>는 웹 사용자 누구나 저작물이 퍼블릭 도메인임을 \"표시\"할 수 있도록 해줍니다."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/by.html:15
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:23
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:23
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1782
 msgid ""
 "You must attribute the\n"
 "work in the manner specified by the author or licensor."
@@ -1090,6 +1095,7 @@ msgid "Close window"
 msgstr "창 닫기"
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nc.html:15
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1798
 msgid ""
 "The licensor permits others to copy, distribute and transmit the work. In "
 "return, licensees may not use the work for commercial purposes — unless they"
@@ -1097,19 +1103,165 @@ msgid ""
 msgstr "이 저작물을 복제, 배포, 전시, 공연 및 공중송신하는 것을 허락합니다. 단 이용허락자로부터 별도의 승낙을 받지 않는 한 이 저작물을 영리 목적으로 이용할 수 없습니다."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nd.html:15
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:158
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:158
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1793
 msgid ""
 "The licensor permits others to copy, distribute and transmit only unaltered "
 "copies of the work — not derivative works based on it."
 msgstr "개작 또는 변경하지 않는 것을 조건으로 저작물의 복제, 배포, 전시, 공연 및 공중송신을 허락합니다. 이 저작물에 기한 2차저작물에 해당 되는 조건이 아닙니다."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/sa.html:15
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:135
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:135
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1788
 msgid ""
 "The licensor permits others to distribute derivative works only under the "
 "same license or one compatible with the one that governs the licensor's "
 "work."
 msgstr "변경이나 이차적 저작물의 작성이 가능하지만 원저작물에 적용된 라이선스와 동일하거나 호환되는 라이선스를 적용해야 합니다."
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:13
+msgid ""
+"With a Creative Commons license, <strong>you keep your copyright</strong> "
+"but allow people to <a href=\"/learn/licenses/fullrights\">copy and "
+"distribute your work</a> provided they <a href=\"#\" class=\"helpLink\" "
+"id=\"give_you_credit\">give you credit</a> &mdash; and only on the "
+"conditions you specify here. For those new to Creative Commons licensing, "
+"we've prepared <a href=\"/about/think\">a list of things to think about</a>."
+" If you want to offer your work with no conditions attached, or you want to "
+"mark a work that is already free of known copyright restrictions and in the "
+"public domain, choose one of our <a href=\"/publicdomain/\">public domain "
+"tools</a>."
+msgstr "저작권자는 자신의 저작물에 크리에이티브 커먼즈 라이선스를 적용할 수 있습니다. 크리에이티브 커먼즈 라이선스는 <strong>저작권은 여전히 저작권자에게 있되</strong> <a href=\"#\" class=\"helpLink\" id=\"give_you_credit\">원저작자의 표시</a>와 기타 조건을 지켜준다면 모든 이들이 <a href=\"/learn/licenses/fullrights\">자유롭게 이용할 수 있다</a>는 의사표시입니다. 저작권자는 원하는 ‘기타 조건’을 아래에서 선택할 수 있습니다. 필요하시면 <a href=\"http://www.cckorea.org/xe/?document_srl=574\">라이선스를 적용하기 전에 고려해야 할 사항</a>을 정리해 놨으니 참고하시기 바랍니다. 아무 조건 없이 저작물을 공개하는 것을 원하거나, 저작권의 보호대상이 아닌 저작물(만료저작물 혹은 퍼블릭 도메인)의 표시를 원하신다면, <a href=\"/publicdomain/\">CC0</a>를 이용하세요."
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:17
+msgid ""
+"When you choose a <a "
+"href=\"http://creativecommons.org/about/licenses\">license</a>, we provide "
+"you with HTML you can use to add the license information to your site and "
+"information on how to select a license on one of several free hosting "
+"services that have incorporated Creative Commons. This is not a registration"
+" and we do not retain a record of your selection."
+msgstr "<a href=\"http://creativecommons.org/about/licenses\">라이선스</a>를 선택하면 웹페이지에 라이선스 정보를 추가할 수 있는 HTML코드가 제공되고 그밖에 어떻게 라이선스를 적용할 수 있는지에 대한 정보들도 얻을 수 있습니다. 물론 라이선스를 선택한다고 해서 저작권이 등록되거나 라이선스 정보가 따로 저장되는 것은 아닙니다."
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:38
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1295
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1654
+msgid "Allow commercial uses of your work?"
+msgstr "영리 목적 이용을 허락합니까?"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:45
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:98
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1271
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1301
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1645
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1656
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:36
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:48
+msgid "Yes"
+msgstr "예"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:48
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:70
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:101
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:126
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:149
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:171
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:21
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:41
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:82
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:120
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:10
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:67
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:91
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:116
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:138
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:160
+#: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:111
+msgid "Information"
+msgstr "정보"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:54
+msgid "Commercial Use"
+msgstr "상업적 용도 이용"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:57
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1657
+msgid ""
+"The licensor permits others to copy, distribute, display, and perform the "
+"work, including for commercial purposes."
+msgstr "비영리는 물론 영리목적으로 이 저작물을 복제, 배포, 전시, 공연, 공중송신하는 것을 허락한다는 의미입니다."
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:67
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:146
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1277
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1307
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1649
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1658
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:38
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:56
+msgid "No"
+msgstr "아니오"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:79
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1659
+msgid ""
+"The licensor permits others to copy, distribute, display, and perform the "
+"work for non-commercial purposes only."
+msgstr "비영리 목적에 한해서 이 저작물의 복제, 배포, 전시, 공연, 공중송신을 허락한다는 의미입니다."
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:89
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1263
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1643
+msgid "Allow modifications of your work?"
+msgstr "저작물의 변경을 허락합니까?"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:107
+msgid "Allow Derivative Works"
+msgstr "2차저작물 작성 허락"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:110
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1646
+msgid ""
+"The licensor permits others to copy, distribute, display and perform the "
+"work, as well as make derivative works based on it."
+msgstr "이 저작물의 복제, 배포, 전시, 공연, 공중송신 뿐만 아니라 2차적 저작물의 작성도 허락한다는 의미입니다."
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:122
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1286
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1647
+msgid "Yes, as long as others share alike"
+msgstr "예, 단 동일한 라이선스 적용 "
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:168
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:70
+msgid "Jurisdiction of your license"
+msgstr "라이선스의 재판관할"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:177
+msgid "Jurisdiction"
+msgstr "사법권"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:180
+msgid ""
+"Use the option \"International\" if you desire a license using language\n"
+"and terminology from international treaties.  If the licenses have\n"
+"been ported to your jurisdiction and you feel that your jurisdiction's\n"
+"ported licenses account for some aspect of local legislation that the\n"
+"international licenses do not, then you may want to consider\n"
+"<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">which\n"
+"license is better suited for your needs</a>."
+msgstr "이용허락관계의 해석 및 법적용을 특정 국가의 저작권법에 따르도록 하고 싶으면, 해당 되는 국가를 선택하세요."
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:202
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1322
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:82
+msgid "International"
+msgstr "국제"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:230
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:95
+msgid "Select a License"
+msgstr "라이선스 선택"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/emailhtml.html:7
 #, python-format
@@ -1149,140 +1301,7 @@ msgstr "HTML을 이메일로 받으시려면, 귀하의 이메일 주소를 입�
 msgid "Send"
 msgstr "보내기"
 
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:13
-msgid ""
-"With a Creative Commons license, <strong>you keep your copyright</strong> "
-"but allow people to <a href=\"/learn/licenses/fullrights\">copy and "
-"distribute your work</a> provided they <a href=\"#\" class=\"helpLink\" "
-"id=\"give_you_credit\">give you credit</a> &mdash; and only on the "
-"conditions you specify here. For those new to Creative Commons licensing, "
-"we've prepared <a href=\"/about/think\">a list of things to think about</a>."
-" If you want to offer your work with no conditions attached, or you want to "
-"mark a work that is already free of known copyright restrictions and in the "
-"public domain, choose one of our <a href=\"/publicdomain/\">public domain "
-"tools</a>."
-msgstr "저작권자는 자신의 저작물에 크리에이티브 커먼즈 라이선스를 적용할 수 있습니다. 크리에이티브 커먼즈 라이선스는 <strong>저작권은 여전히 저작권자에게 있되</strong> <a href=\"#\" class=\"helpLink\" id=\"give_you_credit\">원저작자의 표시</a>와 기타 조건을 지켜준다면 모든 이들이 <a href=\"/learn/licenses/fullrights\">자유롭게 이용할 수 있다</a>는 의사표시입니다. 저작권자는 원하는 ‘기타 조건’을 아래에서 선택할 수 있습니다. 필요하시면 <a href=\"http://www.cckorea.org/xe/?document_srl=574\">라이선스를 적용하기 전에 고려해야 할 사항</a>을 정리해 놨으니 참고하시기 바랍니다. 아무 조건 없이 저작물을 공개하는 것을 원하거나, 저작권의 보호대상이 아닌 저작물(만료저작물 혹은 퍼블릭 도메인)의 표시를 원하신다면, <a href=\"/publicdomain/\">CC0</a>를 이용하세요."
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:17
-msgid ""
-"When you choose a <a "
-"href=\"http://creativecommons.org/about/licenses\">license</a>, we provide "
-"you with HTML you can use to add the license information to your site and "
-"information on how to select a license on one of several free hosting "
-"services that have incorporated Creative Commons. This is not a registration"
-" and we do not retain a record of your selection."
-msgstr "<a href=\"http://creativecommons.org/about/licenses\">라이선스</a>를 선택하면 웹페이지에 라이선스 정보를 추가할 수 있는 HTML코드가 제공되고 그밖에 어떻게 라이선스를 적용할 수 있는지에 대한 정보들도 얻을 수 있습니다. 물론 라이선스를 선택한다고 해서 저작권이 등록되거나 라이선스 정보가 따로 저장되는 것은 아닙니다."
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:38
-msgid "Allow commercial uses of your work?"
-msgstr "영리 목적 이용을 허락합니까?"
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:45
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:98
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:36
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:48
-msgid "Yes"
-msgstr "예"
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:48
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:70
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:101
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:126
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:149
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:171
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:21
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:41
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:82
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:120
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:10
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:67
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:91
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:116
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:138
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:160
-#: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:111
-msgid "Information"
-msgstr "정보"
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:54
-msgid "Commercial Use"
-msgstr "상업적 용도 이용"
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:57
-msgid ""
-"The licensor permits others to copy, distribute, display, and perform the "
-"work, including for commercial purposes."
-msgstr "비영리는 물론 영리목적으로 이 저작물을 복제, 배포, 전시, 공연, 공중송신하는 것을 허락한다는 의미입니다."
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:67
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:146
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:38
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:56
-msgid "No"
-msgstr "아니오"
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:79
-msgid ""
-"The licensor permits others to copy, distribute, display, and perform the "
-"work for non-commercial purposes only."
-msgstr "비영리 목적에 한해서 이 저작물의 복제, 배포, 전시, 공연, 공중송신을 허락한다는 의미입니다."
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:89
-msgid "Allow modifications of your work?"
-msgstr "저작물의 변경을 허락합니까?"
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:107
-msgid "Allow Derivative Works"
-msgstr "2차저작물 작성 허락"
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:110
-msgid ""
-"The licensor permits others to copy, distribute, display and perform the "
-"work, as well as make derivative works based on it."
-msgstr "이 저작물의 복제, 배포, 전시, 공연, 공중송신 뿐만 아니라 2차적 저작물의 작성도 허락한다는 의미입니다."
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:122
-msgid "Yes, as long as others share alike"
-msgstr "예, 단 동일한 라이선스 적용 "
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:168
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:70
-msgid "Jurisdiction of your license"
-msgstr "라이선스의 재판관할"
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:177
-msgid "Jurisdiction"
-msgstr "사법권"
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:180
-msgid ""
-"Use the option \"International\" if you desire a license using language\n"
-"and terminology from international treaties.  If the licenses have\n"
-"been ported to your jurisdiction and you feel that your jurisdiction's\n"
-"ported licenses account for some aspect of local legislation that the\n"
-"international licenses do not, then you may want to consider\n"
-"<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">which\n"
-"license is better suited for your needs</a>."
-msgstr "이용허락관계의 해석 및 법적용을 특정 국가의 저작권법에 따르도록 하고 싶으면, 해당 되는 국가를 선택하세요."
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:202
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:82
-msgid "International"
-msgstr "국제"
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/index.html:230
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:95
-msgid "Select a License"
-msgstr "라이선스 선택"
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/nonweb_popup.html:12
-msgid ""
-"This work is in the Public Domain. To view a copy of the public domain "
-"certification, visit http://creativecommons.org/licenses/publicdomain/ or "
-"send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain "
-"View, California, 94041, USA."
-msgstr "이 콘텐츠는 퍼블릭 도메인에 해당합니다. 퍼블릭 도메인 인증서를 보시려면 http://creativecommons.org/licenses/publicdomain/를 방문하거나, 다음의 주소로 서면 요청해주십시오. Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA"
-
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:75
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/nonweb_popup.html:14
 #, python-format
 msgid ""
@@ -1291,6 +1310,412 @@ msgid ""
 "Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, "
 "94041, USA."
 msgstr "이 콘텐츠는 크리에이티브 커먼즈 %(license_name)s 라이선스에 따라 이용할 수 있습니다. 라이선스 전문을 보시려면 %(license_url)s를 방문하거나, 다음의 주소로 서면 요청해주십시오. Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1228
+msgid "New to Creative Commons?"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1230
+msgid "Considerations before licensing"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1233
+msgid " How the licenses work "
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1238
+msgid "Explore the Creative Commons licenses."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1241
+msgid "Want public domain instead?"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1248
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1593
+msgid "Javascript is disabled."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1250
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1595
+msgid "Update Selected License"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1257
+msgid "License Features"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1259
+msgid "Your choices on this panel will update the other panels on this page."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1314
+msgid "License Jurisdiction"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1341
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1673
+msgid "Selected License"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1369
+msgid "This is a Free Culture License!"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1380
+msgid "This is not a Free Culture License."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1399
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1716
+msgid "Help others attribute you!"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1400
+msgid ""
+"This part is optional, but filling it out will add machine-readable metadata"
+" to the suggested HTML!"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1407
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1727
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-2.html:50
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:101
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:62
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:73
+msgid "Title of work"
+msgstr "저작물의 제목"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1418
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1731
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:85
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:97
+msgid "Attribute work to name"
+msgstr "저작자 이름"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1429
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1736
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:110
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:122
+msgid "Attribute work to URL"
+msgstr "저작물의 URL"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1440
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1740
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:133
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:144
+msgid "Source work URL"
+msgstr "원저작물의 URL"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1451
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1744
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:155
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:166
+msgid "More permissions URL"
+msgstr "추가 라이선스의 URL"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1462
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1749
+msgid "Format of work"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1468
+msgid "Other / Multiple formats"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1472
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:47
+msgid "Audio"
+msgstr "오디오"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1476
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:49
+msgid "Video"
+msgstr "비디오"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1480
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:51
+msgid "Image"
+msgstr "이미지"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1484
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:53
+msgid "Text"
+msgstr "텍스트"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1488
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:55
+msgid "Dataset"
+msgstr "데이터세트"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1491
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:57
+msgid "Interactive"
+msgstr "인터랙티브"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1500
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1753
+msgid "License mark"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1511
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1760
+msgid "Offline"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1525
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1769
+msgid "Have a web page?"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1528
+msgid "Copy this code to let your visitors know!"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1537
+msgid "Normal Icon"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1543
+msgid "Compact Icon"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1551
+msgid "XMP Embeded Metadata"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1555
+msgid ""
+"CC metadata can be embedded into images and other many other file formats!  <a target=\"_blank\" href=\"http://wiki.creativecommons.org/XMP\">See the wiki for more info</a>.\n"
+"            "
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1560
+#, python-format
+msgid ""
+"<a id=\"xmp_download_link\" "
+"href=\"/choose/metadata.xmp?%(last_query)s\">Download metadata.xmp</a> for "
+"<br/> <span id=\"xmp_license_name\">%(license_name)s</span>"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1567
+msgid "Non-digital works?"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1571
+msgid "Downloadable license graphics."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1574
+msgid "How to mark video and other media formats."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1576
+msgid ""
+"To mark a document not on the web, add the following text to your work:"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1580
+#, python-format
+msgid ""
+"This work is licensed under the Creative Commons %(license_name)s License. "
+"To view a copy of this license, visit %(license_url)s."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1602
+msgid ""
+"Learn <a href=\"http://wiki.creativecommons.org/Publish\">how to share your "
+"work with existing communities</a> that have enabled Creative Commons "
+"licensing."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1613
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:93
+msgid ""
+"Creative Commons is a non-profit organization.<br /> We need your support to"
+" continue providing these tools.<br /> <a "
+"href=\"https://creativecommons.net/donate/\">Donate today!</a>"
+msgstr "크리에이티브 커먼즈는 비영리 단체입니다.<br /> 이런 도구를 지속적으로 제공하기 위해서 여러분의 도움이 필요합니다.<br /> <a href=\"https://creativecommons.net/donate/\">기부하기</a>"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1627
+msgid "close popup"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1648
+msgid ""
+"The licensor permits others to create and distribute derivative works but "
+"only under the same or a <a target=\"_blank\" "
+"href=\"http://creativecommons.org/compatiblelicenses\">compatible</a> "
+"license."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1650
+msgid ""
+"The licensor permits others to copy, distribute, display and perform only "
+"unaltered copies of the work, but not create and distribute derivative works"
+" based on it."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1663
+msgid "License Jurisdiction:"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1665
+msgid ""
+"Use the option \"International\" for the most recent license that is also "
+"jurisdiction-neutral and effective globally. If the licenses have been "
+"ported to your jurisdiction, you may wish to chose your jurisdiction's "
+"ported licenses if they account for some aspect of local law that the "
+"international licenses do not address specifically. Note, however, that some"
+" of the ported licenses are not of the latest, most up-to-date license "
+"version of the CC licenses (currently 3.0). You should consider <a "
+"target=\"_blank\" hrf=\"\">which license is better suited to your needs</a>."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1676
+msgid ""
+"The \"Selected License\" panel displays information about the license\n"
+"        that was described in the \"License Features\" panel.  Changing the values in the\n"
+"        \"License Features\" panel will update the information displayed here."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1680
+msgid "Approved for Free Cultural Works"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1681
+msgid ""
+"<p>\n"
+"        If the selected license provides the freedoms required of a free culture license, \n"
+"        then the \"Approved for Free Cultural Works\" icon appears on this panel.  This \n"
+"        feature is intended to assist you in making a more informed decision.\n"
+"        NonCommercial and NoDerivatives licenses include additional restrictions\n"
+"        which, by definition, prevent them from being considered free culture licenses.\n"
+"      </p>\n"
+"      <p>\n"
+"        While our non-free culture licenses are useful in particular circumstances, unintended\n"
+"        consequences may result from their use (such as license incompatibility).  \n"
+"        For example, a work that is under the license \"Attribution-NonCommercial-ShareAlike\" \n"
+"        may not be combined with a work licensed \"Attribution-ShareAlike\" because putting\n"
+"        the resulting work under either license violates the other by either\n"
+"        adding or removing the NonCommercial restriction.\n"
+"      </p>\n"
+"      <p>\n"
+"        A real world example of license incompatibility:  Works with the NonCommercial\n"
+"        or the NoDerivatives restriction may not be posted to Wikipedia, because Wikipedia uses\n"
+"        \"Attribution-ShareAlike\" for all of its content.\n"
+"      </p>"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1703
+msgid ""
+"Freedomdefined.org is a great source of information about free culture.\n"
+"        The <a href=\"http://freedomdefined.org/Definition\">free culture definition</a> \n"
+"        and <a href=\"http://freedomdefined.org/Permissible_restrictions\">permissible restrictions</a>\n"
+"        pages are wonderful starting points for further learning."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1719
+msgid ""
+"This information is embedded in a machine-readable format.  This allows "
+"search engines to index additional information about your work and allows "
+"people coming to the license deed from your page to see information about "
+"how to attribute your work."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1722
+msgid ""
+"<a target=\"_blank\" href=\"http://wiki.creativecommons.org/Metadata\">More "
+"information</a> on Creative Commons metadata is available."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1728
+#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:76
+msgid "The title of the work you are licensing."
+msgstr "이용을 허락하고자 하는 저작물의 제목"
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1732
+msgid ""
+"The name of the person who should receive attribution for the work. Most "
+"often, this is the author.\n"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1737
+msgid ""
+"The URL to which the work should be attributed. For example, the work's page"
+" on the author's site."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1741
+msgid "The URL of the work upon which this work is based or derived."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1745
+msgid ""
+"A URL where a user can find information about obtaining rights that are not "
+"already permitted by the CC license."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1750
+msgid ""
+"This describes what kind of work is being licensed.  For example, a "
+"photograph would have the \"Image\" format.  If unsure, choose \"Other / "
+"Multiple formats\"."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1755
+msgid ""
+"The \"License Mark\" select box determines the content of the bottom right "
+"panel.  That panel provides a means of marking your work in a consistent and"
+" standardized way."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1757
+msgid ""
+"HTML is provided that you can copy into your webpage.  The HTML is annotated"
+" with machine-readable <a target=\"_blank\" "
+"href=\"http://wiki.creativecommons.org/Metadata\">metadata</a>.  This allows"
+" search engines to find similarly licensed works, and for tools to "
+"automatically recognize information about the work (such as who authored "
+"it)."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1759
+msgid ""
+"An <a target=\"_blank\" href=\"http://wiki.creativecommons.org/XMP\">XMP</a>"
+" file can be embedded in a variety of file formats, such as PDFs."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1761
+msgid ""
+"Provides a simple plain text notice that can be used to mark offline works"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1772
+msgid ""
+"The HTML provided in this panel may be pasted into your website to display "
+"which license applies to your work, as well as attribution information.  The"
+" HTML combines information provided in the \"License Features\" panel and "
+"the \"Help others attribute you!\" panel.  The HTML also contains <a "
+"target=\"_blank\" href=\"http://wiki.creativecommons.org/RDFa\">RDFa</a> "
+"metadata, which allows search engines to accurately determine which license "
+"your work is under, and how you want to be attributed."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1775
+msgid ""
+"This panel also contains a preview of what the HTML will look like when "
+"included in your website.  The radio buttons at the bottom of the panel may "
+"be used to change the size and appearance of the license icon in the HTML."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/nonweb_popup.html:12
+msgid ""
+"This work is in the Public Domain. To view a copy of the public domain "
+"certification, visit http://creativecommons.org/licenses/publicdomain/ or "
+"send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain "
+"View, California, 94041, USA."
+msgstr "이 콘텐츠는 퍼블릭 도메인에 해당합니다. 퍼블릭 도메인 인증서를 보시려면 http://creativecommons.org/licenses/publicdomain/를 방문하거나, 다음의 주소로 서면 요청해주십시오. Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:19
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:47
@@ -1329,13 +1754,6 @@ msgid ""
 "href=\"http://wiki.creativecommons.org/Website/Publish\">Read our "
 "tutorial</a>."
 msgstr "도움이 필요하세요? <a href=\"http://wiki.creativecommons.org/Website/Publish\">지침서를 참조하세요</a>."
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:93
-msgid ""
-"Creative Commons is a non-profit organization.<br /> We need your support to"
-" continue providing these tools.<br /> <a "
-"href=\"https://creativecommons.net/donate/\">Donate today!</a>"
-msgstr "크리에이티브 커먼즈는 비영리 단체입니다.<br /> 이런 도구를 지속적으로 제공하기 위해서 여러분의 도움이 필요합니다.<br /> <a href=\"https://creativecommons.net/donate/\">기부하기</a>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:105
 msgid ""
@@ -1681,8 +2099,8 @@ msgid ""
 "An error occurred when we tried to send the email message; you can try "
 "clicking the Back button and double checking your email address.  If the "
 "address you used (%(email_addr)s) was correct you can <a "
-"href=\"/contact\">contact us</a>."
-msgstr "이메일 메시지를 보내는중에 오류가 발생했습니다. '뒤로' 버튼을 눌러 이전 페이지로 돌아가 이메일 주소가 맞는지 확인해주시기 바랍니다. 사용한 주소  (%(email_addr)s)가 정확한 경우, <a href=\"/contact\">이곳</a>으로 연락해주시기 바랍니다."
+"href=\"/about/contact\">contact us</a>."
+msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:75
 msgid ""
@@ -1738,13 +2156,6 @@ msgstr "작성을 완료한 뒤에도 최종 인증서 생성 전에 선택을 �
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-2.html:37
 msgid "About the work you are certifying"
 msgstr "인증 대상 저작물"
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-2.html:50
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:101
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:62
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:73
-msgid "Title of work"
-msgstr "저작물의 제목"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-2.html:66
 msgid "proceed"
@@ -2020,49 +2431,11 @@ msgstr "저작물의 형태:"
 msgid "Other"
 msgstr "기타"
 
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:47
-msgid "Audio"
-msgstr "오디오"
-
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:49
-msgid "Video"
-msgstr "비디오"
-
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:51
-msgid "Image"
-msgstr "이미지"
-
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:53
-msgid "Text"
-msgstr "텍스트"
-
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:55
-msgid "Dataset"
-msgstr "데이터세트"
-
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:57
-msgid "Interactive"
-msgstr "인터랙티브"
-
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:76
-msgid "The title of the work you are licensing."
-msgstr "이용을 허락하고자 하는 저작물의 제목"
-
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:85
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:97
-msgid "Attribute work to name"
-msgstr "저작자 이름"
-
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:100
 msgid ""
 "The name users of the work should give attribution to. For example, the name"
 " of the work's author."
 msgstr "저작물의 이용자가 표시해야 하는 이름. 예: 저작자의 이름."
-
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:110
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:122
-msgid "Attribute work to URL"
-msgstr "저작물의 URL"
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:125
 msgid ""
@@ -2070,19 +2443,9 @@ msgid ""
 "the author's site."
 msgstr "저작물의 이용자가 링크 시켜야 하는 URL. 예: 저작자 사이트의 해당 페이지."
 
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:133
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:144
-msgid "Source work URL"
-msgstr "원저작물의 URL"
-
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:147
 msgid "A work another is derived from."
 msgstr "다른 저작물을 이용하여 창작한 경우 그 원저작물"
-
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:155
-#: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:166
-msgid "More permissions URL"
-msgstr "추가 라이선스의 URL"
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:169
 msgid ""
@@ -2748,30 +3111,30 @@ msgid ""
 msgstr "(by %(author)s)이(가) 작성하고 %(curator)s이(가) 신고한 이 저작물은 일체의 저작권 규제로부터 자유롭습니다."
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Developing Nations"
-msgstr "개발도상국"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU General Public License"
-msgstr "GNU 일반 공중 사용 허가서"
+msgid "Generic"
+msgstr "일반"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "GNU Lesser General Public License"
 msgstr "GNU 일반 공중 사용 허가서"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Generic"
-msgstr "일반"
+msgid "Developing Nations"
+msgstr "개발도상국"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
-msgid "Korea"
-msgstr "대한민국"
+msgid "Unported"
+msgstr "Unported"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Universal"
 msgstr "보편적"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Unported"
-msgstr "Unported"
+msgid "GNU General Public License"
+msgstr "GNU 일반 공중 사용 허가서"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
+msgid "Korea"
+msgstr "대한민국"
