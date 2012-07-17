@@ -4,14 +4,14 @@
 # 
 # Translators:
 #   <claudio@derechosdigitales.org>, 2012.
-# Nathan Kinkade <nkinkade@creativecommons.org>, 2011.
+# Nathan Kinkade <nkinkade@creativecommons.org>, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
-"POT-Creation-Date: 2012-07-13 12:46-0500\n"
-"PO-Revision-Date: 2012-07-13 17:47+0000\n"
-"Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
+"POT-Creation-Date: 2012-07-13 14:21-0500\n"
+"PO-Revision-Date: 2012-07-17 19:51+0000\n"
+"Last-Translator: Nathan Kinkade <nkinkade@creativecommons.org>\n"
 "Language-Team: Spanish (Castilian) (http://www.transifex.com/projects/p/CC/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1298,13 +1298,11 @@ msgid "Send"
 msgstr "Enviar"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:75
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/nonweb_popup.html:14
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1580
 #, python-format
 msgid ""
 "This work is licensed under the Creative Commons %(license_name)s License. "
-"To view a copy of this license, visit %(license_url)s or send a letter to "
-"Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, "
-"94041, USA."
+"To view a copy of this license, visit %(license_url)s."
 msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1228
@@ -1511,13 +1509,6 @@ msgid ""
 "To mark a document not on the web, add the following text to your work:"
 msgstr ""
 
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1580
-#, python-format
-msgid ""
-"This work is licensed under the Creative Commons %(license_name)s License. "
-"To view a copy of this license, visit %(license_url)s."
-msgstr ""
-
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1602
 msgid ""
 "Learn <a href=\"http://wiki.creativecommons.org/Publish\">how to share your "
@@ -1711,6 +1702,15 @@ msgid ""
 "certification, visit http://creativecommons.org/licenses/publicdomain/ or "
 "send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain "
 "View, California, 94041, USA."
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/nonweb_popup.html:14
+#, python-format
+msgid ""
+"This work is licensed under the Creative Commons %(license_name)s License. "
+"To view a copy of this license, visit %(license_url)s or send a letter to "
+"Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, "
+"94041, USA."
 msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:19
@@ -2505,7 +2505,7 @@ msgid ""
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
 " id=\"fair_use\" class=\"helpLink\">fair use</a> rights, or other applicable"
 " copyright exceptions and limitations;"
-msgstr "Los derechos derivados de <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\" id=\"fair_use\" class=\"helpLink\">usos legítimos</a>u otras limitaciones reconocidas por ley no se ven afectados por lo anterior."
+msgstr "Los derechos derivados de <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\" id=\"fair_use\" class=\"helpLink\">usos legítimos</a> u otras limitaciones reconocidas por ley no se ven afectados por lo anterior."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:72
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:79
@@ -3111,6 +3111,19 @@ msgid "Generic"
 msgstr "Genérica"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU General Public License"
+msgstr "Licencia Pública General de GNU"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "Unported"
+msgstr "Unported"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
+msgid "Korea"
+msgstr ""
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "GNU Lesser General Public License"
 msgstr "Licencia Pública General Menor de GNU"
 
@@ -3119,18 +3132,5 @@ msgid "Developing Nations"
 msgstr "Naciones en desarrollo"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Unported"
-msgstr "Unported"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Universal"
 msgstr "Universal"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU General Public License"
-msgstr "Licencia Pública General de GNU"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
-msgid "Korea"
-msgstr ""
