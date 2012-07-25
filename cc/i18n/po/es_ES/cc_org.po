@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
-"POT-Creation-Date: 2012-07-13 12:46-0500\n"
-"PO-Revision-Date: 2012-07-13 17:47+0000\n"
-"Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
+"POT-Creation-Date: 2012-07-13 14:21-0500\n"
+"PO-Revision-Date: 2012-07-25 08:48+0000\n"
+"Last-Translator: ilabastida <ilabastida@ub.edu>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/CC/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1299,14 +1299,12 @@ msgid "Send"
 msgstr "Enviar"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:75
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/nonweb_popup.html:14
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1580
 #, python-format
 msgid ""
 "This work is licensed under the Creative Commons %(license_name)s License. "
-"To view a copy of this license, visit %(license_url)s or send a letter to "
-"Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, "
-"94041, USA."
-msgstr "Esta obra está sujeta a la licencia %(license_name)s de Creative Commons. Para ver una copia de esta licencia, visite %(license_url)s o envie una carta a Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA."
+"To view a copy of this license, visit %(license_url)s."
+msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1228
 msgid "New to Creative Commons?"
@@ -1418,7 +1416,7 @@ msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1468
 msgid "Other / Multiple formats"
-msgstr ""
+msgstr "Otros / Múltiples formatos"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1472
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:47
@@ -1458,12 +1456,12 @@ msgstr ""
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1511
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1760
 msgid "Offline"
-msgstr ""
+msgstr "Fuera de línea"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1525
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1769
 msgid "Have a web page?"
-msgstr ""
+msgstr "¿Tiene una página web?"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1528
 msgid "Copy this code to let your visitors know!"
@@ -1471,7 +1469,7 @@ msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1537
 msgid "Normal Icon"
-msgstr ""
+msgstr "Icono normal"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1543
 msgid "Compact Icon"
@@ -1510,13 +1508,6 @@ msgstr ""
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1576
 msgid ""
 "To mark a document not on the web, add the following text to your work:"
-msgstr ""
-
-#: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1580
-#, python-format
-msgid ""
-"This work is licensed under the Creative Commons %(license_name)s License. "
-"To view a copy of this license, visit %(license_url)s."
 msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1602
@@ -1713,6 +1704,15 @@ msgid ""
 "send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain "
 "View, California, 94041, USA."
 msgstr "Esta obra pertenece al dominio público. Par ver una copia del certificado de dominio público, acceda a http://creativecommons.org/licenses/publicdomain/ o envie una carta a Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA."
+
+#: checkouts/cc.engine/cc/engine/templates/chooser_pages/nonweb_popup.html:14
+#, python-format
+msgid ""
+"This work is licensed under the Creative Commons %(license_name)s License. "
+"To view a copy of this license, visit %(license_url)s or send a letter to "
+"Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, "
+"94041, USA."
+msgstr "Esta obra está sujeta a la licencia %(license_name)s de Creative Commons. Para ver una copia de esta licencia, visite %(license_url)s o envie una carta a Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:19
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:47
@@ -3112,6 +3112,19 @@ msgid "Generic"
 msgstr "Genérica"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "GNU General Public License"
+msgstr "Licencia Pública General de GNU"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+msgid "Unported"
+msgstr "Unported"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
+msgid "Korea"
+msgstr "Corea"
+
+#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "GNU Lesser General Public License"
 msgstr "Licencia Pública General Menor de GNU"
 
@@ -3120,18 +3133,5 @@ msgid "Developing Nations"
 msgstr "Naciones en desarrollo"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "Unported"
-msgstr "Unported"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Universal"
 msgstr "Universal"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-msgid "GNU General Public License"
-msgstr "Licencia Pública General de GNU"
-
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-#: checkouts/cc.licenserdf/cc/licenserdf/rdf/jurisdictions.rdf:0
-msgid "Korea"
-msgstr "Corea"
