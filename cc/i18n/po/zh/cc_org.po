@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
 "POT-Creation-Date: 2012-08-03 17:58-0400\n"
-"PO-Revision-Date: 2012-10-04 11:16+0000\n"
+"PO-Revision-Date: 2012-10-04 13:00+0000\n"
 "Last-Translator: xinxingzhi <xingzhi.xin@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/CC/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -786,13 +786,13 @@ msgstr ""
 msgid ""
 "You must attribute this work to <a "
 "href=\"%(attributionURL)s\">%(attributionName)s</a> (with link)."
-msgstr ""
+msgstr "你必须将本作品署名为”<a href=\"%(attributionURL)s\">%(attributionName)s</a>创作“(附链接)。"
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/more_permissions.html:2
 msgid ""
 "<strong>Permissions beyond</strong> the scope of this public license are "
 "available at"
-msgstr ""
+msgstr "本公共许可协议<strong>范围之外的使用权限</strong>，可从以下网页获得："
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/registration.html:2
 #, python-format
@@ -800,7 +800,7 @@ msgid ""
 "<a href=\"%(owner_url)s\">%(owner_name)s</a> has registered <a "
 "href=\"%(lookup_uri)s\">this work</a> at the <nobr><a "
 "href=\"%(network_url)s\">%(network_name)s</a></nobr>"
-msgstr ""
+msgstr "<a href=\"%(owner_url)s\">%(owner_name)s</a>已经在<nobr><a href=\"%(network_url)s\">%(network_name)s</a></nobr>注册了<a href=\"%(lookup_uri)s\">本作品</a>。"
 
 #: checkouts/cc.engine/cc/engine/util.py:537
 #, python-format
@@ -1752,7 +1752,7 @@ msgid ""
 "Need more help? <a "
 "href=\"http://wiki.creativecommons.org/Website/Publish\">Read our "
 "tutorial</a>."
-msgstr ""
+msgstr "需要更多帮助？ <a href=\"http://wiki.creativecommons.org/Website/Publish\">请阅读我们的教程。</a>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:105
 msgid ""
@@ -1783,7 +1783,7 @@ msgid ""
 "onclick=\"window.open('non-web-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">add this text</a> to your work."
-msgstr ""
+msgstr "要为不在网络上发布的文件添加CC协议标志，<a href=\"non-web-popup?%(url_vars)s\" onclick=\"window.open('non-web-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">添加这段文字</a>到你的作品中。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:121
 #, python-format
@@ -2200,7 +2200,7 @@ msgstr "您已经选择公共领域捐献协议，请用适当的方式标记作
 msgid ""
 "To mark content on a web page, the HTML to display the button is as follows "
 "and be sure to <a href=\"/technology/web\">follow the guidelines here</a>:"
-msgstr ""
+msgstr "要为网页上的内容显示许可标志，可使用以下HTML代码显示CC图标。可<a href=\"/technology/web\">参考以下指南</a>："
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-4.html:34
 msgid "Get HTML and email it to yourself"
@@ -2460,7 +2460,7 @@ msgid ""
 "Creative Commons has <a "
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
 "tool</a> and does not recommend that it be applied to works."
-msgstr ""
+msgstr "知识共享组织已<a href=\"http://creativecommons.org/retiredlicenses\">撤下这个法律工具</>，我们不建议对作品使用此协议。"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:23
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:20
@@ -2776,7 +2776,7 @@ msgid ""
 "Apart from the remix rights granted under this license, the author's <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
-msgstr ""
+msgstr "除本许可协议授权的remix权利外，作者的\nApart from the remix rights granted under this license, the author's <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\" id=\"moral_rights\" class=\"helpLink\">人身权</a>；"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:179
 msgid "Notice"
@@ -3024,7 +3024,7 @@ msgstr "知识共享许可协议"
 msgid ""
 "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr "%(work_title)s 由 %(work_author)s 创作，采用 <a rel=\"license\" href=\"%(license_url)s\">知识共享 %(license_name)s 许可协议</a>进行许可。"
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:207
 #, python-format
@@ -3050,7 +3050,7 @@ msgstr "基于%(source_link)s上的作品创作。"
 msgid ""
 "Permissions beyond the scope of this license may be available at "
 "%(more_perms_link)s."
-msgstr "Permissions beyond the scope of this license may be available at %(more_perms_link)s."
+msgstr "本许可协议授权之外的使用权限可以从 %(more_perms_link)s 处获得。"
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:321
 #, python-format
@@ -3058,7 +3058,7 @@ msgid ""
 "This %(work_type)s is in the <a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
 "Domain</a>."
-msgstr ""
+msgstr "本%(work_type)s 处于 <a rel=\"license\" href=\"http://creativecommons.org/licenses/publicdomain/\">公共领域</a>。"
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:335
 msgid "This work is free of known copyright restrictions."
