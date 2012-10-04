@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
 "POT-Creation-Date: 2012-08-03 17:58-0400\n"
-"PO-Revision-Date: 2012-10-04 15:00+0000\n"
+"PO-Revision-Date: 2012-10-04 15:50+0000\n"
 "Last-Translator: xinxingzhi <xingzhi.xin@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/CC/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -1447,7 +1447,7 @@ msgstr "数据集"
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1497
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:57
 msgid "Interactive"
-msgstr "互动"
+msgstr "互动作品"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1506
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1756
@@ -1816,7 +1816,7 @@ msgid ""
 "href=\"%(cc0_url)s\">CC0</a>. If you're sharing a work that isn't covered by"
 " copyright or on which the copyright has expired, choose the <a "
 "href=\"%(pd_url)s\">Public Domain Mark</a>."
-msgstr ""
+msgstr "如果你想无条件地分享你的作品，选择<a href=\"%(cc0_url)s\">CC0</a>。如果你想分享一件不受著作权保护或者著作权已过期的作品，选择 <a href=\"%(pd_url)s\">公共领域标志</a>。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:31
 #, python-format
@@ -1939,7 +1939,7 @@ msgstr "作者姓名"
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:71
 msgid ""
 "You may list multiple authors. If unknown, you may wish to state 'unknown'."
-msgstr ""
+msgstr "你可以列出多个作者。如果作者不详，你可以声明“未知”。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:77
 msgid "Author URL"
@@ -1953,7 +1953,7 @@ msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:90
 msgid "Identifying Individual or Organization"
-msgstr ""
+msgstr "确认个人或者组织"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:93
 msgid "Name"
@@ -1961,7 +1961,7 @@ msgstr "姓名"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:98
 msgid "Identify yourself here."
-msgstr ""
+msgstr "确认你的身份"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:104
 msgid "URL"
@@ -1971,7 +1971,7 @@ msgstr "网址"
 msgid ""
 "This may be your main website or the information page about you on a hosting"
 " website, such as Flickr Commons."
-msgstr ""
+msgstr "这可以是你的主网站，或者一个托管网站（比如Flickr Commons）上有关你信息的页面。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:123
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-3.html:76
@@ -1995,7 +1995,7 @@ msgid ""
 "copyright restrictions and clearly convey that status. When applied "
 "properly, the PDM allows the work to be easily discovered, and provides "
 "valuable information about the work."
-msgstr ""
+msgstr "使用公共领域标志，你可以表明一件作品不受已知的著作权限制，并明确表明这一状态。如果使用恰当，公共领域标志可以使作品容易被发现，并提供该作品相关的有价值的信息。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/index.html:26
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:13
@@ -2010,7 +2010,7 @@ msgid ""
 "though we are developing means for marking and tagging such works. You "
 "should consult with your legal advisor if you are unsure whether you should "
 "use the PDM for a work you have identified."
-msgstr ""
+msgstr "公共领域标志意在用于在全世界皆不受著作权保护的老作品，或者在著作权到期前已被权利人明确在全球范围内置于公共领域的作品。对于那些在部分司法管辖区处于公共领域，但在另一些司法管辖区受著作权保护的作品，不应使用公共领域标志。虽然我们为此类作品开发了标注的方法，但目前知识共享不建议对那些在不同司法管辖区权利状态不同的作品使用公共领域标志。如果你对是否可以使用公共领域标志有疑问，应该咨询你的法律顾问。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/index.html:30
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:17
@@ -2021,7 +2021,7 @@ msgid ""
 "metadata for marking the work you have identified as free of known copyright"
 " restrictions. The work will not be associated with a Public Domain Mark "
 "until you publish it marked as being so."
-msgstr ""
+msgstr "请注意，这<strong>不是一个注册程序</strong>，知识共享不会存储你提供的任何信息。本工具仅指导你生成嵌入元数据的HTML代码，以标志你指定的作品不受任何已知的著作权保护。在你以该标志发布作品前，该作品不会与公共领域标志产生关联。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/index.html:35
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/index.html:45
@@ -2200,7 +2200,7 @@ msgstr "您已经选择公共领域捐献协议，请用适当的方式标记作
 msgid ""
 "To mark content on a web page, the HTML to display the button is as follows "
 "and be sure to <a href=\"/technology/web\">follow the guidelines here</a>:"
-msgstr "要为网页上的内容显示许可标志，可使用以下HTML代码显示CC图标。可<a href=\"/technology/web\">参考以下指南</a>："
+msgstr "要为网页上的内容显示许可标志，可使用以下HTML代码显示CC图标，并请务必<a href=\"/technology/web\">遵守此准则</a>："
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-4.html:34
 msgid "Get HTML and email it to yourself"
@@ -2229,7 +2229,7 @@ msgid ""
 "believe that nobody owns rights to the work, then the <a "
 "href=\"/choose/mark/\">Public Domain Mark</a> may be what you're looking "
 "for."
-msgstr ""
+msgstr "如果你不拥有对本作品的权利，请不要使用CC0。如果你确信没有人对本作品拥有权利，你或许可以使用<a href=\"/choose/mark/\">公共领域标志</a>。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/confirm.html:43
 msgid "No, I Do Not Waive"
@@ -2572,7 +2572,7 @@ msgid ""
 "as <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
 " class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
+msgstr "其他人可能拥有对本作品或与本作品相关的权利，比如专利权或商标权，\n其他人也可能拥有决定本作品如何使用的权利，比如<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\" class=\"helpLink\" id=\"publicity_rights\">商品化权或隐私权</a>。"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:83
 msgid ""
@@ -2804,13 +2804,13 @@ msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:211
 msgid "What does \"Public Domain\" mean?"
-msgstr ""
+msgstr "”公共领域“是什么？"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:215
 msgid ""
 "A work is in the public domain when it is free for use by anyone for any "
 "purpose without restriction under copyright."
-msgstr ""
+msgstr "一个作品如果不受著作权限制，可被任何人以任何方式自由使用，该作品就处于公共领域。"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:227
 msgid "What does \"Fair use\" mean?"
@@ -2883,7 +2883,7 @@ msgid ""
 "work is used, such as <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
 " class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
+msgstr "CC0不影响任何人可能拥有的专利权或商标权，也不影响其他人可能拥有的对本作品本身的权利，或者决定本作品如何使用的权利，比如<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\" class=\"helpLink\" id=\"publicity_rights\">商品化权或隐私权</a>。"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:87
 msgid ""
@@ -3005,7 +3005,7 @@ msgstr "使用本工具"
 #: checkouts/cc.engine/cc/engine/templates/publicdomain/index.html:29
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Public Domain Mark"
-msgstr ""
+msgstr "公共领域标志"
 
 #: checkouts/cc.engine/cc/engine/templates/publicdomain/index.html:32
 msgid ""
