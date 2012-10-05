@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
 "POT-Creation-Date: 2012-08-03 17:58-0400\n"
-"PO-Revision-Date: 2012-10-04 15:50+0000\n"
+"PO-Revision-Date: 2012-10-05 15:04+0000\n"
 "Last-Translator: xinxingzhi <xingzhi.xin@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/CC/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -1248,13 +1248,13 @@ msgid ""
 "international licenses do not, then you may want to consider\n"
 "<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">which\n"
 "license is better suited for your needs</a>."
-msgstr "如果你希望选择的协议使用有关国际条约中的术语和语言，请选择”未本地化版本“。如果你所在的司法管辖区已经有本地化的CC协议版本，而你觉得本地化版本在某些方面比未本地化版本更适合本地的法律规定，你可能需要考虑 <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">哪个许可协议更适合你的需求</a>."
+msgstr "如果你希望选择的协议使用有关国际条约中的术语和语言，请选择”国际“。如果你所在的司法管辖区已经有本地化的CC协议版本，而你觉得本地化版本在某些方面比未本地化版本更适合本地的法律规定，你可能需要考虑 <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">哪个许可协议更适合你的需求</a>。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:202
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1328
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:82
 msgid "International"
-msgstr "未本地化版本"
+msgstr "国际"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:230
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:95
@@ -1371,7 +1371,7 @@ msgstr "更多署名信息"
 msgid ""
 "This part is optional, but filling it out will add machine-readable metadata"
 " to the suggested HTML!"
-msgstr "这部分是可选的，如果填写，将在我们建议的HTML代码中增加计算机可读的元数据。"
+msgstr "这部分是可选的，如果填写，将在我们建议的HTML代码中增加计算机可读取的元数据。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1413
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1730
@@ -1387,14 +1387,14 @@ msgstr "作品标题"
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:85
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:97
 msgid "Attribute work to name"
-msgstr "标识作品署名"
+msgstr "作品署名"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1435
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1739
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:110
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:122
 msgid "Attribute work to URL"
-msgstr "标示作品网址"
+msgstr "作品网址"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1446
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1743
@@ -1561,7 +1561,7 @@ msgid ""
 "target=\"_blank\" "
 "href=\"http://wiki.creativecommons.org/FAQ#Should_I_choose_an_international_license_or_a_ported_license.3F\">which"
 " license is better suited to your needs</a>."
-msgstr ""
+msgstr "如果希望选择最新版本协议，请选择“国际”，这些协议同时不针对特定司法管辖区而制定，在全球范围内都有效。如果你所在的司法管辖区已经有本地化的CC协议版本，而本地化版本包含本地法律的某些规定，而这些方面是未本地化版本没有特别强调的，你可能希望选择已本地化的协议。但是请注意，有些司法管辖区已本地化的CC协议并不是最新版本的（目前最新的版本是3.0）。你可能需要考虑 <a target=\"_blank\" href=\"http://wiki.creativecommons.org/FAQ#Should_I_choose_an_international_license_or_a_ported_license.3F\">哪个许可协议更适合你的需求</a>。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1680
 msgid ""
@@ -1611,7 +1611,7 @@ msgid ""
 "search engines to index additional information about your work and allows "
 "people coming to the license deed from your page to see information about "
 "how to attribute your work."
-msgstr ""
+msgstr "这些信息将以一种计算机可读的格式嵌入到网页中。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1725
 msgid ""
@@ -1816,7 +1816,7 @@ msgid ""
 "href=\"%(cc0_url)s\">CC0</a>. If you're sharing a work that isn't covered by"
 " copyright or on which the copyright has expired, choose the <a "
 "href=\"%(pd_url)s\">Public Domain Mark</a>."
-msgstr "如果你想无条件地分享你的作品，选择<a href=\"%(cc0_url)s\">CC0</a>。如果你想分享一件不受著作权保护或者著作权已过期的作品，选择 <a href=\"%(pd_url)s\">公共领域标志</a>。"
+msgstr "如果你想无条件地分享你的作品，选择<a href=\"%(cc0_url)s\">CC0</a>。如果你想分享一件不受著作权保护或者著作权已过期的作品，选择 <a href=\"%(pd_url)s\">公共领域标识</a>。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:31
 #, python-format
@@ -1995,7 +1995,7 @@ msgid ""
 "copyright restrictions and clearly convey that status. When applied "
 "properly, the PDM allows the work to be easily discovered, and provides "
 "valuable information about the work."
-msgstr "使用公共领域标志，你可以表明一件作品不受已知的著作权限制，并明确表明这一状态。如果使用恰当，公共领域标志可以使作品容易被发现，并提供该作品相关的有价值的信息。"
+msgstr "使用公共领域标识，你可以表明一件作品不受已知的著作权限制，并明确表明这一状态。如果使用恰当，公共领域标识可以使作品容易被发现，并提供该作品相关的有价值的信息。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/index.html:26
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:13
@@ -2010,7 +2010,7 @@ msgid ""
 "though we are developing means for marking and tagging such works. You "
 "should consult with your legal advisor if you are unsure whether you should "
 "use the PDM for a work you have identified."
-msgstr "公共领域标志意在用于在全世界皆不受著作权保护的老作品，或者在著作权到期前已被权利人明确在全球范围内置于公共领域的作品。对于那些在部分司法管辖区处于公共领域，但在另一些司法管辖区受著作权保护的作品，不应使用公共领域标志。虽然我们为此类作品开发了标注的方法，但目前知识共享不建议对那些在不同司法管辖区权利状态不同的作品使用公共领域标志。如果你对是否可以使用公共领域标志有疑问，应该咨询你的法律顾问。"
+msgstr "公共领域标识意在用于在全世界皆不受著作权保护的老作品，或者在著作权到期前已被权利人明确在全球范围内置于公共领域的作品。对于那些在部分司法管辖区处于公共领域，但在另一些司法管辖区受著作权保护的作品，不应使用公共领域标识。虽然我们为此类作品开发了标注的方法，但目前知识共享不建议对那些在不同司法管辖区权利状态不同的作品使用公共领域标识。如果你对是否可以使用公共领域标识有疑问，应该咨询你的法律顾问。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/index.html:30
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:17
@@ -2021,7 +2021,7 @@ msgid ""
 "metadata for marking the work you have identified as free of known copyright"
 " restrictions. The work will not be associated with a Public Domain Mark "
 "until you publish it marked as being so."
-msgstr "请注意，这<strong>不是一个注册程序</strong>，知识共享不会存储你提供的任何信息。本工具仅指导你生成嵌入元数据的HTML代码，以标志你指定的作品不受任何已知的著作权保护。在你以该标志发布作品前，该作品不会与公共领域标志产生关联。"
+msgstr "请注意，这<strong>不是一个注册程序</strong>，知识共享不会存储你提供的任何信息。本工具仅指导你生成嵌入元数据的HTML代码，以标志你指定的作品不受任何已知的著作权保护。在你以该标识发布作品前，该作品不会与公共领域标识产生关联。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/index.html:35
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/index.html:45
@@ -2078,7 +2078,7 @@ msgid ""
 "does not maintain a record of the work you have identified using the Public "
 "Domain Mark. It is up to you to let people know that you have identified the"
 " work using the mark."
-msgstr ""
+msgstr "复制以下文字到你的网站，使访问者了解你指定的作品不受已知的著作权保护。“知识共享”不保存你用公共领域标识指定的作品的记录。使他人知晓你已经用公共领域标识指定了本作品，需要你自己进行。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:58
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:85
@@ -2229,7 +2229,7 @@ msgid ""
 "believe that nobody owns rights to the work, then the <a "
 "href=\"/choose/mark/\">Public Domain Mark</a> may be what you're looking "
 "for."
-msgstr "如果你不拥有对本作品的权利，请不要使用CC0。如果你确信没有人对本作品拥有权利，你或许可以使用<a href=\"/choose/mark/\">公共领域标志</a>。"
+msgstr "如果你不拥有对本作品的权利，请不要使用CC0。如果你确信没有人对本作品拥有权利，你或许可以使用<a href=\"/choose/mark/\">公共领域标识</a>。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/confirm.html:43
 msgid "No, I Do Not Waive"
@@ -2304,7 +2304,7 @@ msgstr "常见问题"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:71
 msgid "Here's a preview of how your waiver will appear on your site:"
-msgstr ""
+msgstr "以下是你的弃权声明在网站上如何显示的预览"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:78
 msgid ""
@@ -2365,7 +2365,7 @@ msgstr "您的网址"
 msgid ""
 "The URL where people can find more information about \n"
 "the work or the person using CC0."
-msgstr ""
+msgstr "一个可以获得使用CC0协议的本作品或其作者的更多信息的网址"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:109
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:125
@@ -2587,7 +2587,7 @@ msgid ""
 "Unless expressly stated otherwise, the person who identified the work makes "
 "no warranties about the work, and disclaims liability for all uses of the "
 "work, to the fullest extent permitted by applicable law."
-msgstr ""
+msgstr "除非另有明确声明，指定本作品的人，在可适用法律允许的最大程度上，不对本作品提供担保，不对任何对本作品的使用承担责任。"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:89
 msgid ""
@@ -2599,25 +2599,25 @@ msgstr ""
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:106
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:111
 msgid "Endorsement"
-msgstr ""
+msgstr "保证"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:110
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:114
 msgid ""
 "In some jurisdictions, wrongfully implying that an author, publisher or "
 "anyone else endorses your use of a work may be unlawful."
-msgstr ""
+msgstr "在一些司法管辖区，错误地暗示作者、出版者或者其他任何人保证你使用作品可能是违法行为。"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:120
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:124
 msgid "Citation"
-msgstr ""
+msgstr "引用"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:124
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:127
 msgid ""
 "Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
+msgstr "把这些HTML代码复制粘贴到你的网页上，就可以很容易地引用这件作品了。"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:134
 msgid "Moral Rights"
@@ -2628,7 +2628,7 @@ msgid ""
 "Copyright laws in most jurisdictions around the world grant creators \"moral"
 " rights\" which may provide some redress if use of a work is considered "
 "\"derogatory\"."
-msgstr ""
+msgstr "全球多数司法管辖区的著作权法赋予创作者以“人身权”，如果对作品的使用被认为对作者造成贬损，“人身权”可提供一些救济。"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:147
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:151
@@ -2655,7 +2655,7 @@ msgid ""
 "Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
 "restrictions in one jurisdiction may not be similarly free in other "
 "jurisdictions."
-msgstr ""
+msgstr "不同司法管辖区的著作权保护期限不同。在某一个司法管辖区已不受著作权保护的作品可能在其他司法管辖区仍然受保护。"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:179
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:186
@@ -2924,7 +2924,7 @@ msgid ""
 " CC0 has been applied. CC makes no warranties about any work or its "
 "copyright status in any jurisdiction, and disclaims all liability for all "
 "uses of any work. </p>"
-msgstr ""
+msgstr "<p>许可协议普通文本不是一份法律文件。它只是用于理解CC0法律文本的一份参考，以普通人易于理解的语言解释法律文本的一些核心条款。可以把它看作是CC0法律文本的用户友好型界面。普通文本本身没有法律价值，其内容也不在CC0中。</p>\n<p>“知识共享”（Creative Commons）不是一家律师事务所也不对外提供法律服务。发行、展示或链接到本许可协议普通文本并不导致“律师—当事人”关系的建立。</p>\n<p>知识共享（CC）不对任何声称采用CC0协议的作品的著作权状态进行验证。CC对于任何作品或其在任何司法管辖区的著作权状态不提供任何担保，也不对任何作品的任何使用行为承担责任。</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:170
 msgid ""
@@ -2934,7 +2934,7 @@ msgstr "这是一份普通人可以理解的<a href=\"./legalcode\">法律文本
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:182
 msgid "Use this tool for your own work."
-msgstr ""
+msgstr "为你自己的作品使用本工具"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:103
 msgid ""
@@ -3005,7 +3005,7 @@ msgstr "使用本工具"
 #: checkouts/cc.engine/cc/engine/templates/publicdomain/index.html:29
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Public Domain Mark"
-msgstr "公共领域标志"
+msgstr "公共领域标识"
 
 #: checkouts/cc.engine/cc/engine/templates/publicdomain/index.html:32
 msgid ""
