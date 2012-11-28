@@ -59,6 +59,7 @@ COUNTRY_MAP = {
     "th": _("Thailand"),
     "tw": _("Taiwan"),
     "ua": _("Ukraine"),
+    "ug": _("Uganda"),
     "uk": _("UK: England & Wales"),
     "us": _("United States"),
     "ve": _("Venezuela"),
