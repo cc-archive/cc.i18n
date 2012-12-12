@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
 "POT-Creation-Date: 2012-08-03 17:58-0400\n"
-"PO-Revision-Date: 2012-12-12 18:04+0000\n"
+"PO-Revision-Date: 2012-12-12 18:53+0000\n"
 "Last-Translator: yihongchang <yhchang@gate.sinica.edu.tw>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/CC/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -1324,7 +1324,7 @@ msgstr "深入了解創用CC授權條款。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1247
 msgid "Want public domain instead?"
-msgstr "希望將著作至於公眾領域？"
+msgstr "希望將著作置於公眾領域？"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1254
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1597
@@ -1560,7 +1560,7 @@ msgid ""
 "target=\"_blank\" "
 "href=\"http://wiki.creativecommons.org/FAQ#Should_I_choose_an_international_license_or_a_ported_license.3F\">which"
 " license is better suited to your needs</a>."
-msgstr ""
+msgstr "如果你希望不指定司法管轄領域並是用於全球，請使用「國際」這個選項。如果授權條款已被導入你所屬的司法管轄領域，且你覺得此司法管轄領域專屬授權條款比國際版本授權條款從當地法律觀點來看更適用的話，請選擇該司法管轄領域。請注意，某些本地話授權條款並非最新版創用CC授權條款（註，台灣條款皆為最新版，現為3.0）。請參閱<a target=\"_blank\" href=\"http://wiki.creativecommons.org/FAQ#Should_I_choose_an_international_license_or_a_ported_license.3F\">哪種授權更符合你的需求</a>。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1680
 msgid ""
@@ -1571,7 +1571,7 @@ msgstr "「選取的授權條款」區塊中顯示的是你在「選擇授權方
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1684
 msgid "Approved for Free Cultural Works"
-msgstr ""
+msgstr "符合自由文化著作認證"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1685
 msgid ""
@@ -1594,7 +1594,7 @@ msgid ""
 "        A real world example of license incompatibility:  Works with the NonCommercial\n"
 "        or the NoDerivatives restriction may not be posted to Wikipedia.\n"
 "      </p>"
-msgstr ""
+msgstr "<p>如果你選取的授權條款符合自由文化授權條款的要求的話，本區塊中會顯示「符合自由文化著作」的圖示。本功能的用意在協助你做選擇。非商業性或禁止改作授權條款中包含了額外的限制而（從定義上）使其無法被視為自由文化勸授權條款。 </p>\n <p>雖然我們的非自由文化授權條款在某些情境中很有用，但也可能帶來一些不在預期中的後果，如授權條款不相容的問題。例如，採用「姓名標示-非商業性-相同方式分享」的著作就無法和「姓名標示-相同方式分享」的著作混搭，這是由於混搭此二授權條款的衍生著作，不管採用哪一個授權條款（商業或非商業性），都違反了另一個授權條款。 </p>\n <p>真實世界中授權條款不相容的例子如，採用非商業或禁止改作授權條款的著作無法發佈於維基百科之上。</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1706
 msgid ""
@@ -1602,7 +1602,7 @@ msgid ""
 "        The <a href=\"http://freedomdefined.org/Definition\">free culture definition</a> \n"
 "        and <a href=\"http://freedomdefined.org/Permissible_restrictions\">permissible restrictions</a>\n"
 "        pages are wonderful starting points for further learning."
-msgstr ""
+msgstr "Freedomdefined.org 中包含許多關於自由文化的相關資訊。你可從<a href=\"http://freedomdefined.org/Definition\">自由文化定義</a>和<a href=\"http://freedomdefined.org/Permissible_restrictions\">容許的限制/a>此二節開始閱讀。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1722
 msgid ""
@@ -1610,13 +1610,13 @@ msgid ""
 "search engines to index additional information about your work and allows "
 "people coming to the license deed from your page to see information about "
 "how to attribute your work."
-msgstr ""
+msgstr "本嵌入資訊是機器可讀資訊。這讓搜尋引擎可以記錄更多關於你的著作的資訊，並允取使用者從你的網頁連結到授權條款時能看到更多關於你的著作的資訊。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1725
 msgid ""
 "<a target=\"_blank\" href=\"http://wiki.creativecommons.org/Metadata\">More "
 "information</a> on Creative Commons metadata is available."
-msgstr ""
+msgstr "參閱<a target=\"_blank\" href=\"http://wiki.creativecommons.org/Metadata\">有關創用CC後設資料的更多資訊</a>。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1731
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:76
@@ -1627,30 +1627,30 @@ msgstr "欲授權之作品名稱"
 msgid ""
 "The name of the person who should receive attribution for the work. Most "
 "often, this is the author.\n"
-msgstr ""
+msgstr "本著作應標示的姓名，通常為作者。\n"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1740
 msgid ""
 "The URL to which the work should be attributed. For example, the work's page"
 " on the author's site."
-msgstr ""
+msgstr "本著作應標示的網址，例如作者網站上關於本著作的頁面。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1744
 msgid "The URL of the work upon which this work is based or derived."
-msgstr ""
+msgstr "本著作如為衍生著作，原始著作的網址。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1748
 msgid ""
 "A URL where a user can find information about obtaining rights that are not "
 "already permitted by the CC license."
-msgstr ""
+msgstr "使用者打算用非本創用CC授權條款使用你的著作時，可以得到更多資訊的網址。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1753
 msgid ""
 "This describes what kind of work is being licensed.  For example, a "
 "photograph would have the \"Image\" format.  If unsure, choose \"Other / "
 "Multiple formats\"."
-msgstr ""
+msgstr "描述著作的類型，如一張照片應標示為「圖像」。如果不確定，請選擇「其他/混和形式。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1758
 msgid ""
@@ -1667,18 +1667,18 @@ msgid ""
 " search engines to find similarly licensed works, and for tools to "
 "automatically recognize information about the work (such as who authored "
 "it)."
-msgstr ""
+msgstr "你可以將HTML碼貼到你的網頁中。這裡的HTML碼包含了機器可讀的<a target=\"_blank\" href=\"http://wiki.creativecommons.org/Metadata\">後設資料</a>，而能讓搜尋引擎找到類似授權的著作，也可讓其他工具自動取得關於本著作的相關資訊，如作者名。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1762
 msgid ""
 "An <a target=\"_blank\" href=\"http://wiki.creativecommons.org/XMP\">XMP</a>"
 " file can be embedded in a variety of file formats, such as PDFs."
-msgstr ""
+msgstr "<a target=\"_blank\" href=\"http://wiki.creativecommons.org/XMP\">XMP</a> 檔案可被嵌入於各種檔案格式中，如PDF檔。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1764
 msgid ""
 "Provides a simple plain text notice that can be used to mark offline works"
-msgstr ""
+msgstr "這裡提供了簡單的純文字說明，可用於標示不在網路上的著作。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1775
 msgid ""
@@ -1696,7 +1696,7 @@ msgid ""
 "This panel also contains a preview of what the HTML will look like when "
 "included in your website.  The radio buttons at the bottom of the panel may "
 "be used to change the size and appearance of the license icon in the HTML."
-msgstr ""
+msgstr "本區塊也包含HTML碼在你的網站上看起來的樣子。你可點選最下方的選項以改變授權條的圖示的大小和樣式。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/nonweb_popup.html:12
 msgid ""
@@ -2098,7 +2098,7 @@ msgid ""
 "clicking the Back button and double checking your email address.  If the "
 "address you used (%(email_addr)s) was correct you can <a "
 "href=\"/contact\">contact us</a>."
-msgstr ""
+msgstr "寄送電子郵件時發生錯誤。請試著按上一頁並檢查電子郵件位址是否正確。如果你確認電子郵件位址 (%(email_addr)s) 是正確的，你可以<a href=\"/contact\">聯絡我們</a>。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:75
 msgid ""
