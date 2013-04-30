@@ -19,6 +19,7 @@ COUNTRY_MAP = {
     "dk": _("Denmark"),
     "ec": _("Ecuador"),
     "ee": _("Estonia"),
+    "eg": _("Egypt"),
     "es": _("Spain"),
     "es-ca": _("Catalonia"),
     "fi": _("Finland"),
