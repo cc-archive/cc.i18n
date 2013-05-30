@@ -173,33 +173,3 @@ LICENSE_NAME_MAP = {
     "sa": _("ShareAlike"),
     "sampling": _("Sampling"),
     "sampling+": _("Sampling Plus")}
-
-
-CHARACTERISTIC_TITLE_MAP = {
-  "by": _("Attribution"),
-  "nc": _("Noncommercial"),
-  "nd": _("No Derivative Works"),
-  "sa": _("Share Alike")}
-
-
-CHARACTERISTIC_BRIEF_DESC_MAP = {
-    "by": _(
-        "You must attribute the work in the manner specified by the author "
-        "or licensor (but not in any way that suggests that they endorse you "
-        "or your use of the work)."),
-    "na": _(
-        "You may not use this work to advertise for or promote anything but "
-        "the work you create from it."),
-    "nc": _("You may not use this work for commercial purposes."),
-    "nd": _("You may not alter, transform, or build upon this work."),
-    "no": _(
-        "You may not perform, display, or distribute copies of this whole "
-        "work for any purpose."),
-    "sa": _(
-        "If you alter, transform, or build upon this work, you may "
-        "distribute the resulting work only under the same or similar "
-        "license to this one."),
-    "sa_bysa30": _(
-        "If you alter, transform, or build upon this work, you may "
-        "distribute the resulting work only under the same, similar "
-        "or a compatible license.")}
