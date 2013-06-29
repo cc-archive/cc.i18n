@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
 "POT-Creation-Date: 2013-05-02 10:02-0400\n"
-"PO-Revision-Date: 2013-06-29 19:44+0000\n"
+"PO-Revision-Date: 2013-06-29 20:09+0000\n"
 "Last-Translator: reza1615 <reza.energy@gmail.com>\n"
 "Language-Team: Persian (http://www.transifex.com/projects/p/CC/language/fa/)\n"
 "MIME-Version: 1.0\n"
@@ -640,7 +640,7 @@ msgstr "تخصیص"
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:306
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NonCommercial"
-msgstr ""
+msgstr "اختیار-غیرتجاری"
 
 #: cc/i18n/mappers.py:162
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:362
@@ -658,12 +658,12 @@ msgstr ""
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:279
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NoDerivs"
-msgstr ""
+msgstr "اختیار-غیراشتقاقی"
 
 #: cc/i18n/mappers.py:165
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NoDerivs-NonCommercial"
-msgstr ""
+msgstr "اختیار-غیراشتقاقی-غیرتجاری"
 
 #: cc/i18n/mappers.py:166
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:250
@@ -690,7 +690,7 @@ msgstr ""
 #: cc/i18n/mappers.py:170
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "NoDerivs"
-msgstr ""
+msgstr "غیراشتقاقی"
 
 #: cc/i18n/mappers.py:171
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
@@ -855,7 +855,7 @@ msgstr "کار"
 msgid ""
 "This %(work_type)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
+msgstr "این %(work_type)s مجوز دارد تحت <a rel=\"license\" href=\"%(license_url)s\">مجوز کریتیو کامنز %(license_name)s</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/404.html:3
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/license_catcher.html:3
@@ -1227,7 +1227,7 @@ msgstr "مجوز دهنده اجازه می‌دهد به دیگران برای 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1269
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1647
 msgid "Allow modifications of your work?"
-msgstr ""
+msgstr "برای ویرایش اثر شما اجازه دارد؟"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:107
 msgid "Allow Derivative Works"
@@ -1253,7 +1253,7 @@ msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:177
 msgid "Jurisdiction"
-msgstr ""
+msgstr "حوزهٔ قضائی"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:180
 msgid ""
@@ -1761,7 +1761,7 @@ msgid ""
 "html-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">emailed to yourself.</a>"
-msgstr ""
+msgstr "محتویات جعبه بالایی را انتخاب و کپی کنید یا آن را <a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">برای خود ایمیل نمائید.</a>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:85
 msgid ""
@@ -1848,7 +1848,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
+msgstr "<strong>استفادهٔ تجاری از اثر شما اجازه دارد؟?</strong> (<a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">اطلاعات بیشتر</a> <a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:43
 #, python-format
@@ -1880,7 +1880,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
+msgstr "بله، همانند اشتراک همسان دیگران (<a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">اطلاعات بیشتر</a> <a href=\"/characteristic/sa?lang=%(lang)s\" onclick=\"window.open('/characteristic/sa?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:99
 msgid ""
@@ -1898,7 +1898,7 @@ msgid ""
 "You have selected the <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s License</b></a>.<br>\n"
 "This license is permanently located at<br>\n"
 "<b><tt>%(license_url)s</tt></b>."
-msgstr ""
+msgstr "شما باید مجوز <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s انتخاب کنید</b></a>.<br>\nاین مجوز به صورت دائمی موجود است در <br>\n<b><tt>%(license_url)s</tt></b>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:25
@@ -2524,7 +2524,7 @@ msgid ""
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
 " id=\"fair_use\" class=\"helpLink\">fair use</a> rights, or other applicable"
 " copyright exceptions and limitations;"
-msgstr ""
+msgstr "شرایط استفادهٔ منصفانه یا<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\" id=\"fair_use\" class=\"helpLink\">حقوق استفاده منصفانه</a> یا محدودیت‌های حق‌تکثیر دیگر;"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:72
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:79
@@ -2738,7 +2738,7 @@ msgstr "نمایش و نشر کپی‌ها و اجرای همه اثر برای 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:63
 msgid ""
 "For any reuse, you must make clear to others the license terms of this work."
-msgstr ""
+msgstr "برای هرگونه استفاده مجدد، شما باید شرایط استفاده از این اثر را برای دیگران مشخص نمائید."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:69
 msgid "to make commercial use of the work"
@@ -2792,7 +2792,7 @@ msgid ""
 "Apart from the remix rights granted under this license, the author's <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
-msgstr ""
+msgstr "به جز حقوق ترکیبی بدست آمده تحت این مجوز، حقوق<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\" id=\"moral_rights\" class=\"helpLink\">معنوی</a> خالق;"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:179
 msgid "Notice"
@@ -3033,21 +3033,21 @@ msgstr ""
 #: checkouts/cc.license/cc/license/formatters/classes.py:179
 #: checkouts/cc.license/cc/license/formatters/classes.py:317
 msgid "Creative Commons License"
-msgstr ""
+msgstr "مجوز کریتیو کامنز"
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:194
 #, python-format
 msgid ""
 "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
+msgstr "%(work_title)s توسط %(work_author)s مجوز دارد تحت <a rel=\"license\" href=\"%(license_url)s\">کریتیو کامنز %(license_name)s License</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:207
 #, python-format
 msgid ""
 "This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\""
 " href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
+msgstr "این %(work_type)s توسط %(work_author)s مجوز دارد تحت <a rel=\"license\" href=\"%(license_url)s\">مجوز کریتیو کامنز %(license_name)s </a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:218
 #, python-format
@@ -3074,7 +3074,7 @@ msgid ""
 "This %(work_type)s is in the <a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
 "Domain</a>."
-msgstr ""
+msgstr "این %(work_type)s موجود است در <a rel=\"license\" href=\"http://creativecommons.org/licenses/publicdomain/\">دامنهٔ عمومی</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:335
 msgid "This work is free of known copyright restrictions."
