@@ -31,6 +31,7 @@ COUNTRY_MAP = {
     "hu": _("Hungary"),
     "ie": _("Ireland"),
     "il": _("Israel"),
+    "igo": _("IGO"),
     "in": _("India"),
     "it": _("Italy"),
     "jo": _("Jordan"),
