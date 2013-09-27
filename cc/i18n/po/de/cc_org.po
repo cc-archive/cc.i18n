@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: http://code.creativecommons.org/issues/\n"
 "POT-Creation-Date: 2013-05-02 10:02-0400\n"
-"PO-Revision-Date: 2013-08-09 00:02+0000\n"
+"PO-Revision-Date: 2013-09-04 05:49+0000\n"
 "Last-Translator: John Weitzmann <john@creativecommons.de>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/CC/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -235,7 +235,7 @@ msgstr "Serbien"
 
 #: cc/i18n/mappers.py:55 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "UK: Scotland"
-msgstr "Schottland"
+msgstr "UK: Schottland"
 
 #: cc/i18n/mappers.py:56 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Sweden"
@@ -366,7 +366,7 @@ msgstr "Englisch (Singapore)"
 
 #: cc/i18n/mappers.py:90
 msgid "English (US)"
-msgstr "Englisch(US)"
+msgstr "Englisch (US)"
 
 #: cc/i18n/mappers.py:91
 msgid "Esperanto"
@@ -570,7 +570,7 @@ msgstr "Serbisch"
 
 #: cc/i18n/mappers.py:141
 msgid "Sotho"
-msgstr "Sotho (SA)"
+msgstr "Sotho"
 
 #: cc/i18n/mappers.py:142
 msgid "Swedish"
@@ -643,13 +643,13 @@ msgstr "Namensnennung"
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:306
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NonCommercial"
-msgstr "Namensnennung-Nicht-kommerziell"
+msgstr "Namensnennung-Nicht kommerziell"
 
 #: cc/i18n/mappers.py:162
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:362
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NonCommercial-NoDerivs"
-msgstr "Namensnennung-NichtKommerziell-KeineBearbeitung"
+msgstr "Namensnennung - Nicht-kommerziell - Keine Bearbeitung"
 
 #: cc/i18n/mappers.py:163
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:335
@@ -666,7 +666,7 @@ msgstr "Namensnennung-Keine Bearbeitung"
 #: cc/i18n/mappers.py:165
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NoDerivs-NonCommercial"
-msgstr "Namensnennung - Keine Abwandlung - Nicht-kommerziell"
+msgstr "Namensnennung - Keine Bearbeitungen - Nicht-kommerziell"
 
 #: cc/i18n/mappers.py:166
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:250
@@ -734,7 +734,7 @@ msgstr "Keine kommerzielle Nutzung"
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:155
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1795
 msgid "No Derivative Works"
-msgstr "Keine Bearbeitung"
+msgstr "Keine Bearbeitung erlaubt"
 
 #: cc/i18n/mappers.py:182
 #: checkouts/cc.engine/cc/engine/templates/characteristic/sa.html:3
@@ -758,16 +758,16 @@ msgstr "Sie müssen den Namen des Autors/Rechteinhabers in der von ihm festgeleg
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
-msgstr "Abwandlungen und Bearbeitungen erlauben"
+msgstr "Der lizenzierte Inhalt darf nicht zu Promotion- oder Werbezwecken benutzt werden, es sei denn, damit wird ein durch Bearbeitung oder Abwandlung neu entstandener Inhalt beworben."
 
 #: cc/i18n/mappers.py:193
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:49
 msgid "You may not use this work for commercial purposes."
-msgstr "Dieses Werk bzw. dieser Inhalt darf nicht für kommerzielle Zwecke verwendet werden."
+msgstr "Sie dürfen diesen Inhalt nicht für kommerzielle Zwecke nutzen."
 
 #: cc/i18n/mappers.py:194
 msgid "You may not alter, transform, or build upon this work."
-msgstr "Dieses Werk bzw. dieser Inhalt darf nicht bearbeitet, abgewandelt oder in anderer Weise verändert werden."
+msgstr "Sie dürfen diesen Inhalt nicht bearbeiten, abwandeln oder in anderer Weise verändern."
 
 #: cc/i18n/mappers.py:195
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:66
@@ -800,13 +800,13 @@ msgstr "<a href=\"%(subject)s\">%(title)s</a> muss <a href=\"%(attributionURL)s\
 msgid ""
 "You must attribute this work to <a "
 "href=\"%(attributionURL)s\">%(attributionName)s</a> (with link)."
-msgstr "Sie müssen <a href=\"%(attributionURL)s\"> %(attributionName)s </a> (mit Link) als Urheber dieses Werks nennen."
+msgstr "Sie müssen <a href=\"%(attributionURL)s\"> %(attributionName)s </a> (mit Link) als Urheber dieses Inhaltes nennen."
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/more_permissions.html:2
 msgid ""
 "<strong>Permissions beyond</strong> the scope of this public license are "
 "available at"
-msgstr "<strong>Weitere Freiheiten</strong> über diese Lizenz hinaus erhalten Sie unter"
+msgstr "<strong>Weitere Erlaubnisse</strong>, über diese Lizenz hinaus, erhalten Sie unter"
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/registration.html:2
 #, python-format
@@ -814,7 +814,7 @@ msgid ""
 "<a href=\"%(owner_url)s\">%(owner_name)s</a> has registered <a "
 "href=\"%(lookup_uri)s\">this work</a> at the <nobr><a "
 "href=\"%(network_url)s\">%(network_name)s</a></nobr>"
-msgstr "<a href=\"%(owner_url)s\">%(owner_name)s</a> hat <a href=\"%(lookup_uri)s\">dieses Werk bzw, diesen Inhalt</a> bei <nobr><a href=\"%(network_url)s\">%(network_name)s</a></nobr> registriert."
+msgstr "<a href=\"%(owner_url)s\">%(owner_name)s</a> hat <a href=\"%(lookup_uri)s\">diesen Inhalt</a> bei <nobr><a href=\"%(network_url)s\">%(network_name)s</a></nobr> registriert."
 
 #: checkouts/cc.engine/cc/engine/util.py:537
 #, python-format
@@ -858,7 +858,7 @@ msgstr "Werk bzw. Inhalt"
 msgid ""
 "This %(work_type)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr "Dieses %(work_type)s steht unter einer <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s Lizenz</a>."
+msgstr "Dieses %(work_type)s ist lizenziert unter einer <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s Lizenz</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/404.html:3
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/license_catcher.html:3
@@ -1109,7 +1109,7 @@ msgstr "Der Lizenzgeber erlaubt die Vervielfältigung, Verbreitung und öffentli
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:46
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/nonweb_popup.html:27
 msgid "Close window"
-msgstr "Fenster schliessen"
+msgstr "Fenster schließen"
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nc.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1801
@@ -1117,7 +1117,7 @@ msgid ""
 "The licensor permits others to copy, distribute and transmit the work. In "
 "return, licensees may not use the work for commercial purposes — unless they"
 " get the licensor's permission."
-msgstr "Der Lizenzgeber erlaubt die Vervielfältigung, Verbreitung und öffentliche Wiedergabe seines Werkes. Zugleich dürfen die Lizenznehmer das Werk jedoch nicht für kommerzielle Zwecke verwenden - es sei denn, der Lizenzgeber erteilt seine schriftliche Einwilligung."
+msgstr "Der Lizenzgeber erlaubt die Vervielfältigung, Verbreitung und öffentliche Wiedergabe des Inhaltes. Zugleich dürfen die Lizenznehmer den Inhalt jedoch nicht für kommerzielle Zwecke verwenden – es sei denn, der Lizenzgeber stimmt separat zu."
 
 #: checkouts/cc.engine/cc/engine/templates/characteristic/nd.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:158
@@ -1134,7 +1134,7 @@ msgid ""
 "The licensor permits others to distribute derivative works only under the "
 "same license or one compatible with the one that governs the licensor's "
 "work."
-msgstr "Der Lizenzgeber erlaubt die Verbreitung von Bearbeitungen nur unter Verwendung identischer Lizenzbedingungen."
+msgstr "Der Lizenzgeber erlaubt die Verbreitung von Bearbeitungen nur unter Verwendung derselben Lizenz oder einer mit dieser kompatiblen Lizenz."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:13
 msgid ""
@@ -1164,7 +1164,7 @@ msgstr "Wenn Sie eine Lizenz auswählen, erhalten Sie von uns HTML-Code, mit dem
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1301
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1658
 msgid "Allow commercial uses of your work?"
-msgstr "Möchten Sie kommerzielle Nutzungen Ihres Werkes erlauben?"
+msgstr "Möchten Sie kommerzielle Nutzungen Ihres Inhalts erlauben?"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:45
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:98
@@ -1206,7 +1206,7 @@ msgstr "Kommerzielle Nutzung"
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work, including for commercial purposes."
-msgstr "Der Lizenzgeber erlaubt jedermann, den Schutzgegenstand zu vervielfältigen, zu verbreiten, öffentlich zu zeigen und zugänglich zu machen, aufzuführen, auszustellen, auch für kommerzielle Zwecke."
+msgstr "Der Lizenzgeber erlaubt jedermann, den lizenzierten Inhalt zu vervielfältigen, zu verbreiten, öffentlich zu zeigen und zugänglich zu machen, aufzuführen, auszustellen, auch für kommerzielle Zwecke."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:67
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:146
@@ -1224,13 +1224,13 @@ msgstr "Nein"
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work for non-commercial purposes only."
-msgstr "Der Lizenzgeber erlaubt jedermann, den Schutzgegenstand für nicht-kommerzielle Zwecke zu vervielfältigen, zu verbreiten, öffentlich zu zeigen und zugänglich zu machen, aufzuführen und auszustellen."
+msgstr "Der Lizenzgeber erlaubt jedermann, den lizenzierten Inhalt für nicht-kommerzielle Zwecke zu vervielfältigen, zu verbreiten, öffentlich zu zeigen und zugänglich zu machen, aufzuführen und auszustellen."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:89
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1269
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1647
 msgid "Allow modifications of your work?"
-msgstr "Möchten Sie Abwandlungen und Bearbeitungen Ihres Werkes bzw. Inhaltes erlauben?"
+msgstr "Möchten Sie Abwandlungen und Bearbeitungen Ihres Inhaltes erlauben?"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:107
 msgid "Allow Derivative Works"
@@ -1241,7 +1241,7 @@ msgstr "Abwandlungen und Bearbeitungen erlauben"
 msgid ""
 "The licensor permits others to copy, distribute, display and perform the "
 "work, as well as make derivative works based on it."
-msgstr "Der Lizenzgeber erlaubt jedermann, den Schutzgegenstand zu vervielfältigen, zu verbreiten, öffentlich zu zeigen und zugänglich zu machen, aufzuführen, auszustellen und Abwandlungen und Bearbeitungen davon anzufertigen."
+msgstr "Der Lizenzgeber erlaubt jedermann, den lizenzierten Inhalt zu vervielfältigen, zu verbreiten, öffentlich zu zeigen und zugänglich zu machen, aufzuführen, auszustellen und Abwandlungen und Bearbeitungen davon anzufertigen."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:122
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1292
@@ -1267,7 +1267,7 @@ msgid ""
 "international licenses do not, then you may want to consider\n"
 "<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">which\n"
 "license is better suited for your needs</a>."
-msgstr "Wählen Sie die Option \"International\" wenn Sie eine Lizenz verwenden möchten, die in Sprache und Begriffen an internationale Urheberrechtsabkommen angepasst ist. Falls die CC-Lizenzen bereits für Ihr Land portiert wurden und Sie den Eindruck haben, diese Portierungen gehen besser auf irgendwelche Aspekte Ihrer Rechtsordnung ein als die internationalen Lizenzen, überlegen Sie sich, <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">welche Lizenz besser zu Ihren Anforderungen passt</a>."
+msgstr "Wählen Sie die Option \"International\" wenn Sie eine Lizenz verwenden möchten, die in Sprache und Begriffen an internationale Urheberrechtsabkommen angepasst ist. Falls die CC-Lizenzen bereits für Ihr Land portiert wurden und Sie den Eindruck haben, diese Portierungen gehen besser auf bestimmte Aspekte Ihrer Rechtsordnung ein als die internationalen Lizenzen, überlegen Sie sich, <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">welche Lizenz besser zu Ihren Anforderungen passt</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:202
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1328
@@ -1278,7 +1278,7 @@ msgstr "International"
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:230
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:95
 msgid "Select a License"
-msgstr "Lizenzvertrag auswählen"
+msgstr "Eine Lizenz auswählen"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/emailhtml.html:7
 #, python-format
@@ -1292,7 +1292,7 @@ msgstr "<p> Die Informationen über Ihre Auswahl sind Ihnen unter <strong>%(emai
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:7
 msgid "The HTML to display your button is as follows:"
-msgstr "Das HTML für die graphische Darstellung Ihres Buttons ist wie folgt:"
+msgstr "Das HTML zum Anzeigen Ihres Buttons ist wie folgt:"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:14
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/nonweb_popup.html:21
@@ -1306,17 +1306,17 @@ msgid ""
 "information about your works. <a href=\"/learn/technology/usingmarkup\" "
 "target=\"_blank\">More information about adding HTML to your documents "
 "here</a>."
-msgstr "Kopieren Sie den Text und fügen Sie ihn dann in diejenigen Web-Dokumente ein, die Informationen über Ihre Werke enthalten. <a href=\"/learn/technology/usingmarkup\" target=\"_blank\">Weitere Informationen über die Hinzufügung von HTML Code finden Sie hier</a>."
+msgstr "Kopieren Sie den Text einfach und fügen Sie ihn dann in diejenigen Web-Dokumente ein, die Informationen über Ihre Inhalte enthalten. <a href=\"/learn/technology/usingmarkup\" target=\"_blank\">Weitere Informationen über das Einfügen von HTML Code finden Sie hier</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:24
 msgid "Enter your email address to get the HTML by email:"
-msgstr "Bitte geben Sie Ihre Email-Adresse an, um das HTML zugeschickt zu bekommen:"
+msgstr "Geben Sie Ihre E-Mail-Adresse an, um das HTML zugeschickt zu bekommen:"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:39
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:89
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:120
 msgid "Send"
-msgstr "abschicken"
+msgstr "Abschicken"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:75
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1584
@@ -1399,28 +1399,28 @@ msgstr "Dieser Abschnitt ist optional, aber das Ausfüllen wird maschinenlesbare
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:62
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:73
 msgid "Title of work"
-msgstr "Titel des Werkes/Inhaltes"
+msgstr "Titel des Inhaltes"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1424
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1734
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:85
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:97
 msgid "Attribute work to name"
-msgstr "Name oder sonstige Bezeichnung der Person, die als Urheber genannt werden soll"
+msgstr "Name oder Bezeichnung des Rechteinhabers des Inhalts"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1435
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1739
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:110
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:122
 msgid "Attribute work to URL"
-msgstr "Lizenzgegenstand einer URL zuschreiben"
+msgstr "Inhalt einer URL zuschreiben"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1446
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1743
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:133
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:144
 msgid "Source work URL"
-msgstr "URL des als Vorlage genutzten Werkes oder Inhaltes"
+msgstr "URL des als Vorlage genutzten Inhaltes"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1457
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1747
@@ -1724,7 +1724,7 @@ msgid ""
 "certification, visit http://creativecommons.org/licenses/publicdomain/ or "
 "send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain "
 "View, California, 94041, USA."
-msgstr "Dieses Werk ist in der Public Domain (gemeinfrei, nicht schützbar). Um eine Kopie des Gemeinfreiheitszertifikats einzusehen, konsultieren Sie http://creativecommons.org/licenses/publicdomain/ oder brieflich Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA."
+msgstr "Dieses Werk ist Teil der sogenannten Public Domain (das heißt es ist gemeinfrei oder nicht schützbar). Um eine Kopie des Gemeinfreiheitszertifikats einzusehen, besuchen Sie http://creativecommons.org/licenses/publicdomain/ oder schreiben Sie einen Brief an Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/nonweb_popup.html:14
 #, python-format
@@ -1733,7 +1733,7 @@ msgid ""
 "To view a copy of this license, visit %(license_url)s or send a letter to "
 "Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, "
 "94041, USA."
-msgstr "Dieses Werk ist unter einer Creative Commons Lizenz vom Typ %(license_name)s zugänglich. Um eine Kopie dieser Lizenz einzusehen, konsultieren Sie %(license_url)s oder wenden Sie sich brieflich an Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA."
+msgstr "Dieser Inhalt ist unter der Creative-Commons-Lizenz vom Typ %(license_name)s lizenziert. Um eine Kopie dieser Lizenz einzusehen, besuchen Sie %(license_url)s oder schreiben Sie einen Brief an Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:19
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:47
@@ -1754,7 +1754,7 @@ msgstr "Haben Sie eine eigene Website?"
 msgid ""
 "Copy the text below to your Web site to let your visitors know what license "
 "applies to your works."
-msgstr "Um Besuchern die für Ihr Werk gewählte Lizenz mitzuteilen, kopieren Sie bitte den untenstehenden Text auf Ihre Website."
+msgstr "Kopieren Sie den untenstehenden Text auf Ihre Website, um Besuchern die für Ihren Inhalt geltende Lizenz mitzuteilen."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:82
 #, python-format
@@ -1764,7 +1764,7 @@ msgid ""
 "html-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">emailed to yourself.</a>"
-msgstr "Markieren und kopieren Sie den Text aus der obigen Box. Sie können sich den Text aber auch per <a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">E-Mail zuschicken</a> lassen."
+msgstr "Markieren und kopieren Sie den Text aus der obigen Box. Oder lassen Sie sich den Text per <a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">E-Mail zuschicken</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:85
 msgid ""
@@ -1802,7 +1802,7 @@ msgid ""
 "onclick=\"window.open('non-web-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">add this text</a> to your work."
-msgstr "Um ein Werk zu kennzeichnen, das nicht auf dem Web verfügbar ist, fügen Sie <a href=\"non-web-popup?%(url_vars)s\" onclick=\"window.open('non-web-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">diesen Text</a> ein."
+msgstr "Um einen Inhalt zu kennzeichnen, der nicht im Web verfügbar ist, fügen Sie <a href=\"non-web-popup?%(url_vars)s\" onclick=\"window.open('non-web-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">diesen Text</a> zum Inhalt hinzu."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:121
 #, python-format
@@ -1851,7 +1851,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr "<strong>Kommerzielle Verwertung erlauben?</strong> (<a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">Info</a> <a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
+msgstr "<strong>Kommerzielle Nutzung des Inhaltes erlauben?</strong> (<a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">mehr dazu</a> <a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:43
 #, python-format
@@ -1867,7 +1867,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr "<strong>Bearbeitung Ihres Werkes zulassen?</strong> (<a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">Info</a> <a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
+msgstr "<strong>Bearbeitungen und Abwandlungen Ihres Inhaltes zulassen?</strong> (<a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">mehr dazu</a> <a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:52
 #, python-format
@@ -1901,7 +1901,7 @@ msgid ""
 "You have selected the <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s License</b></a>.<br>\n"
 "This license is permanently located at<br>\n"
 "<b><tt>%(license_url)s</tt></b>."
-msgstr "Sie haben die <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s Lizenz</b></a> ausgewählt. Diese Lizenz finden Sie unter <br> <b><tt>%(license_url)s</tt></b>."
+msgstr "Sie haben die <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s Lizenz</b></a> ausgewählt. Diese Lizenz finden Sie dauerhaft unter <br> <b><tt>%(license_url)s</tt></b>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:25
@@ -2071,7 +2071,7 @@ msgstr "anfangen"
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:6
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/partner.html:6
 msgid "confirm choice"
-msgstr "Lizenzwahl bestätigen"
+msgstr "Auswahl bestätigen"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:21
 #, python-format
@@ -2177,7 +2177,7 @@ msgstr "Über das Werk bzw. den Inhalt, für den diese Bestätigung gilt"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-2.html:66
 msgid "proceed"
-msgstr "fortfahren"
+msgstr "weiter"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-3.html:30
 msgid "Confirm Your Public Domain Certification"
@@ -2219,11 +2219,11 @@ msgstr "Nachdem Sie nun das Public-Domain-Zertifikat gewählt haben, sollten Sie
 msgid ""
 "To mark content on a web page, the HTML to display the button is as follows "
 "and be sure to <a href=\"/technology/web\">follow the guidelines here</a>:"
-msgstr "Hier sehen Sie das HTML zur Anzeige des Buttons, siehe dazu auch <a href=\"/technology/web\">diese Anleitung</a>:"
+msgstr "Hier sehen Sie das HTML zur Anzeige des Buttons auf einer Website, siehe dazu auch <a href=\"/technology/web\">diese Anleitung</a>:"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-4.html:34
 msgid "Get HTML and email it to yourself"
-msgstr "Holen Sie sich das HTML und schicken Sie es sich selbst per email"
+msgstr "Holen Sie sich das HTML und schicken Sie es sich selbst per E-Mail"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/confirm.html:13
 msgid "Confirm Waiver"
@@ -2443,7 +2443,7 @@ msgstr "<p>Die Informationen werden in einer maschinenlesbaren Form eingebettet.
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:40
 msgid "Tell us the format of your work:"
-msgstr "Welches Format hat Ihr Werk/Inhalt?"
+msgstr "Nennen Sie uns das Format Ihres Inhalts:"
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:45
 msgid "Other"
@@ -2463,7 +2463,7 @@ msgstr "Zu dieser URL sollen Nutzer des Inhaltes verlinken (z.B. die Seite des l
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:147
 msgid "A work another is derived from."
-msgstr "Wenn Ihr Werk bzw. Inhalt durch Bearbeitung einer geschützten Vorlage zustande gekommen ist, tragen sie bitte hier die URL des Originals ein (falls es eine solche gibt)."
+msgstr "Ein Inhalt, auf dem ein weiterer Inhalt aufbaut."
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:169
 msgid ""
@@ -2479,7 +2479,7 @@ msgid ""
 "Creative Commons has <a "
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
 "tool</a> and does not recommend that it be applied to works."
-msgstr "Creative Commons hat dieses <a href=\"http://creativecommons.org/retiredlicenses\">Werkzeug zurückgezogen</a> und empfiehlt nicht, es weiter für Werke/Inhalte zu verwenden."
+msgstr "Creative Commons hat dieses <a href=\"http://creativecommons.org/retiredlicenses\">rechtliche Werkzeug zurückgezogen</a> und empfiehlt nicht, es weiter für Inhalte zu verwenden."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:23
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:20
@@ -2490,7 +2490,7 @@ msgstr "Sie dürfen:"
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:28
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:56
 msgid "<strong>to Share</strong> — to copy, distribute and transmit the work"
-msgstr "das Werk bzw. den Inhalt vervielfältigen, verbreiten und öffentlich zugänglich machen"
+msgstr "<strong>Teilen</strong> — den Inhalt kopieren, verbreiten und zugänglich machen"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:33
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:63
@@ -2501,7 +2501,7 @@ msgstr "Abwandlungen und Bearbeitungen des Werkes bzw. Inhaltes anfertigen"
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:41
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:80
 msgid "Under the following conditions:"
-msgstr "Zu den folgenden Bedingungen:"
+msgstr "Unter den folgenden Bedingungen:"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:60
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:59
@@ -2509,7 +2509,7 @@ msgstr "Zu den folgenden Bedingungen:"
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
-msgstr "Im Falle einer Verbreitung müssen Sie anderen alle Lizenzbedingungen mitteilen, die für dieses Werk gelten. Am einfachsten ist es, an entsprechender Stelle einen Link auf diese Seite einzubinden."
+msgstr "Bei jeder Nutzung oder Verbreitung müssen Sie anderen alle Lizenzbedingungen mitteilen, die für diesen Inhalt gelten. Am einfachsten ist es, an entsprechender Stelle einen Link auf diese Seite einzubinden."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:61
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:141
@@ -2527,7 +2527,7 @@ msgid ""
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
 " id=\"fair_use\" class=\"helpLink\">fair use</a> rights, or other applicable"
 " copyright exceptions and limitations;"
-msgstr "Die Rechte, die jedermann wegen der Schranken des Urheberrechts oder aufgrund gesetzlicher Erlaubnisse zustehen (in einigen Ländern als grundsätzliche Doktrin des <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\" id=\"fair_use\" class=\"helpLink\">fair use</a> etabliert);"
+msgstr "Die Rechte, die jedermann wegen der Schranken des Urheberrechts oder aufgrund gesetzlicher Erlaubnisse zustehen (in einigen Ländern als grundsätzliche Doktrin des <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\" id=\"fair_use\" class=\"helpLink\">fair use</a> bekannt);"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:72
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:79
@@ -2711,7 +2711,7 @@ msgstr "Copyright-Only Dedication<a href=\"#\" class=\"helpLink\" id=\"use_zero\
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:29
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:27
 msgid "This license is acceptable for Free Cultural Works."
-msgstr "Diese Lizenz ist geeignet für freie kulturelle Werke bzw. Inhalte"
+msgstr "Diese Lizenz ist geeignet für freie kulturelle Inhalte."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/publicdomain_deed.html:49
 msgid ""
@@ -2736,7 +2736,7 @@ msgstr "Das Werk durch Sampling, Mash-Ups oder andere kreative Techniken für ko
 msgid ""
 "To perform, display, and distribute copies of this whole work for "
 "noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
-msgstr "Das Werk öffentlich zeigen, wiedergeben und vorführen und hiervon für nicht-kommerzielle Zwecke Vervielfältigungen anfertigen und verbreiten (bsp. File-Sharing oder nicht-kommerzielles Web-Casting)."
+msgstr "Den lizenzierten Inhalt öffentlich zeigen, wiedergeben und vorführen und hiervon für nicht-kommerzielle Zwecke Kopien anfertigen und verbreiten (bsp. File-Sharing oder nicht-kommerzielles Web-Casting)."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:63
 msgid ""
@@ -2745,7 +2745,7 @@ msgstr "Um eine Weiterverwendung zu ermöglichen, müssen Sie anderen die Lizenz
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:69
 msgid "to make commercial use of the work"
-msgstr "das Werk kommerziell nutzen"
+msgstr "den Inhalt kommerziell nutzen"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:102
 msgid "Attribute this work:"
@@ -2753,7 +2753,7 @@ msgstr "Schreiben Sie dieses Werk jemandem zu:"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:120
 msgid "What does \"Attribute this work\" mean?"
-msgstr "Was heisst \"Namensnennung\"?"
+msgstr "Was bedeutet \"Namensnennung\"?"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:123
 msgid ""
@@ -2761,7 +2761,7 @@ msgid ""
 "the creator wishes to be attributed for re-use. You can use the HTML here to"
 " cite the work. Doing so will also include metadata on your page so that "
 "others can find the original work as well."
-msgstr "Die Seite, von der aus Sie hierher gelangt sind, enthielt eingebettete Metadaten zur Lizenz, unter anderem auch zur Art und Weise wie der Rechteinhaber bei Weiterverwendung bezeichnet werden möchte. Das hier gezeigte HTML können Sie zur Zitierung des lizenzierten Inhalts verwenden. Dadurch werden auch in Ihre Seite Metadaten eingefügt, durch die andere auch die Originalquelle finden können."
+msgstr "Die Seite, von der aus Sie hierher gelangt sind, enthielt eingebettete Metadaten zur Lizenz, unter anderem auch zur Art und Weise wie der Rechteinhaber bei Weiterverwendung bezeichnet werden möchte. Das hier gezeigte HTML können Sie als Verweis auf den lizenzierten Inhalt verwenden. Dadurch werden auch in Ihre Website Metadaten eingefügt, durch die andere auch die Originalquelle finden können."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:134
 msgid "With the understanding that:"
@@ -2788,14 +2788,14 @@ msgid ""
 "The author's <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
-msgstr "Das  <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\" id=\"moral_rights\" class=\"helpLink\">Urheberpersönlichkeitsrecht</a> des Rechteinhabers;"
+msgstr "Die  <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\" id=\"moral_rights\" class=\"helpLink\">Persönlichkeitsrechte</a> des Urhebers;"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:167
 msgid ""
 "Apart from the remix rights granted under this license, the author's <a "
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\""
 " id=\"moral_rights\" class=\"helpLink\">moral</a> rights;"
-msgstr "Das  <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\" id=\"moral_rights\" class=\"helpLink\">Urheberpersönlichkeitsrecht</a> des Lizenzgebers, abgesehen von der mit dieser Lizenz gegebenen Erlaubnis zum Remixen;"
+msgstr "Abgesehen von den in dieser Lizenz gewährten Remix-Rechten, das  <a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#I_don.E2.80.99t_like_the_way_a_person_has_used_my_work_in_a_derivative_work_or_included_it_in_a_collective_work.3B_what_can_I_do.3F\" id=\"moral_rights\" class=\"helpLink\">Urheberpersönlichkeitsrecht</a> des Lizenzgebers;"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:179
 msgid "Notice"
@@ -2808,7 +2808,7 @@ msgid ""
 "available. You should use it for new works, and you may want to relicense "
 "existing works under it. No works are <em>automatically</em> put under the "
 "new license, however."
-msgstr "Eine <a href=\"%(current_version_url)s\">neuere Version</a> dieses Lizenzvertrages ist verfügbar. Für neue Werke sollte diese aktuelle Version benutzt werden. Zu erwägen wäre auch, alte Werke unter der aktuellen Version erneut zu lizenzieren. Eine <em>automatische</em> Neulizenzierung findet jedoch nicht statt."
+msgstr "Eine <a href=\"%(current_version_url)s\">neuere Version</a> dieses Lizenzvertrages ist verfügbar. Für neue Inhalte sollte diese aktuelle Version benutzt werden. Zu erwägen wäre auch, alte Inhalte unter der aktuellen Version neu zu lizenzieren. Eine <em>automatische</em> Neulizenzierung findet jedoch nicht statt."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:195
 msgid "What does \"conditions can be waived\" mean?"
@@ -2968,7 +2968,7 @@ msgid ""
 "<p>\n"
 "The Product licensed under Creative Commons License is provided by the person who applied the License.  Creative Commons and Creative Commons Japan make no warranties regarding the title of the licensor.  Please read <a href=\"http://creativecommons.jp/faq/\">here</a> for information regarding the application of licenses and exploitation of the Product licensed under Creative Commons licenses.\n"
 "</p>"
-msgstr "<p> Die \"Commons Deed\" ist kein Lizenzvertrag. Sie ist lediglich ein Referenztext, der den zugrundeliegenden rechtsverbindlichen Lizenzvertrag übersichtlich und in allgemeinverständlicher Sprache aber auch stark vereinfacht wiedergibt. Die Deed selbst entfaltet keine juristische Wirkung und erscheint im eigentlichen Lizenzvertrag nicht. Bitte klicken Sie <a href=\"legalcode\" class=\"fulltext\">hier</a>, um die vollständigen juristischen Lizenzbedigungen einzusehen. </p> <p> Creative Commons und Creative Commons Japan sind keine Rechtsanwaltsgesellschaften und leisten keine Rechtsberatung. Sie sind keine Vertragsparteien des zugrundeliegenden Lizenzvertrages und Ihnen oder Dritten gegenüber auch nicht haftbar für Schäden irgendwelcher Art, die aus Verwendung der Commons Deed sowie des zugrundeliegenden Lizenzvertrages resultieren könnten. </p> <p> Allein der Lizenzgeber stellt das lizenzierte Werk zur Verfügung. Creative Commons und Creative Commons Japan übernehmen keinerlei Gewährleistungen im Zusammenhang mit dem Lizenzgeber und seinen Berechtigungen. Bitte klicken Sie <a href=\"http://wiki.creativecommons.org/FAQ/\">hier</a> für unsere FAQs. </p>"
+msgstr "<p>⏎\nDie \"Commons Deed\" ist kein Lizenzvertrag. Sie ist lediglich ein Referenztext, der einige der Regelungen aus dem zugrundeliegenden Lizenzvertrag (Legal Code) übersichtlich und in allgemeinverständlicher Sprache &mdash; aber auch stark vereinfacht &mdash; wiedergibt. Die Deed selbst entfaltet keine juristische Wirkung und erscheint im eigentlichen Lizenzvertrag nicht. ⏎\n</p>⏎\n⏎\n<p>⏎Creative Commons und Creative Commons Japan sind keine Rechtsanwaltskanzleien und bieten keine Rechtsberatung an. Sie sind keine Vertragsparteien des zugrundeliegenden Lizenzvertrages und Ihnen oder Dritten gegenüber auch nicht haftbar für Schäden irgendwelcher Art, die aus Verwendung der Commons Deed sowie des zugrundeliegenden Lizenzvertrages resultieren könnten.⏎\n</p>⏎\n⏎\n<p>⏎Allein der Lizenzgeber stellt den lizenzierten Inhalt zur Verfügung. Creative Commons und Creative Commons Japan übernehmen keinerlei Gewährleistungen bezogen auf den Lizenzgeber und seine Berechtigungen. Bitte lesen Sie <a href=\"http://wiki.creativecommons.org/FAQ/\">hier</a> weitere Informationen über die Funktionsweise von Lizenzen und die Verwertung von Inhalten, die unter Creative-Commons-Lizenzen stehen.⏎\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:106
 msgid ""
@@ -2979,13 +2979,13 @@ msgid ""
 "<p>\n"
 "Creative Commons is not a law firm and does not provide legal services. Distributing of, displaying of, or linking to this Commons Deed does not create an attorney-client relationship.\n"
 "</p>"
-msgstr "<p> Die \"Commons Deed\" ist kein Lizenzvertrag. Sie ist lediglich ein Referenztext, der den zugrundeliegenden Lizenzvertrag übersichtlich und in allgemeinverständlicher Sprache aber auch stark vereinfacht wiedergibt. Die Deed selbst entfaltet keine juristische Wirkung und erscheint im eigentlichen Lizenzvertrag nicht. </p> <p> Creative Commons ist keine Rechtsanwaltsgesellschaft und leistet keine Rechtsberatung. Die Weitergabe und Verlinkung des Commons Deeds führt zu keinem Mandatsverhältnis. </p>"
+msgstr "<p>⏎\nDie \"Commons Deed\" ist kein Lizenzvertrag. Sie ist lediglich ein Referenztext, der einige der Regelungen aus dem zugrundeliegenden Lizenzvertrag übersichtlich und in allgemeinverständlicher Sprache &mdash; aber auch stark vereinfacht &mdash; wiedergibt. Die Deed selbst entfaltet keine juristische Wirkung und erscheint im eigentlichen Lizenzvertrag nicht.⏎\n</p>⏎\n⏎\n<p>⏎Creative Commons ist keine Rechtsanwaltskanzlei und bietet keine Rechtsberatung an. Die Weitergabe und Verlinkung der Commons Deed führt zu keinem Mandatsverhältnis.⏎\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:120
 msgid ""
 "This is a human-readable summary of the Legal Code (the full license) "
 "available in the following languages:"
-msgstr "Diese \"Commons Deed\" ist lediglich eine vereinfachte Zusammenfassung des rechtsverbindlichen Lizenzvertrages in allgemeinverständlicher Sprache, und sie ist in folgenden Landessprachen verfügbar:"
+msgstr "Diese \"Commons Deed\" ist lediglich eine vereinfachte Zusammenfassung des eigentlichen rechtsverbindlichen Lizenzvertrages (Legal Code) und sie ist in folgenden Sprachen verfügbar:"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:127
 msgid ""
@@ -3043,21 +3043,21 @@ msgstr "Creative Commons Lizenzvertrag"
 msgid ""
 "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr "%(work_title)s von %(work_author)s steht unter einer <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s Lizenz</a>."
+msgstr "%(work_title)s von %(work_author)s ist lizenziert unter einer <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s Lizenz</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:207
 #, python-format
 msgid ""
 "This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\""
 " href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr "Diese(s) %(work_type)s von %(work_author)s steht unter einer <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s Lizenz</a>."
+msgstr "Dieses %(work_type)s von %(work_author)s ist lizenziert unter einer <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s Lizenz</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:218
 #, python-format
 msgid ""
 "%(work_title)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr "%(work_title)s steht unter einer <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s Lizenz</a>."
+msgstr "%(work_title)s ist lizenziert unter einer <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s Lizenz</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:237
 #, python-format
@@ -3069,7 +3069,7 @@ msgstr "Beruht auf einem Inhalt unter %(source_link)s."
 msgid ""
 "Permissions beyond the scope of this license may be available at "
 "%(more_perms_link)s."
-msgstr "Über diese Lizenz hinausgehende Erlaubnisse können Sie unter %(more_perms_link)s erhalten"
+msgstr "Über diese Lizenz hinausgehende Erlaubnisse können Sie unter %(more_perms_link)s erhalten."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:321
 #, python-format
@@ -3077,7 +3077,7 @@ msgid ""
 "This %(work_type)s is in the <a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
 "Domain</a>."
-msgstr "Dieses/dieser %(work_type)s ist Teil der so genannten <a rel=\"license\" href=\"http://creativecommons.org/licenses/publicdomain/\">Public Domain</a>."
+msgstr "Dieses %(work_type)s ist als Teil der so genannten <a rel=\"license\" href=\"http://creativecommons.org/licenses/publicdomain/\">Public Domain</a> gemeinfrei."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:335
 msgid "This work is free of known copyright restrictions."
