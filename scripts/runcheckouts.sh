@@ -13,6 +13,9 @@
 # with this software. If not, see
 # <http://creativecommons.org/publicdomain/zero/1.0/>.
 
+CWD=`pwd`
+cd "$( dirname "${BASH_SOURCE[0]}" )/.."
+
 if [ ! -d checkouts ]; then
     mkdir checkouts
 fi
@@ -40,3 +43,5 @@ make_or_update_checkout cc.engine https://github.com/creativecommons/cc.engine.g
 make_or_update_checkout cc.license https://github.com/creativecommons/cc.license.git
 make_or_update_checkout cc.licenserdf https://github.com/creativecommons/license.rdf.git
 make_or_update_checkout cc.deedscraper https://github.com/creativecommons/deedscraper.git
+
+cd "${CWD}"
