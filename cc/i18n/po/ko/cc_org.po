@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-11-14 19:02+0000\n"
-"PO-Revision-Date: 2013-11-17 15:30+0000\n"
+"PO-Revision-Date: 2013-11-17 15:36+0000\n"
 "Last-Translator: iwillbe99 <iwillbe99@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/CC/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -1802,7 +1802,7 @@ msgid ""
 "html-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">emailed to yourself.</a>"
-msgstr ""
+msgstr "위의 상자 안에 있는 내용을 복사하거나 <a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">자신의 이메일로 전송</a>합니다."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:85
 msgid ""
@@ -1889,7 +1889,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
+msgstr "<strong>저작물의 영리 목적 이용을 허락합니까?</strong> (<a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">자세히 알아보기</a> <a href=\"/characteristic/nc?lang=%(lang)s\" onclick=\"window.open('/characteristic/nc?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:43
 #, python-format
@@ -1905,7 +1905,7 @@ msgid ""
 "'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
 "alt=\"more information\" border=\"0\" /></a>)"
-msgstr ""
+msgstr "<strong>저작물의 변경을 허락합니까?</strong> (<a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">자세히 알아보기</a> <a href=\"/characteristic/nd?lang=%(lang)s\" onclick=\"window.open('/characteristic/nd?lang=%(lang)s', 'characteristic_help', 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" alt=\"more information\" border=\"0\" /></a>)"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:52
 #, python-format
@@ -1939,7 +1939,7 @@ msgid ""
 "You have selected the <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s License</b></a>.<br>\n"
 "This license is permanently located at<br>\n"
 "<b><tt>%(license_url)s</tt></b>."
-msgstr ""
+msgstr "<a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s 라이선스</b></a><br>를 선택하셨습니다.\n이 라이선스는 <br><b><tt>%(license_url)s</tt></b>에서 볼 수 있습니다."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:25
@@ -2554,7 +2554,7 @@ msgid ""
 "href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Do_Creative_Commons_licenses_affect_fair_use.2C_fair_dealing_or_other_exceptions_to_copyright.3F\""
 " id=\"fair_use\" class=\"helpLink\">fair use</a> rights, or other applicable"
 " copyright exceptions and limitations;"
-msgstr ""
+msgstr "공정이용 또는 기타 적용 가능한 저작재산권의 제한 조항"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:72
 #: checkouts/cc.engine/cc/engine/templates/licenses/sampling_deed.html:79
@@ -3138,7 +3138,7 @@ msgstr "크리에이티브 커먼즈 라이선스"
 msgid ""
 "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
+msgstr "%(work_author)s에 의해 작성된 %(work_title)s은(는) <a rel=\"license\" href=\"%(license_url)s\">크리에이티브 커먼즈 %(license_name)s 라이선스</a>에 따라 이용할 수 있습니다."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:207
 #, python-format
