@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-11-21 22:15+0000\n"
-"PO-Revision-Date: 2013-11-21 22:24+0000\n"
+"PO-Revision-Date: 2013-11-21 22:35+0000\n"
 "Last-Translator: ten <teresaraposonobre@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/projects/p/CC/language/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -1287,7 +1287,7 @@ msgid ""
 "</p>\n"
 "\n"
 "<p>Place the link or the HTML on your website, right next to the work you intend to license.  </p>"
-msgstr "<p>\nA informação respeitante à sua escolha foi-lhe enviada por correio eletrónico para <strong>%(email)s</strong>.\n</p>\n\n<p>Coloque o link ou o HTML no seu sítio Web, ao lado do trabalho que pretende licenciar.</p>"
+msgstr "<p>\nA informação respeitante à sua escolha foi-lhe enviada por email para <strong>%(email)s</strong>.\n</p>\n\n<p>Coloque o link ou o HTML no seu sítio Web, ao lado do trabalho que pretende licenciar.</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:7
 msgid "The HTML to display your button is as follows:"
@@ -1309,7 +1309,7 @@ msgstr "Simplesmente, copie o texto e depois insira-o nos seus documentos da int
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:24
 msgid "Enter your email address to get the HTML by email:"
-msgstr "Introduza o seu endereço de correio eletrónico para receber o HTML por correio eletrónico:"
+msgstr "Introduza o seu endereço de email para receber o HTML por email:"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:39
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:89
@@ -1796,7 +1796,7 @@ msgid ""
 "html-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">emailed to yourself.</a>"
-msgstr "Selecione o texto da caixa acima e copie-o. Ou envie-o por correio eletrónico <a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">para si próprio.</a>"
+msgstr "Selecione o texto da caixa acima e copie-o. Ou envie-o por email <a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">para si próprio.</a>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:85
 msgid ""
@@ -2129,7 +2129,7 @@ msgstr ""
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:58
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:85
 msgid "Send Email"
-msgstr "Enviar Correio Eletrónico"
+msgstr "Enviar Email"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:64
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:96
@@ -2145,18 +2145,18 @@ msgid ""
 "clicking the Back button and double checking your email address.  If the "
 "address you used (%(email_addr)s) was correct you can <a "
 "href=\"/contact\">contact us</a>."
-msgstr "Ocorreu um erro quando tentámos enviar-lhe esta mensagem por correio eletrónico; pode tentar clicar no botão Voltar e verificar o seu endereço de correio eletrónico. Se o endereço que utilizou (%(email_addr)s) está correcto, pode <a href=\"/contact\">contactar-nos</a>."
+msgstr "Ocorreu um erro quando tentámos enviar-lhe esta mensagem por email; pode tentar clicar no botão Voltar e verificar o seu endereço de email. Se o endereço que utilizou (%(email_addr)s) está correto, pode <a href=\"/contact\">contactar-nos</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:75
 msgid ""
 "If you'd like to get the HTML with embedded metadata via email, fill in your"
 " email address below."
-msgstr "Se deseja receber por correio eletrónico o HTML com metadados incorporados, preencha o endereço de correio eletrónico abaixo."
+msgstr "Se deseja receber por email o HTML com metadados incorporados, preencha o endereço de email abaixo."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:84
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:115
 msgid "your email"
-msgstr "O seu correio eletrónico"
+msgstr "O seu email"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-2.html:4
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-3.html:4
@@ -2250,7 +2250,7 @@ msgstr "Para sinalizar conteúdos numa página da internet, use o HTML em baixo 
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-4.html:34
 msgid "Get HTML and email it to yourself"
-msgstr "Obter o HTML e enviá-lo por correio eletrónico para si próprio"
+msgstr "Obter o HTML e enviá-lo por email para si próprio"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/confirm.html:13
 msgid "Confirm Waiver"
@@ -2365,13 +2365,13 @@ msgid ""
 "You have asked to be notified of updates to CC0.  A subscription request has"
 " been sent on your behalf; you must click the link in the confirmation email"
 " to complete the sign-up process."
-msgstr "Pediu para receber notificação das atualizações à CC0. Foi enviado um pedido de subscrição em seu nome; para finalizar o processo, tem de clicar no link na mensagem eletrónica de confirmação."
+msgstr "Pediu para receber notificação das atualizações à CC0. Foi enviado um pedido de subscrição em seu nome; para finalizar o processo, tem de clicar no link no email de confirmação."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:106
 msgid ""
 "If you'd like to get the HTML with embedded metadata via email and "
 "optionally receive updates about CC0, fill in your email address below."
-msgstr "Se deseja receber por correio eletrónico o HTML com metadados incorporados e, opcionalmente, informação sobre atualizações à CC0, preencha o endereço de correio eletrónico abaixo."
+msgstr "Se deseja receber por email o HTML com metadados incorporados e, opcionalmente, informação sobre atualizações à CC0, preencha o endereço de email abaixo."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:3
 msgid "CC0: Waiver"
