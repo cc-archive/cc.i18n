@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-11-21 22:15+0000\n"
-"PO-Revision-Date: 2013-11-24 21:58+0000\n"
+"PO-Revision-Date: 2013-11-24 22:14+0000\n"
 "Last-Translator: marianagvalente <marianagvalente@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/CC/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -820,7 +820,7 @@ msgid ""
 "<a href=\"%(owner_url)s\">%(owner_name)s</a> has registered <a "
 "href=\"%(lookup_uri)s\">this work</a> at the <nobr><a "
 "href=\"%(network_url)s\">%(network_name)s</a></nobr>"
-msgstr ""
+msgstr "<a href=\"%(owner_url)s\"> %(owner_name)s </a> inscreveu <a href=\"%(lookup_uri)s\">esta obra</a> em <a href=\"%(network_url)s\"><nobr> %(network_name)s </nobr></a>"
 
 #: checkouts/cc.engine/cc/engine/util.py:481
 #, python-format
@@ -1059,7 +1059,7 @@ msgid ""
 "commercial use. This is the license used by Wikipedia, and is recommended "
 "for materials that would benefit from incorporating content from Wikipedia "
 "and similarly licensed projects."
-msgstr ""
+msgstr "Esta licença permite que outros remixem, adaptem e criem a partir do seu trabalho, mesmo para fins comerciais, desde que lhe atribuam o devido crédito e que licenciem as novas criações sob termos idênticos. Esta licença costuma ser comparada com as licenças de software livre e de código aberto \"copyleft\". Todos os trabalhos novos baseados no seu terão a mesma licença, portanto quaisquer trabalhos derivados também permitirão o uso comercial. Esta é a licença usada pela Wikipédia e é recomendada para materiais que seriam beneficiados com a incorporação de conteúdos da Wikipédia e de outros projetos com licenciamento semelhante."
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:286
 msgid ""
@@ -1431,7 +1431,7 @@ msgstr "Atribuir o trabalho ao nome"
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:110
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:122
 msgid "Attribute work to URL"
-msgstr ""
+msgstr "Atribuir o trabalho ao URL"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1496
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1819
@@ -1691,17 +1691,17 @@ msgstr "O nome da pessoa que deve receber atribuição pelo trabalho. A maioria 
 msgid ""
 "The URL to which the work should be attributed. For example, the work's page"
 " on the author's site."
-msgstr ""
+msgstr "O URL ao qual o trabalho deve ser atribuída. Por exemplo, a página do trabalho no sítio Web do autor."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1820
 msgid "The URL of the work upon which this work is based or derived."
-msgstr ""
+msgstr "O URL do trabalho a partir do qual este trabalho é baseado ou derivado."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1824
 msgid ""
 "A URL where a user can find information about obtaining rights that are not "
 "already permitted by the CC license."
-msgstr ""
+msgstr "Um URL onde o utilizador possa encontrar informação sobre como obter direitos que não estejam já autorizados pela licença CC."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1829
 msgid ""
@@ -1931,7 +1931,7 @@ msgid ""
 "<p>\n"
 "Creative Commons does not provide legal advice or services. We provide form legal documents; the rest is up to you.\n"
 "</p>"
-msgstr ""
+msgstr "<p>\n<em>Nota:</em> Para licenciar um trabalho, você tem de ser o titular do direito de autor e/ou dos direitos conexos ou ter uma autorização expressa do titular do direitos de autor e/ou dos direitos conexos para fazê-lo.</p>\n\n<p>\nA Creative Commons não presta aconselhamento ou serviços jurídicos. Disponibilizamos documentos jurídicos padronizados; o resto é consigo.\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:7
 #, python-format
@@ -1939,7 +1939,7 @@ msgid ""
 "You have selected the <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s License</b></a>.<br>\n"
 "This license is permanently located at<br>\n"
 "<b><tt>%(license_url)s</tt></b>."
-msgstr ""
+msgstr "Você selecionou a Licença <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s</b></a>.<br>Esta licença está permanentemente localizada em<br><b><tt>%(license_url)s</tt></b>."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:25
@@ -2006,7 +2006,7 @@ msgstr "URL do Autor"
 msgid ""
 "This may be the URL where the author published the work online, or the URL "
 "where the work is published by the person identifying the work."
-msgstr ""
+msgstr "Este pode ser o URL onde o autor publicou o trabalho online, ou o URL onde o trabalho encontra-se publicado pela pessoa que o identificou."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:90
 msgid "Identifying Individual or Organization"
@@ -2411,7 +2411,7 @@ msgstr ""
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:77
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:87
 msgid "Your URL"
-msgstr ""
+msgstr "Seu URL"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:90
 msgid ""
@@ -2718,7 +2718,7 @@ msgid ""
 "verified the copyright status of any work to which this mark has been "
 "applied. CC makes no warranties about any work or its copyright status in "
 "any jurisdiction, and disclaims all liability for all uses of any work. </p>"
-msgstr ""
+msgstr "<p> A Marca de Domínio Público não é um instrumento legal. </p> <p> A Creative Commons não é um escritório de advogados e não presta serviços jurídicos nem aconselhamento jurídico. A distribuição desta Marca de Domínio Público, a sua apresentação ou a inclusão de links para ela não leva ao surgimento de uma relação cliente-advogado.</p> <p>A Creative Commons não verificou a situação dos direitos de autor de nenhum trabalho ao qual esta marca tenha sido aplicada. A Creative Commons não presta quaisquer garantias acerca de nenhum trabalho nem da situação dos seus direitos de autor e direitos conexos em nenhuma jurisdição, nem aceita qualquer responsabilidade por quaisquer usos de nenhum trabalho. </p>"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:194
 msgid "Use this tool to mark other public domain works."
@@ -2833,14 +2833,14 @@ msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
 " not distribute the modified material."
-msgstr ""
+msgstr "Se você <a href=\"#\" id=\"some_kinds_of_mods_popup\" class=\"helpLink\">remixar, transformar ou criar a partir </a> do material, você não pode distribuir o material modificado."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:148
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
 "your contributions under the <a href=\"#\" id=\"same_license_popup\" "
 "class=\"helpLink\">same license</a> as the original."
-msgstr ""
+msgstr "Se você remixar, transformar, ou criar a partir do material, tem de distribuir as suas contribuições sob a <a href=\"#\" id=\"same_license_popup\" class=\"helpLink\">mesma licença</a> que o original."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:159
 msgid ""
@@ -3029,7 +3029,7 @@ msgid ""
 " CC0 has been applied. CC makes no warranties about any work or its "
 "copyright status in any jurisdiction, and disclaims all liability for all "
 "uses of any work. </p>"
-msgstr ""
+msgstr "<p>O Resumo Explicativo não é um instrumento legal. É apenas uma referência útil para compreender o Texto Legal da CC0, uma expressão legível por humanos de alguns dos seus termos-chave. Considere-o um intérprete amigável do Texto Legal da CC0 subjacente. Este Resumo não tem, em si mesmo, qualquer valor legal e o seu conteúdo não aparece na CC0.</p> <p>A Creative Commons não é um escritório de advogados e não presta serviços jurídicos. A distribuição, exibição ou a inclusão de links para este Resumo Simplificado não gera uma relação advogado-cliente.</p> <p>A Creative Commons não verificou a situação do direito de autor e dos direitos conexos de nenhum trabalho ao qual a CC0 tenha sido aplicado. A Creative Commons não presta quaisquer garantias acerca de nenhum trabalho nem da situação do seu direito de autor e direitos conexos em nenhuma jurisdição, nem aceita qualquer responsabilidade por quaisquer usos de qualquer trabalho. </p>"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:170
 msgid ""
@@ -3054,7 +3054,7 @@ msgid ""
 "<p>\n"
 "The Product licensed under Creative Commons License is provided by the person who applied the License.  Creative Commons and Creative Commons Japan make no warranties regarding the title of the licensor.  Please read <a href=\"http://creativecommons.jp/faq/\">here</a> for information regarding the application of licenses and exploitation of the Product licensed under Creative Commons licenses.\n"
 "</p>"
-msgstr ""
+msgstr "<p>\nO Resumo Explicativo não é uma licença. É apenas uma referência útil para compreender o Texto Legal (a licença completa) — é uma expressão legível por humanos de alguns dos seus termos-chave. Este Resumo não tem, em si mesmo, valor legal e o seu conteúdo não aparece na própria licença. Os termos em si da licença estão contidos no Texto Legal. <a href=\"legalcode\" class=\"fulltext\">Clique aqui para ver a Licença completa</a>.\n</p>\n\n</p>\nO Creative Commons e o Creative Commons Japão não são escritórios de advogados e a distribuição, exibição e inclusão de links para o Resumo Para Leigos não constituem uma oferta de aconselhamento jurídico ou de qualquer outro serviço jurídico. O Creative Commons e o Creative Commons Japão não são partes da Licença subjacente a este Resumo Explicativo e não aceitam qualquer responsabilidade por danos resultantes do uso do Resumo Explicativo e da Licença subjacente.\n</p>\n\n<p>\nO Produto licenciado com esta Licença Creative Commons é fornecido pela pessoa que aplicou a Licença. O Creative Commons e o Creative Commons Japão não prestam quaisquer garantias relativamente à titularidade do licenciante. Por favor leia <a href=\"http://creativecommons.jp/faq/\">aqui</a> informações relativas ao uso das licenças e à exploração do Produto licenciado ao abrigo das licenças Creative Commons.\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:106
 msgid ""
@@ -3137,7 +3137,7 @@ msgstr "Licença Creative Commons"
 msgid ""
 "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
+msgstr "%(work_title)s de %(work_author)s está licenciado com uma Licença <a rel=\"license\" href=\"%(license_url)s\">Creative Commons - %(license_name)s</a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:207
 #, python-format
