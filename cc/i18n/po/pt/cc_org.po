@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-11-21 22:15+0000\n"
-"PO-Revision-Date: 2013-11-24 22:46+0000\n"
+"PO-Revision-Date: 2013-11-24 23:15+0000\n"
 "Last-Translator: ten <teresaraposonobre@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/projects/p/CC/language/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -974,7 +974,7 @@ msgid ""
 " Think of the Commons Deed as a user-friendly interface to the Legal Code "
 "beneath, although the Deed itself is not a license, and its contents are not"
 " part of the Legal Code itself."
-msgstr "Mas como na realidade a maioria dos criadores, educadores e cientistas não são advogados, também disponibilizamos as licenças num formato que pode ser lido por todos — o Resumo Simplificado (também conhecido como a versão das licenças \"legível por humanos\"). O Resumo Simplificado é uma referência útil tanto para os licenciantes como para os licenciados, sumariza e expressa alguns dos termos e condições mais importantes. Pode considerar um Resumo Simplificado como um intérprete amigável do Texto Legal subjacente, embora o Resumo não seja, em si mesmo, uma licença e o seu conteúdo não forme parte do Texto Legal propriamente dito. "
+msgstr "Mas como na realidade a maioria dos criadores, educadores e cientistas não são advogados, também disponibilizamos as licenças num formato que pode ser lido por todos — o Resumo Explicativo (também conhecido como a versão das licenças \"legível por humanos\"). O Resumo Explicativo é uma referência útil tanto para os licenciantes como para os licenciados, sumariza e expressa alguns dos termos e condições mais importantes. Pode considerar um Resumo Explicativo como um intérprete amigável do Texto Legal subjacente, embora o Resumo não seja, em si mesmo, uma licença e o seu conteúdo não forme parte do Texto Legal propriamente dito. "
 
 #: checkouts/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:196
 msgid ""
@@ -1646,7 +1646,7 @@ msgid ""
 "        A real world example of license incompatibility:  Works with the NonCommercial\n"
 "        or the NoDerivatives restriction may not be posted to Wikipedia.\n"
 "      </p>"
-msgstr ""
+msgstr "<p>\nSe a licença selecionada fornece as liberdades exigidas por uma licença de cultura livre, \nentão o ícone \"Aprovado para Trabalhos Culturais Livres\" aparece neste painel. Esta \ncaracterística tem por fim assisti-lo a tomar uma decisão mais informada.\nAs licenças NãoComercial e SemDerivados incluem restrições adicionais\nque, por definição, as impedem de ser consideradas licenças de cultura livre.\n</p>\n<p>\nApesar das nossas licenças que não são de cultura livre serem úteis em circunstâncias particulares, da sua utilização podem resultar consequências não intencionais\n(tal como a incompatibilidade das licenças).\nPor exemplo, um trabalho que está sob uma licença \"Atribuição-NãoComercial-CompartilhaIgual\"\nnão pode ser combinado com um trabalho licenciado com \"Atribuição-CompartilhaIgual\" porque colocar\no trabalho resultante sob qualquer uma das licenças viola a outra através\nda adição ou remoção da restrição NãoComercial.\n</p>\n<p>\nUm exemplo do mundo real de incompatibilidade de licenças: Trabalhos com as restrições NãoComercial\nou SemDerivados não podem ser colocados na Wikipédia.\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1782
 msgid ""
@@ -2466,7 +2466,7 @@ msgid ""
 "\t    information</a> on Creative Commons metadata is available if\n"
 "\t  you want to find out more.\n"
 "\t</p>"
-msgstr "<p>\nA informação é incorporada num formato digital legível por computadores. Isto permite que os motores de pesquisa indexem informação adicional sobre o seu trabalho e permite que outros, que cheguem ao Resumo Simplificado a partir da sua página, vejam informação no resumo sobre como devem fazer a atribuição do seu trabalho.\n</p>\n<p>\nSe quiser aprofundar este assunto, estão disponíveis <a href=\"http://wiki.creativecommons.org/Metadata\">mais informações</a> sobre os metadados da Creative Commons.\n</p>"
+msgstr "<p>\nA informação é incorporada num formato digital legível por computadores. Isto permite que os motores de pesquisa indexem informação adicional sobre o seu trabalho e permite que outros, que cheguem ao Resumo Explicativo a partir da sua página, vejam informação no resumo sobre como devem fazer a atribuição do seu trabalho.\n</p>\n<p>\nSe quiser aprofundar este assunto, estão disponíveis <a href=\"http://wiki.creativecommons.org/Metadata\">mais informações</a> sobre os metadados da Creative Commons.\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/includes/more_metadata.html:40
 msgid "Tell us the format of your work:"
@@ -2681,7 +2681,7 @@ msgid ""
 "protection laws, publicity, image, or privacy rights that allow a person to "
 "control how their voice, image or likeness is used, or other restrictions or"
 " limitations under applicable law."
-msgstr ""
+msgstr "O uso de um trabalho livre de restrições conhecidas devidas ao direito de autor e aos direitos conexos pode ser regulado ou limitado de outras formas. O trabalho ou o seu uso podem estar sujeitos a legislação de proteção de dados privados, a direitos de imagem ou de privacidade, que permitem que uma pessoa controle a forma como a sua voz, imagem ou parecença é usada, ou a outras restrições ou limitações impostas pela legislação aplicável. "
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:159
 msgid "Term of Copyright"
@@ -3023,13 +3023,13 @@ msgid ""
 " CC0 has been applied. CC makes no warranties about any work or its "
 "copyright status in any jurisdiction, and disclaims all liability for all "
 "uses of any work. </p>"
-msgstr "<p>O Resumo Simplificado não é um instrumento legal. É apenas uma referência útil para compreender o Texto Legal da CC0, uma expressão legível por humanos de alguns dos seus termos-chave. Considere-o um intérprete amigável do Texto Legal da CC0 subjacente. Este Resumo não tem, em si mesmo, qualquer valor legal e o seu conteúdo não aparece na CC0.</p> <p>A Creative Commons não é um escritório de advogados e não presta serviços jurídicos. A distribuição, exibição ou a inclusão de links para este Resumo Simplificado não leva ao surgimento de uma relação advogado-cliente.</p> <p>A Creative Commons não verificou a situação do direito de autor e dos direitos conexos de nenhum trabalho ao qual a CC0 tenha sido aplicado. A Creative Commons não presta quaisquer garantias acerca de nenhum trabalho nem da situação do seu direito de autor e direitos conexos em nenhuma jurisdição, nem aceita qualquer responsabilidade por quaisquer usos de qualquer trabalho. </p>"
+msgstr "<p>O Resumo Explicativo não é um instrumento legal. É apenas uma referência útil para compreender o Texto Legal da CC0, uma expressão legível por humanos de alguns dos seus termos-chave. Considere-o um intérprete amigável do Texto Legal da CC0 subjacente. Este Resumo não tem, em si mesmo, qualquer valor legal e o seu conteúdo não aparece na CC0.</p> <p>A Creative Commons não é um escritório de advogados e não presta serviços jurídicos. A distribuição, exibição ou a inclusão de links para este Resumo Explicativo não leva ao surgimento de uma relação advogado-cliente.</p> <p>A Creative Commons não verificou a situação do direito de autor e dos direitos conexos de nenhum trabalho ao qual a CC0 tenha sido aplicado. A Creative Commons não presta quaisquer garantias acerca de nenhum trabalho nem da situação do seu direito de autor e direitos conexos em nenhuma jurisdição, nem aceita qualquer responsabilidade por quaisquer usos de qualquer trabalho. </p>"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:170
 msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
-msgstr "Este é um resumo simplificado do <a href=\"./legalcode\">Texto Legal (leia o texto completo)</a>."
+msgstr "Este é um resumo legível por humanos do <a href=\"./legalcode\">Texto Legal (leia o texto completo)</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:182
 msgid "Use this tool for your own work."
@@ -3048,7 +3048,7 @@ msgid ""
 "<p>\n"
 "The Product licensed under Creative Commons License is provided by the person who applied the License.  Creative Commons and Creative Commons Japan make no warranties regarding the title of the licensor.  Please read <a href=\"http://creativecommons.jp/faq/\">here</a> for information regarding the application of licenses and exploitation of the Product licensed under Creative Commons licenses.\n"
 "</p>"
-msgstr "<p>\nO Resumo Simplificado não é uma licença. É apenas uma referência útil para compreender o Texto Legal (a licença completa) — é uma expressão legível por humanos de alguns dos seus termos-chave. Este Resumo não tem, em si mesmo, valor legal e o seu conteúdo não aparece na própria licença. Os próprios termos da licença estão contidos no Texto Legal. <a href=\"legalcode\" class=\"fulltext\">Clique aqui para ver a Licença completa</a>.\n</p>\n\n</p>\nA Creative Commons e a Creative Commons Japão não são escritórios de advogados e a distribuição, exibição e inclusão de links para o Resumo Simplificado não constitui uma oferta de aconselhamento jurídico ou de qualquer outro serviço  jurídico. A Creative Commons e a Creative Commons Japão não são partes da Licença subjacente a este Resumo Simplificado e não aceitam qualquer responsabilidade por danos resultantes do uso do Resumo Simplificado e da Licença subjacente.\n</p>\n\n<p>\nO Produto licenciado com esta Licença Creative Commons é fornecido pela pessoa que aplicou a Licença. A Creative Commons e a Creative Commons Japão não prestam quaisquer garantias relativamente à titularidade do licenciante. Por favor leia <a href=\"http://creativecommons.jp/faq/\">aqui</a> informações relativas ao uso das licenças e à exploração do Produto licenciado ao abrigo das licenças Creative Commons.\n</p>"
+msgstr "<p>\nO Resumo Explicativo não é uma licença. É apenas uma referência útil para compreender o Texto Legal (a licença completa) — é uma expressão legível por humanos de alguns dos seus termos-chave. Este Resumo não tem, em si mesmo, valor legal e o seu conteúdo não aparece na própria licença. Os próprios termos da licença estão contidos no Texto Legal. <a href=\"legalcode\" class=\"fulltext\">Clique aqui para ver a Licença completa</a>.\n</p>\n\n</p>\nA Creative Commons e a Creative Commons Japão não são escritórios de advogados e a distribuição, exibição e inclusão de links para o Resumo Explicativo não constitui uma oferta de aconselhamento jurídico ou de qualquer outro serviço  jurídico. A Creative Commons e a Creative Commons Japão não são partes da Licença subjacente a este Resumo Explicativo e não aceitam qualquer responsabilidade por danos resultantes do uso do Resumo Explicativo e da Licença subjacente.\n</p>\n\n<p>\nO Produto licenciado com esta Licença Creative Commons é fornecido pela pessoa que aplicou a Licença. A Creative Commons e a Creative Commons Japão não prestam quaisquer garantias relativamente à titularidade do licenciante. Por favor leia <a href=\"http://creativecommons.jp/faq/\">aqui</a> informações relativas ao uso das licenças e à exploração do Produto licenciado ao abrigo das licenças Creative Commons.\n</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:106
 msgid ""
@@ -3069,13 +3069,13 @@ msgstr "A Creative Commons não é uma sociedade de advogados e não presta serv
 msgid ""
 "This is a human-readable summary of (and not a substitute for) the license, "
 "which is available in the following languages:"
-msgstr "Este é um resumo simplificado (e não um substituto) da licença, o qual está disponível nas seguintes línguas:"
+msgstr "Este é um resumo legível por humanos (e não um substituto) da licença, o qual está disponível nas seguintes línguas:"
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:123
 msgid ""
 "This is a human-readable summary of (and not a substitute for) the <a "
 "href=\"legalcode\" class=\"fulltext\">license</a>."
-msgstr "Este é um resumo simplificado (e não um substituto) da <a href=\"legalcode\" class=\"fulltext\">licença</a>."
+msgstr "Este é um resumo legível por humanos (e não um substituto) da <a href=\"legalcode\" class=\"fulltext\">licença</a>."
 
 #: checkouts/cc.engine/cc/engine/templates/macros_templates/deed.html:146
 #, python-format
