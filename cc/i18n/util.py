@@ -13,7 +13,7 @@ MO_PATH = pkg_resources.resource_filename(
     'cc.i18n', 'mo')
 
 # Percent translated that languages should be at or above
-TRANSLATION_THRESHOLD = 0
+TRANSLATION_THRESHOLD = 80
 
 
 CACHED_TRANS_STATS = {}
