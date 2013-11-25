@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-11-25 02:30+0000\n"
-"PO-Revision-Date: 2013-11-25 15:00+0000\n"
+"PO-Revision-Date: 2013-11-25 15:06+0000\n"
 "Last-Translator: John Weitzmann <john@creativecommons.de>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/CC/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -845,7 +845,7 @@ msgid ""
 "Thank you!\n"
 "Creative Commons Support\n"
 "info@creativecommons.org"
-msgstr ""
+msgstr "Wir danken Ihnen, dass sie ein Creative-Commons-Werkzeug für Ihr Werk benutzen.\n\nSie haben %(license_title)s gewählt.\n\nDarauf sollten sie per Link von der Webseite aus verweisen, die das betreffende Werk enthält.\n\nDies ist der empfohlene HTML-Code:\n\n%(license_html)s\n\nTipps zur Kennzeichnung Ihres Werks finden Sie unter http://wiki.creativecommons.org/Marking.\nInformation zum vorgeschlagenen HTML Code und den Metadaten ist verfügbar unter http://wiki.creativecommons.org/CC_REL.\n\nDiese Mail und die technische Unterstützung erhalten Sie von den Mitarbeitern der Non-Profit-Organisation Creative Commons. CC ist auf Spenden angewiesen, um für Sie solche Lizenzen und Dienstleistungen bereitzustellen.\nBitte erwägen Sie eine Spende im Rahmen unserer jährlichen Spendensammlung:\nhttps://creativecommons.net/donate.\n\nVielen Dank!\nCreative Commons Support\ninfo@creativecommons.org"
 
 #: checkouts/cc.engine/cc/engine/util.py:505
 msgid "Your Creative Commons License Information"
@@ -2574,7 +2574,7 @@ msgid ""
 "neighboring rights. </p> <p> <br /> You can copy, modify, distribute and "
 "perform the work, even for commercial purposes, all without asking "
 "permission. See <b>Other Information</b> below. </p>"
-msgstr ""
+msgstr "<p id=\"nolaw-text\"> Dieses Werk wurde als frei von bekannten urheberrechtlichen Einschränkungen <b>identifiziert</b>, einschließlich aller verwandten Schutzrechte. </p> <p> <br /> Sie dürfen das Werk kopieren, verändern, verbreiten und aufführen, sogar zu kommerziellen Zwecken, ohne irgendwie um Erlaubnis bitten zu müssen. Siehe auch <b>Sonstige Informationen</b> unten. </p>"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:44
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:53
@@ -2670,7 +2670,7 @@ msgid ""
 "Copyright laws in most jurisdictions around the world grant creators \"moral"
 " rights\" which may provide some redress if use of a work is considered "
 "\"derogatory\"."
-msgstr ""
+msgstr "Urheberrechtsgesetze in den meisten Ländern weltweit verleihen dem Urheber bestimmte \"Urheberpersönlichkeitsrechte\", z.B. zum Schutz vor Entstellungen des Werkes."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:147
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:98
@@ -2685,7 +2685,7 @@ msgid ""
 "protection laws, publicity, image, or privacy rights that allow a person to "
 "control how their voice, image or likeness is used, or other restrictions or"
 " limitations under applicable law."
-msgstr ""
+msgstr "Die Nutzung eines Werkes, für das keine Urheberrechte mehr bekannt sind, kann dennoch auf andere Weise geregelt oder eingeschränkt sein. Es können z.B. Datenschutzbestimmungen zu beachten sein oder Persönlichkeitsrechte, die einer Person die Entscheidung darüber geben, wie ihre Stimme, ein Bild von ihr oder ihre Erscheinung von anderen genutzt werden darf."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:159
 msgid "Term of Copyright"
@@ -2696,7 +2696,7 @@ msgid ""
 "Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
 "restrictions in one jurisdiction may not be similarly free in other "
 "jurisdictions."
-msgstr ""
+msgstr "Urheberrechtliche Schutzfristen sind von Land zu Land unterschiedlich. Ein Werk, das in einer Rechtsordnung schon gemeinfrei geworden ist, kann in einer anderen noch geschützt sein."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:179
 #: checkouts/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:186
@@ -2977,7 +2977,7 @@ msgstr "Sie dürfen das Werk kopieren, verändern, verbreiten und aufführen, so
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:59
 msgid "<a href=\"\" class=\"inline-help helpLink\" id=\"who_is_affirmer\">Affirmer</a>"
-msgstr ""
+msgstr "<a href=\"\" class=\"inline-help helpLink\" id=\"who_is_affirmer\">Freigebender</a>"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/zero_deed.html:83
 msgid ""
@@ -3178,47 +3178,47 @@ msgstr "Dieses Werk unterliegt keinen bekannten urheberrechtlichen Beschränkung
 #: checkouts/cc.license/cc/license/formatters/classes.py:338
 #, python-format
 msgid "This work (%(work_title)s) is free of known copyright restrictions."
-msgstr ""
+msgstr "Dieses Werk (%(work_title)s) unterliegt keinen bekannten urheberrechtlichen Beschränkungen."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:341
 #, python-format
 msgid "This work (by %(author)s) is free of known copyright restrictions."
-msgstr ""
+msgstr "Dieses Werk (von %(author)s) unterliegt keinen bekannten urheberrechtlichen Beschränkungen."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:346
 #, python-format
 msgid ""
 "This work, identified by %(curator)s, is free of known copyright "
 "restrictions."
-msgstr ""
+msgstr "Dieses Werk, das durch %(curator)s gekennzeichnet wurde, unterliegt keinen bekannten urheberrechtlichen Beschränkungen."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:351
 #, python-format
 msgid ""
 "This work (%(work_title)s, by %(author)s) is free of known copyright "
 "restrictions."
-msgstr ""
+msgstr "Dieses Werk (%(work_title)s, von %(author)s) unterliegt keinen bekannten urheberrechtlichen Beschränkungen."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:355
 #, python-format
 msgid ""
 "This work (%(work_title)s), identified by %(curator)s, is free of known "
 "copyright restrictions."
-msgstr ""
+msgstr "Dieses Werk (%(work_title)s), das durch %(curator)s gekennzeichnet wurde, unterliegt keinen bekannten urheberrechtlichen Beschränkungen."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:360
 #, python-format
 msgid ""
 "This work (%(work_title)s, by %(author)s), identified by %(curator)s, is "
 "free of known copyright restrictions."
-msgstr ""
+msgstr "Dieses Werk (%(work_title)s, von %(author)s), das durch %(curator)s gekennzeichnet wurde, unterliegt keinen bekannten urheberrechtlichen Beschränkungen."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:365
 #, python-format
 msgid ""
 "This work (by %(author)s), identified by %(curator)s, is free of known "
 "copyright restrictions."
-msgstr ""
+msgstr "Dieses Werk (von %(author)s), das durch %(curator)s gekennzeichnet wurde, unterliegt keinen bekannten urheberrechtlichen Beschränkungen."
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NoDerivatives"
