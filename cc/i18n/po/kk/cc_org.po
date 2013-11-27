@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-11-25 02:30+0000\n"
-"PO-Revision-Date: 2013-11-25 02:31+0000\n"
+"POT-Creation-Date: 2013-11-27 20:45+0000\n"
+"PO-Revision-Date: 2013-11-27 20:46+0000\n"
 "Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
 "Language-Team: Kazakh (http://www.transifex.com/projects/p/CC/language/kk/)\n"
 "MIME-Version: 1.0\n"
@@ -277,7 +277,7 @@ msgstr ""
 msgid "United States"
 msgstr ""
 
-#: cc/i18n/mappers.py:67
+#: cc/i18n/mappers.py:67 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Venezuela"
 msgstr ""
 
@@ -633,6 +633,7 @@ msgstr ""
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:21
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1860
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:53
+#: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:93
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution"
 msgstr "Атауын сақтау"
@@ -674,6 +675,7 @@ msgstr ""
 
 #: cc/i18n/mappers.py:168
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:76
+#: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:130
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "NonCommercial"
 msgstr "Коммерциялық емес"
@@ -704,6 +706,7 @@ msgid "Public Domain"
 msgstr ""
 
 #: cc/i18n/mappers.py:174
+#: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:148
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "ShareAlike"
 msgstr ""
@@ -2820,6 +2823,10 @@ msgid ""
 msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:138
+msgid "NoDerivatives"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:138
 msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
@@ -2902,7 +2909,8 @@ msgstr ""
 msgid ""
 "If supplied, you must provide the name of the creator and attribution "
 "parties, a copyright notice, a license notice, a disclaimer notice, and a "
-"link to the material."
+"link to the material. Prior versions of CC licenses have slightly different "
+"attribution requirements."
 msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:211

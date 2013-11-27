@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-11-25 02:30+0000\n"
-"PO-Revision-Date: 2013-11-25 02:31+0000\n"
+"POT-Creation-Date: 2013-11-27 20:45+0000\n"
+"PO-Revision-Date: 2013-11-27 20:46+0000\n"
 "Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/CC/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -286,7 +286,7 @@ msgstr "영국(잉글랜드, 웨일즈)"
 msgid "United States"
 msgstr "미국"
 
-#: cc/i18n/mappers.py:67
+#: cc/i18n/mappers.py:67 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Venezuela"
 msgstr "베네수엘라"
 
@@ -642,6 +642,7 @@ msgstr "LGPL"
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:21
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1860
 #: checkouts/cc.engine/cc/engine/templates/licenses/devnations_deed.html:53
+#: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:93
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution"
 msgstr "저작자표시"
@@ -683,6 +684,7 @@ msgstr "저작자표시-동일조건변경허락"
 
 #: cc/i18n/mappers.py:168
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:76
+#: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:130
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "NonCommercial"
 msgstr "비영리"
@@ -713,6 +715,7 @@ msgid "Public Domain"
 msgstr "퍼블릭 도메인"
 
 #: cc/i18n/mappers.py:174
+#: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:148
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "ShareAlike"
 msgstr "동일조건변경허락"
@@ -2829,6 +2832,10 @@ msgid ""
 msgstr "이 콘텐츠는 <a href=\"#\" id=\"commercial_purposes_popup\" class=\"helpLink\">영리 목적</a>으로는 이용해서는 안 됩니다."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:138
+msgid "NoDerivatives"
+msgstr ""
+
+#: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:138
 msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
@@ -2911,8 +2918,9 @@ msgstr "추가 정보"
 msgid ""
 "If supplied, you must provide the name of the creator and attribution "
 "parties, a copyright notice, a license notice, a disclaimer notice, and a "
-"link to the material."
-msgstr "저작자의 이름과 저작권 관련 단체, 저작권 공지, 라이선스 공지, 권리 포기 공지, 콘텐츠 링크 등을 알고 있다면 제공해야 합니다."
+"link to the material. Prior versions of CC licenses have slightly different "
+"attribution requirements."
+msgstr ""
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:211
 msgid ""
