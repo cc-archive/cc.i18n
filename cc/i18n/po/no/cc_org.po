@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-11-25 02:30+0000\n"
-"PO-Revision-Date: 2013-11-27 03:01+0000\n"
+"PO-Revision-Date: 2013-11-27 03:16+0000\n"
 "Last-Translator: Gisle Hannemyr <gisle@hannemyr.no>\n"
 "Language-Team: Norwegian (http://www.transifex.com/projects/p/CC/language/no/)\n"
 "MIME-Version: 1.0\n"
@@ -811,7 +811,7 @@ msgid ""
 "<a href=\"%(owner_url)s\">%(owner_name)s</a> has registered <a "
 "href=\"%(lookup_uri)s\">this work</a> at the <nobr><a "
 "href=\"%(network_url)s\">%(network_name)s</a></nobr>"
-msgstr ""
+msgstr "<a href=\"%(owner_url)s\">%(owner_name)s</a> har registerert <a href=\"%(lookup_uri)s\">dette verket</a> ved <nobr><a href=\"%(network_url)s\">%(network_name)s</a></nobr>"
 
 #: checkouts/cc.engine/cc/engine/util.py:481
 #, python-format
@@ -1753,7 +1753,7 @@ msgid ""
 "certification, visit http://creativecommons.org/licenses/publicdomain/ or "
 "send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain "
 "View, California, 94041, USA."
-msgstr ""
+msgstr "Dette verket er i det fri. For å se en kopi av sertifiseringen av fristatus, besøk http://creativecommons.org/licenses/publicdomain/ eller send et brev til Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/nonweb_popup.html:14
 #, python-format
@@ -1762,7 +1762,7 @@ msgid ""
 "To view a copy of this license, visit %(license_url)s or send a letter to "
 "Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, "
 "94041, USA."
-msgstr ""
+msgstr "Dette verket er lisensiert under følgende Creative Commons lisens: %(license_name)s. For å se en kopi av denne lisensen, besøk %(license_url)s eller send et brev til Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:19
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:47
@@ -1831,7 +1831,7 @@ msgid ""
 "onclick=\"window.open('non-web-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">add this text</a> to your work."
-msgstr ""
+msgstr "For å merke et dokument som ikke ligger på nettet, <a href=\"non-web-popup?%(url_vars)s\" onclick=\"window.open('non-web-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">føy denne teksten</a> til ditt verk."
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:121
 #, python-format
@@ -2720,7 +2720,7 @@ msgid ""
 "Copyright-Only Dedication<a href=\"#\" class=\"helpLink\" id=\"use_zero\">*</a>\n"
 "  (based on United States law)<br />\n"
 "  or Public Domain Certification"
-msgstr ""
+msgstr "Copyright-Only-dedikasjon<a href=\"#\" class=\"helpLink\" id=\"use_zero\">*</a>\n  (basert på lovgiving i USA)<br />\n  eller fristatus-sertifisering"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/publicdomain_deed.html:28
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:29
