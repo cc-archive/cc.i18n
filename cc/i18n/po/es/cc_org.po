@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-11-27 20:49+0000\n"
-"PO-Revision-Date: 2013-11-28 04:00+0000\n"
+"PO-Revision-Date: 2013-11-28 04:15+0000\n"
 "Last-Translator: mgarro\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/CC/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -1650,7 +1650,7 @@ msgid ""
 "        A real world example of license incompatibility:  Works with the NonCommercial\n"
 "        or the NoDerivatives restriction may not be posted to Wikipedia.\n"
 "      </p>"
-msgstr "<p>Si la licencia seleccionada proporciona los derechos requeridos por una licencia de la cultura libre, entonces el ícono \"Aprobado para obras de cultural libre\" aparecerá en este panel. Esta característica está diseñada para ayudarte a tomar una decisión más informada. La licencias NoComercial y NoDerivadas incluyen restricciones adicionales que, por definición, les impiden ser consideradas como licencias de cultura libre. </p>\n<p>Si bien las licencias que limitan el uso comercial y la creación de obras derivadas son útiles en determinadas circunstancias, pueden tener consecuencias no deseadas (como la incompatibilidad entre licencias). Por ejemplo, una obra que se encuentra bajo la licencia \"Reconocimiento-NoComercial-CompartirIgual\" no puede ser combinada con una obra con licencia \"Reconocimiento-CompartirIgual\", porque poner la obra resultante bajo cualquiera de las dos licencias violaría la otra al agregar o quitar la restricción NonCommercial.</p> \n<p>Un ejemplo real de la incompatibilidad de licencia: Obras con restricción NoComercial o NoDerivadas no pueden ser formar parte de Wikipedia, ya que Wikipedia usa una licencia de Atribución-CompartirIgual para todo su contenido.</p>"
+msgstr "<p>Si la licencia seleccionada proporciona los derechos requeridos por una licencia de la cultura libre, entonces el ícono \"Aprobado para obras de cultural libre\" aparecerá en este panel. Esta característica está diseñada para ayudarte a tomar una decisión más informada. La licencias NoComercial y SinObraDerivada incluyen restricciones adicionales que, por definición, les impiden ser consideradas como licencias de cultura libre. </p>\n<p>Si bien las licencias que limitan el uso comercial y la creación de obras derivadas son útiles en determinadas circunstancias, pueden tener consecuencias no deseadas (como la incompatibilidad entre licencias). Por ejemplo, una obra que se encuentra bajo la licencia \"Reconocimiento-NoComercial-CompartirIgual\" no puede ser combinada con una obra con licencia \"Reconocimiento-CompartirIgual\", porque poner la obra resultante bajo cualquiera de las dos licencias violaría la otra al agregar o quitar la restricción NoCommercial.</p> \n<p>Un ejemplo real de la incompatibilidad de licencia: Obras con restricción NoComercial o  SinObraDerivada no pueden ser formar parte de Wikipedia, ya que Wikipedia usa una licencia de Atribución-CompartirIgual para todo su contenido.</p>"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1782
 msgid ""
@@ -2828,14 +2828,14 @@ msgstr "Usted no puede hacer uso del material con <a href=\"#\" id=\"commercial_
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:138
 msgid "NoDerivatives"
-msgstr ""
+msgstr "SinObraDerivada"
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:138
 msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
 " not distribute the modified material."
-msgstr ""
+msgstr "Si usted <a href=\"#\" id=\"some_kinds_of_mods_popup\" class=\"helpLink\">mezcla, transforma o crea nuevo material a partir de esta obra</ a>, usted no podrá distribuir el material modificado."
 
 #: checkouts/cc.engine/cc/engine/templates/licenses/standard_deed.html:148
 msgid ""
@@ -3227,11 +3227,11 @@ msgstr "Esta obra (by %(author)s), identificada por  %(curator)s, está libre de
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NoDerivatives"
-msgstr ""
+msgstr "Atribución-SinObraDerivada"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NonCommercial-NoDerivatives"
-msgstr ""
+msgstr "Atribución-NoComercial-SinObraDerivada"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Developing Nations"
