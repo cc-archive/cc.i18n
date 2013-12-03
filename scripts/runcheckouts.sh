@@ -33,7 +33,7 @@ function make_or_update_checkout
     else
         echo "-- Updating $DIRNAME --"
         cd $DIRNAME
-        git checkout next
+        git checkout master
         git pull
         cd ..
     fi
