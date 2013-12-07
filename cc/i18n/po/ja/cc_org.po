@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-12-06 01:30+0000\n"
-"PO-Revision-Date: 2013-12-07 03:13+0000\n"
+"PO-Revision-Date: 2013-12-07 03:28+0000\n"
 "Last-Translator: Tomoaki Watanabe <tomoaki@creativecommons.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/CC/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1798,7 +1798,7 @@ msgid ""
 "html-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">emailed to yourself.</a>"
-msgstr "ボックスの内容をコピーしてください．または，<a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">自分宛にメール</a>してください．"
+msgstr "ボックス内に表示されている内容をコピーしてください．または，<a href=\"/license/work-html-popup?%(url_vars)s\" onclick=\"window.open('work-html-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">自分宛にメール</a>してください．"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/results.html:85
 msgid ""
@@ -1935,7 +1935,7 @@ msgid ""
 "You have selected the <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s License</b></a>.<br>\n"
 "This license is permanently located at<br>\n"
 "<b><tt>%(license_url)s</tt></b>."
-msgstr "あなたは、<a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)sライセンス</b></a>を選択しました。<br>\nこのライセンスは、永久に、<br>\n<b><tt>%(license_url)s</tt></b>\nに保存されています。"
+msgstr "あなたは、<a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)sライセンス</b></a>を選択しました。<br>\nこのライセンスは、恒久的に、<br>\n<b><tt>%(license_url)s</tt></b>\nに保存されています。"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:15
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:25
@@ -2100,7 +2100,7 @@ msgstr "始める"
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:6
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/zero/partner.html:6
 msgid "confirm choice"
-msgstr "ライセンス選択の確認"
+msgstr "選択結果の確認"
 
 #: checkouts/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:21
 #, python-format
@@ -3142,14 +3142,14 @@ msgstr "クリエイティブ・コモンズ・ライセンス"
 msgid ""
 "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr "%(work_author)s 作『%(work_title)s』は<a rel=\"license\" href=\"%(license_url)s\">クリエイティブ・コモンズ %(license_name)s ライセンス</a>で提供されています。"
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:207
 #, python-format
 msgid ""
 "This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\""
 " href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr "This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\" href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
+msgstr "%(work_author)s を著作者とするこの %(work_type)s は <a rel=\"license\" href=\"%(license_url)s\">クリエイティブ・コモンズの %(license_name)s ライセンス</a>で提供されています。"
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:218
 #, python-format
