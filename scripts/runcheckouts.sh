@@ -39,7 +39,7 @@ function make_or_update_checkout
     fi
 }
 
-make_or_update_checkout cc.engine https://github.com/creativecommons/cc.engine.git
+make_or_update_checkout creativecommons.org https://github.com/creativecommons/creativecommons.org.git
 make_or_update_checkout cc.license https://github.com/creativecommons/cc.license.git
 make_or_update_checkout cc.licenserdf https://github.com/creativecommons/license.rdf.git
 make_or_update_checkout cc.deedscraper https://github.com/creativecommons/deedscraper.git
