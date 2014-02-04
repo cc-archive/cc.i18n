@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2014-01-30 21:42+0000\n"
-"PO-Revision-Date: 2014-01-31 13:49+0000\n"
+"PO-Revision-Date: 2014-02-03 23:59+0000\n"
 "Last-Translator: tarmo <tarmo@iki.fi>\n"
 "Language-Team: Finnish (http://www.transifex.com/projects/p/CC/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -1433,7 +1433,7 @@ msgstr "<p>Valintaasi liittyvä tieto on lähetetty sähköpostiisi <strong>%(em
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:7
 msgid "The HTML to display your button is as follows:"
-msgstr "HTML-koodi jonka tarvitset napin näyttämiseen on:"
+msgstr "Painikkeen näyttävä HTML-koodi on seuraava:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:14
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/nonweb_popup.html:21
@@ -1533,7 +1533,7 @@ msgstr "Tämä on Vapaan Kulttuurin käyttölupa!"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1458
 msgid "This is not a Free Culture License."
-msgstr "Tämä ei ole Vapaan Kulttuurin lisenssi."
+msgstr "Tämä ei ole Vapaan Kulttuurin käyttölupa."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1477
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1817
@@ -1665,7 +1665,7 @@ msgid ""
 "<a id=\"xmp_download_link\" "
 "href=\"/choose/metadata.xmp?%(last_query)s\">Download metadata.xmp</a> for "
 "<br/> <span id=\"xmp_license_name\">%(license_name)s</span>"
-msgstr "<a id=\"xmp_download_link\" href=\"/choose/metadata.xmp?%(last_query)s\">Kopioi metadata.xmp</a> lisenssille <br/> <span id=\"xmp_license_name\">%(license_name)s</span>"
+msgstr "<a id=\"xmp_download_link\" href=\"/choose/metadata.xmp?%(last_query)s\">Kopioi metadata.xmp</a> käyttöluvalle <br/> <span id=\"xmp_license_name\">%(license_name)s</span>"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1643
 msgid "Non-digital works?"
@@ -1822,7 +1822,7 @@ msgstr "<a target=\"_blank\" href=\"http://wiki.creativecommons.org/Metadata\">L
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1829
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:76
 msgid "The title of the work you are licensing."
-msgstr "Teoksen tai työn nimike, jota olet lisensoimassa."
+msgstr "Teoksen tai työn nimike, johon olet antamassa käyttölupaa."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1833
 msgid ""
@@ -1838,7 +1838,7 @@ msgstr "URL, joka tulisi mainita teoksen yhteydessä. Esimerkiksi tekijän sivus
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1842
 msgid "The URL of the work upon which this work is based or derived."
-msgstr "Jos lisensoitava työ perustuu toiseen teokseen eli on siitä tehty muunnelma, remiksaus tai johdannainen, mainitse tässä alkuperäisen teoksen URL."
+msgstr "Jos lisensoitava työ perustuu toiseen teokseen eli siitä on tehty muunnelma, remiksaus tai johdannainen, mainitse tässä alkuperäisen teoksen URL."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1846
 msgid ""
@@ -1879,7 +1879,7 @@ msgstr "<a target=\"_blank\" href=\"http://wiki.creativecommons.org/XMP\">XMP</a
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1862
 msgid ""
 "Provides a simple plain text notice that can be used to mark offline works"
-msgstr "Tämä on yksinkertainen tekstimuotoinen ilmoitus, jolla lisenssin voi merkitä teoksiin, jotka eivät ole digitaalisessa muodossa."
+msgstr "Tämä on yksinkertainen tekstimuotoinen ilmoitus, jolla käyttöluvan voi merkitä teoksiin, jotka eivät ole digitaalisessa muodossa."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1873
 msgid ""
@@ -1973,7 +1973,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/results.html:112
 msgid "Offline Work?"
-msgstr "Verkon ulkopuolinen teos?"
+msgstr "Teos ei ole verkossa?"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/results.html:117
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-4.html:43
@@ -1983,7 +1983,7 @@ msgid ""
 "onclick=\"window.open('non-web-popup?%(url_vars)s', 'html_help', "
 "'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
 " false;\">add this text</a> to your work."
-msgstr "Voit merkitä lisenssin muualla kuin verkossa olevaan dokumenttiin lisäämällä siihen <a href=\"non-web-popup?%(url_vars)s\" onclick=\"window.open('non-web-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">tämän tekstin</a>."
+msgstr "Kun dokumentti ei ole verkossa, voit merkitä käyttöluvan lisäämällä siihen <a href=\"non-web-popup?%(url_vars)s\" onclick=\"window.open('non-web-popup?%(url_vars)s', 'html_help', 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return false;\">tämän tekstin</a>."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/results.html:121
 #, python-format
@@ -1998,7 +1998,7 @@ msgstr "Hanki korkearesoluutio- ja vektoriversiot käyttölupagrafiikoista."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/results.html:130
 msgid "Learn how to mark video and other formats."
-msgstr "Opi kuinka lisenssi merkitään videoon ja muihin mediamuotoihin."
+msgstr "Opi kuinka käyttölupa merkitään videoon ja muihin mediamuotoihin."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:7
 msgid ""
