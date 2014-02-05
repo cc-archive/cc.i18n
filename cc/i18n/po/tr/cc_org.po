@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2014-01-30 21:42+0000\n"
-"PO-Revision-Date: 2014-02-05 12:58+0000\n"
+"PO-Revision-Date: 2014-02-05 13:14+0000\n"
 "Last-Translator: muhtesemonder <muhtesem.onder@ozyegin.edu.tr>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/CC/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -798,7 +798,7 @@ msgstr "Bu eseri değiştirmeniz, aktarmanız ya da üzerine ekleme yapmanız du
 msgid ""
 "You must attribute <a href=\"%(subject)s\">%(title)s</a> to <a "
 "href=\"%(attributionURL)s\">%(attributionName)s</a> (with link)."
-msgstr "Nitelemelisiniz <a href=\"%(subject)s\">%(title)s</a> to <a href=\"%(attributionURL)s\">%(attributionName)s</a> (link ile)."
+msgstr "<a href=\"%(subject)s\">%(title)s</a>adlı esere<a href=\"%(attributionURL)s\">%(attributionName)s</a> (linki ile) atıfta bulunmalısınız."
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/attribution_details.html:7
 #, python-format
@@ -882,60 +882,60 @@ msgstr "Bu %(work_type)s <a rel=\"license\" href=\"http://creativecommons.org/li
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:335
 msgid "This work is free of known copyright restrictions."
-msgstr "Bu eserin bilinen telif hakkı sınırlaması yoktur."
+msgstr "Bu eserin bilinen telif hakkı kısıtlaması yoktur."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:338
 #, python-format
 msgid "This work (%(work_title)s) is free of known copyright restrictions."
-msgstr "Bu eserin (%(work_title)s) bilinen telif hakkı sınırlaması yoktur."
+msgstr "Bu eserin (%(work_title)s) bilinen telif hakkı kısıtlaması yoktur."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:341
 #, python-format
 msgid "This work (by %(author)s) is free of known copyright restrictions."
-msgstr "(%(author)starafından) yaratılan bu eserin bilinen herhangi bir telif hakkı sınırlaması yoktur."
+msgstr "(%(author)starafından) yaratılan bu eserin bilinen telif hakkı kısıtlaması yoktur."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:346
 #, python-format
 msgid ""
 "This work, identified by %(curator)s, is free of known copyright "
 "restrictions."
-msgstr "%(curator)s tarafından tanımlanan bu eserin bilinen telif hakkı sınırlaması yoktur."
+msgstr "%(curator)s tarafından tanımlanan bu eserin bilinen telif hakkı kısıtlaması yoktur."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:351
 #, python-format
 msgid ""
 "This work (%(work_title)s, by %(author)s) is free of known copyright "
 "restrictions."
-msgstr "%(author)s) adlı yazarın (%(work_title)s başlıklı eserinin bilinen bir telif hakkı sınırlaması yok."
+msgstr "%(author)s) adlı yazarın (%(work_title)s başlıklı eserinin bilinen telif hakkı kısıtlaması yoktur."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:355
 #, python-format
 msgid ""
 "This work (%(work_title)s), identified by %(curator)s, is free of known "
 "copyright restrictions."
-msgstr "%(curator)s tarafından eklenen bu eserin (%(work_title)s) bilinen bir telif hakkı kısıtlaması yoktur."
+msgstr "%(curator)s tarafından eklenen (%(work_title)s) başlıklı eserin bilinen telif hakkı kısıtlaması yoktur."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:360
 #, python-format
 msgid ""
 "This work (%(work_title)s, by %(author)s), identified by %(curator)s, is "
 "free of known copyright restrictions."
-msgstr "%(curator)s tarafından eklenen %(author)s)na ait bu eserin  (%(work_title)s bilinen bir telif hakkı kısıtlaması yoktur."
+msgstr "%(curator)s tarafından eklenen %(author)s) isimli yazara ait (%(work_title)s başlıklı eserin bilinen telif hakkı kısıtlaması yoktur."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:365
 #, python-format
 msgid ""
 "This work (by %(author)s), identified by %(curator)s, is free of known "
 "copyright restrictions."
-msgstr "%(curator)s tarafından eklenen (%(author)s)na  ait eserin bilinen bir telif hakkı kısıtlaması yoktur."
+msgstr "%(curator)s tarafından eklenen (%(author)s) adlı yazara ait eserin bilinen telif hakkı kısıtlaması yoktur."
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NoDerivatives"
-msgstr "Esinlenilmemiş Eserlerin Nitelikleri"
+msgstr "Alıntı-Türetilemez"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Attribution-NonCommercial-NoDerivatives"
-msgstr "Esinlenilmemiş Ticari Olmayan Eserlerin Nitelikleri"
+msgstr "Alıntı-Gayriticari-Türetilemez"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Developing Nations"
@@ -951,7 +951,7 @@ msgstr "GNU Kısıtlı Genel Kamu Lisansı"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Generic"
-msgstr "Kapsamlı"
+msgstr "Jenerik"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:202
@@ -1003,7 +1003,7 @@ msgid ""
 "Thank you!\n"
 "Creative Commons Support\n"
 "info@creativecommons.org"
-msgstr "Creative Commons yasal aracını eserinizde kullandığınız için teşekkür edriz.\n\n%(license_title)sı seçtiniz.\nİşme aşamasındaki eserin olduğu web sayfasına bir referans eklemelisiniz.\n\nÖnerdiğimiz HTML:\n\n%(license_html)s\n\nEserinizi işaretlemek için ipuçlarını alttaki linkte bulabilirsiniz.\nhttp://wiki.creativecommons.org/Marking.  Sağlanan HTM hkkında bilgi ve\nmetadata http://wiki.creativecommons.org/CC_REL linkinde bulunabilir.\n\nBu email ve teknik destek Creative Commons'da çalışan gönüllü personel tarafından sağlanmaktadır. CC lisans ve benzeri hizmetlerle desteklemek için yardımlarınızı bekliyor. Lütfen bağışta bulunun:\nhttps://creativecommons.net/donate.\n\nTeşekkürler!\nCreative Commons Destek\ninfo@creativecommons.org"
+msgstr "Creative Commons yasal aracını eserinizde kullandığınız için teşekkür edriz.\n\n%(license_title)sı seçtiniz.\nSöz konusu eserin olduğu web sayfasına bir referans eklemelisiniz.\n\nÖnerdiğimiz HTML:\n\n%(license_html)s\n\nEserinizi işaretlemek için ipuçlarını alttaki linkte bulabilirsiniz.\nhttp://wiki.creativecommons.org/Marking.  Sağlanan HTML hakkında bilgi ve\nmetadata http://wiki.creativecommons.org/CC_REL linkinde bulunabilir.\n\nBu email ve teknik destek Creative Commons'da çalışan gönüllü personel tarafından sağlanmaktadır. CC lisans ve benzeri hizmetlerle desteklemek için yardımlarınızı bekliyor. Lütfen bağışta bulunun:\nhttps://creativecommons.net/donate.\n\nTeşekkürler!\nCreative Commons Destek\ninfo@creativecommons.org"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/util.py:505
 msgid "Your Creative Commons License Information"
@@ -1037,7 +1037,7 @@ msgid ""
 "href=\"http://creativecommons.org/videos/wanna-work-together\">copied, "
 "distributed, edited, remixed, and built upon</a>, all within the boundaries "
 "of copyright law."
-msgstr "Creative Commons telif hakkı lisansları ve araçları kanunun oluşturduğu  geleneksel\"tüm hakları saklıdır\" yapsı içinde bir denge oluşturur. Araçlarımız bireysel yaratıcılardan büyük şirket ve kurumlara kadar herkesin  eserlerine basit, standartlaştırılmış bir yol ile telif izinleri vermesini sağlar. Araçlarımızın ve kullanıcılarımızın kombinasyonu <a href=\"http://creativecommons.org/videos/a-shared-culture\"> geniş ve büyüyen dijital bir halktır </ a>, ve içerik havuzu <olduğunu a href = \"http://creativecommons.org/videos/wanna-work-together\"> telif hakları çerçevesinde kopyalanabilir, dağıtılabilir, düzenlenebilir, remix, ve üzerine inşa edilebilir."
+msgstr "Creative Commons telif hakkı lisansları ve araçları kanunun oluşturduğu  geleneksel\"tüm hakları saklıdır\" yapısı içinde bir denge oluşturur. Araçlarımız bireysel yaratıcılardan büyük şirket ve kurumlara kadar herkesin  eserlerine basit, standartlaştırılmış bir yol ile telif izinleri vermesini sağlar. Araçlarımızın ve kullanıcılarımızın kombinasyonu <a href=\"http://creativecommons.org/videos/a-shared-culture\"> geniş ve büyüyen dijital bir halktır </ a>, ve içerik havuzu <olduğunu a href = \"http://creativecommons.org/videos/wanna-work-together\"> telif hakları çerçevesinde kopyalanabilir, dağıtılabilir, düzenlenebilir, karıştırılabilir, ve üzerine inşa edilebilir."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:139
 msgid "License design and rationale"
@@ -1055,7 +1055,7 @@ msgid ""
 "These common features serve as the baseline, on top of which licensors can "
 "choose to grant additional permissions when deciding how they want their "
 "work to be used."
-msgstr "Tüm Creative Commons lisansları ortak birçok önemli özelliğe sahiptir. Her lisans, yaratıcılara yardımcı olur&mdash; eğer bizim araçlarımızı kullanıyorlarsa onlara lisansör diyoruz @mdash; en azından ticari olmayan çalışmalarının kopyalama, dağıtma, ve bazı kısımlarının kullanımlarınıa izin verirken diğerlerini telif haklarını da korur. Her Creative Commons lisansı da lisansörlere, hak ettikleri eserleri için kredi alma imkanı sağlar. Her Creative Commons lisansı dünyada geçerlidir ve (çünkü telif hakları üzerine inşa edilmişlerdir) geçerli telif hakkı süresince uygulanabilirdir. Bu ortak özellikler üstünde, lisansörlerin eserlerinin nasıl kullanılacağı konusunda ek izinler sunma seçeneğini de verir."
+msgstr "Tüm Creative Commons lisansları ortak birçok önemli özelliğe sahiptir. Her lisans, yaratıcılara yardımcı olur&mdash; eğer bizim araçlarımızı kullanıyorlarsa onlara lisansör diyoruz @mdash; en azından ticari olmayan çalışmalarının kopyalama, dağıtma, ve bazı kısımlarının kullanımlarınıa izin verirken diğer telif haklarını da korur. Her Creative Commons lisansı da lisansörlere, hak ettikleri eserleri için kredi alma imkanı sağlar. Her Creative Commons lisansı dünyada geçerlidir ve (çünkü telif hakları üzerine inşa edilmişlerdir) geçerli telif hakkı süresince uygulanabilirdir. Bu ortak özellikler üstünde, lisansörlerin eserlerinin nasıl kullanılacağı konusunda ek izinler sunma seçeneğini de verir."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:147
 msgid ""
