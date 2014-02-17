@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2014-01-30 21:42+0000\n"
-"PO-Revision-Date: 2014-02-17 18:53+0000\n"
+"PO-Revision-Date: 2014-02-17 19:57+0000\n"
 "Last-Translator: ilkay <ilkay.holt@ozyegin.edu.tr>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/CC/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -306,7 +306,7 @@ msgstr "Arapça"
 
 #: cc/i18n/mappers.py:75
 msgid "Assamese"
-msgstr "Assam"
+msgstr "Assam dili"
 
 #: cc/i18n/mappers.py:76
 msgid "Asturian"
@@ -318,7 +318,7 @@ msgstr "Azerice"
 
 #: cc/i18n/mappers.py:78
 msgid "Belarusian"
-msgstr "Belarusça"
+msgstr "Beyaz Rusça"
 
 #: cc/i18n/mappers.py:79
 msgid "Bulgarian"
@@ -326,7 +326,7 @@ msgstr "Bulgarca"
 
 #: cc/i18n/mappers.py:80
 msgid "Bengali"
-msgstr "Bengal dili"
+msgstr "Bengalce"
 
 #: cc/i18n/mappers.py:81
 msgid "Catalan"
@@ -494,11 +494,11 @@ msgstr "Korece"
 
 #: cc/i18n/mappers.py:122
 msgid "Lithuanian"
-msgstr "Litvanyaca"
+msgstr "Litvanca"
 
 #: cc/i18n/mappers.py:123
 msgid "Latvian"
-msgstr "Letonyaca"
+msgstr "Letonca"
 
 #: cc/i18n/mappers.py:124
 msgid "Macedonian"
@@ -530,7 +530,7 @@ msgstr "Kuzey Sotho"
 
 #: cc/i18n/mappers.py:131
 msgid "Aranese"
-msgstr "Aranese"
+msgstr "Aranese dili"
 
 #: cc/i18n/mappers.py:132
 msgid "Polish"
@@ -677,7 +677,7 @@ msgstr "Alıntı-Türetilemez-Gayriticari"
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:250
 msgid "Attribution-ShareAlike"
-msgstr "Alıntı-ShareAlike"
+msgstr "Alıntı-LisanDevam"
 
 #: cc/i18n/mappers.py:168
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
@@ -757,7 +757,7 @@ msgid ""
 "You must attribute the work in the manner specified by the author or "
 "licensor (but not in any way that suggests that they endorse you or your use"
 " of the work)."
-msgstr "Eseri yazar ya da lisansörün atadığı özelliklere göre kullanmalısınız (kullanım şekli sizi ya da eseri kullanımınızı destekler içerikte olmamalıdır) "
+msgstr "Eseri yazar ya da lisanslayanın belirttiği özelliklere göre alıntılamalısınız (ancak sizi ya da eseri kullanımınızı önerir şekilde değil). "
 
 #: cc/i18n/mappers.py:191
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/sampling_deed.html:53
@@ -780,19 +780,19 @@ msgstr "Bu eseri düzenleyemez, aktaramaz ya da üzerine bilgi ekleyemezsiniz."
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
-msgstr "Bu eserin tamamını hiç bir amaçla sergileyemez, görüntüleyemez, ya da kopyalarını dağıtamazsınız."
+msgstr "Bu eserin tamamını hiç bir amaçla sergileyemez, görüntüleyemez ya da kopyalarını dağıtamazsınız."
 
 #: cc/i18n/mappers.py:199
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same or similar license to this one."
-msgstr "Bu eseri değiştirmeniz, aktarmanız ya da üzerine ekleme yapmanız durumunda, sonuçta oluşan eseri sadece aynı ya da benzer telif hakları çerçevesinde dağıtabilirsiniz."
+msgstr "Bu eseri değiştirmeniz, aktarmanız ya da üzerine ekleme yapmanız durumunda, sonucunda oluşan eseri sadece aynı ya da  benzer lisans ile dağıtabilirsiniz."
 
 #: cc/i18n/mappers.py:203
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
-msgstr "Bu eseri değiştirmeniz, aktarmanız ya da üzerine ekleme yapmanız durumunda, sonuçta oluşan eseri sadece aynı ya da benzer telif hakları çerçevesinde dağıtabilirsiniz."
+msgstr "Bu eseri değiştirmeniz, aktarmanız ya da üzerine ekleme yapmanız durumunda, sonucunda oluşan eseri sadece aynı, benzer veya uyumlu bir lisans ile dağıtabilirsiniz."
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/attribution_details.html:3
 #, python-format
@@ -864,7 +864,7 @@ msgstr "Bu %(work_type)s <a rel=\"license\" href=\"%(license_url)s\">Creative Co
 #: checkouts/cc.license/cc/license/formatters/classes.py:237
 #, python-format
 msgid "Based on a work at %(source_link)s."
-msgstr "%(source_link)s linkindeki esere dayalı olarak."
+msgstr "%(source_link)s bağlantısındaki esere dayalı olarak."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:249
 #, python-format
@@ -893,14 +893,14 @@ msgstr "Bu eserin (%(work_title)s) bilinen telif hakkı kısıtlaması yoktur."
 #: checkouts/cc.license/cc/license/formatters/classes.py:341
 #, python-format
 msgid "This work (by %(author)s) is free of known copyright restrictions."
-msgstr "(%(author)starafından) yaratılan bu eserin bilinen telif hakkı kısıtlaması yoktur."
+msgstr "(%(author)s tarafından) yaratılan bu eserin bilinen telif hakkı kısıtlaması yoktur."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:346
 #, python-format
 msgid ""
 "This work, identified by %(curator)s, is free of known copyright "
 "restrictions."
-msgstr "%(curator)s tarafından tanımlanan bu eserin bilinen telif hakkı kısıtlaması yoktur."
+msgstr "%(curator)s tarafından eklenen bu eserin bilinen telif hakkı kısıtlaması yoktur."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:351
 #, python-format
@@ -969,7 +969,7 @@ msgstr "Kore"
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/publicdomain/index.html:29
 msgid "Public Domain Mark"
-msgstr "Kamuya Açık Eser İşareti"
+msgstr "Kamuya Malı İşareti"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Universal"
@@ -1038,7 +1038,7 @@ msgid ""
 "href=\"http://creativecommons.org/videos/wanna-work-together\">copied, "
 "distributed, edited, remixed, and built upon</a>, all within the boundaries "
 "of copyright law."
-msgstr "Creative Commons telif hakkı lisansları ve araçları kanunun oluşturduğu  geleneksel\"tüm hakları saklıdır\" yapısı içinde bir denge oluşturur. Araçlarımız bireysel yaratıcılardan büyük şirket ve kurumlara kadar herkesin  eserlerine basit, standartlaştırılmış bir yol ile telif izinleri vermesini sağlar. Araçlarımızın ve kullanıcılarımızın kombinasyonu <a href=\"http://creativecommons.org/videos/a-shared-culture\"> geniş ve büyüyen dijital bir halktır </ a>, ve içerik havuzu <olduğunu a href = \"http://creativecommons.org/videos/wanna-work-together\"> telif hakları çerçevesinde kopyalanabilir, dağıtılabilir, düzenlenebilir, karıştırılabilir, ve üzerine inşa edilebilir."
+msgstr "Creative Commons telif hakkı lisansları ve araçları kanunun oluşturduğu  geleneksel\"tüm hakları saklıdır\" yapısı içinde bir denge oluşturur. Araçlarımız bireysel yaratıcılardan büyük şirket ve kurumlara kadar herkesin  eserlerine basit, standartlaştırılmış bir yol ile telif izinleri vermesini sağlar. Araçlarımızın ve kullanıcılarımızın kombinasyonu <a href=\"http://creativecommons.org/videos/a-shared-culture\"> geniş ve büyüyen dijital bir ortaklıktır </ a>, ve <a href = \"http://creativecommons.org/videos/wanna-work-together\"> telif hakları çerçevesinde kopyalanabilir, dağıtılabilir, düzenlenebilir, karıştırılabilir, ve üzerine inşa edilebilir </a> bir içerik havuzu olabilir."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:139
 msgid "License design and rationale"
