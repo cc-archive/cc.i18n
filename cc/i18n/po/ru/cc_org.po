@@ -17,9 +17,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-01-30 21:42+0000\n"
-"PO-Revision-Date: 2014-01-30 21:56+0000\n"
-"Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
+"POT-Creation-Date: 2014-02-22 09:00+0000\n"
+"PO-Revision-Date: 2014-02-23 16:07+0000\n"
+"Last-Translator: TarzanASG\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/CC/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -830,33 +830,33 @@ msgstr "<a href=\"%(owner_url)s\">%(owner_name)s</a> зарегистриров�
 msgid "work"
 msgstr "произведение"
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:179
-#: checkouts/cc.license/cc/license/formatters/classes.py:317
+#: checkouts/cc.license/cc/license/formatters/classes.py:172
+#: checkouts/cc.license/cc/license/formatters/classes.py:310
 msgid "Creative Commons License"
 msgstr "Лицензия Creative Commons"
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:194
+#: checkouts/cc.license/cc/license/formatters/classes.py:187
 #, python-format
 msgid ""
 "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr "Произведение «%(work_title)s» созданное автором по имени %(work_author)s, публикуется на условиях <a rel=\"license\" href=\"%(license_url)s\">лицензии Creative Commons %(license_name)s</a>."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:207
+#: checkouts/cc.license/cc/license/formatters/classes.py:200
 #, python-format
 msgid ""
 "This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\""
 " href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr "Это %(work_type)s, автор которого — %(work_author)s, доступно на условиях <a rel=\"license\" href=\"%(license_url)s\">лицензии Creative Commons %(license_name)s</a>."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:218
+#: checkouts/cc.license/cc/license/formatters/classes.py:211
 #, python-format
 msgid ""
 "%(work_title)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr "%(work_title)s доступно на условиях <a rel=\"license\" href=\"%(license_url)s\">лицензии Creative Commons %(license_name)s</a>."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:227
+#: checkouts/cc.license/cc/license/formatters/classes.py:220
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/chooser/xmp_template.py:60
 #, python-format
 msgid ""
@@ -864,19 +864,19 @@ msgid ""
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr "Это %(work_type)s доступно по <a rel=\"license\" href=\"%(license_url)s\">лицензии Creative Commons %(license_name)s</a>."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:237
+#: checkouts/cc.license/cc/license/formatters/classes.py:230
 #, python-format
 msgid "Based on a work at %(source_link)s."
 msgstr "Основано на произведении с %(source_link)s."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:249
+#: checkouts/cc.license/cc/license/formatters/classes.py:242
 #, python-format
 msgid ""
 "Permissions beyond the scope of this license may be available at "
 "%(more_perms_link)s."
 msgstr "Разрешения, выходящие за рамки данной лицензии, могут быть доступны на странице %(more_perms_link)s."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:321
+#: checkouts/cc.license/cc/license/formatters/classes.py:314
 #, python-format
 msgid ""
 "This %(work_type)s is in the <a rel=\"license\" "
@@ -884,49 +884,49 @@ msgid ""
 "Domain</a>."
 msgstr "Это %(work_type)s находится в <a rel=\"license\" href=\"http://creativecommons.org/licenses/publicdomain/\">общественном достоянии</a> (public domain)."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:335
+#: checkouts/cc.license/cc/license/formatters/classes.py:328
 msgid "This work is free of known copyright restrictions."
 msgstr "Это произведение свободно от известных лицензионных ограничений."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:338
+#: checkouts/cc.license/cc/license/formatters/classes.py:331
 #, python-format
 msgid "This work (%(work_title)s) is free of known copyright restrictions."
 msgstr "Это произведение (%(work_title)s) свободно от известных лицензионных ограничений."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:341
+#: checkouts/cc.license/cc/license/formatters/classes.py:334
 #, python-format
 msgid "This work (by %(author)s) is free of known copyright restrictions."
 msgstr "Это произведение (автор %(author)s) свободно от известных лицензионных ограничений."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:346
+#: checkouts/cc.license/cc/license/formatters/classes.py:339
 #, python-format
 msgid ""
 "This work, identified by %(curator)s, is free of known copyright "
 "restrictions."
 msgstr "Это произведение, идентифицированное %(curator)s, свободно от известных лицензионных ограничений."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:351
+#: checkouts/cc.license/cc/license/formatters/classes.py:344
 #, python-format
 msgid ""
 "This work (%(work_title)s, by %(author)s) is free of known copyright "
 "restrictions."
 msgstr "Это произведение (%(work_title)s, автор %(author)s) свободно от известных лицензионных ограничений."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:355
+#: checkouts/cc.license/cc/license/formatters/classes.py:348
 #, python-format
 msgid ""
 "This work (%(work_title)s), identified by %(curator)s, is free of known "
 "copyright restrictions."
 msgstr "Это произведение (%(work_title)s), идентифицированное %(curator)s, свободно от известных лицензионных ограничений."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:360
+#: checkouts/cc.license/cc/license/formatters/classes.py:353
 #, python-format
 msgid ""
 "This work (%(work_title)s, by %(author)s), identified by %(curator)s, is "
 "free of known copyright restrictions."
 msgstr "Это произведение (%(work_title)s, автор %(author)s), заверенное %(curator)s, свободно от известных лицензионных ограничений."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:365
+#: checkouts/cc.license/cc/license/formatters/classes.py:358
 #, python-format
 msgid ""
 "This work (by %(author)s), identified by %(curator)s, is free of known "
@@ -1027,7 +1027,7 @@ msgstr "О лицензиях"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:121
 msgid "What our licenses do"
-msgstr "Что делают наши лицензии"
+msgstr "Для чего созданы наши лицензии"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:124
 msgid ""
@@ -1041,11 +1041,11 @@ msgid ""
 "href=\"http://creativecommons.org/videos/wanna-work-together\">copied, "
 "distributed, edited, remixed, and built upon</a>, all within the boundaries "
 "of copyright law."
-msgstr "Лицензии в области авторских прав и инструменты Creative Commons восстанавливают баланс внутри традиционного подхода «все права сохранены», который создают законы об авторском праве. Наши инструменты дают каждому от индивидуальных авторов до огромных компаний и учреждений простой, стандартизированный способ выдать разрешение в области авторских прав на их творческое произведение. Сочетание наших инструментов и наших пользователей является <a href=\"http://creativecommons.org/videos/a-shared-culture\">многочисленным и растущим цифровым сообществом</a>, чья совокупность контента может <a href=\"http://www.youtube.com/watch?v=PgXnBXr-8PY\">копироваться, распространяться, редактироваться, ремикшироваться и браться за основу</a>, всё в пределах закона об авторских правах."
+msgstr "Лицензии и правовые инструменты Creative Commons очень стараются восстановить баланс, находясь при этом в рамках традиционной системы «все права сохранены», сформированной современным законодательством об авторском праве. Наши инструменты дают каждому — от отдельных авторов до огромных компаний и учреждений — простой, стандартизированный способ, которым автор может выдать разрешение на использование своего творческого произведения (в рамках авторского права). Объединение наших инструментов и наших пользователей — это <a href=\"http://creativecommons.org/videos/a-shared-culture\">многочисленное и растущее цифровое сообщество</a>, а всю совокупность их контента можно <a href=\"http://www.youtube.com/watch?v=PgXnBXr-8PY\">копировать, распространять, редактировать, ремикшировать и брать за основу</a>, всё это легально и согласно законодательству об авторских правах."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:139
 msgid "License design and rationale"
-msgstr "Дизайн и логика лицензии"
+msgstr "Дизайн и логика лицензий"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:143
 msgid ""
@@ -1091,7 +1091,7 @@ msgstr "Наши лицензии не затрагивают свободы, к
 msgid ""
 "<a href=\"http://creativecommons.org/choose\">Try out our simple <em>License"
 " Chooser</em></a>."
-msgstr "<a href=\"http://creativecommons.org/choose\">Попробуйте наш простой <em>инструмент выбора лицензии</em></a>."
+msgstr "<b><a href=\"http://creativecommons.org/choose\">Используйте наш простой <em>инструмент выбора лицензии</em></a>.</b>"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:163
 msgid "Three “Layers” Of Licenses"
@@ -1472,7 +1472,7 @@ msgstr "Это произведение доступно по лицензии C
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1290
 msgid "New to Creative Commons?"
-msgstr "Вы ещё не знакомы с Creative Commons?"
+msgstr "Ещё не знакомы с Creative Commons?"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1292
 msgid "Considerations before licensing"
@@ -1492,7 +1492,7 @@ msgstr "Или интересует общественное достояние?
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1308
 msgid "Looking for earlier license versions, including ports?"
-msgstr ""
+msgstr "Или вы ищете предыдущие версии лицензий и их адаптированные версии?"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1312
 msgid "Use latest license version"
@@ -1519,7 +1519,7 @@ msgstr "Изменение ваших предпочтений на этой п�
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1336
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1752
 msgid "Allow adaptations of your work to be shared?"
-msgstr "Разрешать другим делиться адаптациями вашего произведения?"
+msgstr "Вы разрешаете другим делиться адаптациями своего произведения?"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1387
 msgid "License Jurisdiction"
@@ -1740,11 +1740,11 @@ msgid ""
 "Earlier versions of licenses, including 3.0 international and ports "
 "localized to particular jurisdictions, can be still be used by clicking the "
 "\"show earlier licenses\" link below."
-msgstr ""
+msgstr "Новейшая версия лицензии – версия 4.0, которая может использоваться по всему миру. Предыдущие версии лицензий, включая международную версию 3.0 и её адаптации к отдельным юрисдикциям (законодательству разных стран), по-прежнему можно использовать. Для этого нажмите ниже ссылку  \"показать предыдущие лицензии\"."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1744
 msgid "show earlier licenses"
-msgstr ""
+msgstr "показать предыдущие лицензии"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1755
 msgid ""
@@ -2667,11 +2667,11 @@ msgstr "Вы можете свободно:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/devnations_deed.html:28
 msgid "<strong>to Share</strong> — to copy, distribute and transmit the work"
-msgstr "<strong>делиться</strong> — копировать, распространять и передавать другим лицам данное произведение"
+msgstr "<strong>Делиться (обмениваться)</strong> — копировать, распространять и передавать другим лицам данное произведение"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/devnations_deed.html:33
 msgid "<strong>to Remix</strong> — to adapt the work"
-msgstr "<strong>изменять (создавать производные произведения)</strong> — чтобы приспособить это произведение к своим задачам"
+msgstr "<strong>Изменять (создавать производные произведения)</strong> — чтобы приспособить это произведение к своим задачам"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/devnations_deed.html:40
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/sampling_deed.html:41
@@ -2921,13 +2921,13 @@ msgstr "Вы можете свободно:"
 msgid ""
 "<strong>Share</strong>  &mdash; copy and redistribute the material in any "
 "medium or format"
-msgstr "<strong>делиться</strong>  &mdash; копировать и распространять материал на любом носителе и в любом формате"
+msgstr "<strong>Делиться (обмениваться)</strong> &mdash; копировать и распространять материал на любом носителе и в любом формате"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:63
 msgid ""
 "<strong>Adapt</strong>  &mdash; remix, transform, and build upon the "
 "material"
-msgstr "<strong>Адаптировать</strong>  &mdash; делать ремиксы, видоизменять, и создавать новое, опираясь на этот материал"
+msgstr "<strong>Адаптировать (создавать производные материалы)</strong>  &mdash; делать ремиксы, видоизменять, и создавать новое, опираясь на этот материал"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:69
 msgid "for any purpose, even commercially."
