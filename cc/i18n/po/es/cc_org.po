@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-01-30 21:42+0000\n"
-"PO-Revision-Date: 2014-02-06 19:20+0000\n"
+"POT-Creation-Date: 2014-02-25 10:00+0000\n"
+"PO-Revision-Date: 2014-03-26 13:06+0000\n"
 "Last-Translator: Claudio Ruiz <claudio@derechosdigitales.org>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/CC/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -638,7 +638,7 @@ msgstr "LGPL"
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/by.html:3
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/by.html:12
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:21
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1882
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1886
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/devnations_deed.html:53
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:93
 msgid "Attribution"
@@ -730,7 +730,7 @@ msgstr "Sampling Plus"
 #: cc/i18n/mappers.py:181
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/nc.html:3
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/nc.html:12
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1898
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1902
 msgid "Noncommercial"
 msgstr "No Comercial"
 
@@ -738,7 +738,7 @@ msgstr "No Comercial"
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/nd.html:3
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/nd.html:12
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:155
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1893
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1897
 msgid "No Derivative Works"
 msgstr "Sin Obras Derivadas"
 
@@ -746,7 +746,7 @@ msgstr "Sin Obras Derivadas"
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/sa.html:3
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/sa.html:12
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:132
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1888
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1892
 msgid "Share Alike"
 msgstr "Compartir Igual"
 
@@ -827,53 +827,53 @@ msgstr "<a href=\"%(owner_url)s\">%(owner_name)s</a> ha registrado <a href=\"%(l
 msgid "work"
 msgstr "obra"
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:179
-#: checkouts/cc.license/cc/license/formatters/classes.py:317
+#: checkouts/cc.license/cc/license/formatters/classes.py:172
+#: checkouts/cc.license/cc/license/formatters/classes.py:310
 msgid "Creative Commons License"
 msgstr "Licencia Creative Commons"
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:194
+#: checkouts/cc.license/cc/license/formatters/classes.py:187
 #, python-format
 msgid ""
 "%(work_title)s by %(work_author)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr "%(work_title)s por %(work_author)s se distribuye bajo una <a rel=\"license\" href=\"%(license_url)s\">Licencia Creative Commons %(license_name)s</a>."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:207
+#: checkouts/cc.license/cc/license/formatters/classes.py:200
 #, python-format
 msgid ""
 "This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\""
 " href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr "Este %(work_type)s de %(work_author)s está bajo una <a rel=\"license\" href=\"%(license_url)s\">Licencia Creative Commons %(license_name)s</a>."
+msgstr "Esta %(work_type)s de %(work_author)s está bajo una <a rel=\"license\" href=\"%(license_url)s\">Licencia Creative Commons %(license_name)s</a>."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:218
+#: checkouts/cc.license/cc/license/formatters/classes.py:211
 #, python-format
 msgid ""
 "%(work_title)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
 msgstr "%(work_title)s está distribuido bajo una <a rel=\"license\" href=\"%(license_url)s\">Licencia Creative Commons %(license_name)s</a>."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:227
+#: checkouts/cc.license/cc/license/formatters/classes.py:220
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/chooser/xmp_template.py:60
 #, python-format
 msgid ""
 "This %(work_type)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr "Este %(work_type)s está bajo una <a rel=\"license\" href=\"%(license_url)s\">Licencia Creative Commons %(license_name)s</a>."
+msgstr "Esta %(work_type)s está bajo una <a rel=\"license\" href=\"%(license_url)s\">Licencia Creative Commons %(license_name)s</a>."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:237
+#: checkouts/cc.license/cc/license/formatters/classes.py:230
 #, python-format
 msgid "Based on a work at %(source_link)s."
 msgstr "Basada en una obra en %(source_link)s."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:249
+#: checkouts/cc.license/cc/license/formatters/classes.py:242
 #, python-format
 msgid ""
 "Permissions beyond the scope of this license may be available at "
 "%(more_perms_link)s."
 msgstr "Permisos que vayan más allá de lo cubierto por esta licencia pueden encontrarse en %(more_perms_link)s."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:321
+#: checkouts/cc.license/cc/license/formatters/classes.py:314
 #, python-format
 msgid ""
 "This %(work_type)s is in the <a rel=\"license\" "
@@ -881,49 +881,49 @@ msgid ""
 "Domain</a>."
 msgstr "Esta %(work_type)s está en el <a rel=\"license\" href=\"http://creativecommons.org/licenses/publicdomain/\">Dominio Público</a>."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:335
+#: checkouts/cc.license/cc/license/formatters/classes.py:328
 msgid "This work is free of known copyright restrictions."
 msgstr "Esta obra está libre de restricciones conocidas de derecho de autor."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:338
+#: checkouts/cc.license/cc/license/formatters/classes.py:331
 #, python-format
 msgid "This work (%(work_title)s) is free of known copyright restrictions."
 msgstr "Esta obra (%(work_title)s) está libre  de restricciones conocidas de derecho de autor."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:341
+#: checkouts/cc.license/cc/license/formatters/classes.py:334
 #, python-format
 msgid "This work (by %(author)s) is free of known copyright restrictions."
 msgstr "Esta obra creada por %(author)s) está libre de restricciones conocidas de derecho de autor. "
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:346
+#: checkouts/cc.license/cc/license/formatters/classes.py:339
 #, python-format
 msgid ""
 "This work, identified by %(curator)s, is free of known copyright "
 "restrictions."
 msgstr "Esta obra, identificada por %(curator)s, está libre de restricciones conocidas de derecho de autor."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:351
+#: checkouts/cc.license/cc/license/formatters/classes.py:344
 #, python-format
 msgid ""
 "This work (%(work_title)s, by %(author)s) is free of known copyright "
 "restrictions."
 msgstr "Esta obra (%(work_title)s, creada por %(author)s) está libre de restricciones conocidas de derecho de autor."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:355
+#: checkouts/cc.license/cc/license/formatters/classes.py:348
 #, python-format
 msgid ""
 "This work (%(work_title)s), identified by %(curator)s, is free of known "
 "copyright restrictions."
 msgstr "Esta obra (%(work_title)s), identificada por %(curator)s, está libre de restricciones conocidas de derecho de autor."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:360
+#: checkouts/cc.license/cc/license/formatters/classes.py:353
 #, python-format
 msgid ""
 "This work (%(work_title)s, by %(author)s), identified by %(curator)s, is "
 "free of known copyright restrictions."
 msgstr "Esta obra (%(work_title)s, creada por %(author)s), identificada por %(curator)s, está libre de restricciones conocidas de derecho de autor."
 
-#: checkouts/cc.license/cc/license/formatters/classes.py:365
+#: checkouts/cc.license/cc/license/formatters/classes.py:358
 #, python-format
 msgid ""
 "This work (by %(author)s), identified by %(curator)s, is free of known "
@@ -956,7 +956,7 @@ msgstr "Genérica"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:202
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1395
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1399
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:82
 msgid "International"
 msgstr "Internacional"
@@ -1245,7 +1245,7 @@ msgstr "También entregamos herramientas que sirven en el espacio de \"todos los
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/by.html:15
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:23
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1883
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1887
 msgid ""
 "You must attribute the\n"
 "work in the manner specified by the author or licensor."
@@ -1262,7 +1262,7 @@ msgid "Close window"
 msgstr "Cierra la ventana"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/nc.html:15
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1899
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1903
 msgid ""
 "The licensor permits others to copy, distribute and transmit the work. In "
 "return, licensees may not use the work for commercial purposes — unless they"
@@ -1271,7 +1271,7 @@ msgstr "El licenciante permite copiar, distribuir y comunicar públicamente la o
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/nd.html:15
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:158
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1894
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1898
 msgid ""
 "The licensor permits others to copy, distribute and transmit only unaltered "
 "copies of the work — not derivative works based on it."
@@ -1279,7 +1279,7 @@ msgstr "El licenciante permite copiar, distribuir, transmitir y comunicar públi
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/sa.html:15
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:135
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1889
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1893
 msgid ""
 "The licensor permits others to distribute derivative works only under the "
 "same license or one compatible with the one that governs the licensor's "
@@ -1311,17 +1311,17 @@ msgid ""
 msgstr "Cuando usted escoge una <a href=\"http://creativecommons.org/about/licenses\">licencia</a>, le entregamos el código HTML que puede usar para agregar información sobre la licencia en su sitio web e información sobre cómo elegir una licencia en alguno de los sitios de alojamiento gratuito que han incorporado Creative Commons. Esto no constituye un registro y no almacenamos su elección."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:38
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1368
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1763
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1372
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1767
 msgid "Allow commercial uses of your work?"
 msgstr "¿Quiere permitir usos comerciales de su obra?"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:45
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:98
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1344
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1374
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1754
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1765
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1348
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1378
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1758
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1769
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:36
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:48
 msgid "Yes"
@@ -1352,7 +1352,7 @@ msgid "Commercial Use"
 msgstr "Uso Comercial"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:57
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1766
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1770
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work, including for commercial purposes."
@@ -1360,17 +1360,17 @@ msgstr "El licenciante permite la reproducción, distribución y comunicación y
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:67
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:146
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1350
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1380
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1758
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1767
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1354
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1384
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1762
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1771
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:38
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:56
 msgid "No"
 msgstr "No"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:79
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1768
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1772
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work for non-commercial purposes only."
@@ -1391,8 +1391,8 @@ msgid ""
 msgstr "El licenciante permite la reproducción, distribución y comunicación y ejecución pública de la obra así como la generación de obras derivadas."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:122
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1359
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1756
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1363
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1760
 msgid "Yes, as long as others share alike"
 msgstr "Sí, siempre que se comparta de la misma manera"
 
@@ -1459,95 +1459,95 @@ msgstr "Escriba su dirección para obtener el código HTML por correo electróni
 msgid "Send"
 msgstr "Enviar"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1287
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1656
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1291
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1660
 #, python-format
 msgid ""
 "This work is licensed under the Creative Commons %(license_name)s License. "
 "To view a copy of this license, visit %(license_url)s."
 msgstr "Esta obra está licenciada bajo la Licencia Creative Commons %(license_name)s. Para ver una copia de esta licencia, visita %(license_url)s."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1290
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1294
 msgid "New to Creative Commons?"
 msgstr "¿Conociendo Creative Commons?"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1292
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1296
 msgid "Considerations before licensing"
 msgstr "Consideraciones antes de licenciar"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1295
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1299
 msgid " How the licenses work "
 msgstr "Cómo funcionan las licencias"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1300
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1304
 msgid "Explore the Creative Commons licenses."
 msgstr "Explora las licencias Creative Commons"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1303
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1307
 msgid "Want public domain instead?"
 msgstr "¿Quieres dominio público, mejor?"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1308
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1312
 msgid "Looking for earlier license versions, including ports?"
 msgstr "¿Buscas versiones anteriores de las licencias, incluyendo las portadas localmente?"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1312
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1316
 msgid "Use latest license version"
 msgstr "Usar la última versión de la licencia"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1321
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1669
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1325
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1673
 msgid "Javascript is disabled."
 msgstr "Javascript está deshabilitado."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1323
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1671
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1327
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1675
 msgid "Update Selected License"
 msgstr "Actualizar la Licencia Escogida"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1330
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1334
 msgid "License Features"
 msgstr "Características de licencia"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1332
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1336
 msgid "Your choices on this panel will update the other panels on this page."
 msgstr "Tus elecciones en este panel actualizarán a los otros paneles en esta página"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1336
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1752
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1340
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1756
 msgid "Allow adaptations of your work to be shared?"
 msgstr "¿Quiere permitir adaptaciones de su obra?"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1387
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1391
 msgid "License Jurisdiction"
 msgstr "Jurisdicción de la licencia"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1419
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1775
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1423
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1779
 msgid "Selected License"
 msgstr "Licencia Escogida"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1447
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1451
 msgid "This is a Free Culture License!"
 msgstr "¡Esta es una Licencia de Cultura Libre!"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1458
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1462
 msgid "This is not a Free Culture License."
 msgstr "Esta no es una Licencia de Cultura Libre."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1477
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1817
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1481
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1821
 msgid "Help others attribute you!"
 msgstr "¡Ayuda a que otros te den crédito!"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1478
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1482
 msgid ""
 "This part is optional, but filling it out will add machine-readable metadata"
 " to the suggested HTML!"
 msgstr "Esta sección es opcional, pero llenarla agregará metadatos legibles por máquinas al código HTML sugerido."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1485
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1828
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1489
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1832
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-2.html:50
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:101
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:62
@@ -1555,111 +1555,111 @@ msgstr "Esta sección es opcional, pero llenarla agregará metadatos legibles po
 msgid "Title of work"
 msgstr "Título de la obra"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1496
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1832
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1500
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1836
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:85
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:97
 msgid "Attribute work to name"
 msgstr "Atribuir la obra a"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1507
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1837
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1511
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1841
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:110
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:122
 msgid "Attribute work to URL"
 msgstr "Atribuir la obra a (URL)"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1518
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1841
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1522
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1845
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:133
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:144
 msgid "Source work URL"
 msgstr "URL de la fuente de la obra"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1529
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1845
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1533
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1849
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:155
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:166
 msgid "More permissions URL"
 msgstr "Más permisos sobre la obra (URL)"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1540
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1850
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1544
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1854
 msgid "Format of work"
 msgstr "Formato de la obra"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1546
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1550
 msgid "Other / Multiple formats"
 msgstr "Otro / Formatos múltiples"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1550
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1554
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:47
 msgid "Audio"
 msgstr "Audio"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1554
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1558
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:49
 msgid "Video"
 msgstr "Vídeo"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1558
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1562
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:51
 msgid "Image"
 msgstr "Imagen"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1562
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1566
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:53
 msgid "Text"
 msgstr "Texto"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1566
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1570
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:55
 msgid "Dataset"
 msgstr "Dataset"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1569
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1573
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:57
 msgid "Interactive"
 msgstr "Interactivo"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1578
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1854
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1582
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1858
 msgid "License mark"
 msgstr "Marca de licencia"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1589
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1861
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1593
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1865
 msgid "Offline"
 msgstr "Offline"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1601
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1870
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1605
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1874
 msgid "Have a web page?"
 msgstr "¿Tienes una página web?"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1604
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1608
 msgid "Copy this code to let your visitors know!"
 msgstr "Copia este código para que tus visitantes sepan."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1613
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1617
 msgid "Normal Icon"
 msgstr "Ícono normal."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1619
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1623
 msgid "Compact Icon"
 msgstr "Ícono compacto."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1627
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1631
 msgid "XMP Embeded Metadata"
 msgstr "Metadatos XMP."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1631
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1635
 msgid ""
 "CC metadata can be embedded into images and many other file formats!  <a target=\"_blank\" href=\"http://wiki.creativecommons.org/XMP\">See the wiki for more info</a>.\n"
 "            "
 msgstr "¡Los metadatos CC pueden incluirse en imágenes y muchos otros formatos de archivo! <a target=\"_blank\" href=\"http://wiki.creativecommons.org/XMP\"> Ver la wiki para más información </ a>."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1636
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1640
 #, python-format
 msgid ""
 "<a id=\"xmp_download_link\" "
@@ -1667,31 +1667,31 @@ msgid ""
 "<br/> <span id=\"xmp_license_name\">%(license_name)s</span>"
 msgstr "<a id=\"xmp_download_link\" href=\"/choose/metadata.xmp?%(last_query)s\">Descarga metadata.xmp</a> para <br/> <span id=\"xmp_license_name\">%(license_name)s</span>"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1643
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1647
 msgid "Non-digital works?"
 msgstr "¿Obras en formato no-digital?"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1647
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1651
 msgid "Downloadable license graphics."
 msgstr "Gráficos de licencia descargables."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1650
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1654
 msgid "How to mark video and other media formats."
 msgstr "Cómo etiquetar vídeo y otros formatos de medios."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1652
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1656
 msgid ""
 "To mark a document not on the web, add the following text to your work:"
 msgstr "Para marcar un documento que no está en la web, agrega el siguiente texto a tu obra:"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1678
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1682
 msgid ""
 "Learn <a href=\"http://wiki.creativecommons.org/Publish\">how to share your "
 "work with existing communities</a> that have enabled Creative Commons "
 "licensing."
 msgstr "Aprende <a href=\"http://wiki.creativecommons.org/Publish\">cómo compartir tu obra con comunidades</a> que han habilitado el licenciamiento con Creative Commons."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1689
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1693
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/results.html:93
 msgid ""
 "Creative Commons is a non-profit organization.<br /> We need your support to"
@@ -1699,39 +1699,39 @@ msgid ""
 "href=\"https://creativecommons.net/donate/\">Donate today!</a>"
 msgstr "Creative Commons es una organización sin fines de lucro.<br /> Necesitamos de tu apoyo para seguir entregando estas herramientas.<br /> <a href=\"https://creativecommons.net/donate/\">¡Colabora hoy donando!</a>"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1703
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1707
 msgid "close popup"
 msgstr "cerrar pop-up"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1719
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1735
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1723
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1739
 msgid "About earlier versions"
 msgstr "Sobre las versiones anteriores"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1721
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1725
 msgid ""
 "The most recent license version is 4.0, which can be used internationally. "
 "If you are searching for a port of the license for a particular "
 "jurisdiction, however, you may still use them."
 msgstr "La versión de la licencia más reciente es 4.0, que se puede utilizar internacionalmente. Si usted está en busca de una licencia para una jurisdicción en particular, aún puede utilizarlas"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1722
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1726
 msgid ""
 "If your jurisdiction is not on this list, or if you want to use the latest "
 "version of the licenses instead of a ported license, you can return to the "
 "4.0 license chooser."
 msgstr "Si su jurisdicción no está en esta lista, o si desea utilizar la última versión de las licencias en lugar de una licencia portada, puede volver al selector de Licencias 4.0."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1726
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1741
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1730
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1745
 msgid "use latest"
 msgstr "Usar última versión"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1729
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1733
 msgid "use earlier license ports"
 msgstr "Utilice las anteriores licencias portables"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1737
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1741
 msgid ""
 "The most recent license version is 4.0, which can be used internationally. "
 "Earlier versions of licenses, including 3.0 international and ports "
@@ -1739,17 +1739,17 @@ msgid ""
 "\"show earlier licenses\" link below."
 msgstr "La versión más reciente de las licencias es la 4.0, que puede ser usada internacionalmente. Versiones anteriores, incluyendo la internacional 3.0 y aquellas portadas a jurisdicciones particulares, pueden seguir siendo utilizadas haciendo clic en el enlace \"mostrar versiones anteriores\"."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1744
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1748
 msgid "show earlier licenses"
 msgstr "mostrar licencias anteriores"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1755
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1759
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work, as well as make and distribute derivative works based on it."
 msgstr "El licenciante permite a otros copiar, distribuir, exhibir y ejecutar públicamente el trabajo, así como hacer y distribuir trabajos derivados, basados ​​en el."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1757
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1761
 msgid ""
 "The licensor permits others to create and distribute derivative works, but "
 "only under the same or a <a target=\"_blank\" "
@@ -1757,24 +1757,24 @@ msgid ""
 "license."
 msgstr "El licenciante permite a otros, crear y distribuir obras derivadas, pero solo bajo la misma licencia <a target=\"_blank\" href=\"http://creativecommons.org/compatiblelicenses\">o una compatible."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1759
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1763
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work, but not distribute derivative works based on it."
 msgstr "El licenciante permite a otros copiar, distribuir, exhibir y ejecutar públicamente la obra, pero no distribuir trabajos derivados, basados ​​en ella."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1778
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1782
 msgid ""
 "The \"Selected License\" panel displays information about the license\n"
 "        that was described in the \"License Features\" panel.  Changing the values in the\n"
 "        \"License Features\" panel will update the information displayed here."
 msgstr "El panel de \"Licencia Escogida\" muestra información sobre la licencia ⏎ descrita en el panel de  \"Características de la Licencia\" panel. Cambiar los parámetros del⏎ panel de  \"Características de la Licencia\" actualizará la información mostrada aquí."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1782
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1786
 msgid "Approved for Free Cultural Works"
 msgstr "Aprobado para Obras Culturales Libres"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1783
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1787
 msgid ""
 "<p>\n"
 "        If the selected license provides the freedoms required of a free culture license, \n"
@@ -1797,7 +1797,7 @@ msgid ""
 "      </p>"
 msgstr "<p>Si la licencia seleccionada proporciona los derechos requeridos por una licencia de la cultura libre, entonces el ícono \"Aprobado para obras de cultural libre\" aparecerá en este panel. Esta característica está diseñada para ayudarte a tomar una decisión más informada. La licencias NoComercial y SinObraDerivada incluyen restricciones adicionales que, por definición, les impiden ser consideradas como licencias de cultura libre. </p>\n<p>Si bien las licencias que limitan el uso comercial y la creación de obras derivadas son útiles en determinadas circunstancias, pueden tener consecuencias no deseadas (como la incompatibilidad entre licencias). Por ejemplo, una obra que se encuentra bajo la licencia \"Reconocimiento-NoComercial-CompartirIgual\" no puede ser combinada con una obra con licencia \"Reconocimiento-CompartirIgual\", porque poner la obra resultante bajo cualquiera de las dos licencias violaría la otra al agregar o quitar la restricción NoCommercial.</p> \n<p>Un ejemplo real de la incompatibilidad de licencia: Obras con restricción NoComercial o  SinObraDerivada no pueden ser formar parte de Wikipedia, ya que Wikipedia usa una licencia de Atribución-CompartirIgual para todo su contenido.</p>"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1804
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1808
 msgid ""
 "Freedomdefined.org is a great source of information about free culture.\n"
 "        The <a href=\"http://freedomdefined.org/Definition\">free culture definition</a> \n"
@@ -1805,7 +1805,7 @@ msgid ""
 "        pages are wonderful starting points for further learning."
 msgstr "Freedomdefined.org es una gran fuente de información sobre cultura libre.⏎ Las páginas de <a href=\"http://freedomdefined.org/Definition\">definición de cultura libre</a> ⏎ y <a href=\"http://freedomdefined.org/Permissible_restrictions\">restricciones admitidas</a>⏎ son buenos puntos de partida para aprender más."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1820
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1824
 msgid ""
 "This information is embedded in a machine-readable format.  This allows "
 "search engines to index additional information about your work and allows "
@@ -1813,54 +1813,54 @@ msgid ""
 "how to attribute your work."
 msgstr "Esta información es incrustada en formato legible por máquinas. Esto permite a los motores de búsqueda indexar información adicional sobre tu obra y permite a la gente que visite el resumen de la licencia desde tu página que vea información sobre cómo atribuir tu obra."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1823
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1827
 msgid ""
 "<a target=\"_blank\" href=\"http://wiki.creativecommons.org/Metadata\">More "
 "information</a> on Creative Commons metadata is available."
 msgstr "Hay <a target=\"_blank\" href=\"http://wiki.creativecommons.org/Metadata\">más información</a> disponible sobre los metadatos de Creative Commons."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1829
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1833
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:76
 msgid "The title of the work you are licensing."
 msgstr "El título de la obra que estás licenciando"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1833
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1837
 msgid ""
 "The name of the person who should receive attribution for the work. Most "
 "often, this is the author.\n"
 msgstr "El nombre de la persona que debe recibir atribución por la obra. Por lo general, es el autor.⏎\n"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1838
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1842
 msgid ""
 "The URL to which the work should be attributed. For example, the work's page"
 " on the author's site."
 msgstr "La URL hacia la que debe atribuirse la obra. Por ejemplo, la página de la obra en el sitio del autor."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1842
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1846
 msgid "The URL of the work upon which this work is based or derived."
 msgstr "La URL de la obra sobre la cual esta obra se basa o de la que deriva."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1846
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1850
 msgid ""
 "A URL where a user can find information about obtaining rights that are not "
 "already permitted by the CC license."
 msgstr "Una URL donde el usuario pueda encontrar información para obtener derechos no otorgados por la licencia CC."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1851
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1855
 msgid ""
 "This describes what kind of work is being licensed.  For example, a "
 "photograph would have the \"Image\" format.  If unsure, choose \"Other / "
 "Multiple formats\"."
 msgstr "Esto describe la clase de obra que se licencia. Por ejemplo, una fotografía tendría el formato \"Imagen\". Si no estás seguro, escoge \"Otro / Formatos múltiples\"."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1856
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1860
 msgid ""
 "The \"License Mark\" select box determines the content of the bottom right "
 "panel.  That panel provides a means of marking your work in a consistent and"
 " standardized way."
 msgstr "La caja de opciones \"Etiqueta de Licencia\" determina el contenido del panel inferior derecho. Ese panel entrega una forma de etiquetar tu obra de forma consistente y estandarizada."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1858
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1862
 msgid ""
 "HTML is provided that you can copy into your webpage.  The HTML is annotated"
 " with machine-readable <a target=\"_blank\" "
@@ -1870,18 +1870,18 @@ msgid ""
 "it)."
 msgstr "Se provee código HTML que puedes copiar en tu página. El código HTML incluye <a target=\"_blank\" href=\"http://wiki.creativecommons.org/Metadata\">metadatos</a> legibles por máquina. Esto permite a los motores de búsqueda encontrar obras licenciadas de forma similar, y que herramientas reconozcan información sobre la obra (como su autoría)."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1860
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1864
 msgid ""
 "An <a target=\"_blank\" href=\"http://wiki.creativecommons.org/XMP\">XMP</a>"
 " file can be embedded in a variety of file formats, such as PDFs."
 msgstr "Un archivo <a target=\"_blank\" href=\"http://wiki.creativecommons.org/XMP\">XMP</a> puede incrustarse en una variedad de formatos, como PDF."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1862
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1866
 msgid ""
 "Provides a simple plain text notice that can be used to mark offline works"
 msgstr "Entrega un aviso de texto simple que puede usarse para etiquetar obras en formato no-digital."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1873
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1877
 msgid ""
 "The HTML provided in this panel may be pasted into your website to display "
 "which license applies to your work, as well as attribution information.  The"
@@ -1892,7 +1892,7 @@ msgid ""
 "your work is under, and how you want to be attributed."
 msgstr "El código HTML que se entrega en este panel puede ser pegado en tu sitio web para mostrar qué licencia se aplica a tu obra, como también información de atribución. El código HTML combina información entregada en el panel de \"Características de la Licencia\" y el panel \"Ayuda a otros a darte crédito\".  El código HTML también contiene metadatos <a target=\"_blank\" href=\"http://wiki.creativecommons.org/RDFa\">RDFa</a>, que permiten a los motores de búsqueda determinar con precisión qué licencia tiene tu obra, y cómo darte atribución."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1876
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1880
 msgid ""
 "This panel also contains a preview of what the HTML will look like when "
 "included in your website.  The radio buttons at the bottom of the panel may "
