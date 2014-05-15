@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-04-23 19:00+0000\n"
-"PO-Revision-Date: 2014-04-23 19:01+0000\n"
+"POT-Creation-Date: 2014-05-15 16:00+0000\n"
+"PO-Revision-Date: 2014-05-15 16:02+0000\n"
 "Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
 "Language-Team: Chinese (Hong Kong) (http://www.transifex.com/projects/p/CC/language/zh_HK/)\n"
 "MIME-Version: 1.0\n"
@@ -634,7 +634,7 @@ msgstr "較寬鬆通用公共授權條款 (LGPL)"
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:21
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1886
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/devnations_deed.html:53
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:93
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:91
 msgid "Attribution"
 msgstr "姓名標示"
 
@@ -676,7 +676,7 @@ msgstr "姓名標示-相同方式分享"
 #: cc/i18n/mappers.py:168
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:76
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:130
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:129
 msgid "NonCommercial"
 msgstr "非商業性"
 
@@ -707,7 +707,7 @@ msgstr "公共領域"
 
 #: cc/i18n/mappers.py:174
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:148
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:147
 msgid "ShareAlike"
 msgstr "相同方式分享"
 
@@ -1337,7 +1337,7 @@ msgstr "是"
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:116
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:138
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:160
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:111
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:110
 msgid "Information"
 msgstr "資訊"
 
@@ -2934,24 +2934,26 @@ msgstr ""
 msgid "Under the following terms:"
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:93
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:92
 msgid ""
 "You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a>, provide a link to the license, "
-"and <a href=\"#\" id=\"indicate_changes_popup\" class=\"helpLink\">indicate "
-"if changes were made</a>.  You may do so in any reasonable manner, but not "
-"in any way that suggests the licensor endorses you or your use."
+"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
+"license, and <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
+"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"made</a></span>.  You may do so in any reasonable manner, but not in any way"
+" that suggests the licensor endorses you or your use."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:99
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:98
 msgid "Attribute this work:"
 msgstr "標示這份著作："
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:117
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:116
 msgid "What does \"Attribute this work\" mean?"
 msgstr "所謂的「姓名標示」是什麼意思？"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:120
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:119
 msgid ""
 "The page you came from contained embedded licensing metadata, including how "
 "the creator wishes to be attributed for re-use. You can use the HTML here to"
@@ -2959,35 +2961,35 @@ msgid ""
 "others can find the original work as well."
 msgstr "引領你前來此處的網頁中嵌入了含授權資訊的後設資料，包括原作者想以什麼方式為人表彰等。你可以使用此處提供的 HTML 來引用此作品、並表彰出處。這麼一來，你的網頁上也會有授權後設資料，方便他人尋得原始作品。"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:130
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:129
 msgid ""
 "You may not use the material for <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:138
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:137
 msgid "NoDerivatives"
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:138
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:137
 msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
 " not distribute the modified material."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:148
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:147
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
 "your contributions under the <a href=\"#\" id=\"same_license_popup\" "
 "class=\"helpLink\">same license</a> as the original."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:159
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:158
 msgid "No additional restrictions"
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:159
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:158
 msgid ""
 "You may not apply legal terms or <a href=\"#\" "
 "id=\"technological_measures_popup\" class=\"helpLink\">technological "
@@ -2995,18 +2997,18 @@ msgid ""
 "permits."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:165
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:164
 msgid "Notices:"
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:171
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:170
 msgid ""
 "When the Licensor is an intergovernmental organization, disputes will be "
 "resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
 "class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:176
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:175
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -3014,7 +3016,7 @@ msgid ""
 " or limitation</a>."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:179
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:178
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
@@ -3023,7 +3025,7 @@ msgid ""
 " use the material."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:186
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:185
 #, python-format
 msgid ""
 "A <a href=\"%(current_version_url)s\">new version</a> of this license is "
@@ -3032,7 +3034,7 @@ msgid ""
 "new license, however."
 msgstr "本授權條款有<a href=\"%(current_version_url)s\">新的版本</a>。您的新著作應使用本授權條款之新版本，且您可依據該新版授權條款再授權現有著作。然而，新版授權條款並不會<em>自動地</em>套用於任何著作上。"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:194
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:193
 msgid ""
 "The applicable mediation rules will be designated in the copyright notice "
 "published with the work, or if none then in the request for mediation.  "
@@ -3040,19 +3042,19 @@ msgid ""
 "UNCITRAL Arbitration Rules apply to any arbitration."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:196
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:204
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:215
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:223
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:231
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:239
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:247
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:255
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:263
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:195
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:203
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:214
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:222
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:230
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:238
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:246
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:254
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:262
 msgid "More info"
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:202
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:201
 msgid ""
 "If supplied, you must provide the name of the creator and attribution "
 "parties, a copyright notice, a license notice, a disclaimer notice, and a "
@@ -3061,46 +3063,46 @@ msgid ""
 "differences."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:211
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:210
 msgid ""
 "In 4.0, you must indicate if you modified the material and retain an "
 "indication of previous modifications. In 3.0 and earlier license versions, "
 "the indication of changes is only required if you create a derivative."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:213
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:212
 msgid "Marking guide"
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:221
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:220
 msgid ""
 "You may also use a license listed as compatible at <a "
 "href=\"https://creativecommons.org/compatiblelicenses\">https://creativecommons.org/compatiblelicenses</a>"
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:229
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:228
 msgid ""
 "A commercial use is one primarily intended for commercial advantage or "
 "monetary compensation."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:237
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:236
 msgid "Merely changing the format never creates a derivative."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:245
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:244
 msgid ""
 "The license prohibits application of effective technological measures, "
 "defined with reference to Article 11 of the WIPO Copyright Treaty."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:253
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:252
 msgid ""
 "The rights of users under exceptions and limitations, such as fair use and "
 "fair dealing, are not affected by the CC licenses."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:261
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:260
 msgid ""
 "You may need to get additional permissions before using the material as you "
 "intend."

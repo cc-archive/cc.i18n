@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-04-23 19:00+0000\n"
-"PO-Revision-Date: 2014-04-23 19:01+0000\n"
+"POT-Creation-Date: 2014-05-15 16:00+0000\n"
+"PO-Revision-Date: 2014-05-15 16:02+0000\n"
 "Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
 "Language-Team: Malay (http://www.transifex.com/projects/p/CC/language/ms/)\n"
 "MIME-Version: 1.0\n"
@@ -634,7 +634,7 @@ msgstr "Lesen Awam Am Lemah GNU (LGPL)"
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:21
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1886
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/devnations_deed.html:53
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:93
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:91
 msgid "Attribution"
 msgstr "Atribusi"
 
@@ -676,7 +676,7 @@ msgstr "Atribusi-PerkongsianSerupa"
 #: cc/i18n/mappers.py:168
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:76
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:130
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:129
 msgid "NonCommercial"
 msgstr "BukanKomersial"
 
@@ -707,7 +707,7 @@ msgstr "Domain awam"
 
 #: cc/i18n/mappers.py:174
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:148
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:147
 msgid "ShareAlike"
 msgstr "Perkongsian Serupa"
 
@@ -1337,7 +1337,7 @@ msgstr "Ya"
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:116
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:138
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:160
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:111
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:110
 msgid "Information"
 msgstr "Maklumat"
 
@@ -2934,24 +2934,26 @@ msgstr "Pemberi lesen tidak boleh membatalkan kebebasan-kebebasan tersebut selag
 msgid "Under the following terms:"
 msgstr "Di bawah syarat-syarat berikut:"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:93
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:92
 msgid ""
 "You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a>, provide a link to the license, "
-"and <a href=\"#\" id=\"indicate_changes_popup\" class=\"helpLink\">indicate "
-"if changes were made</a>.  You may do so in any reasonable manner, but not "
-"in any way that suggests the licensor endorses you or your use."
-msgstr "Anda perlu memberikan <a href=\"#\" id=\"appropriate_credit_popup\" class=\"helpLink\">kredit yang sewajarnya</a>, menyediakan pautan kepada lesen, dan <a href=\"#\" id=\"indicate_changes_popup\" class=\"helpLink\">menunjukkan jika ada perubahan yang dibuat</a>. Anda boleh berbuat demikian dengan apa jua cara yang munasabah, tetapi bukan dengan cara yang seolah-olah pemberi lesen yang mengiktiraf anda atau penggunaan anda."
+"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
+"license, and <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
+"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"made</a></span>.  You may do so in any reasonable manner, but not in any way"
+" that suggests the licensor endorses you or your use."
+msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:99
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:98
 msgid "Attribute this work:"
 msgstr "Atribut karya ini:"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:117
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:116
 msgid "What does \"Attribute this work\" mean?"
 msgstr "Apa \"Atribut karya ini\" bermaksud?"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:120
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:119
 msgid ""
 "The page you came from contained embedded licensing metadata, including how "
 "the creator wishes to be attributed for re-use. You can use the HTML here to"
@@ -2959,35 +2961,35 @@ msgid ""
 "others can find the original work as well."
 msgstr "Halaman yang anda berasal mengandungi metadata pelesenan tertanam, termasuk bagaimana pencipta ingin mengatribusikan dirinya untuk penggunaan semula. Anda boleh menggunakan HTML di sini untuk memetik karya tersebut. Berbuat demikian juga dapat memasukkan metadata di halaman anda agar pengguna-pengguna lain turut sama mencari karya asal."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:130
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:129
 msgid ""
 "You may not use the material for <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
 msgstr "Anda tidak dibenarkan menggunakan bahan tersebut untuk <a href=\"#\" id=\"commercial_purposes_popup\" class=\"helpLink\">tujuan-tujuan komersial</a>."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:138
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:137
 msgid "NoDerivatives"
 msgstr "TiadaTerbitan"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:138
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:137
 msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
 " not distribute the modified material."
 msgstr "Jika anda mengadun semula, mengubah, atau membina di atas bahan ini, anda tidak boleh mengedarkan bahan yang telah diubahsuai.  "
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:148
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:147
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
 "your contributions under the <a href=\"#\" id=\"same_license_popup\" "
 "class=\"helpLink\">same license</a> as the original."
 msgstr "Jika anda mengadun semula, mengubah atau mencipta sesuatu berdasarkan material tersebut, anda perlu mengedarkan karya-karya anda mengikut <a href=\"#\" id=\"same_license_popup\" class=\"helpLink\">lesen yang sama</a> seperti karya asal."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:159
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:158
 msgid "No additional restrictions"
 msgstr "Tiada larangan tambahan"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:159
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:158
 msgid ""
 "You may not apply legal terms or <a href=\"#\" "
 "id=\"technological_measures_popup\" class=\"helpLink\">technological "
@@ -2995,18 +2997,18 @@ msgid ""
 "permits."
 msgstr "Anda tidak boleh guna terma-terma perundangan atau <a href=\"#\" id=\"technological_measures_popup\" class=\"helpLink\">langkah-langkah teknologi</a> yang menyekat pengguna lain daripada membuat sesuatu yang dibenarkan oleh lesen."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:165
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:164
 msgid "Notices:"
 msgstr "Notis-notis:"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:171
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:170
 msgid ""
 "When the Licensor is an intergovernmental organization, disputes will be "
 "resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
 "class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
 msgstr "Apabila Pemberi Lesen ialah dari organisasi di antara kerajaan, pertikaian akan diselesaikan dengan <a href=\"#\" id=\"mediation_and_arbitration_popup\" class=\"helpLink\">pengantaraan dan arbitrasi</a> melainkan jika dipersetujui."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:176
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:175
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -3014,7 +3016,7 @@ msgid ""
 " or limitation</a>."
 msgstr "Anda tidak perlu mematuhi lesen untuk elemen-elemen daripada material di domain awam atau di mana saja anda gunakan yang mengikut tatacara <a href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">pengecualian atau batasan</a> yang berkenaan."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:179
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:178
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
@@ -3023,7 +3025,7 @@ msgid ""
 " use the material."
 msgstr "Tiada jaminan diberikan. Lesen ini mungkin tidak memberikan anda semua kebenaran yang diperlukan untuk kegunaan anda. Sebagai contoh, hak-hak lain seperti <a href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" class=\"helpLink\">publisiti, privasi, atau hak-hak moral</a> mungkin menghadkan bagaimana anda menggunakan material tersebut."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:186
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:185
 #, python-format
 msgid ""
 "A <a href=\"%(current_version_url)s\">new version</a> of this license is "
@@ -3032,7 +3034,7 @@ msgid ""
 "new license, however."
 msgstr "Terdapat satu <a href=\"%(current_version_url)s\">versi baru</a> bagi lesen ini. Anda patut menggunakannya untuk karya-karya baru, dan anda mungkin ingin melesenkan semula karya-karya yang wujud di bawahnya. Walaubagaimanapun, tidak ada karya yang secara <em>automatik</em> akan diletakkan di bawah lesen baru tersebut."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:194
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:193
 msgid ""
 "The applicable mediation rules will be designated in the copyright notice "
 "published with the work, or if none then in the request for mediation.  "
@@ -3040,19 +3042,19 @@ msgid ""
 "UNCITRAL Arbitration Rules apply to any arbitration."
 msgstr "Peraturan pengantaraan yang berkenaan akan ditetapkan dalam notis hak cipta yang disiarkan dengan karya, atau jika tidak maka dalam permintaan itu untuk pengantaraan. Melainkan jika ditetapkan dalam notis hak cipta dilampirkan dengan karya, Kaedah-Kaedah Timbang Tara UNCITRAL terpakai bagi mana-mana timbangtara."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:196
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:204
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:215
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:223
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:231
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:239
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:247
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:255
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:263
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:195
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:203
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:214
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:222
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:230
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:238
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:246
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:254
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:262
 msgid "More info"
 msgstr "Maklumat tambahan"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:202
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:201
 msgid ""
 "If supplied, you must provide the name of the creator and attribution "
 "parties, a copyright notice, a license notice, a disclaimer notice, and a "
@@ -3061,46 +3063,46 @@ msgid ""
 "differences."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:211
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:210
 msgid ""
 "In 4.0, you must indicate if you modified the material and retain an "
 "indication of previous modifications. In 3.0 and earlier license versions, "
 "the indication of changes is only required if you create a derivative."
 msgstr "Dalam 4.0, anda perlu menunjukkan sekiranya anda telah mengubah suai bahan dan mengekalkan indikasi pengubahsuaian sebelumnya. Dalam 3.0 atau versi lesen-lesen sebelumnya, indikasi perubahan hanya diperlukan sekiranya anda cipta sesebuah terbitan."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:213
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:212
 msgid "Marking guide"
 msgstr "Menanda panduan"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:221
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:220
 msgid ""
 "You may also use a license listed as compatible at <a "
 "href=\"https://creativecommons.org/compatiblelicenses\">https://creativecommons.org/compatiblelicenses</a>"
 msgstr "Anda juga boleh guna lesen yang disenaraikan serasi di <a href=\"https://creativecommons.org/compatiblelicenses\">https://creativecommons.org/compatiblelicenses</a>"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:229
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:228
 msgid ""
 "A commercial use is one primarily intended for commercial advantage or "
 "monetary compensation."
 msgstr "Sesebuah penggunaan komersial ialah satu tujuan utama untuk kebaikan komersial atau pampasan kewangan. "
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:237
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:236
 msgid "Merely changing the format never creates a derivative."
 msgstr "Hanya mengubah format yang tidak pernah mencipta sesuatu penerbitan"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:245
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:244
 msgid ""
 "The license prohibits application of effective technological measures, "
 "defined with reference to Article 11 of the WIPO Copyright Treaty."
 msgstr "Lesen ini melarang aplikasi penyukatan teknologi yang efektif, didefinisikan dengan rujukan ke Artikel 11 daripada Perjanjian Hak Cipta WIPO."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:253
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:252
 msgid ""
 "The rights of users under exceptions and limitations, such as fair use and "
 "fair dealing, are not affected by the CC licenses."
 msgstr "Hak-hak pengguna di bawah pengecualian-pengecualian dan pembatasan-pembatasan, seperti penggunaan saksama dan pembagian saksama, tidak dipengaruhi oleh lesen-lesen CC."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:261
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:260
 msgid ""
 "You may need to get additional permissions before using the material as you "
 "intend."
