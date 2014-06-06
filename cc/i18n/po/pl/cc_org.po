@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2014-05-15 16:00+0000\n"
-"PO-Revision-Date: 2014-06-05 07:59+0000\n"
+"PO-Revision-Date: 2014-06-06 20:00+0000\n"
 "Last-Translator: Alek Tarkowski <alek@creativecommons.pl>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/CC/language/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -1418,7 +1418,7 @@ msgid ""
 "international licenses do not, then you may want to consider\n"
 "<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">which\n"
 "license is better suited for your needs</a>."
-msgstr "Użyj wersji \"International\" jeżeli chcesz skorzystać z licencji\no postanowieniach napisanych językiem umów międzynarodowych.  Jeżeli licencje zostały\ndostosowane do Twojego systemu prawnego i czujesz, że w wyniku tego obejmują one\njakiś aspekt tego systemu, a nie jest on objęty licencjami międzynarodowymi\nto być może chcesz zastanowić się, \n<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">która\nlicencja lepiej odpowiada Twoim potrzebom</a>."
+msgstr "Użyj wersji \"International\" jeżeli chcesz skorzystać z licencji\no postanowieniach napisanych językiem umów międzynarodowych.  Jeżeli licencje zostały\ndostosowane do Twojego systemu prawnego i masz poczucie, że wersja dostosowana\nlepiej oddaje specyfikę tego systemu prawnego, w przeciwieństwie\ndo licencji międzynarodowych, to zalecamy rozważenie. \n<a href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#Should_I_choose_an_international_license_or_a_ported_license.3F\">która licencja lepiej odpowiada Twoim potrzebom</a>."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:230
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:95
@@ -1451,7 +1451,7 @@ msgid ""
 "information about your works. <a href=\"/learn/technology/usingmarkup\" "
 "target=\"_blank\">More information about adding HTML to your documents "
 "here</a>."
-msgstr "Należy skopiować tekst i wkleić go do odpowiednich dokumentów na swojej stronie zawierających informacje o utworach. <a href=\"/learn/technology/usingmarkup\" target=\"_blank\">Więcej informacji o dodawaniu kodu HTML do twoich dokumentów znajduje się tutaj</a>."
+msgstr "Należy skopiować tekst i wkleić go do odpowiednich stron WWW, zawierających informacje o utworach. <a href=\"/learn/technology/usingmarkup\" target=\"_blank\">Więcej informacji o dodawaniu kodu HTML do plików</a>."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:24
 msgid "Enter your email address to get the HTML by email:"
@@ -1594,7 +1594,7 @@ msgstr "Format utworu"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1550
 msgid "Other / Multiple formats"
-msgstr "Inne formaty"
+msgstr "Inne / różne formaty"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1554
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:47
@@ -1832,17 +1832,17 @@ msgstr "Tytuł utworu, który jest licencjonowany"
 msgid ""
 "The name of the person who should receive attribution for the work. Most "
 "often, this is the author.\n"
-msgstr "Imię i nazwisko lub nazwa podmiotu, którą użytkownicy utworu powinni stosować uznając jego autorstwo. Najczęściej jest to autor. \n"
+msgstr "Imię i nazwisko osoby lub nazwa podmiotu, którego autorstwo należy uznać wykorzystując utwór. Najczęściej jest to jego autor. \n"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1842
 msgid ""
 "The URL to which the work should be attributed. For example, the work's page"
 " on the author's site."
-msgstr "URL do którego utworu, do którego  którego odnośniki powinni zamieszczać użytkownicy utworu. Przykładowo, strona autora lub strona, na której utwór został opublikowany."
+msgstr "URL, który należy podać uznając autorstwo utworu. Przykładowo, strona autora lub strona, na której utwór został opublikowany."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1846
 msgid "The URL of the work upon which this work is based or derived."
-msgstr "URL do utworu oryginalnego lub zależnego. "
+msgstr "URL do utworu, na którym licencjonowany utwór bazuje lub jest jego adaptacją. "
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1850
 msgid ""
@@ -1855,7 +1855,7 @@ msgid ""
 "This describes what kind of work is being licensed.  For example, a "
 "photograph would have the \"Image\" format.  If unsure, choose \"Other / "
 "Multiple formats\"."
-msgstr "To opis jakiego rodzaju utwór jest objęty licencją. Na przykład, dla zdjęcia będzie to format \"Zdjęcie/obraz\". Jeśli nie wiesz jaki format będzie odpowiedni, wybierz opcję \"Inne formaty\"."
+msgstr "Opis rodzaju utworu, który został licencjonowany. Przykładowo, fotografia to \"grafika\". W razie wątpliwości, należy wybrać \"inne / różne formaty\"."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1860
 msgid ""
@@ -2100,7 +2100,7 @@ msgid ""
 "These fields are optional, but will be embedded in the HTML generated for "
 "the work you are marking. This allows users of the work to locate the work "
 "online and find out where to go for more information."
-msgstr "Te pola są opcjonalne, ale zostaną uwzględnione w kodzie HTML wygenerowanym dla utworu, który oznaczasz. Pozwala to użytkownikom Twojego utworu znaleźć go online i dowiedzieć się gdzie mogą szukać dodatkowych informacji na jego temat."
+msgstr "Te pola są opcjonalne, ale zostaną uwzględnione w kodzie HTML wygenerowanym dla utworu, który jest oznaczany. Pozwala to użytkownikom utworu znaleźć go online i dowiedzieć się, gdzie mogą szukać dodatkowych informacji na jego temat."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/pdmark/details.html:39
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/zero/waiver.html:46
