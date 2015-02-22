@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-02-22 09:59+0000\n"
+"PO-Revision-Date: 2015-02-22 10:41+0000\n"
 "Last-Translator: Bogdan <bogdan@legi-internet.ro>\n"
 "Language-Team: Romanian (http://www.transifex.com/projects/p/CC/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -766,7 +766,7 @@ msgstr "Trebuie să atribui opera în modul specificat de autor sau licenţiator
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
-msgstr "Această operă nu poate fi folosită pentru a promova sau a face publicitate pentru altceva în afară de opera creată de tine pe baza acestei opere."
+msgstr "Nu poți folosi această operă pentru a face publicitate sau a promova altceva în afară de opera creată de tine pe baza acestei opere."
 
 #: cc/i18n/mappers.py:194
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/sampling_deed.html:49
@@ -775,26 +775,26 @@ msgstr "Nu poţi folosi această operă în scopuri comerciale."
 
 #: cc/i18n/mappers.py:195
 msgid "You may not alter, transform, or build upon this work."
-msgstr "Nu poţi altera, transforma sau construi de la această operă."
+msgstr "Nu poţi altera, transforma sau crea pornind de la această operă."
 
 #: cc/i18n/mappers.py:196
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/sampling_deed.html:66
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
-msgstr "Nu ai dreptul să prezinţi, să publici sau să distribui copii ale acestei opere, indiferent de scop."
+msgstr "Nu ai dreptul să prezinţi, să publici sau să distribui copii integrale ale acestei opere, indiferent de scop."
 
 #: cc/i18n/mappers.py:199
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same or similar license to this one."
-msgstr "Dacă modifici, transformi sau creezi pe baza acestei opere, poţi distribui opera rezultată numai sub aceeaşi licenţă sau o licenţă similară acesteia."
+msgstr "Dacă modifici, transformi sau creezi pe baza acestei opere, poţi distribui opera rezultată numai sub aceiaşi licenţă sau o licenţă similară."
 
 #: cc/i18n/mappers.py:203
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
-msgstr "Dacă modifici, transformi sau creezi pe baza acestei opere, poţi distribui opera rezultată numai sub aceeaşi licenţă, o licenţă similară sau compatibilă cu aceasta."
+msgstr "Dacă modifici, transformi sau creezi pe baza acestei opere, poţi distribui opera rezultată numai sub aceiaşi licenţă, o licenţă similară sau una compatibilă cu aceasta."
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/attribution_details.html:3
 #, python-format
@@ -808,13 +808,13 @@ msgstr "Trebuie să atribui <a href=\"%(subject)s\">%(title)s</a> la <a href=\"%
 msgid ""
 "You must attribute this work to <a "
 "href=\"%(attributionURL)s\">%(attributionName)s</a> (with link)."
-msgstr "Trebuie sa atribui aceasta lucrare catre <a href=\"%(attributionURL)s\">%(attributionName)s</a> (cu link)"
+msgstr "Trebuie sa atribui această operă către <a href=\"%(attributionURL)s\">%(attributionName)s</a> (cu link)"
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/more_permissions.html:2
 msgid ""
 "<strong>Permissions beyond</strong> the scope of this public license are "
 "available at"
-msgstr "<strong>Permisiuni suplimentare</strong> scopului acestei licențe publice sunt disponibile la"
+msgstr "<strong>Permisiuni suplimentare</strong> scopului acestei licențe sunt disponibile la"
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/registration.html:2
 #, python-format
@@ -822,7 +822,7 @@ msgid ""
 "<a href=\"%(owner_url)s\">%(owner_name)s</a> has registered <a "
 "href=\"%(lookup_uri)s\">this work</a> at the <nobr><a "
 "href=\"%(network_url)s\">%(network_name)s</a></nobr>"
-msgstr "<a href=\"%(owner_url)s\">%(owner_name)s</a> a inregistrat <a href=\"%(lookup_uri)s\"> aceasta lucrare</a> la <nobr><a href=\"%(network_url)s\">%(network_name)s</a></nobr>"
+msgstr "<a href=\"%(owner_url)s\">%(owner_name)s</a> a înregistrat <a href=\"%(lookup_uri)s\"> această operă</a> la <nobr><a href=\"%(network_url)s\">%(network_name)s</a></nobr>"
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:55
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/chooser/xmp_template.py:59
@@ -846,7 +846,7 @@ msgstr "%(work_title)s de %(work_author)s este licenţiat printr-o <a rel=\"lice
 msgid ""
 "This %(work_type)s by %(work_author)s is licensed under a <a rel=\"license\""
 " href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr "Această %(work_type)s creată de %(work_author)s este pusă la dispoziţie sub <a rel=\"license\" href=\"%(license_url)s\">Licenţa %(license_name)s Creative Commons</a>."
+msgstr "Această %(work_type)s creată de %(work_author)s este pusă la dispoziţie prin <a rel=\"license\" href=\"%(license_url)s\">Licenţa Creative Commons %(license_name)s </a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:211
 #, python-format
@@ -861,19 +861,19 @@ msgstr "%(work_title)s este licenţiat printr-o <a rel=\"license\" href=\"%(lice
 msgid ""
 "This %(work_type)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr "Această %(work_type)s este pusă la dispoziţie sub <a rel=\"license\" href=\"%(license_url)s\">Licenţa %(license_name)s Creative Commons</a>."
+msgstr "Această %(work_type)s este pusă la dispoziţie sub <a rel=\"license\" href=\"%(license_url)s\">Licenţa Creative Commons %(license_name)s </a>."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:230
 #, python-format
 msgid "Based on a work at %(source_link)s."
-msgstr "Bazată pe opera disponibilă la %(source_link)s."
+msgstr "Bazată pe o operă disponibilă la %(source_link)s."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:242
 #, python-format
 msgid ""
 "Permissions beyond the scope of this license may be available at "
 "%(more_perms_link)s."
-msgstr "Permisii dincolo de aria acestei licente ar putea fi disponibile la %(more_perms_link)s."
+msgstr "Permisiuni dincolo de scopul acestei licente pot fi disponibile la %(more_perms_link)s."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:314
 #, python-format
@@ -890,7 +890,7 @@ msgstr ""
 #: checkouts/cc.license/cc/license/formatters/classes.py:331
 #, python-format
 msgid "This work (%(work_title)s) is free of known copyright restrictions."
-msgstr "Aceasta lucrare (%(work_title)s) nu este restrictionata de nici regula de copyright"
+msgstr "Aceasta operă (%(work_title)s) nu are nicio restricție cunoscută de drepturi de autor.  "
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:334
 #, python-format
@@ -942,7 +942,7 @@ msgstr ""
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Developing Nations"
-msgstr "Naţiuni în curs de dezvoltare"
+msgstr "Țări în curs de dezvoltare"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "GNU General Public License"
@@ -950,7 +950,7 @@ msgstr "GNU Licenţa Publică Generală"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "GNU Lesser General Public License"
-msgstr "GNU Lesser General Public License (GNU Licenta Publica Generala)"
+msgstr "GNU Lesser General Public License (GNU Licenta Publica Generala Abreviată)"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Generic"
@@ -1251,7 +1251,7 @@ msgstr ""
 msgid ""
 "You must attribute the\n"
 "work in the manner specified by the author or licensor."
-msgstr "Trebuie să atribui \nopera în maniera specificată de autor sau licenţiator."
+msgstr "Trebuie să atribui \nopera în modul specificat de autor sau licenţiator."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/by.html:20
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/nc.html:19
@@ -1269,7 +1269,7 @@ msgid ""
 "The licensor permits others to copy, distribute and transmit the work. In "
 "return, licensees may not use the work for commercial purposes — unless they"
 " get the licensor's permission."
-msgstr "Licenţiatorul permite altora să copieze, distribuie şi să transmită opera. În schimb, licenţiatul nu are voie să folosească opera în scopuri comerciale, cu excepţia cazului când are o permisiune expresă din partea licenţiatorului."
+msgstr "Licenţiatorul permite altora să copieze, să distribuie şi să transmită opera. În schimb, licenţiatul nu are voie să folosească opera în scopuri comerciale - cu excepţia cazului când obține o permisiune expresă din partea licenţiatorului."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/nd.html:15
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:158
@@ -1277,7 +1277,7 @@ msgstr "Licenţiatorul permite altora să copieze, distribuie şi să transmită
 msgid ""
 "The licensor permits others to copy, distribute and transmit only unaltered "
 "copies of the work — not derivative works based on it."
-msgstr "Licenţiatorul permite doar copierea, distribuirea şi transmiterea copiilor nealterate ale operei - nu şi a operelor derivate bazate pe aceasta."
+msgstr "Licenţiatorul permite copierea, distribuirea şi transmiterea doar a copiilor nealterate ale operei - nu şi a operelor derivate bazate pe aceasta."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/sa.html:15
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:135
@@ -1300,7 +1300,7 @@ msgid ""
 "mark a work that is already free of known copyright restrictions and in the "
 "public domain, choose one of our <a href=\"/publicdomain/\">public domain "
 "tools</a>."
-msgstr "Cu o licență Creative Commons, <strong>îți păstrezi drepturile de autor </strong> dar permiți altora să  <a href=\"/learn/licenses/fullrights\">copieze și să dea mai departe opera ta </a> dacă <a href=\"#\" class=\"helpLink\" id=\"give_you_credit\">ești  menționat ca autor</a> &mdash; și numai în condițile pe care le specifici aici. Pentru noii veniți la sistemul de licențiere Creative Commons, am pregătit <a href=\"/about/think\">o listă de chestiuni pe care trebuie să le citiți </a>. Dacă vreți să vă oferiți opera fără nicio condiție sau vreți să marcați o operă care este deja în domeniul public și  liberă de orice restricții impuse de dreptul de autor, alege una <a href=\"/publicdomain/\">din uneltele dedicate pentru domeniul public</a>."
+msgstr "Cu o licență Creative Commons, <strong>îți păstrezi drepturile de autor </strong> dar permiți altora să  <a href=\"/learn/licenses/fullrights\">copieze și să distribuie opera ta </a> dacă <a href=\"#\" class=\"helpLink\" id=\"give_you_credit\">ești  menționat ca autor</a> &mdash; și numai în condițile pe care le specifici aici. Pentru noii veniți la sistemul de licențiere Creative Commons, am pregătit <a href=\"/about/think\">o listă de chestiuni pe care trebuie să le citiți </a>. Dacă vreți să vă oferiți opera fără nicio condiție sau vreți să marcați o operă care este deja în domeniul public și liberă de orice restricții impuse de dreptul de autor, alege una <a href=\"/publicdomain/\">din licențele dedicate pentru domeniul public</a>."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:17
 msgid ""
@@ -1310,7 +1310,7 @@ msgid ""
 "information on how to select a license on one of several free hosting "
 "services that have incorporated Creative Commons. This is not a registration"
 " and we do not retain a record of your selection."
-msgstr "Cand alegi o <a href=\"http://creativecommons.org/about/licenses\">licenta</a>, iti oferim HTML pe care il poti folosi pentru a adauga informatiile licentei pe siteul tau si informatii despre cum sa alegi o licenta pentru unul din furnizorii de gazduire web gratuiti care au incorporat Creative Commons. Acesta nu este un formular de inregistrare si nu retinem informatii cu selectiile tale"
+msgstr "Cănd alegi o <a href=\"http://creativecommons.org/about/licenses\">licență</a>, îți oferim HTML pe care îl poți folosi pentru a adauga informațiile licenței pe siteul tău și informații despre cum să alegi o licență pentru unul din furnizorii de găzduire gratuită care au încorporat Creative Commons. Acesta nu este un formular de înregistrare și nu păstrăm informații despre alegerile tale."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:38
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1372
