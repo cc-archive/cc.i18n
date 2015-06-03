@@ -1,5 +1,5 @@
 # Translations template for PROJECT.
-# Copyright (C) 2014 ORGANIZATION
+# Copyright (C) 2015 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # 
 # Translators:
@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-10-06 23:00+0000\n"
-"PO-Revision-Date: 2014-10-06 23:00+0000\n"
+"POT-Creation-Date: 2015-06-03 22:00+0000\n"
+"PO-Revision-Date: 2015-06-03 22:02+0000\n"
 "Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
 "Language-Team: Icelandic (http://www.transifex.com/projects/p/CC/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
 "Language: is\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 || n % 100 != 11);\n"
 
 #: cc/i18n/mappers.py:5 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Argentina"
@@ -2845,8 +2845,8 @@ msgstr "Gildistími höfundaréttar er mislangur eftir lögsögum. Verk sem er l
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:186
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:160
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:175
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:89
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:129
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:90
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:130
 msgid "Disclaimer"
 msgstr "Fyrirvarar"
 
@@ -3194,7 +3194,7 @@ msgstr "Þetta er samantekt á mannamáli af  <a href=\"./legalcode\">lagamálin
 msgid "Use this tool for your own work."
 msgstr "Notaðu þetta tól fyrir þitt eigið verk."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:92
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:93
 msgid ""
 "<p>\n"
 "The Commons Deed is not a license. It is simply a handy reference for understanding the Legal Code (the full License) — it is a human-readable expression of some of its key terms. This Deed itself has no legal value, and its contents do not appear in the actual License.  The actual terms of the license is set forth by the Legal Code.  <a href=\"legalcode\" class=\"fulltext\">Please click here to see the full License</a>.  \n"
@@ -3209,7 +3209,7 @@ msgid ""
 "</p>"
 msgstr "<p>\nCommons leyfisskjalið er ekki afnotaleyfi. Það er einfaldlega handhæg heimild sem á að auðvelda skilning á lagamálsins (afnotaleyfið í heild) &mdash; það er samantekt á mannamáli af helstu atriðum afnotaleyfisins. Það má hugsa það sem notendavænt viðmót á lagamálinu. Þetta leyfisskjal hefur enga lagalega merkingu og innihald þess kemur ekki fyrir í afnotaleyfinu sjálfu. Skilmálar afnotaleyfisins koma fram í lagamálinu. <a href=\"legalcode\" class=\"fulltext\">Smellið hér til þess að sjá það í fullri lengd</a>.\n</p>\n\n<p>\nCreative Commons og Creative Commons Japan eru ekki lögmannsstofur og veita ekki lögfræðiþjónustu. Birting þessa skjals, dreifing þess eða tengingar í það teljast ekki vera lögfræðileg ráðgjöf eða annars konar lögfræðiþjónusta. Creative Commons og Creative Commons Japan eru ekki aðilar að afnotaleyfinu á bak við þetta leyfisskjal og hafna allri ábyrgð á hvers kyns tjóni sem hlýst af notkun leyfisskjalsins og undirliggjandi afnotaleyfis.\n</p>\n\n<p>\nVerk sem falla undir Creative Commons afnotaleyfi eru í boði hjá leyfisveitendunum. Creative Commons og Creative Commons Japan taka enga ábyrgð á tilkalli leyfisveitandans til verksins. Vinsamlegast lesið <a href=\"http://creativecommons.jp/faq/\">þetta</a> varðandi beitingu afnotaleyfanna og notkun verka sem gefin eru út með Creative Commons afnotaleyfum.\n</p>"
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:106
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:107
 msgid ""
 "This deed highlights only some of the key features and terms of the actual "
 "license. It is not a license and has no legal value. You should carefully "
@@ -3217,31 +3217,40 @@ msgid ""
 "the licensed material."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:108
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:109
 msgid ""
 "Creative Commons is not a law firm and does not provide legal services. "
 "Distributing, displaying, or linking to this deed or the license that it "
 "summarizes does not create a lawyer-client or any other relationship."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:116
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:117
 msgid ""
 "This is a human-readable summary of (and not a substitute for) the license, "
 "which is available in the following languages:"
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:123
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:124
 msgid ""
 "This is a human-readable summary of (and not a substitute for) the <a "
 "href=\"legalcode\" class=\"fulltext\">license</a>."
 msgstr ""
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:146
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:147
 #, python-format
 msgid ""
 "\n"
 "        <a href=\"http://wiki.creativecommons.org/FAQ\">Learn more</a> about CC licensing, or <a id=\"get_this\" href=\"%(get_this)s\">use the license</a> for your own material.\n"
 "            "
+msgstr ""
+
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:157
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:170
+msgid ""
+"This content is freely available under simple legal terms because of "
+"Creative Commons, a non-profit that survives on donations. If you love this "
+"content, and love that it's free for everyone, please consider a donation to"
+" support our work."
 msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/publicdomain/index.html:6
