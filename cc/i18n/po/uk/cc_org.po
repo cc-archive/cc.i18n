@@ -9,10 +9,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-06-26 21:00+0000\n"
-"PO-Revision-Date: 2015-07-09 13:40+0000\n"
-"Last-Translator: Maksym Naumko <maksym.naumko@intelactive.com.ua>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/p/CC/language/uk/)\n"
+"POT-Creation-Date: 2015-09-15 20:45+0000\n"
+"PO-Revision-Date: 2015-09-15 20:43+0000\n"
+"Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
+"Language-Team: Ukrainian (http://www.transifex.com/nkinkade/CC/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1687,12 +1687,11 @@ msgid ""
 msgstr "Дізнайтеся <a href=\"http://wiki.creativecommons.org/Publish\">як розповсюдити ваш твір у вже існуючих спільнотах,</a> що використовують ліцензії Creative Commons."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1693
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/results.html:93
 msgid ""
 "Creative Commons is a non-profit organization.<br /> We need your support to"
 " continue providing these tools.<br /> <a "
-"href=\"https://creativecommons.net/donate/\">Donate today!</a>"
-msgstr "Creative Commons є неприбутковою організацією.<br /> Нам потрібна ваша підтримка щоб продовжувати надавати ці інструменти.<br /> <a href=\"https://creativecommons.net/donate/\">Внесіть пожертву сьогодні!</a>"
+"href=\"https://donate.creativecommons.org/\">Donate today!</a>"
+msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1707
 msgid "close popup"
@@ -1947,6 +1946,13 @@ msgid ""
 "href=\"http://wiki.creativecommons.org/Website/Publish\">Read our "
 "tutorial</a>."
 msgstr "Потрібна допомога? <a href=\"http://wiki.creativecommons.org/Website/Publish\">Прочитайте наш довідковий матеріал</a>."
+
+#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/results.html:93
+msgid ""
+"Creative Commons is a non-profit organization.<br /> We need your support to"
+" continue providing these tools.<br /> <a "
+"href=\"https://creativecommons.net/donate/\">Donate today!</a>"
+msgstr "Creative Commons є неприбутковою організацією.<br /> Нам потрібна ваша підтримка щоб продовжувати надавати ці інструменти.<br /> <a href=\"https://creativecommons.net/donate/\">Внесіть пожертву сьогодні!</a>"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/results.html:105
 msgid ""
@@ -2841,8 +2847,6 @@ msgstr "Строки чинності авторських прав можуть
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:186
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:160
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:175
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:90
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:130
 msgid "Disclaimer"
 msgstr "Відмова від відповідальності"
 
@@ -3190,65 +3194,6 @@ msgstr "Це написаний зрозумілою мовою короткий
 msgid "Use this tool for your own work."
 msgstr "Використати цей інструмент для свого власного твору."
 
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:93
-msgid ""
-"<p>\n"
-"The Commons Deed is not a license. It is simply a handy reference for understanding the Legal Code (the full License) — it is a human-readable expression of some of its key terms. This Deed itself has no legal value, and its contents do not appear in the actual License.  The actual terms of the license is set forth by the Legal Code.  <a href=\"legalcode\" class=\"fulltext\">Please click here to see the full License</a>.  \n"
-"</p>\n"
-"\n"
-"<p>\n"
-"Creative Commons and Creative Commons Japan are not law firms, and distributing of or displaying of, or linking to the Commons Deed does not constitute an offer of legal advice or any other legal services. Creative Commons and Creative Commons Japan are not a party to the License underlying this Commons Deed, and disclaim liablity for damages resulting from any use of the Commons Deed and the underlying License.\n"
-"</p>\n"
-"\n"
-"<p>\n"
-"The Product licensed under Creative Commons License is provided by the person who applied the License.  Creative Commons and Creative Commons Japan make no warranties regarding the title of the licensor.  Please read <a href=\"http://creativecommons.jp/faq/\">here</a> for information regarding the application of licenses and exploitation of the Product licensed under Creative Commons licenses.\n"
-"</p>"
-msgstr "<p>\nМайте на увазі, що \"Короткий виклад\" (The Commons Deed) не є ліцензією. Це всього лише зручний засіб для розуміння повного юридичного тексту ліцензії (Legal Code) — викладені зрозумілою пересічній людині мовою формулювання деяких ключових умов. Цей виклад сам по собі не має юридичної сили, і його текст не є власне текстом угоди.   <a href=\"legalcode.uk\" class=\"fulltext\">Будь-ласка натисніть тут щоб перейти до повного тексту Ліцензії</a>.  \n</p>\n\n<p>\nCreative Commons і Creative Commons Японія не є юридичними фірмами, і розповсюдження або показ, або посилання на Короткий виклад не являє собою пропозицію надання юридичної консультаціїї або юридичних послуг. Creative Commons і Creative Commons Японія не є сторонами Ліцензії, що лежить в основі Короткого викладу, і не несуть відповідальності за збитки від будь-якого використання Короткого викладу або Ліцензії.\n</p>\n\n<p>\nТвір, ліцензований за ліцензією Creative Commons надається особою, котра застосувала Ліцензію.  Creative Commons і Creative Commons Японія не надають ніяких гарантій, пов'язаних з ім'ям ліцензіара.  Будь-ласка прочитайте <a href=\"http://creativecommons.jp/faq/\">це</a> для отримання інформації стосовно стосовно застосування Ліцензій і використання Твору за ліцензіями Creative Commons.\n</p>"
-
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:107
-msgid ""
-"This deed highlights only some of the key features and terms of the actual "
-"license. It is not a license and has no legal value. You should carefully "
-"review all of the terms and conditions of the actual license before using "
-"the licensed material."
-msgstr "Короткий виклад підкреслює лише деякі ключові умови ліцензії. Він не є ліцензією і не має юридичного сенсу. Вам слід уважно ознайомитися з усіма умовами власне ліцензії перед використанням ліцензованого матеріалу."
-
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:109
-msgid ""
-"Creative Commons is not a law firm and does not provide legal services. "
-"Distributing, displaying, or linking to this deed or the license that it "
-"summarizes does not create a lawyer-client or any other relationship."
-msgstr "Creative Commons не є юридичною фірмою і не надає юридичних послуг. Розповсюдження, показ, або посилання на короткий виклад або на ліцензію не породжує відносик клієнт-юрист або будь-яких інших правовідносин."
-
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:117
-msgid ""
-"This is a human-readable summary of (and not a substitute for) the license, "
-"which is available in the following languages:"
-msgstr "Це написаний зрозумілою мовою короткий виклад (і не замінник) ліцензії, доступний наступними мовами:"
-
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:124
-msgid ""
-"This is a human-readable summary of (and not a substitute for) the <a "
-"href=\"legalcode\" class=\"fulltext\">license</a>."
-msgstr "Це спрощений виклад (а не замінник) <a href=\"legalcode.uk\" class=\"fulltext\">ліцензії</a>."
-
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:147
-#, python-format
-msgid ""
-"\n"
-"        <a href=\"http://wiki.creativecommons.org/FAQ\">Learn more</a> about CC licensing, or <a id=\"get_this\" href=\"%(get_this)s\">use the license</a> for your own material.\n"
-"            "
-msgstr "\n<a href=\"http://wiki.creativecommons.org/FAQ\">Дізнайтеся більше</a> про ліцензії CC або <a id=\"get_this\" href=\"%(get_this)s\">використовуйте цю ліцензію</a> для своїх власних творів."
-
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:158
-#: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:172
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr "Цей контент вільно доступний на простих правових умовах завдяки Creative Commons, некомерційній організації, котра існує завдяки пожертвам. Якщо вам подобається цей контент, і те, що його використання є вільним для кожного, будь ласка розгляньте можливість зробити пожертву щоб підтримати нашу роботу."
-
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/publicdomain/index.html:6
 msgid "Our Public Domain Tools"
 msgstr "Наші інструменти суспільного надбання"
@@ -3279,15 +3224,3 @@ msgid ""
 "restrictions. Creative Commons does not recommend this tool for works that "
 "are restricted by copyright laws in one or more jurisdictions."
 msgstr "Використайте цей інструмент, якщо ви визначили твір, що є вільним від обмежень, котрі накладаються автоським правом. Creative Commons не рекомендує застосовувати цей інструмент до творів, що охороняються авторським правом хоча б в одній чи кількох країнах."
-
-#: Added by hand by Matt Lee <mattl@creativecommons.org>
-msgid ""
-"This content is freely available under simple legal terms thanks to Creative"
-" Commons, the non-profit behind the CC licenses. We survive on donations, so"
-" if you love that you can easily share this content with everyone, help us "
-"continue our crucial work by making a contribution today."
-msgstr "Цей контент вільно доступний на простих правових умовах завдяки Creative Commons, некомерційній організації, котра створила ліцензії СС. Ми існуємо завдяки пожертвам, тож, якщо вам подобається, що ви можете вільно ділитися цим контентом з будь-ким, допоможіть нам продовжити нашу вкрай важливу роботу, зробивши сьогодні свій внесок."
-
-#: Added by hand by Matt Lee <mattl@creativecommons.org>
-msgid "Donate Now"
-msgstr "Пожертвувати зараз"
