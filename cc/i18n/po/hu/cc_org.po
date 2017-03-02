@@ -5,15 +5,15 @@
 # Translators:
 # atommalac <atomtengeralattjaro@gmail.com>, 2013
 # atommalac <atomtengeralattjaro@gmail.com>, 2013
-# Peter Gervai, 2014
+# Peter Gervai, 2014,2016-2017
 # Peter Gervai, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2016-01-15 17:01+0000\n"
-"PO-Revision-Date: 2016-01-15 17:04+0000\n"
-"Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
+"PO-Revision-Date: 2017-02-27 23:05+0000\n"
+"Last-Translator: Peter Gervai\n"
 "Language-Team: Hungarian (http://www.transifex.com/nkinkade/CC/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -754,7 +754,7 @@ msgid ""
 "You must attribute the work in the manner specified by the author or "
 "licensor (but not in any way that suggests that they endorse you or your use"
 " of the work)."
-msgstr "A szerző vagy a jogosult által meghatározott módon fel kell tüntetned a műhöz kapcsolódó információkat (pl. a szerző nevét vagy álnevét, a Mű címét)."
+msgstr "A szerző vagy a jogosult által meghatározott módon fel kell tüntetned a műhöz kapcsolódó szerzői információkat (de nem olyan módon, ami azt sugallná hogy téged vagy a létrejött művet támogatnák)."
 
 #: cc/i18n/mappers.py:191
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/sampling_deed.html:53
@@ -1281,7 +1281,7 @@ msgid ""
 "The licensor permits others to distribute derivative works only under the "
 "same license or one compatible with the one that governs the licensor's "
 "work."
-msgstr "A jogosult csak a jelenlegi licenccel megegyező licenc alatt engedélyezi származékos (feldolgozott) művek terjesztését."
+msgstr "A jogosult csak a jelenlegi licenccel megegyező vagy azzal kompatibilis licenc alatt engedélyezi származékos (feldolgozott) művek terjesztését."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:13
 msgid ""
@@ -1353,7 +1353,7 @@ msgstr "Kereskedelmi célú felhasználás"
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work, including for commercial purposes."
-msgstr "A Jogosult engedélyt adott a Mű lemásolására, terjesztésére, bemutatására, előadására, ide értve a kereskedelmi célú felhasználásokat is."
+msgstr "A Jogosult engedélyt adott a Mű lemásolására, terjesztésére, bemutatására, előadására, beleértve a kereskedelmi célú felhasználásokat is."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:67
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:146
@@ -1416,7 +1416,7 @@ msgstr "Használd a \"Nemzetközi\" opciót, ha olyan licencet szeretnél haszn�
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:230
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:95
 msgid "Select a License"
-msgstr "Mutasd meg a licencet!"
+msgstr "Válassz egy licencet"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/emailhtml.html:7
 #, python-format
@@ -1430,7 +1430,7 @@ msgstr "<p>\nA kiválasztott licenc-ről szóló információt elküldtük a(z) 
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:7
 msgid "The HTML to display your button is as follows:"
-msgstr "A logót megjelenító HTML részlet a következő:"
+msgstr "A gombodat megjelenító HTML részlet a következő:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/htmlpopup.html:14
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/nonweb_popup.html:21
@@ -2076,7 +2076,7 @@ msgid ""
 "<p>\n"
 "Creative Commons does not provide legal advice or services. We provide form legal documents; the rest is up to you.\n"
 "</p>"
-msgstr "<p>\n<em>Figyelem!</em> Ahhoz, hogy Creative Commons alatt tehess közzé egy művet, az szükséges, hogy te legyél a mű szerzői jogainak birtokosa, vagy rendelkezz a szerzői jogok tulajdonosának engedélyével.</p>\n\n<p>\nA Creative Commons nem nyújt jogi tanácsot vagy jogi szolgáltatásokat. Mi csak a a licenceket adjuk, a többi rajtad áll.\n</p>"
+msgstr "<p>\n<em>Figyelem!</em> Ahhoz, hogy Creative Commons alatt tehess közzé egy művet, az szükséges, hogy te legyél a mű szerzői jogainak birtokosa, vagy rendelkezz a szerzői jogok tulajdonosának engedélyével.</p>\n\n<p>\nA Creative Commons nem nyújt jogi tanácsot vagy jogi szolgáltatásokat. Mi csak a licenceket adjuk, a többi rajtad áll.\n</p>"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:7
 #, python-format
@@ -2084,7 +2084,7 @@ msgid ""
 "You have selected the <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s License</b></a>.<br>\n"
 "This license is permanently located at<br>\n"
 "<b><tt>%(license_url)s</tt></b>."
-msgstr "A <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s Licenc-et</b></a> választottad.<br>\nEzt a licencet a <br>\n<b><tt>%(license_url)s</tt></b> címen találod meg."
+msgstr "A <a target=\"cc_other\" href=\"%(license_deed_url)s\"><b>%(license_pretty_name)s Licenc-et</b></a> választottad.<br>\nEzt a licencet a <br>\n<b><tt>%(license_url)s</tt></b> állandó címen találod meg."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/partner/results.html:15
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/pdmark/partner.html:25
@@ -2397,7 +2397,7 @@ msgstr "Most, hogy kiválasztottad a közkincs-tanúsítványt, ezt megfelelően
 msgid ""
 "To mark content on a web page, the HTML to display the button is as follows "
 "and be sure to <a href=\"/technology/web\">follow the guidelines here</a>:"
-msgstr "A következő HTML kód - <a href=\"/technology/web\">HTML segítséghez kattints ide</a> - használható valamilyen tartalom megjelölésére egy weboldalon:"
+msgstr "A következő, gombot megjelenítő HTML kód - <a href=\"/technology/web\">HTML segítséghez kattints ide</a> - használható valamilyen tartalom megjelölésére egy weboldalon:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/publicdomain/publicdomain-4.html:34
 msgid "Get HTML and email it to yourself"
@@ -2951,7 +2951,7 @@ msgid ""
 "id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
 "made</a></span>.  You may do so in any reasonable manner, but not in any way"
 " that suggests the licensor endorses you or your use."
-msgstr ""
+msgstr "<a href=\"#\" id=\"appropriate_credit_popup\" class=\"helpLink\">A szerzőt megfelelően fel kell tüntetned</a>, hivatkozást kell létrehoznod a licencre és <span rel=\"cc:requires\" resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" id=\"indicate_changes_popup\" class=\"helpLink\">jelezned ha a művön változtatást hajtottál végre</a>. Ezt bármilyen ésszerű módon megteheted, kivéve oly módon ami azt sugallná hogy a jogosult támogat téged vagy a felhasználásod körülményeit."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:98
 msgid "Attribute this work:"
@@ -3080,7 +3080,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:212
 msgid "Marking guide"
-msgstr ""
+msgstr "Jelölési útmutató"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:220
 msgid ""
@@ -3259,7 +3259,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:174
 msgid "Donate Now"
-msgstr ""
+msgstr "Támogass bennünket most"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/publicdomain/index.html:6
 msgid "Our Public Domain Tools"
