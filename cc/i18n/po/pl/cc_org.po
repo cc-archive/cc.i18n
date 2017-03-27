@@ -5,6 +5,7 @@
 # Translators:
 # Alek Tarkowski <alek@creativecommons.pl>, 2011,2013-2014
 # Creative Commons Polska <frak@centrumcyfrowe.pl>, 2014
+# George Hari Popescu <george@creativecommons.org>, 2017
 # Justyna <justyna@creativecommons.pl>, 2011
 # kamilsliwowski <kamilsliwowski@gmail.com>, 2012
 # kamilsliwowski <kamilsliwowski@gmail.com>, 2012
@@ -20,15 +21,15 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2016-01-15 17:01+0000\n"
-"PO-Revision-Date: 2016-01-15 17:04+0000\n"
-"Last-Translator: CC Cron Bot <webmaster@creativecommons.org>\n"
+"PO-Revision-Date: 2017-03-26 08:11+0000\n"
+"Last-Translator: George Hari Popescu <george@creativecommons.org>\n"
 "Language-Team: Polish (http://www.transifex.com/nkinkade/CC/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: cc/i18n/mappers.py:5 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf:0
 msgid "Argentina"
@@ -3200,7 +3201,7 @@ msgstr "<p> Przystępne podsumowanie nie ma charakteru prawnego. Jest to po pros
 msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
-msgstr "Ten tekst to przystępne podsumowanie <a href=\"legalcode\" class=\"fulltext\">Tekstu prawnego (pełnej jego treści)</a>."
+msgstr "Ten tekst to przystępne podsumowanie <a href=\"./legalcode.pl\" class=\"fulltext\">Tekstu prawnego (pełnej jego treści)</a>."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:182
 msgid "Use this tool for your own work."
@@ -3227,7 +3228,7 @@ msgid ""
 "license. It is not a license and has no legal value. You should carefully "
 "review all of the terms and conditions of the actual license before using "
 "the licensed material."
-msgstr ""
+msgstr "Przystępne podsumowanie licencji opisuje jedynie wybrane warunki i zapisy licencji Creative Commons. Niniejszy tekst nie jest licencją prawnoautorską i nie posiada wartości prawnej. Przed użyciem licencjonowanego utworu należy dokładnie zapoznać się z warunkami licencyjnymi zawartymi w licencji."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:109
 msgid ""
@@ -3240,13 +3241,13 @@ msgstr ""
 msgid ""
 "This is a human-readable summary of (and not a substitute for) the license, "
 "which is available in the following languages:"
-msgstr ""
+msgstr "Poniższy tekst jest jedynie przystępnym podsumowaniem licencji (której nie zastępuje), dostępnym w następujących językach:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:124
 msgid ""
 "This is a human-readable summary of (and not a substitute for) the <a "
 "href=\"legalcode\" class=\"fulltext\">license</a>."
-msgstr ""
+msgstr "Poniższy tekst jest jedynie przystępnym podsumowaniem <a href=\"legalcode.pl\" class=\"fulltext\">licencji</a> (której nie zastępuje)."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:148
 #, python-format
@@ -3254,7 +3255,7 @@ msgid ""
 "\n"
 "        <a href=\"http://wiki.creativecommons.org/FAQ\">Learn more</a> about CC licensing, or <a id=\"get_this\" href=\"%(get_this)s\">use the license</a> for your own material.\n"
 "            "
-msgstr ""
+msgstr "\nDowiedz się więcej na temat <a href=\"http://wiki.creativecommons.org/FAQ\">licencji Creative Commons</a> albo <a id=\"get_this\" href=\"%(get_this)s\">użyj tej licencji</a> dla udostępnienia własnych treści."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:159
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:173
