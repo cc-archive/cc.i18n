@@ -16,6 +16,14 @@ MO_PATH = pkg_resources.resource_filename(
 TRANSLATION_THRESHOLD = 80
 
 
+TX_MAP = {
+    "zh_CN": "zh"
+}
+def tx_id(locale):
+    """Override any mapped translation names to reflect Transifex config"""
+    return TX_MAP.get(locale, locale)
+
+
 CACHED_TRANS_STATS = {}
 def get_all_trans_stats(trans_file=DEFAULT_CSV_FILE):
     """
@@ -155,6 +163,9 @@ def applicable_langs(locale, mo_path=MO_PATH):
     """
     Return all available languages "applicable" to a requested locale.
     """
+
+    locale = tx_id(locale)
+
     cache_key = (locale, mo_path)
     if CACHED_APPLICABLE_LANGS.has_key(cache_key):
         return CACHED_APPLICABLE_LANGS[cache_key]
