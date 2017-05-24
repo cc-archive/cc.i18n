@@ -132,7 +132,7 @@ LANG_MAP = {
     "pl": _("Polish"),
     "pt": _("Portuguese"),
     "pt_BR": _("Portuguese (BR)"),
-    "pt_PT": _("Portuguese (Portugal)"),
+    #"pt_PT": _("Portuguese (Portugal)"),
     "ro": _("Romanian"),
     "ru": _("Russian"),
     "si_LK": _("Sinhala"),
