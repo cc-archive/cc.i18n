@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2017-05-12 11:20-0700\n"
-"PO-Revision-Date: 2017-06-08 05:55+0000\n"
-"Last-Translator: Nasir Khan <nasir8891@gmail.com>\n"
+"PO-Revision-Date: 2017-06-24 17:17+0000\n"
+"Last-Translator: Aftabuzzaman ullah <Leemon432@gmail.com>\n"
 "Language-Team: Bengali (http://www.transifex.com/nkinkade/CC/language/bn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -416,7 +416,7 @@ msgstr "এস্তোনীয়"
 
 #: cc/i18n/mappers.py:103
 msgid "Basque"
-msgstr "বাসকু"
+msgstr "বাস্ক"
 
 #: cc/i18n/mappers.py:104
 msgid "Persian"
@@ -696,11 +696,11 @@ msgstr "পাবলিক ডোমেইন"
 #: cc/i18n/mappers.py:174 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:143
 msgid "ShareAlike"
-msgstr "শেয়ার অ্যালাইক"
+msgstr "একইভাবে বণ্টন"
 
 #: cc/i18n/mappers.py:175 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf
 msgid "Sampling"
-msgstr "উদাহরন"
+msgstr "উদাহরণ"
 
 #: cc/i18n/mappers.py:176 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf
 msgid "Sampling Plus"
@@ -719,7 +719,7 @@ msgstr "অ-বানিজ্যিক"
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:155
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1938
 msgid "No Derivative Works"
-msgstr "নো ডেরিভেটিভ ওয়ার্ক"
+msgstr "কোন উপজাত কাজ নয়"
 
 #: cc/i18n/mappers.py:183
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/characteristic/sa.html:3
@@ -727,7 +727,7 @@ msgstr "নো ডেরিভেটিভ ওয়ার্ক"
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:132
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1933
 msgid "Share Alike"
-msgstr "শেয়ার অ্যালাইক"
+msgstr "একইভাবে বণ্টন"
 
 #: cc/i18n/mappers.py:187
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/devnations_deed.html:55
@@ -748,7 +748,7 @@ msgstr ""
 #: cc/i18n/mappers.py:194
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/sampling_deed.html:49
 msgid "You may not use this work for commercial purposes."
-msgstr "আপনি এটি বানিজ্যিক কাজের জন্য ব্যবহার করতে পারবেন না।"
+msgstr "আপনি বাণিজ্যিক উদ্দেশ্যে এই কাজ ব্যবহার করতে নাও পারেন।"
 
 #: cc/i18n/mappers.py:195
 msgid "You may not alter, transform, or build upon this work."
@@ -830,7 +830,7 @@ msgstr "এই %(work_author)s এর %(work_type)sটি <a rel=\"license\" hre
 msgid ""
 "%(work_title)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
+msgstr "%(work_title)s <a rel=\"license\" href=\"%(license_url)s\">ক্রিয়েটিভ কমন্স %(license_name)s লাইসেন্সের</a> অধীনে লাইসেন্সকৃত।"
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:220
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/chooser/xmp_template.py:60
@@ -838,7 +838,7 @@ msgstr ""
 msgid ""
 "This %(work_type)s is licensed under a <a rel=\"license\" "
 "href=\"%(license_url)s\">Creative Commons %(license_name)s License</a>."
-msgstr ""
+msgstr "এই %(work_type)sটি <a rel=\"license\" href=\"%(license_url)s\">ক্রিয়েটিভ কমন্স %(license_name)s লাইসেন্সের</a> অধীনে লাইসেন্সকৃত।"
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:230
 #, python-format
@@ -858,7 +858,7 @@ msgid ""
 "This %(work_type)s is in the <a rel=\"license\" "
 "href=\"http://creativecommons.org/licenses/publicdomain/\">Public "
 "Domain</a>."
-msgstr ""
+msgstr "এই %(work_type)sটি <a rel=\"license\" href=\"http://creativecommons.org/licenses/publicdomain/\">পাবলিক ডোমেইনে</a>।"
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:328
 msgid "This work is free of known copyright restrictions."
@@ -1332,7 +1332,7 @@ msgstr "বাণিজ্যিক ব্যবহার"
 msgid ""
 "The licensor permits others to copy, distribute, display, and perform the "
 "work, including for commercial purposes."
-msgstr ""
+msgstr "লাইসেন্সধারী অন্যদের বাণিজ্যিক উদ্দেশ্যেসহ কাজ অনুলিপি, বিতরণ, প্রদর্শন, এবং সম্পাদন করার অনুমতি দেয়।"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:67
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:146
@@ -1370,7 +1370,7 @@ msgstr ""
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1388
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1801
 msgid "Yes, as long as others share alike"
-msgstr "হ্যাঁ, শেয়ার অ্যালাইকের অধীনে হলে"
+msgstr "হ্যাঁ, একইভাবে বণ্টনের অধীনে হলে"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:168
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/partner/index.html:70
@@ -1441,7 +1441,7 @@ msgstr "পাঠিয়ে দিন"
 msgid ""
 "This work is licensed under the Creative Commons %(license_name)s License. "
 "To view a copy of this license, visit %(license_url)s."
-msgstr ""
+msgstr "এই কাজটি ক্রিয়েটিভ কমন্স %(license_name)s লাইসেন্সের অধীনে লাইসেন্সকৃত। এই লাইসেন্সের একটি অনুলিপি দেখতে, %(license_url)s এ যান।"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1321
 msgid "New to Creative Commons?"
@@ -1601,7 +1601,7 @@ msgstr "মিথষ্ক্রিয়"
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1619
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1899
 msgid "License mark"
-msgstr "লাইসেন্স মার্ক"
+msgstr "লাইসেন্স চিহ্ন"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1630
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1906
@@ -1615,7 +1615,7 @@ msgstr "ওয়েব পাতা আছে?"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1649
 msgid "Copy this code to let your visitors know!"
-msgstr "এই কোড কপি করে অন্যদের জানিয়ে দিন!"
+msgstr "এই কোড অনুলিপি করে অন্যদের জানিয়ে দিন!"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1658
 msgid "Normal Icon"
@@ -1645,7 +1645,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1688
 msgid "Non-digital works?"
-msgstr ""
+msgstr "অ-ডিজিটাল কাজ?"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1692
 msgid "Downloadable license graphics."
@@ -1716,7 +1716,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1789
 msgid "show earlier licenses"
-msgstr ""
+msgstr "পূর্বের লাইসেন্স দেখান"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1800
 msgid ""
@@ -1797,7 +1797,7 @@ msgstr ""
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1874
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:76
 msgid "The title of the work you are licensing."
-msgstr ""
+msgstr "কাজের শিরোনাম যেটির আপনি লাইসেন্স করছেন।"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1878
 msgid ""
@@ -1893,11 +1893,11 @@ msgstr ""
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/results.html:19
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/zero/results.html:47
 msgid "Choose which style of button you'd like on your webpage:"
-msgstr ""
+msgstr "আপনি আপনার ওয়েবপৃষ্ঠাতে কোন বোতাম চান তা চয়ন করুন:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/results.html:55
 msgid "Here's a preview of how your license will appear on your site:"
-msgstr ""
+msgstr "আপনার সাইটে আপনার লাইসেন্সটি কিভাবে প্রদর্শিত হবে তাঁর একটি প্রাকদর্শন:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/pdmark/results.html:49
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/results.html:65
@@ -2610,12 +2610,12 @@ msgstr ""
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/cc_site_header.html:15
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/cc_site_header.html:26
 msgid "Share your work"
-msgstr ""
+msgstr "আপনার কাজ বণ্টন করুন"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/cc_site_header.html:16
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/cc_site_header.html:27
 msgid "Use &#038; remix"
-msgstr ""
+msgstr "ব্যবহার ও পুনঃমিশ্রণ"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/cc_site_header.html:17
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/cc_site_header.html:28
@@ -2630,7 +2630,7 @@ msgstr "ব্লগ"
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/cc_site_header.html:19
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/cc_site_header.html:34
 msgid "Global Affiliate Network"
-msgstr ""
+msgstr "বৈশ্বিক অধিভুক্তি নেটওয়ার্ক"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/cc_site_header.html:20
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/cc_site_header.html:35
@@ -2664,7 +2664,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/deed_donate_slide.html:12
 msgid "Contribute today to Creative Commons"
-msgstr ""
+msgstr "ক্রিয়েটিভ কমন্সে আজই অবদান রাখুন"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/deed_donate_slide.html:33
 msgid "Amount"
@@ -3002,19 +3002,19 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:40
 msgid "You are free to:"
-msgstr "আপনি স্বাধীনভাবে করতে পারেন:"
+msgstr "আপনি স্বাধীনভাবে:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:45
 msgid ""
 "<strong>Share</strong>  &mdash; copy and redistribute the material in any "
 "medium or format"
-msgstr ""
+msgstr "<strong>বণ্টন করতে পারেন</strong>  &mdash; যে কোনও মাধ্যম বা বিন্যাসে উপাদানটি অনুলিপি ও পুনঃবিতরণ করতে পারেন"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:52
 msgid ""
 "<strong>Adapt</strong>  &mdash; remix, transform, and build upon the "
 "material"
-msgstr ""
+msgstr "<strong>অভিযোজিত করতে পারেন</strong>  &mdash; পুনঃমিশ্রণ, রূপান্তর ও উপাদানের উপর নির্ভর করে কাজ করতে পারেন"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:58
 msgid "for any purpose, even commercially."
@@ -3024,7 +3024,7 @@ msgstr "যে কোনো উদ্দেশ্যে, এমনকি ব্�
 msgid ""
 "The licensor cannot revoke these freedoms as long as you follow the license "
 "terms."
-msgstr ""
+msgstr "লাইসেন্সকারী এই স্বাধীনতাগুলি প্রত্যাহার করতে পারবেন না যতক্ষণ পর্যন্ত আপনি লাইসেন্সের শর্তাবলী অনুসরণ করছেন।"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:90
 msgid "Under the following terms:"
@@ -3039,7 +3039,7 @@ msgid ""
 "id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
 "made</a></span>.  You may do so in any reasonable manner, but not in any way"
 " that suggests the licensor endorses you or your use."
-msgstr ""
+msgstr "আপনাকে অবশ্যই <a href=\"#\" id=\"appropriate_credit_popup\" class=\"helpLink\">যথাযথ কৃতিত্ব</a></span> দিতে হবে, লাইসেন্সের একটি লিঙ্ক প্রদান করতে হবে, এবং <span rel=\"cc:requires\" resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" id=\"indicate_changes_popup\" class=\"helpLink\">কোন পরিবর্তন করা হলে তা নির্দেশ করতে হবে</a></span>। আপনি যে কোন যুক্তিসঙ্গত পদ্ধতিতে তা করতে পারেন, কিন্তু এমন কোন পদ্ধতিতে নয় যাতে মনে হয় লাইসেন্সকারী আপনাকে বা আপনার এই ব্যবহারের জন্য অনুমোদন দিয়েছেন।"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:103
 msgid "Attribute this work:"
@@ -3060,18 +3060,18 @@ msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
 " not distribute the modified material."
-msgstr ""
+msgstr "আপনি যদি কাজটি <a href=\"#\" id=\"some_kinds_of_mods_popup\" class=\"helpLink\">পরিবর্তন, রুপান্তর, বা কাজটির ওপর ভিত্তি করে কিছু তৈরি</a> করেন, তবে আপনি সম্পাদিত উপাদান বিতরণ নাও করতে পারেন।"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:143
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
 "your contributions under the <a href=\"#\" id=\"same_license_popup\" "
 "class=\"helpLink\">same license</a> as the original."
-msgstr ""
+msgstr "আপনি যদি কাজটি পরিবর্তন, রুপান্তর, বা কাজটির ওপর ভিত্তি করে কিছু তৈরি করেন, তবে আপনাকে অবশ্যই আপনার অবদান মূল লাইসেন্সের মত <a href=\"#\" id=\"same_license_popup\" class=\"helpLink\">একই রকমের লাইসেন্সের</a> আওতায় বিতরণ করতে হবে।"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:154
 msgid "No additional restrictions"
-msgstr "কোনো বাড়তি বিধিনিষেধ নেই"
+msgstr "কোনো বাড়তি বিধিনিষেধ নয়"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:154
 msgid ""
@@ -3079,7 +3079,7 @@ msgid ""
 "id=\"technological_measures_popup\" class=\"helpLink\">technological "
 "measures</a> that legally restrict others from doing anything the license "
 "permits."
-msgstr ""
+msgstr "আপনি আইনি শর্তাদি বা <a href=\"#\" id=\"technological_measures_popup\" class=\"helpLink\">প্রযুক্তিগত পরিমাপ</a> করতে পারবেন না যা লাইসেন্সের অনুমতিপত্রে বৈধভাবে কোন কিছু করা অন্যদের থেকে সীমাবদ্ধ করে।"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:161
 msgid "Notices:"
@@ -3098,7 +3098,7 @@ msgid ""
 "the public domain or where your use is permitted by an applicable <a "
 "href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
 " or limitation</a>."
-msgstr ""
+msgstr "আপনাকে পাবলিক ডোমেইনে থাকা বিষয়বস্তুর উপাদানের জন্য লাইসেন্স মেনে চলতে হবে না বা সেখানে যেখানে আপনার ব্যবহার একটি প্রযোজ্য <a href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">ব্যতিক্রম বা সীমাবদ্ধতা</a> দ্বারা অনুমোদিত।"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:174
 msgid ""
@@ -3107,7 +3107,7 @@ msgid ""
 "href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
 "class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
 " use the material."
-msgstr ""
+msgstr "কোন ওয়ারেন্টি দেয়া হয়নি। লাইসেন্সটি আপনাকে আপনার উদ্দেশ্যে ব্যবহার করার জন্য প্রয়োজনীয় সমস্ত অনুমতি নাও প্রদান করতে পারে। উদাহরণস্বরূপ, অন্যান্য অধিকারগুলি যেমন <a href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" class=\"helpLink\">প্রচার, গোপনীয়তা বা নৈতিক অধিকারগুলি</a> আপনি কীভাবে উপাদান ব্যবহার করেন তার উপর ভিত্তি করে সীমিত হতে পারে।"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:182
 #, python-format
@@ -3202,7 +3202,7 @@ msgstr ""
 msgid ""
 "You may need to get additional permissions before using the material as you "
 "intend."
-msgstr ""
+msgstr "আপনার পছন্দমতভাবে উপাদান ব্যবহার করার আগে আপনাকে অতিরিক্ত অনুমতি নিতে হতে পারে।"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:17
 msgid "Public Domain Dedication"
@@ -3329,7 +3329,7 @@ msgid ""
 "\n"
 "        <a href=\"http://wiki.creativecommons.org/FAQ\">Learn more</a> about CC licensing, or <a id=\"get_this\" href=\"%(get_this)s\">use the license</a> for your own material.\n"
 "            "
-msgstr ""
+msgstr "\n        সিসি লাইসেন্স সম্পর্কে <a href=\"http://wiki.creativecommons.org/FAQ\">আরও জানুন</a> বা আপনার নিজস্ব উপাদানের জন্য <a id=\"get_this\" href=\"%(get_this)s\">লাইসেন্সটি ব্যবহার করুন</a>।\n            "
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:166
 msgid ""
