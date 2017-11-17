@@ -40,10 +40,6 @@ setup(
         'jinja2',
         ],
 
-    dependency_links = [
-        'http://code.creativecommons.org/basket/',
-        ],
-
     entry_points = {
         'console_scripts': [
             'report = cc.i18n.tools.report:cli',
