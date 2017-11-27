@@ -6,6 +6,8 @@
 # cwebber <cwebber@dustycloud.org>, 2011
 # cwebber <cwebber@dustycloud.org>, 2011
 # cwebber <cwebber@dustycloud.org>, 2011
+# George Hari Popescu <george@creativecommons.org>, 2017
+# Maksym Naumko <maksym.naumko@intelactive.com.ua>, 2017
 # Nathan Kinkade <nkinkade@creativecommons.org>, 2011
 # Nikolay Nakuginkin <translator@mondaystar.ru>, 2013
 # oleg koptev <koptev.oleg@gmail.com>, 2011-2013,2017
@@ -20,8 +22,8 @@ msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2017-05-12 11:20-0700\n"
-"PO-Revision-Date: 2017-09-23 18:02+0000\n"
-"Last-Translator: oleg koptev <koptev.oleg@gmail.com>\n"
+"PO-Revision-Date: 2017-11-23 12:29+0000\n"
+"Last-Translator: Maksym Naumko <maksym.naumko@intelactive.com.ua>\n"
 "Language-Team: Russian (http://www.transifex.com/nkinkade/CC/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -643,36 +645,36 @@ msgstr "LGPL"
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/devnations_deed.html:53
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:96
 msgid "Attribution"
-msgstr "«Attribution» («Атрибуция»)"
+msgstr "С указанием авторства"
 
 #: cc/i18n/mappers.py:162 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:304
 msgid "Attribution-NonCommercial"
-msgstr "«Attribution-NonCommercial» («Атрибуция — Некоммерческое использование»)"
+msgstr "С указанием авторства-Некоммерческая"
 
 #: cc/i18n/mappers.py:163 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:360
 msgid "Attribution-NonCommercial-NoDerivs"
-msgstr "«Attribution-NonCommercial-NoDerivs» («Атрибуция — Некоммерческое использование — Без производных произведений»)"
+msgstr "С указанием авторства-Некоммерческая-Без производных"
 
 #: cc/i18n/mappers.py:164 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:333
 msgid "Attribution-NonCommercial-ShareAlike"
-msgstr "«Attribution-NonCommercial-ShareAlike» («Атрибуция — Некоммерческое использование — На тех же условиях»)"
+msgstr "С указанием авторства-Некоммерческая-С сохранением условий"
 
 #: cc/i18n/mappers.py:165 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:277
 msgid "Attribution-NoDerivs"
-msgstr "«Attribution-NoDerivs» («Атрибуция — Без производных произведений»)"
+msgstr "С указанием авторства-Без производных"
 
 #: cc/i18n/mappers.py:166 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf
 msgid "Attribution-NoDerivs-NonCommercial"
-msgstr "«Attribution-NoDerivs-NonCommercial» («Атрибуция — Без производных произведений — Некоммерческое использование»)"
+msgstr "С указанием авторства-Некоммерческая-Без производных"
 
 #: cc/i18n/mappers.py:167 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:248
 msgid "Attribution-ShareAlike"
-msgstr "«Attribution-ShareAlike» («Атрибуция — На тех же условиях»)"
+msgstr "С указанием авторства-С сохранением условий"
 
 #: cc/i18n/mappers.py:168 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/classic_chooser.html:76
@@ -918,11 +920,11 @@ msgstr "Это произведение (автора %(author)s), иденти�
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf
 msgid "Attribution-NoDerivatives"
-msgstr "«Attribution-NoDerivatives» («Атрибуция — Без производных произведений»)"
+msgstr "С указанием авторства-Без производных"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf
 msgid "Attribution-NonCommercial-NoDerivatives"
-msgstr "«Attribution-NonCommercial-NoDerivatives» («Атрибуция — Некоммерческое использование — Без производных произведений»)"
+msgstr "С указанием авторства-Некоммерческая-Без производных"
 
 #: checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf
 msgid "Developing Nations"
@@ -1777,7 +1779,7 @@ msgid ""
 "        A real world example of license incompatibility:  Works with the NonCommercial\n"
 "        or the NoDerivatives restriction may not be posted to Wikipedia.\n"
 "      </p>"
-msgstr "<p>\n        Если подходящая лицензия предоставляет свободы, необходимые для лицензии свободной культуры, \n        тогда в этой панели появляется иконка «Approved for Free Cultural Works» («Одобрено для свободных произведений культуры»).  Эта\n        особенность предназначена, чтобы помочь вам сделать более осознанное решение.\n        Лицензии NonCommercial и NoDerivatives включают дополнительные ограничения\n        которые, согласно определению, не дают им считаться лицензияей свободной культуры.\n      </p>\n      <p>\n        Хотя наши лицензии несвободной культуры являтся полезными в определённых условиях, их использование может\n        иметь неожидаемые эффекты (такие как несовместимости лицензии).  \n        Например, произведение под лицензией «Attribution-NonCommercial-ShareAlike» («Атрибуция — Некоммерческое использование — На тех же условиях») \n        не может быть объединено с произведением, доступным по «Attribution-ShareAlike» («Атрибуция — На тех же условиях») так как размещение\n        получившегося произведения по любой лицензии нарушает другую\n        добавлением или исключением некоммерческого ограничения.\n      </p>\n      <p>\n        Пример лицензионной несовместимости из реального мира:  Произведения с ограничениями NonCommercial\n        или NoDerivatives не могут быть опубликованы в Википедии.\n      </p>"
+msgstr "Некоммерческое использованиеНекоммерческое использование<p>\n        Если подходящая лицензия предоставляет свободы, необходимые для лицензии свободной культуры, \n        тогда в этой панели появляется иконка «Approved for Free Cultural Works» («Одобрено для свободных произведений культуры»).  Эта\n        особенность предназначена, чтобы помочь вам сделать более осознанное решение.\n        Лицензии Некоммерческая и Без производных включают дополнительные ограничения\n        которые, согласно определению, не дают им считаться лицензияей свободной культуры.\n      </p>\n      <p>\n        Хотя наши лицензии несвободной культуры являтся полезными в определённых условиях, их использование может\n        иметь неожидаемые эффекты (такие как несовместимости лицензии).  \n        Например, произведение под лицензией \"С указанием авторства-Некоммерческая-С сохранением условий\" \n        не может быть объединено с произведением, доступным по \"С указанием авторства-С сохранением условий\" так как размещение\n        получившегося произведения по любой лицензии нарушает другую\n        добавлением или исключением некоммерческого ограничения.\n      </p>\n      <p>\n        Пример лицензионной несовместимости из реального мира:  Произведения с ограничениями Некоммерческая \n        или Без производных не могут быть опубликованы в Википедии.\n      </p>"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1849
 msgid ""
@@ -2947,7 +2949,7 @@ msgstr "Законы об авторстве могут варьироватьс
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:116
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:163
 msgid "Disclaimer"
-msgstr "Оговорка (disclaimer)"
+msgstr "Оговорка"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:188
 msgid ""
