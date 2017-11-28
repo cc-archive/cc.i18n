@@ -1,7 +1,7 @@
 from builtins import str
 import re
 
-from rdflib.Graph import Graph
+from rdflib.graph import Graph
 
 TRANSLATION_BIT_RE = re.compile('\$\{([^\}]+)\}')
 
