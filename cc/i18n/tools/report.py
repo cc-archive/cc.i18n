@@ -9,7 +9,6 @@ from babel.messages.pofile import read_po
 
 from babel.messages.pofile import write_po
 
-from cc.i18n.tools import convert
 from cc.i18n.tools.support import parse_args
 
 def count(catalog):
@@ -59,4 +58,3 @@ def cli():
 
     for locale in progress:
         print("%*.1f %%    %s" % (8, locale[0], locale[1]))
-
