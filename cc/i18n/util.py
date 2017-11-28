@@ -36,7 +36,7 @@ def get_all_trans_stats(trans_file=DEFAULT_CSV_FILE):
        [...]}
     """
     # return cached statistics, if available
-    if CACHED_TRANS_STATS.has_key(trans_file):
+    if trans_file in CACHED_TRANS_STATS:
         return CACHED_TRANS_STATS[trans_file]
 
     if not os.path.exists(trans_file):
@@ -69,7 +69,7 @@ def get_all_trans_stats(trans_file=DEFAULT_CSV_FILE):
 CACHED_LANGUAGES_SUPPORTED = {}
 def get_all_supported_languages(trans_file=DEFAULT_CSV_FILE):
 
-    if CACHED_LANGUAGES_SUPPORTED.has_key(trans_file):
+    if trans_file in CACHED_LANGUAGES_SUPPORTED:
         return CACHED_LANGUAGES_SUPPORTED[trans_file]
     
     supported = set(get_all_trans_stats(trans_file).keys())
@@ -105,7 +105,7 @@ def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
 
     cache_key = (threshold, trans_file, append_english)
 
-    if CACHED_WELL_TRANSLATED_LANGS.has_key(cache_key):
+    if cache_key in CACHED_WELL_TRANSLATED_LANGS:
         return CACHED_WELL_TRANSLATED_LANGS[cache_key]
 
     trans_stats = get_all_trans_stats(trans_file)
@@ -156,7 +156,7 @@ def applicable_langs(locale, mo_path=MO_PATH):
     Return all available languages "applicable" to a requested locale.
     """
     cache_key = (locale, mo_path)
-    if CACHED_APPLICABLE_LANGS.has_key(cache_key):
+    if cache_key in CACHED_APPLICABLE_LANGS:
         return CACHED_APPLICABLE_LANGS[cache_key]
 
     applicable_langs = []

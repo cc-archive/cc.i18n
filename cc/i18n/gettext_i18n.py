@@ -14,7 +14,7 @@ def translations_for_locale(locale, mo_path=MO_PATH):
     Get the right translation and return it
     """
     cache_key = (locale, mo_path)
-    if CCORG_GETTEXT_TRANSLATIONS.has_key(cache_key):
+    if cache_key in CCORG_GETTEXT_TRANSLATIONS:
         return CCORG_GETTEXT_TRANSLATIONS[cache_key]
 
     # do I have the order backwards here?

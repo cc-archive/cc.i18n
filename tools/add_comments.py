@@ -1,3 +1,4 @@
+from __future__ import print_function
 import babel.messages.pofile
 import glob
 
@@ -19,7 +20,7 @@ def add_comments(english_po_filename, locale, non_english_po_filename):
             pass
             # print 'this is dumb, the key', message_name, 'is not available in English'
         
-    print 'converted file', non_english_po_filename
+    print('converted file', non_english_po_filename)
     babel.messages.pofile.write_po(open(non_english_po_filename, 'w'), target_po)
 
 def add_comments_to_all():
@@ -29,7 +30,7 @@ def add_comments_to_all():
         if pofile == english_filename:
             continue # Get me a non-English one
         
-        print 'converting ', pofile
+        print('converting ', pofile)
         add_comments(english_filename, pofile.split('/')[-2], pofile )
     
 

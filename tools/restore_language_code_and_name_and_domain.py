@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+from __future__ import print_function
 import sys
 import os
 
@@ -10,8 +11,8 @@ extra = '"Language-code: %s\\n"\n"Language-name: %s\\n"\n"Domain: cc_org\\n"\n'
 before = '"Generated-By: Babel 0.9.1\\n"\n'
 
 if len(sys.argv) < 2:
-	print "USAGE:\n"
-	print "progname.py file_to_covert.po"
+	print("USAGE:\n")
+	print("progname.py file_to_covert.po")
 	sys.exit(1)
 
 def find_language_code(filename):
@@ -25,7 +26,7 @@ file_contents = open(filename).read()
 
 # If they don't want to be converted, so be it.
 if before not in file_contents:
-	print 'skipping', filename
+	print('skipping', filename)
 	sys.exit(0)
 
 # We better not dual-process things

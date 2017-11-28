@@ -1,3 +1,4 @@
+from __future__ import print_function
 import os
 import copy
 import shutil
@@ -57,5 +58,5 @@ def cli():
     progress.reverse()
 
     for locale in progress:
-        print "%*.1f %%    %s" % (8, locale[0], locale[1])
+        print("%*.1f %%    %s" % (8, locale[0], locale[1]))
 

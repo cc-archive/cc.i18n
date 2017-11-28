@@ -192,8 +192,7 @@ def test_applicable_langs():
     assert _check_cache('zh_TW') == ['zh_TW', 'zh', 'en']
 
     # Don't cache foobie_blech, that'd be silly
-    assert not util.CACHED_APPLICABLE_LANGS.has_key(
-        ('foobie_BLECH', FAKE_MODIR))
+    assert ('foobie_BLECH', FAKE_MODIR) not in util.CACHED_APPLICABLE_LANGS
 
 
 def test_negotiate_locale():
