@@ -111,7 +111,7 @@ def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
     trans_stats = get_all_trans_stats(trans_file)
     
     qualified_langs = set([
-        lang for lang, data in trans_stats.iteritems()
+        lang for lang, data in trans_stats.items()
         if data['percent_trans'] >= threshold])
 
     # Add english if necessary.

@@ -4,6 +4,9 @@ Statistics on the translations of this file.
 The CSV written will be in the format of:
   lang,num_messages,num_trans,num_fuzzy,percent_trans
 """
+from __future__ import division
+from builtins import object
+from past.utils import old_div
 
 import csv
 import optparse
@@ -61,7 +64,7 @@ def gen_statistics(input_dir, output_file):
              'num_messages': len(pofile),
              'num_trans': translated,
              'num_fuzzy': fuzzies,
-             'percent_trans': int((float(translated) / len(pofile)) * 100)})
+             'percent_trans': int((old_div(float(translated), len(pofile))) * 100)})
 
     output_file.close()
 

@@ -45,7 +45,7 @@ def ugettext_for_locale(locale, mo_path=MO_PATH):
 
         # No idea why it only sometimes returns unicode now...
         # ...So decode to utf-8 conditionally!
-        if isinstance(message, unicode):
+        if isinstance(message, str):
             return message
         else:
             return message.decode(u'utf-8')

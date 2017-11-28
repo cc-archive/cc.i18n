@@ -47,7 +47,7 @@ def test_compile_mo_files():
                  '<a rel="license" href="%(license_url)s">Creative Commons '
                  '%(license_name)s</a>.')}}
 
-    for language, expected_translations in expected_translations.iteritems():
+    for language, expected_translations in expected_translations.items():
         gettext = ugettext_for_locale(language, output_dir)
-        for msgid, expected_translation in expected_translations.iteritems():
+        for msgid, expected_translation in expected_translations.items():
             assert gettext(msgid) == expected_translation.decode('utf-8')

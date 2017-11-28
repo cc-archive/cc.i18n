@@ -1,6 +1,7 @@
 """
 Compile .po files into .mo files in the cc 
 """
+from builtins import object
 
 import os
 import pkg_resources
