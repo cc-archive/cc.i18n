@@ -1,12 +1,12 @@
 """
-Compile .po files into .mo files in the cc 
+Compile .po files into .mo files in the cc
 """
 from builtins import object
 
 import os
 import pkg_resources
-from pythongettext.msgfmt import Msgfmt
 from stat import ST_MTIME
+import polib
 
 
 I18N_PATH = pkg_resources.resource_filename(
@@ -51,10 +51,8 @@ def compile_mo_files(input_dir=I18N_PATH, output_dir=MO_FILES_BASE):
             if po_mtime == mo_mtime:
                 continue
 
-        mo_data = Msgfmt(po_path, 'cc_org').getAsFile()
-        fd = open(mo_path, 'wb')
-        fd.write(mo_data.read())
-        fd.close()
+        po = polib.pofile(po_path)
+        po.save_as_mofile(mo_path)
 
 
 class CompileMORecipe(object):

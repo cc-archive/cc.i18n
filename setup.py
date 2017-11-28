@@ -20,6 +20,15 @@
 
 from setuptools import setup, find_packages
 
+import sys
+if sys.version_info < (3, 0):
+    more_requires = [ 'future', 'jinja2', 'rdflib<3.0' ]
+if sys.version_info < (3, 6):
+    # https://stackoverflow.com/questions/43163201/pyinstaller-syntax-error-yield-inside-async-function-python-3-5-1/43177028
+    more_requires = [ 'jinja2==2.8.1', 'rdflib' ]
+else:
+    more_requires = [ 'jinja2', 'rdflib' ]
+
 setup(
     name='cc.i18n',
     namespace_packages = ['cc',],
@@ -33,12 +42,11 @@ setup(
         'setuptools',
         'Babel>0.99',
         'zope.i18n',
-        'python-gettext<2.0',
         'polib',
         'nose',
-        'rdflib<3.0',
         'jinja2',
-        ],
+        'future',
+        ] + more_requires,
 
     entry_points = {
         'console_scripts': [
