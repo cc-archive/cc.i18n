@@ -18,5 +18,5 @@ def test_gen_statistics():
 
     csv_file_lines = set(file(csv_file_path).read().strip().splitlines())
     assert csv_file_lines == set(
-        ['pt_PT,559,333,25,59', 'pt_BR,559,376,13,67', 'es,559,545,7,97',
-         'pt,559,547,6,97', 'vi,559,454,18,81', 'en,559,0,1,0'])
+        ['pt_BR,559,376,13,67', 'es,559,545,7,97', 'pt,559,547,6,97',
+         'vi,559,454,18,81', 'en,559,0,1,0'])

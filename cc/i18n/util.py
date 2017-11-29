@@ -80,11 +80,12 @@ def get_all_supported_languages(trans_file=DEFAULT_CSV_FILE):
 CACHED_WELL_TRANSLATED_LANGS = {}
 def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
                               trans_file=DEFAULT_CSV_FILE,
-                              append_english=True):
+                              append_english=True,
+                              mo_path=MO_PATH):
     """
     Get an alphebatized and name-rendered list of all languages above
     a certain threshold of translation.
-    
+
     Keyword arguments:
     - threshold: percentage that languages should be translated at or above
     - trans_file: specify from which CSV file we're gathering statistics.
@@ -92,6 +93,7 @@ def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
     - append_english: Add English to the list, even if it's completely
         "untranslated" (since English is the default for messages,
         nobody translates it)
+    - mo_path: The directory to find .mo files under for *some* tasks.
 
     Returns:
       An alphebatized sequence of dicts, where each element consists
@@ -109,7 +111,7 @@ def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
         return CACHED_WELL_TRANSLATED_LANGS[cache_key]
 
     trans_stats = get_all_trans_stats(trans_file)
-    
+
     qualified_langs = set([
         lang for lang, data in trans_stats.items()
         if data['percent_trans'] >= threshold])
@@ -121,19 +123,18 @@ def get_well_translated_langs(threshold=TRANSLATION_THRESHOLD,
     # this loop is long hand for clarity; it's only done once, so
     # the additional performance cost should be negligible
     result = []
-
     for code in qualified_langs:
         from cc.i18n.gettext_i18n import ugettext_for_locale
-        gettext = ugettext_for_locale(code)
+        gettext = ugettext_for_locale(code, mo_path)
         if code in mappers.LANG_MAP:
             # we have a translation for this name...
             name = gettext(mappers.LANG_MAP[code])
             result.append(dict(code=code, name=name))
 
     result = sorted(result, key=lambda lang: lang['name'].lower())
-    
+
     CACHED_WELL_TRANSLATED_LANGS[cache_key] = result
-    
+
     return result
 
 

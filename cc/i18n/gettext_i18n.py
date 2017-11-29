@@ -2,6 +2,8 @@ import os
 import gettext
 import pkg_resources
 
+import six
+
 from cc.i18n.util import applicable_langs, MO_PATH
 
 
@@ -18,7 +20,7 @@ def translations_for_locale(locale, mo_path=MO_PATH):
         return CCORG_GETTEXT_TRANSLATIONS[cache_key]
 
     # do I have the order backwards here?
-    langs = applicable_langs(locale)
+    langs = applicable_langs(locale, mo_path)
 
     translations = None
 
@@ -45,7 +47,7 @@ def ugettext_for_locale(locale, mo_path=MO_PATH):
 
         # No idea why it only sometimes returns unicode now...
         # ...So decode to utf-8 conditionally!
-        if isinstance(message, str):
+        if isinstance(message, six.text_type):
             return message
         else:
             return message.decode(u'utf-8')
