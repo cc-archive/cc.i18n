@@ -14,6 +14,7 @@ import os
 import pkg_resources
 
 from babel.messages.pofile import read_po
+from babel.core import UnknownLocaleError
 
 CSV_HEADERS = [
     'lang', 'num_messages', 'num_trans', 'num_fuzzy', 'percent_trans']
@@ -46,7 +47,11 @@ def gen_statistics(input_dir, output_file):
             continue
 
         # load .po file
-        pofile = read_po(file(trans_file, 'r'))
+        try:
+            pofile = read_po(file(trans_file, 'r'))
+        except UnknownLocaleError:
+            print("Babel doesn't know " + lang + ", skipping." )
+            continue
 
         fuzzies = 0
         translated = 0
