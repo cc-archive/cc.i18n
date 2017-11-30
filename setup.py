@@ -23,12 +23,12 @@ from setuptools import setup, find_packages
 
 import sys
 if sys.version_info < (3, 0):
-    more_requires = [ 'future', 'jinja2', 'rdflib<3.0' ]
+    JINJA = [ 'jinja2']
 if sys.version_info < (3, 6):
     # https://stackoverflow.com/questions/43163201/pyinstaller-syntax-error-yield-inside-async-function-python-3-5-1/43177028
-    more_requires = [ 'jinja2==2.8.1', 'rdflib' ]
+    JINJA = [ 'jinja2==2.8.1' ]
 else:
-    more_requires = [ 'jinja2', 'rdflib' ]
+    JINJA = [ 'jinja2' ]
 
 setup(
     name='cc.i18n',
@@ -45,11 +45,11 @@ setup(
         'zope.i18n',
         'polib',
         'nose',
-        'jinja2',
+        'rdflib',
         # Moving from Python 2 to Python 3
         'future',
         'six'
-        ] + more_requires,
+        ] + JINJA,
 
     entry_points = {
         'console_scripts': [
