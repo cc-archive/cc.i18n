@@ -24,7 +24,7 @@ from setuptools import setup, find_packages
 import sys
 if sys.version_info < (3, 0):
     JINJA = [ 'jinja2']
-if sys.version_info < (3, 6):
+elif sys.version_info < (3, 6):
     # https://stackoverflow.com/questions/43163201/pyinstaller-syntax-error-yield-inside-async-function-python-3-5-1/43177028
     JINJA = [ 'jinja2==2.8.1' ]
 else:
