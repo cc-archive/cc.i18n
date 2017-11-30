@@ -1,3 +1,18 @@
+Testing
+=======
+
+    virtualenv .
+    . bin/activate
+    python setup.py install
+    bin/compile_mo
+    bin/transstats
+    bin/nosetests
+
+
+===============
+ORIGINAL README
+===============
+
 ===========================
 Creative Commons i18n Tools
 ===========================
