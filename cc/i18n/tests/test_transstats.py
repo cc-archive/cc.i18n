@@ -1,3 +1,4 @@
+from builtins import open
 import os
 import pkg_resources
 import tempfile
@@ -16,7 +17,7 @@ def test_gen_statistics():
 
     transstats.gen_statistics(fake_podir, csv_file_path)
 
-    csv_file_lines = set(file(csv_file_path).read().strip().splitlines())
+    csv_file_lines = set(open(csv_file_path).read().strip().splitlines())
     assert csv_file_lines == set(
         ['pt_BR,559,376,13,67', 'es,559,545,7,97', 'pt,559,547,6,97',
          'vi,559,454,18,81', 'en,559,0,1,0'])

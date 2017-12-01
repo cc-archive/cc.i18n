@@ -43,10 +43,10 @@ def translations_for_locale(locale, mo_path=MO_PATH):
 def ugettext_for_locale(locale, mo_path=MO_PATH):
     def _wrapped_ugettext(message):
         message = translations_for_locale(
-            locale, mo_path).ugettext(message)
-
-        # No idea why it only sometimes returns unicode now...
-        # ...So decode to utf-8 conditionally!
+            locale, mo_path).gettext(message)
+        # Use gettext so it works on Python 2 and 3 (which doesn't have
+        #   ugettext).
+        # Use the old Python 2 double-check code to ensure unicode.
         if isinstance(message, six.text_type):
             return message
         else:

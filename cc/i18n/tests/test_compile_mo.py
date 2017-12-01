@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import pkg_resources
 import tempfile
 
@@ -27,15 +28,15 @@ def test_compile_mo_files():
                  '<a rel="license" href="%(license_url)s">Creative Commons '
                  '%(license_name)s License</a>.')},
         'pt': {
-            'New Zealand': 'Nova Zel\xc3\xa2ndia',
+            'New Zealand': u'Nova Zelândia',
             'Sampling': 'Sampling',
             ('%(work_title)s by %(work_author)s is licensed under a '
              '<a rel="license" href="%(license_url)s">Creative Commons '
              '%(license_name)s License</a>.'):
-                ('A obra %(work_title)s de %(work_author)s '
-                 'foi licenciada com uma Licen\xc3\xa7a '
-                 '<a rel="license" href="%(license_url)s">Creative Commons - '
-                 '%(license_name)s</a>.')},
+                (u'A obra %(work_title)s de %(work_author)s '
+                 u'foi licenciada com uma Licença '
+                 u'<a rel="license" href="%(license_url)s">Creative Commons - '
+                 u'%(license_name)s</a>.')},
         'es': {
             'New Zealand': 'Nueva Zelanda',
             'Sampling': 'Sampling',
@@ -50,4 +51,4 @@ def test_compile_mo_files():
     for language, expected_translations in expected_translations.items():
         gettext = ugettext_for_locale(language, output_dir)
         for msgid, expected_translation in expected_translations.items():
-            assert gettext(msgid) == expected_translation.decode('utf-8')
+            assert gettext(msgid) == expected_translation

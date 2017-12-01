@@ -5,7 +5,7 @@ The CSV written will be in the format of:
   lang,num_messages,num_trans,num_fuzzy,percent_trans
 """
 from __future__ import division
-from builtins import object
+from builtins import object, open
 from past.utils import old_div
 
 import csv
@@ -32,7 +32,7 @@ def gen_statistics(input_dir, output_file):
     - input_dir: The directory of languages we'll iterate through
     - output_file: Path to the CSV file that will be written to
     """
-    output_file = file(output_file, 'w')
+    output_file = open(output_file, 'w')
 
     input_dir = os.path.abspath(input_dir)
     lang_dirs = os.listdir(input_dir)
@@ -48,7 +48,7 @@ def gen_statistics(input_dir, output_file):
 
         # load .po file
         try:
-            pofile = read_po(file(trans_file, 'r'))
+            pofile = read_po(open(trans_file, 'r'))
         except UnknownLocaleError:
             print("Babel doesn't know " + lang + ", skipping." )
             continue

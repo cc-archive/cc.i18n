@@ -2,6 +2,7 @@
 Utilities relevant to cc.i18n.
 """
 
+from builtins import open
 import csv
 import os
 import pkg_resources
@@ -43,7 +44,7 @@ def get_all_trans_stats(trans_file=DEFAULT_CSV_FILE):
         raise IOError(
             "No such CSV file.  Maybe run ./bin/transstats in cc.i18n?")
 
-    reader = csv.DictReader(file(trans_file, 'r'), CSV_HEADERS)
+    reader = csv.DictReader(open(trans_file, 'r'), CSV_HEADERS)
     stats = {}
 
     # record statistics
