@@ -12,6 +12,7 @@ import csv
 import optparse
 import os
 import pkg_resources
+import sys
 
 from babel.messages.pofile import read_po
 from babel.core import UnknownLocaleError
@@ -32,7 +33,10 @@ def gen_statistics(input_dir, output_file):
     - input_dir: The directory of languages we'll iterate through
     - output_file: Path to the CSV file that will be written to
     """
-    output_file = open(output_file, 'w')
+    mode = 'w'
+    if sys.version_info.major < 3:
+        mode += 'b'
+    output_file = open(output_file, mode)
 
     input_dir = os.path.abspath(input_dir)
     lang_dirs = os.listdir(input_dir)

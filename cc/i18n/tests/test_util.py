@@ -1,6 +1,7 @@
 from builtins import open
 import os
 import pkg_resources
+import sys
 import tempfile
 
 from cc.i18n import util
@@ -14,7 +15,10 @@ def test_get_all_trans_stats():
 
     # write a fake CSV file
     transstats = os.path.join(temp_dir, 'transstats.csv')
-    ts_file = open(transstats, 'w')
+    mode = 'w'
+    if sys.version_info.major < 3:
+        mode += 'b'
+    ts_file = open(transstats, mode)
     ts_file.write(
         ('es_AR,564,343,27,60\n'
          'en_US,564,0,1,0\n'
@@ -52,7 +56,10 @@ def test_get_all_trans_stats():
     assert results == expected
 
     # overwrite that old CSV file,
-    ts_file = open(transstats, 'w')
+    mode = 'w'
+    if sys.version_info.major < 3:
+        mode += 'b'
+    ts_file = open(transstats, mode)
     ts_file.write(
         ('es_AR,999,999,999,999\n'
          'en_US,999,999,999,999\n'
@@ -73,7 +80,10 @@ def test_get_all_supported_languages():
 
     # write a fake CSV file
     transstats = os.path.join(temp_dir, 'transstats.csv')
-    ts_file = open(transstats, 'w')
+    mode = 'w'
+    if sys.version_info.major < 3:
+        mode += 'b'
+    ts_file = open(transstats, mode)
     ts_file.write(
         ('es_AR,564,343,27,60\n'
          'en_US,564,0,1,0\n'
@@ -108,7 +118,10 @@ def test_get_well_translated_langs():
 
     # write a fake CSV file
     transstats = os.path.join(temp_dir, 'transstats.csv')
-    ts_file = open(transstats, 'w')
+    mode = 'w'
+    if sys.version_info.major < 3:
+        mode += 'b'
+    ts_file = open(transstats, mode)
     ts_file.write(
         ('es_AR,564,343,27,60\n'
          'en,564,0,0,0\n'
@@ -145,7 +158,10 @@ def test_get_well_translated_langs():
 
     # Test caching: overwrite the old file with bogus data, we should
     # get the old results
-    ts_file = open(transstats, 'w')
+    mode = 'w'
+    if sys.version_info.major < 3:
+        mode += 'b'
+    ts_file = open(transstats, mode)
     ts_file.write(
         ('es_AR,999,999,999,999\n'
          'en,999,999,999,999\n'
@@ -238,4 +254,3 @@ def test_locale_to_lower_lower():
     # crazy renditions.  Useful?
     assert util.locale_to_lower_lower('en-US') == 'en-us'
     assert util.locale_to_lower_lower('en_us') == 'en-us'
-

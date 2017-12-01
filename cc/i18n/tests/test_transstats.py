@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 from builtins import open
 import os
 import pkg_resources
@@ -11,7 +12,7 @@ def test_gen_statistics():
     Test the translation statistics generating gen_statistics func.
     """
     temp_dir = tempfile.mkdtemp()
-    csv_file_path = os.path.join(temp_dir, 'transstats.csv')
+    csv_file_path = os.path.join(temp_dir, u'transstats.csv')
 
     fake_podir = pkg_resources.resource_filename('cc.i18n.tests', 'fake_podir')
 
