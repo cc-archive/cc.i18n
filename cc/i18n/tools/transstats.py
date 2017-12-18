@@ -36,7 +36,7 @@ def gen_statistics(input_dir, output_file):
     mode = 'w'
     if sys.version_info.major < 3:
         mode += 'b'
-    output_file = open(output_file, mode)
+    output_file = open(output_file, mode, encoding='utf-8')
 
     input_dir = os.path.abspath(input_dir)
     lang_dirs = os.listdir(input_dir)
@@ -52,7 +52,7 @@ def gen_statistics(input_dir, output_file):
 
         # load .po file
         try:
-            pofile = read_po(open(trans_file, 'r'))
+            pofile = read_po(open(trans_file, 'r', encoding='utf-8'))
         except UnknownLocaleError:
             print("Babel doesn't know " + lang + ", skipping." )
             continue
