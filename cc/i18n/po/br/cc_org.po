@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PROJECT project.
 # 
 # Translators:
-# Irriep Nala Novram <allannkorh@yahoo.fr>, 2017
+# Irriep Nala Novram <allannkorh@yahoo.fr>, 2017-2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Creative Commons\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2017-05-12 11:20-0700\n"
-"PO-Revision-Date: 2017-12-31 09:07+0000\n"
+"PO-Revision-Date: 2018-06-10 14:38+0000\n"
 "Last-Translator: Irriep Nala Novram <allannkorh@yahoo.fr>\n"
 "Language-Team: Breton (http://www.transifex.com/nkinkade/CC/language/br/)\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 "Language: br\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);\n"
 
 #: cc/i18n/mappers.py:5 checkouts/cc.licenserdf/cc/licenserdf/rdf/index.rdf
 msgid "Argentina"
@@ -732,62 +732,62 @@ msgid ""
 "You must attribute the work in the manner specified by the author or "
 "licensor (but not in any way that suggests that they endorse you or your use"
 " of the work)."
-msgstr ""
+msgstr "Rankout a rit dereiñ an oberenn en doare spisaet gant an aozer pe al lisañser (ket en doare hag a ginnigo e aproufent, ar pezh a rit pe an doare m'ho peus da implijout an oberenn)."
 
 #: cc/i18n/mappers.py:191
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/sampling_deed.html:53
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
-msgstr ""
+msgstr "N'ho peus ket ar gwir da implijout an oberenn-mañ evit ober bruderezh pe evit kas war-raok tra ebet war-bouez an oberenn a rit diwarni."
 
 #: cc/i18n/mappers.py:194
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/sampling_deed.html:49
 msgid "You may not use this work for commercial purposes."
-msgstr ""
+msgstr "N'ho peus ket ar gwir da implijout an oberenn-mañ evit ober kenwerzh."
 
 #: cc/i18n/mappers.py:195
 msgid "You may not alter, transform, or build upon this work."
-msgstr ""
+msgstr "N'ho peus ket ar gwir da aozañ, treuzfurmiñ, pe azasaat an oberenn-mañ."
 
 #: cc/i18n/mappers.py:196
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/sampling_deed.html:66
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
-msgstr ""
+msgstr "N'ho peus ket ar gwir da gas da benn, diskouez pe dasparzhañ eilennoù evit an oberenn glok-mañ evit abeg pe abeg."
 
 #: cc/i18n/mappers.py:199
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same or similar license to this one."
-msgstr ""
+msgstr "Ma aozit, treuzfurmit, azasait al labour-mañ, e rankoc'h dasparzhañ an oberenn fin dindan ar memes pe ul lisañs heñvel ouzh homañ hepken."
 
 #: cc/i18n/mappers.py:203
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
-msgstr ""
+msgstr "Ma aozit, treuzfurmit, azasait al labour-mañ, e rankoc'h dasparzhañ an oberenn fin dindan ar memes lisañs, pe dindan unan heñvel ouzh homañ, pe c'hoazh unan a genglot ganti, hepken."
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/attribution_details.html:3
 #, python-format
 msgid ""
 "You must attribute <a href=\"%(subject)s\">%(title)s</a> to <a "
 "href=\"%(attributionURL)s\">%(attributionName)s</a> (with link)."
-msgstr ""
+msgstr "Rankout a rit dereiñ <a href=\"%(subject)s\">%(title)s</a> da <a href=\"%(attributionURL)s\">%(attributionName)s</a> (gant ul liamm)."
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/attribution_details.html:7
 #, python-format
 msgid ""
 "You must attribute this work to <a "
 "href=\"%(attributionURL)s\">%(attributionName)s</a> (with link)."
-msgstr ""
+msgstr "Rankout a rit dereiñ an oberenn-mañ da <a href=\"%(attributionURL)s\">%(attributionName)s</a> (gant ul liamm)."
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/more_permissions.html:2
 msgid ""
 "<strong>Permissions beyond</strong> the scope of this public license are "
 "available at"
-msgstr ""
+msgstr "<strong>An aotreadurioù en-diavaez</strong> eus al lisañs foran a zo hegerz da"
 
 #: checkouts/cc.deedscraper/src/cc/deedscraper/templates/registration.html:2
 #, python-format
@@ -795,7 +795,7 @@ msgid ""
 "<a href=\"%(owner_url)s\">%(owner_name)s</a> has registered <a "
 "href=\"%(lookup_uri)s\">this work</a> at the <nobr><a "
 "href=\"%(network_url)s\">%(network_name)s</a></nobr>"
-msgstr ""
+msgstr "<a href=\"%(owner_url)s\">%(owner_name)s</a> en deus marilhet <a href=\"%(lookup_uri)s\">an oberenn-mañ work</a> amañ <nobr><a href=\"%(network_url)s\">%(network_name)s</a></nobr>"
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:55
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/chooser/xmp_template.py:59
@@ -846,7 +846,7 @@ msgstr "Diazezet eo war ul labour a zo da %(source_link)s."
 msgid ""
 "Permissions beyond the scope of this license may be available at "
 "%(more_perms_link)s."
-msgstr ""
+msgstr "An aotreadurioù en-diavaez eus al lisañs foran a zo hegerz da %(more_perms_link)s."
 
 #: checkouts/cc.license/cc/license/formatters/classes.py:314
 #, python-format
@@ -979,7 +979,7 @@ msgid ""
 "Thank you!\n"
 "Creative Commons Support\n"
 "info@creativecommons.org"
-msgstr ""
+msgstr "Trugarez vras da implijout ur c'hod lezennel eus Creative Commons evit hoc'h oberenn.\n\nDiuzet ho peus al lisañs %(license_title)s.\nRankout a rafec'h enderc'hel ur meneg eus an dra-mañ war ar bajenn hag a endalc'h an oberenn a lakaaer ar biz warni.\n\nSed amañ un HTML aliet:\n\n%(license_html)s\n\nAlioù evit ober oc'h oberenn a c'hall bezañ kavet war\nhttp://wiki.creativecommons.org/Marking. Titouroù war ar furmad HTML pourvezet ha\nmetaroadennoù a c'hall bezañ kavet amañ http://wiki.creativecommons.org/CC_REL.\n\nAr postel-mañ hag ar skoazell teknikel a zo bet kaset deoc'h gant an aozadur hep gounidoù Creative Commons. CC a gont war roadennoù-arc'hant evit pourveziñ lisañsoù ha servijoù evel-se. Soñjit e-barzh ar roadennoù-arc'hant deomp evit hon dastumadeg vloaziek:\nhttps://creativecommons.net/donate.\n\nTrugarez vras!\nSkoazell Creative Commons\ninfo@creativecommons.org"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/util.py:505
 msgid "Your Creative Commons License Information"
@@ -1013,11 +1013,11 @@ msgid ""
 "href=\"http://creativecommons.org/videos/wanna-work-together\">copied, "
 "distributed, edited, remixed, and built upon</a>, all within the boundaries "
 "of copyright law."
-msgstr ""
+msgstr "Al lisañsoù gwirioù aozer hag an ostilhioù Creative Commons a zo ur c'hempouez e-barzh ar stern hengounel “pep gwir miret strizh” krouet gant al lezennoù. Hon ostilhioù a ro da forzh piv, eus an aozer en e-unan betek kumpagniezhioù bras hag an aozadurioù foran doareoù simpl ha standardizet da reiñ aotreoù lezennel ouzhpenn d'o labour krouiñ. Koubladur hon ostilhioù hag hon implijerien a zo ur <a href=\"http://creativecommons.org/videos/a-shared-culture\">diaz niverel boutin bras ha war greskiñ</a>, ur spas a endalc'had hag a c'hall <a href=\"http://creativecommons.org/videos/wanna-work-together\">eilet, dasparzhet, aozet, mesket, hag azasaet</a>, pep-tra e-diabarzh bevennoù al lezenn war ar gwirioù aozer."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:137
 msgid "License design and rationale"
-msgstr ""
+msgstr "Meizadenn ha diazezadur al lisañsoù"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:141
 msgid ""
@@ -1031,7 +1031,7 @@ msgid ""
 "These common features serve as the baseline, on top of which licensors can "
 "choose to grant additional permissions when deciding how they want their "
 "work to be used."
-msgstr ""
+msgstr "Holl lisañsoù Creative Commons o devez meur a berzh ordinal. Pep lisañs a sikour ar grouerien &mdash; envel a reomp anezho lisañseidi ma reont gant hon ostilhoù &mdash; ma talc'hont war o gwirioù en ur aotren tud all da eilañ, dasparzhañ, hag implijout en ur serten mod oc'h oberenn &mdash; evel nann-kenwerzhel, atav. Pep lisañs Creative Commons a asur ivez d'al lisañseidi e vint kreditet ha meneget er mod ma fell dezho. Hollad al lisañsoù Creative Commons az a en-dro e-barzh ar bed a-bezh hag e talvezint keit ha ma pado ar gwirioù mirout (dre ma vezont diazezet war o gwir miret). Ar perzhioù-mañ a servij evel poent dave, diwar pere al lisañseidi a c'hall dibab kendoniañ aotreoù ouzhpenn pa zivizont penaos e fell dezho e vefe implijet oc'h oberenn."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:145
 msgid ""
@@ -1044,7 +1044,7 @@ msgid ""
 "“ShareAlike” and it is one of the mechanisms that (if chosen) helps the "
 "digital commons grow over time. ShareAlike is inspired by the GNU General "
 "Public License, used by many free and open source software projects."
-msgstr ""
+msgstr "Ul lisañser Creative Commons a respont d'un nebeud goulennoù war an hent da zibab ul lisañs &mdash; da gentañ, hag aotren a ran pe get implijoù kenwerzhel, da eil, ha c'hoant em eus aotren oberennoù deveret pe get? Ma choaz ul lisañser oberennoù deveret, gellout a ra ivez rediañ forzh piv da implijout an oberenn &mdash; envel a reomp anezho lisañseidi &mdash; evit ober e seurt ma vo hegerz al labour dindan ar memes termoù lisañs. Anvet e vez ganeomp ar mennozh-mañ “RannañEvelM'emañ” hag ez eo unan eus ar mekanismoù hag a sikour an diaz niverel boutin bras da greskiñ a feur ma tro an amzer (ma vez choazet evel-just). RannañEvelM'emañ a zo awenet gant al lisañs GNU General Public Licence, implijet gant meur a raktres meziant frank hag open source."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:150
 msgid ""
@@ -1057,7 +1057,7 @@ msgid ""
 "all copies of the work, and link to the license from copies of the work. "
 "Licensees cannot use technological measures to restrict access to the work "
 "by others."
-msgstr ""
+msgstr "Hol lisañsoù n'o deus efed ebet war frankizoù roet gant al lezenn evit implijerien an oberennoù krouadus ha pa vezont gwarezet gant gwirioù mirout, evel da skouer nemedennoù ha bevennoù al lezenn war gwirioù mirout giz da skouer an implij reizh. Lisañsoù Creative Commons a c'houlenn digant al lisañseidi kaout aotreadurioù evit ober an holl draoù gant un oberenn hag a c'haller ober dindan al lezenn hepken d'ul lisañser ha na vez ket aotreet en un doare sklaer gant al lisañs. Al lisañseidi a rank kreditañ al lisañser, mirit notisoù didorr ar gwir mirout war holl eiladoù an oberenn, ha liammet d'al lisañs diwar eiladoù an oberenn. N'hall ket implijout al lisañseidi muzulioù evit strishat moned an oberenn evit tud all."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/catalog_pages/licenses-index.html:154
 msgid ""
@@ -1483,16 +1483,16 @@ msgstr "Arc'hweladurioù al lisañs"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1363
 msgid "Your choices on this panel will update the other panels on this page."
-msgstr ""
+msgstr "Ho tibaboù war ar banell-mañ a hizivo an holl banelloù war ar bajenn-mañ."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1366
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1797
 msgid "Allow adaptations of your work to be shared?"
-msgstr ""
+msgstr "Aotren azasadurioù hoc'h oberenn hag ar rannañ anezho?"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1416
 msgid "License Jurisdiction"
-msgstr ""
+msgstr "Barnerezh Lisañs"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1452
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1820
@@ -1516,7 +1516,7 @@ msgstr "Sikour ar re all da zereiñ ac'hanoc'h!"
 msgid ""
 "This part is optional, but filling it out will add machine-readable metadata"
 " to the suggested HTML!"
-msgstr ""
+msgstr "Al lodenn-mañ a zo diret, met en ur leuniañ anezhi a ouzhpenno metaroadennoù lennus gant ar mekanik evit an HTML aliet!"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1521
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1873
@@ -1546,23 +1546,23 @@ msgstr "Dereiñ un URL d'al labour"
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:133
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:144
 msgid "Source work URL"
-msgstr ""
+msgstr "URL an oberenn mammenn"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1568
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1890
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:155
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:166
 msgid "More permissions URL"
-msgstr ""
+msgstr "Muioc'h a aotradurioù URL"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1580
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1895
 msgid "Format of work"
-msgstr ""
+msgstr "Furmad an oberenn"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1586
 msgid "Other / Multiple formats"
-msgstr ""
+msgstr "All / Furmadoù lies"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1590
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:47
@@ -1611,7 +1611,7 @@ msgstr "Ur bajenn internet ho peus?"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1649
 msgid "Copy this code to let your visitors know!"
-msgstr ""
+msgstr "Eilit ar c'hod-mañ evit ma oufe ho kweladennerien!"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1658
 msgid "Normal Icon"
@@ -1623,7 +1623,7 @@ msgstr "Arlunioù stank"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1672
 msgid "XMP Embeded Metadata"
-msgstr ""
+msgstr "Metaroadennoù enkorfet XMP"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1676
 msgid ""
@@ -1649,26 +1649,26 @@ msgstr "Grafikoù lisañs pellgargus."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1695
 msgid "How to mark video and other media formats."
-msgstr ""
+msgstr "Penaos merkañ videoioù ha stummoù media all."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1697
 msgid ""
 "To mark a document not on the web, add the following text to your work:"
-msgstr ""
+msgstr "Evit merkañ un teuliad n'emañ ket war ar Web, ouzhpennit an destenn da-heul d'hoc'h oberenn:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1723
 msgid ""
 "Learn <a href=\"http://wiki.creativecommons.org/Publish\">how to share your "
 "work with existing communities</a> that have enabled Creative Commons "
 "licensing."
-msgstr ""
+msgstr "Deskit <a href=\"http://wiki.creativecommons.org/Publish\">penaos rannañ ho labour gant kumuniezhioù a zo anezho</a> hag a zo bet enaouet ganto al lisañsiñ Creative Commons."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1734
 msgid ""
 "Creative Commons is a non-profit organization.<br /> We need your support to"
 " continue providing these tools.<br /> <a "
 "href=\"https://donate.creativecommons.org/\">Donate today!</a>"
-msgstr ""
+msgstr "Creative Commons a zo un aozadur nann-kenwerzhel. <br />Ezhomm 'zo sikour evit kenderc'hel da bourveziñ an ostilhoù-mañ.<br /><a href=\"https://donate.creativecommons.org/\">Roit arc'hant hiziv!</a>"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1748
 msgid "close popup"
@@ -1684,7 +1684,7 @@ msgid ""
 "The most recent license version is 4.0, which can be used internationally. "
 "If you are searching for a port of the license for a particular "
 "jurisdiction, however, you may still use them."
-msgstr ""
+msgstr "Ar stumm lisañs nevesañ a zo 4.0, hag a c'hall bezañ implijet en un doare etrevroadel. Ma klaskit war-lerc'h ul lisañs evit ur varnerezh ispisial, e c'hallit implijout anezho memestra."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/chooser_pages/interactive_chooser.html:1767
 msgid ""
@@ -2660,24 +2660,24 @@ msgstr "Pa rannit, an holl a c'hounez."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/deed_donate_slide.html:12
 msgid "Contribute today to Creative Commons"
-msgstr ""
+msgstr "Kemer-perzh hiziv da Creative Commons"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/deed_donate_slide.html:33
 msgid "Amount"
-msgstr ""
+msgstr "Kementad"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/deed_donate_slide.html:43
 msgid "Donate Now"
-msgstr ""
+msgstr "Reiñ arc'hant bremañ"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/engine_languages.html:4
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/translations.html:3
 msgid "This page is available in the following languages:"
-msgstr ""
+msgstr "Ar bajenn-mañ a zo hegerz e-barzh ar yezhoù da-heul:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:2
 msgid "Additional Information"
-msgstr ""
+msgstr "Titouroù ouzhpenn"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:6
 msgid ""
@@ -2705,11 +2705,11 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:40
 msgid "Tell us the format of your work:"
-msgstr ""
+msgstr "Lavarit deomp furmad hoc'h oberenn:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:45
 msgid "Other"
-msgstr ""
+msgstr "Re all"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:100
 msgid ""
@@ -2725,7 +2725,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:147
 msgid "A work another is derived from."
-msgstr ""
+msgstr "Un oberenn a zo deveret unan all diwarni."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/includes/more_metadata.html:169
 msgid ""
@@ -2746,20 +2746,20 @@ msgstr ""
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/devnations_deed.html:23
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/sampling_deed.html:20
 msgid "You are free:"
-msgstr ""
+msgstr "Aotreet oc'h da:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/devnations_deed.html:28
 msgid "<strong>to Share</strong> — to copy, distribute and transmit the work"
-msgstr ""
+msgstr "<strong>da Rannañ</strong> — da eilañ, rannañ ha treuzkas an oberenn"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/devnations_deed.html:33
 msgid "<strong>to Remix</strong> — to adapt the work"
-msgstr ""
+msgstr "<strong>da Veskañ</strong> — da azasaat al labour"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/devnations_deed.html:40
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/sampling_deed.html:41
 msgid "Under the following conditions:"
-msgstr ""
+msgstr "Dindan an termenoù da-heul:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/devnations_deed.html:60
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/sampling_deed.html:59
@@ -2796,7 +2796,7 @@ msgstr ""
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:16
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:23
 msgid "No Copyright"
-msgstr ""
+msgstr "Gwir mirañ ebet"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:19
 msgid ""
@@ -2810,27 +2810,27 @@ msgstr ""
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:44
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:53
 msgid "Work:"
-msgstr ""
+msgstr "Oberenn:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:49
 msgid "Author:"
-msgstr ""
+msgstr "Aozer:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:53
 msgid "Identified by:"
-msgstr ""
+msgstr "Anavezet gant:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:59
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:66
 msgid ""
 "You can <a href=\"\" class=\"helpLink\" id=\"citation_help\">cite</a> this "
 "work with this HTML:"
-msgstr ""
+msgstr "Gellout a rit <a href=\"\" class=\"helpLink\" id=\"citation_help\">menegiñ</a> an oberenn-mañ gant an HTML-mañ:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:74
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:80
 msgid "Other Information"
-msgstr ""
+msgstr "Titouroù all"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:77
 msgid ""
@@ -2872,7 +2872,7 @@ msgstr ""
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:106
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:111
 msgid "Endorsement"
-msgstr ""
+msgstr "Gratadur"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:110
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:114
@@ -2884,7 +2884,7 @@ msgstr ""
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:120
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:124
 msgid "Citation"
-msgstr ""
+msgstr "Meneg"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:124
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:127
@@ -2894,7 +2894,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:134
 msgid "Moral Rights"
-msgstr ""
+msgstr "Gwirioù moral"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:138
 msgid ""
@@ -2906,7 +2906,7 @@ msgstr ""
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:147
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:98
 msgid "Other Rights"
-msgstr ""
+msgstr "Gwirioù all"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:151
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:101
@@ -2920,7 +2920,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:159
 msgid "Term of Copyright"
-msgstr ""
+msgstr "Term ar gwir mirañ"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:162
 msgid ""
@@ -2936,7 +2936,7 @@ msgstr ""
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:116
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:163
 msgid "Disclaimer"
-msgstr ""
+msgstr "Kemenn"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:188
 msgid ""
@@ -2951,7 +2951,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/pdmark_deed.html:194
 msgid "Use this tool to mark other public domain works."
-msgstr ""
+msgstr "Implijit an ostilh-mañ evit merkañ oberennoù all en domani foran."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/publicdomain_deed.html:19
 msgid ""
@@ -2998,7 +2998,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:40
 msgid "You are free to:"
-msgstr ""
+msgstr "Aotreet oc'h da:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:45
 msgid ""
@@ -3039,7 +3039,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:103
 msgid "Attribute this work:"
-msgstr ""
+msgstr "Dereiñ al labour:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:125
 msgid ""
@@ -3049,7 +3049,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:133
 msgid "NoDerivatives"
-msgstr ""
+msgstr "StummDeveretEbet"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:133
 msgid ""
@@ -3079,7 +3079,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:161
 msgid "Notices:"
-msgstr ""
+msgstr "Notisoù:"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:166
 msgid ""
@@ -3116,7 +3116,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:197
 msgid "What does \"Attribute this work\" mean?"
-msgstr ""
+msgstr "Petra dalvez \"Dereiñ an oberenn-mañ\"?"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:200
 msgid ""
@@ -3144,7 +3144,7 @@ msgstr ""
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:266
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:274
 msgid "More info"
-msgstr ""
+msgstr "Muioc'h a ditouroù"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/standard_deed.html:214
 msgid ""
@@ -3220,7 +3220,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:59
 msgid "<a href=\"\" class=\"inline-help helpLink\" id=\"who_is_affirmer\">Affirmer</a>"
-msgstr ""
+msgstr "<a href=\"\" class=\"inline-help helpLink\" id=\"who_is_affirmer\">Asurer</a>"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:83
 msgid ""
@@ -3247,7 +3247,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:137
 msgid "Who is the affirmer?"
-msgstr ""
+msgstr "Piv eo an asurer?"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:141
 msgid ""
@@ -3280,7 +3280,7 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/licenses/zero_deed.html:182
 msgid "Use this tool for your own work."
-msgstr ""
+msgstr "Implijit an ostilh-mañ evit hoc'h oberenn deoc'h hoc'h-unan."
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:48
 msgid "hide-banner"
@@ -3289,7 +3289,7 @@ msgstr ""
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:52
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/engine.html:77
 msgid "Skip to content"
-msgstr ""
+msgstr "Mont d'an endalc'had"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:62
 msgid "Help us build a vibrant, collaborative global commons"
@@ -3297,11 +3297,11 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:63
 msgid "Donate"
-msgstr ""
+msgstr "Reiñ arc'hant"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:63
 msgid "Now"
-msgstr ""
+msgstr "Bremañ"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:82
 msgid "Creative Commons License Deed"
@@ -3359,15 +3359,15 @@ msgstr ""
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:198
 msgid "expand child menu"
-msgstr ""
+msgstr "astenn an is-lañser"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/macros_templates/deed.html:198
 msgid "collapse child menu"
-msgstr ""
+msgstr "bihanaat an is-lañser"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/publicdomain/index.html:6
 msgid "Our Public Domain Tools"
-msgstr ""
+msgstr "Hon ostilhoù en domani foran"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/publicdomain/index.html:11
 msgid ""
@@ -3390,7 +3390,7 @@ msgstr ""
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/publicdomain/index.html:25
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/publicdomain/index.html:40
 msgid "Use this tool"
-msgstr ""
+msgstr "Implijit an ostilh-mañ"
 
 #: checkouts/creativecommons.org/python_env/src/cc.engine/cc/engine/templates/publicdomain/index.html:32
 msgid ""
