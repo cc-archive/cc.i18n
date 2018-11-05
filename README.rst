@@ -32,11 +32,29 @@ Installation
 The toolset uses `zc.buildout <http://python.org/pypi/zc.buildout>`_ to
 assemble the software and its dependencies. Buildout will download and install
 any dependencies needed and install them in the local checkout directory.
-To prepare the tools for use, first ``bootstrap``, then ``buildout`` the
-software. For example ::
 
-  $ python2.4 bootstrap/bootstrap.py
-  $ ./bin/buildout
+To prepare the tools for use:
+
+1. Clone this repository and change directory into it
+2. Run the boostrap script::
+
+    python bootstrap.py
+
+3. Run the newly generated buildout script::
+
+    ./bin/buildout
+
+4. Create a virtual environment within the repository::
+
+    virtual env .
+
+5. Activate the virtual environment::
+
+    source bin/activate
+
+6. Install the transifex client::
+
+    pip install transifex-client
 
 After the buildout process completes the tools will be available in a ``bin``
 sub-directory. Note that the buildout process "bakes in" explicit paths to
@@ -50,9 +68,9 @@ Managing Translations
 Translations are managed through the ``master`` .po file and a set of tools.
 
 To add or change translations, edit ``master/cc_org.po``. After editing
-translations, run the sync script ::
+translations, run the sync script::
 
-  $ ./bin/sync
+  ./bin/sync
 
 This script will update all files in the ``po`` directory with changes to the
 strings, as well as ``master/cc_org.po.bak.``  The .bak file is used to track
@@ -64,6 +82,31 @@ Deploying Updated Translations
 ------------------------------
 
 In order to deploy updated translations, the "normal" .po files need to be
-converted to CC style files. This is handled by the po2cc script ::
+converted to CC style files. This is handled by the po2cc script::
 
-  $ ./bin/po2cc
+  ./bin/po2cc
+
+
+Updating Translations
+---------------------
+
+1. Change directory into the repository
+2. Ensure the repository is up-to-date::
+
+    git pull
+
+3. Activate the virtual environment::
+
+    source bin/activate
+
+4. Pull in new translations::
+
+    tx pull -a --mode developer
+
+5. Commit changes::
+
+    git commit -a -m "Latest i18n updates from Transifex"
+
+6. Push changes back to origin::
+
+    git push origin master
