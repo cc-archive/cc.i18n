@@ -46,7 +46,7 @@ To prepare the tools for use:
 
 4. Create a virtual environment within the repository::
 
-    virtual env .
+    virtualenv .
 
 5. Activate the virtual environment::
 
