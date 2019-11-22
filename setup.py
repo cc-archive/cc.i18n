@@ -30,14 +30,14 @@ setup(
 
     # scripts and dependencies
     install_requires=[
-        'Babel>0.99',
-        'jinja2',
-        'nose',
-        'polib',
-        'python-gettext<2.0',
-        'rdflib',
         'setuptools',
+        'Babel>0.99',
         'zope.i18n',
+        'python-gettext<2.0',
+        'polib',
+        'nose',
+        'rdflib<3.0',
+        'jinja2',
         ],
 
     entry_points={
