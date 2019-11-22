@@ -35,7 +35,7 @@ setup(
         'nose',
         'polib',
         'python-gettext<2.0',
-        'rdflib<3.0',
+        'rdflib',
         'setuptools',
         'zope.i18n',
         ],
