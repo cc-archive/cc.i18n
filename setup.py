@@ -34,7 +34,6 @@ setup(
         'jinja2',
         'nose',
         'polib',
-        'python-gettext<2.0',
         'rdflib',
         'setuptools',
         'zope.i18n',
