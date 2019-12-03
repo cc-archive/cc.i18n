@@ -37,7 +37,7 @@ def gen_statistics(input_dir, output_file):
     writer = csv.DictWriter(output_file, CSV_HEADERS)
 
     # iterate through all the languages
-    for lang in lang_dirs:
+    for lang in sorted(lang_dirs):
         trans_file = os.path.join(input_dir, lang, 'cc_org.po')
         if not os.path.exists(trans_file):
             continue
