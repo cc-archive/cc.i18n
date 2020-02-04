@@ -110,3 +110,19 @@ Updating Translations
 6. Push changes back to origin::
 
     git push origin master
+
+
+Deed Translations Displayed
+===========================
+
+The threshold for whether deed translations are displayed is configured in
+``cc/i18n/util.py`` `Line 15 and 16
+<https://github.com/creativecommons/cc.i18n/blob/master/cc/i18n/util.py#L15>`_:
+
+.. code:: python
+
+    # Percent translated that languages should be at or above
+    TRANSLATION_THRESHOLD = 80
+
+The threshold is used with the percentages computed by the ``transstats``
+script.
