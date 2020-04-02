@@ -48,9 +48,6 @@ if git diff-index --quiet HEAD --
 then
     # No changes
 
-    # Change directory back to project root
-    popd >/dev/null
-
     # change directory back to where script was called from
     popd >/dev/null
 
@@ -64,9 +61,6 @@ else
     git commit -q -a -m'Latest i18n updates from Transifex'
     set -o errexit
     git push -q origin master
-
-    # Change directory back to project root
-    popd >/dev/null
 
     # Build new translations (if any)
     ../../bin/compile_mo
