@@ -28,14 +28,12 @@ BASE="${0%/*}"
 
 # Change directory to project root
 pushd "${BASE}/.." >/dev/null
+pwd
 
 # Activate Python environment
 set +o nounset
-source python_env/bin/activate
+source ../../bin/activate
 set -o nounset
-
-# Change directory to language repository
-pushd python_env/src/cc.i18n/ >/dev/null
 
 # Get latest changes so we don't clash with remote HEAD
 git checkout -q master
