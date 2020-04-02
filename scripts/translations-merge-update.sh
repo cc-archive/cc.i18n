@@ -69,10 +69,8 @@ else
     popd >/dev/null
 
     # Build new translations (if any)
-    python_env/bin/compile_mo
-    python_env/bin/transstats
-    python_env/bin/compile_mo
-    python_env/bin/transstats
+    ../../bin/compile_mo
+    ../../bin/transstats
 
     # change directory back to where script was called from
     popd >/dev/null
