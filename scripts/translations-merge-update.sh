@@ -44,7 +44,7 @@ tx -q pull -a --mode developer
 
 # Refresh index and test for changes
 git update-index -q --refresh
-if git diff-index --quiet HEAD --
+if git diff-index --quiet HEAD cc/i18n/po
 then
     # No changes
 
@@ -58,7 +58,7 @@ else
     # and this script shouldn't break pending their addition to the
     # repository
     set +o errexit
-    git commit -q -a -m'Latest i18n updates from Transifex'
+    git commit -q -m'Latest i18n updates from Transifex' cc/i18n/po
     set -o errexit
     git push -q origin master
 
