@@ -6,8 +6,6 @@
 # 3. Builds new translations (if any)
 # 4. Restarts Apache2
 #
-# It's here rather than in cc.i18n repository because of its parentage.
-#
 # You will need a valid .transifexrc .
 #
 # And you'll need to make sure that you have a pushable checkout of cc.i18n:
@@ -15,6 +13,9 @@
 #       git@github.com:creativecommons/cc.i18n.git
 #   invalid remote:
 #       https://github.com/creativecommons/cc.i18n.git
+#
+# See README.md for additional details.
+
 set -o errexit
 set -o errtrace
 set -o nounset
