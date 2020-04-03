@@ -29,7 +29,6 @@ BASE="${0%/*}"
 
 # Change directory to project root
 pushd "${BASE}/.." >/dev/null
-pwd
 
 # Activate Python environment
 set +o nounset
