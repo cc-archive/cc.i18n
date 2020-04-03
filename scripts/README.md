@@ -69,7 +69,7 @@ www-data ALL = NOPASSWD: APACHE_RESTART
 
 It also expects a `www-data` crontab entry:
 ```
-@hourly /var/www/creativecommons.org/scripts/translations-merge-update.sh
+@hourly /var/www/creativecommons.org/python_env/src/cc.i18n/scripts/translations-merge-update.sh
 ```
 
 
