@@ -165,6 +165,7 @@ LICENSE_NAME_MAP = {
     "by-nd": _("Attribution-NoDerivs"),
     "by-nd-nc": _("Attribution-NoDerivs-NonCommercial"),
     "by-sa": _("Attribution-ShareAlike"),
+    "mark": _("Public Domain Mark"),
     "nc": _("NonCommercial"),
     "nc-sa": _("NonCommercial-ShareAlike"),
     "nc-sampling+": _("NonCommercial Sampling Plus"),
