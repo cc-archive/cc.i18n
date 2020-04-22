@@ -32,7 +32,7 @@ pushd "${BASE}/.." >/dev/null
 
 # Activate Python environment
 set +o nounset
-source ../../bin/activate
+source ../../env/bin/activate
 set -o nounset
 
 # Get latest changes so we don't clash with remote HEAD
