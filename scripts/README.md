@@ -6,9 +6,8 @@
 
 #### `~/.transifexrc`
 
-On server:
-- `licenses` host
-  - `/var/www/.transifexrc`:
+On server (ccEngine host):
+- `/srv/ccengine/transifex/.transifexrc`:
     ```ini
     [https://www.transifex.com]
     api_hostname = https://api.transifex.com
@@ -24,9 +23,8 @@ In repo:
 - [creativecommons/cc.i18n][cc-i18n]
   - [`.tx/config`][tx-config]
 
-On server:
-- `licenses` host
-  - `/var/www/creativecommons.org/python_env/src/cc.i18n/.tx/config`:
+On server (ccEngine host):
+- `/srv/ccengine/src/cc.i18n/.tx/config`:
     ```ini
     [main]
     host = https://www.transifex.com
@@ -52,24 +50,24 @@ On server:
 
 ### sudo configuration
 
-On the `licenses` host, this script requires
+On server (ccEngine host), this script requires
 `/etc/sudoers.d/translations-merge-update` with contents:
 ```
 # vim: ft=sudoers
 #
-# This file MUST be edited with `visudo -sf FILENAME`.
+# This file MUST be edited with `/usr/sbin/visudo -sf FILENAME`.
 
 Cmnd_Alias APACHE_RESTART = /usr/sbin/service apache2 restart
 
-www-data ALL = NOPASSWD: APACHE_RESTART
+transifex ALL = NOPASSWD: APACHE_RESTART
 ```
 
 
 ### www-data crontab entry
 
-It also expects a `www-data` crontab entry:
+It also expects a `transifex` user crontab entry:
 ```
-@hourly /var/www/creativecommons.org/python_env/src/cc.i18n/scripts/translations-merge-update.sh
+@hourly /srv/ccengine/src/cc.i18n/scripts/translations-merge-update.sh
 ```
 
 

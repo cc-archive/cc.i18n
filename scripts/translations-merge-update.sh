@@ -63,8 +63,8 @@ else
     git push -q origin master
 
     # Build new translations (if any)
-    ../../bin/compile_mo
-    ../../bin/transstats
+    ../../env/bin/compile_mo
+    ../../env/bin/transstats
 
     # change directory back to where script was called from
     popd >/dev/null
