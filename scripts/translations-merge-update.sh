@@ -36,8 +36,8 @@ source ../../env/bin/activate
 set -o nounset
 
 # Get latest changes so we don't clash with remote HEAD
-git checkout -q master
-git pull -q origin master
+git checkout -q main
+git pull -q origin main
 
 # Pull and commit new translations
 tx -q pull -a --mode developer
@@ -60,7 +60,7 @@ else
     set +o errexit
     git commit -q -m'Latest i18n updates from Transifex' cc/i18n/po
     set -o errexit
-    git push -q origin master
+    git push -q origin main
 
     # Build new translations (if any)
     ../../env/bin/compile_mo
