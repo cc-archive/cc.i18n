@@ -105,6 +105,7 @@ LANG_MAP = {
     "fi": _("Finnish"),
     "fr": _("French"),
     "fr_CA": _("French (CA)"),
+    "fy": "Frysk",  # non-translated string is a stopgap solution until ccEngine is replaced
     "ga": _("Irish"),
     "gl": _("Galician"),
     "he": _("Hebrew"),
