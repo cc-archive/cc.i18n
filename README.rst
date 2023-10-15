@@ -1,6 +1,16 @@
 Creative Commons i18n Tools
 ===========================
 
+----
+
+🛑 **As of 2023-09-27, this project was deprecatad by the new CC Legal Tools**
+(cc-legal-tools-app_, cc-legal-tools-data_).
+
+.. _cc-legal-tools-app: https://github.com/creativecommons/cc-legal-tools-app
+.. _cc-legal-tools-data: https://github.com/creativecommons/cc-legal-tools-data
+
+----
+
 :Author: Nathan R. Yergler <nathan@creativecommons.org>
 :Organization: `Creative Commons <https://creativecommons.org/>`_
 :Copyright:
