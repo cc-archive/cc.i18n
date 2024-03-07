@@ -19,6 +19,14 @@ Creative Commons i18n Tools
    <http://opensource.org/licenses/mit-license.php>`_.
 
 
+ccEngine
+========
+
+This repository is part of the ccEngine: `cc-archive/cc.engine`_.
+
+.. _`cc-archive/cc.engine`: https://github.com/cc-archive/cc.engine
+
+
 Package Contents
 ================
 
